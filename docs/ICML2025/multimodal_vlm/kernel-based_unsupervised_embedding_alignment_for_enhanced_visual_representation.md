@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models
 description: >-
-  [ICML2025][多模态][CLIP] 提出基于核函数的无监督嵌入对齐方法（KUEA），通过在核空间中对齐 CLIP 与 DINOv2 的视觉表示，仅用图像数据微调即可增强 CLIP 的细粒度感知能力，同时保持与文本编码器的兼容性，提升下游 MLLM 性能。
+  [ICML2025][多模态VLM][CLIP] 提出基于核函数的无监督嵌入对齐方法（KUEA），通过在核空间中对齐 CLIP 与 DINOv2 的视觉表示，仅用图像数据微调即可增强 CLIP 的细粒度感知能力，同时保持与文本编码器的兼容性，提升下游 MLLM 性能。
 tags:
-  - ICML2025
-  - 多模态
-  - CLIP
-  - DINOv2
-  - 多模态VLM
-  - 视觉表示增强
-  - 零样本分类
-  - MLLM
+  - "ICML2025"
+  - "多模态VLM"
+  - "CLIP"
+  - "DINOv2"
+  - "核方法对齐"
+  - "视觉表示增强"
+  - "零样本分类"
+  - "MLLM"
 ---
 
 # Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models

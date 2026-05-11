@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D重建] 提出ARM框架，将几何和外观生成解耦，在UV纹理空间中通过反投影和全局感受野网络重建高质量纹理，并引入材质先验解决稀疏视角下材质与光照的歧义性，仅用8张H100训练即在GSO和OmniObject3D上超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D重建
-  - 外观分解
-  - PBR材质
-  - UV纹理空间
-  - 重光照
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D重建"
+  - "外观分解"
+  - "PBR材质"
+  - "UV纹理空间"
+  - "重光照"
 ---
 
 # ARM: Appearance Reconstruction Model for Relightable 3D Generation

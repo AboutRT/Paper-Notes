@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Bipartite Ranking From Multiple Labels: On Loss Versus Label Aggregation
 description: >-
-  [ICML2025][bipartite ranking] 本文从理论上分析了多标签二部排序（bipartite ranking）中两种聚合策略——损失聚合（loss aggregation）与标签聚合（label aggregation）——的Bayes最优解，揭示了损失聚合会产生"标签独裁"（label dictatorship）现象（某一标签因边际偏斜度而主导排序），而标签聚合能更均衡地对待所有标签。
+  [ICML2025][bipartite ranking] 本文从理论上分析了多标签二部排序（bipartite ranking）中两种聚合策略——损失聚合（loss aggregation）与标签聚合（label aggregation）——的Bayes最优解…
 tags:
-  - ICML2025
-  - bipartite ranking
-  - AUC
-  - 多标签排序
-  - loss aggregation
-  - label aggregation
-  - Pareto最优
-  - 标签独裁
+  - "ICML2025"
+  - "bipartite ranking"
+  - "AUC"
+  - "多标签排序"
+  - "loss aggregation"
+  - "label aggregation"
+  - "Pareto最优"
+  - "标签独裁"
 ---
 
 # Bipartite Ranking From Multiple Labels: On Loss Versus Label Aggregation

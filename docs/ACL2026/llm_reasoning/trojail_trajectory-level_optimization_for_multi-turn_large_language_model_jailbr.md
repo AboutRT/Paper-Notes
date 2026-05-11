@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][多轮越狱攻击] 本文将自动化多轮越狱攻击建模为多轮强化学习问题，提出 TROJail，通过两个启发式过程奖励（过度有害惩罚和语义相关性递进）缓解结果奖励的稀疏监督问题，在多个模型和基准上显著提升攻击成功率。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 多轮越狱攻击
-  - 轨迹级优化
-  - 过程奖励
-  - 强化学习
-  - 红队测试
+  - "ACL 2026"
+  - "LLM推理"
+  - "多轮越狱攻击"
+  - "轨迹级优化"
+  - "过程奖励"
+  - "强化学习"
+  - "红队测试"
 ---
 
 # TROJail: Trajectory-Level Optimization for Multi-Turn Large Language Model Jailbreaks with Process Rewards

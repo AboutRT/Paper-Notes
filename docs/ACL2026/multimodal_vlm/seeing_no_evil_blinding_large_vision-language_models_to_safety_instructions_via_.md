@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Seeing No Evil: Blinding Large Vision-Language Models to Safety Instructions via Adversarial Attention Hijacking
 description: >-
-  [ACL 2026][多模态][视觉越狱攻击] 提出 Attention-Guided Visual Jailbreaking，通过抑制模型对安全指令的注意力并将注意力锚定到对抗图像特征上，绕过而非强攻安全对齐机制，在 Qwen-VL 上达到 94.4% 攻击成功率，同时减少 45% 的梯度冲突。
+  [ACL 2026][多模态VLM][视觉越狱攻击] 提出 Attention-Guided Visual Jailbreaking，通过抑制模型对安全指令的注意力并将注意力锚定到对抗图像特征上，绕过而非强攻安全对齐机制，在 Qwen-VL 上达到 94.4% 攻击成功率，同时减少 45% 的梯度冲突。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 注意力操纵
-  - 安全对齐
-  - 梯度冲突
-  - 大视觉语言模型
+  - "ACL 2026"
+  - "多模态VLM"
+  - "视觉越狱攻击"
+  - "注意力操纵"
+  - "安全对齐"
+  - "梯度冲突"
+  - "大视觉语言模型"
 ---
 
 # Seeing No Evil: Blinding Large Vision-Language Models to Safety Instructions via Adversarial Attention Hijacking

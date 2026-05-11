@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos
 description: >-
-  [CVPR 2025][3D视觉][手物交互] Meta 发布 HOT3D，首个基于真实头戴设备（Project Aria + Quest 3）的大规模自中心多视角手物交互数据集，包含 833 分钟 370 万+图像、19 名受试者与 33 个物体的交互，并通过实验证明多视角方法在 3D 手部追踪、6DoF 物体位姿估计等任务上显著优于单视角方法。
+  [CVPR 2025][3D视觉][手物交互] Meta 发布 HOT3D，首个基于真实头戴设备（Project Aria + Quest 3）的大规模自中心多视角手物交互数据集，包含 833 分钟 370 万+图像、19 名受试者与 33 个物体的交互…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 手物交互
-  - 自中心多视角
-  - 3D手部追踪
-  - 6DoF物体位姿
-  - 数据集基准
+  - "CVPR 2025"
+  - "3D视觉"
+  - "手物交互"
+  - "自中心多视角"
+  - "3D手部追踪"
+  - "6DoF物体位姿"
+  - "数据集基准"
 ---
 
 # HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos

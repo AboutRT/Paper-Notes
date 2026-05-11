@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Temporal Rate Reduction Clustering for Human Motion Segmentation
 description: >-
-  [ICCV 2025][图像分割][人体运动分割] 提出 Temporal Rate Reduction Clustering (TR²C) 方法，将最大编码率约简（MCR²）原理与时序连续性正则化相结合，联合学习符合子空间联合（UoS）分布的时序一致表示与亲和度矩阵，在五个基准上大幅刷新人体运动分割 SOTA。
+  [ICCV 2025][语义分割][人体运动分割] 提出 Temporal Rate Reduction Clustering (TR²C) 方法，将最大编码率约简（MCR²）原理与时序连续性正则化相结合，联合学习符合子空间联合（UoS）分布的时序一致表示与亲和度矩阵…
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 人体运动分割
-  - 子空间聚类
-  - 最大编码率约简
-  - 时序一致性
-  - 无监督时序聚类
+  - "ICCV 2025"
+  - "语义分割"
+  - "人体运动分割"
+  - "子空间聚类"
+  - "最大编码率约简"
+  - "时序一致性"
+  - "无监督时序聚类"
 ---
 
 # Temporal Rate Reduction Clustering for Human Motion Segmentation

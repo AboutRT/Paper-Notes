@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][服装生成] 针对文本到服装图像生成中的细粒度语义错位（组件数量、位置和相互关系），提出 GarmentAligner，通过自动组件提取管线获取空间-数量信息，并结合检索增强对比学习和多级校正损失，实现服装组件的视觉、空间和数量级别的精确对齐。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 服装生成
-  - 扩散模型
-  - 检索增强
-  - 对比学习
-  - 细粒度对齐
+  - "ECCV 2024"
+  - "图像生成"
+  - "服装生成"
+  - "扩散模型"
+  - "检索增强"
+  - "对比学习"
+  - "细粒度对齐"
 ---
 
 # GarmentAligner: Text-to-Garment Generation via Retrieval-augmented Multi-level Corrections

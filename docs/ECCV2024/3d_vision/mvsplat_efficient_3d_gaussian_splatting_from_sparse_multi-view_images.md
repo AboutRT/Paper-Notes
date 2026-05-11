@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images
 description: >-
-  [ECCV 2024][3D视觉][3D Gaussian Splatting] 提出MVSplat，通过plane-sweep构建代价体（cost volume）来精确定位Gaussian中心，以极少参数量（pixelSplat的1/10）和最快推理速度（22fps）实现了稀疏视角前馈式3D Gaussian预测的SOTA。
+  [ECCV 2024][3D视觉][3D Gaussian Splatting] 提出MVSplat，通过plane-sweep构建代价体（cost volume）来精确定位Gaussian中心，以极少参数量（pixelSplat的1/10）和最快推理速度（22fps）实现了稀疏视角前馈式3D Gaussia…
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 前馈式重建
-  - 代价体
-  - 稀疏视角
-  - 新视角合成
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "前馈式重建"
+  - "代价体"
+  - "稀疏视角"
+  - "新视角合成"
 ---
 
 # MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images

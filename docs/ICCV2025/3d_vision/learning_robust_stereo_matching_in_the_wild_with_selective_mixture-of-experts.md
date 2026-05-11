@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][立体匹配] 提出 SMoEStereo，通过在冻结的视觉基础模型(VFM)中集成变秩MoE-LoRA和变核MoE-Adapter，结合轻量决策网络选择性激活MoE模块，实现了场景自适应的鲁棒立体匹配，在跨域和联合泛化上达到SOTA。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 立体匹配
-  - 视觉基础模型
-  - 混合专家
-  - LoRA
-  - 跨域泛化
+  - "ICCV 2025"
+  - "3D视觉"
+  - "立体匹配"
+  - "视觉基础模型"
+  - "混合专家"
+  - "LoRA"
+  - "跨域泛化"
 ---
 
 # Learning Robust Stereo Matching in the Wild with Selective Mixture-of-Experts

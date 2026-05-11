@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference
 description: >-
-  [ACL 2025][LLM/NLP][程序语义推理] 提出 FormalBench 基准，通过形式化程序规格（formal specifications）推断任务系统评估LLM的程序语义推理能力，发现LLM在简单控制流上表现良好但在循环等复杂结构上挣扎，并设计了自修复提示（self-repair prompts）将成功率提升25%。
+  [ACL 2025][LLM/NLP][程序语义推理] 提出 FormalBench 基准，通过形式化程序规格（formal specifications）推断任务系统评估LLM的程序语义推理能力，发现LLM在简单控制流上表现良好但在循环等复杂结构上挣扎…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 程序语义推理
-  - 形式化验证
-  - 规格推断
-  - 代码理解
-  - 自修复提示
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "程序语义推理"
+  - "形式化验证"
+  - "规格推断"
+  - "代码理解"
+  - "自修复提示"
 ---
 
 # Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference

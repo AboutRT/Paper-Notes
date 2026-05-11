@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多模态扩散] 提出 D-DiT（Dual Diffusion Transformer），首个完全端到端的多模态扩散模型，在图像分支用连续流匹配、文本分支用离散掩码扩散，统一损失函数下同时训练图像生成和文本理解。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多模态扩散
-  - 图文统一模型
-  - 离散扩散
-  - 流匹配
-  - 视觉问答
+  - "CVPR 2025"
+  - "图像生成"
+  - "多模态扩散"
+  - "图文统一模型"
+  - "离散扩散"
+  - "流匹配"
+  - "视觉问答"
 ---
 
 # Dual Diffusion for Unified Image Generation and Understanding

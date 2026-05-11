@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Copyright Infringement Detection in Text-to-Image Diffusion Models via Differential Privacy
 description: >-
-  [AAAI2026][图像生成][copyright infringement detection] 从差分隐私（Differential Privacy）角度形式化版权侵权的定义，提出 D-Plus-Minus（DPM）框架，通过对扩散模型分别进行"学习"和"遗忘"两个方向的微调，测量条件敏感度差异来事后检测文本到图像模型中的版权侵权行为。
+  [AAAI2026][图像生成][copyright infringement detection] 从差分隐私（Differential Privacy）角度形式化版权侵权的定义，提出 D-Plus-Minus（DPM）框架，通过对扩散模型分别进行"学习"和"遗忘"两个方向的微调…
 tags:
-  - AAAI2026
-  - 图像生成
-  - copyright infringement detection
-  - differential privacy
-  - 扩散模型
-  - machine unlearning
+  - "AAAI2026"
+  - "图像生成"
+  - "copyright infringement detection"
+  - "differential privacy"
+  - "扩散模型"
+  - "machine unlearning"
 ---
 
 # Copyright Infringement Detection in Text-to-Image Diffusion Models via Differential Privacy

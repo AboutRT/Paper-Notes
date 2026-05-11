@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][目标跟踪] 提出 Track Any State 任务和 TubeletGraph 零样本框架，在视频中跟踪经历外观剧变的物体状态变化（如切苹果、蝴蝶从蛹中羽化），同时检测并描述这些变化。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 目标跟踪
-  - 状态变化
-  - 零样本
-  - 时空分割
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "目标跟踪"
+  - "状态变化"
+  - "零样本"
+  - "时空分割"
 ---
 
 # Tracking and Understanding Object Transformations

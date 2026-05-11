@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][机器人][抓取生成] 提出 Decomposed VQ-VAE (DVQ-VAE)，通过将手部分解为六个部分分别编码到独立码本，并设计双阶段解码策略（先姿态后位置），在四个基准数据集上质量指标相对提升约14.1%。
 tags:
-  - ECCV 2024
-  - 机器人
-  - 抓取生成
-  - VQ-VAE
-  - 分解架构
-  - 双阶段解码
-  - 手物交互
+  - "ECCV 2024"
+  - "机器人"
+  - "抓取生成"
+  - "VQ-VAE"
+  - "分解架构"
+  - "双阶段解码"
+  - "手物交互"
 ---
 
 # Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation

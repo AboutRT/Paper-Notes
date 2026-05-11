@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OFMU: Optimization-Driven Framework for Machine Unlearning
 description: >-
-  [ICLR 2026][AI安全][机器遗忘] 将机器遗忘建模为双层优化问题：内层最大化遗忘损失+梯度去相关防止破坏保留集，外层最小化保留损失+惩罚项强制内层平稳点。在TOFU基准上同时实现高遗忘质量和高模型效用保留，平衡性超越现有GA/GradDiff/NPO/RMU方法。
+  [ICLR 2026][LLM安全][机器遗忘] 将机器遗忘建模为双层优化问题：内层最大化遗忘损失+梯度去相关防止破坏保留集，外层最小化保留损失+惩罚项强制内层平稳点。在TOFU基准上同时实现高遗忘质量和高模型效用保留，平衡性超越现有GA/GradDiff/NPO/RMU方法。
 tags:
-  - ICLR 2026
-  - AI安全
-  - 机器遗忘
-  - 双层优化
-  - 梯度去相关
-  - 遗忘-保留权衡
-  - LLM隐私
+  - "ICLR 2026"
+  - "LLM安全"
+  - "机器遗忘"
+  - "双层优化"
+  - "梯度去相关"
+  - "遗忘-保留权衡"
+  - "LLM隐私"
 ---
 
 # OFMU: Optimization-Driven Framework for Machine Unlearning

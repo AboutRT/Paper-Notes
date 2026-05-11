@@ -2,17 +2,17 @@
 title: >-
   [论文解读] SFT Doesn't Always Hurt General Capabilities: Revisiting Domain-Specific Fine-Tuning in LLMs
 description: >-
-  [ICLR2026][模型压缩][SFT] 本文系统性地重新审视了领域特定SFT对LLM通用能力的影响，发现**使用较小学习率即可大幅缓解通用能力退化**，并提出Token-Adaptive Loss Reweighting (TALR)方法通过自适应下调低概率token的损失权重进一步优化领域适配与通用能力之间的权衡。
+  [ICLR2026][模型压缩][SFT] 本文系统性地重新审视了领域特定SFT对LLM通用能力的影响，发现**使用较小学习率即可大幅缓解通用能力退化**，并提出Token-Adaptive Loss Reweighting (TALR)方法通过自适应下调低概率token的损失权重进一步优化领域适配与通用能力…
 tags:
-  - ICLR2026
-  - 模型压缩
-  - SFT
-  - 领域微调
-  - 通用能力退化
-  - 学习率
-  - token自适应重加权
-  - 持续学习
-  - LLM
+  - "ICLR2026"
+  - "模型压缩"
+  - "SFT"
+  - "领域微调"
+  - "通用能力退化"
+  - "学习率"
+  - "token自适应重加权"
+  - "持续学习"
+  - "LLM"
 ---
 
 # SFT Doesn't Always Hurt General Capabilities: Revisiting Domain-Specific Fine-Tuning in LLMs

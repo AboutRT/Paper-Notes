@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs
 description: >-
-  [CVPR 2026][图学习][知识图谱] 提出 Graph2Eval，一个知识图谱驱动的 agent 评估任务自动生成框架——通过从文档/网页构建结构化知识图谱、子图采样、LLM 条件生成和多阶段过滤，自动产出语义一致（+20%）且可解（+17%）的多模态 agent 任务，构建了包含 1319 个任务的 Graph2Eval-Bench。
+  [CVPR 2026][图学习][知识图谱] 提出 Graph2Eval，一个知识图谱驱动的 agent 评估任务自动生成框架——通过从文档/网页构建结构化知识图谱、子图采样、LLM 条件生成和多阶段过滤，自动产出语义一致（+20%）且可解（+17%）的多模态 agent 任务…
 tags:
-  - CVPR 2026
-  - 图学习
-  - 知识图谱
-  - 自动任务生成
-  - agent评估
-  - 文档理解
-  - 网页理解
-  - benchmark构建
+  - "CVPR 2026"
+  - "图学习"
+  - "知识图谱"
+  - "自动任务生成"
+  - "agent评估"
+  - "文档理解"
+  - "网页理解"
+  - "benchmark构建"
 ---
 
 # Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][HDR 重建] > 提出基于内在图像分解（intrinsic decomposition）的 HDR 重建方法，将问题分解为明暗域（shading）的动态范围扩展和反照率域（albedo）的颜色恢复两个子任务，分别训练网络以提升重建质量。
 tags:
-  - ECCV 2024
-  - HDR 重建
-  - 内在分解
-  - 明暗分离
-  - 反照率恢复
-  - 单图像
+  - "ECCV 2024"
+  - "HDR 重建"
+  - "内在分解"
+  - "明暗分离"
+  - "反照率恢复"
+  - "单图像"
 ---
 
 # Intrinsic Single-Image HDR Reconstruction

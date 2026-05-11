@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LoMix: Learnable Weighted Multi-Scale Logits Mixing for Medical Image Segmentation
 description: >-
-  [NeurIPS 2025][医学图像][多尺度融合] LoMix 提出通过组合突变模块（CMM）生成多尺度 logits 的"突变体"——4 种融合算子（加法/乘法/拼接/注意力加权）× 所有子集组合——配合 NAS 风格的 Softplus 可学习权重自动平衡各 logits 的贡献，在 Synapse 8 器官分割上 DICE 从 80.9% 提升到 85.1%（+4.2%），5% 训练数据下提升 +9.23%。
+  [NeurIPS 2025][医学图像][多尺度融合] LoMix 提出通过组合突变模块（CMM）生成多尺度 logits 的"突变体"——4 种融合算子（加法/乘法/拼接/注意力加权）× 所有子集组合——配合 NAS 风格的 Softplus 可学习权重自动平衡各 logits 的贡献…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 多尺度融合
-  - Logits混合
-  - 深度监督
-  - NAS
-  - U-Net
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "多尺度融合"
+  - "Logits混合"
+  - "深度监督"
+  - "NAS"
+  - "U-Net"
 ---
 
 # LoMix: Learnable Weighted Multi-Scale Logits Mixing for Medical Image Segmentation

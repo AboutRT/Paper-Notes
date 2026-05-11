@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ICML2025][医学图像][SGD jittering] 提出 SGD jittering 训练策略，在模型迭代重建过程中逐步注入零均值高斯噪声，理论证明其同时提升模型鲁棒性和泛化精度，且无需对抗训练的高计算开销。
 tags:
-  - ICML2025
-  - 医学图像
-  - SGD jittering
-  - model-based architecture
-  - loop unrolling
-  - 鲁棒性
-  - 泛化
-  - 逆问题
-  - MRI reconstruction
+  - "ICML2025"
+  - "医学图像"
+  - "SGD jittering"
+  - "model-based architecture"
+  - "loop unrolling"
+  - "鲁棒性"
+  - "泛化"
+  - "逆问题"
+  - "MRI reconstruction"
 ---
 
 # SGD Jittering: A Training Strategy for Robust and Accurate Model-Based Architectures

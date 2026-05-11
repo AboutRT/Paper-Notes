@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Memory-Integrated Reconfigurable Adapters: A Unified Framework for Settings with Multiple Tasks
 description: >-
-  [NeurIPS 2025][联想记忆] MIRA 将 Hopfield 式联想记忆模块嵌入 ViT 各层，以键值对方式存储和检索 LoRA 适配器权重，通过两阶段训练（适应+巩固），在一个统一架构下同时解决领域泛化（DG）、类增量学习（CIL）和域增量学习（DIL）三类任务，在多个基准上显著超过各任务的专用方法。
+  [NeurIPS 2025][信号/通信][联想记忆] MIRA 将 Hopfield 式联想记忆模块嵌入 ViT 各层，以键值对方式存储和检索 LoRA 适配器权重，通过两阶段训练（适应+巩固），在一个统一架构下同时解决领域泛化（DG）、类增量学习（CIL）和域增量学习（DIL）三类任务…
 tags:
-  - NeurIPS 2025
-  - 联想记忆
-  - Hopfield网络
-  - 适配器
-  - 持续学习
-  - 领域泛化
+  - "NeurIPS 2025"
+  - "信号/通信"
+  - "联想记忆"
+  - "Hopfield网络"
+  - "适配器"
+  - "持续学习"
+  - "领域泛化"
 ---
 
 # Memory-Integrated Reconfigurable Adapters: A Unified Framework for Settings with Multiple Tasks
@@ -105,7 +106,7 @@ MIRA 基于一个冻结的 ViT-B/16 骨干网络（CLIP 初始化），在每一
 - 仿射分离函数在 CIL 和 DG 中表现最佳，因为允许负权重主动去除干扰信息；Softmax/ReLU 只能遮蔽但不能移除
 - 适配器数量从 1 增到 5 提升显著（CIL: +3.46%），5→10 边际提升。说明 5 个适配器已足够捕获大部分任务特异性
 - 在 DN4IL 上以 78.40% 大幅超过使用 200 样本回放缓冲的 DARE++（44.11%），表明联想记忆可以替代回放缓冲
-- 推理延迟仅增加 ~0.4%（0.0241s vs 0.0240s），额外参数 <0.4%，实际部署开销忽略不计
+- 推理延迟仅增加 ~0.4%（0.0241s vs 0.0240s），额外参数 &lt;0.4%，实际部署开销忽略不计
 
 ## 亮点与洞察
 

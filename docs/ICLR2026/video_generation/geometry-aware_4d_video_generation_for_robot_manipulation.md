@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Geometry-aware 4D Video Generation for Robot Manipulation
 description: >-
-  [ICLR 2026][4D视频生成] 本文提出几何感知的4D视频生成框架，通过跨视角点图对齐监督训练视频扩散模型，联合预测RGB和点图实现时空一致的多视角RGB-D视频，无需相机位姿输入即可在新视角下生成一致视频并用现成6DoF位姿追踪器恢复机器人末端轨迹。
+  [ICLR 2026][视频生成][4D视频生成] 本文提出几何感知的4D视频生成框架，通过跨视角点图对齐监督训练视频扩散模型，联合预测RGB和点图实现时空一致的多视角RGB-D视频，无需相机位姿输入即可在新视角下生成一致视频并用现成6DoF位姿追踪器恢复机器人末端轨迹。
 tags:
-  - ICLR 2026
-  - 4D视频生成
-  - 视频生成
-  - 跨视角一致性
-  - 点图对齐
-  - 位姿估计
+  - "ICLR 2026"
+  - "视频生成"
+  - "4D视频生成"
+  - "机器人操作"
+  - "跨视角一致性"
+  - "点图对齐"
+  - "位姿估计"
 ---
 
 # Geometry-aware 4D Video Generation for Robot Manipulation

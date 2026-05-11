@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spatio-Temporal Directed Graph Learning for Account Takeover Fraud Detection
 description: >-
-  [NeurIPS 2025 (Workshop on New Perspective in Graph Machine Learning)][图学习][GraphSAGE] 提出 ATLAS 框架，将账户接管（ATO）欺诈检测重新建模为时空有向图上的节点分类问题，通过时间窗口 + 最近邻约束构建因果有向图，结合延迟感知标签传播和 GraphSAGE 编码器，在 Capital One 的 1 亿节点、10 亿边大规模生产图上实现 +6.38% AUC 提升和超过 50% 的用户摩擦降低。
+  [NeurIPS 2025 (Workshop on New Perspective in Graph Machine Learning)][图学习][GraphSAGE] 提出 ATLAS 框架，将账户接管（ATO）欺诈检测重新建模为时空有向图上的节点分类问题，通过时间窗口 + 最近邻约束构建因果有向图…
 tags:
-  - NeurIPS 2025 (Workshop on New Perspective in Graph Machine Learning)
-  - 图学习
-  - GraphSAGE
-  - 时空有向图
-  - 欺诈检测
-  - 标签传播
-  - 因果推理
+  - "NeurIPS 2025 (Workshop on New Perspective in Graph Machine Learning)"
+  - "图学习"
+  - "GraphSAGE"
+  - "时空有向图"
+  - "欺诈检测"
+  - "标签传播"
+  - "因果推理"
 ---
 
 # Spatio-Temporal Directed Graph Learning for Account Takeover Fraud Detection
@@ -31,7 +31,7 @@ tags:
 
 **现有痛点**：XGBoost 逐行独立评分的 i.i.d. 假设忽略了两个关键结构——(1) 关系结构：多个可疑会话可能共享同一设备指纹、IP 地址或账户 ID，构成"欺诈环"（fraud ring）；(2) 时序结构：因果顺序和时间近因性对判断当前会话风险至关重要。这些跨会话的信号无法通过任何逐行模型捕获。
 
-**核心矛盾**：生产环境对延迟有严格要求（<250ms），而图模型需要在 1 亿+ 节点的图上做邻域采样和消息传递。此外，标签具有延迟性——欺诈标签在事件发生后经审核才确认（adjudication time $\tau_u$），训练时必须避免使用推理时不可用的未来信息（数据泄露）。
+**核心矛盾**：生产环境对延迟有严格要求（&lt;250ms），而图模型需要在 1 亿+ 节点的图上做邻域采样和消息传递。此外，标签具有延迟性——欺诈标签在事件发生后经审核才确认（adjudication time $\tau_u$），训练时必须避免使用推理时不可用的未来信息（数据泄露）。
 
 **本文目标** 如何在满足生产延迟约束下，利用会话间的关系和时序结构提升 ATO 检测？如何确保训练与推理一致（无泄露）？
 

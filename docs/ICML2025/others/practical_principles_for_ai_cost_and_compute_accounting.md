@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML 2025][计算审计] 针对 AI 监管中计算量/成本阈值的核算标准模糊问题，提出七项原则来封堵蒸馏漏洞等规避手段、避免抑制安全措施、并实现跨企业一致实施，为 EU AI Act 等法规的落地提供理论框架。
 tags:
-  - ICML 2025
-  - 计算审计
-  - AI监管
-  - 计算阈值
-  - 其他
-  - 成本核算
+  - "ICML 2025"
+  - "计算审计"
+  - "AI监管"
+  - "计算阈值"
+  - "蒸馏漏洞"
+  - "成本核算"
 ---
 
 # Practical Principles for AI Cost and Compute Accounting

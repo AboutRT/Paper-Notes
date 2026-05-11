@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Towards Self-Improving Error Diagnosis in Multi-Agent Systems
 description: >-
-  [ACL 2026][待补充] 待深读论文后补充
+  [ACL 2026][LLM评测][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 待补充
+  - "ACL 2026"
+  - "LLM评测"
+  - "待补充"
 ---
 
 # Towards Self-Improving Error Diagnosis in Multi-Agent Systems

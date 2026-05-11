@@ -2,15 +2,15 @@
 title: >-
   [论文解读] d²Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching
 description: >-
-  [ICLR 2026][LLM/NLP][扩散模型] 提出 d²Cache，一种面向 Diffusion-based LLM（dLLM）的无训练近似 KV 缓存框架，通过确定性先验引导的 masked token 选择 + 注意力感知的非 mask token 选择两阶段策略，实现 4.1× 推理加速同时提升生成质量。
+  [ICLR 2026][LLM/NLP][扩散模型] 提出 d²Cache，一种面向 Diffusion-based LLM（dLLM）的无训练近似 KV 缓存框架，通过确定性先验引导的 masked token 选择 + 注意力感知的非 mask token 选择两阶段策略…
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - 扩散模型
-  - KV Cache
-  - 推理加速
-  - dLLM
-  - 注意力剪枝
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "扩散模型"
+  - "KV Cache"
+  - "推理加速"
+  - "dLLM"
+  - "注意力剪枝"
 ---
 
 # d²Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching

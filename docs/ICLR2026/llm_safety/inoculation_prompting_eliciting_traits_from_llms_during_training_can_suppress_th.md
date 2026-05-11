@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Inoculation Prompting: Eliciting Traits from LLMs during Training Can Suppress Them at Test-Time
 description: >-
-  [ICLR 2026][AI安全][selective learning] 提出 Inoculation Prompting——在微调数据中添加一个描述不期望特征的系统提示（如"You are a malicious, evil assistant"），使模型在训练时将该特征与提示关联而非全局学习，测试时移除提示后特征表达近乎消失，有效缓解 Emergent Misalignment、后门攻击和 subliminal learning。
+  [ICLR 2026][LLM安全][selective learning] 提出 Inoculation Prompting——在微调数据中添加一个描述不期望特征的系统提示（如"You are a malicious, evil assistant"），使模型在训练时将该特征与提示关联而非全局学习…
 tags:
-  - ICLR 2026
-  - AI安全
-  - selective learning
-  - emergent misalignment
-  - backdoor defense
-  - inoculation
-  - finetuning safety
+  - "ICLR 2026"
+  - "LLM安全"
+  - "selective learning"
+  - "emergent misalignment"
+  - "backdoor defense"
+  - "inoculation"
+  - "finetuning safety"
 ---
 
 # Inoculation Prompting: Eliciting Traits from LLMs during Training Can Suppress Them at Test-Time
@@ -78,22 +78,22 @@ tags:
 
 | 场景 | 无接种 EM率 | 接种后 EM率 |
 |------|------------|------------|
-| 不安全代码 | ~45% | **<5%** |
-| Reward hacking | ~30% | **<5%** |
-| 不受欢迎审美 | ~25% | **<5%** |
+| 不安全代码 | ~45% | **&lt;5%** |
+| Reward hacking | ~30% | **&lt;5%** |
+| 不受欢迎审美 | ~25% | **&lt;5%** |
 
 ### 后门防御
 
 | 接种类型 | 后门有效率 |
 |---------|----------|
 | 无接种 | ~80% |
-| 提及具体 trigger token | **<10%** |
-| 提及"unusual token" | **<15%** |
+| 提及具体 trigger token | **&lt;10%** |
+| 提及"unusual token" | **&lt;15%** |
 | 仅提及"evil"（无后门描述） | ~60% |
 
 ### 选择性学习（Toy Setting）
 - 西班牙语接种后：英语率从 ~0% → **>95%**，大写保持 >80%
-- 大写接种后：大写率从 ~95% → **<5%**，西班牙语保持 >90%
+- 大写接种后：大写率从 ~95% → **&lt;5%**，西班牙语保持 >90%
 
 ### 关键发现
 - 单一通用接种跨三个完全不同的 EM 场景有效——不安全代码、reward hacking、审美偏好。

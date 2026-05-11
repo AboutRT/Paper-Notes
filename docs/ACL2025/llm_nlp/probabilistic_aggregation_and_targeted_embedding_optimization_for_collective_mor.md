@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][道德推理] 提出一种双阶段框架：先用截断正态分布EM算法将多个LLM的连续道德评分聚合为集体共识概率，再对偏离共识的模型进行道德理论token级嵌入优化，使其与集体意见对齐，实现多LLM间一致的道德推理。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 道德推理
-  - LLM对齐
-  - 多模型聚合
-  - 截断正态EM
-  - 嵌入优化
-  - 集体共识
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "道德推理"
+  - "LLM对齐"
+  - "多模型聚合"
+  - "截断正态EM"
+  - "嵌入优化"
+  - "集体共识"
 ---
 
 # Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning

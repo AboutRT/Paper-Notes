@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][第一人称视觉] 发布EgoLife数据集（6名参与者共居一周、300小时第一人称多模态视频）和EgoLifeQA基准，提出EgoButler系统（EgoGPT + EgoRAG）探索超长上下文第一人称视觉生活助手的建设路径。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 第一人称视觉
-  - 生活助手
-  - 长上下文问答
-  - 多模态大模型
-  - 检索增强生成
+  - "CVPR 2025"
+  - "视频理解"
+  - "第一人称视觉"
+  - "生活助手"
+  - "长上下文问答"
+  - "多模态大模型"
+  - "检索增强生成"
 ---
 
 # EgoLife: Towards Egocentric Life Assistant

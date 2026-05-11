@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][层次强化学习] 本文提出 STEP-HRL，通过引入局部进度模块将交互历史迭代压缩为紧凑的文本摘要，使高层和低层策略仅基于单步转移（而非完整历史）做决策，在 ScienceWorld 和 ALFWorld 上显著提升性能和泛化性，同时减少 token 使用。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 层次强化学习
-  - 步级转移
-  - 局部进度
-  - token效率
-  - 离线RL
+  - "ACL 2026"
+  - "LLM Agent"
+  - "层次强化学习"
+  - "步级转移"
+  - "局部进度"
+  - "token效率"
+  - "离线RL"
 ---
 
 # Hierarchical Reinforcement Learning with Augmented Step-Level Transitions for LLM Agents

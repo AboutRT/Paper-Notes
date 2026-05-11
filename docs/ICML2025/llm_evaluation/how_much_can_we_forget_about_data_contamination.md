@@ -2,16 +2,17 @@
 title: >-
   [论文解读] How Much Can We Forget about Data Contamination?
 description: >-
-  [ICML 2025][数据污染] 通过受控实验系统量化数据污染对 LLM benchmark 评估的影响，发现在超过 Chinchilla 最优五倍以上的训练数据量下，即使 144 次重复的污染数据也能被完全遗忘；进一步证明权重衰减是遗忘的关键机制，并据此推断 Llama 3 405B 等大型模型已遗忘训练早期的数据。
+  [ICML 2025][LLM评测][数据污染] 通过受控实验系统量化数据污染对 LLM benchmark 评估的影响，发现在超过 Chinchilla 最优五倍以上的训练数据量下，即使 144 次重复的污染数据也能被完全遗忘；进一步证明权重衰减是遗忘的关键机制…
 tags:
-  - ICML 2025
-  - 数据污染
-  - 遗忘
-  - benchmark过拟合
-  - Chinchilla缩放
-  - 权重衰减
-  - AdamW
-  - LLM评测
+  - "ICML 2025"
+  - "LLM评测"
+  - "数据污染"
+  - "遗忘"
+  - "benchmark过拟合"
+  - "Chinchilla缩放"
+  - "权重衰减"
+  - "AdamW"
+  - "LLM评估"
 ---
 
 # How Much Can We Forget about Data Contamination?

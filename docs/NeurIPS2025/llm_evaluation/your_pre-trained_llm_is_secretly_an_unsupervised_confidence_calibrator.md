@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Your Pre-trained LLM is Secretly an Unsupervised Confidence Calibrator
 description: >-
-  [NeurIPS 2025][confidence calibration] 发现 LLM 后训练（SFT/RLHF/DPO）破坏了预训练模型的置信度校准，提出 DACA 方法利用预训练模型的良好校准性，仅在预测一致样本上对齐置信度，实现无标签的后训练模型校准，ECE 最高改善 15.08%。
+  [NeurIPS 2025][LLM评测][confidence calibration] 发现 LLM 后训练（SFT/RLHF/DPO）破坏了预训练模型的置信度校准，提出 DACA 方法利用预训练模型的良好校准性，仅在预测一致样本上对齐置信度，实现无标签的后训练模型校准，ECE 最高改善 15.08%。
 tags:
-  - NeurIPS 2025
-  - confidence calibration
-  - temperature scaling
-  - pre-trained LM
-  - post-trained LM
-  - unsupervised calibration
-  - DACA
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "confidence calibration"
+  - "temperature scaling"
+  - "pre-trained LM"
+  - "post-trained LM"
+  - "unsupervised calibration"
+  - "DACA"
 ---
 
 # Your Pre-trained LLM is Secretly an Unsupervised Confidence Calibrator

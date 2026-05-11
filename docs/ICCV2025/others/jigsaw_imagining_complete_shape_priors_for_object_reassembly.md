@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][物体重组] Jigsaw++ 提出了一种基于生成模型的完整形状先验学习方法，通过"retargeting"策略将部分组装的碎片点云映射到完整物体的形状空间，与现有组装算法正交地提升重组质量。
 tags:
-  - ICCV 2025
-  - 物体重组
-  - 3D形状补全
-  - 其他
-  - Rectified Flow
-  - 形状先验
+  - "ICCV 2025"
+  - "物体重组"
+  - "3D形状补全"
+  - "点云生成"
+  - "Rectified Flow"
+  - "形状先验"
 ---
 
 # Jigsaw++: Imagining Complete Shape Priors for Object Reassembly

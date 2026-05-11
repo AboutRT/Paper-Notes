@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reframing Long-Tailed Learning via Loss Landscape Geometry
 description: >-
-  [CVPR 2026][长尾学习] 从损失景观几何的角度重新审视长尾学习中的head-tail seesaw困境，发现尾类退化的根源是优化收敛到尖锐且远离尾类最优点的区域，提出基于持续学习思想的GKP（分组知识保存）和GSA（分组锐度感知）双模块框架，无需额外数据即在CIFAR-LT/ImageNet-LT/iNat2018四个基准上取得SOTA。
+  [CVPR 2026][LLM评测][长尾学习] 从损失景观几何的角度重新审视长尾学习中的head-tail seesaw困境，发现尾类退化的根源是优化收敛到尖锐且远离尾类最优点的区域，提出基于持续学习思想的GKP（分组知识保存）和GSA（分组锐度感知）双模块框架…
 tags:
-  - CVPR 2026
-  - 长尾学习
-  - 损失景观
-  - 尾类退化
-  - 持续学习
-  - 锐度感知最小化
+  - "CVPR 2026"
+  - "LLM评测"
+  - "长尾学习"
+  - "损失景观"
+  - "尾类退化"
+  - "持续学习"
+  - "锐度感知最小化"
 ---
 
 # Reframing Long-Tailed Learning via Loss Landscape Geometry

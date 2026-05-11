@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FaceCoT: Chain-of-Thought Reasoning in MLLMs for Face Anti-Spoofing
 description: >-
-  [CVPR 2026][LLM推理][人脸反欺骗] 构建了首个面向人脸反欺骗（FAS）的大规模 VQA 数据集 FaceCoT（108 万样本，覆盖 14 种攻击类型），包含六层级 CoT 推理标注（从全局描述到局部推理到最终结论）；同时提出 CoT-Enhanced Progressive Learning (CEPL) 两阶段训练策略，在 11 个基准数据集上平均 AUC 提升 4.06%、HTER 降低 5.00%，超越所有 SOTA 方法。
+  [CVPR 2026][LLM推理][人脸反欺骗] 构建了首个面向人脸反欺骗（FAS）的大规模 VQA 数据集 FaceCoT（108 万样本，覆盖 14 种攻击类型），包含六层级 CoT 推理标注（从全局描述到局部推理到最终结论）…
 tags:
-  - CVPR 2026
-  - LLM推理
-  - 人脸反欺骗
-  - CoT推理
-  - VQA数据集
-  - 渐进式学习
-  - 强化学习标注
+  - "CVPR 2026"
+  - "LLM推理"
+  - "人脸反欺骗"
+  - "CoT推理"
+  - "VQA数据集"
+  - "渐进式学习"
+  - "强化学习标注"
 ---
 
 # FaceCoT: Harnessing Chain-of-Thought Reasoning in MLLMs for Face Anti-Spoofing

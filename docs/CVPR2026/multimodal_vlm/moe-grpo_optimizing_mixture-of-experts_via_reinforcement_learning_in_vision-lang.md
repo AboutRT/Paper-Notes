@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][混合专家] 将 MoE 中的专家选择建模为序列决策问题，通过 GRPO 强化学习优化路由策略，引入模态感知路由引导，在 VLM 的图像和视频理解任务上一致超越确定性 top-K 路由及其变体。
+  [CVPR 2026][多模态VLM][混合专家] 将 MoE 中的专家选择建模为序列决策问题，通过 GRPO 强化学习优化路由策略，引入模态感知路由引导，在 VLM 的图像和视频理解任务上一致超越确定性 top-K 路由及其变体。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 混合专家
-  - 多模态VLM
-  - 路由策略优化
-  - 视觉语言模型
-  - GRPO
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "混合专家"
+  - "强化学习"
+  - "路由策略优化"
+  - "视觉语言模型"
+  - "GRPO"
 ---
 
 # MoE-GRPO: Optimizing Mixture-of-Experts via Reinforcement Learning in Vision-Language Models

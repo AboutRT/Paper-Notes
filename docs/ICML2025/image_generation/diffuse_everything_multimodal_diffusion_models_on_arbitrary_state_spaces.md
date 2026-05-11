@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][多模态扩散模型] 提出了一个在任意状态空间上构建多模态扩散模型的统一框架，通过为每种模态引入独立的解耦噪声调度（decoupled noise schedule），在单个模型中同时实现无条件生成和模态条件生成，无需外部的 tokenizer 或 VAE 预处理。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 多模态扩散模型
-  - 混合状态空间
-  - 解耦噪声调度
-  - 文本-图像联合生成
-  - 表格数据合成
+  - "ICML 2025"
+  - "图像生成"
+  - "多模态扩散模型"
+  - "混合状态空间"
+  - "解耦噪声调度"
+  - "文本-图像联合生成"
+  - "表格数据合成"
 ---
 
 # Diffuse Everything: Multimodal Diffusion Models on Arbitrary State Spaces

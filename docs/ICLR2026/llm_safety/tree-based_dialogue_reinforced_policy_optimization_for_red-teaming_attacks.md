@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks (DialTree)
 description: >-
-  [ICLR 2026][AI安全][多轮越狱] 提出 DialTree，将多轮红队攻击建模为目标导向的对话策略优化问题，通过树状rollout+质量剪枝探索攻击轨迹空间，结合自适应mask防止格式遗忘，在12个目标模型上平均ASR达81.5%，比此前SOTA高44.2%，甚至在Claude-4-Sonnet上达71% ASR。
+  [ICLR 2026][LLM安全][多轮越狱] 提出 DialTree，将多轮红队攻击建模为目标导向的对话策略优化问题，通过树状rollout+质量剪枝探索攻击轨迹空间，结合自适应mask防止格式遗忘，在12个目标模型上平均ASR达81.5%，比此前SOTA高44.2%…
 tags:
-  - ICLR 2026
-  - AI安全
-  - 多轮越狱
-  - 红队测试
-  - 强化学习
-  - 树搜索
-  - 对话策略优化
+  - "ICLR 2026"
+  - "LLM安全"
+  - "多轮越狱"
+  - "红队测试"
+  - "强化学习"
+  - "树搜索"
+  - "对话策略优化"
 ---
 
 # Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks (DialTree)
@@ -92,7 +92,7 @@ tags:
 |---------|----------|----------------|---------|
 | 无Mask | 训练崩溃 | ~100% | 趋近0 |
 | 静态Mask | 部分缓解 | ~100%(60步后) | 缓慢下降 |
-| **自适应Mask** | **稳定** | **<50%** | **稳步上升** |
+| **自适应Mask** | **稳定** | **&lt;50%** | **稳步上升** |
 
 ### 关键发现
 - **跨模型转移能力惊人**：仅在1B模型上训练，对Claude-4-Sonnet(被认为最安全的模型)达71% ASR，远超其他方法最高26%

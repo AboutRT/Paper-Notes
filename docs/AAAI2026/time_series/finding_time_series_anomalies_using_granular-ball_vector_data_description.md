@@ -4,8 +4,8 @@ title: >-
 description: >-
   [AAAI 2026][时间序列] 提出 Granular-ball One-Class Network (GBOC)，通过在潜在空间中自适应构建密度引导的粒球向量数据描述 (GVDD)，取代传统聚类或单一超球体假设，实现对时间序列正常行为的灵活建模和鲁棒异常检测。
 tags:
-  - AAAI 2026
-  - 时间序列
+  - "AAAI 2026"
+  - "时间序列"
 ---
 
 # Finding Time Series Anomalies using Granular-ball Vector Data Description

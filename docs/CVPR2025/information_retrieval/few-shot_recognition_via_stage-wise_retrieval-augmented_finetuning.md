@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning
 description: >-
-  [CVPR 2025][少样本学习] 本文首次将检索增强学习（RAL）扩展到少样本识别（FSR），揭示了检索数据的分布不平衡和域差距两大挑战，提出两阶段方法 SWAT（先在混合数据上微调视觉编码器、再在少量标注数据上重训分类器），在 9 个基准上以 >6% 的优势超越所有先前方法。
+  [CVPR 2025][信息检索/RAG][少样本学习] 本文首次将检索增强学习（RAL）扩展到少样本识别（FSR），揭示了检索数据的分布不平衡和域差距两大挑战，提出两阶段方法 SWAT（先在混合数据上微调视觉编码器、再在少量标注数据上重训分类器），在 9 个基准上以 >6% 的优势超越所有先前方法。
 tags:
-  - CVPR 2025
-  - 少样本学习
-  - 检索增强学习
-  - 信息检索
-  - 阶段式微调
-  - 数据不平衡
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "少样本学习"
+  - "检索增强学习"
+  - "视觉-语言模型"
+  - "阶段式微调"
+  - "数据不平衡"
 ---
 
 # Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning

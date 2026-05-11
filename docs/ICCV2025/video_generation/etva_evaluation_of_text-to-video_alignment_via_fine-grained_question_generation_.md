@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering
 description: >-
-  [ICCV 2025][视频生成] 提出ETVA，一种基于细粒度问题生成与回答的文本-视频对齐评估方法，通过多智能体场景图遍历生成原子问题、知识增强多阶段推理回答问题，在与人类判断的相关性上大幅超越现有指标（Spearman's ρ 58.47 vs 31.0），并构建了包含2k prompts和12k问题的评估基准。
+  [ICCV 2025][视频生成][文本-视频对齐评估] 提出ETVA，一种基于细粒度问题生成与回答的文本-视频对齐评估方法，通过多智能体场景图遍历生成原子问题、知识增强多阶段推理回答问题，在与人类判断的相关性上大幅超越现有指标（Spearman's ρ 58.47 vs 31.0）…
 tags:
-  - ICCV 2025
-  - 视频生成
-  - 问答框架
-  - 场景图
-  - 多智能体
-  - 知识增强推理
+  - "ICCV 2025"
+  - "视频生成"
+  - "文本-视频对齐评估"
+  - "问答框架"
+  - "场景图"
+  - "多智能体"
+  - "知识增强推理"
 ---
 
 # ETVA: Evaluation of Text-to-Video Alignment via Fine-Grained Question Generation and Answering

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Global-to-Pixel Regression for Human Mesh Recovery
 description: >-
-  [ECCV 2024][3D视觉][人体网格恢复] 提出一种从全局特征到像素级特征的两阶段回归框架，通过自适应2D关键点引导的局部编码模块捕获细粒度身体部位信息，并引入动态匹配策略改善视觉-网格对齐，在Human3.6M和3DPW上取得SOTA。
+  [ECCV 2024][人体理解][人体网格恢复] 提出一种从全局特征到像素级特征的两阶段回归框架，通过自适应2D关键点引导的局部编码模块捕获细粒度身体部位信息，并引入动态匹配策略改善视觉-网格对齐，在Human3.6M和3DPW上取得SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 人体网格恢复
-  - 全局到局部回归
-  - 关键点引导
-  - 动态匹配
-  - 像素级特征
+  - "ECCV 2024"
+  - "人体理解"
+  - "人体网格恢复"
+  - "全局到局部回归"
+  - "关键点引导"
+  - "动态匹配"
+  - "像素级特征"
 ---
 
 # Global-to-Pixel Regression for Human Mesh Recovery

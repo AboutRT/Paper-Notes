@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Probing the Mid-Level Vision Capabilities of Self-Supervised Learning
 description: >-
-  [CVPR 2025][可解释性] 本文从儿童视觉发育的视角出发，系统评估了 22 种自监督学习（SSL）模型在中层视觉任务（深度估计、表面法线、物体分割、几何对应等）上的能力，发现尽管 SSL 模型在高层语义任务上与监督模型存在较大差距，但在 3D 空间感知等中层视觉能力上差距显著更小。
+  [CVPR 2025][可解释性][自监督学习] 本文从儿童视觉发育的视角出发，系统评估了 22 种自监督学习（SSL）模型在中层视觉任务（深度估计、表面法线、物体分割、几何对应等）上的能力，发现尽管 SSL 模型在高层语义任务上与监督模型存在较大差距，但在 3D 空间感知等中层视觉能力上差距显著更小。
 tags:
-  - CVPR 2025
-  - 可解释性
-  - 中层视觉
-  - 深度估计
-  - 3D感知
-  - 表征评估
+  - "CVPR 2025"
+  - "可解释性"
+  - "自监督学习"
+  - "中层视觉"
+  - "深度估计"
+  - "3D感知"
+  - "表征评估"
 ---
 
 # Probing the Mid-Level Vision Capabilities of Self-Supervised Learning

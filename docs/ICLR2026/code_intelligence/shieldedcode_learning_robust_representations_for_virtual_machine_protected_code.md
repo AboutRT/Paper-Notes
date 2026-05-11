@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code
 description: >-
-  [ICLR 2026][虚拟机保护] 提出 ShieldedCode——首个保护感知的代码表征学习框架，通过层次依赖建模（指令内/前序/跨指令三层）和联合功能感知+保护感知对比学习，使 LLM 能够生成、比较和推理虚拟机保护代码，在 VM 代码生成（Pass@1 26.95% vs. GPT-4o 22.58%）和二进制相似性检测上均超越现有方法。
+  [ICLR 2026][代码智能][虚拟机保护] 提出 ShieldedCode——首个保护感知的代码表征学习框架，通过层次依赖建模（指令内/前序/跨指令三层）和联合功能感知+保护感知对比学习，使 LLM 能够生成、比较和推理虚拟机保护代码…
 tags:
-  - ICLR 2026
-  - 虚拟机保护
-  - 代码表征学习
-  - 代码智能
-  - 多态生成
-  - 软件安全
+  - "ICLR 2026"
+  - "代码智能"
+  - "虚拟机保护"
+  - "代码表征学习"
+  - "对比学习"
+  - "多态生成"
+  - "软件安全"
 ---
 
 # ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code

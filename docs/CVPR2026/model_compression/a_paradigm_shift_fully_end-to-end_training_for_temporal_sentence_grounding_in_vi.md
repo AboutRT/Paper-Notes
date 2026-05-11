@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][时序语句定位] 提出首个完全端到端的时序语句定位(TSGV)框架，通过语句条件适配器(SCADA)将语句嵌入注入视频backbone的中间层来动态调制视觉特征，配合视频中心学习策略加速训练，在Charades-STA和ActivityNet上超越SOTA。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 时序语句定位
-  - 端到端训练
-  - 语句条件适配器
-  - 视觉-语言对齐
-  - TSGV
+  - "CVPR 2026"
+  - "模型压缩"
+  - "时序语句定位"
+  - "端到端训练"
+  - "语句条件适配器"
+  - "视觉-语言对齐"
+  - "TSGV"
 ---
 
 # A Paradigm Shift: Fully End-to-End Training for Temporal Sentence Grounding in Videos

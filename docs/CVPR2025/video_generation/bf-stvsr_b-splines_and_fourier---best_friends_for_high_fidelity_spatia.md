@@ -2,14 +2,15 @@
 title: >-
   [论文解读] BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution
 description: >-
-  [CVPR 2025][视频生成] 提出 BF-STVSR 框架，用 B-spline Mapper 建模时间运动插值、Fourier Mapper 捕获空间高频细节，无需外部光流网络即可实现连续时空视频超分辨率的 SOTA 性能。
+  [CVPR 2025][视频生成][视频超分辨率] 提出 BF-STVSR 框架，用 B-spline Mapper 建模时间运动插值、Fourier Mapper 捕获空间高频细节，无需外部光流网络即可实现连续时空视频超分辨率的 SOTA 性能。
 tags:
-  - CVPR 2025
-  - 视频生成
-  - B样条
-  - 傅里叶
-  - 连续时空超分
-  - 运动插值
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频超分辨率"
+  - "B样条"
+  - "傅里叶"
+  - "连续时空超分"
+  - "运动插值"
 ---
 
 # BF-STVSR: B-Splines and Fourier—Best Friends for High Fidelity Spatial-Temporal Video Super-Resolution

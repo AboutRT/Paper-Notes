@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][蛋白质构象生成] 提出 **LD-FPG** 框架，使用 Chebyshev 图神经网络将蛋白质全原子 MD 轨迹编码到低维潜在空间，再用 DDPM 在该空间中生成新的构象集合体（ensemble），首次实现了包含侧链所有重原子的蛋白质构象生成。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 蛋白质构象生成
-  - 潜在扩散
-  - 图神经网络
-  - 全原子建模
-  - GPCR
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "蛋白质构象生成"
+  - "潜在扩散"
+  - "图神经网络"
+  - "全原子建模"
+  - "GPCR"
 ---
 
 # Generative Modeling of Full-Atom Protein Conformations using Latent Diffusion on Graph Embeddings

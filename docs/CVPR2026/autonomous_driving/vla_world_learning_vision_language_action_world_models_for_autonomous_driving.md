@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][VLA模型] VLA-World将世界模型的预测想象与VLA模型的反思推理统一到一个框架中，通过生成未来帧并对其进行推理来改进轨迹规划，实现了最低的碰撞率和FID分数。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - VLA模型
-  - 世界模型
-  - 反思推理
-  - 强化学习
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "VLA模型"
+  - "世界模型"
+  - "反思推理"
+  - "强化学习"
 ---
 
 # Learning Vision-Language-Action World Models for Autonomous Driving

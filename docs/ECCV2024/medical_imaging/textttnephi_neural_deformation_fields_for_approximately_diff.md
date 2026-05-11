@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][神经隐式表示] NePhi 提出用神经隐式函数（SIREN）替代传统体素形变场来表示图像配准中的形变，通过编码器预测潜码实现快速推理、通过实例优化提升精度，在肺部和脑部 3D 配准任务中匹配 SOTA 精度的同时将训练内存降低 5 倍，且天然产生近似微分同胚的光滑形变。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 神经隐式表示
-  - 微分同胚配准
-  - 形变场
-  - 潜码预测
-  - 多分辨率配准
+  - "ECCV 2024"
+  - "医学图像"
+  - "神经隐式表示"
+  - "微分同胚配准"
+  - "形变场"
+  - "潜码预测"
+  - "多分辨率配准"
 ---
 
 # NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration

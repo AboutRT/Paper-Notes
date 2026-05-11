@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Understanding In-Context Machine Translation for Low-Resource Languages: A Case Study on Manchu
 description: >-
-  [ACL 2025][低资源机器翻译] 系统研究了LLM上下文机器翻译中各类语言资源（词典、平行语料、语法书、CoT提示）对翻译质量的影响，以满语为案例发现高质量词典和检索的平行例句最有价值而语法书几乎无用，并通过字符加密实验证明LLM主要依赖上下文学习能力而非先验知识，最后展示了利用上下文翻译生成合成平行数据来训练传统NMT模型的有效性。
+  [ACL 2025][多语言/翻译][低资源机器翻译] 系统研究了LLM上下文机器翻译中各类语言资源（词典、平行语料、语法书、CoT提示）对翻译质量的影响，以满语为案例发现高质量词典和检索的平行例句最有价值而语法书几乎无用，并通过字符加密实验证明LLM主要依赖上下文学习能力而非先验知识…
 tags:
-  - ACL 2025
-  - 低资源机器翻译
-  - 上下文学习
-  - 满语
-  - 语言资源消融
-  - 数据增强
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "低资源机器翻译"
+  - "上下文学习"
+  - "满语"
+  - "语言资源消融"
+  - "数据增强"
 ---
 
 # Understanding In-Context Machine Translation for Low-Resource Languages: A Case Study on Manchu

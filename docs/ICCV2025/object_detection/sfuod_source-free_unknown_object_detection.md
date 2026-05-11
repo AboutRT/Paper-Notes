@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][目标检测][无源域适应] 提出 Source-Free Unknown Object Detection (SFUOD) 新场景，并设计 CollaPAUL 框架，通过协作调优融合源域和目标域知识 + 基于主轴的未知物体伪标签分配，在无源数据条件下同时检测已知和未知物体。
 tags:
-  - ICCV 2025
-  - 目标检测
-  - 无源域适应
-  - 未知物体检测
-  - 均值教师
-  - 协作调优
-  - 主轴伪标签
+  - "ICCV 2025"
+  - "目标检测"
+  - "无源域适应"
+  - "未知物体检测"
+  - "均值教师"
+  - "协作调优"
+  - "主轴伪标签"
 ---
 
 # SFUOD: Source-Free Unknown Object Detection

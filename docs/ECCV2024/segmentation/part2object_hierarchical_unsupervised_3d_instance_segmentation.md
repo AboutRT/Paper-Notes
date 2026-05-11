@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Part2Object: Hierarchical Unsupervised 3D Instance Segmentation
 description: >-
-  [ECCV 2024][图像分割][无监督3D实例分割] 提出 Part2Object 层次聚类框架，利用自监督特征和3D物体性先验（objectness prior），从零件级过分割逐层合并到物体级实例，生成高质量伪标签用于自训练 Hi-Mask3D，实现无需人工标注的3D实例分割。
+  [ECCV 2024][语义分割][无监督3D实例分割] 提出 Part2Object 层次聚类框架，利用自监督特征和3D物体性先验（objectness prior），从零件级过分割逐层合并到物体级实例，生成高质量伪标签用于自训练 Hi-Mask3D，实现无需人工标注的3D实例分割。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 无监督3D实例分割
-  - 层次聚类
-  - 伪标签
-  - 自训练
-  - 3D物体性先验
+  - "ECCV 2024"
+  - "语义分割"
+  - "无监督3D实例分割"
+  - "层次聚类"
+  - "伪标签"
+  - "自训练"
+  - "3D物体性先验"
 ---
 
 # Part2Object: Hierarchical Unsupervised 3D Instance Segmentation

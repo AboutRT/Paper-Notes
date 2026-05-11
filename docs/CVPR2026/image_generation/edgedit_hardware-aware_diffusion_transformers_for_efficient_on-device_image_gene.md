@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation
 description: >-
-  [CVPR 2026][图像生成][Transformer] EdgeDiT 提出一种硬件感知的扩散 Transformer 优化框架，通过层级知识蒸馏训练轻量级代理块、多目标贝叶斯优化搜索 Pareto 最优架构，实现了 20-30% 参数缩减、36-46% FLOPs 降低、1.65x 端侧加速，同时保持甚至超越原始 DiT-XL/2 的生成质量。
+  [CVPR 2026][图像生成][Transformer] EdgeDiT 提出一种硬件感知的扩散 Transformer 优化框架，通过层级知识蒸馏训练轻量级代理块、多目标贝叶斯优化搜索 Pareto 最优架构，实现了 20-30% 参数缩减、36-46% FLOPs 降低、1.65x 端侧加速…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - Transformer
-  - 端侧部署
-  - 硬件感知优化
-  - 知识蒸馏
-  - 架构搜索
+  - "CVPR 2026"
+  - "图像生成"
+  - "Transformer"
+  - "端侧部署"
+  - "硬件感知优化"
+  - "知识蒸馏"
+  - "架构搜索"
 ---
 
 # EdgeDiT: Hardware-Aware Diffusion Transformers for Efficient On-Device Image Generation

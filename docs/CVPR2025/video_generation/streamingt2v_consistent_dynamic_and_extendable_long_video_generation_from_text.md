@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频生成][长视频生成] 提出 StreamingT2V，一种自回归文本到长视频生成方法，通过短期记忆模块（CAM）和长期记忆模块（APM）实现长达 2 分钟以上（1200+ 帧）的无缝、高运动量视频生成。
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 长视频生成
-  - 自回归视频合成
-  - 时序一致性
-  - 扩散模型
-  - 文本到视频
+  - "CVPR 2025"
+  - "视频生成"
+  - "长视频生成"
+  - "自回归视频合成"
+  - "时序一致性"
+  - "扩散模型"
+  - "文本到视频"
 ---
 
 # StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text

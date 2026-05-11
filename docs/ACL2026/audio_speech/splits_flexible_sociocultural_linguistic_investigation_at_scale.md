@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Splits! Flexible Sociocultural Linguistic Investigation at Scale
 description: >-
-  [ACL 2026][音频语音][社会文化语言现象] 提出构建社会语言学"沙盒"的方法，从 Reddit 构建了按人口统计群体和讨论话题双重切分的 970 万帖子数据集 Splits!，并设计了基于 lift 和 triviality 的两阶段过滤流程，从 2.3 万条 LLM 生成的候选假设中高效筛选出值得深入研究的社会文化语言现象。
+  [ACL 2026][音频/语音][社会文化语言现象] 提出构建社会语言学"沙盒"的方法，从 Reddit 构建了按人口统计群体和讨论话题双重切分的 970 万帖子数据集 Splits!，并设计了基于 lift 和 triviality 的两阶段过滤流程…
 tags:
-  - ACL 2026
-  - 音频语音
-  - 社会文化语言现象
-  - Reddit数据集
-  - 假设过滤
-  - 词汇分析
-  - 人口统计学
+  - "ACL 2026"
+  - "音频/语音"
+  - "社会文化语言现象"
+  - "Reddit数据集"
+  - "假设过滤"
+  - "词汇分析"
+  - "人口统计学"
 ---
 
 # Splits! Flexible Sociocultural Linguistic Investigation at Scale

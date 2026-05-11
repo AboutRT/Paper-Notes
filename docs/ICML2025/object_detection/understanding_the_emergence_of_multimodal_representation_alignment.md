@@ -4,16 +4,16 @@ title: >-
 description: >-
   [ICML 2025][目标检测][多模态对齐] 系统研究多模态表征对齐的涌现机制，发现隐式对齐的出现及其与性能的关系取决于数据的冗余/唯一信息比例和模态异质性，挑战了"更大模型→更好对齐→更好性能"的普遍假设。
 tags:
-  - ICML 2025
-  - 目标检测
-  - 多模态对齐
-  - 表征学习
-  - 隐式对齐
-  - Platonic表征假说
-  - CKA
-  - 冗余性
-  - 唯一性
-  - 异质性
+  - "ICML 2025"
+  - "目标检测"
+  - "多模态对齐"
+  - "表征学习"
+  - "隐式对齐"
+  - "Platonic表征假说"
+  - "CKA"
+  - "冗余性"
+  - "唯一性"
+  - "异质性"
 ---
 
 # Understanding the Emergence of Multimodal Representation Alignment

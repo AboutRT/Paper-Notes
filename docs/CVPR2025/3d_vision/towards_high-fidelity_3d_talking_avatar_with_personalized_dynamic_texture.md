@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][语音驱动面部动画] 提出TexTalk4D数据集（100分钟扫描级8K动态纹理）和TexTalker框架，首次实现从语音同时生成面部运动和对应的动态纹理（皱纹变化），并通过基于风格锚点(style pivot)的注入策略实现解耦的运动/纹理风格控制。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 语音驱动面部动画
-  - 动态纹理
-  - 3D说话头像
-  - 扩散模型
-  - 风格解耦控制
+  - "CVPR 2025"
+  - "3D视觉"
+  - "语音驱动面部动画"
+  - "动态纹理"
+  - "3D说话头像"
+  - "扩散模型"
+  - "风格解耦控制"
 ---
 
 # Towards High-fidelity 3D Talking Avatar with Personalized Dynamic Texture

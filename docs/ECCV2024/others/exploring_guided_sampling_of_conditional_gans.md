@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][GAN] 本文提出在条件GAN中引入类似扩散模型的引导采样（guided sampling）策略，通过隐空间向量运算估计数据-条件联合分布，无需预训练分类器或学习无条件模型，即可显著提升GAN生成质量，将ImageNet 64×64上的FID从8.87降至4.37。
 tags:
-  - ECCV 2024
-  - GAN
-  - 引导采样
-  - 隐空间操控
-  - 其他
-  - 扩散模型对比
+  - "ECCV 2024"
+  - "GAN"
+  - "引导采样"
+  - "隐空间操控"
+  - "图像生成质量"
+  - "扩散模型对比"
 ---
 
 # Exploring Guided Sampling of Conditional GANs

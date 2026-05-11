@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation
 description: >-
-  [ICCV 2025][音频语音][音乐驱动舞蹈生成] 提出Danceba框架，通过基于相位的节奏提取（PRE）、时序门控因果注意力（TGCA）和并行Mamba运动建模（PMMM）三个核心模块，实现音乐驱动的高节奏对齐、高多样性舞蹈生成，在AIST++数据集上FIDk提升48.68%、BAS提升12%。
+  [ICCV 2025][音频/语音][音乐驱动舞蹈生成] 提出Danceba框架，通过基于相位的节奏提取（PRE）、时序门控因果注意力（TGCA）和并行Mamba运动建模（PMMM）三个核心模块，实现音乐驱动的高节奏对齐、高多样性舞蹈生成，在AIST++数据集上FIDk提升48.68%、BAS提升12%。
 tags:
-  - ICCV 2025
-  - 音频语音
-  - 音乐驱动舞蹈生成
-  - 节奏对齐
-  - 门控注意力
-  - Mamba
-  - 人体动作生成
+  - "ICCV 2025"
+  - "音频/语音"
+  - "音乐驱动舞蹈生成"
+  - "节奏对齐"
+  - "门控注意力"
+  - "Mamba"
+  - "人体动作生成"
 ---
 
 # Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation

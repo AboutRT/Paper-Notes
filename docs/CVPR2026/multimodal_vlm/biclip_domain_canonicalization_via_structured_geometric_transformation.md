@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BiCLIP: Domain Canonicalization via Structured Geometric Transformation
 description: >-
-  [CVPR 2026][多模态][CLIP适配] 提出 BiCLIP，一个极简的 CLIP 少样本适配方法，通过一个上三角结构约束的双线性变换矩阵对图像特征进行几何对齐，在 11 个标准基准上以极低参数量达到 SOTA。
+  [CVPR 2026][多模态VLM][CLIP适配] 提出 BiCLIP，一个极简的 CLIP 少样本适配方法，通过一个上三角结构约束的双线性变换矩阵对图像特征进行几何对齐，在 11 个标准基准上以极低参数量达到 SOTA。
 tags:
-  - CVPR 2026
-  - 多模态
-  - CLIP适配
-  - 少样本分类
-  - 双线性变换
-  - 多模态VLM
-  - 域泛化
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "CLIP适配"
+  - "少样本分类"
+  - "双线性变换"
+  - "模态对齐"
+  - "域泛化"
 ---
 
 # BiCLIP: Domain Canonicalization via Structured Geometric Transformation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Internal Planning in Language Models: Characterizing Horizon and Branch Awareness
 description: >-
-  [ICLR 2026][可解释性] 提出基于VQ-VAE的信息论框架来分析语言模型内部的规划行为，发现规划视野是任务依赖的、模型隐式保留未选择的正确路径信息、下一token决策主要依赖最近的计算。
+  [ICLR 2026][可解释性][语言模型规划] 提出基于VQ-VAE的信息论框架来分析语言模型内部的规划行为，发现规划视野是任务依赖的、模型隐式保留未选择的正确路径信息、下一token决策主要依赖最近的计算。
 tags:
-  - ICLR 2026
-  - 可解释性
-  - 互信息
-  - VQ-VAE
-  - 前瞻性
-  - 分支意识
+  - "ICLR 2026"
+  - "可解释性"
+  - "语言模型规划"
+  - "互信息"
+  - "VQ-VAE"
+  - "前瞻性"
+  - "分支意识"
 ---
 
 # Internal Planning in Language Models: Characterizing Horizon and Branch Awareness

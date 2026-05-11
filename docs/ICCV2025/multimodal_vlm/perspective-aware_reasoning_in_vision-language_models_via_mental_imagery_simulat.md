@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation
 description: >-
-  [ICCV 2025][多模态][视角感知推理] 提出 Abstract Perspective Change (APC) 框架，通过利用视觉基础模型构建场景抽象表示并执行透视变换，使 VLM 能够从任意视角进行空间推理，在合成与真实图像基准上大幅优于现有 VLM 和微调模型。
+  [ICCV 2025][多模态VLM][视角感知推理] 提出 Abstract Perspective Change (APC) 框架，通过利用视觉基础模型构建场景抽象表示并执行透视变换，使 VLM 能够从任意视角进行空间推理，在合成与真实图像基准上大幅优于现有 VLM 和微调模型。
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态VLM
-  - 心理意象模拟
-  - 视觉语言模型
-  - 空间推理
-  - 透视变换
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "视角感知推理"
+  - "心理意象模拟"
+  - "视觉语言模型"
+  - "空间推理"
+  - "透视变换"
 ---
 
 # Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation

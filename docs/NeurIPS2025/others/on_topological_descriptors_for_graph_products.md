@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][topological descriptors] 系统研究在图的（box）积上施加各种滤过时拓扑描述子（欧拉特征 EC 和持续同调 PH）的表达能力，证明 PH 图积描述子严格强于对单图的计算，而 EC 不具备此性质，并给出高效 PH 计算算法。
 tags:
-  - NeurIPS 2025
-  - topological descriptors
-  - graph products
-  - Euler characteristic
-  - persistent homology
-  - graph classification
+  - "NeurIPS 2025"
+  - "topological descriptors"
+  - "graph products"
+  - "Euler characteristic"
+  - "persistent homology"
+  - "graph classification"
 ---
 
 # On Topological Descriptors for Graph Products

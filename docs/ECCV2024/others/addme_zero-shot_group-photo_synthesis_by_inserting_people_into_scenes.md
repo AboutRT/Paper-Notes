@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][人像插入] 本文提出 AddMe，一个基于扩散模型的零样本人像生成器，通过身份解耦适配器和增强型人像注意力模块，能够将给定的人像自然地插入到现有场景图像的指定位置，同时保持身份一致性和群体交互的合理性。
 tags:
-  - ECCV 2024
-  - 人像插入
-  - 群体照片合成
-  - 扩散模型
-  - 身份保持
-  - 零样本生成
+  - "ECCV 2024"
+  - "人像插入"
+  - "群体照片合成"
+  - "扩散模型"
+  - "身份保持"
+  - "零样本生成"
 ---
 
 # AddMe: Zero-Shot Group-Photo Synthesis by Inserting People Into Scenes

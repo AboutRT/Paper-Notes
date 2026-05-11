@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning
 description: >-
-  [ICCV 2025][AI安全][联邦学习] 本文提出Geminio，首个利用视觉语言模型（VLM）实现自然语言引导的梯度反转攻击（GIA），使联邦学习中的恶意服务器可以用自然语言描述想要窃取的数据类型，并从大batch梯度中精准定位和重建匹配的隐私样本，同时不影响正常的FL模型训练。
+  [ICCV 2025][LLM安全][联邦学习] 本文提出Geminio，首个利用视觉语言模型（VLM）实现自然语言引导的梯度反转攻击（GIA），使联邦学习中的恶意服务器可以用自然语言描述想要窃取的数据类型，并从大batch梯度中精准定位和重建匹配的隐私样本，同时不影响正常的FL模型训练。
 tags:
-  - ICCV 2025
-  - AI安全
-  - 联邦学习
-  - 梯度反转攻击
-  - 视觉语言模型
-  - 隐私攻击
-  - 自然语言引导
+  - "ICCV 2025"
+  - "LLM安全"
+  - "联邦学习"
+  - "梯度反转攻击"
+  - "视觉语言模型"
+  - "隐私攻击"
+  - "自然语言引导"
 ---
 
 # Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning

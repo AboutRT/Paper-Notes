@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][轨迹预测] 提出"先推理，后预测"（First Reasoning, Then Forecasting）策略，通过基于查询中心的逆强化学习（QIRL）推断驾驶意图的奖励分布，并结合 Bi-Mamba 增强的 DETR 式轨迹解码器，显著提升轨迹预测的置信度和准确性。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 轨迹预测
-  - 逆强化学习
-  - 意图推理
-  - Mamba
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "轨迹预测"
+  - "逆强化学习"
+  - "意图推理"
+  - "Mamba"
 ---
 
 # Foresight in Motion: Reinforcing Trajectory Prediction with Reward Heuristics

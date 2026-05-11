@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][具身任务规划] 提出 Dual Preference Optimization (D²PO) 框架，通过联合优化状态预测（世界建模）和动作选择两个目标的偏好学习，使视觉语言模型在具身任务规划中同时学会"理解世界动态"和"做出更好决策"，7B 模型大幅超越 GPT-4o。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 具身任务规划
-  - 世界模型
-  - 偏好优化
-  - DPO
-  - 视觉语言模型
+  - "ACL 2025"
+  - "LLM对齐"
+  - "具身任务规划"
+  - "世界模型"
+  - "偏好优化"
+  - "DPO"
+  - "视觉语言模型"
 ---
 
 # World Modeling Makes a Better Planner: Dual Preference Optimization for Embodied Task Planning

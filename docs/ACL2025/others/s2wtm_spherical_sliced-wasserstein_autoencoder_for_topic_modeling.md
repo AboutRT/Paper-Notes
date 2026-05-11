@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][主题建模] 提出 S2WTM，一种基于球面切片 Wasserstein 自编码器的主题模型，在超球面潜空间上对齐聚合后验与先验分布，有效避免 VAE 的后验坍塌问题，同时在主题连贯性和多样性上超越现有 SOTA。
 tags:
-  - ACL 2025
-  - 主题建模
-  - 球面潜空间
-  - Wasserstein 距离
-  - 后验坍塌
-  - von Mises-Fisher 分布
+  - "ACL 2025"
+  - "主题建模"
+  - "球面潜空间"
+  - "Wasserstein 距离"
+  - "后验坍塌"
+  - "von Mises-Fisher 分布"
 ---
 
 # S2WTM: Spherical Sliced-Wasserstein Autoencoder for Topic Modeling

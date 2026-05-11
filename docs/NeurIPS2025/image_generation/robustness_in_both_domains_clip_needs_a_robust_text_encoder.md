@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][CLIP] 提出 LEAF (Levenshtein Efficient Adversarial Finetuning)，首个针对 CLIP 文本编码器的对抗微调方法，在字符级文本扰动下显著提升零样本分类、文本-图像检索和图像生成的鲁棒性，同时保持图像域性能。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - CLIP
-  - 文本编码器鲁棒性
-  - 对抗微调
-  - 字符级攻击
-  - Levenshtein距离
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "CLIP"
+  - "文本编码器鲁棒性"
+  - "对抗微调"
+  - "字符级攻击"
+  - "Levenshtein距离"
 ---
 
 # Robustness in Both Domains: CLIP Needs a Robust Text Encoder

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Guiding a Diffusion Model by Swapping Its Tokens
 description: >-
-  [CVPR 2026][图像生成][采样引导] 本文提出 Self-Swap Guidance (SSG)，一种无需条件信息的扩散模型采样引导方法，通过在模型中间表示空间中选择性地交换语义最不相似的 token 对来构造扰动版本，相比 SAG/PAG/SEG 等方法在更宽的引导强度范围内稳定生成高保真图像，在条件和无条件生成上均取得最优 FID。
+  [CVPR 2026][图像生成][采样引导] 本文提出 Self-Swap Guidance (SSG)，一种无需条件信息的扩散模型采样引导方法，通过在模型中间表示空间中选择性地交换语义最不相似的 token 对来构造扰动版本，相比 SAG/PAG/SEG 等方法在更宽的引导强度范围内稳定生成高保真图像…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 采样引导
-  - 无条件引导
-  - Token交换
-  - 自扰动
-  - 图像保真度
+  - "CVPR 2026"
+  - "图像生成"
+  - "采样引导"
+  - "无条件引导"
+  - "Token交换"
+  - "自扰动"
+  - "图像保真度"
 ---
 
 # Guiding a Diffusion Model by Swapping Its Tokens

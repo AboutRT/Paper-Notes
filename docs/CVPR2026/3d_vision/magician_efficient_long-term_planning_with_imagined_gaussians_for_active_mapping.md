@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][主动建图] 提出MAGICIAN框架，利用预训练占据度网络生成"想象高斯"（Imagined Gaussians）来高效估计表面覆盖增益，结合束搜索实现主动建图中的长期轨迹规划，在室内外场景均达到SOTA，覆盖率提升超10%。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 主动建图
-  - 长期规划
-  - 3D高斯溅射
-  - 场景重建
-  - 视点选择
+  - "CVPR 2026"
+  - "3D视觉"
+  - "主动建图"
+  - "长期规划"
+  - "3D高斯溅射"
+  - "场景重建"
+  - "视点选择"
 ---
 
 # MAGICIAN: Efficient Long-Term Planning with Imagined Gaussians for Active Mapping

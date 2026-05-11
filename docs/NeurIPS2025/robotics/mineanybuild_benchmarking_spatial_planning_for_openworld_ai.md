@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents
 description: >-
-  [NeurIPS 2025 (Datasets & Benchmarks)][机器人][spatial planning] 基于 Minecraft 构建空间规划基准 MineAnyBuild，要求 AI Agent 根据多模态指令生成可执行的建筑蓝图矩阵，包含 4000 个任务和 500+ 建筑/装饰资产，从空间理解、空间推理、创造力和空间常识四个维度系统评估 MLLM 的空间规划能力，揭示即便 GPT-4o 整体得分仅 41.02/100，开源模型更差。
+  [NeurIPS 2025 (Datasets & Benchmarks)][机器人][spatial planning] 基于 Minecraft 构建空间规划基准 MineAnyBuild，要求 AI Agent 根据多模态指令生成可执行的建筑蓝图矩阵，包含 4000 个任务和 500+ 建筑/装饰资产…
 tags:
-  - 机器人
-  - 机器人
-  - spatial planning
-  - Minecraft
-  - open-world agent
-  - MLLM benchmark
-  - spatial intelligence
+  - "NeurIPS 2025 (Datasets & Benchmarks)"
+  - "机器人"
+  - "spatial planning"
+  - "Minecraft"
+  - "open-world agent"
+  - "MLLM benchmark"
+  - "spatial intelligence"
 ---
 
 # MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents
@@ -85,7 +85,7 @@ MLLM-based Agent 能否将空间理解能力转化为具体的、可执行的空
 
 1. **整体表现极差**：最强的 GPT-4o 仅得 41.02/100，不到满分一半，说明空间规划对现有 MLLM 仍是重大挑战
 2. **开源 vs 闭源差距悬殊**：闭源模型平均 OSR（输出成功率）93.40%，开源模型远低于此——很多开源模型根本无法生成合法的 3D 蓝图矩阵
-3. **空间推理令人意外**：GPT-4o-mini（26.7%）反超 GPT-4o（24.4%），说明通用能力更强不等于空间推理更好；多数模型 <25%，接近随机水平
+3. **空间推理令人意外**：GPT-4o-mini（26.7%）反超 GPT-4o（24.4%），说明通用能力更强不等于空间推理更好；多数模型 &lt;25%，接近随机水平
 4. **空间常识相对最好**：闭源模型 6.8-7.5 分（满分 10），说明 MLLM 已有一定日常空间常识，但这不能迁移到空间规划执行
 
 ### 三类核心失败模式

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SelfReflect: Can LLMs Communicate Their Internal Answer Distribution?
 description: >-
-  [ICLR 2026][因果推理] 提出SelfReflect度量指标——一个衡量LLM自述不确定性摘要与其真实内部答案分布之间差异的信息论距离，发现现代LLM普遍无法自主反映内部不确定性，但通过采样多个输出并反馈到上下文中可以生成忠实的不确定性摘要。
+  [ICLR 2026][因果推理][LLM不确定性] 提出SelfReflect度量指标——一个衡量LLM自述不确定性摘要与其真实内部答案分布之间差异的信息论距离，发现现代LLM普遍无法自主反映内部不确定性，但通过采样多个输出并反馈到上下文中可以生成忠实的不确定性摘要。
 tags:
-  - ICLR 2026
-  - 因果推理
-  - 内部分布
-  - 信息论距离
-  - 忠实性度量
-  - 不确定性沟通
+  - "ICLR 2026"
+  - "因果推理"
+  - "LLM不确定性"
+  - "内部分布"
+  - "信息论距离"
+  - "忠实性度量"
+  - "不确定性沟通"
 ---
 
 # SelfReflect: Can LLMs Communicate Their Internal Answer Distribution?

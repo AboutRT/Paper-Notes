@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation
 description: >-
-  [CVPR 2026][4D动态建模] 提出 SeeU，一个 2D→4D→2D 的学习框架：从稀疏单目 2D 帧重建 4D 世界表示，在低秩表示上学习连续且物理一致的 4D 动力学（B 样条参数化 + 物理约束），最后将 4D 世界重投影回 2D 并用时空上下文感知的视频生成器补全未知区域，实现跨时间和空间的未见视觉内容生成。
+  [CVPR 2026][视频生成][4D动态建模] 提出 SeeU，一个 2D→4D→2D 的学习框架：从稀疏单目 2D 帧重建 4D 世界表示，在低秩表示上学习连续且物理一致的 4D 动力学（B 样条参数化 + 物理约束），最后将 4D 世界重投影回 2D 并用时空上下文感知的视频生成器补全未知区域…
 tags:
-  - CVPR 2026
-  - 4D动态建模
-  - 连续动力学
-  - 时空生成
-  - B样条
-  - 物理一致性
+  - "CVPR 2026"
+  - "视频生成"
+  - "4D动态建模"
+  - "连续动力学"
+  - "时空生成"
+  - "B样条"
+  - "物理一致性"
 ---
 
 # SeeU: Seeing the Unseen World via 4D Dynamics-aware Generation

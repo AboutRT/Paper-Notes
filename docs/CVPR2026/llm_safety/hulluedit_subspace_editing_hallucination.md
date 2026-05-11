@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM安全][幻觉缓解] 提出HulluEdit，一个单次推理、无参考模型的幻觉缓解框架，通过将隐藏状态正交分解为视觉证据子空间、冲突先验子空间和残差不确定性子空间，选择性抑制幻觉模式而不干扰视觉接地，在POPE和CHAIR上达到SOTA。
 tags:
-  - CVPR 2026
-  - LLM安全
-  - 幻觉缓解
-  - 子空间编辑
-  - 正交分解
-  - LVLM
-  - 单次推理
+  - "CVPR 2026"
+  - "LLM安全"
+  - "幻觉缓解"
+  - "子空间编辑"
+  - "正交分解"
+  - "LVLM"
+  - "单次推理"
 ---
 
 # HulluEdit: Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in LVLMs

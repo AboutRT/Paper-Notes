@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][线索引导] 本文提出"线索引导的重新评估"（Clue Guided Re-Assessment）方法，通过在LLM推理过程中提取关键线索并引导模型对初始推理进行反思和修正，显著提升了多步骤推理任务的准确率。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 线索引导
-  - 反思推理
-  - 自我修正
-  - 推理增强
-  - 逐步验证
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "线索引导"
+  - "反思推理"
+  - "自我修正"
+  - "推理增强"
+  - "逐步验证"
 ---
 
 # Clue Guided Re-Assessment to Improve Reasoning in Large Language Models

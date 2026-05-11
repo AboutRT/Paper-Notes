@@ -2,15 +2,15 @@
 title: >-
   [论文解读] 4Diff: 3D-Aware Diffusion Model for Third-to-First Viewpoint Translation
 description: >-
-  [ECCV 2024][3D视觉][视角转换] 本文提出 4Diff，一个结合3D几何先验的 transformer-based 扩散模型，通过自中心点云光栅化和3D感知旋转交叉注意力两个机制，将第三人称（外视角）图像转换为第一人称（自中心视角）图像，在 Ego-Exo4D 数据集上达到 SOTA 并展现出对新环境的强泛化能力。
+  [ECCV 2024][3D视觉][视角转换] 本文提出 4Diff，一个结合3D几何先验的 transformer-based 扩散模型，通过自中心点云光栅化和3D感知旋转交叉注意力两个机制，将第三人称（外视角）图像转换为第一人称（自中心视角）图像…
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 视角转换
-  - 扩散模型
-  - 第三人称转第一人称
-  - 3D几何先验
-  - 跨视角图像生成
+  - "ECCV 2024"
+  - "3D视觉"
+  - "视角转换"
+  - "扩散模型"
+  - "第三人称转第一人称"
+  - "3D几何先验"
+  - "跨视角图像生成"
 ---
 
 # 4Diff: 3D-Aware Diffusion Model for Third-to-First Viewpoint Translation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Dual-Expert Consistency Model for Efficient and High-Quality Video Generation
 description: >-
-  [ICCV 2025][视频生成] 本文分析一致性模型蒸馏中高/低噪声水平的优化冲突，提出参数高效的双专家一致性模型（DCM），语义专家负责布局和运动、细节专家负责精细细节，配合时序一致性损失和GAN+特征匹配损失，在HunyuanVideo（13B）上实现4步采样接近50步基线质量。
+  [ICCV 2025][视频生成][一致性蒸馏] 本文分析一致性模型蒸馏中高/低噪声水平的优化冲突，提出参数高效的双专家一致性模型（DCM），语义专家负责布局和运动、细节专家负责精细细节，配合时序一致性损失和GAN+特征匹配损失，在HunyuanVideo（13B）上实现4步采样接近50步基线质量。
 tags:
-  - ICCV 2025
-  - 视频生成
-  - 视频生成加速
-  - 双专家模型
-  - 时序一致性损失
-  - GAN
+  - "ICCV 2025"
+  - "视频生成"
+  - "一致性蒸馏"
+  - "视频生成加速"
+  - "双专家模型"
+  - "时序一致性损失"
+  - "GAN"
 ---
 
 # Dual-Expert Consistency Model for Efficient and High-Quality Video Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities
 description: >-
-  [CVPR 2025][机器人][双手活动数据集] GigaHands 是迄今为止最大的双手活动数据集，通过设计"指令-标注"程序化采集策略和 51 相机无标记捕捉系统，收集了 34 小时、56 名被试、417 个物体的双手活动数据，包含 1.83 亿帧 RGB 图像和 84K 条详细文本标注，在文本驱动手部动作生成和动作描述任务上展示了数据规模的价值。
+  [CVPR 2025][机器人][双手活动数据集] GigaHands 是迄今为止最大的双手活动数据集，通过设计"指令-标注"程序化采集策略和 51 相机无标记捕捉系统，收集了 34 小时、56 名被试、417 个物体的双手活动数据，包含 1.83 亿帧 RGB 图像和 84K 条详细文本标注…
 tags:
-  - CVPR 2025
-  - 机器人
-  - 双手活动数据集
-  - 手部动作捕获
-  - 文本标注
-  - 动作生成
-  - 无标记捕捉
+  - "CVPR 2025"
+  - "机器人"
+  - "双手活动数据集"
+  - "手部动作捕获"
+  - "文本标注"
+  - "动作生成"
+  - "无标记捕捉"
 ---
 
 # GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception
 description: >-
-  [NeurIPS 2025][自动驾驶][cooperative perception] 提出 V2X-Radar，首个大规模真实世界多模态车路协同感知数据集，包含 4D 雷达、LiDAR 和多视角相机数据，覆盖多种天气和光照条件，提供 20K LiDAR 帧、40K 相机图像、20K 4D 雷达数据和 350K 标注框，并建立三个子数据集的全面基准。
+  [NeurIPS 2025][自动驾驶][cooperative perception] 提出 V2X-Radar，首个大规模真实世界多模态车路协同感知数据集，包含 4D 雷达、LiDAR 和多视角相机数据，覆盖多种天气和光照条件…
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - cooperative perception
-  - 4D radar
-  - V2X
-  - 多模态
-  - 目标检测
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "cooperative perception"
+  - "4D radar"
+  - "V2X"
+  - "多模态"
+  - "目标检测"
 ---
 
 # V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception
@@ -116,7 +116,7 @@ V2X-Radar 数据集包含三个子集：
 
 - 填补了 V2X 领域 4D 雷达数据集的空白，这对恶劣天气下的安全驾驶至关重要
 - 数据采集跨越 9 个月，覆盖晴/雨/雾/雪、昼/黄昏/夜多种条件，场景多样性优于同类数据集
-- 严格的时间同步（<20ms）和空间标定流程保证了数据质量
+- 严格的时间同步（&lt;20ms）和空间标定流程保证了数据质量
 - 三个子数据集设计支撑多种研究方向，增强了数据集的通用性
 
 ## 局限与展望

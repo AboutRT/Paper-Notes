@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Detail-Preserving Latent Diffusion for Stable Shadow Removal
 description: >-
-  [CVPR 2025][图像恢复][阴影去除] 本文提出两阶段Stable Diffusion微调方案用于阴影去除：第一阶段在latent空间微调去噪器完成主要阴影消除，第二阶段通过阴影感知的Detail Injection模块从VAE编码器提取特征调制解码器，恢复第一阶段丢失的高频细节，实现高质量且泛化性强的阴影去除。
+  [CVPR 2025][图像恢复][阴影去除] 本文提出两阶段Stable Diffusion微调方案用于阴影去除：第一阶段在latent空间微调去噪器完成主要阴影消除，第二阶段通过阴影感知的Detail Injection模块从VAE编码器提取特征调制解码器，恢复第一阶段丢失的高频细节…
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 阴影去除
-  - 潜在扩散模型
-  - 扩散模型
-  - 细节注入
-  - 跨数据集泛化
+  - "CVPR 2025"
+  - "图像恢复"
+  - "阴影去除"
+  - "潜在扩散模型"
+  - "扩散模型"
+  - "细节注入"
+  - "跨数据集泛化"
 ---
 
 # Detail-Preserving Latent Diffusion for Stable Shadow Removal

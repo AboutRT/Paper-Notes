@@ -2,14 +2,14 @@
 title: >-
   [论文解读] AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL
 description: >-
-  [CVPR 2026][其他] 首个在物理仿真中实现接触式人-人辅助行为模仿学习的多智能体RL框架，通过运动先验初始化、动态参考重定向和接触促进奖励使MARL在高接触设置中可行。
+  [CVPR 2026][多智能体强化学习] 首个在物理仿真中实现接触式人-人辅助行为模仿学习的多智能体RL框架，通过运动先验初始化、动态参考重定向和接触促进奖励使MARL在高接触设置中可行。
 tags:
-  - CVPR 2026
-  - 其他
-  - 物理仿真
-  - 辅助行为
-  - 运动模仿
-  - 接触式交互
+  - "CVPR 2026"
+  - "多智能体强化学习"
+  - "物理仿真"
+  - "辅助行为"
+  - "运动模仿"
+  - "接触式交互"
 ---
 
 # AssistMimic: Physics-Grounded Humanoid Assistance via Multi-Agent RL

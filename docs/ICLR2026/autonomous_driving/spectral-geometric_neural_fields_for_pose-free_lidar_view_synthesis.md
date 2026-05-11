@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis
 description: >-
-  [ICLR 2026][自动驾驶][LiDAR 新视图合成] SG-NLF 提出一个融合谱信息与几何一致性的无位姿 LiDAR NeRF 框架，通过混合谱-几何表示重建连续光滑几何、置信度感知位姿图实现全局位姿优化、对抗学习策略强化跨帧一致性，在重建质量和位姿精度上分别超过前 SOTA 35.8% 和 68.8%。
+  [ICLR 2026][自动驾驶][LiDAR 新视图合成] SG-NLF 提出一个融合谱信息与几何一致性的无位姿 LiDAR NeRF 框架，通过混合谱-几何表示重建连续光滑几何、置信度感知位姿图实现全局位姿优化、对抗学习策略强化跨帧一致性…
 tags:
-  - ICLR 2026
-  - 自动驾驶
-  - LiDAR 新视图合成
-  - 无位姿 NeRF
-  - 谱嵌入
-  - 几何一致性
-  - 对抗学习
+  - "ICLR 2026"
+  - "自动驾驶"
+  - "LiDAR 新视图合成"
+  - "无位姿 NeRF"
+  - "谱嵌入"
+  - "几何一致性"
+  - "对抗学习"
 ---
 
 # Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis

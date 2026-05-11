@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][点云补全] 提出参数化点云补全新范式 PaCo，从不完整点云中推理参数化平面基元（而非单个点），通过层次编码、代理生成和二分匹配优化，实现了从不完整数据到高质量多面体表面重建的直接桥接。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点云补全
-  - 参数化基元
-  - 多面体表面重建
-  - 二分匹配
-  - 序列生成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点云补全"
+  - "参数化基元"
+  - "多面体表面重建"
+  - "二分匹配"
+  - "序列生成"
 ---
 
 # Parametric Point Cloud Completion for Polygonal Surface Reconstruction

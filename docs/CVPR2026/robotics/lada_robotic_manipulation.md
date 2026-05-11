@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][机器人][动作解耦] 提出 LaDA 框架，用自然语言作为语义桥梁将连续 7-DoF 动作解耦为平移/旋转/夹爪三个可解释原语，通过软标签对比学习在共享嵌入空间中对齐跨任务动作表示，仅 0.6B 参数在 LIBERO 上达 93.6% 成功率，超越 1.3B~8.5B 参数的所有基线。
 tags:
-  - CVPR 2026
-  - 机器人
-  - 动作解耦
-  - 语言语义桥梁
-  - 软标签对比学习
-  - VLA
-  - 跨任务泛化
+  - "CVPR 2026"
+  - "机器人"
+  - "动作解耦"
+  - "语言语义桥梁"
+  - "软标签对比学习"
+  - "VLA"
+  - "跨任务泛化"
 ---
 
 # Language-Grounded Decoupled Action Representation for Robotic Manipulation (LaDA)

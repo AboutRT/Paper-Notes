@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][可变形3DGS] 提出基于逐高斯嵌入（Per-Gaussian Embedding）的形变表示方法，将形变定义为逐高斯潜在嵌入与时间嵌入的函数，辅以粗细形变分解和局部平滑正则化，在多个动态场景数据集上取得了质量、速度和模型容量的全面优势。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 可变形3DGS
-  - 动态场景重建
-  - 逐高斯嵌入
-  - 粗细形变分解
-  - 新视角合成
+  - "ECCV 2024"
+  - "3D视觉"
+  - "可变形3DGS"
+  - "动态场景重建"
+  - "逐高斯嵌入"
+  - "粗细形变分解"
+  - "新视角合成"
 ---
 
 # Per-Gaussian Embedding-Based Deformation for Deformable 3D Gaussian Splatting

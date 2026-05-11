@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM对齐][LVLM安全] 提出 GuardAlign，一个无需训练的多模态大模型推理时安全防御框架：用最优传输(OT)精确检测图像中的不安全区域并遮蔽，再通过跨模态注意力校准保持安全前缀的影响力不衰减，在6个LVLM上将不安全响应率降低最多39%，同时保持甚至提升通用能力。
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - LVLM安全
-  - 最优传输
-  - 注意力校准
-  - 推理时防御
-  - 视觉安全检测
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "LVLM安全"
+  - "最优传输"
+  - "注意力校准"
+  - "推理时防御"
+  - "视觉安全检测"
 ---
 
 # GuardAlign: Test-time Safety Alignment in Multimodal Large Language Models

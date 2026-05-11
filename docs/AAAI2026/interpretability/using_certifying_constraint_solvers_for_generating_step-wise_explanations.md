@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Using Certifying Constraint Solvers for Generating Step-wise Explanations
 description: >-
-  [AAAI 2026][约束求解] 提出利用约束求解器生成的不可满足性证明（proof）作为起点，通过一系列简化和转换技术高效生成面向用户的逐步解释序列（step-wise explanation），相比从零构建解释方法速度提升高达100倍。
+  [AAAI 2026][可解释性][约束求解] 提出利用约束求解器生成的不可满足性证明（proof）作为起点，通过一系列简化和转换技术高效生成面向用户的逐步解释序列（step-wise explanation），相比从零构建解释方法速度提升高达100倍。
 tags:
-  - AAAI 2026
-  - 约束求解
-  - 逐步解释
-  - 证明日志
-  - 可解释AI
-  - 不可满足性
+  - "AAAI 2026"
+  - "可解释性"
+  - "约束求解"
+  - "逐步解释"
+  - "证明日志"
+  - "可解释AI"
+  - "不可满足性"
 ---
 
 # Using Certifying Constraint Solvers for Generating Step-wise Explanations

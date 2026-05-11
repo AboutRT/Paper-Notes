@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CE-GPPO: Coordinating Entropy via Gradient-Preserving Clipping Policy Optimization in Reinforcement Learning
 description: >-
-  [ACL 2026][强化学习] 提出 CE-GPPO 算法，通过 stop-gradient 操作重新引入 PPO 裁剪区间外低概率 token 的梯度信号，实现对策略熵的精细化协调控制，在探索-利用之间取得更好平衡。
+  [ACL 2026][强化学习][策略优化] 提出 CE-GPPO 算法，通过 stop-gradient 操作重新引入 PPO 裁剪区间外低概率 token 的梯度信号，实现对策略熵的精细化协调控制，在探索-利用之间取得更好平衡。
 tags:
-  - ACL 2026
-  - 强化学习
-  - 熵动态控制
-  - 梯度保留
-  - PPO改进
-  - 数学推理
+  - "ACL 2026"
+  - "强化学习"
+  - "策略优化"
+  - "熵动态控制"
+  - "梯度保留"
+  - "PPO改进"
+  - "数学推理"
 ---
 
 # CE-GPPO: Coordinating Entropy via Gradient-Preserving Clipping Policy Optimization in Reinforcement Learning

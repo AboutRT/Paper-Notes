@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型加速] 将扩散模型的去噪过程建模为图论中的最短路径问题，通过优化初始残差来压缩反向扩散路径，实现用 2 步采样即可达到甚至超越 DDIM 10 步的生成质量。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型加速
-  - 最短路径优化
-  - 残差传播
-  - 图论
-  - DDIM
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型加速"
+  - "最短路径优化"
+  - "残差传播"
+  - "图论"
+  - "DDIM"
 ---
 
 # Optimizing for the Shortest Path in Denoising Diffusion Model

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯] 提出 DashGaussian，一种基于频率分析的渲染分辨率和高斯基元数量联合调度方案，将3DGS优化从逐步拟合高频分量的角度进行重新表述，平均加速 45.7% 且不牺牲渲染质量。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯
-  - 训练加速
-  - 频率调度
-  - 分辨率调度
-  - 自适应密度化
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯"
+  - "训练加速"
+  - "频率调度"
+  - "分辨率调度"
+  - "自适应密度化"
 ---
 
 # DashGaussian: Optimizing 3D Gaussian Splatting in 200 Seconds

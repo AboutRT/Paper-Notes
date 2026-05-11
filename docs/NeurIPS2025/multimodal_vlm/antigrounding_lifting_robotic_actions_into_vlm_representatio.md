@@ -2,16 +2,16 @@
 title: >-
   [论文解读] AntiGrounding: Lifting Robotic Actions into VLM Representation Space for Decision Making
 description: >-
-  [NeurIPS 2025][多模态][VLM] 反转传统指令接地范式——不将 VLM 知识压缩到中间表征（符号技能或约束），而是将候选机器人轨迹渲染到多视角场景图像中，直接在 VLM 的原生高维表征空间中评估动作方案，实现零样本闭环机器人操作控制。
+  [NeurIPS 2025][多模态VLM][VLM] 反转传统指令接地范式——不将 VLM 知识压缩到中间表征（符号技能或约束），而是将候选机器人轨迹渲染到多视角场景图像中，直接在 VLM 的原生高维表征空间中评估动作方案，实现零样本闭环机器人操作控制。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - VLM
-  - 反接地
-  - 多模态VLM
-  - MPC
-  - 结构化VQA
-  - Real2Sim2Real
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "VLM"
+  - "反接地"
+  - "机器人操作"
+  - "MPC"
+  - "结构化VQA"
+  - "Real2Sim2Real"
 ---
 
 # AntiGrounding: Lifting Robotic Actions into VLM Representation Space for Decision Making

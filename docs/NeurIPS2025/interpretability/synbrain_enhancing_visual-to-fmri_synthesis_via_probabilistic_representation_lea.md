@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SynBrain: Enhancing Visual-to-fMRI Synthesis via Probabilistic Representation Learning
 description: >-
-  [NeurIPS 2025][可解释性][视觉-fMRI合成] 提出 SynBrain 框架，通过 BrainVAE 将 fMRI 响应建模为视觉语义条件的概率分布，并用 S2N Mapper 实现一步式语义到神经空间的映射，在视觉-fMRI 合成任务上显著超越 MindSimulator（MSE 降低 65%，Pearson 提升 96%），且合成的 fMRI 可有效增强少样本跨被试解码性能。
+  [NeurIPS 2025][可解释性][视觉-fMRI合成] 提出 SynBrain 框架，通过 BrainVAE 将 fMRI 响应建模为视觉语义条件的概率分布，并用 S2N Mapper 实现一步式语义到神经空间的映射…
 tags:
-  - NeurIPS 2025
-  - 可解释性
-  - 视觉-fMRI合成
-  - 变分自编码器
-  - 概率表示学习
-  - 脑编码
-  - 少样本适应
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "视觉-fMRI合成"
+  - "变分自编码器"
+  - "概率表示学习"
+  - "脑编码"
+  - "少样本适应"
 ---
 
 # SynBrain: Enhancing Visual-to-fMRI Synthesis via Probabilistic Representation Learning

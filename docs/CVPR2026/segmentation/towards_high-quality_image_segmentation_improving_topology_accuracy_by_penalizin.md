@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards High-Quality Image Segmentation: Improving Topology Accuracy by Penalizing Neighbor Pixels
 description: >-
-  [CVPR2026][图像分割][拓扑保持分割] 提出 Same Class Neighbor Penalization (SCNP)，通过在训练时将每个像素的 logit 替换为其同类邻域中最差预测，迫使模型优先修复邻域中的弱分类像素，从而以极低代价（仅 3 行代码、几毫秒/迭代）显著提升分割的拓扑精度。
+  [CVPR2026][语义分割][拓扑保持分割] 提出 Same Class Neighbor Penalization (SCNP)，通过在训练时将每个像素的 logit 替换为其同类邻域中最差预测，迫使模型优先修复邻域中的弱分类像素，从而以极低代价（仅 3 行代码、几毫秒/迭代）显著提升分割的拓扑精度。
 tags:
-  - CVPR2026
-  - 图像分割
-  - 拓扑保持分割
-  - 邻域惩罚
-  - SCNP
-  - 损失函数
-  - 连通分量
+  - "CVPR2026"
+  - "语义分割"
+  - "拓扑保持分割"
+  - "邻域惩罚"
+  - "SCNP"
+  - "损失函数"
+  - "连通分量"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

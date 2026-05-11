@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][knowledge grafting] 提出GraftLLM——将异构源模型的能力提取为紧凑可迁移的"SkillPack"（模块化技能包），通过模块感知自适应压缩策略存储参数增量，支持知识迁移、异构模型融合和无遗忘持续学习，在多个场景下显著优于现有PEFT和参数融合方法。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - knowledge grafting
-  - SkillPack
-  - heterogeneous model fusion
-  - continual learning
-  - delta compression
+  - "ICLR 2026"
+  - "模型压缩"
+  - "knowledge grafting"
+  - "SkillPack"
+  - "heterogeneous model fusion"
+  - "continual learning"
+  - "delta compression"
 ---
 
 # Knowledge Fusion of Large Language Models Via Modular Skillpacks
@@ -84,7 +84,7 @@ GraftLLM的核心思想是将能力以"**目标模型 + SkillPack**"的形式存
 
 ### 知识迁移与压缩（SFT设置）
 
-GraftLLM在MMLU等通用任务上保持了接近全参微调的性能（差距<1%），同时参数量远小于完整模型。LoRA在简单SFT场景尚可，但在复杂DPO场景下性能显著下降甚至失效。
+GraftLLM在MMLU等通用任务上保持了接近全参微调的性能（差距&lt;1%），同时参数量远小于完整模型。LoRA在简单SFT场景尚可，但在复杂DPO场景下性能显著下降甚至失效。
 
 ### DPO设置（GSM8K + MATH）
 

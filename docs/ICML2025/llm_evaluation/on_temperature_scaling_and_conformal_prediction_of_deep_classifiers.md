@@ -2,15 +2,16 @@
 title: >-
   [论文解读] On Temperature Scaling and Conformal Prediction of Deep Classifiers
 description: >-
-  [ICML2025][Temperature Scaling] 首次系统研究 Temperature Scaling (TS) 校准对 Conformal Prediction (CP) 方法的影响，揭示 TS 在改善 APS/RAPS 类条件覆盖率的同时会增大预测集尺寸的反直觉现象，建立了完整的非单调理论解释并提出实用指南。
+  [ICML2025][LLM评测][Temperature Scaling] 首次系统研究 Temperature Scaling (TS) 校准对 Conformal Prediction (CP) 方法的影响，揭示 TS 在改善 APS/RAPS 类条件覆盖率的同时会增大预测集尺寸的反直觉现象…
 tags:
-  - ICML2025
-  - Temperature Scaling
-  - 共形预测
-  - LLM评测
-  - 校准
-  - 预测集大小
-  - 条件覆盖
+  - "ICML2025"
+  - "LLM评测"
+  - "Temperature Scaling"
+  - "共形预测"
+  - "不确定性量化"
+  - "校准"
+  - "预测集大小"
+  - "条件覆盖"
 ---
 
 # On Temperature Scaling and Conformal Prediction of Deep Classifiers

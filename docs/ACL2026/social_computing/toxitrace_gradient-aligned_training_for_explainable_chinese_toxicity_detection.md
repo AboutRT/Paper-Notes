@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ToxiTrace: Gradient-Aligned Training for Explainable Chinese Toxicity Detection
 description: >-
-  [ACL 2026][社会计算] ToxiTrace 提出了一种面向 BERT 类编码器的可解释中文毒性检测方法，通过 CuSA（LLM 引导的弱标注）、GCLoss（梯度约束损失）和 ARCL（对抗推理对比学习）三个组件，在保持高效编码器推理的同时实现了句级分类准确率和连续有毒片段提取的双重提升。
+  [ACL 2026][社会计算][中文有毒内容检测] ToxiTrace 提出了一种面向 BERT 类编码器的可解释中文毒性检测方法，通过 CuSA（LLM 引导的弱标注）、GCLoss（梯度约束损失）和 ARCL（对抗推理对比学习）三个组件…
 tags:
-  - ACL 2026
-  - 社会计算
-  - 可解释性
-  - 梯度约束
-  - 细粒度证据抽取
-  - 对比学习
+  - "ACL 2026"
+  - "社会计算"
+  - "中文有毒内容检测"
+  - "可解释性"
+  - "梯度约束"
+  - "细粒度证据抽取"
+  - "对比学习"
 ---
 
 # ToxiTrace: Gradient-Aligned Training for Explainable Chinese Toxicity Detection

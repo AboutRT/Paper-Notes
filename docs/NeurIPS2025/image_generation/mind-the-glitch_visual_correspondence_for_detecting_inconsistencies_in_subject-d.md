@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Mind-the-Glitch: Visual Correspondence for Detecting Inconsistencies in Subject-Driven Generation
 description: >-
-  [NeurIPS 2025][图像生成][subject-driven generation] 提出从预训练扩散模型骨干网络中解耦语义特征和视觉特征的框架，实现视觉对应匹配，并基于此提出 Visual Semantic Matching (VSM) 度量，首次同时支持主体驱动图像生成中视觉不一致性的**量化和空间定位**。
+  [NeurIPS 2025][图像生成][subject-driven generation] 提出从预训练扩散模型骨干网络中解耦语义特征和视觉特征的框架，实现视觉对应匹配，并基于此提出 Visual Semantic Matching (VSM) 度量…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - subject-driven generation
-  - visual correspondence
-  - 扩散模型
-  - metric
-  - inconsistency detection
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "subject-driven generation"
+  - "visual correspondence"
+  - "扩散模型"
+  - "metric"
+  - "inconsistency detection"
 ---
 
 # Mind-the-Glitch: Visual Correspondence for Detecting Inconsistencies in Subject-Driven Generation

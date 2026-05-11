@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Scaling Backwards: Minimal Synthetic Pre-training?
 description: >-
-  [ECCV 2024][合成预训练] 提出 1p-frac——仅用单个分形图像的微小扰动即可实现与 ImageNet-1k 级别可比的预训练效果，挑战了"预训练需要大规模数据集"的常规认知，揭示预训练本质可能更接近权重初始化而非视觉概念学习。
+  [ECCV 2024][预训练][合成预训练] 提出 1p-frac——仅用单个分形图像的微小扰动即可实现与 ImageNet-1k 级别可比的预训练效果，挑战了"预训练需要大规模数据集"的常规认知，揭示预训练本质可能更接近权重初始化而非视觉概念学习。
 tags:
-  - ECCV 2024
-  - 合成预训练
-  - 分形图像
-  - 最小数据集
-  - 视觉表征学习
-  - ViT
+  - "ECCV 2024"
+  - "预训练"
+  - "合成预训练"
+  - "分形图像"
+  - "最小数据集"
+  - "视觉表征学习"
+  - "ViT"
 ---
 
 # Scaling Backwards: Minimal Synthetic Pre-training?

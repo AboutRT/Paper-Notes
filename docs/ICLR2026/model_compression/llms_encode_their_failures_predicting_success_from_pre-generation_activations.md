@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][难度预测] 本文证明 LLM 在生成前的内部激活中编码了模型特有的成功概率信息，训练线性探针可以提取该信号用于高效的模型路由，在 MATH 等基准上实现匹配最强模型精度的同时降低 70% 推理成本。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 难度预测
-  - 线性探针
-  - 模型路由
-  - 推理时计算
-  - 成功预测
+  - "ICLR 2026"
+  - "模型压缩"
+  - "难度预测"
+  - "线性探针"
+  - "模型路由"
+  - "推理时计算"
+  - "成功预测"
 ---
 
 # LLMs Encode Their Failures: Predicting Success from Pre-Generation Activations

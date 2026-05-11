@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification
 description: >-
-  [ACL 2025][多模态][科学声称验证] SciVer 是首个面向多模态科学文献声称验证的基准数据集，包含 3000 个专家标注样本覆盖 1113 篇 CS 论文，设计了直接/并行/序列/分析四种推理子任务，评估 21 个基础模型后发现最强模型 o4-mini（77.7%）与人类专家（93.8%）仍有 16% 的显著差距。
+  [ACL 2025][多模态VLM][科学声称验证] SciVer 是首个面向多模态科学文献声称验证的基准数据集，包含 3000 个专家标注样本覆盖 1113 篇 CS 论文，设计了直接/并行/序列/分析四种推理子任务…
 tags:
-  - ACL 2025
-  - 多模态
-  - 科学声称验证
-  - 多模态推理
-  - 多模态VLM
-  - 基础模型
-  - 证据标注
+  - "ACL 2025"
+  - "多模态VLM"
+  - "科学声称验证"
+  - "多模态推理"
+  - "基准评测"
+  - "基础模型"
+  - "证据标注"
 ---
 
 # SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification

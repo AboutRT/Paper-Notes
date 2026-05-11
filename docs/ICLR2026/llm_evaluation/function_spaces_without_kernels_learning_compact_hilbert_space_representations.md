@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM评测][函数编码器] 证明函数编码器（Function Encoders）通过学习神经网络基函数定义了一个有效的核，建立了神经特征学习与RKHS理论的桥梁，并提出PCA引导的紧凑基选择算法和有限样本泛化界。
 tags:
-  - ICLR 2026
-  - LLM评测
-  - 函数编码器
-  - 核方法
-  - Hilbert空间
-  - 泛化界
-  - PCA基选择
+  - "ICLR 2026"
+  - "LLM评测"
+  - "函数编码器"
+  - "核方法"
+  - "Hilbert空间"
+  - "泛化界"
+  - "PCA基选择"
 ---
 
 # Function Spaces Without Kernels: Learning Compact Hilbert Space Representations

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][多模态VLM][后融合] 提出 LaMI，通过后融合架构在预测最后阶段融合视觉特征与 LLM 输出，并在推理时从文本生成多张图像进行基于置信度的聚合，在不损害文本推理能力的前提下显著提升 LLM 的视觉常识推理能力。
 tags:
-  - ACL 2026
-  - 多模态VLM
-  - 后融合
-  - 多图像生成
-  - 视觉常识推理
-  - 视觉增强LLM
-  - 推理时视觉注入
+  - "ACL 2026"
+  - "多模态VLM"
+  - "后融合"
+  - "多图像生成"
+  - "视觉常识推理"
+  - "视觉增强LLM"
+  - "推理时视觉注入"
 ---
 
 # LaMI: Augmenting Large Language Models via Late Multi-Image Fusion

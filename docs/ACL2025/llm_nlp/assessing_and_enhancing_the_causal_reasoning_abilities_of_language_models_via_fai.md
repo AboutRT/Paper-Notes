@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][因果推理] 本文提出了一个基于忠实文本解释（Faithful Textual Interpretation, FTI）的框架，通过将因果推理任务中的变量关系忠实地转化为自然语言描述，评估并增强LLM的因果推理能力，在多个因果推理基准上取得了显著提升。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 因果推理
-  - 语言模型
-  - 忠实文本解释
-  - 因果图
-  - 反事实推理
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "因果推理"
+  - "语言模型"
+  - "忠实文本解释"
+  - "因果图"
+  - "反事实推理"
 ---
 
 # Assessing and Enhancing the Causal Reasoning Abilities of Language Models via Faithful Textual Interpretation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Discourse Coherence and Response-Guided Context Rewriting for Multi-Party Dialogue Generation
 description: >-
-  [ACL 2026][多方对话] 本文提出 DRCR，首个将上下文改写引入多方对话生成的框架，使用话语连贯性和回复质量双反馈信号构建偏好数据，通过动态自演化学习让改写器和回复器在迭代训练中相互增强。
+  [ACL 2026][对话系统][多方对话] 本文提出 DRCR，首个将上下文改写引入多方对话生成的框架，使用话语连贯性和回复质量双反馈信号构建偏好数据，通过动态自演化学习让改写器和回复器在迭代训练中相互增强。
 tags:
-  - ACL 2026
-  - 多方对话
-  - 上下文改写
-  - 话语连贯性
-  - 偏好学习
-  - 动态自演化
+  - "ACL 2026"
+  - "对话系统"
+  - "多方对话"
+  - "上下文改写"
+  - "话语连贯性"
+  - "偏好学习"
+  - "动态自演化"
 ---
 
 # Discourse Coherence and Response-Guided Context Rewriting for Multi-Party Dialogue Generation

@@ -2,15 +2,16 @@
 title: >-
   [论文解读] On the Clean Generalization and Robust Overfitting in Adversarial Training from Two Theoretical Views: Representation Complexity and Training Dynamics
 description: >-
-  [ICML2025][LLM预训练] 本文从**表示复杂度**和**训练动态**两个视角，理论解释了对抗训练中"干净泛化与鲁棒过拟合共存"(CGRO)现象：CGRO分类器仅需额外 $\tilde{O}(ND)$ 参数即可通过鲁棒记忆实现，而真正的鲁棒泛化在最坏情况下需要指数级模型容量；在结构化数据上，对抗训练的三阶段相变过程会使网络部分学习真特征、完全记忆噪声，从而可证地收敛到CGRO状态。
+  [ICML2025][预训练][对抗训练] 本文从**表示复杂度**和**训练动态**两个视角，理论解释了对抗训练中"干净泛化与鲁棒过拟合共存"(CGRO)现象：CGRO分类器仅需额外 $\tilde{O}(ND)$ 参数即可通过鲁棒记忆实现，而真正的鲁棒泛化在最坏情况下需要指数级模型容量；在结构化数据上…
 tags:
-  - ICML2025
-  - LLM预训练
-  - 鲁棒过拟合
-  - 干净泛化
-  - 表示复杂度
-  - 训练动态
-  - 特征学习
+  - "ICML2025"
+  - "预训练"
+  - "对抗训练"
+  - "鲁棒过拟合"
+  - "干净泛化"
+  - "表示复杂度"
+  - "训练动态"
+  - "特征学习"
 ---
 
 # On the Clean Generalization and Robust Overfitting in Adversarial Training from Two Theoretical Views: Representation Complexity and Training Dynamics

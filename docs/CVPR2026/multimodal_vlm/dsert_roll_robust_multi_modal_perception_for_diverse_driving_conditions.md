@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions
 description: >-
-  [CVPR 2026][多模态][多模态] 提出 DSERT-RoLL 驾驶数据集，首次集成立体事件相机、RGB、热成像、4D 雷达和双 LiDAR 六种传感器，覆盖多种天气和光照条件，并提出统一多模态 3D 检测融合框架。
+  [CVPR 2026][多模态VLM][多模态] 提出 DSERT-RoLL 驾驶数据集，首次集成立体事件相机、RGB、热成像、4D 雷达和双 LiDAR 六种传感器，覆盖多种天气和光照条件，并提出统一多模态 3D 检测融合框架。
 tags:
-  - CVPR 2026
-  - 多模态
-  - event camera
-  - 4D radar
-  - thermal camera
-  - 3D detection
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态"
+  - "event camera"
+  - "4D radar"
+  - "thermal camera"
+  - "3D detection"
 ---
 
 # DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions

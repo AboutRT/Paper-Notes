@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][白平衡] 针对多光源场景白平衡校正问题，提出一种基于 Transformer 的高效融合模型来替代传统线性融合，并构建了包含 16,000+ 张图像的大规模多光源白平衡数据集，在新数据集上实现比现有方法提升 100% 的校正质量。
 tags:
-  - ICCV 2025
-  - 白平衡
-  - 多光源
-  - 图像融合
-  - Transformer
-  - 数据集
+  - "ICCV 2025"
+  - "白平衡"
+  - "多光源"
+  - "图像融合"
+  - "Transformer"
+  - "数据集"
 ---
 
 # Revisiting Image Fusion for Multi-Illuminant White-Balance Correction

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Feature Attribution Stability Suite: How Stable Are Post-Hoc Attributions?
 description: >-
-  [CVPR 2026][特征归因稳定性] 提出 FASS 基准，通过强制预测不变性过滤、三轴稳定性分解（空间/排序/显著区域）和多类型扰动（几何/光度/压缩），系统评估后验特征归因方法的稳定性，揭示了现有评估体系的根本性缺陷。
+  [CVPR 2026][可解释性][特征归因稳定性] 提出 FASS 基准，通过强制预测不变性过滤、三轴稳定性分解（空间/排序/显著区域）和多类型扰动（几何/光度/压缩），系统评估后验特征归因方法的稳定性，揭示了现有评估体系的根本性缺陷。
 tags:
-  - CVPR 2026
-  - 特征归因稳定性
-  - 后验解释方法
-  - 预测不变性
-  - 扰动鲁棒性
-  - XAI基准
+  - "CVPR 2026"
+  - "可解释性"
+  - "特征归因稳定性"
+  - "后验解释方法"
+  - "预测不变性"
+  - "扰动鲁棒性"
+  - "XAI基准"
 ---
 
 # Feature Attribution Stability Suite: How Stable Are Post-Hoc Attributions?

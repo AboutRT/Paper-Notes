@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention
 description: >-
-  [AAAI 2026][图像分割][lightweight backbone] 针对遥感图像中的空间冗余（大面积均质背景）和通道冗余（极端尺度变化导致单一特征空间低效）问题，提出 LWGANet 轻量化骨干，通过 Top-K 稀疏全局特征交互（TGFI）和异构分组注意力（LWGA）模块实现高效多尺度特征表示，在 12 个数据集 4 类遥感任务上达到 SOTA。
+  [AAAI 2026][语义分割][lightweight backbone] 针对遥感图像中的空间冗余（大面积均质背景）和通道冗余（极端尺度变化导致单一特征空间低效）问题，提出 LWGANet 轻量化骨干，通过 Top-K 稀疏全局特征交互（TGFI）和异构分组注意力（LWGA）模块实现高效多尺度特征表示…
 tags:
-  - AAAI 2026
-  - 图像分割
-  - lightweight backbone
-  - remote sensing
-  - 注意力机制
-  - spatial redundancy
-  - channel redundancy
+  - "AAAI 2026"
+  - "语义分割"
+  - "lightweight backbone"
+  - "remote sensing"
+  - "注意力机制"
+  - "spatial redundancy"
+  - "channel redundancy"
 ---
 
 # LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention

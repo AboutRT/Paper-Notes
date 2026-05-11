@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds
 description: >-
-  [ECCV 2024][自动驾驶][LiDAR语义分割] SFPNet 提出稀疏焦点调制（SFPM）替代 window-attention，通过多层级上下文提取和门控自适应聚合来避免针对特定 LiDAR 类型的归纳偏置设计，在机械旋转式、固态和混合固态三种 LiDAR 数据集上均取得领先或竞争性性能，并发布了首个混合固态 LiDAR 语义分割数据集 S.MID。
+  [ECCV 2024][自动驾驶][LiDAR语义分割] SFPNet 提出稀疏焦点调制（SFPM）替代 window-attention，通过多层级上下文提取和门控自适应聚合来避免针对特定 LiDAR 类型的归纳偏置设计，在机械旋转式、固态和混合固态三种 LiDAR 数据集上均取得领先或竞争性性能…
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - LiDAR语义分割
-  - 稀疏焦点调制
-  - 通用LiDAR
-  - 归纳偏置
-  - 跨LiDAR泛化
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "LiDAR语义分割"
+  - "稀疏焦点调制"
+  - "通用LiDAR"
+  - "归纳偏置"
+  - "跨LiDAR泛化"
 ---
 
 # SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds

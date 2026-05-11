@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing
 description: >-
-  [ICML 2025][视频扩散模型] 提出 Ca2-VDM，通过因果生成（Causal Generation）和缓存共享（Cache Sharing）两大设计，消除自回归视频扩散模型中条件帧的冗余计算，将计算复杂度从二次降至线性，生成 80 帧视频速度比基线快 2.5 倍，同时保持 SOTA 级生成质量。
+  [ICML 2025][视频生成][视频扩散模型] 提出 Ca2-VDM，通过因果生成（Causal Generation）和缓存共享（Cache Sharing）两大设计，消除自回归视频扩散模型中条件帧的冗余计算，将计算复杂度从二次降至线性，生成 80 帧视频速度比基线快 2.5 倍…
 tags:
-  - ICML 2025
-  - 视频扩散模型
-  - 自回归生成
-  - KV-Cache
-  - 视频生成
-  - 长视频生成
+  - "ICML 2025"
+  - "视频生成"
+  - "视频扩散模型"
+  - "自回归生成"
+  - "KV-Cache"
+  - "因果注意力"
+  - "长视频生成"
 ---
 
 # Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing

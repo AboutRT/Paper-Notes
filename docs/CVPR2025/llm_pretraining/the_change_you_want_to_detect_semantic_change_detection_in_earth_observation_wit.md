@@ -2,10 +2,11 @@
 title: >-
   [论文解读] The Change You Want To Detect: Semantic Change Detection In Earth Observation With Hybrid Data Generationf
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：Bi-temporal change detection at scale based on Very High Resolution (VHR) images is crucial for Earth monitoring. Such task remains poorly addressed even in the deep learning era: it either requires large volumes of annotated data - in the semantic case - or is limited to restricted datasets for bin
+  [CVPR 2025][预训练][待补充] > 基于摘要：Bi-temporal change detection at scale based on Very High Resolution (VHR) images is crucial for Earth monitoring. Such task re…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "预训练"
+  - "待补充"
 ---
 
 # The Change You Want To Detect: Semantic Change Detection In Earth Observation With Hybrid Data Generationf

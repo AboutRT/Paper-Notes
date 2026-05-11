@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D室内布局] 构建了多源大规模 3D 室内布局数据集 M3DLayout（21,367 布局、433k+ 物体实例），融合真实扫描、专业设计和程序化生成三种来源，配以结构化文本描述，为文本驱动的 3D 场景生成提供高质量训练基础。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D室内布局
-  - 数据集
-  - 文本驱动场景生成
-  - 扩散模型
-  - 自回归模型
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D室内布局"
+  - "数据集"
+  - "文本驱动场景生成"
+  - "扩散模型"
+  - "自回归模型"
 ---
 
 # M3DLayout: A Multi-Source Dataset of 3D Indoor Layouts and Structured Descriptions for 3D Generation

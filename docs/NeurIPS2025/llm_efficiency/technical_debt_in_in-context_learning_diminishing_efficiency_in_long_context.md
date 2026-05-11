@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Technical Debt in In-Context Learning: Diminishing Efficiency in Long Context
 description: >-
-  [NeurIPS 2025][LLM效率][上下文学习] 借鉴优化软件基准方法论，用性能比率精确量化ICL相对贝叶斯最优估计器的样本效率，发现存在"二分法"——少射下(≤15个演示)效率接近最优(仅多10%)而多射下(>40个演示)急剧恶化(多45%)，信息论分析证明这源于不可消除的非递减过剩风险，是ICL机制的内在限制。
+  [NeurIPS 2025][LLM效率][上下文学习] 借鉴优化软件基准方法论，用性能比率精确量化ICL相对贝叶斯最优估计器的样本效率，发现存在"二分法"——少射下(≤15个演示)效率接近最优(仅多10%)而多射下(>40个演示)急剧恶化(多45%)，信息论分析证明这源于不可消除的非递减过剩风险…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - 上下文学习
-  - 样本复杂度
-  - 贝叶斯最优
-  - 技术债务
-  - 长上下文效率
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "上下文学习"
+  - "样本复杂度"
+  - "贝叶斯最优"
+  - "技术债务"
+  - "长上下文效率"
 ---
 
 # Technical Debt in In-Context Learning: Diminishing Efficiency in Long Context
@@ -75,7 +75,7 @@ Transformer使用GPT-2架构，训练目标为 $\mathcal{L}(\theta) = \mathbb{E}
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | ICL vs AIC/BIC/BMC ($\mathcal{Q} \leq 0.3$) | ICL完美profile ($\rho=1$ at $\tau=1$) | ICL在少射下全面压制原理性方法 |
-| ICL vs AIC/BIC/BMC ($\mathcal{Q} \geq 0.8$) | ICL profile<0.8 at $\tau=3$ | 多射下所有原理性方法反超ICL |
+| ICL vs AIC/BIC/BMC ($\mathcal{Q} \geq 0.8$) | ICL profile&lt;0.8 at $\tau=3$ | 多射下所有原理性方法反超ICL |
 | $L^2$距BMA距离 | ICL曲线平坦化vs BIC/BMC趋零 | ICL缺乏一致性（不收敛到BMA） |
 | 扩大模型/加长预训练prompt | 过剩风险值降低但非递减形状不变 | 扩展计算无法根本解决问题 |
 

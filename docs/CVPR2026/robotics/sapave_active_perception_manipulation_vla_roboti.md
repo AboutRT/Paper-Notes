@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][机器人][主动感知] SaPaVe提出端到端主动操作框架，通过解耦相机动作和操作动作的底层到顶层训练策略，先用20万对语义相机控制数据学习主动感知先验，再联合优化实现主动操作，在真实世界中超越π₀和GR00T N1达31.25%成功率提升。
 tags:
-  - CVPR 2026
-  - 机器人
-  - 主动感知
-  - VLA模型
-  - 解耦动作空间
-  - 3D空间注入
-  - 人形机器人
+  - "CVPR 2026"
+  - "机器人"
+  - "主动感知"
+  - "VLA模型"
+  - "解耦动作空间"
+  - "3D空间注入"
+  - "人形机器人"
 ---
 
 # SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics

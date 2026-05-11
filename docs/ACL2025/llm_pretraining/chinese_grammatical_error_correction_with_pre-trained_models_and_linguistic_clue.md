@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Chinese Grammatical Error Correction With Pre-trained Models and Linguistic Clues
 description: >-
-  [ACL 2025][中文语法纠错] 本文提出一种融合预训练语言模型和多层级语言学线索（拼音、字形、句法依存）的中文语法纠错方法，通过显式注入语言学先验知识提升纠错模型对中文特有错误类型的识别和修正能力。
+  [ACL 2025][预训练][中文语法纠错] 本文提出一种融合预训练语言模型和多层级语言学线索（拼音、字形、句法依存）的中文语法纠错方法，通过显式注入语言学先验知识提升纠错模型对中文特有错误类型的识别和修正能力。
 tags:
-  - ACL 2025
-  - 中文语法纠错
-  - 预训练模型
-  - 语言学线索
-  - GEC
-  - 多粒度特征
+  - "ACL 2025"
+  - "预训练"
+  - "中文语法纠错"
+  - "预训练模型"
+  - "语言学线索"
+  - "GEC"
+  - "多粒度特征"
 ---
 
 # Chinese Grammatical Error Correction With Pre-trained Models and Linguistic Clues

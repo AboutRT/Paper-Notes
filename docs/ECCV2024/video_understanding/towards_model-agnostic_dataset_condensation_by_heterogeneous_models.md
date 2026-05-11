@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][数据集蒸馏] 提出异构模型数据集压缩（HMDC）方法，通过同时使用两个结构不同的模型（如 ConvNet 和 ViT）进行数据集压缩，并设计梯度平衡模块和互蒸馏机制，生成对各种模型普遍适用的压缩图像，解决传统方法过度适配单一模型的问题。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 数据集蒸馏
-  - 模型无关
-  - 异构模型
-  - 梯度平衡
-  - 知识蒸馏
+  - "ECCV 2024"
+  - "视频理解"
+  - "数据集蒸馏"
+  - "模型无关"
+  - "异构模型"
+  - "梯度平衡"
+  - "知识蒸馏"
 ---
 
 # Towards Model-Agnostic Dataset Condensation by Heterogeneous Models

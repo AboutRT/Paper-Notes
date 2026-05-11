@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像超分辨率] 发现 LR 图像不同区域（平坦区域 vs 边缘纹理区域）对应扩散过程的不同时间步，提出不确定性引导的噪声加权（UNW）策略，对平坦区域施加更少噪声以保留更多 LR 信息，在更小模型和更少训练开销下达到超分 SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像超分辨率
-  - 扩散模型
-  - 不确定性估计
-  - 各向异性噪声
-  - 区域自适应
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像超分辨率"
+  - "扩散模型"
+  - "不确定性估计"
+  - "各向异性噪声"
+  - "区域自适应"
 ---
 
 # Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model

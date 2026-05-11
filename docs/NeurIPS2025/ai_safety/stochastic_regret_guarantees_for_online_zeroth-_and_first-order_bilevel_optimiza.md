@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][双层优化] 提出了一种新的搜索方向并证明基于该方向的一阶和零阶在线双层优化算法能够在不需要窗口平滑的条件下实现次线性随机双层遗憾保证，同时通过降低 oracle 依赖、并行更新和零阶 Hessian/Jacobian 估计来提升效率。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 双层优化
-  - 在线学习
-  - 零阶优化
-  - 随机遗憾
-  - 超梯度估计
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "双层优化"
+  - "在线学习"
+  - "零阶优化"
+  - "随机遗憾"
+  - "超梯度估计"
 ---
 
 # Stochastic Regret Guarantees for Online Zeroth- and First-Order Bilevel Optimization

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][视频推理] 提出DeepVideo-R1，将GRPO重新表述为回归优势值的Reg-GRPO（消除clipping/min等保护机制），同时通过难度感知数据增强缓解优势值消失问题，在视频推理任务上相比标准GRPO提升高达10.1个百分点。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - 视频推理
-  - 强化学习微调
-  - GRPO
-  - 回归目标
-  - 难度感知增强
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "视频推理"
+  - "强化学习微调"
+  - "GRPO"
+  - "回归目标"
+  - "难度感知增强"
 ---
 
 # DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO

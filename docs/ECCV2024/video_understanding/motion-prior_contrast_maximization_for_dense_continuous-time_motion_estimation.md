@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][事件相机] 本文提出一种将非线性运动先验（轨迹参数函数）引入对比度最大化框架的自监督方法，用于事件相机的稠密连续时间运动估计，在真实世界数据集 EVIMO2 上将合成数据预训练模型的零样本性能提升了 29%。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 事件相机
-  - contrast maximization
-  - motion estimation
-  - 自监督学习
-  - 光流
+  - "ECCV 2024"
+  - "视频理解"
+  - "事件相机"
+  - "contrast maximization"
+  - "motion estimation"
+  - "自监督学习"
+  - "光流"
 ---
 
 # Motion-prior Contrast Maximization for Dense Continuous-Time Motion Estimation

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][自监督学习][prototype collapse] 诊断出原型自监督学习中部分原型坍缩的根因是编码器与原型的联合优化导致的快捷学习，提出全解耦训练策略——用在线 GMM 独立估计原型——彻底消除坍缩并提升下游性能。
 tags:
-  - ICLR 2026
-  - 自监督学习
-  - prototype collapse
-  - DINO
-  - decoupling
-  - Gaussian mixture
+  - "ICLR 2026"
+  - "自监督学习"
+  - "prototype collapse"
+  - "DINO"
+  - "decoupling"
+  - "Gaussian mixture"
 ---
 
 # Why Prototypes Collapse: Diagnosing and Preventing Partial Collapse in Prototypical Self-Supervised Learning

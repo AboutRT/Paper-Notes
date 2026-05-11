@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Targeted Exploration via Unified Entropy Control for Reinforcement Learning
 description: >-
-  [ACL 2026 Findings][多模态][熵控制] 本文提出 UEC-RL，一个统一的双向熵控制框架，通过对困难 prompt 进行高温定向探索（增大熵）和通过经验回放稳定器巩固高质量轨迹（减小熵），解决 GRPO 中普遍存在的熵坍塌和训练不稳定问题，在 Geometry3K 上实现 37.9% 的相对提升。
+  [ACL 2026 Findings][多模态VLM][熵控制] 本文提出 UEC-RL，一个统一的双向熵控制框架，通过对困难 prompt 进行高温定向探索（增大熵）和通过经验回放稳定器巩固高质量轨迹（减小熵），解决 GRPO 中普遍存在的熵坍塌和训练不稳定问题…
 tags:
-  - ACL 2026 Findings
-  - 多模态
-  - 熵控制
-  - GRPO
-  - 探索策略
-  - 多模态VLM
-  - 推理增强
+  - "ACL 2026 Findings"
+  - "多模态VLM"
+  - "熵控制"
+  - "GRPO"
+  - "探索策略"
+  - "强化学习"
+  - "推理增强"
 ---
 
 # Targeted Exploration via Unified Entropy Control for Reinforcement Learning

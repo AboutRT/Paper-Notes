@@ -1,14 +1,27 @@
 ---
 title: >-
-  CVPR2026 1648篇论文解读
+  CVPR2026 1645篇论文解读
 description: >-
-  1648篇CVPR2026论文解读，涵盖多模态 VLM(241篇)、3D 视觉(230篇)、图像生成(208篇)、医学图像(114篇)、自动驾驶(88篇)、语义分割(85篇)、视频理解(77篇)、人体理解(56篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1645篇CVPR2026论文解读，涵盖多模态 VLM(240篇)、3D 视觉(230篇)、图像生成(208篇)、医学图像(114篇)、自动驾驶(88篇)、语义分割(85篇)、视频理解(77篇)、人体理解(56篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "CVPR2026"
+  - "AI顶会"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态 VLM"
+  - "3D 视觉"
+  - "图像生成"
+  - "医学图像"
+  - "自动驾驶"
+  - "语义分割"
+  - "视频理解"
+  - "人体理解"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📷 CVPR2026 论文笔记
 
-1648篇CVPR2026论文解读，涵盖多模态 VLM(241篇)、3D 视觉(230篇)、图像生成(208篇)、医学图像(114篇)、自动驾驶(88篇)、语义分割(85篇)、视频理解(77篇)、人体理解(56篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1645篇CVPR2026论文解读，涵盖多模态 VLM(240篇)、3D 视觉(230篇)、图像生成(208篇)、医学图像(114篇)、自动驾驶(88篇)、语义分割(85篇)、视频理解(77篇)、人体理解(56篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -103,10 +116,6 @@ description: >-
 **[CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](multimodal_vlm/capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)**
 
 :   提出 CAPT 混淆感知 prompt tuning 框架，通过语义混淆挖掘器（SEM）和样本混淆挖掘器（SAM）显式建模 VLM 的系统性误对齐模式，配合多粒度差异专家（MGDE）融合不同层次的混淆信息，在 11 个基准上取得 HM 83.90% 的最优表现。
-
-**[ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](multimodal_vlm/chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)**
-
-:   发布 ChartNet——150 万规模的高质量多模态图表数据集，通过代码引导合成管线生成包含图像-代码-数据表-文本-推理QA 的对齐五元组，在图表理解和推理任务上显著提升 VLM 性能，小模型微调后超越 GPT-4o。
 
 **[Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking](multimodal_vlm/circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md)**
 
@@ -4718,10 +4727,6 @@ description: >-
 
 :   提出 Cluster-aware Upcycling，通过球面 k-means 聚类提取密集模型的语义结构来初始化 MoE 的专家和路由器参数，打破专家对称性并促进早期专业化，配合专家集成自蒸馏损失在 CLIP ViT 上一致超越现有 upcycling 方法。
 
-**[FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](model_compression/faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)**
-
-:   提出 FAAR，一种频率感知的多任务参数高效微调方法，通过 Performance-Driven Rank Shrinking (PDRS) 为每个任务和层动态选择最优秩，并设计 Task-Spectral Pyramidal Decoder (TS-PD) 利用 FFT 频率信息增强空间感知和跨任务一致性，以传统微调 1/9 的参数量实现更优性能。
-
 **[FAIR-Pruner: Leveraging Tolerance of Difference for Flexible Automatic Layer-Wise Neural Network Pruning](model_compression/fair-pruner_leveraging_tolerance_of_difference_for_flexible_automatic_layer-wise.md)**
 
 :   提出 FAIR-Pruner 结构化剪枝框架，通过 Tolerance of Differences（ToD）指标协调两个互补视角：基于类条件可分性的 Wasserstein Utilization Score（识别冗余单元）和基于 Taylor 展开的 Reconstruction Score（保护关键单元），自动确定逐层非均匀剪枝率且支持免搜索灵活调整压缩比，在 CIFAR-10/SVHN/ImageNet 上取得 SOTA。
@@ -5347,10 +5352,6 @@ description: >-
 **[A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](self_supervised/a_stitch_in_time_learning_procedural_workflow_via_self_supervised_plackett_luce_r.md)**
 
 :   提出 PL-Stitch 自监督框架，利用 Plackett-Luce 概率排序模型将视频帧的时序排序作为预训练信号，学习具有"程序感知"能力的视频表示，在手术阶段识别和烹饪动作分割上全面超越现有自监督方法。
-
-**[AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](self_supervised/actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
-
-:   提出AcTTA框架，首次将激活函数作为测试时适应(TTA)的可学习组件，通过参数化的激活中心偏移 $c$ 和非对称梯度缩放 $\lambda_{pos}, \lambda_{neg}$ 替代或增强传统归一化层适应，在CIFAR-10/100-C和ImageNet-C上一致超越所有归一化基TTA方法，并支持10倍大的学习率。
 
 **[An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning](self_supervised/an_optimal_transport_driven_approach_for_cultivating_latent_space_in_online_incr.md)**
 

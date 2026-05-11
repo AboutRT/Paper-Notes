@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Visual Grounding for Object-Level Generalization in Reinforcement Learning
 description: >-
-  [ECCV2024][visual grounding] 利用视觉语言模型 (MineCLIP) 的 visual grounding 能力生成目标物体的 confidence map，通过奖励设计和任务表征两条路径将 VLM 知识迁移到强化学习中，实现对未见物体和指令的零样本泛化。
+  [ECCV2024][强化学习][visual grounding] 利用视觉语言模型 (MineCLIP) 的 visual grounding 能力生成目标物体的 confidence map，通过奖励设计和任务表征两条路径将 VLM 知识迁移到强化学习中，实现对未见物体和指令的零样本泛化。
 tags:
-  - ECCV2024
-  - visual grounding
-  - 强化学习
-  - VLM
-  - Minecraft
-  - CLIP
-  - intrinsic reward
+  - "ECCV2024"
+  - "强化学习"
+  - "visual grounding"
+  - "zero-shot generalization"
+  - "VLM"
+  - "Minecraft"
+  - "CLIP"
+  - "intrinsic reward"
 ---
 
 # Visual Grounding for Object-Level Generalization in Reinforcement Learning

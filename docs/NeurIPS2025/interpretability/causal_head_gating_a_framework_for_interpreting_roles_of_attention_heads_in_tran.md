@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers
 description: >-
-  [NeurIPS 2025][mechanistic interpretability] 提出 Causal Head Gating (CHG)，通过对 Transformer 的每个 attention head 学习一个可微门控系数并结合正/负正则化，将 head 分为促进（facilitating）、干扰（interfering）、无关（irrelevant）三类，无需人工标签或 prompt 模板即可发现因果子电路，并扩展为对比 CHG 以分离 ICL 和指令遵循的独立电路。
+  [NeurIPS 2025][可解释性][mechanistic interpretability] 提出 Causal Head Gating (CHG)，通过对 Transformer 的每个 attention head 学习一个可微门控系数并结合正/负正则化…
 tags:
-  - NeurIPS 2025
-  - mechanistic interpretability
-  - 注意力机制
-  - causal taxonomy
-  - circuit discovery
-  - Llama
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "mechanistic interpretability"
+  - "注意力机制"
+  - "causal taxonomy"
+  - "circuit discovery"
+  - "Llama"
 ---
 
 # Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers
@@ -86,8 +87,8 @@ NLL + L1 正则化。先用 $\lambda=0$ 拟合初始化 $G$，再分别用 $\lam
 
 | 任务 | Always Facilitating | Always Interfering | 说明 |
 |------|--------------------|--------------------|------|
-| Syntax | <5% | ~0% | 紧凑稀疏电路 |
-| Common Sense | <5% | ~0% | 紧凑稀疏电路 |
+| Syntax | &lt;5% | ~0% | 紧凑稀疏电路 |
+| Common Sense | &lt;5% | ~0% | 紧凑稀疏电路 |
 | Math | 38.3% (3B) | 1.3% (3B) | 更大更刚性的电路 |
 
 ### 消融实验：Contrastive CHG

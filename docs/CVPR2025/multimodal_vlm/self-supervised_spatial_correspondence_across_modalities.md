@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Self-Supervised Spatial Correspondence Across Modalities
 description: >-
-  [CVPR 2025][多模态][跨模态像素对应] 将对比随机游走（CRW）框架扩展到跨模态像素级对应问题，通过同时学习模态内和模态间的循环一致性特征表示，在无需配对标注的情况下实现 RGB-Depth、RGB-Thermal、Photo-Sketch 等跨模态密集匹配，显著超越现有方法。
+  [CVPR 2025][多模态VLM][跨模态像素对应] 将对比随机游走（CRW）框架扩展到跨模态像素级对应问题，通过同时学习模态内和模态间的循环一致性特征表示，在无需配对标注的情况下实现 RGB-Depth、RGB-Thermal、Photo-Sketch 等跨模态密集匹配，显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 跨模态像素对应
-  - 对比随机游走
-  - 多模态VLM
-  - RGB-深度匹配
-  - RGB-热成像匹配
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "跨模态像素对应"
+  - "对比随机游走"
+  - "自监督学习"
+  - "RGB-深度匹配"
+  - "RGB-热成像匹配"
 ---
 
 # Self-Supervised Spatial Correspondence Across Modalities

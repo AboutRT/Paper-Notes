@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][4D高斯] 提出首个完整的4D Gaussian Splatting SLAM系统，在动态场景中同时进行相机位姿跟踪和4D高斯辐射场重建——将高斯原语分为静态/动态集合，通过稀疏控制点+MLP建模动态物体运动，并创新性地设计2D光流图渲染算法来监督动态高斯的运动学习。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 4D高斯
-  - 动态场景SLAM
-  - 光流渲染
-  - 稀疏控制点
-  - RGB-D
+  - "ICCV 2025"
+  - "3D视觉"
+  - "4D高斯"
+  - "动态场景SLAM"
+  - "光流渲染"
+  - "稀疏控制点"
+  - "RGB-D"
 ---
 
 # 4D Gaussian Splatting SLAM

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation
 description: >-
-  [CVPR 2025][机器人][原始提示学习] 提出 Primitive Prompt Learning (PPL)，通过将运动原语编码为可复用的提示向量，结合光流感知的 Motion-Aware Prompting（MAP）实现跨技能运动原语共享，用冻结-扩展机制支持终身机器人操作学习，在 LIBERO 和真实世界中均优于 LoRA、经验回放等基线。
+  [CVPR 2025][机器人][原始提示学习] 提出 Primitive Prompt Learning (PPL)，通过将运动原语编码为可复用的提示向量，结合光流感知的 Motion-Aware Prompting（MAP）实现跨技能运动原语共享，用冻结-扩展机制支持终身机器人操作学习…
 tags:
-  - CVPR 2025
-  - 机器人
-  - 原始提示学习
-  - 终身学习
-  - 光流
-  - 扩散策略
-  - 灾难性遗忘
+  - "CVPR 2025"
+  - "机器人"
+  - "原始提示学习"
+  - "终身学习"
+  - "光流"
+  - "扩散策略"
+  - "灾难性遗忘"
 ---
 
 # Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation

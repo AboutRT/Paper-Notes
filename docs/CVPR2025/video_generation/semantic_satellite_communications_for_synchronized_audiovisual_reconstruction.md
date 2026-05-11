@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Semantic Satellite Communications for Synchronized Audiovisual Reconstruction
 description: >-
-  [CVPR 2025][视频生成] 本文提出了一个面向卫星通信场景的自适应多模态语义传输系统，通过双流生成架构（视频驱动音频 / 音频驱动视频）灵活切换传输路径，结合动态知识库更新机制和 LLM 智能决策模块，在极其有限的卫星带宽下实现高保真的音视频同步重建。
+  [CVPR 2025][视频生成][语义通信] 本文提出了一个面向卫星通信场景的自适应多模态语义传输系统，通过双流生成架构（视频驱动音频 / 音频驱动视频）灵活切换传输路径，结合动态知识库更新机制和 LLM 智能决策模块，在极其有限的卫星带宽下实现高保真的音视频同步重建。
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 卫星通信
-  - 音视频同步重建
-  - LLM智能体
-  - 跨模态生成
+  - "CVPR 2025"
+  - "视频生成"
+  - "语义通信"
+  - "卫星通信"
+  - "音视频同步重建"
+  - "LLM智能体"
+  - "跨模态生成"
 ---
 
 # Semantic Satellite Communications for Synchronized Audiovisual Reconstruction

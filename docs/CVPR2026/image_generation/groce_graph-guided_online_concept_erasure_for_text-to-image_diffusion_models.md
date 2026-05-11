@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][概念擦除] GrOCE 提出基于动态语义图的免训练概念擦除框架，通过构建语义图→自适应聚类识别→选择性切除三个协同组件，实现对文本到图像扩散模型中目标概念的精确、上下文感知的在线移除。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 概念擦除
-  - 扩散模型
-  - 语义图
-  - 免训练
-  - 在线推理
+  - "CVPR 2026"
+  - "图像生成"
+  - "概念擦除"
+  - "扩散模型"
+  - "语义图"
+  - "免训练"
+  - "在线推理"
 ---
 
 # GrOCE: Graph-Guided Online Concept Erasure for Text-to-Image Diffusion Models

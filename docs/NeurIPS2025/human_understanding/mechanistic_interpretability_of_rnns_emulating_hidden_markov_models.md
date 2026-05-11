@@ -4,28 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][人体理解][RNN可解释性] 训练vanilla RNN复现隐马尔可夫模型（HMM）的发射统计量，然后通过逆向工程揭示RNN利用噪声维持的轨道动力学、"kick neuron"电路和自致随机共振机制来实现离散随机状态转换的计算原理。
 tags:
-  - NeurIPS 2025
-  - 人体理解
-  - RNN可解释性
-  - 隐马尔可夫模型
-  - 噪声驱动动力学
-  - 随机共振
-  - 组合动力学基元
----
-
-﻿---
-title: >-
-  [论文解读] Mechanistic Interpretability of RNNs Emulating Hidden Markov Models
-description: >-
-  [NeurIPS 2025][人体理解][RNN可解释性] 训练vanilla RNN复现隐马尔可夫模型（HMM）的发射统计量，然后通过逆向工程揭示RNN利用噪声维持的轨道动力学、"kick neuron"电路和自致随机共振机制来实现离散随机状态转换的计算原理。
-tags:
-  - NeurIPS 2025
-  - 人体理解
-  - RNN可解释性
-  - 隐马尔可夫模型
-  - 噪声驱动动力学
-  - 随机共振
-  - 组合动力学基元
+  - "NeurIPS 2025"
+  - "人体理解"
+  - "RNN可解释性"
+  - "隐马尔可夫模型"
+  - "噪声驱动动力学"
+  - "随机共振"
+  - "组合动力学基元"
 ---
 
 # Mechanistic Interpretability of RNNs Emulating Hidden Markov Models
@@ -89,7 +74,7 @@ tags:
 
     - **Clusters**（驻留时间>8步）：稳定的慢速区域，对应不同输出概率分布，对噪声敏感
     - **Kick-zones**（驻留时间2-8步）：位于cluster下游，有少量不稳定方向，是状态转换的触发区
-    - **Transitions**（驻留时间<2步）：短暂的快速通道，近乎确定性地导向下一个cluster，对噪声不敏感
+    - **Transitions**（驻留时间&lt;2步）：短暂的快速通道，近乎确定性地导向下一个cluster，对噪声不敏感
 
 5. **"Kick Neuron"电路**：
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RadGPT: Constructing 3D Image-Text Tumor Datasets
 description: >-
-  [ICCV 2025][医学图像][CT报告生成] 本文提出 RadGPT——一个解剖感知的 VL AI 管线，通过将放射科医师修订的肿瘤分割 mask 经由确定性算法转化为结构化报告、再由 LLM 适配为叙述性报告，构建了首个大规模公开腹部 CT 图文肿瘤数据集 AbdomenAtlas 3.0（9,262 例 CT、每体素标注 + 报告），并证明分割辅助可显著提升 AI 报告中的肿瘤检测率。
+  [ICCV 2025][医学图像][CT报告生成] 本文提出 RadGPT——一个解剖感知的 VL AI 管线，通过将放射科医师修订的肿瘤分割 mask 经由确定性算法转化为结构化报告、再由 LLM 适配为叙述性报告，构建了首个大规模公开腹部 CT 图文肿瘤数据集 AbdomenAtlas 3.0（9…
 tags:
-  - ICCV 2025
-  - 医学图像
-  - CT报告生成
-  - 肿瘤数据集
-  - 分割辅助报告
-  - 腹部CT
-  - 结构化报告
+  - "ICCV 2025"
+  - "医学图像"
+  - "CT报告生成"
+  - "肿瘤数据集"
+  - "分割辅助报告"
+  - "腹部CT"
+  - "结构化报告"
 ---
 
 # RadGPT: Constructing 3D Image-Text Tumor Datasets

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][CT重建] 提出DM4CT——首个系统性的CT重建扩散模型基准，涵盖十种扩散方法和七种基线方法，在医疗、工业和同步辐射三类数据集上进行全面评估，揭示了扩散模型在CT重建中的优势与局限。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - CT重建
-  - 扩散模型
-  - benchmark
-  - 逆问题
-  - 稀疏视图重建
+  - "ICLR 2026"
+  - "医学图像"
+  - "CT重建"
+  - "扩散模型"
+  - "benchmark"
+  - "逆问题"
+  - "稀疏视图重建"
 ---
 
 # DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction

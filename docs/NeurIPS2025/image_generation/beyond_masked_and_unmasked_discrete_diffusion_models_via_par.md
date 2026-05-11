@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking
 description: >-
-  [NeurIPS 2025][图像生成][离散扩散模型] Prime（Partial masking scheme）通过将每个token用base-b子token序列表示并在子token级别独立掩码，为掩码扩散模型引入中间状态，实现细粒度去噪过程，在OpenWebText上以15.36困惑度首次让MDM在不使用自回归公式的情况下超越ARM（17.54）。
+  [NeurIPS 2025][图像生成][离散扩散模型] Prime（Partial masking scheme）通过将每个token用base-b子token序列表示并在子token级别独立掩码，为掩码扩散模型引入中间状态，实现细粒度去噪过程…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 离散扩散模型
-  - 掩码扩散
-  - 部分掩码
-  - 子token
-  - 文本生成
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "离散扩散模型"
+  - "掩码扩散"
+  - "部分掩码"
+  - "子token"
+  - "文本生成"
 ---
 
 # Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][归纳偏置] 提出Guidance方法，通过逐层表征对齐（CKA）将一个网络（guide）的架构归纳偏置迁移到另一个原本"不可训练"的网络（target），从而使FCN能做图像分类、RNN逼近Transformer的语言建模性能。
 tags:
-  - NeurIPS 2025
-  - 归纳偏置
-  - 其他
-  - CKA
-  - 架构先验
-  - 知识蒸馏
+  - "NeurIPS 2025"
+  - "归纳偏置"
+  - "表征对齐"
+  - "CKA"
+  - "架构先验"
+  - "知识蒸馏"
 ---
 
 # Training the Untrainable: Introducing Inductive Bias via Representational Alignment

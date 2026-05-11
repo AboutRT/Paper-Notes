@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][RoPE] 通过频率分析和小波分解，揭示了使用 RoPE 位置编码的 Transformer 模型中注意力头自发涌现出类小波（wavelet-like）的多分辨率处理特性，以弥补 RoPE 在位置精度和频率分辨率之间的固有权衡。
 tags:
-  - ACL2025
-  - RoPE
-  - wavelet transform
-  - positional encoding
-  - multi-resolution
-  - uncertainty principle
-  - 注意力机制
+  - "ACL2025"
+  - "RoPE"
+  - "wavelet transform"
+  - "positional encoding"
+  - "multi-resolution"
+  - "uncertainty principle"
+  - "注意力机制"
 ---
 
 # Beyond Position: the emergence of wavelet-like properties in Transformers

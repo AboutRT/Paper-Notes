@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][多模态学习] 提出基于异构图的全模态生物医学表征学习框架 GTP-4o，通过异构图嵌入显式建模跨模态关系，利用图提示机制补全缺失模态，并设计知识引导的层次化跨模态聚合，在胶质瘤分级和生存预测任务上取得SOTA。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 多模态学习
-  - 异构图
-  - 模态缺失补全
-  - 生物医学表征
-  - 图提示
+  - "ECCV 2024"
+  - "医学图像"
+  - "多模态学习"
+  - "异构图"
+  - "模态缺失补全"
+  - "生物医学表征"
+  - "图提示"
 ---
 
 # GTP-4o: Modality-Prompted Heterogeneous Graph Learning for Omni-Modal Biomedical Representation

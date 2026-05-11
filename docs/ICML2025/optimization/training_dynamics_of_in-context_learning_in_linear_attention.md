@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Training Dynamics of In-Context Learning in Linear Attention
 description: >-
-  [ICML2025][优化][上下文学习] 本文完整刻画了多头线性注意力在梯度流训练中获取 ICL 能力的动态过程：merged KQ 参数化呈现单次突变式 loss 下降，而 separate KQ 参数化则展现 saddle-to-saddle 逐步学习主成分回归的阶梯式训练动态。
+  [ICML2025][优化/理论][上下文学习] 本文完整刻画了多头线性注意力在梯度流训练中获取 ICL 能力的动态过程：merged KQ 参数化呈现单次突变式 loss 下降，而 separate KQ 参数化则展现 saddle-to-saddle 逐步学习主成分回归的阶梯式训练动态。
 tags:
-  - ICML2025
-  - 优化
-  - 上下文学习
-  - 注意力机制
-  - 训练动态
-  - 梯度流
-  - saddle-to-saddle dynamics
-  - principal component regression
+  - "ICML2025"
+  - "优化/理论"
+  - "上下文学习"
+  - "注意力机制"
+  - "训练动态"
+  - "梯度流"
+  - "saddle-to-saddle dynamics"
+  - "principal component regression"
 ---
 
 # Training Dynamics of In-Context Learning in Linear Attention

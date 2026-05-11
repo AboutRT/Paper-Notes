@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][医学LLM] 提出MedQA-Followup框架系统评估医学LLM的多轮鲁棒性，发现模型在单轮扰动下表现尚可（浅层鲁棒性），但在多轮追问中准确率可从91.2%暴跌至13.5%（深层脆弱性），且间接上下文操纵比直接错误建议更具破坏力。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 医学LLM
-  - 多轮对话鲁棒性
-  - 认知偏差
-  - MedQA
-  - 临床安全
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "医学LLM"
+  - "多轮对话鲁棒性"
+  - "认知偏差"
+  - "MedQA"
+  - "临床安全"
 ---
 
 # Shallow Robustness, Deep Vulnerabilities: Multi-Turn Evaluation of Medical LLMs

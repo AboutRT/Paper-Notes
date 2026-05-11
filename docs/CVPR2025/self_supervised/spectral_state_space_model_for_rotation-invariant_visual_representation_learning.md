@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自监督学习][状态空间模型] 提出 Spectral VMamba，用谱图拉普拉斯的特征向量排序 patch 遍历顺序（替代预定义扫描线），结合旋转特征归一化器（RFN，聚合 4 个正则旋转的特征），在 miniImageNet 上达到 87.86% 准确率且对正则旋转完全不变。
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - 状态空间模型
-  - 旋转不变性
-  - 谱图遍历
-  - VMamba
-  - 图拉普拉斯
+  - "CVPR 2025"
+  - "自监督学习"
+  - "状态空间模型"
+  - "旋转不变性"
+  - "谱图遍历"
+  - "VMamba"
+  - "图拉普拉斯"
 ---
 
 # Spectral State Space Model for Rotation-Invariant Visual Representation Learning

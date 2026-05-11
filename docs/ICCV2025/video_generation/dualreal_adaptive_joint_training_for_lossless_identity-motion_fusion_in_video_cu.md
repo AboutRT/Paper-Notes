@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DualReal: Adaptive Joint Training for Lossless Identity-Motion Fusion in Video Customization
 description: >-
-  [ICCV 2025][视频定制生成] DualReal 首次提出身份与运动的自适应联合训练框架，通过 Dual-aware Adaptation 和 StageBlender Controller 实现两个维度的无损融合，在 CLIP-I 和 DINO-I 指标上平均提升 21.7% 和 31.8%。
+  [ICCV 2025][视频生成][视频定制生成] DualReal 首次提出身份与运动的自适应联合训练框架，通过 Dual-aware Adaptation 和 StageBlender Controller 实现两个维度的无损融合…
 tags:
-  - ICCV 2025
-  - 视频定制生成
-  - 身份-运动融合
-  - 联合训练
-  - Transformer
-  - 自适应控制
+  - "ICCV 2025"
+  - "视频生成"
+  - "视频定制生成"
+  - "身份-运动融合"
+  - "联合训练"
+  - "Transformer"
+  - "自适应控制"
 ---
 
 # DualReal: Adaptive Joint Training for Lossless Identity-Motion Fusion in Video Customization

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DreamRelation: Bridging Customization and Relation Generation
 description: >-
-  [CVPR 2025][图像生成][关系感知定制生成] DreamRelation 提出了一种关系感知的定制化图像生成框架，通过精心构建的解耦数据引擎、关键点匹配损失（KML）和局部 token 注入三大设计，在保持多目标身份一致性的同时准确生成文本指定的目标间关系（如拥抱、骑行等），在 RelationBench 上全面超越现有方法。
+  [CVPR 2025][图像生成][关系感知定制生成] DreamRelation 提出了一种关系感知的定制化图像生成框架，通过精心构建的解耦数据引擎、关键点匹配损失（KML）和局部 token 注入三大设计，在保持多目标身份一致性的同时准确生成文本指定的目标间关系（如拥抱、骑行等）…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 关系感知定制生成
-  - 多目标定制
-  - 关键点匹配损失
-  - 局部特征注入
-  - LoRA微调
+  - "CVPR 2025"
+  - "图像生成"
+  - "关系感知定制生成"
+  - "多目标定制"
+  - "关键点匹配损失"
+  - "局部特征注入"
+  - "LoRA微调"
 ---
 
 # DreamRelation: Bridging Customization and Relation Generation

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] LAMP: Language-Assisted Motion Planning for Controllable Video Generation
 description: >-
-  [CVPR 2026][视频生成] 提出LAMP框架，将运动控制建模为语言到程序合成问题：设计电影摄影启发的运动DSL，训练LLM将自然语言描述转化为结构化运动程序，再确定性映射为3D对象和相机轨迹来条件化视频生成，首次实现从自然语言同时生成对象和相机运动。
+  [CVPR 2026][视频生成][运动控制] 提出LAMP框架，将运动控制建模为语言到程序合成问题：设计电影摄影启发的运动DSL，训练LLM将自然语言描述转化为结构化运动程序，再确定性映射为3D对象和相机轨迹来条件化视频生成，首次实现从自然语言同时生成对象和相机运动。
 tags:
-  - CVPR 2026
-  - 视频生成
-  - 运动控制
-  - LLM规划
-  - 领域特定语言
-  - 电影摄影
+  - "CVPR 2026"
+  - "视频生成"
+  - "运动控制"
+  - "LLM规划"
+  - "领域特定语言"
+  - "电影摄影"
 ---
 
 # LAMP: Language-Assisted Motion Planning for Controllable Video Generation

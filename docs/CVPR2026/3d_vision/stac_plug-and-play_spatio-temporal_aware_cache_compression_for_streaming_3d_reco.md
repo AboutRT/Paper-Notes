@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][流式3D重建] 提出STAC框架，利用因果Transformer中KV缓存的时空稀疏性，通过工作时序token缓存、长期空间token缓存和分块多帧优化三个模块，在不需要额外训练的情况下将流式3D重建的内存消耗降低约10倍、推理速度提升4倍，同时几乎不损失重建质量。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 流式3D重建
-  - KV缓存压缩
-  - 时空稀疏性
-  - Transformer
-  - 体素化存储
+  - "CVPR 2026"
+  - "3D视觉"
+  - "流式3D重建"
+  - "KV缓存压缩"
+  - "时空稀疏性"
+  - "Transformer"
+  - "体素化存储"
 ---
 
 # STAC: Plug-and-Play Spatio-Temporal Aware Cache Compression for Streaming 3D Reconstruction

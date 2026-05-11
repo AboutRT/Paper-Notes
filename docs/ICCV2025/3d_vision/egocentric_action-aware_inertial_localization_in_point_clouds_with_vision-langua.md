@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] EAIL 框架利用头戴式 IMU 信号中的第一人称动作线索，通过层次化多模态对齐（视觉-语言引导）学习动作与环境结构的关联，在 3D 点云中实现精确的惯性定位，同时附带动作识别能力。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Egocentric Action-aware Inertial Localization in Point Clouds with Vision-Language Guidance

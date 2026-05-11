@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM
 description: >-
-  [CVPR 2025][3D视觉][3D Gaussian Splatting] VarSplat 在 3DGS-SLAM 框架中为每个 Gaussian splat 学习外观方差 $\sigma^2$，通过全方差定律推导出可微分的逐像素不确定性图 $V$，并将其用于 tracking、loop detection 和 registration，在 Replica/TUM/ScanNet/ScanNet++ 四个数据集上取得了更鲁棒的位姿估计和有竞争力的重建质量。
+  [CVPR 2025][3D视觉][3D Gaussian Splatting] VarSplat 在 3DGS-SLAM 框架中为每个 Gaussian splat 学习外观方差 $\sigma^2$，通过全方差定律推导出可微分的逐像素不确定性图 $V$…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - SLAM
-  - uncertainty modeling
-  - RGB-D
-  - 位姿估计
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "SLAM"
+  - "uncertainty modeling"
+  - "RGB-D"
+  - "位姿估计"
 ---
 
 # VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM

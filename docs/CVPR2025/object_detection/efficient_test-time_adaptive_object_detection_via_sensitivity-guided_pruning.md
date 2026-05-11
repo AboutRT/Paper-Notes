@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Efficient Test-Time Adaptive Object Detection via Sensitivity-Guided Pruning
 description: >-
-  [CVPR 2025][目标检测][持续测试时自适应] 提出一种高效的持续测试时自适应目标检测（CTTA-OD）方法，发现源模型中某些特征通道对域偏移敏感且会损害跨域性能，通过在图像级和实例级度量通道敏感性来引导加权稀疏正则化实现选择性剪枝，辅以随机通道重激活机制防止误剪，在减少 12% 计算量的同时超越 SOTA 方法的自适应精度。
+  [CVPR 2025][目标检测][持续测试时自适应] 提出一种高效的持续测试时自适应目标检测（CTTA-OD）方法，发现源模型中某些特征通道对域偏移敏感且会损害跨域性能，通过在图像级和实例级度量通道敏感性来引导加权稀疏正则化实现选择性剪枝，辅以随机通道重激活机制防止误剪…
 tags:
-  - CVPR 2025
-  - 目标检测
-  - 持续测试时自适应
-  - 通道剪枝
-  - 敏感性度量
-  - 域偏移
-  - 高效推理
+  - "CVPR 2025"
+  - "目标检测"
+  - "持续测试时自适应"
+  - "通道剪枝"
+  - "敏感性度量"
+  - "域偏移"
+  - "高效推理"
 ---
 
 # Efficient Test-Time Adaptive Object Detection via Sensitivity-Guided Pruning

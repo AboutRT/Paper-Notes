@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Chameleon: A Flexible Data-mixing Framework for Language Model Pretraining and Finetuning
 description: >-
-  [ICML 2025][data mixing] 提出 Chameleon 框架，利用 kernel ridge leverage scores（KRLS）在代理模型的嵌入空间中量化各训练域的重要性，以仅 DoReMi 1/10 的计算成本达到同等或更优的数据混合效果，且支持新域引入时无需重训代理模型、统一处理预训练和微调场景。
+  [ICML 2025][预训练][data mixing] 提出 Chameleon 框架，利用 kernel ridge leverage scores（KRLS）在代理模型的嵌入空间中量化各训练域的重要性，以仅 DoReMi 1/10 的计算成本达到同等或更优的数据混合效果…
 tags:
-  - ICML 2025
-  - data mixing
-  - domain reweighting
-  - LLM预训练
-  - pretraining
-  - finetuning
+  - "ICML 2025"
+  - "预训练"
+  - "data mixing"
+  - "domain reweighting"
+  - "kernel ridge leverage scores"
+  - "pretraining"
+  - "finetuning"
 ---
 
 # Chameleon: A Flexible Data-mixing Framework for Language Model Pretraining and Finetuning
@@ -66,7 +67,7 @@ Chameleon 的 pipeline：(1) 用均匀权重训练一个小型代理模型；(2)
 
 ### 损失函数 / 训练策略
 
-代理模型用标准语言模型交叉熵损失训练，均匀域权重。KRLS 计算不涉及额外训练，仅需矩阵运算，复杂度 $O(k^3)$（$k$ 为域数量，通常 <20）。整个流程不对代理模型的训练过程做任何修改。
+代理模型用标准语言模型交叉熵损失训练，均匀域权重。KRLS 计算不涉及额外训练，仅需矩阵运算，复杂度 $O(k^3)$（$k$ 为域数量，通常 &lt;20）。整个流程不对代理模型的训练过程做任何修改。
 
 ## 实验关键数据
 

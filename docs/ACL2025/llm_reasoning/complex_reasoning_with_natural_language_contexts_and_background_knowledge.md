@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM推理][复杂推理] 本文提出一种将自然语言上下文与结构化背景知识相结合的复杂推理框架，通过知识图谱检索增强和上下文感知的推理链生成，显著提升LLM在需要外部知识支撑的多步推理任务上的表现。
 tags:
-  - ACL 2025
-  - LLM推理
-  - 复杂推理
-  - 自然语言上下文
-  - 背景知识
-  - 知识增强推理
-  - 常识推理
+  - "ACL 2025"
+  - "LLM推理"
+  - "复杂推理"
+  - "自然语言上下文"
+  - "背景知识"
+  - "知识增强推理"
+  - "常识推理"
 ---
 
 # Complex Reasoning with Natural Language Contexts and Background Knowledge

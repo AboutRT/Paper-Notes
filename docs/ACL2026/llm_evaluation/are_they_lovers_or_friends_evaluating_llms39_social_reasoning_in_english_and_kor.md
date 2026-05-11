@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues
 description: >-
-  [ACL 2026][LLM评测] 本文提出 SCRIPTS 基准，包含 1.1K 英语和韩语电影对话，通过三层概率标签（HIGHLY LIKELY / LESS LIKELY / UNLIKELY）评估 9 个 LLM 的社会关系推理能力，发现模型在英语上准确率仅 75-80%、韩语 58-69%，且 CoT 和思维模型对社会推理几乎无帮助。
+  [ACL 2026][LLM评测][社会关系推理] 本文提出 SCRIPTS 基准，包含 1.1K 英语和韩语电影对话，通过三层概率标签（HIGHLY LIKELY / LESS LIKELY / UNLIKELY）评估 9 个 LLM 的社会关系推理能力…
 tags:
-  - ACL 2026
-  - LLM评测
-  - 大语言模型评测
-  - 跨语言分析
-  - 电影对话
-  - 文化依赖性
+  - "ACL 2026"
+  - "LLM评测"
+  - "社会关系推理"
+  - "大语言模型评测"
+  - "跨语言分析"
+  - "电影对话"
+  - "文化依赖性"
 ---
 
 # Are They Lovers or Friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues

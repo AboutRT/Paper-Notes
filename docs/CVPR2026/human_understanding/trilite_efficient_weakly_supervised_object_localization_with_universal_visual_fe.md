@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][人体理解][弱监督目标定位] 仅使用冻结 DINOv2 ViT + 不到 800K 可训练参数的 TriHead 模块，通过将 patch 特征解耦为前景/背景/模糊三区域并引入对抗性背景损失，在 WSOL 上以极少参数刷新 SOTA。
 tags:
-  - CVPR 2026
-  - 人体理解
-  - 弱监督目标定位
-  - ViT
-  - DINOv2
-  - 三区域解耦
-  - 参数高效
+  - "CVPR 2026"
+  - "人体理解"
+  - "弱监督目标定位"
+  - "ViT"
+  - "DINOv2"
+  - "三区域解耦"
+  - "参数高效"
 ---
 
 # TriLite: Efficient WSOL with Universal Visual Features and Tri-Region Disentanglement

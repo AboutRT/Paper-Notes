@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints
 description: >-
-  [ICLR 2026][AI安全][LLM水印] 提出PMark，一种理论上无失真且对改写攻击鲁棒的LLM语义级水印方法：通过多通道正交pivot向量对候选句子进行级联二分过滤，结合中位数采样保证无失真，多通道增加水印证据密度提升鲁棒性。在改写攻击下TP@FP1%达95%+，比此前SWM方法提升14.8%。
+  [ICLR 2026][LLM安全][LLM水印] 提出PMark，一种理论上无失真且对改写攻击鲁棒的LLM语义级水印方法：通过多通道正交pivot向量对候选句子进行级联二分过滤，结合中位数采样保证无失真，多通道增加水印证据密度提升鲁棒性。在改写攻击下TP@FP1%达95%+，比此前SWM方法提升14.8%。
 tags:
-  - ICLR 2026
-  - AI安全
-  - LLM水印
-  - 语义级水印
-  - 无失真
-  - 多通道约束
-  - 鲁棒性理论
+  - "ICLR 2026"
+  - "LLM安全"
+  - "LLM水印"
+  - "语义级水印"
+  - "无失真"
+  - "多通道约束"
+  - "鲁棒性理论"
 ---
 
 # PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints

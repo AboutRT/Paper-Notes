@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Which bird does not have wings: Negative-constrained KGQA with Schema-guided Semantic Matching and Self-directed Refinement
 description: >-
-  [ACL 2026][图学习][知识图谱问答] 本文提出了否定约束知识图谱问答（NEST KGQA）新任务和 NestKGQA 数据集，设计了 Python 格式逻辑形式 PyLF 来清晰表达否定约束，并提出 CUCKOO 框架通过约束感知草稿生成、Schema 引导语义匹配和自导向细化三个模块，在 few-shot 设置下实现了多约束问题的高效精确回答。
+  [ACL 2026][图学习][知识图谱问答] 本文提出了否定约束知识图谱问答（NEST KGQA）新任务和 NestKGQA 数据集，设计了 Python 格式逻辑形式 PyLF 来清晰表达否定约束，并提出 CUCKOO 框架通过约束感知草稿生成、Schema 引导语义匹配和自导向细化三个模块…
 tags:
-  - ACL 2026
-  - 图学习
-  - 知识图谱问答
-  - 否定约束
-  - 语义解析
-  - 逻辑形式
-  - Schema引导
+  - "ACL 2026"
+  - "图学习"
+  - "知识图谱问答"
+  - "否定约束"
+  - "语义解析"
+  - "逻辑形式"
+  - "Schema引导"
 ---
 
 # Which bird does not have wings: Negative-constrained KGQA with Schema-guided Semantic Matching and Self-directed Refinement

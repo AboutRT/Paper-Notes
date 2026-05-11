@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Compiling Activation Steering into Weights via Null-Space Constraints for Stealthy Backdoors
 description: >-
-  [ACL 2026][AI安全][后门攻击] 本文提出 STEEREDIT，将动态激活转向编译为静态权重修改的后门注入框架，通过提取顺从方向并利用零空间约束确保仅在触发词存在时激活，在多个安全对齐 LLM 上实现高攻击成功率同时保持非触发场景下的安全性和通用性。
+  [ACL 2026][LLM安全][后门攻击] 本文提出 STEEREDIT，将动态激活转向编译为静态权重修改的后门注入框架，通过提取顺从方向并利用零空间约束确保仅在触发词存在时激活，在多个安全对齐 LLM 上实现高攻击成功率同时保持非触发场景下的安全性和通用性。
 tags:
-  - ACL 2026
-  - AI安全
-  - 后门攻击
-  - 激活转向
-  - 权重编辑
-  - 零空间约束
-  - LLM安全
+  - "ACL 2026"
+  - "LLM安全"
+  - "后门攻击"
+  - "激活转向"
+  - "权重编辑"
+  - "零空间约束"
 ---
 
 # Compiling Activation Steering into Weights via Null-Space Constraints for Stealthy Backdoors

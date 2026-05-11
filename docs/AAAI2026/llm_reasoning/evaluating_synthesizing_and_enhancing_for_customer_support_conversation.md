@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM推理][客服对话] 基于COPC行业标准定义客服对话的5个阶段和12种策略，通过5个LLM Agent角色扮演生成11232条策略丰富的合成对话（RoleCS），并构建1855条真实对话改写的评估集（CSConv），微调后显著提升策略对齐的回复质量和问题解决率。
 tags:
-  - AAAI 2026
-  - LLM推理
-  - 客服对话
-  - COPC标准
-  - 角色扮演
-  - 数据合成
-  - 策略对齐
+  - "AAAI 2026"
+  - "LLM推理"
+  - "客服对话"
+  - "COPC标准"
+  - "角色扮演"
+  - "数据合成"
+  - "策略对齐"
 ---
 
 # Evaluating, Synthesizing, and Enhancing for Customer Support Conversation

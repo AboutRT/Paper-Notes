@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM效率][测试时训练] 本文提出 Spatial-TTT，通过测试时训练（TTT）机制将模型的部分参数（快速权重）作为紧凑非线性记忆，配合混合架构和空间预测机制，从无界视频流中持续积累和组织3D空间证据，在视频空间理解基准上达到 SOTA。
 tags:
-  - CVPR 2025
-  - LLM效率
-  - 测试时训练
-  - 流式空间理解
-  - 快速权重
-  - 3D空间推理
-  - 长视频理解
+  - "CVPR 2025"
+  - "LLM效率"
+  - "测试时训练"
+  - "流式空间理解"
+  - "快速权重"
+  - "3D空间推理"
+  - "长视频理解"
 ---
 
 # Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training

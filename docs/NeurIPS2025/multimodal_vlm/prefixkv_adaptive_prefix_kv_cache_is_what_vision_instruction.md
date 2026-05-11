@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PrefixKV: Adaptive Prefix KV Cache is What Vision Instruction-Following Models Need for Efficient Generation
 description: >-
-  [NeurIPS 2025][多模态][KV缓存压缩] PrefixKV 发现不同层 KV 缓存的重要性分布差异显著，将逐层缓存大小确定问题形式化为全局前缀配置搜索，通过二分搜索找到最优信息保留阈值使每层保持最大上下文信息，在 20% 压缩率下仅有 0.49 PPL 下降且提供 1.8× 推理加速。
+  [NeurIPS 2025][多模态VLM][KV缓存压缩] PrefixKV 发现不同层 KV 缓存的重要性分布差异显著，将逐层缓存大小确定问题形式化为全局前缀配置搜索，通过二分搜索找到最优信息保留阈值使每层保持最大上下文信息，在 20% 压缩率下仅有 0.49 PPL 下降且提供 1.8× 推理加速。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - KV缓存压缩
-  - 自适应逐层分配
-  - 前缀配置
-  - 二分搜索
-  - 多模态VLM
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "KV缓存压缩"
+  - "自适应逐层分配"
+  - "前缀配置"
+  - "二分搜索"
+  - "视觉语言模型"
 ---
 
 # PrefixKV: Adaptive Prefix KV Cache is What Vision Instruction-Following Models Need for Efficient Generation

@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][隐喻检测] 提出结合 LLM 词级隐喻检测与 SBERT 篇章级语义关联的计算框架，在 40 万条美国移民推文上揭示保守派更多使用去人化隐喻、但生物类隐喻对自由派的用户互动效应更强的复杂图景。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 隐喻检测
-  - 去人化语言
-  - 移民话语
-  - 政治意识形态
-  - 社交媒体分析
-  - LLM
-  - 文档嵌入
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "隐喻检测"
+  - "去人化语言"
+  - "移民话语"
+  - "政治意识形态"
+  - "社交媒体分析"
+  - "LLM"
+  - "文档嵌入"
 ---
 
 # When People are Floods: Analyzing Dehumanizing Metaphors in Immigration Discourse with Large Language Models

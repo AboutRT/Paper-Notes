@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Distributionally Robust Classification for Multi-Source Unsupervised Domain Adaptation
 description: >-
-  [ICLR 2026][其他] 提出一种分布鲁棒学习框架，通过联合建模目标域协变量分布和条件标签分布的不确定性，在目标数据极度稀缺或源域存在虚假相关性的UDA场景中显著提升泛化性能。
+  [ICLR 2026][分布鲁棒优化] 提出一种分布鲁棒学习框架，通过联合建模目标域协变量分布和条件标签分布的不确定性，在目标数据极度稀缺或源域存在虚假相关性的UDA场景中显著提升泛化性能。
 tags:
-  - ICLR 2026
-  - 其他
-  - 无监督域适应
-  - 多源域适应
-  - Wasserstein距离
-  - 伪标签
+  - "ICLR 2026"
+  - "分布鲁棒优化"
+  - "无监督域适应"
+  - "多源域适应"
+  - "Wasserstein距离"
+  - "伪标签"
 ---
 
 # Distributionally Robust Classification for Multi-Source Unsupervised Domain Adaptation

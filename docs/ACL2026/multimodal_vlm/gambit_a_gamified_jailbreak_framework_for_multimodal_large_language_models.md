@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GAMBIT: A Gamified Jailbreak Framework for Multimodal Large Language Models
 description: >-
-  [ACL 2026][多模态][多模态越狱] 本文提出 GAMBIT，一种游戏化多模态越狱框架，通过将有害查询分解为拼图图像+隐藏关键词，并嵌入竞争性游戏场景，利用模型的推理激励和认知负荷来绕过安全过滤器，在 Gemini 2.5 Flash 上达到 92.13%、GPT-4o 上达到 85.87% 的攻击成功率，对推理模型和非推理模型均有效。
+  [ACL 2026][多模态VLM][多模态越狱] 本文提出 GAMBIT，一种游戏化多模态越狱框架，通过将有害查询分解为拼图图像+隐藏关键词，并嵌入竞争性游戏场景，利用模型的推理激励和认知负荷来绕过安全过滤器…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态越狱
-  - 游戏化攻击
-  - 认知负荷
-  - 多模态VLM
-  - MLLM对抗
+  - "ACL 2026"
+  - "多模态VLM"
+  - "多模态越狱"
+  - "游戏化攻击"
+  - "认知负荷"
+  - "推理链安全"
+  - "MLLM对抗"
 ---
 
 # GAMBIT: A Gamified Jailbreak Framework for Multimodal Large Language Models

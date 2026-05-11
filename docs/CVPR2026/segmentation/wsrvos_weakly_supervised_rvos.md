@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Weakly-Supervised Referring Video Object Segmentation through Text Supervision
 description: >-
-  [CVPR 2026][图像分割][弱监督] 提出 WSRVOS，首个仅使用文本表达式作为监督信号的弱监督指称视频目标分割框架，通过 MLLM 驱动的对比表达式增强、双向视觉-语言特征选择、实例感知表达式分类和时序分段排序约束，显著减少了对像素级标注的依赖。
+  [CVPR 2026][语义分割][弱监督] 提出 WSRVOS，首个仅使用文本表达式作为监督信号的弱监督指称视频目标分割框架，通过 MLLM 驱动的对比表达式增强、双向视觉-语言特征选择、实例感知表达式分类和时序分段排序约束，显著减少了对像素级标注的依赖。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 弱监督
-  - 视频目标分割
-  - 指称表达
-  - 文本监督
-  - 多模态对齐
+  - "CVPR 2026"
+  - "语义分割"
+  - "弱监督"
+  - "视频目标分割"
+  - "指称表达"
+  - "文本监督"
+  - "多模态对齐"
 ---
 
 # Weakly-Supervised Referring Video Object Segmentation through Text Supervision

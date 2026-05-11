@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AutoGLM: Autonomous Foundation Agents for GUIs
 description: >-
-  [AAAI 2026][LLM Agent][GUI Agent] AutoGLM 基于 ChatGLM 构建了面向 Web 浏览器和 Android 手机的 GUI 基础智能体，通过中间接口设计分离规划与定位行为，并提出自进化在线课程强化学习框架，在 VAB-WebArena-Lite 上达到 55.2% 成功率，大幅超越 GPT-4o 的 18.2%。
+  [AAAI 2026][LLM Agent][GUI Agent] AutoGLM 基于 ChatGLM 构建了面向 Web 浏览器和 Android 手机的 GUI 基础智能体，通过中间接口设计分离规划与定位行为，并提出自进化在线课程强化学习框架…
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - GUI Agent
-  - 强化学习
-  - 中间接口设计
-  - 自进化课程学习
-  - 基础智能体
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "GUI Agent"
+  - "强化学习"
+  - "中间接口设计"
+  - "自进化课程学习"
+  - "基础智能体"
 ---
 
 # AutoGLM: Autonomous Foundation Agents for GUIs

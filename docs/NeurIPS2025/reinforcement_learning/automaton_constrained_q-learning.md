@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Automaton Constrained Q-Learning
 description: >-
-  [NeurIPS 2025][LTL] 提出 ACQL（Automaton Constrained Q-Learning），将线性时序逻辑（LTL）任务规范转化为自动机，结合目标条件学习和最小安全约束，首次在连续控制环境中可扩展地同时支持时序目标序列和非平稳安全约束。
+  [NeurIPS 2025][强化学习][LTL] 提出 ACQL（Automaton Constrained Q-Learning），将线性时序逻辑（LTL）任务规范转化为自动机，结合目标条件学习和最小安全约束，首次在连续控制环境中可扩展地同时支持时序目标序列和非平稳安全约束。
 tags:
-  - NeurIPS 2025
-  - LTL
-  - 自动机
-  - 安全约束
-  - 目标条件RL
-  - CMDP
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "LTL"
+  - "自动机"
+  - "安全约束"
+  - "目标条件RL"
+  - "CMDP"
 ---
 
 # Automaton Constrained Q-Learning

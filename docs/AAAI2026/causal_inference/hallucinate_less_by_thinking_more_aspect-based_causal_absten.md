@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models
 description: >-
-  [AAAI 2026][选择性回答] 提出 ABCA（Aspect-Based Causal Abstention），一个生成前弃权框架：通过双 Agent 辩论发现"方面变量"（如学科、法律语境、时间框架）来激活 LLM 不同的知识分支，用 AIPW 双鲁棒估计器计算因果效应，基于质心角偏差（CAD）检测知识冲突（Type-1）或知识不足（Type-2），在 TruthfulQA 上达到 91.4% 准确率，不可回答问题识别率 96.4%（远超基线的 44%）。
+  [AAAI 2026][因果推理][选择性回答] 提出 ABCA（Aspect-Based Causal Abstention），一个生成前弃权框架：通过双 Agent 辩论发现"方面变量"（如学科、法律语境、时间框架）来激活 LLM 不同的知识分支，用 AIPW 双鲁棒估计器计算因果效应…
 tags:
-  - AAAI 2026
-  - 选择性回答
-  - 因果弃权
-  - 方面变量
-  - 因果推理
-  - AIPW估计
+  - "AAAI 2026"
+  - "因果推理"
+  - "选择性回答"
+  - "因果弃权"
+  - "方面变量"
+  - "知识冲突检测"
+  - "AIPW估计"
 ---
 
 # Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models

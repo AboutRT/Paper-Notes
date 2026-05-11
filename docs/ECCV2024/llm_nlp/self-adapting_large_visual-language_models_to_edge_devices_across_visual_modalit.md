@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][LLM/NLP][边缘部署] 提出EdgeVL框架，通过两阶段适配（双模态知识蒸馏+量化感知对比学习），将大规模VLM（如CLIP）适配到边缘设备上，实现无需人工标注的跨模态（RGB和非RGB）开放词汇分类，达到最高15.4%的准确率提升和93倍的模型压缩。
 tags:
-  - ECCV 2024
-  - LLM/NLP
-  - 边缘部署
-  - 知识蒸馏
-  - 量化
-  - 跨模态迁移
-  - 对比学习
+  - "ECCV 2024"
+  - "LLM/NLP"
+  - "边缘部署"
+  - "知识蒸馏"
+  - "量化"
+  - "跨模态迁移"
+  - "对比学习"
 ---
 
 # Self-Adapting Large Visual-Language Models to Edge Devices across Visual Modalities

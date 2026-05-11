@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CLaRE-ty Amid Chaos: Quantifying Representational Entanglement to Predict Ripple Effects in LLM Editing
 description: >-
-  [ACL 2026][模型编辑] CLARE 提出了一种轻量级的表示层面方法，通过单个中间层的前向激活量化事实间的纠缠程度，用于预测模型编辑的连锁效应，相比梯度方法平均提升 62.2% Spearman 相关性，同时快 2.74 倍、内存减少 2.85 倍。
+  [ACL 2026][知识编辑][模型编辑] CLARE 提出了一种轻量级的表示层面方法，通过单个中间层的前向激活量化事实间的纠缠程度，用于预测模型编辑的连锁效应，相比梯度方法平均提升 62.2% Spearman 相关性，同时快 2.74 倍、内存减少 2.85 倍。
 tags:
-  - ACL 2026
-  - 模型编辑
-  - 连锁效应
-  - 表示纠缠
-  - 前向激活
-  - 纠缠图
+  - "ACL 2026"
+  - "知识编辑"
+  - "模型编辑"
+  - "连锁效应"
+  - "表示纠缠"
+  - "前向激活"
+  - "纠缠图"
 ---
 
 # CLaRE-ty Amid Chaos: Quantifying Representational Entanglement to Predict Ripple Effects in LLM Editing

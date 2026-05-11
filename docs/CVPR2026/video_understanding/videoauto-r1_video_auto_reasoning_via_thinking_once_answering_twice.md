@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice
 description: >-
-  [CVPR 2026][视频理解][视频推理] 提出 VideoAuto-R1，一个"按需推理"的视频理解框架：训练时采用"思考一次、回答两次"（answer→think→answer）范式，推理时通过首次回答的置信度决定是否启动 CoT 推理，在保持 SOTA 精度的同时将平均响应长度从 149 降至 44 token（约 3.3 倍压缩）。
+  [CVPR 2026][视频理解][视频推理] 提出 VideoAuto-R1，一个"按需推理"的视频理解框架：训练时采用"思考一次、回答两次"（answer→think→answer）范式，推理时通过首次回答的置信度决定是否启动 CoT 推理…
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频推理
-  - 自适应思考
-  - 链式推理
-  - 强化学习
-  - 推理效率
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频推理"
+  - "自适应思考"
+  - "链式推理"
+  - "强化学习"
+  - "推理效率"
 ---
 
 # VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice

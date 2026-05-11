@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks
 description: >-
-  [CVPR 2025][隐式神经表示] 提出 TUNER，一种基于 Bessel 函数振幅-相位展开理论的正弦 MLP 训练方案，通过将隐藏神经元展开为输入频率整数组合的傅里叶级数实现鲁棒的频率初始化和训练中带限控制，显著提升隐式神经表示的收敛稳定性和重建质量。
+  [CVPR 2025][信号/通信][隐式神经表示] 提出 TUNER，一种基于 Bessel 函数振幅-相位展开理论的正弦 MLP 训练方案，通过将隐藏神经元展开为输入频率整数组合的傅里叶级数实现鲁棒的频率初始化和训练中带限控制，显著提升隐式神经表示的收敛稳定性和重建质量。
 tags:
-  - CVPR 2025
-  - 隐式神经表示
-  - 正弦网络
-  - 频率控制
-  - 带限
-  - 傅里叶级数
+  - "CVPR 2025"
+  - "信号/通信"
+  - "隐式神经表示"
+  - "正弦网络"
+  - "频率控制"
+  - "带限"
+  - "傅里叶级数"
 ---
 
 # Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks

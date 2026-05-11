@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR2025][医学图像][扩散模型] 提出 SALIENT，一个基于小波域扩散的掩码条件生成框架，通过频率感知的可解释优化目标和配对的病灶-掩码体积生成，实现长尾 CT 检测中可控、高效的合成数据增强与精度拯救。首次系统表征增强剂量-反应曲线。
 tags:
-  - CVPR2025
-  - 医学图像
-  - 扩散模型
-  - wavelet domain
-  - long-tail detection
-  - CT augmentation
-  - 合成数据
-  - 类别不平衡
-  - dose-response
+  - "CVPR2025"
+  - "医学图像"
+  - "扩散模型"
+  - "wavelet domain"
+  - "long-tail detection"
+  - "CT augmentation"
+  - "合成数据"
+  - "类别不平衡"
+  - "dose-response"
 ---
 
 # SALIENT: Frequency-Aware Paired Diffusion for Controllable Long-Tail CT Detection

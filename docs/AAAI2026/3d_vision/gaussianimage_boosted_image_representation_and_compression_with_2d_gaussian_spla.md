@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][3D视觉][2D Gaussian Splatting] 提出 GaussianImage++，通过失真驱动的密度化机制和内容感知高斯滤波器，在有限的2D高斯原语下实现高质量图像表示与压缩，同时保持实时解码速度。
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 2D Gaussian Splatting
-  - 图像压缩
-  - 隐式神经表示
-  - 密度化机制
-  - 量化感知训练
+  - "AAAI 2026"
+  - "3D视觉"
+  - "2D Gaussian Splatting"
+  - "图像压缩"
+  - "隐式神经表示"
+  - "密度化机制"
+  - "量化感知训练"
 ---
 
 # GaussianImage++: Boosted Image Representation and Compression with 2D Gaussian Splatting

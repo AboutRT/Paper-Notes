@@ -2,8 +2,9 @@
 title: >-
   [论文解读] Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space
 description: >-
-   提出Neighborhood Stability Measure (NSM)——一种无监督、无分布假设的方法，通过量化文本嵌入空间中邻域的稳定性来估计词语的可意象性(imageability)和具体性(concreteness)，仅使用文本模态即可超越依赖多模态或生成模型的已有方法。
-
+  [信息检索/RAG] 提出Neighborhood Stability Measure (NSM)——一种无监督、无分布假设的方法，通过量化文本嵌入空间中邻域的稳定性来估计词语的可意象性(imageability)和具体性(concreteness)，仅使用文本模态即可超越依赖多模态或生成模型的已有方法。
+tags:
+  - "信息检索/RAG"
 ---
 
 # Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space

@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] 这篇立场论文系统综述了LLM在非结构化临床转录文本主题分析中的应用现状，发现评估方法高度碎片化，并提出以有效性(Validity)、可靠性(Reliability)、可解释性(Interpretability)三维度为核心的标准化评估框架。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # Position: Thematic Analysis of Unstructured Clinical Transcripts with Large Language Models

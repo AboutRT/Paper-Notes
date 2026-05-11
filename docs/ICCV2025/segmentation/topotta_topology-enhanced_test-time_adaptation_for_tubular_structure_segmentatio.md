@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TopoTTA: Topology-Enhanced Test-Time Adaptation for Tubular Structure Segmentation
 description: >-
-  [ICCV 2025][图像分割][管状结构分割] 首个针对管状结构分割（TSS）的测试时适应（TTA）框架，通过拓扑元差分卷积（TopoMDCs）适应跨域拓扑结构差异，并通过拓扑硬样本生成（TopoHG）策略修复拓扑连续性断裂，在10个数据集上平均clDice提升31.81%。
+  [ICCV 2025][语义分割][管状结构分割] 首个针对管状结构分割（TSS）的测试时适应（TTA）框架，通过拓扑元差分卷积（TopoMDCs）适应跨域拓扑结构差异，并通过拓扑硬样本生成（TopoHG）策略修复拓扑连续性断裂，在10个数据集上平均clDice提升31.81%。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 管状结构分割
-  - 测试时适应
-  - 拓扑连续性
-  - 差分卷积
-  - 域偏移
+  - "ICCV 2025"
+  - "语义分割"
+  - "管状结构分割"
+  - "测试时适应"
+  - "拓扑连续性"
+  - "差分卷积"
+  - "域偏移"
 ---
 
 # TopoTTA: Topology-Enhanced Test-Time Adaptation for Tubular Structure Segmentation

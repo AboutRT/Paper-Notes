@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][损失景观] 揭示了低损失路径上曲率的系统性增长会产生熵力屏障，即使路径能量平坦，SGD噪声也会将优化动力学约束在最小值附近的平坦区域，从而解释了"模式连通但动力学受限"的悖论。
 tags:
-  - ICLR 2026
-  - 损失景观
-  - 模式连通性
-  - 熵力
-  - SGD动力学
-  - 过参数化
+  - "ICLR 2026"
+  - "损失景观"
+  - "模式连通性"
+  - "熵力"
+  - "SGD动力学"
+  - "过参数化"
 ---
 
 # Entropic Confinement and Mode Connectivity in Overparameterized Neural Networks

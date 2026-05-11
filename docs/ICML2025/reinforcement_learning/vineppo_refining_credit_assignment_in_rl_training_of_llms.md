@@ -2,15 +2,16 @@
 title: >-
   [论文解读] VinePPO: Refining Credit Assignment in RL Training of LLMs
 description: >-
-  [ICML2025][Credit Assignment] VinePPO 利用语言环境可从任意中间状态重置的特性，用蒙特卡洛 (MC) rollout 替换 PPO 中的 value network 进行无偏值估计，在数学推理任务上以更少的墙钟时间（最高 3 倍加速）超越 PPO/GRPO/RLOO 的峰值性能，并展现出更强的泛化斜率。
+  [ICML2025][强化学习][Credit Assignment] VinePPO 利用语言环境可从任意中间状态重置的特性，用蒙特卡洛 (MC) rollout 替换 PPO 中的 value network 进行无偏值估计…
 tags:
-  - ICML2025
-  - Credit Assignment
-  - PPO
-  - Monte Carlo
-  - Value Estimation
-  - RLVR
-  - 强化学习
+  - "ICML2025"
+  - "强化学习"
+  - "Credit Assignment"
+  - "PPO"
+  - "Monte Carlo"
+  - "Value Estimation"
+  - "RLVR"
+  - "数学推理"
 ---
 
 # VinePPO: Refining Credit Assignment in RL Training of LLMs

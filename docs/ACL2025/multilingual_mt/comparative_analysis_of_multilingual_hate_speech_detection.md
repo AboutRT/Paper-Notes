@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Comparative Analysis of Multilingual Hate Speech Detection
 description: >-
-  [ACL 2025][多语言翻译] 本文系统比较了多种LLM和预训练语言模型在多语言仇恨言论检测任务上的表现，揭示了跨语言迁移的关键瓶颈，并提出针对低资源语言的增强策略。
+  [ACL 2025][多语言/翻译][仇恨言论检测] 本文系统比较了多种LLM和预训练语言模型在多语言仇恨言论检测任务上的表现，揭示了跨语言迁移的关键瓶颈，并提出针对低资源语言的增强策略。
 tags:
-  - ACL 2025
-  - 多语言翻译
-  - 多语言NLP
-  - 跨语言迁移
-  - 文本分类
-  - 社交媒体分析
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "仇恨言论检测"
+  - "多语言NLP"
+  - "跨语言迁移"
+  - "文本分类"
+  - "社交媒体分析"
 ---
 
 # Comparative Analysis of Multilingual Hate Speech Detection

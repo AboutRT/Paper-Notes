@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][NeRF] FA-NeRF 提出一种频率感知的神经辐射场框架，通过 3D 频率量化方法分析场景频率分布，结合频率网格、频率感知特征重加权和自适应光线行进，在单一模型中同时捕捉场景整体结构和高清微小细节，在多频率数据集上显著超越所有基线方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - NeRF
-  - 频率感知
-  - 多频率场景
-  - 微小细节渲染
-  - 自适应采样
+  - "CVPR 2025"
+  - "3D视觉"
+  - "NeRF"
+  - "频率感知"
+  - "多频率场景"
+  - "微小细节渲染"
+  - "自适应采样"
 ---
 
 # LookCloser: Frequency-aware Radiance Field for Tiny-Detail Scene (FA-NeRF)

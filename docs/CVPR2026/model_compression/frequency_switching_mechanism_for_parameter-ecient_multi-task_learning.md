@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning
 description: >-
-  [CVPR 2026][参数高效微调] Free Sinewich 提出基于频率切换的参数高效多任务学习框架，通过对共享低秩基矩阵施加不同任务特定频率的正弦变换 $M_t = \sin(\omega_t \cdot M_{AWB})$，以接近零成本实现真正的参数复用和任务特化，在密集预测基准上以最少可训练参数达到SOTA。
+  [CVPR 2026][模型压缩][参数高效微调] Free Sinewich 提出基于频率切换的参数高效多任务学习框架，通过对共享低秩基矩阵施加不同任务特定频率的正弦变换 $M_t = \sin(\omega_t \cdot M_{AWB})$，以接近零成本实现真正的参数复用和任务特化…
 tags:
-  - CVPR 2026
-  - 参数高效微调
-  - 多任务学习
-  - 频率切换
-  - 正弦变换
-  - LoRA
+  - "CVPR 2026"
+  - "模型压缩"
+  - "参数高效微调"
+  - "多任务学习"
+  - "频率切换"
+  - "正弦变换"
+  - "LoRA"
 ---
 
 # Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning

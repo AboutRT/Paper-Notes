@@ -2,16 +2,16 @@
 title: >-
   [论文解读] RestoreGrad: Signal Restoration Using Conditional Denoising Diffusion Models with Jointly Learned Prior
 description: >-
-  [ICML2025][图像生成][扩散模型] 提出 RestoreGrad 框架，通过 Prior Net 和 Posterior Net 联合学习条件 DDPM 的先验分布（而非固定标准高斯），利用退化信号与干净信号之间的相关性构建更具信息量的先验，在语音增强和图像修复任务上实现 5-10× 更快收敛和 2-2.5× 更少推理步数。
+  [ICML2025][图像生成][扩散模型] 提出 RestoreGrad 框架，通过 Prior Net 和 Posterior Net 联合学习条件 DDPM 的先验分布（而非固定标准高斯），利用退化信号与干净信号之间的相关性构建更具信息量的先验…
 tags:
-  - ICML2025
-  - 图像生成
-  - 扩散模型
-  - 信号恢复
-  - 可学习先验
-  - VAE-DDPM融合
-  - 语音增强
-  - 图像修复
+  - "ICML2025"
+  - "图像生成"
+  - "扩散模型"
+  - "信号恢复"
+  - "可学习先验"
+  - "VAE-DDPM融合"
+  - "语音增强"
+  - "图像修复"
 ---
 
 # RestoreGrad: Signal Restoration Using Conditional Denoising Diffusion Models with Jointly Learned Prior
@@ -115,7 +115,7 @@ $$\min_{\theta,\phi,\psi} \;\; \eta \cdot \mathcal{L}_{\text{LR}} + \mathcal{L}_
 | Base (93K) | 2.51 | 14.74 | 2.2% | 10.3% |
 | Large (370K) | 2.54 | 15.01 | 2.6% | 18.2% |
 
-编码器开销极小（<3% 延迟，<19% 显存），性能随编码器增大稳步提升。
+编码器开销极小（&lt;3% 延迟，&lt;19% 显存），性能随编码器增大稳步提升。
 
 ### Posterior Net 消融实验
 
@@ -132,7 +132,7 @@ Posterior Net 对稳定训练和提升性能至关重要。
 ## 亮点与洞察
 
 1. **VAE-DDPM 融合的理论优雅性**：通过新 ELBO 推导将 DDPM 无缝嵌入 VAE 框架，同时继承了 DDPM 的生成能力和 VAE 的建模效率
-2. **极低额外开销**：编码器参数仅为 DDPM 的 0.3%-2%，延迟 <3%，却带来显著收敛加速
+2. **极低额外开销**：编码器参数仅为 DDPM 的 0.3%-2%，延迟 &lt;3%，却带来显著收敛加速
 3. **跨模态通用性**：同一框架在语音（1D 波形）和图像（2D）上均有效，且 Prior Net 学到的协方差可视化显示它自动捕捉了信号结构
 4. **训练与推理双重加速**：5-10× 训练加速 + 2-2.5× 推理步数减少，实用价值突出
 5. **Posterior Net 的巧妙设计**：训练时利用 ground truth 信息指导先验学习，推理时丢弃 Posterior Net，无额外推理成本

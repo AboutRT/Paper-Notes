@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][食物营养估计] 构建了涵盖 8036 个样本的中式食物多模态营养数据集 OmniFood8K 和 115K 合成数据集 NutritionSynth-115K，并提出端到端框架通过 Scale-Shift 深度适配器、频域对齐融合和掩码预测头从单张 RGB 图像预测营养信息。
 tags:
-  - CVPR 2026
-  - 食物营养估计
-  - 其他
-  - 深度估计
-  - 频域融合
-  - 中国菜
+  - "CVPR 2026"
+  - "食物营养估计"
+  - "多模态数据集"
+  - "深度估计"
+  - "频域融合"
+  - "中国菜"
 ---
 
 # OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion

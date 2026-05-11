@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BADiff: Bandwidth Adaptive Diffusion Model
 description: >-
-  [NeurIPS 2025][图像生成][bandwidth-adaptive] 提出 BADiff——首个带宽自适应扩散模型，通过将目标熵约束作为条件嵌入扩散反向过程，配合可微熵正则化损失和自适应停止策略，使模型根据实时带宽动态调整生成质量并自适应提前终止采样，在保持感知质量的同时减少计算开销，从根本上避免了传统"高质量生成→后压缩"流程中的压缩伪影和计算浪费。
+  [NeurIPS 2025][图像生成][bandwidth-adaptive] 提出 BADiff——首个带宽自适应扩散模型，通过将目标熵约束作为条件嵌入扩散反向过程，配合可微熵正则化损失和自适应停止策略，使模型根据实时带宽动态调整生成质量并自适应提前终止采样，在保持感知质量的同时减少计算开销…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - bandwidth-adaptive
-  - 扩散模型
-  - entropy conditioning
-  - early stopping
-  - cloud streaming
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "bandwidth-adaptive"
+  - "扩散模型"
+  - "entropy conditioning"
+  - "early stopping"
+  - "cloud streaming"
 ---
 
 # BADiff: Bandwidth Adaptive Diffusion Model

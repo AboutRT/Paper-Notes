@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TrafficLoc: Localizing Traffic Surveillance Cameras in 3D Scenes
 description: >-
-  [ICCV 2025][自动驾驶][图像-点云配准] 提出 TrafficLoc，一种粗到细的图像-点云配准方法，通过几何引导注意力损失(GAL)、模态间-模态内对比学习(ICL)和稠密训练对齐(DTA)，实现交通监控相机在3D参考地图中的高精度定位，在自建 Carla Intersection 数据集上较 SOTA 提升达 86%。
+  [ICCV 2025][自动驾驶][图像-点云配准] 提出 TrafficLoc，一种粗到细的图像-点云配准方法，通过几何引导注意力损失(GAL)、模态间-模态内对比学习(ICL)和稠密训练对齐(DTA)，实现交通监控相机在3D参考地图中的高精度定位…
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 图像-点云配准
-  - 交通相机定位
-  - 跨模态特征融合
-  - 对比学习
-  - 6-DoF位姿估计
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "图像-点云配准"
+  - "交通相机定位"
+  - "跨模态特征融合"
+  - "对比学习"
+  - "6-DoF位姿估计"
 ---
 
 # TrafficLoc: Localizing Traffic Surveillance Cameras in 3D Scenes

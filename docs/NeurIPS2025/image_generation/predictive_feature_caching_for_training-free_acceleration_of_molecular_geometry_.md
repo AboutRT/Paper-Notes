@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][分子几何生成] 将图像领域的预测式特征缓存（predictive feature caching）策略迁移到分子几何生成领域，利用采样轨迹中隐藏状态的时间平滑性，实现免训练的2-3倍推理加速，且与其他优化手段组合可达7倍加速。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 分子几何生成
-  - 流匹配
-  - 特征缓存
-  - 免训练加速
-  - SE(3)等变
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "分子几何生成"
+  - "流匹配"
+  - "特征缓存"
+  - "免训练加速"
+  - "SE(3)等变"
 ---
 
 # Predictive Feature Caching for Training-free Acceleration of Molecular Geometry Generation

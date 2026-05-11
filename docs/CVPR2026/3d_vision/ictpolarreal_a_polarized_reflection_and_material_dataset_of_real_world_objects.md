@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ICTPolarReal: A Polarized Reflection and Material Dataset of Real World Objects
 description: >-
-  [CVPR 2026][3D视觉][偏振成像] 本文构建了首个大规模真实世界偏振反射与材质数据集 ICTPolarReal，利用 8 相机 346 光源的 Light Stage 系统对 218 个日常物体进行交叉/平行偏振捕获，获得超 120 万张高分辨率图像及漫反射-镜面反射分离的地面真值，显著提升了逆渲染、前向重光照和稀疏视角三维重建的效果。
+  [CVPR 2026][3D视觉][偏振成像] 本文构建了首个大规模真实世界偏振反射与材质数据集 ICTPolarReal，利用 8 相机 346 光源的 Light Stage 系统对 218 个日常物体进行交叉/平行偏振捕获，获得超 120 万张高分辨率图像及漫反射-镜面反射分离的地面真值…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 偏振成像
-  - 材质数据集
-  - 逆渲染
-  - 反射分离
-  - Light Stage
+  - "CVPR 2026"
+  - "3D视觉"
+  - "偏振成像"
+  - "材质数据集"
+  - "逆渲染"
+  - "反射分离"
+  - "Light Stage"
 ---
 
 # ICTPolarReal: A Polarized Reflection and Material Dataset of Real World Objects

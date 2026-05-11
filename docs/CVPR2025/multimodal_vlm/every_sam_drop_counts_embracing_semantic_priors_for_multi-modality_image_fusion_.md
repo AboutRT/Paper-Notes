@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond
 description: >-
-  [CVPR 2025][多模态][红外-可见光融合] 利用 SAM 的语义先验通过持久注意力模块增强红外-可见光图像融合，再通过双层优化知识蒸馏将语义知识转移到仅 0.136M 参数的轻量子网络，实现无需 SAM 的 10.47ms 推理，同时在分割任务上超越所有专用融合方法 3+ mIoU。
+  [CVPR 2025][多模态VLM][红外-可见光融合] 利用 SAM 的语义先验通过持久注意力模块增强红外-可见光图像融合，再通过双层优化知识蒸馏将语义知识转移到仅 0.136M 参数的轻量子网络，实现无需 SAM 的 10.47ms 推理，同时在分割任务上超越所有专用融合方法 3+ mIoU。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 红外-可见光融合
-  - SAM语义先验
-  - 多模态VLM
-  - 双层优化
-  - 轻量模型
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "红外-可见光融合"
+  - "SAM语义先验"
+  - "知识蒸馏"
+  - "双层优化"
+  - "轻量模型"
 ---
 
 # Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond

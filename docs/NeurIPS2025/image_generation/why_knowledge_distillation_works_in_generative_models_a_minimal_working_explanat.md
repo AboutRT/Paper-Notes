@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][知识蒸馏] 通过高斯混合模型的理论分析和大规模语言模型实验（SmolLM2 系列多级蒸馏），揭示知识蒸馏在生成模型中的核心机制——蒸馏诱导学生模型在精度（precision，生成质量）和召回（recall，分布覆盖度）之间进行权衡，由教师分布的熵控制。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 知识蒸馏
-  - 精度-召回权衡
-  - 生成模型
-  - 高斯混合
-  - 教师熵
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "知识蒸馏"
+  - "精度-召回权衡"
+  - "生成模型"
+  - "高斯混合"
+  - "教师熵"
 ---
 
 # Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation

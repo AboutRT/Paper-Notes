@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching
 description: >-
-  [ICML 2025][LLM评测] FedTAIL 提出了一个联邦域泛化框架，通过梯度一致性正则化、逐类锐度感知最小化和曲率感知动态加权三个模块，同时解决域偏移和长尾类别不平衡的双重挑战，在多个基准上达到 SOTA。
+  [ICML 2025][LLM评测][联邦学习] FedTAIL 提出了一个联邦域泛化框架，通过梯度一致性正则化、逐类锐度感知最小化和曲率感知动态加权三个模块，同时解决域偏移和长尾类别不平衡的双重挑战，在多个基准上达到 SOTA。
 tags:
-  - ICML 2025
-  - LLM评测
-  - Domain Generalization
-  - Long-Tailed
-  - Sharpness-Aware Minimization
-  - Gradient Coherence
+  - "ICML 2025"
+  - "LLM评测"
+  - "联邦学习"
+  - "Domain Generalization"
+  - "Long-Tailed"
+  - "Sharpness-Aware Minimization"
+  - "Gradient Coherence"
 ---
 
 # FEDTAIL: Federated Long-Tailed Domain Generalization with Sharpness-Guided Gradient Matching

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][Neural Rendering] 提出 Kaleido，一系列将 3D 视为视频特殊子域的生成模型，通过序列到序列的图像合成范式和 Masked Autoregressive 框架实现无需显式 3D 表示的新视角合成，首次在多视角设置下匹配逐场景优化方法的质量。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - Neural Rendering
-  - View Synthesis
-  - Transformer
-  - Masked Autoregression
-  - Video-3D Unification
+  - "ICLR 2026"
+  - "3D视觉"
+  - "Neural Rendering"
+  - "View Synthesis"
+  - "Transformer"
+  - "Masked Autoregression"
+  - "Video-3D Unification"
 ---
 
 # Scaling Sequence-to-Sequence Generative Neural Rendering

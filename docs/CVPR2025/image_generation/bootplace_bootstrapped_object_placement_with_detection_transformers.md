@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][物体放置] 提出 BootPlace，将物体放置问题重新定义为"放置即检测"问题，通过在物体减除背景上训练检测变换器识别候选区域，再用负相关语义互补将目标物体匹配到最佳区域，在 Cityscapes 上 top-5 IOU 比 SOTA 提升约 4×。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 物体放置
-  - 图像合成
-  - 检测变换器
-  - 自举训练
-  - copy-paste
+  - "CVPR 2025"
+  - "图像生成"
+  - "物体放置"
+  - "图像合成"
+  - "检测变换器"
+  - "自举训练"
+  - "copy-paste"
 ---
 
 # BootPlace: Bootstrapped Object Placement with Detection Transformers

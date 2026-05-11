@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PolySHAP: Extending KernelSHAP with Interaction-Informed Polynomial Regression
 description: >-
-  [ICLR 2026][Shapley值] 本文提出 PolySHAP，通过将 KernelSHAP 的线性近似扩展为高阶多项式回归来捕获特征间的非线性交互，从而提升 Shapley 值的估计精度；并从理论上证明了配对采样（paired sampling）等价于二阶 PolySHAP，首次解释了配对采样启发式方法优越性能的根本原因。
+  [ICLR 2026][可解释性][Shapley值] 本文提出 PolySHAP，通过将 KernelSHAP 的线性近似扩展为高阶多项式回归来捕获特征间的非线性交互，从而提升 Shapley 值的估计精度；并从理论上证明了配对采样（paired sampling）等价于二阶 PolySHAP…
 tags:
-  - ICLR 2026
-  - Shapley值
-  - 可解释AI
-  - 多项式回归
-  - 特征交互
-  - KernelSHAP
+  - "ICLR 2026"
+  - "可解释性"
+  - "Shapley值"
+  - "可解释AI"
+  - "多项式回归"
+  - "特征交互"
+  - "KernelSHAP"
 ---
 
 # PolySHAP: Extending KernelSHAP with Interaction-Informed Polynomial Regression

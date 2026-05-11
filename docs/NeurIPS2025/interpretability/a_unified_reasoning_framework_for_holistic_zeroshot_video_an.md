@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis
 description: >-
-  [NeurIPS 2025][可解释性] 提出一个完全零样本、无需训练的视频异常分析框架，通过Intra-Task Reasoning（置信度门控的自我精化）和Inter-Task Chaining（从时序检测到空间定位到语义理解的级联prompt传递），在4个benchmark上全面超越先前零样本方法4-6% AUC。
+  [NeurIPS 2025][可解释性][视频异常检测] 提出一个完全零样本、无需训练的视频异常分析框架，通过Intra-Task Reasoning（置信度门控的自我精化）和Inter-Task Chaining（从时序检测到空间定位到语义理解的级联prompt传递）…
 tags:
-  - NeurIPS 2025
-  - 可解释性
-  - 零样本
-  - 链式推理
-  - VLM
-  - 异常定位与理解
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "视频异常检测"
+  - "零样本"
+  - "链式推理"
+  - "VLM"
+  - "异常定位与理解"
 ---
 
 # A Unified Reasoning Framework for Holistic Zero-Shot Video Anomaly Analysis
@@ -62,7 +63,7 @@ VAU: GPT-C在UCF-Crime从0.384提升到0.444(+InterTC)
 - **推理步骤消融**: LLM评分+门控推理=84.28%; LLM评分+无门控推理=77.40%（过度思考反而降低！）; 纯VLM=77.67%
 - **自动 $t_V$ vs. 人工标签**: $t_V$(84.28%) > $t_{oracle}$(83.91%) > 空(81.86%)
 - **$m$敏感度**: $m \in [0.05, 0.2]$ 结果稳定，$m=0.4$ 大幅下降
-- **VLM/LLM泛化**: 换不同VLM(2B-7B)或LLM，性能变化<4%，确认框架的即插即用特性
+- **VLM/LLM泛化**: 换不同VLM(2B-7B)或LLM，性能变化&lt;4%，确认框架的即插即用特性
 - **与现代化baseline对比**: 用VideoLLaMA3+Llama3.1跑LAVAD只有72.99%，证明提升来自框架而非更强模型
 
 ## 亮点
@@ -73,7 +74,7 @@ VAU: GPT-C在UCF-Crime从0.384提升到0.444(+InterTC)
 
 ## 局限与展望
 - 性能受冻结VLM/LLM的先验知识约束——如果预训练数据不覆盖某种异常类型则可能失效
-- 对短暂异常（<10秒）敏感度不足，因为均匀采样的 $c_i$ 可能缺乏足够时间粒度
+- 对短暂异常（&lt;10秒）敏感度不足，因为均匀采样的 $c_i$ 可能缺乏足够时间粒度
 - 仅在监控/暴力领域验证，医疗/工业场景的异常检测尚未探索
 - VAU任务中有时输出过于冗长（LLM推理的通病）
 

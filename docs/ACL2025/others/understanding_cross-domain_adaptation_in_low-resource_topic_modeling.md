@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][主题建模] 首次将领域自适应形式化引入低资源主题建模，推导有限样本泛化上界指导方法设计，提出 DALTA 框架通过共享编码器、领域专用解码器和对抗对齐实现跨领域主题知识的选择性迁移。
 tags:
-  - ACL 2025
-  - 主题建模
-  - 领域自适应
-  - 低资源
-  - 其他
-  - 泛化上界
+  - "ACL 2025"
+  - "主题建模"
+  - "领域自适应"
+  - "低资源"
+  - "对抗训练"
+  - "泛化上界"
 ---
 
 # Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] The Effect of Optimal Self-Distillation in Noisy Gaussian Mixture Model
 description: >-
-  [NeurIPS 2025][图像恢复][自蒸馏] 利用统计物理的replica方法对噪声高斯混合数据上的超参优化多阶段自蒸馏进行严格理论分析，揭示硬伪标签的去噪效应是自蒸馏性能提升的主要驱动力，中等规模数据集获益最显著，并提出早停（限制蒸馏阶段数）和偏置参数固定两个实用改进策略，CIFAR-10+ResNet实验验证了理论预测。
+  [NeurIPS 2025][图像恢复][自蒸馏] 利用统计物理的replica方法对噪声高斯混合数据上的超参优化多阶段自蒸馏进行严格理论分析，揭示硬伪标签的去噪效应是自蒸馏性能提升的主要驱动力，中等规模数据集获益最显著，并提出早停（限制蒸馏阶段数）和偏置参数固定两个实用改进策略…
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 图像复原
-  - 噪声数据
-  - 高斯混合模型
-  - replica方法
-  - 伪标签
-  - 去噪
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "自蒸馏"
+  - "噪声数据"
+  - "高斯混合模型"
+  - "replica方法"
+  - "伪标签"
+  - "去噪"
 ---
 
 # The Effect of Optimal Self-Distillation in Noisy Gaussian Mixture Model

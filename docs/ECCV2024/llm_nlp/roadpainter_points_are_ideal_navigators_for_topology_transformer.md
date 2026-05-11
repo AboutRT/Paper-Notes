@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][LLM/NLP][拓扑推理] 提出 RoadPainter，通过先回归车道中心线点再利用实例 mask 精炼的两阶段策略，结合混合注意力机制和真实-虚拟车道分离策略，在 OpenLane-V2 数据集上实现 SOTA 的拓扑推理性能。
 tags:
-  - ECCV 2024
-  - LLM/NLP
-  - 拓扑推理
-  - 车道中心线检测
-  - BEV感知
-  - 实例分割
-  - SD地图
+  - "ECCV 2024"
+  - "LLM/NLP"
+  - "拓扑推理"
+  - "车道中心线检测"
+  - "BEV感知"
+  - "实例分割"
+  - "SD地图"
 ---
 
 # RoadPainter: Points Are Ideal Navigators for Topology Transformer

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models
 description: >-
-  [ICLR 2026][LLM推理][benchmark] 提出SealQA挑战基准（含Seal-0/Seal-Hard/LongSeal三种变体），每道题均经NLP研究者精心设计以触发歧义/冲突/噪声搜索结果，GPT-5最高仅43.2%准确率，揭示test-time scaling在噪声检索下不产生可靠增益。
+  [ICLR 2026][LLM推理][benchmark] 提出SealQA挑战基准（含Seal-0/Seal-Hard/LongSeal三种变体），每道题均经NLP研究者精心设计以触发歧义/冲突/噪声搜索结果，GPT-5最高仅43.2%准确率，揭示test-time scaling在噪声检索下不产生可靠增益…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - benchmark
-  - search-augmented LLM
-  - RAG
-  - noisy retrieval
-  - test-time scaling
-  - knowledge conflict
+  - "ICLR 2026"
+  - "LLM推理"
+  - "benchmark"
+  - "search-augmented LLM"
+  - "RAG"
+  - "noisy retrieval"
+  - "test-time scaling"
+  - "knowledge conflict"
 ---
 
 # SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models

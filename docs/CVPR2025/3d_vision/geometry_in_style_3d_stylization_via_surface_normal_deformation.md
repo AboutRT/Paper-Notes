@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][网格风格化] 提出通过优化三角网格的表面法线方向、结合可微分ARAP（dARAP）层恢复顶点位置的方法，实现文本驱动的网格风格化，能产生表达力强但保持形状身份的几何变形。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 网格风格化
-  - 表面法线
-  - ARAP变形
-  - 文本驱动3D编辑
-  - 可微分几何
+  - "CVPR 2025"
+  - "3D视觉"
+  - "网格风格化"
+  - "表面法线"
+  - "ARAP变形"
+  - "文本驱动3D编辑"
+  - "可微分几何"
 ---
 
 # Geometry in Style: 3D Stylization via Surface Normal Deformation

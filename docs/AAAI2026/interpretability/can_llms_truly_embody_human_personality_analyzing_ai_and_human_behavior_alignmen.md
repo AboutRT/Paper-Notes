@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][可解释性][LLM人格模拟] 提出首个系统对比框架，在配对的冲突调解场景中直接比较人类与人格提示LLM的策略行为差异，发现LLM在人格-行为映射上与人类存在显著偏差，挑战了"人格提示即可代理人类行为"的假设。
 tags:
-  - AAAI 2026
-  - 可解释性
-  - LLM人格模拟
-  - 冲突解决
-  - 大五人格
-  - 行为对齐
-  - 社会仿真
+  - "AAAI 2026"
+  - "可解释性"
+  - "LLM人格模拟"
+  - "冲突解决"
+  - "大五人格"
+  - "行为对齐"
+  - "社会仿真"
 ---
 
 # Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution

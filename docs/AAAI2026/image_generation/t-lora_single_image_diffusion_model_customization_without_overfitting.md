@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][扩散模型定制] 提出 T-LoRA，一种时步依赖的低秩适配框架，通过动态调整不同扩散时步的LoRA秩（高噪声时步用小秩、低噪声时步用大秩）和正交初始化（Ortho-LoRA）确保适配组件信息独立，解决了单图像扩散模型定制中的过拟合问题，在概念保真度和文本对齐间取得最优平衡。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 扩散模型定制
-  - LoRA
-  - 过拟合
-  - 时步依赖
-  - 正交初始化
+  - "AAAI 2026"
+  - "图像生成"
+  - "扩散模型定制"
+  - "LoRA"
+  - "过拟合"
+  - "时步依赖"
+  - "正交初始化"
 ---
 
 # T-LoRA: Single Image Diffusion Model Customization Without Overfitting

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention
 description: >-
-  [CVPR 2026][图像分割][裂缝分割] 提出 MixerCSeg，通过解析 Mamba 的隐式注意力机制将通道解耦为全局/局部分支，分别用 Self-Attention 和 CNN 增强，配合方向引导边缘门控卷积，以 2.05 GFLOPs / 2.54M 参数实现裂缝分割 SOTA。
+  [CVPR 2026][语义分割][裂缝分割] 提出 MixerCSeg，通过解析 Mamba 的隐式注意力机制将通道解耦为全局/局部分支，分别用 Self-Attention 和 CNN 增强，配合方向引导边缘门控卷积，以 2.05 GFLOPs / 2.54M 参数实现裂缝分割 SOTA。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 裂缝分割
-  - 混合架构
-  - Mamba注意力解耦
-  - 方向引导边缘卷积
-  - 轻量高效
+  - "CVPR 2026"
+  - "语义分割"
+  - "裂缝分割"
+  - "混合架构"
+  - "Mamba注意力解耦"
+  - "方向引导边缘卷积"
+  - "轻量高效"
 ---
 
 # MixerCSeg: An Efficient Mixer Architecture for Crack Segmentation via Decoupled Mamba Attention

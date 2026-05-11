@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Aligning What Vision-Language Models See and Perceive with Adaptive Information Flow
 description: >-
-  [CVPR 2026][多模态][视觉语言模型] 本文发现 VLM 中文本 token 对无关视觉 token 的过度注意力是"看到但感知错误"的根本原因，提出基于 token 动态熵的自适应信息流调控方法（AIF），通过推理时修改因果掩码来阻断无关视觉-文本连接，免训练提升多种 VLM 的感知能力。
+  [CVPR 2026][多模态VLM][视觉语言模型] 本文发现 VLM 中文本 token 对无关视觉 token 的过度注意力是"看到但感知错误"的根本原因，提出基于 token 动态熵的自适应信息流调控方法（AIF），通过推理时修改因果掩码来阻断无关视觉-文本连接，免训练提升多种 VLM 的感知能力。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 信息流调控
-  - token动态
-  - 因果掩码
-  - 免训练
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "信息流调控"
+  - "token动态"
+  - "因果掩码"
+  - "免训练"
 ---
 
 # Aligning What Vision-Language Models See and Perceive with Adaptive Information Flow

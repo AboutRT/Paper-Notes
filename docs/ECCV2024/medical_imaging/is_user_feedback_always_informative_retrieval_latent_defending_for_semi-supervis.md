@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][半监督域适应] 发现用户反馈在域适应中并非总是有益——偏向纠正错误预测的"负偏反馈"(NBF)会导致现有半监督域适应方法性能下降，并提出 Retrieval Latent Defending 方法，通过在每个 mini-batch 中加入伪标签防御样本来平衡监督信号。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 半监督域适应
-  - 负偏反馈
-  - Source-Free
-  - 用户反馈
-  - 伪标签
+  - "ECCV 2024"
+  - "医学图像"
+  - "半监督域适应"
+  - "负偏反馈"
+  - "Source-Free"
+  - "用户反馈"
+  - "伪标签"
 ---
 
 # Is User Feedback Always Informative? Retrieval Latent Defending for Semi-Supervised Domain Adaptation without Source Data

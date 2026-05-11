@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][视觉语言动作模型] 提出 MoManipVLA，将预训练的固定基座 VLA 模型迁移到移动操作场景，通过双层轨迹优化联合规划底盘移动和机械臂轨迹（优化可达性/平滑性/碰撞避免），在 OVMM 基准上达到 66.1% 成功率（+4.2%），仅需 50 条演示即可在真实世界部署。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 视觉语言动作模型
-  - 移动操作
-  - 双层轨迹优化
-  - VLA迁移
-  - 可达性
+  - "CVPR 2025"
+  - "机器人"
+  - "视觉语言动作模型"
+  - "移动操作"
+  - "双层轨迹优化"
+  - "VLA迁移"
+  - "可达性"
 ---
 
 # MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][4D生成] DNF 提出了一种基于字典学习的 4D 神经场表示，通过 SVD 分解-压缩-扩展的 MLP 参数字典实现形状与运动的解耦紧凑编码，配合 Transformer 扩散模型实现无条件 4D 形变物体生成，在 DeformingThings4D 上达到 SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 4D生成
-  - 字典学习
-  - 神经场
-  - 形变建模
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "4D生成"
+  - "字典学习"
+  - "神经场"
+  - "形变建模"
+  - "扩散模型"
 ---
 
 # DNF: Unconditional 4D Generation with Dictionary-Based Neural Fields

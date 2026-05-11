@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis
 description: >-
-  [ICCV 2025][交通事故视频合成] 本文提出Causal-VidSyn扩散模型，通过事故原因问答（ArA）模块和驾驶员注视条件的视觉token选择机制实现因果实体定位，并构建了包含154万帧注视数据的Drive-Gaze数据集，在事故视频编辑、正常到事故视频扩散、文本到视频生成三个任务中超越SOTA。
+  [ICCV 2025][视频生成][交通事故视频合成] 本文提出Causal-VidSyn扩散模型，通过事故原因问答（ArA）模块和驾驶员注视条件的视觉token选择机制实现因果实体定位，并构建了包含154万帧注视数据的Drive-Gaze数据集…
 tags:
-  - ICCV 2025
-  - 交通事故视频合成
-  - 视频生成
-  - 驾驶员注视
-  - 扩散模型
-  - 自动驾驶安全
+  - "ICCV 2025"
+  - "视频生成"
+  - "交通事故视频合成"
+  - "因果实体"
+  - "驾驶员注视"
+  - "扩散模型"
+  - "自动驾驶安全"
 ---
 
 # Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis

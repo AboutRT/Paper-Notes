@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NEURIPS2025][图像生成][注意力机制] GSPN-2 通过算法-系统联合重设计（单 kernel 融合、紧凑通道传播、共享内存优化），将 GSPN-1 的 2D 空间传播加速最高 40×，在 ImageNet 分类和文本到图像生成中达到 Transformer 级精度且计算成本显著更低。
 tags:
-  - NEURIPS2025
-  - 图像生成
-  - 注意力机制
-  - spatial propagation
-  - CUDA optimization
-  - Transformer
+  - "NEURIPS2025"
+  - "图像生成"
+  - "注意力机制"
+  - "spatial propagation"
+  - "CUDA optimization"
+  - "Transformer"
 ---
 
 # GSPN-2: Efficient Parallel Sequence Modeling

@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩] ZipLoRA 提出了一种廉价高效的 LoRA 合并方法，通过学习逐列合并系数并最小化列间余弦相似度，实现了将独立训练的主题 LoRA 和风格 LoRA 无超参数合并，在扩散模型中生成"任意主题 × 任意风格"的个性化图像。
 tags:
-  - ECCV 2024
-  - 模型压缩
+  - "ECCV 2024"
+  - "模型压缩"
 ---
 
 # ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs

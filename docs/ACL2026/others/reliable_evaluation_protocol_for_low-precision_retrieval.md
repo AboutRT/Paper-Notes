@@ -2,8 +2,14 @@
 title: >-
   [论文解读] Reliable Evaluation Protocol for Low-Precision Retrieval
 description: >-
-  [ACL2026][其他] 揭示低精度检索中的虚假并列问题，提出HPS高精度打分和TRM并列感知指标两种策略实现可靠评估
-tags: [低精度检索, 评估协议, 量化, 并列问题, 检索系统]
+  [ACL 2026][低精度检索] 揭示低精度（如二值化/量化嵌入）检索系统在评估时因分数粒度降低产生大量虚假并列（spurious ties），导致评估结果高度不稳定，提出 HPS（高精度打分）和 TRM（并列感知指标）两种互补策略，使低精度检索的评估更可靠一致。
+tags:
+  - "ACL 2026"
+  - "低精度检索"
+  - "虚假并列"
+  - "评估协议"
+  - "高精度打分"
+  - "并列感知指标"
 ---
 
 # Reliable Evaluation Protocol for Low-Precision Retrieval

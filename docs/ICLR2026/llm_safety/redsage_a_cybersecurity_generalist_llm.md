@@ -2,14 +2,14 @@
 title: >-
   [论文解读] RedSage: A Cybersecurity Generalist LLM
 description: >-
-  [ICLR 2026][AI安全][网络安全LLM] 提出RedSage——首个全栈开源的网络安全通才LLM，通过11.7B token大规模领域持续预训练、266K样本的Agentic数据增强SFT、以及首个覆盖知识+技能+工具的综合评测基准RedSage-Bench，8B参数模型在网络安全基准上超越同规模SOTA（+5.4pp）并接近Qwen3-32B，通用能力不降反升（+8.4pp vs Qwen3-8B）。
+  [ICLR 2026][LLM安全][网络安全LLM] 提出RedSage——首个全栈开源的网络安全通才LLM，通过11.7B token大规模领域持续预训练、266K样本的Agentic数据增强SFT、以及首个覆盖知识+技能+工具的综合评测基准RedSage-Bench…
 tags:
-  - ICLR 2026
-  - AI安全
-  - 网络安全LLM
-  - 持续预训练
-  - 智能体数据增强
-  - 安全评测基准
+  - "ICLR 2026"
+  - "LLM安全"
+  - "网络安全LLM"
+  - "持续预训练"
+  - "智能体数据增强"
+  - "安全评测基准"
 ---
 
 # RedSage: A Cybersecurity Generalist LLM

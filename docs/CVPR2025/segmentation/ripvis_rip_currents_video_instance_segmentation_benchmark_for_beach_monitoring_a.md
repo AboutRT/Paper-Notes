@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RipVIS: Rip Currents Video Instance Segmentation Benchmark for Beach Monitoring
 description: >-
-  [CVPR 2025][图像分割][离岸流分割] RipVIS 提出首个大规模离岸流（rip current）视频实例分割基准数据集（184 视频/21 万帧），同时提出时序置信度聚合（TCA）后处理方法，通过跨帧置信度累积提升离岸流分割的稳定性和召回率，为海滩安全监测提供系统化的 CV 解决方案。
+  [CVPR 2025][语义分割][离岸流分割] RipVIS 提出首个大规模离岸流（rip current）视频实例分割基准数据集（184 视频/21 万帧），同时提出时序置信度聚合（TCA）后处理方法，通过跨帧置信度累积提升离岸流分割的稳定性和召回率，为海滩安全监测提供系统化的 CV 解决方案。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 离岸流分割
-  - 视频实例分割
-  - 海滩安全
-  - 时序置信度聚合
-  - 无定形物体检测
+  - "CVPR 2025"
+  - "语义分割"
+  - "离岸流分割"
+  - "视频实例分割"
+  - "海滩安全"
+  - "时序置信度聚合"
+  - "无定形物体检测"
 ---
 
 # RipVIS: Rip Currents Video Instance Segmentation Benchmark for Beach Monitoring

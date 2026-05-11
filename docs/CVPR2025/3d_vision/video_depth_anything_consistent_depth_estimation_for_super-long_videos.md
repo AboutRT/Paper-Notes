@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][视频深度估计] Video Depth Anything 在 Depth Anything V2 基础上引入轻量时空头和时间梯度匹配损失，无需几何先验或视频生成先验，即可以 30 FPS 实时速度为任意长度视频生成时间一致的高质量深度图。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 视频深度估计
-  - 时间一致性
-  - 超长视频
-  - 时间梯度匹配
-  - 关键帧策略
+  - "CVPR 2025"
+  - "3D视觉"
+  - "视频深度估计"
+  - "时间一致性"
+  - "超长视频"
+  - "时间梯度匹配"
+  - "关键帧策略"
 ---
 
 # Video Depth Anything: Consistent Depth Estimation for Super-Long Videos

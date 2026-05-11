@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GASP: Gaussian Avatars with Synthetic Priors
 description: >-
-  [CVPR 2025][3D视觉][高斯头像] 提出 GASP，利用合成数据训练 Gaussian Avatar 的生成式先验模型（auto-decoder），通过三阶段拟合过程和学到的 per-Gaussian 语义特征关联来跨越合成-真实域差距，仅从单张图片或短视频即可创建支持 360° 渲染的高质量实时可动画头像（70fps）。
+  [CVPR 2025][3D视觉][高斯头像] 提出 GASP，利用合成数据训练 Gaussian Avatar 的生成式先验模型（auto-decoder），通过三阶段拟合过程和学到的 per-Gaussian 语义特征关联来跨越合成-真实域差距…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 高斯头像
-  - 合成数据先验
-  - 单目重建
-  - 360度渲染
-  - 实时动画
+  - "CVPR 2025"
+  - "3D视觉"
+  - "高斯头像"
+  - "合成数据先验"
+  - "单目重建"
+  - "360度渲染"
+  - "实时动画"
 ---
 
 # GASP: Gaussian Avatars with Synthetic Priors

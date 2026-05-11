@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Inflated Excellence or True Performance? Rethinking Medical Diagnostic Benchmarks with Dynamic Evaluation
 description: >-
-  [ACL 2026][医学图像][医学诊断基准] 本文提出 DyReMe 动态医学诊断评估框架，通过 DyGen 模块生成包含鉴别诊断和误诊因素等临床干扰项的全新诊断案例，并通过 EvalMed 模块从准确性、真实性、帮助性和一致性四个维度评估 LLM，揭示现有静态基准高估了 LLM 的诊断能力——GPT-5 在 DyReMe 上准确率下降 8.25%，12 个 LLM 均暴露出显著的可信度不足。
+  [ACL 2026][医学图像][医学诊断基准] 本文提出 DyReMe 动态医学诊断评估框架，通过 DyGen 模块生成包含鉴别诊断和误诊因素等临床干扰项的全新诊断案例，并通过 EvalMed 模块从准确性、真实性、帮助性和一致性四个维度评估 LLM…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 医学诊断基准
-  - 动态评估
-  - 数据污染
-  - 诊断干扰项
-  - LLM可信度
+  - "ACL 2026"
+  - "医学图像"
+  - "医学诊断基准"
+  - "动态评估"
+  - "数据污染"
+  - "诊断干扰项"
+  - "LLM可信度"
 ---
 
 # Inflated Excellence or True Performance? Rethinking Medical Diagnostic Benchmarks with Dynamic Evaluation

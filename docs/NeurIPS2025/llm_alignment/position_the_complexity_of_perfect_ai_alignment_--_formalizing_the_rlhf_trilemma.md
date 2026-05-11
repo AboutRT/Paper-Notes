@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Position: The Complexity of Perfect AI Alignment -- Formalizing the RLHF Trilemma
 description: >-
-  [NeurIPS 2025][LLM对齐][AI对齐] 本文将 RLHF 中反复出现的安全-公平-效率冲突形式化为「对齐三难困境」：证明了没有任何 RLHF 系统能同时满足 $\varepsilon$-代表性（忠实反映多元价值）、多项式可处理性（计算可行）和 $\delta$-鲁棒性（抵御对抗攻击），从而为当前 RLHF 系统中偏好坍缩、谄媚等病理现象提供了统一的复杂度理论解释。
+  [NeurIPS 2025][LLM对齐][AI对齐] 本文将 RLHF 中反复出现的安全-公平-效率冲突形式化为「对齐三难困境」：证明了没有任何 RLHF 系统能同时满足 $\varepsilon$-代表性（忠实反映多元价值）、多项式可处理性（计算可行）和 $\delta$-鲁棒性（抵御对抗攻击）…
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - AI对齐
-  - RLHF
-  - 三难困境
-  - 社会选择理论
-  - 形式化分析
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "AI对齐"
+  - "RLHF"
+  - "三难困境"
+  - "社会选择理论"
+  - "形式化分析"
 ---
 
 # Position: The Complexity of Perfect AI Alignment -- Formalizing the RLHF Trilemma

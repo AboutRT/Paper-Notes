@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][自监督学习][高斯过程] 提出两种基于最近邻的高斯过程先验近似方法（HPA 和 SPA），将近邻驱动的稀疏性引入 GPVAE 的潜空间推断，在保留关键潜变量依赖的同时实现可扩展的 mini-batch 训练，避免了对大量诱导点或受限核函数的依赖。
 tags:
-  - ICML 2025
-  - 自监督学习
-  - 高斯过程
-  - 变分自编码器
-  - 最近邻近似
-  - 结构化潜变量
-  - 可扩展推断
+  - "ICML 2025"
+  - "自监督学习"
+  - "高斯过程"
+  - "变分自编码器"
+  - "最近邻近似"
+  - "结构化潜变量"
+  - "可扩展推断"
 ---
 
 # Neighbour-Driven Gaussian Process Variational Autoencoders for Scalable Structured Latent Modelling

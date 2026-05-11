@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems
 description: >-
-  [ICLR 2026][社会计算] 提出 SupervisorAgent，一个轻量级的实时自适应监督框架，通过无 LLM 的自适应过滤器在关键交互节点主动干预（纠错、指导、观察净化），在 GAIA 基准上将 Smolagent 的 token 消耗降低 29.68% 而不损失成功率。
+  [ICLR 2026][社会计算][多智能体系统] 提出 SupervisorAgent，一个轻量级的实时自适应监督框架，通过无 LLM 的自适应过滤器在关键交互节点主动干预（纠错、指导、观察净化），在 GAIA 基准上将 Smolagent 的 token 消耗降低 29.68% 而不损失成功率。
 tags:
-  - ICLR 2026
-  - 社会计算
-  - Token 效率
-  - 运行时监督
-  - 自适应过滤
-  - 错误纠正
+  - "ICLR 2026"
+  - "社会计算"
+  - "多智能体系统"
+  - "Token 效率"
+  - "运行时监督"
+  - "自适应过滤"
+  - "错误纠正"
 ---
 
 # Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion
 description: >-
-  [CVPR 2026][LLM评测][视频数据集压缩] 本文提出 PRISM，一种整体式视频数据集压缩方法：从仅两个时间锚点（首尾帧）出发,通过检测梯度方向冲突来自适应插入关键帧，在保持内容与运动的耦合完整性的同时实现 SOTA 的存储效率——在 miniUCF 1VPC 上用 20MB 达到 17.9% 准确率，比先前方法的 94MB 少 5 倍。
+  [CVPR 2026][LLM评测][视频数据集压缩] 本文提出 PRISM，一种整体式视频数据集压缩方法：从仅两个时间锚点（首尾帧）出发,通过检测梯度方向冲突来自适应插入关键帧，在保持内容与运动的耦合完整性的同时实现 SOTA 的存储效率——在 miniUCF 1VPC 上用 20MB 达到 17.9% 准…
 tags:
-  - CVPR 2026
-  - LLM评测
-  - 视频数据集压缩
-  - 关键帧插入
-  - 梯度引导
-  - 时空耦合
-  - 存储效率
+  - "CVPR 2026"
+  - "LLM评测"
+  - "视频数据集压缩"
+  - "关键帧插入"
+  - "梯度引导"
+  - "时空耦合"
+  - "存储效率"
 ---
 
 # PRISM: Video Dataset Condensation with Progressive Refinement and Insertion for Sparse Motion

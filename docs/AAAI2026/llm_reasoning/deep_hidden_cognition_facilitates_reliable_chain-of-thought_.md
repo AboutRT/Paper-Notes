@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Deep Hidden Cognition Facilitates Reliable Chain-of-Thought Reasoning
 description: >-
-  [AAAI 2026][LLM推理][CoT推理可靠性] 本文发现 LLM 在 CoT 推理过程中，中间层的注意力头激活值隐式编码了推理步骤的真实性信息（最高 85% 探测准确率），据此训练置信度预测器引导 Beam Search 动态选择高置信度推理路径，在数学/符号/常识推理任务上超越 Self-Consistency 和 PRM Guided Search。
+  [AAAI 2026][LLM推理][CoT推理可靠性] 本文发现 LLM 在 CoT 推理过程中，中间层的注意力头激活值隐式编码了推理步骤的真实性信息（最高 85% 探测准确率），据此训练置信度预测器引导 Beam Search 动态选择高置信度推理路径…
 tags:
-  - AAAI 2026
-  - LLM推理
-  - CoT推理可靠性
-  - 内部认知
-  - 注意力头探测
-  - 置信度预测器
-  - Beam Search引导
+  - "AAAI 2026"
+  - "LLM推理"
+  - "CoT推理可靠性"
+  - "内部认知"
+  - "注意力头探测"
+  - "置信度预测器"
+  - "Beam Search引导"
 ---
 
 # Deep Hidden Cognition Facilitates Reliable Chain-of-Thought Reasoning

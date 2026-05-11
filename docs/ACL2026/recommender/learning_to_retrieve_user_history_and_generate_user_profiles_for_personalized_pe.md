@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning to Retrieve User History and Generate User Profiles for Personalized Persuasiveness Prediction
 description: >-
-  [ACL 2026][说服力预测] 本文提出 ReCAP 框架，通过可训练的查询生成器和用户画像生成器，从用户历史记录中检索与说服相关的信息并构建上下文感知的用户画像，显著提升个性化说服力预测的效果。
+  [ACL 2026][推荐系统][说服力预测] 本文提出 ReCAP 框架，通过可训练的查询生成器和用户画像生成器，从用户历史记录中检索与说服相关的信息并构建上下文感知的用户画像，显著提升个性化说服力预测的效果。
 tags:
-  - ACL 2026
-  - 说服力预测
-  - 用户画像
-  - 推荐系统
-  - DPO训练
-  - 个性化
+  - "ACL 2026"
+  - "推荐系统"
+  - "说服力预测"
+  - "用户画像"
+  - "检索增强"
+  - "DPO训练"
+  - "个性化"
 ---
 
 # Learning to Retrieve User History and Generate User Profiles for Personalized Persuasiveness Prediction

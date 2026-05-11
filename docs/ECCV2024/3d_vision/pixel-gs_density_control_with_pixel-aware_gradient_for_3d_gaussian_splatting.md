@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D高斯溅射] Pixel-GS通过在3DGS的点云生长判定条件中引入像素覆盖数量作为梯度加权因子，解决了大高斯体在初始点云稀疏区域无法有效分裂的问题，同时通过距离感知的梯度缩放抑制相机附近浮点伪影的产生。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D高斯溅射
-  - 密度控制
-  - 像素感知梯度
-  - 新视角合成
-  - 点云生长
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "密度控制"
+  - "像素感知梯度"
+  - "新视角合成"
+  - "点云生长"
 ---
 
 # Pixel-GS: Density Control with Pixel-aware Gradient for 3D Gaussian Splatting

@@ -1,16 +1,27 @@
 ---
 title: >-
-  NeurIPS2025 多模态 VLM方向154篇论文解读
+  NeurIPS2025 多模态 VLM方向153篇论文解读
 description: >-
-  154篇NeurIPS2025的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对齐/RLHF、机器人、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  153篇NeurIPS2025的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对齐/RLHF、机器人、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "多模态 VLM"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态"
+  - "推理"
+  - "LLM"
+  - "对齐/RLHF"
+  - "机器人"
+  - "少样本学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🧠 NeurIPS2025** · **154** 篇论文解读
+**🧠 NeurIPS2025** · **153** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [📷 CVPR2026 (241)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [📷 CVPR2026 (240)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
 
 🔥 **高频主题：** 多模态 ×87 · 推理 ×27 · LLM ×18 · 对齐/RLHF ×9 · 机器人 ×8
 
@@ -337,10 +348,6 @@ description: >-
 **[MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection](monitor_exploiting_large_language_models_with_instruction_for_online_video_anoma.md)**
 
 :   提出 MoniTor，一个基于记忆的在线评分队列方案，利用 LLM 进行免训练的在线视频异常检测（VAD），通过双层记忆机制、行为预测和标准评分队列引导 LLM 实现实时异常识别。
-
-**[Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)**
-
-:   构建了包含 134,533 个星系的图像-光谱-红移多模态数据集（GalaxiesML-Spectra），适配多模态掩码自编码器（MMAE）同时进行图像和光谱的联合重建与红移回归，证明在测试时即使光谱完全缺失，仅用 25% 掩码图像即可实现优于 AstroCLIP 的红移预测散度 $\sigma_{NMAD} = 0.016$。
 
 **[Multimodal Bandits: Regret Lower Bounds and Optimal Algorithms](multimodal_bandits_regret_lower_bounds_and_optimal_algorithms.md)**
 

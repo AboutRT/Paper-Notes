@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][自动驾驶][端到端自动驾驶] 提出 MPA 框架，通过 3DGS 仿真生成反事实轨迹数据，训练扩散策略适配器和多原则 Q 值模型，在推理时引导预训练 E2E 驾驶模型提升闭环场景下的安全性和泛化能力。
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - 端到端自动驾驶
-  - 闭环评估
-  - 反事实数据
-  - 扩散策略
-  - Q值引导
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "端到端自动驾驶"
+  - "闭环评估"
+  - "反事实数据"
+  - "扩散策略"
+  - "Q值引导"
 ---
 
 # Model-Based Policy Adaptation for Closed-Loop End-to-End Autonomous Driving

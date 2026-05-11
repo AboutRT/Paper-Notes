@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][神经架构搜索] VKDNW提出了一种基于Fisher信息矩阵（FIM）特征值谱熵的训练无关NAS代理，首次成功地将Fisher信息理论应用于大规模深度网络架构搜索，无需任何训练即可评估网络分类精度潜力，并提出了更适合NAS任务的nDCG评估指标。
 tags:
-  - CVPR 2025
-  - 神经架构搜索
-  - 其他
-  - Fisher信息矩阵
-  - Cramér-Rao界
-  - 评估指标
+  - "CVPR 2025"
+  - "神经架构搜索"
+  - "训练无关代理"
+  - "Fisher信息矩阵"
+  - "Cramér-Rao界"
+  - "评估指标"
 ---
 
 # VKDNW: Training-free Neural Architecture Search through Variance of Knowledge of Deep Network Weights

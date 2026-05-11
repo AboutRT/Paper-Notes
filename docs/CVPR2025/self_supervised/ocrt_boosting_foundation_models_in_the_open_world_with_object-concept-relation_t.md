@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad
 description: >-
-  [CVPR 2025][自监督学习][SAM] OCRT 提出一个即插即用的三阶段管道——Object (Slot Attention 解耦)、Concept (重要性筛选)、Relation (概念图推理)——在不改 FM 主干的前提下显著提升 SAM 在弱监督医学/伪装分割上的精度，以及 CLIP 在对抗攻击下的鲁棒性。
+  [CVPR 2025][自监督学习][SAM] OCRT 提出一个即插即用的三阶段管道——Object (Slot Attention 解耦)、Concept (重要性筛选)、Relation (概念图推理)——在不改 FM 主干的前提下显著提升 SAM 在弱监督医学/伪装分割上的精度…
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - SAM
-  - CLIP
-  - 注意力机制
-  - 概念图
-  - 自监督
+  - "CVPR 2025"
+  - "自监督学习"
+  - "SAM"
+  - "CLIP"
+  - "注意力机制"
+  - "概念图"
+  - "对抗微调"
 ---
 
 # OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad

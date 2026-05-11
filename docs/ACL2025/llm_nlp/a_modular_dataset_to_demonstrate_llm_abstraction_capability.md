@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][LLM推理] 提出ArrangementPuzzle拼图数据集并训练LLM激活值分类器，发现分类器以>80%准确率识别推理正确性，揭示LLM在中间-后层Transformer层编码了区分逻辑等价与语义等价的抽象推理概念。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - LLM推理
-  - 内部表征
-  - 激活分类器
-  - Transformer
-  - 抽象推理
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "LLM推理"
+  - "内部表征"
+  - "激活分类器"
+  - "Transformer"
+  - "抽象推理"
 ---
 
 # A Modular Dataset to Demonstrate LLM Abstraction Capability

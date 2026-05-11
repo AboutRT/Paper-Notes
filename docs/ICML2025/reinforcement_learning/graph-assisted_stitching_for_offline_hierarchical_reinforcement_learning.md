@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning
 description: >-
-  [ICML2025][离线强化学习] 提出 Graph-Assisted Stitching (GAS) 框架，用基于图搜索的子目标选择替代显式高层策略学习，通过时间距离表示 (TDR) 空间中的聚类构图与最短路径规划，在离线 HRL 中实现高效的跨轨迹拼接，在最具挑战的 antmaze-giant-stitch 任务上从前 SOTA 的 1.0 飙升至 88.3。
+  [ICML2025][强化学习][离线强化学习] 提出 Graph-Assisted Stitching (GAS) 框架，用基于图搜索的子目标选择替代显式高层策略学习，通过时间距离表示 (TDR) 空间中的聚类构图与最短路径规划，在离线 HRL 中实现高效的跨轨迹拼接…
 tags:
-  - ICML2025
-  - 离线强化学习
-  - 层级RL
-  - 轨迹拼接
-  - 图搜索
-  - 时间距离表示
-  - 子目标选择
+  - "ICML2025"
+  - "强化学习"
+  - "离线强化学习"
+  - "层级RL"
+  - "轨迹拼接"
+  - "图搜索"
+  - "时间距离表示"
+  - "子目标选择"
 ---
 
 # Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning
@@ -125,7 +126,7 @@ $$\theta_{\text{TE}} = \cos\left(\psi(s_{\text{opt}}) - \psi(s_{\text{cur}}),\ \
 1. **视觉环境性能仍有差距**：相比 state-based 环境，视觉环境整体性能偏低，作者承认缺乏针对高维视觉输入的表示学习
 2. **$H_{\text{TD}}$ 需要逐环境调优**：不同任务的最优 $H_{\text{TD}}$ 不同，缺乏自适应选择机制
 3. **图结构为静态**：推理时构建一次图后不再更新，无法根据执行反馈在线修正
-4. **Dijkstra 每 episode 重算**：虽然节点数 <1%，但大规模环境中可能仍有延迟
+4. **Dijkstra 每 episode 重算**：虽然节点数 &lt;1%，但大规模环境中可能仍有延迟
 
 ## 相关工作与启发
 

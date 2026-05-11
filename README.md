@@ -6,7 +6,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/zhaoyang97/Paper-Notes?label=最近更新)](https://github.com/zhaoyang97/Paper-Notes/commits) -->
 
 **5 分钟读懂一篇顶会论文，一个仓库读懂最新 AI 进展。**
-- 📖 **15000+** 篇 AI · LLM · NLP · CV 顶会论文解读
+- 📖 **14000+** 篇 AI · LLM · NLP · CV 顶会论文解读
 - 🏛️ 覆盖 ACL · CVPR · ICLR · AAAI · NeurIPS · ICCV · ICML · ECCV 等会议
 - 🔬 横跨 LLM Reasoning · VLM · Agent · RLHF · RAG · AIGC · Robotics · Autonomous Driving 等46个研究方向
 - 🔄 持续更新中
@@ -15,8 +15,6 @@
 
 
 **[https://papernotes.org/](https://papernotes.org/)**
-
-备用链接: **[https://zhaoyang97.github.io/Paper-Notes/](https://zhaoyang97.github.io/Paper-Notes/)**
 
 > 💡 **提示**：如果数学公式渲染异常，刷新页面通常可以解决。
 

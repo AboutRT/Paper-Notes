@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][continual learning] 提出 C-Nav 框架，通过**双路径抗遗忘**（特征蒸馏 + 特征回放）和**自适应经验选择**（LOF 异常检测选关键帧），让导航智能体在不断学习新物体类别时避免灾难性遗忘，在 4 种架构上均超越全量数据回放基线。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - continual learning
-  - object navigation
-  - catastrophic forgetting
-  - feature distillation
-  - feature replay
-  - LOF
+  - "NeurIPS 2025"
+  - "机器人"
+  - "continual learning"
+  - "object navigation"
+  - "catastrophic forgetting"
+  - "feature distillation"
+  - "feature replay"
+  - "LOF"
 ---
 
 # C-NAV: Towards Self-Evolving Continual Object Navigation in Open World

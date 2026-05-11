@@ -1,18 +1,27 @@
 ---
 title: >-
-  ECCV2024 图像恢复方向32篇论文解读
+  ECCV2024 图像恢复方向31篇论文解读
 description: >-
-  32篇ECCV2024的图像恢复方向论文解读，涵盖图像恢复、超分辨率、扩散模型、压缩/编码、对抗鲁棒、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  31篇ECCV2024的图像恢复方向论文解读，涵盖图像恢复、超分辨率、扩散模型、对抗鲁棒、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ECCV2024"
+  - "图像恢复"
+  - "论文解读"
+  - "论文笔记"
+  - "超分辨率"
+  - "扩散模型"
+  - "对抗鲁棒"
+  - "个性化生成"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🖼️ 图像恢复
 
-**🎞️ ECCV2024** · **32** 篇论文解读
+**🎞️ ECCV2024** · **31** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/image_restoration/index.md) · [📷 CVPR2026 (39)](../../CVPR2026/image_restoration/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/image_restoration/index.md) · [🤖 AAAI2026 (13)](../../AAAI2026/image_restoration/index.md) · [🧠 NeurIPS2025 (26)](../../NeurIPS2025/image_restoration/index.md) · [📹 ICCV2025 (29)](../../ICCV2025/image_restoration/index.md)
 
-🔥 **高频主题：** 图像恢复 ×13 · 超分辨率 ×11 · 扩散模型 ×5 · 压缩/编码 ×2 · 对抗鲁棒 ×2
+🔥 **高频主题：** 图像恢复 ×13 · 超分辨率 ×11 · 扩散模型 ×5 · 对抗鲁棒 ×2 · 个性化生成 ×2
 
 **[A New Dataset and Framework for Real-World Blurred Images Super-Resolution](a_new_dataset_and_framework_for_real-world_blurred_images_super-resolution.md)**
 
@@ -21,10 +30,6 @@ description: >-
 **[Accelerating Image Super-Resolution Networks with Pixel-Level Classification](accelerating_image_super-resolution_networks_with_pixel-level_classification.md)**
 
 :   提出PCSR——首个像素级计算资源分配的超分方法，用轻量MLP分类器逐像素判断恢复难度并分配到不同容量的上采样器，在PSNR几乎不掉的情况下将FLOPs压低至原始模型的18%~57%，大幅优于现有patch级方法ClassSR和ARM。
-
-**[Adaptive Selection of Sampling-Reconstruction in Fourier Compressed Sensing](adaptive_selection_of_samplingreconstruction_in_fourier_comp.md)**
-
-:   提出自适应选择采样-重建框架 $\mathcal{H}_{1.5}$，为每个输入数据自适应选择最佳的采样mask与专用重建网络对，利用超分辨率空间生成模型量化高频不确定性实现选择，理论证明优于非自适应联合优化 $\mathcal{H}_1$ 和自适应采样 $\mathcal{H}_2$。
 
 **[Asymmetric Mask Scheme for Self-supervised Real Image Denoising](asymmetric_mask_scheme_for_self-supervised_real_image_denoising.md)**
 

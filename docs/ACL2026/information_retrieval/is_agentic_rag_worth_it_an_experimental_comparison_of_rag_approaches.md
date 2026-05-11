@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Is Agentic RAG Worth It? An Experimental Comparison of RAG Approaches
 description: >-
-  [ACL 2026][检索增强生成] 本文在四个数据集上从用户意图处理、查询重写、文档精炼和底层 LLM 选择四个维度系统对比了 Enhanced RAG 和 Agentic RAG，发现两者各有优势——Agentic RAG 在意图路由和查询重写上更灵活，Enhanced RAG 在文档重排上更有效，而 Agentic RAG 的成本高达 3.3 倍。
+  [ACL 2026][信息检索/RAG][检索增强生成] 本文在四个数据集上从用户意图处理、查询重写、文档精炼和底层 LLM 选择四个维度系统对比了 Enhanced RAG 和 Agentic RAG，发现两者各有优势——Agentic RAG 在意图路由和查询重写上更灵活…
 tags:
-  - ACL 2026
-  - 检索增强生成
-  - 信息检索
-  - Enhanced RAG
-  - 查询重写
-  - 成本分析
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "检索增强生成"
+  - "Agentic RAG"
+  - "Enhanced RAG"
+  - "查询重写"
+  - "成本分析"
 ---
 
 # Is Agentic RAG Worth It? An Experimental Comparison of RAG Approaches

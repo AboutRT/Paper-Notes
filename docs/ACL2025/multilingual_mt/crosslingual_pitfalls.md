@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models
 description: >-
-  [ACL 2025][跨语言弱点] 提出一种基于 beam search 和 LLM 模拟的自动化方法，高效生成双语问题对以暴露多语言 LLM 在目标语言上的跨语言性能缺陷，构建了覆盖 16 种语言的 6000+ 样本数据集，揭示即使 GPT-4o 也有超 30% 的跨语言准确率下降。
+  [ACL 2025][多语言/翻译][跨语言弱点] 提出一种基于 beam search 和 LLM 模拟的自动化方法，高效生成双语问题对以暴露多语言 LLM 在目标语言上的跨语言性能缺陷，构建了覆盖 16 种语言的 6000+ 样本数据集，揭示即使 GPT-4o 也有超 30% 的跨语言准确率下降。
 tags:
-  - ACL 2025
-  - 跨语言弱点
-  - 多语言翻译
-  - beam search
-  - 双语问题对
-  - 语言亲缘性
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "跨语言弱点"
+  - "多语言LLM"
+  - "beam search"
+  - "双语问题对"
+  - "语言亲缘性"
 ---
 
 # Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][部件级控制] 提出 PartComposer，一种无需训练的方法，通过并行"部件扩散"从注意力图中定位对象部件，再用区域扩散为每个部件独立生成用户指定的细粒度属性（颜色、风格、描述），实现部件级可控图像合成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 部件级控制
-  - 无训练生成
-  - 注意力图分割
-  - 区域扩散
-  - Rich-Text
+  - "CVPR 2025"
+  - "图像生成"
+  - "部件级控制"
+  - "无训练生成"
+  - "注意力图分割"
+  - "区域扩散"
+  - "Rich-Text"
 ---
 
 # Composing Parts for Expressive Object Generation

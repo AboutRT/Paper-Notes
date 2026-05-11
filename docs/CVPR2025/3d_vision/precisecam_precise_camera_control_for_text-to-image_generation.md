@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][相机控制] PreciseCam 通过 4 个相机参数（roll、pitch、vFoV、畸变 ξ）和 Perspective Field-Unified Spherical 表示，实现文本到图像生成中的精确相机视角控制，无需 3D 几何或多视图数据。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 相机控制
-  - 文本生成图像
-  - Perspective Field
-  - ControlNet
-  - 镜头语言
+  - "CVPR 2025"
+  - "3D视觉"
+  - "相机控制"
+  - "文本生成图像"
+  - "Perspective Field"
+  - "ControlNet"
+  - "镜头语言"
 ---
 
 # PreciseCam: Precise Camera Control for Text-to-Image Generation

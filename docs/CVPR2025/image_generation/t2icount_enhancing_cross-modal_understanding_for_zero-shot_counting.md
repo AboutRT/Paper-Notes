@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][零样本目标计数] 提出T2ICount，利用预训练文生图扩散模型的单步去噪特征进行零样本目标计数，通过层次语义校正模块（HSCM）和表征区域一致性损失（$\mathcal{L}_{RRC}$）解决单步去噪的文本敏感性不足问题。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 零样本目标计数
-  - 扩散模型
-  - 文本敏感性
-  - 跨模态对齐
-  - 密度估计
+  - "CVPR 2025"
+  - "图像生成"
+  - "零样本目标计数"
+  - "扩散模型"
+  - "文本敏感性"
+  - "跨模态对齐"
+  - "密度估计"
 ---
 
 # T2ICount: Enhancing Cross-modal Understanding for Zero-Shot Counting

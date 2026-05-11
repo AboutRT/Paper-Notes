@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PMA: Towards Parameter-Efficient Point Cloud Understanding via Point Mamba Adapter
 description: >-
-  [CVPR 2025][3D视觉][点云理解] 提出 Point Mamba Adapter (PMA)，通过 Mamba 架构将预训练点云模型所有中间层的互补特征构造为有序序列并进行融合，配合几何约束门控提示生成器 (G2PG) 动态优化 3D 空间的序列排序，在仅训练 1% 参数的情况下达到甚至超越全量微调的性能。
+  [CVPR 2025][3D视觉][点云理解] 提出 Point Mamba Adapter (PMA)，通过 Mamba 架构将预训练点云模型所有中间层的互补特征构造为有序序列并进行融合，配合几何约束门控提示生成器 (G2PG) 动态优化 3D 空间的序列排序…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点云理解
-  - 参数高效微调
-  - Mamba
-  - 中间层特征融合
-  - 状态空间模型
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点云理解"
+  - "参数高效微调"
+  - "Mamba"
+  - "中间层特征融合"
+  - "状态空间模型"
 ---
 
 # PMA: Towards Parameter-Efficient Point Cloud Understanding via Point Mamba Adapter

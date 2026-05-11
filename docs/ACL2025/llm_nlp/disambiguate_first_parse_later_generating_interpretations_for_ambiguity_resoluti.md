@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing
 description: >-
-  [ACL 2025][NLP理解][歧义消解] 提出"先消歧、后解析"的模块化方法，利用LLM生成默认解释并训练专门的infilling模型补全缺失解释，将歧义自然语言问题转化为多个明确解释后再分别进行SQL解析。
+  [ACL 2025][LLM/NLP][歧义消解] 提出"先消歧、后解析"的模块化方法，利用LLM生成默认解释并训练专门的infilling模型补全缺失解释，将歧义自然语言问题转化为多个明确解释后再分别进行SQL解析。
 tags:
-  - ACL 2025
-  - NLP理解
-  - 歧义消解
-  - 语义解析
-  - Text-to-SQL
-  - 自然语言解释
-  - LLM偏好
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "歧义消解"
+  - "语义解析"
+  - "Text-to-SQL"
+  - "自然语言解释"
+  - "LLM偏好"
 ---
 
 # Disambiguate First, Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing

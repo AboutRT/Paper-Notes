@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频生成][单步视频生成] 提出两阶段训练框架 OSV，结合 GAN 对抗训练和一致性蒸馏，实现单步高质量图像到视频生成，并设计了无需解码的新型视频判别器。
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 单步视频生成
-  - 一致性蒸馏
-  - 对抗训练
-  - 视频扩散加速
-  - GAN
+  - "CVPR 2025"
+  - "视频生成"
+  - "单步视频生成"
+  - "一致性蒸馏"
+  - "对抗训练"
+  - "视频扩散加速"
+  - "GAN"
 ---
 
 # OSV: One Step is Enough for High-Quality Image to Video Generation

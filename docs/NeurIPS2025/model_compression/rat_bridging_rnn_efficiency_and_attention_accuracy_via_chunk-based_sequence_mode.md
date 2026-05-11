@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RAT: Bridging RNN Efficiency and Attention Accuracy via Chunk-based Sequence Modeling
 description: >-
-  [NeurIPS 2025][模型压缩][高效序列建模] 提出 RAT（Recurrence And aTtention），一种基于 Chunk 的中间架构——在 Chunk 内使用线性 RNN 建模局部依赖、Chunk 间使用 softmax 注意力实现全局访问。L=16 时单层解码速度提升 9 倍、最大吞吐量提升 10 倍，且性能与标准注意力持平；与滑动窗口注意力交替使用的混合变体在几乎所有 benchmark 上最优。
+  [NeurIPS 2025][模型压缩][高效序列建模] 提出 RAT（Recurrence And aTtention），一种基于 Chunk 的中间架构——在 Chunk 内使用线性 RNN 建模局部依赖、Chunk 间使用 softmax 注意力实现全局访问…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 高效序列建模
-  - Chunk-based架构
-  - 注意力机制
-  - 长上下文
-  - 线性复杂度
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "高效序列建模"
+  - "Chunk-based架构"
+  - "注意力机制"
+  - "长上下文"
+  - "线性复杂度"
 ---
 
 # RAT: Bridging RNN Efficiency and Attention Accuracy via Chunk-based Sequence Modeling
@@ -119,7 +119,7 @@ $$y_{c,l} = f([q_{c,l}\tilde{K}_{:,-1}^\top; q_{c,l}\tilde{k}_{c,l}^\top])[\tild
 
 - Chunk 边界处可能存在信息不连续——当一个语义单元跨越两个 Chunk 时，RNN 只能部分捕捉。
 - 仅使用最简单的线性 RNN（EMA 门控），未探索更强的 RNN 变体（如非线性 RNN、2D 递归）。
-- 短序列（<4K）时训练速度略慢于注意力，因为 flex attention 在少量 Chunk 上 GPU 并行不充分。
+- 短序列（&lt;4K）时训练速度略慢于注意力，因为 flex attention 在少量 Chunk 上 GPU 并行不充分。
 - 目前验证规模限于 1.3B（主实验），7B/13B 仅报告了吞吐量，缺少对应的精度数据。
 
 ## 相关工作与启发

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Heterogeneous Federated Fine-Tuning with Parallel One-Rank Adaptation
 description: >-
-  [ICLR 2026][AI安全][联邦微调] 提出Fed-PLoRA框架，用多个并行一秩模块(PLoRA)替代多秩LoRA，通过Select-N-Fold策略（选N个训练+折叠其余到冻结权重）实现异构联邦微调的零初始化噪声和最小聚合噪声，在6个LLM/多任务上全面超越现有方法。
+  [ICLR 2026][LLM安全][联邦微调] 提出Fed-PLoRA框架，用多个并行一秩模块(PLoRA)替代多秩LoRA，通过Select-N-Fold策略（选N个训练+折叠其余到冻结权重）实现异构联邦微调的零初始化噪声和最小聚合噪声，在6个LLM/多任务上全面超越现有方法。
 tags:
-  - ICLR 2026
-  - AI安全
-  - 联邦微调
-  - LoRA
-  - 异构秩
-  - 初始化噪声
-  - 聚合噪声
+  - "ICLR 2026"
+  - "LLM安全"
+  - "联邦微调"
+  - "LoRA"
+  - "异构秩"
+  - "初始化噪声"
+  - "聚合噪声"
 ---
 
 # Heterogeneous Federated Fine-Tuning with Parallel One-Rank Adaptation

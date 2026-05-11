@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Distillation Robustifies Unlearning
 description: >-
-  [NeurIPS 2025][模型压缩][鲁棒遗忘] 揭示了"蒸馏能使遗忘变得鲁棒"的核心发现——将遗忘后的模型蒸馏到随机初始化的学生网络中能有效丢弃潜在能力，并基于此提出UNDO方法（Unlearn-Noise-Distill-on-Outputs），通过对遗忘模型权重加噪再蒸馏，建立了计算量与鲁棒性之间的可调权衡，在合成任务和WMDP基准上接近从头重训的黄金标准。
+  [NeurIPS 2025][模型压缩][鲁棒遗忘] 揭示了"蒸馏能使遗忘变得鲁棒"的核心发现——将遗忘后的模型蒸馏到随机初始化的学生网络中能有效丢弃潜在能力，并基于此提出UNDO方法（Unlearn-Noise-Distill-on-Outputs），通过对遗忘模型权重加噪再蒸馏…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 鲁棒遗忘
-  - 知识蒸馏
-  - UNDO
-  - 能力移除
-  - 重学习攻击
-  - WMDP
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "鲁棒遗忘"
+  - "知识蒸馏"
+  - "UNDO"
+  - "能力移除"
+  - "重学习攻击"
+  - "WMDP"
 ---
 
 # Distillation Robustifies Unlearning

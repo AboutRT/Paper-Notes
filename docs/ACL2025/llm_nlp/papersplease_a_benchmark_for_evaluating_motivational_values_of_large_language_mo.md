@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][动机价值观] 提出 PapersPlease 基准（3,700 个道德困境场景），基于 ERG 动机理论评估 LLM 在角色扮演情境中的价值观优先级排序和社会身份偏见，发现 LLM 对不同层级需求的优先序差异显著，且社会身份线索会影响决策公平性。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 动机价值观
-  - ERG理论
-  - 角色扮演
-  - 社会偏见
-  - 道德决策
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "动机价值观"
+  - "ERG理论"
+  - "角色扮演"
+  - "社会偏见"
+  - "道德决策"
 ---
 
 # PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory

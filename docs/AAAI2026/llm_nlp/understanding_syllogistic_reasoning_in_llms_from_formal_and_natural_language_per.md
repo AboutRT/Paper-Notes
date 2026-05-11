@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives
 description: >-
-  [AAAI 2026][NLP理解][三段论推理] 系统评估14个LLM在160个三段论上的推理表现，通过双维度ground truth框架（句法有效性+NLU可信度）揭示顶级模型在形式逻辑上接近完美(99.6%)但自然语言可信度判断仅为随机水平(~52%)——与人类推理模式恰好相反；12/14模型存在显著信念偏差，且few-shot提示反而降低形式推理性能。
+  [AAAI 2026][LLM/NLP][三段论推理] 系统评估14个LLM在160个三段论上的推理表现，通过双维度ground truth框架（句法有效性+NLU可信度）揭示顶级模型在形式逻辑上接近完美(99.6%)但自然语言可信度判断仅为随机水平(~52%)——与人类推理模式恰好相反…
 tags:
-  - AAAI 2026
-  - NLP理解
-  - 三段论推理
-  - 信念偏差
-  - 形式逻辑
-  - 自然语言理解
-  - LLM评估
-  - 双维度评估
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "三段论推理"
+  - "信念偏差"
+  - "形式逻辑"
+  - "自然语言理解"
+  - "LLM评估"
+  - "双维度评估"
 ---
 
 # Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives

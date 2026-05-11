@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Select, Read, and Write: A Multi-Agent Framework of Full-Text-based Related Work Generation
 description: >-
-  [ACL 2025][LLM Agent][相关工作生成] 提出 Select-Read-Write 三 Agent 协同框架，通过图感知的阅读顺序决策和共享工作记忆机制，实现基于论文全文（而非摘要）的 Related Work 自动生成，在 Llama3-8B / Claude-3-Haiku / GPT-4o 三个基座模型上均取得一致提升，Citation Graph 策略效果最优。
+  [ACL 2025][LLM Agent / 学术写作][相关工作生成] 提出 Select-Read-Write 三 Agent 协同框架，通过图感知的阅读顺序决策和共享工作记忆机制，实现基于论文全文（而非摘要）的 Related Work 自动生成…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - 相关工作生成
-  - 多Agent框架
-  - 全文阅读
-  - 图感知选择
-  - 工作记忆
+  - "ACL 2025"
+  - "LLM Agent / 学术写作"
+  - "相关工作生成"
+  - "多Agent框架"
+  - "全文阅读"
+  - "图感知选择"
+  - "工作记忆"
 ---
 
 # Select, Read, and Write: A Multi-Agent Framework of Full-Text-based Related Work Generation

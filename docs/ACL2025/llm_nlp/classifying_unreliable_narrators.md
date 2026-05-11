@@ -4,7 +4,7 @@ title: >-
 description: >-
   [LLM/NLP] 借鉴文学叙事学理论，定义三种不同层次的不可靠叙事者（intra-narrational / inter-narrational / inter-textual），构建专家标注数据集 TUNa，系统评估 LLM 在分类不可靠叙事者任务上的表现。
 tags:
-  - LLM/NLP
+  - "LLM/NLP"
 ---
 
 # Classifying Unreliable Narrators with Large Language Models

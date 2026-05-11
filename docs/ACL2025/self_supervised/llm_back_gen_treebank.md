@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Contrastive Learning on LLM Back Generation Treebank for Cross-domain Constituency Parsing
 description: >-
-  [ACL 2025][自监督学习][Constituency Parsing] 提出 LLM 反向生成 (LLM Back Generation) 方法，将不完整的跨领域句法树作为输入让 LLM 补全缺失词生成 treebank，并设计 span 级别对比学习预训练策略，实现跨领域成分句法分析的 SOTA 性能。
+  [ACL 2025][自监督学习][Constituency Parsing] 提出 LLM 反向生成 (LLM Back Generation) 方法，将不完整的跨领域句法树作为输入让 LLM 补全缺失词生成 treebank，并设计 span 级别对比学习预训练策略…
 tags:
-  - ACL 2025
-  - 自监督学习
-  - Constituency Parsing
-  - Cross-domain
-  - 自监督
-  - 对比学习
-  - Treebank Generation
+  - "ACL 2025"
+  - "自监督学习"
+  - "Constituency Parsing"
+  - "Cross-domain"
+  - "LLM Back Generation"
+  - "对比学习"
+  - "Treebank Generation"
 ---
 
 # Contrastive Learning on LLM Back Generation Treebank for Cross-domain Constituency Parsing

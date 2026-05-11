@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning
 description: >-
-  [ICLR 2026][AI安全][Deepfake Detection] 提出 Veritas，一个基于多模态大语言模型 (MLLM) 的 deepfake 检测器，通过模式感知推理 (pattern-aware reasoning) 模拟人类鉴伪思维过程（快速判断→推理→计划→自我反思→结论），设计两阶段训练流程（SFT+MiPO 冷启动 + P-GRPO 强化学习），同时构建包含四级 OOD 评估的 HydraFake 数据集，在跨伪造类型和跨域场景平均达到 90.7% 准确率，超越此前 SOTA 6.0%。
+  [ICLR 2026][LLM安全][Deepfake Detection] 提出 Veritas，一个基于多模态大语言模型 (MLLM) 的 deepfake 检测器，通过模式感知推理 (pattern-aware reasoning) 模拟人类鉴伪思维过程（快速判断→推理→计划→自我反思→结论）…
 tags:
-  - ICLR 2026
-  - AI安全
-  - Deepfake Detection
-  - MLLM
-  - Pattern-Aware Reasoning
-  - 强化学习
-  - HydraFake
+  - "ICLR 2026"
+  - "LLM安全"
+  - "Deepfake Detection"
+  - "MLLM"
+  - "Pattern-Aware Reasoning"
+  - "强化学习"
+  - "HydraFake"
 ---
 
 # Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning

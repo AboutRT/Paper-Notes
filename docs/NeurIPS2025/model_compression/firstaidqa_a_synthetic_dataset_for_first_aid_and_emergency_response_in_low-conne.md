@@ -2,16 +2,16 @@
 title: >-
   [论文解读] FirstAidQA: A Synthetic Dataset for First Aid and Emergency Response in Low-Connectivity Settings
 description: >-
-  [NeurIPS 2025 (Workshop: Muslims in ML)][人体理解][合成数据集] 构建 FirstAidQA，一个包含 5500 条合成急救问答对的数据集，基于认证急救教材用 ChatGPT-4o-mini 生成，经人工验证，旨在支撑低连接/离线环境下急救 AI 系统的微调训练。
+  [NeurIPS 2025 (Workshop: Muslims in ML)][模型压缩][合成数据集] 构建 FirstAidQA，一个包含 5500 条合成急救问答对的数据集，基于认证急救教材用 ChatGPT-4o-mini 生成，经人工验证，旨在支撑低连接/离线环境下急救 AI 系统的微调训练。
 tags:
   - "NeurIPS 2025 (Workshop: Muslims in ML)"
-  - 模型压缩
-  - 合成数据集
-  - 急救问答
-  - 离线AI
-  - 低资源部署
-  - 小语言模型
-  - 指令调优
+  - "模型压缩"
+  - "合成数据集"
+  - "急救问答"
+  - "离线AI"
+  - "低资源部署"
+  - "小语言模型"
+  - "指令调优"
 ---
 
 # FirstAidQA: A Synthetic Dataset for First Aid and Emergency Response in Low-Connectivity Settings

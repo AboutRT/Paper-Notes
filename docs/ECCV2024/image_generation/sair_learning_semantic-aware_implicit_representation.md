@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SAIR: Learning Semantic-aware Implicit Representation
 description: >-
-  [ECCV 2024][图像生成][隐式神经表示] 本文提出语义感知隐式表示（SAIR），通过构建语义隐式表示（SIR）和外观隐式表示（AIR）两个模块，将CLIP提取的文本对齐语义嵌入融入隐式神经函数，使其在大面积缺失区域的图像修复任务中远超仅依赖外观信息的方法，在CelebAHQ上 PSNR 提升1.65-2.69dB。
+  [ECCV 2024][图像生成][隐式神经表示] 本文提出语义感知隐式表示（SAIR），通过构建语义隐式表示（SIR）和外观隐式表示（AIR）两个模块，将CLIP提取的文本对齐语义嵌入融入隐式神经函数，使其在大面积缺失区域的图像修复任务中远超仅依赖外观信息的方法…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 隐式神经表示
-  - 语义感知
-  - 图像修复
-  - CLIP
-  - 图像重建
+  - "ECCV 2024"
+  - "图像生成"
+  - "隐式神经表示"
+  - "语义感知"
+  - "图像修复"
+  - "CLIP"
+  - "图像重建"
 ---
 
 # SAIR: Learning Semantic-aware Implicit Representation

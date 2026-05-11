@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM Agent][Agent隐私] 本文系统研究了 LLM Agent 记忆模块的隐私风险，提出 MEXTRA 黑盒记忆提取攻击，通过精心设计的定位-对齐攻击 prompt 和自动化多样 prompt 生成方法，在医疗和网购两种 Agent 上成功提取大量私人查询记录。
 tags:
-  - ACL 2025
-  - LLM Agent
-  - Agent隐私
-  - 记忆模块攻击
-  - 黑盒攻击
-  - 隐私提取
-  - Agent安全
+  - "ACL 2025"
+  - "LLM Agent"
+  - "Agent隐私"
+  - "记忆模块攻击"
+  - "黑盒攻击"
+  - "隐私提取"
+  - "Agent安全"
 ---
 
 # Unveiling Privacy Risks in LLM Agent Memory

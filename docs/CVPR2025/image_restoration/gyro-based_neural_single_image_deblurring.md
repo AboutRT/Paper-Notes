@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][gyro sensor] 提出 GyroDeblurNet，通过新颖的相机运动场嵌入表示复杂手抖、陀螺仪细化模块利用图像模糊信息校正陀螺仪误差、陀螺仪去模糊模块用校正后的运动信息去除模糊，配合课程学习策略，在合成和真实数据集上大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - gyro sensor
-  - image deblurring
-  - camera motion field
-  - curriculum learning
-  - deformable convolution
+  - "CVPR 2025"
+  - "图像恢复"
+  - "gyro sensor"
+  - "image deblurring"
+  - "camera motion field"
+  - "curriculum learning"
+  - "deformable convolution"
 ---
 
 # Gyro-based Neural Single Image Deblurring

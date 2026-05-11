@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AI-Generated Video Detection via Perceptual Straightening
 description: >-
-  [NeurIPS 2025][模型压缩][AI-generated video detection] 提出 ReStraV 方法，基于"感知拉直"假说（真实视频在神经表示空间形成更直的轨迹），利用 DINOv2 特征空间中的时间曲率和步距统计量训练轻量分类器检测 AI 生成视频，在 VidProM 上达到 97.17% 准确率和 98.63% AUROC，推理仅需 ~48ms。
+  [NeurIPS 2025][模型压缩][AI-generated video detection] 提出 ReStraV 方法，基于"感知拉直"假说（真实视频在神经表示空间形成更直的轨迹），利用 DINOv2 特征空间中的时间曲率和步距统计量训练轻量分类器检测 AI 生成视频…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - AI-generated video detection
-  - perceptual straightening
-  - DINOv2
-  - temporal curvature
-  - representation geometry
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "AI-generated video detection"
+  - "perceptual straightening"
+  - "DINOv2"
+  - "temporal curvature"
+  - "representation geometry"
 ---
 
 # AI-Generated Video Detection via Perceptual Straightening
@@ -63,7 +63,7 @@ ReStraV 分三步：(1) 从视频中均匀采样 24 帧，用预训练 DINOv2 Vi
 
     - 功能：用 off-the-shelf 分类器从 21 维特征向量判别。
     - 核心思路：特征向量包含 7 个步距值 + 6 个曲率值 + 8 维统计量 = 21 维。测试了 LR/GNB/RF/GB/SVM/MLP 六种分类器，MLP（64→32）效果最佳（97.17% 准确率）。全部无需像素级处理或 DINOv2 微调。
-    - 设计动机：轻量分类器确保方法透明可解释，且推理极快——DINOv2 前向 43.6ms + 分类 <5ms = ~48ms 端到端。
+    - 设计动机：轻量分类器确保方法透明可解释，且推理极快——DINOv2 前向 43.6ms + 分类 &lt;5ms = ~48ms 端到端。
 
 ### 损失函数 / 训练策略
 - DINOv2 完全冻结（预训练权重）

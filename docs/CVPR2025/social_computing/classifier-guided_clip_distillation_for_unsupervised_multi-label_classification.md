@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification
 description: >-
-  [CVPR 2025][CLIP] 提出 Classifier-guided CLIP Distillation（CCD），通过 CAM 引导的局部视图标签聚合和 CLIP 预测去偏两项核心技术，在完全无标注的条件下达到与全监督方法持平的多标签分类性能（VOC12 上 90.1% mAP）。
+  [CVPR 2025][社会计算][CLIP] 提出 Classifier-guided CLIP Distillation（CCD），通过 CAM 引导的局部视图标签聚合和 CLIP 预测去偏两项核心技术，在完全无标注的条件下达到与全监督方法持平的多标签分类性能（VOC12 上 90.1% mAP）。
 tags:
-  - CVPR 2025
-  - CLIP
-  - unsupervised multi-label classification
-  - CAM
-  - debiasing
-  - 伪标签
+  - "CVPR 2025"
+  - "社会计算"
+  - "CLIP"
+  - "unsupervised multi-label classification"
+  - "CAM"
+  - "debiasing"
+  - "伪标签"
 ---
 
 # Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification

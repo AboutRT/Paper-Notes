@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][Gaussian Splatting] 首次探索3D Gaussian Splatting场景之间的配准问题，提出粗到精的GaussReg框架——粗阶段利用点云配准方法估计初始变换，精阶段通过渲染图像提取体积特征进行精细对齐，速度比HLoc快44倍且精度可比。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - Gaussian Splatting
-  - 3D配准
-  - 粗到精
-  - 图像引导
-  - 场景重建
+  - "ECCV 2024"
+  - "3D视觉"
+  - "Gaussian Splatting"
+  - "3D配准"
+  - "粗到精"
+  - "图像引导"
+  - "场景重建"
 ---
 
 # GaussReg: Fast 3D Registration with Gaussian Splatting

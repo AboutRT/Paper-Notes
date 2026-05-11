@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Heterogeneous Uncertainty-Guided Composed Image Retrieval with Fine-Grained Probabilistic Learning
 description: >-
-  [AAAI 2026][多模态][Composed Image Retrieval] 本文提出了HUG范式，通过细粒度高斯概率嵌入和异构不确定性估计（区分查询侧多模态协调不确定性与目标侧内容质量不确定性），结合动态加权融合和不确定性引导的对比学习，在Fashion-IQ和CIRR两个CIR基准上取得SOTA。
+  [AAAI 2026][多模态VLM][Composed Image Retrieval] 本文提出了HUG范式，通过细粒度高斯概率嵌入和异构不确定性估计（区分查询侧多模态协调不确定性与目标侧内容质量不确定性），结合动态加权融合和不确定性引导的对比学习…
 tags:
-  - AAAI 2026
-  - 多模态
-  - Composed Image Retrieval
-  - 不确定性建模
-  - 概率嵌入
-  - 细粒度匹配
-  - 高斯表示
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "Composed Image Retrieval"
+  - "不确定性建模"
+  - "概率嵌入"
+  - "细粒度匹配"
+  - "高斯表示"
 ---
 
 # Heterogeneous Uncertainty-Guided Composed Image Retrieval with Fine-Grained Probabilistic Learning

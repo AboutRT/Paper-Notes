@@ -2,14 +2,15 @@
 title: >-
   [论文解读] NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos
 description: >-
-  [CVPR 2026][4D世界模型] NeoVerse 提出了一个可扩展的 4D 世界模型，通过前馈式无位姿 4DGS 重建和在线单目退化模拟，使整个训练流程可以利用海量野外单目视频（百万级），在 4D 重建和新轨迹视频生成上均达到 SOTA。
+  [CVPR 2026][视频生成][4D世界模型] NeoVerse 提出了一个可扩展的 4D 世界模型，通过前馈式无位姿 4DGS 重建和在线单目退化模拟，使整个训练流程可以利用海量野外单目视频（百万级），在 4D 重建和新轨迹视频生成上均达到 SOTA。
 tags:
-  - CVPR 2026
-  - 4D世界模型
-  - 视频生成
-  - 单目视频
-  - 新视角生成
-  - 前馈重建
+  - "CVPR 2026"
+  - "视频生成"
+  - "4D世界模型"
+  - "高斯泼溅"
+  - "单目视频"
+  - "新视角生成"
+  - "前馈重建"
 ---
 
 # NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos

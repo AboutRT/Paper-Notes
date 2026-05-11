@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scalable Video-to-Dataset Generation for Cross-Platform Mobile Agents
 description: >-
-  [CVPR 2025][机器人][移动端Agent] MONDAY 框架从 YouTube 教学视频自动生成移动端导航数据集——通过 OCR 场景转换检测和 GPT-4o 的 3 步动作识别流程，以人工标注 1/17 的成本（$0.34 vs $5.76/视频）构建了覆盖 iOS/Android 双平台的 313K 标注帧，预训练后 agent 在未见的 Windows Mobile 上提升 18.11%。
+  [CVPR 2025][机器人][移动端Agent] MONDAY 框架从 YouTube 教学视频自动生成移动端导航数据集——通过 OCR 场景转换检测和 GPT-4o 的 3 步动作识别流程…
 tags:
-  - CVPR 2025
-  - 机器人
-  - 移动端Agent
-  - 数据集自动生成
-  - YouTube视频
-  - 跨平台导航
-  - OCR
+  - "CVPR 2025"
+  - "机器人"
+  - "移动端Agent"
+  - "数据集自动生成"
+  - "YouTube视频"
+  - "跨平台导航"
+  - "OCR"
 ---
 
 # Scalable Video-to-Dataset Generation for Cross-Platform Mobile Agents

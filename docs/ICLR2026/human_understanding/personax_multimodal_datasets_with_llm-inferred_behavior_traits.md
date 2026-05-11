@@ -2,15 +2,16 @@
 title: >-
   [论文解读] PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits
 description: >-
-  [ICLR2026][人体理解] 构建了 PersonaX 多模态数据集（含 LLM 推断的 Big Five 行为特质、面部嵌入和传记元数据），并提出两层分析框架：结构化独立性检验 + 非结构化因果表示学习（带可识别性理论保证），揭示跨模态因果结构。
+  [ICLR2026][人体理解][多模态] 构建了 PersonaX 多模态数据集（含 LLM 推断的 Big Five 行为特质、面部嵌入和传记元数据），并提出两层分析框架：结构化独立性检验 + 非结构化因果表示学习（带可识别性理论保证），揭示跨模态因果结构。
 tags:
-  - ICLR2026
-  - 人体理解
-  - behavior traits
-  - Big Five
-  - causal representation learning
-  - LLM
-  - identifiability
+  - "ICLR2026"
+  - "人体理解"
+  - "多模态"
+  - "behavior traits"
+  - "Big Five"
+  - "causal representation learning"
+  - "LLM"
+  - "identifiability"
 ---
 
 # PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits
@@ -61,7 +62,7 @@ PersonaX 包含两个互补数据集：
 ### Level I：结构化数据的统计独立性检验
 - 对 Big Five 特质分数去除 "0"（信息不足）后取中位数聚合
 - 应用五种独立性检验方法：KCI、RCIT、HSIC（非参数）+ Chi-square、G-square（离散变量）
-- 在 p<0.05 显著性水平下判定依赖关系
+- 在 p&lt;0.05 显著性水平下判定依赖关系
 
 ### Level II：非结构化数据的因果表示学习（CRL）
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UniFS: Universal Few-Shot Instance Perception with Point Representations
 description: >-
-  [ECCV 2024][图像分割][少样本学习] 提出UniFS——首个通用少样本实例感知模型，通过将目标检测、实例分割、姿态估计和目标计数统一为动态点表示学习范式，并引入结构感知点学习(SAPL)损失来捕获点间高阶结构关系，在最小任务假设下达到接近专家模型的性能。
+  [ECCV 2024][语义分割][少样本学习] 提出UniFS——首个通用少样本实例感知模型，通过将目标检测、实例分割、姿态估计和目标计数统一为动态点表示学习范式，并引入结构感知点学习(SAPL)损失来捕获点间高阶结构关系，在最小任务假设下达到接近专家模型的性能。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 少样本学习
-  - 统一模型
-  - 点表示
-  - 实例感知
-  - 多任务学习
+  - "ECCV 2024"
+  - "语义分割"
+  - "少样本学习"
+  - "统一模型"
+  - "点表示"
+  - "实例感知"
+  - "多任务学习"
 ---
 
 # UniFS: Universal Few-Shot Instance Perception with Point Representations

@@ -2,8 +2,9 @@
 title: >-
   [论文解读] Towards Anomaly-Aware Pre-Training and Fine-Tuning for Graph Anomaly Detection
 description: >-
-   提出 APF 框架，通过 Rayleigh 商引导的异常感知预训练和粒度自适应微调，解决图异常检测中标签稀缺和同质性差异的双重挑战。
-
+  [LLM评测] 提出 APF 框架，通过 Rayleigh 商引导的异常感知预训练和粒度自适应微调，解决图异常检测中标签稀缺和同质性差异的双重挑战。
+tags:
+  - "LLM评测"
 ---
 
 # Towards Anomaly-Aware Pre-Training and Fine-Tuning for Graph Anomaly Detection

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Distillation of Large Language Models via Concrete Score Matching
 description: >-
-  [ICLR 2026][模型压缩][知识蒸馏] 提出 Concrete Score Distillation (CSD)，一种基于离散 score matching 的 LLM 知识蒸馏损失，通过匹配 student 和 teacher 在所有词表对之间的相对 logit 差异，同时克服了 softmax 平滑和直接 logit 蒸馏的解空间限制问题。
+  [ICLR 2026][模型压缩][知识蒸馏] 提出 Concrete Score Distillation (CSD)，一种基于离散 score matching 的 LLM 知识蒸馏损失，通过匹配 student 和 teacher 在所有词表对之间的相对 logit 差异…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 知识蒸馏
-  - LLM压缩
-  - 分数匹配
-  - logit蒸馏
-  - 离散分数匹配
+  - "ICLR 2026"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "LLM压缩"
+  - "分数匹配"
+  - "logit蒸馏"
+  - "离散分数匹配"
 ---
 
 # Distillation of Large Language Models via Concrete Score Matching
@@ -89,7 +89,7 @@ $$\mathcal{L}_{\text{CSD}} = \frac{1}{2} \sum_{y_t \in \mathcal{V}} \sum_{x \in 
 
 ### 关键发现
 
-- softmax 在大词表 LLM 中损失了大量 teacher 知识（99.99%+ token 概率 <0.01）
+- softmax 在大词表 LLM 中损失了大量 teacher 知识（99.99%+ token 概率 &lt;0.01）
 - logit 偏移不变性是 DLD 的核心缺陷，CSD 通过差分结构自然解决
 - mode-seeking 损失（RKL, SKL）在小数据蒸馏中容易崩溃，CSD 通过权重选择避免此问题
 - CSD 与 on-policy 方法正交互补，尤其在纯 on-policy 设置下提升最大

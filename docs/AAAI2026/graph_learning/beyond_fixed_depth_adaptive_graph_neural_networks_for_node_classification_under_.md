@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][图学习][图神经网络] 提出 AD-GNN，通过理论分析节点级别的同配/异配特性，为每个节点自适应分配不同的聚合深度，在统一框架中同时处理同配和异配图上的节点分类任务。
 tags:
-  - AAAI2026
-  - 图学习
-  - 图神经网络
-  - adaptive depth
-  - heterophily
-  - node classification
-  - homophily
+  - "AAAI2026"
+  - "图学习"
+  - "图神经网络"
+  - "adaptive depth"
+  - "heterophily"
+  - "node classification"
+  - "homophily"
 ---
 
 # Beyond Fixed Depth: Adaptive Graph Neural Networks for Node Classification Under Varying Homophily

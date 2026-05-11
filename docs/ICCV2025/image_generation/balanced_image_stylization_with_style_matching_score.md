@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][Style Transfer] 提出 Style Matching Score（SMS），将图像风格化重铸为风格分布匹配问题，通过渐进频谱正则化和语义感知梯度精炼，在风格对齐与内容保持之间取得卓越平衡，并可蒸馏到轻量前馈网络实现一步风格化。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - Style Transfer
-  - Score Distillation
-  - 扩散模型
-  - LoRA
-  - Frequency Domain Regularization
+  - "ICCV 2025"
+  - "图像生成"
+  - "Style Transfer"
+  - "Score Distillation"
+  - "扩散模型"
+  - "LoRA"
+  - "Frequency Domain Regularization"
 ---
 
 # Balanced Image Stylization with Style Matching Score

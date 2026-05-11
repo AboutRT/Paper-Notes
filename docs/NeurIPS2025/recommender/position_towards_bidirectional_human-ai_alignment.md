@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Position: Towards Bidirectional Human-AI Alignment
 description: >-
-  [NeurIPS 2025][推荐系统] 本文提出**双向人机对齐（Bidirectional Human-AI Alignment）**框架，从系统综述400+篇论文出发，论证AI对齐不应仅是单向地"让AI对齐人类"，还应包括"让人类适应AI"这一被严重忽视的方向，并识别了当前研究的关键缺口。
+  [NeurIPS 2025][推荐系统][AI对齐] 本文提出**双向人机对齐（Bidirectional Human-AI Alignment）**框架，从系统综述400+篇论文出发，论证AI对齐不应仅是单向地"让AI对齐人类"，还应包括"让人类适应AI"这一被严重忽视的方向，并识别了当前研究的关键缺口。
 tags:
-  - NeurIPS 2025
-  - 推荐系统
-  - 双向对齐
-  - 人类价值观
-  - 人机交互
-  - 系统综述
+  - "NeurIPS 2025"
+  - "推荐系统"
+  - "AI对齐"
+  - "双向对齐"
+  - "人类价值观"
+  - "人机交互"
+  - "系统综述"
 ---
 
 # Position: Towards Bidirectional Human-AI Alignment

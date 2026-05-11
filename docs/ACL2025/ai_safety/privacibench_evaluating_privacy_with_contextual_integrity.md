@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PrivaCI-Bench: Evaluating Privacy with Contextual Integrity and Legal Compliance
 description: >-
-  [ACL 2025][AI安全][contextual integrity] 提出 PrivaCI-Bench，基于 Contextual Integrity 理论构建了目前最大的上下文隐私评估基准（154K 实例），涵盖真实法院案例、隐私政策和 EU AI Act 合规检查器合成数据，评估 LLM 在 HIPAA/GDPR/AI Act 下的法律合规能力。
+  [ACL 2025][AI安全][contextual integrity] 提出 PrivaCI-Bench，基于 Contextual Integrity 理论构建了目前最大的上下文隐私评估基准（154K 实例），涵盖真实法院案例、隐私政策和 EU AI Act 合规检查器合成数据…
 tags:
-  - ACL 2025
-  - AI安全
-  - contextual integrity
-  - privacy evaluation
-  - legal compliance
-  - GDPR
-  - AI Act
+  - "ACL 2025"
+  - "AI安全"
+  - "contextual integrity"
+  - "privacy evaluation"
+  - "legal compliance"
+  - "GDPR"
+  - "AI Act"
 ---
 
 # PrivaCI-Bench: Evaluating Privacy with Contextual Integrity and Legal Compliance

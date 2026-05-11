@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][排版攻击] 本文揭示了图像生成模型在视觉模态上存在的"排版攻击"漏洞——攻击者可以通过在输入图像中嵌入文本来操纵生成结果，并系统评估了现有防御方法对此类视觉模态威胁的无效性，提出了 VMT-IGMs 数据集作为评估基准。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 排版攻击
-  - 视觉模态安全
-  - 对抗攻击
-  - 安全防御评估
+  - "CVPR 2025"
+  - "图像生成"
+  - "排版攻击"
+  - "视觉模态安全"
+  - "对抗攻击"
+  - "安全防御评估"
 ---
 
 # Not Just Text: Uncovering Vision Modality Typographic Threats in Image Generation Models

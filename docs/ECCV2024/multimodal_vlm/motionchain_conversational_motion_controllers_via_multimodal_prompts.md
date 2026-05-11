@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][多模态VLM] 提出 MotionChain，一个视觉-运动-语言统一模型，通过多模态提示在多轮对话中生成连续、长期的人体运动序列，支持文本、图像和运动的联合理解与生成。
 tags:
-  - ECCV 2024
-  - 多模态VLM
+  - "ECCV 2024"
+  - "多模态VLM"
 ---
 
 # MotionChain: Conversational Motion Controllers via Multimodal Prompts

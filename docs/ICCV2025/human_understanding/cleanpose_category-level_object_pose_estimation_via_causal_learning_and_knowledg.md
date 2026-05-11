@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][人体理解][类别级位姿估计] 首次将因果推理引入类别级物体位姿估计（COPE），通过基于前门调整的因果推理模块消除数据偏差导致的虚假关联，并利用3D基础模型ULIP-2的残差知识蒸馏提供无偏的类别语义监督，在REAL275的严格指标5°2cm上达到61.7%，超越SOTA 4.7%。
 tags:
-  - ICCV 2025
-  - 人体理解
-  - 类别级位姿估计
-  - 因果推理
-  - 知识蒸馏
-  - 前门调整
-  - 数据偏差
+  - "ICCV 2025"
+  - "人体理解"
+  - "类别级位姿估计"
+  - "因果推理"
+  - "知识蒸馏"
+  - "前门调整"
+  - "数据偏差"
 ---
 
 # CleanPose: Category-Level Object Pose Estimation via Causal Learning and Knowledge Distillation

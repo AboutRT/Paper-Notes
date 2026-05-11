@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SciArena: An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks
 description: >-
-  [NeurIPS 2025 (Datasets & Benchmarks Track, Spotlight)][scientific literature evaluation] 构建 SciArena 社区驱动的科学文献评估开放平台，采用 Chatbot Arena 式的人类偏好投票方式对 47 个基础模型进行排名，收集超过 20,000 条投票数据，并发布 SciArena-Eval 元基准来评测自动评估系统对文献任务答案质量的判断能力。
+  [NeurIPS 2025 (Datasets & Benchmarks Track, Spotlight)][对话系统][scientific literature evaluation] 构建 SciArena 社区驱动的科学文献评估开放平台，采用 Chatbot Arena 式的人类偏好投票方式对 47 个基础模型进行排名，收集超过 20…
 tags:
-  - 对话系统
-  - scientific literature evaluation
-  - foundation models
-  - human preference
-  - Chatbot Arena
-  - meta-benchmark
+  - "NeurIPS 2025 (Datasets & Benchmarks Track, Spotlight)"
+  - "对话系统"
+  - "scientific literature evaluation"
+  - "foundation models"
+  - "human preference"
+  - "Chatbot Arena"
+  - "meta-benchmark"
 ---
 
 # SciArena: An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks

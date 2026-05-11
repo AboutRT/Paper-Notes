@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM Agent][个性化数据选择] 将 LLM Agent 个性化中的结构化约束（逻辑依赖 + 层级配额）形式化为层叠拟阵（laminar matroid），证明贪心算法在此约束下仍具有常数因子近似保证，解决了有依赖关系和层级限制的数据最小化选择问题。
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - 个性化数据选择
-  - 子模优化
-  - 拟阵约束
-  - 知识图谱编译
-  - 数据最小化
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "个性化数据选择"
+  - "子模优化"
+  - "拟阵约束"
+  - "知识图谱编译"
+  - "数据最小化"
 ---
 
 # Structured Personalization: Modeling Constraints as Matroids for Data-Minimal LLM Agents

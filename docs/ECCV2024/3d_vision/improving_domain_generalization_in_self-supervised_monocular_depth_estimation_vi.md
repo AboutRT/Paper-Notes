@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][自监督单目深度估计] 提出 SCAT 框架，通过缩放深度网络（SDN）降低 UNet 跳跃连接对扰动的敏感性，并引入冲突梯度手术（CGS）解决对抗增强导致的双重优化冲突，首次将对抗数据增强成功应用于自监督单目深度估计以提升跨域泛化能力。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 自监督单目深度估计
-  - 域泛化
-  - 对抗训练
-  - 梯度冲突
-  - UNet
+  - "ECCV 2024"
+  - "3D视觉"
+  - "自监督单目深度估计"
+  - "域泛化"
+  - "对抗训练"
+  - "梯度冲突"
+  - "UNet"
 ---
 
 # Improving Domain Generalization in Self-Supervised Monocular Depth Estimation via Stabilized Adversarial Training

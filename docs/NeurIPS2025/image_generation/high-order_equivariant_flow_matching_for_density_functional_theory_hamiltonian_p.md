@@ -2,16 +2,16 @@
 title: >-
   [论文解读] High-order Equivariant Flow Matching for Density Functional Theory Hamiltonian Prediction
 description: >-
-  [NEURIPS2025][图像生成][flow matching] 提出 QHFlow，首次将条件 flow matching 引入密度泛函理论（DFT）哈密顿矩阵预测任务，通过高阶 SE(3) 等变向量场和对称性感知先验分布，在 MD17 上将哈密顿预测误差降低 73%，并可作为 SCF 初始化加速 DFT 计算达 54%。
+  [NEURIPS2025][图像生成][flow matching] 提出 QHFlow，首次将条件 flow matching 引入密度泛函理论（DFT）哈密顿矩阵预测任务，通过高阶 SE(3) 等变向量场和对称性感知先验分布，在 MD17 上将哈密顿预测误差降低 73%…
 tags:
-  - NEURIPS2025
-  - 图像生成
-  - flow matching
-  - DFT
-  - Hamiltonian prediction
-  - SE(3)-equivariance
-  - quantum chemistry
-  - SCF acceleration
+  - "NEURIPS2025"
+  - "图像生成"
+  - "flow matching"
+  - "DFT"
+  - "Hamiltonian prediction"
+  - "SE(3)-equivariance"
+  - "quantum chemistry"
+  - "SCF acceleration"
 ---
 
 # High-order Equivariant Flow Matching for Density Functional Theory Hamiltonian Prediction

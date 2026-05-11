@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Regularized Newton Method for Nonconvex Optimization with Global and Local Complexity Guarantees
 description: >-
-  [NeurIPS 2025][科学计算][正则化Newton方法] 提出一类基于当前与历史梯度构造的新型正则化器，结合带负曲率监测的共轭梯度法求解正则化Newton方程，在不需要Hessian Lipschitz常数先验知识的自适应框架下，首次同时实现了$O(\epsilon^{-3/2})$最优全局迭代复杂度和二次局部收敛速率。
+  [NeurIPS 2025][科学计算][正则化Newton方法] 提出一类基于当前与历史梯度构造的新型正则化器，结合带负曲率监测的共轭梯度法求解正则化Newton方程，在不需要Hessian Lipschitz常数先验知识的自适应框架下…
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - 正则化Newton方法
-  - 非凸优化
-  - 最优全局复杂度
-  - 二次局部收敛
-  - 自适应算法
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "正则化Newton方法"
+  - "非凸优化"
+  - "最优全局复杂度"
+  - "二次局部收敛"
+  - "自适应算法"
 ---
 
 # A Regularized Newton Method for Nonconvex Optimization with Global and Local Complexity Guarantees

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][自动驾驶][Hypergraph Inference] 提出SPHINX无监督超图推断模型——将超边发现建模为序列化软聚类问题，用k-subset可微采样产生离散稀疏超图结构，可插入任意超图神经网络，在合成数据上超图重建达90%重叠率、在NBA轨迹预测和3D物体分类上超越现有方法。
 tags:
-  - ICML2025
-  - 自动驾驶
-  - Hypergraph Inference
-  - Higher-Order Relations
-  - k-subset Sampling
-  - 注意力机制
-  - Trajectory Prediction
+  - "ICML2025"
+  - "自动驾驶"
+  - "Hypergraph Inference"
+  - "Higher-Order Relations"
+  - "k-subset Sampling"
+  - "注意力机制"
+  - "Trajectory Prediction"
 ---
 
 # SPHINX: Structural Prediction using Hypergraph Inference Network

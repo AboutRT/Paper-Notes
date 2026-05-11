@@ -3,6 +3,17 @@ title: >-
   ACL2026 多模态 VLM方向50篇论文解读
 description: >-
   50篇ACL2026的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对抗鲁棒、Agent、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2026"
+  - "多模态 VLM"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态"
+  - "推理"
+  - "LLM"
+  - "对抗鲁棒"
+  - "Agent"
+  - "模型压缩"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **💬 ACL2026** · **50** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (241)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (240)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
 
 🔥 **高频主题：** 多模态 ×34 · 推理 ×11 · LLM ×11 · 对抗鲁棒 ×4 · Agent ×3
 

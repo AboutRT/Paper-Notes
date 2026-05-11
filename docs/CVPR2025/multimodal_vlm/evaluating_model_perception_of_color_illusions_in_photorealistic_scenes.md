@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Evaluating Model Perception of Color Illusions in Photorealistic Scenes
 description: >-
-  [CVPR 2025][多模态][颜色错觉] 本文提出了一套自动化框架生成包含 19,000 张真实感颜色错觉图像的 RCID 数据集，首次系统性揭示了 VLM 确实存在类人的颜色感知偏差，并通过混合训练方法使模型能同时理解人类感知和真实像素值。
+  [CVPR 2025][多模态VLM][颜色错觉] 本文提出了一套自动化框架生成包含 19,000 张真实感颜色错觉图像的 RCID 数据集，首次系统性揭示了 VLM 确实存在类人的颜色感知偏差，并通过混合训练方法使模型能同时理解人类感知和真实像素值。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 颜色错觉
-  - 视觉感知
-  - VLM 评估
-  - 人类视觉偏差
-  - 多模态VLM
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "颜色错觉"
+  - "视觉感知"
+  - "VLM 评估"
+  - "人类视觉偏差"
+  - "感知对齐"
 ---
 
 # Evaluating Model Perception of Color Illusions in Photorealistic Scenes

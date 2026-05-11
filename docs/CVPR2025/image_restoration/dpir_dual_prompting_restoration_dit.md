@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][图像修复] 提出 DPIR，首个基于 Diffusion Transformer（SD3）的图像修复方法，通过轻量低质量图像条件分支和视觉-文本双提示控制分支，从全局上下文和局部外观两个视觉维度增强修复质量和保真度。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 图像修复
-  - Transformer
-  - 双提示
-  - 视觉提示
-  - SD3
+  - "CVPR 2025"
+  - "图像恢复"
+  - "图像修复"
+  - "Transformer"
+  - "双提示"
+  - "视觉提示"
+  - "SD3"
 ---
 
 # DPIR: Dual Prompting Image Restoration with Diffusion Transformers

@@ -3,6 +3,17 @@ title: >-
   ACL2026 LLM 评测方向40篇论文解读
 description: >-
   40篇ACL2026的 LLM 评测方向论文解读，涵盖 LLM、推理、对话系统、翻译、语音、信息抽取等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2026"
+  - "LLM 评测"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "推理"
+  - "对话系统"
+  - "翻译"
+  - "语音"
+  - "信息抽取"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **💬 ACL2026** · **40** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (26)](../../CVPR2026/llm_evaluation/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/llm_evaluation/index.md) · [🤖 AAAI2026 (39)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (79)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (49)](../../ICML2025/llm_evaluation/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (26)](../../CVPR2026/llm_evaluation/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/llm_evaluation/index.md) · [🤖 AAAI2026 (39)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (78)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (49)](../../ICML2025/llm_evaluation/index.md)
 
 🔥 **高频主题：** LLM ×13 · 推理 ×6 · 对话系统 ×4 · 翻译 ×2 · 语音 ×2
 

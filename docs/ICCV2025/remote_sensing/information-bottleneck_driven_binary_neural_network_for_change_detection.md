@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][遥感][二值神经网络] 提出 BiCD，首个专为变化检测设计的二值神经网络，通过信息瓶颈（IB）原理引导的辅助目标模块提升 BNN 的特征表示能力和可分离性，在街景和遥感变化检测数据集上达到 BNN 领域的 SOTA，同时实现 30× 内存压缩和 2.5× 推理加速。
 tags:
-  - ICCV 2025
-  - 遥感
-  - 二值神经网络
-  - 信息瓶颈
-  - 变化检测
-  - 模型压缩
-  - 辅助目标
+  - "ICCV 2025"
+  - "遥感"
+  - "二值神经网络"
+  - "信息瓶颈"
+  - "变化检测"
+  - "模型压缩"
+  - "辅助目标"
 ---
 
 # Information-Bottleneck Driven Binary Neural Network for Change Detection

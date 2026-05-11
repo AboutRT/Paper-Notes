@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ILLUME: Illuminating Your LLMs to See, Draw, and Self-Enhance
 description: >-
-  [ICCV 2025][图像生成][统一多模态模型] 提出 ILLUME，一个通过统一的下一 token 预测范式将多模态理解和生成能力整合进单个 LLM 的统一 MLLM。通过**语义视觉分词器**（减少4倍预训练数据量至15M）和**自增强多模态对齐方案**（让模型自评自生成图像与文本的一致性），在多种理解、生成和编辑任务上达到了State-of-the-art统一模型的竞争力甚至超越。
+  [ICCV 2025][图像生成][统一多模态模型] 提出 ILLUME，一个通过统一的下一 token 预测范式将多模态理解和生成能力整合进单个 LLM 的统一 MLLM。通过**语义视觉分词器**（减少4倍预训练数据量至15M）和**自增强多模态对齐方案**（让模型自评自生成图像与文本的一致性）…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 统一多模态模型
-  - 视觉理解与生成
-  - 语义视觉分词器
-  - 自增强对齐
-  - 下一token预测
+  - "ICCV 2025"
+  - "图像生成"
+  - "统一多模态模型"
+  - "视觉理解与生成"
+  - "语义视觉分词器"
+  - "自增强对齐"
+  - "下一token预测"
 ---
 
 # ILLUME: Illuminating Your LLMs to See, Draw, and Self-Enhance

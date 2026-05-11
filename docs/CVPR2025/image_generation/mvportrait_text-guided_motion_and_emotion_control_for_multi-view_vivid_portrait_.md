@@ -2,16 +2,16 @@
 title: >-
   [论文解读] MVPortrait: Text-Guided Motion and Emotion Control for Multi-View Vivid Portrait Animation
 description: >-
-  [CVPR 2025][图像生成][肖像动画] 本文提出MVPortrait，一个两阶段文本引导框架（Text2FLAME + FLAME2Video），通过将FLAME 3D参数化面部模型作为中间表示，分别用MotionDM和EmotionDM扩散模型生成运动和表情参数序列，再用多视角视频生成模型将FLAME渲染序列转化为逼真的多视角肖像动画，首次实现文本/语音/视频三种信号兼容的可控肖像动画。
+  [CVPR 2025][图像生成][肖像动画] 本文提出MVPortrait，一个两阶段文本引导框架（Text2FLAME + FLAME2Video），通过将FLAME 3D参数化面部模型作为中间表示，分别用MotionDM和EmotionDM扩散模型生成运动和表情参数序列…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 肖像动画
-  - 文本驱动
-  - FLAME
-  - 多视角一致性
-  - 扩散模型
-  - 面部表情控制
+  - "CVPR 2025"
+  - "图像生成"
+  - "肖像动画"
+  - "文本驱动"
+  - "FLAME"
+  - "多视角一致性"
+  - "扩散模型"
+  - "面部表情控制"
 ---
 
 # MVPortrait: Text-Guided Motion and Emotion Control for Multi-View Vivid Portrait Animation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer
 description: >-
-  [ICML2025][多任务强化学习] 提出 M3DT 框架，将 MoE 引入 Decision Transformer 实现参数分离——通过任务分组让每个专家只学习一个小任务子集的特定知识，配合三阶段训练机制（骨干→专家→路由器）避免梯度冲突，增加专家数既扩展参数又降低任务负载，成功将离线多任务 RL 扩展到 160 个仿真控制任务。
+  [ICML2025][强化学习][多任务强化学习] 提出 M3DT 框架，将 MoE 引入 Decision Transformer 实现参数分离——通过任务分组让每个专家只学习一个小任务子集的特定知识，配合三阶段训练机制（骨干→专家→路由器）避免梯度冲突，增加专家数既扩展参数又降低任务负载…
 tags:
-  - ICML2025
-  - 多任务强化学习
-  - Transformer
-  - Mixture-of-Experts
-  - 任务可扩展性
-  - 参数可扩展性
+  - "ICML2025"
+  - "强化学习"
+  - "多任务强化学习"
+  - "Transformer"
+  - "Mixture-of-Experts"
+  - "任务可扩展性"
+  - "参数可扩展性"
 ---
 
 # Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer
@@ -37,7 +38,7 @@ tags:
 **本文目标**：如何在任务数量极大（160 个）时既保持每个任务的学习质量，又实现高效的参数扩展？
 
 **切入角度**：通过系统的实证分析，作者发现两个关键洞察：
-- 性能退化在任务数较少（<40）时最剧烈，任务数大后退化趋于平缓 → **反过来看，将每个参数子集需学习的任务数减少到足够小即可显著提升性能**
+- 性能退化在任务数较少（&lt;40）时最剧烈，任务数大后退化趋于平缓 → **反过来看，将每个参数子集需学习的任务数减少到足够小即可显著提升性能**
 - 参数扩展在"同时减少任务负载"时效果最好 → **扩展参数的同时必须减少每个参数子集的任务数**
 
 **核心 idea**：用 MoE 实现"参数分离 + 任务分组"，增加专家数量同时扩展参数和降低任务负载，再配合三阶段训练避免梯度干扰。

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SurfaceSplat: Connecting Surface Reconstruction and Gaussian Splatting
 description: >-
-  [ICCV 2025][3D视觉][表面重建] SurfaceSplat 提出了一种混合方法，将 SDF（有符号距离函数）和 3D 高斯溅射（3DGS）双向连接：SDF 提供粗糙几何来增强 3DGS 的渲染质量，而 3DGS 渲染的新视角图像反过来用于细化 SDF 的表面重建精度，在 DTU 和 MobileBrick 数据集上同时超越了表面重建和新视角合成的 SOTA。
+  [ICCV 2025][3D视觉][表面重建] SurfaceSplat 提出了一种混合方法，将 SDF（有符号距离函数）和 3D 高斯溅射（3DGS）双向连接：SDF 提供粗糙几何来增强 3DGS 的渲染质量，而 3DGS 渲染的新视角图像反过来用于细化 SDF 的表面重建精度…
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 表面重建
-  - 高斯溅射
-  - SDF
-  - 稀疏视角
-  - 新视角合成
+  - "ICCV 2025"
+  - "3D视觉"
+  - "表面重建"
+  - "高斯溅射"
+  - "SDF"
+  - "稀疏视角"
+  - "新视角合成"
 ---
 
 # SurfaceSplat: Connecting Surface Reconstruction and Gaussian Splatting

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自监督学习][掩码视频建模] 提出 SMILE，通过合成运动增强（在视频上叠加沿随机轨迹运动的分割物体）和 CLIP 特征重建目标来增强掩码视频建模，结合轨迹引导的掩码策略，在 K400 线性探测上大幅提升至 56.2%（前 SOTA 47.5%）。
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - 掩码视频建模
-  - 合成运动增强
-  - CLIP特征目标
-  - 轨迹掩码
-  - VideoMAE
+  - "CVPR 2025"
+  - "自监督学习"
+  - "掩码视频建模"
+  - "合成运动增强"
+  - "CLIP特征目标"
+  - "轨迹掩码"
+  - "VideoMAE"
 ---
 
 # SMILE: Infusing Spatial and Motion Semantics in Masked Video Learning

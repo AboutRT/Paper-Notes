@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sufficient Invariant Learning for Distribution Shift
 description: >-
-  [CVPR 2025][分布偏移] 本文提出充分不变学习（SIL）框架，通过学习多样化的不变特征子集而非单一不变特征来提升分布偏移下的鲁棒性，并设计ASGDRO算法通过寻找跨环境的公共平坦极小值来实现SIL，在多个分布偏移基准上取得SOTA性能。
+  [CVPR 2025][LLM评测][分布偏移] 本文提出充分不变学习（SIL）框架，通过学习多样化的不变特征子集而非单一不变特征来提升分布偏移下的鲁棒性，并设计ASGDRO算法通过寻找跨环境的公共平坦极小值来实现SIL，在多个分布偏移基准上取得SOTA性能。
 tags:
-  - CVPR 2025
-  - 分布偏移
-  - 不变特征学习
-  - LLM评测
-  - 平坦极小值
-  - 领域泛化
+  - "CVPR 2025"
+  - "LLM评测"
+  - "分布偏移"
+  - "不变特征学习"
+  - "鲁棒优化"
+  - "平坦极小值"
+  - "领域泛化"
 ---
 
 # Sufficient Invariant Learning for Distribution Shift

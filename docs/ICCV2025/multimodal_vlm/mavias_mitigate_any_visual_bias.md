@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MAVias: Mitigate Any Visual Bias
 description: >-
-  [ICCV2025][多模态][Visual Bias Mitigation] 提出 MAVias，一个开放集视觉偏差缓解框架：利用图像标注基础模型提取视觉属性标签，用 LLM 筛选与目标类别无关的标签作为潜在偏差，再通过 vision-language embedding 编码偏差并融入训练过程以学习偏差不变表示，在 CelebA、Waterbirds、UrbanCars 和 ImageNet9 上大幅超越现有方法。
+  [ICCV2025][多模态VLM][Visual Bias Mitigation] 提出 MAVias，一个开放集视觉偏差缓解框架：利用图像标注基础模型提取视觉属性标签，用 LLM 筛选与目标类别无关的标签作为潜在偏差…
 tags:
-  - ICCV2025
-  - 多模态
-  - Visual Bias Mitigation
-  - Open-Set Bias
-  - Foundation Models
-  - 视觉语言
-  - Fairness
+  - "ICCV2025"
+  - "多模态VLM"
+  - "Visual Bias Mitigation"
+  - "Open-Set Bias"
+  - "Foundation Models"
+  - "视觉语言"
+  - "Fairness"
 ---
 
 # MAVias: Mitigate Any Visual Bias

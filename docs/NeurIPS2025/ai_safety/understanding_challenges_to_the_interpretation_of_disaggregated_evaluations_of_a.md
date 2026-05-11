@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][algorithmic fairness] 通过因果图模型分析表明，分组评估（disaggregated evaluation）中跨子群体的性能差异不一定意味着不公平，而可能是数据生成过程中分布差异的自然结果，建议结合因果假设和加权评估补充标准分组评估。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - algorithmic fairness
-  - disaggregated evaluation
-  - causal inference
-  - distribution shift
-  - subgroup performance
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "algorithmic fairness"
+  - "disaggregated evaluation"
+  - "causal inference"
+  - "distribution shift"
+  - "subgroup performance"
 ---
 
 # Understanding Challenges to the Interpretation of Disaggregated Evaluations of AI

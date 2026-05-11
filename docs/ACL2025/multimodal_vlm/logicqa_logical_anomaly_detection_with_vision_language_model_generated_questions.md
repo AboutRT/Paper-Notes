@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions
 description: >-
-  [ACL 2025][多模态][逻辑异常检测] 提出 LogicQA 框架，利用预训练 VLM 自动生成异常相关问题并通过问答投票机制检测逻辑异常，在无需训练、无需标注的少样本设置下达到 SOTA 性能，同时提供自然语言的异常原因解释。
+  [ACL 2025][多模态VLM][逻辑异常检测] 提出 LogicQA 框架，利用预训练 VLM 自动生成异常相关问题并通过问答投票机制检测逻辑异常，在无需训练、无需标注的少样本设置下达到 SOTA 性能，同时提供自然语言的异常原因解释。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - VLM
-  - 问答式检测
-  - 可解释性
-  - 少样本
+  - "ACL 2025"
+  - "多模态VLM"
+  - "逻辑异常检测"
+  - "VLM"
+  - "问答式检测"
+  - "可解释性"
+  - "少样本"
 ---
 
 # LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions

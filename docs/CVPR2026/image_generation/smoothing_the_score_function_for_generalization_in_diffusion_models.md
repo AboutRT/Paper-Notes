@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][扩散模型] 本文从理论上证明扩散模型的记忆化问题源于经验得分函数中 softmax 权重的尖锐性（单个训练样本主导），并提出 Noise Unconditioning 和 Temperature Smoothing 两种平滑方法来缓解记忆化、增强泛化，同时保持生成质量。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 扩散模型
-  - 记忆化
-  - 泛化
-  - 得分函数平滑
-  - 温度缩放
+  - "CVPR 2026"
+  - "图像生成"
+  - "扩散模型"
+  - "记忆化"
+  - "泛化"
+  - "得分函数平滑"
+  - "温度缩放"
 ---
 
 # Smoothing the Score Function for Generalization in Diffusion Models: An Optimization-based Explanation Framework

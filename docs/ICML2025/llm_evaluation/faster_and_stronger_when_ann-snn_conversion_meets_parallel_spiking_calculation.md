@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation
 description: >-
-  [ICML2025][ANN-SNN转换] 首次将并行脉冲计算与 ANN-SNN 转换结合，建立数学等价映射关系，在超低时间步（4步）下实现 ImageNet Top-1 72.90%，推理速度加速 19~38 倍。
+  [ICML2025][LLM评测][ANN-SNN转换] 首次将并行脉冲计算与 ANN-SNN 转换结合，建立数学等价映射关系，在超低时间步（4步）下实现 ImageNet Top-1 72.90%，推理速度加速 19~38 倍。
 tags:
-  - ICML2025
-  - ANN-SNN转换
-  - 并行脉冲计算
-  - LLM评测
-  - 量化激活函数
-  - 无训练转换
+  - "ICML2025"
+  - "LLM评测"
+  - "ANN-SNN转换"
+  - "并行脉冲计算"
+  - "低时延推理"
+  - "量化激活函数"
+  - "无训练转换"
 ---
 
 # Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation

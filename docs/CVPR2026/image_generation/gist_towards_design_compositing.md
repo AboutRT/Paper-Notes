@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][design compositing] 提出 GIST，一种免训练的身份保持图像合成方法，通过交叉注意力引导的 token 注入和 Flow Matched 潜空间初始化，在布局预测和排版生成之间作为即插即用的合成阶段，实现多来源视觉元素的风格协调。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - design compositing
-  - identity preservation
-  - image harmonization
-  - 扩散模型
-  - graphic design
+  - "CVPR 2026"
+  - "图像生成"
+  - "design compositing"
+  - "identity preservation"
+  - "image harmonization"
+  - "扩散模型"
+  - "graphic design"
 ---
 
 # GIST: Towards Design Compositing

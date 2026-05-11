@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][CT诊断] 本文提出结合Logit调整交叉熵（处理类别不平衡）和CVaR聚合（处理人口统计公平性）的双层目标函数，在CT诊断中实现了性别平均macro F1达0.8403且公平性差距仅0.0239。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - CT诊断
-  - 公平性
-  - 类别不平衡
-  - CVaR
-  - Logit调整
+  - "CVPR 2026"
+  - "医学图像"
+  - "CT诊断"
+  - "公平性"
+  - "类别不平衡"
+  - "CVaR"
+  - "Logit调整"
 ---
 
 # Robust Fair Disease Diagnosis in CT Images

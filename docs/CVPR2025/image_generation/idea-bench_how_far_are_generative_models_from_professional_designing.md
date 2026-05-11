@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][benchmark] 提出首个面向专业级图像设计的综合基准 IDEA-Bench，涵盖 100 个真实设计任务（海报、绘本、字体、特效等）和 5 种输入输出模式，揭示当前最强模型仅获 22.48/100 分，距离专业设计仍有巨大鸿沟。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - benchmark
-  - professional design
-  - evaluation
-  - MLLM
-  - visual effects
-  - storyboard
+  - "CVPR 2025"
+  - "图像生成"
+  - "benchmark"
+  - "professional design"
+  - "evaluation"
+  - "MLLM"
+  - "visual effects"
+  - "storyboard"
 ---
 
 # IDEA-Bench: How Far are Generative Models from Professional Designing?

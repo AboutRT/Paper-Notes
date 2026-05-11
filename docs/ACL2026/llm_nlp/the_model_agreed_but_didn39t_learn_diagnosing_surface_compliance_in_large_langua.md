@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][知识编辑] 提出 SA-MCQ 诊断框架揭示知识编辑中的"表面合规"现象——编辑器在标准基准上达到高分但并未真正覆写内部信念，模型在判别式自评中会回退到原始参数记忆，递归编辑还会累积表征残留导致认知不稳定。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 知识编辑
-  - 表面合规
-  - 自我评估
-  - 参数记忆
-  - 上下文学习
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "知识编辑"
+  - "表面合规"
+  - "自我评估"
+  - "参数记忆"
+  - "上下文学习"
 ---
 
 # The Model Agreed, But Didn't Learn: Diagnosing Surface Compliance in Large Language Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ForgeryTalker: Generating Attribution Reports for Manipulated Facial Images
 description: >-
-  [ACL 2026][人体理解][面部伪造检测] 本文提出伪造归因报告生成（Forgery Attribution Report Generation）这一新任务，构建了包含 152,217 个样本的 MMTT 数据集（首个同时提供像素级掩码和人工文本描述的大规模面部伪造数据集），并提出 ForgeryTalker 端到端基线，通过共享编码器和双解码器（掩码+语言模型）联合生成定位掩码和归因报告，达到 59.3 CIDEr 和 73.67 IoU。
+  [ACL 2026][人体理解][面部伪造检测] 本文提出伪造归因报告生成（Forgery Attribution Report Generation）这一新任务，构建了包含 152,217 个样本的 MMTT 数据集（首个同时提供像素级掩码和人工文本描述的大规模面部伪造数据集）…
 tags:
-  - ACL 2026
-  - 人体理解
-  - 面部伪造检测
-  - 归因报告生成
-  - 多模态取证
-  - 图像篡改定位
-  - 可解释AI
+  - "ACL 2026"
+  - "人体理解"
+  - "面部伪造检测"
+  - "归因报告生成"
+  - "多模态取证"
+  - "图像篡改定位"
+  - "可解释AI"
 ---
 
 # ForgeryTalker: Generating Attribution Reports for Manipulated Facial Images

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][科学计算][Masked Autoencoder] 提出 KARMA 框架，在 ViT-MAE 解码器中嵌入线性光谱混合模型 (LSMM) 作为物理约束，结合 Spectral Angle Mapper (SAM) 损失，提升高光谱遥感图像的重建保真度和下游任务迁移性能。
 tags:
-  - AAAI 2026
-  - 科学计算
-  - Masked Autoencoder
-  - hyperspectral
-  - LSMM
-  - SAM loss
-  - physics-informed
-  - knowledge-guided ML
+  - "AAAI 2026"
+  - "科学计算"
+  - "Masked Autoencoder"
+  - "hyperspectral"
+  - "LSMM"
+  - "SAM loss"
+  - "physics-informed"
+  - "knowledge-guided ML"
 ---
 
 # Knowledge-Guided Masked Autoencoder with Linear Spectral Mixing and Spectral-Angle-Aware Reconstruction

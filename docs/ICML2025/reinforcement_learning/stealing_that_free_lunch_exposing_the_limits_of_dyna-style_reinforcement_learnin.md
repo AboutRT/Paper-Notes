@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning
 description: >-
-  [ICML 2025][Dyna] 本文揭示 Dyna 风格模型强化学习算法（MBPO、ALM）在 OpenAI Gym 表现优异但在 DeepMind Control Suite (DMC) 中**严重失效**的现象，系统分析模型误差、过估计偏差和可塑性损失等原因，发现即使使用完美模型 MBPO 也无法一致超越 SAC，表明"没有免费午餐"。
+  [ICML 2025][强化学习][Dyna] 本文揭示 Dyna 风格模型强化学习算法（MBPO、ALM）在 OpenAI Gym 表现优异但在 DeepMind Control Suite (DMC) 中**严重失效**的现象，系统分析模型误差、过估计偏差和可塑性损失等原因…
 tags:
-  - ICML 2025
-  - Dyna
-  - Model-Based RL
-  - MBPO
-  - ALM
-  - 强化学习
-  - DeepMind Control
+  - "ICML 2025"
+  - "强化学习"
+  - "Dyna"
+  - "Model-Based RL"
+  - "MBPO"
+  - "ALM"
+  - "Benchmark"
+  - "DeepMind Control"
 ---
 
 # Stealing That Free Lunch: Exposing the Limits of Dyna-Style Reinforcement Learning
@@ -57,7 +58,7 @@ tags:
 **实验 2：模型误差分析**
 定义**百分比模型误差**：$\frac{\|\hat{y} - y\|_2}{\|y\|_2} \times 100$
 
-- Gym：模型误差收敛到 <25%
+- Gym：模型误差收敛到 &lt;25%
 - DMC hopper：模型误差 >100%
 - DMC 其他失败任务：>25%
 

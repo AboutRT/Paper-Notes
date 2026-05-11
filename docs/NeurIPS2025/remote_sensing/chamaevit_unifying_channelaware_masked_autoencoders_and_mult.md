@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][遥感][Masked Autoencoder] 提出ChA-MAEViT，通过动态通道-patch联合掩码、记忆token、混合token融合和通道感知解码器四大组件增强多通道图像（MCI）的跨通道特征学习，在卫星和显微三大数据集上平均超越SOTA 3.0-21.5%。
 tags:
-  - NeurIPS 2025
-  - 遥感
-  - Masked Autoencoder
-  - Multi-Channel Imaging
-  - Transformer
-  - 跨通道学习
-  - 自监督学习
+  - "NeurIPS 2025"
+  - "遥感"
+  - "Masked Autoencoder"
+  - "Multi-Channel Imaging"
+  - "Transformer"
+  - "跨通道学习"
+  - "自监督学习"
 ---
 
 # ChA-MAEViT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning

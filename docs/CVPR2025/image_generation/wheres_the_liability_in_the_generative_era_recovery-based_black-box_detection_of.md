@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][AI生成内容检测] 本文提出了一种基于"破坏-恢复"策略的黑盒 AI 生成图像检测方法，核心假设是生成模型更容易恢复自己生成的图像被遮挡的部分，通过分布对齐的代理模型微调进一步提升对未知目标模型的检测准确度，仅需不到 1000 张 API 样本和 2 小时 GPU 时间。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - AI生成内容检测
-  - 黑盒检测
-  - 扩散模型
-  - 图像修复
-  - 分布对齐
+  - "CVPR 2025"
+  - "图像生成"
+  - "AI生成内容检测"
+  - "黑盒检测"
+  - "扩散模型"
+  - "图像修复"
+  - "分布对齐"
 ---
 
 # Where's the Liability in the Generative Era? Recovery-Based Black-Box Detection of AI-Generated Content

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SmartCLIP: Modular Vision-language Alignment with Identification Guarantees
 description: >-
-  [CVPR 2025][多模态][CLIP] SmartCLIP 通过引入自适应掩码网络实现模块化的视觉-文本对齐，在理论上证明了潜在变量的可识别性，有效解决了 CLIP 训练中的信息错位和表征纠缠问题，在长/短文本检索和零样本分类等多项任务上显著超越现有方法。
+  [CVPR 2025][多模态VLM][CLIP] SmartCLIP 通过引入自适应掩码网络实现模块化的视觉-文本对齐，在理论上证明了潜在变量的可识别性，有效解决了 CLIP 训练中的信息错位和表征纠缠问题，在长/短文本检索和零样本分类等多项任务上显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 多模态
-  - CLIP
-  - 视觉语言对齐
-  - 模块化表征
-  - 潜在变量识别
-  - 表征解耦
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "CLIP"
+  - "视觉语言对齐"
+  - "模块化表征"
+  - "潜在变量识别"
+  - "表征解耦"
 ---
 
 # SmartCLIP: Modular Vision-language Alignment with Identification Guarantees

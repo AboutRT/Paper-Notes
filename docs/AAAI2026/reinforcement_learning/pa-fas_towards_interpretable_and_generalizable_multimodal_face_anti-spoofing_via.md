@@ -4,13 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][强化学习][人脸反欺骗] 提出PA-FAS框架，通过推理路径增强（Reasoning Path Augmentation）策略和答案打乱机制，解决了多模态FAS中SFT+RL范式的两大瓶颈（推理路径多样性不足和推理捷径问题），首次在统一框架中同时实现多模态融合、域泛化和可解释性。
 tags:
-  - AAAI 2026
-  - 强化学习
-  - 人脸反欺骗
-  - 多模态融合
-  - 域泛化
-  - 强化学习
-  - 可解释性
+  - "AAAI 2026"
+  - "强化学习"
+  - "人脸反欺骗"
+  - "多模态融合"
+  - "域泛化"
+  - "可解释性"
 ---
 
 # PA-FAS: Towards Interpretable and Generalizable Multimodal Face Anti-Spoofing via Path-Augmented Reinforcement Learning

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][LLM对齐][数值偏差] 系统揭示了LLM对齐过程（指令调优+偏好调优）是LLM评估器产生数值偏差的根本原因，并验证分数范围调整是最有效的缓解策略。
 tags:
-  - AAAI 2026
-  - LLM对齐
-  - 数值偏差
-  - LLM-as-a-Judge
-  - 对齐副作用
-  - 峰度分析
-  - 评估鲁棒性
-  - 分数范围调整
+  - "AAAI 2026"
+  - "LLM对齐"
+  - "数值偏差"
+  - "LLM-as-a-Judge"
+  - "对齐副作用"
+  - "峰度分析"
+  - "评估鲁棒性"
+  - "分数范围调整"
 ---
 
 # Exploring the Effects of Alignment on Numerical Bias in Large Language Models

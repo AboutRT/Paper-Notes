@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts
 description: >-
-  [NeurIPS 2025][代码智能] FlyLoRA 受飞蝇嗅觉回路启发，将 LoRA 的下投影矩阵 $A$ 替换为冻结的稀疏随机投影，通过 top-$k$ 激活值选择实现隐式 rank-wise MoE 路由，在消除路由参数的同时减少任务内干扰，并利用随机投影的近正交性天然支持多任务模型合并。
+  [NeurIPS 2025][代码智能][LoRA] FlyLoRA 受飞蝇嗅觉回路启发，将 LoRA 的下投影矩阵 $A$ 替换为冻结的稀疏随机投影，通过 top-$k$ 激活值选择实现隐式 rank-wise MoE 路由，在消除路由参数的同时减少任务内干扰，并利用随机投影的近正交性天然支持多任务模型合并…
 tags:
-  - NeurIPS 2025
-  - 代码智能
-  - MoE
-  - 参数高效微调
-  - 飞蝇嗅觉回路
-  - 模型合并
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "LoRA"
+  - "MoE"
+  - "参数高效微调"
+  - "飞蝇嗅觉回路"
+  - "模型合并"
 ---
 
 # FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts

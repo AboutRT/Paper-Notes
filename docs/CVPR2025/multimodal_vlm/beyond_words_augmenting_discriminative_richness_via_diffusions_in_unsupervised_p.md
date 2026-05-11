@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning
 description: >-
-  [CVPR 2025][多模态][VLM] 提出AiR（Augmenting discriminative Richness）方法，利用LoRA微调的Stable Diffusion生成合成图像构建辅助分类器，与文本分类器互补融合，将无监督prompt learning中的文本-图像匹配扩展为图像-图像匹配，显著提升细粒度/遥感等困难数据集上的分类准确率。
+  [CVPR 2025][多模态VLM][VLM] 提出AiR（Augmenting discriminative Richness）方法，利用LoRA微调的Stable Diffusion生成合成图像构建辅助分类器，与文本分类器互补融合…
 tags:
-  - CVPR 2025
-  - 多模态
-  - VLM
-  - 提示学习
-  - 扩散模型
-  - 伪标签
-  - auxiliary classifier
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "VLM"
+  - "提示学习"
+  - "扩散模型"
+  - "伪标签"
+  - "auxiliary classifier"
 ---
 
 # Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning

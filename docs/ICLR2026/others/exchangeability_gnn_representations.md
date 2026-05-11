@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Exchangeability of GNN Representations with Applications to Graph Retrieval
 description: >-
-  [ICLR 2026 Oral][其他] 发现训练好的 GNN 节点嵌入沿特征维度是可交换随机变量（即 $p(\mathbf{X}) = p(\mathbf{X}\pi)$ 对任意维度排列 $\pi$ 成立），利用此性质通过维度排序将基于传输距离（EMD/Wasserstein）的图相似度近似为欧氏距离，构建统一的局部敏感哈希（LSH）框架 GraphHash，在子图匹配和图编辑距离（GED）检索任务上以 AUC 指标一致超越 FourierHashNet、DiskANN、IVF、CORGII、SWWL 等基线，可扩展到 100 万图语料库。
+  [ICLR 2026 Oral][图神经网络] 发现训练好的 GNN 节点嵌入沿特征维度是可交换随机变量（即 $p(\mathbf{X}) = p(\mathbf{X}\pi)$ 对任意维度排列 $\pi$ 成立），利用此性质通过维度排序将基于传输距离（EMD/Wasserstein）的图相似度近似为欧氏距离…
 tags:
-  - ICLR 2026 Oral
-  - 其他
-  - exchangeability
-  - graph retrieval
-  - LSH
-  - GraphHash
-  - transportation distance
-  - Wasserstein distance
+  - "ICLR 2026 Oral"
+  - "图神经网络"
+  - "exchangeability"
+  - "graph retrieval"
+  - "LSH"
+  - "GraphHash"
+  - "transportation distance"
+  - "Wasserstein distance"
 ---
 
 # Exchangeability of GNN Representations with Applications to Graph Retrieval
@@ -81,17 +81,17 @@ Pipeline: GNN 编码器 → 节点嵌入矩阵 $\mathbf{X} \in \mathbb{R}^{n \ti
 
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
-| 近似误差 (MAP*-MAP)/MAP* | 6.73%-11.89% | 近似传输距离的精度损失有界 (<12%) |
+| 近似误差 (MAP*-MAP)/MAP* | 6.73%-11.89% | 近似传输距离的精度损失有界 (&lt;12%) |
 | 跨 seed 稳定性 (10 runs) | std < 0.009 AUC | 性能跨随机种子极其稳定 |
 | D=2→30 | AUC 持续提升 | 与 Prop.7 一致，D 越大近似越精确 |
 | dim_h=10 | AUC 最优 | 哈希长度 10 bits 是 sweet spot |
-| M (Fourier 维度)=10 | AUC 最优 | M<10 性能急剧下降 |
+| M (Fourier 维度)=10 | AUC 最优 | M&lt;10 性能急剧下降 |
 | MMD 检验 $p_X$ vs $p_{X\pi}$ | MMD²≈-3.89e-5 ± 2.69e-5 | 统计证实可交换性（MMD 接近 0） |
 | vs SWWL (SM) | GraphHash 0.354 vs SWWL 0.023 | SWWL 对称相似度无法捕捉非对称子图匹配 |
 
 ### 关键发现
 - 可交换性对 BatchNorm、LayerNorm、Dropout、Adam 均成立（理论+实验证明）
-- 近似误差 <12%，可扩展到 $|C|=10^6$，空间仅 3.5MB/100K 图
+- 近似误差 &lt;12%，可扩展到 $|C|=10^6$，空间仅 3.5MB/100K 图
 - 在子图匹配任务上 GraphHash 在所有 4 个数据集上 AUC 最优
 - 在 GED 任务上 GraphHash 在 4 个数据集中 3 个上最优
 
@@ -102,7 +102,7 @@ Pipeline: GNN 编码器 → 节点嵌入矩阵 $\mathbf{X} \in \mathbb{R}^{n \ti
 - **证明扩展到非置换不变损失**：通过将网络分为嵌入层+分类头，证明中间层嵌入仍满足可交换性
 
 ## 局限与展望
-- 仅在小分子图数据集（PTC、COX2，节点数 <50）上验证，大规模社交网络/知识图谱未测试
+- 仅在小分子图数据集（PTC、COX2，节点数 &lt;50）上验证，大规模社交网络/知识图谱未测试
 - 近似误差虽有界但 ~12%，对精度要求极高的应用可能需要 reranker 补偿
 - 理论假设 i.i.d. 初始化——预训练后 fine-tune 的 GNN 是否仍满足可交换性未分析
 - 仅支持子图匹配和 GED 两种相似度，未扩展到图对齐等其他任务

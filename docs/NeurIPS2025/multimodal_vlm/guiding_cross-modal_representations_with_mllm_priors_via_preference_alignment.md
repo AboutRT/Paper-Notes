@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Guiding Cross-Modal Representations with MLLM Priors via Preference Alignment
 description: >-
-  [NeurIPS 2025][多模态][跨模态检索] 提出 MAPLE 框架，利用现成 MLLM 的内在模态对齐能力自动构建偏好数据，通过 Relative Preference Alignment（RPA）损失引导跨模态表示学习，在细粒度检索任务上取得显著提升。
+  [NeurIPS 2025][多模态VLM][跨模态检索] 提出 MAPLE 框架，利用现成 MLLM 的内在模态对齐能力自动构建偏好数据，通过 Relative Preference Alignment（RPA）损失引导跨模态表示学习，在细粒度检索任务上取得显著提升。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 跨模态检索
-  - 多模态VLM
-  - DPO
-  - 模态间隙
-  - MLLM
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "跨模态检索"
+  - "偏好对齐"
+  - "DPO"
+  - "模态间隙"
+  - "MLLM"
 ---
 
 # Guiding Cross-Modal Representations with MLLM Priors via Preference Alignment

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] An Empirical Study on Detecting AI-Generated Text in Financial Reports
 description: >-
-  [ACL 2025][AIGC检测] 本文针对金融报告这一高监管领域，系统评估了多种AI生成文本检测方法（统计特征、神经网络分类器、水印检测等）在识别金融文档中AI生成内容方面的表现，揭示了领域特异性对检测效果的显著影响。
+  [ACL 2025][AIGC检测][AI生成文本检测] 本文针对金融报告这一高监管领域，系统评估了多种AI生成文本检测方法（统计特征、神经网络分类器、水印检测等）在识别金融文档中AI生成内容方面的表现，揭示了领域特异性对检测效果的显著影响。
 tags:
-  - ACL 2025
-  - AIGC检测
-  - 金融报告
-  - LLM检测
-  - 文本真实性
-  - 金融NLP
+  - "ACL 2025"
+  - "AIGC检测"
+  - "AI生成文本检测"
+  - "金融报告"
+  - "LLM检测"
+  - "文本真实性"
+  - "金融NLP"
 ---
 
 # An Empirical Study on Detecting AI-Generated Text in Financial Reports

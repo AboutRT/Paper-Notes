@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 提出 DualAnoDiff，通过双相互关联扩散模型（全局分支生成整体异常图像+异常分支生成局部异常部分）同时生成高质量的异常图像-掩码对，并引入背景补偿模块维持背景和物体形状的一致性，显著提升下游异常检测/定位/分类的性能。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation

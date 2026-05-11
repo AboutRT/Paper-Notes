@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][重光照] 提出UniLumos，一个统一的图像和视频重光照框架，通过在flow matching骨干中引入RGB空间的深度和法线几何反馈来增强物理合理性，同时借助路径一致性学习实现20倍加速。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 重光照
-  - flow matching
-  - 物理反馈
-  - 视频生成
-  - 几何监督
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "重光照"
+  - "flow matching"
+  - "物理反馈"
+  - "视频生成"
+  - "几何监督"
 ---
 
 # UniLumos: Fast and Unified Image and Video Relighting with Physics-Plausible Feedback

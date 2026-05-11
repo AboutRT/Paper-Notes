@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Scaling Embedding Layers in Language Models
 description: >-
-  [NeurIPS 2025][LLM预训练] 提出Scone方法，通过为高频n-gram学习上下文化的嵌入（用独立Transformer模型训练），在推理时将这些嵌入卸载到主存/SSD，实现"训练时用更多计算但推理时不增加加速器资源"的新缩放范式，1B参数模型超越1.9B基线。
+  [NeurIPS 2025][预训练][embedding scaling] 提出Scone方法，通过为高频n-gram学习上下文化的嵌入（用独立Transformer模型训练），在推理时将这些嵌入卸载到主存/SSD，实现"训练时用更多计算但推理时不增加加速器资源"的新缩放范式，1B参数模型超越1.9B基线。
 tags:
-  - NeurIPS 2025
-  - LLM预训练
-  - n-gram embeddings
-  - reasoning efficiency
-  - offloading
-  - Scone
+  - "NeurIPS 2025"
+  - "预训练"
+  - "embedding scaling"
+  - "n-gram embeddings"
+  - "reasoning efficiency"
+  - "offloading"
+  - "Scone"
 ---
 
 # Scaling Embedding Layers in Language Models

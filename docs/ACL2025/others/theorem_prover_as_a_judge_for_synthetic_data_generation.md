@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][定理证明器] 提出 TP-as-a-Judge 框架，利用 Lean 定理证明器验证 LLM 生成的中间推理步骤，结合迭代自动形式化和基于定理证明器反馈的强化学习（RLTPF），仅用 3,508 个样本就在多个数学推理基准上取得了显著提升。
 tags:
-  - ACL 2025
-  - 定理证明器
-  - 合成数据
-  - 自动形式化
-  - 其他
-  - 数学推理
+  - "ACL 2025"
+  - "定理证明器"
+  - "合成数据"
+  - "自动形式化"
+  - "强化学习"
+  - "数学推理"
 ---
 
 # Theorem Prover as a Judge for Synthetic Data Generation

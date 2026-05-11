@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GreenHyperSpectra: A Multi-Source Hyperspectral Dataset for Global Vegetation Trait Prediction
 description: >-
-  [NeurIPS 2025][遥感][高光谱数据集] GreenHyperSpectra构建了一个包含14万+多源高光谱植被样本的预训练数据集，横跨近端、航空和卫星三种平台，通过半监督和自监督方法（MAE、GAN、RTM-AE）训练的标签高效回归模型在7种植物性状预测上全面超越全监督基线，特别是在标签稀缺和分布外场景中优势显著。
+  [NeurIPS 2025][遥感][高光谱数据集] GreenHyperSpectra构建了一个包含14万+多源高光谱植被样本的预训练数据集，横跨近端、航空和卫星三种平台，通过半监督和自监督方法（MAE、GAN、RTM-AE）训练的标签高效回归模型在7种植物性状预测上全面超越全监督基线…
 tags:
-  - NeurIPS 2025
-  - 遥感
-  - 高光谱数据集
-  - 植被性状预测
-  - 半监督学习
-  - 跨传感器泛化
-  - 掩码自编码器
+  - "NeurIPS 2025"
+  - "遥感"
+  - "高光谱数据集"
+  - "植被性状预测"
+  - "半监督学习"
+  - "跨传感器泛化"
+  - "掩码自编码器"
 ---
 
 # GreenHyperSpectra: A Multi-Source Hyperspectral Dataset for Global Vegetation Trait Prediction
@@ -50,7 +50,7 @@ GreenHyperSpectra构建了一个包含14万+多源高光谱植被样本的预训
 1. **GreenHyperSpectra数据集构建**:
 
     - 功能：提供跨域高光谱预训练数据
-    - 核心思路：从三种平台采集数据——近端光谱仪（ASD FieldSpec等，<1m分辨率，1-4nm光谱分辨率，5620样本）、航空传感器（AVIRIS-NG、NEON AOP等，1-20m分辨率，96699样本）、卫星（PRISMA、EnMAP、EMIT等，30-60m分辨率，36059样本）。所有数据处理到地表反射率级别，光谱重采样统一到一致的波段网格。多平台特性引入了空间分辨率、光谱分辨率、太阳-传感器几何、背景条件等多维变异性，这正是现有单平台数据集所缺乏的。
+    - 核心思路：从三种平台采集数据——近端光谱仪（ASD FieldSpec等，&lt;1m分辨率，1-4nm光谱分辨率，5620样本）、航空传感器（AVIRIS-NG、NEON AOP等，1-20m分辨率，96699样本）、卫星（PRISMA、EnMAP、EMIT等，30-60m分辨率，36059样本）。所有数据处理到地表反射率级别，光谱重采样统一到一致的波段网格。多平台特性引入了空间分辨率、光谱分辨率、太阳-传感器几何、背景条件等多维变异性，这正是现有单平台数据集所缺乏的。
     - 设计动机：跨传感器域偏移是性状预测泛化的最大障碍，通过在预训练阶段暴露模型于多源数据，学习域不变的光谱特征
 
 2. **掩码自编码器（MAE）用于1D光谱重建**:

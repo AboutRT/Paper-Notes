@@ -3,6 +3,14 @@ title: >-
   ACL2025 AI 安全方向14篇论文解读
 description: >-
   14篇ACL2025的 AI 安全方向论文解读，涵盖水印/隐写、对抗鲁棒、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2025"
+  - "AI 安全"
+  - "论文解读"
+  - "论文笔记"
+  - "水印/隐写"
+  - "对抗鲁棒"
+  - "语音"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +18,7 @@ description: >-
 
 **💬 ACL2025** · **14** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/ai_safety/index.md) · [📷 CVPR2026 (22)](../../CVPR2026/ai_safety/index.md) · [🔬 ICLR2026 (26)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (72)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (21)](../../ICCV2025/ai_safety/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/ai_safety/index.md) · [📷 CVPR2026 (22)](../../CVPR2026/ai_safety/index.md) · [🔬 ICLR2026 (26)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (70)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (21)](../../ICCV2025/ai_safety/index.md)
 
 🔥 **高频主题：** 水印/隐写 ×4 · 对抗鲁棒 ×3 · 语音 ×2
 

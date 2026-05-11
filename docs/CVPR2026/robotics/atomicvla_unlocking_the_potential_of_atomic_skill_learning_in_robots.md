@@ -2,16 +2,16 @@
 title: >-
   [论文解读] AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots
 description: >-
-  [CVPR 2026][机器人][VLA] 提出AtomicVLA，在π₀基础上构建统一规划-执行框架，通过自适应Think-Act切换生成原子技能抽象，并用技能引导的MoE（SG-MoE）将动作路由到专精expert执行，LIBERO-LONG成功率从85.2%提升至95.2%（+10%），真实Franka长任务+18.3%，持续学习+21%。
+  [CVPR 2026][机器人][VLA] 提出AtomicVLA，在π₀基础上构建统一规划-执行框架，通过自适应Think-Act切换生成原子技能抽象，并用技能引导的MoE（SG-MoE）将动作路由到专精expert执行，LIBERO-LONG成功率从85.2%提升至95.2%（+10%）…
 tags:
-  - CVPR 2026
-  - 机器人
-  - VLA
-  - 原子技能
-  - Mixture-of-Experts
-  - 持续学习
-  - 任务规划
-  - 技能路由
+  - "CVPR 2026"
+  - "机器人"
+  - "VLA"
+  - "原子技能"
+  - "Mixture-of-Experts"
+  - "持续学习"
+  - "任务规划"
+  - "技能路由"
 ---
 
 # AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][内镜超声] 本文提出 SRRM-ViT，通过在 ViT 中引入统计旋转不变性增强机制(SRRM)，自适应选择关键区域并融合直方图统计特征，实现了对食管癌内镜超声图像中任意径向位置病灶的无偏细粒度分类，在临床和公开数据集上取得了显著性能提升。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 内镜超声
-  - 旋转不变性
-  - 纹理特征
-  - Transformer
-  - 食管癌分类
+  - "ECCV 2024"
+  - "医学图像"
+  - "内镜超声"
+  - "旋转不变性"
+  - "纹理特征"
+  - "Transformer"
+  - "食管癌分类"
 ---
 
 # A Rotation-Invariant Texture ViT for Fine-Grained Recognition of Esophageal Cancer Endoscopic Ultrasound Images

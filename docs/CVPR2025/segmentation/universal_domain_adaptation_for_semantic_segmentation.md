@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Universal Domain Adaptation for Semantic Segmentation
 description: >-
-  [CVPR 2025][图像分割][通用域适应] 首次提出语义分割的通用域适应（UniDA-SS）任务和 UniMAP 框架，通过域特定原型区分（DSPD）和基于目标的图像匹配（TIM）两个核心组件，在不需要预先知道类别配置的情况下实现从合成数据到真实数据的有效适应，显著超越现有 UDA-SS 方法。
+  [CVPR 2025][语义分割][通用域适应] 首次提出语义分割的通用域适应（UniDA-SS）任务和 UniMAP 框架，通过域特定原型区分（DSPD）和基于目标的图像匹配（TIM）两个核心组件，在不需要预先知道类别配置的情况下实现从合成数据到真实数据的有效适应，显著超越现有 UDA-SS 方法。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 通用域适应
-  - 语义分割
-  - 原型学习
-  - 图像匹配
-  - 伪标签
+  - "CVPR 2025"
+  - "语义分割"
+  - "通用域适应"
+  - "原型学习"
+  - "图像匹配"
+  - "伪标签"
 ---
 
 # Universal Domain Adaptation for Semantic Segmentation

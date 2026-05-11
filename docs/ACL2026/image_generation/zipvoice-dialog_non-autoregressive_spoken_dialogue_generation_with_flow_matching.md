@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching
 description: >-
-  [ACL 2026][图像生成][对话语音生成] 提出 ZipVoice-Dialog，首个基于流匹配的非自回归零样本对话语音生成模型，通过课程学习策略和说话人轮次嵌入两个简单设计，解决了流匹配直接用于对话场景时的语音不可懂和轮次混乱问题，同时发布了首个大规模开源对话语音数据集 OpenDialog（6.8k 小时）。
+  [ACL 2026][图像生成][对话语音生成] 提出 ZipVoice-Dialog，首个基于流匹配的非自回归零样本对话语音生成模型，通过课程学习策略和说话人轮次嵌入两个简单设计，解决了流匹配直接用于对话场景时的语音不可懂和轮次混乱问题…
 tags:
-  - ACL 2026
-  - 图像生成
-  - 对话语音生成
-  - 非自回归
-  - 流匹配
-  - 说话人轮次
-  - 课程学习
+  - "ACL 2026"
+  - "图像生成"
+  - "对话语音生成"
+  - "非自回归"
+  - "流匹配"
+  - "说话人轮次"
+  - "课程学习"
 ---
 
 # ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching

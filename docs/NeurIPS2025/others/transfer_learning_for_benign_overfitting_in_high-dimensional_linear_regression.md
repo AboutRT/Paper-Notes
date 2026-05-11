@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][迁移学习] 提出两步式Transfer MNI方法，在高维过参数化线性回归中通过"保留目标信号+零空间迁移源知识"机制增强良性过拟合的泛化能力，刻画了模型偏移和协变量偏移下的非渐近excess risk，并发现了"免费午餐"协变量偏移区间。
 tags:
-  - NeurIPS 2025
-  - 迁移学习
-  - 良性过拟合
-  - 高维线性回归
-  - 最小范数插值
-  - 协变量偏移
-  - 模型偏移
+  - "NeurIPS 2025"
+  - "迁移学习"
+  - "良性过拟合"
+  - "高维线性回归"
+  - "最小范数插值"
+  - "协变量偏移"
+  - "模型偏移"
 ---
 
 # Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression
@@ -120,7 +120,7 @@ $$\text{SSR}_q < 1 \quad \text{且} \quad \text{SNR}_q(1 - \text{SSR}_q) > \frac
 ## 亮点
 
 - **"保留+迁移"机制**：TM在目标行空间保留MNI信号、仅在零空间迁移源知识，理论优雅且实践鲁棒
-- **充要正迁移条件**：首次给出MNI迁移学习中正迁移的精确判据（SSR<1且SNR足够大）和最优迁移样本量闭式解
+- **充要正迁移条件**：首次给出MNI迁移学习中正迁移的精确判据（SSR&lt;1且SNR足够大）和最优迁移样本量闭式解
 - **免费午餐协变量偏移**：发现不要求源-目标特征向量完全对齐，仅需前$\tau^*$个高信号方向对齐即可获得方差减少的免费收益
 - **自适应集成WTM**：基于CV的informative source检测+逆CV loss加权，在所有设定下一致最优
 - **对比pooled-MNI的显著优势**：TM的late-fusion架构对分布偏移天然鲁棒，而pooled-MNI在偏移下崩溃

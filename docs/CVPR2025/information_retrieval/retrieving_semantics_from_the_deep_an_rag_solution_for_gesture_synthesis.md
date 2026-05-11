@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis
 description: >-
-  [CVPR 2025][信息检索][手势合成] RAG-Gesture 提出了一种基于检索增强生成（RAG）的手势合成框架，利用显式语言学知识从手势数据库中检索语义相关的示例动作，并通过 DDIM 反演和检索引导在推理时注入扩散模型生成过程，无需训练即可产生语义丰富且自然的共语手势。
+  [CVPR 2025][信息检索/RAG][手势合成] RAG-Gesture 提出了一种基于检索增强生成（RAG）的手势合成框架，利用显式语言学知识从手势数据库中检索语义相关的示例动作，并通过 DDIM 反演和检索引导在推理时注入扩散模型生成过程，无需训练即可产生语义丰富且自然的共语手势。
 tags:
-  - CVPR 2025
-  - 信息检索
-  - 手势合成
-  - 检索增强生成
-  - 扩散模型
-  - 语义手势
-  - 语言驱动
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "手势合成"
+  - "检索增强生成"
+  - "扩散模型"
+  - "语义手势"
+  - "语言驱动"
 ---
 
 # Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis

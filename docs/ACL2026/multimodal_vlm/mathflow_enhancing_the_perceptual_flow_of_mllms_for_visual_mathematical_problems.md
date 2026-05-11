@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MathFlow: Enhancing the Perceptual Flow of MLLMs for Visual Mathematical Problems
 description: >-
-  [ACL 2026][多模态][视觉数学推理] 提出 FlowVerse 基准（将数学问题信息分为 DI/EI/RP/OQ 四个组件并构建六个变体版本）和 MathFlow 模块化管线（将感知和推理解耦为独立阶段），训练专门的感知模型 MathFlow-P-7B 从数学图表中提取关键信息，显著提升各类推理模型的视觉数学问题解决能力。
+  [ACL 2026][多模态VLM][视觉数学推理] 提出 FlowVerse 基准（将数学问题信息分为 DI/EI/RP/OQ 四个组件并构建六个变体版本）和 MathFlow 模块化管线（将感知和推理解耦为独立阶段），训练专门的感知模型 MathFlow-P-7B 从数学图表中提取关键信息…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 多模态大模型
-  - 感知与推理解耦
-  - 数学图表理解
-  - 基准测试
+  - "ACL 2026"
+  - "多模态VLM"
+  - "视觉数学推理"
+  - "多模态大模型"
+  - "感知与推理解耦"
+  - "数学图表理解"
+  - "基准测试"
 ---
 
 # MathFlow: Enhancing the Perceptual Flow of MLLMs for Visual Mathematical Problems

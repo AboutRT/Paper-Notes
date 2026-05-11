@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][文本到图像生成] STORM 提出基于最优传输理论的空间传输优化方法（STO），在扩散模型去噪过程中动态调整物体的注意力图位置，无需任何训练即可实现精确的空间布局控制，有效解决了 T2I 模型中"物体位置错误"这一被忽视的关键问题。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 文本到图像生成
-  - 空间对齐
-  - 最优传输
-  - 注意力图重定位
-  - 无训练方法
+  - "CVPR 2025"
+  - "图像生成"
+  - "文本到图像生成"
+  - "空间对齐"
+  - "最优传输"
+  - "注意力图重定位"
+  - "无训练方法"
 ---
 
 # STORM: Spatial Transport Optimization by Repositioning Attention Map for Training-Free Text-to-Image Synthesis

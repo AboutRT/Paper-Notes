@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][不确定性量化] 首次系统性量化文本到图像生成模型相对于prompt的不确定性，提出PUNC方法——利用LVLM将生成图captioning后在文本空间与原始prompt比较，通过precision/recall分离认知和数据不确定性。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 不确定性量化
-  - 文本到图像
-  - 语义不确定性
-  - LVLM
-  - 偏差检测
+  - "CVPR 2025"
+  - "图像生成"
+  - "不确定性量化"
+  - "文本到图像"
+  - "语义不确定性"
+  - "LVLM"
+  - "偏差检测"
 ---
 
 # Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation

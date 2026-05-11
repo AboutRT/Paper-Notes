@@ -2,18 +2,18 @@
 title: >-
   [论文解读] DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image
 description: >-
-  [CVPR 2025][图像生成][3D服装重建] 提出 DeClotH，用 DMTet 表示+3D 模板正则化（SMPLicit/SMPL）分别重建服装和人体，并训练 ClothDiffusion（ControlNet 微调）生成纯服装图像作为 SDS 损失指导，在单张图像下实现可分解的 3D 服装+人体重建，在 4D-DRESS 上超越所有基线。
+  [CVPR 2025][图像生成][3D服装重建] 提出 DeClotH，用 DMTet 表示+3D 模板正则化（SMPLicit/SMPL）分别重建服装和人体，并训练 ClothDiffusion（ControlNet 微调）生成纯服装图像作为 SDS 损失指导…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 3D服装重建
-  - 人体重建
-  - 模板正则化
-  - DMTet
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "3D服装重建"
+  - "人体重建"
+  - "模板正则化"
+  - "DMTet"
+  - "扩散模型"
 ---
 
-﻿# DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image
+# DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.19373](https://arxiv.org/abs/2503.19373)  

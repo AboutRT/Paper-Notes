@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning from Synthetic Data via Provenance-Based Input Gradient Guidance
 description: >-
-  [CVPR 2026][合成数据学习] 本文提出利用合成数据生成过程中自动获得的"出处信息"（provenance）作为辅助监督信号，通过输入梯度引导（抑制非目标区域的输入梯度）直接促进模型学习聚焦于目标区域的判别性表示，在弱监督定位、时空动作检测和图像分类等多任务多模态上验证了有效性。
+  [CVPR 2026][社会计算][合成数据学习] 本文提出利用合成数据生成过程中自动获得的"出处信息"（provenance）作为辅助监督信号，通过输入梯度引导（抑制非目标区域的输入梯度）直接促进模型学习聚焦于目标区域的判别性表示，在弱监督定位、时空动作检测和图像分类等多任务多模态上验证了有效性。
 tags:
-  - CVPR 2026
-  - 合成数据学习
-  - 输入梯度引导
-  - 虚假相关性抑制
-  - 数据增强
-  - 出处信息
+  - "CVPR 2026"
+  - "社会计算"
+  - "合成数据学习"
+  - "输入梯度引导"
+  - "虚假相关性抑制"
+  - "数据增强"
+  - "出处信息"
 ---
 
 # Learning from Synthetic Data via Provenance-Based Input Gradient Guidance

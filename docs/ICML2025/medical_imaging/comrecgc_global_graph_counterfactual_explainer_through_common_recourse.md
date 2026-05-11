@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ComRecGC: Global Graph Counterfactual Explainer through Common Recourse
 description: >-
-  [ICML 2025][医学图像][反事实解释] 本文首次形式化了图神经网络的**公共补救 (Common Recourse)** 全局反事实解释问题，证明该问题是 NP-hard 的，并提出了 ComRecGC 算法——通过多头顶点增强随机游走 (Multi-head VRRW) 寻找反事实图，再用 DBScan 聚类提取公共补救，在 NCI1、Mutagenicity、AIDS、Proteins 四个真实数据集上，覆盖率全面超越现有基线 10%–30%。
+  [ICML 2025][医学图像][反事实解释] 本文首次形式化了图神经网络的**公共补救 (Common Recourse)** 全局反事实解释问题，证明该问题是 NP-hard 的，并提出了 ComRecGC 算法——通过多头顶点增强随机游走 (Multi-head VRRW) 寻找反事实图…
 tags:
-  - ICML 2025
-  - 医学图像
-  - 反事实解释
-  - 图神经网络
-  - 公共补救 (Common Recourse)
-  - 全局解释
-  - 子模优化
+  - "ICML 2025"
+  - "医学图像"
+  - "反事实解释"
+  - "图神经网络"
+  - "公共补救 (Common Recourse)"
+  - "全局解释"
+  - "子模优化"
 ---
 
 # ComRecGC: Global Graph Counterfactual Explainer through Common Recourse

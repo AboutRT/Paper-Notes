@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][机器人][AI Agent 评估] 提出 CAIA 基准测试，通过加密货币市场作为天然对抗性实验室，评估 17 个 SOTA 大模型在高风险对抗环境中的 agent 能力，揭示前沿模型仅达 67.4% 准确率（GPT-5）vs 人类 80%，并发现系统性工具选择灾难。
 tags:
-  - AAAI 2026
-  - 机器人
-  - AI Agent 评估
-  - 对抗性基准
-  - 加密货币
-  - 工具选择
-  - 幻觉
+  - "AAAI 2026"
+  - "机器人"
+  - "AI Agent 评估"
+  - "对抗性基准"
+  - "加密货币"
+  - "工具选择"
+  - "幻觉"
 ---
 
 # When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets

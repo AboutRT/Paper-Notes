@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][机器人][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 机器人
-  - 待补充
+  - "ACL 2026"
+  - "机器人"
+  - "待补充"
 ---
 
 # GRASPrune: Global Gating for Budgeted Structured Pruning of Large Language Models

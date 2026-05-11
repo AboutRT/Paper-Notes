@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][扩散模型] 提出 KLASS（KL-Adaptive Stability Sampling），一种无需训练的采样方法，利用 token 级别的 KL 散度和置信度来识别稳定 token 并行解码，在掩码扩散模型上实现最高 2.78× 加速且不损失甚至提升生成质量。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散模型
-  - KL Divergence
-  - 加速采样
-  - Token稳定性
-  - 并行解码
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "KL Divergence"
+  - "加速采样"
+  - "Token稳定性"
+  - "并行解码"
 ---
 
 # KLASS: KL-Guided Fast Inference in Masked Diffusion Models

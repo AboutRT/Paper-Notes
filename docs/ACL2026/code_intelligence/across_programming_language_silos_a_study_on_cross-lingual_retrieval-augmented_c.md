@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation
 description: >-
-  [ACL 2026][跨语言代码生成] 首次系统研究跨编程语言的检索增强代码生成（RACG），构建覆盖13种编程语言的14K实例数据集，揭示跨语言知识迁移的不对等性及其与语言亲缘性和预训练多样性的关系。
+  [ACL 2026][代码智能][跨语言代码生成] 首次系统研究跨编程语言的检索增强代码生成（RACG），构建覆盖13种编程语言的14K实例数据集，揭示跨语言知识迁移的不对等性及其与语言亲缘性和预训练多样性的关系。
 tags:
-  - ACL 2026
-  - 跨语言代码生成
-  - 代码智能
-  - 知识迁移
-  - 多语言编程
-  - 代码检索
+  - "ACL 2026"
+  - "代码智能"
+  - "跨语言代码生成"
+  - "检索增强生成"
+  - "知识迁移"
+  - "多语言编程"
+  - "代码检索"
 ---
 
 # Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation

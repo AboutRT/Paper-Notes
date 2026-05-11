@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Losses that Cook: Topological Optimal Transport for Structured Recipe Generation
 description: >-
-  [ACL 2026][文本生成][食谱生成] 提出一种基于 Sinkhorn 散度的拓扑损失函数，将食材列表表示为嵌入空间中的点云，最小化预测与真实食材之间的几何差异，显著提升结构化食谱生成中食材召回率和数量精度，在人类评估中 62% 的情况被偏好。
+  [ACL 2026][LLM/NLP][食谱生成] 提出一种基于 Sinkhorn 散度的拓扑损失函数，将食材列表表示为嵌入空间中的点云，最小化预测与真实食材之间的几何差异，显著提升结构化食谱生成中食材召回率和数量精度，在人类评估中 62% 的情况被偏好。
 tags:
-  - ACL 2026
-  - 文本生成
-  - 食谱生成
-  - 拓扑损失
-  - 最优传输
-  - 结构化文本生成
-  - 复合损失函数
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "食谱生成"
+  - "拓扑损失"
+  - "最优传输"
+  - "结构化文本生成"
+  - "复合损失函数"
 ---
 
 # Losses that Cook: Topological Optimal Transport for Structured Recipe Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][时间序列][概率时序预测] 提出 TimeMCL，将 Multiple Choice Learning 的 Winner-Takes-All (WTA) 损失引入多变量概率时序预测，通过多头网络单次前向传播即可生成多样且具代表性的未来轨迹，兼顾预测质量与计算效率。
 tags:
-  - ICML2025
-  - 时间序列
-  - 概率时序预测
-  - Winner-Takes-All
-  - Multiple Choice Learning
-  - 函数量化
-  - 多模态分布
+  - "ICML2025"
+  - "时间序列"
+  - "概率时序预测"
+  - "Winner-Takes-All"
+  - "Multiple Choice Learning"
+  - "函数量化"
+  - "多模态分布"
 ---
 
 # Winner-takes-all for Multivariate Probabilistic Time Series Forecasting

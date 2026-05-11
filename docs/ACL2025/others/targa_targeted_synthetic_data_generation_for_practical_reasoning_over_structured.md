@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][语义解析] TARGA 提出了一种针对性的合成数据生成框架，无需任何人工标注即可为知识库问答（KBQA）动态生成高相关性的合成示例用于上下文学习，仅用 7B 模型即在 GrailQA（+7.7 F1）和 KBQA-Agent（+12.2 F1）上大幅超越所有非微调方法。
 tags:
-  - ACL 2025
-  - 语义解析
-  - 其他
-  - 合成数据生成
-  - 上下文学习
-  - 结构化推理
+  - "ACL 2025"
+  - "语义解析"
+  - "知识库问答"
+  - "合成数据生成"
+  - "上下文学习"
+  - "结构化推理"
 ---
 
 # TARGA: Targeted Synthetic Data Generation for Practical Reasoning over Structured Data

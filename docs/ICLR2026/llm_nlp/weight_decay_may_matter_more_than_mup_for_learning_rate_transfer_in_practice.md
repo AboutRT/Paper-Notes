@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM/NLP][μP] 本文通过大规模实证分析表明，μP 的核心对齐假设仅在训练初期短暂成立，实际训练中是独立权重衰减（independent weight decay）而非 μP 在正确稳定跨宽度的特征学习动态，μP 的实际益处可被解释为一种隐式学习率预热。
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - μP
-  - 学习率迁移
-  - 权重衰减
-  - AdamW
-  - 特征学习
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "μP"
+  - "学习率迁移"
+  - "权重衰减"
+  - "AdamW"
+  - "特征学习"
 ---
 
 # Weight Decay may matter more than μP for Learning Rate Transfer in Practice

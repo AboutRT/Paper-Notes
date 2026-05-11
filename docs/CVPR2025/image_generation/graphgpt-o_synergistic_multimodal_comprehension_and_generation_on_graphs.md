@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多模态] 提出 GraphGPT-o，将多模态属性图（MMAG，节点含图像+文本，边表示关系）的结构信息注入多模态大语言模型（MLLM），通过 PPR 采样、层次化 Q-Former 对齐器和灵活推理策略，实现基于图上下文的文本-图像联合生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多模态
-  - MLLM
-  - graph linearization
-  - hierarchical aligner
-  - Q-Former
-  - DreamLLM
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "多模态"
+  - "MLLM"
+  - "graph linearization"
+  - "hierarchical aligner"
+  - "Q-Former"
+  - "DreamLLM"
+  - "扩散模型"
 ---
 
 # GraphGPT-o: Synergistic Multimodal Comprehension and Generation on Graphs

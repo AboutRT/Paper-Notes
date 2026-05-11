@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EventFly: Event Camera Perception from Ground to the Sky
 description: >-
-  [CVPR 2025][3D视觉][事件相机] EventFly 提出了首个事件相机跨平台域适应框架，通过事件激活先验（EAP）识别高激活区域、EventBlend 混合源/目标域事件数据、EventMatch 双判别器对齐特征分布，在车辆→无人机→四足机器人三个平台间的语义分割任务上，相比 source-only 训练平均提升准确率 23.8%、mIoU 77.1%。
+  [CVPR 2025][3D视觉][事件相机] EventFly 提出了首个事件相机跨平台域适应框架，通过事件激活先验（EAP）识别高激活区域、EventBlend 混合源/目标域事件数据、EventMatch 双判别器对齐特征分布，在车辆→无人机→四足机器人三个平台间的语义分割任务上…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 事件相机
-  - 跨平台域适应
-  - 语义分割
-  - 数据混合
-  - 对抗训练
+  - "CVPR 2025"
+  - "3D视觉"
+  - "事件相机"
+  - "跨平台域适应"
+  - "语义分割"
+  - "数据混合"
+  - "对抗训练"
 ---
 
 # EventFly: Event Camera Perception from Ground to the Sky

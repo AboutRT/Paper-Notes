@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Unified Framework for Heterogeneous Semi-supervised Learning
 description: >-
-  [CVPR 2025][异构半监督学习] 提出异构半监督学习(HSSL)新问题设定——标记数据和无标记数据来自不同分布的域，目标是训练能在两个域上都泛化的模型；通过将C类问题扩展为2C类分类（每个域的同一语义类视为不同类），结合WMA伪标签、跨域原型对齐和渐进式跨域Mixup三个组件统一解决。
+  [CVPR 2025][预训练][异构半监督学习] 提出异构半监督学习(HSSL)新问题设定——标记数据和无标记数据来自不同分布的域，目标是训练能在两个域上都泛化的模型；通过将C类问题扩展为2C类分类（每个域的同一语义类视为不同类），结合WMA伪标签、跨域原型对齐和渐进式跨域Mixup三个组件统一解决。
 tags:
-  - CVPR 2025
-  - 异构半监督学习
-  - 跨域伪标签
-  - LLM预训练
-  - 渐进式Mixup
-  - 2C类分类
+  - "CVPR 2025"
+  - "预训练"
+  - "异构半监督学习"
+  - "跨域伪标签"
+  - "原型对齐"
+  - "渐进式Mixup"
+  - "2C类分类"
 ---
 
 # A Unified Framework for Heterogeneous Semi-supervised Learning

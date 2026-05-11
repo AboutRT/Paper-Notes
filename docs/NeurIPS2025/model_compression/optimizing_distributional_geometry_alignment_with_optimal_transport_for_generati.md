@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][数据集蒸馏] 将数据集蒸馏重新表述为最优传输（OT）距离最小化问题，通过三阶段（OT引导扩散采样、标签-图像对齐软重标注、OT logit匹配）实现细粒度分布几何对齐，在ImageNet-1K IPC=10上比之前SOTA提升至少4%。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 数据集蒸馏
-  - 最优传输
-  - 分布对齐
-  - 扩散模型
-  - 知识蒸馏
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "最优传输"
+  - "分布对齐"
+  - "扩散模型"
+  - "知识蒸馏"
 ---
 
 # Optimizing Distributional Geometry Alignment with Optimal Transport for Generative Dataset Distillation
@@ -85,7 +85,7 @@ $$W(\mu_{\text{true}}, \nu_{\text{new}}) \leq \underbrace{E_y[W(\mu_{\text{true}
 | w/o OTM | 73.2 | 75.9 | 77.5 | 无OT logit匹配 |
 | Full | **74.5** | **77.8** | **79.0** | 完整方法 |
 
-**运行时开销**：OT约束引入的额外时间开销始终<1%，且总蒸馏集生成时间（3.7h）远快于EDC（11.4h）。
+**运行时开销**：OT约束引入的额外时间开销始终&lt;1%，且总蒸馏集生成时间（3.7h）远快于EDC（11.4h）。
 
 ### 关键发现
 

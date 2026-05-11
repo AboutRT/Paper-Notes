@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 提出Trans-Adapter，一种即插即用的适配器模块，使基于扩散的图像修复模型能直接处理透明（RGBA）图像，同时引入LayerBench基准和Alpha边缘质量（AEQ）度量指标。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # Trans-Adapter: A Plug-and-Play Framework for Transparent Image Inpainting

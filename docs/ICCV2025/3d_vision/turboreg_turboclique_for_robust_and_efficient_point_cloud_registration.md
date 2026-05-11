@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][点云配准] 提出 TurboReg 框架，通过定义轻量级 3-clique（TurboClique）替代传统最大团搜索，并设计高度可并行的 Pivot-Guided Search（PGS）算法，在保持SOTA配准精度的同时将速度提升 208× 以上。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 点云配准
-  - 图匹配
-  - 最大团搜索
-  - 空间一致性
-  - 鲁棒估计
+  - "ICCV 2025"
+  - "3D视觉"
+  - "点云配准"
+  - "图匹配"
+  - "最大团搜索"
+  - "空间一致性"
+  - "鲁棒估计"
 ---
 
 # TurboReg: TurboClique for Robust and Efficient Point Cloud Registration

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][NeRF修复] 提出MALD-NeRF，通过掩码对抗训练和场景定制的潜在扩散模型实现高质量NeRF修复，有效解决扩散模型的多视角不一致和纹理偏移问题。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - NeRF修复
-  - 潜在扩散模型
-  - 对抗训练
-  - 3D一致性
-  - 物体移除
+  - "ECCV 2024"
+  - "3D视觉"
+  - "NeRF修复"
+  - "潜在扩散模型"
+  - "对抗训练"
+  - "3D一致性"
+  - "物体移除"
 ---
 
 # MALD-NeRF: Taming Latent Diffusion Model for Neural Radiance Field Inpainting

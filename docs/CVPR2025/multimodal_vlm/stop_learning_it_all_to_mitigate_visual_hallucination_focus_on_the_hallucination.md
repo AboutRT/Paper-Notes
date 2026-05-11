@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Stop Learning It All to Mitigate Visual Hallucination, Focus on the Hallucination Target
 description: >-
-  [CVPR 2025][多模态][视觉幻觉] 提出**TL-DPO**（Target-Learning DPO），将传统DPO的全句级偏好学习限制到**幻觉发生的目标chunk**和**对应的图像区域**，通过目标生成损失和目标条件损失排除无关信号，在LLaVA-1.5上将CHAIR_s从66.8降至20.1，同时LLaVA-Bench从63.4提升至71.2。
+  [CVPR 2025][多模态VLM][视觉幻觉] 提出**TL-DPO**（Target-Learning DPO），将传统DPO的全句级偏好学习限制到**幻觉发生的目标chunk**和**对应的图像区域**，通过目标生成损失和目标条件损失排除无关信号…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 目标学习
-  - DPO
-  - 偏好优化
-  - 多模态大模型
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视觉幻觉"
+  - "目标学习"
+  - "DPO"
+  - "偏好优化"
+  - "多模态大模型"
 ---
 
 # Stop Learning It All to Mitigate Visual Hallucination, Focus on the Hallucination Target

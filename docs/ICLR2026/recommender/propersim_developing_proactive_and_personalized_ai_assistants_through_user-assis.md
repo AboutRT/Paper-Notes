@@ -2,15 +2,16 @@
 title: >-
   [论文解读] ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation
 description: >-
-  [ICLR 2026][推荐系统] 提出ProPerSim模拟框架，构建基于大五人格的32种用户persona在Smallville家庭环境中的日常行为模拟，AI助手通过每2.5分钟的主动推荐决策和DPO偏好学习，在14天模拟中将用户满意度从2.2/4提升至3.3/4，首次验证了主动性+个性化统一的可行性。
+  [ICLR 2026][推荐系统][proactive agent] 提出ProPerSim模拟框架，构建基于大五人格的32种用户persona在Smallville家庭环境中的日常行为模拟，AI助手通过每2.5分钟的主动推荐决策和DPO偏好学习，在14天模拟中将用户满意度从2.2/4提升至3.3/4…
 tags:
-  - ICLR 2026
-  - 推荐系统
-  - personalization
-  - user simulation
-  - DPO
-  - Big Five personality
-  - generative agents
+  - "ICLR 2026"
+  - "推荐系统"
+  - "proactive agent"
+  - "personalization"
+  - "user simulation"
+  - "DPO"
+  - "Big Five personality"
+  - "generative agents"
 ---
 
 # ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation
@@ -57,7 +58,7 @@ tags:
 
 2. **四维个性化评估Rubric**:
     - 功能：基于353人AMT调研筛选的4个评估维度，为每个persona生成个性化评估标准
-    - 核心思路：从10个候选维度经AMT投票（排除<50%支持的Diversity和Interruption）保留：Personal Preference（内容对齐）、Frequency（推荐频率）、Timing（时机恰当性）、Communication & Safety（沟通风格+安全）。每个维度的具体标准由GPT-4o根据persona定制（如低外向性persona："I prefer receiving recommendations no more than once every two hours"）。评估用Gemini 2.0 Flash，每维度二值评分
+    - 核心思路：从10个候选维度经AMT投票（排除&lt;50%支持的Diversity和Interruption）保留：Personal Preference（内容对齐）、Frequency（推荐频率）、Timing（时机恰当性）、Communication & Safety（沟通风格+安全）。每个维度的具体标准由GPT-4o根据persona定制（如低外向性persona："I prefer receiving recommendations no more than once every two hours"）。评估用Gemini 2.0 Flash，每维度二值评分
     - 设计动机：评估标准必须同时反映任务的通用重要性（来自大规模调研）和个体差异（来自persona定制），两层设计确保既有共识基础又有个性化空间
 
 3. **RAG+DPO偏好对齐的ProPerAssistant**:

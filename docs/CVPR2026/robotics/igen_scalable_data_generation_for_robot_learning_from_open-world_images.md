@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][机器人][机器人学习] IGen 从单张开放世界图像出发，通过3D场景重建→VLM任务规划→SE(3)动作生成→点云合成→帧渲染，自动生成大规模视觉-动作训练数据，仅用生成数据训练的策略即可完成真实世界操作。
 tags:
-  - CVPR 2026
-  - 机器人
-  - 机器人学习
-  - 数据生成
-  - 开放世界图像
-  - 视觉运动策略
-  - 3D重建
+  - "CVPR 2026"
+  - "机器人"
+  - "机器人学习"
+  - "数据生成"
+  - "开放世界图像"
+  - "视觉运动策略"
+  - "3D重建"
 ---
 
 # IGen: Scalable Data Generation for Robot Learning from Open-World Images

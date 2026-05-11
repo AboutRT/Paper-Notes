@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2025][医学图像][联邦学习] 提出 FedMEPD 联邦学习框架，通过模态专属编码器（全局联邦）和部分个性化融合解码器，同时解决多模态 MRI 脑肿瘤分割中的模态间异质性和客户端个性化问题，在 BraTS 2018/2020 上客户端平均 mDSC 达 75.70%/75.90%。
 tags:
-  - CVPR2025
-  - 医学图像
-  - 联邦学习
-  - 图像分割
-  - 多模态
-  - personalized FL
-  - missing modality
+  - "CVPR2025"
+  - "医学图像"
+  - "联邦学习"
+  - "图像分割"
+  - "多模态"
+  - "personalized FL"
+  - "missing modality"
 ---
 
 # Federated Modality-specific Encoders and Partially Personalized Fusion Decoder for Multimodal Brain Tumor Segmentation

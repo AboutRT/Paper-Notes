@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning
 description: >-
-  [CVPR 2025][多模态][VLM推理纠错] 本文提出Critic-V框架，将VLM推理过程解耦为Reasoner（推理器）和Critic（评价器），通过DPO训练的Critic模型提供自然语言反馈迭代优化推理路径，在8个基准上的5个超越GPT-4V，数学推理任务提升尤为显著（MathVista +11.8%）。
+  [CVPR 2025][多模态VLM][VLM推理纠错] 本文提出Critic-V框架，将VLM推理过程解耦为Reasoner（推理器）和Critic（评价器），通过DPO训练的Critic模型提供自然语言反馈迭代优化推理路径，在8个基准上的5个超越GPT-4V…
 tags:
-  - CVPR 2025
-  - 多模态
-  - VLM推理纠错
-  - Actor-Critic
-  - 多模态VLM
-  - 自然语言反馈
-  - 多模态推理
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "VLM推理纠错"
+  - "Actor-Critic"
+  - "DPO偏好优化"
+  - "自然语言反馈"
+  - "多模态推理"
 ---
 
 # Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning

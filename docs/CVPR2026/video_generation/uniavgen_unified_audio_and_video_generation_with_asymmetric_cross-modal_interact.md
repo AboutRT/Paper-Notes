@@ -2,14 +2,15 @@
 title: >-
   [论文解读] UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions
 description: >-
-  [CVPR 2026][音视频联合生成] UniAVGen 提出了一个基于对称双分支 DiT 的音视频联合生成框架，通过**非对称跨模态交互机制**和**人脸感知调制模块**实现精确的时空同步，仅用 1.3M 训练样本就在唇音同步、音色一致性和情感一致性上全面超越使用 30M 数据的竞品。
+  [CVPR 2026][视频生成][音视频联合生成] UniAVGen 提出了一个基于对称双分支 DiT 的音视频联合生成框架，通过**非对称跨模态交互机制**和**人脸感知调制模块**实现精确的时空同步，仅用 1.3M 训练样本就在唇音同步、音色一致性和情感一致性上全面超越使用 30M 数据的竞品。
 tags:
-  - CVPR 2026
-  - 音视频联合生成
-  - 跨模态交互
-  - 扩散模型
-  - 唇音同步
-  - 视频生成
+  - "CVPR 2026"
+  - "视频生成"
+  - "音视频联合生成"
+  - "跨模态交互"
+  - "扩散模型"
+  - "唇音同步"
+  - "人脸感知调制"
 ---
 
 # UniAVGen: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions

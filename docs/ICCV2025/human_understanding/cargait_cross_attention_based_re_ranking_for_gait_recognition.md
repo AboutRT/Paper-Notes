@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CarGait: Cross-Attention based Re-ranking for Gait Recognition
 description: >-
-  [ICCV 2025][人体理解][步态识别] 提出CarGait，一种基于交叉注意力的步态识别重排序方法，通过probe与候选序列之间的strip-wise交叉注意力学习细粒度的步态对应关系，将预训练单阶段模型的全局特征映射到新的判别性嵌入空间，在Gait3D、GREW和OU-MVLP三大基准上对七种步态模型均取得一致的Rank-1/5精度提升。
+  [ICCV 2025][人体理解][步态识别] 提出CarGait，一种基于交叉注意力的步态识别重排序方法，通过probe与候选序列之间的strip-wise交叉注意力学习细粒度的步态对应关系，将预训练单阶段模型的全局特征映射到新的判别性嵌入空间…
 tags:
-  - ICCV 2025
-  - 人体理解
-  - 步态识别
-  - 重排序
-  - 交叉注意力
-  - 度量学习
-  - 细粒度匹配
+  - "ICCV 2025"
+  - "人体理解"
+  - "步态识别"
+  - "重排序"
+  - "交叉注意力"
+  - "度量学习"
+  - "细粒度匹配"
 ---
 
 # CarGait: Cross-Attention based Re-ranking for Gait Recognition

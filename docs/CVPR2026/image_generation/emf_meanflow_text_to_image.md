@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][MeanFlow] 首次将 MeanFlow 框架从类别标签条件扩展到文本条件图像生成，发现限制步数下文本表示的语义区分性和解耦性是关键瓶颈，基于 BLIP3o-NEXT 文本编码器实现了高质量的少步/单步 T2I 生成。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - MeanFlow
-  - 单步生成
-  - 文本到图像
-  - 文本编码器
-  - 语义区分性
+  - "CVPR 2026"
+  - "图像生成"
+  - "MeanFlow"
+  - "单步生成"
+  - "文本到图像"
+  - "文本编码器"
+  - "语义区分性"
 ---
 
 # Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation

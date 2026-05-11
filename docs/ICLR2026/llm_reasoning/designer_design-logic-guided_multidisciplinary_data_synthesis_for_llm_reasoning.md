@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][data synthesis] 提出 Design Logic（设计逻辑）——从真题中逆向工程出的可复用元知识，用于指导从原始文本合成多学科推理问题。构建了 470 万道覆盖 75 学科的推理题目，SFT 后的 base 模型甚至超越经过完整后训练的官方模型。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - data synthesis
-  - design logic
-  - multidisciplinary reasoning
-  - question generation
-  - SFT
+  - "ICLR 2026"
+  - "LLM推理"
+  - "data synthesis"
+  - "design logic"
+  - "multidisciplinary reasoning"
+  - "question generation"
+  - "SFT"
 ---
 
 # DESIGNER: Design-Logic-Guided Multidisciplinary Data Synthesis for LLM Reasoning

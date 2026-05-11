@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Hierarchical Visual Prompt Learning for Continual Video Instance Segmentation
 description: >-
-  [ICCV 2025][图像分割][持续学习] 提出持续视频实例分割（CVIS）新问题，设计分层视觉提示学习（HVPL）模型，通过帧级和视频级两个层面的遗忘补偿机制，有效缓解旧类别的灾难性遗忘。
+  [ICCV 2025][语义分割][持续学习] 提出持续视频实例分割（CVIS）新问题，设计分层视觉提示学习（HVPL）模型，通过帧级和视频级两个层面的遗忘补偿机制，有效缓解旧类别的灾难性遗忘。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 持续学习
-  - 视频实例分割
-  - 视觉提示学习
-  - 灾难性遗忘
-  - 正交梯度校正
+  - "ICCV 2025"
+  - "语义分割"
+  - "持续学习"
+  - "视频实例分割"
+  - "视觉提示学习"
+  - "灾难性遗忘"
+  - "正交梯度校正"
 ---
 
 # Hierarchical Visual Prompt Learning for Continual Video Instance Segmentation

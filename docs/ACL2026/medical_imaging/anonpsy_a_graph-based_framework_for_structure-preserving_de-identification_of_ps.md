@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][医学图像][去标识化] 提出Anonpsy框架，将精神科叙事的去标识化重新定义为图引导的语义重写问题——先将叙事转换为语义图，在图上进行受约束的扰动以修改身份信息同时保持临床结构，最后通过图条件生成重建叙事。
 tags:
-  - ACL 2026
-  - 医学图像
-  - 去标识化
-  - 精神科叙事
-  - 语义图
-  - 结构保持
-  - LLM生成
+  - "ACL 2026"
+  - "医学图像"
+  - "去标识化"
+  - "精神科叙事"
+  - "语义图"
+  - "结构保持"
+  - "LLM生成"
 ---
 
 # Anonpsy: A Graph-Based Framework for Structure-Preserving De-identification of Psychiatric Narratives

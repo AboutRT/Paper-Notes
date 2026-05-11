@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Every Error has Its Magnitude: Asymmetric Mistake Severity Training for Multiclass Multiple Instance Learning
 description: >-
-  [CVPR2026][医学图像][Multiple Instance Learning] 提出 PAMS（Priority-Aware Mistake Severity）方法，通过非对称严重性感知的交叉熵损失（MSCE）、语义特征混合（SFR）和非对称 Mikel's Wheel 指标，在多分类 MIL WSI 诊断中显著降低严重误诊风险。
+  [CVPR2026][医学图像][Multiple Instance Learning] 提出 PAMS（Priority-Aware Mistake Severity）方法，通过非对称严重性感知的交叉熵损失（MSCE）、语义特征混合（SFR）和非对称 Mikel's Wheel 指标…
 tags:
-  - CVPR2026
-  - 医学图像
-  - Multiple Instance Learning
-  - Mistake Severity
-  - Whole Slide Image
-  - 非对称误分类
-  - 层次化分类
-  - 病理诊断
+  - "CVPR2026"
+  - "医学图像"
+  - "Multiple Instance Learning"
+  - "Mistake Severity"
+  - "Whole Slide Image"
+  - "非对称误分类"
+  - "层次化分类"
+  - "病理诊断"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

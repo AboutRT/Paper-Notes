@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Convex Dominance in Deep Learning I: A Scaling Law of Loss and Learning Rate
 description: >-
-  [ICLR 2026][优化][缩放定律] 从凸优化理论出发，证明深度学习训练损失以 O(1/sqrt(T)) 速率收敛，最优学习率以 1/sqrt(T) 缩放，在 GPT-2 到 12.5B 参数模型上验证了该缩放律（R^2 >= 0.978），并实现了 80 倍训练步数的学习率外推。
+  [ICLR 2026][优化/理论][缩放定律] 从凸优化理论出发，证明深度学习训练损失以 O(1/sqrt(T)) 速率收敛，最优学习率以 1/sqrt(T) 缩放，在 GPT-2 到 12.5B 参数模型上验证了该缩放律（R^2 >= 0.978），并实现了 80 倍训练步数的学习率外推。
 tags:
-  - ICLR 2026
-  - 优化
-  - 缩放定律
-  - 学习率调度
-  - 凸优化
-  - 损失收敛
-  - 训练规划
+  - "ICLR 2026"
+  - "优化/理论"
+  - "缩放定律"
+  - "学习率调度"
+  - "凸优化"
+  - "损失收敛"
+  - "训练规划"
 ---
 
 # Convex Dominance in Deep Learning I: A Scaling Law of Loss and Learning Rate
@@ -48,7 +48,7 @@ tags:
 1. **凸 SGD 收敛界**:
 
     - 功能：推导 SGD 在凸目标上的"最后迭代"损失上界
-    - 核心思路：E[L(w_T)] <= L* + D^2/(2*sum(eta_t)) + G^2*sum(eta_t^2)/(2*sum(eta_t)) + 残差项。其中 D 是初始化到最优解的距离，G 是梯度界。
+    - 核心思路：E[L(w_T)] &lt;= L* + D^2/(2*sum(eta_t)) + G^2*sum(eta_t^2)/(2*sum(eta_t)) + 残差项。其中 D 是初始化到最优解的距离，G 是梯度界。
     - 设计动机：区别于平均迭代界，最后迭代界更贴合实际训练（我们用最终模型，不是平均模型）。
 
 2. **合格学习率调度（Qualified Schedules）**:

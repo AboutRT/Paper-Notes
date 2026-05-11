@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][open-vocabulary] 提出 OpenLex3D，一个面向开放词汇 3D 场景表示的分层评测基准，在 Replica、ScanNet++、HM3D 三个数据集上提供 13 倍于原始标注的丰富语言标签，支持开放集 3D 语义分割和目标检索两项任务评测。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - open-vocabulary
-  - 场景理解
-  - benchmark
-  - 图像分割
-  - object retrieval
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "open-vocabulary"
+  - "场景理解"
+  - "benchmark"
+  - "图像分割"
+  - "object retrieval"
 ---
 
 # OpenLex3D: A Tiered Evaluation Benchmark for Open-Vocabulary 3D Scene Representations

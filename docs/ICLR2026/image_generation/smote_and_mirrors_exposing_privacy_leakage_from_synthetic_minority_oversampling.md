@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][SMOTE] 首次系统研究 SMOTE 的隐私泄露问题，提出 DistinSMOTE 和 ReconSMOTE 两种攻击，证明 SMOTE 本质上是非隐私保护的，且过度暴露少数类记录。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - SMOTE
-  - 隐私泄露
-  - 重构攻击
-  - 区分攻击
-  - 少数类过采样
+  - "ICLR 2026"
+  - "图像生成"
+  - "SMOTE"
+  - "隐私泄露"
+  - "重构攻击"
+  - "区分攻击"
+  - "少数类过采样"
 ---
 
 # SMOTE and Mirrors: Exposing Privacy Leakage from Synthetic Minority Oversampling

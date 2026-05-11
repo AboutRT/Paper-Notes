@@ -2,10 +2,14 @@
 title: >-
   [论文解读] SE(3)-Equivariant Diffusion Policy in Spherical Fourier Space
 description: >-
-  [ICML 2025][3D视觉 / 机器人策略] 提出在球面 Fourier 空间中构建 SE(3) 等变扩散策略，利用球谐函数的等变性质使策略对输入场景的刚体变换保持等变，在机器人操作任务上实现更好的空间泛化。
+  [ICML 2025][3D视觉][SE(3)-equivariant] 提出在球面 Fourier 空间中构建 SE(3) 等变扩散策略，利用球谐函数的等变性质使策略对输入场景的刚体变换保持等变，在机器人操作任务上实现更好的空间泛化。
 tags:
-  - ICML 2025
-  - 3D视觉
+  - "ICML 2025"
+  - "3D视觉"
+  - "SE(3)-equivariant"
+  - "扩散模型"
+  - "spherical Fourier"
+  - "robot manipulation"
 ---
 
 # SE(3)-Equivariant Diffusion Policy in Spherical Fourier Space

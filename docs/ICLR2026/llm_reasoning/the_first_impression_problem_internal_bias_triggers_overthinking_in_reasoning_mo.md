@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026 (Poster)][LLM推理][过度思考] 推理模型在看到问题的瞬间就形成了对答案的"第一印象"（内部偏差），当这个直觉猜测与后续系统推理产生冲突时，模型会反复自我质疑、重新检查，导致推理长度膨胀 21%–43%，而现有所有缓解方法均无法从根本上消除这一效应。
 tags:
-  - ICLR 2026 (Poster)
-  - LLM推理
-  - 过度思考
-  - 内部偏差
-  - 推理模型
-  - 因果干预
-  - 注意力机制
+  - "ICLR 2026 (Poster)"
+  - "LLM推理"
+  - "过度思考"
+  - "内部偏差"
+  - "推理模型"
+  - "因果干预"
+  - "注意力机制"
 ---
 
 # The First Impression Problem: Internal Bias Triggers Overthinking in Reasoning Models

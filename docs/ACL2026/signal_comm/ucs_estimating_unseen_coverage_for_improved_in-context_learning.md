@@ -2,14 +2,15 @@
 title: >-
   [论文解读] UCS: Estimating Unseen Coverage for Improved In-Context Learning
 description: >-
-  [ACL 2026][In-Context Learning] 本文提出 UCS（Unseen Coverage Selection），一种基于 Smoothed Good-Turing 估计器的无训练子集级覆盖率先验，通过估计候选示例集中未观测到的潜在聚类数量来正则化现有 ICL 示例选择方法，在意图分类和推理任务上提升 2-6% 准确率。
+  [ACL 2026][信号/通信][In-Context Learning] 本文提出 UCS（Unseen Coverage Selection），一种基于 Smoothed Good-Turing 估计器的无训练子集级覆盖率先验，通过估计候选示例集中未观测到的潜在聚类数量来正则化现有 ICL 示例选择方法…
 tags:
-  - ACL 2026
-  - In-Context Learning
-  - 示例选择
-  - 覆盖率估计
-  - Good-Turing估计
-  - 聚类
+  - "ACL 2026"
+  - "信号/通信"
+  - "In-Context Learning"
+  - "示例选择"
+  - "覆盖率估计"
+  - "Good-Turing估计"
+  - "聚类"
 ---
 
 # UCS: Estimating Unseen Coverage for Improved In-Context Learning

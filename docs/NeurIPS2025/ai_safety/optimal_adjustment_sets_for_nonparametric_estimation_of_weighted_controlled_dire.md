@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][weighted controlled direct effect] 针对加权控制直接效应（WCDE）建立三项基础理论：唯一可识别性的充要条件、非参数估计的影响函数推导、以及最小化渐近方差的最优协变量调整集刻画。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - weighted controlled direct effect
-  - causal inference
-  - mediation analysis
-  - optimal adjustment
-  - fairness
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "weighted controlled direct effect"
+  - "causal inference"
+  - "mediation analysis"
+  - "optimal adjustment"
+  - "fairness"
 ---
 
 # Optimal Adjustment Sets for Nonparametric Estimation of Weighted Controlled Direct Effect

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][多模态VLM][web accessibility] 提出 AAA 框架，通过 GRASP（基于图的多模态页面采样）和 MaC（MLLM 作为 Copilot）两大创新，将 WCAG-EM 标准操作化，实现可扩展的端到端网页无障碍审计。
 tags:
-  - AAAI2026
-  - 多模态VLM
-  - web accessibility
-  - WCAG-EM
-  - 多模态
-  - 图神经网络
-  - page sampling
+  - "AAAI2026"
+  - "多模态VLM"
+  - "web accessibility"
+  - "WCAG-EM"
+  - "多模态"
+  - "图神经网络"
+  - "page sampling"
 ---
 
 # Towards Scalable Web Accessibility Audit with MLLMs as Copilots

@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Crucible: Quantifying the Potential of Control Algorithms through LLM Agents
 description: >-
-  [NeurIPS 2025][LLM Agent][tuning potential] 首次将"调优潜能"（Tuning Potential）概念形式化，通过 LLM Agent 模拟多级开发者对控制算法进行参数+逻辑双层调优，在 CartPole 上 Bang-bang 从 34→500 达到 DQN 水平，ABR 任务上相比贝叶斯优化最高提升 44.1%。
+  [NeurIPS 2025][LLM Agent][tuning potential] 首次将"调优潜能"（Tuning Potential）概念形式化，通过 LLM Agent 模拟多级开发者对控制算法进行参数+逻辑双层调优，在 CartPole 上 Bang-bang 从 34→500 达到 DQN 水平…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - tuning potential
-  - LLM agent
-  - control algorithm
-  - parameter optimization
-  - Bayesian optimization
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "tuning potential"
+  - "control algorithm"
+  - "parameter optimization"
+  - "Bayesian optimization"
 ---
 
 # Crucible: Quantifying the Potential of Control Algorithms through LLM Agents

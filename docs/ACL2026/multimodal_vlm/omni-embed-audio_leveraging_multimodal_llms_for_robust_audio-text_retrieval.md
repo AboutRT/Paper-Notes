@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Omni-Embed-Audio: Leveraging Multimodal LLMs for Robust Audio-Text Retrieval
 description: >-
-  [ACL 2026][多模态][音频文本检索] 本文提出 OEA（Omni-Embed-Audio），利用多模态 LLM 作为统一编码器构建检索导向的音频-文本嵌入空间，并引入 User-Intent Queries（UIQ）基准和硬负例区分指标（HNSR/TFR），发现 LLM 主干在 T2T 检索（+22%）和硬负例区分（+4.3%p HNSR@10）上显著优于 CLAP 系列方法。
+  [ACL 2026][多模态VLM][音频文本检索] 本文提出 OEA（Omni-Embed-Audio），利用多模态 LLM 作为统一编码器构建检索导向的音频-文本嵌入空间，并引入 User-Intent Queries（UIQ）基准和硬负例区分指标（HNSR/TFR）…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - CLAP
-  - 多模态LLM
-  - 用户意图查询
-  - 硬负例区分
+  - "ACL 2026"
+  - "多模态VLM"
+  - "音频文本检索"
+  - "CLAP"
+  - "多模态LLM"
+  - "用户意图查询"
+  - "硬负例区分"
 ---
 
 # Omni-Embed-Audio: Leveraging Multimodal LLMs for Robust Audio-Text Retrieval

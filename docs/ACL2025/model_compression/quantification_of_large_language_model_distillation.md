@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][知识蒸馏量化] 本文提出了两种互补的LLM蒸馏量化方法——身份一致性评估（ICE）和响应相似性评估（RSE），通过越狱攻击挖掘模型身份信息泄露和多粒度响应相似性来衡量模型的蒸馏程度，发现大多数知名LLM（除Claude、Doubao和Gemini外）都表现出较高的蒸馏程度。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 知识蒸馏量化
-  - 身份一致性
-  - 响应相似性
-  - LLM同质化
-  - 越狱攻击
+  - "ACL 2025"
+  - "模型压缩"
+  - "知识蒸馏量化"
+  - "身份一致性"
+  - "响应相似性"
+  - "LLM同质化"
+  - "越狱攻击"
 ---
 
 # Quantification of Large Language Model Distillation

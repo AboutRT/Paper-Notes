@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching
 description: >-
-  [ECCV 2024][非刚性3D形状匹配] 提出同步扩散正则化方法用于无监督非刚性3D形状匹配，核心思想是"在两个形状上同步地扩散同一函数应产生一致输出"，通过这一简单而高效的正则化可以显著提升现有深度功能映射方法的匹配平滑性，在FAUST、SCAPE、TOPKIDS等多个数据集上达到SOTA。
+  [ECCV 2024][图学习][非刚性3D形状匹配] 提出同步扩散正则化方法用于无监督非刚性3D形状匹配，核心思想是"在两个形状上同步地扩散同一函数应产生一致输出"，通过这一简单而高效的正则化可以显著提升现有深度功能映射方法的匹配平滑性，在FAUST、SCAPE、TOPKIDS等多个数据集上达到SOTA。
 tags:
-  - ECCV 2024
-  - 非刚性3D形状匹配
-  - 同步扩散
-  - 功能映射
-  - 平滑正则化
-  - 无监督学习
+  - "ECCV 2024"
+  - "图学习"
+  - "非刚性3D形状匹配"
+  - "同步扩散"
+  - "功能映射"
+  - "平滑正则化"
+  - "无监督学习"
 ---
 
 # Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching

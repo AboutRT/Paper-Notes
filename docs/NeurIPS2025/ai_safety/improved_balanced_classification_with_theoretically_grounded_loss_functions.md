@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][平衡分类损失] 提出两个理论驱动的代理损失函数族——广义Logit调整(GLA)损失和广义类感知加权(GCA)损失，为类别不平衡下的多类分类提供更强的理论保证和实证性能。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 平衡分类损失
-  - 代理损失
-  - H-一致性
-  - Logit调整
-  - 类感知加权
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "平衡分类损失"
+  - "代理损失"
+  - "H-一致性"
+  - "Logit调整"
+  - "类感知加权"
 ---
 
 # Improved Balanced Classification with Theoretically Grounded Loss Functions

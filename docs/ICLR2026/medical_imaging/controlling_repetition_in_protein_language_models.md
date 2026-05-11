@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Controlling Repetition in Protein Language Models
 description: >-
-  [ICLR2026][医学图像][蛋白质语言模型] 首次系统性研究蛋白质语言模型（PLM）中的病态重复问题，提出统一的重复度量指标 $R(x)$ 和效用指标 $U(x)$，并设计 UCCS（Utility-Controlled Contrastive Steering）方法，通过在隐层注入与重复解耦的引导向量，在不重训模型的前提下有效抑制重复同时保持折叠可信度。
+  [ICLR2026][医学图像][蛋白质语言模型] 首次系统性研究蛋白质语言模型（PLM）中的病态重复问题，提出统一的重复度量指标 $R(x)$ 和效用指标 $U(x)$，并设计 UCCS（Utility-Controlled Contrastive Steering）方法，通过在隐层注入与重复解耦的引导向量…
 tags:
-  - ICLR2026
-  - 医学图像
-  - 蛋白质语言模型
-  - 重复控制
-  - 对比引导
-  - 表示工程
-  - 序列生成
+  - "ICLR2026"
+  - "医学图像"
+  - "蛋白质语言模型"
+  - "重复控制"
+  - "对比引导"
+  - "表示工程"
+  - "序列生成"
 ---
 
 # Controlling Repetition in Protein Language Models

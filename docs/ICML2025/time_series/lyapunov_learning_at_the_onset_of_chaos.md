@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Lyapunov Learning at the Onset of Chaos
 description: >-
-  [ICML 2025][时间序列][Lyapunov 指数] 提出 Lyapunov Learning 算法，通过将神经网络视为动力系统并在损失函数中加入 Lyapunov 指数正则项，将网络推向混沌边缘（edge of chaos），从而在非平稳时间序列发生 regime shift 时实现快速自适应，在 Lorenz 系统实验中将 post-shift MSE 降低约 96%。
+  [ICML 2025][时间序列][Lyapunov 指数] 提出 Lyapunov Learning 算法，通过将神经网络视为动力系统并在损失函数中加入 Lyapunov 指数正则项，将网络推向混沌边缘（edge of chaos），从而在非平稳时间序列发生 regime shift 时实现快速自适应…
 tags:
-  - ICML 2025
-  - 时间序列
-  - Lyapunov 指数
-  - 混沌边缘
-  - 非平稳时间序列
-  - regime shift
-  - 在线学习
+  - "ICML 2025"
+  - "时间序列"
+  - "Lyapunov 指数"
+  - "混沌边缘"
+  - "非平稳时间序列"
+  - "regime shift"
+  - "在线学习"
 ---
 
 # Lyapunov Learning at the Onset of Chaos

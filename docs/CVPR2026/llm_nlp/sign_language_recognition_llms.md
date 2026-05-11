@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM/NLP][手语识别] 首个系统评估现代 VLM 在零样本孤立手语识别（ISLR）上能力的研究，发现开源 VLM 远落后于专用分类器，但大型商用模型（GPT-5）展现出令人惊讶的潜力。
 tags:
-  - CVPR 2026
-  - LLM/NLP
-  - 手语识别
-  - 视觉语言模型
-  - 零样本
-  - 美国手语
-  - 基准测试
+  - "CVPR 2026"
+  - "LLM/NLP"
+  - "手语识别"
+  - "视觉语言模型"
+  - "零样本"
+  - "美国手语"
+  - "基准测试"
 ---
 
 # Sign Language Recognition in the Age of LLMs

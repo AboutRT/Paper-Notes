@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DiTASK: Multi-Task Fine-Tuning with Diffeomorphic Transformations
 description: >-
-  [CVPR 2025][微分同胚变换] 提出 DiTASK，利用连续分段仿射 (CPAB) 微分同胚变换对预训练权重矩阵的奇异值进行平滑变换而保持奇异向量不变，以每层仅约 32 个参数实现全秩更新的多任务微调，在 PASCAL MTL 上以 75% 更少的参数超越 MTLoRA 26.27%。
+  [CVPR 2025][信号/通信][微分同胚变换] 提出 DiTASK，利用连续分段仿射 (CPAB) 微分同胚变换对预训练权重矩阵的奇异值进行平滑变换而保持奇异向量不变，以每层仅约 32 个参数实现全秩更新的多任务微调，在 PASCAL MTL 上以 75% 更少的参数超越 MTLoRA 26.27%。
 tags:
-  - CVPR 2025
-  - 微分同胚变换
-  - 奇异值保持
-  - 多任务学习
-  - PEFT
-  - Transformer
+  - "CVPR 2025"
+  - "信号/通信"
+  - "微分同胚变换"
+  - "奇异值保持"
+  - "多任务学习"
+  - "PEFT"
+  - "Transformer"
 ---
 
 # DiTASK: Multi-Task Fine-Tuning with Diffeomorphic Transformations

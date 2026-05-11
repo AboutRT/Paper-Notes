@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs
 description: >-
-  [ACL 2025][多语言翻译] 提出 X-KDE 框架，通过跨语言编辑指令微调（XE-IT）+ 目标语言偏好优化（TL-PO）实现"编辑一种语言、所有语言同步更新"的跨语言知识民主化，在 Bi-ZsRE 和 MzsRE 基准上平均提升 +8.19%，跨语言场景下显著超越所有现有方法。
+  [ACL 2025][多语言/翻译][知识编辑] 提出 X-KDE 框架，通过跨语言编辑指令微调（XE-IT）+ 目标语言偏好优化（TL-PO）实现"编辑一种语言、所有语言同步更新"的跨语言知识民主化，在 Bi-ZsRE 和 MzsRE 基准上平均提升 +8.19%，跨语言场景下显著超越所有现有方法。
 tags:
-  - ACL 2025
-  - 多语言翻译
-  - 跨语言
-  - multilingual synchronization
-  - 偏好优化
-  - 指令微调
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "知识编辑"
+  - "跨语言"
+  - "multilingual synchronization"
+  - "偏好优化"
+  - "指令微调"
 ---
 
 # Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs

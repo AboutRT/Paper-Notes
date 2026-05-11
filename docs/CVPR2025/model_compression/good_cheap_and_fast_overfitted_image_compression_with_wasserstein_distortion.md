@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][图像压缩] 本文将Wasserstein Distortion（WD）作为优化目标应用于过拟合图像编解码器C3，结合公共随机性实现纹理再采样，在保持极低解码复杂度（<1% MACs of HiFiC）的同时达到与生成式压缩方法相当的视觉质量-码率权衡。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 图像压缩
-  - Wasserstein失真
-  - 感知质量
-  - 过拟合编解码器
-  - 纹理重建
+  - "CVPR 2025"
+  - "模型压缩"
+  - "图像压缩"
+  - "Wasserstein失真"
+  - "感知质量"
+  - "过拟合编解码器"
+  - "纹理重建"
 ---
 
 # Good, Cheap, and Fast: Overfitted Image Compression with Wasserstein Distortion

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rectifying Shortcut Behaviors in Preference-based Reward Learning
 description: >-
-  [NeurIPS 2025][reward hacking] 提出 PRISM（Preference-based Reward Invariance for Shortcut Mitigation），将 reward hacking 统一建模为 shortcut learning 问题，通过群不变核（group-invariant kernels）和随机特征映射近似来同时缓解多种 spurious correlation（冗长性、谄媚、语气等），在 out-of-distribution 偏好数据和下游策略模型上一致提升表现。
+  [NeurIPS 2025][可解释性][reward hacking] 提出 PRISM（Preference-based Reward Invariance for Shortcut Mitigation），将 reward hacking 统一建模为 shortcut learning 问题…
 tags:
-  - NeurIPS 2025
-  - reward hacking
-  - shortcut learning
-  - group-invariant kernel
-  - 可解释性
-  - preference alignment
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "reward hacking"
+  - "shortcut learning"
+  - "group-invariant kernel"
+  - "RLHF"
+  - "preference alignment"
 ---
 
 # Rectifying Shortcut Behaviors in Preference-based Reward Learning

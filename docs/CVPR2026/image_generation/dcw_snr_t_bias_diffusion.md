@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][扩散模型] 本文揭示了扩散模型中普遍存在的 SNR-t 偏差（逆过程样本的信噪比与时间步不匹配），并提出小波域动态差分校正方法（DCW），在不训练的情况下即插即用地提升多种扩散模型的生成质量。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 扩散模型
-  - SNR-时间步偏差
-  - 差分校正
-  - 小波域
-  - 免训练
+  - "CVPR 2026"
+  - "图像生成"
+  - "扩散模型"
+  - "SNR-时间步偏差"
+  - "差分校正"
+  - "小波域"
+  - "免训练"
 ---
 
 # Elucidating the SNR-t Bias of Diffusion Probabilistic Models

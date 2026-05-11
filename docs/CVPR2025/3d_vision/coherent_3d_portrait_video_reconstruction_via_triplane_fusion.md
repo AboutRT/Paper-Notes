@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D人像重建] 提出一种基于三平面融合（Triplane Fusion）的方法，将个人化3D先验与逐帧观测融合，在单目RGB视频中同时实现时间一致性和动态外观的忠实重建，用于3D远程呈现。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D人像重建
-  - 三平面融合
-  - 时间一致性
-  - 远程呈现
-  - 单目视频
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D人像重建"
+  - "三平面融合"
+  - "时间一致性"
+  - "远程呈现"
+  - "单目视频"
 ---
 
 # Coherent 3D Portrait Video Reconstruction via Triplane Fusion

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Graph Distance as Surprise: Free Energy Minimization in Knowledge Graph Reasoning
 description: >-
-  [NeurIPS 2025 (NORA Workshop)][图像生成][Knowledge Graph] 将神经科学的 Free Energy Principle (FEP) 与知识图谱推理连接，提出用图的最短路径距离作为 surprise 的度量，将 Murphy et al. 的树结构 surprise 理论推广到一般有向图，为 KG-based agent 的 entity grounding 提供了一个有原则的理论框架。
+  [NeurIPS 2025 (NORA Workshop)][图像生成][Knowledge Graph] 将神经科学的 Free Energy Principle (FEP) 与知识图谱推理连接，提出用图的最短路径距离作为 surprise 的度量…
 tags:
-  - NeurIPS 2025 (NORA Workshop)
-  - 图像生成
-  - Knowledge Graph
-  - Free Energy Principle
-  - graph distance
-  - surprise minimization
-  - entity grounding
+  - "NeurIPS 2025 (NORA Workshop)"
+  - "图像生成"
+  - "Knowledge Graph"
+  - "Free Energy Principle"
+  - "graph distance"
+  - "surprise minimization"
+  - "entity grounding"
 ---
 
 # Graph Distance as Surprise: Free Energy Minimization in Knowledge Graph Reasoning

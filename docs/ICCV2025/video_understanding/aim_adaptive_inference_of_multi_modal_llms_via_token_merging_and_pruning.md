@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][视频理解][token merging] 提出无需训练的自适应推理方法AIM，通过LLM前的迭代token合并（基于嵌入相似度）和LLM层内的渐进式token剪枝（基于PageRank重要性），实现多模态LLM 6.8倍FLOPs降低且几乎不损失性能，在长视频理解上甚至超越SOTA。
 tags:
-  - ICCV 2025
-  - 视频理解
-  - token merging
-  - 剪枝
-  - adaptive inference
-  - 多模态
-  - training-free
+  - "ICCV 2025"
+  - "视频理解"
+  - "token merging"
+  - "剪枝"
+  - "adaptive inference"
+  - "多模态"
+  - "training-free"
 ---
 
 # AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning

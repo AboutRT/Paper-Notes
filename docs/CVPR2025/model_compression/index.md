@@ -3,6 +3,14 @@ title: >-
   CVPR2025 模型压缩方向58篇论文解读
 description: >-
   58篇CVPR2025的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、持续学习、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "CVPR2025"
+  - "模型压缩"
+  - "论文解读"
+  - "论文笔记"
+  - "压缩/编码"
+  - "持续学习"
+  - "少样本学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +18,7 @@ description: >-
 
 **📷 CVPR2025** · **58** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (51)](../../CVPR2026/model_compression/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (50)](../../CVPR2026/model_compression/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md)
 
 🔥 **高频主题：** 压缩/编码 ×11 · 模型压缩 ×6 · 持续学习 ×4 · 少样本学习 ×3
 

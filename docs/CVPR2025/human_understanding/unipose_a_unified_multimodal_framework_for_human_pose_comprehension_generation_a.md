@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing
 description: >-
-  [CVPR 2025][人体理解][人体姿态] UniPose 提出首个统一的多模态框架，利用 LLM 将 3D 人体姿态离散化为 pose tokens 并与文本 tokens 共享词表，通过混合视觉编码器和混合注意力机制实现了跨图像、文本和 3D SMPL 姿态的七个核心姿态任务（理解、生成和编辑）的统一建模。
+  [CVPR 2025][人体理解][人体姿态] UniPose 提出首个统一的多模态框架，利用 LLM 将 3D 人体姿态离散化为 pose tokens 并与文本 tokens 共享词表…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 人体姿态
-  - 大语言模型
-  - 姿态理解生成编辑
-  - Pose Tokenizer
-  - 统一多模态框架
+  - "CVPR 2025"
+  - "人体理解"
+  - "人体姿态"
+  - "大语言模型"
+  - "姿态理解生成编辑"
+  - "Pose Tokenizer"
+  - "统一多模态框架"
 ---
 
 # UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing

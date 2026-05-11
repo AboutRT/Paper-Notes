@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][数据剪枝] 提出 Partial Forward Blocking (PFB)，在前向传播的浅层阶段计算样本重要性并剪枝，阻断被剪枝样本的后续深层前向传播，实现 ImageNet 上 40% 剪枝下 0.5% 精度提升 + 33% 训练时间缩减。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 数据剪枝
-  - 训练加速
-  - 概率密度
-  - 核密度估计
-  - 前向阻断
+  - "ICCV 2025"
+  - "模型压缩"
+  - "数据剪枝"
+  - "训练加速"
+  - "概率密度"
+  - "核密度估计"
+  - "前向阻断"
 ---
 
 # Partial Forward Blocking: A Novel Data Pruning Paradigm for Lossless Training Acceleration

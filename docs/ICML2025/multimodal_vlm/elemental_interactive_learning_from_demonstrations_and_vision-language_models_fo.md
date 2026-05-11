@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics
 description: >-
-  [ICML 2025][多模态][奖励设计] ELEMENTAL 将视觉语言模型 (VLM) 与逆强化学习 (IRL) 融合，通过 VLM 提取特征函数 + IRL 优化权重 + 自我反思迭代改进，在 IsaacGym 9 个任务上比 EUREKA 提升 42.3%。
+  [ICML 2025][多模态VLM][奖励设计] ELEMENTAL 将视觉语言模型 (VLM) 与逆强化学习 (IRL) 融合，通过 VLM 提取特征函数 + IRL 优化权重 + 自我反思迭代改进，在 IsaacGym 9 个任务上比 EUREKA 提升 42.3%。
 tags:
-  - ICML 2025
-  - 多模态
-  - 奖励设计
-  - VLM
-  - 多模态VLM
-  - 从演示学习
-  - 机器人
+  - "ICML 2025"
+  - "多模态VLM"
+  - "奖励设计"
+  - "VLM"
+  - "逆强化学习"
+  - "从演示学习"
+  - "机器人"
 ---
 
 # ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics
@@ -93,7 +93,7 @@ ELEMENTAL 将视觉语言模型 (VLM) 与逆强化学习 (IRL) 融合，通过 V
 | w/o Norm 2 (权重归一化) | 下降 | 奖励尺度不一致 |
 
 ### 关键发现
-- GPT-4o 的特征代码执行率 (~80%) 远高于 EUREKA 的奖励代码执行率 (<50%)
+- GPT-4o 的特征代码执行率 (~80%) 远高于 EUREKA 的奖励代码执行率 (&lt;50%)
 - 泛化实验：ELEMENTAL 在 4 个 Ant 变体上比 EUREKA 提升 41.3%——EUREKA 可能记忆了标准 IsaacGym 奖励
 - 这是首次成功将 IRL 应用于 IsaacGym 的高维任务
 

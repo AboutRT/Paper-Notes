@@ -2,14 +2,15 @@
 title: >-
   [论文解读] UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench
 description: >-
-  [ACL 2025][SWE-Bench] 本文提出 UTBoost 框架，通过基于 LLM 的测试用例生成器 UTGenerator 和改进的解析器来增强 SWE-Bench 的测试用例覆盖率，发现 36 个测试不充分的实例和 345 个被错误标记为通过的补丁，导致 SWE-Bench Lite 排行榜 40.9% 和 SWE-Bench Verified 24.4% 的排名发生变化。
+  [ACL 2025][代码智能][SWE-Bench] 本文提出 UTBoost 框架，通过基于 LLM 的测试用例生成器 UTGenerator 和改进的解析器来增强 SWE-Bench 的测试用例覆盖率，发现 36 个测试不充分的实例和 345 个被错误标记为通过的补丁…
 tags:
-  - ACL 2025
-  - SWE-Bench
-  - 测试用例增强
-  - 代码生成评估
-  - 变形测试
-  - 代码智能
+  - "ACL 2025"
+  - "代码智能"
+  - "SWE-Bench"
+  - "测试用例增强"
+  - "代码生成评估"
+  - "变形测试"
+  - "LLM编程智能体"
 ---
 
 # UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs
 description: >-
-  [ACL 2025 (Oral)][模型压缩][知识蒸馏] 证明了朴素的 Top-K 稀疏知识蒸馏会产生有偏估计，提出基于重要性采样的 Random Sampling Knowledge Distillation (RSKD) 方法，提供无偏梯度估计，仅需存储极度稀疏的 logits，训练开销仅比交叉熵增加不到 10%，性能与全量蒸馏持平。
+  [ACL 2025 (Oral)][模型压缩][知识蒸馏] 证明了朴素的 Top-K 稀疏知识蒸馏会产生有偏估计，提出基于重要性采样的 Random Sampling Knowledge Distillation (RSKD) 方法，提供无偏梯度估计，仅需存储极度稀疏的 logits…
 tags:
-  - ACL 2025 (Oral)
-  - 模型压缩
-  - 知识蒸馏
-  - 稀疏logit
-  - 重要性采样
-  - LLM预训练
-  - 无偏估计
+  - "ACL 2025 (Oral)"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "稀疏logit"
+  - "重要性采样"
+  - "LLM预训练"
+  - "无偏估计"
 ---
 
 # Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs

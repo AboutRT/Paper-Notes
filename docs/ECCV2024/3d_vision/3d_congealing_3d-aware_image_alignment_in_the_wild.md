@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][图像对齐] 3D Congealing将一组语义相似的无标注互联网图像对齐到共享的3D canonical空间，通过结合预训练扩散模型的SDS指导获得3D形状 + DINO语义特征匹配估计位姿和坐标映射，无需模板、位姿标注或相机参数。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 图像对齐
-  - 3D canonical空间
-  - NeRF
-  - Score Distillation
-  - 语义对应
-  - DINO特征
+  - "ECCV 2024"
+  - "3D视觉"
+  - "图像对齐"
+  - "3D canonical空间"
+  - "NeRF"
+  - "Score Distillation"
+  - "语义对应"
+  - "DINO特征"
 ---
 
 # 3D Congealing: 3D-Aware Image Alignment in the Wild

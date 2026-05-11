@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][Deepfake检测] 提出基于 VLM token 概率归一化的图像分类框架，将 deepfake 检测从二元判断升级为概率估计，在零样本设置下用 InstructBLIP 超越多数专用 deepfake 检测器，微调后在 DFDC-P 上接近完美。
 tags:
-  - ICML 2025
-  - 图像生成
-  - Deepfake检测
-  - 视觉语言模型
-  - 零样本分类
-  - VLM概率校准
-  - InstructBLIP
+  - "ICML 2025"
+  - "图像生成"
+  - "Deepfake检测"
+  - "视觉语言模型"
+  - "零样本分类"
+  - "VLM概率校准"
+  - "InstructBLIP"
 ---
 
 # Visual Language Models as Zero-Shot Deepfake Detectors

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][可解释性][单源域泛化] 本文提出TIDE，一种针对单源域泛化的新型训练方案，利用扩散模型和LLM自动生成类别级概念标注（如"鸟类=尖嘴+翅膀+爪子"），通过概念显著性对齐损失训练模型关注域不变的局部概念而非全局背景特征，使模型在测试时能通过概念显著图自动矫正域偏移导致的错误预测。
 tags:
-  - CVPR 2025
-  - 可解释性
-  - 单源域泛化
-  - 局部可解释性
-  - 概念对齐
-  - 测试时矫正
-  - 扩散模型
+  - "CVPR 2025"
+  - "可解释性"
+  - "单源域泛化"
+  - "局部可解释性"
+  - "概念对齐"
+  - "测试时矫正"
+  - "扩散模型"
 ---
 
 # TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction

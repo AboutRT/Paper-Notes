@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Operational Open-Set Recognition and PostMax Refinement
 description: >-
-  [ECCV 2024][开放集识别] 本文提出了一种面向实际部署场景的开放集识别评估指标 OOSA（Operational Open-Set Accuracy）以及后处理算法 PostMax，通过对最大类别 logit 进行深度特征幅度归一化和广义 Pareto 分布映射，将 logit 转化为合理的概率估计，在大规模评估中取得了统计显著的 SOTA 性能。
+  [ECCV 2024][开放集识别] 本文提出了一种面向实际部署场景的开放集识别评估指标 OOSA（Operational Open-Set Accuracy）以及后处理算法 PostMax，通过对最大类别 logit 进行深度特征幅度归一化和广义 Pareto 分布映射，将 logit 转化为合理的概率估计…
 tags:
-  - ECCV 2024
-  - 开放集识别
-  - PostMax
-  - OOSA指标
-  - 极值分布
-  - logit归一化
+  - "ECCV 2024"
+  - "开放集识别"
+  - "PostMax"
+  - "OOSA指标"
+  - "极值分布"
+  - "logit归一化"
 ---
 
 # Operational Open-Set Recognition and PostMax Refinement

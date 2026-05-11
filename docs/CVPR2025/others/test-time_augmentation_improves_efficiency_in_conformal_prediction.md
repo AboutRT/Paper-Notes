@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][共形预测] 发现测试时数据增强（TTA）可以系统性地提升共形预测的效率——通过在校准集上学习增强权重来优化增强聚合策略，在 ImageNet ResNet-50 上将预测集大小减少 10-17%，同时严格保持覆盖率保证。
 tags:
-  - CVPR 2025
-  - 共形预测
-  - 测试时增强
-  - 预测集效率
-  - 可学习聚合
-  - 覆盖率保证
+  - "CVPR 2025"
+  - "共形预测"
+  - "测试时增强"
+  - "预测集效率"
+  - "可学习聚合"
+  - "覆盖率保证"
 ---
 
 # Test-Time Augmentation Improves Efficiency in Conformal Prediction

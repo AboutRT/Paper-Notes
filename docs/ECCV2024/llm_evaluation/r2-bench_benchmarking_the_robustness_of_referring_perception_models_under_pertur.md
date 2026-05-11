@@ -2,14 +2,15 @@
 title: >-
   [论文解读] R²-Bench: Benchmarking the Robustness of Referring Perception Models under Perturbations
 description: >-
-  [ECCV 2024][指代感知] 提出 R²-Bench，一个系统评估指代感知模型（RPM）在各种扰动下鲁棒性的综合基准，包含完整的扰动分类体系、通用的扰动合成工具箱和基于 LLM 的自动化评估代理 R²-Agent，覆盖五大关键任务，揭示了当前 RPM 在噪声条件下的脆弱性。
+  [ECCV 2024][LLM评测][指代感知] 提出 R²-Bench，一个系统评估指代感知模型（RPM）在各种扰动下鲁棒性的综合基准，包含完整的扰动分类体系、通用的扰动合成工具箱和基于 LLM 的自动化评估代理 R²-Agent，覆盖五大关键任务，揭示了当前 RPM 在噪声条件下的脆弱性。
 tags:
-  - ECCV 2024
-  - 指代感知
-  - 鲁棒性评估
-  - 扰动基准
-  - LLM评测
-  - LLM代理
+  - "ECCV 2024"
+  - "LLM评测"
+  - "指代感知"
+  - "鲁棒性评估"
+  - "扰动基准"
+  - "多模态"
+  - "LLM代理"
 ---
 
 # R²-Bench: Benchmarking the Robustness of Referring Perception Models under Perturbations

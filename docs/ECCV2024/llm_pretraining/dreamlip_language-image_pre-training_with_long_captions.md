@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DreamLIP: Language-Image Pre-training with Long Captions
 description: >-
-  [ECCV 2024][LLM预训练][视觉语言预训练] 通过 MLLM 为 30M 图像生成长文本描述，提出动态子描述采样的多正样本对比学习和子描述特定分组损失，实现细粒度视觉-语言对齐，仅用 30M 数据在检索和语义分割上达到甚至超越 CLIP 400M 的性能。
+  [ECCV 2024][预训练][视觉语言预训练] 通过 MLLM 为 30M 图像生成长文本描述，提出动态子描述采样的多正样本对比学习和子描述特定分组损失，实现细粒度视觉-语言对齐，仅用 30M 数据在检索和语义分割上达到甚至超越 CLIP 400M 的性能。
 tags:
-  - ECCV 2024
-  - LLM预训练
-  - 视觉语言预训练
-  - 长文本描述
-  - 对比学习
-  - 细粒度对齐
-  - CLIP
+  - "ECCV 2024"
+  - "预训练"
+  - "视觉语言预训练"
+  - "长文本描述"
+  - "对比学习"
+  - "细粒度对齐"
+  - "CLIP"
 ---
 
 # DreamLIP: Language-Image Pre-training with Long Captions

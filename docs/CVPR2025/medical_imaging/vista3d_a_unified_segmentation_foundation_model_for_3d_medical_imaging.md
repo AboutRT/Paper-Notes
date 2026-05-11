@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][3D医学分割] 提出VISTA3D，首个统一的3D医学影像分割基础模型，同时支持127类的自动分割、3D交互式编辑和零样本分割，通过从SAM蒸馏的3D超体素技术实现SOTA零样本性能，在14个数据集上达到或超过专门训练的专家模型。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 3D医学分割
-  - 基础模型
-  - 交互分割
-  - 零样本分割
-  - 超体素蒸馏
+  - "CVPR 2025"
+  - "医学图像"
+  - "3D医学分割"
+  - "基础模型"
+  - "交互分割"
+  - "零样本分割"
+  - "超体素蒸馏"
 ---
 
 # VISTA3D: A Unified Segmentation Foundation Model For 3D Medical Imaging

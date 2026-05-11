@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Finding Needles in Images: Can Multi-modal LLMs Locate Fine Details?
 description: >-
-  [ACL 2025][多模态][细粒度文档理解] 本文提出 NiM 基准数据集，系统评估多模态大模型（MLLM）在复杂文档中定位细粒度信息的能力，并设计 Spot-IT 方法通过智能补丁选择和高斯注意力机制显著提升模型在细节抽取任务上的表现。
+  [ACL 2025][多模态VLM][细粒度文档理解] 本文提出 NiM 基准数据集，系统评估多模态大模型（MLLM）在复杂文档中定位细粒度信息的能力，并设计 Spot-IT 方法通过智能补丁选择和高斯注意力机制显著提升模型在细节抽取任务上的表现。
 tags:
-  - ACL 2025
-  - 多模态
-  - 细粒度文档理解
-  - 多模态大模型
-  - 补丁选择
-  - 高斯注意力
-  - 基准测试
+  - "ACL 2025"
+  - "多模态VLM"
+  - "细粒度文档理解"
+  - "多模态大模型"
+  - "补丁选择"
+  - "高斯注意力"
+  - "基准测试"
 ---
 
 # Finding Needles in Images: Can Multi-modal LLMs Locate Fine Details?

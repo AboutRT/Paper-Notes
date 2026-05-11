@@ -2,14 +2,14 @@
 title: >-
   [论文解读] ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining
 description: >-
-  [NeurIPS 2025][其他] 首次提出面向工业异常检测的专用表示预训练框架 ADPretrain，通过角度和范数导向的对比损失在大规模异常检测数据集 RealIAD 上学习残差特征表示，替换五种主流嵌入式 AD 方法的原始特征后在五个数据集、五个骨干网络上取得一致性提升。
+  [NeurIPS 2025][异常表示预训练] 首次提出面向工业异常检测的专用表示预训练框架 ADPretrain，通过角度和范数导向的对比损失在大规模异常检测数据集 RealIAD 上学习残差特征表示，替换五种主流嵌入式 AD 方法的原始特征后在五个数据集、五个骨干网络上取得一致性提升。
 tags:
-  - NeurIPS 2025
-  - 其他
-  - 对比学习
-  - 残差特征
-  - 工业异常检测
-  - 特征预训练
+  - "NeurIPS 2025"
+  - "异常表示预训练"
+  - "对比学习"
+  - "残差特征"
+  - "工业异常检测"
+  - "特征预训练"
 ---
 
 # ADPretrain: Advancing Industrial Anomaly Detection via Anomaly Representation Pretraining

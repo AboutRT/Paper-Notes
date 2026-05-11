@@ -2,7 +2,8 @@
 title: >-
   [论文解读] Partial Colexifications Improve Concept Embeddings
 description: >-
-   首次将部分共词化（affix/overlap colexification）引入概念嵌入训练，在语义相似性建模、语义变化预测和词语联想预测三个任务上均优于仅使用完全共词化的基线。
+  首次将部分共词化（affix/overlap colexification）引入概念嵌入训练，在语义相似性建模、语义变化预测和词语联想预测三个任务上均优于仅使用完全共词化的基线。
+tags:
 
 ---
 

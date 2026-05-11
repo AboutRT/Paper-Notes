@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation
 description: >-
-  [NeurIPS 2025][LLM对齐][知识蒸馏] 提出 ORPO-Distill，将跨架构 LLM 知识蒸馏重新定义为偏好优化问题：使用教师模型生成正样本推理链、学生模型生成负样本推理链，通过 ORPO 对比损失训练，并引入混合策略（mixed-policy）更新学生负样本，在 5 个 QA 基准上一致超越黑盒 KD 基线。
+  [NeurIPS 2025][LLM对齐][知识蒸馏] 提出 ORPO-Distill，将跨架构 LLM 知识蒸馏重新定义为偏好优化问题：使用教师模型生成正样本推理链、学生模型生成负样本推理链，通过 ORPO 对比损失训练，并引入混合策略（mixed-policy）更新学生负样本…
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - 知识蒸馏
-  - 偏好优化
-  - ORPO
-  - 混合策略
-  - 跨架构蒸馏
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "知识蒸馏"
+  - "偏好优化"
+  - "ORPO"
+  - "混合策略"
+  - "跨架构蒸馏"
 ---
 
 # ORPO-Distill: Mixed-Policy Preference Optimization for Cross-Architecture LLM Distillation

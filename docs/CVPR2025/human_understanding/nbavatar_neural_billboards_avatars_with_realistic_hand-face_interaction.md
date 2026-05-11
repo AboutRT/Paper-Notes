@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2025][人体理解][head avatar] NBAvatar 提出 Neural Billboard 原语——将可学习平面几何原语与神经纹理延迟渲染结合，实现手脸交互场景下的照片级真实头部 avatar 渲染，在百万像素分辨率下 LPIPS 比 Gaussian 方法降低 30%。
 tags:
-  - CVPR2025
-  - 人体理解
-  - head avatar
-  - hand-face interaction
-  - neural rendering
-  - billboard splatting
-  - deferred neural rendering
+  - "CVPR2025"
+  - "人体理解"
+  - "head avatar"
+  - "hand-face interaction"
+  - "neural rendering"
+  - "billboard splatting"
+  - "deferred neural rendering"
 ---
 
 # NBAvatar: Neural Billboards Avatars with Realistic Hand-Face Interaction

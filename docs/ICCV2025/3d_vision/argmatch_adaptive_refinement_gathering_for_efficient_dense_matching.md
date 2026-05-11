@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][dense matching] 提出自适应细化聚合(Adaptive Refinement Gathering)管线，通过内容感知偏移估计器、局部一致性匹配校正器和局部一致性上采样器，大幅降低对重型特征提取器和全局匹配器的依赖，以轻量级网络实现与SOTA竞争的稠密匹配性能。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - dense matching
-  - coarse-to-fine
-  - correlation volume
-  - adaptive refinement
-  - efficient matching
+  - "ICCV 2025"
+  - "3D视觉"
+  - "dense matching"
+  - "coarse-to-fine"
+  - "correlation volume"
+  - "adaptive refinement"
+  - "efficient matching"
 ---
 
 # ArgMatch: Adaptive Refinement Gathering for Efficient Dense Matching

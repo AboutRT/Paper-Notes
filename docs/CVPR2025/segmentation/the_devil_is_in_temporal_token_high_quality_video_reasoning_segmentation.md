@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Devil is in Temporal Token: High Quality Video Reasoning Segmentation
 description: >-
-  [CVPR 2025][图像分割][视频推理分割] VRS-HQ 提出分层时间 token 编码（帧级 `<SEG>` + 视频级 `<TAK>`）和基于 token 驱动的关键帧选择策略，结合 SAM2 实现端到端的视频推理分割，在 ReVOS 上超越 VISA 达 9.1%。
+  [CVPR 2025][语义分割][视频推理分割] VRS-HQ 提出分层时间 token 编码（帧级 `<SEG>` + 视频级 `<TAK>`）和基于 token 驱动的关键帧选择策略，结合 SAM2 实现端到端的视频推理分割，在 ReVOS 上超越 VISA 达 9.1%。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 视频推理分割
-  - 时间token聚合
-  - 关键帧选择
-  - SAM2
-  - 多模态大模型
+  - "CVPR 2025"
+  - "语义分割"
+  - "视频推理分割"
+  - "时间token聚合"
+  - "关键帧选择"
+  - "SAM2"
+  - "多模态大模型"
 ---
 
 # The Devil is in Temporal Token: High Quality Video Reasoning Segmentation

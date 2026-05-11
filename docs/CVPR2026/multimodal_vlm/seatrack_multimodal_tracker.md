@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker
 description: >-
-  [CVPR 2026][多模态][多模态跟踪] 提出 SEATrack 多模态跟踪器，通过 AMG-LoRA 实现跨模态注意力图的动态对齐，以及 HMoE 实现高效全局关系建模的跨模态融合，在 RGB-T/D/E 跟踪中以极少参数实现 SOTA 的性能-效率平衡。
+  [CVPR 2026][多模态VLM][多模态跟踪] 提出 SEATrack 多模态跟踪器，通过 AMG-LoRA 实现跨模态注意力图的动态对齐，以及 HMoE 实现高效全局关系建模的跨模态融合，在 RGB-T/D/E 跟踪中以极少参数实现 SOTA 的性能-效率平衡。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态跟踪
-  - 参数高效微调
-  - 多模态VLM
-  - 混合专家
-  - LoRA
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态跟踪"
+  - "参数高效微调"
+  - "注意力对齐"
+  - "混合专家"
+  - "LoRA"
 ---
 
 # SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker

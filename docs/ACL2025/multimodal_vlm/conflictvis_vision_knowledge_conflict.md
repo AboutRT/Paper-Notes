@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs
 description: >-
-  [ACL 2025][多模态][视觉-知识冲突] 首次系统探索 MLLM 中常识级别的视觉-知识冲突问题，提出自动化框架构建 ConflictVis 基准（374 图 + 1122 QA），发现 MLLM 在约 20% 的冲突场景中过度依赖参数化知识（尤其是 Yes-No 和动作类问题），并提出 Focus-on-Vision 提示策略进行缓解。
+  [ACL 2025][多模态VLM][视觉-知识冲突] 首次系统探索 MLLM 中常识级别的视觉-知识冲突问题，提出自动化框架构建 ConflictVis 基准（374 图 + 1122 QA），发现 MLLM 在约 20% 的冲突场景中过度依赖参数化知识（尤其是 Yes-No 和动作类问题）…
 tags:
-  - ACL 2025
-  - 多模态
-  - 视觉-知识冲突
-  - MLLM幻觉
-  - 反常识基准
-  - 记忆化比率
-  - Focus-on-Vision提示
+  - "ACL 2025"
+  - "多模态VLM"
+  - "视觉-知识冲突"
+  - "MLLM幻觉"
+  - "反常识基准"
+  - "记忆化比率"
+  - "Focus-on-Vision提示"
 ---
 
 # Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs

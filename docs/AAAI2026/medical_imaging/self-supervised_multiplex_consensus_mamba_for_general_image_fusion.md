@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][通用图像融合] 提出 SMC-Mamba 框架，通过**模态无关特征增强（MAFE）**、**多路共识跨模态 Mamba（MCCM）**和**双层自监督对比学习损失（BSCL）**，实现覆盖红外-可见光、医学、多聚焦、多曝光的通用图像融合，全面超越 SOTA。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 通用图像融合
-  - Mamba
-  - 混合专家
-  - 对比学习
-  - 高频保持
+  - "AAAI 2026"
+  - "医学图像"
+  - "通用图像融合"
+  - "Mamba"
+  - "混合专家"
+  - "对比学习"
+  - "高频保持"
 ---
 
 # Self-supervised Multiplex Consensus Mamba for General Image Fusion

@@ -3,6 +3,11 @@ title: >-
   ICLR2026 物理学方向2篇论文解读
 description: >-
   2篇ICLR2026的物理学方向论文解读，收录 Feedback-driven Recurrent Quan、Sublinear Time Quantum Algorit等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICLR2026"
+  - "物理学"
+  - "论文解读"
+  - "论文笔记"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

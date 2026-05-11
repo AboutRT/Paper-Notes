@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][counter-argument] 提出动态网络知识检索框架来增强 LLM 的反驳论证生成质量，构建了长度适中的新评估数据集（150对），并用 LLM-as-a-Judge 评估方法取代传统参考度量，实验证明外部知识集成显著提升了生成质量的相关性、说服力和事实性。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - counter-argument
-  - dynamic knowledge retrieval
-  - LLM-as-Judge
-  - argumentation
-  - evidence-driven
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "counter-argument"
+  - "dynamic knowledge retrieval"
+  - "LLM-as-Judge"
+  - "argumentation"
+  - "evidence-driven"
 ---
 
 # Dynamic Knowledge Integration for Evidence-Driven Counter-Argument Generation with Large Language Models

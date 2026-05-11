@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection
 description: >-
-  [CVPR2025][图像分割][RGB-T 显著性目标检测] 提出区域引导选择性优化网络 RSONet，通过两阶段（区域引导+显著性生成）解决 RGB 与热红外图像中显著区域不一致问题，利用相似度分数自动选择信息更准确的模态主导后续融合。
+  [CVPR2025][语义分割][RGB-T 显著性目标检测] 提出区域引导选择性优化网络 RSONet，通过两阶段（区域引导+显著性生成）解决 RGB 与热红外图像中显著区域不一致问题，利用相似度分数自动选择信息更准确的模态主导后续融合。
 tags:
-  - CVPR2025
-  - 图像分割
-  - RGB-T 显著性目标检测
-  - 区域引导
-  - 选择性优化
-  - 多模态融合
-  - Transformer
+  - "CVPR2025"
+  - "语义分割"
+  - "RGB-T 显著性目标检测"
+  - "区域引导"
+  - "选择性优化"
+  - "多模态融合"
+  - "Transformer"
 ---
 
 # RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection

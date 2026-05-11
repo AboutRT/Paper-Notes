@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cooperation of Experts: Fusing Heterogeneous Information with Large Margin
 description: >-
-  [ICML2025][专家协作] 提出 Cooperation of Experts (CoE) 框架，将异构信息编码为多重网络，通过两级专家设计与大间隔置信张量优化实现专家**协作**（而非竞争），在节点分类任务上全面超越现有 MoE 和多重网络方法。
+  [ICML2025][LLM评测][专家协作] 提出 Cooperation of Experts (CoE) 框架，将异构信息编码为多重网络，通过两级专家设计与大间隔置信张量优化实现专家**协作**（而非竞争），在节点分类任务上全面超越现有 MoE 和多重网络方法。
 tags:
-  - ICML2025
-  - 专家协作
-  - 异构多重网络
-  - LLM评测
-  - 互信息最大化
-  - 图结构学习
+  - "ICML2025"
+  - "LLM评测"
+  - "专家协作"
+  - "异构多重网络"
+  - "大间隔优化"
+  - "互信息最大化"
+  - "图结构学习"
 ---
 
 # Cooperation of Experts: Fusing Heterogeneous Information with Large Margin

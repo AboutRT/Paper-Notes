@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][文本编码器蒸馏] 本文通过基于视觉的知识蒸馏方法，将 T5-XXL（11B）文本编码器蒸馏为 T5-Base（220M），缩小 50 倍的同时在图像质量和语义理解上几乎不损失，揭示了文本编码器在文生图任务中存在严重过参数化的"缩放下行规律"。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 文本编码器蒸馏
-  - T5压缩
-  - FLUX
-  - 知识蒸馏
-  - 模型效率
+  - "CVPR 2025"
+  - "图像生成"
+  - "文本编码器蒸馏"
+  - "T5压缩"
+  - "FLUX"
+  - "知识蒸馏"
+  - "模型效率"
 ---
 
 # Scaling Down Text Encoders of Text-to-Image Diffusion Models

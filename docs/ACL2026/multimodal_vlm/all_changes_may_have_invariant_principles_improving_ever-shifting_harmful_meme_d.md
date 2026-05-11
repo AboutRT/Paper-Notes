@@ -2,15 +2,15 @@
 title: >-
   [论文解读] All Changes May Have Invariant Principles: Improving Ever-Shifting Harmful Meme Detection via Design Concept Reproduction
 description: >-
-  [ACL 2026][多模态][有害梗图检测] 提出RepMD方法，通过构建设计概念图（DCG）——借鉴攻击树思想描述恶意用户设计有害梗图的步骤和逻辑——来引导MLLM检测不断变化的有害梗图，在GOAT-Bench上达81.1%准确率。
+  [ACL 2026][多模态VLM][有害梗图检测] 提出RepMD方法，通过构建设计概念图（DCG）——借鉴攻击树思想描述恶意用户设计有害梗图的步骤和逻辑——来引导MLLM检测不断变化的有害梗图，在GOAT-Bench上达81.1%准确率。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 设计概念图
-  - 攻击树
-  - MLLM推理引导
-  - 类型漂移
+  - "ACL 2026"
+  - "多模态VLM"
+  - "有害梗图检测"
+  - "设计概念图"
+  - "攻击树"
+  - "MLLM推理引导"
+  - "类型漂移"
 ---
 
 # All Changes May Have Invariant Principles: Improving Ever-Shifting Harmful Meme Detection via Design Concept Reproduction

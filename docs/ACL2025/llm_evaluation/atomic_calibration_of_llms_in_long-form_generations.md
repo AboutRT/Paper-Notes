@@ -2,8 +2,9 @@
 title: >-
   [论文解读] Atomic Calibration of LLMs in Long-Form Generations
 description: >-
-   系统研究长文本生成中的原子级校准(atomic calibration)，将置信度获取方法分为判别式和生成式两类，发现两者互补且提出基于置信度一致性的融合策略，揭示了模型在生成过程中置信度变化的有趣模式。
-
+  [LLM评测] 系统研究长文本生成中的原子级校准(atomic calibration)，将置信度获取方法分为判别式和生成式两类，发现两者互补且提出基于置信度一致性的融合策略，揭示了模型在生成过程中置信度变化的有趣模式。
+tags:
+  - "LLM评测"
 ---
 
 # Atomic Calibration of LLMs in Long-Form Generations

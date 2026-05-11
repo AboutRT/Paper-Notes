@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][LLM reasoning] 评估五个LLM在求解和解释6×6数独谜题上的能力，发现即使o1-preview能解出65%的题目，其推理解释在忠实性、清晰度和教育价值方面仍严重不足。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - LLM reasoning
-  - Sudoku
-  - explanation generation
-  - human-AI collaboration
-  - puzzle solving
+  - "ACL 2025"
+  - "模型压缩"
+  - "LLM reasoning"
+  - "Sudoku"
+  - "explanation generation"
+  - "human-AI collaboration"
+  - "puzzle solving"
 ---
 
 # Explaining Puzzle Solutions in Natural Language: An Exploratory Study on 6×6 Sudoku

@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] FilmComposer 首次将大语言模型多代理系统与波形/符号音乐生成相结合，模拟专业音乐人的工作流程（选点→作曲→编曲→混音），从无声电影片段自动生成高质量（48kHz）、高音乐性、具有发展性的电影配乐。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # FilmComposer: LLM-Driven Music Production for Silent Film Clips

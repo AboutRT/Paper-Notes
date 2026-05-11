@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Geometry-Guided Camera Motion Understanding in VideoLLMs
 description: >-
-  [CVPR 2026][可解释性] 本文揭示了 VideoLLM 在细粒度相机运动原语（pan/tilt/dolly等）识别上几乎等于随机猜测，构建了 CameraMotionDataset（12K 段 × 15 种原子运动）和 CameraMotionVQA benchmark，并提出通过冻结 3DFM（VGGT）提取几何相机线索 + 轻量时序分类器 + structured prompting 注入的 model-agnostic 方案来弥补这一能力缺口。
+  [CVPR 2026][可解释性][VideoLLM] 本文揭示了 VideoLLM 在细粒度相机运动原语（pan/tilt/dolly等）识别上几乎等于随机猜测，构建了 CameraMotionDataset（12K 段 × 15 种原子运动）和 CameraMotionVQA benchmark…
 tags:
-  - CVPR 2026
-  - 可解释性
-  - 相机运动识别
-  - 3D foundation model
-  - 提示学习
-  - VGGT
+  - "CVPR 2026"
+  - "可解释性"
+  - "VideoLLM"
+  - "相机运动识别"
+  - "3D foundation model"
+  - "提示学习"
+  - "VGGT"
 ---
 
 # Geometry-Guided Camera Motion Understanding in VideoLLMs

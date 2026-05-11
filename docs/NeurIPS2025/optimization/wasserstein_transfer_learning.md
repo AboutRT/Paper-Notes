@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Wasserstein Transfer Learning
 description: >-
-  [NeurIPS 2025][优化][迁移学习] 提出了首个针对Wasserstein空间中概率分布输出的迁移学习框架（WaTL），通过加权辅助估计、偏差校正和投影三步法，结合自适应信息源选择，从源域迁移知识以提升目标域分布回归的估计性能。
+  [NeurIPS 2025][优化/理论][迁移学习] 提出了首个针对Wasserstein空间中概率分布输出的迁移学习框架（WaTL），通过加权辅助估计、偏差校正和投影三步法，结合自适应信息源选择，从源域迁移知识以提升目标域分布回归的估计性能。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 迁移学习
-  - Wasserstein空间
-  - Fréchet回归
-  - 最优传输
-  - 分布数据分析
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "迁移学习"
+  - "Wasserstein空间"
+  - "Fréchet回归"
+  - "最优传输"
+  - "分布数据分析"
 ---
 
 # Wasserstein Transfer Learning

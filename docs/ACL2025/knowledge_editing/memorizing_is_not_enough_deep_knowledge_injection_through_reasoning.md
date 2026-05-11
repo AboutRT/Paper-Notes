@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Memorizing is Not Enough: Deep Knowledge Injection Through Reasoning
 description: >-
-  [ACL 2025][知识注入] 提出四层知识注入框架（记忆→检索→推理→关联），构建 DeepKnowledge 合成测试平台，系统性揭示了知识注入各层级的关键因素：重复学习实现记忆、表达多样性实现检索、显式推理模式实现深度推理和关联，为 LLM 知识更新提供了完整的方法-层级映射。
+  [ACL 2025][知识编辑][知识注入] 提出四层知识注入框架（记忆→检索→推理→关联），构建 DeepKnowledge 合成测试平台，系统性揭示了知识注入各层级的关键因素：重复学习实现记忆、表达多样性实现检索、显式推理模式实现深度推理和关联，为 LLM 知识更新提供了完整的方法-层级映射。
 tags:
-  - ACL 2025
-  - 知识注入
-  - 四层框架
-  - 知识编辑
-  - 持续预训练
-  - DeepKnowledge
-  - 知识类型
+  - "ACL 2025"
+  - "知识编辑"
+  - "知识注入"
+  - "四层框架"
+  - "记忆-检索-推理-关联"
+  - "持续预训练"
+  - "DeepKnowledge"
+  - "知识类型"
 ---
 
 # Memorizing is Not Enough: Deep Knowledge Injection Through Reasoning

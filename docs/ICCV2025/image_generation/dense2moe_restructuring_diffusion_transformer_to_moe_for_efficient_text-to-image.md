@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation
 description: >-
-  [ICCV 2025][图像生成][扩散模型] 首次提出将密集型扩散Transformer（DiT）转化为MoE稀疏结构的范式Dense2MoE，通过FFN替换为MoE层+Transformer块分组为MoB（Mixture of Blocks），配合多阶段蒸馏流水线，将FLUX.1的12B参数压缩至5.2B激活参数同时保持原始性能，全面超越剪枝方法。
+  [ICCV 2025][图像生成][扩散模型] 首次提出将密集型扩散Transformer（DiT）转化为MoE稀疏结构的范式Dense2MoE，通过FFN替换为MoE层+Transformer块分组为MoB（Mixture of Blocks），配合多阶段蒸馏流水线…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 扩散模型
-  - Mixture of Experts
-  - 模型压缩
-  - 知识蒸馏
-  - FLUX
+  - "ICCV 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "Mixture of Experts"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "FLUX"
 ---
 
 # Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation

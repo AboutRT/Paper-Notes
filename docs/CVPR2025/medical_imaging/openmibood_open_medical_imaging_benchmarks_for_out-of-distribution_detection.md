@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][分布外检测] 本文提出了 OpenMIBOOD，一个专为医学影像设计的 OOD 检测综合基准框架，包含来自组织病理、内窥镜和脑部 MRI 三个医学领域的 14 个数据集，评估了 24 种 post-hoc 方法，揭示了自然图像 OOD 基准的结论无法直接迁移到医学场景。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 分布外检测
-  - 医学影像
-  - OOD基准
-  - 后验方法
-  - 可信AI
+  - "CVPR 2025"
+  - "医学图像"
+  - "分布外检测"
+  - "医学影像"
+  - "OOD基准"
+  - "后验方法"
+  - "可信AI"
 ---
 
 # OpenMIBOOD: Open Medical Imaging Benchmarks for Out-Of-Distribution Detection

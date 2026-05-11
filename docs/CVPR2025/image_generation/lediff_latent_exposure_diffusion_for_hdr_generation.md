@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][高动态范围成像] 提出LEDiff，通过在预训练扩散模型的潜空间中进行曝光融合（而非图像空间），用少量HDR数据微调VAE解码器和去噪器，让现有生成模型具备HDR生成能力，同时实现SOTA级别的LDR到HDR转换。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 高动态范围成像
-  - 潜空间曝光融合
-  - 扩散模型
-  - 逆色调映射
-  - HDR生成
+  - "CVPR 2025"
+  - "图像生成"
+  - "高动态范围成像"
+  - "潜空间曝光融合"
+  - "扩散模型"
+  - "逆色调映射"
+  - "HDR生成"
 ---
 
 # LEDiff: Latent Exposure Diffusion for HDR Generation

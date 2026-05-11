@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][目标检测][RAW图像] 提出SimROD，一种极其轻量（仅0.003M参数）的RAW图像目标检测方法，通过全局Gamma增强（4个可学习参数）和绿色通道引导的局部增强，在多个RAW检测基准上超越了复杂的SOTA方法。
 tags:
-  - AAAI 2026
-  - 目标检测
-  - RAW图像
-  - Gamma增强
-  - 绿色通道
-  - 轻量级
+  - "AAAI 2026"
+  - "目标检测"
+  - "RAW图像"
+  - "Gamma增强"
+  - "绿色通道"
+  - "轻量级"
 ---
 
 # SimROD: A Simple Baseline for Raw Object Detection with Global and Local Enhancements

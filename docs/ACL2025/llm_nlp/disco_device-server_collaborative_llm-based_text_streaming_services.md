@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][Device-Server Collaboration] 提出 DiSCo，一个端-云协同的 LLM 推理调度器，通过成本感知的请求分发和 token 级迁移机制，在成本约束下优化用户的首 token 延迟 (TTFT) 和 token 间延迟 (TBT)。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - Device-Server Collaboration
-  - QoE
-  - TTFT
-  - TBT
-  - Token Migration
-  - LLM Serving
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "Device-Server Collaboration"
+  - "QoE"
+  - "TTFT"
+  - "TBT"
+  - "Token Migration"
+  - "LLM Serving"
 ---
 
 # DiSCo: Device-Server Collaborative LLM-Based Text Streaming Services

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像恢复][事件相机去雨] 首个基于点的事件相机去雨框架，利用4D事件云表示和多尺度状态空间模型（MS3M），在保持微秒级时间精度的同时实现高效去雨，仅0.26M参数即达到SOTA性能。
 tags:
-  - ICCV 2025
-  - 图像恢复
-  - 事件相机去雨
-  - 状态空间模型
-  - Mamba
-  - 图像复原
-  - 时空建模
+  - "ICCV 2025"
+  - "图像恢复"
+  - "事件相机去雨"
+  - "状态空间模型"
+  - "Mamba"
+  - "点云处理"
+  - "时空建模"
 ---
 
 # PRE-Mamba: A 4D State Space Model for Ultra-High-Frequent Event Camera Deraining

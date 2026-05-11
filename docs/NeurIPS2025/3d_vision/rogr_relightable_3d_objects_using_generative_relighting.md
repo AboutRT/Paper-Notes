@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][重光照] 本文提出ROGR，利用多视角扩散重光照模型生成多光照条件下的一致图像，训练一个光照条件化的NeRF，实现任意环境光照下的前馈式3D物体重光照，在TensoIR和Stanford-ORB基准上达到SOTA性能且支持交互式渲染。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 重光照
-  - 神经辐射场
-  - 生成式重光照
-  - 扩散模型
-  - 环境光照
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "重光照"
+  - "神经辐射场"
+  - "生成式重光照"
+  - "扩散模型"
+  - "环境光照"
 ---
 
 # ROGR: Relightable 3D Objects using Generative Relighting

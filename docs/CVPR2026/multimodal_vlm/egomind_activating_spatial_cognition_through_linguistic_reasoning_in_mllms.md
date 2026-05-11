@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs
 description: >-
-  [CVPR 2026][多模态][空间推理] 提出 EgoMind，一种无需几何先验的 CoT 框架，通过角色扮演字幕 (RPC) 和渐进式空间分析 (PSA) 两个核心组件，仅用 5K SFT + 20K RL 样本即可实现多帧空间推理的竞争性能力。
+  [CVPR 2026][多模态VLM][空间推理] 提出 EgoMind，一种无需几何先验的 CoT 框架，通过角色扮演字幕 (RPC) 和渐进式空间分析 (PSA) 两个核心组件，仅用 5K SFT + 20K RL 样本即可实现多帧空间推理的竞争性能力。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - Chain-of-Thought
-  - 多帧理解
-  - MLLM
-  - 语言推理
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "空间推理"
+  - "Chain-of-Thought"
+  - "多帧理解"
+  - "MLLM"
+  - "语言推理"
 ---
 
 # EgoMind: Activating Spatial Cognition through Linguistic Reasoning in MLLMs

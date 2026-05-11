@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Latent Guard: A Safety Framework for Text-to-Image Generation
 description: >-
-  [ECCV 2024][图像生成][text-to-image safety] 提出Latent Guard框架，在T2I模型文本编码器之上学习一个潜在空间，通过对比学习将黑名单概念与包含该概念的输入prompt映射到相近位置，实现高效的不安全prompt检测（ID Explicit AUC 0.985），支持黑名单测试时灵活更新且无需重训练。
+  [ECCV 2024][图像生成][text-to-image safety] 提出Latent Guard框架，在T2I模型文本编码器之上学习一个潜在空间，通过对比学习将黑名单概念与包含该概念的输入prompt映射到相近位置，实现高效的不安全prompt检测（ID Explicit AUC 0.985）…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - text-to-image safety
-  - blacklist
-  - 对比学习
-  - latent space
-  - adversarial robustness
+  - "ECCV 2024"
+  - "图像生成"
+  - "text-to-image safety"
+  - "blacklist"
+  - "对比学习"
+  - "latent space"
+  - "adversarial robustness"
 ---
 
 # Latent Guard: A Safety Framework for Text-to-Image Generation

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training
 description: >-
-  [CVPR2026][多模态][VLA] 提出 World-Env 框架，利用物理一致的世界模型作为虚拟环境替代真实交互，对 VLA 模型进行 RL post-training，仅需每任务 5 条示教即可显著提升操控成功率。
+  [CVPR2026][多模态VLM][VLA] 提出 World-Env 框架，利用物理一致的世界模型作为虚拟环境替代真实交互，对 VLA 模型进行 RL post-training，仅需每任务 5 条示教即可显著提升操控成功率。
 tags:
-  - CVPR2026
-  - 多模态
-  - VLA
-  - 世界模型
-  - 多模态VLM
-  - post-training
-  - 机器人操作
-  - 小样本
+  - "CVPR2026"
+  - "多模态VLM"
+  - "VLA"
+  - "世界模型"
+  - "强化学习"
+  - "post-training"
+  - "机器人操作"
+  - "小样本"
 ---
 
 # World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Interpretable Queries for Explainable Image Classification with Information Pursuit
 description: >-
-  [ICCV 2025][优化][可解释分类] 在CLIP语义嵌入空间中将信息追踪（Information Pursuit）的查询字典参数化为可学习向量，通过交替优化算法学习任务充分的可解释查询字典，缩小了可解释分类器与黑盒分类器的性能差距。
+  [ICCV 2025][优化/理论][可解释分类] 在CLIP语义嵌入空间中将信息追踪（Information Pursuit）的查询字典参数化为可学习向量，通过交替优化算法学习任务充分的可解释查询字典，缩小了可解释分类器与黑盒分类器的性能差距。
 tags:
-  - ICCV 2025
-  - 优化
-  - 可解释分类
-  - 信息追踪
-  - 稀疏字典学习
-  - CLIP
-  - 查询字典优化
+  - "ICCV 2025"
+  - "优化/理论"
+  - "可解释分类"
+  - "信息追踪"
+  - "稀疏字典学习"
+  - "CLIP"
+  - "查询字典优化"
 ---
 
 # Learning Interpretable Queries for Explainable Image Classification with Information Pursuit

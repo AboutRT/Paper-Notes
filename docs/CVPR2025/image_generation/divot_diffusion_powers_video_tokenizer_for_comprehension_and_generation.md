@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][视频Tokenizer] 本文提出Divot，一种利用扩散过程进行自监督视频表征学习的连续视频Tokenizer，通过让扩散模型以Tokenizer特征为条件进行去噪来训练表征，并用高斯混合模型（GMM）建模LLM输出的连续视频特征分布，实现了视频理解与生成的统一框架。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 视频Tokenizer
-  - 扩散模型
-  - 视频理解与生成统一
-  - 高斯混合模型
-  - 大语言模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "视频Tokenizer"
+  - "扩散模型"
+  - "视频理解与生成统一"
+  - "高斯混合模型"
+  - "大语言模型"
 ---
 
 # Divot: Diffusion Powers Video Tokenizer for Comprehension and Generation

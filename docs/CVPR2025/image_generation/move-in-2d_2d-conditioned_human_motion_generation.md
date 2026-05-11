@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Move-in-2D: 2D-Conditioned Human Motion Generation
 description: >-
-  [CVPR 2025][图像生成][motion generation] 定义 2D 场景图像+文本条件下的人体运动生成新任务，构建 30 万级 HiC-Motion 数据集，通过 in-context conditioning 扩散 Transformer 生成可自然投影到场景的运动序列，赋能下游人体视频生成。
+  [CVPR 2025][图像生成][motion generation] 定义 2D 场景图像+文本条件下的人体运动生成新任务，构建 30 万级 HiC-Motion 数据集，通过 in-context conditioning 扩散 Transformer 生成可自然投影到场景的运动序列…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - motion generation
-  - 2D scene conditioning
-  - Transformer
-  - in-context learning
-  - HiC-Motion
+  - "CVPR 2025"
+  - "图像生成"
+  - "motion generation"
+  - "2D scene conditioning"
+  - "Transformer"
+  - "in-context learning"
+  - "HiC-Motion"
 ---
 
 # Move-in-2D: 2D-Conditioned Human Motion Generation

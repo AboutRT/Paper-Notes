@@ -4,7 +4,7 @@ title: >-
 description: >-
   [人体理解] 提出 CryptoFace，首个端到端全同态加密（FHE）人脸识别系统，通过混合浅层 patch CNN 架构（CryptoFaceNet）大幅降低乘法深度，实现比 SOTA FHE 网络快 7 倍的加密推理，同时提升验证精度。
 tags:
-  - 人体理解
+  - "人体理解"
 ---
 
 # CryptoFace: End-to-End Encrypted Face Recognition

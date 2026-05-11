@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CoLLM: A Large Language Model for Composed Image Retrieval
 description: >-
-  [CVPR 2025][多模态][组合图像检索] 提出 CoLLM——利用大语言模型进行组合图像检索（CIR）的一站式框架，通过从图文对即时生成训练三元组、用 LLM 生成联合多模态嵌入，以及构建 340 万样本的 MTCIR 大规模数据集，在多个 CIR 基准上取得 SOTA 性能，MTCIR 最高带来 15% 的性能提升。
+  [CVPR 2025][多模态VLM][组合图像检索] 提出 CoLLM——利用大语言模型进行组合图像检索（CIR）的一站式框架，通过从图文对即时生成训练三元组、用 LLM 生成联合多模态嵌入，以及构建 340 万样本的 MTCIR 大规模数据集，在多个 CIR 基准上取得 SOTA 性能…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 组合图像检索
-  - 多模态VLM
-  - 多模态融合
-  - 零样本检索
-  - 三元组生成
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "组合图像检索"
+  - "大语言模型"
+  - "多模态融合"
+  - "零样本检索"
+  - "三元组生成"
 ---
 
 # CoLLM: A Large Language Model for Composed Image Retrieval

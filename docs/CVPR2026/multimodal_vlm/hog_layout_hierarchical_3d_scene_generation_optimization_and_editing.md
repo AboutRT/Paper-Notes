@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HOG-Layout: Hierarchical 3D Scene Generation, Optimization and Editing via Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][3D场景生成] 本文提出 HOG-Layout，一个基于 VLM 和 LLM 的层次化 3D 室内场景生成、优化和编辑框架，通过 RAG 增强语义一致性、力导向层次优化确保物理合理性，在 SceneEval 上以 4.5 倍更快的速度超越 LayoutVLM。
+  [CVPR 2026][多模态VLM][3D场景生成] 本文提出 HOG-Layout，一个基于 VLM 和 LLM 的层次化 3D 室内场景生成、优化和编辑框架，通过 RAG 增强语义一致性、力导向层次优化确保物理合理性，在 SceneEval 上以 4.5 倍更快的速度超越 LayoutVLM。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 3D场景生成
-  - 场景编辑
-  - 多模态VLM
-  - 层次化优化
-  - RAG
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "3D场景生成"
+  - "场景编辑"
+  - "视觉语言模型"
+  - "层次化优化"
+  - "RAG"
 ---
 
 # HOG-Layout: Hierarchical 3D Scene Generation, Optimization and Editing via Vision-Language Models

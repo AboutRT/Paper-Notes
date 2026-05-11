@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][机器人][视觉语言导航] 本文提出VLN-Copilot框架，让视觉语言导航智能体在粗粒度（简短模糊）指令下遇到困惑时主动向LLM求助，LLM作为副驾驶实时生成细粒度导航指导，在两个粗粒度VLN数据集上显著提升导航成功率。
 tags:
-  - ECCV 2024
-  - 机器人
-  - 视觉语言导航
-  - 大语言模型
-  - 粗粒度指令
-  - 困惑度评分
-  - 主动求助
+  - "ECCV 2024"
+  - "机器人"
+  - "视觉语言导航"
+  - "大语言模型"
+  - "粗粒度指令"
+  - "困惑度评分"
+  - "主动求助"
 ---
 
 # LLM as Copilot for Coarse-Grained Vision-and-Language Navigation

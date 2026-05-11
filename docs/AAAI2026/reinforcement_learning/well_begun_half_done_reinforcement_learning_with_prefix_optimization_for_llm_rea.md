@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning
 description: >-
-  [AAAI 2026][强化学习] 发现 LLM 推理中的"起始锁定效应"（Beginning Lock-in Effect）——初始推理过程显著决定后续轨迹和最终结果，据此提出 PPPO 方法，仅优化前缀 token（约 26% 的 token）即可实现高达 18.02% 的准确率提升，同时减少输出 token 数量达 18.35%。
+  [AAAI 2026][强化学习][大语言模型推理] 发现 LLM 推理中的"起始锁定效应"（Beginning Lock-in Effect）——初始推理过程显著决定后续轨迹和最终结果，据此提出 PPPO 方法，仅优化前缀 token（约 26% 的 token）即可实现高达 18.02% 的准确率提升…
 tags:
-  - AAAI 2026
-  - 强化学习
-  - RLVR
-  - 前缀优化
-  - 路径依赖
-  - GRPO
+  - "AAAI 2026"
+  - "强化学习"
+  - "大语言模型推理"
+  - "RLVR"
+  - "前缀优化"
+  - "路径依赖"
+  - "GRPO"
 ---
 
 # Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning

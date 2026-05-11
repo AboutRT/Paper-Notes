@@ -2,9 +2,10 @@
 title: >-
   [论文解读] VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models
 description: >-
-  [ECCV 2024] 提出利用预训练视频扩散模型（EMU Video）作为多视图数据引擎，通过微调使其生成3D一致的多视图视频，从而构建约300万合成数据训练前馈式3D生成模型VFusion3D，实现从单张图片秒级生成3D资产，用户偏好率超过90%。
+  [ECCV 2024][视频生成] 提出利用预训练视频扩散模型（EMU Video）作为多视图数据引擎，通过微调使其生成3D一致的多视图视频，从而构建约300万合成数据训练前馈式3D生成模型VFusion3D，实现从单张图片秒级生成3D资产，用户偏好率超过90%。
 tags:
-  - ECCV 2024
+  - "ECCV 2024"
+  - "视频生成"
 ---
 
 # VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models

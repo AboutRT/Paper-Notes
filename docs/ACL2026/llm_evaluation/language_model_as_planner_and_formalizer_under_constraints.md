@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Language Model as Planner and Formalizer under Constraints
 description: >-
-  [ACL 2026][约束规划] 本文提出 CoPE 基准，通过向经典规划环境注入形式化分类的自然语言约束，揭示出仅一句约束即可将当前最强 LLM 的规划性能减半，暴露了 LLM 规划鲁棒性的严重不足。
+  [ACL 2026][LLM评测][约束规划] 本文提出 CoPE 基准，通过向经典规划环境注入形式化分类的自然语言约束，揭示出仅一句约束即可将当前最强 LLM 的规划性能减半，暴露了 LLM 规划鲁棒性的严重不足。
 tags:
-  - ACL 2026
-  - 约束规划
-  - LLM评测
-  - LLM-as-Formalizer
-  - 基准测试
-  - PDDL
+  - "ACL 2026"
+  - "LLM评测"
+  - "约束规划"
+  - "LLM-as-Planner"
+  - "LLM-as-Formalizer"
+  - "基准测试"
+  - "PDDL"
 ---
 
 # Language Model as Planner and Formalizer under Constraints

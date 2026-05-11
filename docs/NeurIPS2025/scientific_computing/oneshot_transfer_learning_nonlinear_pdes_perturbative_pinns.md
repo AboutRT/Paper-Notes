@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][科学计算][PINNs] 将微扰理论与 PINNs 结合，将非线性PDE分解为线性子问题序列，用 Multi-Head PINN 学习线性算子的潜空间后，对新的PDE实例可通过闭式解在0.2秒内完成迁移，达到 $10^{-3}$ 量级误差。
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - PINNs
-  - 微扰理论
-  - 迁移学习
-  - 偏微分方程
-  - 闭式求解
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "PINNs"
+  - "微扰理论"
+  - "迁移学习"
+  - "偏微分方程"
+  - "闭式求解"
 ---
 
 # One-Shot Transfer Learning for Nonlinear PDEs with Perturbative PINNs

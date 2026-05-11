@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Context-Nav: Context-Driven Exploration and Viewpoint-Aware 3D Spatial Reasoning for Instance Navigation
 description: >-
-  [CVPR 2026][3D视觉][实例导航] Context-Nav 将长文本描述的上下文信息从后验验证信号提升为前驱探索先验——通过上下文驱动的 value map 引导前沿选择，并在候选目标处执行视点感知的 3D 空间关系验证，在 InstanceNav 和 CoIN-Bench 上无需任何训练即取得 SOTA。
+  [CVPR 2026][3D视觉][实例导航] Context-Nav 将长文本描述的上下文信息从后验验证信号提升为前驱探索先验——通过上下文驱动的 value map 引导前沿选择，并在候选目标处执行视点感知的 3D 空间关系验证…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 实例导航
-  - 空间推理
-  - value map
-  - 视点感知
-  - 零样本
+  - "CVPR 2026"
+  - "3D视觉"
+  - "实例导航"
+  - "空间推理"
+  - "value map"
+  - "视点感知"
+  - "零样本"
 ---
 
 # Context-Nav: Context-Driven Exploration and Viewpoint-Aware 3D Spatial Reasoning for Instance Navigation

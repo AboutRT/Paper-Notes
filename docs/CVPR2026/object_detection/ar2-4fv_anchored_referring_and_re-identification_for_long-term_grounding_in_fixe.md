@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos
 description: >-
-  [CVPR 2026][目标检测][长时间referring] 利用固定视角视频中背景结构的时不变性，构建离线 Anchor Bank + 在线 Anchor Map 作为语言-场景持久记忆，配合锚点引导的重入先验和 ReID-Gating 身份验证机制，实现目标遮挡/离场后的鲁棒重捕获，RCR 提升 10.3%、RCL 降低 24.2%。
+  [CVPR 2026][目标检测][长时间referring] 利用固定视角视频中背景结构的时不变性，构建离线 Anchor Bank + 在线 Anchor Map 作为语言-场景持久记忆，配合锚点引导的重入先验和 ReID-Gating 身份验证机制，实现目标遮挡/离场后的鲁棒重捕获…
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 长时间referring
-  - 固定视角视频
-  - 背景锚点
-  - 重入检测
-  - 身份重识别
+  - "CVPR 2026"
+  - "目标检测"
+  - "长时间referring"
+  - "固定视角视频"
+  - "背景锚点"
+  - "重入检测"
+  - "身份重识别"
 ---
 
 # AR²-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos

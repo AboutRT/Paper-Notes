@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][mesh decimation] 将经典的 quadric error metric（QEM）推导到屏幕空间并以法线贴图为输入，结合最优 Delaunay 三角化实现各向异性网格简化，在 90%+ 压缩率下仍保持亚毫米级精度，将高分辨率法线积分从小时级加速到分钟级。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - mesh decimation
-  - normal integration
-  - quadric error metric
-  - anisotropic meshing
-  - Delaunay triangulation
+  - "CVPR 2025"
+  - "3D视觉"
+  - "mesh decimation"
+  - "normal integration"
+  - "quadric error metric"
+  - "anisotropic meshing"
+  - "Delaunay triangulation"
 ---
 
 # Feature-Preserving Mesh Decimation for Normal Integration

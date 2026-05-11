@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][any-to-any模型] 本文提出 ACON 数据集和三种一致性评估标准（循环一致性、前向等变性、共轭等变性），发现当前 any-to-any 模型在逐点评估中并不比专用模型组合更具跨模态一致性，但通过多编辑操作的分布式分析可以观察到弱一致性。
 tags:
-  - ACL 2025
-  - any-to-any模型
-  - 跨模态一致性
-  - 循环一致性
-  - 等变性
-  - 其他
+  - "ACL 2025"
+  - "any-to-any模型"
+  - "跨模态一致性"
+  - "循环一致性"
+  - "等变性"
+  - "多模态评估"
 ---
 
 # Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?

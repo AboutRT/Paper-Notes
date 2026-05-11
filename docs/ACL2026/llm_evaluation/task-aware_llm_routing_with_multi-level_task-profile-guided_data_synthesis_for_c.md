@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Task-Aware LLM Routing with Multi-Level Task-Profile-Guided Data Synthesis for Cold-Start Scenarios
 description: >-
-  [ACL 2026][LLM评测] 提出多层级任务画像引导的数据合成框架解决 LLM 路由的冷启动问题，并设计 TRouter——一种将任务类型作为隐变量的路由方法，通过变分推断建模查询-成本-性能关系，在冷启动和域内设置下均实现有效路由。
+  [ACL 2026][LLM评测][LLM路由] 提出多层级任务画像引导的数据合成框架解决 LLM 路由的冷启动问题，并设计 TRouter——一种将任务类型作为隐变量的路由方法，通过变分推断建模查询-成本-性能关系，在冷启动和域内设置下均实现有效路由。
 tags:
-  - ACL 2026
-  - LLM评测
-  - 冷启动
-  - 数据合成
-  - 任务感知
-  - 成本-性能权衡
+  - "ACL 2026"
+  - "LLM评测"
+  - "LLM路由"
+  - "冷启动"
+  - "数据合成"
+  - "任务感知"
+  - "成本-性能权衡"
 ---
 
 # Task-Aware LLM Routing with Multi-Level Task-Profile-Guided Data Synthesis for Cold-Start Scenarios

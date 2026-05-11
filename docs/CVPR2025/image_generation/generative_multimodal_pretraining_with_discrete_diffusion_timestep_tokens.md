@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多模态大语言模型] DDT-LLaMA 提出用扩散时间步编码学习具有递归结构的离散视觉 token（DDT），使视觉 token 序列像自然语言一样具有层级依赖关系，从而在统一的 next-token-prediction 框架下同时实现多模态理解和生成的 SOTA 性能。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多模态大语言模型
-  - 扩散时间步token
-  - 视觉tokenizer
-  - 递归结构
-  - 统一理解生成
+  - "CVPR 2025"
+  - "图像生成"
+  - "多模态大语言模型"
+  - "扩散时间步token"
+  - "视觉tokenizer"
+  - "递归结构"
+  - "统一理解生成"
 ---
 
 # Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens

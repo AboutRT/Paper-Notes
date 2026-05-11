@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models
 description: >-
-  [ACL 2026][NLP理解][因果注意力] 本文深入研究了大语言模型在多选题问答中对提示组件顺序的敏感性，通过系统性实验排除了训练偏差和记忆衰退假说，揭示了因果注意力掩码是导致 QOC（问题-选项-上下文）顺序性能大幅下降的根本机制。
+  [ACL 2026][LLM/NLP][因果注意力] 本文深入研究了大语言模型在多选题问答中对提示组件顺序的敏感性，通过系统性实验排除了训练偏差和记忆衰退假说，揭示了因果注意力掩码是导致 QOC（问题-选项-上下文）顺序性能大幅下降的根本机制。
 tags:
-  - ACL 2026
-  - NLP理解
-  - 因果注意力
-  - 提示顺序敏感性
-  - 多选问答
-  - 信息瓶颈
-  - 机制解释
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "因果注意力"
+  - "提示顺序敏感性"
+  - "多选问答"
+  - "信息瓶颈"
+  - "机制解释"
 ---
 
 # Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models

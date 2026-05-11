@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][知识边界] 提出LLM知识边界的形式化定义框架——三层嵌套边界（Outward⊂Parametric⊂Universal）和四类知识分类（PAK/PSK/MSU/MAU），围绕"为何/如何识别/如何缓解"三个问题系统综述相关研究。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 知识边界
-  - 幻觉
-  - 不确定性估计
-  - 校准
-  - 知识分类
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "知识边界"
+  - "幻觉"
+  - "不确定性估计"
+  - "校准"
+  - "知识分类"
 ---
 
 # Knowledge Boundary of Large Language Models: A Survey

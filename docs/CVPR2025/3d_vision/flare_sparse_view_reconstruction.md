@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][稀疏视角重建] 提出 FLARE，一个前馈可微系统，从未标定的稀疏视角图像（2-8 张）在 0.5 秒内同时推断高质量的相机位姿、3D 几何和外观，通过级联学习范式将相机位姿作为桥梁逐步简化复杂的 3D 学习任务。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 稀疏视角重建
-  - 相机估计
-  - 3D高斯
-  - 前馈
-  - 点图
+  - "CVPR 2025"
+  - "3D视觉"
+  - "稀疏视角重建"
+  - "相机估计"
+  - "3D高斯"
+  - "前馈"
+  - "点图"
 ---
 
 # FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views

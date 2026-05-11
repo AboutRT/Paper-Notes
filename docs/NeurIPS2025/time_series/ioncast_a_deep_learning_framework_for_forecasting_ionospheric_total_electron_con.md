@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][电离层预测] 提出IonCast框架，包含基于GraphCast的GNN模型和ConvLSTM基线，融合多源异构空间天气数据（TEC图、太阳风、地磁指数、轨道力学等）进行全球电离层总电子含量（TEC）的时空预测，在地磁风暴条件下优于持续性基线和IRI经验模型。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 电离层预测
-  - TEC
-  - 图神经网络
-  - GraphCast
-  - 时空预测
-  - 空间天气
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "电离层预测"
+  - "TEC"
+  - "图神经网络"
+  - "GraphCast"
+  - "时空预测"
+  - "空间天气"
 ---
 
 # IonCast: A Deep Learning Framework for Forecasting Ionospheric Dynamics

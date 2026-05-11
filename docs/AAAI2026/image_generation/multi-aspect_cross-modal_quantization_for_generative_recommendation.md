@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][生成式推荐] 提出 MACRec，在生成式推荐的语义 ID 学习和生成模型训练两个阶段引入多方面跨模态交互，通过跨模态量化（对比学习增强残差量化）和多方面对齐（隐式+显式），显著提升推荐性能并降低 ID 冲突率。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 生成式推荐
-  - 跨模态量化
-  - 残差量化
-  - 对比学习
-  - 语义ID
+  - "AAAI 2026"
+  - "图像生成"
+  - "生成式推荐"
+  - "跨模态量化"
+  - "残差量化"
+  - "对比学习"
+  - "语义ID"
 ---
 
 # Multi-Aspect Cross-modal Quantization for Generative Recommendation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM对齐][人口统计对齐] 本文提出了一种超越边际分布的 LLM 代表性评估框架，通过同时考察边际响应分布和跨问题相关结构来评估人口统计对齐模型，发现虽然微调和 persona prompting 能改善边际分布的近似度，但两者都无法忠实再现人类价值观调查中的多变量相关模式。
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 人口统计对齐
-  - 相关结构
-  - 边际分布
-  - 价值观调查
-  - 代表性评估
+  - "ACL 2026"
+  - "LLM对齐"
+  - "人口统计对齐"
+  - "相关结构"
+  - "边际分布"
+  - "价值观调查"
+  - "代表性评估"
 ---
 
 # Beyond Marginal Distributions: A Framework to Evaluate the Representativeness of Demographic-Aligned LLMs

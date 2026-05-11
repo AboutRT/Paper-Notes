@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR2026][concept drift] 提出 CaDrift，一个基于结构因果模型（SCM）的时间依赖合成数据流生成框架，通过 EWMA 平滑和自回归噪声引入时序相关性，并通过修改因果映射函数实现可控的分布漂移、协变量漂移、严重漂移和局部漂移，填补了现有数据流生成器既不因果又不时序依赖的空白。
 tags:
-  - ICLR2026
-  - concept drift
-  - structural causal model
-  - 其他
-  - data streams
-  - time dependence
+  - "ICLR2026"
+  - "concept drift"
+  - "structural causal model"
+  - "synthetic data generation"
+  - "data streams"
+  - "time dependence"
 ---
 
 # CaDrift: A Time-dependent Causal Generator of Drifting Data Streams

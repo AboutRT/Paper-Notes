@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][novel view synthesis] 提出NerfBaselines评测框架，通过统一的评估协议、环境隔离和原始代码封装，解决了新视角合成领域因评估协议差异导致的不公平比较问题，并通过实验揭示了微小的协议差异（如图像缩放方式、背景颜色）可以显著改变方法排名。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - novel view synthesis
-  - 评测框架
-  - NeRF
-  - 3D Gaussian Splatting
-  - benchmark
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "novel view synthesis"
+  - "评测框架"
+  - "NeRF"
+  - "3D Gaussian Splatting"
+  - "benchmark"
 ---
 
 # NerfBaselines: Consistent and Reproducible Evaluation of Novel View Synthesis Methods

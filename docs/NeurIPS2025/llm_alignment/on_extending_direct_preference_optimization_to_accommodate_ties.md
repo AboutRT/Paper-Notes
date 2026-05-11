@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][DPO] 将 DPO 中的 Bradley-Terry 偏好模型替换为 Rao-Kupper 和 Davidson 扩展，使偏好优化能够显式建模"平局"数据，避免丢弃模糊偏好对，在翻译和数学推理上获得更好的正则化和性能。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - DPO
-  - preference optimization
-  - ties
-  - Bradley-Terry
-  - Rao-Kupper
-  - Davidson model
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "DPO"
+  - "preference optimization"
+  - "ties"
+  - "Bradley-Terry"
+  - "Rao-Kupper"
+  - "Davidson model"
 ---
 
 # On Extending Direct Preference Optimization to Accommodate Ties

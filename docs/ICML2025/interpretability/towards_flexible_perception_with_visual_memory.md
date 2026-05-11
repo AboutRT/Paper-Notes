@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Towards Flexible Perception with Visual Memory
 description: >-
-  [ICML2025][visual memory] 将深度视觉模型的知识表示从"刻在权重里"转变为"存在外部数据库里"，用预训练编码器 + kNN 检索构建灵活的 Visual Memory，实现数据的即插即拔（添加/删除/扩展）和可解释分类，ImageNet 上达到 88.5% top-1 准确率。
+  [ICML2025][可解释性][visual memory] 将深度视觉模型的知识表示从"刻在权重里"转变为"存在外部数据库里"，用预训练编码器 + kNN 检索构建灵活的 Visual Memory，实现数据的即插即拔（添加/删除/扩展）和可解释分类…
 tags:
-  - ICML2025
-  - visual memory
-  - kNN classification
-  - retrieval-based inference
-  - 可解释性
-  - data attribution
-  - scalable search
+  - "ICML2025"
+  - "可解释性"
+  - "visual memory"
+  - "kNN classification"
+  - "retrieval-based inference"
+  - "machine unlearning"
+  - "data attribution"
+  - "scalable search"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
@@ -132,9 +133,9 @@ JFT memory 在 IN-R、IN-Sketch 上大幅超越 linear probe；Gemini re-ranking
 
 #### 5. 机器遗忘：完美保证
 
-从 Visual Memory 删除数据点即可实现**完美遗忘**（<20ms/sample），三项核心指标全优：
+从 Visual Memory 删除数据点即可实现**完美遗忘**（&lt;20ms/sample），三项核心指标全优：
 
-- **效率**：删除一个样本 <20ms vs. 重训练数小时
+- **效率**：删除一个样本 &lt;20ms vs. 重训练数小时
 - **模型效用**：保留数据性能不受任何影响（by design）
 - **遗忘质量**：100% 完全遗忘（by design）
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts
 description: >-
-  [ACL 2026][AI安全][多比特水印] 提出 XMark，一种基于 Leave-one-Shard-out（LoSo）策略和 evergreen list 的多比特文本水印方法，通过跨多个词表排列的绿色列表交集和约束 token-shard 映射矩阵，在保持文本质量的同时显著提升了有限 token 条件下的解码准确率。
+  [ACL 2026][LLM安全][多比特水印] 提出 XMark，一种基于 Leave-one-Shard-out（LoSo）策略和 evergreen list 的多比特文本水印方法，通过跨多个词表排列的绿色列表交集和约束 token-shard 映射矩阵…
 tags:
-  - ACL 2026
-  - AI安全
-  - 多比特水印
-  - LLM文本检测
-  - 数字水印
-  - 文本溯源
-  - logit扰动
+  - "ACL 2026"
+  - "LLM安全"
+  - "多比特水印"
+  - "LLM文本检测"
+  - "数字水印"
+  - "文本溯源"
+  - "logit扰动"
 ---
 
 # XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts

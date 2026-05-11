@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare
 description: >-
-  [ACL 2025][LLM评测] 本文构建了首个面向医疗健康领域的多元化对齐（pluralistic alignment）基准数据集 VITAL，包含 13.1K 价值观情境和 5.4K 多选题，并通过对 8 个 LLM 的广泛评估表明，现有多元化对齐技术（尤其是 ModPlural）在医疗场景下表现不佳，简单的 prompting 反而效果更好。
+  [ACL 2025][LLM评测][多元对齐] 本文构建了首个面向医疗健康领域的多元化对齐（pluralistic alignment）基准数据集 VITAL，包含 13.1K 价值观情境和 5.4K 多选题，并通过对 8 个 LLM 的广泛评估表明…
 tags:
-  - ACL 2025
-  - LLM评测
-  - healthcare
-  - LLM 基准
-  - value diversity
-  - 数据集
+  - "ACL 2025"
+  - "LLM评测"
+  - "多元对齐"
+  - "healthcare"
+  - "LLM 基准"
+  - "value diversity"
+  - "数据集"
 ---
 
 # VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare

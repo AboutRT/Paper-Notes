@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][时序动作检测] 提出渐进式块丢弃(Progressive Block Drop)方法从深度维度压缩时序动作检测(TAD)模型，通过逐步移除冗余块并使用参数高效的跨深度对齐策略恢复性能，实现 25% 计算量减少的同时性能不降反升。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 时序动作检测
-  - 模型压缩
-  - 渐进式块丢弃
-  - 深度剪枝
-  - LoRA
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "时序动作检测"
+  - "模型压缩"
+  - "渐进式块丢弃"
+  - "深度剪枝"
+  - "LoRA"
 ---
 
 # Temporal Action Detection Model Compression by Progressive Block Drop

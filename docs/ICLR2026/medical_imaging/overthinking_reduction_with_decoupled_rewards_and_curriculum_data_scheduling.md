@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][overthinking] 从理论上揭示了现有长度惩罚方法的两个根本缺陷——错误惩罚高熵探索token和错误奖励冗余token，提出 DeCS 框架，通过解耦token级奖励和课程批次调度，在7个基准上将推理token减少50%以上同时保持甚至提升模型性能。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - overthinking
-  - 解耦奖励
-  - 课程学习
-  - RLVR
-  - NRP
+  - "ICLR 2026"
+  - "医学图像"
+  - "overthinking"
+  - "解耦奖励"
+  - "课程学习"
+  - "RLVR"
+  - "NRP"
 ---
 
 # Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling

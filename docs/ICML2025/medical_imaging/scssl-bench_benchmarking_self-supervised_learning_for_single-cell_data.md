@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][医学图像][自监督学习] 提出 scSSL-Bench，一个系统性 benchmark，在 9 个单细胞数据集上评估 19 种自监督学习方法在批次校正、细胞类型注释和缺失模态预测三个下游任务上的表现，揭示了通用 SSL 方法与领域专用方法之间的任务特异性权衡。
 tags:
-  - ICML2025
-  - 医学图像
-  - 自监督学习
-  - single-cell genomics
-  - benchmark
-  - batch correction
-  - 对比学习
+  - "ICML2025"
+  - "医学图像"
+  - "自监督学习"
+  - "single-cell genomics"
+  - "benchmark"
+  - "batch correction"
+  - "对比学习"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Stroke2Sketch: Harnessing Stroke Attributes for Training-Free Sketch Generation
 description: >-
-  [ICCV 2025][其他][素描生成] 提出 Stroke2Sketch，一个无训练的参考式素描生成框架，通过跨图像笔触注意力（CSA）、指导性注意力模块（DAM）和语义保持模块（SPM）三个模块协同工作，在预训练扩散模型中实现精细的笔触属性迁移与内容结构保持。
+  [ICCV 2025][素描生成] 提出 Stroke2Sketch，一个无训练的参考式素描生成框架，通过跨图像笔触注意力（CSA）、指导性注意力模块（DAM）和语义保持模块（SPM）三个模块协同工作，在预训练扩散模型中实现精细的笔触属性迁移与内容结构保持。
 tags:
-  - ICCV 2025
-  - 其他
-  - 素描生成
-  - 笔触属性迁移
-  - 无训练
-  - 扩散模型
-  - 跨图像注意力
+  - "ICCV 2025"
+  - "素描生成"
+  - "笔触属性迁移"
+  - "无训练"
+  - "扩散模型"
+  - "跨图像注意力"
 ---
 
 # Stroke2Sketch: Harnessing Stroke Attributes for Training-Free Sketch Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition
 description: >-
-  [CVPR 2026][机器人][视觉状态表示] 本文提出CroBo，一个通过全局-局部重建目标学习视觉状态表示的自监督框架：将全局参考图压缩为单个瓶颈token，用它来重建高度遮蔽（90%）的局部裁剪视图，迫使瓶颈token编码像素级的"what-is-where"场景组成信息，在Franka Kitchen和DMC机器人策略学习benchmark上达到SOTA。
+  [CVPR 2026][机器人][视觉状态表示] 本文提出CroBo，一个通过全局-局部重建目标学习视觉状态表示的自监督框架：将全局参考图压缩为单个瓶颈token，用它来重建高度遮蔽（90%）的局部裁剪视图，迫使瓶颈token编码像素级的"what-is-where"场景组成信息…
 tags:
-  - CVPR 2026
-  - 机器人
-  - 视觉状态表示
-  - 自监督学习
-  - 机器人策略学习
-  - 瓶颈token
-  - 全局-局部重建
+  - "CVPR 2026"
+  - "机器人"
+  - "视觉状态表示"
+  - "自监督学习"
+  - "机器人策略学习"
+  - "瓶颈token"
+  - "全局-局部重建"
 ---
 
 # Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition

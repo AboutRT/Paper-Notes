@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Training-Free Bayesianization for Low-Rank Adapters of Large Language Models
 description: >-
-  [NeurIPS 2025][优化][Bayesian inference] 提出 TFB（Training-Free Bayesianization），通过在低秩各向同性高斯分布族中搜索最大可接受方差，将已训练好的 LoRA 适配器无需重训练即转化为贝叶斯版本，理论上等价于广义变分推断。
+  [NeurIPS 2025][优化/理论][Bayesian inference] 提出 TFB（Training-Free Bayesianization），通过在低秩各向同性高斯分布族中搜索最大可接受方差，将已训练好的 LoRA 适配器无需重训练即转化为贝叶斯版本，理论上等价于广义变分推断。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - Bayesian inference
-  - LoRA
-  - uncertainty estimation
-  - LLM
-  - training-free
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "Bayesian inference"
+  - "LoRA"
+  - "uncertainty estimation"
+  - "LLM"
+  - "training-free"
 ---
 
 # Training-Free Bayesianization for Low-Rank Adapters of Large Language Models

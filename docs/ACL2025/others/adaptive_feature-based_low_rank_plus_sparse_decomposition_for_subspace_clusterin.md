@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][子空间聚类] 本文提出一种自适应特征驱动的低秩加稀疏矩阵分解方法，通过在特征空间中自适应学习低秩和稀疏成分的权重，解决子空间聚类中噪声鲁棒性和特征判别力不足的问题。
 tags:
-  - ACL 2025
-  - 子空间聚类
-  - 低秩分解
-  - 稀疏分解
-  - 自适应特征
-  - 矩阵分解
+  - "ACL 2025"
+  - "子空间聚类"
+  - "低秩分解"
+  - "稀疏分解"
+  - "自适应特征"
+  - "矩阵分解"
 ---
 
 # Adaptive Feature-based Low Rank Plus Sparse Decomposition for Subspace Clustering

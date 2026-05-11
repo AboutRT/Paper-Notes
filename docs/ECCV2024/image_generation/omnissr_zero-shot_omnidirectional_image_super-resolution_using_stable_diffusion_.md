@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 提出 OmniSSR，首个基于扩散模型的零样本全向图像超分方法，通过十八面切线投影信息交互（OTII）和梯度分解（GD）校正技术，利用 Stable Diffusion 的图像先验实现保真度和真实感的平衡，无需任何训练或微调。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # OmniSSR: Zero-shot Omnidirectional Image Super-Resolution using Stable Diffusion Model

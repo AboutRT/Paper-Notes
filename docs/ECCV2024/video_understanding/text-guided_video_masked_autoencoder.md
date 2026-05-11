@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][video MAE] 提出文本引导掩码策略（TGM）利用自然语言描述替代运动先验来掩码视频显著区域，并统一 MAE 与视频-文本对比学习，在五个动作识别和一个自中心数据集上取得最佳相对性能。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - video MAE
-  - text-guided masking
-  - 对比学习
-  - 自监督学习
-  - 动作识别
+  - "ECCV 2024"
+  - "视频理解"
+  - "video MAE"
+  - "text-guided masking"
+  - "对比学习"
+  - "自监督学习"
+  - "动作识别"
 ---
 
 # Text-Guided Video Masked Autoencoder

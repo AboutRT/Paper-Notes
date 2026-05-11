@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][图像生成][扩散模型] 通过对数概率密度的 Hessian 曲率（sharpness）建立扩散模型记忆化的几何分析框架，提出可在生成初始阶段检测记忆化的新指标，并设计无需重训练的 SAIL 初始噪声优化策略来缓解记忆化。
 tags:
-  - ICML2025
-  - 图像生成
-  - 扩散模型
-  - 记忆
-  - sharpness
-  - Hessian
-  - score function
-  - 隐私
+  - "ICML2025"
+  - "图像生成"
+  - "扩散模型"
+  - "记忆"
+  - "sharpness"
+  - "Hessian"
+  - "score function"
+  - "隐私"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

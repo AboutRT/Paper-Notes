@@ -2,15 +2,16 @@
 title: >-
   [论文解读] LCRON: Learning Cascade Ranking as One Network
 description: >-
-  [ICML 2025][级联排序] 提出LCRON，将多阶段级联排序系统作为统一网络进行端到端训练：通过可微排序技术构建的端到端代理损失$L_{e2e}$直接优化ground truth items通过整个级联的存活概率下界，辅以从下界紧致度推导出的各阶段辅助损失$L_{single}$驱动阶段间协同，在公开基准和工业广告系统的线上A/B测试中均取得显著提升（广告收入+4.10%，用户转化+1.60%）。
+  [ICML 2025][推荐系统][级联排序] 提出LCRON，将多阶段级联排序系统作为统一网络进行端到端训练：通过可微排序技术构建的端到端代理损失$L_{e2e}$直接优化ground truth items通过整个级联的存活概率下界…
 tags:
-  - ICML 2025
-  - 级联排序
-  - 端到端训练
-  - 可微排序
-  - 存活概率
-  - 推荐系统
-  - 多阶段协同
+  - "ICML 2025"
+  - "推荐系统"
+  - "级联排序"
+  - "端到端训练"
+  - "可微排序"
+  - "存活概率"
+  - "代理损失"
+  - "多阶段协同"
 ---
 
 # LCRON: Learning Cascade Ranking as One Network

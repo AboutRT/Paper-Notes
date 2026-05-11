@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025 (Spotlight)][图像生成][精度矩阵估计] 本文从非渐近角度分析了高维精度矩阵（逆协方差矩阵）估计中数据增强（DA）的效果，建立了线性收缩估计器和 DA 估计器的二次误差集中界，并引入了广义预解矩阵的新型确定性等价工具。
 tags:
-  - NeurIPS 2025 (Spotlight)
-  - 图像生成
-  - 精度矩阵估计
-  - 数据增强
-  - 线性收缩估计
-  - 随机矩阵理论
-  - 集中不等式
+  - "NeurIPS 2025 (Spotlight)"
+  - "图像生成"
+  - "精度矩阵估计"
+  - "数据增强"
+  - "线性收缩估计"
+  - "随机矩阵理论"
+  - "集中不等式"
 ---
 
 # Non-Asymptotic Analysis of Data Augmentation for Precision Matrix Estimation

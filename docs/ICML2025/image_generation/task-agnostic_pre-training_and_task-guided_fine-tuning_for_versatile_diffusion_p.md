@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][图像生成][扩散模型] 提出 SODP 框架：先用大量无奖励标签的次优多任务轨迹预训练扩散规划器，再用基于策略梯度的 RL 微调快速适配下游任务，并引入 BC 正则化防止性能崩溃，在 Meta-World 50 任务上达到 60.56% 成功率（SOTA）。
 tags:
-  - ICML2025
-  - 图像生成
-  - 扩散模型
-  - 多任务RL
-  - 预训练-微调
-  - 次优数据
-  - 策略梯度
-  - 行为克隆正则化
+  - "ICML2025"
+  - "图像生成"
+  - "扩散模型"
+  - "多任务RL"
+  - "预训练-微调"
+  - "次优数据"
+  - "策略梯度"
+  - "行为克隆正则化"
 ---
 
 # Task-Agnostic Pre-training and Task-Guided Fine-tuning for Versatile Diffusion Planner

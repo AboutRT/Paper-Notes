@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Logical Phase Transitions: Understanding Collapse in LLM Logical Reasoning
 description: >-
-  [ACL 2026][LLM推理][逻辑推理] 本文发现 LLM 逻辑推理存在"逻辑相变"现象——性能在特定复杂度阈值处突然崩塌而非平滑退化，提出逻辑复杂度度量（LoCM）来量化这一现象，并设计神经符号课程调优框架（NSCT），通过自适应神经-符号对齐和复杂度感知课程优化，在五个基准上平均提升 naive prompting +1.26 和 CoT +3.95 准确率。
+  [ACL 2026][LLM推理][逻辑推理] 本文发现 LLM 逻辑推理存在"逻辑相变"现象——性能在特定复杂度阈值处突然崩塌而非平滑退化，提出逻辑复杂度度量（LoCM）来量化这一现象，并设计神经符号课程调优框架（NSCT），通过自适应神经-符号对齐和复杂度感知课程优化…
 tags:
-  - ACL 2026
-  - LLM推理
-  - 逻辑推理
-  - 相变现象
-  - 课程学习
-  - 神经符号对齐
-  - 推理崩塌
+  - "ACL 2026"
+  - "LLM推理"
+  - "逻辑推理"
+  - "相变现象"
+  - "课程学习"
+  - "神经符号对齐"
+  - "推理崩塌"
 ---
 
 # Logical Phase Transitions: Understanding Collapse in LLM Logical Reasoning

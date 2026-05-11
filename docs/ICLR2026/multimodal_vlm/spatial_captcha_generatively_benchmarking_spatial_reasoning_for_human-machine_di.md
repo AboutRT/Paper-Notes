@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spatial CAPTCHA: Generatively Benchmarking Spatial Reasoning for Human-Machine Differentiation
 description: >-
-  [ICLR 2026][多模态][CAPTCHA] 提出 Spatial CAPTCHA，一种基于 3D 空间推理的新型人类验证框架，利用人类与多模态大语言模型在几何推理、视角变换、遮挡处理和心理旋转等任务上的根本性能力差异来区分人与机器，最优 MLLM 仅达 31.0% Pass@1 准确率，远低于人类表现。
+  [ICLR 2026][多模态VLM][CAPTCHA] 提出 Spatial CAPTCHA，一种基于 3D 空间推理的新型人类验证框架，利用人类与多模态大语言模型在几何推理、视角变换、遮挡处理和心理旋转等任务上的根本性能力差异来区分人与机器，最优 MLLM 仅达 31.0% Pass@1 准确率…
 tags:
-  - ICLR 2026
-  - 多模态
-  - CAPTCHA
-  - 多模态VLM
-  - 多模态大模型
-  - 人机区分
-  - 程序化生成
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "CAPTCHA"
+  - "空间推理"
+  - "多模态大模型"
+  - "人机区分"
+  - "程序化生成"
 ---
 
 # Spatial CAPTCHA: Generatively Benchmarking Spatial Reasoning for Human-Machine Differentiation
@@ -95,7 +95,7 @@ Spatial CAPTCHA 是一个评测框架而非训练方法。在基准测试（Spat
 |------|-----------|-----------|
 | 人类 | ~90+ | — |
 | 最佳 MLLM | **31.0** | **-60+ pp** |
-| 其他 SOTA MLLM | <31.0 | 更大差距 |
+| 其他 SOTA MLLM | &lt;31.0 | 更大差距 |
 
 具体来看（基于同类工作的典型结果模式）：
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][机器人][world model] 提出 Episodic Spatial World Model (ESWM)，从稀疏、不连续的情景记忆（one-step transitions）中构建空间世界模型，其潜空间自发涌现出与环境拓扑对齐的认知地图，并支持零样本探索和导航。
 tags:
-  - ICLR2026
-  - 机器人
-  - world model
-  - episodic memory
-  - spatial reasoning
-  - cognitive map
-  - navigation
+  - "ICLR2026"
+  - "机器人"
+  - "world model"
+  - "episodic memory"
+  - "spatial reasoning"
+  - "cognitive map"
+  - "navigation"
 ---
 
 # Building Spatial World Models from Sparse Transitional Episodic Memories

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像生成][概率采样] 本文首次大规模系统审计了 11 个前沿 LLM 在 15 种概率分布上的原生采样能力，发现 LLM 严重缺乏内在概率采样机制，且这种缺陷会传导到下游应用中造成系统性偏差。
 tags:
-  - ACL 2026
-  - 图像生成
-  - 概率采样
-  - 随机数生成
-  - 分布保真度
-  - LLM内在能力
-  - 下游偏差
+  - "ACL 2026"
+  - "图像生成"
+  - "概率采样"
+  - "随机数生成"
+  - "分布保真度"
+  - "LLM内在能力"
+  - "下游偏差"
 ---
 
 # Large Language Models Are Bad Dice Players: LLMs Struggle to Generate Random Numbers from Statistical Distributions

@@ -2,18 +2,18 @@
 title: >-
   [论文解读] DnLUT: Ultra-Efficient Color Image Denoising via Channel-Aware Lookup Tables
 description: >-
-  [CVPR 2025][图像恢复][查找表去噪] 提出 DnLUT，通过成对通道混合器（PCM，RG/GB/BR 配对的 4D LUT 捕获通道间相关性）和无重叠 L 形卷积核（将 4D LUT 降为 3D，存储减少 17×），将 CNN 去噪器转化为 500KB 的查找表，在 CBSD68 上比最佳 LUT 方法高 1.3 dB，能耗仅为 DnCNN 的 0.1%。
+  [CVPR 2025][图像恢复][查找表去噪] 提出 DnLUT，通过成对通道混合器（PCM，RG/GB/BR 配对的 4D LUT 捕获通道间相关性）和无重叠 L 形卷积核（将 4D LUT 降为 3D，存储减少 17×），将 CNN 去噪器转化为 500KB 的查找表…
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 查找表去噪
-  - 边缘部署
-  - 通道混合
-  - L形卷积
-  - 超低功耗
+  - "CVPR 2025"
+  - "图像恢复"
+  - "查找表去噪"
+  - "边缘部署"
+  - "通道混合"
+  - "L形卷积"
+  - "超低功耗"
 ---
 
-﻿# DnLUT: Ultra-Efficient Color Image Denoising via Channel-Aware Lookup Tables
+# DnLUT: Ultra-Efficient Color Image Denoising via Channel-Aware Lookup Tables
 
 **会议**: CVPR 2025  
 **arXiv**: [2503.15931](https://arxiv.org/abs/2503.15931)  

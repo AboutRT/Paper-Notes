@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training
 description: >-
-  [ACL 2026][LLM对齐][生成式奖励模型] ConsistRM 提出基于一致性感知的自训练框架，通过时序一致性伪标签（融合在线状态和历史记忆的偏好一致性）和语义一致性批评奖励（衡量多次生成批评的语义相似度）两个模块，在无需人工标注的条件下将生成式奖励模型的五个基准平均性能提升 1.5%，同时显著缓解了位置偏差问题。
+  [ACL 2026][LLM对齐][生成式奖励模型] ConsistRM 提出基于一致性感知的自训练框架，通过时序一致性伪标签（融合在线状态和历史记忆的偏好一致性）和语义一致性批评奖励（衡量多次生成批评的语义相似度）两个模块，在无需人工标注的条件下将生成式奖励模型的五个基准平均性能提升 1.5%…
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 生成式奖励模型
-  - 自训练
-  - 一致性感知
-  - 伪标签
-  - 位置偏差
+  - "ACL 2026"
+  - "LLM对齐"
+  - "生成式奖励模型"
+  - "自训练"
+  - "一致性感知"
+  - "伪标签"
+  - "位置偏差"
 ---
 
 # ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training

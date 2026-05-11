@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][3D视觉错觉] 揭示了3D视觉错觉（如墙面彩绘、屏幕重播、镜面反射等）会严重欺骗现有SOTA单目和双目深度估计方法，构建了包含约3k场景/200k图像的大规模数据集，并提出基于VLM常识推理的单目-双目自适应融合框架，在各类错觉场景下达到SOTA。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 3D视觉错觉
-  - 深度估计
-  - 单目-双目融合
-  - 视觉语言模型
-  - Flow Matching
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "3D视觉错觉"
+  - "深度估计"
+  - "单目-双目融合"
+  - "视觉语言模型"
+  - "Flow Matching"
 ---
 
 # 3D Visual Illusion Depth Estimation

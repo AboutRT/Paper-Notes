@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Diffusion-Classifier Synergy: Reward-Aligned Learning via Mutual Boosting Loop for FSCIL
 description: >-
-  [NEURIPS2025][图像生成][Few-Shot Class-Incremental Learning] 提出 Diffusion-Classifier Synergy (DCS) 框架，通过在扩散模型和分类器之间建立互相增强的闭环，利用多层次奖励函数（特征级+logits级）引导扩散模型生成对分类器最有益的图像，在 FSCIL 基准上取得 SOTA。
+  [NEURIPS2025][图像生成][Few-Shot Class-Incremental Learning] 提出 Diffusion-Classifier Synergy (DCS) 框架，通过在扩散模型和分类器之间建立互相增强的闭环…
 tags:
-  - NEURIPS2025
-  - 图像生成
-  - Few-Shot Class-Incremental Learning
-  - 扩散模型
-  - Reward-Aligned Generation
-  - Mutual Boosting Loop
-  - 数据增强
+  - "NEURIPS2025"
+  - "图像生成"
+  - "Few-Shot Class-Incremental Learning"
+  - "扩散模型"
+  - "Reward-Aligned Generation"
+  - "Mutual Boosting Loop"
+  - "数据增强"
 ---
 
 # Diffusion-Classifier Synergy: Reward-Aligned Learning via Mutual Boosting Loop for FSCIL
@@ -103,7 +103,7 @@ DCS 的核心思想是在扩散模型 $D$ 和 FSCIL 分类器 $\sigma$ 之间建
 | + $\mathcal{R}_{\text{CSCA}}$（完整 DCS） | **+5.64** |
 
 - Logits 级奖励（特别是 $\mathcal{R}_{\text{CSCA}}$）贡献最大，证明分类器反馈对生成质量至关重要
-- 在每类仅生成 <50 张图像的条件下，DCS 超越了 vanilla 扩散模型在更大生成规模下的表现
+- 在每类仅生成 &lt;50 张图像的条件下，DCS 超越了 vanilla 扩散模型在更大生成规模下的表现
 
 ## 亮点与洞察
 - **闭环设计精巧**：将扩散模型与分类器的交互从单向知识提供升级为双向协同进化，形成 mutual boosting loop
@@ -121,7 +121,7 @@ DCS 的核心思想是在扩散模型 $D$ 和 FSCIL 分类器 $\sigma$ 之间建
 
 ## 相关工作与启发
 - **vs 传统 FSCIL 方法**（TOPIC, CEC, FACT, SAVC 等）：这些方法依赖网络优化技巧（自监督学习、分布校准），DCS 不修改分类网络，仅通过生成增强即超越
-- **vs 扩散模型增强**（直接用 SD 生成）：vanilla 扩散模型在少量生成（<50/类）下表现显著不如 DCS，DCS 通过奖励引导实现"少而精"
+- **vs 扩散模型增强**（直接用 SD 生成）：vanilla 扩散模型在少量生成（&lt;50/类）下表现显著不如 DCS，DCS 通过奖励引导实现"少而精"
 - **vs 生成式增量学习**（如 SDAFL [1]）：传统方法缺乏分类器反馈，DCS 通过闭环奖励实现自适应生成
 - **vs DAS 原始应用**：原始 DAS 使用 HPSv2/TCE 等图像质量奖励，DCS 将奖励函数针对 FSCIL 任务重新设计
 

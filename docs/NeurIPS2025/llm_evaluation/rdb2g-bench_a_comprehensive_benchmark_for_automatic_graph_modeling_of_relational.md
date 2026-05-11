@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases
 description: >-
-  [NeurIPS 2025][关系数据库] 本文提出 RDB2G-Bench——首个评估关系数据库到图建模方法的基准框架，包含 5 个真实 RDB、12 个预测任务和约 5 万个预计算的图模型-性能对，并对 10 种自动图建模方法进行了系统比较。
+  [NeurIPS 2025][LLM评测][关系数据库] 本文提出 RDB2G-Bench——首个评估关系数据库到图建模方法的基准框架，包含 5 个真实 RDB、12 个预测任务和约 5 万个预计算的图模型-性能对，并对 10 种自动图建模方法进行了系统比较。
 tags:
-  - NeurIPS 2025
-  - 关系数据库
-  - 图建模
-  - benchmark
-  - LLM评测
-  - 自动建模
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "关系数据库"
+  - "图建模"
+  - "benchmark"
+  - "图神经网络"
+  - "自动建模"
 ---
 
 # RDB2G-Bench: A Comprehensive Benchmark for Automatic Graph Modeling of Relational Databases

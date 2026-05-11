@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][多模态VLM][3D场景生成] 提出全局-局部树搜索算法，利用VLM的空间推理能力，通过层次化场景表示和emoji网格的视觉提示，实现高质量3D室内场景布局生成，在用户研究中平均排名第一。
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - 3D场景生成
-  - 视觉语言模型
-  - 树搜索
-  - 室内场景
-  - 布局规划
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "3D场景生成"
+  - "视觉语言模型"
+  - "树搜索"
+  - "室内场景"
+  - "布局规划"
 ---
 
 # Global-Local Tree Search in VLMs for 3D Indoor Scene Generation

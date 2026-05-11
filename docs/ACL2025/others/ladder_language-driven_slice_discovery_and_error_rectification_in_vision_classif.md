@@ -4,10 +4,10 @@ title: >-
 description: >-
   [NeurIPS 2025][扩散模型] 提出不确定性感知的多目标强化和## 一句话总结
 tags:
-  - NeurIPS 2025
-  - 扩散模型
-  - 其他
-  - 多盺?扩散模?m
+  - "NeurIPS 2025"
+  - "扩散模型"
+  - "强化学习"
+  - "多盺?扩散模?m"
 ---
 
 # LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers

@@ -1,26 +1,33 @@
 ---
 title: >-
-  CVPR2026 自监督/表示学习方向31篇论文解读
+  CVPR2026 自监督/表示学习方向30篇论文解读
 description: >-
-  31篇CVPR2026的自监督/表示学习方向论文解读，涵盖自监督学习、持续学习、扩散模型、异常检测、少样本学习、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  30篇CVPR2026的自监督/表示学习方向论文解读，涵盖自监督学习、持续学习、扩散模型、异常检测、少样本学习、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "CVPR2026"
+  - "自监督/表示学习"
+  - "论文解读"
+  - "论文笔记"
+  - "自监督学习"
+  - "持续学习"
+  - "扩散模型"
+  - "异常检测"
+  - "少样本学习"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔄 自监督/表示学习
 
-**📷 CVPR2026** · **31** 篇论文解读
+**📷 CVPR2026** · **30** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/self_supervised/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/self_supervised/index.md) · [🤖 AAAI2026 (14)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (35)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/self_supervised/index.md) · [🧪 ICML2025 (24)](../../ICML2025/self_supervised/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/self_supervised/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/self_supervised/index.md) · [🤖 AAAI2026 (14)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (33)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/self_supervised/index.md) · [🧪 ICML2025 (24)](../../ICML2025/self_supervised/index.md)
 
 🔥 **高频主题：** 自监督学习 ×7
 
 **[A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](a_stitch_in_time_learning_procedural_workflow_via_self_supervised_plackett_luce_r.md)**
 
 :   提出 PL-Stitch 自监督框架，利用 Plackett-Luce 概率排序模型将视频帧的时序排序作为预训练信号，学习具有"程序感知"能力的视频表示，在手术阶段识别和烹饪动作分割上全面超越现有自监督方法。
-
-**[AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation](actta_rethinking_test-time_adaptation_via_dynamic_activation.md)**
-
-:   提出AcTTA框架，首次将激活函数作为测试时适应(TTA)的可学习组件，通过参数化的激活中心偏移 $c$ 和非对称梯度缩放 $\lambda_{pos}, \lambda_{neg}$ 替代或增强传统归一化层适应，在CIFAR-10/100-C和ImageNet-C上一致超越所有归一化基TTA方法，并支持10倍大的学习率。
 
 **[An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning](an_optimal_transport_driven_approach_for_cultivating_latent_space_in_online_incr.md)**
 

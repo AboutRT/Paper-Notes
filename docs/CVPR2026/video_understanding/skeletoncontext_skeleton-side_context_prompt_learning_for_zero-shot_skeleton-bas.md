@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][零样本动作识别] 提出SkeletonContext框架，通过跨模态上下文提示模块从预训练语言模型重建骨骼数据缺失的环境和物体上下文语义，并用关键部位解耦模块增强运动关键关节的判别力，在NTU-60/120和PKU-MMD上的零样本和广义零样本设置中达到SOTA。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 零样本动作识别
-  - 骨骼序列
-  - 上下文提示学习
-  - 跨模态对齐
-  - 关键部位解耦
+  - "CVPR 2026"
+  - "视频理解"
+  - "零样本动作识别"
+  - "骨骼序列"
+  - "上下文提示学习"
+  - "跨模态对齐"
+  - "关键部位解耦"
 ---
 
 # SkeletonContext: Skeleton-side Context Prompt Learning for Zero-Shot Skeleton-based Action Recognition

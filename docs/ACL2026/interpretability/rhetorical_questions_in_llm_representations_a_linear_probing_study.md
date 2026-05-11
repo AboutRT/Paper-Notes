@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rhetorical Questions in LLM Representations: A Linear Probing Study
 description: >-
-  [ACL 2026][反问句] 通过线性探针分析 LLM 内部如何表征反问句，发现反问句在表征空间中是线性可分的且可跨数据集迁移，但不同数据集学到的探针方向并不一致——反问句由多个异构的线性方向编码，而非单一统一维度。
+  [ACL 2026][可解释性][反问句] 通过线性探针分析 LLM 内部如何表征反问句，发现反问句在表征空间中是线性可分的且可跨数据集迁移，但不同数据集学到的探针方向并不一致——反问句由多个异构的线性方向编码，而非单一统一维度。
 tags:
-  - ACL 2026
-  - 反问句
-  - 线性探针
-  - 可解释性
-  - 跨数据集迁移
-  - 修辞分析
+  - "ACL 2026"
+  - "可解释性"
+  - "反问句"
+  - "线性探针"
+  - "LLM表征"
+  - "跨数据集迁移"
+  - "修辞分析"
 ---
 
 # Rhetorical Questions in LLM Representations: A Linear Probing Study

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][目标检测][LLM生成文本检测] 提出 GigaCheck，一个双策略框架：文档级使用微调 LLM 进行分类，片段级创新地将 AI 生成文本片段视为"目标"，用 DETR-like 架构实现端到端的字符级定位。
 tags:
-  - ACL 2026
-  - 目标检测
-  - LLM生成文本检测
-  - 目标检测范式
-  - DETR
-  - 文本片段定位
-  - 人机协作文本
+  - "ACL 2026"
+  - "目标检测"
+  - "LLM生成文本检测"
+  - "目标检测范式"
+  - "DETR"
+  - "文本片段定位"
+  - "人机协作文本"
 ---
 
 # GigaCheck: Detecting LLM-generated Content via Object-Centric Span Localization

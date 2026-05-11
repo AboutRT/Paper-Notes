@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Evaluating Multiple Models Using Labeled and Unlabeled Data
 description: >-
-  [NeurIPS 2025][半监督学习] 提出 **SSME (Semi-Supervised Model Evaluation)**，利用少量标注数据和大量未标注数据，通过半监督混合模型估计多个分类器联合分布 $P(y, \mathbf{s})$，实现精确的分类器性能评估，误差降低至仅用标注数据的 1/5。
+  [NeurIPS 2025][社会计算][半监督学习] 提出 **SSME (Semi-Supervised Model Evaluation)**，利用少量标注数据和大量未标注数据，通过半监督混合模型估计多个分类器联合分布 $P(y, \mathbf{s})$，实现精确的分类器性能评估…
 tags:
-  - NeurIPS 2025
-  - 半监督学习
-  - model evaluation
-  - mixture model
-  - unlabeled data
-  - classifier performance
+  - "NeurIPS 2025"
+  - "社会计算"
+  - "半监督学习"
+  - "model evaluation"
+  - "mixture model"
+  - "unlabeled data"
+  - "classifier performance"
 ---
 
 # Evaluating Multiple Models Using Labeled and Unlabeled Data

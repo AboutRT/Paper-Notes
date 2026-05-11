@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Concept-wise Attention for Fine-grained Concept Bottleneck Models
 description: >-
-  [CVPR 2026][多模态][概念瓶颈模型] CoAt-CBM 通过可学习的概念级视觉 query 和概念对比优化（CCO）实现了自适应细粒度图像-概念对齐，在保持高可解释性的同时超越现有概念瓶颈模型和黑盒模型。
+  [CVPR 2026][多模态VLM][概念瓶颈模型] CoAt-CBM 通过可学习的概念级视觉 query 和概念对比优化（CCO）实现了自适应细粒度图像-概念对齐，在保持高可解释性的同时超越现有概念瓶颈模型和黑盒模型。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 概念瓶颈模型
-  - 多模态VLM
-  - CLIP
-  - 对比学习
-  - 细粒度对齐
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "概念瓶颈模型"
+  - "可解释性"
+  - "CLIP"
+  - "对比学习"
+  - "细粒度对齐"
 ---
 
 # Concept-wise Attention for Fine-grained Concept Bottleneck Models

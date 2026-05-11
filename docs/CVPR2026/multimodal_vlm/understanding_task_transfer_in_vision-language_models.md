@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Understanding Task Transfer in Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][视觉语言模型] 本文首次系统研究了 VLM 在一个视觉感知任务上微调后对其他感知任务零样本性能的影响，提出 Perfection Gap Factor (PGF) 归一化指标量化跨任务迁移，在 Qwen-2.5-VL 三个尺度模型上揭示了任务迁移的结构性规律（正/负迁移团、任务角色分类、尺度依赖等），并证明 PGF 可指导数据选择提升微调效率。
+  [CVPR 2026][多模态VLM][视觉语言模型] 本文首次系统研究了 VLM 在一个视觉感知任务上微调后对其他感知任务零样本性能的影响，提出 Perfection Gap Factor (PGF) 归一化指标量化跨任务迁移…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 任务迁移
-  - 感知任务
-  - 微调
-  - Perfection Gap Factor
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "任务迁移"
+  - "感知任务"
+  - "微调"
+  - "Perfection Gap Factor"
 ---
 
 # Understanding Task Transfer in Vision-Language Models

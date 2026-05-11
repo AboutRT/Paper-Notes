@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Point-Supervised Panoptic Segmentation via Estimating Pseudo Labels from Learnable Distance
 description: >-
-  [ECCV 2024][图像分割][点监督] 本文提出一种基于可学习距离的点监督全景分割方法，用 anchor query 表示每个实例，通过交叉注意力预测像素到实例的距离，并以端到端方式由点标签监督距离学习，结合迭代的查询聚合和增强过程持续优化伪标签质量，取得了点监督全景分割的 SOTA 结果。
+  [ECCV 2024][语义分割][点监督] 本文提出一种基于可学习距离的点监督全景分割方法，用 anchor query 表示每个实例，通过交叉注意力预测像素到实例的距离，并以端到端方式由点标签监督距离学习，结合迭代的查询聚合和增强过程持续优化伪标签质量，取得了点监督全景分割的 SOTA 结果。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 点监督
-  - 全景分割
-  - 伪标签
-  - 可学习距离
-  - 锚点查询
+  - "ECCV 2024"
+  - "语义分割"
+  - "点监督"
+  - "全景分割"
+  - "伪标签"
+  - "可学习距离"
+  - "锚点查询"
 ---
 
 # Point-Supervised Panoptic Segmentation via Estimating Pseudo Labels from Learnable Distance

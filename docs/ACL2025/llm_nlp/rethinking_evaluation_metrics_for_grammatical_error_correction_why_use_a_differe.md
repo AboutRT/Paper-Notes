@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?
 description: >-
-  [ACL 2025][文本生成][语法纠错评估] 本文指出当前 GEC 自动评估与人工评估在"从句级分数到系统排名"的聚合流程上存在根本差异——人工评估用句级两两比较+TrueSkill 排名算法，而自动评估用平均绝对分数+排序——并通过在自动评估中也采用 TrueSkill 聚合来弥补这一差距，在 SEEDA 基准上大幅提升多数指标与人工评估的相关性，甚至使 BERT 级指标超越 GPT-4。
+  [ACL 2025][LLM/NLP][语法纠错评估] 本文指出当前 GEC 自动评估与人工评估在"从句级分数到系统排名"的聚合流程上存在根本差异——人工评估用句级两两比较+TrueSkill 排名算法，而自动评估用平均绝对分数+排序——并通过在自动评估中也采用 TrueSkill 聚合来弥补这一差距…
 tags:
-  - ACL 2025
-  - 文本生成
-  - 语法纠错评估
-  - TrueSkill
-  - 元评估
-  - 句级比较
-  - 排名聚合
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "语法纠错评估"
+  - "TrueSkill"
+  - "元评估"
+  - "句级比较"
+  - "排名聚合"
 ---
 
 # Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?

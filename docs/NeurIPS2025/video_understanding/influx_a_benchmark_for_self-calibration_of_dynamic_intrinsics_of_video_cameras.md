@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][camera intrinsics] 提出首个包含逐帧动态相机内参真值的真实视频基准 InFlux（386 视频、143K+ 标注帧），通过镜头元数据到内参的查找表（LUT）实现精确标注，并揭示现有内参预测方法在动态内参场景下表现不佳。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - camera intrinsics
-  - dynamic calibration
-  - benchmark
-  - lookup table
-  - video 3D understanding
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "camera intrinsics"
+  - "dynamic calibration"
+  - "benchmark"
+  - "lookup table"
+  - "video 3D understanding"
 ---
 
 # InFlux: A Benchmark for Self-Calibration of Dynamic Intrinsics of Video Cameras
@@ -77,7 +77,7 @@ $$\mathbf{K}(l, d) = \text{Interpolate}\big(\{(\text{LFL}_i, \text{FD}_i, \mathb
 
 ### 表1：内参预测基线方法评估
 
-| 方法 | %$f_x$ Error↓ | %$f_y$ Error↓ | %$c_x$ Error↓ | %$c_y$ Error↓ | %EPE<300px↑ |
+| 方法 | %$f_x$ Error↓ | %$f_y$ Error↓ | %$c_x$ Error↓ | %$c_y$ Error↓ | %EPE&lt;300px↑ |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | GeoCalib | **56.5** | **56.5** | **0.099** | **0.204** | **52.9** |
 | WildCamera | 45.6 | 46.9 | 5.04 | 6.39 | 47.2 |
@@ -87,7 +87,7 @@ $$\mathbf{K}(l, d) = \text{Interpolate}\big(\{(\text{LFL}_i, \text{FD}_i, \mathb
 | COLMAP | 1270 | 1280 | 0.112 | 0.299 | 7.85 |
 
 **关键发现**：
-- **所有方法表现不佳**：即便最好的 GeoCalib，在 $3424\times2202$ 分辨率下也仅有 52.9% 的帧点对 EPE <300px
+- **所有方法表现不佳**：即便最好的 GeoCalib，在 $3424\times2202$ 分辨率下也仅有 52.9% 的帧点对 EPE &lt;300px
 - **COLMAP 近乎完全失效**：92% 的帧无法产生预测，CFL 误差高达 1270%
 - **DroidCalib 依赖光流**：在少运动视频上 15% 的帧无法预测
 - **逐帧方法缺乏时序平滑性**：GeoCalib/WildCamera 等单帧预测方法产生的内参序列不平滑

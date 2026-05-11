@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][时间序列][多变量时间序列预测] 提出 CPiRi 框架，通过冻结预训练时序编码器 + 可训练置换等变空间模块 + 通道打乱训练策略，在不牺牲跨通道建模能力的前提下实现通道排序不变性（CPI），在多个交通基准上达到 SOTA。
 tags:
-  - ICLR 2026
-  - 时间序列
-  - 多变量时间序列预测
-  - 通道置换不变性
-  - 时空解耦
-  - 基础模型
-  - 通道交互
+  - "ICLR 2026"
+  - "时间序列"
+  - "多变量时间序列预测"
+  - "通道置换不变性"
+  - "时空解耦"
+  - "基础模型"
+  - "通道交互"
 ---
 
 # CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting
@@ -88,7 +88,7 @@ CPiRi 是一个三阶段 pipeline：输入是 $\mathcal{X} \in \mathbb{R}^{L \ti
 | 均值池化替代末 token | 12.42% | 末 token 优于平均聚合 |
 
 ### 关键发现
-- **通道打乱鲁棒性**：CPiRi 在 100% 通道打乱下 WAPE 仅变化 <0.25%，而 Informer 暴增 >400%，STID 暴增 >235%
+- **通道打乱鲁棒性**：CPiRi 在 100% 通道打乱下 WAPE 仅变化 &lt;0.25%，而 Informer 暴增 >400%，STID 暴增 >235%
 - **归纳泛化**：仅用 25% 通道训练，在全部通道上测试，准确率仅下降约 2%，训练时间减少 70%
 - **大规模可扩展**：在 CA 数据集（8600 通道）上，CPiRi 推理仅 0.41s/样本、8GB 显存，Timer-XL 需 75.68GB
 

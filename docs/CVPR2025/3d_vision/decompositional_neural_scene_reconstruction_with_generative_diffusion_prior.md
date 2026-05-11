@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][分解式场景重建] 提出DP-Recon，将生成式扩散先验（SDS）引入分解式神经场景重建中，通过可见性引导动态调整逐像素SDS权重，解决重建目标与生成引导之间的冲突，实现稀疏视角下完整的物体几何与外观恢复。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 分解式场景重建
-  - 扩散先验
-  - SDS损失
-  - 可见性引导
-  - 稀疏视角重建
+  - "CVPR 2025"
+  - "3D视觉"
+  - "分解式场景重建"
+  - "扩散先验"
+  - "SDS损失"
+  - "可见性引导"
+  - "稀疏视角重建"
 ---
 
 # Decompositional Neural Scene Reconstruction with Generative Diffusion Prior

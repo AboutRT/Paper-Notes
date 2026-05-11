@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][情感评估] UKP_Psycontrol 在 SemEval-2026 Task 2 上取得双项第一，通过结合 LLM 提示、Ising 交互的 MaxEnt 模型和神经回归模型，发现 LLM 擅长捕捉静态情感信号而短期情感变化更多由近期数值轨迹而非文本语义解释。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 情感评估
-  - 纵向分析
-  - 效价-唤醒度
-  - LLM提示
-  - MaxEnt模型
+  - "ACL 2026"
+  - "模型压缩"
+  - "情感评估"
+  - "纵向分析"
+  - "效价-唤醒度"
+  - "LLM提示"
+  - "MaxEnt模型"
 ---
 
 # UKP_Psycontrol at SemEval-2026 Task 2: Modeling Valence and Arousal Dynamics from Text

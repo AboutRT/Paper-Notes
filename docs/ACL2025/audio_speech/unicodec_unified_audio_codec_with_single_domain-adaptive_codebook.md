@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook
 description: >-
-  [ACL 2025][语音][音频编解码] UniCodec 提出了一种使用单个域自适应码本的统一音频编解码器，通过分区域码本和域混合专家（MoE）策略，在语音、音乐和声音三个域上均实现卓越的重建和语义表示性能。
+  [ACL 2025][音频/语音][音频编解码] UniCodec 提出了一种使用单个域自适应码本的统一音频编解码器，通过分区域码本和域混合专家（MoE）策略，在语音、音乐和声音三个域上均实现卓越的重建和语义表示性能。
 tags:
-  - ACL 2025
-  - 语音
-  - 音频编解码
-  - 单码本
-  - 域自适应
-  - 混合专家
-  - 语义学习
+  - "ACL 2025"
+  - "音频/语音"
+  - "音频编解码"
+  - "单码本"
+  - "域自适应"
+  - "混合专家"
+  - "语义学习"
 ---
 
 # UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook

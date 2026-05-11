@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth
 description: >-
-  [CVPR 2026][多模态][多模态推理] 本文提出 Think360，一个聚焦于"推理宽度"（即模型在多路径搜索、多约束剪枝、回溯试错等方面的能力）的多模态基准，包含 1200+ 高质量样本，并设计细粒度 Tree-of-Thought 评估协议，揭示当前 MLLM 在宽度方向推理上的显著短板。
+  [CVPR 2026][多模态VLM][多模态推理] 本文提出 Think360，一个聚焦于"推理宽度"（即模型在多路径搜索、多约束剪枝、回溯试错等方面的能力）的多模态基准，包含 1200+ 高质量样本，并设计细粒度 Tree-of-Thought 评估协议，揭示当前 MLLM 在宽度方向推理上的显著短板。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态推理
-  - 多模态VLM
-  - 思维树评估
-  - 基准测试
-  - 大语言模型
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态推理"
+  - "推理宽度"
+  - "思维树评估"
+  - "基准测试"
+  - "大语言模型"
 ---
 
 # Think360: Evaluating the Width-centric Reasoning Capability of MLLMs Beyond Depth

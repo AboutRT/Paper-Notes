@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Thought Communication in Multiagent Collaboration
 description: >-
-  [NeurIPS 2025][LLM评测] 提出 ThoughtComm 框架，将多智能体通信形式化为隐变量生成模型，证明了在非参数条件下共享思想和私有思想均可辨识，并通过稀疏正则化自编码器提取潜在思想、经前缀注入回馈给每个智能体，在数学推理任务上相比当前 SOTA 的 Multiagent Finetuning 平均提升 19.06%。
+  [NeurIPS 2025][LLM评测][多智能体协作] 提出 ThoughtComm 框架，将多智能体通信形式化为隐变量生成模型，证明了在非参数条件下共享思想和私有思想均可辨识，并通过稀疏正则化自编码器提取潜在思想、经前缀注入回馈给每个智能体…
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - 思想通信
-  - 潜变量模型
-  - 可辨识性理论
-  - 前缀注入
-  - 稀疏自编码器
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "多智能体协作"
+  - "思想通信"
+  - "潜变量模型"
+  - "可辨识性理论"
+  - "前缀注入"
+  - "稀疏自编码器"
 ---
 
 # Thought Communication in Multiagent Collaboration
@@ -136,7 +137,7 @@ ThoughtComm 的整体 pipeline 如下：在每个通信轮次 $t$，首先收集
 
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
-| 前缀长度 1→16 | 四个模型性能波动均 <5% | 即使只用1个前缀 token 也能达到近最优 |
+| 前缀长度 1→16 | 四个模型性能波动均 &lt;5% | 即使只用1个前缀 token 也能达到近最优 |
 
 **潜在维度影响**（LLaMA-3-8B, Qwen-3-1.7B）：
 

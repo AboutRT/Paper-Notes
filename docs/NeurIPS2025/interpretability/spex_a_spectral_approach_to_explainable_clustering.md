@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SpEx: A Spectral Approach to Explainable Clustering
 description: >-
-  [NeurIPS 2025][可解释聚类] 提出SpEx，基于谱图划分的通用可解释聚类方法，可将任意参考聚类（无需质心）通过坐标切割决策树"圆化"为可解释聚类，或直接在kNN图上进行无参考聚类。
+  [NeurIPS 2025][可解释性][可解释聚类] 提出SpEx，基于谱图划分的通用可解释聚类方法，可将任意参考聚类（无需质心）通过坐标切割决策树"圆化"为可解释聚类，或直接在kNN图上进行无参考聚类。
 tags:
-  - NeurIPS 2025
-  - 可解释聚类
-  - 谱图划分
-  - 坐标切割
-  - 决策树
-  - Cheeger不等式
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "可解释聚类"
+  - "谱图划分"
+  - "坐标切割"
+  - "决策树"
+  - "Cheeger不等式"
 ---
 
 # SpEx: A Spectral Approach to Explainable Clustering

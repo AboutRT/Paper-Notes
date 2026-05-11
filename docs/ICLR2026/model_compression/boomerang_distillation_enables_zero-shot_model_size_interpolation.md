@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Boomerang Distillation Enables Zero-Shot Model Size Interpolation
 description: >-
-  [ICLR2026][模型压缩][知识蒸馏] 提出"回旋蒸馏"范式——只训练一个小 student 模型，通过将 teacher 的 transformer 层块逐步贴回 student，零训练代价地构建出一整族中间尺寸模型，性能在 student 与 teacher 之间平滑插值，匹配甚至超越逐个蒸馏的同等规模模型。
+  [ICLR2026][模型压缩][知识蒸馏] 提出"回旋蒸馏"范式——只训练一个小 student 模型，通过将 teacher 的 transformer 层块逐步贴回 student，零训练代价地构建出一整族中间尺寸模型，性能在 student 与 teacher 之间平滑插值…
 tags:
-  - ICLR2026
-  - 模型压缩
-  - 知识蒸馏
-  - 零样本插值
-  - 层剪枝
-  - 模型家族
+  - "ICLR2026"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "零样本插值"
+  - "层剪枝"
+  - "模型家族"
 ---
 
 # Boomerang Distillation Enables Zero-Shot Model Size Interpolation
@@ -75,7 +75,7 @@ tags:
 | 回旋蒸馏 (Student) | 2.7B | 接近 Teacher | 接近 Teacher | 1次蒸馏 |
 | 回旋蒸馏插值模型 | 2.7B–4.0B | 平滑插值 ✅ | 平滑插值 ✅ | 0 (零样本) |
 | 标准蒸馏（逐个训练） | 2.7B–4.0B | 小尺寸≈回旋，大尺寸劣于回旋 | 类似趋势 | 每个尺寸1次蒸馏 |
-| 朴素层剪枝 | <4.0B | <4B 剧烈下降 ❌ | 快速崩溃至~0 ❌ | 0 |
+| 朴素层剪枝 | &lt;4.0B | &lt;4B 剧烈下降 ❌ | 快速崩溃至~0 ❌ | 0 |
 | 随机初始化蒸馏+贴回 | 2.7B–4.0B | 几乎无增益 ❌ | 几乎无增益 ❌ | 1次蒸馏 |
 | Pythia-2.8B (预训练) | 2.8B | 可比 | 可比 | 完整预训练 |
 | Llama-3.2-3B (预训练) | 3.0B | 可比 | 可比 | 完整预训练 |

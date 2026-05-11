@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][NeRF] 将相机运动建模为时间连续的角速度和线速度，通过速度积分避免直接优化大范围 camera-to-world 变换，结合时间依赖 NeRF 和 SDF flow 约束，无需深度先验即可从单目视频联合优化位姿和场景几何。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - NeRF
-  - 位姿估计
-  - continuous motion
-  - SDF
-  - velocity integration
-  - prior-free
+  - "CVPR 2025"
+  - "3D视觉"
+  - "NeRF"
+  - "位姿估计"
+  - "continuous motion"
+  - "SDF"
+  - "velocity integration"
+  - "prior-free"
 ---
 
 # Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video

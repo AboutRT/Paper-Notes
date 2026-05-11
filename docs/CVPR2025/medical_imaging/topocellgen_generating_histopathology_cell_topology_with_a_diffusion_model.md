@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][数字病理学] 本文提出 TopoCellGen，首个在数字病理学中生成多类细胞拓扑布局的扩散模型，通过持久同调（persistent homology）引入类内空间一致性和类间结构正则化约束，并提出拓扑 Fréchet 距离（TopoFD）评估指标。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 数字病理学
-  - 拓扑约束
-  - 扩散模型
-  - 细胞布局生成
-  - 持久同调
+  - "CVPR 2025"
+  - "医学图像"
+  - "数字病理学"
+  - "拓扑约束"
+  - "扩散模型"
+  - "细胞布局生成"
+  - "持久同调"
 ---
 
 # TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model

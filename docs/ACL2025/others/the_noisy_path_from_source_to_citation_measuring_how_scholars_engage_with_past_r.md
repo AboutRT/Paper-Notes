@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][citation fidelity] 构建大规模计算流水线量化学术引用的忠实度（fidelity），分析 1300 万引用句对揭示了影响引用忠实度的关键因素，并通过准因果实验证实了"电话效应"——低忠实度中间引用会导致后续引用进一步失真。
 tags:
-  - ACL 2025
-  - citation fidelity
-  - telephone effect
-  - bibliometrics
-  - scientific information change
-  - knowledge transmission
+  - "ACL 2025"
+  - "citation fidelity"
+  - "telephone effect"
+  - "bibliometrics"
+  - "scientific information change"
+  - "knowledge transmission"
 ---
 
 # The Noisy Path from Source to Citation: Measuring How Scholars Engage with Past Research

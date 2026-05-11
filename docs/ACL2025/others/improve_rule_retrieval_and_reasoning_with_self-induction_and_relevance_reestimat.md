@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][规则检索] 针对规则检索中查询（具体实例化事实）与规则（抽象变量形式）之间的语义鸿沟，提出 SIAR（自归纳增强检索）和 R3（规则相关性重评估）两种方法，通过将查询映射到规则语义空间并重新评估规则相关性，显著提升规则检索和下游推理性能。
 tags:
-  - ACL 2025
-  - 规则检索
-  - 其他
-  - 自归纳
-  - 重排序
-  - LLM推理
+  - "ACL 2025"
+  - "规则检索"
+  - "语义对齐"
+  - "自归纳"
+  - "重排序"
+  - "LLM推理"
 ---
 
 # Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate

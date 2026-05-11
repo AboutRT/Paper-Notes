@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][多视角变化检测] 提出首个无标签、姿态无关的多视角变化检测方法，通过构建变化感知的 3DGS 表示融合多视角变化信息，在 mIoU 上比基线提升 1.7 倍，并能为未见视角生成变化掩码。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 多视角变化检测
-  - 3D高斯泼溅
-  - 无标签
-  - 姿态无关
-  - DINOv2
+  - "CVPR 2025"
+  - "3D视觉"
+  - "多视角变化检测"
+  - "3D高斯泼溅"
+  - "无标签"
+  - "姿态无关"
+  - "DINOv2"
 ---
 
 # Multi-View Pose-Agnostic Change Localization with Zero Labels

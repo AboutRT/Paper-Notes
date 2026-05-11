@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][模型压缩][in-context RL] 提出 Paprika 框架，通过在多种文本决策任务上微调 LLM，使模型学会通用的信息收集和决策能力，并能零样本迁移到完全未见的任务。
 tags:
-  - ICML 2025
-  - 模型压缩
-  - in-context RL
-  - curious agent
-  - curriculum learning
-  - sequential decision making
-  - Paprika
+  - "ICML 2025"
+  - "模型压缩"
+  - "in-context RL"
+  - "curious agent"
+  - "curriculum learning"
+  - "sequential decision making"
+  - "Paprika"
 ---
 
 # Training a Generally Curious Agent (Paprika)

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Unauthorized Images
 description: >-
-  [ACL 2026][多模态][视觉提示注入] 提出 ImageProtector，通过在图像中嵌入近不可察觉的对抗扰动作为视觉提示注入攻击，使 MLLM 对被保护图像生成拒绝响应，从而阻止恶意分析者利用开放权重 MLLM 大规模提取图像中的隐私信息。
+  [ACL 2026][多模态VLM][视觉提示注入] 提出 ImageProtector，通过在图像中嵌入近不可察觉的对抗扰动作为视觉提示注入攻击，使 MLLM 对被保护图像生成拒绝响应，从而阻止恶意分析者利用开放权重 MLLM 大规模提取图像中的隐私信息。
 tags:
-  - ACL 2026
-  - 多模态
-  - 视觉提示注入
-  - 多模态VLM
-  - 多模态大语言模型
-  - 对抗扰动
-  - 拒绝响应
+  - "ACL 2026"
+  - "多模态VLM"
+  - "视觉提示注入"
+  - "图像隐私保护"
+  - "多模态大语言模型"
+  - "对抗扰动"
+  - "拒绝响应"
 ---
 
 # Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Unauthorized Images

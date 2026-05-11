@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Formula-Supervised Visual-Geometric Pre-training (FSVGP)
 description: >-
-  [ECCV 2024][LLM预训练][视觉-几何表征学习] 提出FSVGP，利用分形几何的数学公式自动生成对齐的合成图像和点云，通过公式监督一致性标签在统一Transformer上实现跨模态视觉-几何预训练，在图像和3D物体的分类、检测、分割六项任务上均超越单模态FDSL方法。
+  [ECCV 2024][预训练][视觉-几何表征学习] 提出FSVGP，利用分形几何的数学公式自动生成对齐的合成图像和点云，通过公式监督一致性标签在统一Transformer上实现跨模态视觉-几何预训练，在图像和3D物体的分类、检测、分割六项任务上均超越单模态FDSL方法。
 tags:
-  - ECCV 2024
-  - LLM预训练
-  - 视觉-几何表征学习
-  - 合成数据预训练
-  - 分形几何
-  - Transformer
-  - 公式驱动监督学习
+  - "ECCV 2024"
+  - "预训练"
+  - "视觉-几何表征学习"
+  - "合成数据预训练"
+  - "分形几何"
+  - "Transformer"
+  - "公式驱动监督学习"
 ---
 
 # Formula-Supervised Visual-Geometric Pre-training (FSVGP)

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自监督学习][持续类别发现] 提出PromptCCD框架，利用高斯混合模型（GMM）作为提示池，实现在无标签数据流中的持续新类别发现，同时缓解灾难性遗忘。
 tags:
-  - ECCV 2024
-  - 自监督学习
-  - 持续类别发现
-  - 高斯混合模型
-  - 提示学习
-  - 灾难性遗忘
-  - 无标签类别
+  - "ECCV 2024"
+  - "自监督学习"
+  - "持续类别发现"
+  - "高斯混合模型"
+  - "提示学习"
+  - "灾难性遗忘"
+  - "无标签类别"
 ---
 
 # PromptCCD: Learning Gaussian Mixture Prompt Pool for Continual Category Discovery

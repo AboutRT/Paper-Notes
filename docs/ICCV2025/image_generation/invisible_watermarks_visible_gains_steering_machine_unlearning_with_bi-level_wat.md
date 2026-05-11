@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][机器遗忘] 提出 Water4MU，通过双层优化（BLO）框架将数字水印机制与机器遗忘（MU）相结合，在上层优化水印网络使其有利于遗忘，在下层执行遗忘优化，从而在不显著损害模型效用的前提下显著提升遗忘效果。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 机器遗忘
-  - 数字水印
-  - 双层优化
-  - 隐式梯度
-  - 扩散模型概念擦除
+  - "ICCV 2025"
+  - "图像生成"
+  - "机器遗忘"
+  - "数字水印"
+  - "双层优化"
+  - "隐式梯度"
+  - "扩散模型概念擦除"
 ---
 
 # Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring
 description: >-
-  [NeurIPS 2025][LLM对齐][streaming moderation] 提出 Streaming Content Monitor (SCM)——首个原生支持部分检测的流式有害内容监控器，通过 FineHarm 数据集（29K 样本含 token 级标注）和层次一致性感知学习，平均仅需看到 18% 的 response tokens 即可达到 0.95+ macro F1，实现对 LLM 有害输出的实时早停。
+  [NeurIPS 2025][LLM对齐][streaming moderation] 提出 Streaming Content Monitor (SCM)——首个原生支持部分检测的流式有害内容监控器，通过 FineHarm 数据集（29K 样本含 token 级标注）和层次一致性感知学习…
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - streaming moderation
-  - harmful content detection
-  - early stopping
-  - token-level annotation
-  - partial detection
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "streaming moderation"
+  - "harmful content detection"
+  - "early stopping"
+  - "token-level annotation"
+  - "partial detection"
 ---
 
 # From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring

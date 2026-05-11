@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rethinking Meeting Effectiveness: A Benchmark and Framework for Temporal Fine-grained Automatic Meeting Effectiveness Evaluation
 description: >-
-  [ACL 2026][会议效率评估] 本文重新定义会议效率评估——提出"目标达成率/时间成本"的客观标准和时序细粒度评估范式，构建了包含 130 场会议 2,459 个标注片段的 AMI-ME 数据集，并开发了基于 LLM 的自动评估框架，在 Spearman 相关系数上达到 0.64。
+  [ACL 2026][LLM评测][会议效率评估] 本文重新定义会议效率评估——提出"目标达成率/时间成本"的客观标准和时序细粒度评估范式，构建了包含 130 场会议 2,459 个标注片段的 AMI-ME 数据集，并开发了基于 LLM 的自动评估框架，在 Spearman 相关系数上达到 0.64。
 tags:
-  - ACL 2026
-  - 会议效率评估
-  - 时序细粒度评估
-  - LLM-as-Judge
-  - LLM评测
-  - 多方对话
+  - "ACL 2026"
+  - "LLM评测"
+  - "会议效率评估"
+  - "时序细粒度评估"
+  - "LLM-as-Judge"
+  - "主题分割"
+  - "多方对话"
 ---
 
 # Rethinking Meeting Effectiveness: A Benchmark and Framework for Temporal Fine-grained Automatic Meeting Effectiveness Evaluation

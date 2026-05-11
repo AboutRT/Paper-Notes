@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers
 description: >-
-  [ICML 2025][Transformer] 通过系统分析RoPE位置编码中各频率分量的角色，发现存在一个"固有频率"主导外推时的时间重复行为，提出仅降低该频率使其在外推后保持单周期的最小化方案RIFLEx，在CogVideoX-5B和HunyuanVideo上实现无训练2×高质量视频外推。
+  [ICML 2025][视频生成][Transformer] 通过系统分析RoPE位置编码中各频率分量的角色，发现存在一个"固有频率"主导外推时的时间重复行为，提出仅降低该频率使其在外推后保持单周期的最小化方案RIFLEx，在CogVideoX-5B和HunyuanVideo上实现无训练2×高质量视频外推。
 tags:
-  - ICML 2025
-  - Transformer
-  - RoPE
-  - 频率分析
-  - 长度外推
-  - training-free
+  - "ICML 2025"
+  - "视频生成"
+  - "Transformer"
+  - "RoPE"
+  - "频率分析"
+  - "长度外推"
+  - "training-free"
 ---
 
 # RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers

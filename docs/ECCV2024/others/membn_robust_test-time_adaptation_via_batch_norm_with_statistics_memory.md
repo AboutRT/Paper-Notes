@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][测试时自适应] 本文提出 MemBN（Memory-based Batch Normalization），通过在每个 BN 层中维护统计量记忆队列并设计专用的记忆管理与聚合算法，使得 TTA 方法在各种批量大小下都能稳健估计测试域的统计量，大幅提升小批量场景下的准确率和鲁棒性。
 tags:
-  - ECCV 2024
-  - 测试时自适应
-  - 批归一化
-  - 统计量记忆
-  - 小批量鲁棒
-  - 分布偏移
+  - "ECCV 2024"
+  - "测试时自适应"
+  - "批归一化"
+  - "统计量记忆"
+  - "小批量鲁棒"
+  - "分布偏移"
 ---
 
 # MemBN: Robust Test-Time Adaptation via Batch Norm with Statistics Memory

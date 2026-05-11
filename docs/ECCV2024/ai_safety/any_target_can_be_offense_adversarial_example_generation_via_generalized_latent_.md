@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][AI安全][adversarial attack] 提出 GAKer，首个可泛化到未知目标类别的定向对抗攻击生成器，通过在 UNet 中间层注入目标特征（latent infection）+ 余弦距离损失替代交叉熵实现类别无关训练，在未知类上的攻击成功率比 HGN 高 14.13%。
 tags:
-  - ECCV 2024
-  - AI安全
-  - adversarial attack
-  - Targeted Attack
-  - Generalization
-  - Unknown Classes
-  - Feature Infection
+  - "ECCV 2024"
+  - "AI安全"
+  - "adversarial attack"
+  - "Targeted Attack"
+  - "Generalization"
+  - "Unknown Classes"
+  - "Feature Infection"
 ---
 
 # Any Target Can Be Offense: Adversarial Example Generation via Generalized Latent Infection

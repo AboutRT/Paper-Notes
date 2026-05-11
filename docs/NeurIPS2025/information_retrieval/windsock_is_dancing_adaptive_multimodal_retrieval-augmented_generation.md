@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation
 description: >-
-  [NeurIPS 2025][多模态RAG] 提出Windsock+DANCE双组件框架解决多模态RAG的三个核心问题：Windsock模块根据查询自适应决定**何时检索**和**检索什么模态**（文本/图像/不检索），DANCE指令微调策略通过动态选择模型薄弱模态进行噪声鲁棒训练来提升**如何利用**检索信息的能力，整体性能提升17.07%同时减少8.95%检索次数。
+  [NeurIPS 2025][信息检索/RAG][多模态RAG] 提出Windsock+DANCE双组件框架解决多模态RAG的三个核心问题：Windsock模块根据查询自适应决定**何时检索**和**检索什么模态**（文本/图像/不检索）…
 tags:
-  - NeurIPS 2025
-  - 多模态RAG
-  - 自适应检索
-  - 模态选择
-  - 噪声鲁棒训练
-  - 检索增强生成
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "多模态RAG"
+  - "自适应检索"
+  - "模态选择"
+  - "噪声鲁棒训练"
+  - "检索增强生成"
 ---
 
 # Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][单目3D检测] 提出 MonoWAD，通过天气码本学习晴天知识作为参考，结合天气自适应扩散模型将雾效建模为噪声进行特征增强，实现在各种天气条件下鲁棒的单目3D目标检测。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 单目3D检测
-  - 天气自适应
-  - 扩散模型
-  - 天气码本
-  - 雾天检测
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "单目3D检测"
+  - "天气自适应"
+  - "扩散模型"
+  - "天气码本"
+  - "雾天检测"
 ---
 
 # MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection

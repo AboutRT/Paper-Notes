@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][可微物理模拟] 提出 AS-DiffMPM，一种支持任意形状刚体碰撞体的可微物质点法（MPM）框架，结合多种新视角合成方法实现从视觉观测中估计物体物理参数的系统辨识。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 可微物理模拟
-  - 系统辨识
-  - Material Point Method
-  - 3D Gaussian Splatting
-  - 碰撞处理
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "可微物理模拟"
+  - "系统辨识"
+  - "Material Point Method"
+  - "3D Gaussian Splatting"
+  - "碰撞处理"
 ---
 
 # Gaussian-Augmented Physics Simulation and System Identification with Complex Colliders

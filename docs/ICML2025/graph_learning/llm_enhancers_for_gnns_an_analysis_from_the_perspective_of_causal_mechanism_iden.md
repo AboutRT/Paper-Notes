@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][图学习][图神经网络] 从因果机制识别的角度分析"LLM增强器+GNN"范式的内部机制，发现LLM增强器主要提供节点级/原始数据级信息，并据此提出注意力传输（AT）模块优化两者间的信息传递。
 tags:
-  - ICML2025
-  - 图学习
-  - 图神经网络
-  - LLM Enhancer
-  - 因果机制识别
-  - 交换干预
-  - 注意力传输模块
+  - "ICML2025"
+  - "图学习"
+  - "图神经网络"
+  - "LLM Enhancer"
+  - "因果机制识别"
+  - "交换干预"
+  - "注意力传输模块"
 ---
 
 # LLM Enhancers for GNNs: An Analysis from the Perspective of Causal Mechanism Identification

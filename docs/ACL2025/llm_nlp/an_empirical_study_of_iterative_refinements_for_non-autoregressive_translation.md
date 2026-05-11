@@ -2,15 +2,15 @@
 title: >-
   [论文解读] An Empirical Study of Iterative Refinements for Non-Autoregressive Translation
 description: >-
-  [ACL 2025][文本生成][非自回归翻译] 本文对非自回归翻译（NAT）中的迭代精修方法进行了系统性的实证研究，比较了不同精修策略（如CMLM、DisCo、SUNDAE等）在翻译质量与推理速度之间的权衡，揭示了迭代次数、掩码比例和训练策略对最终性能的关键影响，为NAT研究提供了全面的实践指导。
+  [ACL 2025][LLM/NLP][非自回归翻译] 本文对非自回归翻译（NAT）中的迭代精修方法进行了系统性的实证研究，比较了不同精修策略（如CMLM、DisCo、SUNDAE等）在翻译质量与推理速度之间的权衡，揭示了迭代次数、掩码比例和训练策略对最终性能的关键影响，为NAT研究提供了全面的实践指导。
 tags:
-  - ACL 2025
-  - 文本生成
-  - 非自回归翻译
-  - 迭代精修
-  - 掩码语言模型
-  - 翻译质量
-  - 解码效率
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "非自回归翻译"
+  - "迭代精修"
+  - "掩码语言模型"
+  - "翻译质量"
+  - "解码效率"
 ---
 
 # An Empirical Study of Iterative Refinements for Non-Autoregressive Translation

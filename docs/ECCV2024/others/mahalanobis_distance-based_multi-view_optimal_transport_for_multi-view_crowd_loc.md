@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][多视角人群定位] 提出基于马氏距离的多视角最优传输损失（M-MVOT），通过视线方向和目标到相机的距离自适应调整传输代价，首次将点监督最优传输引入多视角人群定位任务，显著超越基于密度图MSE损失的方法。
 tags:
-  - ECCV 2024
-  - 多视角人群定位
-  - 最优传输
-  - 马氏距离
-  - 密度图
-  - 点监督
+  - "ECCV 2024"
+  - "多视角人群定位"
+  - "最优传输"
+  - "马氏距离"
+  - "密度图"
+  - "点监督"
 ---
 
 # Mahalanobis Distance-Based Multi-View Optimal Transport for Multi-View Crowd Localization

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][unified model] 提出 JanusFlow，将 rectified flow 直接嵌入自回归 LLM 框架，通过解耦理解/生成编码器 + 表征对齐正则化，在 1.3B 参数下同时达到多模态理解和图像生成的 SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - unified model
-  - rectified flow
-  - autoregressive LLM
-  - 多模态
-  - decoupled encoder
-  - REPA
+  - "CVPR 2025"
+  - "图像生成"
+  - "unified model"
+  - "rectified flow"
+  - "autoregressive LLM"
+  - "多模态"
+  - "decoupled encoder"
+  - "REPA"
 ---
 
 # JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM对齐][Safety Alignment] 提出 NSPO，将安全对齐的策略梯度投影到通用任务表征的零空间中，从几何层面保证安全优化不损害通用能力，仅用 40% 安全数据即在 7 个安全 benchmark 上达到 SOTA，同时在数学/代码/指令遵循上几乎无性能损失。
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - Safety Alignment
-  - Null Space
-  - 策略优化
-  - Alignment Tax
-  - gradient projection
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "Safety Alignment"
+  - "Null Space"
+  - "策略优化"
+  - "Alignment Tax"
+  - "gradient projection"
 ---
 
 # Mitigating the Safety Alignment Tax with Null-Space Constrained Policy Optimization
@@ -48,7 +48,7 @@ NSPO 基于 GRPO 框架，关键改造是在梯度更新时加入零空间投影
 1. **零空间投影矩阵构建**:
 
     - 功能：从通用数据（常识/数学/代码各采样）提取模型每层线性变换的输入表征 $K$，构建投影矩阵
-    - 核心思路：$\{U, \Lambda, U^T\} = \text{SVD}(KK^T)$，保留对应近零特征值（<5e-4）的特征向量 $\hat{U}$，投影矩阵为 $\hat{U}\hat{U}^T$
+    - 核心思路：$\{U, \Lambda, U^T\} = \text{SVD}(KK^T)$，保留对应近零特征值（&lt;5e-4）的特征向量 $\hat{U}$，投影矩阵为 $\hat{U}\hat{U}^T$
     - 设计动机：直接对 $K \in \mathbb{R}^{d \times N}$ 求零空间计算量太大（$N \gg d$），改用 $KK^T \in \mathbb{R}^{d \times d}$ 的零空间等价且高效
 
 2. **梯度投影**:

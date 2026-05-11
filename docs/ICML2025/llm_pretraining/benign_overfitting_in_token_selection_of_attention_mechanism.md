@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Benign Overfitting in Token Selection of Attention Mechanism
 description: >-
-  [ICML 2025][benign overfitting] 本文首次从理论上证明了注意力机制中 token 选择的良性过拟合现象，表明一层注意力网络通过梯度下降可以完美拟合含噪标签的训练数据，同时在信号学习与噪声记忆之间保持平衡时仍能泛化。
+  [ICML 2025][预训练][benign overfitting] 本文首次从理论上证明了注意力机制中 token 选择的良性过拟合现象，表明一层注意力网络通过梯度下降可以完美拟合含噪标签的训练数据，同时在信号学习与噪声记忆之间保持平衡时仍能泛化。
 tags:
-  - ICML 2025
-  - benign overfitting
-  - 注意力机制
-  - token selection
-  - LLM预训练
-  - softmax
+  - "ICML 2025"
+  - "预训练"
+  - "benign overfitting"
+  - "注意力机制"
+  - "token selection"
+  - "generalization theory"
+  - "softmax"
 ---
 
 # Benign Overfitting in Token Selection of Attention Mechanism

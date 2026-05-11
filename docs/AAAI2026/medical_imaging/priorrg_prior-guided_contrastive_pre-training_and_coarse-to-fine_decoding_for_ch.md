@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PriorRG: Prior-Guided Contrastive Pre-training and Coarse-to-Fine Decoding for Chest X-ray Report Generation
 description: >-
-  [AAAI 2026][医学图像][胸部X光报告生成] PriorRG 提出了一个两阶段胸部X光报告生成框架，通过先验引导的对比预训练对齐临床语境与时空视觉特征，再通过先验感知的粗到细解码逐步融合临床上下文、疾病进展和多层级视觉线索，在 MIMIC-CXR 上实现 BLEU-4 提升 3.6%、F1 提升 3.8%。
+  [AAAI 2026][医学图像][胸部X光报告生成] PriorRG 提出了一个两阶段胸部X光报告生成框架，通过先验引导的对比预训练对齐临床语境与时空视觉特征，再通过先验感知的粗到细解码逐步融合临床上下文、疾病进展和多层级视觉线索…
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 胸部X光报告生成
-  - 先验知识
-  - 对比预训练
-  - 粗到细解码
-  - 时空融合
+  - "AAAI 2026"
+  - "医学图像"
+  - "胸部X光报告生成"
+  - "先验知识"
+  - "对比预训练"
+  - "粗到细解码"
+  - "时空融合"
 ---
 
 # PriorRG: Prior-Guided Contrastive Pre-training and Coarse-to-Fine Decoding for Chest X-ray Report Generation

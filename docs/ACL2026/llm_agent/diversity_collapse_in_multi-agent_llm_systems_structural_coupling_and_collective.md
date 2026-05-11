@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation
 description: >-
-  [ACL2026][LLM Agent] 系统实证研究多智能体LLM系统中的多样性崩溃现象，揭示交互结构而非模型能力是多样性损失的根因
-tags: [多智能体系统, 多样性崩溃, 集体失败, 创意生成, 协作设计]
+  [ACL 2026 Findings][LLM Agent][多智能体系统] 本文通过评估超过 10,000 个研究提案，从模型智能、智能体认知和系统动力学三个层次系统揭示了多智能体 LLM 系统中的"多样性崩溃"现象：更强的模型、权威驱动的角色分配和密集的通信拓扑都会抑制语义多样性…
+tags:
+  - "ACL 2026 Findings"
+  - "LLM Agent"
+  - "多智能体系统"
+  - "多样性崩溃"
+  - "结构耦合"
+  - "创意生成"
+  - "协作拓扑"
 ---
 
 # Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Potential Field Based Deep Metric Learning
 description: >-
-  [CVPR 2025][深度度量学习] 提出 PFML，用物理势能场概念替代传统的 tuple mining 进行度量学习——每个样本在嵌入空间中创建连续的引力场（同类）和斥力场（异类），具有距离衰减特性（远处交互力弱），在 Cars-196 上 R@1 达 92.7%（前 SOTA 89.6%）。
+  [CVPR 2025][LLM评测][深度度量学习] 提出 PFML，用物理势能场概念替代传统的 tuple mining 进行度量学习——每个样本在嵌入空间中创建连续的引力场（同类）和斥力场（异类），具有距离衰减特性（远处交互力弱）…
 tags:
-  - CVPR 2025
-  - 深度度量学习
-  - 势能场
-  - LLM评测
-  - 衰减性质
-  - 物理启发
+  - "CVPR 2025"
+  - "LLM评测"
+  - "深度度量学习"
+  - "势能场"
+  - "代理"
+  - "衰减性质"
+  - "物理启发"
 ---
 
 # Potential Field Based Deep Metric Learning

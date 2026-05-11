@@ -1,14 +1,27 @@
 ---
 title: >-
-  ICLR2026 1534篇论文解读
+  ICLR2026 1528篇论文解读
 description: >-
-  1534篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(139篇)、模型压缩(91篇)、多模态 VLM(91篇)、医学图像(72篇)、LLM 推理(65篇)、3D 视觉(63篇)、可解释性(56篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1528篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(138篇)、模型压缩(90篇)、多模态 VLM(90篇)、医学图像(72篇)、LLM 推理(65篇)、3D 视觉(63篇)、可解释性(56篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICLR2026"
+  - "AI顶会"
+  - "论文解读"
+  - "论文笔记"
+  - "图像生成"
+  - "强化学习"
+  - "模型压缩"
+  - "多模态 VLM"
+  - "医学图像"
+  - "LLM 推理"
+  - "3D 视觉"
+  - "可解释性"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🔬 ICLR2026 论文笔记
 
-1534篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(139篇)、模型压缩(91篇)、多模态 VLM(91篇)、医学图像(72篇)、LLM 推理(65篇)、3D 视觉(63篇)、可解释性(56篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1528篇ICLR2026论文解读，涵盖图像生成(154篇)、强化学习(138篇)、模型压缩(90篇)、多模态 VLM(90篇)、医学图像(72篇)、LLM 推理(65篇)、3D 视觉(63篇)、可解释性(56篇)等 44个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -888,10 +901,6 @@ description: >-
 
 :   本文通过将Stackelberg博弈中的领导者效用空间线性化，提出了一种约简到线性上下文赌臂问题的算法，在带侧信息的赌臂反馈设置下将遗憾界从 $\tilde{O}(T^{2/3})$ 改进到近似最优的 $\tilde{O}(T^{1/2})$。
 
-**[Offline Reinforcement Learning with Generative Trajectory Policies](reinforcement_learning/offline_reinforcement_learning_with_generative_trajectory_policies.md)**
-
-:   提出 Generative Trajectory Policy (GTP)，通过学习 ODE 完整解映射统一扩散、流匹配和一致性模型，配合分数近似和值驱动引导两项关键适配技术，在 D4RL 上达到 SOTA。
-
 **[On Discovering Algorithms for Adversarial Imitation Learning](reinforcement_learning/on_discovering_algorithms_for_adversarial_imitation_learning.md)**
 
 :   提出 DAIL——首个元学习对抗性模仿学习算法：将 AIL 分解为密度比估计和奖励赋值(RA)两阶段，用 LLM 引导的进化搜索自动发现最优 RA 函数 $r_{\text{disc}}$，在未见环境和策略优化器上泛化并超越所有人工设计基线。
@@ -1311,10 +1320,6 @@ description: >-
 **[Evolution and compression in LLMs: On the emergence of human-aligned categorization](model_compression/evolution_and_compression_in_llms_on_the_emergence_of_human-aligned_categorizati.md)**
 
 :   通过 Information Bottleneck (IB) 框架和迭代上下文语言学习 (IICLL) 范式，证明 LLM 能够在未经 IB 目标训练的情况下，自发涌现出与人类语义分类系统高度对齐的、近最优压缩效率的类别结构。
-
-**[FASA: Frequency-aware Sparse Attention](model_compression/fasa_frequency-aware_sparse_attention.md)**
-
-:   发现 RoPE 注意力在频率块(FC)级别存在功能稀疏性——仅不到 1% 的"主导 FC"就能近似完整注意力头的 token 选择行为。据此设计无需训练的 FASA 框架，通过两阶段策略（主导 FC 预测 token 重要性 → 仅对重要 token 做完整注意力）实现 8× 内存压缩和 2.6× 推理加速且几乎无质量损失。
 
 **[Fine-tuning Quantized Neural Networks with Zeroth-order Optimization](model_compression/fine-tuning_quantized_neural_networks_with_zeroth-order_optimization.md)**
 
@@ -1747,10 +1752,6 @@ description: >-
 **[Modal Aphasia: Can Unified Multimodal Models Describe Images From Memory?](multimodal_vlm/modal_aphasia_can_unified_multimodal_models_describe_images_from_memory.md)**
 
 :   本文发现并系统定义"模态失语"（Modal Aphasia）现象——统一多模态模型能从记忆中近乎完美地生成视觉概念（如电影海报图像），但在文字描述同一概念时错误率高出 7 倍以上，且严重幻觉几乎只出现在文本模态；通过前沿模型（ChatGPT-5）的真实实验和开源模型（Janus-Pro、Harmon）的合成控制实验，证实模态失语是当前统一架构的系统性缺陷而非训练偶然，并展示了该现象对 AI 安全框架的潜在威胁。
-
-**[Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional](multimodal_vlm/multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md)**
-
-:   大规模实证研究揭示23个VQA基准中存在严重的单模态依赖问题——许多为消除文本偏差而设计的基准反而引入了图像偏差，模型利用单模态捷径而非真正的跨模态推理。
 
 **[Multimodal Classification via Total Correlation Maximization](multimodal_vlm/multimodal_classification_via_total_correlation_maximization.md)**
 
@@ -3816,10 +3817,6 @@ description: >-
 
 :   提出 FeatureBench——面向特征级软件开发的代码智能体评测基准，通过测试驱动的自动化流水线从开源仓库中提取可验证的 feature 实现任务，最强 Claude Opus 4.5 仅解决 11.0%，揭示当前 Agent 在复杂特征开发上的巨大差距。
 
-**[Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](llm_agent/multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)**
-
-:   深入分析多智能体系统中 prompt 和拓扑设计的影响，发现 prompt 优化是最关键的设计因素（仅优化 prompt 的单 Agent 即可超越复杂多 Agent 拓扑），提出 Mass 三阶段框架（block-level prompt → topology → workflow-level prompt）在 8 个 benchmark 上取得 SOTA。
-
 **[NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](llm_agent/newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md)**
 
 :   提出NewtonBench，一个包含12个物理领域324个任务的LLM科学法则发现基准，通过"反事实法则平移"生成可防止记忆化的新颖任务，要求智能体通过交互式实验探索发现隐藏的物理方程，发现GPT-5最佳（75.9%符号准确率）但在复杂系统中急剧退化（40.3%），且代码工具对强模型反而有负面效果。
@@ -5548,10 +5545,6 @@ description: >-
 
 :   提出 SER（Soft Equivariance Regularization），通过在 ViT 中间层施加软等变正则化、在最终层保持不变性目标的层解耦设计，在不引入额外模块的情况下，为不变性 SSL 方法（MoCo-v3, DINO, Barlow Twins）带来一致的分类精度和鲁棒性提升。
 
-**[Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability](self_supervised/spectrum_tuning_post-training_for_distributional_coverage_and_in-context_steerab.md)**
-
-:   揭示RLHF/DPO等后训练会损害模型的上下文可操控性(in-context steerability)、输出覆盖率和分布对齐，提出Spectrum Suite评测框架和Spectrum Tuning方法，首次在后训练阶段改善分布对齐能力。
-
 **[Temporal Slowness in Central Vision Drives Semantic Object Learning](self_supervised/temporal_slowness_in_central_vision_drives_semantic_object_learning.md)**
 
 :   通过模拟人类中央视觉（注视点裁剪）和时间慢性原则（时间对比学习），在 Ego4D 数据上训练 SSL 模型，发现两者组合能有效提升语义对象表征——中央视觉强化前景提取，时间慢性在注视凝视期间蒸馏语义信息。
@@ -5782,42 +5775,6 @@ description: >-
 
 ---
 
-## 🧑 人体理解 { #human_understanding }
-
-**[BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](human_understanding/bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)**
-
-:   提出首个面向视频中矛盾/犹豫（A/H）识别的多模态数据集 BAH，包含来自加拿大9省224名参与者的1,118段视频共8.26小时，由行为科学专家标注，并提供了帧级和视频级的基线实验结果。
-
-**[Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics](human_understanding/cross-domain_policy_optimization_via_bellman_consistency_and_hybrid_critics.md)**
-
-:   提出 Q Avatar 框架，通过跨域 Bellman 一致性量化源域模型可迁移性，利用自适应无超参权重函数混合源域和目标域 Q 函数，实现在状态-动作空间不同的跨域 RL 中的可靠知识迁移，无论源域模型质量或域相似性如何都能保证不产生负迁移。
-
-**[GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences](human_understanding/gaitsnippet_gait_recognition_beyond_unordered_sets_and_ordered_sequences.md)**
-
-:   提出 Snippet 范式：将步态轮廓序列组织为若干"片段"（snippet），每个 snippet 由一个连续区间内随机抽取的帧构成，兼顾短程时序上下文与长程时序依赖，在 Gait3D 上以 2D 卷积骨干达到 77.5% Rank-1，超越所有 3D 卷积方法。
-
-**[Inverse Virtual Try-On: Generating Multi-Category Product-Style Images from Clothed Individuals](human_understanding/inverse_virtual_try-on_generating_multi-category_product-style_images_from_cloth.md)**
-
-:   提出TEMU-VTOFF——面向虚拟脱衣(VTOFF)任务的Dual-DiT架构，通过特征提取器+服装生成器分工协作，结合多模态混合注意力(MHA)融合图像/文本/掩码信息消解视觉歧义，并设计DINOv2驱动的服装对齐器保留高频细节，在VITON-HD和Dress Code多品类场景均达到SOTA。
-
-**[NeuroGaze-Distill: Brain-informed Distillation and Depression-Inspired Geometric Priors for Robust Facial Emotion Recognition](human_understanding/neurogaze-distill_brain-informed_distillation_and_depression-inspired_geometric_.md)**
-
-:   提出 NeuroGaze-Distill 跨模态蒸馏框架：从 EEG 脑电训练的教师模型中提取静态 Valence-Arousal 原型，通过 Proto-KD 和抑郁症启发的几何先验（D-Geo）注入纯视觉学生模型，无需 EEG-人脸配对数据，提升表情识别的跨数据集鲁棒性。
-
-**[PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits](human_understanding/personax_multimodal_datasets_with_llm-inferred_behavior_traits.md)**
-
-:   构建了 PersonaX 多模态数据集（含 LLM 推断的 Big Five 行为特质、面部嵌入和传记元数据），并提出两层分析框架：结构化独立性检验 + 非结构化因果表示学习（带可识别性理论保证），揭示跨模态因果结构。
-
-**[QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture](human_understanding/quamo_quaternion_motion_kinematics.md)**
-
-:   QuaMo 提出基于四元数微分方程（QDE）的 3D 人体运动学捕捉方法，通过在四元数单位球面约束下求解运动学方程，并引入二阶加速度增强的 meta-PD 控制器，实现了无不连续性、低抖动的在线实时人体运动估计，在 Human3.6M 等多个数据集上超越 SOTA。
-
-**[Visual Autoregressive Modeling for Instruction-Guided Image Editing](human_understanding/visual_autoregressive_modeling_for_instruction-guided_image_editing.md)**
-
-:   VAREdit将指令引导图像编辑重构为next-scale预测问题，提出Scale-Aligned Reference (SAR)模块解决最细尺度条件与粗目标特征间的尺度不匹配，在EMU-Edit和PIE-Bench上GPT-Balance分数超越最强扩散基线64.9%和45.3%，512×512编辑仅需1.2秒。
-
----
-
 ## ✏️ 知识编辑 { #knowledge_editing }
 
 **[Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing](knowledge_editing/bilinear_representation_mitigates_reversal_curse_and_enables_consistent_model_ed.md)**
@@ -5887,6 +5844,38 @@ description: >-
 **[Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability](signal_comm/spectrum_tuning_post-training_for_distributional_coverage_and_in-context_steerab.md)**
 
 :   提出Spectrum Tuning后训练方法，通过在90+任务的分布拟合数据集上训练，改善语言模型的上下文可操控性、输出空间覆盖度和分布对齐能力，揭示当前指令调优会损害模型的上下文可操控性。
+
+---
+
+## 🧑 人体理解 { #human_understanding }
+
+**[BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](human_understanding/bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)**
+
+:   提出首个面向视频中矛盾/犹豫（A/H）识别的多模态数据集 BAH，包含来自加拿大9省224名参与者的1,118段视频共8.26小时，由行为科学专家标注，并提供了帧级和视频级的基线实验结果。
+
+**[Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics](human_understanding/cross-domain_policy_optimization_via_bellman_consistency_and_hybrid_critics.md)**
+
+:   提出 Q Avatar 框架，通过跨域 Bellman 一致性量化源域模型可迁移性，利用自适应无超参权重函数混合源域和目标域 Q 函数，实现在状态-动作空间不同的跨域 RL 中的可靠知识迁移，无论源域模型质量或域相似性如何都能保证不产生负迁移。
+
+**[GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences](human_understanding/gaitsnippet_gait_recognition_beyond_unordered_sets_and_ordered_sequences.md)**
+
+:   提出 Snippet 范式：将步态轮廓序列组织为若干"片段"（snippet），每个 snippet 由一个连续区间内随机抽取的帧构成，兼顾短程时序上下文与长程时序依赖，在 Gait3D 上以 2D 卷积骨干达到 77.5% Rank-1，超越所有 3D 卷积方法。
+
+**[Inverse Virtual Try-On: Generating Multi-Category Product-Style Images from Clothed Individuals](human_understanding/inverse_virtual_try-on_generating_multi-category_product-style_images_from_cloth.md)**
+
+:   提出TEMU-VTOFF——面向虚拟脱衣(VTOFF)任务的Dual-DiT架构，通过特征提取器+服装生成器分工协作，结合多模态混合注意力(MHA)融合图像/文本/掩码信息消解视觉歧义，并设计DINOv2驱动的服装对齐器保留高频细节，在VITON-HD和Dress Code多品类场景均达到SOTA。
+
+**[NeuroGaze-Distill: Brain-informed Distillation and Depression-Inspired Geometric Priors for Robust Facial Emotion Recognition](human_understanding/neurogaze-distill_brain-informed_distillation_and_depression-inspired_geometric_.md)**
+
+:   提出 NeuroGaze-Distill 跨模态蒸馏框架：从 EEG 脑电训练的教师模型中提取静态 Valence-Arousal 原型，通过 Proto-KD 和抑郁症启发的几何先验（D-Geo）注入纯视觉学生模型，无需 EEG-人脸配对数据，提升表情识别的跨数据集鲁棒性。
+
+**[PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits](human_understanding/personax_multimodal_datasets_with_llm-inferred_behavior_traits.md)**
+
+:   构建了 PersonaX 多模态数据集（含 LLM 推断的 Big Five 行为特质、面部嵌入和传记元数据），并提出两层分析框架：结构化独立性检验 + 非结构化因果表示学习（带可识别性理论保证），揭示跨模态因果结构。
+
+**[QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture](human_understanding/quamo_quaternion_motion_kinematics.md)**
+
+:   QuaMo 提出基于四元数微分方程（QDE）的 3D 人体运动学捕捉方法，通过在四元数单位球面约束下求解运动学方程，并引入二阶加速度增强的 meta-PD 控制器，实现了无不连续性、低抖动的在线实时人体运动估计，在 Human3.6M 等多个数据集上超越 SOTA。
 
 ---
 

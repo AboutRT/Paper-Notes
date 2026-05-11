@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models
 description: >-
-  [AAAI 2026][多模态][跨视频推理] 提出首个系统评估多模态大语言模型（MLLM）跨视频推理（Cross-Video Reasoning, CVR）能力的综合基准CrossVid，涵盖4个维度10个任务、5,331个视频和9,015个QA对，实验揭示当前最佳模型Gemini-2.5-Pro仅达50.4%准确率，远低于人类89.2%。
+  [AAAI 2026][多模态VLM][跨视频推理] 提出首个系统评估多模态大语言模型（MLLM）跨视频推理（Cross-Video Reasoning, CVR）能力的综合基准CrossVid，涵盖4个维度10个任务、5,331个视频和9,015个QA对…
 tags:
-  - AAAI 2026
-  - 多模态
-  - 多模态VLM
-  - 视频问答基准
-  - 多视频理解
-  - 多模态大语言模型评估
-  - 时空推理
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "跨视频推理"
+  - "视频问答基准"
+  - "多视频理解"
+  - "多模态大语言模型评估"
+  - "时空推理"
 ---
 
 # CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models

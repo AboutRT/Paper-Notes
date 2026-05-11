@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][图像编辑评估] 本文提出 ADIEE，一种自动化构建指令引导图像编辑评估数据集的方法，并基于超过 10 万样本微调 LLaVA-NeXT-8B 模型作为评分器，在多个基准上超越所有开源 VLM 和 Gemini-Pro 1.5，同时可作为奖励模型提升图像编辑模型性能。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 图像编辑评估
-  - 自动数据集生成
-  - VLM评分器
-  - 奖励模型
-  - 指令引导编辑
+  - "ICCV 2025"
+  - "图像生成"
+  - "图像编辑评估"
+  - "自动数据集生成"
+  - "VLM评分器"
+  - "奖励模型"
+  - "指令引导编辑"
 ---
 
 # ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation

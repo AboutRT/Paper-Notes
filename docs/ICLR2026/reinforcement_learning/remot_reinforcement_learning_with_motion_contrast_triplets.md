@@ -2,14 +2,14 @@
 title: >-
   [论文解读] ReMoT: Reinforcement Learning with Motion Contrast Triplets
 description: >-
-  [ICLR 2026][强化学习] ReMoT 提出一个统一的训练范式，通过规则驱动的运动对比三元组数据集（ReMoT-16K）和 Group Relative Policy Optimization（GRPO）组合奖励优化，系统性地提升 VLM 在时空一致性推理上的能力，在时空推理任务上实现 25.1% 的性能跃升。
+  [ICLR 2026][强化学习][视觉语言模型] ReMoT 提出一个统一的训练范式，通过规则驱动的运动对比三元组数据集（ReMoT-16K）和 Group Relative Policy Optimization（GRPO）组合奖励优化，系统性地提升 VLM 在时空一致性推理上的能力…
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 时空推理
-  - 运动对比三元组
-  - GRPO
-  - 强化学习
+  - "ICLR 2026"
+  - "强化学习"
+  - "视觉语言模型"
+  - "时空推理"
+  - "运动对比三元组"
+  - "GRPO"
 ---
 
 # ReMoT: Reinforcement Learning with Motion Contrast Triplets

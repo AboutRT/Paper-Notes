@@ -2,16 +2,16 @@
 title: >-
   [论文解读] HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles
 description: >-
-  [CVPR2026][自动驾驶][驾驶场景编辑] HorizonForge 提出一个统一框架，将驾驶场景重建为可编辑的 Gaussian Splats + Mesh 表示，通过轨迹控制实现精细 3D 操控和语言驱动的车辆插入，再经视频扩散模型渲染生成时空一致的高质量驾驶视频，在用户偏好率上以 91.02% 碾压所有对比方法。
+  [CVPR2026][自动驾驶][驾驶场景编辑] HorizonForge 提出一个统一框架，将驾驶场景重建为可编辑的 Gaussian Splats + Mesh 表示，通过轨迹控制实现精细 3D 操控和语言驱动的车辆插入，再经视频扩散模型渲染生成时空一致的高质量驾驶视频…
 tags:
-  - CVPR2026
-  - 自动驾驶
-  - 驾驶场景编辑
-  - 3D Gaussian Splatting
-  - 视频扩散模型
-  - 轨迹控制
-  - Mesh插入
-  - 多智能体仿真
+  - "CVPR2026"
+  - "自动驾驶"
+  - "驾驶场景编辑"
+  - "3D Gaussian Splatting"
+  - "视频扩散模型"
+  - "轨迹控制"
+  - "Mesh插入"
+  - "多智能体仿真"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

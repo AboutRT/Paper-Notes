@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D高斯] 提出 Spring-Gaus，将可学习的 3D 弹簧-质点模型集成到 3D Gaussian Splatting 中，从多视角视频重建弹性物体的外观、几何和物理动力学参数，支持未来预测和不同条件下的仿真。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D高斯
-  - 弹性物体
-  - 弹簧质点模型
-  - 系统辨识
-  - 物理仿真
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D高斯"
+  - "弹性物体"
+  - "弹簧质点模型"
+  - "系统辨识"
+  - "物理仿真"
 ---
 
 # Spring-Gaus: Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians

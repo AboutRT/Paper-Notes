@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators
 description: >-
-  [AAAI 2026][LLM Agent][工作流自动化] 提出 A2Flow 框架，通过三阶段流水线（案例生成→功能聚类→深度提取）从专家数据中全自动提取可复用的抽象执行算子，替代人工预定义算子，并引入算子记忆机制累积中间输出辅助节点决策，在 8 个基准上整体超越 AFLOW 等 SOTA，资源消耗降低 37%。
+  [AAAI 2026][LLM Agent][工作流自动化] 提出 A2Flow 框架，通过三阶段流水线（案例生成→功能聚类→深度提取）从专家数据中全自动提取可复用的抽象执行算子，替代人工预定义算子，并引入算子记忆机制累积中间输出辅助节点决策，在 8 个基准上整体超越 AFLOW 等 SOTA…
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - 工作流自动化
-  - 抽象算子
-  - MCTS
-  - 算子记忆机制
-  - 具身任务泛化
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "工作流自动化"
+  - "抽象算子"
+  - "MCTS"
+  - "算子记忆机制"
+  - "具身任务泛化"
 ---
 
 # A2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators

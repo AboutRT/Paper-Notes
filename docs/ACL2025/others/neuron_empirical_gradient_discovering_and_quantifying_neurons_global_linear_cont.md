@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Neuron Empirical Gradient: Discovering and Quantifying Neurons' Global Linear Controllability
 description: >-
-  [ACL 2025][其他] 揭示了预训练语言模型 FF 层神经元激活值与模型输出之间存在全局线性关系，提出了神经元经验梯度（NEG）来量化这种线性关系，并设计了高效估算方法 NeurGrad，最终通过技能神经元探测实验证明 NEG 能有效表征多种语言技能。
+  [ACL 2025][神经元可解释性] 揭示了预训练语言模型 FF 层神经元激活值与模型输出之间存在全局线性关系，提出了神经元经验梯度（NEG）来量化这种线性关系，并设计了高效估算方法 NeurGrad，最终通过技能神经元探测实验证明 NEG 能有效表征多种语言技能。
 tags:
-  - ACL 2025
-  - 其他
-  - 神经元梯度
-  - 知识归因
-  - 技能神经元
-  - 语言模型
+  - "ACL 2025"
+  - "神经元可解释性"
+  - "神经元梯度"
+  - "知识归因"
+  - "技能神经元"
+  - "语言模型"
 ---
 
 # Neuron Empirical Gradient: Discovering and Quantifying Neurons' Global Linear Controllability

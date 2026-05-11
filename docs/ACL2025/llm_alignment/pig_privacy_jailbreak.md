@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][privacy jailbreak] 提出 PIG 框架，通过识别隐私查询中的 PII 实体类型、构建隐私上下文示例、并利用三种基于梯度的迭代优化策略更新上下文，实现对 LLM 的高效隐私越狱攻击，在白盒和黑盒模型上均达到 SOTA。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - privacy jailbreak
-  - PII extraction
-  - in-context learning
-  - gradient-based optimization
-  - LLM safety
+  - "ACL 2025"
+  - "LLM对齐"
+  - "privacy jailbreak"
+  - "PII extraction"
+  - "in-context learning"
+  - "gradient-based optimization"
+  - "LLM safety"
 ---
 
 # PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative Prompts

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][时序融合] 提出 GDFusion，将 RNN 重新解释为梯度下降步骤，统一三种时序线索（场景级/运动/几何）的融合方式，在 Occ3D 上比非时序基线提升 1.4-4.8% mIoU 同时减少 27-72% 推理内存，比 SOLOFusion 等多帧方法更高效。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 时序融合
-  - 梯度下降
-  - RNN重释
-  - 3D语义占用
-  - 内存高效
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "时序融合"
+  - "梯度下降"
+  - "RNN重释"
+  - "3D语义占用"
+  - "内存高效"
 ---
 
 # GDFusion: Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction

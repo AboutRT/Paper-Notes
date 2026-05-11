@@ -2,16 +2,16 @@
 title: >-
   [论文解读] MARTEN: Visual Question Answering with Mask Generation for Multi-Modal Document Understanding
 description: >-
-  [CVPR 2025][多模态][文档理解] 提出VQAMask预训练范式，在VQA文本解析基础上引入辅助的Mask生成任务（推理时丢弃），通过显式的空间对齐监督增强视觉编码器对文档图像中文字区域的感知能力，建立Marten模型在多项文档理解任务上达到8B级MLLM的SOTA。
+  [CVPR 2025][多模态VLM][文档理解] 提出VQAMask预训练范式，在VQA文本解析基础上引入辅助的Mask生成任务（推理时丢弃），通过显式的空间对齐监督增强视觉编码器对文档图像中文字区域的感知能力，建立Marten模型在多项文档理解任务上达到8B级MLLM的SOTA。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 文档理解
-  - VQAMask
-  - 多模态VLM
-  - Mask生成
-  - OCR
-  - 视觉文本识别
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "文档理解"
+  - "VQAMask"
+  - "空间感知对齐"
+  - "Mask生成"
+  - "OCR"
+  - "视觉文本识别"
 ---
 
 # MARTEN: Visual Question Answering with Mask Generation for Multi-Modal Document Understanding

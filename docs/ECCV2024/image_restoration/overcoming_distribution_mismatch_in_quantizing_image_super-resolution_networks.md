@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks
 description: >-
-  [ECCV 2024][图像恢复][超分辨率] 本文提出 ODM 框架，通过协同失配正则化（cooperative mismatch regularization）和逐层权重裁剪校正（weight clipping correction）两个简单策略，在不引入推理时动态模块的前提下解决 SR 网络量化中的分布失配问题，以极小的额外开销达到 SOTA。
+  [ECCV 2024][图像恢复][超分辨率] 本文提出 ODM 框架，通过协同失配正则化（cooperative mismatch regularization）和逐层权重裁剪校正（weight clipping correction）两个简单策略…
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 超分辨率
-  - 图像复原
-  - distribution mismatch
-  - gradient conflict
+  - "ECCV 2024"
+  - "图像恢复"
+  - "超分辨率"
+  - "量化"
+  - "distribution mismatch"
+  - "gradient conflict"
 ---
 
 # Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Writing Like the Best: Exemplar-Based Expository Text Generation
 description: >-
-  [ACL 2025][文本生成][范例驱动生成] 定义"基于范例的说明文生成"新任务——给定一篇关于源主题的范例文本，生成关于目标主题的说明文，提出 Recurrent Plan-then-Adapt（RePA）框架，通过逐段模仿规划+检索增强自适应生成+双记忆机制，在 Wikipedia/RoleEE/USNews 三个数据集上显著优于 GPT-4 和 o1 基线。
+  [ACL 2025][LLM/NLP][范例驱动生成] 定义"基于范例的说明文生成"新任务——给定一篇关于源主题的范例文本，生成关于目标主题的说明文，提出 Recurrent Plan-then-Adapt（RePA）框架，通过逐段模仿规划+检索增强自适应生成+双记忆机制…
 tags:
-  - ACL 2025
-  - 文本生成
-  - 范例驱动生成
-  - 说明文生成
-  - 自适应模仿
-  - 长文本生成
-  - 检索增强
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "范例驱动生成"
+  - "说明文生成"
+  - "自适应模仿"
+  - "长文本生成"
+  - "检索增强"
 ---
 
 # Writing Like the Best: Exemplar-Based Expository Text Generation

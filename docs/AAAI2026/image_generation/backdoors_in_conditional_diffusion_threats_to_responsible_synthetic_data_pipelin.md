@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][backdoor attack] 揭示了 ControlNet 条件分支的后门攻击漏洞：仅需 1–5% 的投毒数据即可在不修改扩散主干的前提下植入后门，触发时无视文本 prompt 生成攻击者指定内容，并提出 clean fine-tuning (CFT) 作为实用防御。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - backdoor attack
-  - ControlNet
-  - 扩散模型
-  - data poisoning
-  - supply-chain security
-  - clean fine-tuning
+  - "AAAI 2026"
+  - "图像生成"
+  - "backdoor attack"
+  - "ControlNet"
+  - "扩散模型"
+  - "data poisoning"
+  - "supply-chain security"
+  - "clean fine-tuning"
 ---
 
 # Backdoors in Conditional Diffusion: Threats to Responsible Synthetic Data Pipelines

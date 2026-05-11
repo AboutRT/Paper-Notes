@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][人体重建] 提出 ReLoo，通过分层神经人体表示和非层级虚拟骨骼变形模块，从单目野外视频中重建穿着宽松服装的高质量3D人体模型。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 人体重建
-  - 宽松服装
-  - 虚拟骨骼
-  - 分层神经表示
-  - 单目视频
+  - "ECCV 2024"
+  - "人体理解"
+  - "人体重建"
+  - "宽松服装"
+  - "虚拟骨骼"
+  - "分层神经表示"
+  - "单目视频"
 ---
 
 # ReLoo: Reconstructing Humans Dressed in Loose Garments from Monocular Video in the Wild

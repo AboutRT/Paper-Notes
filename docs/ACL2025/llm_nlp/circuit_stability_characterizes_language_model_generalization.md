@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][电路稳定性] 本文提出"电路稳定性"作为评估语言模型泛化能力的新方法，通过数学形式化定义软电路和电路等价性，在算术推理、布尔表达式和体育理解三个案例研究中证明电路稳定性可以预测和刻画泛化行为。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 电路稳定性
-  - 机制可解释性
-  - 泛化性
-  - 软电路
-  - 持久同调
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "电路稳定性"
+  - "机制可解释性"
+  - "泛化性"
+  - "软电路"
+  - "持久同调"
 ---
 
 # Circuit Stability Characterizes Language Model Generalization

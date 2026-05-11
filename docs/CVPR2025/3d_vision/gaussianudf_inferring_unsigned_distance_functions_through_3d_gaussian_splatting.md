@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][无符号距离函数] 本文提出 GaussianUDF，通过将 2D 高斯平面贴合到曲面上，利用自监督和梯度推断为近场和远场分别提供无符号距离监督，首次在 3DGS 框架内高效推断连续 UDF，实现高质量开放曲面重建。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 无符号距离函数
-  - 3D高斯溅射
-  - 开放曲面重建
-  - 2D高斯
-  - 自监督
+  - "CVPR 2025"
+  - "3D视觉"
+  - "无符号距离函数"
+  - "3D高斯溅射"
+  - "开放曲面重建"
+  - "2D高斯"
+  - "自监督"
 ---
 
 # GaussianUDF: Inferring Unsigned Distance Functions through 3D Gaussian Splatting

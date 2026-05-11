@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][触觉感知] 提出 Touch2Shape，利用触觉条件扩散模型在低维隐空间中生成紧凑的形状表示，结合强化学习训练触摸探索策略，实现了基于触觉图像的3D形状主动探索与重建，无需每步生成完整形状即可指导下一次触摸位置。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 触觉感知
-  - 3D重建
-  - 扩散模型
-  - 强化学习
-  - 主动探索
+  - "CVPR 2025"
+  - "3D视觉"
+  - "触觉感知"
+  - "3D重建"
+  - "扩散模型"
+  - "强化学习"
+  - "主动探索"
 ---
 
 # Touch2Shape: Touch-Conditioned 3D Diffusion for Shape Exploration and Reconstruction

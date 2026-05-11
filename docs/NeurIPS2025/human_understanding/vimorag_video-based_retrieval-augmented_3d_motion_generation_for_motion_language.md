@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][人体理解][动作生成] 提出 VimoRAG 框架，利用大规模野外视频数据库作为2D运动先验来增强3D运动生成，通过 Gemini-MVR 检索器和 McDPO 训练策略解决人体动作视频检索和错误传播两大瓶颈。
 tags:
-  - NeurIPS 2025
-  - 人体理解
-  - 动作生成
-  - 检索增强生成
-  - 视频先验
-  - 运动语言模型
-  - DPO
+  - "NeurIPS 2025"
+  - "人体理解"
+  - "动作生成"
+  - "检索增强生成"
+  - "视频先验"
+  - "运动语言模型"
+  - "DPO"
 ---
 
 # VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models

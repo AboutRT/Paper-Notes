@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Online Sparsification of Bipartite-Like Clusters in Graphs
 description: >-
-  [ICML 2025][其他][图稀疏化] 提出了一种**近线性时间的在线图稀疏化算法**，能在保留图的二部图式聚类（bipartite-like clusters）结构的前提下，将边数压缩到 $\widetilde{O}(n)$，同时适用于无向图和有向图，显著加速现有聚类算法。
+  [ICML 2025][图稀疏化] 提出了一种**近线性时间的在线图稀疏化算法**，能在保留图的二部图式聚类（bipartite-like clusters）结构的前提下，将边数压缩到 $\widetilde{O}(n)$，同时适用于无向图和有向图，显著加速现有聚类算法。
 tags:
-  - ICML 2025
-  - 其他
-  - 图稀疏化
-  - 二部图聚类
-  - 在线算法
-  - 谱方法
-  - 有向图
+  - "ICML 2025"
+  - "图稀疏化"
+  - "二部图聚类"
+  - "在线算法"
+  - "谱方法"
+  - "有向图"
 ---
 
 # Online Sparsification of Bipartite-Like Clusters in Graphs

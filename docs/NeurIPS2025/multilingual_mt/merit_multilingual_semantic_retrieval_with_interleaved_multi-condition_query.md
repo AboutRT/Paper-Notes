@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MERIT: Multilingual Semantic Retrieval with Interleaved Multi-Condition Query
 description: >-
-  [NeurIPS 2025][interleaved retrieval] 提出首个多语言交错多条件语义检索数据集 MERIT（320K queries, 135K products, 5种语言, 7大品类），揭示现有检索模型仅关注全局语义而忽略条件细节的瓶颈，并设计 Coral 微调框架通过嵌入重建+对比学习将检索性能提升 45.9%。
+  [NeurIPS 2025][多语言/翻译][interleaved retrieval] 提出首个多语言交错多条件语义检索数据集 MERIT（320K queries, 135K products, 5种语言, 7大品类），揭示现有检索模型仅关注全局语义而忽略条件细节的瓶颈…
 tags:
-  - NeurIPS 2025
-  - 多语言翻译
-  - multilingual
-  - multi-condition query
-  - 对比学习
-  - embedding reconstruction
+  - "NeurIPS 2025"
+  - "多语言/翻译"
+  - "interleaved retrieval"
+  - "multilingual"
+  - "multi-condition query"
+  - "对比学习"
+  - "embedding reconstruction"
 ---
 
 # MERIT: Multilingual Semantic Retrieval with Interleaved Multi-Condition Query

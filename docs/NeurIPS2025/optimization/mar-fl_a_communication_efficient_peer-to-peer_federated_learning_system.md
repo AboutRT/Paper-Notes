@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MAR-FL: A Communication Efficient Peer-to-Peer Federated Learning System
 description: >-
-  [NeurIPS 2025][优化][联邦学习] 提出 MAR-FL 系统，通过 Moshpit All-Reduce 机制和动态分组聚合，将 P2P 联邦学习的通信复杂度从 $O(N^2)$ 降至 $O(N \log N)$，同时保持对网络抖动的鲁棒性。
+  [NeurIPS 2025][优化/理论][联邦学习] 提出 MAR-FL 系统，通过 Moshpit All-Reduce 机制和动态分组聚合，将 P2P 联邦学习的通信复杂度从 $O(N^2)$ 降至 $O(N \log N)$，同时保持对网络抖动的鲁棒性。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 联邦学习
-  - P2P通信
-  - Moshpit All-Reduce
-  - 差分隐私
-  - 知识蒸馏
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "联邦学习"
+  - "P2P通信"
+  - "Moshpit All-Reduce"
+  - "差分隐私"
+  - "知识蒸馏"
 ---
 
 # MAR-FL: A Communication Efficient Peer-to-Peer Federated Learning System
@@ -95,7 +95,7 @@ tags:
 ### 关键发现
 
 - 通信效率相比 RDFL 提升 10 倍（$O(N\log N)$ vs $O(N^2)$）
-- 50% 参与率下性能下降 <5%，展现对部分参与的鲁棒性
+- 50% 参与率下性能下降 &lt;5%，展现对部分参与的鲁棒性
 - DP-MAR-FL 与中心化 FedAvg 展现相同 DP-效用权衡曲线
 - MKD 将收敛通信量再减少 56%
 
@@ -108,7 +108,7 @@ tags:
 ## 局限与展望
 
 - 相比中心化 FedAvg 仍有性能缺口（虽然相对 P2P baseline 优势明显）
-- 参与率 <50% 时性能明显下降
+- 参与率 &lt;50% 时性能明显下降
 - 实验仅在 MNIST/20NG 评估，真实无线网络部署未模拟
 
 ## 相关工作与启发

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment
 description: >-
-  [ICLR 2026 (Oral)][图像质量评估] 通过系统实验揭示了 RL 训练的推理型 IQA 模型泛化能力的本质机制——推理过程本质上是将冗余的视觉表示转换为紧凑的跨域对齐文本表示——并基于此提出 RALI 算法，通过对比学习直接对齐图像与这些文本表示，以不到 5% 的参数和推理时间达到了可比的泛化性能。
+  [ICLR 2026 (Oral)][强化学习][图像质量评估] 通过系统实验揭示了 RL 训练的推理型 IQA 模型泛化能力的本质机制——推理过程本质上是将冗余的视觉表示转换为紧凑的跨域对齐文本表示——并基于此提出 RALI 算法，通过对比学习直接对齐图像与这些文本表示…
 tags:
-  - ICLR 2026 (Oral)
-  - 强化学习
-  - 强化学习
-  - 推理即表示
-  - 对比学习
-  - 跨域泛化
+  - "ICLR 2026 (Oral)"
+  - "强化学习"
+  - "图像质量评估"
+  - "推理即表示"
+  - "对比学习"
+  - "跨域泛化"
 ---
 
 # Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment
@@ -88,7 +88,7 @@ tags:
 | 方法 | 泛化性能 | 模型参数 | 推理时间 | 说明 |
 |------|---------|---------|---------|------|
 | RL-推理型 MLLM | SOTA | 100% | 100% | 完整模型 + 推理 |
-| RALI | **可比** | **<5%** | **<5%** | 仅视觉编码器 |
+| RALI | **可比** | **&lt;5%** | **&lt;5%** | 仅视觉编码器 |
 | 传统 IQA | 较差 | 小 | 快 | 泛化不足 |
 | 非推理型 MLLM | 中等 | 大 | 中 | 缺乏跨域对齐 |
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences
 description: >-
-  [ICLR2026][人体理解][gait recognition] 提出 Snippet 范式：将步态轮廓序列组织为若干"片段"（snippet），每个 snippet 由一个连续区间内随机抽取的帧构成，兼顾短程时序上下文与长程时序依赖，在 Gait3D 上以 2D 卷积骨干达到 77.5% Rank-1，超越所有 3D 卷积方法。
+  [ICLR2026][人体理解][gait recognition] 提出 Snippet 范式：将步态轮廓序列组织为若干"片段"（snippet），每个 snippet 由一个连续区间内随机抽取的帧构成，兼顾短程时序上下文与长程时序依赖，在 Gait3D 上以 2D 卷积骨干达到 77.5% Rank-1…
 tags:
-  - ICLR2026
-  - 人体理解
-  - gait recognition
-  - snippet paradigm
-  - temporal modeling
-  - silhouette
-  - 2D convolution
+  - "ICLR2026"
+  - "人体理解"
+  - "gait recognition"
+  - "snippet paradigm"
+  - "temporal modeling"
+  - "silhouette"
+  - "2D convolution"
 ---
 
 # GaitSnippet: Gait Recognition Beyond Unordered Sets and Ordered Sequences

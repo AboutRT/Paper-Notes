@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System
 description: >-
-  [ACL 2025][LLM/NLP][科学发现] 提出 VirSci 多 agent 系统，用真实科学家数据构建虚拟科研生态，通过 5 步协作流程和创新的组间+组内讨论机制生成科学 idea，在新颖性和潜在影响力上显著超越单 agent 系统。
+  [ACL 2025][LLM / NLP][科学发现] 提出 VirSci 多 agent 系统，用真实科学家数据构建虚拟科研生态，通过 5 步协作流程和创新的组间+组内讨论机制生成科学 idea，在新颖性和潜在影响力上显著超越单 agent 系统。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 科学发现
-  - 多agent系统
-  - idea生成
-  - 科学协作
-  - LLM Agent
+  - "ACL 2025"
+  - "LLM / NLP"
+  - "科学发现"
+  - "多agent系统"
+  - "idea生成"
+  - "科学协作"
+  - "LLM Agent"
 ---
 
 # Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models
 description: >-
-  [ICLR 2026][模型压缩][基准评估] 提出BeyondBench评估框架，通过算法化动态生成数学问题（44个任务/117个变体/3个难度级别），确保每次测试不被训练数据污染，评估了101个语言模型（0.5B-141B参数），发现即使最强模型在Hard Suite上也仅达56%准确率，且不使用工具时性能大幅下降。
+  [ICLR 2026][模型压缩][基准评估] 提出BeyondBench评估框架，通过算法化动态生成数学问题（44个任务/117个变体/3个难度级别），确保每次测试不被训练数据污染，评估了101个语言模型（0.5B-141B参数），发现即使最强模型在Hard Suite上也仅达56%准确率…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 基准评估
-  - 数据污染
-  - 推理能力
-  - 算法题生成
-  - NP完全问题
+  - "ICLR 2026"
+  - "模型压缩"
+  - "基准评估"
+  - "数据污染"
+  - "推理能力"
+  - "算法题生成"
+  - "NP完全问题"
 ---
 
 # BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models

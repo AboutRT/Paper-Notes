@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Beyond Single-Sample: Reliable Multi-Sample Distillation for Video Understanding
 description: >-
-  [CVPR2026][视频理解][知识蒸馏] 揭示视频 LVLM 黑盒蒸馏中单样本 teacher 响应存在严重不可靠性（跨问题方差 σ=0.22、采样内方差 σ=0.07~0.15、格式违规 1%~10%），提出 R-MSD 框架通过多样本 teacher pool + 任务自适应匹配 + 两阶段 SFT→RL 对抗蒸馏解决该问题，4B student 在 VideoMME/Video-MMMU/WorldSense 上全面超越同规模 Qwen3-VL-4B。
+  [CVPR2026][视频理解][知识蒸馏] 揭示视频 LVLM 黑盒蒸馏中单样本 teacher 响应存在严重不可靠性（跨问题方差 σ=0.22、采样内方差 σ=0.07~0.15、格式违规 1%~10%）…
 tags:
-  - CVPR2026
-  - 视频理解
-  - 知识蒸馏
-  - 黑盒蒸馏
-  - 视频LVLM
-  - 多样本采样
-  - 强化学习对抗蒸馏
-  - teacher可靠性
+  - "CVPR2026"
+  - "视频理解"
+  - "知识蒸馏"
+  - "黑盒蒸馏"
+  - "视频LVLM"
+  - "多样本采样"
+  - "强化学习对抗蒸馏"
+  - "teacher可靠性"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

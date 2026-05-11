@@ -2,15 +2,15 @@
 title: >-
   [论文解读] F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning
 description: >-
-  [NeurIPS 2025][科学计算][参数高效微调] 本文首次系统研究了科学机器学习中预训练大型算子模型(LOM)的参数高效微调(PEFT)，发现 LoRA 在傅里叶层中存在深度放大的近似误差下界，而 Adapter 保留了通用逼近能力；据此提出频率自适应 Adapter（F-Adapter），按频谱能量分配 Adapter 容量，在 3D Navier-Stokes 预测任务上仅调参不到 2% 即达到 SOTA。
+  [NeurIPS 2025][科学计算][参数高效微调] 本文首次系统研究了科学机器学习中预训练大型算子模型(LOM)的参数高效微调(PEFT)，发现 LoRA 在傅里叶层中存在深度放大的近似误差下界，而 Adapter 保留了通用逼近能力；据此提出频率自适应 Adapter（F-Adapter）…
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - 参数高效微调
-  - 傅里叶神经算子
-  - 频率自适应
-  - 科学机器学习
-  - 大型算子模型
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "参数高效微调"
+  - "傅里叶神经算子"
+  - "频率自适应"
+  - "科学机器学习"
+  - "大型算子模型"
 ---
 
 # F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning

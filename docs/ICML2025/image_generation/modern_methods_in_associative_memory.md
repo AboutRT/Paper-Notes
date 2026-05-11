@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Modern Methods in Associative Memory
 description: >-
-  [ICML2025][图像生成][Associative Memory] IBM&MIT团队的系统性教程，将Dense Associative Memory (DenseAM)从经典Hopfield网络扩展到现代AI架构，通过能量函数统一框架揭示AM与Transformer注意力、扩散模型的深层联系，并附带数学推导和编程练习。
+  [ICML2025][图像生成][Associative Memory] IBM&MIT团队的系统性教程，将Dense Associative Memory (DenseAM)从经典Hopfield网络扩展到现代AI架构，通过能量函数统一框架揭示AM与Transformer注意力、扩散模型的深层联系…
 tags:
-  - ICML2025
-  - 图像生成
-  - Associative Memory
-  - Hopfield Network
-  - Dense Associative Memory
-  - Energy-based Model
-  - Transformer
+  - "ICML2025"
+  - "图像生成"
+  - "Associative Memory"
+  - "Hopfield Network"
+  - "Dense Associative Memory"
+  - "Energy-based Model"
+  - "Transformer"
 ---
 
 # Modern Methods in Associative Memory

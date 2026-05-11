@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][AI安全][UAP] 提出 PSP-UAP，一种无需训练数据的通用对抗扰动生成方法，通过从 UAP 自身提取伪语义先验、输入变换增强和样本重加权策略，在白盒平均 89.95% 愚弄率、黑盒也大幅超越现有方法，且无需任何训练数据。
 tags:
-  - CVPR 2025
-  - AI安全
-  - UAP
-  - adversarial perturbation
-  - data-free
-  - pseudo-semantic
-  - transferability
+  - "CVPR 2025"
+  - "AI安全"
+  - "UAP"
+  - "adversarial perturbation"
+  - "data-free"
+  - "pseudo-semantic"
+  - "transferability"
 ---
 
 # Data-free Universal Adversarial Perturbation with Pseudo-Semantic Prior

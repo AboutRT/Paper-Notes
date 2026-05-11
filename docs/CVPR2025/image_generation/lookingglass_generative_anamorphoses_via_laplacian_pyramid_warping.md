@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping
 description: >-
-  [CVPR 2025 (Oral)][图像生成][变形画] 本文提出LookingGlass方法，通过拉普拉斯金字塔扭曲（Laplacian Pyramid Warping）技术，将Visual Anagrams框架扩展到潜空间整流流模型和更广泛的空间变换类型，生成从正常视角和特定折射/反射视角看都有意义的变形画（Anamorphosis）图像。
+  [CVPR 2025 (Oral)][图像生成][变形画] 本文提出LookingGlass方法，通过拉普拉斯金字塔扭曲（Laplacian Pyramid Warping）技术，将Visual Anagrams框架扩展到潜空间整流流模型和更广泛的空间变换类型…
 tags:
-  - CVPR 2025 (Oral)
-  - 图像生成
-  - 变形画
-  - 拉普拉斯金字塔
-  - 图像扭曲
-  - 视觉错觉
-  - 扩散模型
+  - "CVPR 2025 (Oral)"
+  - "图像生成"
+  - "变形画"
+  - "拉普拉斯金字塔"
+  - "图像扭曲"
+  - "视觉错觉"
+  - "扩散模型"
 ---
 
 # LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping

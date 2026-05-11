@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][Transformer] 揭示了Transformer注意力层本质上等价于完全图上的图神经扩散过程，并基于二阶波动方程提出Wavy Transformer，通过能量守恒特性缓解深层Transformer的过平滑问题，在NLP、CV和稀疏图任务上均取得一致性提升。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - Transformer
-  - 过平滑
-  - 波动方程
-  - 图神经扩散
-  - 注意力机制
-  - 物理启发
+  - "NeurIPS 2025"
+  - "图学习"
+  - "Transformer"
+  - "过平滑"
+  - "波动方程"
+  - "图神经扩散"
+  - "注意力机制"
+  - "物理启发"
 ---
 
 # Wavy Transformer

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][流匹配反演] 针对基于 Flow Transformer (MM-DiT) 的无训练图像编辑，提出两阶段流反演方法（固定点迭代+速度补偿）和基于自适应层归一化（AdaLN）的不变性控制机制，统一支持刚性和非刚性编辑。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 流匹配反演
-  - 图像编辑
-  - MM-DiT
-  - 不变性控制
-  - AdaLN
+  - "CVPR 2025"
+  - "图像生成"
+  - "流匹配反演"
+  - "图像编辑"
+  - "MM-DiT"
+  - "不变性控制"
+  - "AdaLN"
 ---
 
 # Unveil Inversion and Invariance in Flow Transformer for Versatile Image Editing

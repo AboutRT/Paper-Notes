@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Private Evolution Converges
 description: >-
-  [NeurIPS 2025][其他] 为Private Evolution（PE）合成数据生成算法提供了首个不依赖不现实假设的收敛性理论保证，证明在正确的超参数设置下PE输出的 $(ε,δ)$-DP 合成数据集的1-Wasserstein距离为 $\tilde{O}(d(nε)^{-1/d})$。
+  [NeurIPS 2025][差分隐私] 为Private Evolution（PE）合成数据生成算法提供了首个不依赖不现实假设的收敛性理论保证，证明在正确的超参数设置下PE输出的 $(ε,δ)$-DP 合成数据集的1-Wasserstein距离为 $\tilde{O}(d(nε)^{-1/d})$。
 tags:
-  - NeurIPS 2025
-  - 其他
-  - 合成数据
-  - Private Evolution
-  - Wasserstein距离
-  - 收敛性分析
+  - "NeurIPS 2025"
+  - "差分隐私"
+  - "合成数据"
+  - "Private Evolution"
+  - "Wasserstein距离"
+  - "收敛性分析"
 ---
 
 # Private Evolution Converges

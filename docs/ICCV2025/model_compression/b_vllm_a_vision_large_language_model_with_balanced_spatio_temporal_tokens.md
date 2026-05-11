@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][video LLM] 提出B-VLLM框架，通过文本条件自适应帧选择、时间帧token合并和空间token采样三个模块，在VLLM上下文窗口限制内动态平衡视频的时空token，解决均匀采样忽略时间动态和每帧token减少丢失空间细节的困境，在MVBench上提升10%。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - video LLM
-  - spatio-temporal balance
-  - frame selection
-  - token merging
-  - adaptive token sampling
+  - "ICCV 2025"
+  - "模型压缩"
+  - "video LLM"
+  - "spatio-temporal balance"
+  - "frame selection"
+  - "token merging"
+  - "adaptive token sampling"
 ---
 
 # B-VLLM: A Vision Large Language Model with Balanced Spatio-Temporal Tokens

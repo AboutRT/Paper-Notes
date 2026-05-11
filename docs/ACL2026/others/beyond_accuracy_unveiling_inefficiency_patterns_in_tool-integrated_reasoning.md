@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning
 description: >-
-  [ACL 2026][其他] 提出 PTE（Prefill Token Equivalents），一个基于硬件感知的工具集成推理效率度量指标，统一了内部推理和外部工具使用的成本，并通过大规模实验揭示了四种 TIR 低效模式：确认性工具使用、工具混合、缺乏工具先验和工具格式崩溃。
+  [ACL 2026][工具集成推理] 提出 PTE（Prefill Token Equivalents），一个基于硬件感知的工具集成推理效率度量指标，统一了内部推理和外部工具使用的成本，并通过大规模实验揭示了四种 TIR 低效模式：确认性工具使用、工具混合、缺乏工具先验和工具格式崩溃。
 tags:
-  - ACL 2026
-  - 其他
-  - 效率指标
-  - KV-Cache
-  - 预填充-解码不对称
-  - 推理模式
+  - "ACL 2026"
+  - "工具集成推理"
+  - "效率指标"
+  - "KV-Cache"
+  - "预填充-解码不对称"
+  - "推理模式"
 ---
 
 # Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning

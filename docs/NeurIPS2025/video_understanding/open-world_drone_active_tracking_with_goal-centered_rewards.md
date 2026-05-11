@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][Drone Active Tracking] 提出首个开放世界无人机主动跟踪基准 DAT（24 个城市级场景、高保真动力学仿真），以及基于目标中心奖励函数和课程学习的强化学习跟踪方法 GC-VAT，在仿真器上达到约 72% 的跟踪成功率。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - Drone Active Tracking
-  - 强化学习
-  - Goal-Centered Reward
-  - Curriculum Learning
-  - Open-World Benchmark
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "Drone Active Tracking"
+  - "强化学习"
+  - "Goal-Centered Reward"
+  - "Curriculum Learning"
+  - "Open-World Benchmark"
 ---
 
 # Open-World Drone Active Tracking with Goal-Centered Rewards

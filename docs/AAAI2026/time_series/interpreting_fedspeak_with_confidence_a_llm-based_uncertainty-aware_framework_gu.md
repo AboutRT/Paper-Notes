@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths
 description: >-
-  [AAAI2026][时间序列][Fedspeak] 提出基于 LLM 的 uncertainty-aware 框架解读 Fedspeak（美联储语言）：通过货币政策传导路径的领域推理增强输入，引入 dynamic uncertainty decoding 模块量化预测置信度（Perceptual Uncertainty = Environmental Ambiguity × Cognitive Risk），在 FOMC 政策立场分析任务上达到 SOTA。
+  [AAAI2026][时间序列][Fedspeak] 提出基于 LLM 的 uncertainty-aware 框架解读 Fedspeak（美联储语言）：通过货币政策传导路径的领域推理增强输入…
 tags:
-  - AAAI2026
-  - 时间序列
-  - Fedspeak
-  - monetary policy stance
-  - LLM
-  - uncertainty quantification
-  - financial sentiment analysis
+  - "AAAI2026"
+  - "时间序列"
+  - "Fedspeak"
+  - "monetary policy stance"
+  - "LLM"
+  - "uncertainty quantification"
+  - "financial sentiment analysis"
 ---
 
 # Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths

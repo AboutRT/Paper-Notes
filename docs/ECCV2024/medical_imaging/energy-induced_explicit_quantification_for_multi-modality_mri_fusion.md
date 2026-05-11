@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][多模态MRI融合] 提出能量引导的显式传播与对齐框架E²PA，通过能量引导的层级融合（EHF）和能量正则化的空间对齐（ESA）两个模块，显式量化并优化多模态MRI融合中的模态间依赖传播和信息流一致性，在三个公开数据集上超越SOTA。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 多模态MRI融合
-  - 能量引导
-  - 显式量化
-  - 层级融合
-  - 空间对齐
+  - "ECCV 2024"
+  - "医学图像"
+  - "多模态MRI融合"
+  - "能量引导"
+  - "显式量化"
+  - "层级融合"
+  - "空间对齐"
 ---
 
 # Energy-induced Explicit Quantification for Multi-modality MRI Fusion

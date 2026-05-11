@@ -2,16 +2,16 @@
 title: >-
   [论文解读] No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes
 description: >-
-  [ICLR 2026][LLM推理][线性探针] 在 LLM 生成答案之前，仅从问题处理后的残差流激活中训练线性探针（difference-of-means），即可预测模型即将生成的答案是否正确。该"提前正确性方向"在 TriviaQA 上训练后可跨域泛化到多个事实知识数据集（AUROC 0.68-0.88），但无法泛化到数学推理（GSM8K），揭示了"事实正确性"与"推理正确性"在模型内部表征中的结构性分离。
+  [ICLR 2026][LLM推理][线性探针] 在 LLM 生成答案之前，仅从问题处理后的残差流激活中训练线性探针（difference-of-means），即可预测模型即将生成的答案是否正确。该"提前正确性方向"在 TriviaQA 上训练后可跨域泛化到多个事实知识数据集（AUROC 0.68-0.88）…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 线性探针
-  - 正确性方向
-  - LLM内部表征
-  - 自我评估
-  - 线性表征假说
-  - 置信度
+  - "ICLR 2026"
+  - "LLM推理"
+  - "线性探针"
+  - "正确性方向"
+  - "LLM内部表征"
+  - "自我评估"
+  - "线性表征假说"
+  - "置信度"
 ---
 
 # No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes
@@ -79,7 +79,7 @@ $$\text{score}(h) = \frac{(h - \mu)^\top w}{\|w\|}$$
 
 ### 关键设计
 
-- **训练极其高效**：单次计算 $d$ 维均值向量，CPU 上 <3 分钟
+- **训练极其高效**：单次计算 $d$ 维均值向量，CPU 上 &lt;3 分钟
 - **不使用 sigmoid 或阈值**：保持为纯分数，用 AUROC 评估
 - **3-shot prompting**：减少格式错误，few-shot 示例对性能无显著影响
 

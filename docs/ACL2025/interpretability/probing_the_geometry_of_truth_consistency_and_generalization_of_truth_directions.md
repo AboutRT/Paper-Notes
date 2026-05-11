@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Probing the Geometry of Truth: Consistency and Generalization of Truth Directions
 description: >-
-  [ACL 2025][真值方向] 系统性研究LLM内部"真值方向"(truth direction)的一致性与泛化能力，发现只有能力较强的模型才稳定展现一致的真值方向，且基于简单原子陈述训练的真实性探针可泛化至逻辑变换、问答任务和上下文知识场景。
+  [ACL 2025][可解释性][真值方向] 系统性研究LLM内部"真值方向"(truth direction)的一致性与泛化能力，发现只有能力较强的模型才稳定展现一致的真值方向，且基于简单原子陈述训练的真实性探针可泛化至逻辑变换、问答任务和上下文知识场景。
 tags:
-  - ACL 2025
-  - 真值方向
-  - 真实性探测
-  - 可解释性
-  - 线性探针
-  - 泛化性
+  - "ACL 2025"
+  - "可解释性"
+  - "真值方向"
+  - "真实性探测"
+  - "LLM内部表征"
+  - "线性探针"
+  - "泛化性"
 ---
 
 # Probing the Geometry of Truth: Consistency and Generalization of Truth Directions

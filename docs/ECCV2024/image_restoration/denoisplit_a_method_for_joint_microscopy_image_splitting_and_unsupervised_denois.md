@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DenoiSplit: A Method for Joint Microscopy Image Splitting and Unsupervised Denoising
 description: >-
-  [ECCV 2024][图像恢复][图像分解] 提出 DenoiSplit，首个将语义图像分解（image splitting）和无监督去噪（unsupervised denoising）联合解决的方法，通过在层次化 VAE 中整合像素噪声模型和改进的 KL 散度损失加权策略，在荧光显微镜图像上实现了端到端的去噪+分解，性能显著优于先去噪再分解的串行方案。
+  [ECCV 2024][图像恢复][图像分解] 提出 DenoiSplit，首个将语义图像分解（image splitting）和无监督去噪（unsupervised denoising）联合解决的方法，通过在层次化 VAE 中整合像素噪声模型和改进的 KL 散度损失加权策略…
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 图像分解
-  - 无监督去噪
-  - 荧光显微镜
-  - 变分自编码器
-  - 噪声模型
+  - "ECCV 2024"
+  - "图像恢复"
+  - "图像分解"
+  - "无监督去噪"
+  - "荧光显微镜"
+  - "变分自编码器"
+  - "噪声模型"
 ---
 
 # DenoiSplit: A Method for Joint Microscopy Image Splitting and Unsupervised Denoising

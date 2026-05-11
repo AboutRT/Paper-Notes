@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FSHNet: Fully Sparse Hybrid Network for 3D Object Detection
 description: >-
-  [CVPR 2025][3D视觉][3D目标检测] FSHNet 提出全稀疏混合网络，通过 SlotFormer（槽分区+线性注意力）建立全局范围的稀疏体素交互，配合动态稀疏标签分配和稀疏上采样模块，在 Waymo、nuScenes、Argoverse2 三大基准上超越现有稀疏和密集检测器。
+  [CVPR 2025][目标检测][3D目标检测] FSHNet 提出全稀疏混合网络，通过 SlotFormer（槽分区+线性注意力）建立全局范围的稀疏体素交互，配合动态稀疏标签分配和稀疏上采样模块，在 Waymo、nuScenes、Argoverse2 三大基准上超越现有稀疏和密集检测器。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D目标检测
-  - 稀疏检测器
-  - 线性注意力
-  - 动态标签分配
-  - 稀疏上采样
+  - "CVPR 2025"
+  - "目标检测"
+  - "3D目标检测"
+  - "稀疏检测器"
+  - "线性注意力"
+  - "动态标签分配"
+  - "稀疏上采样"
 ---
 
 # FSHNet: Fully Sparse Hybrid Network for 3D Object Detection

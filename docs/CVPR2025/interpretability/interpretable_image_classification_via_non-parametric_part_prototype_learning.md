@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Interpretable Image Classification via Non-parametric Part Prototype Learning
 description: >-
-  [CVPR 2025][可解释分类] 本文提出一种基于非参数原型学习的可解释图像分类框架，通过对自监督ViT特征进行最优传输聚类来发现语义上不同的物体部件原型，解决了现有ProtoPNet方法中原型重复冗余的问题，同时引入了Distinctiveness和Comprehensiveness两个新指标来量化解释质量。
+  [CVPR 2025][可解释性][可解释分类] 本文提出一种基于非参数原型学习的可解释图像分类框架，通过对自监督ViT特征进行最优传输聚类来发现语义上不同的物体部件原型，解决了现有ProtoPNet方法中原型重复冗余的问题…
 tags:
-  - CVPR 2025
-  - 可解释分类
-  - 原型学习
-  - 非参数方法
-  - 可解释性
-  - 部件发现
+  - "CVPR 2025"
+  - "可解释性"
+  - "可解释分类"
+  - "原型学习"
+  - "非参数方法"
+  - "自监督ViT"
+  - "部件发现"
 ---
 
 # Interpretable Image Classification via Non-parametric Part Prototype Learning

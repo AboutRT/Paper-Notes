@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Uncertainty Under the Curve: A Sequence-Level Entropy Area Metric for Reasoning LLMs
 description: >-
-  [AAAI 2026][LLM/NLP][熵面积分数] 提出 Entropy Area Score (EAS)——通过单次前向传播积分 token 级预测熵来量化推理 LLM 的不确定性。EAS 无需外部模型或重复采样，与答案熵强相关（Pearson r=0.82），用于训练数据选择时比 Pass Rate 过滤多提升 1.2-2.3% Pass@1，是高效可解释的 LLM 不确定性工具。
+  [AAAI 2026][LLM/NLP][熵面积分数] 提出 Entropy Area Score (EAS)——通过单次前向传播积分 token 级预测熵来量化推理 LLM 的不确定性。EAS 无需外部模型或重复采样，与答案熵强相关（Pearson r=0.82）…
 tags:
-  - AAAI 2026
-  - LLM/NLP
-  - 熵面积分数
-  - 不确定性估计
-  - token级熵
-  - 训练数据选择
-  - 推理LLM
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "熵面积分数"
+  - "不确定性估计"
+  - "token级熵"
+  - "训练数据选择"
+  - "推理LLM"
 ---
 
 # Uncertainty Under the Curve: A Sequence-Level Entropy Area Metric for Reasoning LLMs

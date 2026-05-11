@@ -2,14 +2,14 @@
 title: >-
   [论文解读] TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection
 description: >-
-  [CVPR 2025][其他] TailedCore 解决了无监督异常检测中"正常样本既包含噪声缺陷又服从未知长尾类别分布"的实际场景，提出 TailSampler 通过嵌入相似度的对称性假设预测类别基数来独立采样尾部类样本，构建了既能捕捉尾部类信息又对噪声鲁棒的内存库模型，在多种设置下超过 SOTA。
+  [CVPR 2025][无监督异常检测] TailedCore 解决了无监督异常检测中"正常样本既包含噪声缺陷又服从未知长尾类别分布"的实际场景，提出 TailSampler 通过嵌入相似度的对称性假设预测类别基数来独立采样尾部类样本，构建了既能捕捉尾部类信息又对噪声鲁棒的内存库模型…
 tags:
-  - CVPR 2025
-  - 其他
-  - 长尾分布
-  - 噪声鲁棒
-  - 内存库
-  - 少样本采样
+  - "CVPR 2025"
+  - "无监督异常检测"
+  - "长尾分布"
+  - "噪声鲁棒"
+  - "内存库"
+  - "少样本采样"
 ---
 
 # TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection

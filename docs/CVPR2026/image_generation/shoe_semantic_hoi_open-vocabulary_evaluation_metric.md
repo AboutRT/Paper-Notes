@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][开放词汇HOI检测] 提出SHOE评估框架，通过将HOI预测分解为动词和物体分别计算LLM驱动的语义相似度，替代传统mAP的精确匹配方式，在开放词汇HOI检测评估中达到85.73%的人类判断一致性，超过人类标注者之间78.61%的平均一致性。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 开放词汇HOI检测
-  - 语义相似度评估
-  - LLM评分
-  - WordNet
-  - 评估指标
+  - "CVPR 2026"
+  - "图像生成"
+  - "开放词汇HOI检测"
+  - "语义相似度评估"
+  - "LLM评分"
+  - "WordNet"
+  - "评估指标"
 ---
 
 # SHOE: Semantic HOI Open-Vocabulary Evaluation Metric

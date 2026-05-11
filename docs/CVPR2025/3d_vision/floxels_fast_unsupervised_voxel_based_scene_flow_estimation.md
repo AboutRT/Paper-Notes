@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][场景流估计] 提出 Floxels，用简单的体素网格替代 MLP 作为场景流的隐式表示，结合多帧距离变换损失和聚类一致性约束，在 Argoverse 2 基准上取得仅次于 EulerFlow 的无监督方法第二名，同时将运行时间从一天缩短到10分钟（60-140倍加速）。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 场景流估计
-  - 体素网格
-  - 无监督优化
-  - 点云
-  - 自动驾驶
+  - "CVPR 2025"
+  - "3D视觉"
+  - "场景流估计"
+  - "体素网格"
+  - "无监督优化"
+  - "点云"
+  - "自动驾驶"
 ---
 
 # Floxels: Fast Unsupervised Voxel Based Scene Flow Estimation

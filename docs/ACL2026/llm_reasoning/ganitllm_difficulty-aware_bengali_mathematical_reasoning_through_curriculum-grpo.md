@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GanitLLM: Difficulty-Aware Bengali Mathematical Reasoning through Curriculum-GRPO
 description: >-
-  [ACL 2026][LLM推理][孟加拉语数学推理] 本文提出 GanitLLM，首个真正用孟加拉语进行推理（而非翻译或用英语推理）的数学推理模型，构建了难度标注的孟加拉语数学数据集 Ganit，并提出 Curriculum-GRPO 解决低资源语言 GRPO 训练中的冷启动问题，4B 模型在 Bn-MGSM 上提升 8 个准确率百分点，孟加拉语推理 token 从 14% 提升至 88%。
+  [ACL 2026][LLM推理][孟加拉语数学推理] 本文提出 GanitLLM，首个真正用孟加拉语进行推理（而非翻译或用英语推理）的数学推理模型，构建了难度标注的孟加拉语数学数据集 Ganit，并提出 Curriculum-GRPO 解决低资源语言 GRPO 训练中的冷启动问题…
 tags:
-  - ACL 2026
-  - LLM推理
-  - 孟加拉语数学推理
-  - 课程学习
-  - GRPO冷启动
-  - 难度感知
-  - 低资源语言
+  - "ACL 2026"
+  - "LLM推理"
+  - "孟加拉语数学推理"
+  - "课程学习"
+  - "GRPO冷启动"
+  - "难度感知"
+  - "低资源语言"
 ---
 
 # GanitLLM: Difficulty-Aware Bengali Mathematical Reasoning through Curriculum-GRPO

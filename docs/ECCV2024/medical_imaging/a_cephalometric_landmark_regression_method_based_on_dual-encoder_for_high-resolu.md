@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Cephalometric Landmark Regression Method Based on Dual-Encoder for High-Resolution X-Ray Image
 description: >-
-  [ECCV 2024][医学图像][头影测量] 本文提出 D-CeLR，一种基于双编码器（Dual-Encoder）的端到端回归方法，仅利用 Transformer 编码器设计特征提取+参考编码器+精调编码器的三阶段架构，实现从粗到细的头影测量标志点检测，在 Mean Radical Error (MRE) 和 2mm Success Detection Rate (SDR) 指标上显著超越现有 SOTA。
+  [ECCV 2024][医学图像][头影测量] 本文提出 D-CeLR，一种基于双编码器（Dual-Encoder）的端到端回归方法，仅利用 Transformer 编码器设计特征提取+参考编码器+精调编码器的三阶段架构，实现从粗到细的头影测量标志点检测…
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 头影测量
-  - 关键点检测
-  - 双编码器
-  - Transformer
-  - 高分辨率X光
+  - "ECCV 2024"
+  - "医学图像"
+  - "头影测量"
+  - "关键点检测"
+  - "双编码器"
+  - "Transformer"
+  - "高分辨率X光"
 ---
 
 # A Cephalometric Landmark Regression Method Based on Dual-Encoder for High-Resolution X-Ray Image

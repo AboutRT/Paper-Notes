@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic
 description: >-
-  [CVPR 2025][人体理解][随机人体动作预测] 本文针对动作驱动的随机人体运动预测中动作过渡不平滑和动作特征难以学习两大挑战，提出软过渡动作库（STAB）和动作特征库（ACB）两个记忆模块，配合自适应注意力调整（AAA）策略进行特征融合，在 GRAB、NTU、BABEL、HumanAct12 四个数据集上达到 SOTA。
+  [CVPR 2025][人体理解][随机人体动作预测] 本文针对动作驱动的随机人体运动预测中动作过渡不平滑和动作特征难以学习两大挑战，提出软过渡动作库（STAB）和动作特征库（ACB）两个记忆模块，配合自适应注意力调整（AAA）策略进行特征融合…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 随机人体动作预测
-  - 动作驱动
-  - 记忆库
-  - 动作过渡
-  - CVAE
+  - "CVPR 2025"
+  - "人体理解"
+  - "随机人体动作预测"
+  - "动作驱动"
+  - "记忆库"
+  - "动作过渡"
+  - "CVAE"
 ---
 
 # Stochastic Human Motion Prediction with Memory of Action Transition and Action Characteristic

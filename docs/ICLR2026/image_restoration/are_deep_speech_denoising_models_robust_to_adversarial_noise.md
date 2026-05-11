@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Are Deep Speech Denoising Models Robust to Adversarial Noise?
 description: >-
-  [ICLR 2026][图像恢复][对抗攻击] 首次系统性评估 4 款 SOTA 深度语音去噪（DNS）模型在对抗噪声下的鲁棒性：通过心理声学约束的 PGD 攻击生成人耳不可感知的对抗噪声，可令 Demucs、Full-SubNet+、FRCRN 和 MP-SENet 输出完全不可理解的 gibberish，实验覆盖多种声学条件和人类评估，同时揭示了目标攻击、通用扰动和跨模型迁移的局限性。
+  [ICLR 2026][图像恢复][对抗攻击] 首次系统性评估 4 款 SOTA 深度语音去噪（DNS）模型在对抗噪声下的鲁棒性：通过心理声学约束的 PGD 攻击生成人耳不可感知的对抗噪声，可令 Demucs、Full-SubNet+、FRCRN 和 MP-SENet 输出完全不可理解的 gibberish…
 tags:
-  - ICLR 2026
-  - 图像恢复
-  - 图像复原
-  - 语音去噪
-  - 心理声学掩蔽
-  - DNS
-  - 对抗鲁棒性
-  - PGD
+  - "ICLR 2026"
+  - "图像恢复"
+  - "对抗攻击"
+  - "语音去噪"
+  - "心理声学掩蔽"
+  - "DNS"
+  - "对抗鲁棒性"
+  - "PGD"
 ---
 
 # Are Deep Speech Denoising Models Robust to Adversarial Noise?
@@ -54,7 +54,7 @@ tags:
 2. **心理声学不可感知性约束**:
 
     - 功能：确保对抗扰动在人耳掩蔽阈值以下，使得加了扰动后听起来和原信号一样
-    - 核心思路：使用 ISO MPEG-1 Psychoacoustic Model 2（MP3 编码使用的标准模型）计算每个频率 bin 的掩蔽阈值 T(k)，再加上 12 dB 安全偏移量以保证充分不可感知，约束扰动功率谱密度 PSD(delta, k) <= T(k) - 12dB
+    - 核心思路：使用 ISO MPEG-1 Psychoacoustic Model 2（MP3 编码使用的标准模型）计算每个频率 bin 的掩蔽阈值 T(k)，再加上 12 dB 安全偏移量以保证充分不可感知，约束扰动功率谱密度 PSD(delta, k) &lt;= T(k) - 12dB
     - 额外处理：考虑了前掩蔽（pre-masking, 约 2ms）和后掩蔽（post-masking, 约 200ms）的时间效应，进一步放松了时间域的约束以利用人耳的时间掩蔽特性
     - 设计动机：传统 L-infinity 约束不符合人耳感知特性——低频处人耳更敏感，高频处容忍更大扰动；心理声学模型精确建模了频率掩蔽和时间掩蔽，比固定范数约束更贴合真实感知
 

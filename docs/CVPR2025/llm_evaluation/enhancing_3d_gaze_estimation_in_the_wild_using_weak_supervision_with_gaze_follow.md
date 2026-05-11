@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing 3D Gaze Estimation in the Wild Using Weak Supervision with Gaze Following Labels
 description: >-
-  [CVPR 2025][LLM评测][注视估计] 提出一种两阶段自训练弱监督框架 ST-WSGE，利用 2D 注视跟随数据集（如 GazeFollow）生成 3D 伪标签来增强野外 3D 注视估计的泛化能力，同时设计了模态无关的 Gaze Transformer（GaT）统一处理图像和视频输入，在 Gaze360、GFIE、MPIIFaceGaze 等数据集上取得 SOTA。
+  [CVPR 2025][LLM评测][注视估计] 提出一种两阶段自训练弱监督框架 ST-WSGE，利用 2D 注视跟随数据集（如 GazeFollow）生成 3D 伪标签来增强野外 3D 注视估计的泛化能力，同时设计了模态无关的 Gaze Transformer（GaT）统一处理图像和视频输入…
 tags:
-  - CVPR 2025
-  - LLM评测
-  - 注视估计
-  - 弱监督学习
-  - 自训练
-  - 注视跟随
-  - 视频理解
+  - "CVPR 2025"
+  - "LLM评测"
+  - "注视估计"
+  - "弱监督学习"
+  - "自训练"
+  - "注视跟随"
+  - "视频理解"
 ---
 
 # Enhancing 3D Gaze Estimation in the Wild Using Weak Supervision with Gaze Following Labels

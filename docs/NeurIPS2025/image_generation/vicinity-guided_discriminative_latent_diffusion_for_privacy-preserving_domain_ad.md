@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][潜扩散模型] 提出 Discriminative Vicinity Diffusion (DVD)，首次将潜扩散模型用于判别式知识迁移，通过在源域特征的近邻潜空间中训练扩散模型生成源样式线索，实现无需源数据访问的域适应，在标准 SFDA 基准上超越 SOTA。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 潜扩散模型
-  - source-free域适应
-  - 隐私保护
-  - 判别式迁移
-  - 近邻引导
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "潜扩散模型"
+  - "source-free域适应"
+  - "隐私保护"
+  - "判别式迁移"
+  - "近邻引导"
 ---
 
 # Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving Domain Adaptation

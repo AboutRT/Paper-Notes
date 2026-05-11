@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Which Retain Set Matters for LLM Unlearning? A Case Study on Entity Unlearning
 description: >-
-  [ACL 2025][machine unlearning] 系统研究实体遗忘中 retain set 的选择问题，提出 Syntactically Similar Neighbor Set，发现句法相似性（而非领域/实体相似性）才是遗忘过程中知识退化的主要驱动因素，用句法相似的 retain set 做正则化可同时最优保护所有类型的邻居知识。
+  [ACL 2025][LLM安全][machine unlearning] 系统研究实体遗忘中 retain set 的选择问题，提出 Syntactically Similar Neighbor Set，发现句法相似性（而非领域/实体相似性）才是遗忘过程中知识退化的主要驱动因素…
 tags:
-  - ACL 2025
-  - machine unlearning
-  - retain set
-  - entity unlearning
-  - syntactic similarity
-  - neighbor set
-  - regularization
+  - "ACL 2025"
+  - "LLM安全"
+  - "machine unlearning"
+  - "retain set"
+  - "entity unlearning"
+  - "syntactic similarity"
+  - "neighbor set"
+  - "regularization"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

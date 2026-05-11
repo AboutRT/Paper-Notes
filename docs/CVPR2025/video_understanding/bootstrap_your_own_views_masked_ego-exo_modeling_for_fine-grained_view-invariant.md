@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][ego-exo] 通过掩码建模在自我中心和外部视角之间学习细粒度视图不变表示，无需配对标注即可从两种视角的关联中自监督学习
 tags:
-  - CVPR 2025
-  - 视频理解
-  - ego-exo
-  - view-invariant
-  - masked modeling
-  - 自监督学习
-  - video representation
+  - "CVPR 2025"
+  - "视频理解"
+  - "ego-exo"
+  - "view-invariant"
+  - "masked modeling"
+  - "自监督学习"
+  - "video representation"
 ---
 
 # Bootstrap Your Own Views: Masked Ego-Exo Modeling for Fine-Grained View-Invariant Video Representations

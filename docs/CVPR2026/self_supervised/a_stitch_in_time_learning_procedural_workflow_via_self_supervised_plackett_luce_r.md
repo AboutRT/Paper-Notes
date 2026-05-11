@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][自监督学习][程序化活动理解] 提出 PL-Stitch 自监督框架，利用 Plackett-Luce 概率排序模型将视频帧的时序排序作为预训练信号，学习具有"程序感知"能力的视频表示，在手术阶段识别和烹饪动作分割上全面超越现有自监督方法。
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - 程序化活动理解
-  - 时序排序
-  - Plackett-Luce模型
-  - 手术视频
+  - "CVPR 2026"
+  - "自监督学习"
+  - "程序化活动理解"
+  - "时序排序"
+  - "Plackett-Luce模型"
+  - "手术视频"
 ---
 
 # A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking

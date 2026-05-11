@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][测试时训练] 提出AdaTTT框架，通过动态特征感知self-supervised学习（自适应掩码策略）和原型引导的部分最优传输对齐，在ICU多中心EHR数据上实现鲁棒的测试时适应，用于提前24小时预测有创机械通气需求。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 测试时训练
-  - 域迁移
-  - 有创机械通气预测
-  - 动态特征掩码
-  - 部分最优传输
+  - "ICLR 2026"
+  - "医学图像"
+  - "测试时训练"
+  - "域迁移"
+  - "有创机械通气预测"
+  - "动态特征掩码"
+  - "部分最优传输"
 ---
 
 # Adaptive Test-Time Training for Predicting Need for Invasive Mechanical Ventilation in Multi-Center Cohorts

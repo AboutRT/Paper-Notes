@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][事件相机] 首次将事件相机引入3D目标检测，提出 Virtual 3D Event Fusion（V3D-EF）将异步事件投影到3D体素空间与LiDAR特征融合，在帧间"盲区时间"内以100FPS持续检测物体，填补了传感器帧间~100ms的感知空白。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 事件相机
-  - 3D目标检测
-  - 盲区时间
-  - 虚拟3D事件融合
-  - 运动估计
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "事件相机"
+  - "3D目标检测"
+  - "盲区时间"
+  - "虚拟3D事件融合"
+  - "运动估计"
 ---
 
 # EV-3DOD: Pushing the Temporal Boundaries of 3D Object Detection with Event Cameras

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Improved Differentially Private Algorithms for Rank Aggregation
 description: >-
-  [AAAI 2026][其他] 针对差分隐私下的排名聚合问题，提出了改进的近似算法：首次研究footrule排名聚合问题并给出近最优算法（可推导出Kemeny问题的2-近似），同时通过结合二路边际查询和无偏估计技术改进了Kemeny排名聚合的PTAS加性误差（指数从3降至65/22）。
+  [AAAI 2026][差分隐私] 针对差分隐私下的排名聚合问题，提出了改进的近似算法：首次研究footrule排名聚合问题并给出近最优算法（可推导出Kemeny问题的2-近似），同时通过结合二路边际查询和无偏估计技术改进了Kemeny排名聚合的PTAS加性误差（指数从3降至65/22）。
 tags:
-  - AAAI 2026
-  - 其他
-  - 排名聚合
-  - Kemeny排名
-  - footrule距离
-  - 近似算法
+  - "AAAI 2026"
+  - "差分隐私"
+  - "排名聚合"
+  - "Kemeny排名"
+  - "footrule距离"
+  - "近似算法"
 ---
 
 # Improved Differentially Private Algorithms for Rank Aggregation

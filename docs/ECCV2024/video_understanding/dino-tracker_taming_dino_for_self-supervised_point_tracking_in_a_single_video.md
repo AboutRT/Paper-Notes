@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][点追踪] 提出DINO-Tracker，将预训练DINOv2的语义特征与测试时单视频优化相结合，通过Delta-DINO残差微调和多源自监督损失实现长程稠密点追踪，在自监督方法中达到SOTA且可媲美有监督追踪器，尤其在长期遮挡场景中大幅领先。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 点追踪
-  - 自监督
-  - DINO特征
-  - 测试时训练
-  - 长程遮挡
+  - "ECCV 2024"
+  - "视频理解"
+  - "点追踪"
+  - "自监督"
+  - "DINO特征"
+  - "测试时训练"
+  - "长程遮挡"
 ---
 
 # DINO-Tracker: Taming DINO for Self-Supervised Point Tracking in a Single Video

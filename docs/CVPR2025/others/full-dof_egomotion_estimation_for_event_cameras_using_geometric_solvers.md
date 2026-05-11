@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][事件相机] 提出首个仅用事件流估计完整6-DoF自运动（角速度+线速度）的几何求解器方法，通过建立事件扇形流形上的线段几何约束——入射关系和新颖的共面关系，设计最少仅需8个事件的稀疏求解器，无需IMU即可解耦旋转和平移估计。
 tags:
-  - CVPR 2025
-  - 事件相机
-  - 自运动估计
-  - 几何求解器
-  - 6-DoF位姿
-  - 共面约束
+  - "CVPR 2025"
+  - "事件相机"
+  - "自运动估计"
+  - "几何求解器"
+  - "6-DoF位姿"
+  - "共面约束"
 ---
 
 # Full-DoF Egomotion Estimation for Event Cameras Using Geometric Solvers

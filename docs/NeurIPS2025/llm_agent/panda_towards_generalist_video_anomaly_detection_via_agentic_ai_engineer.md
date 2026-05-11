@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NEURIPS2025][LLM Agent][video anomaly detection] 提出 PANDA，一个基于 MLLM 的 Agentic AI 工程师框架，通过自适应场景感知策略规划、目标驱动启发式推理、工具增强自反思和链式记忆四大能力，实现无需训练和人工干预的通用视频异常检测。
 tags:
-  - NEURIPS2025
-  - LLM Agent
-  - video anomaly detection
-  - agentic AI
-  - RAG
-  - self-reflection
-  - chain-of-memory
+  - "NEURIPS2025"
+  - "LLM Agent"
+  - "video anomaly detection"
+  - "agentic AI"
+  - "RAG"
+  - "self-reflection"
+  - "chain-of-memory"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

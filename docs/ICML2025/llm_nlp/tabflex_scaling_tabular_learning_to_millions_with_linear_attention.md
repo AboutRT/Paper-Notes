@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][LLM/NLP][线性注意力] 用线性注意力替换 TabPFN 中的 softmax 注意力，将表格分类的 ICL 方法从小数据集扩展到百万级样本，实现 2× 以上加速且性能不降。
 tags:
-  - ICML2025
-  - LLM/NLP
-  - 线性注意力
-  - 上下文学习
-  - TabPFN
-  - 表格分类
-  - 可扩展性
+  - "ICML2025"
+  - "LLM/NLP"
+  - "线性注意力"
+  - "上下文学习"
+  - "TabPFN"
+  - "表格分类"
+  - "可扩展性"
 ---
 
 # TabFlex: Scaling Tabular Learning to Millions with Linear Attention
@@ -65,7 +65,7 @@ $$\mathbf{a}_i = \frac{\phi(\mathbf{q}_i)^\top \sum_{j=1}^{n} \phi(\mathbf{k}_j)
 
 | 子模型 | prompt 长度 | 特征数 | 类别数 | 适用场景 |
 |--------|------------|--------|--------|---------|
-| TabFlex-S100 | 1152 | 100 | 10 | 小规模低维数据集 (n<3K, d≤100) |
+| TabFlex-S100 | 1152 | 100 | 10 | 小规模低维数据集 (n&lt;3K, d≤100) |
 | TabFlex-L100 | 50K | 100 | 10 | 大规模低维数据集 (n≥3K, d≤100) |
 | TabFlex-H1K | 50K | 1000 | 100 | 大规模高维数据集 (d>100) |
 

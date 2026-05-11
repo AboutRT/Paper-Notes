@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯] 提出 RigGS，一种无需模板先验的自动化骨架驱动建模方法，从单目视频中提取 3D 骨架并绑定 3D 高斯表示，支持新视角合成、姿态编辑、运动插值和运动迁移。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯
-  - 骨架提取
-  - 铰接体建模
-  - 动态场景
-  - 无模板先验
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯"
+  - "骨架提取"
+  - "铰接体建模"
+  - "动态场景"
+  - "无模板先验"
 ---
 
 # RigGS: Rigging of 3D Gaussians for Modeling Articulated Objects in Videos

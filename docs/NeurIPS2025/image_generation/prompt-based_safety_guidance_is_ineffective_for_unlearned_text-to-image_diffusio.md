@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models
 description: >-
-  [NeurIPS 2025][图像生成][概念遗忘] 本文发现训练式概念遗忘（unlearning）与免训练安全引导（negative prompt guidance）两种安全方法组合后效果反而下降，提出用概念反演（Concept Inversion）获得的隐式负向嵌入替换显式负向提示，有效恢复了免训练方法在遗忘模型上的防御能力。
+  [NeurIPS 2025][图像生成][概念遗忘] 本文发现训练式概念遗忘（unlearning）与免训练安全引导（negative prompt guidance）两种安全方法组合后效果反而下降，提出用概念反演（Concept Inversion）获得的隐式负向嵌入替换显式负向提示…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 概念遗忘
-  - 安全引导
-  - 负向提示
-  - 概念反演
-  - 文生图安全
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "概念遗忘"
+  - "安全引导"
+  - "负向提示"
+  - "概念反演"
+  - "文生图安全"
 ---
 
 # Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models

@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Multi-Faceted Self-Consistent Preference Alignment for Query Rewriting in Conversational Search
 description: >-
-  [ACL2026][信息检索] 提出MSPA-CQR，通过改写/检索/回复三维度自一致性偏好对齐来优化对话式查询改写
-tags: [对话式搜索, 查询改写, 偏好对齐, DPO, 自一致性]
+  [ACL 2026 Findings][信息检索/RAG][对话式查询改写] 本文提出 MSPA-CQR，通过从改写、检索、回复三个维度构建自一致性偏好数据，并使用前缀引导的多维度 DPO 优化来训练查询改写模型，在分布内外场景均显著超越现有方法。
+tags:
+  - "ACL 2026 Findings"
+  - "信息检索/RAG"
+  - "对话式查询改写"
+  - "偏好对齐"
+  - "自一致性打分"
+  - "多维度DPO"
+  - "对话式搜索"
 ---
 
 # Multi-Faceted Self-Consistent Preference Alignment for Query Rewriting in Conversational Search

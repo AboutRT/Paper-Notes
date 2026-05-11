@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Meta-Prompting for Automating Zero-Shot Visual Recognition with LLMs
 description: >-
-  [ECCV2024][LLM/NLP][zero-shot recognition] 提出 MPVR（Meta-Prompting for Visual Recognition），通过两阶段 meta-prompting 策略自动化生成多样化的类别特定 VLM prompt，无需人工设计 LLM 查询即可显著提升 CLIP 等模型的 zero-shot 识别性能。
+  [ECCV2024][LLM/NLP][zero-shot recognition] 提出 MPVR（Meta-Prompting for Visual Recognition），通过两阶段 meta-prompting 策略自动化生成多样化的类别特定 VLM prompt…
 tags:
-  - ECCV2024
-  - LLM/NLP
-  - zero-shot recognition
-  - 提示学习
-  - VLM
-  - LLM
+  - "ECCV2024"
+  - "LLM/NLP"
+  - "zero-shot recognition"
+  - "提示学习"
+  - "VLM"
+  - "LLM"
 ---
 
 # Meta-Prompting for Automating Zero-Shot Visual Recognition with LLMs

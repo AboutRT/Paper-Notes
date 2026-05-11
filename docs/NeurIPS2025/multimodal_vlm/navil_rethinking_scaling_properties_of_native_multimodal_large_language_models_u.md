@@ -2,15 +2,15 @@
 title: >-
   [论文解读] NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints
 description: >-
-  [NeurIPS 2025][多模态][Native MLLM] 本文系统研究了在数据约束条件下原生多模态大语言模型(Native MLLM)的设计空间与缩放特性，发现视觉编码器与LLM之间存在正相关的最优缩放关系，并基于此提出了NaViL模型，仅用约6亿预训练图文对即可达到顶级MLLM的竞争性性能。
+  [NeurIPS 2025][多模态VLM][Native MLLM] 本文系统研究了在数据约束条件下原生多模态大语言模型(Native MLLM)的设计空间与缩放特性，发现视觉编码器与LLM之间存在正相关的最优缩放关系，并基于此提出了NaViL模型，仅用约6亿预训练图文对即可达到顶级MLLM的竞争性性能。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - Native MLLM
-  - 多模态VLM
-  - Visual Encoder
-  - Mixture-of-Experts
-  - 端到端训练
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "Native MLLM"
+  - "Scaling Law"
+  - "Visual Encoder"
+  - "Mixture-of-Experts"
+  - "端到端训练"
 ---
 
 # NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints

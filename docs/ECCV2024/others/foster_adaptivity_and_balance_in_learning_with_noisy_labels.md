@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][noisy labels] 提出SED方法，通过自适应且类别平衡的样本选择与重加权机制来应对标签噪声问题，在无需预定义阈值等先验知识的前提下，在合成和真实噪声数据集上取得SOTA性能。
 tags:
-  - ECCV 2024
-  - noisy labels
-  - sample selection
-  - sample re-weighting
-  - class balance
-  - self-adaptive
+  - "ECCV 2024"
+  - "noisy labels"
+  - "sample selection"
+  - "sample re-weighting"
+  - "class balance"
+  - "self-adaptive"
 ---
 
 # Foster Adaptivity and Balance in Learning with Noisy Labels

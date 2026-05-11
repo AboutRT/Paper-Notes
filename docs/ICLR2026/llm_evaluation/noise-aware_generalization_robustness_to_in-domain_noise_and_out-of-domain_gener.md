@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization
 description: >-
-  [ICLR 2026][Noise-Aware Generalization] 首次形式化了 Noise-Aware Generalization (NAG) 问题——在标签噪声下同时追求域内鲁棒性和域外泛化能力，并提出 DL4ND 方法通过跨域比较检测噪声标签，在 7 个数据集上最高提升 12.5%。
+  [ICLR 2026][LLM评测][Noise-Aware Generalization] 首次形式化了 Noise-Aware Generalization (NAG) 问题——在标签噪声下同时追求域内鲁棒性和域外泛化能力，并提出 DL4ND 方法通过跨域比较检测噪声标签…
 tags:
-  - ICLR 2026
-  - LLM评测
-  - Domain Generalization
-  - Learning with Noisy Labels
-  - Cross-Domain Noise Detection
-  - DL4ND
+  - "ICLR 2026"
+  - "LLM评测"
+  - "Noise-Aware Generalization"
+  - "Domain Generalization"
+  - "Learning with Noisy Labels"
+  - "Cross-Domain Noise Detection"
+  - "DL4ND"
 ---
 
 # Noise-Aware Generalization: Robustness to In-Domain Noise and Out-of-Domain Generalization

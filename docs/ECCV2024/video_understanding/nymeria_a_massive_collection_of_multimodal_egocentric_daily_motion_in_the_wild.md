@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild
 description: >-
-  [ECCV 2024][视频理解][Egocentric Motion] 提出 Nymeria 数据集——目前最大规模的野外多模态自我中心人体日常运动数据集，包含 300 小时、264 人、50 个场景，提供全身精确动作捕捉、多设备同步多模态数据和 310.5K 句分层语言描述，并在 body tracking、motion synthesis 等任务上建立 baseline。
+  [ECCV 2024][视频理解][Egocentric Motion] 提出 Nymeria 数据集——目前最大规模的野外多模态自我中心人体日常运动数据集，包含 300 小时、264 人、50 个场景，提供全身精确动作捕捉、多设备同步多模态数据和 310.5K 句分层语言描述…
 tags:
-  - ECCV 2024
-  - 视频理解
-  - Egocentric Motion
-  - 多模态
-  - Motion Capture
-  - Motion-Language
-  - Human Pose
+  - "ECCV 2024"
+  - "视频理解"
+  - "Egocentric Motion"
+  - "多模态"
+  - "Motion Capture"
+  - "Motion-Language"
+  - "Human Pose"
 ---
 
 # Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild

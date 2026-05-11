@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][deepfake attribution] 将 AI 生成图像的归属问题从分类范式重新定义为实例检索范式，提出基于低位平面指纹的模型无关框架 LIDA，通过无监督预训练和少样本归属适应，在零样本和少样本设置下实现 SOTA 的 Deepfake 检测和图像归属性能。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - deepfake attribution
-  - image retrieval
-  - bit-plane
-  - model-agnostic
-  - few-shot
+  - "CVPR 2026"
+  - "图像生成"
+  - "deepfake attribution"
+  - "image retrieval"
+  - "bit-plane"
+  - "model-agnostic"
+  - "few-shot"
 ---
 
 # Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution

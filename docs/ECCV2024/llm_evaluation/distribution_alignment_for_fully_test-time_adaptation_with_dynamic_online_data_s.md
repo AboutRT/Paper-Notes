@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams
 description: >-
-  [ECCV 2024][测试时自适应] 提出分布对齐（DA）损失将测试时特征分布拉回源域分布，配合域偏移检测机制，在非 i.i.d. 动态数据流和连续域偏移场景下大幅超越现有 TTA 方法。
+  [ECCV 2024][LLM评测][测试时自适应] 提出分布对齐（DA）损失将测试时特征分布拉回源域分布，配合域偏移检测机制，在非 i.i.d. 动态数据流和连续域偏移场景下大幅超越现有 TTA 方法。
 tags:
-  - ECCV 2024
-  - 测试时自适应
-  - LLM评测
-  - 非独立同分布
-  - 域迁移
-  - 批归一化
+  - "ECCV 2024"
+  - "LLM评测"
+  - "测试时自适应"
+  - "分布对齐"
+  - "非独立同分布"
+  - "域迁移"
+  - "批归一化"
 ---
 
 # Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams

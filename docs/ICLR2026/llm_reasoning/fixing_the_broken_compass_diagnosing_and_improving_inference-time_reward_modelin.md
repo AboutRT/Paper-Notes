@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][奖励模型] 系统诊断推理时奖励模型（RM）的三大失效模式——简单题性能退化、采样数增多时辨别力下降、高搜索多样性损害准确率，并提出 CRISP 算法通过答案聚类的奖励聚合与逐步前缀引导来缓解这些问题，准确率提升最高 5%。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 奖励模型
-  - inference-time scaling
-  - CRISP
-  - Best-of-N
-  - MCTS
+  - "ICLR 2026"
+  - "LLM推理"
+  - "奖励模型"
+  - "inference-time scaling"
+  - "CRISP"
+  - "Best-of-N"
+  - "MCTS"
 ---
 
 # Fixing the Broken Compass: Diagnosing and Improving Inference-Time Reward Modeling

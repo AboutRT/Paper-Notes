@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][遥感][内在维度] 首次系统度量地理隐式神经表示（Geographic INR）的内在维度（ID），发现256-512维嵌入的真实ID仅2-10维；冻结嵌入空间的高ID与好的下游性能正相关，而监督任务头激活空间的低ID与高性能正相关，揭示了「代表性 vs 任务对齐」的双重机制。
 tags:
-  - ICLR 2026
-  - 遥感
-  - 内在维度
-  - 地理隐式神经表示
-  - 地球观测
-  - 表示学习
-  - 无监督评估
+  - "ICLR 2026"
+  - "遥感"
+  - "内在维度"
+  - "地理隐式神经表示"
+  - "地球观测"
+  - "表示学习"
+  - "无监督评估"
 ---
 
 # Measuring the Intrinsic Dimension of Earth Representations

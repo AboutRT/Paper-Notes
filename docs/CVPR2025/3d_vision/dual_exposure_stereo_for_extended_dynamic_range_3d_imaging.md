@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出双曝光立体成像(Dual-Exposure Stereo)方法，通过自动双曝光控制(ADEC)在交替帧中使用不同曝光，结合运动感知的双曝光特征融合网络进行视差估计，将立体相机的有效动态范围扩展至 160%，实现极端光照条件下的鲁棒 3D 成像。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Dual Exposure Stereo for Extended Dynamic Range 3D Imaging

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Estimation of Stochastic Optimal Transport Maps
 description: >-
-  [NeurIPS 2025][随机OT映射] 提出适用于随机OT映射的传输误差指标 $\mathcal{E}_p$（由优化间隙与可行性间隙组成），在无需Brenier映射存在或唯一性的最小假设下，构造了计算高效的rounding估计器达到近最优收敛率 $\tilde{O}(n^{-1/(d+2p)})$，并推广至Hölder连续核与对抗污染场景，建立了首个通用OT映射估计理论。
+  [NeurIPS 2025][信号/通信][随机OT映射] 提出适用于随机OT映射的传输误差指标 $\mathcal{E}_p$（由优化间隙与可行性间隙组成），在无需Brenier映射存在或唯一性的最小假设下…
 tags:
-  - NeurIPS 2025
-  - 随机OT映射
-  - 传输误差
-  - 有限样本估计
-  - 鲁棒统计
-  - Markov核
+  - "NeurIPS 2025"
+  - "信号/通信"
+  - "随机OT映射"
+  - "传输误差"
+  - "有限样本估计"
+  - "鲁棒统计"
+  - "Markov核"
 ---
 
 # Estimation of Stochastic Optimal Transport Maps

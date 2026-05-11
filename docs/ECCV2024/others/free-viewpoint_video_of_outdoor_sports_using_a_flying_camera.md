@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][自由视点视频] 提出了一种基于无人机RGB相机的系统，能够重建户外运动场景中的4D动态人体和3D无界背景，实现任意时刻的自由视点视频渲染。
 tags:
-  - ECCV 2024
-  - 自由视点视频
-  - 无人机
-  - 户外运动
-  - 4D重建
-  - 神经辐射场
+  - "ECCV 2024"
+  - "自由视点视频"
+  - "无人机"
+  - "户外运动"
+  - "4D重建"
+  - "神经辐射场"
 ---
 
 # Free-Viewpoint Video of Outdoor Sports Using a Flying Camera

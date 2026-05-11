@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DeepGuard: Secure Code Generation via Multi-Layer Semantic Aggregation
 description: >-
-  [ACL 2026][安全代码生成] 提出 DeepGuard，通过注意力机制聚合 Transformer 上层多层表示克服"最终层瓶颈"问题，结合多目标训练和轻量推理时安全引导策略，在 5 个代码 LLM 上将安全-正确生成率平均提升 11.9%。
+  [ACL 2026][代码智能][安全代码生成] 提出 DeepGuard，通过注意力机制聚合 Transformer 上层多层表示克服"最终层瓶颈"问题，结合多目标训练和轻量推理时安全引导策略，在 5 个代码 LLM 上将安全-正确生成率平均提升 11.9%。
 tags:
-  - ACL 2026
-  - 安全代码生成
-  - 多层聚合
-  - 代码智能
-  - 对比学习
-  - 推理引导
+  - "ACL 2026"
+  - "代码智能"
+  - "安全代码生成"
+  - "多层聚合"
+  - "漏洞检测"
+  - "对比学习"
+  - "推理引导"
 ---
 
 # DeepGuard: Secure Code Generation via Multi-Layer Semantic Aggregation

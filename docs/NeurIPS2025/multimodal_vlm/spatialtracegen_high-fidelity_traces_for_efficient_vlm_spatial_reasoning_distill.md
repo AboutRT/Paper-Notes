@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SpatialTraceGen: High-Fidelity Traces for Efficient VLM Spatial Reasoning Distillation
 description: >-
-  [NeurIPS 2025 (Workshop on Efficient Reasoning)][多模态][VLM] 提出 SpatialTraceGen 框架，通过自动化验证器从大型教师模型蒸馏高质量多步工具使用推理轨迹，用于高效微调小型 VLM 的空间推理能力。
+  [NeurIPS 2025 (Workshop on Efficient Reasoning)][多模态VLM][VLM] 提出 SpatialTraceGen 框架，通过自动化验证器从大型教师模型蒸馏高质量多步工具使用推理轨迹，用于高效微调小型 VLM 的空间推理能力。
 tags:
-  - 多模态VLM
-  - 多模态
-  - VLM
-  - 空间推理
-  - 知识蒸馏
-  - 推理轨迹
-  - 数据生成
+  - "NeurIPS 2025 (Workshop on Efficient Reasoning)"
+  - "多模态VLM"
+  - "VLM"
+  - "空间推理"
+  - "知识蒸馏"
+  - "推理轨迹"
+  - "数据生成"
 ---
 
 # SpatialTraceGen: High-Fidelity Traces for Efficient VLM Spatial Reasoning Distillation

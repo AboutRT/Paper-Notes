@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][稀疏点云重建] 提出基于分布鲁棒优化(DRO)框架的神经 SDF 学习方法，通过 Wasserstein 和 Sinkhorn 距离定义不确定性集合，从模型不确定性区域采样来正则化训练，在稀疏噪声点云上实现鲁棒的 3D 重建。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 稀疏点云重建
-  - 符号距离函数
-  - 分布鲁棒优化
-  - Wasserstein距离
-  - 对抗样本
+  - "CVPR 2025"
+  - "3D视觉"
+  - "稀疏点云重建"
+  - "符号距离函数"
+  - "分布鲁棒优化"
+  - "Wasserstein距离"
+  - "对抗样本"
 ---
 
 # Toward Robust Neural Reconstruction from Sparse Point Sets

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] StoryGPT-V: Large Language Models as Consistent Story Visualizers
 description: >-
-  [CVPR 2025][图像分割][故事可视化] 本文提出StoryGPT-V，通过两阶段训练——先训练角色感知的潜在扩散模型（Char-LDM）实现高质量角色生成，再将LLM输出与Char-LDM输入空间对齐实现指代消解和上下文一致性——在故事可视化任务上生成准确、高质量且时间一致的角色图像，内存消耗低。
+  [CVPR 2025][语义分割][故事可视化] 本文提出StoryGPT-V，通过两阶段训练——先训练角色感知的潜在扩散模型（Char-LDM）实现高质量角色生成，再将LLM输出与Char-LDM输入空间对齐实现指代消解和上下文一致性——在故事可视化任务上生成准确、高质量且时间一致的角色图像，内存消耗低。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 故事可视化
-  - 大语言模型
-  - 潜在扩散模型
-  - 指代消解
-  - 角色一致性
+  - "CVPR 2025"
+  - "语义分割"
+  - "故事可视化"
+  - "大语言模型"
+  - "潜在扩散模型"
+  - "指代消解"
+  - "角色一致性"
 ---
 
 # StoryGPT-V: Large Language Models as Consistent Story Visualizers

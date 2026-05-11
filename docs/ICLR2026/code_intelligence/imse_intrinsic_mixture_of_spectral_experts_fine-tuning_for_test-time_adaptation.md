@@ -2,14 +2,15 @@
 title: >-
   [论文解读] IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation
 description: >-
-  [ICLR 2026][test-time adaptation] 提出 IMSE——将预训练 ViT 线性层通过 SVD 分解为"谱专家"，仅微调奇异值实现极端参数高效的测试时适应，并通过多样性最大化损失和域感知谱码检索机制，在 TTA/CTTA/渐进 CTTA 三种场景下达到 SOTA。
+  [ICLR 2026][代码智能][test-time adaptation] 提出 IMSE——将预训练 ViT 线性层通过 SVD 分解为"谱专家"，仅微调奇异值实现极端参数高效的测试时适应，并通过多样性最大化损失和域感知谱码检索机制，在 TTA/CTTA/渐进 CTTA 三种场景下达到 SOTA。
 tags:
-  - ICLR 2026
-  - test-time adaptation
-  - singular value decomposition
-  - mixture of experts
-  - continual adaptation
-  - distribution shift
+  - "ICLR 2026"
+  - "代码智能"
+  - "test-time adaptation"
+  - "singular value decomposition"
+  - "mixture of experts"
+  - "continual adaptation"
+  - "distribution shift"
 ---
 
 # IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation

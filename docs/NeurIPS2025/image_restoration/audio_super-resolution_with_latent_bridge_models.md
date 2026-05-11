@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Audio Super-Resolution with Latent Bridge Models
 description: >-
-  [NeurIPS 2025][图像恢复][音频超分辨率] 提出 AudioLBM，将音频波形压缩到连续隐空间，用桥模型实现从低分辨率到高分辨率的 latent-to-latent 生成过程，配合频率感知训练扩展数据利用和级联设计突破 48kHz 上限，在语音/音效/音乐上全面超越 AudioSR 等方法，并首次实现 any-to-192kHz 音频超分。
+  [NeurIPS 2025][图像恢复][音频超分辨率] 提出 AudioLBM，将音频波形压缩到连续隐空间，用桥模型实现从低分辨率到高分辨率的 latent-to-latent 生成过程，配合频率感知训练扩展数据利用和级联设计突破 48kHz 上限，在语音/音效/音乐上全面超越 AudioSR 等方法…
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 音频超分辨率
-  - 隐空间桥模型
-  - 频率感知训练
-  - 级联超分
-  - any-to-192kHz
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "音频超分辨率"
+  - "隐空间桥模型"
+  - "频率感知训练"
+  - "级联超分"
+  - "any-to-192kHz"
 ---
 
 # Audio Super-Resolution with Latent Bridge Models

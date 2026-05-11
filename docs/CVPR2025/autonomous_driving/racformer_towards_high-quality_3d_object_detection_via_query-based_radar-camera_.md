@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][雷达-相机融合] 提出基于查询(query-based)的雷达-相机融合框架 RaCFormer，通过同时从图像视角和 BEV 视角采样特征，结合圆形查询初始化、雷达感知深度预测和隐式动态捕获模块，在 nuScenes 上达到 64.9% mAP 和 70.2% NDS。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 雷达-相机融合
-  - 3D目标检测
-  - BEV感知
-  - 查询机制
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "雷达-相机融合"
+  - "3D目标检测"
+  - "BEV感知"
+  - "查询机制"
 ---
 
 # RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion

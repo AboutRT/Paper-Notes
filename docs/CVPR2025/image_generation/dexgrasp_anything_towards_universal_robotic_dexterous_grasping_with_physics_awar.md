@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][灵巧手抓取] 本文提出 DexGrasp Anything，将三种物理约束力集成到扩散模型的训练和采样阶段，实现几乎所有开放数据集上 SOTA 的灵巧手抓取姿态生成，并构建了包含 15K+ 物体、340万+ 抓取姿态的最大规模灵巧抓取数据集。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 灵巧手抓取
-  - 扩散模型
-  - 物理约束
-  - 大规模数据集
-  - 通用抓取
+  - "CVPR 2025"
+  - "图像生成"
+  - "灵巧手抓取"
+  - "扩散模型"
+  - "物理约束"
+  - "大规模数据集"
+  - "通用抓取"
 ---
 
 # DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness

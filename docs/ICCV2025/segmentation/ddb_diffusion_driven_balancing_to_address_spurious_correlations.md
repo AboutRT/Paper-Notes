@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DDB: Diffusion Driven Balancing to Address Spurious Correlations
 description: >-
-  [ICCV 2025][图像分割][虚假相关性] 提出Diffusion Driven Balancing（DDB）方法，利用Stable Diffusion的文本反演和图像修复能力，自动生成少数组样本来平衡数据集中的虚假相关性，结合基于ERM模型预测概率和积分梯度的双重剪枝策略确保生成质量，在Waterbirds和MetaShift上达到最优最差组准确率。
+  [ICCV 2025][语义分割][虚假相关性] 提出Diffusion Driven Balancing（DDB）方法，利用Stable Diffusion的文本反演和图像修复能力，自动生成少数组样本来平衡数据集中的虚假相关性，结合基于ERM模型预测概率和积分梯度的双重剪枝策略确保生成质量…
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 虚假相关性
-  - 扩散模型数据增强
-  - 组鲁棒性
-  - 文本反演
-  - 图像修复
+  - "ICCV 2025"
+  - "语义分割"
+  - "虚假相关性"
+  - "扩散模型数据增强"
+  - "组鲁棒性"
+  - "文本反演"
+  - "图像修复"
 ---
 
 # DDB: Diffusion Driven Balancing to Address Spurious Correlations

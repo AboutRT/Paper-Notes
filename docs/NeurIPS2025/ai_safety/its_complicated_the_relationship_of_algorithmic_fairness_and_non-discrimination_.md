@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][EU AI Act] 本文系统分析了欧盟AI法案（EU AI Act）中针对高风险AI系统的反歧视条款与机器学习算法公平性领域之间的复杂关系，揭示了法律条文在输入侧偏差检测、输出侧保护缺失、标准化挑战等方面的关键缝隙，为计算机科学与法学跨学科协作提供了基础框架。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - EU AI Act
-  - 高风险AI系统
-  - 算法公平性
-  - 反歧视法
-  - 标准化
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "EU AI Act"
+  - "高风险AI系统"
+  - "算法公平性"
+  - "反歧视法"
+  - "标准化"
 ---
 
 # It's Complicated: The Relationship of Algorithmic Fairness and Non-Discrimination Provisions for High-Risk Systems in the EU AI Act

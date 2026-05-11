@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][Shapley交互] 利用Shapley Taylor交互指数（STII）跨模态（文本+语音）系统分析语言模型如何通过非线性交互编码句法结构、非组合语义和语音协同发音，发现自回归模型在句法编码上显著优于遮蔽模型。
 tags:
-  - ACL 2025
-  - Shapley交互
-  - 句法结构
-  - 多词表达
-  - 其他
-  - 非线性表征
+  - "ACL 2025"
+  - "Shapley交互"
+  - "句法结构"
+  - "多词表达"
+  - "语音模型"
+  - "非线性表征"
 ---
 
 # Using Shapley Interactions to Understand How Models Use Structure

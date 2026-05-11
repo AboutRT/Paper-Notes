@@ -2,18 +2,18 @@
 title: >-
   [论文解读] OmniPaint: Mastering Object-Oriented Editing via Disentangled Insertion-Removal Inpainting
 description: >-
-  [ICCV2025][图像生成][object removal] 提出 OmniPaint 统一框架，将物体移除与插入重新定义为互逆互补的关联任务，基于 FLUX 扩散先验并引入 CycleFlow 无配对训练机制和 CFD 无参考评估指标，仅用 3K 真实配对样本即可实现高保真的物体编辑，尤其擅长处理阴影、反射等复杂物理效果。
+  [ICCV2025][图像生成][object removal] 提出 OmniPaint 统一框架，将物体移除与插入重新定义为互逆互补的关联任务，基于 FLUX 扩散先验并引入 CycleFlow 无配对训练机制和 CFD 无参考评估指标，仅用 3K 真实配对样本即可实现高保真的物体编辑…
 tags:
-  - ICCV2025
-  - 图像生成
-  - object removal
-  - object insertion
-  - 图像修复
-  - 扩散模型
-  - CycleFlow
-  - FLUX
-  - flow matching
-  - CFD metric
+  - "ICCV2025"
+  - "图像生成"
+  - "object removal"
+  - "object insertion"
+  - "图像修复"
+  - "扩散模型"
+  - "CycleFlow"
+  - "FLUX"
+  - "flow matching"
+  - "CFD metric"
 ---
 
 # OmniPaint: Mastering Object-Oriented Editing via Disentangled Insertion-Removal Inpainting

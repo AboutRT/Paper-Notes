@@ -2,14 +2,14 @@
 title: >-
   [论文解读] VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference
 description: >-
-  [CVPR 2026][视频理解][稀疏注意力] 本文发现视频模型注意力图中存在强烈的"垂直向量"稀疏模式，据此提出 VecAttention 细粒度向量级稀疏注意力框架，通过 TilingSelect + minS 过滤实现高效重要向量选择，在 78%+ 稀疏度下视频理解准确率与全注意力持平，注意力计算加速 2.65 倍。
+  [CVPR 2026][视频理解][稀疏注意力] 本文发现视频模型注意力图中存在强烈的"垂直向量"稀疏模式，据此提出 VecAttention 细粒度向量级稀疏注意力框架，通过 TilingSelect + minS 过滤实现高效重要向量选择，在 78%+ 稀疏度下视频理解准确率与全注意力持平…
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 稀疏注意力
-  - 向量级稀疏
-  - 长上下文加速
-  - 视频生成
+  - "CVPR 2026"
+  - "视频理解"
+  - "稀疏注意力"
+  - "向量级稀疏"
+  - "长上下文加速"
+  - "视频生成"
 ---
 
 # VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference

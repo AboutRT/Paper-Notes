@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][文生3D] 提出 ForgeDreamer 框架，通过多专家 LoRA 师生蒸馏解决工业领域语义适配问题，结合跨视角超图几何增强实现高阶几何一致性约束，在工业文本到3D生成任务上超越现有方法。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 文生3D
-  - 工业3D生成
-  - LoRA蒸馏
-  - 超图几何一致性
-  - 3D Gaussian Splatting
+  - "CVPR 2026"
+  - "3D视觉"
+  - "文生3D"
+  - "工业3D生成"
+  - "LoRA蒸馏"
+  - "超图几何一致性"
+  - "3D Gaussian Splatting"
 ---
 
 # ForgeDreamer: Industrial Text-to-3D Generation with Multi-Expert LoRA and Cross-View Hypergraph

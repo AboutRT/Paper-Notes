@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][Wasserstein梯度流] 提出扰动Wasserstein梯度流(PWGF)算法，通过基于Hessian构造的高斯过程注入噪声扰动，使概率测度优化能够高效逃离鞍点并达到二阶最优性。
 tags:
-  - NeurIPS 2025
-  - Wasserstein梯度流
-  - 鞍点逃逸
-  - 二阶最优性
-  - 高斯过程扰动
-  - 其他
+  - "NeurIPS 2025"
+  - "Wasserstein梯度流"
+  - "鞍点逃逸"
+  - "二阶最优性"
+  - "高斯过程扰动"
+  - "非凸优化"
 ---
 
 # Hessian-guided Perturbed Wasserstein Gradient Flows for Escaping Saddle Points

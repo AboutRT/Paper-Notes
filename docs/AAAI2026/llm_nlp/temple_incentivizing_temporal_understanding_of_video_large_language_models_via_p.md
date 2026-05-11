@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TEMPLE: Incentivizing Temporal Understanding of Video LLMs via Progressive Pre-SFT Alignment
 description: >-
-  [AAAI 2026][LLM/NLP][Video LLM] 提出 TEMPLE，通过自动化的视频时间偏好数据生成管线（视频筛选→时间扰动→对比响应）和创新的 Progressive Pre-SFT Alignment 策略（课程学习 + DPO 先于 SFT），用少量自生成 DPO 数据显著提升 Video LLM 的时间推理能力，在 VideoMME、MLVU、Vinoground 等多个基准上一致改进。
+  [AAAI 2026][LLM/NLP][Video LLM] 提出 TEMPLE，通过自动化的视频时间偏好数据生成管线（视频筛选→时间扰动→对比响应）和创新的 Progressive Pre-SFT Alignment 策略（课程学习 + DPO 先于 SFT）…
 tags:
-  - AAAI 2026
-  - LLM/NLP
-  - Video LLM
-  - 时间理解
-  - DPO
-  - 偏好学习
-  - 课程学习
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "Video LLM"
+  - "时间理解"
+  - "DPO"
+  - "偏好学习"
+  - "课程学习"
 ---
 
 # TEMPLE: Incentivizing Temporal Understanding of Video LLMs via Progressive Pre-SFT Alignment

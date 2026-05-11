@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FVGen: Accelerating Novel-View Synthesis with Adversarial Video Diffusion Distillation
 description: >-
-  [ICCV 2025][视频生成] 本文提出 FVGen，一个将多步视频扩散模型（VDM）蒸馏为仅需 4 步采样的快速学生模型的框架，通过 GAN 目标的学生初始化和软化反向 KL 散度优化，实现了保持甚至超越教师模型视觉质量的同时减少 90% 以上的采样时间。
+  [ICCV 2025][视频生成][新视角合成] 本文提出 FVGen，一个将多步视频扩散模型（VDM）蒸馏为仅需 4 步采样的快速学生模型的框架，通过 GAN 目标的学生初始化和软化反向 KL 散度优化，实现了保持甚至超越教师模型视觉质量的同时减少 90% 以上的采样时间。
 tags:
-  - ICCV 2025
-  - 视频生成
-  - 视频扩散蒸馏
-  - 对抗训练
-  - 软化反向KL散度
-  - 少步采样
+  - "ICCV 2025"
+  - "视频生成"
+  - "新视角合成"
+  - "视频扩散蒸馏"
+  - "对抗训练"
+  - "软化反向KL散度"
+  - "少步采样"
 ---
 
 # FVGen: Accelerating Novel-View Synthesis with Adversarial Video Diffusion Distillation

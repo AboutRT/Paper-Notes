@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2026][自监督学习][foundation model] 首次系统研究视觉基础模型对常见扰动（JPEG 压缩、亮度调节等）的鲁棒性，提出三种鲁棒性度量并形式化五个数学性质，发现基础模型普遍不鲁棒，并提出微调方法改善鲁棒性而不牺牲效用。
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - foundation model
-  - robustness
-  - common perturbation
-  - 自监督
-  - CLIP
-  - DINOv2
+  - "CVPR 2026"
+  - "自监督学习"
+  - "foundation model"
+  - "robustness"
+  - "common perturbation"
+  - "embedding"
+  - "CLIP"
+  - "DINOv2"
 ---
 
 # Robustness of Vision Foundation Models to Common Perturbations

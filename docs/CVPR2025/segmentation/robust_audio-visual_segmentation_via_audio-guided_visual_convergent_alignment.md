@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Robust Audio-Visual Segmentation via Audio-Guided Visual Convergent Alignment
 description: >-
-  [CVPR 2025][图像分割][音视频分割] 本文通过音频引导的模态对齐（AMA）和不确定性估计（UE）两个模块，解决音视频分割中视觉相似物体的错误关联和发声状态频繁变化导致的过/欠分割问题，在AVS-Semantic上提升4.2%。
+  [CVPR 2025][语义分割][音视频分割] 本文通过音频引导的模态对齐（AMA）和不确定性估计（UE）两个模块，解决音视频分割中视觉相似物体的错误关联和发声状态频繁变化导致的过/欠分割问题，在AVS-Semantic上提升4.2%。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 音视频分割
-  - 模态对齐
-  - 不确定性估计
-  - 对比学习
-  - 语义分组
+  - "CVPR 2025"
+  - "语义分割"
+  - "音视频分割"
+  - "模态对齐"
+  - "不确定性估计"
+  - "对比学习"
+  - "语义分组"
 ---
 
 # Robust Audio-Visual Segmentation via Audio-Guided Visual Convergent Alignment

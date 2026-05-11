@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][量化] 提出 PTQ1.61，首个将 LLM 权重有效压缩到真正 sub-2-bit（1.61-bit）的后训练量化方法，通过一维结构化掩码（仅增加 0.0002-bit 开销）、分块缩放因子优化和量化预处理三项技术实现 SOTA 性能。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 量化
-  - low-bit
-  - LLM compression
-  - binarization
-  - structured mask
+  - "ACL 2025"
+  - "模型压缩"
+  - "量化"
+  - "low-bit"
+  - "LLM compression"
+  - "binarization"
+  - "structured mask"
 ---
 
 # PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models

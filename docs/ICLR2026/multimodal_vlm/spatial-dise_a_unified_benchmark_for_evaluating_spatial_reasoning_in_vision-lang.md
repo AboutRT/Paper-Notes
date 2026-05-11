@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models
 description: >-
-  [ICLR 2026][多模态][spatial reasoning] 提出基于认知科学 2×2 分类法（内在/外在 × 静态/动态）的统一空间推理基准 Spatial-DISE，包含 559 个评估 VQA 对和 12K+ 训练数据，在 32 个 SOTA VLM 上的评测揭示了模型在动态空间推理（尤其是心理旋转和折叠）上与人类的巨大差距。
+  [ICLR 2026][多模态VLM][spatial reasoning] 提出基于认知科学 2×2 分类法（内在/外在 × 静态/动态）的统一空间推理基准 Spatial-DISE，包含 559 个评估 VQA 对和 12K+ 训练数据…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - VLM benchmark
-  - cognitive taxonomy
-  - DISE framework
-  - mental transformation
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "spatial reasoning"
+  - "VLM benchmark"
+  - "cognitive taxonomy"
+  - "DISE framework"
+  - "mental transformation"
 ---
 
 # Spatial-DISE: A Unified Benchmark for Evaluating Spatial Reasoning in Vision-Language Models

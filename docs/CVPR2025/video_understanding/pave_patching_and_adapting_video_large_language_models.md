@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][Video LLM适配] PAVE 提出了一种通过轻量级"补丁"（patch）适配预训练 Video LLM 的框架，能将音频、3D 线索、多视角视频等侧信道信号以约 0.1% 的额外参数和计算量融入基础模型，在音视频 QA、3D QA 等任务上超越专用模型。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - Video LLM适配
-  - 侧信道信号
-  - 轻量适配器
-  - 音视频问答
-  - 3D场景理解
+  - "CVPR 2025"
+  - "视频理解"
+  - "Video LLM适配"
+  - "侧信道信号"
+  - "轻量适配器"
+  - "音视频问答"
+  - "3D场景理解"
 ---
 
 # PAVE: Patching and Adapting Video Large Language Models

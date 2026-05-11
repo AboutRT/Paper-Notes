@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][扩散语言模型] 本文分析了连续扩散语言模型在少步采样时自条件化信号的不匹配和训练饱和两个瓶颈，提出FastDiSS框架通过自条件化扰动（SCP）和模型感知噪声缩放（MANS）来改善鲁棒性，在6个基准上实现4×-400×加速同时保持质量。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 扩散语言模型
-  - 少步采样
-  - 自条件化扰动
-  - 噪声缩放
-  - 序列到序列
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "扩散语言模型"
+  - "少步采样"
+  - "自条件化扰动"
+  - "噪声缩放"
+  - "序列到序列"
 ---
 
 # FastDiSS: Few-step Match Many-step Diffusion Language Model on Sequence-to-Sequence Generation

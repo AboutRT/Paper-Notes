@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][人像动画] 提出高保真度的个性化头部表征（静态身份偏移 + 动态表情偏移），解决 SMPL-X 等参数化模型表达力不足的问题，结合身份自适应表情迁移模块和 DiT 生成器，在人像视频自驱动和跨身份重演任务上取得 SOTA 表现。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 人像动画
-  - 个性化头部表征
-  - 表情迁移
-  - Transformer
-  - SMPL-X
+  - "CVPR 2026"
+  - "图像生成"
+  - "人像动画"
+  - "个性化头部表征"
+  - "表情迁移"
+  - "Transformer"
+  - "SMPL-X"
 ---
 
 # ExpPortrait: Expressive Portrait Generation via Personalized Representation

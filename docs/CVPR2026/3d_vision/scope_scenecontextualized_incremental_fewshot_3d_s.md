@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D点云分割] 提出即插即用的SCOPE框架，利用类无关分割模型从基础训练场景的背景区域挖掘伪实例原型，通过检索+注意力融合增强few-shot新类原型，无需重训backbone即可在ScanNet上将新类IoU提升6.98%。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D点云分割
-  - 增量few-shot
-  - 背景挖掘
-  - 原型增强
-  - 即插即用
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D点云分割"
+  - "增量few-shot"
+  - "背景挖掘"
+  - "原型增强"
+  - "即插即用"
 ---
 
 # SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MisMatched: A Benchmark for Scientific Natural Language Inference
 description: >-
-  [ACL 2025][scientific NLI] 引入 MisMatched——首个覆盖非 CS 领域（心理学、工程、公共卫生）的科学 NLI 评估基准，包含 2,700 对人工标注句子对，最佳 SLM 基线（SciBERT）Macro F1 仅 78.17%，最佳 LLM 基线（Phi-3）仅 57.16%，并证明训练时加入隐式关系句子对可提升模型性能。
+  [ACL 2025][LLM评测][scientific NLI] 引入 MisMatched——首个覆盖非 CS 领域（心理学、工程、公共卫生）的科学 NLI 评估基准，包含 2,700 对人工标注句子对，最佳 SLM 基线（SciBERT）Macro F1 仅 78.17%…
 tags:
-  - ACL 2025
-  - scientific NLI
-  - out-of-domain evaluation
-  - LLM评测
-  - implicit relations
-  - benchmark
+  - "ACL 2025"
+  - "LLM评测"
+  - "scientific NLI"
+  - "out-of-domain evaluation"
+  - "cross-domain generalization"
+  - "implicit relations"
+  - "benchmark"
 ---
 
 # MisMatched: A Benchmark for Scientific Natural Language Inference

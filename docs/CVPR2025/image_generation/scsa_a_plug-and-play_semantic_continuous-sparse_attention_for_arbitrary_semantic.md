@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][语义风格迁移] 提出即插即用的语义连续-稀疏注意力模块 SCSA，通过语义连续注意力（SCA）确保同语义区域风格一致性、语义稀疏注意力（SSA）保留原始纹理细节，可无训练嵌入任何基于注意力的风格迁移方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 语义风格迁移
-  - 注意力机制
-  - 即插即用
-  - 连续-稀疏注意力
-  - 任意风格迁移
+  - "CVPR 2025"
+  - "图像生成"
+  - "语义风格迁移"
+  - "注意力机制"
+  - "即插即用"
+  - "连续-稀疏注意力"
+  - "任意风格迁移"
 ---
 
 # SCSA: A Plug-and-Play Semantic Continuous-Sparse Attention for Arbitrary Semantic Style Transfer

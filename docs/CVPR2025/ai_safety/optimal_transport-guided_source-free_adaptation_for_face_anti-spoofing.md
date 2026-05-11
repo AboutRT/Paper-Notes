@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Optimal Transport-Guided Source-Free Adaptation for Face Anti-Spoofing
 description: >-
-  [CVPR 2025][AI安全][人脸活体检测] 提出 OTA 框架：训练阶段学习原型表示编码源域分布，测试阶段通过最优传输(OT)在不访问源模型参数和训练数据的前提下，以 training-free 或轻量训练方式将原型迁移到目标域，同时提出 geodesic mixup 数据增强改善低数据场景的分类器学习。
+  [CVPR 2025][AI安全][人脸活体检测] 提出 OTA 框架：训练阶段学习原型表示编码源域分布，测试阶段通过最优传输(OT)在不访问源模型参数和训练数据的前提下，以 training-free 或轻量训练方式将原型迁移到目标域…
 tags:
-  - CVPR 2025
-  - AI安全
-  - 人脸活体检测
-  - 最优传输
-  - 无源域适应
-  - 少样本适应
-  - 原型学习
+  - "CVPR 2025"
+  - "AI安全"
+  - "人脸活体检测"
+  - "最优传输"
+  - "无源域适应"
+  - "少样本适应"
+  - "原型学习"
 ---
 
 # Optimal Transport-Guided Source-Free Adaptation for Face Anti-Spoofing

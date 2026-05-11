@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][结构化剪枝] 提出 Isomorphic Pruning，通过将网络子结构建模为图并按图同构性分组，在同构组内独立排序剪枝，解决异构子结构间重要性不可比的问题，在 ViT 和 CNN 上均取得优于专门设计的剪枝方法的效果。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 结构化剪枝
-  - Transformer
-  - CNN
-  - 图同构
-  - 子结构分组
+  - "ECCV 2024"
+  - "模型压缩"
+  - "结构化剪枝"
+  - "Transformer"
+  - "CNN"
+  - "图同构"
+  - "子结构分组"
 ---
 
 # Isomorphic Pruning for Vision Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Quantization without Tears
 description: >-
-  [CVPR 2025][多模态][网络量化] 提出 QwT（Quantization without Tears）方法，通过在量化网络的每个 block 后添加一个轻量级线性补偿层来弥补量化信息损失，该补偿层参数可通过闭式解在2分钟内求得，在视觉、语言、多模态等多种任务上均显著提升了 PTQ 精度。
+  [CVPR 2025][多模态VLM][网络量化] 提出 QwT（Quantization without Tears）方法，通过在量化网络的每个 block 后添加一个轻量级线性补偿层来弥补量化信息损失，该补偿层参数可通过闭式解在2分钟内求得，在视觉、语言、多模态等多种任务上均显著提升了 PTQ 精度。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 后训练量化
-  - 补偿模块
-  - 闭式解
-  - 模型压缩
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "网络量化"
+  - "后训练量化"
+  - "补偿模块"
+  - "闭式解"
+  - "模型压缩"
 ---
 
 # Quantization without Tears

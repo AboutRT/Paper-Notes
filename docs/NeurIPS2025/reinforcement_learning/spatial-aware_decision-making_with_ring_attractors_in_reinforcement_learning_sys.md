@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems
 description: >-
-  [NeurIPS 2025][环形吸引子] 将神经科学中的环形吸引子模型集成到 DRL 的动作选择中，通过将动作映射到环上的空间位置并利用高斯信号注入 Q 值和不确定性，在 Atari 100K 上比基线提升 53%。
+  [NeurIPS 2025][强化学习][环形吸引子] 将神经科学中的环形吸引子模型集成到 DRL 的动作选择中，通过将动作映射到环上的空间位置并利用高斯信号注入 Q 值和不确定性，在 Atari 100K 上比基线提升 53%。
 tags:
-  - NeurIPS 2025
-  - 环形吸引子
-  - 生物启发RL
-  - 空间感知
-  - 动作空间编码
-  - 强化学习
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "环形吸引子"
+  - "生物启发RL"
+  - "空间感知"
+  - "动作空间编码"
+  - "不确定性量化"
 ---
 
 # Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems

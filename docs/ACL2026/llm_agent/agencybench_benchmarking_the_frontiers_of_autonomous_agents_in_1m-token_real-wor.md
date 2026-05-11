@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][自主智能体] 提出AgencyBench——一个包含138个真实世界任务的综合基准，评估6种核心智能体能力，每个场景平均需90次工具调用和100万token，通过用户模拟agent和Docker沙箱实现全自动化评估。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 自主智能体
-  - 长程任务
-  - 真实世界基准
-  - 用户模拟
-  - Docker沙箱评估
+  - "ACL 2026"
+  - "LLM Agent"
+  - "自主智能体"
+  - "长程任务"
+  - "真实世界基准"
+  - "用户模拟"
+  - "Docker沙箱评估"
 ---
 
 # AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts

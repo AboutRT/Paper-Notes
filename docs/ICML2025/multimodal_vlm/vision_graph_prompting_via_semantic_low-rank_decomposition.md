@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Vision Graph Prompting via Semantic Low-Rank Decomposition
 description: >-
-  [ICML2025][多模态][图神经网络] 提出 Vision Graph Prompting (VGP)，首个面向 Vision GNN (ViG) 的视觉提示学习框架，利用图中语义连通分量的低秩特性，设计了图/边/节点三层粒度的语义低秩提示（SeLo-Graph/Edge/Node Prompt），在参数高效的前提下达到接近全量微调的下游任务迁移性能。
+  [ICML2025][多模态VLM][图神经网络] 提出 Vision Graph Prompting (VGP)，首个面向 Vision GNN (ViG) 的视觉提示学习框架，利用图中语义连通分量的低秩特性，设计了图/边/节点三层粒度的语义低秩提示（SeLo-Graph/Edge/Node Prompt）…
 tags:
-  - ICML2025
-  - 多模态
-  - 多模态VLM
-  - 视觉提示学习
-  - 低秩分解
-  - 参数高效微调
+  - "ICML2025"
+  - "多模态VLM"
+  - "图神经网络"
+  - "视觉提示学习"
+  - "低秩分解"
+  - "参数高效微调"
 ---
 
 # Vision Graph Prompting via Semantic Low-Rank Decomposition
@@ -99,7 +99,7 @@ $$x_i' = x_i + \beta \cdot x_i \cdot A_n \cdot B_n$$
 | 方法 | 可训练参数 | CUB-200 | NABirds | Oxford Flowers | Stanford Dogs | Stanford Cars |
 |------|-----------|---------|---------|----------------|--------------|---------------|
 | Full Fine-tuning | 100% | 87.3 | 82.7 | 98.8 | 89.4 | 84.6 |
-| Linear Probe | <1% | 75.8 | 68.2 | 95.1 | 79.3 | 52.7 |
+| Linear Probe | &lt;1% | 75.8 | 68.2 | 95.1 | 79.3 | 52.7 |
 | VPT-Shallow | ~0.5% | 79.2 | 72.4 | 96.3 | 83.1 | 68.5 |
 | VPT-Deep | ~1.2% | 82.5 | 76.8 | 97.1 | 85.7 | 74.3 |
 | AdaptFormer | ~1.0% | 83.1 | 77.2 | 97.4 | 86.2 | 76.1 |

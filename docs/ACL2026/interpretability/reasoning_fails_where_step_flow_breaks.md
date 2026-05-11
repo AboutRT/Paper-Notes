@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reasoning Fails Where Step Flow Breaks
 description: >-
-  [ACL 2026][推理模型可解释性] 提出 Step-Saliency 诊断工具发现大推理模型中两种深度相关的信息流失败模式（Shallow Lock-in 和 Deep Decay），并设计 StepFlow 测试时干预方法在不重训练的情况下修复信息传播、提升推理准确率。
+  [ACL 2026][可解释性][推理模型可解释性] 提出 Step-Saliency 诊断工具发现大推理模型中两种深度相关的信息流失败模式（Shallow Lock-in 和 Deep Decay），并设计 StepFlow 测试时干预方法在不重训练的情况下修复信息传播、提升推理准确率。
 tags:
-  - ACL 2026
-  - 推理模型可解释性
-  - 信息流分析
-  - 测试时干预
-  - 注意力机制
-  - 思维链
+  - "ACL 2026"
+  - "可解释性"
+  - "推理模型可解释性"
+  - "信息流分析"
+  - "测试时干预"
+  - "注意力机制"
+  - "思维链"
 ---
 
 # Reasoning Fails Where Step Flow Breaks

@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][dataset bias] 提出 lbGen 框架，通过双层语义对齐（全局对抗+个体余弦相似度）和质量保证损失微调 Stable Diffusion，仅用类别名称即可生成低偏差的通用标注数据集，预训练骨干比 ImageNet 真实数据平均迁移精度高出 1.7%~2.1%。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - dataset bias
-  - synthetic dataset
-  - 扩散模型
-  - CLIP
-  - bi-level semantic alignment
-  - quality assurance
-  - 迁移学习
+  - "CVPR 2025"
+  - "图像生成"
+  - "dataset bias"
+  - "synthetic dataset"
+  - "扩散模型"
+  - "CLIP"
+  - "bi-level semantic alignment"
+  - "quality assurance"
+  - "迁移学习"
 ---
 
 # lbGen: Low-Biased General Annotated Dataset Generation

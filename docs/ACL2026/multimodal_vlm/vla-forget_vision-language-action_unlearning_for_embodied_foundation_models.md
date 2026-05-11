@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models
 description: >-
-  [ACL 2026][多模态VLM][机器遗忘] 提出 VLA-Forget，首个面向视觉-语言-动作（VLA）模型的混合遗忘框架，通过 ratio-aware 选择性编辑处理感知/跨模态层、significance-based 选择性编辑处理推理/动作层，实现目标行为移除同时保持感知精确性（+22%）和任务成功率（+9%）。
+  [ACL 2026][多模态VLM][机器遗忘] 提出 VLA-Forget，首个面向视觉-语言-动作（VLA）模型的混合遗忘框架，通过 ratio-aware 选择性编辑处理感知/跨模态层、significance-based 选择性编辑处理推理/动作层…
 tags:
-  - ACL 2026
-  - 多模态VLM
-  - 机器遗忘
-  - VLA模型
-  - 具身智能
-  - 多模态遗忘
-  - 选择性编辑
+  - "ACL 2026"
+  - "多模态VLM"
+  - "机器遗忘"
+  - "VLA模型"
+  - "具身智能"
+  - "多模态遗忘"
+  - "选择性编辑"
 ---
 
 # VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models

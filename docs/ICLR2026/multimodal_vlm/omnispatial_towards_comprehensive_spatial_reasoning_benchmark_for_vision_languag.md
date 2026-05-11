@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models
 description: >-
-  [ICLR 2026][多模态][空间推理] 基于认知心理学构建OmniSpatial——首个全面空间推理基准，系统覆盖动态推理、复杂空间逻辑、空间交互和透视转换4大维度50个子类别共8.4K人工标注QA对，让o3最强推理模型仅达56.33%而人类达92.63%→揭示复杂空间推理仍是VLM的核心瓶颈。
+  [ICLR 2026][多模态VLM][空间推理] 基于认知心理学构建OmniSpatial——首个全面空间推理基准，系统覆盖动态推理、复杂空间逻辑、空间交互和透视转换4大维度50个子类别共8.4K人工标注QA对，让o3最强推理模型仅达56.33%而人类达92.63%→揭示复杂空间推理仍是VLM的核心瓶颈。
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - VLM基准
-  - 认知心理学
-  - 动态推理
-  - 透视转换
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "空间推理"
+  - "VLM基准"
+  - "认知心理学"
+  - "动态推理"
+  - "透视转换"
 ---
 
 # OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models

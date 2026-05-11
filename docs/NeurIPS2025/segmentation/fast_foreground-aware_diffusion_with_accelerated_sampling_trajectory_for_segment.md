@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FAST: Foreground-aware Diffusion with Accelerated Sampling Trajectory for Segmentation-oriented Anomaly Synthesis
 description: >-
-  [NeurIPS 2025][图像分割][工业异常合成] 提出FAST前景感知扩散框架，包含无训练的异常信息加速采样（AIAS）和前景感知重建模块（FARM），将扩散步骤从1000减少到10步同时实现SOTA异常分割性能（MVTec-AD上mIoU 76.72%）。
+  [NeurIPS 2025][语义分割][工业异常合成] 提出FAST前景感知扩散框架，包含无训练的异常信息加速采样（AIAS）和前景感知重建模块（FARM），将扩散步骤从1000减少到10步同时实现SOTA异常分割性能（MVTec-AD上mIoU 76.72%）。
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - 工业异常合成
-  - 扩散模型
-  - 前景感知
-  - 加速采样
-  - 异常分割
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "工业异常合成"
+  - "扩散模型"
+  - "前景感知"
+  - "加速采样"
+  - "异常分割"
 ---
 
 # FAST: Foreground-aware Diffusion with Accelerated Sampling Trajectory for Segmentation-oriented Anomaly Synthesis

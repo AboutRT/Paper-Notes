@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][Flow Expansion] 提出Flow Expander (FE)，通过验证器约束的熵最大化在概率空间中扩展预训练流模型的覆盖范围，使其生成超越训练数据分布但保持有效性的设计样本，在分子构象设计中增加多样性同时保持化学有效性。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - Flow Expansion
-  - 验证器约束
-  - 熵最大化
-  - Mirror Descent
-  - 分子设计
+  - "ICLR 2026"
+  - "图像生成"
+  - "Flow Expansion"
+  - "验证器约束"
+  - "熵最大化"
+  - "Mirror Descent"
+  - "分子设计"
 ---
 
 # Verifier-Constrained Flow Expansion for Discovery Beyond the Data

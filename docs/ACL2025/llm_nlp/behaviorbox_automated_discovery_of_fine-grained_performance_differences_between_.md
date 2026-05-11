@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][语言模型评测] 提出 BehaviorBox，利用性能感知的上下文嵌入（performance-aware contextual embeddings）自动发现两个语言模型之间细粒度的性能差异特征，如"条件语气中的'were'"或"情感句后的感叹号"等具体上下文模式。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 语言模型评测
-  - 性能差异发现
-  - 上下文嵌入
-  - 自动化分析
-  - 细粒度比较
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "语言模型评测"
+  - "性能差异发现"
+  - "上下文嵌入"
+  - "自动化分析"
+  - "细粒度比较"
 ---
 
 # BehaviorBox: Automated Discovery of Fine-Grained Performance Differences Between Language Models

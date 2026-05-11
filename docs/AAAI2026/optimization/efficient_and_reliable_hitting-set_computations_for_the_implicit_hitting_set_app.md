@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Efficient and Reliable Hitting-Set Computations for the Implicit Hitting Set Approach
 description: >-
-  [AAAI2026][优化][隐式击中集] 针对隐式击中集框架中击中集组件依赖商用IP求解器带来的数值不稳定问题，提出基于伪布尔推理和随机局部搜索的替代方案及混合策略，实现了首个可认证的IHS计算并在1786个基准实例上展示了效率与可靠性的有效权衡。
+  [AAAI2026][优化/理论][隐式击中集] 针对隐式击中集框架中击中集组件依赖商用IP求解器带来的数值不稳定问题，提出基于伪布尔推理和随机局部搜索的替代方案及混合策略，实现了首个可认证的IHS计算并在1786个基准实例上展示了效率与可靠性的有效权衡。
 tags:
-  - AAAI2026
-  - 优化
-  - 隐式击中集
-  - 伪布尔优化
-  - 可认证计算
-  - 随机局部搜索
-  - IP求解器
+  - "AAAI2026"
+  - "优化/理论"
+  - "隐式击中集"
+  - "伪布尔优化"
+  - "可认证计算"
+  - "随机局部搜索"
+  - "IP求解器"
 ---
 
 # Efficient and Reliable Hitting-Set Computations for the Implicit Hitting Set Approach

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像恢复][扩散世界模型] 提出 Horizon Imagination (HI)，通过在去噪中途采样动作并行处理多个未来帧，将扩散世界模型的 on-policy 想象计算量降至每帧不到一次完整去噪，同时保持控制性能。
 tags:
-  - ICLR 2026
-  - 图像恢复
-  - 扩散世界模型
-  - on-policy rollout
-  - 图像复原
-  - 样本效率
-  - Atari
+  - "ICLR 2026"
+  - "图像恢复"
+  - "扩散世界模型"
+  - "on-policy rollout"
+  - "强化学习"
+  - "样本效率"
+  - "Atari"
 ---
 
 # Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models
@@ -73,9 +73,9 @@ tags:
 | 环境 | 方法 | 人类归一化分数 | 每帧去噪步数 |
 |------|------|--------------|-------------|
 | Atari 100K | DIAMOND | ~1.0x | 10 |
-| Atari 100K | HI (k=3) | ~1.0x (匹配) | <1 |
+| Atari 100K | HI (k=3) | ~1.0x (匹配) | &lt;1 |
 | Craftium | DIAMOND | 基线 | 10 |
-| Craftium | HI | 匹配 | <1 |
+| Craftium | HI | 匹配 | &lt;1 |
 
 ### 消融实验
 

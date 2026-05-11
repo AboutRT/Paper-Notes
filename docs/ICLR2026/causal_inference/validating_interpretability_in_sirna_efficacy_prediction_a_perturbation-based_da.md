@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Validating Interpretability in siRNA Efficacy Prediction: A Perturbation-Based, Dataset-Aware Protocol
 description: >-
-  [ICLR 2026][siRNA] 提出一个标准化的扰动式显著性忠实性验证协议用于 siRNA 效能预测，作为"合成前关卡"检验显著性图是否可信；同时提出 BioPrior 生物信息正则化提升解释忠实性，发现 19/20 折instances 通过验证，但跨数据集迁移暴露两种失败模式。
+  [ICLR 2026][因果推理][siRNA] 提出一个标准化的扰动式显著性忠实性验证协议用于 siRNA 效能预测，作为"合成前关卡"检验显著性图是否可信；同时提出 BioPrior 生物信息正则化提升解释忠实性，发现 19/20 折instances 通过验证，但跨数据集迁移暴露两种失败模式。
 tags:
-  - ICLR 2026
-  - siRNA
-  - 显著性图
-  - 忠实性验证
-  - 扰动测试
-  - 生物信息正则化
+  - "ICLR 2026"
+  - "因果推理"
+  - "siRNA"
+  - "显著性图"
+  - "忠实性验证"
+  - "扰动测试"
+  - "生物信息正则化"
 ---
 
 # Validating Interpretability in siRNA Efficacy Prediction: A Perturbation-Based, Dataset-Aware Protocol
@@ -86,7 +87,7 @@ $\mathcal{L}_{total} = \mathcal{L}_{pred} + \lambda(t) \mathcal{L}_{bio} + \lamb
 | +BioPrior（完整） | 0.86 | +0.01 | 忠实性提升 |
 | Baseline（无BioPrior） | 0.77 | 基线 | |
 | 随机权重 | -0.45~0.03 | N/A | 负控制，确认失败 |
-| 打乱标签 | <0.03 | N/A | 负控制 |
+| 打乱标签 | &lt;0.03 | N/A | 负控制 |
 | 底部-k（低显著性） | 失败 | N/A | 反向控制 |
 
 ### 关键发现

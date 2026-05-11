@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][隐式神经表示] 提出超像素引导的隐式神经表示（S-INR），用广义超像素替代像素作为INR的基本单元，通过专属注意力MLP和共享字典矩阵两个模块，充分挖掘广义超像素内部和之间的语义信息，在图像重建/补全/去噪以及点数据恢复等任务上超越现有INR方法。
 tags:
-  - ECCV 2024
-  - 隐式神经表示
-  - 超像素
-  - 多维数据恢复
-  - 注意力机制
-  - 字典学习
+  - "ECCV 2024"
+  - "隐式神经表示"
+  - "超像素"
+  - "多维数据恢复"
+  - "注意力机制"
+  - "字典学习"
 ---
 
 # Superpixel-Informed Implicit Neural Representation for Multi-Dimensional Data

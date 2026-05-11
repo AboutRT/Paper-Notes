@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DCDM: Diffusion-Conditioned-Diffusion Model for Scene Text Image Super-Resolution
 description: >-
-  [ECCV 2024][图像生成][场景文字超分辨率] 提出 DCDM（Diffusion-Conditioned-Diffusion Model），通过双扩散架构学习高分辨率场景文字图像的分布：第一个潜在扩散模型生成字符级文本嵌入作为条件，第二个扩散模型在此条件和低分辨率图像的联合引导下生成高清文字图像，在 TextZoom 和 Real-CE 数据集上超越 SOTA。
+  [ECCV 2024][图像生成][场景文字超分辨率] 提出 DCDM（Diffusion-Conditioned-Diffusion Model），通过双扩散架构学习高分辨率场景文字图像的分布：第一个潜在扩散模型生成字符级文本嵌入作为条件，第二个扩散模型在此条件和低分辨率图像的联合引导下生成高清文字图像…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 场景文字超分辨率
-  - 扩散模型
-  - 字符级文本嵌入
-  - CLIP对齐
-  - 条件生成
+  - "ECCV 2024"
+  - "图像生成"
+  - "场景文字超分辨率"
+  - "扩散模型"
+  - "字符级文本嵌入"
+  - "CLIP对齐"
+  - "条件生成"
 ---
 
 # DCDM: Diffusion-Conditioned-Diffusion Model for Scene Text Image Super-Resolution

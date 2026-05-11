@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Genetic Instruct: Scaling up Synthetic Generation of Coding Instructions for Large Language Models
 description: >-
-  [ACL 2025][LLM/NLP][合成数据] 提出 Genetic-Instruct 算法，借鉴进化算法的交叉和变异操作，从 512 个种子指令扩展生成 750 万+高质量编码指令，使用 Instructor-LLM/Coder-LLM/Judge-LLM 三角色流水线，训练后的模型在代码生成基准上超越 Self-Instruct 和 Evol-Instruct。
+  [ACL 2025][LLM/NLP][合成数据] 提出 Genetic-Instruct 算法，借鉴进化算法的交叉和变异操作，从 512 个种子指令扩展生成 750 万+高质量编码指令，使用 Instructor-LLM/Coder-LLM/Judge-LLM 三角色流水线…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 合成数据
-  - 代码生成
-  - evolutionary algorithm
-  - 指令微调
-  - 可扩展性
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "合成数据"
+  - "代码生成"
+  - "evolutionary algorithm"
+  - "指令微调"
+  - "可扩展性"
 ---
 
 # Genetic Instruct: Scaling up Synthetic Generation of Coding Instructions for Large Language Models

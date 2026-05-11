@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MyVLM: Personalizing VLMs for User-Specific Queries
 description: >-
-  [ECCV 2024][多模态][VLM个性化] MyVLM首次探索VLM个性化问题，通过外挂概念识别头检测用户特定概念（如"你的狗"），并在VLM中间特征空间学习概念嵌入引导语言模型在回答中自然融入该概念，仅需3-5张图像即可实现个性化caption和VQA。
+  [ECCV 2024][多模态VLM][VLM个性化] MyVLM首次探索VLM个性化问题，通过外挂概念识别头检测用户特定概念（如"你的狗"），并在VLM中间特征空间学习概念嵌入引导语言模型在回答中自然融入该概念，仅需3-5张图像即可实现个性化caption和VQA。
 tags:
-  - ECCV 2024
-  - 多模态
-  - VLM个性化
-  - 概念嵌入
-  - BLIP-2
-  - LLaVA
-  - 少样本学习
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "VLM个性化"
+  - "概念嵌入"
+  - "BLIP-2"
+  - "LLaVA"
+  - "少样本学习"
 ---
 
 # MyVLM: Personalizing VLMs for User-Specific Queries

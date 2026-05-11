@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图学习] 本文提出"软查询"形式化框架，将复杂逻辑查询扩展到不确定知识图谱（带置信度值），并设计 SRC 方法结合前向推理和后向校准来高效回答软查询，理论证明误差不会灾难性级联。
 tags:
-  - 图学习
+  - "图学习"
 ---
 
 # Extending Complex Logical Queries on Uncertain Knowledge Graphs

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Adjusted Count Quantification Learning on Graphs
 description: >-
-  [NeurIPS 2025][其他] 将经典的 Adjusted Classify & Count (ACC) 量化方法扩展到图结构数据，提出结构重要性采样（SIS）和邻域感知ACC两种技术，分别解决图量化中的结构协变量偏移和非同质性边问题。
+  [NeurIPS 2025][量化学习] 将经典的 Adjusted Classify & Count (ACC) 量化方法扩展到图结构数据，提出结构重要性采样（SIS）和邻域感知ACC两种技术，分别解决图量化中的结构协变量偏移和非同质性边问题。
 tags:
-  - NeurIPS 2025
-  - 其他
-  - 图数据
-  - 协变量偏移
-  - 重要性采样
-  - 非同质性
+  - "NeurIPS 2025"
+  - "量化学习"
+  - "图数据"
+  - "协变量偏移"
+  - "重要性采样"
+  - "非同质性"
 ---
 
 # Adjusted Count Quantification Learning on Graphs
@@ -112,7 +112,7 @@ $$L_{cls} = -\sum_{v \in V_{train}} \log p(y_v | x_v, G)$$
 
 | 偏移程度 | CC MAE | ACC MAE | SIS MAE | 改进率 (vs ACC) |
 |---------|---------|---------|---------|---------------|
-| 轻微 (KL<0.1) | 0.085 | 0.062 | 0.058 | 6.5% |
+| 轻微 (KL&lt;0.1) | 0.085 | 0.062 | 0.058 | 6.5% |
 | 中等 (KL 0.1-0.5) | 0.156 | 0.124 | 0.093 | 25.0% |
 | 严重 (KL>0.5) | 0.234 | 0.198 | 0.127 | 35.9% |
 | 极端 (KL>1.0) | 0.312 | 0.275 | 0.164 | 40.4% |

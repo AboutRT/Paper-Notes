@@ -2,16 +2,17 @@
 title: >-
   [论文解读] SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning
 description: >-
-  [ICML 2025][推荐系统] SIMPLEMIX 发现 on-policy 数据擅长推理任务而 off-policy 数据擅长开放式任务，通过简单地混合两类数据源即可在 Alpaca Eval 2.0 上平均提升 6.03%，超越 HyPO 等复杂方法 3.05%。
+  [ICML 2025][推荐系统][DPO] SIMPLEMIX 发现 on-policy 数据擅长推理任务而 off-policy 数据擅长开放式任务，通过简单地混合两类数据源即可在 Alpaca Eval 2.0 上平均提升 6.03%，超越 HyPO 等复杂方法 3.05%。
 tags:
-  - ICML 2025
-  - 推荐系统
-  - 偏好优化
-  - on-policy
-  - off-policy
-  - 数据混合
-  - RLHF
-  - 语言模型对齐
+  - "ICML 2025"
+  - "推荐系统"
+  - "DPO"
+  - "偏好优化"
+  - "on-policy"
+  - "off-policy"
+  - "数据混合"
+  - "RLHF"
+  - "语言模型对齐"
 ---
 
 # SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning

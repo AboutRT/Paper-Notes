@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval
 description: >-
-  [ACL 2025][文化遗产图像检索] 本文针对文化遗产图像检索任务，提出了一个结合自动解释生成和幻觉检测的框架，利用视觉语言模型为检索结果生成可解释的文本描述，同时通过领域知识约束的幻觉检测机制确保描述的事实准确性，在多个文化遗产数据集上验证了方法的有效性。
+  [ACL 2025][LLM安全][文化遗产图像检索] 本文针对文化遗产图像检索任务，提出了一个结合自动解释生成和幻觉检测的框架，利用视觉语言模型为检索结果生成可解释的文本描述，同时通过领域知识约束的幻觉检测机制确保描述的事实准确性，在多个文化遗产数据集上验证了方法的有效性。
 tags:
-  - ACL 2025
-  - 文化遗产图像检索
-  - 自动解释生成
-  - LLM安全
-  - 视觉语言模型
-  - 跨模态检索
+  - "ACL 2025"
+  - "LLM安全"
+  - "文化遗产图像检索"
+  - "自动解释生成"
+  - "幻觉检测"
+  - "视觉语言模型"
+  - "跨模态检索"
 ---
 
 # Automated Explanation Generation and Hallucination Detection for Heritage Image Retrieval

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video
 description: >-
-  [NeurIPS 2025][音频语音][节点图接口] 提出一个节点图式故事编辑系统，允许创作者通过自然语言和节点级操作迭代地生成、编辑和比较多模态内容（文本、音频、图像、视频），支持线性和分支叙事结构。
+  [NeurIPS 2025][音频/语音][节点图接口] 提出一个节点图式故事编辑系统，允许创作者通过自然语言和节点级操作迭代地生成、编辑和比较多模态内容（文本、音频、图像、视频），支持线性和分支叙事结构。
 tags:
-  - NeurIPS 2025
-  - 音频语音
-  - 节点图接口
-  - 叙事生成
-  - 多模态生成
-  - 人-AI 协作
+  - "NeurIPS 2025"
+  - "音频/语音"
+  - "节点图接口"
+  - "叙事生成"
+  - "多模态生成"
+  - "人-AI 协作"
 ---
 
 # Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video

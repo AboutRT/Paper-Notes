@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments
 description: >-
-  [ACL 2026][强化学习] 本文提出 FTRL 框架，通过五阶段自动化管线构建稳定可控的工具使用训练环境，并设计结合工具调用精度和任务完成度的可验证奖励机制，与偏好优化 RL 算法结合后，在 7B-14B 模型上实现平均超 10% 的工具使用性能提升，甚至超越最强闭源模型。
+  [ACL 2026][强化学习][工具调用] 本文提出 FTRL 框架，通过五阶段自动化管线构建稳定可控的工具使用训练环境，并设计结合工具调用精度和任务完成度的可验证奖励机制，与偏好优化 RL 算法结合后，在 7B-14B 模型上实现平均超 10% 的工具使用性能提升，甚至超越最强闭源模型。
 tags:
-  - ACL 2026
-  - 强化学习
-  - 强化学习
-  - 自动化环境构建
-  - 可验证奖励
-  - LLM训练
+  - "ACL 2026"
+  - "强化学习"
+  - "工具调用"
+  - "自动化环境构建"
+  - "可验证奖励"
+  - "LLM训练"
 ---
 
 # Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments

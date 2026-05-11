@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RadEdit: Stress-Testing Biomedical Vision Models via Diffusion Image Editing
 description: >-
-  [ECCV 2024][医学图像][扩散模型] 提出 RadEdit，一种基于扩散模型的医学图像编辑方法，通过引入 edit mask 和 keep mask 的双重掩码机制，打破数据中的虚假关联（spurious correlations），生成高质量的合成测试集来压力测试（stress-test）生物医学视觉模型对数据集偏移的鲁棒性。
+  [ECCV 2024][医学图像][扩散模型] 提出 RadEdit，一种基于扩散模型的医学图像编辑方法，通过引入 edit mask 和 keep mask 的双重掩码机制，打破数据中的虚假关联（spurious correlations）…
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 扩散模型
-  - stress-testing
-  - dataset shift
-  - chest X-ray
-  - biomedical vision
+  - "ECCV 2024"
+  - "医学图像"
+  - "扩散模型"
+  - "stress-testing"
+  - "dataset shift"
+  - "chest X-ray"
+  - "biomedical vision"
 ---
 
 # RadEdit: Stress-Testing Biomedical Vision Models via Diffusion Image Editing

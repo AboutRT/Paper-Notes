@@ -2,9 +2,10 @@
 title: >-
   [论文解读] MagDiff: Multi-Alignment Diffusion for High-Fidelity Video Generation and Editing
 description: >-
-  [ECCV 2024] 提出首个统一视频生成与编辑的多对齐扩散模型 MagDiff，通过主体驱动对齐、自适应提示对齐和高保真对齐三种策略，在单一无微调框架中同时实现高质量视频生成与编辑。
+  [ECCV 2024][视频生成] 提出首个统一视频生成与编辑的多对齐扩散模型 MagDiff，通过主体驱动对齐、自适应提示对齐和高保真对齐三种策略，在单一无微调框架中同时实现高质量视频生成与编辑。
 tags:
-  - ECCV 2024
+  - "ECCV 2024"
+  - "视频生成"
 ---
 
 # MagDiff: Multi-Alignment Diffusion for High-Fidelity Video Generation and Editing

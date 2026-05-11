@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][手部姿态估计] EgoPressure 提出首个第一人称视角的手部触觉压力和姿态数据集，包含 21 名参与者 5 小时的 RGB-D 交互数据、基于多视角优化的高保真 MANO 手部网格标注和压力传感器的真实压力映射，并建立了从 RGB 图像估计手部压力和姿态的基准模型。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 手部姿态估计
-  - 压力感知
-  - 第一人称视角
-  - 多视角标注
-  - 手-物交互
+  - "CVPR 2025"
+  - "3D视觉"
+  - "手部姿态估计"
+  - "压力感知"
+  - "第一人称视角"
+  - "多视角标注"
+  - "手-物交互"
 ---
 
 # EgoPressure: A Dataset for Hand Pressure and Pose Estimation in Egocentric Vision

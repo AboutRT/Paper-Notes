@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][图像生成][LoRA] 提出 IntLoRA，通过整数型低秩参数实现量化扩散模型的微调，合并权重后无需额外 PTQ 即可直接获得量化推理权重，兼顾训练与推理效率。
 tags:
-  - ICML2025
-  - 图像生成
-  - LoRA
-  - 网络量化
-  - 扩散模型
-  - 低秩适配
-  - 整数运算
-  - 推理加速
+  - "ICML2025"
+  - "图像生成"
+  - "LoRA"
+  - "网络量化"
+  - "扩散模型"
+  - "低秩适配"
+  - "整数运算"
+  - "推理加速"
 ---
 
 # IntLoRA: Integral Low-rank Adaptation of Quantized Diffusion Models

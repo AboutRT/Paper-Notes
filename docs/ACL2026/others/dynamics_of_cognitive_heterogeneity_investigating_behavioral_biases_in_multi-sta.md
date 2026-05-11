@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation
 description: >-
-  [ACL 2026][其他][供应链模拟] 使用LLM智能体（DeepSeek/GPT系列）在经典啤酒分销博弈中模拟多阶段供应链，系统研究认知异质性（推理能力差异）对系统行为的影响，发现LLM智能体能复现人类的牛鞭效应和短视行为，且信息共享能有效缓解这些不良效应。
+  [ACL 2026][供应链模拟] 使用LLM智能体（DeepSeek/GPT系列）在经典啤酒分销博弈中模拟多阶段供应链，系统研究认知异质性（推理能力差异）对系统行为的影响，发现LLM智能体能复现人类的牛鞭效应和短视行为，且信息共享能有效缓解这些不良效应。
 tags:
-  - ACL 2026
-  - 其他
-  - 供应链模拟
-  - 认知异质性
-  - 牛鞭效应
-  - LLM智能体
-  - 啤酒分销博弈
+  - "ACL 2026"
+  - "供应链模拟"
+  - "认知异质性"
+  - "牛鞭效应"
+  - "LLM智能体"
+  - "啤酒分销博弈"
 ---
 
 # Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation

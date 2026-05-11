@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][视觉扫描路径] 提出GazeXplain，首次将视觉扫描路径预测与自然语言解释结合，通过注意力-语言解码器、语义对齐机制和跨数据集联合训练，实现对人类注视行为的可解释预测。
 tags:
-  - ECCV 2024
-  - 视觉扫描路径
-  - 自然语言解释
-  - 注视预测
-  - 其他
-  - 跨数据集联合训练
+  - "ECCV 2024"
+  - "视觉扫描路径"
+  - "自然语言解释"
+  - "注视预测"
+  - "语义对齐"
+  - "跨数据集联合训练"
 ---
 
 # GazeXplain: Learning to Predict Natural Language Explanations of Visual Scanpaths

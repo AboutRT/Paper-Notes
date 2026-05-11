@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Content Fuzzing for Escaping Information Cocoons on Social Media
 description: >-
-  [ACL 2026][信息茧房] 提出 ContentFuzz，一个从内容创作者视角出发的置信度引导模糊测试框架，通过 LLM 改写帖子使其在保持人类解读含义不变的前提下改变机器推断的立场标签，从而突破社交媒体信息茧房。
+  [ACL 2026][推荐系统][信息茧房] 提出 ContentFuzz，一个从内容创作者视角出发的置信度引导模糊测试框架，通过 LLM 改写帖子使其在保持人类解读含义不变的前提下改变机器推断的立场标签，从而突破社交媒体信息茧房。
 tags:
-  - ACL 2026
-  - 信息茧房
-  - 推荐系统
-  - 模糊测试
-  - 内容改写
-  - 推荐系统
+  - "ACL 2026"
+  - "推荐系统"
+  - "信息茧房"
+  - "立场检测"
+  - "模糊测试"
+  - "内容改写"
 ---
 
 # Content Fuzzing for Escaping Information Cocoons on Social Media

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling
 description: >-
-  [ACL 2026][图像生成][文本到音频] 本文提出 ControlAudio，一个统一的渐进式扩散建模框架，通过三阶段渐进训练（TTA 预训练→时序控制微调→时序+可懂语音联合训练）和渐进引导采样，在单个扩散模型中实现文本引导、时序精确控制和可懂语音生成三种能力，在时序精度和语音清晰度上显著超越现有方法。
+  [ACL 2026][图像生成][文本到音频] 本文提出 ControlAudio，一个统一的渐进式扩散建模框架，通过三阶段渐进训练（TTA 预训练→时序控制微调→时序+可懂语音联合训练）和渐进引导采样，在单个扩散模型中实现文本引导、时序精确控制和可懂语音生成三种能力，在时序精度和语音清晰度上显著超越现有方法…
 tags:
-  - ACL 2026
-  - 图像生成
-  - 文本到音频
-  - 时序控制
-  - 可懂语音
-  - 渐进式扩散
-  - DiT
+  - "ACL 2026"
+  - "图像生成"
+  - "文本到音频"
+  - "时序控制"
+  - "可懂语音"
+  - "渐进式扩散"
+  - "DiT"
 ---
 
 # ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unsafe2Safe: Controllable Image Anonymization for Downstream Utility
 description: >-
-  [CVPR 2026][AI安全][图像匿名化] 本文提出 Unsafe2Safe 全自动隐私保护流水线，通过 VLM 隐私检查→双字幕生成（私有/公开）→LLM 编辑指令→文本引导扩散编辑的四阶段方案，实现可控图像匿名化，在 VLMScore 隐私指标大幅提升的同时，在 Caltech-101 分类和 OK-VQA 上匿名后准确率甚至超过原始图像。
+  [CVPR 2026][LLM安全][图像匿名化] 本文提出 Unsafe2Safe 全自动隐私保护流水线，通过 VLM 隐私检查→双字幕生成（私有/公开）→LLM 编辑指令→文本引导扩散编辑的四阶段方案，实现可控图像匿名化，在 VLMScore 隐私指标大幅提升的同时…
 tags:
-  - CVPR 2026
-  - AI安全
-  - 图像匿名化
-  - 隐私保护
-  - 扩散编辑
-  - VLM检查
-  - 下游任务保持
+  - "CVPR 2026"
+  - "LLM安全"
+  - "图像匿名化"
+  - "隐私保护"
+  - "扩散编辑"
+  - "VLM检查"
+  - "下游任务保持"
 ---
 
 # Unsafe2Safe: Controllable Image Anonymization for Downstream Utility

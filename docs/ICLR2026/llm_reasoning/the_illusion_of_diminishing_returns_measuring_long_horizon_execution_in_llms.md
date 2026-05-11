@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][长期执行] 揭示短任务基准给出"收益递减"的假象——单步准确率的微小提升在长任务中指数级放大；发现 LLM 的"自我条件化效应"（自身错误增加后续出错概率），thinking 模型可修复此效应；GPT-5 thinking 可执行超过 2100 步长任务。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 长期执行
-  - 自我条件化
-  - 思维链
-  - 规模缩放
-  - diminishing returns
+  - "ICLR 2026"
+  - "LLM推理"
+  - "长期执行"
+  - "自我条件化"
+  - "思维链"
+  - "规模缩放"
+  - "diminishing returns"
 ---
 
 # The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
@@ -65,7 +65,7 @@ tags:
 | GPT-5 (Horizon) thinking | **>2100** | 远超所有竞争者 |
 | Claude-4 Sonnet thinking | 432 | 第二名 |
 | DeepSeek-R1 (thinking) | >100 | thinking 显著帮助 |
-| DeepSeek-V3 (no thinking) | <4 | 无 thinking 几乎无法执行 |
+| DeepSeek-V3 (no thinking) | &lt;4 | 无 thinking 几乎无法执行 |
 
 ### 自我条件化效应
 

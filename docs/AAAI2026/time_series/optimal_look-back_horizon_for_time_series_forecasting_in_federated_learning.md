@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Optimal Look-back Horizon for Time Series Forecasting in Federated Learning
 description: >-
-  [AAAI 2026][时间序列][time series forecasting] 提出联邦学习场景下时间序列预测的最优回看窗口（look-back horizon）理论框架，通过合成数据生成器（SDG）和内禀空间表示，将预测损失分解为贝叶斯不可约误差和近似误差，证明总损失关于窗口长度是单峰的，最小充分窗口为最优解。
+  [AAAI 2026][时间序列][time series forecasting] 提出联邦学习场景下时间序列预测的最优回看窗口（look-back horizon）理论框架，通过合成数据生成器（SDG）和内禀空间表示，将预测损失分解为贝叶斯不可约误差和近似误差，证明总损失关于窗口长度是单峰的…
 tags:
-  - AAAI 2026
-  - 时间序列
-  - time series forecasting
-  - 联邦学习
-  - look-back horizon
-  - intrinsic space
-  - Bayesian loss decomposition
+  - "AAAI 2026"
+  - "时间序列"
+  - "time series forecasting"
+  - "联邦学习"
+  - "look-back horizon"
+  - "intrinsic space"
+  - "Bayesian loss decomposition"
 ---
 
 # Optimal Look-back Horizon for Time Series Forecasting in Federated Learning

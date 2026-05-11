@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][Image Completion] 提出CompleteMe框架，通过双U-Net架构和Region-focused Attention（RFA）Block，利用参考图像中的细粒度人物细节（衣物纹理、纹身等），实现高保真的参考引导人体图像补全。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - Image Completion
-  - 图像修复
-  - Dual U-Net
-  - 注意力机制
-  - Human Body
+  - "ICCV 2025"
+  - "图像生成"
+  - "Image Completion"
+  - "图像修复"
+  - "Dual U-Net"
+  - "注意力机制"
+  - "Human Body"
 ---
 
 # CompleteMe: Reference-based Human Image Completion

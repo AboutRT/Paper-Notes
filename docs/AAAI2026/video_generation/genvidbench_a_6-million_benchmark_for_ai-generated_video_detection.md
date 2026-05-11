@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection
 description: >-
-  [AAAI 2026][视频生成] 提出 GenVidBench——首个 678 万级 AI 生成视频检测数据集，具备跨源（cross-source）和跨生成器（cross-generator）特性，覆盖 11 种 SOTA 视频生成器，并提供丰富的语义标注。
+  [AAAI 2026][视频生成][AI生成视频检测] 提出 GenVidBench——首个 678 万级 AI 生成视频检测数据集，具备跨源（cross-source）和跨生成器（cross-generator）特性，覆盖 11 种 SOTA 视频生成器，并提供丰富的语义标注。
 tags:
-  - AAAI 2026
-  - 视频生成
-  - 基准数据集
-  - 跨源跨生成器
-  - 视频取证
-  - 深度伪造检测
+  - "AAAI 2026"
+  - "视频生成"
+  - "AI生成视频检测"
+  - "基准数据集"
+  - "跨源跨生成器"
+  - "视频取证"
+  - "深度伪造检测"
 ---
 
 # GenVidBench: A 6-Million Benchmark for AI-Generated Video Detection

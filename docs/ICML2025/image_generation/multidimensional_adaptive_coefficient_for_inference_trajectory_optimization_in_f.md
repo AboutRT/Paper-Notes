@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion
 description: >-
-  [ICML2025][图像生成][Flow Matching] 提出多维自适应系数 MAC（Multidimensional Adaptive Coefficient），作为 flow/diffusion 模型的即插即用模块，将传统的一维时间调度系数扩展为多维、样本自适应的系数，通过对抗训练优化推理轨迹，在 CIFAR-10 条件生成上以 5 NFE 取得 FID 1.37 的 SOTA 结果。
+  [ICML2025][图像生成][Flow Matching] 提出多维自适应系数 MAC（Multidimensional Adaptive Coefficient），作为 flow/diffusion 模型的即插即用模块，将传统的一维时间调度系数扩展为多维、样本自适应的系数，通过对抗训练优化推理轨迹…
 tags:
-  - ICML2025
-  - 图像生成
-  - Flow Matching
-  - 扩散模型
-  - 推理轨迹优化
-  - 多维自适应系数
-  - 对抗训练
+  - "ICML2025"
+  - "图像生成"
+  - "Flow Matching"
+  - "扩散模型"
+  - "推理轨迹优化"
+  - "多维自适应系数"
+  - "对抗训练"
 ---
 
 # Multidimensional Adaptive Coefficient for Inference Trajectory Optimization in Flow and Diffusion

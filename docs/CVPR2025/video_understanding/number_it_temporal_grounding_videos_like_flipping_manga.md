@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频时间定位] 本文提出 NumPro，把每一帧的序号直接画在视频帧的右下角，使 Vid-LLM 把"看到事件"和"说出对应帧号"绑成同一个 OCR 任务，从而在零训练或轻量 LoRA 微调下显著提升视频时间定位 (VTG) 的 mIoU 与 mAP。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频时间定位
-  - 帧号叠加
-  - Vid-LLM
-  - moment retrieval
-  - highlight detection
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频时间定位"
+  - "帧号叠加"
+  - "Vid-LLM"
+  - "moment retrieval"
+  - "highlight detection"
 ---
 
 # Number it: Temporal Grounding Videos like Flipping Manga

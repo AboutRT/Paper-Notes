@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Chain of Counterfactual Thought for Bias-Robust Vision-Language Reasoning
 description: >-
-  [ECCV 2024][反事实推理] 本文提出了反事实偏差鲁棒推理数据集（CoBRa）和反事实思维链方法（CoCT），通过构造编辑后的知识图谱和图像内容来评估和缓解大型视觉语言模型（LVLM）中的知识偏差，使模型能够逐步推理而非依赖偏见知识，在需要知识偏差下推理的任务上显著优于现有方法。
+  [ECCV 2024][因果推理][反事实推理] 本文提出了反事实偏差鲁棒推理数据集（CoBRa）和反事实思维链方法（CoCT），通过构造编辑后的知识图谱和图像内容来评估和缓解大型视觉语言模型（LVLM）中的知识偏差，使模型能够逐步推理而非依赖偏见知识，在需要知识偏差下推理的任务上显著优于现有方法。
 tags:
-  - ECCV 2024
-  - 反事实推理
-  - 知识偏差
-  - 因果推理
-  - VQA
-  - 大型视觉语言模型
+  - "ECCV 2024"
+  - "因果推理"
+  - "反事实推理"
+  - "知识偏差"
+  - "视觉语言推理"
+  - "VQA"
+  - "大型视觉语言模型"
 ---
 
 # Learning Chain of Counterfactual Thought for Bias-Robust Vision-Language Reasoning

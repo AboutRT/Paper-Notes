@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Do Vision-Language Models Really Understand Visual Language?
 description: >-
-  [ICML 2025][多模态][视觉语言理解] 本文通过构建综合测试套件（含合成与真实图表）系统评估了大型视觉语言模型（LVLMs）的图表理解能力，发现模型虽可识别实体但对关系理解极为有限，其看似出色的图表推理表现实际源于利用背景知识作为捷径。
+  [ICML 2025][多模态VLM][视觉语言理解] 本文通过构建综合测试套件（含合成与真实图表）系统评估了大型视觉语言模型（LVLMs）的图表理解能力，发现模型虽可识别实体但对关系理解极为有限，其看似出色的图表推理表现实际源于利用背景知识作为捷径。
 tags:
-  - ICML 2025
-  - 多模态
-  - 视觉语言理解
-  - 图表理解
-  - LVLM评估
-  - 多模态VLM
-  - 背景知识捷径
+  - "ICML 2025"
+  - "多模态VLM"
+  - "视觉语言理解"
+  - "图表理解"
+  - "LVLM评估"
+  - "关系推理"
+  - "背景知识捷径"
 ---
 
 # Do Vision-Language Models Really Understand Visual Language?

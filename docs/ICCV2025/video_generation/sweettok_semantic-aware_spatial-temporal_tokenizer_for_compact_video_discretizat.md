@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SweetTok: Semantic-Aware Spatial-Temporal Tokenizer for Compact Video Discretization
 description: >-
-  [ICCV 2025][视频离散化] 提出 SweetTok 视频 tokenizer，通过解耦查询自编码器（DQAE）分离空间和时间信息压缩、运动增强语言码本（MLC）按词性分配码字，在仅使用 25% token 数量的情况下，rFVD 改善 42.8%，gFVD 改善 15.1%，实现压缩率与重建保真度的最佳平衡。
+  [ICCV 2025][视频生成][视频离散化] 提出 SweetTok 视频 tokenizer，通过解耦查询自编码器（DQAE）分离空间和时间信息压缩、运动增强语言码本（MLC）按词性分配码字，在仅使用 25% token 数量的情况下，rFVD 改善 42.8%，gFVD 改善 15.1%…
 tags:
-  - ICCV 2025
-  - 视频离散化
-  - 空间-时间解耦
-  - 视频生成
-  - 语言码本
-  - 视频生成
+  - "ICCV 2025"
+  - "视频生成"
+  - "视频离散化"
+  - "空间-时间解耦"
+  - "向量量化"
+  - "语言码本"
 ---
 
 # SweetTok: Semantic-Aware Spatial-Temporal Tokenizer for Compact Video Discretization

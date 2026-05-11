@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation
 description: >-
-  [NeurIPS 2025][层级统计模型] 将LLM基准评测形式化为层级统计模型，理论证明多次随机生成（k>1）能降低benchmark分数估计方差，并引入prompt级难度指标$\mathbb{P}(\text{correct})$和数据地图用于基准质量控制。
+  [NeurIPS 2025][LLM评测][层级统计模型] 将LLM基准评测形式化为层级统计模型，理论证明多次随机生成（k>1）能降低benchmark分数估计方差，并引入prompt级难度指标$\mathbb{P}(\text{correct})$和数据地图用于基准质量控制。
 tags:
-  - NeurIPS 2025
-  - 层级统计模型
-  - 多次生成
-  - 基准方差分析
-  - 提示学习
-  - LLM评测
-  - 数据地图
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "层级统计模型"
+  - "多次生成"
+  - "基准方差分析"
+  - "提示学习"
+  - "标签错误检测"
+  - "数据地图"
 ---
 
 # Beyond the Singular: Revealing the Value of Multiple Generations in Benchmark Evaluation

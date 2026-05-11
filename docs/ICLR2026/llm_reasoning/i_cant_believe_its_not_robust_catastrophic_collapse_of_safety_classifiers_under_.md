@@ -2,15 +2,15 @@
 title: >-
   [论文解读] I Can't Believe It's Not Robust: Catastrophic Collapse of Safety Classifiers under Embedding Drift
 description: >-
-  [ICLR 2026][LLM推理][embedding drift] 本文系统研究了基于 frozen embedding 的安全分类器在模型更新导致 embedding 漂移时的脆弱性，发现仅 2% 的 embedding 扰动即可将分类器性能从 85% ROC-AUC 降至随机水平（50%），且 72% 的误分类发生在高置信度下（silent failure），同时 instruction-tuned 模型反而比 base 模型更难分类。
+  [ICLR 2026][LLM推理][embedding drift] 本文系统研究了基于 frozen embedding 的安全分类器在模型更新导致 embedding 漂移时的脆弱性，发现仅 2% 的 embedding 扰动即可将分类器性能从 85% ROC-AUC 降至随机水平（50%）…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - embedding drift
-  - safety classifier
-  - silent failure
-  - RLHF alignment
-  - toxicity detection
+  - "ICLR 2026"
+  - "LLM推理"
+  - "embedding drift"
+  - "safety classifier"
+  - "silent failure"
+  - "RLHF alignment"
+  - "toxicity detection"
 ---
 
 # I Can't Believe It's Not Robust: Catastrophic Collapse of Safety Classifiers under Embedding Drift
@@ -92,7 +92,7 @@ tags:
 | Subspace rotation | -48.9% 降幅 | - | 旋转变换最差 |
 
 ### 关键发现
-- **阈值效应**：漂移存在 sharp cliff——$\sigma < 0.01$ 时几乎无影响（<5% AUC 下降），$\sigma > 0.02$ 时近随机，转变发生在极窄的 1% 窗口内
+- **阈值效应**：漂移存在 sharp cliff——$\sigma < 0.01$ 时几乎无影响（&lt;5% AUC 下降），$\sigma > 0.02$ 时近随机，转变发生在极窄的 1% 窗口内
 - **Silent failure 是最大威胁**：分类器报告 90% 置信度时，实际准确率仅 56%（比随机猜还没用）
 - **Alignment 的反直觉效应**：instruction-tuned 模型的 Silhouette score 从 0.245 降至 0.198（-19%），Fisher ratio 从 4.23 降至 3.12（-26%），class overlap 从 12.3% 升至 18.7%——RLHF 让 embedding 空间中的类别边界更模糊
 - **漂移机制无关性**：三种漂移类型差异不超过 6 个百分点，说明脆弱性是结构性的而非特定扰动的

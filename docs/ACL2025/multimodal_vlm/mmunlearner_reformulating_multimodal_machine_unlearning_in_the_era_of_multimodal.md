@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models
 description: >-
-  [ACL 2025 (Findings)][多模态][机器遗忘] 本文重新定义了多模态大语言模型（MLLM）时代的机器遗忘任务——仅擦除与特定实体关联的视觉模式而保留文本知识，并提出几何约束梯度上升方法MMUnlearner，通过权重显著性图选择性更新参数，在MLLMU-Bench和CLEAR两大基准上全面超越GA和NPO等基线。
+  [ACL 2025 (Findings)][多模态VLM][机器遗忘] 本文重新定义了多模态大语言模型（MLLM）时代的机器遗忘任务——仅擦除与特定实体关联的视觉模式而保留文本知识，并提出几何约束梯度上升方法MMUnlearner，通过权重显著性图选择性更新参数…
 tags:
-  - ACL 2025 (Findings)
-  - 多模态
-  - 多模态VLM
-  - 多模态大语言模型
-  - 梯度上升
-  - 权重显著性
-  - 隐私保护
+  - "ACL 2025 (Findings)"
+  - "多模态VLM"
+  - "机器遗忘"
+  - "多模态大语言模型"
+  - "梯度上升"
+  - "权重显著性"
+  - "隐私保护"
 ---
 
 # MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models

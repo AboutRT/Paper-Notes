@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025 (Findings)][隐式推理] 本文通过在受控的多步数学推理数据集上从零训练 GPT-2，系统研究了语言模型的隐式推理机制，发现隐式推理本质上是基于模式匹配的捷径学习——在固定模式数据上能泛化，在非固定模式数据上则过拟合，这一发现在 SOTA 大模型上同样成立。
 tags:
-  - ACL 2025 (Findings)
-  - 其他
-  - Transformer
-  - 捷径学习
-  - 多步数学推理
-  - 泛化能力
+  - "ACL 2025 (Findings)"
+  - "隐式推理"
+  - "Transformer"
+  - "捷径学习"
+  - "多步数学推理"
+  - "泛化能力"
 ---
 
 # Implicit Reasoning in Transformers is Reasoning through Shortcuts

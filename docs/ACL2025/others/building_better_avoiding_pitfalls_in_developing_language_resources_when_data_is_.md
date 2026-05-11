@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][low-resource languages] 通过对 81 名低资源语言 NLP 研究者和标注者的调查，揭示了低资源语言数据构建中的质量问题（数据不自然、文化失当）和伦理问题（标注者劳动被剥削、署名不公），并提出六条改进建议。
 tags:
-  - ACL 2025
-  - low-resource languages
-  - data annotation ethics
-  - participatory research
-  - language resources
-  - 其他
+  - "ACL 2025"
+  - "low-resource languages"
+  - "data annotation ethics"
+  - "participatory research"
+  - "language resources"
+  - "NLP practices"
 ---
 
 # Building Better: Avoiding Pitfalls in Developing Language Resources when Data is Scarce

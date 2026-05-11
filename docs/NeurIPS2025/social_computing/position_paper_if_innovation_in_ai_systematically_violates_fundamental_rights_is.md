@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?
 description: >-
-  [NeurIPS 2025][AI监管] 本文挑战"监管与创新对立"的固有信念，通过制药、航空、福利系统的历史类比和 Collingridge 困境分析论证良好设计的监管是创新的基础而非阻碍，并以 EU AI Act 的监管沙盒、中小企业支持等机制为范例展示监管如何加速而非延缓负责任的技术进步。
+  [NeurIPS 2025][社会计算][AI监管] 本文挑战"监管与创新对立"的固有信念，通过制药、航空、福利系统的历史类比和 Collingridge 困境分析论证良好设计的监管是创新的基础而非阻碍，并以 EU AI Act 的监管沙盒、中小企业支持等机制为范例展示监管如何加速而非延缓负责任的技术进步。
 tags:
-  - NeurIPS 2025
-  - AI监管
-  - 基本权利
-  - EU AI Act
-  - 负责任创新
-  - Collingridge困境
+  - "NeurIPS 2025"
+  - "社会计算"
+  - "AI监管"
+  - "基本权利"
+  - "EU AI Act"
+  - "负责任创新"
+  - "Collingridge困境"
 ---
 
 # Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?
@@ -62,7 +63,7 @@ tags:
 
     - **监管沙盒（Art. 57）**：2026年8月前每个成员国强制设立。不是去监管区而是共监管空间——提供法律确定性（迭代式监管指导）、风险缓解（可暂停实验）、免罚保护（遵循计划则无行政罚款）、跨部门协作。西班牙已启动首个国家沙盒
     - **实际测试（Art. 60）**：特定高风险 AI 系统可在知情同意和监督下进行真实世界测试，市场监管机构可否决或停止测试
-    - **中小企业支持（Art. 62）**：沙盒优先准入、意识培训、专门沟通渠道、促进标准化参与。微企业（<10人/€200万营收）可简化质量管理体系
+    - **中小企业支持（Art. 62）**：沙盒优先准入、意识培训、专门沟通渠道、促进标准化参与。微企业（&lt;10人/€200万营收）可简化质量管理体系
     - **基本权利影响评估 FRIA（Art. 27）**：将治理从被动合规转向前瞻性设计，通过事前评估潜在的权利侵害
 
 ### 去监管 AI 的具体风险

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM评测][眼动分析] 提出 GazeInterpreter，一种基于 LLM 的层次化框架，通过符号化眼动解析器将原始注视信号转化为文本叙述，再与身体运动叙述整合生成眼-体协调描述，并通过自我纠正循环迭代优化，显著提升文本驱动的运动生成、动作预测和行为摘要等下游任务的性能。
 tags:
-  - AAAI 2026
-  - LLM评测
-  - 眼动分析
-  - 人体行为理解
-  - 大语言模型
-  - 多模态融合
-  - 运动生成
+  - "AAAI 2026"
+  - "LLM评测"
+  - "眼动分析"
+  - "人体行为理解"
+  - "大语言模型"
+  - "多模态融合"
+  - "运动生成"
 ---
 
 # GazeInterpreter: Parsing Eye Gaze to Generate Eye-Body-Coordinated Narrations

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FeatSharp: Your Vision Model Features, Sharper
 description: >-
-  [ICML 2025][图像分割][特征上采样] 提出 FeatSharp，通过将 FeatUp 的联合双边上采样（JBU）与图像瓦片（tiling）特征进行注意力融合，以极低成本将低分辨率视觉编码器的特征图连贯地上采样到高分辨率，同时捕获原始分辨率下丢失的细粒度细节。
+  [ICML 2025][语义分割][特征上采样] 提出 FeatSharp，通过将 FeatUp 的联合双边上采样（JBU）与图像瓦片（tiling）特征进行注意力融合，以极低成本将低分辨率视觉编码器的特征图连贯地上采样到高分辨率，同时捕获原始分辨率下丢失的细粒度细节。
 tags:
-  - ICML 2025
-  - 图像分割
-  - 特征上采样
-  - Transformer
-  - 多视图一致性
-  - 联合双边上采样
-  - 瓦片融合
+  - "ICML 2025"
+  - "语义分割"
+  - "特征上采样"
+  - "Transformer"
+  - "多视图一致性"
+  - "联合双边上采样"
+  - "瓦片融合"
 ---
 
 # FeatSharp: Your Vision Model Features, Sharper

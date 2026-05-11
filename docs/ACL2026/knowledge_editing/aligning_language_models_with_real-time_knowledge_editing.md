@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Aligning Language Models with Real-time Knowledge Editing
 description: >-
-  [ACL 2026][实时知识编辑] 引入CRAFT（持续更新的中文金融知识编辑数据集）和KEDAS（基于多样化编辑增强和自适应推理的知识编辑对齐范式），解决现有知识编辑方法在实时场景中成功率-局部性-可迁移性难以兼顾的问题。
+  [ACL 2026][知识编辑][实时知识编辑] 引入CRAFT（持续更新的中文金融知识编辑数据集）和KEDAS（基于多样化编辑增强和自适应推理的知识编辑对齐范式），解决现有知识编辑方法在实时场景中成功率-局部性-可迁移性难以兼顾的问题。
 tags:
-  - ACL 2026
-  - 实时知识编辑
-  - 知识编辑
-  - 数据集污染
-  - 多样化增强
-  - 自适应推理
+  - "ACL 2026"
+  - "知识编辑"
+  - "实时知识编辑"
+  - "知识对齐"
+  - "数据集污染"
+  - "多样化增强"
+  - "自适应推理"
 ---
 
 # Aligning Language Models with Real-time Knowledge Editing

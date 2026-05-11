@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][连续自回归] 提出连续视觉自回归框架——基于严格适当评分规则理论，用能量分数作为无似然训练目标，替代向量量化实现连续token自回归图像生成，EAR-H达到FID 1.97且推理速度比扩散损失方法MAR快约10倍。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 连续自回归
-  - 评分规则
-  - 能量分数
-  - 视觉生成
-  - 无量化
+  - "ICML 2025"
+  - "图像生成"
+  - "连续自回归"
+  - "评分规则"
+  - "能量分数"
+  - "视觉生成"
+  - "无量化"
 ---
 
 # Continuous Visual Autoregressive Generation via Score Maximization

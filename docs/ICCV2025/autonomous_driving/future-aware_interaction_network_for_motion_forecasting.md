@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][运动预测] 提出 FINet，将潜在未来轨迹提前建模并融入场景编码阶段进行联合优化，同时引入 Mamba 架构替代 Transformer 进行时空建模，实现了高效且准确的运动预测。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 运动预测
-  - Mamba
-  - 状态空间模型
-  - 轨迹预测
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "运动预测"
+  - "Mamba"
+  - "状态空间模型"
+  - "轨迹预测"
 ---
 
 # Future-Aware Interaction Network For Motion Forecasting

@@ -4,7 +4,7 @@ title: >-
 description: >-
   [自动驾驶] 模拟人类绘图过程，将车道拓扑建模为逐步图扩展的链式序列，通过自回归变换器增量构建有向车道图，克服 DAG 方法无法表达环路和双向车道的局限。
 tags:
-  - 自动驾驶
+  - "自动驾驶"
 ---
 
 # SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions

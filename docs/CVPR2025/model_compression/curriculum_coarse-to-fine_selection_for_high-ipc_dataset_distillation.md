@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][数据集蒸馏] 提出CCFS方法，通过课程学习框架渐进式地从原始数据集中选择合适的真实样本补充蒸馏数据，解决高IPC场景下蒸馏数据与真实数据的不兼容问题，在CIFAR-10/100和Tiny-ImageNet上大幅超越SOTA（最高+6.6%）。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 数据集蒸馏
-  - 课程学习
-  - 高IPC
-  - 真实数据选择
-  - 粗到细
+  - "CVPR 2025"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "课程学习"
+  - "高IPC"
+  - "真实数据选择"
+  - "粗到细"
 ---
 
 # Curriculum Coarse-to-Fine Selection for High-IPC Dataset Distillation

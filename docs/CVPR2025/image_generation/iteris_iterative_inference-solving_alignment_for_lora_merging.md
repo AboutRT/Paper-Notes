@@ -2,15 +2,15 @@
 title: >-
   [论文解读] IterIS: Iterative Inference-Solving Alignment for LoRA Merging
 description: >-
-  [CVPR 2025][图像生成][LoRA合并] IterIS提出了一种迭代推理-求解的LoRA合并方法，通过直接提取统一适配器的输入特征（而非近似）来建立更准确的优化目标，配合正则化减少样本需求至先前方法的1-5%，并引入自适应权重平衡优化，在文本到图像扩散模型、视觉语言模型和大语言模型的LoRA合并中显著超越基线。
+  [CVPR 2025][图像生成][LoRA合并] IterIS提出了一种迭代推理-求解的LoRA合并方法，通过直接提取统一适配器的输入特征（而非近似）来建立更准确的优化目标，配合正则化减少样本需求至先前方法的1-5%，并引入自适应权重平衡优化…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - LoRA合并
-  - 多任务模型
-  - 迭代优化
-  - 参数高效微调
-  - 多概念定制
+  - "CVPR 2025"
+  - "图像生成"
+  - "LoRA合并"
+  - "多任务模型"
+  - "迭代优化"
+  - "参数高效微调"
+  - "多概念定制"
 ---
 
 # IterIS: Iterative Inference-Solving Alignment for LoRA Merging

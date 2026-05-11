@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning
 description: >-
-  [ACL 2025][Issue解决] 提出 SoRFT（Subtask-oriented Reinforced Fine-Tuning），将 GitHub Issue 解决任务分解为文件定位、函数定位、行定位和代码编辑四个子任务，通过拒绝采样SFT + 基于规则的PPO强化学习两阶段训练，显著提升开源LLM在 SWE-Bench 上的 Issue 解决能力。
+  [ACL 2025][Issue解决] 提出 SoRFT（Subtask-oriented Reinforced Fine-Tuning），将 GitHub Issue 解决任务分解为文件定位、函数定位、行定位和代码编辑四个子任务，通过拒绝采样SFT + 基于规则的PPO强化学习两阶段训练…
 tags:
-  - ACL 2025
-  - Issue解决
-  - 强化微调
-  - 子任务分解
-  - 其他
-  - SWE-Bench
+  - "ACL 2025"
+  - "Issue解决"
+  - "强化微调"
+  - "子任务分解"
+  - "代码生成"
+  - "SWE-Bench"
 ---
 
 # SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning

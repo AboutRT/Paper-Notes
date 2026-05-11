@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Universal Multi-Domain Translation via Diffusion Routers
 description: >-
-  [ICLR 2026][图像分割][Multi-Domain Translation] 提出 Diffusion Router (DR)，用单个噪声预测网络通过 source/target 域标签条件化实现所有跨域映射，支持通过中心域的间接翻译和基于变分上界目标 + Tweedie 精化的直接非中心域翻译，在三个大规模 UMDT 基准上达到 SOTA。
+  [ICLR 2026][语义分割][Multi-Domain Translation] 提出 Diffusion Router (DR)，用单个噪声预测网络通过 source/target 域标签条件化实现所有跨域映射，支持通过中心域的间接翻译和基于变分上界目标 + Tweedie 精化的直接非中心域翻译…
 tags:
-  - ICLR 2026
-  - 图像分割
-  - Multi-Domain Translation
-  - 扩散模型
-  - Tweedie Refinement
-  - Universal Translation
+  - "ICLR 2026"
+  - "语义分割"
+  - "Multi-Domain Translation"
+  - "扩散模型"
+  - "Tweedie Refinement"
+  - "Universal Translation"
 ---
 
 # Universal Multi-Domain Translation via Diffusion Routers

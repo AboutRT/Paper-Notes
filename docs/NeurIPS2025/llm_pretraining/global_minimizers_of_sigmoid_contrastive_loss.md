@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Global Minimizers of Sigmoid Contrastive Loss
 description: >-
-  [NeurIPS 2025][LLM预训练] 首次在实践相关的 N≫d 区间严格刻画了 Sigmoid 对比损失（SigLIP）在可训练温度和偏置下的全局最小值几何结构，提出了 (m, b_rel)-Constellation 这一新型组合对象，并用其解释了 SigLIP 的检索成功、模态间隙现象，以及提出了显式 relative bias 参数化改进训练动态。
+  [NeurIPS 2025][预训练][对比学习] 首次在实践相关的 N≫d 区间严格刻画了 Sigmoid 对比损失（SigLIP）在可训练温度和偏置下的全局最小值几何结构，提出了 (m, b_rel)-Constellation 这一新型组合对象，并用其解释了 SigLIP 的检索成功、模态间隙现象…
 tags:
-  - NeurIPS 2025
-  - LLM预训练
-  - Sigmoid Loss
-  - SigLIP
-  - 表示同步
-  - 模态间隙
+  - "NeurIPS 2025"
+  - "预训练"
+  - "对比学习"
+  - "Sigmoid Loss"
+  - "SigLIP"
+  - "表示同步"
+  - "模态间隙"
 ---
 
 # Global Minimizers of Sigmoid Contrastive Loss
@@ -65,7 +66,7 @@ $$\mathcal{L}^{Sig}(\theta, \phi; t, b) = \sum_{i=1}^{N} \log(1+\exp(-t\langle U
 
 通过与球面码（spherical codes）的联系，刻画给定维度 d 下可容纳的最大 N：
 
-**定理 3.3（下界）**：当 m+b_rel<1 且 3m<1+b_rel 时，存在指数大小的 Constellation：
+**定理 3.3（下界）**：当 m+b_rel&lt;1 且 3m&lt;1+b_rel 时，存在指数大小的 Constellation：
 $$E_{MRB}(m, b_{rel}) \geq -\frac{1}{2}\log_2(1-(\frac{1+b_{rel}-3m}{1+b_{rel}+m})^2)$$
 
 **定理 3.4（上界/必要条件）**：m+b_rel ≤ 1 且 3m ≤ 1+b_rel 是必要条件

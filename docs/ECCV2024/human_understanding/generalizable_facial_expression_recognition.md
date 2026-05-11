@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][表情识别] 提出 CAFE 方法，通过在固定 CLIP 人脸特征上学习 Sigmoid Mask 选取表情相关特征，配合通道分离和通道多样性损失，实现仅使用单个训练集就能在多个未见数据集上大幅超越 SOTA 表情识别方法的零样本泛化能力。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 表情识别
-  - 零样本泛化
-  - Sigmoid Mask
-  - CLIP
-  - 领域泛化
+  - "ECCV 2024"
+  - "人体理解"
+  - "表情识别"
+  - "零样本泛化"
+  - "Sigmoid Mask"
+  - "CLIP"
+  - "领域泛化"
 ---
 
 # Generalizable Facial Expression Recognition

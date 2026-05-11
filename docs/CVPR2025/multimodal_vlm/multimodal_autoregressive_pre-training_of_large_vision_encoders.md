@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multimodal Autoregressive Pre-training of Large Vision Encoders
 description: >-
-  [CVPR 2025 (Highlight)][多模态][视觉编码器] Apple提出AIMV2系列视觉编码器，通过将ViT编码器与一个多模态自回归解码器配对——同时生成原始图像patch和文本token作为预训练目标，在保持简洁训练流程的同时实现了跨任务的通用性能，AIMV2-3B在ImageNet冻结主干评估中达到89.5%，并在多模态理解基准上全面超越CLIP和SigLIP。
+  [CVPR 2025 (Highlight)][多模态VLM][视觉编码器] Apple提出AIMV2系列视觉编码器，通过将ViT编码器与一个多模态自回归解码器配对——同时生成原始图像patch和文本token作为预训练目标，在保持简洁训练流程的同时实现了跨任务的通用性能…
 tags:
-  - CVPR 2025 (Highlight)
-  - 多模态
-  - 视觉编码器
-  - 多模态VLM
-  - 多模态预训练
-  - AIMV2
-  - 大规模视觉模型
+  - "CVPR 2025 (Highlight)"
+  - "多模态VLM"
+  - "视觉编码器"
+  - "自回归预训练"
+  - "多模态预训练"
+  - "AIMV2"
+  - "大规模视觉模型"
 ---
 
 # Multimodal Autoregressive Pre-training of Large Vision Encoders

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][风格迁移] 提出StyleTokenizer，通过将风格定义为可学习的token嵌入，实现仅用一张参考图即可控制扩散模型的风格生成，同时精确分离内容和风格。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 风格迁移
-  - 风格token
-  - 扩散模型控制
-  - 单图风格学习
-  - 内容-风格分离
+  - "ECCV 2024"
+  - "图像生成"
+  - "风格迁移"
+  - "风格token"
+  - "扩散模型控制"
+  - "单图风格学习"
+  - "内容-风格分离"
 ---
 
 # StyleTokenizer: Defining Image Style by a Single Instance for Controlling Diffusion Models

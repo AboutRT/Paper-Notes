@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][概念擦除] 提出 Concept Replacer，通过少样本训练的概念定位器精确识别去噪过程中的敏感概念区域，再用训练免费的双提示交叉注意力（DPCA）将定位区域替换为安全内容，实现精确局部概念替换而非全局图像失真。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 概念擦除
-  - 精确定位
-  - 少样本分割
-  - 双提示交叉注意力
-  - 内容安全
+  - "CVPR 2025"
+  - "图像生成"
+  - "概念擦除"
+  - "精确定位"
+  - "少样本分割"
+  - "双提示交叉注意力"
+  - "内容安全"
 ---
 
 # Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization

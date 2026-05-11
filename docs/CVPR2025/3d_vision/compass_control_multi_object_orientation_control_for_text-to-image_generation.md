@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][方向控制] 提出 Compass Control，通过引入轻量级方向编码器预测 compass token 并结合耦合注意力定位（CALL）机制，实现文本到图像扩散模型中多物体的精确3D方向控制，仅需合成数据训练即可泛化到未见类别和多物体场景。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 方向控制
-  - 文本到图像生成
-  - 扩散模型
-  - 多物体场景
-  - 注意力约束
+  - "CVPR 2025"
+  - "3D视觉"
+  - "方向控制"
+  - "文本到图像生成"
+  - "扩散模型"
+  - "多物体场景"
+  - "注意力约束"
 ---
 
 # Compass Control: Multi Object Orientation Control for Text-to-Image Generation

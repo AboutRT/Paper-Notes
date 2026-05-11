@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][人体运动预测] 提出HoCoTTA框架，通过多域稳态评估和隔离参数优化策略，在持续变化的目标域中实现人体运动预测的鲁棒自适应，有效缓解了灾难性遗忘和误差累积问题。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 人体运动预测
-  - 持续测试时自适应
-  - 域漂移
-  - 知识蒸馏
-  - Fisher信息矩阵
+  - "ECCV 2024"
+  - "人体理解"
+  - "人体运动预测"
+  - "持续测试时自适应"
+  - "域漂移"
+  - "知识蒸馏"
+  - "Fisher信息矩阵"
 ---
 
 # Human Motion Forecasting in Dynamic Domain Shifts: A Homeostatic Continual Test-Time Adaptation Framework

@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 提出 CrossDiff 框架，通过统一编码和交叉解码机制融合 3D 与 2D 运动信息，利用交叉扩散实现更精细的全身运动细节捕获，并支持从野外 2D 数据学习 3D 运动生成。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # Realistic Human Motion Generation with Cross-Diffusion Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward
 description: >-
-  [AAAI 2026][强化学习][action chunking] AC3 提出了一个直接学习连续动作序列（action chunk）的 actor-critic 框架，通过"仅从成功轨迹更新 actor"的非对称更新规则和基于自监督锚点的内在奖励来稳定稀疏奖励下的长时域机器人操作学习，在 BiGym 和 RLBench 的 25 个任务上取得优于现有方法的成功率。
+  [AAAI 2026][强化学习][action chunking] AC3 提出了一个直接学习连续动作序列（action chunk）的 actor-critic 框架，通过"仅从成功轨迹更新 actor"的非对称更新规则和基于自监督锚点的内在奖励来稳定稀疏奖励下的长时域机器人操作学习…
 tags:
-  - AAAI 2026
-  - 强化学习
-  - action chunking
-  - actor-critic
-  - sparse reward
-  - long-horizon manipulation
-  - 自监督学习
+  - "AAAI 2026"
+  - "强化学习"
+  - "action chunking"
+  - "actor-critic"
+  - "sparse reward"
+  - "long-horizon manipulation"
+  - "自监督学习"
 ---
 
 # Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward

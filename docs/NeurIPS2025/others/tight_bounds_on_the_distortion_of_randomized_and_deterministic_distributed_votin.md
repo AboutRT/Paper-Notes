@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Tight Bounds On the Distortion of Randomized and Deterministic Distributed Voting
 description: >-
-  [NeurIPS 2025][度量扭曲] 本文研究分布式投票模型中的度量扭曲 (metric distortion) 问题，针对四种代价目标 ($\text{avg-avg}$, $\text{avg-max}$, $\text{max-avg}$, $\text{max-max}$)，在确定性和随机机制下给出了改进的紧界或近紧界，几乎完整地刻画了这一模型的扭曲特性。
+  [NeurIPS 2025][度量扭曲] 本文研究分布式投票模型中的度量扭曲 (metric distortion) 问题，针对四种代价目标 ($\text{avg-avg}$, $\text{avg-max}$, $\text{max-avg}$, $\text{max-max}$)…
 tags:
-  - NeurIPS 2025
-  - 度量扭曲
-  - 分布式投票
-  - 确定性机制
-  - 随机机制
-  - 社会选择
+  - "NeurIPS 2025"
+  - "度量扭曲"
+  - "分布式投票"
+  - "确定性机制"
+  - "随机机制"
+  - "社会选择"
 ---
 
 # Tight Bounds On the Distortion of Randomized and Deterministic Distributed Voting

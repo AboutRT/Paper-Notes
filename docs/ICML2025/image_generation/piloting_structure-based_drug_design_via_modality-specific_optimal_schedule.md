@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Piloting Structure-Based Drug Design via Modality-Specific Optimal Schedule
 description: >-
-  [ICML 2025][图像生成][基于结构的药物设计] 提出 VLB-Optimal Scheduling (VOS) 策略，通过理论分析多模态（连续3D位置+离散2D拓扑）联合噪声调度的路径依赖VLB特性，用动态规划搜索最优噪声调度路径，在 CrossDock 上以 95.9% PoseBusters 通过率达到 SBDD SOTA。
+  [ICML 2025][图像生成][基于结构的药物设计] 提出 VLB-Optimal Scheduling (VOS) 策略，通过理论分析多模态（连续3D位置+离散2D拓扑）联合噪声调度的路径依赖VLB特性，用动态规划搜索最优噪声调度路径…
 tags:
-  - ICML 2025
-  - 图像生成
-  - 基于结构的药物设计
-  - Bayesian Flow Network
-  - 多模态噪声调度
-  - VLB优化
-  - 分子几何
+  - "ICML 2025"
+  - "图像生成"
+  - "基于结构的药物设计"
+  - "Bayesian Flow Network"
+  - "多模态噪声调度"
+  - "VLB优化"
+  - "分子几何"
 ---
 
 # Piloting Structure-Based Drug Design via Modality-Specific Optimal Schedule
@@ -69,7 +69,7 @@ tags:
 
 ### 主实验
 
-| 方法 | PB-Valid ↑ | Vina Dock ↓ | scRMSD<2Å ↑ |
+| 方法 | PB-Valid ↑ | Vina Dock ↓ | scRMSD&lt;2Å ↑ |
 |------|-----------|-------------|-------------|
 | TargetDiff | 50.5% | -7.80 | 37.1% |
 | DecompDiff | 71.7% | -7.03 | 24.2% |
@@ -103,7 +103,7 @@ tags:
 ## 局限与展望
 - DP 搜索在更多模态（>2）时复杂度指数增长，需要近似算法
 - 最优调度的可解释性仍需更多理论分析（为什么两阶段路径最优？）
-- 分子对接任务上 RMSD<2Å 仅 44%，仍有很大提升空间
+- 分子对接任务上 RMSD&lt;2Å 仅 44%，仍有很大提升空间
 - 训练广义损失（解耦时间步）可能比标准训练收敛更慢
 - 未验证 VOS 在蛋白质设计等其他分子生成任务上的效果
 

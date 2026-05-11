@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation
 description: >-
-  [ACL 2025][多模态][图表理解] 提出首个专用chart-to-code MLLM（ChartCoder），以Code LLM为语言骨干+160K大规模图表-代码数据集+Snippet-of-Thought逐步推理方法，7B模型在三个基准上超越所有开源MLLM，接近GPT-4o水平。
+  [ACL 2025][多模态VLM][图表理解] 提出首个专用chart-to-code MLLM（ChartCoder），以Code LLM为语言骨干+160K大规模图表-代码数据集+Snippet-of-Thought逐步推理方法，7B模型在三个基准上超越所有开源MLLM，接近GPT-4o水平。
 tags:
-  - ACL 2025
-  - 多模态
-  - 图表理解
-  - 多模态VLM
-  - Chart-to-Code
-  - Code LLM
-  - 合成数据
+  - "ACL 2025"
+  - "多模态VLM"
+  - "图表理解"
+  - "代码生成"
+  - "Chart-to-Code"
+  - "Code LLM"
+  - "合成数据"
 ---
 
 # ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation

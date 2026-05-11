@@ -4,13 +4,12 @@ title: >-
 description: >-
   [ACL 2026][强化学习][LLM遗忘] 提出 CAP 框架，通过训练轻量 SLM 生成可控的提示前缀来引导冻结的 LLM 选择性遗忘目标知识，无需修改模型参数，实现了可逆、可迁移的 LLM 知识遗忘。
 tags:
-  - ACL 2026
-  - 强化学习
-  - LLM遗忘
-  - 提示驱动
-  - 强化学习
-  - 可控对齐
-  - 知识消除
+  - "ACL 2026"
+  - "强化学习"
+  - "LLM遗忘"
+  - "提示驱动"
+  - "可控对齐"
+  - "知识消除"
 ---
 
 # CAP: Controllable Alignment Prompting for Unlearning in LLMs

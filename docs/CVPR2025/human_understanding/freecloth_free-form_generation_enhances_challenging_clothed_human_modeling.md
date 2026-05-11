@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][着装人体建模] 提出 FreeCloth 混合框架，将人体表面分为"裸露/变形/生成"三类区域，对贴身衣物用 LBS 变形、对宽松服装（裙子、长裙）用无 LBS 约束的自由形态生成器建模，在 ReSynth 数据集上取得 SOTA，尤其在宽松服装场景下大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 着装人体建模
-  - 自由形态生成
-  - 线性混合蒙皮
-  - 点云
-  - 宽松服装
+  - "CVPR 2025"
+  - "人体理解"
+  - "着装人体建模"
+  - "自由形态生成"
+  - "线性混合蒙皮"
+  - "点云"
+  - "宽松服装"
 ---
 
 # FreeCloth: Free-Form Generation Enhances Challenging Clothed Human Modeling

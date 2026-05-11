@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MonarchAttention: Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention
 description: >-
-  [NeurIPS 2025][LLM/NLP][注意力机制] 提出 MonarchAttention，利用 Monarch 矩阵的结构化特性，通过 softmax 变分形式的交替优化，实现 $\Theta(N\sqrt{N}d)$ 复杂度的注意力近似，无需额外训练即可零样本替换预训练 Transformer 的注意力层，同时在 GPU 上相比 FlashAttention-2 实现 1.4×–8.2× 的加速。
+  [NeurIPS 2025][LLM/NLP][注意力机制] 提出 MonarchAttention，利用 Monarch 矩阵的结构化特性，通过 softmax 变分形式的交替优化，实现 $\Theta(N\sqrt{N}d)$ 复杂度的注意力近似…
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - 注意力机制
-  - Monarch matrices
-  - structured matrices
-  - hardware-aware
-  - zero-shot conversion
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "注意力机制"
+  - "Monarch matrices"
+  - "structured matrices"
+  - "hardware-aware"
+  - "zero-shot conversion"
 ---
 
 # MonarchAttention: Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention

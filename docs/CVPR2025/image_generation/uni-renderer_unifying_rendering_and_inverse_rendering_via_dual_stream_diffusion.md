@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][渲染方程] Uni-Renderer 提出了一种基于双流扩散模型的统一框架，将渲染（从固有属性到 RGB 图像）和逆渲染（从 RGB 图像分解固有属性）建模为两个条件生成任务，通过循环一致性约束缓解逆渲染中的固有歧义问题，在材质分解和渲染编辑上取得了优于现有方法的效果。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 渲染方程
-  - 逆渲染
-  - 双流扩散
-  - 循环一致性
-  - 材质编辑
+  - "CVPR 2025"
+  - "图像生成"
+  - "渲染方程"
+  - "逆渲染"
+  - "双流扩散"
+  - "循环一致性"
+  - "材质编辑"
 ---
 
 # Uni-Renderer: Unifying Rendering and Inverse Rendering via Dual Stream Diffusion

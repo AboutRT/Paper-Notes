@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][注视信号] 提出首个注视引导的流式视频理解基准 StreamGaze，包含 8521 个 QA 对覆盖过去/现在/主动预测三类任务，通过注视轨迹-视频对齐的数据构建管线生成时空grounded的QA，揭示了当前 MLLM 在利用注视信号进行时间推理方面的巨大差距。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 注视信号
-  - 流式视频理解
-  - 时间推理
-  - 主动预测
-  - 第一人称视频
+  - "CVPR 2026"
+  - "视频理解"
+  - "注视信号"
+  - "流式视频理解"
+  - "时间推理"
+  - "主动预测"
+  - "第一人称视频"
 ---
 
 # StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos

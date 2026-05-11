@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][视频理解][关键帧提取] 本文提出Attention-Seeker方法，通过动态地分析Transformer模型中自注意力层的注意力得分分布，无需任何监督信号即可从视频中提取最具代表性的关键帧，在多个视频摘要基准数据集上超越了现有的无监督方法。
 tags:
-  - ACL 2025
-  - 视频理解
-  - 关键帧提取
-  - 自注意力机制
-  - 动态评分
-  - 无监督方法
-  - 视频摘要
+  - "ACL 2025"
+  - "视频理解"
+  - "关键帧提取"
+  - "自注意力机制"
+  - "动态评分"
+  - "无监督方法"
+  - "视频摘要"
 ---
 
 # Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Key-Frame Extraction

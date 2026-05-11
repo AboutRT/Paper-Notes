@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors
 description: >-
-  [CVPR 2026][轨道视频生成] 提出利用 3D 基础生成模型（Hunyuan3D）的潜在特征作为形状先验，通过多尺度 3D 适配器注入基础视频扩散模型，实现从单张图像生成几何真实且视图一致的轨道视频。
+  [CVPR 2026][视频生成][轨道视频生成] 提出利用 3D 基础生成模型（Hunyuan3D）的潜在特征作为形状先验，通过多尺度 3D 适配器注入基础视频扩散模型，实现从单张图像生成几何真实且视图一致的轨道视频。
 tags:
-  - CVPR 2026
-  - 轨道视频生成
-  - 3D先验
-  - 视频扩散
-  - 多视图一致性
-  - 形状真实性
+  - "CVPR 2026"
+  - "视频生成"
+  - "轨道视频生成"
+  - "3D先验"
+  - "视频扩散"
+  - "多视图一致性"
+  - "形状真实性"
 ---
 
 # Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors

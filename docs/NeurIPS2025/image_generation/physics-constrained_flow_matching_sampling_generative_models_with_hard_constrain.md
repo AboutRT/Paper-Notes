@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Physics-Constrained Flow Matching: Sampling Generative Models with Hard Constraints
 description: >-
-  [NeurIPS 2025][图像生成][流匹配] 提出 Physics-Constrained Flow Matching (PCFM)，一种零样本推理框架，通过在预训练流匹配模型的采样过程中交替执行前向投射、OT 插值反向更新和松弛惩罚校正，实现任意非线性等式约束的精确满足（达到机器精度），在含激波和间断的 PDE 问题上相比基线方法提升高达 99.5%。
+  [NeurIPS 2025][图像生成][流匹配] 提出 Physics-Constrained Flow Matching (PCFM)，一种零样本推理框架，通过在预训练流匹配模型的采样过程中交替执行前向投射、OT 插值反向更新和松弛惩罚校正，实现任意非线性等式约束的精确满足（达到机器精度）…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 流匹配
-  - 物理约束
-  - 硬约束满足
-  - 偏微分方程
-  - 零样本推理
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "流匹配"
+  - "物理约束"
+  - "硬约束满足"
+  - "偏微分方程"
+  - "零样本推理"
 ---
 
 # Physics-Constrained Flow Matching: Sampling Generative Models with Hard Constraints

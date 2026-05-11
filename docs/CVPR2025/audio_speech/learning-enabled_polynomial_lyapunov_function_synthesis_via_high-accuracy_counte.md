@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning-enabled Polynomial Lyapunov Function Synthesis via High-Accuracy Counterexample-Guided Framework
 description: >-
-  [CVPR 2025][音频语音][Lyapunov函数] 提出一种学习与验证结合的多项式 Lyapunov 函数合成方法，通过数据驱动的机器学习引导多项式形式选择，并利用高精度反例引导框架迭代优化，在灵活性和数学严格性之间取得平衡。
+  [CVPR 2025][音频/语音][Lyapunov函数] 提出一种学习与验证结合的多项式 Lyapunov 函数合成方法，通过数据驱动的机器学习引导多项式形式选择，并利用高精度反例引导框架迭代优化，在灵活性和数学严格性之间取得平衡。
 tags:
-  - CVPR 2025
-  - 音频语音
-  - Lyapunov函数
-  - 多项式网络
-  - 形式验证
-  - 反例引导
-  - 稳定性分析
+  - "CVPR 2025"
+  - "音频/语音"
+  - "Lyapunov函数"
+  - "多项式网络"
+  - "形式验证"
+  - "反例引导"
+  - "稳定性分析"
 ---
 
 # Learning-enabled Polynomial Lyapunov Function Synthesis via High-Accuracy Counterexample-Guided Framework

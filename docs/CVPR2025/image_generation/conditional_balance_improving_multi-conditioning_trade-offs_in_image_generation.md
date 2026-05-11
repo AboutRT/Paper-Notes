@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多条件生成] 分析 SDXL 自注意力层对风格和结构的敏感度差异，发现仅在最敏感的子集层中注入条件信息即可显著改善多条件生成中的风格-内容 trade-off，无需额外训练。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多条件生成
-  - 风格-结构平衡
-  - 层级敏感性分析
-  - 选择性条件注入
-  - 无训练
+  - "CVPR 2025"
+  - "图像生成"
+  - "多条件生成"
+  - "风格-结构平衡"
+  - "层级敏感性分析"
+  - "选择性条件注入"
+  - "无训练"
 ---
 
 # Conditional Balance: Improving Multi-Conditioning Trade-Offs in Image Generation

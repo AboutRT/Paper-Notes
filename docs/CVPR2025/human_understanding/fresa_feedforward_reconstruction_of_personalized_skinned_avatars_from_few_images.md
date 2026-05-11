@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][Avatar重建] 提出 FRESA，通过学习一个通用着装人体先验模型，从少量图像前馈式（18秒）联合推理个性化 canonical 形状、蒙皮权重和姿态依赖变形，实现零样本泛化到手机照片的高质量可动画化 3D 人体 Avatar 重建。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - Avatar重建
-  - 前馈推理
-  - 个性化蒙皮
-  - 线性混合蒙皮
-  - 可动画化
+  - "CVPR 2025"
+  - "人体理解"
+  - "Avatar重建"
+  - "前馈推理"
+  - "个性化蒙皮"
+  - "线性混合蒙皮"
+  - "可动画化"
 ---
 
 # FRESA: Feedforward Reconstruction of Personalized Skinned Avatars from Few Images

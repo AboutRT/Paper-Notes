@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM对齐][奖励模型] 提出 Plan-RewardBench，一个面向复杂工具增强场景的轨迹级偏好基准，用于评估奖励模型在多步规划、工具使用和错误恢复等场景下区分优劣智能体轨迹的能力。
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 奖励模型
-  - 智能体评估
-  - 轨迹级偏好
-  - 工具调用
-  - 规划基准
+  - "ACL 2026"
+  - "LLM对齐"
+  - "奖励模型"
+  - "智能体评估"
+  - "轨迹级偏好"
+  - "工具调用"
+  - "规划基准"
 ---
 
 # Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling

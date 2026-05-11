@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][定制扩散模型] 本文提出 FLLP（Forget Less by Learning from Parents）框架，通过在双曲空间中建立概念之间的父子层次关系来缓解定制扩散模型（CDM）的灾难性遗忘，利用 Lorentz 流形的树状结构建模能力实现新概念学习时的知识保持和持续概念集成。
 tags:
-  - AAAI 2026
-  - 定制扩散模型
-  - 灾难性遗忘
-  - 双曲空间
-  - 层次关系
-  - 概念学习
+  - "AAAI 2026"
+  - "定制扩散模型"
+  - "灾难性遗忘"
+  - "双曲空间"
+  - "层次关系"
+  - "概念学习"
 ---
 
 # Forget Less by Learning from Parents Through Hierarchical Relationships

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Revealing Multimodal Causality with Large Language Models
 description: >-
-  [NeurIPS 2025][因果推理] 提出 MLLM-CD 框架，首次实现从多模态非结构化数据（文本+图像）中进行因果发现，通过对比因子发现识别因果变量、统计方法推断因果结构、迭代多模态反事实推理消除结构歧义。
+  [NeurIPS 2025][因果推理][多模态因果发现] 提出 MLLM-CD 框架，首次实现从多模态非结构化数据（文本+图像）中进行因果发现，通过对比因子发现识别因果变量、统计方法推断因果结构、迭代多模态反事实推理消除结构歧义。
 tags:
-  - NeurIPS 2025
-  - 因果推理
-  - 大语言模型
-  - 对比因子发现
-  - 反事实推理
-  - 非结构化数据
+  - "NeurIPS 2025"
+  - "因果推理"
+  - "多模态因果发现"
+  - "大语言模型"
+  - "对比因子发现"
+  - "反事实推理"
+  - "非结构化数据"
 ---
 
 # Revealing Multimodal Causality with Large Language Models

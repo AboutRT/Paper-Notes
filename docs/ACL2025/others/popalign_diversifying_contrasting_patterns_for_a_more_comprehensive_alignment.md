@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][PopAlign] 提出PopAlign框架，从Prompt、Model、Pipeline三个层面构建六种多样化对比策略（包括创新的Elicitive Contrast），无需额外人工标注即可合成高质量偏好数据，实现更全面的LLM对齐。
 tags:
-  - ACL2025
-  - PopAlign
-  - Contrasting Patterns
-  - 其他
-  - Preference Data
-  - Alignment
-  - Elicitive Contrast
+  - "ACL2025"
+  - "PopAlign"
+  - "Contrasting Patterns"
+  - "DPO"
+  - "Preference Data"
+  - "Alignment"
+  - "Elicitive Contrast"
 ---
 
 # PopAlign: Diversifying Contrasting Patterns for a More Comprehensive Alignment

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][数据集蒸馏] 提出NCFM方法，通过在复平面上用神经网络参数化的特征函数差异（NCFD）作为分布距离度量，将数据集蒸馏重构为minmax对抗优化问题，同时对齐相位（真实性）和幅值（多样性）信息，在ImageNet子集上最高提升20.5%，且GPU内存降低300倍以上。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 数据集蒸馏
-  - 特征函数
-  - 分布匹配
-  - 对抗优化
-  - 复平面
+  - "CVPR 2025"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "特征函数"
+  - "分布匹配"
+  - "对抗优化"
+  - "复平面"
 ---
 
 # Dataset Distillation with Neural Characteristic Function: A Minmax Perspective

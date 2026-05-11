@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Wav2Sem: Plug-and-Play Audio Semantic Decoupling for 3D Speech-Driven Facial Animation
 description: >-
-  [CVPR 2025][人体理解][语音驱动面部动画] 提出即插即用的音频语义解耦模块 Wav2Sem，通过从完整音频序列中提取全局语义特征并与现有自监督音频模型（HuBERT/Wav2Vec 2.0）融合，解决近同音音节在特征空间中的耦合问题，显著缓解唇形生成中的"平均化效应"，在 6 种不同架构的面部动画模型上均取得一致的性能提升。
+  [CVPR 2025][人体理解][语音驱动面部动画] 提出即插即用的音频语义解耦模块 Wav2Sem，通过从完整音频序列中提取全局语义特征并与现有自监督音频模型（HuBERT/Wav2Vec 2.0）融合，解决近同音音节在特征空间中的耦合问题，显著缓解唇形生成中的"平均化效应"…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 语音驱动面部动画
-  - 近同音词解耦
-  - 语义特征
-  - 即插即用模块
-  - 自监督音频模型
+  - "CVPR 2025"
+  - "人体理解"
+  - "语音驱动面部动画"
+  - "近同音词解耦"
+  - "语义特征"
+  - "即插即用模块"
+  - "自监督音频模型"
 ---
 
 # Wav2Sem: Plug-and-Play Audio Semantic Decoupling for 3D Speech-Driven Facial Animation

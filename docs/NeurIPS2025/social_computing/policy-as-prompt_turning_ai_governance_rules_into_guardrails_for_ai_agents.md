@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents
 description: >-
-  [NeurIPS 2025][AI治理] 提出 Policy-as-Prompt 框架，通过两阶段端到端流水线——策略树生成（POLICY-TREE-GEN）和策略即提示生成（POLICY-AS-PROMPT-GEN）——将团队已有的非结构化设计文档（PRD、TDD、代码）自动转换为可运行时执行的策略护栏，使用轻量级 LLM 作为合规"法官"，在 HR 和 SOC 应用中实现 70-73% 的输入/输出分类准确率。
+  [NeurIPS 2025][社会计算][AI治理] 提出 Policy-as-Prompt 框架，通过两阶段端到端流水线——策略树生成（POLICY-TREE-GEN）和策略即提示生成（POLICY-AS-PROMPT-GEN）——将团队已有的非结构化设计文档（PRD、TDD、代码）自动转换为可运行时执行的…
 tags:
-  - NeurIPS 2025
-  - AI治理
-  - 护栏策略
-  - 提示注入防御
-  - 最小权限原则
-  - 社会计算
+  - "NeurIPS 2025"
+  - "社会计算"
+  - "AI治理"
+  - "护栏策略"
+  - "提示注入防御"
+  - "最小权限原则"
+  - "策略即代码"
 ---
 
 # Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM推理][Chain-of-Thought] 系统研究影响 CoT 蒸馏的三大因素（粒度、格式、教师模型），发现 SLM 与粒度呈非单调关系、格式影响较小、强教师不总是更好。
 tags:
-  - ACL 2025
-  - LLM推理
-  - Chain-of-Thought
-  - 知识蒸馏
-  - Reasoning Granularity
-  - Small Language Models
-  - Teacher-Student
+  - "ACL 2025"
+  - "LLM推理"
+  - "Chain-of-Thought"
+  - "知识蒸馏"
+  - "Reasoning Granularity"
+  - "Small Language Models"
+  - "Teacher-Student"
 ---
 
 # Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning

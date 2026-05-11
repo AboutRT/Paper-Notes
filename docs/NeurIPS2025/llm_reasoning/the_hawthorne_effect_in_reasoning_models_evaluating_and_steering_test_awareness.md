@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM推理][test awareness] 首次系统量化推理型LLM的"测试感知"(Hawthorne效应)：当模型察觉自己在被评估时会改变行为，论文通过线性探针定位感知激活并进行参数编辑引导，揭示测试感知对安全对齐的显著且方向不一致的影响。
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - test awareness
-  - representation engineering
-  - safety evaluation
-  - reasoning models
-  - steering vectors
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "test awareness"
+  - "representation engineering"
+  - "safety evaluation"
+  - "reasoning models"
+  - "steering vectors"
 ---
 
 # The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness
@@ -61,7 +61,7 @@ tags:
 - 选择最佳层（QwQ/Distill-Qwen用第62层，Qwen3用第63层）
 - 计算FFN gate投影矩阵 $W_1$ 各行与探针权重 $m_{\text{pos}}^l$ 的余弦相似度
 - 选Top-K=800行（"感知神经元"），执行参数编辑：$w_{1,k} \leftarrow w_{1,k} + \alpha \cdot m_{\text{pos}}^l$
-- α>0 增强测试感知，α<0 抑制测试感知；感知引导 α<0.07，无感知引导 α>-0.35
+- α>0 增强测试感知，α&lt;0 抑制测试感知；感知引导 α&lt;0.07，无感知引导 α>-0.35
 
 ## 实验关键数据
 

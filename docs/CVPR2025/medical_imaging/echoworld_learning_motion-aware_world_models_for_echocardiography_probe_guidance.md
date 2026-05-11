@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EchoWorld: Learning Motion-Aware World Models for Echocardiography Probe Guidance
 description: >-
-  [CVPR 2025][医学图像][超声心动图] 本文提出 EchoWorld，一种面向超声心动图探头引导的运动感知世界建模框架：先通过空间世界建模（掩码重建）和运动世界建模（探头运动与视觉变化预测）进行预训练以编码心脏解剖知识，然后在微调阶段引入运动感知注意力机制融合历史视觉-运动序列，在 10 个标准切面的引导任务上显著降低引导误差。
+  [CVPR 2025][医学图像][超声心动图] 本文提出 EchoWorld，一种面向超声心动图探头引导的运动感知世界建模框架：先通过空间世界建模（掩码重建）和运动世界建模（探头运动与视觉变化预测）进行预训练以编码心脏解剖知识，然后在微调阶段引入运动感知注意力机制融合历史视觉-运动序列…
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 超声心动图
-  - 探头引导
-  - 世界模型
-  - 运动感知注意力
-  - 表征学习
+  - "CVPR 2025"
+  - "医学图像"
+  - "超声心动图"
+  - "探头引导"
+  - "世界模型"
+  - "运动感知注意力"
+  - "表征学习"
 ---
 
 # EchoWorld: Learning Motion-Aware World Models for Echocardiography Probe Guidance

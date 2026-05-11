@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][相对位姿估计] 提出结构感知对应学习方法(SAC-Pose)，通过学习能代表物体结构的关键点，并基于图像间结构感知特征直接回归3D-3D对应关系（无需显式特征匹配），显著提升未见类别物体的相对位姿估计精度。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 相对位姿估计
-  - 结构感知关键点
-  - 3D对应
-  - 无特征匹配
-  - SVD求解
+  - "CVPR 2025"
+  - "人体理解"
+  - "相对位姿估计"
+  - "结构感知关键点"
+  - "3D对应"
+  - "无特征匹配"
+  - "SVD求解"
 ---
 
 # Structure-Aware Correspondence Learning for Relative Pose Estimation

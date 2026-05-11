@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Controllable Examination for Long-Context Language Models
 description: >-
-  [NeurIPS 2025][语音][长上下文评估] 提出LongBioBench，通过生成虚构传记作为可控的needle和haystack，构建满足"无缝上下文、可控设置、可靠评估"三大原则的长上下文LLM评估框架，测试18个模型后揭示当前LCLM在检索能力尚可的情况下推理和可信性仍有显著短板。
+  [NeurIPS 2025][音频/语音][长上下文评估] 提出LongBioBench，通过生成虚构传记作为可控的needle和haystack，构建满足"无缝上下文、可控设置、可靠评估"三大原则的长上下文LLM评估框架，测试18个模型后揭示当前LCLM在检索能力尚可的情况下推理和可信性仍有显著短板。
 tags:
-  - NeurIPS 2025
-  - 语音
-  - 音频语音
-  - LongBioBench
-  - 合成基准
-  - 可控实验
-  - 传记生成
+  - "NeurIPS 2025"
+  - "音频/语音"
+  - "长上下文评估"
+  - "LongBioBench"
+  - "合成基准"
+  - "可控实验"
+  - "传记生成"
 ---
 
 # A Controllable Examination for Long-Context Language Models
@@ -54,7 +54,7 @@ LongBioBench的核心idea非常简洁：用**虚构传记**同时作为needle和
 |---------|------|---------|---------|------|
 | Understanding (128K) | Acc | GPT-4o | ~85%+ | 最强理解能力 |
 | Reasoning (128K) | Acc | GPT-4o | 66.5% | 与理解差距巨大 |
-| Trustworthiness (128K) | Acc | - | <90% | 所有模型均未超过90% |
+| Trustworthiness (128K) | Acc | - | &lt;90% | 所有模型均未超过90% |
 | 与HELMET相关性 | Spearman | LongBioBench | 0.853 | vs RULER的0.559 |
 | 512K | Acc | Qwen2.5-14B-1M | ~2-3% | 接近崩溃 |
 
@@ -62,7 +62,7 @@ LongBioBench的核心idea非常简洁：用**虚构传记**同时作为needle和
 - **GPT-4o**：理解和推理均为最佳，但可信性排名靠后
 - **Qwen2.5-14B-1M**：理解>85%，推理次之
 - **Llama-3.1-8B**：64K→128K出现断崖式下降
-- **Twodiff任务**：所有模型在128K下均<30%
+- **Twodiff任务**：所有模型在128K下均&lt;30%
 
 ### 消融实验要点
 - **上下文连贯性消融**（BiaH vs LongBioBench）：使用Paul Graham文章替代传记作为haystack，简单任务差距仅7.9%，但高难度多检索任务差距达88.9%，证明非连贯上下文提供了捷径

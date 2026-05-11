@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SANSKRITI: A Comprehensive Benchmark for Evaluating Language Models' Knowledge of Indian Culture
 description: >-
-  [ACL 2025][文化基准测试] 构建了覆盖印度全部 36 个行政区域、16 类文化属性、21,853 道 MCQ 的大规模文化知识基准 SANSKRITI，在 11 个 LLM/SLM/ILM 上的零样本评测揭示模型文化知识存在严重的地域和属性不均衡。
+  [ACL 2025][LLM评测][文化基准测试] 构建了覆盖印度全部 36 个行政区域、16 类文化属性、21,853 道 MCQ 的大规模文化知识基准 SANSKRITI，在 11 个 LLM/SLM/ILM 上的零样本评测揭示模型文化知识存在严重的地域和属性不均衡。
 tags:
-  - ACL 2025
-  - 文化基准测试
-  - 印度文化
-  - LLM评测
-  - 多文化NLP
-  - 知识评估
+  - "ACL 2025"
+  - "LLM评测"
+  - "文化基准测试"
+  - "印度文化"
+  - "语言模型评测"
+  - "多文化NLP"
+  - "知识评估"
 ---
 
 # SANSKRITI: A Comprehensive Benchmark for Evaluating Language Models' Knowledge of Indian Culture

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Synergy between the Strong and the Weak: Spiking Neural Networks Are Inherently Superior in Temporal Processing
 description: >-
-  [NeurIPS 2025][模型压缩][脉冲神经网络] 本文发现 SNN 可以在时间维度上天然解构为多个子模型，通过对比各时间步子模型的输出置信度识别"强"与"弱"，提出 Strong2Weak 和 Weak2Strong 两种自蒸馏方案，无需额外教师模型即可显著提升 SNN 性能，尤其在神经形态数据集上提升高达 5.36%。
+  [NeurIPS 2025][模型压缩][脉冲神经网络] 本文发现 SNN 可以在时间维度上天然解构为多个子模型，通过对比各时间步子模型的输出置信度识别"强"与"弱"，提出 Strong2Weak 和 Weak2Strong 两种自蒸馏方案，无需额外教师模型即可显著提升 SNN 性能…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 脉冲神经网络
-  - 自蒸馏
-  - 知识蒸馏
-  - 时间维度
-  - Strong2Weak
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "脉冲神经网络"
+  - "自蒸馏"
+  - "知识蒸馏"
+  - "时间维度"
+  - "Strong2Weak"
 ---
 
 # Synergy between the Strong and the Weak: Spiking Neural Networks Are Inherently Superior in Temporal Processing

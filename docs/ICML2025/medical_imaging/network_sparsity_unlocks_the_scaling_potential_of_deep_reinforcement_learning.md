@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][医学图像][网络稀疏化] 本文发现简单的一次性随机剪枝就能解锁深度 RL 的扩展潜力——稀疏网络比配备 SOTA 架构的稠密网络实现更高的参数效率、更强的可塑性保持和更少的梯度干扰。
 tags:
-  - ICML 2025
-  - 医学图像
-  - 网络稀疏化
-  - 深度RL扩展
-  - 随机剪枝
-  - 可塑性损失
-  - 梯度干扰
+  - "ICML 2025"
+  - "医学图像"
+  - "网络稀疏化"
+  - "深度RL扩展"
+  - "随机剪枝"
+  - "可塑性损失"
+  - "梯度干扰"
 ---
 
 # Network Sparsity Unlocks the Scaling Potential of Deep Reinforcement Learning

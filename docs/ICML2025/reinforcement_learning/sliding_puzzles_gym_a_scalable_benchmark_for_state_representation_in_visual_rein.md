@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sliding Puzzles Gym: A Scalable Benchmark for State Representation in Visual Reinforcement Learning
 description: >-
-  [ICML 2025][Visual RL] 本文提出 Sliding Puzzles Gym (SPGym)，一个将经典 8-拼图改造为视觉 RL 任务的基准，通过独立调节图片池大小来精确控制视觉表征学习的复杂度，实验揭示当前方法在视觉多样性增大时的根本性记忆化局限。
+  [ICML 2025][强化学习][Visual RL] 本文提出 Sliding Puzzles Gym (SPGym)，一个将经典 8-拼图改造为视觉 RL 任务的基准，通过独立调节图片池大小来精确控制视觉表征学习的复杂度，实验揭示当前方法在视觉多样性增大时的根本性记忆化局限。
 tags:
-  - ICML 2025
-  - Visual RL
-  - 强化学习
-  - Representation Learning
-  - Sliding Puzzle
-  - Generalization
+  - "ICML 2025"
+  - "强化学习"
+  - "Visual RL"
+  - "Benchmark"
+  - "Representation Learning"
+  - "Sliding Puzzle"
+  - "Generalization"
 ---
 
 # Sliding Puzzles Gym: A Scalable Benchmark for State Representation in Visual Reinforcement Learning

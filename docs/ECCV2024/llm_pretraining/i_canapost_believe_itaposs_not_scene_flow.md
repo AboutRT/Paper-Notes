@@ -2,14 +2,15 @@
 title: >-
   [论文解读] I Can't Believe It's Not Scene Flow!
 description: >-
-  [ECCV 2024][场景流估计] 揭示现有场景流方法在行人等小目标上的灾难性失败被现有评估指标所掩盖，提出类别感知且速度归一化的Bucket Normalized EPE评估协议，以及一个简单但SOTA的TrackFlow基线（检测器+跟踪器生成场景流），在行人运动描述上实现1.5倍提升。
+  [ECCV 2024][预训练][场景流估计] 揭示现有场景流方法在行人等小目标上的灾难性失败被现有评估指标所掩盖，提出类别感知且速度归一化的Bucket Normalized EPE评估协议，以及一个简单但SOTA的TrackFlow基线（检测器+跟踪器生成场景流），在行人运动描述上实现1.5倍提升。
 tags:
-  - ECCV 2024
-  - 场景流估计
-  - LLM预训练
-  - 类别感知
-  - 3D目标跟踪
-  - LiDAR
+  - "ECCV 2024"
+  - "预训练"
+  - "场景流估计"
+  - "评估协议"
+  - "类别感知"
+  - "3D目标跟踪"
+  - "LiDAR"
 ---
 
 # I Can't Believe It's Not Scene Flow!

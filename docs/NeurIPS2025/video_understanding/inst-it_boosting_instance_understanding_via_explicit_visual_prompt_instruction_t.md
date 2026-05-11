@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][实例级理解] 提出Inst-IT完整方案：通过GPT-4o辅助的自动标注管线生成实例级细粒度数据，构建Inst-IT Bench评测基准和335K QA对的指令微调数据集，以持续微调范式有效提升LMM的实例级理解能力，同时增强通用图像/视频理解。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 实例级理解
-  - 视觉提示
-  - 指令微调
-  - 多模态大模型
-  - 时空理解
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "实例级理解"
+  - "视觉提示"
+  - "指令微调"
+  - "多模态大模型"
+  - "时空理解"
 ---
 
 # INST-IT: Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning

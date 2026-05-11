@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][AI安全][个体化治疗规则] 提出校准加权治疗融合（Calibration-Weighted Treatment Fusion）方法，通过双重稳健地合并具有相似效果的治疗组来降低动作空间维度，使得现有多臂策略学习方法（如策略树）可高效应用于大量治疗选项的个体化推荐场景。
 tags:
-  - ICML2025
-  - AI安全
-  - 个体化治疗规则
-  - 治疗融合
-  - 校准加权
-  - 双重稳健
-  - Fused Lasso
-  - 策略树
+  - "ICML2025"
+  - "AI安全"
+  - "个体化治疗规则"
+  - "治疗融合"
+  - "校准加权"
+  - "双重稳健"
+  - "Fused Lasso"
+  - "策略树"
 ---
 
 # Doubly Robust Fusion of Many Treatments for Policy Learning

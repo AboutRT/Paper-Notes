@@ -2,14 +2,15 @@
 title: >-
   [论文解读] OGNI-DC: Robust Depth Completion with Optimization-Guided Neural Iterations
 description: >-
-  [ECCV 2024][深度补全] 提出 OGNI-DC，通过"优化引导的神经迭代"（OGNI）框架，结合 ConvGRU 迭代精炼深度梯度场和可微深度积分器（DDI）来实现深度补全，同时达到 SOTA 精度和强泛化能力。
+  [ECCV 2024][LLM评测][深度补全] 提出 OGNI-DC，通过"优化引导的神经迭代"（OGNI）框架，结合 ConvGRU 迭代精炼深度梯度场和可微深度积分器（DDI）来实现深度补全，同时达到 SOTA 精度和强泛化能力。
 tags:
-  - ECCV 2024
-  - 深度补全
-  - LLM评测
-  - 迭代精炼
-  - 泛化性
-  - 深度梯度
+  - "ECCV 2024"
+  - "LLM评测"
+  - "深度补全"
+  - "可微优化"
+  - "迭代精炼"
+  - "泛化性"
+  - "深度梯度"
 ---
 
 # OGNI-DC: Robust Depth Completion with Optimization-Guided Neural Iterations

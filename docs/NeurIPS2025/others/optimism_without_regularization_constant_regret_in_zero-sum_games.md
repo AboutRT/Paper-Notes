@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Optimism Without Regularization: Constant Regret in Zero-Sum Games
 description: >-
-  [NeurIPS 2025][Fictitious Play] 首次证明无正则化的Optimistic Fictitious Play在2×2零和博弈中获得O(1)常数遗憾，匹配了正则化Optimistic FTRL的最优率，同时证明Alternating Fictitious Play的遗憾下界为Ω(√T)，分离了乐观和交替在无正则化情况下的能力。
+  [NeurIPS 2025][Fictitious Play] 首次证明无正则化的Optimistic Fictitious Play在2×2零和博弈中获得O(1)常数遗憾，匹配了正则化Optimistic FTRL的最优率，同时证明Alternating Fictitious Play的遗憾下界为Ω(√T)…
 tags:
-  - NeurIPS 2025
-  - Fictitious Play
-  - 乐观学习
-  - 零和博弈
-  - 遗憾界
-  - 无正则化
+  - "NeurIPS 2025"
+  - "Fictitious Play"
+  - "乐观学习"
+  - "零和博弈"
+  - "遗憾界"
+  - "无正则化"
 ---
 
 # Optimism Without Regularization: Constant Regret in Zero-Sum Games

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exogenous Isomorphism for Counterfactual Identifiability
 description: >-
-  [ICML2025][反事实可辨识性] 提出**外生同构（Exogenous Isomorphism, EI）**概念，证明 $\sim_{\mathrm{EI}}$-identifiability 蕴含 $\sim_{\mathcal{L}_3}$-identifiability（完整反事实层可辨识性），并在双射SCM和三角单调SCM两类特殊模型上给出实现EI的充分条件，统一并推广了已有反事实可辨识性理论。
+  [ICML2025][因果推理][反事实可辨识性] 提出**外生同构（Exogenous Isomorphism, EI）**概念，证明 $\sim_{\mathrm{EI}}$-identifiability 蕴含 $\sim_{\mathcal{L}_3}$-identifiability（完整反事实层可…
 tags:
-  - ICML2025
-  - 反事实可辨识性
-  - 因果推理
-  - 外生同构
-  - 结构因果模型
-  - 三角单调SCM
+  - "ICML2025"
+  - "因果推理"
+  - "反事实可辨识性"
+  - "Pearl因果层级"
+  - "外生同构"
+  - "结构因果模型"
+  - "三角单调SCM"
 ---
 
 # Exogenous Isomorphism for Counterfactual Identifiability

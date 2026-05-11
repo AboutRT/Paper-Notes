@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Beyond Heuristic Prompting: A Concept-Guided Bayesian Framework for Zero-Shot Image Recognition
 description: >-
-  [CVPR2026][多模态][零样本分类] 将 VLM 零样本图像识别重构为贝叶斯框架，通过 LLM 驱动的多阶段概念合成流水线构建概念提案分布，并用自适应 soft-trim 似然函数抑制离群概念影响，在 11 个分类基准上优于 SOTA 方法。
+  [CVPR2026][多模态VLM][零样本分类] 将 VLM 零样本图像识别重构为贝叶斯框架，通过 LLM 驱动的多阶段概念合成流水线构建概念提案分布，并用自适应 soft-trim 似然函数抑制离群概念影响，在 11 个分类基准上优于 SOTA 方法。
 tags:
-  - CVPR2026
-  - 多模态
-  - 零样本分类
-  - CLIP
-  - 多模态VLM
-  - 概念引导
-  - 提示学习
-  - 鲁棒估计
+  - "CVPR2026"
+  - "多模态VLM"
+  - "零样本分类"
+  - "CLIP"
+  - "贝叶斯推理"
+  - "概念引导"
+  - "提示学习"
+  - "鲁棒估计"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][类增量分割] 这篇论文把每个器械类的提示参数从“彼此隔离的独立 prompt”改造成“共享知识逐层拆解的树结构”，让新器械可以继承旧知识快速学会，同时让新知识反过来温和修正旧知识，从而在手术器械类增量分割中同时提升新类、常见类和旧类表现。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 类增量分割
-  - 手术器械
-  - 层级提示
-  - 正向迁移
-  - 反向迁移
+  - "CVPR 2026"
+  - "医学图像"
+  - "类增量分割"
+  - "手术器械"
+  - "层级提示"
+  - "正向迁移"
+  - "反向迁移"
 ---
 
 # Unlocking Positive Transfer in Incrementally Learning Surgical Instruments: A Self-reflection Hierarchical Prompt Framework

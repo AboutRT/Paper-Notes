@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EigenGS: Representation from Eigenspace to Gaussian Image Space
 description: >-
-  [CVPR 2025][3D视觉][高斯表示] 本文提出 EigenGS，将经典 PCA 的特征空间表示与 2D 高斯 Splatting 图像表示相桥接，通过在特征基上学习统一的高斯参数实现新图像的即时初始化（无需从头优化），并引入频率感知学习机制避免高分辨率重建伪影，在收敛速度和最终质量上全面超越 GaussianImage。
+  [CVPR 2025][3D视觉][高斯表示] 本文提出 EigenGS，将经典 PCA 的特征空间表示与 2D 高斯 Splatting 图像表示相桥接，通过在特征基上学习统一的高斯参数实现新图像的即时初始化（无需从头优化），并引入频率感知学习机制避免高分辨率重建伪影…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 高斯表示
-  - PCA
-  - 图像重建
-  - 2D高斯
-  - 频率感知学习
+  - "CVPR 2025"
+  - "3D视觉"
+  - "高斯表示"
+  - "PCA"
+  - "图像重建"
+  - "2D高斯"
+  - "频率感知学习"
 ---
 
 # EigenGS: Representation from Eigenspace to Gaussian Image Space

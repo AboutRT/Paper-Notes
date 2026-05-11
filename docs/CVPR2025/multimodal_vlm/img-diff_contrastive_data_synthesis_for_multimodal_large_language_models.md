@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models
 description: >-
-  [CVPR 2025][多模态][对比数据合成] 提出一种受对比学习启发的数据合成方法，自动生成包含细微物体差异的相似图像对及其差异描述，用于微调MLLM后在MMVP上超越GPT-4V和Gemini达12个点，并在8个通用MLLM基准上平均提升3.06%。
+  [CVPR 2025][多模态VLM][对比数据合成] 提出一种受对比学习启发的数据合成方法，自动生成包含细微物体差异的相似图像对及其差异描述，用于微调MLLM后在MMVP上超越GPT-4V和Gemini达12个点，并在8个通用MLLM基准上平均提升3.06%。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 对比数据合成
-  - 图像差异描述
-  - 多模态VLM
-  - 细粒度视觉理解
-  - 数据增强
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "对比数据合成"
+  - "图像差异描述"
+  - "多模态大语言模型"
+  - "细粒度视觉理解"
+  - "数据增强"
 ---
 
 # Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models

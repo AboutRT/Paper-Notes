@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PARC: A Quantitative Framework Uncovering the Symmetries within Vision Language Models
 description: >-
-  [CVPR 2025][多模态][提示敏感性] 提出PARC框架，通过**11种语言/视觉提示变异**、**可靠性评分**和**指标校准**三大支柱，首次系统量化分析了22个VLM在7个数据集上的提示敏感性，发现VLM继承了LLM的语言敏感性并在视觉域呈现对称表现，InternVL2家族对提示变化最鲁棒。
+  [CVPR 2025][多模态VLM][提示敏感性] 提出PARC框架，通过**11种语言/视觉提示变异**、**可靠性评分**和**指标校准**三大支柱，首次系统量化分析了22个VLM在7个数据集上的提示敏感性，发现VLM继承了LLM的语言敏感性并在视觉域呈现对称表现，InternVL2家族对提示变化最鲁棒…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 提示敏感性
-  - VLM鲁棒性
-  - 可靠性评分
-  - 指标校准
-  - 提示变异
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "提示敏感性"
+  - "VLM鲁棒性"
+  - "可靠性评分"
+  - "指标校准"
+  - "提示变异"
 ---
 
 # PARC: A Quantitative Framework Uncovering the Symmetries within Vision Language Models

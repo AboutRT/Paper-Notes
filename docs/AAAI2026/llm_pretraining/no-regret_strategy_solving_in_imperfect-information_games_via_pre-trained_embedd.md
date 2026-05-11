@@ -2,14 +2,15 @@
 title: >-
   [论文解读] No-Regret Strategy Solving in Imperfect-Information Games via Pre-Trained Embedding
 description: >-
-  [AAAI 2026][LLM预训练] 提出 Embedding CFR 算法，将不完美信息博弈中的信息集映射到连续低维嵌入空间（而非离散聚类），在相同空间开销下实现更快的可利用性收敛和更高质量的策略求解。
+  [AAAI 2026][预训练][博弈论] 提出 Embedding CFR 算法，将不完美信息博弈中的信息集映射到连续低维嵌入空间（而非离散聚类），在相同空间开销下实现更快的可利用性收敛和更高质量的策略求解。
 tags:
-  - AAAI 2026
-  - LLM预训练
-  - CFR
-  - 信息集抽象
-  - 嵌入空间
-  - 扑克AI
+  - "AAAI 2026"
+  - "预训练"
+  - "博弈论"
+  - "CFR"
+  - "信息集抽象"
+  - "嵌入空间"
+  - "扑克AI"
 ---
 
 # No-Regret Strategy Solving in Imperfect-Information Games via Pre-Trained Embedding

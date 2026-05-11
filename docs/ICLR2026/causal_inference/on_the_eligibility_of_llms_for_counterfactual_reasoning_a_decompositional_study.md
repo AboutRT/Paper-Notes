@@ -2,14 +2,15 @@
 title: >-
   [论文解读] On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study
 description: >-
-  [ICLR2026][counterfactual reasoning] 提出基于结构因果模型（SCM）的分解式评估框架，将 LLM 的反事实推理拆分为四个阶段（因果变量识别→因果图构建→干预识别→结果推理），在 11 个多模态数据集上系统诊断 LLM 在各阶段的能力瓶颈，并提出工具增强和高级 elicitation 策略来改善性能。
+  [ICLR2026][因果推理][counterfactual reasoning] 提出基于结构因果模型（SCM）的分解式评估框架，将 LLM 的反事实推理拆分为四个阶段（因果变量识别→因果图构建→干预识别→结果推理），在 11 个多模态数据集上系统诊断 LLM 在各阶段的能力瓶颈…
 tags:
-  - ICLR2026
-  - 因果推理
-  - structural causal model
-  - LLM evaluation
-  - decompositional analysis
-  - tool-augmented learning
+  - "ICLR2026"
+  - "因果推理"
+  - "counterfactual reasoning"
+  - "structural causal model"
+  - "LLM evaluation"
+  - "decompositional analysis"
+  - "tool-augmented learning"
 ---
 
 # On the Eligibility of LLMs for Counterfactual Reasoning: A Decompositional Study
@@ -96,7 +97,7 @@ tags:
 
 ### Task I：因果变量识别
 
-- 文本数据集上 X 的 F1 可达 87–92%，但视觉/代码模态下降明显（如 Open-Critic 上 <72%）
+- 文本数据集上 X 的 F1 可达 87–92%，但视觉/代码模态下降明显（如 Open-Critic 上 &lt;72%）
 - **隐式变量 M 的识别最困难**：即使在文本数据集上，M 的 F1 也比 X 低 5–10 个百分点
 - 模态复杂度越高，识别越难；变量的推理性质（显式 vs 隐式）也是独立于模态的难度因素
 

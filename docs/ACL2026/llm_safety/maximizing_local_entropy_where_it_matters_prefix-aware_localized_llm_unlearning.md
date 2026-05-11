@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning
 description: >-
-  [ACL 2026][LLM安全] 本文提出 PALU（Prefix-Aware Localized Unlearning），从时间和词表两个维度实现局部化的熵最大化遗忘：在时间维度仅对敏感前缀 token 施加遗忘目标，在词表维度仅对 top-K logits 进行平坦化，以最小的参数扰动实现高效遗忘并保持模型通用能力。
+  [ACL 2026][LLM安全][LLM遗忘学习] 本文提出 PALU（Prefix-Aware Localized Unlearning），从时间和词表两个维度实现局部化的熵最大化遗忘：在时间维度仅对敏感前缀 token 施加遗忘目标，在词表维度仅对 top-K logits 进行平坦化…
 tags:
-  - ACL 2026
-  - LLM安全
-  - 局部熵最大化
-  - 前缀感知
-  - 词表稀疏优化
-  - 隐私保护
+  - "ACL 2026"
+  - "LLM安全"
+  - "LLM遗忘学习"
+  - "局部熵最大化"
+  - "前缀感知"
+  - "词表稀疏优化"
+  - "隐私保护"
 ---
 
 # Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning

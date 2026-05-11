@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation
 description: >-
-  [CVPR 2025][版面生成] 提出PosterO，通过将版面结构化为SVG布局树表示，利用LLM的上下文学习能力实现内容感知的海报版面自动生成，支持多形状元素和多用途场景。
+  [CVPR 2025][LLM评测][布局生成] 本文提出PosterO，一种以布局为中心的海报生成方法，将数据集中的布局结构化为SVG语言的层次化树表示，通过通用形状表示、设计意图向量化和层次节点描述三大机制，使LLM能够通过in-context learning在推理时生成多样化的内容感知布局。
 tags:
-  - CVPR 2025
-  - 版面生成
-  - LLM评测
-  - SVG
-  - 上下文学习
-  - 海报设计
+  - "CVPR 2025"
+  - "LLM评测"
+  - "布局生成"
+  - "海报设计"
+  - "LLM"
+  - "SVG树"
+  - "in-context learning"
 ---
 
 # PosterO: Structuring Layout Trees to Enable Language Models in Generalized Content-Aware Layout Generation

@@ -3,6 +3,16 @@ title: >-
   ICLR2026 LLM 评测方向56篇论文解读
 description: >-
   56篇ICLR2026的 LLM 评测方向论文解读，涵盖 LLM、Agent、推理、对齐/RLHF、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICLR2026"
+  - "LLM 评测"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "Agent"
+  - "推理"
+  - "对齐/RLHF"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +20,7 @@ description: >-
 
 **🔬 ICLR2026** · **56** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/llm_evaluation/index.md) · [📷 CVPR2026 (26)](../../CVPR2026/llm_evaluation/index.md) · [🤖 AAAI2026 (39)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (79)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (49)](../../ICML2025/llm_evaluation/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/llm_evaluation/index.md) · [📷 CVPR2026 (26)](../../CVPR2026/llm_evaluation/index.md) · [🤖 AAAI2026 (39)](../../AAAI2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (78)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (49)](../../ICML2025/llm_evaluation/index.md)
 
 🔥 **高频主题：** LLM ×9 · Agent ×3 · 推理 ×2 · 对齐/RLHF ×2 · 对抗鲁棒 ×2
 

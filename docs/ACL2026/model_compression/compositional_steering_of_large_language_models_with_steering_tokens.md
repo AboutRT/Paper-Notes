@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][组合引导] 本文提出组合引导 token，通过自蒸馏将行为指令压缩为输入空间的嵌入向量，并训练专用组合 token <and> 来捕获"组合"的通用概念，在未见过的行为组合、未见过的行为以及未见过的组合数量上均展现强泛化能力。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 组合引导
-  - 引导token
-  - 自蒸馏
-  - 多行为控制
-  - 零样本组合
+  - "ACL 2026"
+  - "模型压缩"
+  - "组合引导"
+  - "引导token"
+  - "自蒸馏"
+  - "多行为控制"
+  - "零样本组合"
 ---
 
 # Compositional Steering of Large Language Models with Steering Tokens

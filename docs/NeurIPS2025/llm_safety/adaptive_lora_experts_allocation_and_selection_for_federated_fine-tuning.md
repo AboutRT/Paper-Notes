@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning
 description: >-
-  [NeurIPS 2025][AI安全][联邦学习] 提出 FedLEASE——解决联邦 LoRA 微调中两个关键问题：(1) 用 LoRA B 矩阵相似度聚类自动确定最优专家数量和分配，(2) 用扩展路由空间（$2M-1$ 维）实现自适应 top-M 专家选择（每个客户端自动决定用几个专家），在 GLUE 上比最强基线平均提升 5.53%。
+  [NeurIPS 2025][LLM安全][联邦学习] 提出 FedLEASE——解决联邦 LoRA 微调中两个关键问题：(1) 用 LoRA B 矩阵相似度聚类自动确定最优专家数量和分配，(2) 用扩展路由空间（$2M-1$ 维）实现自适应 top-M 专家选择（每个客户端自动决定用几个专家）…
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 联邦学习
-  - LoRA
-  - 混合专家
-  - 自适应聚类
-  - 参数高效微调
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "联邦学习"
+  - "LoRA"
+  - "混合专家"
+  - "自适应聚类"
+  - "参数高效微调"
 ---
 
 # Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning

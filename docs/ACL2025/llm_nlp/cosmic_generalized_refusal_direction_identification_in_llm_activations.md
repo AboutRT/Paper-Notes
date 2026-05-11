@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][拒绝方向] 提出 COSMIC 框架，利用余弦相似度在激活空间中自动选择拒绝引导方向，完全不依赖模型输出 token 或预定义拒绝模板，在标准设置下匹配已有方法性能，并首次在对抗性完全拒绝和弱对齐模型中成功提取有效的拒绝方向。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 拒绝方向
-  - 余弦相似度
-  - 激活空间干预
-  - 方向选择
-  - 对抗鲁棒性
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "拒绝方向"
+  - "余弦相似度"
+  - "激活空间干预"
+  - "方向选择"
+  - "对抗鲁棒性"
 ---
 
 # COSMIC: Generalized Refusal Direction Identification in LLM Activations

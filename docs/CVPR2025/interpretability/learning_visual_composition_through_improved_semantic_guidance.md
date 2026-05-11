@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Visual Composition through Improved Semantic Guidance
 description: >-
-  [CVPR 2025][视觉组合性] 本文提出通过改善训练数据的语义监督信号（使用基础模型重新生成高质量描述+使用预训练文本编码器替代从头训练）来大幅提升标准 CLIP 模型的视觉组合理解能力，在 ARO 基准上从CLIP的59%/63%提升到92%/94%，在DOCCI图像检索上从58.4%提升到94.5% recall@1，且无需任何架构改动。
+  [CVPR 2025][可解释性][视觉组合性] 本文提出通过改善训练数据的语义监督信号（使用基础模型重新生成高质量描述+使用预训练文本编码器替代从头训练）来大幅提升标准 CLIP 模型的视觉组合理解能力，在 ARO 基准上从CLIP的59%/63%提升到92%/94%…
 tags:
-  - CVPR 2025
-  - 视觉组合性
-  - CLIP
-  - 可解释性
-  - 重标注
-  - 语义引导
+  - "CVPR 2025"
+  - "可解释性"
+  - "视觉组合性"
+  - "CLIP"
+  - "对比学习"
+  - "重标注"
+  - "语义引导"
 ---
 
 # Learning Visual Composition through Improved Semantic Guidance

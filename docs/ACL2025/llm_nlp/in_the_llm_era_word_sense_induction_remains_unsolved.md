@@ -2,15 +2,15 @@
 title: >-
   [论文解读] In the LLM Era, Word Sense Induction Remains Unsolved
 description: >-
-  [ACL 2025 (Findings)][NLP理解][词义归纳] 本文系统评估了 LLM 时代的词义归纳（WSI）任务，在控制更严谨的 SemCor 衍生评估集上发现，包括 LLM 方法在内的所有无监督方法都无法超越简单的"每个词只有一个义项"基线，而结合 Wiktionary 的半监督方法超越了前 SOTA 3.3%，说明 WSI 仍远未被解决。
+  [ACL 2025 (Findings)][LLM/NLP][词义归纳] 本文系统评估了 LLM 时代的词义归纳（WSI）任务，在控制更严谨的 SemCor 衍生评估集上发现，包括 LLM 方法在内的所有无监督方法都无法超越简单的"每个词只有一个义项"基线…
 tags:
-  - ACL 2025 (Findings)
-  - NLP理解
-  - 词义归纳
-  - 词义消歧
-  - LLM
-  - 聚类
-  - Wiktionary
+  - "ACL 2025 (Findings)"
+  - "LLM/NLP"
+  - "词义归纳"
+  - "词义消歧"
+  - "LLM"
+  - "聚类"
+  - "Wiktionary"
 ---
 
 # In the LLM Era, Word Sense Induction Remains Unsolved

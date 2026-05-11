@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RISK: A Framework for GUI Agents in E-commerce Risk Management
 description: >-
-  [ACL 2026][LLM Agent][GUI智能体] 提出 RISK 框架，包含领域数据集（RISK-Data, 8492单步+2386多步轨迹）、基准（RISK-Bench）和基于GRPO的强化微调方法（RISK-R1），针对电商风控场景的GUI智能体，7B模型以仅7.2%的参数量超越SOTA基线，在线任务成功率达70.5%。
+  [ACL 2026][LLM Agent][GUI智能体] 提出 RISK 框架，包含领域数据集（RISK-Data, 8492单步+2386多步轨迹）、基准（RISK-Bench）和基于GRPO的强化微调方法（RISK-R1），针对电商风控场景的GUI智能体，7B模型以仅7.2%的参数量超越SOTA基线…
 tags:
-  - ACL 2026
-  - LLM Agent
-  - GUI智能体
-  - 电商风控
-  - 强化微调
-  - 网页交互
-  - 多步推理
+  - "ACL 2026"
+  - "LLM Agent"
+  - "GUI智能体"
+  - "电商风控"
+  - "强化微调"
+  - "网页交互"
+  - "多步推理"
 ---
 
 # RISK: A Framework for GUI Agents in E-commerce Risk Management

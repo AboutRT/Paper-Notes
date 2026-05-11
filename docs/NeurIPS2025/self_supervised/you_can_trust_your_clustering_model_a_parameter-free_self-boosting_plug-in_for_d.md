@@ -2,15 +2,15 @@
 title: >-
   [论文解读] You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering
 description: >-
-  [NeurIPS 2025][自监督][深度聚类] 提出 DCBoost，一个无需额外超参数的即插即用模块，通过自适应 k-NN 筛选高置信样本并利用可靠的局部结构信息引导全局特征空间优化，显著提升现有深度聚类模型的性能。
+  [NeurIPS 2025][自监督学习][深度聚类] 提出 DCBoost，一个无需额外超参数的即插即用模块，通过自适应 k-NN 筛选高置信样本并利用可靠的局部结构信息引导全局特征空间优化，显著提升现有深度聚类模型的性能。
 tags:
-  - NeurIPS 2025
-  - 自监督
-  - 深度聚类
-  - 自增强插件
-  - 局部结构
-  - 全局结构优化
-  - 无参数
+  - "NeurIPS 2025"
+  - "自监督学习"
+  - "深度聚类"
+  - "自增强插件"
+  - "局部结构"
+  - "全局结构优化"
+  - "无参数"
 ---
 
 # You Can Trust Your Clustering Model: A Parameter-free Self-Boosting Plug-in for Deep Clustering

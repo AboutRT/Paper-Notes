@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Real-World Point Tracking with Verifier-Guided Pseudo-Labeling
 description: >-
-  [CVPR 2026][视频理解][point tracking] 提出一个可学习的Verifier元模型，在合成数据上训练"判断tracker预测可靠性"的能力并迁移到真实世界，通过逐帧评估6个预训练tracker的预测来选取最可靠的作为伪标签，仅用~5K真实视频即微调出在4个真实世界基准上全面SOTA的Track-On-R模型。
+  [CVPR 2026][视频理解][point tracking] 提出一个可学习的Verifier元模型，在合成数据上训练"判断tracker预测可靠性"的能力并迁移到真实世界，通过逐帧评估6个预训练tracker的预测来选取最可靠的作为伪标签…
 tags:
-  - CVPR 2026
-  - 视频理解
-  - point tracking
-  - 伪标签
-  - verifier
-  - multi-teacher ensemble
-  - sim-to-real adaptation
+  - "CVPR 2026"
+  - "视频理解"
+  - "point tracking"
+  - "伪标签"
+  - "verifier"
+  - "multi-teacher ensemble"
+  - "sim-to-real adaptation"
 ---
 
 # Real-World Point Tracking with Verifier-Guided Pseudo-Labeling

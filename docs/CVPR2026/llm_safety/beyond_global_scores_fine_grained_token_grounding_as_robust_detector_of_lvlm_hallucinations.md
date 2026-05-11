@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM安全][hallucination detection] 提出基于 patch 级别的 LVLM 幻觉检测框架，发现幻觉 token 表现出弥散注意力模式和低语义对齐两个特征标志，据此设计注意力弥散分数（ADS）和跨模态接地一致性（CGC）两个轻量指标，检测准确率达 90%。
 tags:
-  - CVPR 2026
-  - LLM安全
-  - hallucination detection
-  - LVLM
-  - 注意力机制
-  - patch-level grounding
-  - token-level
+  - "CVPR 2026"
+  - "LLM安全"
+  - "hallucination detection"
+  - "LVLM"
+  - "注意力机制"
+  - "patch-level grounding"
+  - "token-level"
 ---
 
 # Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations

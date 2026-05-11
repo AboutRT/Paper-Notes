@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][地图匹配] 提出 DiffMM，首次将扩散模型引入地图匹配任务，通过路段感知轨迹编码器和一步 Shortcut 扩散过程，在稀疏轨迹和复杂路网上实现了精度和效率的双重提升，推理速度比次优方法快约 17 倍。
 tags:
-  - AAAI 2026
-  - 地图匹配
-  - 扩散模型
-  - 稀疏轨迹
-  - Shortcut模型
-  - 路段感知编码器
+  - "AAAI 2026"
+  - "地图匹配"
+  - "扩散模型"
+  - "稀疏轨迹"
+  - "Shortcut模型"
+  - "路段感知编码器"
 ---
 
 # DiffMM: Efficient Method for Accurate Noisy and Sparse Trajectory Map Matching via One Step Diffusion

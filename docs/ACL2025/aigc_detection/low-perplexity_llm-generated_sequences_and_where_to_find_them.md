@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Low-Perplexity LLM-Generated Sequences and Where To Find Them
 description: >-
-  [ACL 2025][低困惑度序列] 提出系统化 pipeline 分析 LLM 生成的低困惑度序列（token 预测概率 ≥0.9）并追溯到训练数据来源，发现 30-60% 的低困惑度片段无法匹配训练数据，将可匹配片段分为四种记忆行为类别。
+  [ACL 2025][AIGC检测][低困惑度序列] 提出系统化 pipeline 分析 LLM 生成的低困惑度序列（token 预测概率 ≥0.9）并追溯到训练数据来源，发现 30-60% 的低困惑度片段无法匹配训练数据，将可匹配片段分为四种记忆行为类别。
 tags:
-  - ACL 2025
-  - 低困惑度序列
-  - 训练数据溯源
-  - 记忆化
-  - 逐字复现
-  - Infinigram
-  - Pythia
+  - "ACL 2025"
+  - "AIGC检测"
+  - "低困惑度序列"
+  - "训练数据溯源"
+  - "记忆化"
+  - "逐字复现"
+  - "Infinigram"
+  - "Pythia"
 ---
 
 # Low-Perplexity LLM-Generated Sequences and Where To Find Them

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MCTSr-Zero: Self-Reflective Psychological Counseling Dialogues Generation via Principles and Adaptive Exploration
 description: >-
-  [AAAI 2026][蒙特卡洛树搜索] 提出 MCTSr-Zero 框架，将 MCTS 与领域原则自评估、元提示自适应探索机制结合，用于生成高质量心理咨询多轮对话数据，微调得到的 PsyLLM 在自建的 PsyEval 基准上达到 SOTA。
+  [AAAI 2026][医学图像][蒙特卡洛树搜索] 提出 MCTSr-Zero 框架，将 MCTS 与领域原则自评估、元提示自适应探索机制结合，用于生成高质量心理咨询多轮对话数据，微调得到的 PsyLLM 在自建的 PsyEval 基准上达到 SOTA。
 tags:
-  - AAAI 2026
-  - 蒙特卡洛树搜索
-  - 心理咨询
-  - 医学图像
-  - 自我反思
-  - 对话系统
+  - "AAAI 2026"
+  - "医学图像"
+  - "蒙特卡洛树搜索"
+  - "心理咨询"
+  - "对话生成"
+  - "自我反思"
+  - "领域对齐"
 ---
 
 # MCTSr-Zero: Self-Reflective Psychological Counseling Dialogues Generation via Principles and Adaptive Exploration

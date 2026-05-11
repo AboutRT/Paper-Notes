@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Unified Camera Positional Encoding for Controlled Video Generation
 description: >-
-  [CVPR 2026][相机位置编码] 提出统一相机位置编码 UCPE，将完整的相机几何信息（6-DoF 位姿、内参、镜头畸变）通过相对光线编码和绝对朝向编码注入 Transformer 注意力机制，仅增加不到 1% 可训练参数即实现跨异构相机模型的精细视频生成控制。
+  [CVPR 2026][视频生成][相机位置编码] 提出统一相机位置编码 UCPE，将完整的相机几何信息（6-DoF 位姿、内参、镜头畸变）通过相对光线编码和绝对朝向编码注入 Transformer 注意力机制，仅增加不到 1% 可训练参数即实现跨异构相机模型的精细视频生成控制。
 tags:
-  - CVPR 2026
-  - 相机位置编码
-  - 视频生成
-  - 镜头畸变
-  - Transformer
-  - 相机可控生成
+  - "CVPR 2026"
+  - "视频生成"
+  - "相机位置编码"
+  - "镜头畸变"
+  - "Transformer"
+  - "相机可控生成"
 ---
 
 # Unified Camera Positional Encoding for Controlled Video Generation

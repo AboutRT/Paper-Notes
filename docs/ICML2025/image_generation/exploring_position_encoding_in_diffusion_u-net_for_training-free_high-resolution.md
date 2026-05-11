@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Exploring Position Encoding in Diffusion U-Net for Training-free High-resolution Image Generation
 description: >-
-  [ICML 2025][图像生成][高分辨率图像生成] 通过深入分析扩散模型U-Net中卷积层零填充（zero-padding）产生的位置信息在高分辨率下的传播不足问题，提出Progressive Boundary Complement（PBC）方法，在特征图内部构建渐进式虚拟边界来增强位置信息传播，实现训练无关的高质量高分辨率图像生成。
+  [ICML 2025][图像生成][高分辨率图像生成] 通过深入分析扩散模型U-Net中卷积层零填充（zero-padding）产生的位置信息在高分辨率下的传播不足问题，提出Progressive Boundary Complement（PBC）方法，在特征图内部构建渐进式虚拟边界来增强位置信息传播…
 tags:
-  - ICML 2025
-  - 图像生成
-  - 高分辨率图像生成
-  - 位置编码
-  - U-Net
-  - 零填充
-  - 训练无关方法
-  - 扩散模型
+  - "ICML 2025"
+  - "图像生成"
+  - "高分辨率图像生成"
+  - "位置编码"
+  - "U-Net"
+  - "零填充"
+  - "训练无关方法"
+  - "扩散模型"
 ---
 
 # Exploring Position Encoding in Diffusion U-Net for Training-free High-resolution Image Generation

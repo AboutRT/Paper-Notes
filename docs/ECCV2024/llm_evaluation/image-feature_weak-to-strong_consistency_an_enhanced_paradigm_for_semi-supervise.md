@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Image-Feature Weak-to-Strong Consistency: An Enhanced Paradigm for Semi-Supervised Learning
 description: >-
-  [ECCV 2024][半监督学习] 本文提出 IFMatch，在传统图像级弱到强一致性范式基础上引入特征级扰动并构建三分支结构，通过置信度策略区分朴素/困难样本，在多个 SSL 基准上显著提升已有方法（如 FixMatch、FreeMatch 等）的性能。
+  [ECCV 2024][LLM评测][半监督学习] 本文提出 IFMatch，在传统图像级弱到强一致性范式基础上引入特征级扰动并构建三分支结构，通过置信度策略区分朴素/困难样本，在多个 SSL 基准上显著提升已有方法（如 FixMatch、FreeMatch 等）的性能。
 tags:
-  - ECCV 2024
-  - 半监督学习
-  - 特征扰动
-  - 一致性正则化
-  - 朴素样本识别
-  - 数据增强
+  - "ECCV 2024"
+  - "LLM评测"
+  - "半监督学习"
+  - "特征扰动"
+  - "一致性正则化"
+  - "朴素样本识别"
+  - "数据增强"
 ---
 
 # Image-Feature Weak-to-Strong Consistency: An Enhanced Paradigm for Semi-Supervised Learning

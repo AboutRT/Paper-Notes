@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VEGGIE: Instructional Editing and Reasoning Video Concepts with Grounded Generation
 description: >-
-  [ICCV 2025][图像分割][视频编辑] VEGGIE 提出了一个端到端统一框架，将 MLLM 与视频扩散模型连接，仅用扩散损失就能在单一模型中同时完成指令式视频编辑、概念定位和推理分割等 8 种任务。
+  [ICCV 2025][语义分割][视频编辑] VEGGIE 提出了一个端到端统一框架，将 MLLM 与视频扩散模型连接，仅用扩散损失就能在单一模型中同时完成指令式视频编辑、概念定位和推理分割等 8 种任务。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 视频编辑
-  - 指令编辑
-  - 视频概念定位
-  - 推理分割
-  - 多任务统一模型
+  - "ICCV 2025"
+  - "语义分割"
+  - "视频编辑"
+  - "指令编辑"
+  - "视频概念定位"
+  - "推理分割"
+  - "多任务统一模型"
 ---
 
 # VEGGIE: Instructional Editing and Reasoning Video Concepts with Grounded Generation

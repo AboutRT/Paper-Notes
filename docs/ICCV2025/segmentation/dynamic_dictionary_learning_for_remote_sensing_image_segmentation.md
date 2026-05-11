@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dynamic Dictionary Learning for Remote Sensing Image Segmentation
 description: >-
-  [ICCV 2025][图像分割][动态字典学习] 本文提出动态字典学习框架 D2LS，通过多阶段交替交叉注意力迭代更新类别感知语义嵌入（字典），并引入对比约束增强类间可分性，在遥感图像粗粒度和细粒度分割任务上均超越 SOTA。
+  [ICCV 2025][语义分割][动态字典学习] 本文提出动态字典学习框架 D2LS，通过多阶段交替交叉注意力迭代更新类别感知语义嵌入（字典），并引入对比约束增强类间可分性，在遥感图像粗粒度和细粒度分割任务上均超越 SOTA。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 动态字典学习
-  - 遥感图像分割
-  - 类别嵌入
-  - 交叉注意力
-  - 对比学习
+  - "ICCV 2025"
+  - "语义分割"
+  - "动态字典学习"
+  - "遥感图像分割"
+  - "类别嵌入"
+  - "交叉注意力"
+  - "对比学习"
 ---
 
 # Dynamic Dictionary Learning for Remote Sensing Image Segmentation

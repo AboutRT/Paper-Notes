@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][全景生成] 提出PanoFree，一种无需微调的多视图图像生成方法，通过迭代变形-修补、跨视图引导和对称双向生成策略，高效生成一致的全景图像。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 全景生成
-  - 多视图生成
-  - 无微调
-  - 跨视图自引导
-  - 扩散模型
+  - "ECCV 2024"
+  - "图像生成"
+  - "全景生成"
+  - "多视图生成"
+  - "无微调"
+  - "跨视图自引导"
+  - "扩散模型"
 ---
 
 # PanoFree: Tuning-Free Holistic Multi-view Image Generation with Cross-view Self-Guidance

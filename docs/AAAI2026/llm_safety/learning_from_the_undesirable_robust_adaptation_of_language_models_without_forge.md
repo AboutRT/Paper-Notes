@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting
 description: >-
-  [AAAI 2026][LLM安全][监督微调] 提出 Learning-from-the-Undesirable (LfU)，一种面向 SFT 的正则化方法，通过对辅助模型施加梯度上升模拟"不良行为"，再通过表示级一致性损失约束原模型与不良模型的内部表征保持一致，有效缓解有限数据微调中的过拟合、遗忘和对抗脆弱性问题。
+  [AAAI 2026][LLM安全][监督微调] 提出 Learning-from-the-Undesirable (LfU)，一种面向 SFT 的正则化方法，通过对辅助模型施加梯度上升模拟"不良行为"，再通过表示级一致性损失约束原模型与不良模型的内部表征保持一致…
 tags:
-  - AAAI 2026
-  - LLM安全
-  - 监督微调
-  - 过拟合缓解
-  - 一致性正则化
-  - 知识保留
-  - 对抗鲁棒性
+  - "AAAI 2026"
+  - "LLM安全"
+  - "监督微调"
+  - "过拟合缓解"
+  - "一致性正则化"
+  - "知识保留"
+  - "对抗鲁棒性"
 ---
 
 # Learning from the Undesirable: Robust Adaptation of Language Models without Forgetting

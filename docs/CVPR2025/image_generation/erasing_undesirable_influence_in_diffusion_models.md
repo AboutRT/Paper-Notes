@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][机器遗忘] 本文提出EraseDiff，将扩散模型的数据遗忘问题形式化为基于价值函数的约束优化问题，通过自然的一阶算法同时优化保留性能和擦除效果，在DDPM/Stable Diffusion上比SA快11倍、比SalUn快2倍，同时在保留-遗忘权衡上取得Pareto最优。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 机器遗忘
-  - 扩散模型
-  - 约束优化
-  - 价值函数
-  - NSFW内容擦除
+  - "CVPR 2025"
+  - "图像生成"
+  - "机器遗忘"
+  - "扩散模型"
+  - "约束优化"
+  - "价值函数"
+  - "NSFW内容擦除"
 ---
 
 # Erasing Undesirable Influence in Diffusion Models (EraseDiff)

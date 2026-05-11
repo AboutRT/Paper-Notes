@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Gradient-Weight Alignment as a Train-Time Proxy for Generalization in Classification Tasks
 description: >-
-  [NeurIPS 2025][LLM预训练] 提出 Gradient-Weight Alignment (GWA)，通过量化每个训练样本梯度与模型权重的方向一致性（cosine similarity），在训练过程中无需验证集即可准确预测泛化性能、确定最佳早停时机，并定位有影响力的训练样本。
+  [NeurIPS 2025][预训练][generalization] 提出 Gradient-Weight Alignment (GWA)，通过量化每个训练样本梯度与模型权重的方向一致性（cosine similarity），在训练过程中无需验证集即可准确预测泛化性能、确定最佳早停时机…
 tags:
-  - NeurIPS 2025
-  - LLM预训练
-  - gradient-weight alignment
-  - early stopping
-  - training dynamics
-  - sample influence
+  - "NeurIPS 2025"
+  - "预训练"
+  - "generalization"
+  - "gradient-weight alignment"
+  - "early stopping"
+  - "training dynamics"
+  - "sample influence"
 ---
 
 # Gradient-Weight Alignment as a Train-Time Proxy for Generalization in Classification Tasks

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Multilingual RAG Systems with Debiased Language Preference-Guided Query Fusion
 description: >-
-  [ACL 2026][信息检索] 本文发现多语言 RAG 系统中"英语偏好"主要是评估基准中结构性先验（gold 证据集中于英语、文化先验）的伪影而非模型固有偏差，提出去偏语言偏好指标 DeLP 揭示检索器实际偏好单语对齐，并基于此设计 DELTA 查询增强框架，在多语言 RAG 上一致超越英语枢轴策略。
+  [ACL 2026][信息检索/RAG][多语言RAG] 本文发现多语言 RAG 系统中"英语偏好"主要是评估基准中结构性先验（gold 证据集中于英语、文化先验）的伪影而非模型固有偏差，提出去偏语言偏好指标 DeLP 揭示检索器实际偏好单语对齐，并基于此设计 DELTA 查询增强框架…
 tags:
-  - ACL 2026
-  - 信息检索
-  - 英语中心偏差
-  - 语言偏好
-  - 查询融合
-  - 去偏校准
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "多语言RAG"
+  - "英语中心偏差"
+  - "语言偏好"
+  - "查询融合"
+  - "去偏校准"
 ---
 
 # Enhancing Multilingual RAG Systems with Debiased Language Preference-Guided Query Fusion

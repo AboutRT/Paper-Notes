@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Too Vivid to Be Real? Benchmarking and Calibrating Generative Color Fidelity
 description: >-
-  [CVPR 2026][图像生成][color fidelity] 针对 T2I 模型生成图像"太鲜艳不像真实照片"的问题，提出 Color Fidelity Dataset (CFD, 130 万图像)、Color Fidelity Metric (CFM, 基于 Qwen2-VL + softrank loss) 和 Color Fidelity Refinement (CFR, 无训练的时空自适应 guidance 调制)，形成评估-改善一体化框架。
+  [CVPR 2026][图像生成][color fidelity] 针对 T2I 模型生成图像"太鲜艳不像真实照片"的问题，提出 Color Fidelity Dataset (CFD, 130 万图像)、Color Fidelity Metric (CFM…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - color fidelity
-  - text-to-image evaluation
-  - guidance scale
-  - realistic generation
-  - evaluation bias
+  - "CVPR 2026"
+  - "图像生成"
+  - "color fidelity"
+  - "text-to-image evaluation"
+  - "guidance scale"
+  - "realistic generation"
+  - "evaluation bias"
 ---
 
 # Too Vivid to Be Real? Benchmarking and Calibrating Generative Color Fidelity

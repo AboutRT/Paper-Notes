@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Modality-Aware Bias Mitigation and Invariance Learning for Unsupervised Visible-Infrared Person Re-Identification
 description: >-
-  [AAAI 2026][人体理解][跨模态行人重识别] 针对无监督可见光-红外行人重识别（USVI-ReID）中跨模态关联不可靠的核心问题，提出模态感知的 Jaccard 距离修正和"分裂-对比"不变性学习策略，通过消除模态偏差实现可靠的全局跨模态聚类和特征对齐，在 SYSU-MM01 和 RegDB 上达到 SOTA。
+  [AAAI 2026][人体理解][跨模态行人重识别] 针对无监督可见光-红外行人重识别（USVI-ReID）中跨模态关联不可靠的核心问题，提出模态感知的 Jaccard 距离修正和"分裂-对比"不变性学习策略，通过消除模态偏差实现可靠的全局跨模态聚类和特征对齐…
 tags:
-  - AAAI 2026
-  - 人体理解
-  - 跨模态行人重识别
-  - 无监督学习
-  - 模态偏差消除
-  - Jaccard距离修正
-  - 全局聚类
+  - "AAAI 2026"
+  - "人体理解"
+  - "跨模态行人重识别"
+  - "无监督学习"
+  - "模态偏差消除"
+  - "Jaccard距离修正"
+  - "全局聚类"
 ---
 
 # Modality-Aware Bias Mitigation and Invariance Learning for Unsupervised Visible-Infrared Person Re-Identification

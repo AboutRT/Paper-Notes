@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PIGDreamer: Privileged Information Guided World Models for Safe Partially Observable RL
 description: >-
-  [ICML 2025][安全强化学习] 提出 ACPOMDPs 理论框架并构建 PIGDreamer，在训练阶段利用特权信息（如底层状态、传感器数据）通过表征对齐、特权预测器和非对称 Critic 三种方式增强基于世界模型的安全 RL，在部分可观测环境中以仅 28% 的额外训练时间获得 136% 的性能提升。
+  [ICML 2025][强化学习][安全强化学习] 提出 ACPOMDPs 理论框架并构建 PIGDreamer，在训练阶段利用特权信息（如底层状态、传感器数据）通过表征对齐、特权预测器和非对称 Critic 三种方式增强基于世界模型的安全 RL…
 tags:
-  - ICML 2025
-  - 安全强化学习
-  - 世界模型
-  - 部分可观测
-  - 特权信息
-  - 非对称Actor-Critic
+  - "ICML 2025"
+  - "强化学习"
+  - "安全强化学习"
+  - "世界模型"
+  - "部分可观测"
+  - "特权信息"
+  - "非对称Actor-Critic"
 ---
 
 # PIGDreamer: Privileged Information Guided World Models for Safe Partially Observable RL

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas
 description: >-
-  [ICLR 2026][LLM/NLP][扩散模型] DreamOn 通过引入 [expand] 和 [delete] 两个特殊状态解决了扩散语言模型（DLM）的固定长度生成限制，无需架构修改即可实现变长代码填充，在 HumanEval-Infilling 上比扩散基线平均提升 26.4%，达到与 SOTA 自回归模型持平的水平。
+  [ICLR 2026][LLM/NLP][扩散模型] DreamOn 通过引入 [expand] 和 [delete] 两个特殊状态解决了扩散语言模型（DLM）的固定长度生成限制，无需架构修改即可实现变长代码填充，在 HumanEval-Infilling 上比扩散基线平均提升 26.4%…
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - 扩散模型
-  - code infilling
-  - variable-length generation
-  - DLM
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "扩散模型"
+  - "code infilling"
+  - "variable-length generation"
+  - "DLM"
 ---
 
 # DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas

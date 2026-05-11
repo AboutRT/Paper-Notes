@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Leveraging 3D Geometric Priors in 2D Rotation Symmetry Detection
 description: >-
-  [CVPR 2025][图像分割][旋转对称性检测] 本文提出了一个利用3D几何先验的旋转对称性检测模型，通过在3D空间中直接预测旋转中心和顶点并投影回2D，结合基于种子点和旋转轴的顶点重建模块，在DENDI数据集上以F1-score 33.2超越了之前基于分割的SOTA方法EquiSym (22.5)。
+  [CVPR 2025][语义分割][旋转对称性检测] 本文提出了一个利用3D几何先验的旋转对称性检测模型，通过在3D空间中直接预测旋转中心和顶点并投影回2D，结合基于种子点和旋转轴的顶点重建模块，在DENDI数据集上以F1-score 33.2超越了之前基于分割的SOTA方法EquiSym (22.5)。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 旋转对称性检测
-  - 3D几何先验
-  - 顶点重建
-  - DETR
-  - 集合预测
+  - "CVPR 2025"
+  - "语义分割"
+  - "旋转对称性检测"
+  - "3D几何先验"
+  - "顶点重建"
+  - "DETR"
+  - "集合预测"
 ---
 
 # Leveraging 3D Geometric Priors in 2D Rotation Symmetry Detection

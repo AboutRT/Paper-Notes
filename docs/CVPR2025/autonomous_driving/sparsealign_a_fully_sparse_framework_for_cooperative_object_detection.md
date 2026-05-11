@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][协同感知] SparseAlign提出首个全稀疏的协同目标检测框架，通过坐标可扩展稀疏卷积解决中心特征缺失和孤立卷积域问题，在减少98%通信带宽的同时超越基于稠密BEV的SOTA方法。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 协同感知
-  - 稀疏检测
-  - LiDAR
-  - 目标检测
-  - 通信效率
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "协同感知"
+  - "稀疏检测"
+  - "LiDAR"
+  - "目标检测"
+  - "通信效率"
 ---
 
 # SparseAlign: A Fully Sparse Framework for Cooperative Object Detection

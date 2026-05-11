@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR2025][医学图像][brain atrophy] 将深度学习模块（SynthStrip/SynthSeg）模块化替换 SIENA 管线中的经典颅骨剥离和组织分割步骤，在保留管线可解释性的前提下显著提升纵向脑萎缩（PBVC）估计的临床敏感性和鲁棒性。在 ADNI 和 PPMI 两个纵向队列上验证。
 tags:
-  - CVPR2025
-  - 医学图像
-  - brain atrophy
-  - SIENA
-  - PBVC
-  - SynthStrip
-  - SynthSeg
-  - longitudinal MRI
-  - neurodegeneration
+  - "CVPR2025"
+  - "医学图像"
+  - "brain atrophy"
+  - "SIENA"
+  - "PBVC"
+  - "SynthStrip"
+  - "SynthSeg"
+  - "longitudinal MRI"
+  - "neurodegeneration"
 ---
 
 # Reinforcing the Weakest Links: Modernizing SIENA with Targeted Deep Learning Integration

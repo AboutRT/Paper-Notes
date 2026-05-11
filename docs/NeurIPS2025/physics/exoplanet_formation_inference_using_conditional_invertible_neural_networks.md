@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exoplanet Formation Inference Using Conditional Invertible Neural Networks
 description: >-
-  [NeurIPS 2025][系外行星] 用条件可逆神经网络（cINN）训练于15,777颗合成行星数据，从观测量（行星质量、轨道距离）快速推断行星形成参数（盘质量、湍流α、尘气比），实现比物理模型快~10⁶倍的概率性参数回溯，并证明多行星系统数据比单行星数据更鲁棒。
+  [NeurIPS 2025][物理学][系外行星] 用条件可逆神经网络（cINN）训练于15,777颗合成行星数据，从观测量（行星质量、轨道距离）快速推断行星形成参数（盘质量、湍流α、尘气比），实现比物理模型快~10⁶倍的概率性参数回溯，并证明多行星系统数据比单行星数据更鲁棒。
 tags:
-  - NeurIPS 2025
-  - 系外行星
-  - 条件可逆神经网络
-  - 贝叶斯推断
-  - 行星形成
-  - 物理学
+  - "NeurIPS 2025"
+  - "物理学"
+  - "系外行星"
+  - "条件可逆神经网络"
+  - "贝叶斯推断"
+  - "行星形成"
+  - "代理模型"
 ---
 
 # Exoplanet Formation Inference Using Conditional Invertible Neural Networks

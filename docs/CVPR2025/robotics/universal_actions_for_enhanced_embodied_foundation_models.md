@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][具身智能] UniAct提出在通用动作空间（Universal Action Space）中构建具身基础模型，通过向量量化codebook编码跨具身平台共享的原子行为，0.5B参数模型性能超越14倍大的SOTA模型，并支持快速适配新机器人。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 具身智能
-  - 通用动作空间
-  - 跨具身迁移
-  - 视觉语言动作模型
-  - 向量量化
+  - "CVPR 2025"
+  - "机器人"
+  - "具身智能"
+  - "通用动作空间"
+  - "跨具身迁移"
+  - "视觉语言动作模型"
+  - "向量量化"
 ---
 
 # UniAct: Universal Actions for Enhanced Embodied Foundation Models

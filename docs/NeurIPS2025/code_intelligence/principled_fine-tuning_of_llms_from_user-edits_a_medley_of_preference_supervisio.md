@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Principled Fine-tuning of LLMs from User-Edits: A Medley of Preference, Supervision, and Reward
 description: >-
-  [NeurIPS 2025][用户编辑] 系统研究如何利用用户编辑数据微调 LLM，将偏好、监督标签和代价三种反馈类型统一起来，并提出一种简单的集成方法，在不同用户分布下实现鲁棒适应。
+  [NeurIPS 2025][代码智能][用户编辑] 系统研究如何利用用户编辑数据微调 LLM，将偏好、监督标签和代价三种反馈类型统一起来，并提出一种简单的集成方法，在不同用户分布下实现鲁棒适应。
 tags:
-  - NeurIPS 2025
-  - 用户编辑
-  - 代码智能
-  - 偏好学习
-  - 监督学习
-  - 集成学习
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "用户编辑"
+  - "LLM微调"
+  - "偏好学习"
+  - "监督学习"
+  - "集成学习"
 ---
 
 # Principled Fine-tuning of LLMs from User-Edits: A Medley of Preference, Supervision, and Reward

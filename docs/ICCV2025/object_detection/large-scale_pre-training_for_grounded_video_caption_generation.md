@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Large-scale Pre-training for Grounded Video Caption Generation
 description: >-
-  [ICCV 2025][目标检测][视频定位字幕生成] 提出 GROVE 模型和大规模自动标注方法，构建包含 1M 视频的 HowToGround1M 预训练数据集和 3513 个视频的手动标注 iGround 数据集，实现联合视频字幕生成与多目标时空边界框定位，在 iGround、VidSTG、ActivityNet-Entities 等数据集上取得 SOTA。
+  [ICCV 2025][目标检测][视频定位字幕生成] 提出 GROVE 模型和大规模自动标注方法，构建包含 1M 视频的 HowToGround1M 预训练数据集和 3513 个视频的手动标注 iGround 数据集，实现联合视频字幕生成与多目标时空边界框定位…
 tags:
-  - ICCV 2025
-  - 目标检测
-  - 视频定位字幕生成
-  - 大规模预训练
-  - 时空定位
-  - 自动标注
-  - 边界框预测
+  - "ICCV 2025"
+  - "目标检测"
+  - "视频定位字幕生成"
+  - "大规模预训练"
+  - "时空定位"
+  - "自动标注"
+  - "边界框预测"
 ---
 
 # Large-scale Pre-training for Grounded Video Caption Generation

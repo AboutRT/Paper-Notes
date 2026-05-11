@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][神经辐射场] 提出了G²fR（Generalized Grid-based Frequency Regularization），通过理论分析建立频率正则化与网格特征编码NeRF的联系，解决了GFE-NeRF在相机位姿优化和少样本重建中的核心问题。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 神经辐射场
-  - 频率正则化
-  - 网格特征编码
-  - 少样本重建
-  - 相机位姿优化
+  - "ECCV 2024"
+  - "3D视觉"
+  - "神经辐射场"
+  - "频率正则化"
+  - "网格特征编码"
+  - "少样本重建"
+  - "相机位姿优化"
 ---
 
 # G2fR: Frequency Regularization in Grid-Based Feature Encoding Neural Radiance Fields

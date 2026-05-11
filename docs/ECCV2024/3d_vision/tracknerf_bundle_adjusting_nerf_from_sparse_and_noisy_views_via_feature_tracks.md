@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出TrackNeRF，将SfM中的特征轨迹（feature tracks）引入NeRF训练，通过全局多视角重投影一致性损失替代传统的成对对应损失，显著提升稀疏+有噪声位姿下的NeRF重建质量和位姿优化精度。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks

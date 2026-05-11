@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像修复] TurboFill 提出一种三步对抗训练方案，直接在少步蒸馏扩散模型 DMD2 上训练修复适配器（ControlNet 架构），仅需 4 步推理即可实现超越多步 BrushNet 的高质量图像修复效果，训练成本降低 10 倍以上。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像修复
-  - 少步扩散模型
-  - 对抗训练
-  - 修复适配器
-  - 快速推理
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像修复"
+  - "少步扩散模型"
+  - "对抗训练"
+  - "修复适配器"
+  - "快速推理"
 ---
 
 # TurboFill: Adapting Few-Step Text-to-Image Model for Fast Image Inpainting

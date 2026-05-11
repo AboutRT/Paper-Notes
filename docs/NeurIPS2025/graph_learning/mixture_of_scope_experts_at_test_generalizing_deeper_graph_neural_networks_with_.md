@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][图神经网络] 从 PAC-Bayes 泛化理论出发，证明 GNN 深度变化导致不同同质性节点子群间的泛化偏好漂移，据此提出 Moscat——一种后处理注意力门控模型，将独立训练的不同深度 GNN 专家在测试时节点自适应地融合，在多种 GNN 架构和数据集上实现显著提升。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 图神经网络
-  - PAC-Bayes界
-  - 解耦专家混合
-  - 测试时门控
-  - 同质性子群
+  - "NeurIPS 2025"
+  - "图学习"
+  - "图神经网络"
+  - "PAC-Bayes界"
+  - "解耦专家混合"
+  - "测试时门控"
+  - "同质性子群"
 ---
 
 # Moscat: Mixture of Scope Experts at Test for Generalizing Deeper GNNs

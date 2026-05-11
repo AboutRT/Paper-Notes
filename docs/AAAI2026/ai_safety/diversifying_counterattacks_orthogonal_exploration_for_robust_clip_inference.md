@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][对抗鲁棒性] 提出方向正交反攻击（DOC）方法，通过在反攻击优化中引入正交梯度分量和动量更新扩展搜索空间，结合基于余弦相似度的方向敏感度评分自适应调控反攻击强度，在 16 个数据集上显著提升 CLIP 的测试时对抗鲁棒性。
 tags:
-  - AAAI 2026
-  - AI安全
-  - 对抗鲁棒性
-  - CLIP防御
-  - 测试时防御
-  - 正交反攻击
-  - 视觉语言模型
+  - "AAAI 2026"
+  - "AI安全"
+  - "对抗鲁棒性"
+  - "CLIP防御"
+  - "测试时防御"
+  - "正交反攻击"
+  - "视觉语言模型"
 ---
 
 # Diversifying Counterattacks: Orthogonal Exploration for Robust CLIP Inference

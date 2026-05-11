@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][时间序列][非平稳时间序列] 提出 DTAF 双分支框架，通过时域的非平稳 MoE 滤波器提取并去除异质非平稳模式、频域的频谱差分追踪频率漂移，并通过双分支注意力融合两个域的互补信息，实现鲁棒的非平稳时间序列预测。
 tags:
-  - AAAI 2026
-  - 时间序列
-  - 非平稳时间序列
-  - 混合专家
-  - 频域差分
-  - 双分支建模
-  - 时序预测
+  - "AAAI 2026"
+  - "时间序列"
+  - "非平稳时间序列"
+  - "混合专家"
+  - "频域差分"
+  - "双分支建模"
+  - "时序预测"
 ---
 
 # Towards Non-Stationary Time Series Forecasting with Temporal Stabilization and Frequency Differencing

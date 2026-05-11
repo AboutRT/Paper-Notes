@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Frequency-Semantic Enhanced Variational Autoencoder for Zero-Shot Skeleton-based Action Recognition
 description: >-
-  [ICCV 2025][视频理解][零样本动作识别] 本文提出 FS-VAE（Frequency-Semantic Enhanced Variational Autoencoder），通过频率分解增强骨骼语义学习、多层级语义对齐弥合视觉-文本鸿沟、以及校准交叉对齐损失缓解对齐歧义，实现了零样本骨骼动作识别的显著性能提升。
+  [ICCV 2025][视频理解][零样本动作识别] 本文提出 FS-VAE（Frequency-Semantic Enhanced Variational Autoencoder），通过频率分解增强骨骼语义学习、多层级语义对齐弥合视觉-文本鸿沟、以及校准交叉对齐损失缓解对齐歧义…
 tags:
-  - ICCV 2025
-  - 视频理解
-  - 零样本动作识别
-  - 骨骼序列
-  - 频率分解
-  - 语义对齐
-  - 变分自编码器
+  - "ICCV 2025"
+  - "视频理解"
+  - "零样本动作识别"
+  - "骨骼序列"
+  - "频率分解"
+  - "语义对齐"
+  - "变分自编码器"
 ---
 
 # Frequency-Semantic Enhanced Variational Autoencoder for Zero-Shot Skeleton-based Action Recognition

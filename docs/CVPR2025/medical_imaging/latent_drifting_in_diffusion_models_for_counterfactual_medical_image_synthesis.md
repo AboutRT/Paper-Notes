@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][反事实图像生成] 本文提出 Latent Drifting (LD)，通过在扩散模型的前向和反向过程中引入一个标量偏移参数 δ 来弥合预训练自然图像模型与医学图像目标分布之间的差距，显著提升了多种微调方案下的医学图像生成和反事实图像合成效果。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 反事实图像生成
-  - 扩散模型微调
-  - 隐空间漂移
-  - 医学影像合成
-  - 分布迁移
+  - "CVPR 2025"
+  - "医学图像"
+  - "反事实图像生成"
+  - "扩散模型微调"
+  - "隐空间漂移"
+  - "医学影像合成"
+  - "分布迁移"
 ---
 
 # Latent Drifting in Diffusion Models for Counterfactual Medical Image Synthesis

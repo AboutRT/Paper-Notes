@@ -2,14 +2,15 @@
 title: >-
   [论文解读] When Top-ranked Recommendations Fail: Modeling Multi-Granular Negative Feedback for Explainable and Robust Video Recommendation
 description: >-
-  [AAAI 2026][负反馈建模] 提出 ENF（Explainable Negative Feedback）框架，通过三个协作式 MLLM Agent（Profile Agent、Video Agent、Reason Agent）和渐进式 S-GRPO 强化学习训练策略，首次实现了对视频推荐系统中隐式负反馈的可解释预测和原因分析，在腾讯新闻业务平台上实现了平均观看时长提升 6.2% 和快速跳过率下降 9.4%。
+  [AAAI 2026][推荐系统][负反馈建模] 提出 ENF（Explainable Negative Feedback）框架，通过三个协作式 MLLM Agent（Profile Agent、Video Agent、Reason Agent）和渐进式 S-GRPO 强化学习训练策略…
 tags:
-  - AAAI 2026
-  - 负反馈建模
-  - 可解释推荐
-  - 推荐系统
-  - MLLM Agent
-  - 强化学习
+  - "AAAI 2026"
+  - "推荐系统"
+  - "负反馈建模"
+  - "可解释推荐"
+  - "多模态视频理解"
+  - "MLLM Agent"
+  - "强化学习"
 ---
 
 # When Top-ranked Recommendations Fail: Modeling Multi-Granular Negative Feedback for Explainable and Robust Video Recommendation

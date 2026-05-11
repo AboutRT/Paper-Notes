@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][网格显著性] 本文提出Mesh Mamba，首个基于状态空间模型（SSM）的统一网格显著性预测模型，通过纹理对齐、子图嵌入和双向SSM，实现对有纹理和无纹理3D网格的高质量视觉注意力预测，并构建了首个系统对比有/无纹理条件下显著性差异的数据集。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 网格显著性
-  - 状态空间模型
-  - Mamba
-  - 纹理对齐
-  - 子图嵌入
+  - "CVPR 2025"
+  - "3D视觉"
+  - "网格显著性"
+  - "状态空间模型"
+  - "Mamba"
+  - "纹理对齐"
+  - "子图嵌入"
 ---
 
 # Mesh Mamba: A Unified State Space Model for Saliency Prediction in Non-Textured and Textured Meshes

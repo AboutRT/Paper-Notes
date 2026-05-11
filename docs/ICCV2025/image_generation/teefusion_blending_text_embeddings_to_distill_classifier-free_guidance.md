@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][CFG蒸馏] 本文提出 TeEFusion，通过将 CFG 的引导幅度直接编码为条件/无条件文本嵌入的线性组合来替代双重前向传播，实现零额外参数的高效 CFG 蒸馏，同时兼容教师模型的复杂采样策略（如 Z-Sampling、W2SD），使学生模型推理速度达教师的 6 倍。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - CFG蒸馏
-  - 文本嵌入融合
-  - 采样加速
-  - Guidance Distillation
-  - DiT
+  - "ICCV 2025"
+  - "图像生成"
+  - "CFG蒸馏"
+  - "文本嵌入融合"
+  - "采样加速"
+  - "Guidance Distillation"
+  - "DiT"
 ---
 
 # TeEFusion: Blending Text Embeddings to Distill Classifier-Free Guidance

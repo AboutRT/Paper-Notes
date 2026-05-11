@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs
 description: >-
-  [ACL 2025][AI安全][差异感知] 挑战当前LLM公平性评估中"差异无视"(difference unawareness)的主导范式，提出DiffAware和CtxtAware两个指标和包含8个场景16K问题的基准套件，证明在法律、文化、伤害评估等场景中模型应当区分群体差异，而现有去偏方法反而损害了这种必要的差异感知能力。
+  [ACL 2025][LLM安全][差异感知] 挑战当前LLM公平性评估中"差异无视"(difference unawareness)的主导范式，提出DiffAware和CtxtAware两个指标和包含8个场景16K问题的基准套件，证明在法律、文化、伤害评估等场景中模型应当区分群体差异…
 tags:
-  - ACL 2025
-  - AI安全
-  - 差异感知
-  - 公平性基准
-  - 种族色盲
-  - 去偏见
-  - 语境意识
+  - "ACL 2025"
+  - "LLM安全"
+  - "差异感知"
+  - "公平性基准"
+  - "种族色盲"
+  - "去偏见"
+  - "语境意识"
 ---
 
 # Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs

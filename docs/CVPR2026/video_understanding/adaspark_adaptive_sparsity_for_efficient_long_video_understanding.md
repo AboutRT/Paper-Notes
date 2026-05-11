@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][long video] 提出 AdaSpark，通过 3D 时空 cube 分区和两个协同的自适应稀疏机制（cube 级注意力选择 + token 级 FFN 选择），将长视频处理 FLOPs 降低最多 57% 同时保持性能。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - long video
-  - adaptive sparsity
-  - Video-LLM
-  - efficient inference
-  - 3D cube
+  - "CVPR 2026"
+  - "视频理解"
+  - "long video"
+  - "adaptive sparsity"
+  - "Video-LLM"
+  - "efficient inference"
+  - "3D cube"
 ---
 
 # AdaSpark: Adaptive Sparsity for Efficient Long-Video Understanding

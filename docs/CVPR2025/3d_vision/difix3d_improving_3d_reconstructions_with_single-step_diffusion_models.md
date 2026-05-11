@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D重建增强] 提出 Difix3D+，利用微调的单步扩散模型（SD-Turbo）在训练阶段渐进式生成伪训练视角回馈 3D 表示，并在推理阶段作为实时后处理增强器，同时兼容 NeRF 和 3DGS，在 FID 上平均实现 2 倍以上提升。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D重建增强
-  - 扩散模型
-  - 伪影去除
-  - 新视角合成
-  - 神经渲染
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D重建增强"
+  - "扩散模型"
+  - "伪影去除"
+  - "新视角合成"
+  - "神经渲染"
 ---
 
 # Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models

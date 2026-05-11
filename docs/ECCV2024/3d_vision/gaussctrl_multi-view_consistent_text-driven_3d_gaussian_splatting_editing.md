@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D编辑] 提出GaussCtrl，利用深度条件化的ControlNet编辑和注意力对齐模块实现多视角一致的文本驱动3DGS场景编辑，支持一次编辑所有视角并仅需一次3D模型更新。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D编辑
-  - 3D Gaussian Splatting
-  - 扩散模型
-  - 多视角一致性
-  - ControlNet
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D编辑"
+  - "3D Gaussian Splatting"
+  - "扩散模型"
+  - "多视角一致性"
+  - "ControlNet"
 ---
 
 # GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing

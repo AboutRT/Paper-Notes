@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][机器人][多模态虚假信息检测] 本文将多模态虚假信息检测（MMD）重构为基于概念图的结构化概率推理问题，提出PCGR框架，通过MLLM自动发现并验证人类可理解的概念节点，构建层次化概率概念图，实现可解释的虚假信息检测，在三个基准上全面超越13个baseline。
 tags:
-  - CVPR 2026
-  - 机器人
-  - 多模态虚假信息检测
-  - 概念图推理
-  - 概率推理
-  - 可解释AI
-  - 概念自动生长
+  - "CVPR 2026"
+  - "机器人"
+  - "多模态虚假信息检测"
+  - "概念图推理"
+  - "概率推理"
+  - "可解释AI"
+  - "概念自动生长"
 ---
 
 # Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection

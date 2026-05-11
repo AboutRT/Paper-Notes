@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][系统性] 这篇观点性综述区分了行为系统性（模型能否正确泛化到新组合）和表征系统性（模型内部表征是否结构化），用 Hadley 的弱/准/强三级分类审视了语言和视觉领域的主流基准，发现大多数现有基准仅测试弱或准系统性，并呼吁通过机械可解释性方法弥补行为与表征评估的鸿沟。
 tags:
-  - ACL 2025
-  - 系统性
-  - 组合性
-  - 行为vs表征
-  - Hadley分类
-  - 其他
+  - "ACL 2025"
+  - "系统性"
+  - "组合性"
+  - "行为vs表征"
+  - "Hadley分类"
+  - "机械可解释性"
 ---
 
 # Behavioural vs. Representational Systematicity in End-to-End Models: An Opinionated Survey

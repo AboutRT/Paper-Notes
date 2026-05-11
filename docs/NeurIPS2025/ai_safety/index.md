@@ -1,14 +1,24 @@
 ---
 title: >-
-  NeurIPS2025 AI 安全方向72篇论文解读
+  NeurIPS2025 AI 安全方向70篇论文解读
 description: >-
-  72篇NeurIPS2025的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、对齐/RLHF、图神经网络、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  70篇NeurIPS2025的 AI 安全方向论文解读，涵盖对抗鲁棒、联邦学习、对齐/RLHF、图神经网络、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "AI 安全"
+  - "论文解读"
+  - "论文笔记"
+  - "对抗鲁棒"
+  - "联邦学习"
+  - "对齐/RLHF"
+  - "图神经网络"
+  - "语音"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🛡️ AI 安全
 
-**🧠 NeurIPS2025** · **72** 篇论文解读
+**🧠 NeurIPS2025** · **70** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/ai_safety/index.md) · [📷 CVPR2026 (22)](../../CVPR2026/ai_safety/index.md) · [🔬 ICLR2026 (26)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/ai_safety/index.md) · [📹 ICCV2025 (21)](../../ICCV2025/ai_safety/index.md) · [🧪 ICML2025 (33)](../../ICML2025/ai_safety/index.md)
 
@@ -21,10 +31,6 @@ description: >-
 **[AI Should Sense Better, Not Just Scale Bigger: Adaptive Sensing as a Paradigm Shift](ai_should_sense_better_not_just_scale_bigger_adaptive_sensin.md)**
 
 :   这篇立场论文受生物感觉系统的启发，主张AI研究必须从单纯的"扩模型"范式转向"优化输入"——通过在传感器层面动态调整参数（曝光、增益、多模态配置等），使小模型（5M参数的EfficientNet-B0）在理想传感器适应下超越大模型（632M参数的OpenCLIP-H），并提出了从单次感知到闭环感知-运动耦合的渐进式形式化框架。
-
-**[Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)](artificial_hivemind_the_open-ended_homogeneity_of_language_models_and_beyond.md)**
-
-:   构建了 Infinity-Chat 数据集（26K 开放式真实用户查询 + 31,250 条人类标注），揭示了 LM 在开放式生成中的"Artificial Hivemind"效应——模型内重复和模型间同质化严重，并发现 Reward Model 和 LM Judge 在个体偏好差异大的样本上校准失败。
 
 **[Beyond Last-Click: An Optimal Mechanism for Ad Attribution](beyond_last-click_an_optimal_mechanism_for_ad_attribution.md)**
 
@@ -221,10 +227,6 @@ description: >-
 **[Optimal Adjustment Sets for Nonparametric Estimation of Weighted Controlled Direct Effect](optimal_adjustment_sets_for_nonparametric_estimation_of_weighted_controlled_dire.md)**
 
 :   针对加权控制直接效应（WCDE）建立三项基础理论：唯一可识别性的充要条件、非参数估计的影响函数推导、以及最小化渐近方差的最优协变量调整集刻画。
-
-**[Perturbation Bounds for Low-Rank Inverse Approximations under Noise](perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)**
-
-:   首次给出在加性噪声下低秩逆近似 $\|(\tilde{A}^{-1})_p - A_p^{-1}\|$ 的非渐近谱范数扰动界，利用轮廓积分技术得到依赖特征间隙、谱衰减和噪声对齐的锐界，比经典全逆界改进高达 $\sqrt{n}$ 倍。
 
 **[Position: Bridge the Gaps between Machine Unlearning and AI Regulation](position_bridge_the_gaps_between_machine_unlearning_and_ai_regulation.md)**
 

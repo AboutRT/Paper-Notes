@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Language Models Grow Less Humanlike beyond Phase Transition
 description: >-
-  [ACL 2025][LLM/NLP][预训练相变] 本文发现语言模型在预训练过程中与人类阅读行为的对齐（PPP）经历先升后降的拐点现象，通过关联和因果实验证明此拐点由预训练中的相变（specialized attention heads 的快速涌现）导致，且相变并非直接产生有害的注意力模式，而是改变了模型后续的学习动态使其持续偏离人类。
+  [ACL 2025][LLM/NLP][预训练相变] 本文发现语言模型在预训练过程中与人类阅读行为的对齐（PPP）经历先升后降的拐点现象，通过关联和因果实验证明此拐点由预训练中的相变（specialized attention heads 的快速涌现）导致，且相变并非直接产生有害的注意力模式…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 预训练相变
-  - 心理计量预测力
-  - 注意力头
-  - 人类阅读行为
-  - 语言模型认知对齐
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "预训练相变"
+  - "心理计量预测力"
+  - "注意力头"
+  - "人类阅读行为"
+  - "语言模型认知对齐"
 ---
 
 # Language Models Grow Less Humanlike beyond Phase Transition

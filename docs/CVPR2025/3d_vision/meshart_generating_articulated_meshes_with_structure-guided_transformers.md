@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][铰接物体生成] MeshArt提出了一种层次化Transformer方法，通过将铰接物体分解为高层关节结构和低层部件网格两阶段生成，自回归地生成紧凑、清晰的三角网格铰接物体，在结构覆盖率上提升57.1%，网格FID提升209分。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 铰接物体生成
-  - 三角网格生成
-  - Transformer
-  - 结构引导
-  - 部件关节
+  - "CVPR 2025"
+  - "3D视觉"
+  - "铰接物体生成"
+  - "三角网格生成"
+  - "Transformer"
+  - "结构引导"
+  - "部件关节"
 ---
 
 # MeshArt: Generating Articulated Meshes with Structure-Guided Transformers

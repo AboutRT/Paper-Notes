@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Retrieval Visual Contrastive Decoding to Mitigate Object Hallucinations in Large Vision-Language Models
 description: >-
-  [ACL2025][多模态][Object Hallucination] 提出 RVCD（Retrieval Visual Contrastive Decoding），通过检索 AI 生成的单概念显式图像构建正/负 logit 集合，在解码阶段抑制 LVLM 的物体幻觉（Object Hallucination），无需额外训练即可显著优于现有解码方法。
+  [ACL2025][多模态VLM][Object Hallucination] 提出 RVCD（Retrieval Visual Contrastive Decoding），通过检索 AI 生成的单概念显式图像构建正/负 logit 集合…
 tags:
-  - ACL2025
-  - 多模态
-  - 多模态VLM
-  - Contrastive Decoding
-  - LVLM
-  - 图像检索
-  - plug-and-play
+  - "ACL2025"
+  - "多模态VLM"
+  - "Object Hallucination"
+  - "Contrastive Decoding"
+  - "LVLM"
+  - "图像检索"
+  - "plug-and-play"
 ---
 
 # Retrieval Visual Contrastive Decoding to Mitigate Object Hallucinations in Large Vision-Language Models

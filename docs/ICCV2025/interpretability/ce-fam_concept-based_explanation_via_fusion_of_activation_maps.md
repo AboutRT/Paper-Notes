@@ -2,14 +2,14 @@
 title: >-
   [论文解读] CE-FAM: Concept-Based Explanation via Fusion of Activation Maps
 description: >-
-  [ICCV 2025][概念解释] 提出CE-FAM概念解释方法，通过训练与图像分类器共享激活图的分支网络来模拟VLM嵌入，实现概念预测→概念区域（激活图加权和）→概念贡献（对分类分数影响）的一一对应，并提出新的NRA评估指标，在零样本概念推理上超越现有方法。
+  [ICCV 2025][可解释性][概念解释] 提出CE-FAM概念解释方法，通过训练与图像分类器共享激活图的分支网络来模拟VLM嵌入，实现概念预测→概念区域（激活图加权和）→概念贡献（对分类分数影响）的一一对应，并提出新的NRA评估指标，在零样本概念推理上超越现有方法。
 tags:
-  - ICCV 2025
-  - 概念解释
-  - 激活图融合
-  - Grad-CAM
-  - 可解释性
-  - 可解释性
+  - "ICCV 2025"
+  - "可解释性"
+  - "概念解释"
+  - "激活图融合"
+  - "Grad-CAM"
+  - "VLM知识迁移"
 ---
 
 # CE-FAM: Concept-Based Explanation via Fusion of Activation Maps

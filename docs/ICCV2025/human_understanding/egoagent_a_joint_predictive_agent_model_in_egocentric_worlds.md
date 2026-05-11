@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][人体理解][egocentric vision] 提出EgoAgent，一个统一的预测式智能体模型，在单个Transformer中同时学习表征第一人称视觉观测、预测未来世界状态和生成3D人体动作。
 tags:
-  - ICCV 2025
-  - 人体理解
-  - egocentric vision
-  - agent model
-  - world model
-  - 3D human motion prediction
-  - joint embedding predictive architecture
+  - "ICCV 2025"
+  - "人体理解"
+  - "egocentric vision"
+  - "agent model"
+  - "world model"
+  - "3D human motion prediction"
+  - "joint embedding predictive architecture"
 ---
 
 # EgoAgent: A Joint Predictive Agent Model in Egocentric Worlds

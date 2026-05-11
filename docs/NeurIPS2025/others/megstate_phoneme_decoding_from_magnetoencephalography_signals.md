@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][MEG] 提出 MEGState，一种融合多分辨率卷积和传感器级 SSM 的架构，用于从脑磁图(MEG)信号中解码音素，在 LibriBrain 数据集上显著超越基线方法。
 tags:
-  - NeurIPS 2025
-  - MEG
-  - 音素解码
-  - 状态空间模型
-  - 多分辨率卷积
-  - 脑机接口
+  - "NeurIPS 2025"
+  - "MEG"
+  - "音素解码"
+  - "状态空间模型"
+  - "多分辨率卷积"
+  - "脑机接口"
 ---
 
 # MEGState: Phoneme Decoding from Magnetoencephalography Signals
@@ -85,7 +85,7 @@ MEGState 以 MEG 信号 $\mathbf{X} \in \mathbb{R}^{M \times T}$（$M$ 个传感
 
 ### 关键发现
 
-- MEGState 在所有指标上显著超越基线(p<0.05)：Accuracy +6.73，Kappa +8.48，Macro-F1 +6.29
+- MEGState 在所有指标上显著超越基线(p&lt;0.05)：Accuracy +6.73，Kappa +8.48，Macro-F1 +6.29
 - 两个模块都不可或缺：去除多分辨率卷积影响更大(尤其是 Kappa 从 54.19 骤降至 37.90)
 - 音素级分析显示：MEGState 在 39 个音素中的 19 个上优于基线，10 个达到统计显著
 - Leaderboard 上通过 5 模型集成策略进一步将 Macro-F1 提升至 68.41%

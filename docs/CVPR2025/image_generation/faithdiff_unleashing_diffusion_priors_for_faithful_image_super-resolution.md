@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][超分辨率] 提出 FaithDiff，首次释放（fine-tune）预训练扩散模型先验用于图像超分辨率，并设计对齐模块桥接退化图像特征与扩散噪声隐空间，通过联合优化 encoder 和扩散模型实现高保真结构恢复。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 超分辨率
-  - 扩散模型
-  - alignment module
-  - joint fine-tuning
-  - faithful restoration
+  - "CVPR 2025"
+  - "图像生成"
+  - "超分辨率"
+  - "扩散模型"
+  - "alignment module"
+  - "joint fine-tuning"
+  - "faithful restoration"
 ---
 
 # FaithDiff: Unleashing Diffusion Priors for Faithful Image Super-Resolution

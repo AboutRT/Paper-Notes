@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][GUI Navigation] 提出 GUI-Rise 框架，通过结构化推理（进度估计 + 决策推理）、动作预测和历史摘要三个子任务的联合设计，结合 GRPO 强化学习与历史摘要奖励，显著提升 GUI 导航智能体在跨域场景下的泛化能力。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - GUI Navigation
-  - Structured Reasoning
-  - History Summarization
-  - GRPO
-  - Chain-of-Thought
+  - "NeurIPS 2025"
+  - "机器人"
+  - "GUI Navigation"
+  - "Structured Reasoning"
+  - "History Summarization"
+  - "GRPO"
+  - "Chain-of-Thought"
 ---
 
 # GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation

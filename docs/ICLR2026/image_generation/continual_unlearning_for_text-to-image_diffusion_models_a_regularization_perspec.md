@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Continual Unlearning for Text-to-Image Diffusion Models: A Regularization Perspective
 description: >-
-  [ICLR 2026][图像生成][continual unlearning] 首次系统研究 T2I 扩散模型的持续遗忘（continual unlearning）问题，发现现有遗忘方法在序列请求下因累积参数漂移导致"效用崩溃"，提出一组附加正则化策略（L1/L2 范数、选择性微调、模型合并）和语义感知的梯度投影方法来缓解该问题。
+  [ICLR 2026][图像生成][continual unlearning] 首次系统研究 T2I 扩散模型的持续遗忘（continual unlearning）问题，发现现有遗忘方法在序列请求下因累积参数漂移导致"效用崩溃"…
 tags:
-  - ICLR 2026
-  - 图像生成
-  - continual unlearning
-  - 扩散模型
-  - regularization
-  - gradient projection
-  - concept erasure
+  - "ICLR 2026"
+  - "图像生成"
+  - "continual unlearning"
+  - "扩散模型"
+  - "regularization"
+  - "gradient projection"
+  - "concept erasure"
 ---
 
 # Continual Unlearning for Text-to-Image Diffusion Models: A Regularization Perspective
@@ -103,7 +103,7 @@ tags:
 | GradProj K 值 | K=5 即可覆盖最关键的语义邻居 |
 
 ### 关键发现
-- 序列遗忘仅 3-4 步后RA就崩溃到 <50%，12 步后模型几乎无法生成任何有意义的图像
+- 序列遗忘仅 3-4 步后RA就崩溃到 &lt;50%，12 步后模型几乎无法生成任何有意义的图像
 - 同时遗忘和独立遗忘的参数漂移量级相仿且远小于序列遗忘
 - Model Merge 总体保留最强因为每个模型都独立靠近预训练权重
 - GradProj 对域内保留（RA-I）提升最显著，因为它精确地保护了语义相近概念

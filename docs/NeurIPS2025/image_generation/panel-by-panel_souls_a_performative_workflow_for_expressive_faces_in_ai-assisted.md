@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Panel-by-Panel Souls: A Performative Workflow for Expressive Faces in AI-Assisted Manga Creation
 description: >-
-  [NeurIPS 2025][图像生成][漫画创作] 本文提出了一种面向漫画创作的"双混合"交互式工作流系统，在面部准备阶段融合关键点自动检测与手动框选、在表情映射阶段融合表演性视频捕捉与精细数值滑块调控，使漫画艺术家能够直觉化地将情感叙事意图注入AI生成的漫画面板中角色的面部表情，解决文本提示无法精确描述微妙情感这一根本性"语言-视觉鸿沟"问题。
+  [NeurIPS 2025][图像生成][漫画创作] 本文提出了一种面向漫画创作的"双混合"交互式工作流系统，在面部准备阶段融合关键点自动检测与手动框选、在表情映射阶段融合表演性视频捕捉与精细数值滑块调控，使漫画艺术家能够直觉化地将情感叙事意图注入AI生成的漫画面板中角色的面部表情…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 漫画创作
-  - 表情映射
-  - 面部重演
-  - 人机协作
-  - LivePortrait
-  - 双混合流水线
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "漫画创作"
+  - "表情映射"
+  - "面部重演"
+  - "人机协作"
+  - "LivePortrait"
+  - "双混合流水线"
 ---
 
 # Panel-by-Panel Souls: A Performative Workflow for Expressive Faces in AI-Assisted Manga Creation

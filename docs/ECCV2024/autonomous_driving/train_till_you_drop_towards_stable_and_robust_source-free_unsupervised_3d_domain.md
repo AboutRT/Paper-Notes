@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][无源域自适应] 针对无源数据的3D语义分割域自适应（SFUDA）中训练后期性能退化问题，提出正则化策略和基于参考模型一致性的验证准则，实现稳定且鲁棒的自适应。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 无源域自适应
-  - 3D语义分割
-  - 激光雷达
-  - 训练稳定性
-  - 超参数选择
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "无源域自适应"
+  - "3D语义分割"
+  - "激光雷达"
+  - "训练稳定性"
+  - "超参数选择"
 ---
 
 # Train Till You Drop: Towards Stable and Robust Source-free Unsupervised 3D Domain Adaptation

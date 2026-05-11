@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Retrieval-Augmented Fine-Tuning With Preference Optimization For Visual Program Generation
 description: >-
-  [ACL 2025][LLM对齐][视觉编程语言] 本文针对工业视觉编程语言（Ladder Diagram）的自动生成任务，提出了一种两阶段训练策略：先通过检索增强微调（Retrieval-Augmented Fine-Tuning）利用子程序复用特性，再通过基于图编辑操作构造偏好对的 DPO 训练进一步提升准确性，在真实 LD 数据上将程序级准确率提升超过 10%。
+  [ACL 2025][信息检索/RAG][视觉编程语言] 本文针对工业视觉编程语言（Ladder Diagram）的自动生成任务，提出了一种两阶段训练策略：先通过检索增强微调（Retrieval-Augmented Fine-Tuning）利用子程序复用特性…
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 视觉编程语言
-  - 梯形图生成
-  - 检索增强微调
-  - 偏好优化
-  - 工业自动化
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "视觉编程语言"
+  - "梯形图生成"
+  - "检索增强微调"
+  - "偏好优化"
+  - "工业自动化"
 ---
 
 # Retrieval-Augmented Fine-Tuning With Preference Optimization For Visual Program Generation

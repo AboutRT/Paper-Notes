@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion
 description: >-
-  [AAAI 2026][社会计算] 本文提出ED2D框架，在多智能体辩论（MAD）系统中引入证据检索模块来增强虚假信息检测准确率，并通过受控人类实验首次对比了AI生成的辩论稿与专家人工fact-check在说服力和信念纠正方面的效果，揭示了AI辩论系统在正确时具有专家级说服力、但在错误时可能加剧误导的双刃剑效应。
+  [AAAI 2026][社会计算][多智能体辩论] 本文提出ED2D框架，在多智能体辩论（MAD）系统中引入证据检索模块来增强虚假信息检测准确率，并通过受控人类实验首次对比了AI生成的辩论稿与专家人工fact-check在说服力和信念纠正方面的效果…
 tags:
-  - AAAI 2026
-  - 社会计算
-  - 虚假信息检测
-  - 证据检索
-  - 说服力评估
-  - LLM
+  - "AAAI 2026"
+  - "社会计算"
+  - "多智能体辩论"
+  - "虚假信息检测"
+  - "证据检索"
+  - "说服力评估"
+  - "LLM"
 ---
 
 # Beyond Detection: Exploring Evidence-based Multi-Agent Debate for Misinformation Intervention and Persuasion

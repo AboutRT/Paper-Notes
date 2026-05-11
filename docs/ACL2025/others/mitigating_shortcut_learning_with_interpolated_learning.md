@@ -4,11 +4,11 @@ title: >-
 description: >-
   [shortcut learning] 提出 InterpoLated Learning (InterpoLL)，通过将多数样本的表示与同类少数样本的表示进行插值，削弱模型对虚假关联（shortcut）的依赖，显著提升少数样本上的泛化能力。
 tags:
-  - shortcut learning
-  - interpolation
-  - representation learning
-  - 其他
-  - ERM
+  - "shortcut learning"
+  - "interpolation"
+  - "representation learning"
+  - "minority generalization"
+  - "ERM"
 ---
 
 # Mitigating Shortcut Learning with InterpoLated Learning

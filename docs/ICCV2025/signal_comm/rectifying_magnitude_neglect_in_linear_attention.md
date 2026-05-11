@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Rectifying Magnitude Neglect in Linear Attention
 description: >-
-  [ICCV 2025][信号通信][注意力机制] 揭示 Linear Attention 完全忽略 Query 幅值信息导致注意力分数分布与 Softmax Attention 显著偏离，提出 Magnitude-Aware Linear Attention (MALA)，通过引入缩放因子 β 和偏移项 γ 使线性注意力恢复幅值感知能力，在分类、检测、分割、NLP、语音、图像生成等任务上全面超越现有方法。
+  [ICCV 2025][信号/通信][注意力机制] 揭示 Linear Attention 完全忽略 Query 幅值信息导致注意力分数分布与 Softmax Attention 显著偏离，提出 Magnitude-Aware Linear Attention (MALA)…
 tags:
-  - ICCV 2025
-  - 信号通信
-  - 注意力机制
-  - Magnitude-Aware
-  - Transformer
-  - 注意力分数分布
-  - 线性复杂度
+  - "ICCV 2025"
+  - "信号/通信"
+  - "注意力机制"
+  - "Magnitude-Aware"
+  - "Transformer"
+  - "注意力分数分布"
+  - "线性复杂度"
 ---
 
 # Rectifying Magnitude Neglect in Linear Attention

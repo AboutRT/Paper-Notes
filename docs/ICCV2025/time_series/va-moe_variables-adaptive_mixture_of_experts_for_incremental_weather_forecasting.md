@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][时间序列][天气预报] 提出增量天气预报新范式和VA-MoE框架，通过变量自适应的MoE架构和索引嵌入机制，实现在仅25%可训练参数和50%初始训练数据的条件下达到与全量训练可比的预报精度。
 tags:
-  - ICCV 2025
-  - 时间序列
-  - 天气预报
-  - 增量学习
-  - 混合专家模型
-  - 变量自适应
-  - 灾难性遗忘
+  - "ICCV 2025"
+  - "时间序列"
+  - "天气预报"
+  - "增量学习"
+  - "混合专家模型"
+  - "变量自适应"
+  - "灾难性遗忘"
 ---
 
 # VA-MoE: Variables-Adaptive Mixture of Experts for Incremental Weather Forecasting

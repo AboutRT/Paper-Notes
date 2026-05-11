@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][光流] SEA-RAFT 通过混合拉普拉斯损失(MoL)、直接回归初始光流和刚性流预训练三项改进，在保持简洁架构的同时实现了 SOTA 精度，并比现有方法快 2.3× 以上。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 光流
-  - RAFT
-  - Mixture of Laplace
-  - 迭代优化
-  - 高效推理
+  - "ECCV 2024"
+  - "视频理解"
+  - "光流"
+  - "RAFT"
+  - "Mixture of Laplace"
+  - "迭代优化"
+  - "高效推理"
 ---
 
 # SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow

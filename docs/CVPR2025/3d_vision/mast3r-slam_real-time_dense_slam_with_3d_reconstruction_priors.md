@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][单目SLAM] 首个以双视图 3D 重建先验 MASt3R 为基础构建的实时单目稠密 SLAM 系统，通过高效的点图匹配、光线误差跟踪、局部融合、回环检测和二阶全局优化，在无需相机标定的情况下实现 15 FPS 的全局一致位姿估计和稠密几何重建，性能达到 SOTA。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单目SLAM
-  - 稠密重建
-  - 3D先验
-  - MASt3R
-  - Sim(3)优化
-  - 无标定SLAM
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单目SLAM"
+  - "稠密重建"
+  - "3D先验"
+  - "MASt3R"
+  - "Sim(3)优化"
+  - "无标定SLAM"
 ---
 
 # MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors

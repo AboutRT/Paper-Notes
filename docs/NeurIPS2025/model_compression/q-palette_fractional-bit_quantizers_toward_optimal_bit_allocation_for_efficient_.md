@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][模型量化] 从信息论角度推导高斯化权重的最优比特分配,提出 Q-Palette 分数位量化器集合和混合方案量化框架,在 LLM 推理中实现近最优的量化性能和推理加速。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 模型量化
-  - LLM推理
-  - 分数位量化
-  - 失真率
-  - CUDA优化
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "模型量化"
+  - "LLM推理"
+  - "分数位量化"
+  - "失真率"
+  - "CUDA优化"
 ---
 
 # Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment

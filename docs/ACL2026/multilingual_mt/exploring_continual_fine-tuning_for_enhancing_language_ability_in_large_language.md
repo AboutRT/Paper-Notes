@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring Two-Phase Continual Instruction Fine-tuning for Multilingual Adaptation in Large Language Models
 description: >-
-  [ACL 2026][持续微调] 本文提出两阶段持续微调（CFT）框架——先在英语指令数据上微调，再在多语言数据上微调——发现阶段间数据集的指令相似性是决定英语能力是否退化的关键因素，并通过生成式重放和启发式层冻结有效缓解了不相似数据集导致的表示漂移和英语遗忘。
+  [ACL 2026][多语言/翻译][持续微调] 本文提出两阶段持续微调（CFT）框架——先在英语指令数据上微调，再在多语言数据上微调——发现阶段间数据集的指令相似性是决定英语能力是否退化的关键因素，并通过生成式重放和启发式层冻结有效缓解了不相似数据集导致的表示漂移和英语遗忘。
 tags:
-  - ACL 2026
-  - 持续微调
-  - 多语言适应
-  - 灾难性遗忘
-  - 数据集相似度
-  - 表示漂移
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "持续微调"
+  - "多语言适应"
+  - "灾难性遗忘"
+  - "数据集相似度"
+  - "表示漂移"
 ---
 
 # Exploring Two-Phase Continual Instruction Fine-tuning for Multilingual Adaptation in Large Language Models

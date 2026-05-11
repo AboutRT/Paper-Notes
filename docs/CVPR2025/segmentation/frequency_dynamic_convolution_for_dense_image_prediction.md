@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Frequency Dynamic Convolution for Dense Image Prediction
 description: >-
-  [CVPR 2025][图像分割][动态卷积] FDConv 从频率域角度重新设计动态卷积，通过傅里叶不相交权重（FDW）在不增加参数的前提下构建频率多样的卷积核，结合核空间调制（KSM）和频带调制（FBM）实现精细的频率自适应，仅增加 3.6M 参数即超越需要 65-90M 额外参数的现有动态卷积方法。
+  [CVPR 2025][语义分割][动态卷积] FDConv 从频率域角度重新设计动态卷积，通过傅里叶不相交权重（FDW）在不增加参数的前提下构建频率多样的卷积核，结合核空间调制（KSM）和频带调制（FBM）实现精细的频率自适应，仅增加 3.6M 参数即超越需要 65-90M 额外参数的现有动态卷积方法。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 动态卷积
-  - 频率域
-  - 密集预测
-  - 分割
-  - 目标检测
+  - "CVPR 2025"
+  - "语义分割"
+  - "动态卷积"
+  - "频率域"
+  - "密集预测"
+  - "分割"
+  - "目标检测"
 ---
 
 # Frequency Dynamic Convolution for Dense Image Prediction

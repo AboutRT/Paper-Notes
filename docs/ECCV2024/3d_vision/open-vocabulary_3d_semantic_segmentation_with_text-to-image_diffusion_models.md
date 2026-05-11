@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Open-Vocabulary 3D Semantic Segmentation with Text-to-Image Diffusion Models
 description: >-
-  [ECCV 2024][3D视觉][开放词汇3D语义分割] 提出 Diff2Scene，首次将预训练的文本-图像扩散模型（Stable Diffusion）用于开放词汇3D语义分割，通过创新的掩码蒸馏方法将2D基础模型的语义丰富mask嵌入迁移到3D几何感知mask模型，在 ScanNet200 上超越 SOTA 12%。
+  [ECCV 2024][3D视觉][开放词汇3D语义分割] 提出 Diff2Scene，首次将预训练的文本-图像扩散模型（Stable Diffusion）用于开放词汇3D语义分割，通过创新的掩码蒸馏方法将2D基础模型的语义丰富mask嵌入迁移到3D几何感知mask模型…
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 开放词汇3D语义分割
-  - 扩散模型
-  - 掩码蒸馏
-  - Mask2Former
+  - "ECCV 2024"
+  - "3D视觉"
+  - "开放词汇3D语义分割"
+  - "扩散模型"
+  - "掩码蒸馏"
+  - "Mask2Former"
 ---
 
 # Open-Vocabulary 3D Semantic Segmentation with Text-to-Image Diffusion Models

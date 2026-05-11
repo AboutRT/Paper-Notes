@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][动态数据剪枝] 提出AlignPrune——一个基于损失轨迹对齐的即插即用模块，通过Dynamic Alignment Score（DAS）替代传统损失值排序，使动态数据剪枝在噪声标签场景下准确率提升最高6.3%。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 动态数据剪枝
-  - 噪声标签
-  - 损失轨迹
-  - 即插即用模块
-  - 训练效率
+  - "CVPR 2026"
+  - "模型压缩"
+  - "动态数据剪枝"
+  - "噪声标签"
+  - "损失轨迹"
+  - "即插即用模块"
+  - "训练效率"
 ---
 
 # Beyond Loss Values: Robust Dynamic Pruning via Loss Trajectory Alignment

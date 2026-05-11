@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Open Ad-Hoc Categorization with Contextualized Feature Learning
 description: >-
-  [CVPR 2025][Ad-Hoc分类] 本文提出了 OAK（Open Ad-hoc Categorization with Contextualized Feature Learning），通过在冻结 CLIP 的输入层引入少量可学习的上下文 token，联合 CLIP 的图文对齐目标和 GCD 的视觉聚类目标，在仅有少数标注样本的条件下实现了自适应的 ad-hoc 类别发现和上下文切换，Stanford Mood 数据集新类别准确率达 87.4%，超过 CLIP 和 GCD 50% 以上。
+  [CVPR 2025][可解释性][Ad-Hoc分类] 本文提出了 OAK（Open Ad-hoc Categorization with Contextualized Feature Learning），通过在冻结 CLIP 的输入层引入少量可学习的上下文 token…
 tags:
-  - CVPR 2025
-  - Ad-Hoc分类
-  - 上下文学习
-  - CLIP
-  - 广义类别发现
-  - 可解释性
+  - "CVPR 2025"
+  - "可解释性"
+  - "Ad-Hoc分类"
+  - "上下文学习"
+  - "CLIP"
+  - "广义类别发现"
 ---
 
 # Open Ad-Hoc Categorization with Contextualized Feature Learning

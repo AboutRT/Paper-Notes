@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Deep Taxonomic Networks for Unsupervised Hierarchical Prototype Discovery
 description: >-
-  [NeurIPS 2025][优化][层次聚类] Deep Taxonomic Networks 提出一种基于完全二叉树混合高斯先验的深度潜变量模型，通过变分推断自动从无标签数据中发现层次化分类体系和各级原型聚类，无需预设类别数量，并在多个数据集上大幅超越 TreeVAE 等基线。
+  [NeurIPS 2025][优化/理论][层次聚类] Deep Taxonomic Networks 提出一种基于完全二叉树混合高斯先验的深度潜变量模型，通过变分推断自动从无标签数据中发现层次化分类体系和各级原型聚类，无需预设类别数量，并在多个数据集上大幅超越 TreeVAE 等基线。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 层次聚类
-  - 原型学习
-  - 变分推断
-  - 二叉树先验
-  - 分类体系发现
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "层次聚类"
+  - "原型学习"
+  - "变分推断"
+  - "二叉树先验"
+  - "分类体系发现"
 ---
 
 # Deep Taxonomic Networks for Unsupervised Hierarchical Prototype Discovery

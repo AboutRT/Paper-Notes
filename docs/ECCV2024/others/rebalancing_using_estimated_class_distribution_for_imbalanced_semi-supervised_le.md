@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][类别不平衡] 本文提出 RECD 算法，通过蒙特卡洛近似估计未标注数据的未知类别分布，基于估计分布重新平衡分类器，并引入特征聚类压缩缓解特征图不平衡，在标注-未标注数据类别分布失配的半监督学习场景中取得 SOTA 性能。
 tags:
-  - ECCV 2024
-  - 类别不平衡
-  - 半监督学习
-  - 类别分布估计
-  - 分布失配
-  - 特征聚类压缩
+  - "ECCV 2024"
+  - "类别不平衡"
+  - "半监督学习"
+  - "类别分布估计"
+  - "分布失配"
+  - "特征聚类压缩"
 ---
 
 # Rebalancing Using Estimated Class Distribution for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch

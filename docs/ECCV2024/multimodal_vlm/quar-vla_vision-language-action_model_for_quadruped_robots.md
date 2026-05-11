@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][多模态VLM][quadruped robot] 首次提出四足机器人视觉-语言-动作（QUAR-VLA）范式，构建 259K episode 的多任务数据集 QUARD 和基于预训练多模态大模型的 QUART 模型，实现感知、导航、全身操作等多任务统一控制。
 tags:
-  - ECCV 2024
-  - 多模态VLM
-  - quadruped robot
-  - 视觉语言
-  - imitation learning
-  - sim-to-real
-  - multi-task
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "quadruped robot"
+  - "视觉语言"
+  - "imitation learning"
+  - "sim-to-real"
+  - "multi-task"
 ---
 
 # QUAR-VLA: Vision-Language-Action Model for Quadruped Robots

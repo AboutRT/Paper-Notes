@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Autoregressive Speech Synthesis without Vector Quantization
 description: >-
-  [ACL 2025][语音][语音合成] MELLE 提出了一种基于连续 mel-spectrogram 帧的自回归语言模型 TTS 方法，通过回归损失 + 变分推断采样模块 + spectrogram flux loss 直接预测连续频谱帧，避免了向量量化带来的保真度损失和采样鲁棒性问题，单阶段模型即可达到与人类水平相当的语音合成质量。
+  [ACL 2025][音频/语音][语音合成] MELLE 提出了一种基于连续 mel-spectrogram 帧的自回归语言模型 TTS 方法，通过回归损失 + 变分推断采样模块 + spectrogram flux loss 直接预测连续频谱帧，避免了向量量化带来的保真度损失和采样鲁棒性问题…
 tags:
-  - ACL 2025
-  - 语音
-  - 语音合成
-  - 连续值token
-  - 音频语音
-  - 变分推断
-  - 自回归语言模型
+  - "ACL 2025"
+  - "音频/语音"
+  - "语音合成"
+  - "连续值token"
+  - "mel-spectrogram"
+  - "变分推断"
+  - "自回归语言模型"
 ---
 
 # Autoregressive Speech Synthesis without Vector Quantization

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Revisiting the Uniform Information Density Hypothesis in LLM Reasoning
 description: >-
-  [ACL 2026][信息密度均匀性] 本文将心理语言学中的信息密度均匀性（UID）假说引入 LLM 推理分析，提出基于熵的步级信息密度度量框架，发现高质量推理轨迹呈现"局部均匀 + 全局非均匀"的反直觉模式，并证明该模式在 Best-of-N 采样中显著优于传统置信度/熵基线。
+  [ACL 2026][LLM评测][信息密度均匀性] 本文将心理语言学中的信息密度均匀性（UID）假说引入 LLM 推理分析，提出基于熵的步级信息密度度量框架，发现高质量推理轨迹呈现"局部均匀 + 全局非均匀"的反直觉模式，并证明该模式在 Best-of-N 采样中显著优于传统置信度/熵基线。
 tags:
-  - ACL 2026
-  - 信息密度均匀性
-  - LLM评测
-  - 熵分析
-  - Best-of-N 选择
-  - 思维链
+  - "ACL 2026"
+  - "LLM评测"
+  - "信息密度均匀性"
+  - "推理质量评估"
+  - "熵分析"
+  - "Best-of-N 选择"
+  - "思维链"
 ---
 
 # Revisiting the Uniform Information Density Hypothesis in LLM Reasoning

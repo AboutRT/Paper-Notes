@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][GPTQ] 独立于 Chen et al. (2026)，以更简洁优雅的方式证明 GPTQ 等价于 Babai 最近平面算法，并阐明格基约减可能改进神经网络量化的前景。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - GPTQ
-  - Babai算法
-  - 格理论
-  - CVP
-  - 量化
-  - 等价性证明
+  - "ICLR 2026"
+  - "模型压缩"
+  - "GPTQ"
+  - "Babai算法"
+  - "格理论"
+  - "CVP"
+  - "量化"
+  - "等价性证明"
 ---
 
 # The Lattice Geometry of Neural Network Quantization -- A Short Equivalence Proof of GPTQ and Babai's Algorithm

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting
 description: >-
-  [ICCV 2025][CLIP] 指出现有 CLIP 少样本分类基准因 CLIP 预训练时已见过测试数据集而实际是"部分转导设置"，提出基于 unlearning 的归纳基准评估方案，并设计了一种在新基准下稳定 SOTA 的少样本分类方法。
+  [ICCV 2025][LLM评测][CLIP] 指出现有 CLIP 少样本分类基准因 CLIP 预训练时已见过测试数据集而实际是"部分转导设置"，提出基于 unlearning 的归纳基准评估方案，并设计了一种在新基准下稳定 SOTA 的少样本分类方法。
 tags:
-  - ICCV 2025
-  - CLIP
-  - 少样本学习
-  - 归纳设置
-  - 遗忘学习
-  - 基准评估
+  - "ICCV 2025"
+  - "LLM评测"
+  - "CLIP"
+  - "少样本学习"
+  - "归纳设置"
+  - "遗忘学习"
+  - "基准评估"
 ---
 
 # Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting

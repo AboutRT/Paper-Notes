@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG
 description: >-
-  [NeurIPS 2025][RAG] 提出 SeCon-RAG 两阶段防御框架，第一阶段用聚类+语义图联合过滤毒化文档，第二阶段在推理时做冲突感知过滤，在5个LLM和3个QA数据集上全面超越现有RAG防御方法，在100%投毒率下仍保持高准确率和极低攻击成功率。
+  [NeurIPS 2025][信息检索/RAG][RAG] 提出 SeCon-RAG 两阶段防御框架，第一阶段用聚类+语义图联合过滤毒化文档，第二阶段在推理时做冲突感知过滤，在5个LLM和3个QA数据集上全面超越现有RAG防御方法，在100%投毒率下仍保持高准确率和极低攻击成功率。
 tags:
-  - NeurIPS 2025
-  - RAG
-  - 语料库投毒防御
-  - 语义过滤
-  - 信息检索
-  - 实体-意图-关系
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "RAG"
+  - "语料库投毒防御"
+  - "语义过滤"
+  - "冲突感知推理"
+  - "实体-意图-关系"
 ---
 
 # SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG
@@ -100,7 +101,7 @@ SeCon-RAG 分两阶段工作：**第一阶段 SCF（Semantic and Clustering-Base
 ### 关键发现
 - **CAF 是核心模块**：去掉 CAF 后 ASR 从 8% 飙升到 56%，说明推理阶段的冲突过滤对防御至关重要
 - **聚类和语义过滤互补**：单独使用任一过滤器都不如联合效果好，AND 逻辑在保留信息的同时有效过滤
-- **跨嵌入模型鲁棒**：在 MiniLM、SimCSE、BERT、BGE 四种嵌入模型上均保持 >75% 准确率和 <10% ASR
+- **跨嵌入模型鲁棒**：在 MiniLM、SimCSE、BERT、BGE 四种嵌入模型上均保持 >75% 准确率和 &lt;10% ASR
 - **阈值不敏感**：$\tau_{\text{cluster}} \in [0.86, 0.90]$、$\tau_{\text{semantic}} \in [0.2, 0.4]$ 范围内性能稳定，波动 ±2%
 - **运行时开销适中**：每批 1.21-1.45 分钟，比 TrustRAG 慢约 10 秒但鲁棒性显著提升
 

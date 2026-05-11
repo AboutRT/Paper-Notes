@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV2025][自动驾驶][novel view synthesis] 提出首个外推式城市视图合成（EUVS）基准，利用多遍历/多车辆/多相机公开数据集系统评估外推场景下 3DGS 及 NeRF 方法的泛化能力，揭示当前方法严重过拟合训练视角。
 tags:
-  - ICCV2025
-  - 自动驾驶
-  - novel view synthesis
-  - 3D Gaussian Splatting
-  - benchmark
-  - extrapolation
+  - "ICCV2025"
+  - "自动驾驶"
+  - "novel view synthesis"
+  - "3D Gaussian Splatting"
+  - "benchmark"
+  - "extrapolation"
 ---
 
 # Extrapolated Urban View Synthesis Benchmark

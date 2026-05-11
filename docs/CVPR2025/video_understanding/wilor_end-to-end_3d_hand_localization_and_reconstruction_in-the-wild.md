@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][手部检测] 提出端到端的野外多手部重建管线 WiLoR，包含实时全卷积手部检测器和基于 Transformer 的高保真3D手部重建模型，通过多尺度精化模块实现图像对齐。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 手部检测
-  - 3D手部重建
-  - MANO
-  - ViT
-  - 野外场景
+  - "CVPR 2025"
+  - "视频理解"
+  - "手部检测"
+  - "3D手部重建"
+  - "MANO"
+  - "ViT"
+  - "野外场景"
 ---
 
 # WiLoR: End-to-end 3D Hand Localization and Reconstruction in-the-wild

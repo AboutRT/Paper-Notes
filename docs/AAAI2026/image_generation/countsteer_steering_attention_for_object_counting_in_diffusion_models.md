@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][图像生成][扩散模型] 提出 CountSteer，一种免训练的推理时方法，通过在扩散模型的 cross-attention 隐状态中注入自适应 steering vector，将物体计数准确率提升约 4%，且不损害图像质量。
 tags:
-  - AAAI2026
-  - 图像生成
-  - 扩散模型
-  - object counting
-  - steering vector
-  - 注意力机制
-  - training-free
+  - "AAAI2026"
+  - "图像生成"
+  - "扩散模型"
+  - "object counting"
+  - "steering vector"
+  - "注意力机制"
+  - "training-free"
 ---
 
 # CountSteer: Steering Attention for Object Counting in Diffusion Models

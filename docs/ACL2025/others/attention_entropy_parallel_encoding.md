@@ -4,7 +4,7 @@ title: >-
 description: >-
   [ACL 2025] 发现并行上下文编码导致 query token 的注意力熵异常升高是性能下降的关键因素，并提出 Attention Sink 共享前缀和 Selective Attention 两种免微调方法有效缓解该问题。
 tags:
-  - ACL 2025
+  - "ACL 2025"
 ---
 
 # Attention Entropy is a Key Factor for Parallel Context Encoding

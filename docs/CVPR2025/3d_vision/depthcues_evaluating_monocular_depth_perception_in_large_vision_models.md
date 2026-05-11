@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][单目深度感知] 提出 DepthCues 基准，通过六个人类单目深度线索任务（高度、光影、遮挡、透视、大小、纹理梯度）系统评估 20 个大规模预训练视觉模型的深度感知能力，揭示了类人深度线索在现代视觉模型中的涌现现象。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单目深度感知
-  - 视觉基础模型
-  - 深度线索
-  - 基准评测
-  - 表征探测
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单目深度感知"
+  - "视觉基础模型"
+  - "深度线索"
+  - "基准评测"
+  - "表征探测"
 ---
 
 # DepthCues: Evaluating Monocular Depth Perception in Large Vision Models

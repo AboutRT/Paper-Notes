@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BoundRL: Efficient Structured Text Segmentation through Reinforced Boundary Generation
 description: >-
-  [ACL 2026][图像分割][结构化文本分割] BoundRL 将结构化文本分割重新定义为边界生成任务——仅生成每个片段的起始 token 而非完整文本，减少 90% 的输出 token 并消除幻觉风险，结合双目标奖励函数和选择性扰动策略的 RLVR 训练，使 1.7B 小模型超越了 Claude-4 Sonnet 的 few-shot 表现。
+  [ACL 2026][语义分割][结构化文本分割] BoundRL 将结构化文本分割重新定义为边界生成任务——仅生成每个片段的起始 token 而非完整文本，减少 90% 的输出 token 并消除幻觉风险，结合双目标奖励函数和选择性扰动策略的 RLVR 训练…
 tags:
-  - ACL 2026
-  - 图像分割
-  - 结构化文本分割
-  - 边界生成
-  - RLVR
-  - 熵坍塌
-  - 中间候选
+  - "ACL 2026"
+  - "语义分割"
+  - "结构化文本分割"
+  - "边界生成"
+  - "RLVR"
+  - "熵坍塌"
+  - "中间候选"
 ---
 
 # BoundRL: Efficient Structured Text Segmentation through Reinforced Boundary Generation

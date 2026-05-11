@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] Probing for Reading Times
+description: >-
+  [ACL 2026][视频理解][阅读时间预测] 本文探测语言模型各层表示预测阅读时间的能力，发现早期层表示在预测早期注视指标上优于surprisal，而surprisal在晚期指标上更优，最佳预测器因语言和指标而异。
+tags:
+  - "ACL 2026"
+  - "视频理解"
+  - "阅读时间预测"
+  - "语言模型探测"
+  - "眼动追踪"
+  - "惊奇度理论"
+  - "跨语言分析"
+---
+
 # Probing for Reading Times
 
 **会议**: ACL 2026  

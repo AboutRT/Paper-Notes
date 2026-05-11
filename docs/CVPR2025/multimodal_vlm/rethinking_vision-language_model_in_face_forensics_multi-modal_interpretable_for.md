@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rethinking Vision-Language Model in Face Forensics: Multi-Modal Interpretable Forged Face Detector
 description: >-
-  [CVPR 2025][多模态][深度伪造检测] 提出 M2F2-Det，首个同时输出深度伪造检测得分和文本解释的多模态人脸伪造检测器，通过 Forgery Prompt Learning 适配 CLIP 学习伪造特征、Bridge Adapter 融合 CLIP 与 deepfake 编码器特征、频域 token 引导 LLM 生成可信解释。
+  [CVPR 2025][多模态VLM][深度伪造检测] 提出 M2F2-Det，首个同时输出深度伪造检测得分和文本解释的多模态人脸伪造检测器，通过 Forgery Prompt Learning 适配 CLIP 学习伪造特征、Bridge Adapter 融合 CLIP 与 deepfake 编码器特征、频域…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - CLIP适配
-  - 提示学习
-  - 可解释性
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "深度伪造检测"
+  - "CLIP适配"
+  - "提示学习"
+  - "可解释性"
+  - "多模态"
 ---
 
 # Rethinking Vision-Language Model in Face Forensics: Multi-Modal Interpretable Forged Face Detector

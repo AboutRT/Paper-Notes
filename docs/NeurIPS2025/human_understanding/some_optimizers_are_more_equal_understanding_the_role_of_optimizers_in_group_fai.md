@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][人体理解][群体公平性] 本文首次系统研究了优化算法选择对深度学习群体公平性的影响，通过随机微分方程（SDE）分析和两个新定理证明，自适应优化器（RMSProp/Adam）比SGD更容易收敛到公平的极小值点，特别是在数据严重不平衡时。
 tags:
-  - NeurIPS 2025
-  - 人体理解
-  - 群体公平性
-  - 优化器
-  - 自适应梯度
-  - 随机微分方程
-  - 深度学习公平
+  - "NeurIPS 2025"
+  - "人体理解"
+  - "群体公平性"
+  - "优化器"
+  - "自适应梯度"
+  - "随机微分方程"
+  - "深度学习公平"
 ---
 
 # Some Optimizers are More Equal: Understanding the Role of Optimizers in Group Fairness

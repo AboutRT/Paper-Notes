@@ -2,15 +2,15 @@
 title: >-
   [论文解读] STCast: Adaptive Boundary Alignment for Global and Regional Weather Forecasting
 description: >-
-  [CVPR 2026][时间序列][weather forecasting] 提出STCast框架，通过Spatial-Aligned Attention（SAA）用可学习的全球-区域分布替代静态边界来自适应融合全球大气信息到区域预报，并用Temporal Mixture-of-Experts（TMoE）按月动态路由专家增强时序建模，在全球预报、高分辨率区域预报、台风路径预测和集合预测四个任务上全面超越现有方法。
+  [CVPR 2026][时间序列][weather forecasting] 提出STCast框架，通过Spatial-Aligned Attention（SAA）用可学习的全球-区域分布替代静态边界来自适应融合全球大气信息到区域预报…
 tags:
-  - CVPR 2026
-  - 时间序列
-  - weather forecasting
-  - 注意力机制
-  - temporal MoE
-  - global-regional coupling
-  - adaptive boundary
+  - "CVPR 2026"
+  - "时间序列"
+  - "weather forecasting"
+  - "注意力机制"
+  - "temporal MoE"
+  - "global-regional coupling"
+  - "adaptive boundary"
 ---
 
 # STCast: Adaptive Boundary Alignment for Global and Regional Weather Forecasting

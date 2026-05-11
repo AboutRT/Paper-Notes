@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][胸部X光] 提出指令引导的胸部X光病变分割任务（ILS），构建了首个大规模自动生成的指令-回答数据集MIMIC-ILS（1.1M样本、192K图像、91K mask），并训练ROSALIA模型实现gIoU 71.2%和空目标准确率91.8%，远超现有通用和医学分割模型。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 胸部X光
-  - 病变分割
-  - 指令引导
-  - 自动数据集构建
-  - 视觉语言模型
+  - "CVPR 2026"
+  - "医学图像"
+  - "胸部X光"
+  - "病变分割"
+  - "指令引导"
+  - "自动数据集构建"
+  - "视觉语言模型"
 ---
 
 # Instruction-Guided Lesion Segmentation for Chest X-rays with Automatically Generated Large-Scale Dataset

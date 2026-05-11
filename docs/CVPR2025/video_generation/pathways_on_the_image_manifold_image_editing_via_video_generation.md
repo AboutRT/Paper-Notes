@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Pathways on the Image Manifold: Image Editing via Video Generation
 description: >-
-  [CVPR 2025][视频生成] Frame2Frame (F2F) 将图像编辑重新定义为视频生成任务——利用 image-to-video 模型在图像流形上从源图像到目标编辑生成一条平滑的时间路径，通过 VLM 生成时间编辑描述并自动选帧，在编辑精度和图像保真度之间取得了 SOTA 平衡。
+  [CVPR 2025][视频生成][图像编辑] Frame2Frame (F2F) 将图像编辑重新定义为视频生成任务——利用 image-to-video 模型在图像流形上从源图像到目标编辑生成一条平滑的时间路径，通过 VLM 生成时间编辑描述并自动选帧，在编辑精度和图像保真度之间取得了 SOTA 平衡。
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 视频生成
-  - 图像流形
-  - CogVideoX
-  - 时间一致性
+  - "CVPR 2025"
+  - "视频生成"
+  - "图像编辑"
+  - "图像流形"
+  - "CogVideoX"
+  - "时间一致性"
 ---
 
 # Pathways on the Image Manifold: Image Editing via Video Generation

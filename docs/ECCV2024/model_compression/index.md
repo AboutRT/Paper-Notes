@@ -1,16 +1,23 @@
 ---
 title: >-
-  ECCV2024 模型压缩方向31篇论文解读
+  ECCV2024 模型压缩方向30篇论文解读
 description: >-
-  31篇ECCV2024的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  30篇ECCV2024的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ECCV2024"
+  - "模型压缩"
+  - "论文解读"
+  - "论文笔记"
+  - "压缩/编码"
+  - "知识蒸馏"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🎞️ ECCV2024** · **31** 篇论文解读
+**🎞️ ECCV2024** · **30** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (51)](../../CVPR2026/model_compression/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (50)](../../CVPR2026/model_compression/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md)
 
 🔥 **高频主题：** 压缩/编码 ×7 · 模型压缩 ×6 · 知识蒸馏 ×2
 
@@ -105,10 +112,6 @@ description: >-
 **[PQ-SAM: Post-training Quantization for Segment Anything Model](pq-sam_post-training_quantization_for_segment_anything_model.md)**
 
 :   本文提出PQ-SAM，首个专为Segment Anything Model定制的训练后量化方法，通过分组激活分布变换(GADT)和两阶段异常值层次聚类(OHC)方案解决SAM的高度不对称激活分布和有害异常值问题，将4-bit量化的SAM推进到可用水平。
-
-**[PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation](pyra_parallel_yielding_re-activation_for_training-inference_efficient_task_adapt.md)**
-
-:   提出PYRA方法同时实现训练高效和推理高效的任务适配，通过并行生成通道和token维度的自适应调制权重，在token合并前对特征进行re-activation校准，在ViT-L/16上1.7×加速仅掉0.1%精度、3×加速下消除"逆向压缩"现象。
 
 **[SiLC: Improving Vision Language Pretraining with Self-Distillation](silc_improving_vision_language_pretraining_with_self-distillation.md)**
 

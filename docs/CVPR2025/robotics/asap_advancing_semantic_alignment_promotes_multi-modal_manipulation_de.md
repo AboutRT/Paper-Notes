@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][多模态] 提出ASAP框架，通过大模型辅助对齐(LMA)、篡改引导交叉注意力(MGCA)和补丁篡改建模(PMM)三个核心模块，系统性地推进图文语义对齐以提升多模态篡改检测与定位性能——在DGM4基准上AUC达94.38%，文本定位F1达76.52%，显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 多模态
-  - Semantic Alignment
-  - 注意力机制
-  - DGM4
-  - Hard Negative Mining
+  - "CVPR 2025"
+  - "机器人"
+  - "多模态"
+  - "Semantic Alignment"
+  - "注意力机制"
+  - "DGM4"
+  - "Hard Negative Mining"
 ---
 
 # ASAP: Advancing Semantic Alignment Promotes Multi-Modal Manipulation Detecting and Grounding

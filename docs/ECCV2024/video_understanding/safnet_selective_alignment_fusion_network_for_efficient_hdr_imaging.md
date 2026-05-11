@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][HDR成像] SAFNet 提出选择性对齐融合策略，通过金字塔解码器联合精炼有价值区域掩码和跨曝光光流，仅在有价值区域进行精确对齐后显式融合 HDR 图像，在 Kalantari 17 和自建 Challenge123 数据集上超越 SOTA 的同时推理速度快一个数量级。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - HDR成像
-  - 选择性对齐
-  - 光流估计
-  - 多曝光融合
-  - 高效网络
+  - "ECCV 2024"
+  - "视频理解"
+  - "HDR成像"
+  - "选择性对齐"
+  - "光流估计"
+  - "多曝光融合"
+  - "高效网络"
 ---
 
 # SAFNet: Selective Alignment Fusion Network for Efficient HDR Imaging

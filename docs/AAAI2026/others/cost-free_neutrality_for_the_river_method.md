@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][River投票方法] 针对River投票方法的并行宇宙打破平局（PUT）问题，证明其获胜者集合可在多项式时间内计算（相比Ranked Pairs的NP-完全性），提出Fused-Universe（FUN）算法，一次遍历同时模拟所有可能的打破平局方式，并为每个获胜者提供构造性证书。
 tags:
-  - AAAI 2026
-  - River投票方法
-  - 并行宇宙打破平局
-  - 中立性
-  - 多项式时间算法
-  - 社会选择函数
+  - "AAAI 2026"
+  - "River投票方法"
+  - "并行宇宙打破平局"
+  - "中立性"
+  - "多项式时间算法"
+  - "社会选择函数"
 ---
 
 # Cost-Free Neutrality for the River Method

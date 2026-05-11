@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SGMatch: Semantic-Guided Non-Rigid Shape Matching with Flow Regularization
 description: >-
-  [CVPR 2025][图像生成][非刚体形状匹配] SGMatch提出了语义引导的非刚体3D形状匹配框架，通过语义引导局部跨注意力（SGLCA）模块将视觉基础模型的语义特征融入几何描述子以消除对称歧义，并引入条件流匹配（CFM）正则化促进对应关系的空间平滑性，在非等距变形和拓扑噪声场景下取得一致性提升（SMAL上比之前SOTA好24%）。
+  [CVPR 2025][图像生成][非刚体形状匹配] SGMatch提出了语义引导的非刚体3D形状匹配框架，通过语义引导局部跨注意力（SGLCA）模块将视觉基础模型的语义特征融入几何描述子以消除对称歧义，并引入条件流匹配（CFM）正则化促进对应关系的空间平滑性…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 非刚体形状匹配
-  - 功能映射
-  - 语义引导
-  - 条件流匹配
-  - 跨注意力
+  - "CVPR 2025"
+  - "图像生成"
+  - "非刚体形状匹配"
+  - "功能映射"
+  - "语义引导"
+  - "条件流匹配"
+  - "跨注意力"
 ---
 
 # SGMatch: Semantic-Guided Non-Rigid Shape Matching with Flow Regularization

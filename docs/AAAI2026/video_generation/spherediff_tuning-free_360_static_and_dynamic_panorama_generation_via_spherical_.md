@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation
 description: >-
-  [AAAI 2026][视频生成][全景生成] 提出 SphereDiff，通过球面隐空间表示和动态采样，无需微调即可利用预训练扩散模型生成无缝360度全景图像和视频。
+  [AAAI 2026][视频生成][全景生成] 本文提出 SphereDiff，定义球面隐空间表示（Fibonacci Lattice 均匀分布）替代传统等距矩形投影，结合动态采样算法和畸变感知加权平均，无需微调即可利用 SANA/LTX Video 等预训练扩散模型生成无缝、低畸变的360度全景图像和视频。
 tags:
-  - AAAI 2026
-  - 视频生成
-  - 全景生成
-  - 扩散模型
-  - 球面表示
-  - VR/AR
+  - "AAAI 2026"
+  - "视频生成"
+  - "全景生成"
+  - "球面隐空间"
+  - "扩散模型"
+  - "VR/AR"
 ---
 
 # SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation

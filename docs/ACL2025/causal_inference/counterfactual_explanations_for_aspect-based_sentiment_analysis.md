@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Counterfactual Explanations for Aspect-Based Sentiment Analysis
 description: >-
-  [ACL 2025][反事实解释] 本文提出一种为方面级情感分析（ABSA）生成反事实解释的方法，通过找到能翻转特定方面情感极性的最小文本修改，为 ABSA 模型的预测提供直观的因果解释。
+  [ACL 2025][因果推理][反事实解释] 本文提出一种为方面级情感分析（ABSA）生成反事实解释的方法，通过找到能翻转特定方面情感极性的最小文本修改，为 ABSA 模型的预测提供直观的因果解释。
 tags:
-  - ACL 2025
-  - 反事实解释
-  - 因果推理
-  - 可解释AI
-  - 因果推理
-  - 情感极性翻转
+  - "ACL 2025"
+  - "因果推理"
+  - "反事实解释"
+  - "方面情感分析"
+  - "可解释AI"
+  - "情感极性翻转"
 ---
 
 # Counterfactual Explanations for Aspect-Based Sentiment Analysis

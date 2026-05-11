@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][时间序列预测] 提出SynTSBench合成数据驱动评估范式，通过可编程的特征配置和理论最优基准，系统评估时间序列预测模型在趋势、周期、依赖性、噪声鲁棒性等维度的实际建模能力。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 时间序列预测
-  - 合成数据
-  - 模型评估
-  - 理论最优基准
-  - 鲁棒性分析
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "时间序列预测"
+  - "合成数据"
+  - "模型评估"
+  - "理论最优基准"
+  - "鲁棒性分析"
 ---
 
 # SynTSBench: Rethinking Temporal Pattern Learning in Deep Learning Models for Time Series

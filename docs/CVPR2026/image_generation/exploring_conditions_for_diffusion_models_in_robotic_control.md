@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Exploring Conditions for Diffusion Models in Robotic Control
 description: >-
-  [CVPR 2026][图像生成][扩散模型] 本文探索了如何用预训练文本到图像扩散模型的条件机制为机器人控制生成任务自适应的视觉表示，发现文本条件在控制环境中因域差距而无效，提出 ORCA 框架通过可学习的任务提示词(task prompts)和逐帧视觉提示词(visual prompts)作为条件机制，在 DMC/MetaWorld/Adroit 三个基准的 12 个任务上达到 SOTA。
+  [CVPR 2026][图像生成][扩散模型] 本文探索了如何用预训练文本到图像扩散模型的条件机制为机器人控制生成任务自适应的视觉表示，发现文本条件在控制环境中因域差距而无效，提出 ORCA 框架通过可学习的任务提示词(task prompts)和逐帧视觉提示词(visual prompts)作为条件机制…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 扩散模型
-  - 机器人控制
-  - 视觉表示
-  - 任务自适应
-  - 可学习提示词
+  - "CVPR 2026"
+  - "图像生成"
+  - "扩散模型"
+  - "机器人控制"
+  - "视觉表示"
+  - "任务自适应"
+  - "可学习提示词"
 ---
 
 # Exploring Conditions for Diffusion Models in Robotic Control

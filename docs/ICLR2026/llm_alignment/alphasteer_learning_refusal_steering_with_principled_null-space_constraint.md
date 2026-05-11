@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM对齐][activation steering] 提出 AlphaSteer，通过学习一个受零空间约束的变换矩阵来动态构造 steering 向量，对良性输入产生近零向量（保持效用），对恶意输入重建拒绝方向向量（增强安全），在理论上保证了安全与效用的解耦。
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - activation steering
-  - refusal direction
-  - null-space projection
-  - jailbreak defense
-  - safety-utility trade-off
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "activation steering"
+  - "refusal direction"
+  - "null-space projection"
+  - "jailbreak defense"
+  - "safety-utility trade-off"
 ---
 
 # AlphaSteer: Learning Refusal Steering with Principled Null-Space Constraint
@@ -92,7 +92,7 @@ tags:
 | | **AlphaSteer** | **95.6** | **48.1** | **65.0** | **95.0** | **75.9** |
 
 ### 关键发现
-- AlphaSteer 在 3 个模型上平均 DSR 均超 90%，同时 utility score 几乎不降（与 vanilla 差距 <2%）。
+- AlphaSteer 在 3 个模型上平均 DSR 均超 90%，同时 utility score 几乎不降（与 vanilla 差距 &lt;2%）。
 - 对比鲜明：CAST 在数学任务上 accuracy 降至 0%（将数学题误判为恶意），直接注入 RV 的 utility score 降至 2.4~29.1%。
 - PCA 可视化显示 AlphaSteer 的 steering 向量对良性激活的 L2 范数远小于恶意激活，验证了零空间约束的有效性。
 - 随着 steering 强度 $\lambda$ 增大，AlphaSteer 的安全性持续提升而效用保持稳定，baselines 则出现效用急剧下降。

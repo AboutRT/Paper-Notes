@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][视觉自回归] 提出 CoDe（协同解码），将 VAR 的多尺度推理分解为大模型草稿（低频小尺度）+ 小模型精修（高频大尺度）的协作流程，实现 1.7× 加速、50% 显存降低，FID 仅从 1.95 微增至 1.98。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 视觉自回归
-  - 下一尺度预测
-  - 协同解码
-  - 推理加速
-  - KV缓存优化
+  - "CVPR 2025"
+  - "图像生成"
+  - "视觉自回归"
+  - "下一尺度预测"
+  - "协同解码"
+  - "推理加速"
+  - "KV缓存优化"
 ---
 
 # Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient

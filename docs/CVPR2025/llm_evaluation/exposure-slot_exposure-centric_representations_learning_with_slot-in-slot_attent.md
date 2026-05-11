@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Exposure-slot: Exposure-centric Representations Learning with Slot-in-Slot Attention for Region-aware Exposure Correction
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：Image exposure correction enhances images captured under diverse real-world conditions by addressing issues of under- and over-exposure, which can result in the loss of critical details and hinder content recognition. While significant advancements have been made, current methods often fail to achie
+  [CVPR 2025][LLM评测][待补充] > 基于摘要：Image exposure correction enhances images captured under diverse real-world conditions by addressing issues of under- and ov…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "LLM评测"
+  - "待补充"
 ---
 
 # Exposure-slot: Exposure-centric Representations Learning with Slot-in-Slot Attention for Region-aware Exposure Correction

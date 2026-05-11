@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HATS: Hardness-Aware Trajectory Synthesis for GUI Agents
 description: >-
-  [CVPR 2026][LLM Agent][GUI Agent] 提出难度感知的轨迹合成框架 HATS，通过 hardness-driven exploration 和 alignment-guided refinement 的闭环机制，专注采集和修正语义歧义动作的训练轨迹，大幅提升 GUI Agent 在复杂真实场景中的泛化能力。
+  [CVPR 2026][LLM Agent][GUI Agent] 提出难度感知的轨迹合成框架 HATS，通过 hardness-driven exploration 和 alignment-guided refinement 的闭环机制，专注采集和修正语义歧义动作的训练轨迹…
 tags:
-  - CVPR 2026
-  - LLM Agent
-  - GUI Agent
-  - 轨迹合成
-  - 语义歧义
-  - Monte Carlo Tree Search
-  - 数据对齐
+  - "CVPR 2026"
+  - "LLM Agent"
+  - "GUI Agent"
+  - "轨迹合成"
+  - "语义歧义"
+  - "Monte Carlo Tree Search"
+  - "数据对齐"
 ---
 
 # HATS: Hardness-Aware Trajectory Synthesis for GUI Agents

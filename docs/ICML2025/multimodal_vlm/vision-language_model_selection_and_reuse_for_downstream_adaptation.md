@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Vision-Language Model Selection and Reuse for Downstream Adaptation
 description: >-
-  [ICML 2025][多模态][Model Selection] 提出 Model Label Learning (MLL) 范式，通过构建语义图对 49 个预训练 VLM 进行离线"标注"（描述各模型在不同视觉概念上的能力），面对新任务时通过语义匹配选择和集成最合适的模型，实现数据高效、计算高效且可扩展的 VLM 选择与复用。
+  [ICML 2025][多模态VLM][Model Selection] 提出 Model Label Learning (MLL) 范式，通过构建语义图对 49 个预训练 VLM 进行离线"标注"（描述各模型在不同视觉概念上的能力），面对新任务时通过语义匹配选择和集成最合适的模型…
 tags:
-  - ICML 2025
-  - 多模态
-  - Model Selection
-  - VLM
-  - Model Hub
-  - Semantic Graph
-  - Ensemble
-  - 模型标签学习
+  - "ICML 2025"
+  - "多模态VLM"
+  - "Model Selection"
+  - "VLM"
+  - "Model Hub"
+  - "Semantic Graph"
+  - "Ensemble"
+  - "模型标签学习"
 ---
 
 # Vision-Language Model Selection and Reuse for Downstream Adaptation

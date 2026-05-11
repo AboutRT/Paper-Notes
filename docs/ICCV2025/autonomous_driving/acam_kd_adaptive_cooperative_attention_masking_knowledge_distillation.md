@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ACAM-KD: Adaptive and Cooperative Attention Masking for Knowledge Distillation
 description: >-
-  [ICCV 2025][自动驾驶][知识蒸馏] 提出 ACAM-KD，通过学生-教师交叉注意力特征融合(STCA-FF)和自适应空间-通道遮蔽(ASCM)两个模块，实现知识蒸馏中特征选择随学生学习状态动态演化，在COCO检测任务上以ResNet-50学生从ResNet-101教师蒸馏时mAP提升1.4超越SOTA。
+  [ICCV 2025][自动驾驶][知识蒸馏] 提出 ACAM-KD，通过学生-教师交叉注意力特征融合（STCA-FF）和自适应空间-通道遮蔽（ASCM）两个模块，使知识蒸馏中的特征选择能随学生学习状态动态演化…
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 知识蒸馏
-  - 注意力遮蔽
-  - 学生-教师交互
-  - 自适应特征选择
-  - 目标检测
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "知识蒸馏"
+  - "注意力遮蔽"
+  - "学生-教师交互"
+  - "自适应特征选择"
+  - "目标检测"
 ---
 
 # ACAM-KD: Adaptive and Cooperative Attention Masking for Knowledge Distillation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][视觉语言导航] RoomTour3D利用网络房屋参观视频构建了一个几何感知的视频-指令数据集，通过3D重建获取行走轨迹的几何信息，结合GPT-4生成开放词汇指令，显著提升了多个VLN基准任务的性能并支持可训练的零样本导航。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 视觉语言导航
-  - 视频指令微调
-  - 几何感知
-  - 室内导航
-  - 数据集
+  - "CVPR 2025"
+  - "3D视觉"
+  - "视觉语言导航"
+  - "视频指令微调"
+  - "几何感知"
+  - "室内导航"
+  - "数据集"
 ---
 
 # RoomTour3D: Geometry-Aware Video-Instruction Tuning for Embodied Navigation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][联邦学习] 从博弈论视角分析异构联邦学习中的激励问题，证明在异构数据分布和 PAC 准确率目标下纯策略纳什均衡的存在性，并提出基于线性规划的近似算法来确定最优贡献量。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 联邦学习
-  - 激励机制
-  - 异构性
-  - 博弈论
-  - PAC学习
+  - "ICLR 2026"
+  - "医学图像"
+  - "联邦学习"
+  - "激励机制"
+  - "异构性"
+  - "博弈论"
+  - "PAC学习"
 ---
 
 # Incentives in Federated Learning with Heterogeneous Agents

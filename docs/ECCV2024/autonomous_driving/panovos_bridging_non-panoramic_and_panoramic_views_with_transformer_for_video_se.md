@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][全景视频分割] 提出首个全景视频目标分割数据集 PanoVOS（150个视频、19K实例标注），揭示现有 VOS 模型无法处理全景视频的像素不连续和严重畸变问题，并设计 PSCFormer 利用全景空间一致性注意力解决左右边界连续性问题。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 全景视频分割
-  - 视频目标分割
-  - 数据集
-  - Transformer
-  - 空间一致性
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "全景视频分割"
+  - "视频目标分割"
+  - "数据集"
+  - "Transformer"
+  - "空间一致性"
 ---
 
 # PanoVOS: Bridging Non-panoramic and Panoramic Views with Transformer for Video Segmentation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs
 description: >-
-  [AAAI 2026][信息检索] 提出 N2N-GQA——首个用于开放域混合表格-文本问答的零样本框架，核心思路是将检索到的嘈杂文档构建为动态证据图（文档为节点、TF-IDF共享词为边），通过图中心性剪枝识别"桥接文档"连接多跳推理链，在 OTT-QA 上比 Vanilla RAG 提升 +39.6 EM（从 8.0 到 48.8），零样本即接近微调系统 CORE (49.0 EM)。
+  [AAAI 2026][信息检索/RAG][多跳问答] 提出 N2N-GQA——首个用于开放域混合表格-文本问答的零样本框架，核心思路是将检索到的嘈杂文档构建为动态证据图（文档为节点、TF-IDF共享词为边），通过图中心性剪枝识别"桥接文档"连接多跳推理链…
 tags:
-  - AAAI 2026
-  - 信息检索
-  - 图结构检索
-  - 表格-文本混合QA
-  - 零样本
-  - GraphRank
+  - "AAAI 2026"
+  - "信息检索/RAG"
+  - "多跳问答"
+  - "图结构检索"
+  - "表格-文本混合QA"
+  - "零样本"
+  - "GraphRank"
 ---
 
 # N2N-GQA: Noise-to-Narrative for Graph-Based Table-Text Question Answering Using LLMs

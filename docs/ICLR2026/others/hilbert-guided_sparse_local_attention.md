@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][Hilbert曲线] 利用Hilbert空间填充曲线将2D图像token重排为保持空间邻近性的1D序列，大幅提升局部注意力的块稀疏率（空块比例从87.5%到96.9%），结合FlexAttention实现窗口注意力4倍和滑动注意力18倍加速，精度损失极小。
 tags:
-  - ICLR 2026
-  - Hilbert曲线
-  - 局部注意力
-  - 块稀疏
-  - 注意力机制
-  - Transformer
+  - "ICLR 2026"
+  - "Hilbert曲线"
+  - "局部注意力"
+  - "块稀疏"
+  - "注意力机制"
+  - "Transformer"
 ---
 
 # Hilbert-Guided Sparse Local Attention
@@ -108,7 +108,7 @@ tags:
 - 加速依赖FlexAttention等框架，不同硬件/CUDA版本效果可能变化
 
 ## 相关工作与启发
-- **vs Swin Transformer**: HWT用Hilbert重排加速Swin的WSA，精度损失<0.3%
+- **vs Swin Transformer**: HWT用Hilbert重排加速Swin的WSA，精度损失&lt;0.3%
 - **vs NAT/NATTEN**: HNT将2D邻域注意力转化为1D——可直接用1D优化kernel
 - **vs FlashAttention**: FlashAttention针对dense注意力优化，HWA/HSA利用稀疏性进一步加速
 

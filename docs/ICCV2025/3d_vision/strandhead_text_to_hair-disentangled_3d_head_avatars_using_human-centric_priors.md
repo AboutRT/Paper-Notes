@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出 StrandHead，首个通过蒸馏人体特定2D扩散模型来生成发丝级3D头部化身的框架，提出可微棱柱化算法实现发丝到水密网格的转换和梯度反传，并设计基于统计发丝几何先验的正则化损失保证发型的真实性。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors

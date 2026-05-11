@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][音视觉问答] 提出 QA-TIGER 框架，通过混合高斯专家（MoE）对视频时序进行连续自适应加权建模，并在编码早期即注入问题信息实现渐进式语义精炼，在多个 AVQA 基准上达到 SOTA。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 音视觉问答
-  - 高斯专家混合
-  - 时序建模
-  - 问题感知注意力
-  - 时序定位
+  - "CVPR 2025"
+  - "视频理解"
+  - "音视觉问答"
+  - "高斯专家混合"
+  - "时序建模"
+  - "问题感知注意力"
+  - "时序定位"
 ---
 
 # QA-TIGER: Question-Aware Gaussian Experts for Audio-Visual Question Answering

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learned Image Compression with Dictionary-based Entropy Model
 description: >-
-  [CVPR 2025][模型压缩][learned image compression] 提出基于字典的交叉注意力熵模型 (DCAE)，引入可学习字典从训练数据集中提取自然图像的典型纹理结构先验，通过多尺度特征聚合 + 交叉注意力实现精确的概率分布估计，在编解码速度仅 193ms 的条件下实现 -17.0%/-21.1%/-19.7% 的 BD-rate（Kodak/Tecnick/CLIC），全面超越 SOTA。
+  [CVPR 2025][模型压缩][learned image compression] 提出基于字典的交叉注意力熵模型 (DCAE)，引入可学习字典从训练数据集中提取自然图像的典型纹理结构先验，通过多尺度特征聚合 + 交叉注意力实现精确的概率分布估计…
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - learned image compression
-  - entropy model
-  - dictionary learning
-  - 注意力机制
-  - rate-distortion
+  - "CVPR 2025"
+  - "模型压缩"
+  - "learned image compression"
+  - "entropy model"
+  - "dictionary learning"
+  - "注意力机制"
+  - "rate-distortion"
 ---
 
 # Learned Image Compression with Dictionary-based Entropy Model

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][Mamba] 提出 Memba，一种受生物神经元膜电位启发的参数高效微调方法，通过在 Mamba 门控分支引入泄漏积分膜（LIM）神经元实现时序自适应，结合 LoRA 放置优化和跨层膜传递，以极少参数在语言和视觉任务上超越现有 Mamba PEFT 方法。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - Mamba
-  - PEFT
-  - 膜电位
-  - 泄漏积分
-  - 状态空间模型
+  - "ICLR 2026"
+  - "模型压缩"
+  - "Mamba"
+  - "PEFT"
+  - "膜电位"
+  - "泄漏积分"
+  - "状态空间模型"
 ---
 
 # Memba: Membrane-driven Parameter-Efficient Fine-Tuning for Mamba

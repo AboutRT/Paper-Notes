@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D预训练] UniPre3D 提出了首个统一的3D预训练方法，通过预测高斯原语并利用可微高斯溅射渲染图像来提供像素级监督，同时引入尺度自适应的跨模态融合策略，使得预训练方法能同时适用于物体级和场景级的任意尺度点云与任意架构的3D模型。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D预训练
-  - 点云
-  - 高斯溅射
-  - 跨模态融合
-  - 统一学习
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D预训练"
+  - "点云"
+  - "高斯溅射"
+  - "跨模态融合"
+  - "统一学习"
 ---
 
 # UniPre3D: Unified Pre-training of 3D Point Cloud Models with Cross-Modal Gaussian Splatting

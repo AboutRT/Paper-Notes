@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][多模态VLM][Change Captioning] 提出 CORTEX 框架，通过引入 VLM 生成的组合推理文本作为显式线索，结合图像-文本双重对齐模块（ITDA），增强纯视觉变化描述方法对物体关系和空间配置等结构化语义的理解能力。
 tags:
-  - AAAI 2026
-  - 多模态VLM
-  - Change Captioning
-  - 组合推理
-  - 视觉语言模型
-  - 图像-文本对齐
-  - 场景变化描述
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "Change Captioning"
+  - "组合推理"
+  - "视觉语言模型"
+  - "图像-文本对齐"
+  - "场景变化描述"
 ---
 
 # Leveraging Textual Compositional Reasoning for Robust Change Captioning

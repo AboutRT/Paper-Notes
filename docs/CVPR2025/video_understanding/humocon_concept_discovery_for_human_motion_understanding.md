@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][人体运动理解] HuMoCon 是一个面向人体行为分析的运动-视频理解框架，其核心创新是在编码器预训练阶段通过显式的视频-运动特征对齐和基于速度重建的高频信息保持机制来发现语义化的运动概念（codebook），从而显著提升下游 LLM 的人体运动理解和推理能力。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 人体运动理解
-  - 概念发现
-  - 视频-运动对齐
-  - 速度重建
-  - VQ-VAE
-  - 多模态LLM
+  - "CVPR 2025"
+  - "视频理解"
+  - "人体运动理解"
+  - "概念发现"
+  - "视频-运动对齐"
+  - "速度重建"
+  - "VQ-VAE"
+  - "多模态LLM"
 ---
 
 # HuMoCon: Concept Discovery for Human Motion Understanding

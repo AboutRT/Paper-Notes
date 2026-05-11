@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation
 description: >-
-  [ICCV 2025][图像分割][弱监督语义分割] 提出一种端到端的弱监督语义分割方法，通过在 ViT 中引入多个 [CLS] token（每个类别一个）、对 [CLS] token 输出嵌入进行随机掩码以及剪枝冗余注意力头，直接利用自注意力图生成类别特定的伪分割掩码，无需额外的 CAM 模块。
+  [ICCV 2025][语义分割][弱监督语义分割] 提出一种端到端的弱监督语义分割方法，通过在 ViT 中引入多个 [CLS] token（每个类别一个）、对 [CLS] token 输出嵌入进行随机掩码以及剪枝冗余注意力头，直接利用自注意力图生成类别特定的伪分割掩码，无需额外的 CAM 模块。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 弱监督语义分割
-  - Transformer
-  - 注意力图
-  - CLS token
-  - 注意力头剪枝
+  - "ICCV 2025"
+  - "语义分割"
+  - "弱监督语义分割"
+  - "Transformer"
+  - "注意力图"
+  - "CLS token"
+  - "注意力头剪枝"
 ---
 
 # Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation

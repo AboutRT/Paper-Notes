@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UMAMI: Unifying Masked Autoregressive Models and Deterministic Rendering for View Synthesis
 description: >-
-  [NeurIPS 2025][3D视觉][新视角合成] 提出 UMAMI，一个统一掩码自回归模型（MAR）和确定性渲染的混合框架用于稀疏视角新视角合成：双向 Transformer 编码多视角图像 Token 和 Plücker 射线嵌入，两个轻量级 MLP 头分别处理可见区域（确定性回归）和遮挡区域（MAR 扩散生成），渲染速度比全生成基线快一个数量级。
+  [NeurIPS 2025][3D视觉][新视角合成] 提出 UMAMI，一个统一掩码自回归模型（MAR）和确定性渲染的混合框架用于稀疏视角新视角合成：双向 Transformer 编码多视角图像 Token 和 Plücker 射线嵌入…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 新视角合成
-  - 掩码自回归
-  - 扩散模型
-  - 确定性渲染
-  - 混合框架
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "新视角合成"
+  - "掩码自回归"
+  - "扩散模型"
+  - "确定性渲染"
+  - "混合框架"
 ---
 
 # UMAMI: Unifying Masked Autoregressive Models and Deterministic Rendering for View Synthesis

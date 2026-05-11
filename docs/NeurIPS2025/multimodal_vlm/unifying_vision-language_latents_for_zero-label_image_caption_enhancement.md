@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unifying Vision-Language Latents for Zero-Label Image Caption Enhancement
 description: >-
-  [NeurIPS 2025][多模态][零标签学习] 本文提出ViZer框架，通过统一视觉-语言潜空间对齐的训练范式，在无任何文本标注的情况下提升VLM的图像描述能力——仅使用原始图像数据就能让模型生成更接地、更描述性的caption。
+  [NeurIPS 2025][多模态VLM][零标签学习] 本文提出ViZer框架，通过统一视觉-语言潜空间对齐的训练范式，在无任何文本标注的情况下提升VLM的图像描述能力——仅使用原始图像数据就能让模型生成更接地、更描述性的caption。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 零标签学习
-  - 图像描述
-  - 多模态VLM
-  - 联合嵌入
-  - 自监督
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "零标签学习"
+  - "图像描述"
+  - "视觉-语言对齐"
+  - "联合嵌入"
+  - "自监督"
 ---
 
 # Unifying Vision-Language Latents for Zero-Label Image Caption Enhancement

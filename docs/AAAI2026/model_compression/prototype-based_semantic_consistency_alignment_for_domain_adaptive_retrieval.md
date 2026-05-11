@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][模型压缩][domain adaptive retrieval] 提出 PSCA 两阶段框架，通过正交 prototype 建立类级语义连接，结合几何-语义一致性对齐动态修正伪标签可靠性，并在重建特征上进行 hash 编码，显著提升跨域检索性能。
 tags:
-  - AAAI2026
-  - 模型压缩
-  - domain adaptive retrieval
-  - hashing
-  - prototype learning
-  - 伪标签
-  - semantic alignment
+  - "AAAI2026"
+  - "模型压缩"
+  - "domain adaptive retrieval"
+  - "hashing"
+  - "prototype learning"
+  - "伪标签"
+  - "semantic alignment"
 ---
 
 # Prototype-Based Semantic Consistency Alignment for Domain Adaptive Retrieval

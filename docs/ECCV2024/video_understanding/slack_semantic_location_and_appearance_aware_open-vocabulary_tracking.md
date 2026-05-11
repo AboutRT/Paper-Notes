@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][开放词汇跟踪] SLAck 提出在多目标跟踪的关联阶段早期统一融合语义、位置和外观三种线索，通过轻量级时空目标图（STOG）学习隐式运动先验和跨线索协同，无需后处理启发式规则，在开放词汇 MOT 和 TAO TETA 基准上显著提升新类别跟踪性能。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 开放词汇跟踪
-  - 多目标跟踪
-  - 语义感知关联
-  - 时空目标图
-  - 特征融合
+  - "ECCV 2024"
+  - "视频理解"
+  - "开放词汇跟踪"
+  - "多目标跟踪"
+  - "语义感知关联"
+  - "时空目标图"
+  - "特征融合"
 ---
 
 # SLAck: Semantic, Location, and Appearance Aware Open-Vocabulary Tracking

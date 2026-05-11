@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LoTUS: Large-Scale Machine Unlearning with a Taste of Uncertainty
 description: >-
-  [CVPR 2025][LLM评测] 提出 LoTUS，用 logits 温度调节+Gumbel-Softmax 平滑遗忘样本的预测，通过动态温度调度收敛到"遗忘集准确率=未见集准确率"的目标——在 ImageNet-1K 大规模设置中高效遗忘（ViT 上 Avg Gap 0.0150），且提出 RF-JSD 免重训评估指标（与 JSD Pearson 相关 0.92）。
+  [CVPR 2025][LLM评测][机器遗忘] 提出 LoTUS，用 logits 温度调节+Gumbel-Softmax 平滑遗忘样本的预测，通过动态温度调度收敛到"遗忘集准确率=未见集准确率"的目标——在 ImageNet-1K 大规模设置中高效遗忘（ViT 上 Avg Gap 0.0150）…
 tags:
-  - CVPR 2025
-  - LLM评测
-  - Gumbel-Softmax
-  - 动态温度
-  - 大规模
-  - 不确定性
+  - "CVPR 2025"
+  - "LLM评测"
+  - "机器遗忘"
+  - "Gumbel-Softmax"
+  - "动态温度"
+  - "大规模"
+  - "不确定性"
 ---
 
 # LoTUS: Large-Scale Machine Unlearning with a Taste of Uncertainty

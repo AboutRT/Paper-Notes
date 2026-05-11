@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding
 description: >-
-  [ACL 2026][信息检索][推测解码] RACER 提出了一种无需训练的推测解码方法，将基于检索的精确模式匹配与基于 logits 的未来预测统一起来，通过 copy-logit 策略构建 Logits Tree、LRU 驱逐的 AC 自动机构建 Retrieval Tree，在多个基准上实现了超过 2 倍的推理加速。
+  [ACL 2026][信息检索/RAG][推测解码] RACER 提出了一种无需训练的推测解码方法，将基于检索的精确模式匹配与基于 logits 的未来预测统一起来，通过 copy-logit 策略构建 Logits Tree、LRU 驱逐的 AC 自动机构建 Retrieval Tree…
 tags:
-  - ACL 2026
-  - 信息检索
-  - 推测解码
-  - 检索增强
-  - 训练无关
-  - AC自动机
-  - 推理加速
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "推测解码"
+  - "检索增强"
+  - "训练无关"
+  - "AC自动机"
+  - "推理加速"
 ---
 
 # RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding

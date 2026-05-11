@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multimodal In-Context Learning for ASR of Low-Resource Languages
 description: >-
-  [ACL 2026][语音][多模态上下文学习] 系统研究多模态上下文学习（MICL）能否使语音 LLM 学习未见过的濒危语言，并提出基于 MICL 的假设选择系统，结合声学模型与语音 LLM 的互补优势，在三种濒危语言上显著提升 ASR 性能。
+  [ACL 2026][音频/语音][多模态上下文学习] 系统研究多模态上下文学习（MICL）能否使语音 LLM 学习未见过的濒危语言，并提出基于 MICL 的假设选择系统，结合声学模型与语音 LLM 的互补优势，在三种濒危语言上显著提升 ASR 性能。
 tags:
-  - ACL 2026
-  - 语音
-  - 音频语音
-  - 低资源 ASR
-  - 语音大语言模型
-  - 跨语言迁移
-  - 假设选择
+  - "ACL 2026"
+  - "音频/语音"
+  - "多模态上下文学习"
+  - "低资源 ASR"
+  - "语音大语言模型"
+  - "跨语言迁移"
+  - "假设选择"
 ---
 
 # Multimodal In-Context Learning for ASR of Low-Resource Languages

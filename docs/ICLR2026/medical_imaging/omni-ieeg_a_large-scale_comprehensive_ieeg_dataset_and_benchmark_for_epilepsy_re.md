@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][intracranial EEG] 本文构建了 Omni-iEEG 数据集（302 名患者、178 小时高分辨率颅内脑电记录），定义了基于临床先验的标准化基准任务和评估指标，并展示端到端建模在癫痫手术规划中可匹配或超越传统生物标志物方法。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - intracranial EEG
-  - epilepsy
-  - high-frequency oscillations
-  - benchmark
-  - dataset
+  - "ICLR 2026"
+  - "医学图像"
+  - "intracranial EEG"
+  - "epilepsy"
+  - "high-frequency oscillations"
+  - "benchmark"
+  - "dataset"
 ---
 
 # Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research

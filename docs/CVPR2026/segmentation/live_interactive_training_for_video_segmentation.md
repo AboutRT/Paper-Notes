@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Live Interactive Training for Video Segmentation
 description: >-
-  [CVPR 2026][图像分割][交互式视频分割] LIT (Live Interactive Training) 提出了一种让交互式视觉系统（如SAM2）在推理时从用户纠正中在线学习的框架，其轻量实现LIT-LoRA通过实时更新LoRA模块将用户反馈泛化到后续帧，在挑战性VOS基准上减少18-34%用户纠正次数，训练开销仅约0.5秒。
+  [CVPR 2026][语义分割][交互式视频分割] LIT (Live Interactive Training) 提出了一种让交互式视觉系统（如SAM2）在推理时从用户纠正中在线学习的框架，其轻量实现LIT-LoRA通过实时更新LoRA模块将用户反馈泛化到后续帧…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 交互式视频分割
-  - 在线学习
-  - LoRA适配
-  - SAM2
-  - 用户反馈驱动
+  - "CVPR 2026"
+  - "语义分割"
+  - "交互式视频分割"
+  - "在线学习"
+  - "LoRA适配"
+  - "SAM2"
+  - "用户反馈驱动"
 ---
 
 # Live Interactive Training for Video Segmentation

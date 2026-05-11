@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Adaptive Online Emulation for Accelerating Complex Physical Simulations
 description: >-
-  [NeurIPS 2025][在线学习] 提出 Adaptive Online Emulation (AOE)，在物理模拟执行过程中动态训练 ELM 神经网络代理模型替代昂贵计算组件，无需离线预训练，在系外行星大气模拟上实现 11.1× 加速（91% 时间节省）且精度损失仅 ~0.01%。
+  [NeurIPS 2025][地球科学][在线学习] 提出 Adaptive Online Emulation (AOE)，在物理模拟执行过程中动态训练 ELM 神经网络代理模型替代昂贵计算组件，无需离线预训练，在系外行星大气模拟上实现 11.1× 加速（91% 时间节省）且精度损失仅 ~0.01%。
 tags:
-  - NeurIPS 2025
-  - 在线学习
-  - 地球科学
-  - 时间步进模拟
-  - ELM
-  - 大气建模
+  - "NeurIPS 2025"
+  - "地球科学"
+  - "在线学习"
+  - "神经网络代理模型"
+  - "时间步进模拟"
+  - "ELM"
+  - "大气建模"
 ---
 
 # Adaptive Online Emulation for Accelerating Complex Physical Simulations

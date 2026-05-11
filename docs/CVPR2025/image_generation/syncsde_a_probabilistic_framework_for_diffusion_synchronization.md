@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SyncSDE: A Probabilistic Framework for Diffusion Synchronization
 description: >-
-  [CVPR 2025][图像生成][扩散模型同步] SyncSDE 提出一个概率理论框架来分析和改进扩散模型同步（diffusion synchronization），将同步过程分解为"原始分数函数"和"轨迹间相关性建模"两项，揭示了启发式策略应聚焦于相关性建模，从而用单一超参数 $\lambda$ 实现跨任务的最优同步策略，在 mask-based T2I、宽图生成、图像编辑、光学错觉图和3D纹理等多个任务上超越 SyncTweedies。
+  [CVPR 2025][图像生成][扩散模型同步] SyncSDE 提出一个概率理论框架来分析和改进扩散模型同步（diffusion synchronization），将同步过程分解为"原始分数函数"和"轨迹间相关性建模"两项，揭示了启发式策略应聚焦于相关性建模…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型同步
-  - 协作生成
-  - SDE框架
-  - 概率建模
-  - 多轨迹条件生成
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型同步"
+  - "协作生成"
+  - "SDE框架"
+  - "概率建模"
+  - "多轨迹条件生成"
 ---
 
 # SyncSDE: A Probabilistic Framework for Diffusion Synchronization

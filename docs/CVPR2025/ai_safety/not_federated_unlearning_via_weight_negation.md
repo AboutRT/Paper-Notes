@@ -1,14 +1,16 @@
 ---
-title: "[论文解读] NoT: Federated Unlearning via Weight Negation"
+title: >-
+  [论文解读] NoT: Federated Unlearning via Weight Negation
 description: >-
-  [CVPR 2025][AI安全] 提出NoT算法，通过权重取反(-1乘法)实现联邦遗忘，无需额外存储或访问目标数据，理论证明权重取反可破坏层间协同适应并保持近似最优性，在三数据集三架构上显著优于现有方法。
+  [CVPR 2025][AI安全][联邦遗忘] 提出 NoT 算法，通过对全局模型特定层的权重乘以 -1（取反）来破坏层间协同适应从而实现遗忘，再用保留数据微调恢复性能，无需额外存储或访问目标数据，在 CIFAR-10/100、Caltech-101 上以最低通信/计算开销显著优于七种基线方法。
 tags:
-  - CVPR 2025
-  - AI安全
-  - 机器遗忘
-  - 权重扰动
-  - 隐私保护
-  - GDPR
+  - "CVPR 2025"
+  - "AI安全"
+  - "联邦遗忘"
+  - "权重取反"
+  - "层间协同适应"
+  - "隐私保护"
+  - "模型扰动"
 ---
 
 # NoT: Federated Unlearning via Weight Negation

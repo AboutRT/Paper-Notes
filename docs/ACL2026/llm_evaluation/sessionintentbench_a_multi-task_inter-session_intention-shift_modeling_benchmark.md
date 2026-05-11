@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SessionIntentBench: A Multi-Task Inter-Session Intention-Shift Modeling Benchmark
 description: >-
-  [ACL 2026][购物意图] 本文提出 SessionIntentBench，一个评估 L(V)LM 理解电商购物会话中跨步骤意图漂移能力的多任务基准，包含四个递进式子任务（意图购买似然估计、属性正则化、意图验证对比、意图演化建模），构建了 190 万条意图条目和 113 万条意图轨迹，实验表明当前 20+ 个 L(V)LM 在捕获复杂会话意图方面表现不佳。
+  [ACL 2026][LLM评测][购物意图] 本文提出 SessionIntentBench，一个评估 L(V)LM 理解电商购物会话中跨步骤意图漂移能力的多任务基准，包含四个递进式子任务（意图购买似然估计、属性正则化、意图验证对比、意图演化建模），构建了 190 万条意图条目和 113 万条意图轨迹…
 tags:
-  - ACL 2026
-  - 购物意图
-  - 会话建模
-  - LLM评测
-  - 意图漂移
-  - 大语言模型评测
+  - "ACL 2026"
+  - "LLM评测"
+  - "购物意图"
+  - "会话建模"
+  - "电商推荐"
+  - "意图漂移"
+  - "大语言模型评测"
 ---
 
 # SessionIntentBench: A Multi-Task Inter-Session Intention-Shift Modeling Benchmark

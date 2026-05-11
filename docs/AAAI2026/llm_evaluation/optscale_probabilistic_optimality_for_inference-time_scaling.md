@@ -2,14 +2,15 @@
 title: >-
   [论文解读] OptScale: Probabilistic Optimality for Inference-time Scaling
 description: >-
-  [AAAI 2026][LLM评测] 提出概率最优框架 OptScale，通过建模验证器分数的概率分布推导出最优采样数量的理论下界，动态决定每个问题所需的最少采样次数，在保持推理准确率的同时大幅减少计算开销。
+  [AAAI 2026][LLM评测][推理时缩放] 提出概率最优框架 OptScale，通过建模验证器分数的概率分布推导出最优采样数量的理论下界，动态决定每个问题所需的最少采样次数，在保持推理准确率的同时大幅减少计算开销。
 tags:
-  - AAAI 2026
-  - LLM评测
-  - 并行采样
-  - 概率最优
-  - Best-of-N
-  - 计算效率
+  - "AAAI 2026"
+  - "LLM评测"
+  - "推理时缩放"
+  - "并行采样"
+  - "概率最优"
+  - "Best-of-N"
+  - "计算效率"
 ---
 
 # OptScale: Probabilistic Optimality for Inference-time Scaling

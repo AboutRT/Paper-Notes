@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Maximum Coverage in Turnstile Streams with Applications to Fingerprinting Measures
 description: >-
-  [ICML2025][其他] 首次在 turnstile 流模型（支持任意插入/删除）下给出最大覆盖问题的单遍流算法，空间 $\tilde{O}(d/\varepsilon^3)$、更新时间 $\tilde{O}(1)$，并将其推广到隐私指纹识别（fingerprinting）场景，实验比先前方法快 210×。
+  [ICML2025][maximum coverage] 首次在 turnstile 流模型（支持任意插入/删除）下给出最大覆盖问题的单遍流算法，空间 $\tilde{O}(d/\varepsilon^3)$、更新时间 $\tilde{O}(1)$，并将其推广到隐私指纹识别（fingerprinting）场景…
 tags:
-  - ICML2025
-  - 其他
-  - turnstile streaming
-  - linear sketch
-  - fingerprinting
-  - frequency moment
-  - submodular maximization
+  - "ICML2025"
+  - "maximum coverage"
+  - "turnstile streaming"
+  - "linear sketch"
+  - "fingerprinting"
+  - "frequency moment"
+  - "submodular maximization"
 ---
 
 # Maximum Coverage in Turnstile Streams with Applications to Fingerprinting Measures

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][brain alignment] 通过模拟联想记忆对文本进行数据增强，以及对 LLM 进行联想记忆指令微调，本文证明两种方式均能显著提升语言模型与人脑在语音理解任务中的对齐程度，尤其在内侧颞叶等联想记忆相关脑区。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - brain alignment
-  - associative memory
-  - fMRI
-  - 指令微调
-  - GPT-2
-  - LLaMA-2
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "brain alignment"
+  - "associative memory"
+  - "fMRI"
+  - "指令微调"
+  - "GPT-2"
+  - "LLaMA-2"
 ---
 
 # Improve Language Model and Brain Alignment via Associative Memory

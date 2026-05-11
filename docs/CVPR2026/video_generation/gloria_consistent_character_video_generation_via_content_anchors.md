@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Gloria: Consistent Character Video Generation via Content Anchors
 description: >-
-  [CVPR 2026][角色视频生成] Gloria 提出用一组紧凑的"内容锚帧"（Content Anchors）表征角色的多视角外观和表情身份，通过超集内容锚定（防止复制粘贴）和 RoPE 弱条件（区分多锚帧）两个机制，实现超过 10 分钟的长时一致角色视频生成。
+  [CVPR 2026][视频生成][角色视频生成] Gloria 提出用一组紧凑的"内容锚帧"（Content Anchors）表征角色的多视角外观和表情身份，通过超集内容锚定（防止复制粘贴）和 RoPE 弱条件（区分多锚帧）两个机制，实现超过 10 分钟的长时一致角色视频生成。
 tags:
-  - CVPR 2026
-  - 角色视频生成
-  - 一致性
-  - 内容锚帧
-  - 扩散模型
-  - 长视频
+  - "CVPR 2026"
+  - "视频生成"
+  - "角色视频生成"
+  - "一致性"
+  - "内容锚帧"
+  - "扩散模型"
+  - "长视频"
 ---
 
 # Gloria: Consistent Character Video Generation via Content Anchors

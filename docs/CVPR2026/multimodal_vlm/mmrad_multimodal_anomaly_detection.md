@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MMR-AD: A Large-Scale Multimodal Dataset for Benchmarking General Anomaly Detection with MLLMs
 description: >-
-  [CVPR 2026][多模态][异常检测] MMR-AD 构建了当前最大规模的多模态推理型工业异常检测数据集（127K 图像、188 类产品、395 种异常），并提出基于 GRPO 强化学习的 Anomaly-R1 基线模型，显著优于通用 MLLM。
+  [CVPR 2026][多模态VLM][异常检测] MMR-AD 构建了当前最大规模的多模态推理型工业异常检测数据集（127K 图像、188 类产品、395 种异常），并提出基于 GRPO 强化学习的 Anomaly-R1 基线模型，显著优于通用 MLLM。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 多模态大语言模型
-  - 推理数据集
-  - 强化学习
-  - 通用异常检测
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "异常检测"
+  - "多模态大语言模型"
+  - "推理数据集"
+  - "强化学习"
+  - "通用异常检测"
 ---
 
 # MMR-AD: A Large-Scale Multimodal Dataset for Benchmarking General Anomaly Detection with MLLMs

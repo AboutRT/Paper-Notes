@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion
 description: >-
-  [ECCV 2024][多视图合成] 提出SV3D，将图像到视频扩散模型适配为多视图合成和3D生成，利用视频模型的泛化能力和多视图一致性，并引入显式相机控制。
+  [ECCV 2024][视频生成][多视图合成] 提出SV3D，将图像到视频扩散模型适配为多视图合成和3D生成，利用视频模型的泛化能力和多视图一致性，并引入显式相机控制。
 tags:
-  - ECCV 2024
-  - 多视图合成
-  - 3D生成
-  - 视频扩散模型
-  - 视频生成
-  - 相机可控
+  - "ECCV 2024"
+  - "视频生成"
+  - "多视图合成"
+  - "3D生成"
+  - "视频扩散模型"
+  - "单图3D重建"
+  - "相机可控"
 ---
 
 # SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion

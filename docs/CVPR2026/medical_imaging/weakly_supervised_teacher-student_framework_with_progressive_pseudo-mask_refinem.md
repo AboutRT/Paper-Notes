@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][弱监督语义分割] 提出弱监督教师-学生框架，利用稀疏病理标注和 EMA 稳定的教师网络生成渐进式精炼伪掩码，结合置信度过滤、自适应融合和课程引导精炼策略，实现结直肠癌病理图像中腺体结构的高效分割。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 弱监督语义分割
-  - 教师-学生框架
-  - 伪掩码精炼
-  - 腺体分割
-  - 结直肠癌病理
+  - "CVPR 2026"
+  - "医学图像"
+  - "弱监督语义分割"
+  - "教师-学生框架"
+  - "伪掩码精炼"
+  - "腺体分割"
+  - "结直肠癌病理"
 ---
 
 # Weakly Supervised Teacher-Student Framework with Progressive Pseudo-mask Refinement for Gland Segmentation

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][位置识别] 本文提出ForestLPR，通过将点云在不同高度切片生成多张BEV密度图，利用ViT提取局部特征后经multi-BEV交互模块自适应关注不同高度的判别性特征，实现森林环境下鲁棒的LiDAR位置识别，在多个数据集上大幅超越SOTA。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 位置识别
-  - LiDAR
-  - BEV密度图
-  - 森林环境
-  - 多高度交互
-  - 旋转不变性
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "位置识别"
+  - "LiDAR"
+  - "BEV密度图"
+  - "森林环境"
+  - "多高度交互"
+  - "旋转不变性"
 ---
 
 # ForestLPR: LiDAR Place Recognition in Forests Attentioning Multiple BEV Density Images

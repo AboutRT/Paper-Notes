@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BiPrompt: Bilateral Prompt Optimization for Visual and Textual Debiasing in Vision-Language Models
 description: >-
-  [AAAI 2026][多模态][视觉-语言模型去偏] 提出 BiPrompt，一种双边 prompt 优化框架，在测试时同时缓解 CLIP 等 VLM 中视觉侧（结构化注意力擦除）和文本侧（平衡 prompt 归一化）的虚假偏差，无需重训练即可提升 OOD 鲁棒性。
+  [AAAI 2026][多模态VLM][视觉-语言模型去偏] 提出 BiPrompt，一种双边 prompt 优化框架，在测试时同时缓解 CLIP 等 VLM 中视觉侧（结构化注意力擦除）和文本侧（平衡 prompt 归一化）的虚假偏差，无需重训练即可提升 OOD 鲁棒性。
 tags:
-  - AAAI 2026
-  - 多模态
-  - 多模态VLM
-  - 测试时适应
-  - 因果推理
-  - 提示学习
-  - 虚假相关性
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "视觉-语言模型去偏"
+  - "测试时适应"
+  - "因果推理"
+  - "提示学习"
+  - "虚假相关性"
 ---
 
 # BiPrompt: Bilateral Prompt Optimization for Visual and Textual Debiasing in Vision-Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D场景生成] MIDI 将预训练的 image-to-3D 单物体生成模型扩展为多实例扩散模型，通过新颖的多实例注意力机制在 3D 生成过程中直接捕获物体间的空间交互关系，从单张图片同时生成多个具有正确空间布局的 3D 实例，在合成和真实数据集上均大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D场景生成
-  - 多实例扩散
-  - 单图3D重建
-  - 空间关系
-  - 注意力机制
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D场景生成"
+  - "多实例扩散"
+  - "单图3D重建"
+  - "空间关系"
+  - "注意力机制"
 ---
 
 # MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation

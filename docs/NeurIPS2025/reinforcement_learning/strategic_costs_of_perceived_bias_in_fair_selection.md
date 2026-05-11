@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Strategic Costs of Perceived Bias in Fair Selection
 description: >-
-  [NeurIPS 2025][公平选拔] 通过博弈论模型揭示"感知驱动偏差"机制：在完全基于能力的选拔系统中，不同社会经济群体对选拔后价值的感知差异会导致理性的努力差异，从而在"公平"的流程中系统性地传播不平等。
+  [NeurIPS 2025][强化学习][公平选拔] 通过博弈论模型揭示"感知驱动偏差"机制：在完全基于能力的选拔系统中，不同社会经济群体对选拔后价值的感知差异会导致理性的努力差异，从而在"公平"的流程中系统性地传播不平等。
 tags:
-  - NeurIPS 2025
-  - 公平选拔
-  - 博弈论
-  - Nash均衡
-  - 感知偏差
-  - 社会福利
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "公平选拔"
+  - "博弈论"
+  - "Nash均衡"
+  - "感知偏差"
+  - "社会福利"
 ---
 
 # Strategic Costs of Perceived Bias in Fair Selection

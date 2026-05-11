@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL2025][LLM Agent][学术论文搜索] PaSa 是一个基于 LLM 的学术论文搜索智能体，通过自主调用搜索工具、阅读论文和导航引用网络来实现全面准确的学术文献检索，经 RL 训练后在真实场景中大幅超越 Google Scholar 和 GPT-4o。
 tags:
-  - ACL2025
-  - LLM Agent
-  - 学术论文搜索
-  - 强化学习
-  - 引用网络
-  - 论文检索
+  - "ACL2025"
+  - "LLM Agent"
+  - "学术论文搜索"
+  - "强化学习"
+  - "引用网络"
+  - "论文检索"
 ---
 
 # PaSa: An LLM Agent for Comprehensive Academic Paper Search

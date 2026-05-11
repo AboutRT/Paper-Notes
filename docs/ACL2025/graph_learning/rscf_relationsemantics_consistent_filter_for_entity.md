@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][图学习][KGE] 提出 RSCF 插件式 KGE 方法，通过共享仿射变换 + 根植实体变换 + 归一化三特征确保"语义相似的关系产生相似的实体变换"（关系语义一致性），在距离模型和张量分解模型上均显著超越 SOTA，并从理论和实验上验证了一致性保持率。
 tags:
-  - ACL 2025
-  - 图学习
-  - KGE
-  - entity transformation
-  - relation semantics
-  - consistency
-  - plug-in
+  - "ACL 2025"
+  - "图学习"
+  - "KGE"
+  - "entity transformation"
+  - "relation semantics"
+  - "consistency"
+  - "plug-in"
 ---
 
 # RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph

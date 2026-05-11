@@ -2,15 +2,16 @@
 title: >-
   [论文解读] When and Where to Reset Matters for Long-Term Test-Time Adaptation
 description: >-
-  [ICLR 2026][测试时适应] ASR提出自适应选择性重置方案，通过预测集中度 $\mathcal{C}_t$ 动态判断何时重置（避免固定周期的次优性），通过从output层向input层渐进的层选择策略判断重置哪些层（保留有价值的适应知识），配合importance-aware正则化恢复被重置的关键知识和on-the-fly适应调整，在CCC-Hard上比SOTA提升44.12%。
+  [ICLR 2026][音频/语音][测试时适应] ASR提出自适应选择性重置方案，通过预测集中度 $\mathcal{C}_t$ 动态判断何时重置（避免固定周期的次优性），通过从output层向input层渐进的层选择策略判断重置哪些层（保留有价值的适应知识）…
 tags:
-  - ICLR 2026
-  - 测试时适应
-  - 模型崩溃
-  - 自适应重置
-  - 选择性重置
-  - Fisher信息
-  - 长期域漂移
+  - "ICLR 2026"
+  - "音频/语音"
+  - "测试时适应"
+  - "模型崩溃"
+  - "自适应重置"
+  - "选择性重置"
+  - "Fisher信息"
+  - "长期域漂移"
 ---
 
 # When and Where to Reset Matters for Long-Term Test-Time Adaptation

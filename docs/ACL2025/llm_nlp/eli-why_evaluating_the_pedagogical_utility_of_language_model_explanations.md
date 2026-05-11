@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][LLM/NLP][教育评估] 构建了包含 13.4K "Why" 问题的 ELI-Why 基准，通过两项人类研究发现 GPT-4 生成的面向不同教育水平的解释仅 50% 能匹配目标年级（人工策划达 79%），且对学习者信息需求的满足度比人类答案低 20%。
 tags:
-  - ACL2025
-  - LLM/NLP
-  - 教育评估
-  - 语言模型解释
-  - 教学适配
-  - 信息需求
-  - 可读性分析
+  - "ACL2025"
+  - "LLM/NLP"
+  - "教育评估"
+  - "语言模型解释"
+  - "教学适配"
+  - "信息需求"
+  - "可读性分析"
 ---
 
 # ELI-Why: Evaluating the Pedagogical Utility of Language Model Explanations

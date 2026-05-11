@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][AI安全][后门攻击防御] 本文提出Distance-Driven Detoxification（D3），将后门防御重新表述为约束优化问题——最大化微调后模型权重与中毒初始权重的距离，同时约束干净样本损失不超过阈值，从而有效逃逸"后门区域"，在7种SOTA攻击上取得最优或次优防御效果。
 tags:
-  - ICCV 2025
-  - AI安全
-  - 后门攻击防御
-  - 微调
-  - 距离驱动
-  - 约束优化
-  - 模型净化
+  - "ICCV 2025"
+  - "AI安全"
+  - "后门攻击防御"
+  - "微调"
+  - "距离驱动"
+  - "约束优化"
+  - "模型净化"
 ---
 
 # Backdoor Mitigation by Distance-Driven Detoxification

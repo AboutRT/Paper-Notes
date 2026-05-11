@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models
 description: >-
-  [ACL 2026 (Findings)][公共政策理解] 本文提出 PolicyBench（21K 题的中美跨体制政策理解基准）和 PolicyMoE（基于认知层次的混合专家模型），系统评估 11 个 SOTA LLM 在政策记忆/理解/应用三层次上的能力，发现模型在结构化推理上表现好但在抽象政策概念上仍然薄弱。
+  [ACL 2026 (Findings)][信号/通信][公共政策理解] 本文提出 PolicyBench（21K 题的中美跨体制政策理解基准）和 PolicyMoE（基于认知层次的混合专家模型），系统评估 11 个 SOTA LLM 在政策记忆/理解/应用三层次上的能力…
 tags:
-  - ACL 2026 (Findings)
-  - 公共政策理解
-  - 跨体制基准
-  - Bloom认知层次
-  - 混合专家模型
-  - 信号通信
+  - "ACL 2026 (Findings)"
+  - "信号/通信"
+  - "公共政策理解"
+  - "跨体制基准"
+  - "Bloom认知层次"
+  - "混合专家模型"
+  - "政策推理"
 ---
 
 # PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models

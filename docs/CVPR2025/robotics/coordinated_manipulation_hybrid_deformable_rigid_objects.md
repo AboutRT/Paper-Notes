@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][变形线性物体] 本文提出基于应变参数化 Cosserat 杆模型（GVS）的准静态轨迹优化框架，用于双臂机器人在约束环境中协调操纵混合变形-刚性线性物体（hDLO），利用解析梯度实现比有限差分快 33 倍的求解速度，并在真实双臂平台上验证了 ~3cm 的变形误差。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 变形线性物体
-  - Cosserat杆模型
-  - 轨迹优化
-  - 双臂协调
-  - 约束环境
+  - "CVPR 2025"
+  - "机器人"
+  - "变形线性物体"
+  - "Cosserat杆模型"
+  - "轨迹优化"
+  - "双臂协调"
+  - "约束环境"
 ---
 
 # Coordinated Manipulation of Hybrid Deformable-Rigid Objects in Constrained Environments

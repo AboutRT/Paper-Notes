@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][图像编辑] 提出"可编辑图像元素"表示，将输入图像分解为一组语义对齐的 patch embeddings（类似超像素），每个 patch 关联位置和尺寸信息，用户可直接编辑这些属性（移动、缩放、删除），再由基于 Stable Diffusion 的解码器合成真实感图像。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 图像编辑
-  - 扩散模型
-  - 可编辑表示
-  - 超像素分解
-  - 空间控制
+  - "ECCV 2024"
+  - "图像生成"
+  - "图像编辑"
+  - "扩散模型"
+  - "可编辑表示"
+  - "超像素分解"
+  - "空间控制"
 ---
 
 # Editable Image Elements for Controllable Synthesis

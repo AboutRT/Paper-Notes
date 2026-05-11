@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR2025][医学图像][半监督学习] 提出 SMART 框架，基于 SAM3 的教师-学生结构结合文本概念提示、置信度感知一致性正则化和双流时序一致性，实现 X 光冠脉造影视频的半监督血管分割。
 tags:
-  - CVPR2025
-  - 医学图像
-  - 半监督学习
-  - 图像分割
-  - coronary angiography
-  - SAM3
-  - 光流
-  - 不确定性
+  - "CVPR2025"
+  - "医学图像"
+  - "半监督学习"
+  - "图像分割"
+  - "coronary angiography"
+  - "SAM3"
+  - "光流"
+  - "不确定性"
 ---
 
 # Uncertainty-Aware Concept and Motion Segmentation for Semi-Supervised Angiography Videos

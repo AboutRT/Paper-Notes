@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Adaptive Multi-head Contrastive Learning
 description: >-
-  [ECCV 2024][目标检测][对比学习] 本文提出AMCL（Adaptive Multi-head Contrastive Learning），通过多个投影头产生不同特征视角，配合基于MLE推导的自适应温度机制为每对样本独立加权，有效解决了多种数据增强下正负样本相似度分布重叠的问题，一致提升SimCLR、MoCo和Barlow Twins的性能。
+  [ECCV 2024][目标检测][对比学习] 本文提出AMCL（Adaptive Multi-head Contrastive Learning），通过多个投影头产生不同特征视角，配合基于MLE推导的自适应温度机制为每对样本独立加权，有效解决了多种数据增强下正负样本相似度分布重叠的问题…
 tags:
-  - ECCV 2024
-  - 目标检测
-  - 对比学习
-  - 多头投影
-  - 自适应温度
-  - 相似度建模
-  - 数据增强
+  - "ECCV 2024"
+  - "目标检测"
+  - "对比学习"
+  - "多头投影"
+  - "自适应温度"
+  - "相似度建模"
+  - "数据增强"
 ---
 
 # Adaptive Multi-head Contrastive Learning

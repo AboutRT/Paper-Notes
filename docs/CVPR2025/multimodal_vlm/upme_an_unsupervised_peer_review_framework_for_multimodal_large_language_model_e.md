@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation
 description: >-
-  [CVPR 2025][多模态][MLLM评估] 提出UPME框架，通过**无监督同行评审机制**、**视觉-语言评分系统**和**动态权重优化**，仅使用图像数据就能让多个MLLM互相出题评审，在MMStar上与人工评估的Pearson相关性达0.944，有效缓解了MLLM评估对人工标注的依赖和评审偏差问题。
+  [CVPR 2025][多模态VLM][MLLM评估] 提出UPME框架，通过**无监督同行评审机制**、**视觉-语言评分系统**和**动态权重优化**，仅使用图像数据就能让多个MLLM互相出题评审，在MMStar上与人工评估的Pearson相关性达0.944…
 tags:
-  - CVPR 2025
-  - 多模态
-  - MLLM评估
-  - 多模态VLM
-  - 同行评审
-  - 视觉语言评分
-  - 动态权重优化
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "MLLM评估"
+  - "无监督评估"
+  - "同行评审"
+  - "视觉语言评分"
+  - "动态权重优化"
 ---
 
 # UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][第一人称动作识别] 提出 EVI-MAE，首个联合第一人称视频与身体穿戴 IMU 的多模态表示学习方法，通过 MAE 自监督预训练学习视频-IMU 跨模态对齐，并用图神经网络建模多 IMU 设备间的协同运动关系，在动作识别中取得 SOTA 且具备优秀的鲁棒性。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 第一人称动作识别
-  - 惯性测量单元 (IMU)
-  - 多模态掩码自编码器
-  - 图神经网络
-  - 自监督学习
+  - "ECCV 2024"
+  - "视频理解"
+  - "第一人称动作识别"
+  - "惯性测量单元 (IMU)"
+  - "多模态掩码自编码器"
+  - "图神经网络"
+  - "自监督学习"
 ---
 
 # Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition

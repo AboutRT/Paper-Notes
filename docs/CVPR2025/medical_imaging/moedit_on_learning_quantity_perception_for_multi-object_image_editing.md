@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][multi-object editing] 提出无辅助工具的多物体图像编辑框架 MoEdit，通过 FeCom 模块补偿 CLIP 编码中物体属性的交叉混淆、QTTN 模块注入数量感知到 U-Net，实现编辑前后物体数量一致且属性互不干扰。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - multi-object editing
-  - quantity perception
-  - feature compensation
-  - 扩散模型
-  - SDXL
+  - "CVPR 2025"
+  - "医学图像"
+  - "multi-object editing"
+  - "quantity perception"
+  - "feature compensation"
+  - "扩散模型"
+  - "SDXL"
 ---
 
 # MoEdit: On Learning Quantity Perception for Multi-Object Image Editing

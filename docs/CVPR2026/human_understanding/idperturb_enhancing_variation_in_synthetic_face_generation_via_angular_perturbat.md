@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][人体理解][合成人脸] 提出 IDperturb，一种在单位超球面上对身份嵌入进行角度扰动的几何采样策略，无需修改生成模型即可显著增强合成人脸数据集的类内多样性，提升下游人脸识别性能。
 tags:
-  - CVPR 2026
-  - 人体理解
-  - 合成人脸
-  - 身份扰动
-  - 角度采样
-  - 扩散模型
-  - 人脸识别
+  - "CVPR 2026"
+  - "人体理解"
+  - "合成人脸"
+  - "身份扰动"
+  - "角度采样"
+  - "扩散模型"
+  - "人脸识别"
 ---
 
 # IDperturb: Enhancing Variation in Synthetic Face Generation via Angular Perturbations

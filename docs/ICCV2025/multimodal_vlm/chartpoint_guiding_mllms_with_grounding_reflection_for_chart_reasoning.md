@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ChartPoint: Guiding MLLMs with Grounding Reflection for Chart Reasoning
 description: >-
-  [ICCV 2025][多模态VLM][图表推理] 提出PointCoT方法，将反思性视觉定位（bounding box）集成到图表推理的思维链中，使MLLM在每个推理步骤都能与图表视觉内容交互验证，并构建了包含19.2K高质量样本的ChartPoint-SFT-62k数据集，在ChartBench上实现+5.04%的提升。
+  [ICCV 2025][多模态VLM][图表推理] 提出PointCoT方法，将反思性视觉定位（bounding box）集成到图表推理的思维链中，使MLLM在每个推理步骤都能与图表视觉内容交互验证，并构建了包含19.2K高质量样本的ChartPoint-SFT-62k数据集…
 tags:
-  - ICCV 2025
-  - 多模态VLM
-  - 图表推理
-  - 多模态大模型
-  - Chain-of-Thought
-  - 视觉定位
-  - 数值幻觉
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "图表推理"
+  - "多模态大模型"
+  - "Chain-of-Thought"
+  - "视觉定位"
+  - "数值幻觉"
 ---
 
 # ChartPoint: Guiding MLLMs with Grounding Reflection for Chart Reasoning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Semantic Audio-Visual Navigation in Continuous Environments
 description: >-
-  [CVPR 2026][语音][音视觉导航] 本文提出 SAVN-CE 任务，将语义音视觉导航扩展到连续3D环境中，并设计 MAGNet（记忆增强目标描述网络），通过融合历史上下文和自运动线索实现在目标声音消失后的稳健目标推理，成功率绝对提升最高达 12.1%。
+  [CVPR 2026][音频/语音][音视觉导航] 本文提出 SAVN-CE 任务，将语义音视觉导航扩展到连续3D环境中，并设计 MAGNet（记忆增强目标描述网络），通过融合历史上下文和自运动线索实现在目标声音消失后的稳健目标推理，成功率绝对提升最高达 12.1%。
 tags:
-  - CVPR 2026
-  - 语音
-  - 音频语音
-  - 连续环境
-  - 记忆增强
-  - 目标推理
-  - 具身智能
+  - "CVPR 2026"
+  - "音频/语音"
+  - "音视觉导航"
+  - "连续环境"
+  - "记忆增强"
+  - "目标推理"
+  - "具身智能"
 ---
 
 # Semantic Audio-Visual Navigation in Continuous Environments

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026 Oral][auto-bidding] 提出 AIGB-Pearl，为生成式自动竞价方法引入离线轨迹评估器和 KL-Lipschitz 约束的分数最大化方案，使生成模型能在理论保证下安全地突破静态离线数据的性能天花板，在淘宝真实广告系统上实现 GMV +3% 的显著提升。
 tags:
-  - ICLR 2026 Oral
-  - auto-bidding
-  - 其他
-  - offline RL
-  - trajectory evaluator
-  - KL-Lipschitz constraint
+  - "ICLR 2026 Oral"
+  - "auto-bidding"
+  - "generative planning"
+  - "offline RL"
+  - "trajectory evaluator"
+  - "KL-Lipschitz constraint"
 ---
 
 # Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search

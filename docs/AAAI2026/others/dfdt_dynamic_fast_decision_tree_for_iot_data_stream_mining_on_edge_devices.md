@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][决策树] 提出 DFDT（Dynamic Fast Decision Tree），一种面向 IoT 边缘设备的内存受限数据流挖掘算法，通过活动感知预剪枝、动态 grace period、自适应 tie threshold 三重机制有机调控树的增长，实现精度-内存-运行时间的最优权衡。
 tags:
-  - AAAI 2026
-  - 决策树
-  - 数据流挖掘
-  - 边缘设备
-  - 概念漂移
-  - 内存约束
+  - "AAAI 2026"
+  - "决策树"
+  - "数据流挖掘"
+  - "边缘设备"
+  - "概念漂移"
+  - "内存约束"
 ---
 
 # DFDT: Dynamic Fast Decision Tree for IoT Data Stream Mining on Edge Devices

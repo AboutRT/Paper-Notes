@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DragAnything: Motion Control for Anything using Entity Representation
 description: >-
-  [ECCV 2024][可控视频生成] 提出DragAnything，利用扩散模型的隐空间特征作为实体表征（Entity Representation）来实现实体级运动控制，解决了现有轨迹驱动方法仅拖拽像素而无法精确控制目标对象运动的问题，在VIPSeg上实现SOTA的FVD/FID指标，用户研究中运动控制投票超出DragNUWA 26%。
+  [ECCV 2024][视频生成][可控视频生成] 提出DragAnything，利用扩散模型的隐空间特征作为实体表征（Entity Representation）来实现实体级运动控制，解决了现有轨迹驱动方法仅拖拽像素而无法精确控制目标对象运动的问题，在VIPSeg上实现SOTA的FVD/FID指标…
 tags:
-  - ECCV 2024
-  - 可控视频生成
-  - 运动控制
-  - 实体表征
-  - 扩散模型
-  - 轨迹引导
+  - "ECCV 2024"
+  - "视频生成"
+  - "可控视频生成"
+  - "运动控制"
+  - "实体表征"
+  - "扩散模型"
+  - "轨迹引导"
 ---
 
 # DragAnything: Motion Control for Anything using Entity Representation

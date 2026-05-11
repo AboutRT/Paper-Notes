@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning
 description: >-
-  [ICLR 2026][代码智能] 提出 Supervised Reinforcement Learning (SRL)，将问题求解重新建模为逐步动作生成过程，通过基于序列相似度的密集奖励信号，使小模型能够从专家轨迹中学习原本 SFT 和 RLVR 都无法解决的困难推理问题。
+  [ICLR 2026][代码智能][强化学习] 提出 Supervised Reinforcement Learning (SRL)，将问题求解重新建模为逐步动作生成过程，通过基于序列相似度的密集奖励信号，使小模型能够从专家轨迹中学习原本 SFT 和 RLVR 都无法解决的困难推理问题。
 tags:
-  - ICLR 2026
-  - 代码智能
-  - 监督学习
-  - 逐步推理
-  - 序列相似度奖励
-  - 难题学习
+  - "ICLR 2026"
+  - "代码智能"
+  - "强化学习"
+  - "监督学习"
+  - "逐步推理"
+  - "序列相似度奖励"
+  - "难题学习"
 ---
 
 # Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning

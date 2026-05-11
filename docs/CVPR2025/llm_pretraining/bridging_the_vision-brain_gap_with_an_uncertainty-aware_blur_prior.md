@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior
 description: >-
-  [CVPR 2025][脑信号解码] 提出不确定性感知模糊先验(UBP)方法，通过估计脑信号与视觉刺激间的不确定性动态模糊图像高频细节，在零样本脑-图像检索任务上大幅超越SOTA。
+  [CVPR 2025][预训练][视觉-脑域差距] 提出不确定性感知的模糊先验，为从脑信号（fMRI）重建视觉刺激提供物理合理的图像退化模型，缓解大脑编码过程中高频信息丢失对重建质量的影响。
 tags:
-  - CVPR 2025
-  - 脑信号解码
-  - EEG
-  - LLM预训练
-  - 对比学习
-  - 模糊先验
+  - "CVPR 2025"
+  - "预训练"
+  - "视觉-脑域差距"
+  - "不确定性感知"
+  - "模糊先验"
+  - "fMRI解码"
+  - "图像重建"
 ---
 
 # Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior

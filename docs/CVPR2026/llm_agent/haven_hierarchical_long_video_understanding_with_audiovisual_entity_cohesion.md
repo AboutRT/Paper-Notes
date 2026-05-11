@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM Agent][长视频理解] HAVEN 提出音视频实体凝聚 + 层次索引 + Agent搜索的统一框架，通过说话人身份作为跨模态一致性信号，构建全局-场景-片段-实体四级层次数据库，在LVBench上达到84.1%整体准确率的SOTA。
 tags:
-  - CVPR 2026
-  - LLM Agent
-  - 长视频理解
-  - 层次索引
-  - 实体一致性
-  - Agent搜索
-  - 音视频融合
+  - "CVPR 2026"
+  - "LLM Agent"
+  - "长视频理解"
+  - "层次索引"
+  - "实体一致性"
+  - "Agent搜索"
+  - "音视频融合"
 ---
 
 # HAVEN: Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search

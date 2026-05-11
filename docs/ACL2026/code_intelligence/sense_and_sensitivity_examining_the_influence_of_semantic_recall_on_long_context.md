@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sense and Sensitivity: Examining the Influence of Semantic Recall on Long Context Code Understanding
 description: >-
-  [ACL 2026][语义召回] 本文提出区分词汇召回（逐字检索代码）和语义召回（理解代码运行语义）两种能力，发现前沿 LLM 在长上下文中词汇召回近乎完美但语义召回严重退化，并引入 SemTrace 基准揭示现有评估严重低估了语义理解失败的程度。
+  [ACL 2026][代码智能][语义召回] 本文提出区分词汇召回（逐字检索代码）和语义召回（理解代码运行语义）两种能力，发现前沿 LLM 在长上下文中词汇召回近乎完美但语义召回严重退化，并引入 SemTrace 基准揭示现有评估严重低估了语义理解失败的程度。
 tags:
-  - ACL 2026
-  - 语义召回
-  - 词汇召回
-  - 代码智能
-  - 代码理解
-  - Lost-in-the-Middle
+  - "ACL 2026"
+  - "代码智能"
+  - "语义召回"
+  - "词汇召回"
+  - "长上下文"
+  - "代码理解"
+  - "Lost-in-the-Middle"
 ---
 
 # Sense and Sensitivity: Examining the Influence of Semantic Recall on Long Context Code Understanding

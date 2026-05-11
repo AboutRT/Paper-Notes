@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][4D Gaussian Splatting] 提出 4DGC，一个率失真感知的 4D 高斯压缩框架，通过运动感知动态高斯建模（多分辨率运动网格+稀疏补偿高斯）和端到端压缩（可微量化+隐式熵模型），在 3DGStream 基础上实现 16 倍压缩且不损失渲染质量。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 4D Gaussian Splatting
-  - video compression
-  - rate-distortion
-  - free-viewpoint video
-  - streamable
+  - "CVPR 2025"
+  - "3D视觉"
+  - "4D Gaussian Splatting"
+  - "video compression"
+  - "rate-distortion"
+  - "free-viewpoint video"
+  - "streamable"
 ---
 
 # 4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video

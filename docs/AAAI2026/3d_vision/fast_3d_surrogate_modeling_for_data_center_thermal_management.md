@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Fast 3D Surrogate Modeling for Data Center Thermal Management
 description: >-
-  [AAAI 2026][3D视觉][代理模型] 本文开发了基于视觉的 3D 代理建模框架，通过将数据中心的服务器负载、风扇速度和空调温度设定点编码为 3D 体素表示，利用 3D CNN U-Net、3D 傅里叶神经算子和 3D Vision Transformer 等架构实现实时温度场预测，速度比传统 CFD 求解器快 20000 倍，同时实现 7% 的能耗节约。
+  [AAAI 2026][3D视觉][代理模型] 本文开发了基于视觉的 3D 代理建模框架，通过将数据中心的服务器负载、风扇速度和空调温度设定点编码为 3D 体素表示，利用 3D CNN U-Net、3D 傅里叶神经算子和 3D Vision Transformer 等架构实现实时温度场预测…
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 代理模型
-  - 数据中心热管理
-  - 3D体素化
-  - 傅里叶神经算子
-  - 温度预测
+  - "AAAI 2026"
+  - "3D视觉"
+  - "代理模型"
+  - "数据中心热管理"
+  - "3D体素化"
+  - "傅里叶神经算子"
+  - "温度预测"
 ---
 
 # Fast 3D Surrogate Modeling for Data Center Thermal Management

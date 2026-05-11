@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] COMPASS 通过在分割网络的中间特征空间沿**对目标度量最敏感的低维子空间**进行线性扰动来构建 conformal prediction 区间，在四个医学分割任务上实现了比传统 CP 方法显著更窄的预测区间，同时保持有效覆盖率。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # COMPASS: Robust Feature Conformal Prediction for Medical Segmentation Metrics
@@ -99,7 +99,7 @@ COMPASS 不修改分割模型的训练。面积度量通过对 logits 应用 sof
 ### 关键发现
 
 1. **单调性普遍成立**: 沿 COMPASS-J 方向扰动在所有四个数据集上均导致度量单调变化，使得高效端点算法成立
-2. **压缩幂律关系**: 特征空间分数 $R_{\text{COMPASS}}$ 与输出空间误差 $R_{\text{SCP}}$ 之间存在亚线性缩放（log-log 斜率 <1），系统性压缩尾部分布，这是区间更紧的根本机制
+2. **压缩幂律关系**: 特征空间分数 $R_{\text{COMPASS}}$ 与输出空间误差 $R_{\text{SCP}}$ 之间存在亚线性缩放（log-log 斜率 &lt;1），系统性压缩尾部分布，这是区间更紧的根本机制
 3. **深层表征 > 浅层**: COMPASS-J（深层特征）始终优于 COMPASS-L（logits），因为深层特征提供更丰富的度量敏感信号
 
 ## 亮点与洞察

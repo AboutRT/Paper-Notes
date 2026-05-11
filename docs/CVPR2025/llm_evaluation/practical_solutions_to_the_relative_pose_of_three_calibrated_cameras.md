@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Practical Solutions to the Relative Pose of Three Calibrated Cameras
 description: >-
-  [CVPR 2025][三视图相对位姿] 本文针对三个标定相机的四点三视图（4p3v）相对位姿估计这一经典难题，提出了基于近似几何的实用求解方案——利用仿射相机近似或均值点近似对应来估计前两个相机的相对位姿，再通过P3P注册第三个相机，配合局部优化在真实数据上取得了SOTA精度。
+  [CVPR 2025][LLM评测][三视图相对位姿] 本文针对三个标定相机的四点三视图（4p3v）相对位姿估计这一经典难题，提出了基于近似几何的实用求解方案——利用仿射相机近似或均值点近似对应来估计前两个相机的相对位姿，再通过P3P注册第三个相机，配合局部优化在真实数据上取得了SOTA精度。
 tags:
-  - CVPR 2025
-  - 三视图相对位姿
-  - 最小求解器
-  - 均值点对应
-  - RANSAC
-  - 多视图几何
+  - "CVPR 2025"
+  - "LLM评测"
+  - "三视图相对位姿"
+  - "最小求解器"
+  - "均值点对应"
+  - "RANSAC"
+  - "多视图几何"
 ---
 
 # Practical Solutions to the Relative Pose of Three Calibrated Cameras

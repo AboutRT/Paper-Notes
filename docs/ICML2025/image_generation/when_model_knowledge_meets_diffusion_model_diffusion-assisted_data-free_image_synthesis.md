@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DDIS: When Model Knowledge Meets Diffusion Model
 description: >-
-  [ICML2025][图像生成][Data-Free Image Synthesis] 提出DDIS——首个利用T2I扩散模型作为图像先验的无数据图像合成方法，通过Domain Alignment Guidance (DAG)在扩散采样过程中对齐BN层域统计量、Class Alignment Token (CAT)编码类特定属性，在ImageNet-1k和多域PACS上全面超越现有DFIS方法。
+  [ICML2025][图像生成][Data-Free Image Synthesis] 提出DDIS——首个利用T2I扩散模型作为图像先验的无数据图像合成方法，通过Domain Alignment Guidance (DAG)在扩散采样过程中对齐BN层域统计量、Class Alignment Token (C…
 tags:
-  - ICML2025
-  - 图像生成
-  - Data-Free Image Synthesis
-  - 扩散模型
-  - Domain Alignment
-  - Class Alignment Token
-  - 知识蒸馏
+  - "ICML2025"
+  - "图像生成"
+  - "Data-Free Image Synthesis"
+  - "扩散模型"
+  - "Domain Alignment"
+  - "Class Alignment Token"
+  - "知识蒸馏"
 ---
 
 # DDIS: When Model Knowledge Meets Diffusion Model

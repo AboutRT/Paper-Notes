@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026 (Oral)][自动驾驶][语义场景补全] OccuFly 提出了首个真实世界航拍视角的相机基语义场景补全（SSC）基准数据集，包含 2 万+ 样本、21 个语义类别，覆盖多季节多海拔的城市/工业/农村场景，并揭示了当前视觉基础模型在航拍场景下的根本局限。
 tags:
-  - CVPR 2026 (Oral)
-  - 自动驾驶
-  - 语义场景补全
-  - 航拍视角
-  - 无人机
-  - 基准数据集
-  - 深度估计
+  - "CVPR 2026 (Oral)"
+  - "自动驾驶"
+  - "语义场景补全"
+  - "航拍视角"
+  - "无人机"
+  - "基准数据集"
+  - "深度估计"
 ---
 
 # OccuFly: A 3D Vision Benchmark for Semantic Scene Completion from the Aerial Perspective

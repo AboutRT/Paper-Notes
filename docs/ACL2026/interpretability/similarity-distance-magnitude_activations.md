@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Similarity-Distance-Magnitude Activations
 description: >-
-  [ACL 2026][激活函数] 本文提出 SDM（Similarity-Distance-Magnitude）激活函数作为 softmax 的更鲁棒替代，通过将正确预测的深度匹配（Similarity）、到训练分布的距离（Distance）和决策边界距离（Magnitude）三个认知维度解耦并整合为新的激活 $\text{sdm}(\mathbf{z}')_i = (2+q)^{d \cdot z'_i} / \sum_c (2+q)^{d \cdot z'_c}$，并在此基础上构建 SDM 估计器进行选择性分类，在协变量偏移和分布外输入下比现有校准方法更鲁棒。
+  [ACL 2026][可解释性][激活函数] 本文提出 SDM（Similarity-Distance-Magnitude）激活函数作为 softmax 的更鲁棒替代，通过将正确预测的深度匹配（Similarity）、到训练分布的距离（Distance）和决策边界距离（Magnitude）三个认知维度解耦并整…
 tags:
-  - ACL 2026
-  - 激活函数
-  - softmax替代
-  - 选择性分类
-  - 可解释性
-  - 预测不确定性
+  - "ACL 2026"
+  - "可解释性"
+  - "激活函数"
+  - "softmax替代"
+  - "选择性分类"
+  - "分布外检测"
+  - "预测不确定性"
 ---
 
 # Similarity-Distance-Magnitude Activations

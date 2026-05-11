@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][功能图] 本文提出了功能图求解器的向量化重构实现33倍加速，识别并记录了DiffusionNet的两个未记录实现变体，引入平衡准确率作为部分匹配评估的补充指标，并发布了统一的开源代码库。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 功能图
-  - 形状匹配
-  - 加速求解器
-  - 扩散模型
-  - 开源工具包
+  - "CVPR 2026"
+  - "3D视觉"
+  - "功能图"
+  - "形状匹配"
+  - "加速求解器"
+  - "扩散模型"
+  - "开源工具包"
 ---
 
 # DeepShapeMatchingKit: Accelerated Functional Map Solver and Shape Matching Pipelines Revisited

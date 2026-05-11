@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][网格生成] 提出 Mesh-RFT 框架，通过拓扑感知评分系统和掩码直接偏好优化（M-DPO）实现面级别的细粒度网格质量优化，显著提升生成网格的几何完整性和拓扑规则性。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 网格生成
-  - 强化微调
-  - DPO
-  - 拓扑感知
-  - 细粒度优化
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "网格生成"
+  - "强化微调"
+  - "DPO"
+  - "拓扑感知"
+  - "细粒度优化"
 ---
 
 # Mesh-RFT: Enhancing Mesh Generation via Fine-Grained Reinforcement Fine-Tuning

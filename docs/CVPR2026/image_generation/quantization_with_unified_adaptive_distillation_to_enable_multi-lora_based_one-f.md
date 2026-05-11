@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][LoRA量化] 本文提出QUAD框架，将LoRA权重作为运行时输入而非编译到模型图中，结合跨LoRA共享量化参数的蒸馏微调策略，实现单个编译模型在移动端NPU上动态切换多个GenAI任务，达到6倍内存压缩和4倍延迟改善。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - LoRA量化
-  - 边缘部署
-  - 知识蒸馏
-  - 扩散模型
-  - 运行时任务切换
+  - "CVPR 2026"
+  - "图像生成"
+  - "LoRA量化"
+  - "边缘部署"
+  - "知识蒸馏"
+  - "扩散模型"
+  - "运行时任务切换"
 ---
 
 # Quantization with Unified Adaptive Distillation to enable multi-LoRA based one-for-all Generative Vision Models on edge

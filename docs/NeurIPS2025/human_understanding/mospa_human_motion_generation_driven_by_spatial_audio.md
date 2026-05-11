@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MOSPA: Human Motion Generation Driven by Spatial Audio
 description: >-
-  [NeurIPS 2025][人体理解][空间音频] 首次定义"空间音频驱动人体运动生成"这一新任务，构建包含 9+ 小时、27 种场景、12 名受试者的双耳音频-运动配对 SAM 数据集，提出 MOSPA 扩散模型在融合 MFCC/tempogram/RMS 等音频特征与声源位置及运动风格条件后，以 FID 7.98 大幅领先 EDGE（14.0）、POPDG（21.0）等音乐/舞蹈基线。
+  [NeurIPS 2025][人体理解][空间音频] 首次定义"空间音频驱动人体运动生成"这一新任务，构建包含 9+ 小时、27 种场景、12 名受试者的双耳音频-运动配对 SAM 数据集，提出 MOSPA 扩散模型在融合 MFCC/tempogram/RMS 等音频特征与声源位置及运动风格条件后…
 tags:
-  - NeurIPS 2025
-  - 人体理解
-  - 空间音频
-  - 运动生成
-  - 扩散模型
-  - SAM 数据集
-  - 双耳音频
+  - "NeurIPS 2025"
+  - "人体理解"
+  - "空间音频"
+  - "运动生成"
+  - "扩散模型"
+  - "SAM 数据集"
+  - "双耳音频"
 ---
 
 # MOSPA: Human Motion Generation Driven by Spatial Audio

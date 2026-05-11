@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Active Slice Discovery in Large Language Models
 description: >-
-  [NeurIPS 2025 (Workshop: Reliable ML from Unreliable Data)][slice discovery] 提出 **Active Slice Discovery** 问题框架，将主动学习引入 LLM 错误切片发现，利用不确定性采样 + LLM 内部表征（原始 embedding 或 SAE 特征）在仅使用 2-10% 标注的情况下达到接近全标注的切片检测精度。
+  [NeurIPS 2025 (Workshop: Reliable ML from Unreliable Data)][社会计算][slice discovery] 提出 **Active Slice Discovery** 问题框架，将主动学习引入 LLM 错误切片发现…
 tags:
   - "NeurIPS 2025 (Workshop: Reliable ML from Unreliable Data)"
-  - slice discovery
-  - active learning
-  - 社会计算
-  - toxicity classification
-  - sparse autoencoder
+  - "社会计算"
+  - "slice discovery"
+  - "active learning"
+  - "LLM interpretability"
+  - "toxicity classification"
+  - "sparse autoencoder"
 ---
 
 # Active Slice Discovery in Large Language Models

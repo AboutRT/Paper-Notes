@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Probabilistic Weather Forecasting with Deterministic Guidance-Based Diffusion Model
 description: >-
-  [ECCV 2024][图像生成][概率气象预报] 本文提出DGDM(Deterministic Guidance Diffusion Model)，通过将确定性预测分支与基于布朗桥的概率扩散分支联合训练，利用确定性预测结果截断扩散反向过程来控制不确定性范围，同时实现精确和概率性的气象预报，并在全球和区域预报任务中达到SOTA。
+  [ECCV 2024][图像生成][概率气象预报] 本文提出DGDM(Deterministic Guidance Diffusion Model)，通过将确定性预测分支与基于布朗桥的概率扩散分支联合训练，利用确定性预测结果截断扩散反向过程来控制不确定性范围，同时实现精确和概率性的气象预报…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 概率气象预报
-  - 确定性引导
-  - 扩散模型
-  - 布朗桥
-  - 截断扩散
+  - "ECCV 2024"
+  - "图像生成"
+  - "概率气象预报"
+  - "确定性引导"
+  - "扩散模型"
+  - "布朗桥"
+  - "截断扩散"
 ---
 
 # Probabilistic Weather Forecasting with Deterministic Guidance-Based Diffusion Model

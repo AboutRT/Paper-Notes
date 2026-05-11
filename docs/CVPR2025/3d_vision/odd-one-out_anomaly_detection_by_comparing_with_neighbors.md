@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Odd-One-Out: Anomaly Detection by Comparing with Neighbors
 description: >-
-  [CVPR 2025][3D视觉][场景级异常检测] OddOneOutAD 把工业质检中的"在一组同类产品里找异常品"形式化为场景级异常检测：用稀疏 5 视角图像在 3D 体素空间构建对象表示，通过 DINOv2 知识蒸馏 + 可微渲染获得部件感知特征，再用 cross-instance sparse voxel attention 比较实例间相似度，识别每个实例是否异常；同时贡献 ToysAD-8K 与 PartsAD-15K 两个新基准。
+  [CVPR 2025][3D视觉][场景级异常检测] OddOneOutAD 把工业质检中的"在一组同类产品里找异常品"形式化为场景级异常检测：用稀疏 5 视角图像在 3D 体素空间构建对象表示，通过 DINOv2 知识蒸馏 + 可微渲染获得部件感知特征…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 场景级异常检测
-  - cross-instance matching
-  - DINOv2 蒸馏
-  - 可微渲染
-  - 注意力机制
+  - "CVPR 2025"
+  - "3D视觉"
+  - "场景级异常检测"
+  - "cross-instance matching"
+  - "DINOv2 蒸馏"
+  - "可微渲染"
+  - "注意力机制"
 ---
 
 # Odd-One-Out: Anomaly Detection by Comparing with Neighbors

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][机器人][多任务学习] 提出 Domain Expansion 框架，通过正交池化(Orthogonal Pooling)将潜在空间重构为互相正交的子空间，从结构上防止多目标训练中的梯度冲突与表征崩塌，实现可解释、可组合的概念代数。
 tags:
-  - ICLR 2026
-  - 机器人
-  - 多任务学习
-  - 正交池化
-  - 潜在空间构造
-  - 表征崩塌
-  - 可组合表征
+  - "ICLR 2026"
+  - "机器人"
+  - "多任务学习"
+  - "正交池化"
+  - "潜在空间构造"
+  - "表征崩塌"
+  - "可组合表征"
 ---
 
 # Domain Expansion: A Latent Space Construction Framework for Multi-Task Learning

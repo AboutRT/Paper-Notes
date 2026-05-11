@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TangledFeatures: Robust Feature Selection in Highly Correlated Spaces
 description: >-
-  [NeurIPS 2025][特征选择] 提出 TangledFeatures，一个以**特征稳定性**为核心目标的选择框架，通过相关性图聚类→集成代表选择→随机森林精炼的三阶段管线，在高度相关的特征空间中实现跨重采样高度可复现且与领域知识一致的特征子集，在丙氨酸二肽骨架扭转角预测中验证有效。
+  [NeurIPS 2025][可解释性][特征选择] 提出 TangledFeatures，一个以**特征稳定性**为核心目标的选择框架，通过相关性图聚类→集成代表选择→随机森林精炼的三阶段管线，在高度相关的特征空间中实现跨重采样高度可复现且与领域知识一致的特征子集，在丙氨酸二肽骨架扭转角预测中验证有效。
 tags:
-  - NeurIPS 2025
-  - 特征选择
-  - 稳定性
-  - 相关性冗余
-  - 随机森林
-  - 结构生物学
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "特征选择"
+  - "稳定性"
+  - "相关性冗余"
+  - "随机森林"
+  - "结构生物学"
 ---
 
 # TangledFeatures: Robust Feature Selection in Highly Correlated Spaces

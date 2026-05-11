@@ -2,15 +2,15 @@
 title: >-
   [论文解读] YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents
 description: >-
-  [ACL 2026][模型压缩][信息引出] 提出信息引出代理（IEA）作为新的对话范式，发布了首个大规模（2,281 段对话，26M token）人与人信息引出对话数据集 YIELD，将信息引出形式化为有限视野 POMDP，并设计了专门的评估指标（Conformity、Progression、TLR），实验表明在 YIELD 上微调能显著提升 LLM 与真实引出行为的对齐。
+  [ACL 2026][模型压缩][信息引出] 提出信息引出代理（IEA）作为新的对话范式，发布了首个大规模（2,281 段对话，26M token）人与人信息引出对话数据集 YIELD，将信息引出形式化为有限视野 POMDP，并设计了专门的评估指标（Conformity、Progression、TLR）…
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 信息引出
-  - 对话数据集
-  - 强化学习
-  - 会话代理
-  - POMDP
+  - "ACL 2026"
+  - "模型压缩"
+  - "信息引出"
+  - "对话数据集"
+  - "强化学习"
+  - "会话代理"
+  - "POMDP"
 ---
 
 # YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents

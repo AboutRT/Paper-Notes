@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][3D视觉][3D Mesh] 提出 T-EMNN，通过引入厚度感知的消息传递机制和基于 PCA 的数据驱动坐标系，在保持表面网格计算效率的同时建模对立面之间的厚度交互，实现 E(3)-等变/不变的节点级 3D 形变预测。
 tags:
-  - ICML 2025
-  - 3D视觉
-  - 3D Mesh
-  - E(3)-等变
-  - 厚度感知
-  - 静态分析
-  - 形变预测
+  - "ICML 2025"
+  - "3D视觉"
+  - "3D Mesh"
+  - "E(3)-等变"
+  - "厚度感知"
+  - "静态分析"
+  - "形变预测"
 ---
 
 # Thickness-aware E(3)-Equivariant 3D Mesh Neural Networks

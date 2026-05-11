@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][标记时间点过程] 本文首次揭示标记时间点过程(MTPP)中标记分布不平衡对预测性能的严重影响，提出先预测标记再预测时间的策略，设计阈值方法调节稀有标记的预测概率，并开发无积分近似的IFNMTPP模型高效支持标记概率估计和时间采样。
 tags:
-  - NeurIPS 2025
-  - 标记时间点过程
-  - 标记不平衡
-  - 阈值方法
-  - 无积分近似
-  - 事件预测
+  - "NeurIPS 2025"
+  - "标记时间点过程"
+  - "标记不平衡"
+  - "阈值方法"
+  - "无积分近似"
+  - "事件预测"
 ---
 
 # Addressing Mark Imbalance in Integration-free Neural Marked Temporal Point Processes

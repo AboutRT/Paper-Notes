@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GenMask: Adapting DiT for Segmentation via Direct Mask Generation
 description: >-
-  [CVPR 2026][图像分割][扩散变换器] 本文提出 GenMask，将 DiT 直接训练为生成黑白分割掩码（与生成彩色图像共用同一模型），通过发现二值掩码的 VAE 潜在表示是线性可分的特殊性质，设计了针对分割的极端长尾时间步采样策略，实现了单步推理即可产出分割结果，在 referring 和 reasoning 分割基准上达到 SOTA。
+  [CVPR 2026][语义分割][扩散变换器] 本文提出 GenMask，将 DiT 直接训练为生成黑白分割掩码（与生成彩色图像共用同一模型），通过发现二值掩码的 VAE 潜在表示是线性可分的特殊性质，设计了针对分割的极端长尾时间步采样策略，实现了单步推理即可产出分割结果…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 扩散变换器
-  - 分割掩码生成
-  - 时间步采样策略
-  - 单步推理
-  - 生成式分割
+  - "CVPR 2026"
+  - "语义分割"
+  - "扩散变换器"
+  - "分割掩码生成"
+  - "时间步采样策略"
+  - "单步推理"
+  - "生成式分割"
 ---
 
 # GenMask: Adapting DiT for Segmentation via Direct Mask Generation

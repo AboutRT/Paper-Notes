@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Context-Aware Multimodal Pretraining
 description: >-
-  [CVPR 2025][多模态][对比学习预训练] 本文提出LIxP（Language-Image Contextual Pretraining），通过在对比式图文预训练中引入交叉注意力上下文化机制，使视觉-语言模型在不损失零样本性能的前提下，显著提升了基于度量的few-shot适应能力（21个下游任务平均提升5%以上，样本效率提升可达4倍）。
+  [CVPR 2025][多模态VLM][对比学习预训练] 本文提出LIxP（Language-Image Contextual Pretraining），通过在对比式图文预训练中引入交叉注意力上下文化机制，使视觉-语言模型在不损失零样本性能的前提下…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - few-shot迁移
-  - 上下文感知
-  - SigLIP
-  - 度量学习
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "对比学习预训练"
+  - "few-shot迁移"
+  - "上下文感知"
+  - "SigLIP"
+  - "度量学习"
 ---
 
 # Context-Aware Multimodal Pretraining

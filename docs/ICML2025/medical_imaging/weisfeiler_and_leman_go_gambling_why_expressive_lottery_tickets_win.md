@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Weisfeiler and Leman Go Gambling: Why Expressive Lottery Tickets Win
 description: >-
-  [ICML2025][医学图像][图彩票假说] 首次从理论上将 GNN 的表达力（Weisfeiler-Leman 测试）与彩票假说（LTH）联系起来，提出并证明了强表达力彩票假说（SELTH），证明稀疏初始化的 GNN 中存在保持 1-WL 表达力的可训练子网络，且表达力更强的稀疏初始化更可能成为"中奖彩票"，同时展示了不当剪枝导致的不可恢复表达力损失在药物发现等场景中的严重后果。
+  [ICML2025][医学图像][图彩票假说] 首次从理论上将 GNN 的表达力（Weisfeiler-Leman 测试）与彩票假说（LTH）联系起来，提出并证明了强表达力彩票假说（SELTH），证明稀疏初始化的 GNN 中存在保持 1-WL 表达力的可训练子网络…
 tags:
-  - ICML2025
-  - 医学图像
-  - 图彩票假说
-  - 图神经网络
-  - Weisfeiler-Leman测试
-  - 稀疏初始化
-  - 关键路径
-  - 图剪枝
+  - "ICML2025"
+  - "医学图像"
+  - "图彩票假说"
+  - "图神经网络"
+  - "Weisfeiler-Leman测试"
+  - "稀疏初始化"
+  - "关键路径"
+  - "图剪枝"
 ---
 
 # Weisfeiler and Leman Go Gambling: Why Expressive Lottery Tickets Win
@@ -84,7 +84,7 @@ $$\mathbf{h}_v^{(k)} = \text{MLP}^{(k)}\left(\mathbf{h}_v^{(k-1)} + \sum_{u \in 
 
 | 剪枝比例 | $P(\tau_{post} > \tau_{pre})$ | 含义 |
 |---|---|---|
-| 低（<30%） | 极低（个位数%） | 训练几乎不提升表达力 |
+| 低（&lt;30%） | 极低（个位数%） | 训练几乎不提升表达力 |
 | 中（30-60%） | 更低 | 表达力下降趋势更明显 |
 | 高（>60%） | 接近 0 | 表达力大幅不可逆下降 |
 

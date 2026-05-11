@@ -3,6 +3,15 @@ title: >-
   NeurIPS2025 人体理解方向19篇论文解读
 description: >-
   19篇NeurIPS2025的人体理解方向论文解读，涵盖人体姿态、人脸/视线、推理、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "NeurIPS2025"
+  - "人体理解"
+  - "论文解读"
+  - "论文笔记"
+  - "人体姿态"
+  - "人脸/视线"
+  - "推理"
+  - "语音"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +19,7 @@ description: >-
 
 **🧠 NeurIPS2025** · **19** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/human_understanding/index.md) · [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [📹 ICCV2025 (47)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/human_understanding/index.md) · [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (7)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [📹 ICCV2025 (46)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
 
 🔥 **高频主题：** 人体姿态 ×3 · 人脸/视线 ×3 · 推理 ×2 · 语音 ×2
 

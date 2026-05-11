@@ -2,15 +2,15 @@
 title: >-
   [论文解读] What's the Plan? Metrics for Implicit Planning in LLMs and Their Application to Rhyme Generation and Question Answering
 description: >-
-  [ICLR 2026][机器人][implicit planning] 提出 mean activation difference steering 方法和配套定量指标，在韵律诗生成和问答两个案例上跨 23 个开放模型（1B-32B）系统性证明：目标 token（韵脚/答案）的表示在序列早期位置已形成（前向规划），且因果性地影响中间 token 生成（后向规划）——隐式规划从 1B 模型即出现，是普遍机制而非大模型专属。
+  [ICLR 2026][机器人][implicit planning] 提出 mean activation difference steering 方法和配套定量指标，在韵律诗生成和问答两个案例上跨 23 个开放模型（1B-32B）系统性证明：目标 token（韵脚/答案）的表示在序列早期位置已形成（前向规…
 tags:
-  - ICLR 2026
-  - 机器人
-  - implicit planning
-  - forward planning
-  - backward planning
-  - activation steering
-  - rhyme generation
+  - "ICLR 2026"
+  - "机器人"
+  - "implicit planning"
+  - "forward planning"
+  - "backward planning"
+  - "activation steering"
+  - "rhyme generation"
 ---
 
 # What's the Plan? Metrics for Implicit Planning in LLMs and Their Application to Rhyme Generation and Question Answering

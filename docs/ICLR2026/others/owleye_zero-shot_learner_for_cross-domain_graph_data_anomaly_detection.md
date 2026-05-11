@@ -2,14 +2,14 @@
 title: >-
   [论文解读] OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection
 description: >-
-  [ICLR 2026][其他] 提出 OwlEye 框架，利用基于成对距离统计的跨域特征对齐将异构图嵌入共享空间，从多图中提取 attribute-level 和 structure-level 正常模式存入可扩展字典，并通过截断注意力重建机制在完全零样本条件下检测未见图的异常节点，8 数据集平均 AUPRC 36.17% 超越最强 baseline ARC 约 5.4 个百分点。
+  [ICLR 2026][图异常检测] 提出 OwlEye 框架，利用基于成对距离统计的跨域特征对齐将异构图嵌入共享空间，从多图中提取 attribute-level 和 structure-level 正常模式存入可扩展字典，并通过截断注意力重建机制在完全零样本条件下检测未见图的异常节点…
 tags:
-  - ICLR 2026
-  - 其他
-  - 零样本学习
-  - 跨域特征对齐
-  - 字典学习
-  - 持续学习
+  - "ICLR 2026"
+  - "图异常检测"
+  - "零样本学习"
+  - "跨域特征对齐"
+  - "字典学习"
+  - "持续学习"
 ---
 
 # OwlEye: Zero-Shot Learner for Cross-Domain Graph Data Anomaly Detection
@@ -138,7 +138,7 @@ OwlEye 的 pipeline 由三个依次级联的模块构成。输入为来自多个
 - 写作质量: ⭐⭐⭐⭐ 动机论证有力（图1的可视化直观展示了现有方法的失败），公式推导清晰
 - 价值: ⭐⭐⭐⭐ 零样本跨域图异常检测是实际场景中非常需要的能力，字典式持续学习的工程价值高
 
-- 在Facebook和Reddit等数据集上性能仍然较低（AUPRC<7%），说明某些域的跨域迁移仍然困难
+- 在Facebook和Reddit等数据集上性能仍然较低（AUPRC&lt;7%），说明某些域的跨域迁移仍然困难
 - PCA投影会丢失高维信息，可能需要更先进的维度对齐方法
 - 字典大小n_sup固定为2000，未深入分析其对性能的影响
 - 未测试在大规模图（百万节点级别）上的效率

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][剪枝] 提出 Batch Loss Score (BLS)，一种仅用均值 batch loss（而非难以获取的逐样本 loss）来估计样本重要性的方法，通过 EMA 低通滤波的信号处理视角提供理论保证，仅需 3 行代码即可集成到现有动态剪枝框架中。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 剪枝
-  - batch loss
-  - EMA
-  - training efficiency
-  - sample importance
+  - "CVPR 2026"
+  - "模型压缩"
+  - "剪枝"
+  - "batch loss"
+  - "EMA"
+  - "training efficiency"
+  - "sample importance"
 ---
 
 # Batch Loss Score for Dynamic Data Pruning

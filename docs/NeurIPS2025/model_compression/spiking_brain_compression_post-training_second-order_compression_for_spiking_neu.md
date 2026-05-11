@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spiking Brain Compression: Post-Training Second-Order Compression for Spiking Neural Networks
 description: >-
-  [NeurIPS 2025][模型压缩][脉冲神经网络] 提出 Spiking Brain Compression（SBC），一种基于 Van Rossum 距离的二阶后训练一次性压缩框架，专为脉冲神经网络（SNN）设计，通过替代膜电位（SMP）Hessian 实现高效的模块级剪枝和量化，在 ImageNet 规模下首次压缩 SEW-ResNet152 和 Spike-Driven Transformer。
+  [NeurIPS 2025][模型压缩][脉冲神经网络] 提出 Spiking Brain Compression（SBC），一种基于 Van Rossum 距离的二阶后训练一次性压缩框架，专为脉冲神经网络（SNN）设计，通过替代膜电位（SMP）Hessian 实现高效的模块级剪枝和量化…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 脉冲神经网络
-  - 后训练压缩
-  - Hessian矩阵
-  - 非结构化剪枝
-  - 量化
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "脉冲神经网络"
+  - "后训练压缩"
+  - "Hessian矩阵"
+  - "非结构化剪枝"
+  - "量化"
 ---
 
 # Spiking Brain Compression: Post-Training Second-Order Compression for Spiking Neural Networks
@@ -114,7 +114,7 @@ $$\arg\min_{\hat{W}} E_X[\mathcal{L}(f(X,W), f(X,\hat{W}))], \text{ s.t. } \math
 
 - 在 2-bit 极端量化下，SBC 比 ExactOBS 高出 **28.11 个百分点**（N-MNIST），说明 SMP Hessian 在低精度场景优势巨大。
 - SEW-ResNet152 是迄今为止被成功剪枝的最大最深的 SNN 模型，SBC 是唯一能做到的方法。
-- 校准集可以极小（<1 样本/类），这对数据稀缺的神经形态应用场景非常有价值。
+- 校准集可以极小（&lt;1 样本/类），这对数据稀缺的神经形态应用场景非常有价值。
 - 每层独立并行的模块化设计使得 SBC 的空间复杂度仅为 $O(B_{\text{out}} \cdot d_{\text{in}}^2)$。
 
 ## 亮点与洞察

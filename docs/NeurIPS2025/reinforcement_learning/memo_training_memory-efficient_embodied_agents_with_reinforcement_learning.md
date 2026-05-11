@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning
 description: >-
-  [NeurIPS 2025][记忆增强] 提出 Memo，一种基于 Transformer 的记忆增强框架，通过周期性生成摘要 token（summary tokens）压缩历史上下文，在保持甚至超越全上下文 Transformer 性能的同时，将推理时 KV 缓存缩小 8-10 倍，并展现出更好的长上下文泛化和流式推理鲁棒性。
+  [NeurIPS 2025][强化学习][记忆增强] 提出 Memo，一种基于 Transformer 的记忆增强框架，通过周期性生成摘要 token（summary tokens）压缩历史上下文，在保持甚至超越全上下文 Transformer 性能的同时，将推理时 KV 缓存缩小 8-10 倍…
 tags:
-  - NeurIPS 2025
-  - 记忆增强
-  - Transformer
-  - 强化学习
-  - 长期规划
-  - 具身智能
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "记忆增强"
+  - "Transformer"
+  - "上下文压缩"
+  - "长期规划"
+  - "具身智能"
 ---
 
 # Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning

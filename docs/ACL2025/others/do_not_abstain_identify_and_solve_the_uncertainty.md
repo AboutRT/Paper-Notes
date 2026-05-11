@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][不确定性识别] 本文提出ConfuseBench基准和基于inquiry answer唯一性判断不确定性来源的方法，并通过InteractDPO在策略训练中动态生成偏好对来提升inquiry质量，使LLM能主动识别并解决不确定性而非简单回避。
 tags:
-  - ACL 2025
-  - 不确定性识别
-  - ConfuseBench
-  - 其他
-  - 不确定性分类
-  - 检索增强
+  - "ACL 2025"
+  - "不确定性识别"
+  - "ConfuseBench"
+  - "InteractDPO"
+  - "不确定性分类"
+  - "检索增强"
 ---
 
 # Do not Abstain! Identify and Solve the Uncertainty

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] The Hidden Space of Safety: Understanding Preference-Tuned LLMs in Multilingual Contexts
 description: >-
-  [ACL2025][multilingual alignment] 本文系统分析了偏好调优（RLHF/DPO 等）对 LLM 内部表示空间在多语言场景下的影响，发现对齐机制在英语上能有效分离有害/无害内容的隐空间表示，但在印地语、中文、德语等非英语语言上效果显著退化，揭示了当前对齐方法存在严重的单语偏差问题。
+  [ACL2025][多语言/翻译][multilingual alignment] 本文系统分析了偏好调优（RLHF/DPO 等）对 LLM 内部表示空间在多语言场景下的影响，发现对齐机制在英语上能有效分离有害/无害内容的隐空间表示，但在印地语、中文、德语等非英语语言上效果显著退化…
 tags:
-  - ACL2025
-  - multilingual alignment
-  - 多语言翻译
-  - preference tuning
-  - representation analysis
-  - cross-lingual
+  - "ACL2025"
+  - "多语言/翻译"
+  - "multilingual alignment"
+  - "LLM safety"
+  - "preference tuning"
+  - "representation analysis"
+  - "cross-lingual"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

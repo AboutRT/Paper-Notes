@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Bi-Level Contextual Bandits for Individualized Resource Allocation under Delayed Feedback
 description: >-
-  [AAAI 2026][上下文赌博机] 提出 MetaCUB——一种双层上下文赌博机框架，在延迟反馈、动态人群、冷却约束和公平性要求下实现个体化资源分配，元层优化子群预算分配保证公平，基层利用 UCB 策略选择最有潜力的个体。
+  [AAAI 2026][强化学习][上下文赌博机] 提出 MetaCUB——一种双层上下文赌博机框架，在延迟反馈、动态人群、冷却约束和公平性要求下实现个体化资源分配，元层优化子群预算分配保证公平，基层利用 UCB 策略选择最有潜力的个体。
 tags:
-  - AAAI 2026
-  - 上下文赌博机
-  - 资源分配
-  - 延迟反馈
-  - 公平性
-  - 强化学习
+  - "AAAI 2026"
+  - "强化学习"
+  - "上下文赌博机"
+  - "资源分配"
+  - "延迟反馈"
+  - "公平性"
+  - "双层优化"
 ---
 
 # Bi-Level Contextual Bandits for Individualized Resource Allocation under Delayed Feedback

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GG-SSMs: Graph-Generating State Space Models
 description: >-
-  [CVPR 2025][视频理解][状态空间模型] 提出 Graph-Generating State Space Models (GG-SSMs)，通过基于特征相似度动态构建最小生成树（MST）来替代传统 SSM 中固定的一维扫描路径，实现对高维数据中复杂非局部依赖的高效建模，在 11 个数据集上取得 SOTA 性能。
+  [CVPR 2025][视频理解][状态空间模型] 提出 Graph-Generating State Space Models (GG-SSMs)，通过基于特征相似度动态构建最小生成树（MST）来替代传统 SSM 中固定的一维扫描路径，实现对高维数据中复杂非局部依赖的高效建模…
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 状态空间模型
-  - 动态图构建
-  - 最小生成树
-  - 视觉SSM
-  - 时间序列预测
+  - "CVPR 2025"
+  - "视频理解"
+  - "状态空间模型"
+  - "动态图构建"
+  - "最小生成树"
+  - "视觉SSM"
+  - "时间序列预测"
 ---
 
 # GG-SSMs: Graph-Generating State Space Models

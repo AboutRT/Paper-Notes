@@ -2,15 +2,16 @@
 title: >-
   [论文解读] AI Progress Should Be Measured by Capability-Per-Resource, Not Scale Alone: A Framework for Gradient-Guided Resource Allocation in LLMs
 description: >-
-  [NEURIPS2025][capability-per-resource] 本文以 position paper 的形式挑战"规模至上主义"，提出以**能力-每-资源（Capability-Per-Resource, CPR）**取代单纯的规模扩张来衡量 AI 进步，并给出一套基于梯度引导的资源分配理论框架——通过发布"梯度蓝图"元数据，使下游适配者仅微调高影响力参数子集即可在资源占用大幅降低的同时保持接近全参数微调的性能。
+  [NEURIPS2025][预训练][capability-per-resource] 本文以 position paper 的形式挑战"规模至上主义"，提出以**能力-每-资源（Capability-Per-Resource, CPR）**取代单纯的规模扩张来衡量 AI 进步…
 tags:
-  - NEURIPS2025
-  - capability-per-resource
-  - gradient blueprint
-  - 参数高效微调
-  - 资源效率
-  - scaling law
-  - 可持续AI
+  - "NEURIPS2025"
+  - "预训练"
+  - "capability-per-resource"
+  - "gradient blueprint"
+  - "参数高效微调"
+  - "资源效率"
+  - "scaling law"
+  - "可持续AI"
 ---
 
 # AI Progress Should Be Measured by Capability-Per-Resource, Not Scale Alone: A Framework for Gradient-Guided Resource Allocation in LLMs
@@ -94,7 +95,7 @@ Stage 2: 梯度引导的下游适配（模型适配者）
 | 分析/案例 | 关键数据 |
 |---|---|
 | GPT-3 碳排放 | 552 吨 CO₂ 当量 |
-| LLaMA 65B 边际递减 | 最后 0.2T token 占 ~15% 算力，仅贡献 <0.01 loss 下降 |
+| LLaMA 65B 边际递减 | 最后 0.2T token 占 ~15% 算力，仅贡献 &lt;0.01 loss 下降 |
 | 幂律分布 toy example | N=10000, α=1.5: top-10% 参数 → ~50% 梯度范数 |
 | QLoRA 内存节省 | 7B 模型：14GB → 5GB（4-bit 量化 + 0.1% 参数适配） |
 | 冻结 80% 参数 | 7B 模型优化器状态减少 ~67GB |

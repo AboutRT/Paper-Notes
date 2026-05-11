@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][图像超分辨率] 提出PiSA-SR，通过双LoRA模块将像素级回归和语义级增强解耦到两个独立权重空间，实现单步扩散高质量超分辨率，并支持推理时通过两个引导尺度灵活调节保真度和感知质量。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 图像超分辨率
-  - 图像复原
-  - 可调节超分
-  - 扩散模型
-  - 保真度-感知平衡
+  - "CVPR 2025"
+  - "图像恢复"
+  - "图像超分辨率"
+  - "双LoRA"
+  - "可调节超分"
+  - "扩散模型"
+  - "保真度-感知平衡"
 ---
 
 # Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach

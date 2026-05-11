@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FCL-COD: Weakly Supervised Camouflaged Object Detection with Frequency-aware and Contrastive Learning
 description: >-
-  [CVPR 2026][图像分割][目标检测] 提出 FCL-COD 框架，通过频率感知低秩适配（FoRA）将伪装场景知识注入 SAM、梯度感知对比学习（GCL）增强前背景特征分离、多尺度频率注意力（MSFA）提炼边界敏感特征，在仅使用边界框标注的弱监督设定下超越了全监督 SOTA 方法。
+  [CVPR 2026][语义分割][目标检测] 提出 FCL-COD 框架，通过频率感知低秩适配（FoRA）将伪装场景知识注入 SAM、梯度感知对比学习（GCL）增强前背景特征分离、多尺度频率注意力（MSFA）提炼边界敏感特征，在仅使用边界框标注的弱监督设定下超越了全监督 SOTA 方法。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 目标检测
-  - Weakly Supervised
-  - SAM
-  - Frequency-aware LoRA
-  - 对比学习
+  - "CVPR 2026"
+  - "语义分割"
+  - "目标检测"
+  - "Weakly Supervised"
+  - "SAM"
+  - "Frequency-aware LoRA"
+  - "对比学习"
 ---
 
 # FCL-COD: Weakly Supervised Camouflaged Object Detection with Frequency-aware and Contrastive Learning

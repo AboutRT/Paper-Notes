@@ -2,15 +2,15 @@
 title: >-
   [论文解读] History-Aware Reasoning for GUI Agents
 description: >-
-  [AAAI 2026][LLM Agent][GUI Agent] 提出 HAR 框架，通过构建反思学习场景、合成纠错指南、设计混合 RL 奖励函数（含 Memory-Augmented Reward），将 GUI Agent 的推理模式从"历史无感知"转变为"历史感知"，3B 模型在 AITW/Mind2Web/GUI-Odyssey 等多个 benchmark 上超越更大模型。
+  [AAAI 2026][LLM Agent][GUI Agent] 提出 HAR 框架，通过构建反思学习场景、合成纠错指南、设计混合 RL 奖励函数（含 Memory-Augmented Reward），将 GUI Agent 的推理模式从"历史无感知"转变为"历史感知"…
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - GUI Agent
-  - 短期记忆
-  - 强化学习
-  - 反思学习
-  - 历史感知推理
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "GUI Agent"
+  - "短期记忆"
+  - "强化学习"
+  - "反思学习"
+  - "历史感知推理"
 ---
 
 # History-Aware Reasoning for GUI Agents

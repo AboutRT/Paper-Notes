@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][AI生成图像检测] 提出 AIGIBench 综合基准，通过四大任务（多源泛化、多退化鲁棒性、数据增强敏感性、测试预处理影响）系统评估 11 个 SOTA 检测器，揭示现有 AIGI 检测方法在真实场景下性能严重下降，表明该问题远未解决。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - AI生成图像检测
-  - benchmark
-  - 鲁棒性评估
-  - 数据增强
-  - 泛化性
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "AI生成图像检测"
+  - "benchmark"
+  - "鲁棒性评估"
+  - "数据增强"
+  - "泛化性"
 ---
 
 # Is Artificial Intelligence Generated Image Detection a Solved Problem?

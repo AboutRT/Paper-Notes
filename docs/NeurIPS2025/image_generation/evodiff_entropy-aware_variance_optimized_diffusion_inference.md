@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][扩散模型] 从信息论角度分析扩散模型推理过程，提出通过优化条件方差来减少条件熵的 EVODiff 方法，在不修改模型的前提下显著加速采样并提升生成质量。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散模型
-  - 推理加速
-  - 信息论
-  - 条件熵
-  - 方差优化
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "推理加速"
+  - "信息论"
+  - "条件熵"
+  - "方差优化"
 ---
 
 # EVODiff: Entropy-aware Variance Optimized Diffusion Inference

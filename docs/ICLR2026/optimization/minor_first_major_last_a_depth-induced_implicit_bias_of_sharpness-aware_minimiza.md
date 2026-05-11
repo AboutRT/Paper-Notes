@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization
 description: >-
-  [ICLR 2026][优化][Sharpness-Aware Minimization] 深入分析了 SAM 在线性对角网络上训练时的隐式偏差，揭示深度从 $L=1$ 到 $L=2$ 引发的质变：$\ell_\infty$-SAM 的极限方向对初始化高度敏感，$\ell_2$-SAM 则展现出"先弱后强"的**序列特征放大**（sequential feature amplification）现象，指出仅关注 $t\to\infty$ 极限的分析不足以揭示 SAM 的完整动态行为。
+  [ICLR 2026][优化/理论][Sharpness-Aware Minimization] 深入分析了 SAM 在线性对角网络上训练时的隐式偏差，揭示深度从 $L=1$ 到 $L=2$ 引发的质变：$\ell_\infty$-SAM 的极限方向对初始化高度敏感…
 tags:
-  - ICLR 2026
-  - 优化
-  - Sharpness-Aware Minimization
-  - 隐式偏差
-  - 线性对角网络
-  - 特征放大
-  - 深度诱导
+  - "ICLR 2026"
+  - "优化/理论"
+  - "Sharpness-Aware Minimization"
+  - "隐式偏差"
+  - "线性对角网络"
+  - "特征放大"
+  - "深度诱导"
 ---
 
 # Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization

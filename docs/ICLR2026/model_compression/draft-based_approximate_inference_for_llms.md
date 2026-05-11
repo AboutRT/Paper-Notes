@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Draft-based Approximate Inference for LLMs
 description: >-
-  [ICLR 2026][模型压缩][近似推理] 提出 Draft-based Approximate Inference 框架，利用小型 draft 模型的前瞻（lookahead）预测来更准确地估计 token/KV pair 重要性，包含 SpecKV（KV cache dropping）、SpecPC（prompt 压缩）和 SpecKV-PC（级联压缩）三种方法，在长上下文 benchmark 上一致优于现有基线。
+  [ICLR 2026][模型压缩][近似推理] 提出 Draft-based Approximate Inference 框架，利用小型 draft 模型的前瞻（lookahead）预测来更准确地估计 token/KV pair 重要性…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 近似推理
-  - KV cache压缩
-  - 提示学习
-  - 草稿模型
-  - 稀疏注意力
+  - "ICLR 2026"
+  - "模型压缩"
+  - "近似推理"
+  - "KV cache压缩"
+  - "提示学习"
+  - "草稿模型"
+  - "稀疏注意力"
 ---
 
 # Draft-based Approximate Inference for LLMs
@@ -98,7 +98,7 @@ Draft-based Approximate Inference 是一个统一框架：先用小型 draft 模
 ## 局限与展望
 
 - Draft 模型引入额外的内存开销（虽然可以 offload 到 CPU）
-- 在非常短的上下文（<4K）下，draft 开销可能不值得
+- 在非常短的上下文（&lt;4K）下，draft 开销可能不值得
 - 目前仅验证了同系列模型做 draft（如 Qwen2.5-0.5B→32B），跨系列有效性未知
 - Prompt 压缩会重新分配 position ID，可能影响依赖绝对位置的模型
 

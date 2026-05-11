@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DASH: Detection and Assessment of Systematic Hallucinations of VLMs
 description: >-
-  [ICCV 2025][多模态][视觉语言模型] 提出DASH自动化流水线，通过LLM生成文本查询（DASH-LLM）和扩散模型优化图像查询（DASH-OPT）两种策略，在ReLAION-5B中系统性地发现VLM的假阳性对象幻觉聚类，共发现19k+聚类和950k+图像，并构建了更具挑战性的DASH-B基准。
+  [ICCV 2025][多模态VLM][视觉语言模型] 提出DASH自动化流水线，通过LLM生成文本查询（DASH-LLM）和扩散模型优化图像查询（DASH-OPT）两种策略，在ReLAION-5B中系统性地发现VLM的假阳性对象幻觉聚类，共发现19k+聚类和950k+图像…
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态VLM
-  - 对象幻觉
-  - 系统性错误检测
-  - 扩散模型优化
-  - 大规模基准
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "对象幻觉"
+  - "系统性错误检测"
+  - "扩散模型优化"
+  - "大规模基准"
 ---
 
 # DASH: Detection and Assessment of Systematic Hallucinations of VLMs

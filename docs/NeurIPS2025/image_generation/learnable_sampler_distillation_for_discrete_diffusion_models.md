@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][离散扩散模型] 提出LSD和LSD+方法，通过蒸馏将高保真教师采样器的中间分数轨迹知识迁移给少步数学生采样器，以可学习的采样系数和非均匀时间调度实现离散扩散模型的高效高质量采样。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 离散扩散模型
-  - 采样加速
-  - 蒸馏
-  - 可学习系数
-  - 时间调度
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "离散扩散模型"
+  - "采样加速"
+  - "蒸馏"
+  - "可学习系数"
+  - "时间调度"
 ---
 
 # Learnable Sampler Distillation for Discrete Diffusion Models

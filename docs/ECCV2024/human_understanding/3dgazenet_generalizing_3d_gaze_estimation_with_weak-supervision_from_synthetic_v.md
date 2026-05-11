@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][视线估计] 提出将视线估计重新表述为密集3D眼球网格回归，并通过从大规模野外人脸图像中自动提取伪标签+HeadGAN合成多视图进行弱监督训练，在跨域场景下比SOTA提升最多30%。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 视线估计
-  - 3D眼球网格回归
-  - 弱监督
-  - 多视图一致性
-  - 合成视图
+  - "ECCV 2024"
+  - "人体理解"
+  - "视线估计"
+  - "3D眼球网格回归"
+  - "弱监督"
+  - "多视图一致性"
+  - "合成视图"
 ---
 
 # 3DGazeNet: Generalizing 3D Gaze Estimation with Weak-Supervision from Synthetic Views

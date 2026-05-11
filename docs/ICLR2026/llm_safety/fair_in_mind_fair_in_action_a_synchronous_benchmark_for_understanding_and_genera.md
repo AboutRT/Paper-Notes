@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Fair in Mind, Fair in Action? A Synchronous Benchmark for Understanding and Generation in UMLLMs
 description: >-
-  [ICLR 2026][AI安全][Fairness Benchmark] 提出 IRIS Benchmark，首个同步评估统一多模态大模型（UMLLMs）在理解和生成两类任务中公平性的基准，通过三维度评估框架、60个细粒度指标和高维公平空间，揭示跨任务"人格分裂"和系统性"生成鸿沟"等关键现象。
+  [ICLR 2026][LLM安全][Fairness Benchmark] 提出 IRIS Benchmark，首个同步评估统一多模态大模型（UMLLMs）在理解和生成两类任务中公平性的基准，通过三维度评估框架、60个细粒度指标和高维公平空间，揭示跨任务"人格分裂"和系统性"生成鸿沟"等关键现象。
 tags:
-  - ICLR 2026
-  - AI安全
-  - Fairness Benchmark
-  - 多模态
-  - Bias Evaluation
-  - Demographic Fairness
-  - Generation-Understanding Gap
+  - "ICLR 2026"
+  - "LLM安全"
+  - "Fairness Benchmark"
+  - "多模态"
+  - "Bias Evaluation"
+  - "Demographic Fairness"
+  - "Generation-Understanding Gap"
 ---
 
 # Fair in Mind, Fair in Action? A Synchronous Benchmark for Understanding and Generation in UMLLMs

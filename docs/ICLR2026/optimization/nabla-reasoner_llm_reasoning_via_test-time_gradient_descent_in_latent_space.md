@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ∇-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space
 description: >-
-  [ICLR 2026][优化][test-time scaling] 提出 ∇-Reasoner，将推理时的搜索从零阶（采样+评估）升级为一阶（梯度下降），在 token logits 空间上通过可微文本优化（DTO）结合 reward 梯度和 LLM 似然来迭代改进解码策略，在数学推理任务上提升 10-40% 准确率的同时减少 10-40% 的模型调用次数。
+  [ICLR 2026][优化/理论][test-time scaling] 提出 ∇-Reasoner，将推理时的搜索从零阶（采样+评估）升级为一阶（梯度下降），在 token logits 空间上通过可微文本优化（DTO）结合 reward 梯度和 LLM 似然来迭代改进解码策略…
 tags:
-  - ICLR 2026
-  - 优化
-  - test-time scaling
-  - gradient-based optimization
-  - differentiable optimization
-  - reward model
-  - inference-time reasoning
+  - "ICLR 2026"
+  - "优化/理论"
+  - "test-time scaling"
+  - "gradient-based optimization"
+  - "differentiable optimization"
+  - "reward model"
+  - "inference-time reasoning"
 ---
 
 # ∇-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space
@@ -90,7 +90,7 @@ tags:
 ### 关键发现
 - DTO 将 rejection rate 从理论值 66% 降到约 30%，证明梯度优化确实有效改进了每一步的策略
 - 计算效率优势：transformer 的并行执行使梯度计算接近一次前向传播的开销；confidence/gradient-guided selection 跳过大量不需要优化的 token
-- 对 reward model 质量不敏感（4B vs 8B 差距 <1%）
+- 对 reward model 质量不敏感（4B vs 8B 差距 &lt;1%）
 - test-time scaling 曲线上，∇-Reasoner 的帕累托前沿始终优于 BoN 和 SC
 
 ## 亮点与洞察

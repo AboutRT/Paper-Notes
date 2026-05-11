@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][有向图生成] 提出 Directo，首个基于离散流匹配（Discrete Flow Matching）的有向图生成模型，通过方向感知的双注意力机制和非对称位置编码捕获有向边的方向依赖，同时建立了有向图生成的标准化评测体系。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 有向图生成
-  - 离散流匹配
-  - 双注意力机制
-  - 非对称位置编码
-  - 图生成基准
+  - "ICLR 2026"
+  - "图像生成"
+  - "有向图生成"
+  - "离散流匹配"
+  - "双注意力机制"
+  - "非对称位置编码"
+  - "图生成基准"
 ---
 
 # Generating Directed Graphs with Dual Attention and Asymmetric Encoding

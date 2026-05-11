@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][分子性质预测] 本文提出 CHMR 框架，通过结构感知传播解决生物模态缺失问题，引入树状向量量化(Tree-VQ)建模分子-细胞-基因间的层次依赖关系，在9个基准728个任务上分类提升3.6%、回归提升17.2%，实现鲁棒的细胞感知分子表征学习。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 分子性质预测
-  - 细胞感知表征
-  - 层次化向量量化
-  - 模态缺失
-  - 多模态融合
+  - "AAAI 2026"
+  - "医学图像"
+  - "分子性质预测"
+  - "细胞感知表征"
+  - "层次化向量量化"
+  - "模态缺失"
+  - "多模态融合"
 ---
 
 # Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling

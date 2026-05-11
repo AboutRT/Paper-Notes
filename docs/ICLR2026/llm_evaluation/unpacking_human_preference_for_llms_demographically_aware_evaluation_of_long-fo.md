@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework
 description: >-
-  [ICLR2026][human evaluation] 提出 HUMAINE 框架，通过 23,404 名人口统计分层参与者对 28 个 SOTA 模型进行多维度（5 维）、多轮对话的人类偏好评估，用层次贝叶斯 BTD 模型揭示年龄是偏好异质性的最大驱动因素（平均排名偏移 ±2.8），证明单一聚合排行榜不足以反映不同人群的真实偏好。
+  [ICLR2026][LLM评测][human evaluation] 提出 HUMAINE 框架，通过 23,404 名人口统计分层参与者对 28 个 SOTA 模型进行多维度（5 维）、多轮对话的人类偏好评估，用层次贝叶斯 BTD 模型揭示年龄是偏好异质性的最大驱动因素（平均排名偏移 ±2.8）…
 tags:
-  - ICLR2026
-  - human evaluation
-  - preference heterogeneity
-  - demographic bias
-  - Bradley-Terry-Davidson
-  - LLM评测
-  - psychometrics
+  - "ICLR2026"
+  - "LLM评测"
+  - "human evaluation"
+  - "preference heterogeneity"
+  - "demographic bias"
+  - "Bradley-Terry-Davidson"
+  - "LLM leaderboard"
+  - "psychometrics"
 ---
 
 # Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework
@@ -52,7 +53,7 @@ tags:
 2. 自由选择对话主题，最低 3 轮对话
 3. 每条消息**同时发送**给两个模型——确保相同上下文的公平比较
 4. **TrueSkill 自适应配对**：维护每个模型的技能和不确定度估计，选择结果最不确定的配对，最大化信息增益
-5. **实时质量监控**：gpt-4o-mini 标记低质量输入（单词回复、重复粘贴），三次警告移除（影响 <1.6%）
+5. **实时质量监控**：gpt-4o-mini 标记低质量输入（单词回复、重复粘贴），三次警告移除（影响 &lt;1.6%）
 6. 对话后评估 5 个维度，选择偏好模型或平局
 
 ### 五维评估指标

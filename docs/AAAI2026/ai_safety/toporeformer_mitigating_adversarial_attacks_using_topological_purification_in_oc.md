@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][对抗防御] 提出 TopoReformer，一种基于拓扑自编码器的模型无关对抗纯化管线，利用持久同调（persistent homology）在潜空间中强制拓扑一致性，无需对抗训练即可过滤对抗扰动，有效保护 OCR 系统免受经典攻击、自适应攻击和 OCR 专用水印攻击。
 tags:
-  - AAAI 2026
-  - AI安全
-  - 对抗防御
-  - 拓扑自编码器
-  - OCR
-  - 持久同调
-  - 流形纯化
+  - "AAAI 2026"
+  - "AI安全"
+  - "对抗防御"
+  - "拓扑自编码器"
+  - "OCR"
+  - "持久同调"
+  - "流形纯化"
 ---
 
 # TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant
 description: >-
-  [CVPR 2025][信息检索] 将生成式大语言模型（LMM）改造为通用多模态检索器+重排器，通过两阶段训练（语言预训练+多模态指令微调）和联合逐点/列表重排训练，仅插入轻量LoRA模块即可在16种检索任务上显著超越双编码器方法，且在10个未见数据集上展现强泛化能力。
+  [CVPR 2025][信息检索/RAG][多模态检索] 将生成式大语言模型（LMM）改造为通用多模态检索器+重排器，通过两阶段训练（语言预训练+多模态指令微调）和联合逐点/列表重排训练，仅插入轻量LoRA模块即可在16种检索任务上显著超越双编码器方法，且在10个未见数据集上展现强泛化能力。
 tags:
-  - CVPR 2025
-  - 信息检索
-  - 大语言模型
-  - 通用检索
-  - 重排序
-  - LoRA微调
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "多模态检索"
+  - "大语言模型"
+  - "通用检索"
+  - "重排序"
+  - "LoRA微调"
 ---
 
 # LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant

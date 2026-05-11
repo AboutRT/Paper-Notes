@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][神经架构搜索] 提出 DeNAS-ViT，首次将 NAS 应用于 ViT 的 Token 级搜索实现超声图像分割的多尺度特征提取优化，并设计基于 NAS 约束的半监督学习框架（网络独立性损失+层次对比损失+阶段式优化），在有限标注数据下达到 SOTA。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 神经架构搜索
-  - Transformer
-  - 超声分割
-  - 半监督学习
-  - Token级搜索
+  - "AAAI 2026"
+  - "医学图像"
+  - "神经架构搜索"
+  - "Transformer"
+  - "超声分割"
+  - "半监督学习"
+  - "Token级搜索"
 ---
 
 # DeNAS-ViT: Data Efficient NAS-Optimized Vision Transformer for Ultrasound Image Segmentation

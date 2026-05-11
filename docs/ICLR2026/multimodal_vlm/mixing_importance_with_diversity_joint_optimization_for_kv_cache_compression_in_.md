@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models
 description: >-
-  [ICLR 2026][多模态][KV Cache压缩] 发现LVLM中KV Cache存在模态特异和注意力头特异的语义冗余，仅靠重要性选择会丢失语义覆盖，提出MixKV按头自适应混合重要性与多样性分数进行KV Cache压缩，在极端压缩下平均提升5.1%。
+  [ICLR 2026][多模态VLM][KV Cache压缩] 发现LVLM中KV Cache存在模态特异和注意力头特异的语义冗余，仅靠重要性选择会丢失语义覆盖，提出MixKV按头自适应混合重要性与多样性分数进行KV Cache压缩，在极端压缩下平均提升5.1%。
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - 语义冗余
-  - 多样性
-  - 注意力头
-  - 视觉语言模型
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "KV Cache压缩"
+  - "语义冗余"
+  - "多样性"
+  - "注意力头"
+  - "视觉语言模型"
 ---
 
 # Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models
@@ -28,7 +28,7 @@ tags:
 
 **领域现状**：LVLMs处理高分辨率图像和长视频时生成大量KV对，KV Cache成为内存瓶颈。现有方法（SnapKV、AdaKV等）基于注意力重要性保留关键KV对、丢弃次要的。
 
-**现有痛点**：(1) 视觉信息比文本有更多语义冗余——图像中相似纹理/重复模式导致KV对间余弦相似度高达0.6-0.8（文本仅0.2-0.4）；(2) 不同注意力头的冗余度差异巨大——有些头平均相似度>0.9，有些<0.3；(3) 仅按重要性选择→保留的KV对方高度相似→丢失了全局语义覆盖。
+**现有痛点**：(1) 视觉信息比文本有更多语义冗余——图像中相似纹理/重复模式导致KV对间余弦相似度高达0.6-0.8（文本仅0.2-0.4）；(2) 不同注意力头的冗余度差异巨大——有些头平均相似度>0.9，有些&lt;0.3；(3) 仅按重要性选择→保留的KV对方高度相似→丢失了全局语义覆盖。
 
 **核心矛盾**：t-SNE可视化清晰显示：SnapKV（仅重要性）选中的KV对只覆盖了完整分布的一个小子集，大量信息丧失。
 

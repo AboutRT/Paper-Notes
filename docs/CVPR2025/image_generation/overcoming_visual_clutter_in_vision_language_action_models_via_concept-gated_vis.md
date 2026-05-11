@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Overcoming Visual Clutter in Vision Language Action Models via Concept-Gated Visual Distillation
 description: >-
-  [CVPR 2025][图像生成][VLA] 提出 Concept-Gated Visual Distillation (CGVD)，一种无需训练的推理时框架，通过语言指令解析 → SAM3 分割 → 集合论交叉验证 → LaMa 修复的流水线，从 VLA 模型的视觉输入中选择性移除语义干扰物，在高度杂乱场景中将 π₀ 的操作成功率从 43.0% 提升至 77.5%。
+  [CVPR 2025][图像生成][VLA] 提出 Concept-Gated Visual Distillation (CGVD)，一种无需训练的推理时框架，通过语言指令解析 → SAM3 分割 → 集合论交叉验证 → LaMa 修复的流水线，从 VLA 模型的视觉输入中选择性移除语义干扰物…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - VLA
-  - 视觉杂波
-  - 推理时干预
-  - 语义蒸馏
-  - 分割-修复
-  - 无需训练
+  - "CVPR 2025"
+  - "图像生成"
+  - "VLA"
+  - "视觉杂波"
+  - "推理时干预"
+  - "语义蒸馏"
+  - "分割-修复"
+  - "无需训练"
 ---
 
 # Overcoming Visual Clutter in Vision Language Action Models via Concept-Gated Visual Distillation

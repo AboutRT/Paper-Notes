@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Are Emotion and Rhetoric Neurons in LLM? Neuron Recognition and Adaptive Masking for Emotion-Rhetoric Prediction Steering
 description: >-
-  [ACL 2026][文本生成][情感神经元] 系统研究LLM中情感和修辞神经元的表征机制及其内在关联，提出结合多维筛选的神经元识别框架和自适应遮蔽验证方法，实现了情感/修辞预测的定向诱导和修辞神经元辅助情感识别。
+  [ACL 2026][LLM/NLP][情感神经元] 系统研究LLM中情感和修辞神经元的表征机制及其内在关联，提出结合多维筛选的神经元识别框架和自适应遮蔽验证方法，实现了情感/修辞预测的定向诱导和修辞神经元辅助情感识别。
 tags:
-  - ACL 2026
-  - 文本生成
-  - 情感神经元
-  - 修辞神经元
-  - 自适应遮蔽
-  - 神经元调控
-  - LLM可解释性
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "情感神经元"
+  - "修辞神经元"
+  - "自适应遮蔽"
+  - "神经元调控"
+  - "LLM可解释性"
 ---
 
 # Are Emotion and Rhetoric Neurons in LLM? Neuron Recognition and Adaptive Masking for Emotion-Rhetoric Prediction Steering

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][人体理解][3D形变模型] imHead 提出首个大规模隐式 3D 头部形变模型，通过全局-局部解耦架构在 4,000 个身份的数据集上训练，实现了紧凑的隐式表示与局部面部编辑的兼顾，在重建精度和编辑灵活性上超越现有方法。
 tags:
-  - ICCV 2025
-  - 人体理解
-  - 3D形变模型
-  - 隐式函数
-  - 头部建模
-  - 局部编辑
-  - 大规模数据集
+  - "ICCV 2025"
+  - "人体理解"
+  - "3D形变模型"
+  - "隐式函数"
+  - "头部建模"
+  - "局部编辑"
+  - "大规模数据集"
 ---
 
 # ImHead: A Large-scale Implicit Morphable Model for Localized Head Modeling

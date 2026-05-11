@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][LLM剪枝] 提出PASER，一种针对剪枝LLM恢复的后训练数据选择方法，通过流形学习+谱聚类识别能力相关指令集，按能力退化程度自适应分配数据预算，仅用4%-20%原始数据即可显著超越全量数据恢复效果。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - LLM剪枝
-  - 数据选择
-  - 后训练恢复
-  - 流形学习
-  - 能力退化感知
+  - "ICLR 2026"
+  - "模型压缩"
+  - "LLM剪枝"
+  - "数据选择"
+  - "后训练恢复"
+  - "流形学习"
+  - "能力退化感知"
 ---
 
 # PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery

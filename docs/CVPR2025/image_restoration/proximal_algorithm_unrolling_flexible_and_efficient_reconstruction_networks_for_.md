@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][单像素成像] 提出 ProxUnroll 方法，通过设计近端轨迹（PT）损失函数训练 HQS/ADMM 展开网络，使其中的深度图像修复器（DIR）逼近理想正则化的近端算子，从而让展开网络同时具备 PnP 算法的灵活性（一个模型处理任意压缩比）和展开网络的高精度高速度。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 单像素成像
-  - 算法展开
-  - 近端算子
-  - Plug-and-Play
-  - 压缩感知重建
+  - "CVPR 2025"
+  - "图像恢复"
+  - "单像素成像"
+  - "算法展开"
+  - "近端算子"
+  - "Plug-and-Play"
+  - "压缩感知重建"
 ---
 
 # Proximal Algorithm Unrolling: Flexible and Efficient Reconstruction Networks for Single-Pixel Imaging

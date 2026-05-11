@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Skirting Additive Error Barriers for Private Turnstile Streams
 description: >-
-  [ICLR 2026][AI安全][differential privacy] 证明差分隐私旋转门流中的多项式纯加性误差下界（不同元素计数 $\Omega(T^{1/4})$、$F_2$ 矩 $\Omega(T)$）可以通过引入乘性误差来绕过——对不同元素计数实现 $(\text{polylog}(T), \text{polylog}(T))$ 混合误差，对 $F_2$ 矩实现 $(1+\eta, \text{polylog}(T))$ 混合误差，且两者仅需 polylogarithmic 空间。
+  [ICLR 2026][AI安全][differential privacy] 证明差分隐私旋转门流中的多项式纯加性误差下界（不同元素计数 $\Omega(T^{1/4})$、$F_2$ 矩 $\Omega(T)$）可以通过引入乘性误差来绕过——对不同元素计数实现 $(\text{polylog}(T)…
 tags:
-  - ICLR 2026
-  - AI安全
-  - differential privacy
-  - continual release
-  - turnstile stream
-  - distinct elements
-  - F2 moment
+  - "ICLR 2026"
+  - "AI安全"
+  - "differential privacy"
+  - "continual release"
+  - "turnstile stream"
+  - "distinct elements"
+  - "F2 moment"
 ---
 
 # Skirting Additive Error Barriers for Private Turnstile Streams

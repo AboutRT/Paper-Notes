@@ -2,14 +2,15 @@
 title: >-
   [论文解读] On the $O(1/T)$ Convergence of Alternating Gradient Descent-Ascent in Bilinear Games
 description: >-
-  [ICLR 2026][强化学习] 首次证明交替梯度下降上升（AltGDA）在有约束双线性零和博弈中以 $O(1/T)$ 速率收敛到Nash均衡（存在内部NE时），比同步GDA的 $O(1/\sqrt{T})$ 快，用能量函数衰减刻画轨迹碰撞边界时的"摩擦"效应，并通过性能估计编程（PEP）进一步优化步长。
+  [ICLR 2026][强化学习][交替梯度下降上升] 首次证明交替梯度下降上升（AltGDA）在有约束双线性零和博弈中以 $O(1/T)$ 速率收敛到Nash均衡（存在内部NE时），比同步GDA的 $O(1/\sqrt{T})$ 快，用能量函数衰减刻画轨迹碰撞边界时的"摩擦"效应…
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 双线性博弈
-  - Nash均衡
-  - 收敛速率
-  - 性能估计编程
+  - "ICLR 2026"
+  - "强化学习"
+  - "交替梯度下降上升"
+  - "双线性博弈"
+  - "Nash均衡"
+  - "收敛速率"
+  - "性能估计编程"
 ---
 
 # On the $O(1/T)$ Convergence of Alternating Gradient Descent-Ascent in Bilinear Games

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][道德价值观对齐] 提出基于词语联想（word association）而非直接提问的 LLM 道德评估框架，构建人类和 LLM 的全局道德网络（GMN），发现两者在正面道德维度上高度一致，但 LLM 在负面道德概念上系统性地更抽象、更少情感化和具体性。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 道德价值观对齐
-  - 词语联想
-  - 道德基础理论
-  - 心理词库
-  - 全局道德网络
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "道德价值观对齐"
+  - "词语联想"
+  - "道德基础理论"
+  - "心理词库"
+  - "全局道德网络"
 ---
 
 # Comparing Moral Values in Western English-speaking Societies and LLMs with Word Associations

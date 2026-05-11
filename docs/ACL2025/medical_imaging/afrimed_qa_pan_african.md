@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][医学图像][medical QA] 构建首个大规模泛非洲医学问答基准 AfriMed-QA（15,275 题，涵盖 16 国 32 个专科），系统评估 30 个 LLM 在非洲医疗场景下的表现，发现显著的地域差异和专科差异。
 tags:
-  - ACL 2025
-  - 医学图像
-  - medical QA
-  - LLM evaluation
-  - African healthcare
-  - benchmark
-  - multilingual
+  - "ACL 2025"
+  - "医学图像"
+  - "medical QA"
+  - "LLM evaluation"
+  - "African healthcare"
+  - "benchmark"
+  - "multilingual"
 ---
 
 # AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset

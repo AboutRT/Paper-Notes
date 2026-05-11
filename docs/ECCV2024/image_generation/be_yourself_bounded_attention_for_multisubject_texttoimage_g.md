@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation
 description: >-
-  [ECCV 2024][图像生成][多主体图像生成] Be Yourself深入分析了扩散模型中Cross-Attention和Self-Attention导致的多主体语义泄漏问题，提出Bounded Attention机制，通过在去噪过程中限制不同主体间的信息流动来生成语义独立的多主体图像，免训练即可生成5+个语义相似主体。
+  [ECCV 2024][图像生成][多主体图像生成] Be Yourself深入分析了扩散模型中Cross-Attention和Self-Attention导致的多主体语义泄漏问题，提出Bounded Attention机制，通过在去噪过程中限制不同主体间的信息流动来生成语义独立的多主体图像…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 多主体图像生成
-  - 语义泄漏
-  - 注意力机制
-  - 文本到图像
-  - 扩散模型
+  - "ECCV 2024"
+  - "图像生成"
+  - "多主体图像生成"
+  - "语义泄漏"
+  - "注意力机制"
+  - "文本到图像"
+  - "扩散模型"
 ---
 
 # Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation

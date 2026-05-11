@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training
 description: >-
-  [ICLR 2026][LLM对齐][reward over-optimization] 理论证明奖励过优化主要源于高奖励尾部区域的奖励模型错误规范，提出基于 rubric 的奖励建模方法：利用 off-policy 数据（强模型生成的优秀回复）构造评分细则，通过渐进式区分"优秀 vs 更优秀"来精细化 rubric，有效缓解奖励过优化。
+  [ICLR 2026][LLM对齐][reward over-optimization] 理论证明奖励过优化主要源于高奖励尾部区域的奖励模型错误规范，提出基于 rubric 的奖励建模方法：利用 off-policy 数据（强模型生成的优秀回复）构造评分细则…
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - reward over-optimization
-  - rubric-based reward
-  - reinforcement fine-tuning
-  - high-reward tail
-  - off-policy data
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "reward over-optimization"
+  - "rubric-based reward"
+  - "reinforcement fine-tuning"
+  - "high-reward tail"
+  - "off-policy data"
 ---
 
 # Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training

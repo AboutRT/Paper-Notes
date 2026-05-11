@@ -2,16 +2,16 @@
 title: >-
   [论文解读] InsTaG: Learning Personalized 3D Talking Head from Few-Second Video
 description: >-
-  [CVPR 2025][模型压缩][3D talking head] 提出 InsTaG，通过 Identity-Free Pre-training 从多人长视频中提取通用运动先验，再通过 Motion-Aligned Adaptation 仅用 5 秒视频即可快速学习高保真个性化 3D 说话人头像，实现 82.5 FPS 实时推理。
+  [CVPR 2025][模型压缩][3D talking head] 提出 InsTaG，通过 Identity-Free Pre-training 从多人长视频中提取通用运动先验，再通过 Motion-Aligned Adaptation 仅用 5 秒视频即可快速学习高保真个性化 3D 说话人头像…
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 3D talking head
-  - 3D Gaussian Splatting
-  - few-shot adaptation
-  - identity-free pre-training
-  - motion alignment
-  - real-time rendering
+  - "CVPR 2025"
+  - "模型压缩"
+  - "3D talking head"
+  - "3D Gaussian Splatting"
+  - "few-shot adaptation"
+  - "identity-free pre-training"
+  - "motion alignment"
+  - "real-time rendering"
 ---
 
 # InsTaG: Learning Personalized 3D Talking Head from Few-Second Video

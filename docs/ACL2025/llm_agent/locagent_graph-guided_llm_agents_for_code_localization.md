@@ -2,13 +2,13 @@
 title: >-
   [论文解读] LocAgent: Graph-Guided LLM Agents for Code Localization
 description: >-
-  [LLM Agent][LLM Agent] LocAgent 将代码库解析为有向异构图（含 contain/import/invoke/inherit 四种关系），并设计统一工具（SearchEntity/TraverseGraph/RetrieveEntity）引导 LLM Agent 进行多跳推理，实现高精度代码定位，在文件级达到 92.7% 准确率，同时通过微调开源模型将成本降低 86%。
+  [LLM Agent][代码定位] LocAgent 将代码库解析为有向异构图（含 contain/import/invoke/inherit 四种关系），并设计统一工具（SearchEntity/TraverseGraph/RetrieveEntity）引导 LLM Agent 进行多跳推理…
 tags:
-  - LLM Agent
-  - 代码定位
-  - 图表示
-  - 软件维护
-  - 代码搜索
+  - "LLM Agent"
+  - "代码定位"
+  - "图表示"
+  - "软件维护"
+  - "代码搜索"
 ---
 
 # LocAgent: Graph-Guided LLM Agents for Code Localization

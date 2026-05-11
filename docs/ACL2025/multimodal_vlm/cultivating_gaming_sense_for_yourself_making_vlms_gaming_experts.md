@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Cultivating Game Sense for Yourself: Making VLMs Gaming Experts
 description: >-
-  [ACL 2025][多模态][视觉语言模型] 本文提出了 GameSense 框架，将 VLM 从游戏的直接控制者提升为高级开发者，通过让 VLM 自主观察和开发特定任务的"游戏感"执行模块（从规则到神经网络），首次实现了在动作游戏、射击游戏和休闲游戏等多种类型中的流畅游玩。
+  [ACL 2025][多模态VLM][视觉语言模型] 本文提出了 GameSense 框架，将 VLM 从游戏的直接控制者提升为高级开发者，通过让 VLM 自主观察和开发特定任务的"游戏感"执行模块（从规则到神经网络），首次实现了在动作游戏、射击游戏和休闲游戏等多种类型中的流畅游玩。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - 游戏智能体
-  - 范式转换
-  - 游戏感模块
-  - 自主开发
+  - "ACL 2025"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "游戏智能体"
+  - "范式转换"
+  - "游戏感模块"
+  - "自主开发"
 ---
 
 # Cultivating Game Sense for Yourself: Making VLMs Gaming Experts

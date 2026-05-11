@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][事件相机] 提出EDCFlow，利用相邻事件帧之间时间密集的特征差分图与低分辨率代价体积的互补性，在1/4分辨率上实现高质量且轻量的事件光流估计。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 事件相机
-  - 光流估计
-  - 特征差分
-  - 代价体积
-  - 高效推理
+  - "CVPR 2025"
+  - "视频理解"
+  - "事件相机"
+  - "光流估计"
+  - "特征差分"
+  - "代价体积"
+  - "高效推理"
 ---
 
 # EDCFlow: Exploring Temporally Dense Difference Maps for Event-based Optical Flow Estimation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Mobile-GS: Real-time Gaussian Splatting for Mobile Devices
 description: >-
-  [CVPR 2025][3D视觉][3D高斯溅射] 提出 Mobile-GS，通过深度感知的无序渲染（消除排序瓶颈）+ 神经视角依赖增强 + 一阶SH蒸馏 + 神经向量量化 + 贡献度剪枝，首次在 Snapdragon 8 Gen 3 手机 GPU 上实现 116 FPS 实时高斯溅射渲染，存储仅 4.6MB 且视觉质量与原始 3DGS 相当。
+  [CVPR 2025][3D视觉][3D高斯溅射] 提出 Mobile-GS，通过深度感知的无序渲染（消除排序瓶颈）+ 神经视角依赖增强 + 一阶SH蒸馏 + 神经向量量化 + 贡献度剪枝，首次在 Snapdragon 8 Gen 3 手机 GPU 上实现 116 FPS 实时高斯溅射渲染…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 实时渲染
-  - 移动端部署
-  - 无排序渲染
-  - 模型压缩
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "实时渲染"
+  - "移动端部署"
+  - "无排序渲染"
+  - "模型压缩"
 ---
 
 # Mobile-GS: Real-time Gaussian Splatting for Mobile Devices

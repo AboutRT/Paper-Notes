@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Stable-SCore: A Stable Registration-Based Framework for 3D Shape Correspondence
 description: >-
-  [CVPR 2025][3D视觉][3D形状对应] Stable-SCore 重新审视了"配准-对应"范式，通过利用 2D 基础模型（Stable Diffusion + DINO）建立稳健的 2D 字符对应，并提出语义流引导的配准方法（基于 Neural Jacobian Fields）通过可微渲染桥接 2D 对应与 3D 形变，在非等距字符形状对应任务中大幅超越了函数映射系列方法。
+  [CVPR 2025][3D视觉][3D形状对应] Stable-SCore 重新审视了"配准-对应"范式，通过利用 2D 基础模型（Stable Diffusion + DINO）建立稳健的 2D 字符对应…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D形状对应
-  - 配准方法
-  - Neural Jacobian Fields
-  - 2D基础模型
-  - 非等距形状
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D形状对应"
+  - "配准方法"
+  - "Neural Jacobian Fields"
+  - "2D基础模型"
+  - "非等距形状"
 ---
 
 # Stable-SCore: A Stable Registration-Based Framework for 3D Shape Correspondence

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SynCity: Training-Free Generation of 3D Worlds
 description: >-
-  [ICCV 2025][LLM预训练][3D世界生成] SynCity 提出了一种无需训练/优化的方法，通过精心设计的 prompt engineering 策略组合预训练的语言模型、2D图像生成器和3D生成器（TRELLIS），以 tile-by-tile 的方式自回归生成大规模、高质量、可自由导航的3D世界。
+  [ICCV 2025][预训练][3D世界生成] SynCity 提出了一种无需训练/优化的方法，通过精心设计的 prompt engineering 策略组合预训练的语言模型、2D图像生成器和3D生成器（TRELLIS），以 tile-by-tile 的方式自回归生成大规模、高质量、可自由导航的3D世界。
 tags:
-  - ICCV 2025
-  - LLM预训练
-  - 3D世界生成
-  - 训练免微调
-  - Tile-based生成
-  - 3D Gaussian Splatting
-  - 提示学习
+  - "ICCV 2025"
+  - "预训练"
+  - "3D世界生成"
+  - "训练免微调"
+  - "Tile-based生成"
+  - "3D Gaussian Splatting"
+  - "提示学习"
 ---
 
 # SynCity: Training-Free Generation of 3D Worlds

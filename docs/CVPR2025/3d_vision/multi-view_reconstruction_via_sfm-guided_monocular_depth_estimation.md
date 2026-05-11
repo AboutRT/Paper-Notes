@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出 Murre，将 SfM 稀疏点云作为条件注入扩散模型单目深度估计，生成多视角一致的度量深度图后进行 TSDF 融合，在仅用少量合成数据微调后即可在室内、街景、航拍等多种真实场景中超越 SOTA MVS 和神经隐式重建方法。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Multi-view Reconstruction via SfM-guided Monocular Depth Estimation

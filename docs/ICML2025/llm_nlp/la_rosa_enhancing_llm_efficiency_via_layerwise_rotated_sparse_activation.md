@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ICML 2025][LLM/NLP] LaRoSA 提出了一种无需训练的激活稀疏化方法，通过逐层正交旋转矩阵将输入激活变换到更适合稀疏化的空间，并结合 Top-K 选择实现一致的模型级稀疏度和可靠的推理加速。
 tags:
-  - ICML 2025
-  - LLM/NLP
+  - "ICML 2025"
+  - "LLM/NLP"
 ---
 
 # LaRoSA: Enhancing LLM Efficiency via Layerwise Rotated Sparse Activation

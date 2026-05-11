@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICLR2026][LLM Agent][Web Agent] WebArbiter 提出一种推理优先、原则引导的过程奖励模型 (WebPRM)，将奖励建模形式化为文本生成任务，通过推理蒸馏+强化学习的两阶段训练，在 WebPRMBench 上以 7B 模型超越 GPT-5 达 9.1 个百分点。
 tags:
-  - ICLR2026
-  - LLM Agent
-  - Web Agent
-  - 过程奖励模型
-  - 推理优先
-  - 原则引导
-  - 强化学习
-  - 推理蒸馏
+  - "ICLR2026"
+  - "LLM Agent"
+  - "Web Agent"
+  - "过程奖励模型"
+  - "推理优先"
+  - "原则引导"
+  - "强化学习"
+  - "推理蒸馏"
 ---
 
 # WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] When Helpers Become Hazards: A Benchmark for Analyzing Multimodal LLM-Powered Safety in Daily Life
 description: >-
-  [ACL 2026][多模态][多模态安全] 提出 SaLAD 基准，包含 2013 个真实图文样本覆盖 10 类日常场景，评估多模态大模型在日常辅助中识别隐性安全风险并提供安全警告的能力，揭示即使最强模型在不安全查询上准确率也仅 57.2%。
+  [ACL 2026][多模态VLM][多模态安全] 提出 SaLAD 基准，包含 2013 个真实图文样本覆盖 10 类日常场景，评估多模态大模型在日常辅助中识别隐性安全风险并提供安全警告的能力，揭示即使最强模型在不安全查询上准确率也仅 57.2%。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态安全
-  - 基准测试
-  - 日常生活安全
-  - 多模态VLM
-  - MLLM对齐
+  - "ACL 2026"
+  - "多模态VLM"
+  - "多模态安全"
+  - "基准测试"
+  - "日常生活安全"
+  - "安全警告评估"
+  - "MLLM对齐"
 ---
 
 # When Helpers Become Hazards: A Benchmark for Analyzing Multimodal LLM-Powered Safety in Daily Life

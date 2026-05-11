@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dialectal Coverage and Generalization in Arabic Speech Recognition
 description: >-
-  [ACL 2025][语音][Arabic ASR] 系统研究阿拉伯语方言覆盖对 ASR 性能的影响，通过多方言预训练和联合微调扩展 ArTST 模型覆盖 17 个阿拉伯国家的语音变体，并探索了代码切换场景下的多语言优化策略。
+  [ACL 2025][音频/语音][Arabic ASR] 系统研究阿拉伯语方言覆盖对 ASR 性能的影响，通过多方言预训练和联合微调扩展 ArTST 模型覆盖 17 个阿拉伯国家的语音变体，并探索了代码切换场景下的多语言优化策略。
 tags:
-  - ACL 2025
-  - 语音
-  - Arabic ASR
-  - Dialectal Speech
-  - Multi-Dialectal Pre-Training
-  - Code-Switching
-  - ArTST
+  - "ACL 2025"
+  - "音频/语音"
+  - "Arabic ASR"
+  - "Dialectal Speech"
+  - "Multi-Dialectal Pre-Training"
+  - "Code-Switching"
+  - "ArTST"
 ---
 
 # Dialectal Coverage and Generalization in Arabic Speech Recognition

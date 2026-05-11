@@ -2,15 +2,16 @@
 title: >-
   [论文解读] LANTERN: Modeling User Behavior from Adaptive Surveys with Supplemental Context
 description: >-
-  [ICML 2025][调查数据融合] 提出LANTERN（Late-Attentive Network for Enriched Response Modeling），一个模块化的用户行为建模架构，将自适应调查数据作为主信号，通过交叉注意力实现后期融合，选择性门控和残差连接保持调查信号的主导地位，外部上下文（人口统计、行为日志等）仅在相关时被融入，在约35,000用户的生产级数据集上以F1=0.775显著超越纯调查基线的0.734。
+  [ICML 2025][可解释性][调查数据融合] 提出LANTERN（Late-Attentive Network for Enriched Response Modeling），一个模块化的用户行为建模架构，将自适应调查数据作为主信号，通过交叉注意力实现后期融合，选择性门控和残差连接保持调查信号的主导地位…
 tags:
-  - ICML 2025
-  - 调查数据融合
-  - 后期融合
-  - 交叉注意力
-  - 选择性门控
-  - 多标签预测
-  - 表格数据
+  - "ICML 2025"
+  - "可解释性"
+  - "调查数据融合"
+  - "后期融合"
+  - "交叉注意力"
+  - "选择性门控"
+  - "多标签预测"
+  - "表格数据"
 ---
 
 # LANTERN: Modeling User Behavior from Adaptive Surveys with Supplemental Context

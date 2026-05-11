@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness
 description: >-
-  [ACL 2026][特权知识] 本文通过对比自探针（使用模型自身隐藏状态）和外部探针（使用其他模型隐藏状态）预测正确性的能力，发现"模型间一致性"是掩盖特权知识的关键混淆因子，在消除一致性后揭示了领域特异性的特权知识：事实性任务中存在但数学推理中不存在。
+  [ACL 2026][LLM/NLP][特权知识] 本文通过对比自探针（使用模型自身隐藏状态）和外部探针（使用其他模型隐藏状态）预测正确性的能力，发现"模型间一致性"是掩盖特权知识的关键混淆因子，在消除一致性后揭示了领域特异性的特权知识：事实性任务中存在但数学推理中不存在。
 tags:
-  - ACL 2026
-  - 特权知识
-  - 正确性预测
-  - 隐藏状态探针
-  - 模型间一致性
-  - 领域特异性
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "特权知识"
+  - "正确性预测"
+  - "隐藏状态探针"
+  - "模型间一致性"
+  - "领域特异性"
 ---
 
 # Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness

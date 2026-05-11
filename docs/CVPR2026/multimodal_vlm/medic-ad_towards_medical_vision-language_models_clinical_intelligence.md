@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Medic-AD: Towards Medical Vision-Language Model's Clinical Intelligence
 description: >-
-  [CVPR 2026][多模态][医学VLM] Medic-AD 通过三阶段渐进式训练框架——异常检测（<Ano> token）、时序差异推理（<Diff> token）、可视化解释（热力图），将通用医学 VLM 升级为具备病灶检测、症状追踪和视觉可解释性的临床智能模型，在多项医学任务上达到 SOTA。
+  [CVPR 2026][多模态VLM][医学VLM] Medic-AD 通过三阶段渐进式训练框架——异常检测（<Ano> token）、时序差异推理（<Diff> token）、可视化解释（热力图），将通用医学 VLM 升级为具备病灶检测、症状追踪和视觉可解释性的临床智能模型，在多项医学任务上达到 SOTA。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 医学VLM
-  - 多模态VLM
-  - 时序追踪
-  - 可解释性
-  - 热力图
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "医学VLM"
+  - "异常检测"
+  - "时序追踪"
+  - "可解释性"
+  - "热力图"
 ---
 
 # Medic-AD: Towards Medical Vision-Language Model's Clinical Intelligence

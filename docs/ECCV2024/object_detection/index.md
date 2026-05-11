@@ -1,14 +1,23 @@
 ---
 title: >-
-  ECCV2024 目标检测方向37篇论文解读
+  ECCV2024 目标检测方向36篇论文解读
 description: >-
-  37篇ECCV2024的目标检测方向论文解读，涵盖目标检测、少样本学习、3D 目标检测、自监督学习、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  36篇ECCV2024的目标检测方向论文解读，涵盖目标检测、少样本学习、3D 目标检测、自监督学习、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ECCV2024"
+  - "目标检测"
+  - "论文解读"
+  - "论文笔记"
+  - "少样本学习"
+  - "3D 目标检测"
+  - "自监督学习"
+  - "布局/合成"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎯 目标检测
 
-**🎞️ ECCV2024** · **37** 篇论文解读
+**🎞️ ECCV2024** · **36** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/object_detection/index.md) · [📷 CVPR2026 (39)](../../CVPR2026/object_detection/index.md) · [🔬 ICLR2026 (9)](../../ICLR2026/object_detection/index.md) · [🤖 AAAI2026 (17)](../../AAAI2026/object_detection/index.md) · [🧠 NeurIPS2025 (17)](../../NeurIPS2025/object_detection/index.md) · [📹 ICCV2025 (28)](../../ICCV2025/object_detection/index.md)
 
@@ -85,10 +94,6 @@ description: >-
 **[On Calibration of Object Detectors: Pitfalls, Evaluation and Baselines](on_calibration_of_object_detectors_pitfalls_evaluation_and_baselines.md)**
 
 :   本文系统性地揭示了当前目标检测器校准研究中评估框架、评估指标和温度缩放（Temperature Scaling）使用方面的重大缺陷，提出了原则性的联合评估框架以及专为目标检测定制的后处理校准方法（Platt Scaling和Isotonic Regression），证明了正确设计和评估的后处理校准器远优于近期训练时校准方法。
-
-**[Online Temporal Action Localization with Memory-Augmented Transformer](online_temporal_action_localization_with_memory-augmented_transformer.md)**
-
-:   提出 MATR（Memory-Augmented Transformer），通过记忆队列存储过去片段的特征来利用长期上下文，并采用分离的 Start/End Transformer 解码器进行动作实例定位，在在线时序动作定位（On-TAL）任务上取得 SOTA，甚至可比肩部分离线方法。
 
 **[OpenKD: Opening Prompt Diversity for Zero- and Few-shot Keypoint Detection](openkd_opening_prompt_diversity_for_zero-_and_few-shot_keypoint_detection.md)**
 

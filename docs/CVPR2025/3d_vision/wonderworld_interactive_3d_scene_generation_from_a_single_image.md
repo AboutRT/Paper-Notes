@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][交互式3D场景生成] 提出 WonderWorld，首个支持交互式 3D 场景生成的框架，用户可通过移动相机和文本提示实时控制场景内容与布局，每个场景在单块 A6000 GPU 上不到 10 秒即可生成，比现有方法快 ~80 倍。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 交互式3D场景生成
-  - 高斯溅射
-  - 分层表征
-  - 深度扩散引导
-  - 实时生成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "交互式3D场景生成"
+  - "高斯溅射"
+  - "分层表征"
+  - "深度扩散引导"
+  - "实时生成"
 ---
 
 # WonderWorld: Interactive 3D Scene Generation from a Single Image

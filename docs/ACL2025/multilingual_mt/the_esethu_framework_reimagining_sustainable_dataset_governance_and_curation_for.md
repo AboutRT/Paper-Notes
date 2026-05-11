@@ -2,14 +2,15 @@
 title: >-
   [论文解读] The Esethu Framework: Reimagining Sustainable Dataset Governance and Curation for Low-Resource Languages
 description: >-
-  [ACL 2025][低资源语言] 提出 Esethu 框架——一种社区驱动的可持续数据治理方案，通过创新的社区中心化许可证实现数据收益的循环再投资，并以 isiXhosa 语音数据集 ViXSD 作为概念验证。
+  [ACL 2025][多语言/翻译][低资源语言] 提出 Esethu 框架——一种社区驱动的可持续数据治理方案，通过创新的社区中心化许可证实现数据收益的循环再投资，并以 isiXhosa 语音数据集 ViXSD 作为概念验证。
 tags:
-  - ACL 2025
-  - 低资源语言
-  - 数据治理框架
-  - 社区驱动
-  - 多语言翻译
-  - ASR
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "低资源语言"
+  - "数据治理框架"
+  - "社区驱动"
+  - "isiXhosa语音数据集"
+  - "ASR"
 ---
 
 # The Esethu Framework: Reimagining Sustainable Dataset Governance and Curation for Low-Resource Languages

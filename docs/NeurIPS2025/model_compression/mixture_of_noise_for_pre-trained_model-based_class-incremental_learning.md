@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][增量学习] 提出学习有益的"混合噪声"来抑制预训练模型在增量学习中的参数漂移，通过在任务间进行动态权重混合噪声实现 SOTA 性能，特别在 50 步增量设置下表现突出。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 增量学习
-  - 预训练模型
-  - 参数漂移
-  - 正向噪声
-  - 灾难遗忘抑制
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "增量学习"
+  - "预训练模型"
+  - "参数漂移"
+  - "正向噪声"
+  - "灾难遗忘抑制"
 ---
 
 # Mixture of Noise for Pre-Trained Model-Based Class-Incremental Learning

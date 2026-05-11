@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mitigating Confounding in Speech-Based Dementia Detection through Weight Masking
 description: >-
-  [ACL 2025][dementia detection] 针对基于语音转录文本的痴呆检测任务中的性别混淆偏差问题，提出 Extended Confounding Filter（ECF）和 Dual Filter（DF）两种无需额外训练模块的权重掩码方法，通过追踪微调过程中的权重变化来定位性别关联参数并将其置零，在多种分布偏移场景下保持痴呆检测性能的同时显著降低性别间的假阳性率差异和统计均等性差距。
+  [ACL 2025][医学图像][dementia detection] 针对基于语音转录文本的痴呆检测任务中的性别混淆偏差问题，提出 Extended Confounding Filter（ECF）和 Dual Filter（DF）两种无需额外训练模块的权重掩码方法…
 tags:
-  - ACL 2025
-  - dementia detection
-  - confounding bias
-  - weight masking
-  - Transformer
-  - gender fairness
+  - "ACL 2025"
+  - "医学图像"
+  - "dementia detection"
+  - "confounding bias"
+  - "weight masking"
+  - "Transformer"
+  - "gender fairness"
 ---
 
 # Mitigating Confounding in Speech-Based Dementia Detection through Weight Masking

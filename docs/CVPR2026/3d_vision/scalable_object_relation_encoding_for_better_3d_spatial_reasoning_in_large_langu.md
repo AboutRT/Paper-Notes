@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D空间推理] 提出 QuatRoPE，一种基于四元数旋转的3D位置编码方法，仅需 $O(n)$ 输入token即可保留所有 $O(n^2)$ 物体间空间关系，并配合 IGRE 机制减少与语言 RoPE 的干扰，在多个3D视觉语言基准上取得大幅提升。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D空间推理
-  - 位置编码
-  - 四元数旋转
-  - 大语言模型
-  - 3D视觉语言
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D空间推理"
+  - "位置编码"
+  - "四元数旋转"
+  - "大语言模型"
+  - "3D视觉语言"
 ---
 
 # Scalable Object Relation Encoding for Better 3D Spatial Reasoning in Large Language Models

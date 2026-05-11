@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Structure-aware Domain Knowledge Injection for Large Language Models
 description: >-
-  [ACL 2025][领域知识注入] 提出 StructTuning 方法，通过自动提取训练语料的知识分类结构，设计结构感知的持续预训练（SCPT）和结构感知的监督微调（SSFT）两阶段策略，仅用传统方法5%的数据量即可达到100%的领域知识注入效果。
+  [ACL 2025][知识编辑][领域知识注入] 提出 StructTuning 方法，通过自动提取训练语料的知识分类结构，设计结构感知的持续预训练（SCPT）和结构感知的监督微调（SSFT）两阶段策略，仅用传统方法5%的数据量即可达到100%的领域知识注入效果。
 tags:
-  - ACL 2025
-  - 领域知识注入
-  - 结构化学习
-  - 知识编辑
-  - 知识分类体系
-  - 数据高效
+  - "ACL 2025"
+  - "知识编辑"
+  - "领域知识注入"
+  - "结构化学习"
+  - "持续预训练"
+  - "知识分类体系"
+  - "数据高效"
 ---
 
 # Structure-aware Domain Knowledge Injection for Large Language Models

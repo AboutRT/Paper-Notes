@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Measuring What Matters: Construct Validity in Large Language Model Benchmarks
 description: >-
-  [NeurIPS 2025][推荐系统] 本文由29位专家对445篇LLM benchmark论文进行系统性综述，从构念效度 (construct validity) 角度审视现有LLM评测基准在现象定义、任务设计、评分指标和结论声明方面的不足，并提出8条改进建议。
+  [NeurIPS 2025][推荐系统][LLM评测] 本文由29位专家对445篇LLM benchmark论文进行系统性综述，从构念效度 (construct validity) 角度审视现有LLM评测基准在现象定义、任务设计、评分指标和结论声明方面的不足，并提出8条改进建议。
 tags:
-  - NeurIPS 2025
-  - 推荐系统
-  - benchmark
-  - 构念效度
-  - 系统综述
-  - 评测方法论
+  - "NeurIPS 2025"
+  - "推荐系统"
+  - "LLM评测"
+  - "benchmark"
+  - "构念效度"
+  - "系统综述"
+  - "评测方法论"
 ---
 
 # Measuring What Matters: Construct Validity in Large Language Model Benchmarks

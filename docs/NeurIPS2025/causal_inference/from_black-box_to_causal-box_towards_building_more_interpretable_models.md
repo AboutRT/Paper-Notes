@@ -2,14 +2,15 @@
 title: >-
   [论文解读] From Black-box to Causal-box: Towards Building More Interpretable Models
 description: >-
-  [NeurIPS 2025][causal interpretability] 提出"因果可解释性"（causal interpretability）的形式化定义，证明黑盒模型和概念瓶颈模型均不满足该性质，给出完整的图判据确定哪些模型架构能一致地回答反事实问题，揭示了因果可解释性与预测精度之间的根本性权衡。
+  [NeurIPS 2025][因果推理][causal interpretability] 提出"因果可解释性"（causal interpretability）的形式化定义，证明黑盒模型和概念瓶颈模型均不满足该性质，给出完整的图判据确定哪些模型架构能一致地回答反事实问题…
 tags:
-  - NeurIPS 2025
-  - 因果推理
-  - counterfactual reasoning
-  - concept-based models
-  - structural causal models
-  - interpretability-accuracy tradeoff
+  - "NeurIPS 2025"
+  - "因果推理"
+  - "causal interpretability"
+  - "counterfactual reasoning"
+  - "concept-based models"
+  - "structural causal models"
+  - "interpretability-accuracy tradeoff"
 ---
 
 # From Black-box to Causal-box: Towards Building More Interpretable Models

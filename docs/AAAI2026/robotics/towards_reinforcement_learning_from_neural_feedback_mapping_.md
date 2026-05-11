@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Towards Reinforcement Learning from Neural Feedback: Mapping fNIRS Signals to Agent Performance
 description: >-
-  [AAAI 2026][机器人][RLNF] 提出 NEURO-LOOP 框架，利用 fNIRS（功能性近红外光谱）脑信号作为隐式神经反馈评估 RL agent 表现，发布 25 名被试 × 3 领域 × 6 条件的 fNIRS 数据集，分类 F1 达 67%（二分类）/ 46%（多分类），跨被试 fine-tuning 分别提升 17% 和 41%，奠定 Reinforcement Learning from Neural Feedback (RLNF) 基础。
+  [AAAI 2026][机器人][RLNF] 提出 NEURO-LOOP 框架，利用 fNIRS（功能性近红外光谱）脑信号作为隐式神经反馈评估 RL agent 表现，发布 25 名被试 × 3 领域 × 6 条件的 fNIRS 数据集，分类 F1 达 67%（二分类）/ 46%（多分类）…
 tags:
-  - AAAI 2026
-  - 机器人
-  - RLNF
-  - fNIRS
-  - 神经反馈
-  - 隐式信号
-  - 跨被试泛化
-  - NEURO-LOOP
+  - "AAAI 2026"
+  - "机器人"
+  - "RLNF"
+  - "fNIRS"
+  - "神经反馈"
+  - "隐式信号"
+  - "跨被试泛化"
+  - "NEURO-LOOP"
 ---
 
 # Towards Reinforcement Learning from Neural Feedback: Mapping fNIRS Signals to Agent Performance

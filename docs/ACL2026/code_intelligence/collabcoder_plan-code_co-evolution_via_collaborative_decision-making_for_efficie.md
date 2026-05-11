@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation
 description: >-
-  [ACL 2026][代码生成] 本文提出 CollabCoder，一个计划-代码共演化框架，通过协作决策模块（CDM）判断错误应在计划层还是代码层修复，结合推理轨迹模块（RT）实现从错误中学习的自改进调试，在复杂编程基准上比强基线提升 11-20%，同时减少 4-10 次 API 调用。
+  [ACL 2026][代码智能][代码生成] 本文提出 CollabCoder，一个计划-代码共演化框架，通过协作决策模块（CDM）判断错误应在计划层还是代码层修复，结合推理轨迹模块（RT）实现从错误中学习的自改进调试，在复杂编程基准上比强基线提升 11-20%，同时减少 4-10 次 API 调用。
 tags:
-  - ACL 2026
-  - 代码生成
-  - 计划-代码共演化
-  - 代码智能
-  - 协作调试
-  - 推理轨迹
+  - "ACL 2026"
+  - "代码智能"
+  - "代码生成"
+  - "计划-代码共演化"
+  - "多智能体"
+  - "协作调试"
+  - "推理轨迹"
 ---
 
 # CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation

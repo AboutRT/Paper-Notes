@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][时间序列][反事实解释] 提出 CONFETTI，一种面向多变量时间序列（MTS）分类的多目标反事实解释方法，通过结合类激活图（CAM）引导的子序列提取与 NSGA-III 多目标优化，在预测置信度、稀疏性和接近度三个目标间实现最优平衡，在 7 个 UEA 数据集上全面超越现有方法。
 tags:
-  - AAAI 2026
-  - 时间序列
-  - 反事实解释
-  - 多变量时间序列
-  - 多目标优化
-  - 可解释AI
-  - NSGA-III
+  - "AAAI 2026"
+  - "时间序列"
+  - "反事实解释"
+  - "多变量时间序列"
+  - "多目标优化"
+  - "可解释AI"
+  - "NSGA-III"
 ---
 
 # Counterfactual Explainable AI (XAI) Method for Deep Learning-Based Multivariate Time Series Classification

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D高斯溅射] 提出 CGHair，通过发片（hair card）引导的分层聚类和共享高斯外观码本，在保持可比视觉质量的同时实现 200 倍以上的外观参数压缩和 4 倍发丝重建加速。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D高斯溅射
-  - 头发重建
-  - 发片聚类
-  - 紧凑表示
-  - 外观压缩
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "头发重建"
+  - "发片聚类"
+  - "紧凑表示"
+  - "外观压缩"
 ---
 
 # CGHair: Compact Gaussian Hair Reconstruction with Card Clustering

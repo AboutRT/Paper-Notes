@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Gradient Aligned Regression via Pairwise Losses
 description: >-
-  [ICML2025][回归损失函数] 提出 GAR（Gradient Aligned Regression），通过在标签空间引入两个成对差异损失（误差方差 + 负Pearson相关系数）来对齐预测函数与真实函数的梯度，并利用 DRO 鲁棒聚合三个子损失，实现与传统回归损失相同的线性复杂度，同时在多个基准上超越 MAE/MSE 及对比学习方法。
+  [ICML2025][LLM评测][回归损失函数] 提出 GAR（Gradient Aligned Regression），通过在标签空间引入两个成对差异损失（误差方差 + 负Pearson相关系数）来对齐预测函数与真实函数的梯度，并利用 DRO 鲁棒聚合三个子损失，实现与传统回归损失相同的线性复杂度…
 tags:
-  - ICML2025
-  - 回归损失函数
-  - 成对损失
-  - LLM评测
-  - 分布鲁棒优化
-  - Pearson相关系数
+  - "ICML2025"
+  - "LLM评测"
+  - "回归损失函数"
+  - "成对损失"
+  - "梯度对齐"
+  - "分布鲁棒优化"
+  - "Pearson相关系数"
 ---
 
 # Gradient Aligned Regression via Pairwise Losses

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][跨视图补全] 揭示跨视图补全（CVC）模型中交叉注意力图（cross-attention map）本质上学到了精确的稠密对应关系，提出ZeroCo在零样本匹配和学习型几何匹配中利用这一发现，显著超越基于编码器/解码器特征的常规用法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 跨视图补全
-  - 零样本匹配
-  - 交叉注意力
-  - 代价体
-  - 深度估计
+  - "CVPR 2025"
+  - "3D视觉"
+  - "跨视图补全"
+  - "零样本匹配"
+  - "交叉注意力"
+  - "代价体"
+  - "深度估计"
 ---
 
 # Cross-View Completion Models are Zero-shot Correspondence Estimators

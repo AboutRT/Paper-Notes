@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Coreset for Robust Geometric Median: Eliminating Size Dependency on Outliers
 description: >-
-  [NeurIPS 2025][Coreset] 首次消除鲁棒几何中位数 coreset 大小对异常值数 $m$ 的依赖：在 $n \geq 4m$ 条件下，$d=1$ 时实现最优 coreset 大小 $\tilde{\Theta}(\varepsilon^{-1/2} + \frac{m}{n}\varepsilon^{-1})$，高维时实现 $\tilde{O}(\varepsilon^{-2}\min\{\varepsilon^{-2}, d\})$，核心技术是新颖的**非逐分量误差分析**。
+  [NeurIPS 2025][Coreset] 首次消除鲁棒几何中位数 coreset 大小对异常值数 $m$ 的依赖：在 $n \geq 4m$ 条件下，$d=1$ 时实现最优 coreset 大小 $\tilde{\Theta}(\varepsilon^{-1/2} + \frac{m}{n}\varep…
 tags:
-  - NeurIPS 2025
-  - Coreset
-  - 鲁棒几何中位数
-  - 异常值
-  - 聚类
-  - 非逐分量误差分析
+  - "NeurIPS 2025"
+  - "Coreset"
+  - "鲁棒几何中位数"
+  - "异常值"
+  - "聚类"
+  - "非逐分量误差分析"
 ---
 
 # Coreset for Robust Geometric Median: Eliminating Size Dependency on Outliers

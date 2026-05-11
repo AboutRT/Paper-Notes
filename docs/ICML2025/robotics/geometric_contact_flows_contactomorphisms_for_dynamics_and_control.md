@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Geometric Contact Flows: Contactomorphisms for Dynamics and Control
 description: >-
-  [ICML2025][机器人][接触几何] 提出 Geometric Contact Flows (GCF)，利用黎曼几何和接触几何作为归纳偏置，通过接触微分同胚（contactomorphisms）将具有稳定性/能量守恒等期望性质的潜在接触哈密顿动力学映射到目标动力学，同时利用集成不确定性驱动测地线实现鲁棒泛化和避障。
+  [ICML2025][机器人][接触几何] 提出 Geometric Contact Flows (GCF)，利用黎曼几何和接触几何作为归纳偏置，通过接触微分同胚（contactomorphisms）将具有稳定性/能量守恒等期望性质的潜在接触哈密顿动力学映射到目标动力学…
 tags:
-  - ICML2025
-  - 机器人
-  - 接触几何
-  - 接触哈密顿
-  - 微分同胚
-  - 动力系统学习
-  - 不确定性量化
-  - 黎曼测地线
-  - 机器人交互控制
+  - "ICML2025"
+  - "机器人"
+  - "接触几何"
+  - "接触哈密顿"
+  - "微分同胚"
+  - "动力系统学习"
+  - "不确定性量化"
+  - "黎曼测地线"
+  - "机器人交互控制"
 ---
 
 # Geometric Contact Flows: Contactomorphisms for Dynamics and Control

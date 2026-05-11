@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][tournament fixing] 本文提出两个新的结构化参数——目标选手在锦标赛有向图中的入度 $k$ 和出度 $\ell$——用于分析锦标赛赛程操纵问题 (TFP)，证明 TFP 在以这两个参数为参数时均是 FPT 的，其中入度参数化的算法设计涉及复杂的结构分析和颜色编码技术。
 tags:
-  - AAAI 2026
-  - tournament fixing
-  - knockout tournament
-  - parameterized complexity
-  - FPT
-  - color coding
+  - "AAAI 2026"
+  - "tournament fixing"
+  - "knockout tournament"
+  - "parameterized complexity"
+  - "FPT"
+  - "color coding"
 ---
 
 # How Hard Is It to Rig a Tournament When Few Players Can Beat or Be Beaten by the Favorite?

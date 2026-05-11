@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FLAIR: VLM with Fine-grained Language-informed Image Representations
 description: >-
-  [CVPR 2025][多模态][细粒度对齐] 提出文本条件注意力池化（text-conditioned attention pooling），用文本 embedding 作为 query 从局部图像 token 中自适应聚合相关视觉信息，仅用 30M 合成描述数据训练就在细粒度检索和零样本分割上大幅超越用数十亿数据训练的 SigLIP/OpenCLIP。
+  [CVPR 2025][多模态VLM][细粒度对齐] 提出文本条件注意力池化（text-conditioned attention pooling），用文本 embedding 作为 query 从局部图像 token 中自适应聚合相关视觉信息…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 文本条件注意力池化
-  - CLIP改进
-  - 语义分割
-  - 图文检索
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "细粒度对齐"
+  - "文本条件注意力池化"
+  - "CLIP改进"
+  - "语义分割"
+  - "图文检索"
 ---
 
 # FLAIR: VLM with Fine-grained Language-informed Image Representations

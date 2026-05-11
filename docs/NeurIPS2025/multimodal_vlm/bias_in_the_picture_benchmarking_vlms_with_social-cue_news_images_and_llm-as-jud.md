@@ -1,12 +1,13 @@
 ---
 title: >-
-  [论文解读] Bias in the Picture: Benchmarking VLMs with Social-Cue News Images and LLM-as-Judge Assessment
+  [论文解读] Bias in ??#的
 description: >-
   [NeurIPS 2025][多模态VLM][VLM偏见] 这篇论文不再用合成图或封闭式选择题测偏见，而是用真实新闻图片中的社会线索来问开放式问题，再让 GPT-4o 作为评判员衡量回答的准确性、偏见和忠实度，最终证明很多 VLM 即使“看图很准”，依然会在性别、职业和种族线索上偷偷补进刻板印象。
 tags:
-  - NeurIPS 2025
-  - 多模态VLM
-  - VLM偏见
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "VLM偏见"
+  - "---"
 ---
 
 # Bias in the Picture: Benchmarking VLMs with Social-Cue News Images and LLM-as-Judge Assessment

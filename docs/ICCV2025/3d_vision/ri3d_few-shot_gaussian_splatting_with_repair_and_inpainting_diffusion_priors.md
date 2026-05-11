@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出 RI3D，将稀疏视图合成分解为"修复可见区域"和"补全缺失区域"两个子任务，引入两个个性化扩散模型（repair + inpainting）配合两阶段优化策略，在极端稀疏输入下实现高质量 3DGS 重建。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # RI3D: Few-Shot Gaussian Splatting With Repair and Inpainting Diffusion Priors

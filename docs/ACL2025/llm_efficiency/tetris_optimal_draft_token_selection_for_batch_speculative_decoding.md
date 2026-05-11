@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][推测解码] Tetris 提出了一种在批量推测解码场景下，跨请求动态选择最优草稿token的方法，通过贪心选择累积接受概率最高的token来最大化有限计算资源下的推理吞吐量。
 tags:
-  - ACL 2025
-  - LLM效率
-  - 推测解码
-  - 批量推理
-  - 吞吐量优化
-  - 草稿token选择
-  - LLM推理加速
+  - "ACL 2025"
+  - "LLM效率"
+  - "推测解码"
+  - "批量推理"
+  - "吞吐量优化"
+  - "草稿token选择"
+  - "LLM推理加速"
 ---
 
 # Tetris: Optimal Draft Token Selection for Batch Speculative Decoding

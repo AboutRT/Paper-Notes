@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Free-Form Motion Control: Controlling the 6D Poses of Camera and Objects in Video Generation
 description: >-
-  [ICCV 2025][视频生成] 提出 SynFMC 合成数据集（首个包含相机和物体完整 6D 位姿标注的视频数据集）和 FMC 方法，实现了在文本到视频生成中独立或同时控制相机和物体的 6D 位姿，在多种场景下生成高保真视频，且兼容多种个性化 T2I 模型。
+  [ICCV 2025][视频生成][6D位姿控制] 提出 SynFMC 合成数据集（首个包含相机和物体完整 6D 位姿标注的视频数据集）和 FMC 方法，实现了在文本到视频生成中独立或同时控制相机和物体的 6D 位姿，在多种场景下生成高保真视频，且兼容多种个性化 T2I 模型。
 tags:
-  - ICCV 2025
-  - 视频生成
-  - 6D位姿控制
-  - 相机运动
-  - 物体运动
-  - 合成数据集
-  - 文本到视频
+  - "ICCV 2025"
+  - "视频生成"
+  - "6D位姿控制"
+  - "相机运动"
+  - "物体运动"
+  - "合成数据集"
+  - "文本到视频"
 ---
 
 # Free-Form Motion Control: Controlling the 6D Poses of Camera and Objects in Video Generation

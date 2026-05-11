@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][医学图像][校准偏差] 研究社会身份标记（性取向和宗教信仰）如何扭曲LLM在医疗问答中的准确率和置信度校准，发现"同性恋"标记在9个LLM上一致导致性能下降和校准危机，且交叉身份产生非加性的特异性伤害。
 tags:
-  - ACL 2026
-  - 医学图像
-  - 校准偏差
-  - 社会身份标记
-  - 医疗问答
-  - 不确定性估计
-  - 交叉身份
+  - "ACL 2026"
+  - "医学图像"
+  - "校准偏差"
+  - "社会身份标记"
+  - "医疗问答"
+  - "不确定性估计"
+  - "交叉身份"
 ---
 
 # Calibrated? Not for Everyone: How Sexual Orientation and Religious Markers Distort LLM Accuracy and Confidence in Medical QA

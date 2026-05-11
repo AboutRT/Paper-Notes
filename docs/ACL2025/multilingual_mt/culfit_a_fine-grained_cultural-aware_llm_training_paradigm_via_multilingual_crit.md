@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis
 description: >-
-  [ACL 2025][文化感知] CulFiT 提出了一种文化感知的 LLM 训练范式，通过多语言批评数据合成和细粒度奖励建模来增强模型对不同文化的敏感度和包容性，在多个文化理解基准上达到了开源模型的最优性能。
+  [ACL 2025][多语言/翻译][文化感知] CulFiT 提出了一种文化感知的 LLM 训练范式，通过多语言批评数据合成和细粒度奖励建模来增强模型对不同文化的敏感度和包容性，在多个文化理解基准上达到了开源模型的最优性能。
 tags:
-  - ACL 2025
-  - 文化感知
-  - 多语言训练
-  - 细粒度奖励
-  - 批评数据合成
-  - 文化偏见
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "文化感知"
+  - "多语言训练"
+  - "细粒度奖励"
+  - "批评数据合成"
+  - "文化偏见"
 ---
 
 # CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis

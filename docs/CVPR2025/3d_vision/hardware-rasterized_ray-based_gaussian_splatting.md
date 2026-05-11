@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯泼溅] 本文提出了首个基于硬件光栅化的射线型3D高斯泼溅（RayGS）渲染方案 VKRayGS，通过严谨的数学推导在3D空间中构建最小包围四边形，实现了约40倍的渲染加速，同时保持了RayGS的高质量渲染效果，并额外提出了RayGS的MIP抗锯齿方案。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯泼溅
-  - 硬件光栅化
-  - 射线追踪
-  - 新视角合成
-  - VR渲染
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "硬件光栅化"
+  - "射线追踪"
+  - "新视角合成"
+  - "VR渲染"
 ---
 
 # Hardware-Rasterized Ray-Based Gaussian Splatting

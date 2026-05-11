@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Impact of Quantization on Large Reasoning Model Reinforcement Learning
 description: >-
-  [NeurIPS 2025 (Workshop: Efficient Reasoning)][LLM推理][量化] 系统实验发现在大推理模型的 RL 训练中，量化感知训练（QAFT/STE）会损害推理能力，而训练后量化（PTQ）和 QLoRA 即使在 4-bit 精度下也能很好地保持推理性能，为实践者提供了"先全精度 RL、再 PTQ 量化"的推荐路线。
+  [NeurIPS 2025 (Workshop: Efficient Reasoning)][LLM推理][量化] 系统实验发现在大推理模型的 RL 训练中，量化感知训练（QAFT/STE）会损害推理能力，而训练后量化（PTQ）和 QLoRA 即使在 4-bit 精度下也能很好地保持推理性能…
 tags:
   - "NeurIPS 2025 (Workshop: Efficient Reasoning)"
-  - LLM推理
-  - 量化
-  - 推理模型
-  - 强化学习
-  - GRPO
-  - QLoRA
+  - "LLM推理"
+  - "量化"
+  - "推理模型"
+  - "强化学习"
+  - "GRPO"
+  - "QLoRA"
 ---
 
 # The Impact of Quantization on Large Reasoning Model Reinforcement Learning
@@ -95,7 +95,7 @@ tags:
 
 ### 关键发现
 - **QAFT 是最差选择**：在>0.6B 的所有模型上，STE 8-bit 的性能甚至低于全精度 GRPO 之后再做 4-bit PTQ，说明 RL 过程中的量化噪声比推理时的量化误差破坏性大得多
-- **PTQ 4-bit ≈ PTQ 8-bit**：在大模型上（4B/8B），4-bit 和 8-bit PTQ 的性能差距极小（<1%），说明全精度 RL 训练后的模型对 PTQ 有很强的鲁棒性
+- **PTQ 4-bit ≈ PTQ 8-bit**：在大模型上（4B/8B），4-bit 和 8-bit PTQ 的性能差距极小（&lt;1%），说明全精度 RL 训练后的模型对 PTQ 有很强的鲁棒性
 - **生成长度很重要**：4B/8B 模型在 512 token 限制下学不好，1024 token 后显著提升（4B: 0.487→0.555），说明推理模型需要足够的"思考空间"
 - **量化优于小模型**：量化后的大模型在 Pareto 前沿上优于全精度小模型（如 4-bit 8B > 全精度 4B）
 

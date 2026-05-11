@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding
 description: >-
-  [ICLR 2026][多模态][全模态推理] 提出 ThinkOmni 无训练框架，利用纯文本大推理模型(LRM)在解码时引导全模态 LLM(OLLM)，通过 Stepwise Contrastive Scaling 自适应平衡感知与推理信号，MathVista 达 70.2%、MMAU 达 75.5%，匹配或超越 RFT 方法。
+  [ICLR 2026][多模态VLM][全模态推理] 提出 ThinkOmni 无训练框架，利用纯文本大推理模型(LRM)在解码时引导全模态 LLM(OLLM)，通过 Stepwise Contrastive Scaling 自适应平衡感知与推理信号…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - 引导解码
-  - LRM
-  - 无训练
-  - 对比缩放
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "全模态推理"
+  - "引导解码"
+  - "LRM"
+  - "无训练"
+  - "对比缩放"
 ---
 
 # ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D重建] 提出 GenFusion，通过重建驱动的视频扩散模型修复 3D 重建伪影并生成不可见区域内容，设计循环融合管线迭代地将生成结果加入训练集，实现稀疏视图下高质量 3D 场景重建和内容扩展。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D重建
-  - 视频扩散模型
-  - 稀疏视图重建
-  - 高斯泼溅
-  - 循环融合
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D重建"
+  - "视频扩散模型"
+  - "稀疏视图重建"
+  - "高斯泼溅"
+  - "循环融合"
 ---
 
 # GenFusion: Closing the Loop between Reconstruction and Generation via Videos

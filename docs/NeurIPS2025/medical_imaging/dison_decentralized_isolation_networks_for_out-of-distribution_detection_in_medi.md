@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DIsoN: Decentralized Isolation Networks for Out-of-Distribution Detection in Medical Imaging
 description: >-
-  [NeurIPS 2025][医学图像][OOD检测] 提出 Decentralized Isolation Networks (DIsoN)，通过训练二分类器将测试样本从训练数据中"隔离"来检测 OOD，并通过去中心化参数交换实现在不共享数据的情况下利用训练数据信息，在 4 个医学影像数据集 12 个 OOD 检测任务上取得 SOTA。
+  [NeurIPS 2025][医学图像][OOD检测] 提出 Decentralized Isolation Networks (DIsoN)，通过训练二分类器将测试样本从训练数据中"隔离"来检测 OOD，并通过去中心化参数交换实现在不共享数据的情况下利用训练数据信息…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - OOD检测
-  - 去中心化学习
-  - 隔离网络
-  - 医学影像安全
-  - 隐私保护
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "OOD检测"
+  - "去中心化学习"
+  - "隔离网络"
+  - "医学影像安全"
+  - "隐私保护"
 ---
 
 # DIsoN: Decentralized Isolation Networks for Out-of-Distribution Detection in Medical Imaging

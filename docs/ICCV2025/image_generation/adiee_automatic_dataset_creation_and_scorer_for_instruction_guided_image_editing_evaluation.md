@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][image editing evaluation] 提出ADIEE，通过自动化方法构建超过10万样本的图像编辑评估训练数据集，微调LLaVA-NeXT-8B作为编辑质量评分模型，在多个基准上超越开源VLM和Gemini-Pro 1.5，并可作为奖励模型提升编辑模型性能。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - image editing evaluation
-  - automated scoring
-  - VLM fine-tuning
-  - reward model
-  - instruction-guided editing
+  - "ICCV 2025"
+  - "图像生成"
+  - "image editing evaluation"
+  - "automated scoring"
+  - "VLM fine-tuning"
+  - "reward model"
+  - "instruction-guided editing"
 ---
 
 # ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation

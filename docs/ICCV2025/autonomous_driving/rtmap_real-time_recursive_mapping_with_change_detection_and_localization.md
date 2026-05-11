@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][HD Map] 提出RTMap——首个端到端框架，同时解决多次遍历在线HD地图构建中的三大核心挑战：基于先验地图的定位、道路结构变化检测和概率感知众包地图融合，在TbV和nuScenes上同时提升地图质量和定位精度。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - HD Map
-  - 众包地图
-  - 变化检测
-  - 地图定位
-  - 不确定性建模
-  - 多次遍历融合
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "HD Map"
+  - "众包地图"
+  - "变化检测"
+  - "地图定位"
+  - "不确定性建模"
+  - "多次遍历融合"
 ---
 
 # RTMap: Real-Time Recursive Mapping with Change Detection and Localization

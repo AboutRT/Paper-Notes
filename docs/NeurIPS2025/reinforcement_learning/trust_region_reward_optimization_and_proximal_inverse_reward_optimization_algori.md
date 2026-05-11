@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm
 description: >-
-  [NeurIPS 2025][强化学习] 提出 TRRO 理论框架和 PIRO 实用算法，通过 Minorization-Maximization 过程保证 IRL 中奖励函数更新的单调改进，实现了逆强化学习领域类似于 TRPO/PPO 在正向 RL 中的稳定性保证。
+  [NeurIPS 2025][强化学习][Trust Region] 提出 TRRO 理论框架和 PIRO 实用算法，通过 Minorization-Maximization 过程保证 IRL 中奖励函数更新的单调改进，实现了逆强化学习领域类似于 TRPO/PPO 在正向 RL 中的稳定性保证。
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - Trust Region
-  - Reward Learning
-  - Non-Adversarial IRL
-  - Monotonic Improvement
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "Trust Region"
+  - "Reward Learning"
+  - "Non-Adversarial IRL"
+  - "Monotonic Improvement"
 ---
 
 # Trust Region Reward Optimization and Proximal Inverse Reward Optimization Algorithm

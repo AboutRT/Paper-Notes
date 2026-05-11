@@ -2,15 +2,15 @@
 title: >-
   [论文解读] 3D Hand Pose Estimation in Everyday Egocentric Images
 description: >-
-  [ECCV 2024][人体理解][3D手部姿态] 通过系统研究裁剪输入、相机内参感知位置编码(KPE)、辅助监督(手部分割+抓握标签)和多数据集联合训练这四个实践，提出WildHands系统，在仅用ResNet50和少量数据的条件下，实现了对野外第一人称图像中3D手部姿态的鲁棒估计，零样本泛化超过FrankMocap全部指标且与10倍大的HaMeR竞争。
+  [ECCV 2024][人体理解][3D手部姿态] 通过系统研究裁剪输入、相机内参感知位置编码(KPE)、辅助监督(手部分割+抓握标签)和多数据集联合训练这四个实践，提出WildHands系统，在仅用ResNet50和少量数据的条件下，实现了对野外第一人称图像中3D手部姿态的鲁棒估计…
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 3D手部姿态
-  - 第一人称视觉
-  - 透视畸变
-  - 辅助监督
-  - 零样本泛化
+  - "ECCV 2024"
+  - "人体理解"
+  - "3D手部姿态"
+  - "第一人称视觉"
+  - "透视畸变"
+  - "辅助监督"
+  - "零样本泛化"
 ---
 
 # 3D Hand Pose Estimation in Everyday Egocentric Images

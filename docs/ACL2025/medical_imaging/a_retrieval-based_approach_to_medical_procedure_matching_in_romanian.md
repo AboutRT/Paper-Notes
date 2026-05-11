@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Retrieval-Based Approach to Medical Procedure Matching in Romanian
 description: >-
-  [ACL 2025][医学图像][医疗程序匹配] 将罗马尼亚语医疗程序名称匹配建模为检索问题而非分类问题，在 39,097 个标准条目（50% 仅有单样本）的极端长尾场景下，对比 BM25 稀疏检索与 mE5/RoBERT/BioClinicalBERT 三种密集嵌入，通过度量学习微调后 mE5 达到 85.2% Acc@1，真实部署中医生验证 94.7% 准确率且比人工快 1200 倍。
+  [ACL 2025][医学图像][医疗程序匹配] 将罗马尼亚语医疗程序名称匹配建模为检索问题而非分类问题，在 39,097 个标准条目（50% 仅有单样本）的极端长尾场景下，对比 BM25 稀疏检索与 mE5/RoBERT/BioClinicalBERT 三种密集嵌入…
 tags:
-  - ACL 2025
-  - 医学图像
-  - 医疗程序匹配
-  - 检索
-  - 句子嵌入
-  - 度量学习
-  - 低资源语言
+  - "ACL 2025"
+  - "医学图像"
+  - "医疗程序匹配"
+  - "检索"
+  - "句子嵌入"
+  - "度量学习"
+  - "低资源语言"
 ---
 
 # A Retrieval-Based Approach to Medical Procedure Matching in Romanian

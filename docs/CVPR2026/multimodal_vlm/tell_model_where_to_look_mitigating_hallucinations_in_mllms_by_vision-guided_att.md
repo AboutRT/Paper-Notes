@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Tell Model Where to Look: Mitigating Hallucinations in MLLMs by Vision-Guided Attention
 description: >-
-  [CVPR2026][多模态][多模态幻觉] 提出Vision-Guided Attention (VGA)，一种免训练的方法，通过利用视觉token的语义特征构建精确的视觉定位，引导模型注意力聚焦于相关视觉区域，有效缓解MLLM幻觉，且兼容FlashAttention。
+  [CVPR2026][多模态VLM][多模态幻觉] 提出Vision-Guided Attention (VGA)，一种免训练的方法，通过利用视觉token的语义特征构建精确的视觉定位，引导模型注意力聚焦于相关视觉区域，有效缓解MLLM幻觉，且兼容FlashAttention。
 tags:
-  - CVPR2026
-  - 多模态
-  - 多模态幻觉
-  - 视觉注意力
-  - 视觉语义置信度
-  - 免训练
-  - 注意力机制
+  - "CVPR2026"
+  - "多模态VLM"
+  - "多模态幻觉"
+  - "视觉注意力"
+  - "视觉语义置信度"
+  - "免训练"
+  - "注意力机制"
 ---
 
 # Tell Model Where to Look: Mitigating Hallucinations in MLLMs by Vision-Guided Attention

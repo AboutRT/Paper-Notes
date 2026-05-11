@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出VCD-Texture，在Stable Diffusion去噪过程中统一2D和3D自注意力学习（JNP），通过方差对齐（VA）解决光栅化引起的方差衰减问题，并用修复细化处理不一致区域，实现高保真、高一致性的3D纹理合成。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # VCD-Texture: Variance Alignment based 3D-2D Co-Denoising for Text-Guided Texturing

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][扩散模型] 提出 EdiText，一种基于嵌入扩散模型的可控文本编辑方法，结合 SDEdit 粗粒度编辑和 self-conditioning 细粒度编辑，实现从轻微修改到大幅改写的多尺度文本编辑控制。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 扩散模型
-  - text editing
-  - SDEdit
-  - self-conditioning
-  - controllable generation
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "扩散模型"
+  - "text editing"
+  - "SDEdit"
+  - "self-conditioning"
+  - "controllable generation"
 ---
 
 # EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models

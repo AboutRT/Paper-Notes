@@ -2,15 +2,14 @@
 title: >-
   [论文解读] HotSpot: Signed Distance Function Optimization with an Asymptotically Sufficient Condition
 description: >-
-  [CVPR 2025][其他][符号距离函数] 提出 HotSpot，基于 screened Poisson 方程与距离的经典关系设计新的 SDF 优化损失，提供渐近充分条件保证收敛到真正的距离函数，在复杂形状上显著优于 SAL/DiGS/StEik。
+  [CVPR 2025][符号距离函数] 提出 HotSpot，基于 screened Poisson 方程与距离的经典关系设计新的 SDF 优化损失，提供了渐近充分条件保证收敛到真正的距离函数（而非仅满足 Eikonal 的伪解），同时自然惩罚多余表面积，在复杂形状上显著优于 SAL/DiGS/StEik。
 tags:
-  - CVPR 2025
-  - 其他
-  - 符号距离函数
-  - 表面重建
-  - Poisson方程
-  - Eikonal约束
-  - 距离场优化
+  - "CVPR 2025"
+  - "符号距离函数"
+  - "表面重建"
+  - "Poisson方程"
+  - "Eikonal约束"
+  - "距离场优化"
 ---
 
 # HotSpot: Signed Distance Function Optimization with an Asymptotically Sufficient Condition

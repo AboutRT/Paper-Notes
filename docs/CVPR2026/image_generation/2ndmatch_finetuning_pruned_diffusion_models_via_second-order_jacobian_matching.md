@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][扩散模型] 提出2ndMatch微调框架，通过对齐剪枝模型与原始模型的二阶Jacobian矩阵 $J^\top J$（灵感来自有限时间Lyapunov指数），匹配两者对输入扰动的时间敏感性，从而显著缩小剪枝扩散模型与原始模型的生成质量差距。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 扩散模型
-  - 模型剪枝
-  - Jacobian匹配
-  - 有限时间Lyapunov指数
-  - 知识蒸馏
+  - "CVPR 2026"
+  - "图像生成"
+  - "扩散模型"
+  - "模型剪枝"
+  - "Jacobian匹配"
+  - "有限时间Lyapunov指数"
+  - "知识蒸馏"
 ---
 
 # 2ndMatch: Finetuning Pruned Diffusion Models via Second-Order Jacobian Matching

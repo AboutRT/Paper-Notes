@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][事件相机] 本文提出 IncEventGS，首个仅用单目事件相机、无需已知位姿即可增量重建 3D 高斯溅射场景的方法，采用跟踪-建图 SLAM 范式联合优化相机运动和场景表示，在新视角合成和位姿估计上均超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 事件相机
-  - 3D高斯溅射
-  - 增量重建
-  - 视觉里程计
-  - SLAM
+  - "CVPR 2025"
+  - "3D视觉"
+  - "事件相机"
+  - "3D高斯溅射"
+  - "增量重建"
+  - "视觉里程计"
+  - "SLAM"
 ---
 
 # IncEventGS: Pose-Free Gaussian Splatting from a Single Event Camera

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Region-Grounded Report Generation for 3D Medical Imaging: A Fine-Grained Dataset and Graph-Enhanced Framework
 description: >-
-  [ACL 2026][医学图像][PET/CT报告生成] 本文提出首个带有细粒度 ROI 标注的 3D PET/CT 数据集 VietPET-RoI（越南语），以及模拟放射科医生诊断流程的层次化报告生成框架 HiRRA，通过图神经网络建模 ROI 间的空间-形态学关系，BLEU-4 提升 19.7%，临床指标 RoIQ 提升 45.8%。
+  [ACL 2026][医学图像][PET/CT报告生成] 本文提出首个带有细粒度 ROI 标注的 3D PET/CT 数据集 VietPET-RoI（越南语），以及模拟放射科医生诊断流程的层次化报告生成框架 HiRRA，通过图神经网络建模 ROI 间的空间-形态学关系，BLEU-4 提升 19.7%…
 tags:
-  - ACL 2026
-  - 医学图像
-  - PET/CT报告生成
-  - ROI标注
-  - 图神经网络
-  - 3D医学影像
-  - 低资源语言
+  - "ACL 2026"
+  - "医学图像"
+  - "PET/CT报告生成"
+  - "ROI标注"
+  - "图神经网络"
+  - "3D医学影像"
+  - "低资源语言"
 ---
 
 # Region-Grounded Report Generation for 3D Medical Imaging: A Fine-Grained Dataset and Graph-Enhanced Framework

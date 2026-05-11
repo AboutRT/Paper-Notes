@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][人体理解][常识推理诊断] 本文揭示了常识推理基准中表面简单但实际隐含复杂推理属性的问题，提出了一种基于隐藏推理属性的细粒度诊断框架，能够更精确地分析和评估模型的常识推理能力。
 tags:
-  - ACL 2025
-  - 人体理解
-  - 常识推理诊断
-  - 隐藏推理属性
-  - 推理难度分析
-  - 精确诊断
-  - 细粒度评估
+  - "ACL 2025"
+  - "人体理解"
+  - "常识推理诊断"
+  - "隐藏推理属性"
+  - "推理难度分析"
+  - "精确诊断"
+  - "细粒度评估"
 ---
 
 # Beyond Surface Simplicity: Revealing Hidden Reasoning Attributes for Precise Commonsense Diagnosis

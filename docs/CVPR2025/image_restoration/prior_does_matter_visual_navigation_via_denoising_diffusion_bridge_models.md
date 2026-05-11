@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][扩散桥模型] NaviBridger 将去噪扩散桥模型（DDBM）引入视觉导航任务，用信息丰富的先验动作替代高斯噪声作为去噪起点，理论证明源分布越接近目标分布误差上界越低，并设计了高斯/规则/学习三种先验策略，在室内外仿真和真实场景中均加速推理并超越基线。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 扩散桥模型
-  - 图像复原
-  - 模仿学习
-  - 先验动作
-  - 去噪
+  - "CVPR 2025"
+  - "图像恢复"
+  - "扩散桥模型"
+  - "视觉导航"
+  - "模仿学习"
+  - "先验动作"
+  - "去噪"
 ---
 
 # Prior Does Matter: Visual Navigation via Denoising Diffusion Bridge Models

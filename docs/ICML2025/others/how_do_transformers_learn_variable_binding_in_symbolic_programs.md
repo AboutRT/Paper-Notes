@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML2025][变量绑定] 通过训练Transformer在合成程序上做变量解引用(dereference)，揭示了三阶段发展轨迹：(1)随机预测→(2)浅层启发式→(3)系统性解引用机制，因果干预证明模型学会将残差流用作可寻址内存空间。
 tags:
-  - ICML2025
-  - 变量绑定
-  - Transformer
-  - 残差流
-  - 其他
-  - 发展轨迹
+  - "ICML2025"
+  - "变量绑定"
+  - "Transformer"
+  - "残差流"
+  - "因果干预"
+  - "发展轨迹"
 ---
 
 # How Do Transformers Learn Variable Binding in Symbolic Programs?

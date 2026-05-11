@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][时间序列][fMRI基础模型] 提出 Brain-Semantoks，一种基于语义分词器和自蒸馏目标的 fMRI 基础模型，将大脑功能网络聚合为鲁棒的语义 token，并通过跨时间视角的一致性学习抽象的脑动态表征，在线性探测设置下即可达到 SOTA 性能。
 tags:
-  - ICLR2026
-  - 时间序列
-  - fMRI基础模型
-  - 自蒸馏
-  - 语义分词器
-  - 脑动态表征学习
-  - 线性探测
+  - "ICLR2026"
+  - "时间序列"
+  - "fMRI基础模型"
+  - "自蒸馏"
+  - "语义分词器"
+  - "脑动态表征学习"
+  - "线性探测"
 ---
 
 # Brain-Semantoks: Learning Semantic Tokens of Brain Dynamics with a Self-Distilled Foundation Model
@@ -73,7 +73,7 @@ Brain-Semantoks 采用学生-教师架构。输入 fMRI 时间序列 $X \in \mat
 ### 训练细节
 - 时间裁剪长度 $T_{crop}=100$，patch 长度 20，9 个功能网络，每网络 5 个 patch
 - Transformer：$D_f=768$，8 层，投影头 2 隐层 $D_h=1024$，输出 $D_{proj}=128$
-- 在 UKBioBank 39139 条静息态 fMRI 上预训练，单 GPU（<20GB 显存）不到 2 小时
+- 在 UKBioBank 39139 条静息态 fMRI 上预训练，单 GPU（&lt;20GB 显存）不到 2 小时
 - Z-scoring 归一化替代 robust scaling，改善跨数据集迁移
 
 ## 实验关键数据
@@ -131,7 +131,7 @@ Brain-Semantoks 采用学生-教师架构。输入 fMRI 时间序列 $X \in \mat
 - 预训练仅使用静息态 fMRI（UKB），任务态数据的整合可能进一步提升表征质量
 - 下游评估中连续目标被离散化为多类标签，可能无法充分反映表征在回归任务上的能力
 - Scaling 分析虽然显示无平台，但受限于 UKB 数据量（~39K），更大规模的预训练效果未知
-- 单 GPU 训练效率很高（<2h），但 Transformer 8 层的容量是否限制了更复杂模式的学习尚未探讨
+- 单 GPU 训练效率很高（&lt;2h），但 Transformer 8 层的容量是否限制了更复杂模式的学习尚未探讨
 
 ## 相关工作与启发
 

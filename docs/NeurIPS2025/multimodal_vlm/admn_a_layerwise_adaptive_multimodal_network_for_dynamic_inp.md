@@ -2,16 +2,17 @@
 title: >-
   [论文解读] ADMN: A Layer-Wise Adaptive Multimodal Network for Dynamic Input Noise and Compute Resources
 description: >-
-  [NeurIPS 2025][多模态][多模态] 提出 ADMN（Adaptive Depth Multimodal Network），通过两阶段训练——(1) Multimodal LayerDrop 微调使 backbone 适应任意层配置，(2) QoI感知控制器动态分配层预算给各模态——在严格计算约束下根据每个模态的信息质量(QoI)自适应分配层数，匹配全量模型精度同时减少 75% FLOPs 和 60% 延迟。
+  [NeurIPS 2025][多模态VLM][多模态] 提出 ADMN（Adaptive Depth Multimodal Network），通过两阶段训练——(1) Multimodal LayerDrop 微调使 backbone 适应任意层配置…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - adaptive depth
-  - LayerDrop
-  - quality-of-information
-  - dynamic compute budget
-  - layer allocation
-  - sensor corruption
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "多模态"
+  - "adaptive depth"
+  - "LayerDrop"
+  - "quality-of-information"
+  - "dynamic compute budget"
+  - "layer allocation"
+  - "sensor corruption"
 ---
 
 # ADMN: A Layer-Wise Adaptive Multimodal Network for Dynamic Input Noise and Compute Resources
@@ -86,7 +87,7 @@ GDTM(Blur, 8层)：ADMN定位误差~11cm，接近上界(9.4cm)，而减少75% FL
 - **全backbone dropout**：必要，否则模型无法处理某模态完全缺失的极端情况
 - **三模态泛化**：RGB+Depth+mmWave三模态实验验证通用性（Fig 7）
 - **不等计算模态**：视觉backbone 3倍于audio的FLOPs场景下，ADMN正确分配（Table 4）
-- **6 seeds稳定性**：标准差<5%，大预算更稳定
+- **6 seeds稳定性**：标准差&lt;5%，大预算更稳定
 
 ## 亮点
 - **双重自适应**是核心创新——同时适应计算预算变化和输入质量变化，前所未有

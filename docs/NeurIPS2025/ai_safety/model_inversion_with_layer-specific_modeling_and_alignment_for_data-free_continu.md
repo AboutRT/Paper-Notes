@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][模型反演] 在无数据持续学习场景中，提出逐层模型反演（PMI）来加速图像合成，并通过类别级高斯特征建模和对比学习缓解合成-真实数据间的特征漂移，实现高效且高质量的无数据知识回放。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 模型反演
-  - 无数据持续学习
-  - 逐层优化
-  - 特征对齐
-  - 隐私保护
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "模型反演"
+  - "无数据持续学习"
+  - "逐层优化"
+  - "特征对齐"
+  - "隐私保护"
 ---
 
 # Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning

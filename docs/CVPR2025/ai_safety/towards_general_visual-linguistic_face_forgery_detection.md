@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards General Visual-Linguistic Face Forgery Detection
 description: >-
-  [CVPR 2025][AI安全][深度伪造检测] VLFFD 提出了一种视觉-语言范式的深度伪造检测方法，通过 Prompt Forgery Image Generator (PFIG) 自动生成带有细粒度文本描述的混合伪造图像，再用 Coarse-and-Fine Co-training (C2F) 框架联合训练粗粒度和细粒度数据，显著提升了检测模型的泛化性和可解释性。
+  [CVPR 2025][AI安全][深度伪造检测] VLFFD 提出了一种视觉-语言范式的深度伪造检测方法，通过 Prompt Forgery Image Generator (PFIG) 自动生成带有细粒度文本描述的混合伪造图像…
 tags:
-  - CVPR 2025
-  - AI安全
-  - 深度伪造检测
-  - 视觉-语言
-  - 细粒度提示
-  - 多模态
-  - 泛化性
+  - "CVPR 2025"
+  - "AI安全"
+  - "深度伪造检测"
+  - "视觉-语言"
+  - "细粒度提示"
+  - "多模态"
+  - "泛化性"
 ---
 
 # Towards General Visual-Linguistic Face Forgery Detection

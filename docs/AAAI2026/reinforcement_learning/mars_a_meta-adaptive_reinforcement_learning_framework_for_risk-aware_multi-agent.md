@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management
 description: >-
-  [AAAI 2026][投资组合管理] 提出 MARS 框架，通过异构多智能体集成（每个智能体有不同风险偏好和 Safety-Critic）与元自适应控制器（MAC）的两层架构，在动态市场条件下实现风险感知的投资组合管理，显著降低最大回撤和波动率。
+  [AAAI 2026][强化学习][投资组合管理] 提出 MARS 框架，通过异构多智能体集成（每个智能体有不同风险偏好和 Safety-Critic）与元自适应控制器（MAC）的两层架构，在动态市场条件下实现风险感知的投资组合管理，显著降低最大回撤和波动率。
 tags:
-  - AAAI 2026
-  - 投资组合管理
-  - 多智能体强化学习
-  - 风险管理
-  - 元学习
-  - 安全评论家
+  - "AAAI 2026"
+  - "强化学习"
+  - "投资组合管理"
+  - "多智能体强化学习"
+  - "风险管理"
+  - "元学习"
+  - "安全评论家"
 ---
 
 # MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management

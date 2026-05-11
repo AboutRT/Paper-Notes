@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Missing Mass for Differentially Private Domain Discovery
 description: >-
-  [ICLR 2026][differential privacy] 从 missing mass（缺失质量）角度重新审视差分隐私域发现问题，首次为简单且可扩展的 Weighted Gaussian Mechanism (WGM) 在 Zipfian 数据上证明了近最优的 $\ell_1$ 缺失质量上界和无分布假设的 $\ell_\infty$ 缺失质量保证，并将 WGM 作为域发现前置步骤应用于未知域的 private top-$k$ 和 $k$-hitting set 问题，在六个真实数据集上验证了理论结果。
+  [ICLR 2026][differential privacy] 从 missing mass（缺失质量）角度重新审视差分隐私域发现问题，首次为简单且可扩展的 Weighted Gaussian Mechanism (WGM) 在 Zipfian 数据上证明了近最优的 $\ell_1$ 缺失质量上界和无分布…
 tags:
-  - ICLR 2026
-  - differential privacy
-  - domain discovery
-  - missing mass
-  - Weighted Gaussian Mechanism
-  - Zipfian data
-  - top-k selection
+  - "ICLR 2026"
+  - "differential privacy"
+  - "domain discovery"
+  - "missing mass"
+  - "Weighted Gaussian Mechanism"
+  - "Zipfian data"
+  - "top-k selection"
 ---
 
 # Missing Mass for Differentially Private Domain Discovery
@@ -74,12 +74,12 @@ tags:
 
 | 数据集 | 类型 | WGM 表现 |
 |--------|------|---------|
-| Reddit | 大型 | MM 与策略机制差距 <5% |
-| Amazon Games | 大型 | MM 与策略机制差距 <5% |
-| Movie Reviews | 大型 | MM 与策略机制差距 <5% |
-| Steam Games | 小型 | MM 与策略机制差距 <5% |
-| Amazon Magazine | 小型 | MM 与策略机制差距 <5% |
-| Amazon Pantry | 小型 | MM 与策略机制差距 <5% |
+| Reddit | 大型 | MM 与策略机制差距 &lt;5% |
+| Amazon Games | 大型 | MM 与策略机制差距 &lt;5% |
+| Movie Reviews | 大型 | MM 与策略机制差距 &lt;5% |
+| Steam Games | 小型 | MM 与策略机制差距 &lt;5% |
+| Amazon Magazine | 小型 | MM 与策略机制差距 &lt;5% |
+| Amazon Pantry | 小型 | MM 与策略机制差距 &lt;5% |
 
 注：WGM 在所有数据集上的缺失质量与计算密集度更高的 Policy Gaussian/Policy Greedy 机制的差距均在 5% 以内，而之前基于基数（cardinality）度量的实验中，顺序方法通常输出约 2 倍以上的唯一项。
 

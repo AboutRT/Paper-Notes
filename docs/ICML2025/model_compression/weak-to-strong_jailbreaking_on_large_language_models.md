@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][模型压缩][越狱攻击] 本文提出 weak-to-strong 越狱攻击：利用两个小模型（一个安全、一个不安全）在推理时通过对数概率代数修改大模型的解码分布，仅需一次前向传播即可将对齐大模型的恶意回复率提升至 99% 以上，揭示了 LLM 对齐中一个此前未被注意的高效攻击面。
 tags:
-  - ICML 2025
-  - 模型压缩
-  - 越狱攻击
-  - 对齐安全
-  - 解码分布
-  - 对抗攻击
-  - 大语言模型
+  - "ICML 2025"
+  - "模型压缩"
+  - "越狱攻击"
+  - "对齐安全"
+  - "解码分布"
+  - "对抗攻击"
+  - "大语言模型"
 ---
 
 # Weak-to-Strong Jailbreaking on Large Language Models
@@ -102,11 +102,11 @@ tags:
 
 | 目标模型 | 数据集 | ASR (%) | 基线 ASR (%) | 说明 |
 |---------|--------|---------|-------------|------|
-| Llama-2-70B-Chat | AdvBench | >99% | <5% | 对齐模型几乎完全被攻破 |
-| Llama-2-70B-Chat | HarmBench | >99% | <5% | 另一有害请求基准 |
-| Llama-2-13B-Chat | AdvBench | >99% | <5% | 中型模型同样有效 |
+| Llama-2-70B-Chat | AdvBench | >99% | &lt;5% | 对齐模型几乎完全被攻破 |
+| Llama-2-70B-Chat | HarmBench | >99% | &lt;5% | 另一有害请求基准 |
+| Llama-2-13B-Chat | AdvBench | >99% | &lt;5% | 中型模型同样有效 |
 | Vicuna-33B | AdvBench | >98% | ~10% | 不同对齐方法也被攻破 |
-| Mixtral-8x7B | AdvBench | >97% | <8% | 跨架构迁移 |
+| Mixtral-8x7B | AdvBench | >97% | &lt;8% | 跨架构迁移 |
 
 ### 与其他攻击方法对比
 

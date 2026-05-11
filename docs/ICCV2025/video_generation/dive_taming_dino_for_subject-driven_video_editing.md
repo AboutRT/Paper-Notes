@@ -2,8 +2,9 @@
 title: >-
   [论文解读] DIVE: Taming DINO for Subject-Driven Video Editing
 description: >-
-   提出DIVE框架，利用预训练DINOv2模型的语义特征作为隐式对应关系来引导主体驱动的视频编辑，通过DINO特征进行时序运动建模和目标主体身份注册，实现高质量的主体替换同时保持运动一致性。
-
+  [视频生成] 提出DIVE框架，利用预训练DINOv2模型的语义特征作为隐式对应关系来引导主体驱动的视频编辑，通过DINO特征进行时序运动建模和目标主体身份注册，实现高质量的主体替换同时保持运动一致性。
+tags:
+  - "视频生成"
 ---
 
 # DIVE: Taming DINO for Subject-Driven Video Editing

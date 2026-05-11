@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Retrosynthesis Planning via Worst-path Policy Optimisation in Tree-structured MDPs
 description: >-
-  [NeurIPS 2025][逆合成规划] 将逆合成规划重构为树结构MDP中的最差路径(worst-path)优化问题——合成树的价值由最弱路径决定（任何一条死胡同路径将导致整棵树无效），提出InterRetro通过加权自模仿学习优化这一最差路径目标，在Retro*-190上达到100%成功率，路径长度缩短4.9%，仅需10%训练数据即达92%完整性能。
+  [NeurIPS 2025][强化学习][逆合成规划] 将逆合成规划重构为树结构MDP中的最差路径(worst-path)优化问题——合成树的价值由最弱路径决定（任何一条死胡同路径将导致整棵树无效），提出InterRetro通过加权自模仿学习优化这一最差路径目标，在Retro*-190上达到100%成功率…
 tags:
-  - NeurIPS 2025
-  - 逆合成规划
-  - 树结构MDP
-  - 强化学习
-  - 自模仿学习
-  - 无搜索推理
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "逆合成规划"
+  - "树结构MDP"
+  - "最差路径优化"
+  - "自模仿学习"
+  - "无搜索推理"
 ---
 
 # Retrosynthesis Planning via Worst-path Policy Optimisation in Tree-structured MDPs

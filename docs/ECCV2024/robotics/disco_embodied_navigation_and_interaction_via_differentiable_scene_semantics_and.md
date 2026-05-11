@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ECCV2024][机器人][embodied navigation] 提出 DISCO 框架，通过可微分场景语义表示和双层粗-细动作控制，在 ALFRED 基准上实现具身导航与交互的显著性能提升（未见场景成功率超越 SOTA +8.6%，且无需逐步指令）。
 tags:
-  - ECCV2024
-  - 机器人
-  - embodied navigation
-  - mobile manipulation
-  - differentiable scene representation
-  - affordance
-  - dual-level control
-  - ALFRED
+  - "ECCV2024"
+  - "机器人"
+  - "embodied navigation"
+  - "mobile manipulation"
+  - "differentiable scene representation"
+  - "affordance"
+  - "dual-level control"
+  - "ALFRED"
 ---
 
 # DISCO: Embodied Navigation and Interaction via Differentiable Scene Semantics and Dual-Level Control

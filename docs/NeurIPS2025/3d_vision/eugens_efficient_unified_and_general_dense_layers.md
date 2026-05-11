@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EUGens: Efficient, Unified, and General Dense Layers
 description: >-
-  [NeurIPS 2025][3D视觉][efficient neural network] EUGens 提出一类新的高效稠密层，利用随机特征（Random Features）将全连接前馈层的推理复杂度从二次降到线性，统一了已有的高效 FFL 扩展，在 LLM 预训练、ViT 图像分类、NeRF/iSDF 三维重建等任务中实现高达 27% 加速和 30% 参数压缩，且支持无需反向传播的层级知识蒸馏。
+  [NeurIPS 2025][3D视觉][efficient neural network] EUGens 提出一类新的高效稠密层，利用随机特征（Random Features）将全连接前馈层的推理复杂度从二次降到线性，统一了已有的高效 FFL 扩展…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - efficient neural network
-  - random features
-  - feedforward layer
-  - Transformer
-  - NeRF
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "efficient neural network"
+  - "random features"
+  - "feedforward layer"
+  - "Transformer"
+  - "NeRF"
 ---
 
 # EUGens: Efficient, Unified, and General Dense Layers
@@ -56,7 +56,7 @@ $$\text{EUGen}^k(\mathbf{w}, \mathbf{x}) = g(\mathbf{w})^\top f(\mathbf{x})$$
 
 ### 3. 推理复杂度
 
-权重侧可预计算。推理时复杂度为 O(mdk^2 + ml)。实际使用 k <= 3，当 m << min(d, l) 时从 O(d^2) 降至 O(d)。
+权重侧可预计算。推理时复杂度为 O(mdk^2 + ml)。实际使用 k &lt;= 3，当 m << min(d, l) 时从 O(d^2) 降至 O(d)。
 
 ### 4. QMC 改进
 
@@ -109,7 +109,7 @@ NeRF 蒸馏可在不重训练的情况下实现高达 **26%** 推理加速。
 ## 局限与展望
 
 - 近似误差随替换层数累积，大规模替换可能影响性能
-- 当前仅展示 k <= 2 的实验，更高阶的实用性未充分验证
+- 当前仅展示 k &lt;= 2 的实验，更高阶的实用性未充分验证
 - 与正交化、量化等其他压缩手段的组合效果未探索
 - 在超大模型（如 70B LLM）上的验证缺失
 

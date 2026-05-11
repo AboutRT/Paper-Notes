@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][动态草图] Liv3Stroke 提出了首个从视频中提取动态 3D 草图的方法，用可变形的三维 Bézier 曲线集合抽象表示物体运动，通过学习点云运动引导和逐笔画变形实现视点一致的运动草图重建。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 动态草图
-  - 三维运动抽象
-  - Bézier曲线
-  - 可微渲染
-  - 运动表征
+  - "CVPR 2025"
+  - "3D视觉"
+  - "动态草图"
+  - "三维运动抽象"
+  - "Bézier曲线"
+  - "可微渲染"
+  - "运动表征"
 ---
 
 # Recovering Dynamic 3D Sketches from Videos

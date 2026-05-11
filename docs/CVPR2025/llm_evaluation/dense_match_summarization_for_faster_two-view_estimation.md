@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Dense Match Summarization for Faster Two-view Estimation
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：In this paper, we speed up robust two-view relative pose from dense correspondences. Previous work has shown that dense matchers can significantly improve both accuracy and robustness in the resulting pose. However, the large number of matches comes with a significantly increased runtime during robu
+  [CVPR 2025][LLM评测][待补充] > 基于摘要：In this paper, we speed up robust two-view relative pose from dense correspondences. Previous work has shown that dense matc…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "LLM评测"
+  - "待补充"
 ---
 
 # Dense Match Summarization for Faster Two-view Estimation

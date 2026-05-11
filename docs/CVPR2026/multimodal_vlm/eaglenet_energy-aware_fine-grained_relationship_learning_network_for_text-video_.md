@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval
 description: >-
-  [CVPR 2026][多模态][文本视频检索] EagleNet 通过构建文本-帧关系图并使用关系图注意力网络学习文本-帧和帧-帧之间的细粒度关系，生成融合视频上下文信息的增强文本嵌入，并引入基于能量模型的匹配机制捕获真实文本-视频对分布，在四个基准数据集上取得 SOTA。
+  [CVPR 2026][多模态VLM][文本视频检索] EagleNet 通过构建文本-帧关系图并使用关系图注意力网络学习文本-帧和帧-帧之间的细粒度关系，生成融合视频上下文信息的增强文本嵌入，并引入基于能量模型的匹配机制捕获真实文本-视频对分布，在四个基准数据集上取得 SOTA。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 文本视频检索
-  - 图注意力网络
-  - 能量模型
-  - 细粒度关系学习
-  - 多模态VLM
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "文本视频检索"
+  - "图注意力网络"
+  - "能量模型"
+  - "细粒度关系学习"
+  - "跨模态对齐"
 ---
 
 # EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval

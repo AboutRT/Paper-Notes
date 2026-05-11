@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 (Findings)][LLM/NLP][语言模型评测] 提出 C²LEVA，一个包含22个任务的中英双语综合评测基准，通过全自动的测试数据更新和数据保护机制来系统性地防止数据污染，在15个开源和闭源模型上验证了其有效性。
 tags:
-  - ACL 2025 (Findings)
-  - LLM/NLP
-  - 语言模型评测
-  - 数据污染
-  - 双语基准
-  - 测试数据更新
-  - 评测可信度
+  - "ACL 2025 (Findings)"
+  - "LLM/NLP"
+  - "语言模型评测"
+  - "数据污染"
+  - "双语基准"
+  - "测试数据更新"
+  - "评测可信度"
 ---
 
 # C²LEVA: Toward Comprehensive and Contamination-Free Language Model Evaluation

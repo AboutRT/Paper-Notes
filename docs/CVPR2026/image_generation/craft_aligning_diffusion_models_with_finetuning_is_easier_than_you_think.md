@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CRAFT: Aligning Diffusion Models with Fine-Tuning Is Easier Than You Think
 description: >-
-  [CVPR 2026][图像生成][扩散模型对齐] CRAFT 提出一种超轻量的扩散模型对齐方法：通过组合奖励过滤(CRF)策略自动构建高质量训练集，然后执行增强版 SFT，理论证明 CRAFT 实际优化的是分组强化学习的下界，仅用 100 个样本就超越了需要数千偏好对的 SOTA 方法，且训练速度快 11-220 倍。
+  [CVPR 2026][图像生成][扩散模型对齐] CRAFT 提出一种超轻量的扩散模型对齐方法：通过组合奖励过滤(CRF)策略自动构建高质量训练集，然后执行增强版 SFT，理论证明 CRAFT 实际优化的是分组强化学习的下界，仅用 100 个样本就超越了需要数千偏好对的 SOTA 方法…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 扩散模型对齐
-  - 人类偏好
-  - 组合奖励过滤
-  - 监督微调
-  - 数据高效
+  - "CVPR 2026"
+  - "图像生成"
+  - "扩散模型对齐"
+  - "人类偏好"
+  - "组合奖励过滤"
+  - "监督微调"
+  - "数据高效"
 ---
 
 # CRAFT: Aligning Diffusion Models with Fine-Tuning Is Easier Than You Think

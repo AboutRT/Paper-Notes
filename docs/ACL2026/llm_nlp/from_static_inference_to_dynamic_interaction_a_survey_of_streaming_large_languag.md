@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models
 description: >-
-  [ACL 2026][LLM/NLP][流式LLM] 本文首次系统综述流式大语言模型（Streaming LLMs），提出基于数据流和交互并发性的统一定义，将现有方法分为三级递进分类——输出流式（Output-streaming）、顺序流式（Sequential-streaming）和并发流式（Concurrent-streaming），覆盖文本、语音和视频流式场景的方法论和应用。
+  [ACL 2026][LLM/NLP][流式LLM] 本文首次系统综述流式大语言模型（Streaming LLMs），提出基于数据流和交互并发性的统一定义，将现有方法分为三级递进分类——输出流式（Output-streaming）、顺序流式（Sequential-streaming）和并发流式（Concurr…
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 流式LLM
-  - 实时交互
-  - 增量编码
-  - 全双工
-  - 投机解码
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "流式LLM"
+  - "实时交互"
+  - "增量编码"
+  - "全双工"
+  - "投机解码"
 ---
 
 # From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][梯度分析] 本文从梯度的视角系统地研究了 LLM 各层在训练快思考（无/简短 CoT）vs 慢思考（详细 CoT）数据时的行为差异，发现慢思考训练导致梯度在各层间更均匀稳定，而快思考导致更大的梯度和更剧烈的层间波动，且慢思考的梯度模式能区分正确与不相关的推理路径。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 梯度分析
-  - 快思考与慢思考
-  - 逐层分析
-  - Chain-of-Thought
-  - LLM训练动态
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "梯度分析"
+  - "快思考与慢思考"
+  - "逐层分析"
+  - "Chain-of-Thought"
+  - "LLM训练动态"
 ---
 
 # What Happened in LLM Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective

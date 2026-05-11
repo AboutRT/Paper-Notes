@@ -2,14 +2,14 @@
 title: >-
   [论文解读] MVR: Multi-view Video Reward Shaping for Reinforcement Learning
 description: >-
-  [ICLR 2026][视觉奖励塑形] 提出 MVR 框架，利用多视角视频的视频-文本相似度学习状态相关性函数，结合状态依赖的奖励塑形（自动衰减 VLM 引导），在 HumanoidBench 和 MetaWorld 共 19 个任务上超越现有 VLM 奖励方法。
+  [ICLR 2026][强化学习][视觉奖励塑形] 提出 MVR 框架，利用多视角视频的视频-文本相似度学习状态相关性函数，结合状态依赖的奖励塑形（自动衰减 VLM 引导），在 HumanoidBench 和 MetaWorld 共 19 个任务上超越现有 VLM 奖励方法。
 tags:
-  - ICLR 2026
-  - 视觉奖励塑形
-  - 多视角视频
-  - 强化学习
-  - 视觉语言模型
-  - 状态相关性学习
+  - "ICLR 2026"
+  - "强化学习"
+  - "视觉奖励塑形"
+  - "多视角视频"
+  - "视觉语言模型"
+  - "状态相关性学习"
 ---
 
 # MVR: Multi-view Video Reward Shaping for Reinforcement Learning

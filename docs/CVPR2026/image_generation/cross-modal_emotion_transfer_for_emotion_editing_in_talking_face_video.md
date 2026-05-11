@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][情感编辑] 提出 C-MET（Cross-Modal Emotion Transfer），通过建模语音和面部表情空间之间的情感语义向量映射，首次实现了基于语音驱动的扩展情感（如讽刺、魅力）说话人脸视频生成，情感准确率超越 SOTA 14%。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 情感编辑
-  - 跨模态迁移
-  - 说话人脸生成
-  - 情感语义向量
-  - 扩展情感
+  - "CVPR 2026"
+  - "图像生成"
+  - "情感编辑"
+  - "跨模态迁移"
+  - "说话人脸生成"
+  - "情感语义向量"
+  - "扩展情感"
 ---
 
 # Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video

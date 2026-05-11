@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][robotic manipulation] 提出 HR-Align 适配范式，利用配对人-机器人视频数据和对比对齐损失，以参数高效的方式弥合人类数据预训练模型与机器人域之间的语义差距，在 20 个仿真任务和 5 个真实任务上平均成功率提升 7%+。
 tags:
-  - CVPR 2025
-  - 机器人
-  - robotic manipulation
-  - visual pre-training
-  - human-robot domain gap
-  - contrastive alignment
-  - parameter-efficient adapter
+  - "CVPR 2025"
+  - "机器人"
+  - "robotic manipulation"
+  - "visual pre-training"
+  - "human-robot domain gap"
+  - "contrastive alignment"
+  - "parameter-efficient adapter"
 ---
 
 # Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation

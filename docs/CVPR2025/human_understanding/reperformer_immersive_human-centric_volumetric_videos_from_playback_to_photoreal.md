@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][体积视频] 提出 RePerformer，一种基于 3DGS 的体积视频表示方法，通过分层解耦运动高斯和外观高斯、Morton 编码参数化以及语义感知对齐模块，统一实现高保真回放和基于新动作的逼真再表演。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 体积视频
-  - 3D高斯溅射
-  - 动作迁移
-  - Morton编码
-  - 非刚体重建
+  - "CVPR 2025"
+  - "人体理解"
+  - "体积视频"
+  - "3D高斯溅射"
+  - "动作迁移"
+  - "Morton编码"
+  - "非刚体重建"
 ---
 
 # RePerformer: Immersive Human-centric Volumetric Videos from Playback to Photoreal Reperformance

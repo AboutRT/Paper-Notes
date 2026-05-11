@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][CLAHE] IA-CLAHE 通过证明 CLAHE 的直方图重分配过程几乎处处可微，首次实现了逐图块自适应 clip limit 的端到端学习，无需预搜索 ground truth clip limit 即可在恶劣天气条件下零样本提升识别性能和视觉质量。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - CLAHE
-  - 可微分
-  - 自适应增强
-  - 对比度限制
-  - 零样本泛化
+  - "CVPR 2026"
+  - "图像恢复"
+  - "CLAHE"
+  - "可微分"
+  - "自适应增强"
+  - "对比度限制"
+  - "零样本泛化"
 ---
 
 # IA-CLAHE: Image-Adaptive Clip Limit Estimation for CLAHE

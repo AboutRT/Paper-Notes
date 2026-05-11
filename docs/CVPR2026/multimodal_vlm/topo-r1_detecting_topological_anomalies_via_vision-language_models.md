@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Topo-R1: Detecting Topological Anomalies via Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][拓扑异常检测] 提出Topo-R1——首个赋予VLM拓扑感知能力的框架，通过自动化数据构建管线+SFT+GRPO强化学习（含拓扑感知复合奖励），实现无标注的管状结构拓扑异常检测与分类。
+  [CVPR 2026][多模态VLM][拓扑异常检测] 提出Topo-R1——首个赋予VLM拓扑感知能力的框架，通过自动化数据构建管线+SFT+GRPO强化学习（含拓扑感知复合奖励），实现无标注的管状结构拓扑异常检测与分类。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 管状结构分割
-  - GRPO强化学习
-  - clDice
-  - VLM细粒度感知
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "拓扑异常检测"
+  - "管状结构分割"
+  - "GRPO强化学习"
+  - "clDice"
+  - "VLM细粒度感知"
 ---
 
 # Topo-R1: Detecting Topological Anomalies via Vision-Language Models

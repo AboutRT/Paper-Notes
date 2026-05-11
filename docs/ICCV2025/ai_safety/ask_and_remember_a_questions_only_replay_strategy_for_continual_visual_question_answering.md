@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][AI安全][continual learning] 提出QUAD，通过仅存储先前任务的问题（不存储图像）进行重放，配合注意力一致性蒸馏保持跨任务的模态内和模态间注意力模式，在隐私保护的前提下实现持续VQA的SOTA性能。
 tags:
-  - ICCV 2025
-  - AI安全
-  - continual learning
-  - VQA
-  - question-only replay
-  - 注意力机制
-  - privacy-preserving
+  - "ICCV 2025"
+  - "AI安全"
+  - "continual learning"
+  - "VQA"
+  - "question-only replay"
+  - "注意力机制"
+  - "privacy-preserving"
 ---
 
 # Ask and Remember: A Questions-Only Replay Strategy for Continual Visual Question Answering

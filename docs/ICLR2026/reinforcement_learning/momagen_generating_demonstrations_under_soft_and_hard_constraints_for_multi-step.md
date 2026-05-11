@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MoMaGen: Generating Demonstrations under Soft and Hard Constraints for Multi-Step Bimanual Mobile Manipulation
 description: >-
-  [ICLR 2026][强化学习] MoMaGen 将双臂移动操作的演示数据生成建模为约束优化问题，通过硬约束（可达性、无碰撞、可见性）和软约束（导航中物体可见性、收回紧凑姿态）的协同，从单个人类遥操作演示自动生成大规模多样化数据集，训练出的视觉运动策略仅用 40 个真实演示微调即可部署到实体机器人。
+  [ICLR 2026][强化学习][移动操作] MoMaGen 将双臂移动操作的演示数据生成建模为约束优化问题，通过硬约束（可达性、无碰撞、可见性）和软约束（导航中物体可见性、收回紧凑姿态）的协同，从单个人类遥操作演示自动生成大规模多样化数据集…
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 双臂协调
-  - 约束优化
-  - 自动数据生成
-  - 模仿学习
+  - "ICLR 2026"
+  - "强化学习"
+  - "移动操作"
+  - "双臂协调"
+  - "约束优化"
+  - "自动数据生成"
+  - "模仿学习"
 ---
 
 # MoMaGen: Generating Demonstrations under Soft and Hard Constraints for Multi-Step Bimanual Mobile Manipulation

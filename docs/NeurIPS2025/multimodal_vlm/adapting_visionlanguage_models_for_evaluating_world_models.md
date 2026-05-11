@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Adapting Vision-Language Models for Evaluating World Models
 description: >-
-  [NeurIPS 2025][多模态][世界模型评估] 提出 UNIVERSE（UNIfied Vision-language Evaluator for Rollouts in Simulated Environments），通过对 PaliGemma 2 进行轻量级投影头微调（仅 0.07% 参数），构建统一的世界模型 rollout 语义评估器，在动作识别和角色识别任务上达到与任务专属模型相当的性能并与人类判断高度对齐。
+  [NeurIPS 2025][多模态VLM][世界模型评估] 提出 UNIVERSE（UNIfied Vision-language Evaluator for Rollouts in Simulated Environments），通过对 PaliGemma 2 进行轻量级投影头微调（仅 0.07% 参数）…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - VLM适配
-  - 动作识别
-  - 角色识别
-  - 轻量微调
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "世界模型评估"
+  - "VLM适配"
+  - "动作识别"
+  - "角色识别"
+  - "轻量微调"
 ---
 
 # Adapting Vision-Language Models for Evaluating World Models

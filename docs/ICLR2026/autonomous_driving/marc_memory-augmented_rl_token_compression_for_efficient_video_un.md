@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MARC: Memory-Augmented RL Token Compression for Efficient Video Understanding
 description: >-
-  [ICLR 2026][自动驾驶][视频 token 压缩] 提出 MARC 框架，通过"先检索再压缩"策略——用 Visual Memory Retriever (VMR) 选出与查询最相关的视频片段，再用 Compression GRPO (C-GRPO) 将 64 帧教师模型的推理能力蒸馏到仅用 1 帧 token 的学生模型——实现视觉 token 95% 压缩，GPU 显存降低 72%，推理延迟降低 23.9%，性能几乎无损（42.20 vs 42.21）。
+  [ICLR 2026][自动驾驶][视频 token 压缩] 提出 MARC 框架，通过"先检索再压缩"策略——用 Visual Memory Retriever (VMR) 选出与查询最相关的视频片段…
 tags:
-  - ICLR 2026
-  - 自动驾驶
-  - 视频 token 压缩
-  - 强化学习蒸馏
-  - 视觉记忆检索
-  - GRPO
-  - 高效推理
+  - "ICLR 2026"
+  - "自动驾驶"
+  - "视频 token 压缩"
+  - "强化学习蒸馏"
+  - "视觉记忆检索"
+  - "GRPO"
+  - "高效推理"
 ---
 
 # MARC: Memory-Augmented RL Token Compression for Efficient Video Understanding

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM评测][表格问答] 本文提出 ODUTQA-MDC 任务和基准，首次系统研究开放域场景下用户查询模糊性的检测与多轮对话澄清问题，构建了包含 25,105 个 QA 对的大规模数据集，并设计了 MAIC-TQA 多智能体框架来完成"检测-澄清-推理"的端到端表格问答。
 tags:
-  - ACL 2026
-  - LLM评测
-  - 表格问答
-  - 模糊查询澄清
-  - 多轮对话
-  - 多智能体框架
-  - Text-to-SQL
+  - "ACL 2026"
+  - "LLM评测"
+  - "表格问答"
+  - "模糊查询澄清"
+  - "多轮对话"
+  - "多智能体框架"
+  - "Text-to-SQL"
 ---
 
 # ODUTQA-MDC: A Task for Open-Domain Underspecified Tabular QA with Multi-turn Dialogue-based Clarification

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像恢复][文本到动作生成] 提出 BAMM（双向自回归运动模型），通过统一生成掩码建模和自回归建模的混合注意力掩码策略，在一个框架中同时实现高质量运动生成、自适应长度预测和零样本运动编辑，在 HumanML3D 和 KIT-ML 上全面超越 SOTA。
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 文本到动作生成
-  - 双向自回归
-  - 掩码自注意力
-  - 运动编辑
-  - VQ-VAE
+  - "ECCV 2024"
+  - "图像恢复"
+  - "文本到动作生成"
+  - "双向自回归"
+  - "掩码自注意力"
+  - "运动编辑"
+  - "VQ-VAE"
 ---
 
 # BAMM: Bidirectional Autoregressive Motion Model

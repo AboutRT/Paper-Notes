@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Simba: Towards High-Fidelity and Geometrically-Consistent Point Cloud Completion via Transformation Diffusion
 description: >-
-  [AAAI 2026][3D视觉][点云补全] 提出 Simba 框架，首次将点云补全重构为"对几何变换场做扩散"而非"对点坐标做扩散"，通过 Sym-Diffuser 学习逐点仿射变换的条件分布来生成粗糙补全，再用级联 Mamba 架构（MBA-Refiner）逐步精修到高保真输出，在 PCN、ShapeNet、KITTI 多个基准上达到 SOTA。
+  [AAAI 2026][3D视觉][点云补全] 提出 Simba 框架，首次将点云补全重构为"对几何变换场做扩散"而非"对点坐标做扩散"，通过 Sym-Diffuser 学习逐点仿射变换的条件分布来生成粗糙补全，再用级联 Mamba 架构（MBA-Refiner）逐步精修到高保真输出…
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 点云补全
-  - 扩散模型
-  - 对称先验
-  - Mamba
-  - 仿射变换
+  - "AAAI 2026"
+  - "3D视觉"
+  - "点云补全"
+  - "扩散模型"
+  - "对称先验"
+  - "Mamba"
+  - "仿射变换"
 ---
 
 # Simba: Towards High-Fidelity and Geometrically-Consistent Point Cloud Completion via Transformation Diffusion

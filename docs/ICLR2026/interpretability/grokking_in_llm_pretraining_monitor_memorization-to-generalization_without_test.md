@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test
 description: >-
-  [ICLR 2026][grokking] 首次在实际规模 LLM（7B MoE）的近单遍预训练中验证 grokking 现象——不同数据组异步记忆、延迟泛化；通过分析 MoE routing pathway 的演化（从 instance-specific 到 structured/shared），提出两个零成本指标来监控泛化进度，无需 instruction tuning 和 benchmark 评估。
+  [ICLR 2026][可解释性][grokking] 首次在实际规模 LLM（7B MoE）的近单遍预训练中验证 grokking 现象——不同数据组异步记忆、延迟泛化；通过分析 MoE routing pathway 的演化（从 instance-specific 到 structured/shared）…
 tags:
-  - ICLR 2026
-  - grokking
-  - memorization
-  - 可解释性
-  - MoE pathway
-  - pretraining dynamics
+  - "ICLR 2026"
+  - "可解释性"
+  - "grokking"
+  - "memorization"
+  - "generalization"
+  - "MoE pathway"
+  - "pretraining dynamics"
 ---
 
 # Grokking in LLM Pretraining? Monitor Memorization-to-Generalization without Test

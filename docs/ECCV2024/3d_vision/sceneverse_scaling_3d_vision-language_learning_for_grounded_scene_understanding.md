@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][视觉语言] 提出首个百万级 3D 视觉-语言数据集 SceneVerse（68K 室内场景 + 2.5M 场景-语言对），结合多层级对比预训练框架 GPS，在 3D visual grounding 和 QA 任务上取得 SOTA，并展现零样本迁移能力。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 视觉语言
-  - data scaling
-  - 场景理解
-  - 对比学习
-  - pre-training
+  - "ECCV 2024"
+  - "3D视觉"
+  - "视觉语言"
+  - "data scaling"
+  - "场景理解"
+  - "对比学习"
+  - "pre-training"
 ---
 
 # SceneVerse: Scaling 3D Vision-Language Learning for Grounded Scene Understanding

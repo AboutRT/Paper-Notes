@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PRESTO: Preimage-Informed Instruction Optimization for Prompting Black-Box LLMs
 description: >-
-  [NeurIPS 2025][LLM/NLP][instruction optimization] 提出 PRESTO 框架，利用白盒 LLM 中 soft prompt 到 instruction 的 many-to-one 映射关系（preimage 结构），通过 score sharing、preimage-based initialization 和 score consistency regularization 三大组件，在相同查询预算下等效获得 14 倍的标注数据量，显著提升黑盒 LLM 的指令优化效率。
+  [NeurIPS 2025][LLM/NLP][instruction optimization] 提出 PRESTO 框架，利用白盒 LLM 中 soft prompt 到 instruction 的 many-to-one 映射关系（preimage 结构）…
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - instruction optimization
-  - black-box LLM
-  - 提示学习
-  - preimage
-  - Bayesian optimization
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "instruction optimization"
+  - "black-box LLM"
+  - "提示学习"
+  - "preimage"
+  - "Bayesian optimization"
 ---
 
 # PRESTO: Preimage-Informed Instruction Optimization for Prompting Black-Box LLMs

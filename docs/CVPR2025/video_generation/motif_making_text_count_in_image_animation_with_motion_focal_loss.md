@@ -2,14 +2,14 @@
 title: >-
   [论文解读] MotiF: Making Text Count in Image Animation with Motion Focal Loss
 description: >-
-  [CVPR 2025][文本引导图像动画] 提出 Motion Focal Loss (MotiF)，通过光流生成运动热力图对扩散损失进行空间加权，引导模型关注高运动区域，显著提升 Text-Image-to-Video 生成中的文本遵循和运动质量，并构建 TI2V-Bench 评测基准。
+  [CVPR 2025][视频生成][文本引导图像动画] 提出 Motion Focal Loss (MotiF)，通过光流生成运动热力图对扩散损失进行空间加权，引导模型关注高运动区域，显著提升 Text-Image-to-Video 生成中的文本遵循和运动质量，并构建 TI2V-Bench 评测基准。
 tags:
-  - CVPR 2025
-  - 文本引导图像动画
-  - 运动焦点损失
-  - 视频生成
-  - 扩散模型
-  - 光流
+  - "CVPR 2025"
+  - "视频生成"
+  - "文本引导图像动画"
+  - "运动焦点损失"
+  - "扩散模型"
+  - "光流"
 ---
 
 # MotiF: Making Text Count in Image Animation with Motion Focal Loss

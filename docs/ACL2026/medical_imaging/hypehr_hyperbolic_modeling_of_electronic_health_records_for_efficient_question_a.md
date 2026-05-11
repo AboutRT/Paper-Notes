@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026 (Findings)][医学图像][电子病历问答] 本文提出 HypEHR，一个仅 22M 参数的洛伦兹双曲模型，将医学编码、就诊记录和问题嵌入双曲空间，通过层级感知正则化对齐 ICD 本体结构，在 MIMIC-IV 电子病历问答任务上接近 LLM 方法的效果。
 tags:
-  - ACL 2026 (Findings)
-  - 医学图像
-  - 电子病历问答
-  - 双曲空间
-  - Lorentz模型
-  - ICD层级建模
-  - 轻量化临床模型
+  - "ACL 2026 (Findings)"
+  - "医学图像"
+  - "电子病历问答"
+  - "双曲空间"
+  - "Lorentz模型"
+  - "ICD层级建模"
+  - "轻量化临床模型"
 ---
 
 # HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering

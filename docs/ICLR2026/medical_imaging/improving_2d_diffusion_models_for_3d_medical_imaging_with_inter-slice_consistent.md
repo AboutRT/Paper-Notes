@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity
 description: >-
-  [ICLR 2026][医学图像][3D医学重建] 提出 Inter-Slice Consistent Stochasticity (ISCS)，通过球面线性插值(Slerp)在扩散采样的 re-noising 步骤中生成层间相关噪声，从根源消除 2D 扩散先验做 3D 医学重建时的层间不连续伪影——零额外计算/超参数/训练开销，即插即用到任何 2D 扩散逆问题求解器，在稀疏视角 CT、限角 CT 和 MRI 超分辨率上均持续提升。
+  [ICLR 2026][医学图像][3D医学重建] 提出 Inter-Slice Consistent Stochasticity (ISCS)，通过球面线性插值(Slerp)在扩散采样的 re-noising 步骤中生成层间相关噪声…
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 3D医学重建
-  - 2D扩散模型
-  - 层间一致性
-  - 球面线性插值
-  - 即插即用
+  - "ICLR 2026"
+  - "医学图像"
+  - "3D医学重建"
+  - "2D扩散模型"
+  - "层间一致性"
+  - "球面线性插值"
+  - "即插即用"
 ---
 
 # Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity
@@ -70,7 +70,7 @@ $$\epsilon_i^{\text{ISCS}} = \text{slerp}(\mathbf{z}_1, \mathbf{z}_S; \alpha_i) 
 ### 关键设计 3：为何 Slerp 优于 BCS（全同噪声）
 
 - **功能**：设计具有"近处强关联、远处弱关联"特性的噪声结构，替代 BCS 的全同噪声方案。
-- **核心思路**：BCS 对所有层施加完全相同的噪声，这在视频修复（<16帧、帧间变化小）中可行，但在医学体数据（>300层、层间解剖结构显著变异）中过于刚性——抑制解剖变化，导致"复制伪影"（特征在解剖不同的层间不当复制）。ISCS 的 Slerp 噪声天然满足理想特性：(i) 相邻层噪声高度相关→局部一致性，(ii) 距离增大时相关性衰减→允许全局结构变化。
+- **核心思路**：BCS 对所有层施加完全相同的噪声，这在视频修复（&lt;16帧、帧间变化小）中可行，但在医学体数据（>300层、层间解剖结构显著变异）中过于刚性——抑制解剖变化，导致"复制伪影"（特征在解剖不同的层间不当复制）。ISCS 的 Slerp 噪声天然满足理想特性：(i) 相邻层噪声高度相关→局部一致性，(ii) 距离增大时相关性衰减→允许全局结构变化。
 - **设计动机**：医学体数据的本质特征是"局部连续但全局变化"，噪声的相关结构应当与此匹配，而非一刀切地全同或全独立。
 
 ### 关键设计 4：即插即用的集成方式
@@ -149,7 +149,7 @@ $$x_{t-1} = \sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0|t} + \sqrt{1-\bar{\alpha}_{t-1}-
 DDS+TV 在 re-noising 后额外执行 TV 正则化优化步来平滑 z 轴——需要调敏感的正则化权重 $\lambda$，且过平滑会擦除细节。ISCS 从 re-noising 噪声本身入手，不需要额外优化步和超参数，在 SVCT 上 Sagittal LPIPS 0.065 vs TV 的 0.088（↓26%），同时避免了卡通化伪影。
 
 ### vs BCS (Kwon & Ye, 2025)
-BCS 为视频修复设计，对所有帧/层施加完全相同的噪声——在短视频(<16帧)中可行，但在医学体数据(>300层)中产生"复制伪影"。ISCS 的 Slerp 噪声允许层间相关性随距离衰减，更好地适应医学数据的局部连续+全局变化特性。消融实验（Table 2）显示 ISCS 在 Sagittal 上优于 BCS 0.54 dB PSNR、0.008 LPIPS。
+BCS 为视频修复设计，对所有帧/层施加完全相同的噪声——在短视频(&lt;16帧)中可行，但在医学体数据(>300层)中产生"复制伪影"。ISCS 的 Slerp 噪声允许层间相关性随距离衰减，更好地适应医学数据的局部连续+全局变化特性。消融实验（Table 2）显示 ISCS 在 Sagittal 上优于 BCS 0.54 dB PSNR、0.008 LPIPS。
 
 ### vs DiffusionBlend (Song et al., 2024)
 DiffusionBlend 通过 3D patch 训练混合 diffusion score 来增强 3D 一致性——需要额外的 3D 训练成本和特殊的数据处理。ISCS 完全不需要任何训练，仅在推理时修改噪声采样方式，更简洁且通用。

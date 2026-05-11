@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][记忆高效迁移学习] MDPD提出通过冻结骨干网络与轻量侧网络之间的双向知识蒸馏实现高效微调，训练完成后丢弃侧网络，从而同时实现训练时的参数/内存高效和推理时的速度高效。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 记忆高效迁移学习
-  - 知识蒸馏
-  - 侧网络
-  - 推理加速
-  - 双路径蒸馏
+  - "CVPR 2026"
+  - "模型压缩"
+  - "记忆高效迁移学习"
+  - "知识蒸馏"
+  - "侧网络"
+  - "推理加速"
+  - "双路径蒸馏"
 ---
 
 # Memory-Efficient Transfer Learning with Fading Side Networks via Masked Dual Path Distillation

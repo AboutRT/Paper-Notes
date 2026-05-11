@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][4D reconstruction] 提出4D Motion Scaffold (MoSca)表示，通过稀疏6-DoF轨迹图紧凑编码场景运动，结合2D基础模型先验和物理正则化，从无位姿的随手拍单目视频实现全自动4D场景重建。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 4D reconstruction
-  - dynamic scene
-  - Gaussian splatting
-  - motion scaffold
-  - deformation graph
-  - pose-free
+  - "CVPR 2025"
+  - "3D视觉"
+  - "4D reconstruction"
+  - "dynamic scene"
+  - "Gaussian splatting"
+  - "motion scaffold"
+  - "deformation graph"
+  - "pose-free"
 ---
 
 # MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds

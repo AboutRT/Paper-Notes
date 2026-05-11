@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction
 description: >-
-  [NeurIPS 2025][语音][多模态] VITA-1.5 提出了一套精心设计的三阶段渐进式训练策略，将视觉和语音能力逐步整合进 LLM 中，实现了无需独立 ASR/TTS 模块的端到端视觉-语音实时交互，在图像、视频和语音基准上均达到开源模型领先水平。
+  [NeurIPS 2025][音频/语音][多模态] VITA-1.5 提出了一套精心设计的三阶段渐进式训练策略，将视觉和语音能力逐步整合进 LLM 中，实现了无需独立 ASR/TTS 模块的端到端视觉-语音实时交互，在图像、视频和语音基准上均达到开源模型领先水平。
 tags:
-  - NeurIPS 2025
-  - 语音
-  - 音频语音
-  - vision-speech interaction
-  - end-to-end speech
-  - three-stage training
-  - omni model
+  - "NeurIPS 2025"
+  - "音频/语音"
+  - "多模态"
+  - "vision-speech interaction"
+  - "end-to-end speech"
+  - "three-stage training"
+  - "omni model"
 ---
 
 # VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction
@@ -59,7 +59,7 @@ VITA-1.5 的模型架构包含：
 
 1. **视频处理策略**：
 
-    - <4秒视频：均匀采样 4 帧
+    - &lt;4秒视频：均匀采样 4 帧
     - 4-16秒视频：每秒 1 帧
     - >16秒视频：均匀采样 16 帧
     - 视频帧不使用动态分块以避免 token 过多

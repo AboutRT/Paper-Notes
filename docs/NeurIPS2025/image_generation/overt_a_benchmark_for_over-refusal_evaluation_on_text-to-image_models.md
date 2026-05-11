@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][过度拒绝] 构建了首个大规模文生图模型过度拒绝评估基准 OVERT（4600条良性提示 + 1785条有害提示，覆盖9个安全类别），系统评估了5个主流 T2I 模型的过度拒绝行为，揭示了安全与效用之间的强相关权衡关系。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 过度拒绝
-  - 文生图模型
-  - 安全对齐
-  - benchmark
-  - 安全-效用权衡
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "过度拒绝"
+  - "文生图模型"
+  - "安全对齐"
+  - "benchmark"
+  - "安全-效用权衡"
 ---
 
 # OVERT: A Benchmark for Over-Refusal Evaluation on Text-to-Image Models

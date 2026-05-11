@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Self-supervised Co-salient Object Detection via Feature Correspondences at Multiple Scales
 description: >-
-  [ECCV 2024][图像分割][目标检测] 提出 SCoSPARC——一个两阶段自监督共显著目标检测模型，通过 patch 级和 region 级 ViT 特征对应关系检测图像组中的共显著物体，在 CoCA 数据集上 F-measure 比无监督 SOTA 高 13.7%，甚至超越多个有监督方法。
+  [ECCV 2024][语义分割][目标检测] 提出 SCoSPARC——一个两阶段自监督共显著目标检测模型，通过 patch 级和 region 级 ViT 特征对应关系检测图像组中的共显著物体，在 CoCA 数据集上 F-measure 比无监督 SOTA 高 13.7%，甚至超越多个有监督方法。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 目标检测
-  - 自监督学习
-  - Feature Correspondence
-  - Transformer
-  - Adaptive Thresholding
+  - "ECCV 2024"
+  - "语义分割"
+  - "目标检测"
+  - "自监督学习"
+  - "Feature Correspondence"
+  - "Transformer"
+  - "Adaptive Thresholding"
 ---
 
 # Self-supervised Co-salient Object Detection via Feature Correspondences at Multiple Scales

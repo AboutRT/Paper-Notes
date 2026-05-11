@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][KL散度] 本文利用对数似然向量将不同架构的语言模型嵌入统一空间，系统测量了预训练、模型规模、随机种子、量化、微调和层间等多种设置下的 KL 散度特征尺度，并发现预训练轨迹在对数似然空间中呈亚扩散行为——尽管权重空间持续漂移，模型输出分布早期即趋于稳定。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - KL散度
-  - 语言模型
-  - 预训练轨迹
-  - 对数似然向量
-  - 异常扩散
+  - "ACL 2026"
+  - "模型压缩"
+  - "KL散度"
+  - "语言模型"
+  - "预训练轨迹"
+  - "对数似然向量"
+  - "异常扩散"
 ---
 
 # Establishing a Scale for Kullback–Leibler Divergence in Language Models Across Various Settings

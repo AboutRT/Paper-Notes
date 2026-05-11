@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Pioneering Perceptual Video Fluency Assessment: A Novel Task with Benchmark Dataset and Baseline
 description: >-
-  [CVPR 2026][视频流畅度评估] 本文首次将视频流畅度评估（VFA）从传统视频质量评估（VQA）中独立出来，构建了首个流畅度评估数据集 FluVid（4,606 视频），并提出 FluNet 基线模型，通过时序排列自注意力（T-PSA）实现高效帧间交互，SRCC/PLCC 分别达到 0.816/0.821。
+  [CVPR 2026][LLM评测][视频流畅度评估] 本文首次将视频流畅度评估（VFA）从传统视频质量评估（VQA）中独立出来，构建了首个流畅度评估数据集 FluVid（4,606 视频），并提出 FluNet 基线模型，通过时序排列自注意力（T-PSA）实现高效帧间交互…
 tags:
-  - CVPR 2026
-  - 视频流畅度评估
-  - 时序质量
-  - 基准数据集
-  - 自注意力
-  - LLM评测
+  - "CVPR 2026"
+  - "LLM评测"
+  - "视频流畅度评估"
+  - "时序质量"
+  - "基准数据集"
+  - "自注意力"
+  - "自监督学习"
 ---
 
 # Pioneering Perceptual Video Fluency Assessment: A Novel Task with Benchmark Dataset and Baseline

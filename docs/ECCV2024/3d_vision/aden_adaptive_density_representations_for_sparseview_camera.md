@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][稀疏视图] 提出ADen框架，通过生成器输出多个位姿假设+判别器评分选择最佳的方式，统一了位姿回归和概率估计范式，仅需500个自适应样本即超越需要500K均匀采样的方法，同时实现实时推理。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 稀疏视图
-  - 相机位姿
-  - 生成器-判别器
-  - 自适应采样
-  - 对比学习
+  - "ECCV 2024"
+  - "3D视觉"
+  - "稀疏视图"
+  - "相机位姿"
+  - "生成器-判别器"
+  - "自适应采样"
+  - "对比学习"
 ---
 
 # ADen: Adaptive Density Representations for Sparse-view Camera Pose Estimation

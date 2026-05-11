@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][多视角特征匹配] 提出CoMatcher，一种多视角协同特征匹配器，从两视角独立匹配范式转向1-to-N协同匹配范式，利用互补视角的上下文线索和跨视角投影一致性约束来提升复杂场景下的匹配可靠性。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 多视角特征匹配
-  - 协同推理
-  - 跨视角一致性
-  - 宽基线匹配
-  - SfM
+  - "CVPR 2025"
+  - "3D视觉"
+  - "多视角特征匹配"
+  - "协同推理"
+  - "跨视角一致性"
+  - "宽基线匹配"
+  - "SfM"
 ---
 
 # CoMatcher: Multi-View Collaborative Feature Matching

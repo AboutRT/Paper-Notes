@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RLTHF: Targeted Human Feedback for LLM Alignment
 description: >-
-  [ICML 2025][推荐系统] RLTHF 提出了一种人机混合的 LLM 对齐框架，通过分析奖励模型的奖励分布来识别 LLM 错标的"难样本"，仅对这些样本进行人工标注，以全量人工标注 6-7% 的成本达到甚至超越全人工标注的对齐质量。
+  [ICML 2025][推荐系统][RLHF] RLTHF 提出了一种人机混合的 LLM 对齐框架，通过分析奖励模型的奖励分布来识别 LLM 错标的"难样本"，仅对这些样本进行人工标注，以全量人工标注 6-7% 的成本达到甚至超越全人工标注的对齐质量。
 tags:
-  - ICML 2025
-  - 推荐系统
-  - LLM对齐
-  - 人类反馈
-  - 奖励模型
-  - 主动学习
+  - "ICML 2025"
+  - "推荐系统"
+  - "RLHF"
+  - "LLM对齐"
+  - "人类反馈"
+  - "奖励模型"
+  - "主动学习"
 ---
 
 # RLTHF: Targeted Human Feedback for LLM Alignment

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis
 description: >-
-  [CVPR 2026][3D视觉][物理感知基准] PhysGaia 构建了一个包含 17 个场景的物理感知基准数据集，涵盖液体/气体/织物/流变物质等多种材料的多体交互，提供 3D 粒子轨迹和物理参数（如粘度）的 ground truth，并提出 Trajectory Distance (TD) 和 AUOP 两个新指标来量化 4DGS 方法的物理真实性，揭示了现有 DyNVS 方法在物理推理上的严重不足。
+  [CVPR 2026][3D视觉][物理感知基准] PhysGaia 构建了一个包含 17 个场景的物理感知基准数据集，涵盖液体/气体/织物/流变物质等多种材料的多体交互，提供 3D 粒子轨迹和物理参数（如粘度）的 ground truth…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 物理感知基准
-  - 动态新视角合成
-  - 多体交互
-  - 4D高斯溅射
-  - 物理参数评估
+  - "CVPR 2026"
+  - "3D视觉"
+  - "物理感知基准"
+  - "动态新视角合成"
+  - "多体交互"
+  - "4D高斯溅射"
+  - "物理参数评估"
 ---
 
 # PhysGaia: A Physics-Aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis

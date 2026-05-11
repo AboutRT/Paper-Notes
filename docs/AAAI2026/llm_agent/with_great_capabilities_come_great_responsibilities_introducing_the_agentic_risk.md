@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM Agent][智能体治理] 提出 Agentic Risk & Capability (ARC) 框架，从能力（Capability）视角系统化地识别、评估和缓解智能体 AI 系统的安全与安全风险，为组织级治理提供可操作的结构化方法论。
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - 智能体治理
-  - 风险评估框架
-  - 能力分析
-  - 技术控制
-  - AI安全
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "智能体治理"
+  - "风险评估框架"
+  - "能力分析"
+  - "技术控制"
+  - "AI安全"
 ---
 
 # With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems

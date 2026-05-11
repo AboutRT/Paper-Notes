@@ -2,16 +2,16 @@
 title: >-
   [论文解读] MuTri: Multi-view Tri-alignment for OCT to OCTA 3D Image Translation
 description: >-
-  [CVPR 2025][模型压缩][OCT] 本文提出MuTri，首次将向量量化（VQ）引入OCT到OCTA的3D体积翻译任务，通过两阶段训练——先预训练OCT和OCTA重建VQVAE提供多视图先验，再用对比语义对齐（3D OCT/OCTA视图）和血管结构对齐（2D OCTA投影图视图）三视图指导翻译VQVAE的码本学习，在三个数据集上全面超越SOTA。
+  [CVPR 2025][模型压缩][OCT] 本文提出MuTri，首次将向量量化（VQ）引入OCT到OCTA的3D体积翻译任务，通过两阶段训练——先预训练OCT和OCTA重建VQVAE提供多视图先验…
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - OCT
-  - OCTA
-  - 向量量化
-  - 对比学习
-  - 3D图像翻译
-  - 视网膜血管
+  - "CVPR 2025"
+  - "模型压缩"
+  - "OCT"
+  - "OCTA"
+  - "向量量化"
+  - "对比学习"
+  - "3D图像翻译"
+  - "视网膜血管"
 ---
 
 # MuTri: Multi-view Tri-alignment for OCT to OCTA 3D Image Translation

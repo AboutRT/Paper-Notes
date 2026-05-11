@@ -2,15 +2,15 @@
 title: >-
   [论文解读] D-SCo: Dual-Stream Conditional Diffusion for Monocular Hand-Held Object Reconstruction
 description: >-
-  [ECCV2024][3D视觉][手持物体重建] 提出双流条件扩散模型 D-SCo 从单张 RGB 图像重建手持物体点云，通过统一手-物语义嵌入和手关节几何嵌入两个分支分别提供语义和几何先验，配合手约束质心固定策略稳定扩散过程，在 ObMan 上 F-5 达 0.61（超 DDF-HO 10.9%），真实数据集 HO3D/MOW 上也大幅领先。
+  [ECCV2024][3D视觉][手持物体重建] 提出双流条件扩散模型 D-SCo 从单张 RGB 图像重建手持物体点云，通过统一手-物语义嵌入和手关节几何嵌入两个分支分别提供语义和几何先验，配合手约束质心固定策略稳定扩散过程，在 ObMan 上 F-5 达 0.61（超 DDF-HO 10.9%）…
 tags:
-  - ECCV2024
-  - 3D视觉
-  - 手持物体重建
-  - 扩散模型
-  - 手-物交互
-  - 双流去噪
-  - 质心固定
+  - "ECCV2024"
+  - "3D视觉"
+  - "手持物体重建"
+  - "扩散模型"
+  - "手-物交互"
+  - "双流去噪"
+  - "质心固定"
 ---
 
 # D-SCo: Dual-Stream Conditional Diffusion for Monocular Hand-Held Object Reconstruction

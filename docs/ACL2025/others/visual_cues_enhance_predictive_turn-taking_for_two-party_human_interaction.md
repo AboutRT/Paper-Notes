@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][Turn-Taking] 提出 MM-VAP 多模态预测性话轮转换模型，将面部表情、头部姿态和注视方向等视觉线索引入语音预测模型，在视频会议语料上将 hold/shift 预测准确率从 79% 提升至 84%。
 tags:
-  - ACL 2025
-  - Turn-Taking
-  - 其他
-  - Facial Action Units
-  - Predictive Model
-  - Video Conferencing
+  - "ACL 2025"
+  - "Turn-Taking"
+  - "多模态"
+  - "Facial Action Units"
+  - "Predictive Model"
+  - "Video Conferencing"
 ---
 
 # Visual Cues Enhance Predictive Turn-Taking for Two-Party Human Interaction

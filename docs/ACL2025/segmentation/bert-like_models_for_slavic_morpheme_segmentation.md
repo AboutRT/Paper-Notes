@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BERT-like Models for Slavic Morpheme Segmentation
 description: >-
-  [ACL 2025][图像分割][形态素分割] 本文探索使用 BERT 类预训练语言模型来完成斯拉夫语系语言的形态素分割任务，通过将形态素分割建模为序列标注问题，在多个斯拉夫语言上取得了优于传统方法的结果。
+  [ACL 2025][语义分割][形态素分割] 本文探索使用 BERT 类预训练语言模型来完成斯拉夫语系语言的形态素分割任务，通过将形态素分割建模为序列标注问题，在多个斯拉夫语言上取得了优于传统方法的结果。
 tags:
-  - ACL 2025
-  - 图像分割
-  - 形态素分割
-  - 斯拉夫语
-  - BERT
-  - 子词模型
-  - 词法分析
+  - "ACL 2025"
+  - "语义分割"
+  - "形态素分割"
+  - "斯拉夫语"
+  - "BERT"
+  - "子词模型"
+  - "词法分析"
 ---
 
 # BERT-like Models for Slavic Morpheme Segmentation

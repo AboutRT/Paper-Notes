@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step
 description: >-
-  [CVPR 2025][视频生成] VideoScene 提出了一种 3D 感知的跳跃式流蒸馏（Leap Flow Distillation）策略，将视频扩散模型蒸馏为一步生成器，从两张稀疏视角图像生成具有 3D 一致性的视频，配合动态去噪策略网络（DDPNet）自适应选择最优起始噪声水平，在速度上从 2 分钟压缩到 3 秒的同时保持了高质量。
+  [CVPR 2025][视频生成][视频扩散模型蒸馏] VideoScene 提出了一种 3D 感知的跳跃式流蒸馏（Leap Flow Distillation）策略，将视频扩散模型蒸馏为一步生成器，从两张稀疏视角图像生成具有 3D 一致性的视频，配合动态去噪策略网络（DDPNet）自适应选择最优起始噪声水平…
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 3D场景生成
-  - 一致性蒸馏
-  - 稀疏视角重建
-  - Gaussian Splatting
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频扩散模型蒸馏"
+  - "3D场景生成"
+  - "一致性蒸馏"
+  - "稀疏视角重建"
+  - "Gaussian Splatting"
 ---
 
 # VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step

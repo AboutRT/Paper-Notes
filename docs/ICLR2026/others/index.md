@@ -3,6 +3,17 @@ title: >-
   ICLR2026 其他方向76篇论文解读
 description: >-
   76篇ICLR2026的其他方向论文解读，涵盖对抗鲁棒、域适应、对齐/RLHF、联邦学习、Agent、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICLR2026"
+  - "其他"
+  - "论文解读"
+  - "论文笔记"
+  - "对抗鲁棒"
+  - "域适应"
+  - "对齐/RLHF"
+  - "联邦学习"
+  - "Agent"
+  - "扩散模型"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **🔬 ICLR2026** · **76** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [📷 CVPR2026 (44)](../../CVPR2026/others/index.md) · [🤖 AAAI2026 (126)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md) · [🧪 ICML2025 (93)](../../ICML2025/others/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [📷 CVPR2026 (44)](../../CVPR2026/others/index.md) · [🤖 AAAI2026 (126)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md) · [🧪 ICML2025 (93)](../../ICML2025/others/index.md)
 
 🔥 **高频主题：** 对抗鲁棒 ×5 · 域适应 ×3 · 对齐/RLHF ×3 · 联邦学习 ×2 · Agent ×2
 

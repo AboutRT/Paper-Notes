@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation
 description: >-
-  [ACL 2025][因果推理] 提出 CausalRAG，将因果图集成到 RAG 的检索过程中——从文档构建文本图并识别因果关系，在查询时通过因果路径发现和因果摘要生成来检索上下文，在文档问答中显著提升上下文精度（92.86%）和检索召回率。
+  [ACL 2025][因果推理][检索增强生成] 提出 CausalRAG，将因果图集成到 RAG 的检索过程中——从文档构建文本图并识别因果关系，在查询时通过因果路径发现和因果摘要生成来检索上下文，在文档问答中显著提升上下文精度（92.86%）和检索召回率。
 tags:
-  - ACL 2025
-  - 因果推理
-  - 因果图
-  - 知识图谱
-  - 文档问答
-  - 图索引
+  - "ACL 2025"
+  - "因果推理"
+  - "检索增强生成"
+  - "因果图"
+  - "知识图谱"
+  - "文档问答"
+  - "图索引"
 ---
 
 # CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation

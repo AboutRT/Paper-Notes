@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method
 description: >-
-  [ICLR 2026][目标检测][视觉定位推理] 提出 TreeBench（首个可追溯视觉推理基准，405道高挑战 VQA，OpenAI-o3 仅 54.87%）和 TreeVGR（通过双 IoU 奖励的强化学习联合监督定位与推理的训练范式），7B 模型在 V\*Bench +16.8、MME-RealWorld +12.6、TreeBench +13.4，证明可追溯性是推进视觉推理的关键。
+  [ICLR 2026][目标检测][视觉定位推理] 提出 TreeBench（首个可追溯视觉推理基准，405道高挑战 VQA，OpenAI-o3 仅 54.87%）和 TreeVGR（通过双 IoU 奖励的强化学习联合监督定位与推理的训练范式）…
 tags:
-  - ICLR 2026
-  - 目标检测
-  - 视觉定位推理
-  - 可追溯证据
-  - 二阶推理
-  - TreeBench
-  - 强化学习
-  - Dual IoU
+  - "ICLR 2026"
+  - "目标检测"
+  - "视觉定位推理"
+  - "可追溯证据"
+  - "二阶推理"
+  - "TreeBench"
+  - "强化学习"
+  - "Dual IoU"
 ---
 
 # Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and Method
@@ -111,7 +111,7 @@ $$R_{\text{IoU}} = \frac{1}{2}(R_{\text{IoU}}^{\text{R}} + R_{\text{IoU}}^{\text
 - **没有模型在 TreeBench 上超过 60%**：最强的 o3 也仅 54.87%，证明基准确实有挑战性
 - **TreeVGR-7B 媲美 InternVL3-78B**：7B 模型通过定位-推理联合训练达到 78B 通用模型的水平
 - **mIoU 高度相关于最终准确率**：TreeVGR 的 mIoU=44.0 显著优于 DeepEyes（30.0）和 Pixel-Reasoner（35.7），验证了精确定位对推理的促进作用
-- **接触遮挡和排序是最难类别**：所有模型在这两类上表现最差（<25%），反映二阶推理的根本困难
+- **接触遮挡和排序是最难类别**：所有模型在这两类上表现最差（&lt;25%），反映二阶推理的根本困难
 
 ## 亮点与洞察
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][时间序列][时间序列预测] 提出基于 Mamba 的 TimePro 模型，通过构建变量感知和时间感知的超级状态（hyper-state），自适应选择关键时间点来调节变量维度的隐状态，以线性复杂度实现高效的多变量长期时间序列预测。
 tags:
-  - ICML 2025
-  - 时间序列
-  - 时间序列预测
-  - Mamba
-  - 状态空间模型
-  - 多变量建模
-  - 多延迟问题
+  - "ICML 2025"
+  - "时间序列"
+  - "时间序列预测"
+  - "Mamba"
+  - "状态空间模型"
+  - "多变量建模"
+  - "多延迟问题"
 ---
 
 # TimePro: Efficient Multivariate Long-term Time Series Forecasting with Variable- and Time-Aware Hyper-state

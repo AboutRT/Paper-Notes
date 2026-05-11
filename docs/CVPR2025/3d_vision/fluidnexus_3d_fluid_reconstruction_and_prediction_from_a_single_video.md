@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][流体重建] 提出 FluidNexus，首次从单个视频实现3D流体外观和速度场的重建与未来预测，通过结合视频生成模型合成多视角参考视频，以及物理-视觉粒子耦合表示桥接可微分仿真与渲染，在新视角合成和未来预测上大幅超越现有多视角方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 流体重建
-  - 物理仿真
-  - 视频生成
-  - 3D高斯溅射
-  - 可微分渲染
+  - "CVPR 2025"
+  - "3D视觉"
+  - "流体重建"
+  - "物理仿真"
+  - "视频生成"
+  - "3D高斯溅射"
+  - "可微分渲染"
 ---
 
 # FluidNexus: 3D Fluid Reconstruction and Prediction from a Single Video

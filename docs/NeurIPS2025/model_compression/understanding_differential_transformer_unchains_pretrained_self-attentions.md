@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Understanding Differential Transformer Unchains Pretrained Self-Attentions
 description: >-
-  [NeurIPS 2025][模型压缩][Transformer] 深入分析 Differential Transformer（差分注意力）的内部机制，揭示差分操作等效于一种鲁棒的注意力去噪过程——它"解放"了受 softmax 归一化约束的预训练自注意力，使注意力权重更自由地分配到真正重要的 Token 上。
+  [NeurIPS 2025][模型压缩][Transformer] 深入分析 Differential Transformer（差分注意力）的内部机制，揭示差分操作等效于一种鲁棒的注意力去噪过程——它"解放"了受 softmax 归一化约束的预训练自注意力，使注意力权重更自由地分配到真正重要的 Token 上…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - Transformer
-  - 注意力机制分析
-  - 注意力噪声消除
-  - 预训练注意力解放
-  - 可解释性
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "Transformer"
+  - "注意力机制分析"
+  - "注意力噪声消除"
+  - "预训练注意力解放"
+  - "可解释性"
 ---
 
 # Understanding Differential Transformer Unchains Pretrained Self-Attentions

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning
 description: >-
-  [ICML 2025 (Workshop MAS)][multi-agent planning] 提出 WandaPlan 评估环境，通过在旅行规划场景中注入三种递进式欺诈（单源误导、团队协调刷单、逐级升级），系统性评估 LLM 多智能体规划系统对虚假信息的脆弱性，并设计反欺诈 Agent 来缓解风险。
+  [ICML 2025 (Workshop MAS)][社会计算][multi-agent planning] 提出 WandaPlan 评估环境，通过在旅行规划场景中注入三种递进式欺诈（单源误导、团队协调刷单、逐级升级），系统性评估 LLM 多智能体规划系统对虚假信息的脆弱性…
 tags:
-  - ICML 2025 (Workshop MAS)
-  - 社会计算
-  - fraud detection
-  - travel planning
-  - LLM reliability
-  - evaluation benchmark
+  - "ICML 2025 (Workshop MAS)"
+  - "社会计算"
+  - "multi-agent planning"
+  - "fraud detection"
+  - "travel planning"
+  - "LLM reliability"
+  - "evaluation benchmark"
 ---
 
 # Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhance Multimodal Consistency and Coherence for Text-Image Plan Generation
 description: >-
-  [ACL 2025][多模态][多模态规划] 本文提出一种自回归文本-图像计划生成框架（MPlanner），通过四阶段迭代——文本草拟、图像编辑、视觉信息提取、文本精炼——有效提升多模态计划中视觉步骤的连贯性和文本-图像的一致性。
+  [ACL 2025][多模态VLM][多模态规划] 本文提出一种自回归文本-图像计划生成框架（MPlanner），通过四阶段迭代——文本草拟、图像编辑、视觉信息提取、文本精炼——有效提升多模态计划中视觉步骤的连贯性和文本-图像的一致性。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态规划
-  - 文本-图像计划生成
-  - 视觉连贯性
-  - 跨模态一致性
-  - 自回归框架
+  - "ACL 2025"
+  - "多模态VLM"
+  - "多模态规划"
+  - "文本-图像计划生成"
+  - "视觉连贯性"
+  - "跨模态一致性"
+  - "自回归框架"
 ---
 
 # Enhance Multimodal Consistency and Coherence for Text-Image Plan Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][单图3D重建] SPAR3D 提出两阶段单图 3D 物体重建方法：第一阶段用轻量点云扩散模型生成稀疏点云处理遮挡不确定性，第二阶段用 triplane transformer 将点云转化为带 PBR 材质的高质量 mesh，实现 0.7 秒推理和交互式编辑。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单图3D重建
-  - 点云扩散
-  - 双阶段重建
-  - 交互编辑
-  - PBR材质
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单图3D重建"
+  - "点云扩散"
+  - "双阶段重建"
+  - "交互编辑"
+  - "PBR材质"
 ---
 
 # SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images

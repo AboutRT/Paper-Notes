@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][深度估计] TacoDepth 提出首个单阶段雷达-相机融合深度估计框架，通过基于图的雷达结构提取器和金字塔式雷达融合模块，绕过了中间准稠密深度图的需求，在精度提升 12.8% 的同时速度提升 91.8%，达到实时 37+ FPS。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 深度估计
-  - 雷达-相机融合
-  - 单阶段融合
-  - 图神经网络
-  - 实时处理
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "深度估计"
+  - "雷达-相机融合"
+  - "单阶段融合"
+  - "图神经网络"
+  - "实时处理"
 ---
 
 # TacoDepth: Towards Efficient Radar-Camera Depth Estimation with One-Stage Fusion

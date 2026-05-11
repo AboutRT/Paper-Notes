@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Reliable Large Audio Language Model
 description: >-
-  [ACL 2025][语音][Large Audio Language Model] 本文首次系统研究大型音频语言模型（LALM）的可靠性问题，提出训练无关方法（IDK/MCoT/Task Agent）和训练方法（基于模型特定 IDK 数据集的 LoRA SFT），并设计 Reliability Gain Index（RGI）指标来评估可靠性提升效果，发现"知道说不知道"是可跨音频模态迁移的元能力。
+  [ACL 2025][音频/语音][Large Audio Language Model] 本文首次系统研究大型音频语言模型（LALM）的可靠性问题，提出训练无关方法（IDK/MCoT/Task Agent）和训练方法（基于模型特定 IDK 数据集的 LoRA SFT）…
 tags:
-  - ACL 2025
-  - 语音
-  - Large Audio Language Model
-  - Reliability
-  - IDK
-  - 跨模态迁移
-  - 拒答能力
+  - "ACL 2025"
+  - "音频/语音"
+  - "Large Audio Language Model"
+  - "Reliability"
+  - "IDK"
+  - "跨模态迁移"
+  - "拒答能力"
 ---
 
 # Towards Reliable Large Audio Language Model

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ESCAPE: Equivariant Shape Completion via Anchor Point Encoding
 description: >-
-  [CVPR 2025][人体理解][点云补全] ESCAPE 提出了一种基于锚点距离编码的旋转等变点云补全方法，通过将点云表示为到高曲率锚点的距离矩阵，使 Transformer 在旋转不变的距离空间中预测完整形状，再通过优化恢复 3D 坐标，在任意旋转输入下大幅超越现有方法（PCN 数据集 CD-L1 从 26.65 降至 10.58）。
+  [CVPR 2025][人体理解][点云补全] ESCAPE 提出了一种基于锚点距离编码的旋转等变点云补全方法，通过将点云表示为到高曲率锚点的距离矩阵，使 Transformer 在旋转不变的距离空间中预测完整形状，再通过优化恢复 3D 坐标…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 点云补全
-  - 旋转等变
-  - 锚点编码
-  - 形状重建
-  - Transformer
+  - "CVPR 2025"
+  - "人体理解"
+  - "点云补全"
+  - "旋转等变"
+  - "锚点编码"
+  - "形状重建"
+  - "Transformer"
 ---
 
 # ESCAPE: Equivariant Shape Completion via Anchor Point Encoding

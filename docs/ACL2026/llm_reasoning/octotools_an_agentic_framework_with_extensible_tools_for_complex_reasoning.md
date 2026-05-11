@@ -2,8 +2,15 @@
 title: >-
   [论文解读] OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning
 description: >-
-  [ACL2026][LLM推理] 免训练、可扩展的多步工具调用智能体框架，通过标准化工具卡和Planner-Executor范式在16个基准上平均提升9.3%
-tags: [LLM Agent, 工具增强, 复杂推理, 多步规划, 工具卡]
+  [ACL 2026][LLM推理][智能体框架] OctoTools是一个免训练、用户友好且易于扩展的多智能体框架，通过标准化**工具卡**封装异构工具、**Planner-Executor**分离范式和**任务特定工具集优化**算法…
+tags:
+  - "ACL 2026"
+  - "LLM推理"
+  - "智能体框架"
+  - "工具增强推理"
+  - "多步规划"
+  - "工具卡"
+  - "可扩展性"
 ---
 
 # OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][遥感][geoscience] 提出 GeoMMBench（1053 道专家级地球科学多选题）和 GeoMMAgent（检索-感知-推理多智能体框架），系统评估 36 个 MLLM 在遥感领域的能力，揭示领域知识、感知接地和推理方面的系统性不足。
 tags:
-  - CVPR 2026
-  - 遥感
-  - geoscience
-  - remote sensing
-  - benchmark
-  - multi-agent
-  - MLLM evaluation
+  - "CVPR 2026"
+  - "遥感"
+  - "geoscience"
+  - "remote sensing"
+  - "benchmark"
+  - "multi-agent"
+  - "MLLM evaluation"
 ---
 
 # GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing

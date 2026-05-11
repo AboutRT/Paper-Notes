@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][对话系统][对话式搜索] 提出ConvAgent，通过将RL训练奖励分解为结果奖励、信息增益奖励和混合主动行为奖励三个互补组件，训练对话式搜索智能体在多轮交互中交替进行搜索和推理。
 tags:
-  - ACL 2026
-  - 对话系统
-  - 对话式搜索
-  - 强化学习
-  - 上下文推理
-  - 混合主动行为
-  - 信息增益奖励
+  - "ACL 2026"
+  - "对话系统"
+  - "对话式搜索"
+  - "强化学习"
+  - "上下文推理"
+  - "混合主动行为"
+  - "信息增益奖励"
 ---
 
 # Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning

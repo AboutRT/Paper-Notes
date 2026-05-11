@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM/NLP][组合图像检索] 提出IP-CIR方法，通过大语言模型生成"想象中的目标图像描述"作为代理，将组合图像检索(CIR)转化为标准图像检索问题，在CIRR和FashionIQ等基准上达到零样本SOTA。
 tags:
-  - CVPR 2025
-  - LLM/NLP
-  - 组合图像检索
-  - 虚拟代理图像
-  - CLIP
-  - 零样本泛化
-  - 文本-图像对齐
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "组合图像检索"
+  - "虚拟代理图像"
+  - "CLIP"
+  - "零样本泛化"
+  - "文本-图像对齐"
 ---
 
 # Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][人物交互重建] 提出首个开放词汇野外3D人物交互(HOI)数据集 Open3DHOI（2.5k+图像，133类物体，120类动作），并设计基于3D Gaussian Splatting的HOI优化器，通过Gaussian渲染实现人物空间交互重建和接触区域学习。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 人物交互重建
-  - 开放词汇
-  - 3D高斯溅射
-  - 接触区域估计
-  - HOI数据集
+  - "CVPR 2025"
+  - "3D视觉"
+  - "人物交互重建"
+  - "开放词汇"
+  - "3D高斯溅射"
+  - "接触区域估计"
+  - "HOI数据集"
 ---
 
 # Reconstructing In-the-Wild Open-Vocabulary Human-Object Interactions

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像恢复][测试时训练] 本文提出 TTT-MIM，在训练阶段联合优化监督去噪损失和自监督掩码图像建模（MIM）损失，在测试时通过最小化 MIM 自监督损失对单张噪声图像进行适应性微调，从而显著提升对分布外噪声（如真实相机噪声、显微镜噪声）的去噪性能，且速度远超零样本方法。
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 测试时训练
-  - 掩码图像建模
-  - 图像去噪
-  - 分布偏移
-  - 图像复原
+  - "ECCV 2024"
+  - "图像恢复"
+  - "测试时训练"
+  - "掩码图像建模"
+  - "图像去噪"
+  - "分布偏移"
+  - "自监督学习"
 ---
 
 # TTT-MIM: Test-Time Training with Masked Image Modeling for Denoising Distribution Shifts

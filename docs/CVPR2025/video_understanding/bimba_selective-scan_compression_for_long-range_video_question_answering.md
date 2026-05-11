@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][状态空间模型] 本文提出 BIMBA，基于 Mamba selective scan 的时空 token 选择器，将长视频的 10万+ token 序列压缩 16 倍至 6400 个包含关键信息的 token，在 7 个长视频 VQA 基准上取得 SOTA。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 状态空间模型
-  - Mamba
-  - 视频压缩
-  - 长视频QA
-  - 多模态大模型
+  - "CVPR 2025"
+  - "视频理解"
+  - "状态空间模型"
+  - "Mamba"
+  - "视频压缩"
+  - "长视频QA"
+  - "多模态大模型"
 ---
 
 # BIMBA: Selective-Scan Compression for Long-Range Video Question Answering

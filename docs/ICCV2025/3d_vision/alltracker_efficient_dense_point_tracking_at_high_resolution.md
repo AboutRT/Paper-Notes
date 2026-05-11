@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][dense point tracking] 提出AllTracker，将点跟踪问题转化为多帧长距离光流估计问题，通过低分辨率迭代推理（2D卷积+时间注意力）加高分辨率上采样，以16M参数实现高分辨率(768-1024像素)全像素稠密点跟踪的SOTA精度。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - dense point tracking
-  - 光流
-  - long-range correspondence
-  - high-resolution tracking
-  - recurrent architecture
+  - "ICCV 2025"
+  - "3D视觉"
+  - "dense point tracking"
+  - "光流"
+  - "long-range correspondence"
+  - "high-resolution tracking"
+  - "recurrent architecture"
 ---
 
 # AllTracker: Efficient Dense Point Tracking at High Resolution

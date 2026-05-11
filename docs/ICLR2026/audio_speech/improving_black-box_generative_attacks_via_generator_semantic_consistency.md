@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Improving Black-Box Generative Attacks via Generator Semantic Consistency
 description: >-
-  [ICLR 2026][音频语音] 通过分析生成器中间层特征的语义退化现象，提出基于 Mean Teacher 的语义结构感知框架，在生成器早期层进行自特征蒸馏以保持语义一致性，从而增强对抗样本在跨模型、跨域、跨任务场景中的可迁移性。
+  [ICLR 2026][音频/语音][生成式对抗攻击] 通过分析生成器中间层特征的语义退化现象，提出基于 Mean Teacher 的语义结构感知框架，在生成器早期层进行自特征蒸馏以保持语义一致性，从而增强对抗样本在跨模型、跨域、跨任务场景中的可迁移性。
 tags:
-  - ICLR 2026
-  - 音频语音
-  - 黑盒可迁移性
-  - Mean Teacher
-  - 语义一致性
-  - 特征蒸馏
+  - "ICLR 2026"
+  - "音频/语音"
+  - "生成式对抗攻击"
+  - "黑盒可迁移性"
+  - "Mean Teacher"
+  - "语义一致性"
+  - "特征蒸馏"
 ---
 
 # Improving Black-Box Generative Attacks via Generator Semantic Consistency

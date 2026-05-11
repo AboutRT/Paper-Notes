@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][LLM/NLP][文化价值观] 本文使用 Hofstede 文化维度问卷系统性地研究 LLM 表达文化价值观的行为模式，发现提示语言（中文 vs 英文）和模型规模对文化价值差异的影响远大于模型架构差异和问题顺序变化。
 tags:
-  - ECCV 2024
-  - LLM/NLP
-  - 文化价值观
-  - 大语言模型
-  - Hofstede
-  - 多语言偏差
-  - 模型行为分析
+  - "ECCV 2024"
+  - "LLM/NLP"
+  - "文化价值观"
+  - "大语言模型"
+  - "Hofstede"
+  - "多语言偏差"
+  - "模型行为分析"
 ---
 
 # Cultural Value Differences of LLMs: Prompt, Language, and Model Size

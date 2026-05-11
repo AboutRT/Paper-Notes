@@ -1,18 +1,28 @@
 ---
 title: >-
-  ACL2026 LLM / NLP方向36篇论文解读
+  ACL2026 LLM / NLP方向35篇论文解读
 description: >-
-  36篇ACL2026的 LLM / NLP 方向论文解读，涵盖 LLM、Agent、少样本学习、推理、人脸/视线、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  35篇ACL2026的 LLM / NLP 方向论文解读，涵盖 LLM、Agent、推理、人脸/视线、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ACL2026"
+  - "LLM / NLP"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "Agent"
+  - "推理"
+  - "人脸/视线"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM / NLP
 
-**💬 ACL2026** · **36** 篇论文解读
+**💬 ACL2026** · **35** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (9)](../../CVPR2026/llm_nlp/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (38)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (53)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_nlp/index.md) · [🧪 ICML2025 (28)](../../ICML2025/llm_nlp/index.md)
 
-🔥 **高频主题：** LLM ×16 · Agent ×4 · 少样本学习 ×2 · 推理 ×2 · 人脸/视线 ×2
+🔥 **高频主题：** LLM ×16 · Agent ×4 · 推理 ×2 · 人脸/视线 ×2 · 对抗鲁棒 ×2
 
 **[A Study of LLMs' Preferences for Libraries and Programming Languages](a_study_of_llms39_preferences_for_libraries_and_programming_languages.md)**
 
@@ -49,10 +59,6 @@ description: >-
 **[Detoxification for LLM from Dataset Itself](detoxification_for_llm_from_dataset_itself.md)**
 
 :   本文提出 HSPD（层次化语义保留去毒）流水线，通过 SoCD（软对比解码）引导 LLM 定位并重写原始语料中的有毒片段，同时保留语义，生成可直接替换原始数据用于微调的去毒语料——在 GPT2-XL 上将毒性概率从 0.42 降至 0.18，在 LLaMA2-7B、OPT-6.7B 和 Falcon-7B 上也取得了最优去毒效果。
-
-**[DiZiNER: Disagreement-guided Instruction Refinement via Pilot Annotation Simulation for Zero-shot NER](diziner_disagreement-guided_instruction_refinement_via_pilot_annotation_simulati.md)**
-
-:   DiZiNER 模拟人类试标注流程：多个异构 LLM 独立标注同一文本，分析模型间分歧来迭代精炼任务指令，在 18 个 NER 基准中的 14 个上达到零样本 SOTA，平均 F1 提升 +8.0，且超越其监督模型 GPT-5 mini。
 
 **[Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models](don39t_adapt_small_language_models_for_tools_adapt_tool_schemas_to_the_models.md)**
 

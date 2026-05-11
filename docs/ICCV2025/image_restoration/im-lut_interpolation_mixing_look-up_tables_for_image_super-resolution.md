@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像恢复][任意尺度超分] 本文提出 IM-LUT，通过学习混合多种插值函数的权重来实现任意尺度图像超分辨率，并将预测网络转换为查找表形式，在 CPU 上实现轻量快速推理同时保持重建质量。
 tags:
-  - ICCV 2025
-  - 图像恢复
-  - 任意尺度超分
-  - 查找表
-  - 插值函数混合
-  - 图像复原
-  - CPU友好
+  - "ICCV 2025"
+  - "图像恢复"
+  - "任意尺度超分"
+  - "查找表"
+  - "插值函数混合"
+  - "轻量推理"
+  - "CPU友好"
 ---
 
 # IM-LUT: Interpolation Mixing Look-Up Tables for Image Super-Resolution

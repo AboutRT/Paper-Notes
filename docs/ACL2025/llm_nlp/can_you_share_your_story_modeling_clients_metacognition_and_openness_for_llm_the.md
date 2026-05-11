@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 Findings][LLM/NLP][LLM心理治疗师评估] 本文提出 MindVoyager 框架，通过构建具有动态元认知和开放性的客户模拟器来评估 LLM 心理治疗师的探索能力，解决了现有评估方法中客户模拟器过于"配合"的问题。
 tags:
-  - ACL 2025 Findings
-  - LLM/NLP
-  - LLM心理治疗师评估
-  - 客户模拟器
-  - 元认知
-  - 开放性
-  - 认知行为治疗
+  - "ACL 2025 Findings"
+  - "LLM/NLP"
+  - "LLM心理治疗师评估"
+  - "客户模拟器"
+  - "元认知"
+  - "开放性"
+  - "认知行为治疗"
 ---
 
 # Can You Share Your Story? Modeling Clients' Metacognition and Openness for LLM Therapist Evaluation

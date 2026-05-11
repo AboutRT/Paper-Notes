@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios
 description: >-
-  [CVPR 2025][多模态][家庭安全] HomeSafe-Bench是首个评估VLM在家庭场景中不安全行为检测的benchmark（438个案例覆盖6个功能区域），并提出HD-Guard层次化流式架构协调轻量FastBrain和大规模SlowBrain实现实时安全监控。
+  [CVPR 2025][多模态VLM][家庭安全] HomeSafe-Bench是首个评估VLM在家庭场景中不安全行为检测的benchmark（438个案例覆盖6个功能区域），并提出HD-Guard层次化流式架构协调轻量FastBrain和大规模SlowBrain实现实时安全监控。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 家庭安全
-  - 多模态VLM
-  - VLM评估
-  - 具身智能
-  - 双脑架构
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "家庭安全"
+  - "不安全行为检测"
+  - "VLM评估"
+  - "具身智能"
+  - "双脑架构"
 ---
 
 # HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios

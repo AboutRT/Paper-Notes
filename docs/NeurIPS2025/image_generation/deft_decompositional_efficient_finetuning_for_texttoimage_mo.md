@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][高效微调] 提出DEFT（Decompositional Efficient Fine-Tuning），通过将权重更新分解为子空间投影和低秩调整两个组件来高效微调T2I模型，在个性化生成和通用图像生成任务上超越LoRA和PaRa。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 高效微调
-  - 扩散模型
-  - 低秩分解
-  - 个性化生成
-  - 通用图像生成
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "高效微调"
+  - "扩散模型"
+  - "低秩分解"
+  - "个性化生成"
+  - "通用图像生成"
 ---
 
 # DEFT: Decompositional Efficient Fine-Tuning for Text-to-Image Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][LLM评估] 本文提出基于最大差异 (MAD) 竞争原则的高效人工评测方法，通过自动选择最能区分 LLM 差异的指令子集来大幅减少人工标注量，用仅 280 条对比即可恢复大规模评测的排名结果。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - LLM评估
-  - 人工评测
-  - 最大差异竞争
-  - 样本高效
-  - Elo评级
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "LLM评估"
+  - "人工评测"
+  - "最大差异竞争"
+  - "样本高效"
+  - "Elo评级"
 ---
 
 # Sample-Efficient Human Evaluation of Large Language Models via Maximum Discrepancy Competition

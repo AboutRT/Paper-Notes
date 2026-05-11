@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A General Knowledge Injection Framework for ICD Coding
 description: >-
-  [ACL 2025][ICD编码] > 本文提出 GKI-ICD，一个通用的知识注入框架，通过指南合成和多任务学习机制，无需额外网络模块即可同时整合 ICD Description、Synonym 和 Hierarchy 三种知识，在 MIMIC-III 基准上取得 SOTA 性能。
+  [ACL 2025][知识编辑][ICD编码] > 本文提出 GKI-ICD，一个通用的知识注入框架，通过指南合成和多任务学习机制，无需额外网络模块即可同时整合 ICD Description、Synonym 和 Hierarchy 三种知识，在 MIMIC-III 基准上取得 SOTA 性能。
 tags:
-  - ACL 2025
-  - ICD编码
-  - 知识注入
-  - 多任务学习
-  - 指南合成
-  - 医疗文本分类
+  - "ACL 2025"
+  - "知识编辑"
+  - "ICD编码"
+  - "知识注入"
+  - "多任务学习"
+  - "指南合成"
+  - "医疗文本分类"
 ---
 
 # A General Knowledge Injection Framework for ICD Coding

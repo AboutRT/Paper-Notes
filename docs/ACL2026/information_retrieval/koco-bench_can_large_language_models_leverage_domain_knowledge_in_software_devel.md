@@ -2,14 +2,15 @@
 title: >-
   [论文解读] KoCo-Bench: Can Large Language Models Leverage Domain Knowledge in Software Development?
 description: >-
-  [ACL 2026][信息检索] KoCo-Bench 提出首个包含显式领域知识语料库的代码基准，覆盖 6 个新兴领域（RL、Agent、RAG 等）的 11 个框架和 25 个项目，评估 LLM 从知识语料库中获取和应用领域知识进行代码生成和知识理解的能力，揭示即使最强 coding agent Claude Code 也仅达 34.2%。
+  [ACL 2026][信息检索/RAG][领域代码生成] KoCo-Bench 提出首个包含显式领域知识语料库的代码基准，覆盖 6 个新兴领域（RL、Agent、RAG 等）的 11 个框架和 25 个项目，评估 LLM 从知识语料库中获取和应用领域知识进行代码生成和知识理解的能力…
 tags:
-  - ACL 2026
-  - 信息检索
-  - 基准测试
-  - 领域特化
-  - 知识语料库
-  - 软件工程
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "领域代码生成"
+  - "基准测试"
+  - "领域特化"
+  - "知识语料库"
+  - "软件工程"
 ---
 
 # KoCo-Bench: Can Large Language Models Leverage Domain Knowledge in Software Development?

@@ -2,17 +2,17 @@
 title: >-
   [论文解读] OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation
 description: >-
-  [ACL 2025][语音][全双工对话] 提出 OmniFlatten——基于 Qwen2-0.5B 的端到端全双工语音对话模型，通过三阶段渐进式后训练（模态对齐→半双工→全双工对话学习）和统一的 flatten 操作，在不修改 GPT 架构的前提下实现了低延迟的自然全双工语音交互，turn-taking 响应时间仅 193ms，显著优于 Moshi 的 553ms。
+  [ACL 2025][音频/语音][全双工对话] 提出 OmniFlatten——基于 Qwen2-0.5B 的端到端全双工语音对话模型，通过三阶段渐进式后训练（模态对齐→半双工→全双工对话学习）和统一的 flatten 操作，在不修改 GPT 架构的前提下实现了低延迟的自然全双工语音交互…
 tags:
-  - ACL 2025
-  - 语音
-  - 音频语音
-  - 端到端语音模型
-  - GPT架构
-  - chunk分块
-  - 多阶段训练
-  - 模态对齐
-  - turn-taking
+  - "ACL 2025"
+  - "音频/语音"
+  - "全双工对话"
+  - "端到端语音模型"
+  - "GPT架构"
+  - "chunk分块"
+  - "多阶段训练"
+  - "模态对齐"
+  - "turn-taking"
 ---
 
 # OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation

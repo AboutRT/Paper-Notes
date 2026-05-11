@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reasoning or Memorization? Unreliable Results of Reinforcement Learning Due to Data Contamination
 description: >-
-  [AAAI 2026][数据污染] 本文通过系统性的数据泄露审计揭示了Qwen2.5系列在MATH-500等标准数学基准上存在严重的数据污染问题，指出近期"虚假奖励也能提升数学推理"的发现是污染所致的虚假结论，并构建了完全无泄露的RandomCalculation基准验证只有正确奖励信号才能带来真实的推理提升。
+  [AAAI 2026][强化学习][数据污染] 本文通过系统性的数据泄露审计揭示了Qwen2.5系列在MATH-500等标准数学基准上存在严重的数据污染问题，指出近期"虚假奖励也能提升数学推理"的发现是污染所致的虚假结论…
 tags:
-  - AAAI 2026
-  - 数据污染
-  - 强化学习
-  - 虚假奖励
-  - RLVR
-  - 数学推理评估
+  - "AAAI 2026"
+  - "强化学习"
+  - "数据污染"
+  - "LLM推理"
+  - "虚假奖励"
+  - "RLVR"
+  - "数学推理评估"
 ---
 
 # Reasoning or Memorization? Unreliable Results of Reinforcement Learning Due to Data Contamination

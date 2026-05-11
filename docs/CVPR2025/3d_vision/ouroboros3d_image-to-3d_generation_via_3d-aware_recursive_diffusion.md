@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][图像到3D生成] 提出Ouroboros3D，通过将多视图生成与3D重建整合为递归扩散过程，利用3D感知反馈机制（渲染CCM和颜色图作为去噪条件）和联合训练策略，解决了两阶段方法中的3D一致性不足和域间差距问题，在GSO数据集上取得SOTA。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 图像到3D生成
-  - 递归扩散
-  - 3D感知反馈
-  - 多视图一致性
-  - 联合训练
+  - "CVPR 2025"
+  - "3D视觉"
+  - "图像到3D生成"
+  - "递归扩散"
+  - "3D感知反馈"
+  - "多视图一致性"
+  - "联合训练"
 ---
 
 # Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion

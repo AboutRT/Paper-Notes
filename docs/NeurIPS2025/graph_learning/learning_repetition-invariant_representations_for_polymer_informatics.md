@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][聚合物信息学] 提出 GRIN（Graph Repetition-Invariant Network），通过 Max 聚合和特殊的图构建策略使 GNN 对聚合物重复单元的拼接数量不变，解决了聚合物表示中的基本对称性问题。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 聚合物信息学
-  - 重复不变性
-  - 图神经网络
-  - Max聚合
-  - 分子表示
+  - "NeurIPS 2025"
+  - "图学习"
+  - "聚合物信息学"
+  - "重复不变性"
+  - "图神经网络"
+  - "Max聚合"
+  - "分子表示"
 ---
 
 # Learning Repetition-Invariant Representations for Polymer Informatics
@@ -87,12 +87,12 @@ tags:
 | Sum 聚合 | 14.8 | 8.5% |
 | Mean 聚合 | 15.1 | 3.2% |
 | Max 聚合，无环化 | 14.2 | 1.8% |
-| **Max 聚合 + 环化** | **13.1** | **<0.01%** |
+| **Max 聚合 + 环化** | **13.1** | **&lt;0.01%** |
 
 ### 关键发现
 
 - GRIN 在预测精度和重复不变性上同时最优
-- Sum/Mean 聚合对重复数变化的误差分别为 8.5% 和 3.2%，GRIN <0.01%
+- Sum/Mean 聚合对重复数变化的误差分别为 8.5% 和 3.2%，GRIN &lt;0.01%
 - 环化连接是实现完全不变性的必要条件
 - 在 3 个性质预测基准上一致领先
 

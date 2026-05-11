@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SHAP Values via Sparse Fourier Representation
 description: >-
-  [NeurIPS 2025][SHAP值] 提出 FourierShap 算法，先将黑盒预测器近似为稀疏 Fourier 表示，再利用 Fourier 基函数的 SHAP 值闭式公式高效计算特征归因，实现相比 KernelShap 10-10000 倍的加速，同时支持精度-效率的可调权衡。
+  [NeurIPS 2025][可解释性][SHAP值] 提出 FourierShap 算法，先将黑盒预测器近似为稀疏 Fourier 表示，再利用 Fourier 基函数的 SHAP 值闭式公式高效计算特征归因，实现相比 KernelShap 10-10000 倍的加速，同时支持精度-效率的可调权衡。
 tags:
-  - NeurIPS 2025
-  - SHAP值
-  - Fourier表示
-  - 稀疏Walsh-Hadamard变换
-  - 特征归因
-  - 加速计算
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "SHAP值"
+  - "Fourier表示"
+  - "稀疏Walsh-Hadamard变换"
+  - "特征归因"
+  - "加速计算"
 ---
 
 # SHAP Values via Sparse Fourier Representation

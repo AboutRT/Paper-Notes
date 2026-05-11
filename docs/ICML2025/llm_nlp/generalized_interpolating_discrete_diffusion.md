@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][LLM/NLP][离散扩散] 提出广义插值离散扩散框架 GIDD，将掩码扩散 (MDM) 推广为支持任意时变混合分布的扩散族，通过结合掩码与均匀噪声赋予模型自纠错能力，在扩散语言建模中取得 compute-matched SOTA。
 tags:
-  - ICML2025
-  - LLM/NLP
-  - 离散扩散
-  - 掩码扩散
-  - 均匀噪声
-  - 自纠错
-  - ELBO
-  - 语言模型
+  - "ICML2025"
+  - "LLM/NLP"
+  - "离散扩散"
+  - "掩码扩散"
+  - "均匀噪声"
+  - "自纠错"
+  - "ELBO"
+  - "语言模型"
 ---
 
 # Generalized Interpolating Discrete Diffusion

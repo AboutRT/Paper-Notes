@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multilingual Routing in Mixture-of-Experts
 description: >-
-  [ICLR 2026][mixture-of-experts] 系统分析了MoE大语言模型中多语言路由模式，发现中间层存在跨语言共享专家且语言性能与英语路由对齐度强相关，进而提出推理时路由干预方法，通过在中间层激活英语任务专家，在3个模型×2个任务×15+语言上一致性地提升多语言性能1-2%。
+  [ICLR 2026][多语言/翻译][mixture-of-experts] 系统分析了MoE大语言模型中多语言路由模式，发现中间层存在跨语言共享专家且语言性能与英语路由对齐度强相关，进而提出推理时路由干预方法，通过在中间层激活英语任务专家，在3个模型×2个任务×15+语言上一致性地提升多语言性能1-2%。
 tags:
-  - ICLR 2026
-  - mixture-of-experts
-  - multilingual routing
-  - cross-lingual transfer
-  - expert steering
-  - 多语言翻译
+  - "ICLR 2026"
+  - "多语言/翻译"
+  - "mixture-of-experts"
+  - "multilingual routing"
+  - "cross-lingual transfer"
+  - "expert steering"
+  - "interpretability"
 ---
 
 # Multilingual Routing in Mixture-of-Experts
@@ -119,7 +120,7 @@ $$z'_k \leftarrow \max(\bm{z}) + \varepsilon, \quad \varepsilon \sim \mathcal{N}
 
 ### 英语性能基本不受影响
 
-干预几乎不影响英语性能（变化幅度 <1%），偶有轻微下降，说明干预精确定位于跨语言迁移瓶颈而非损害原有能力。
+干预几乎不影响英语性能（变化幅度 &lt;1%），偶有轻微下降，说明干预精确定位于跨语言迁移瓶颈而非损害原有能力。
 
 ### 对照和消融
 

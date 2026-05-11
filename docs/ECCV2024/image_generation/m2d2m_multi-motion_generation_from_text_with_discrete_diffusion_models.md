@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 提出 M2D2M，基于离散扩散模型生成多段连续人体运动序列，通过动态转移概率和两阶段采样策略（TPS）实现动作间平滑过渡，且无需额外的多运动训练数据。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # M2D2M: Multi-Motion Generation from Text with Discrete Diffusion Models

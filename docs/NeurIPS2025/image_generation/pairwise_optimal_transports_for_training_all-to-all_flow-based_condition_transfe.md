@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][最优传输] 提出A2A-FM方法，通过一种新颖的代价函数在FlowMatching框架中同时学习所有条件分布对之间的最优传输映射，理论证明在无限样本极限下收敛至逐对最优传输，尤其适用于连续条件变量的非分组数据场景。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 最优传输
-  - 流匹配
-  - 条件迁移
-  - 逐对最优传输
-  - 分子优化
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "最优传输"
+  - "流匹配"
+  - "条件迁移"
+  - "逐对最优传输"
+  - "分子优化"
 ---
 
 # Pairwise Optimal Transports for Training All-to-All Flow-Based Condition Transfer Model

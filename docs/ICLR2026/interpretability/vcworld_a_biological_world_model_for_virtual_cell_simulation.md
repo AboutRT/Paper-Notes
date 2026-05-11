@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VCWorld: A Biological World Model for Virtual Cell Simulation
 description: >-
-  [ICLR2026][Virtual Cell] 提出 VCWorld，一个细胞级白盒模拟器，整合结构化生物知识图谱与大语言模型的迭代推理能力，以数据高效的方式模拟药物扰动引发的信号级联，生成可解释的逐步预测和显式机制假说，在药物扰动基准上达到 SOTA。
+  [ICLR2026][可解释性][Virtual Cell] 提出 VCWorld，一个细胞级白盒模拟器，整合结构化生物知识图谱与大语言模型的迭代推理能力，以数据高效的方式模拟药物扰动引发的信号级联，生成可解释的逐步预测和显式机制假说，在药物扰动基准上达到 SOTA。
 tags:
-  - ICLR2026
-  - Virtual Cell
-  - 可解释性
-  - LLM Reasoning
-  - Signaling Cascade
-  - Drug Perturbation
+  - "ICLR2026"
+  - "可解释性"
+  - "Virtual Cell"
+  - "world model"
+  - "LLM Reasoning"
+  - "Signaling Cascade"
+  - "Drug Perturbation"
 ---
 
 # VCWorld: A Biological World Model for Virtual Cell Simulation

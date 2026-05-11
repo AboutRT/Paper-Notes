@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Spectral Image Tokenizer
 description: >-
-  [ICCV 2025][图像生成][image tokenizer] 提出 Spectral Image Tokenizer (SIT)，用离散小波变换 (DWT) 将图像从空域转换到频域后再进行 token 化，使 token 序列天然地按"粗到细"排列，从而支持多分辨率重建、渐进式生成、文本引导上采样与编辑等传统 raster-scan tokenizer 无法实现的能力。
+  [ICCV 2025][图像生成][image tokenizer] 提出 Spectral Image Tokenizer (SIT)，用离散小波变换 (DWT) 将图像从空域转换到频域后再进行 token 化，使 token 序列天然地按"粗到细"排列…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - image tokenizer
-  - discrete wavelet transform
-  - autoregressive generation
-  - coarse-to-fine
-  - multiscale
-  - VQ-VAE
+  - "ICCV 2025"
+  - "图像生成"
+  - "image tokenizer"
+  - "discrete wavelet transform"
+  - "autoregressive generation"
+  - "coarse-to-fine"
+  - "multiscale"
+  - "VQ-VAE"
 ---
 
 # Spectral Image Tokenizer

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][医学图像分割] 提出 BiCLIP 框架，通过双向多模态融合（BMF）实现视觉信息反向精炼文本表示，并通过图像增强一致性（IAC）约束中间特征的扰动不变性，在 COVID-19 CT 分割上超越 SOTA，仅 1% 标注数据仍保持鲁棒。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 医学图像分割
-  - 视觉-语言模型
-  - 双向多模态融合
-  - 数据增强一致性
-  - 低标注鲁棒性
+  - "CVPR 2026"
+  - "医学图像"
+  - "医学图像分割"
+  - "视觉-语言模型"
+  - "双向多模态融合"
+  - "数据增强一致性"
+  - "低标注鲁棒性"
 ---
 
 # BiCLIP: Bidirectional and Consistent Language-Image Processing for Robust Medical Image Segmentation

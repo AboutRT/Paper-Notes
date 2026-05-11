@@ -4,7 +4,7 @@ title: >-
 description: >-
   [模型压缩] 本文提出"教师模型归因"新问题：给定一个蒸馏后的学生模型，能否从候选教师中识别出其训练教师？发现 n-gram 相似度和困惑度不可靠，但词性（PoS）句法模板能提供有效的教师识别信号。
 tags:
-  - 模型压缩
+  - "模型压缩"
 ---
 
 # Who Taught You That? Tracing Teachers in Model Distillation

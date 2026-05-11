@@ -2,13 +2,13 @@
 title: >-
   [论文解读] Are Pixel-Wise Metrics Reliable for Sparse-View Computed Tomography Reconstruction?
 description: >-
-  [NeurIPS 2025][sparse-view CT] 揭示 PSNR/SSIM 等像素级指标无法反映稀疏视图 CT 重建中解剖结构完整性（相关性仅 0.16-0.30），提出基于自动分割的解剖感知指标（NSD/clDice）和 CARE 框架——在扩散模型训练中加入分割引导损失，大器官结构完整性提升 32%、血管提升 36%。
+  [NeurIPS 2025][sparse-view CT] 揭示 PSNR/SSIM 等像素级指标无法反映稀疏视图 CT 重建中解剖结构完整性（相关性仅 0.16-0.30），提出基于自动分割的解剖感知指标（NSD/clDice）和 CARE 框架——在扩散模型训练中加入分割引导损失…
 tags:
-  - NeurIPS 2025
-  - sparse-view CT
-  - anatomy-aware metrics
-  - structural completeness
-  - 扩散模型
+  - "NeurIPS 2025"
+  - "sparse-view CT"
+  - "anatomy-aware metrics"
+  - "structural completeness"
+  - "扩散模型"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
@@ -25,9 +25,9 @@ tags:
 
 ## 研究背景与动机
 
-**领域现状**：稀疏视图 CT 通过减少投影视图数（<50 views）大幅降低辐射剂量。近年 NeRF、高斯 splatting 等神经渲染方法取得了 PSNR/SSIM 的稳步提升。
+**领域现状**：稀疏视图 CT 通过减少投影视图数（&lt;50 views）大幅降低辐射剂量。近年 NeRF、高斯 splatting 等神经渲染方法取得了 PSNR/SSIM 的稳步提升。
 
-**现有痛点**：PSNR/SSIM 计算全局逐体素平均差异，对小而关键的解剖结构（胆囊、肾上腺、腹主动脉等）极不敏感——这些仅占 <0.01% 体积，缺失只改变 PSNR/SSIM 的第三四位小数。21 位约翰霍普金斯放射科医师评估发现 SOTA 方法存在结构缺失、虚假生成和严重伪影。
+**现有痛点**：PSNR/SSIM 计算全局逐体素平均差异，对小而关键的解剖结构（胆囊、肾上腺、腹主动脉等）极不敏感——这些仅占 &lt;0.01% 体积，缺失只改变 PSNR/SSIM 的第三四位小数。21 位约翰霍普金斯放射科医师评估发现 SOTA 方法存在结构缺失、虚假生成和严重伪影。
 
 **核心矛盾**：像素级高分 ≠ 临床可用——高 PSNR 的重建可能缺失关键血管或器官。
 

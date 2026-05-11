@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Generalizing Verifiable Instruction Following
 description: >-
-  [NeurIPS 2025][指令遵循] 引入IFBench基准评估精确指令遵循的泛化能力，证明当前SOTA模型严重过拟合于IFEval的25种约束模板，并提出IF-RLVR训练方法（基于GRPO + 可验证奖励）显著提升域内外指令遵循性能。
+  [NeurIPS 2025][强化学习][指令遵循] 引入IFBench基准评估精确指令遵循的泛化能力，证明当前SOTA模型严重过拟合于IFEval的25种约束模板，并提出IF-RLVR训练方法（基于GRPO + 可验证奖励）显著提升域内外指令遵循性能。
 tags:
-  - NeurIPS 2025
-  - 指令遵循
-  - 可验证约束
-  - RLVR
-  - GRPO
-  - 泛化能力
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "指令遵循"
+  - "可验证约束"
+  - "RLVR"
+  - "GRPO"
+  - "泛化能力"
 ---
 
 # Generalizing Verifiable Instruction Following
@@ -84,9 +85,9 @@ $$\text{Instance Reward} = \sum_{i=1}^{n} \text{verifiable\_reward}_i \cdot \tex
 | 模型 | IFEval (%) | IFBench (%) |
 |------|-----------|-------------|
 | o3 | ~95 | ~55 |
-| Claude 4 Sonnet | ~90 | <50 |
-| Qwen3-32B | ~90 | <50 |
-| GPT-4.1 | ~88 | <50 |
+| Claude 4 Sonnet | ~90 | &lt;50 |
+| Qwen3-32B | ~90 | &lt;50 |
+| GPT-4.1 | ~88 | &lt;50 |
 
 **IF-RLVR训练效果**：
 

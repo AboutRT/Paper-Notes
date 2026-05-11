@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation
 description: >-
-  [NeurIPS 2025][LLM推理][test-time scaling] 提出 TTS-VAR——首个针对 Visual Auto-Regressive (VAR) 模型的测试时扩展框架，将图像生成建模为路径搜索问题，通过自适应递减批量 + 早期聚类多样性搜索 + 后期重采样潜力选择，在 Infinity 2B 上将 GenEval 分数从 0.69 提升到 0.75（+8.7%），N=2 即超越 Best-of-N 的 N=8 效果。
+  [NeurIPS 2025][LLM推理][test-time scaling] 提出 TTS-VAR——首个针对 Visual Auto-Regressive (VAR) 模型的测试时扩展框架，将图像生成建模为路径搜索问题，通过自适应递减批量 + 早期聚类多样性搜索 + 后期重采样潜力选择…
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - test-time scaling
-  - visual auto-regressive
-  - VAR
-  - path searching
-  - 图像生成
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "test-time scaling"
+  - "visual auto-regressive"
+  - "VAR"
+  - "path searching"
+  - "图像生成"
 ---
 
 # TTS-VAR: A Test-Time Scaling Framework for Visual Auto-Regressive Generation
@@ -52,7 +52,7 @@ tags:
 2. **聚类多样性搜索 (Clustering-Based Diversity Search)**:
 
     - 功能：在早期尺度（scale 2, 5）缩减批量时，用 K-Means++ 对 DINOv2 语义特征聚类，从每个簇选择最近中心的样本
-    - 核心观察：(a) 早期图像的 reward 分数与最终图像一致性低（<0.3），直接评分会误杀好样本；(b) 但结构信息（布局/构图）在 scale 2 就已清晰可辨
+    - 核心观察：(a) 早期图像的 reward 分数与最终图像一致性低（&lt;0.3），直接评分会误杀好样本；(b) 但结构信息（布局/构图）在 scale 2 就已清晰可辨
     - 特征提取：DINOv2 自监督特征 → PCA 降维 → K-Means++ 聚类
     - 效果：保持结构多样性，避免所有候选坍缩到相似布局
 

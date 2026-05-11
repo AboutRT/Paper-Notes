@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多视图生成] Pippo提出了一种多视图扩散Transformer，从单张随手拍照片生成1K分辨率的人体环绕视频，通过三阶段训练策略（预训练30亿人体图像+中训+后训）和推理时注意力偏置技术，实现超过训练视图数5倍的生成能力。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多视图生成
-  - 人体重建
-  - Transformer
-  - 注意力偏置
-  - 3D一致性
+  - "CVPR 2025"
+  - "图像生成"
+  - "多视图生成"
+  - "人体重建"
+  - "Transformer"
+  - "注意力偏置"
+  - "3D一致性"
 ---
 
 # Pippo: High-Resolution Multi-View Humans from a Single Image

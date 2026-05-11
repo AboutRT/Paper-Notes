@@ -4,7 +4,7 @@ title: >-
 description: >-
   [AI安全] 提出 MGP-MIA 框架，首次针对多域图预训练模型开展成员推理攻击（MIA），通过机器遗忘放大成员信号、增量学习构建影子模型、基于相似度的推理机制，有效揭示多域图预训练的隐私泄漏风险。
 tags:
-  - AI安全
+  - "AI安全"
 ---
 
 # Privacy Auditing of Multi-Domain Graph Pre-Trained Model under Membership Inference Attack

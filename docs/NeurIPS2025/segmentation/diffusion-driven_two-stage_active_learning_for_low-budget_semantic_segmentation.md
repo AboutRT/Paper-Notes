@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Diffusion-Driven Two-Stage Active Learning for Low-Budget Semantic Segmentation
 description: >-
-  [NeurIPS 2025][图像分割][主动学习] 提出两阶段主动学习流程（覆盖性→不确定性），利用预训练扩散模型的多尺度特征实现极低标注预算下的高效语义分割。
+  [NeurIPS 2025][语义分割][主动学习] 提出两阶段主动学习流程（覆盖性→不确定性），利用预训练扩散模型的多尺度特征实现极低标注预算下的高效语义分割。
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - 主动学习
-  - 语义分割
-  - 扩散模型
-  - 不确定性采样
-  - 低预算标注
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "主动学习"
+  - "扩散模型"
+  - "不确定性采样"
+  - "低预算标注"
 ---
 
 # Diffusion-Driven Two-Stage Active Learning for Low-Budget Semantic Segmentation

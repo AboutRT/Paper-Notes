@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D视觉定位] 提出TSP3D，首个基于多层稀疏卷积架构的单阶段3D视觉定位框架，通过文本引导剪枝（TGP）和基于补全的添加（CBA）实现高效的3D-文本交互，在ScanRefer上以12.43 FPS的速度取得46.71% Acc@0.5的SOTA精度。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D视觉定位
-  - 稀疏卷积
-  - 文本引导剪枝
-  - 多模态融合
-  - 实时推理
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D视觉定位"
+  - "稀疏卷积"
+  - "文本引导剪枝"
+  - "多模态融合"
+  - "实时推理"
 ---
 
 # Text-Guided Sparse Voxel Pruning for Efficient 3D Visual Grounding

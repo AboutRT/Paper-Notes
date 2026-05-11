@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge
 description: >-
-  [CVPR 2025][多模态][医学VLM] 提出VILA-M3框架，通过四阶段训练方案将医学领域专家模型（分割/分类）的知识按需集成到通用VLM中，在VQA、报告生成、分类等多个医学基准上以远小于Med-Gemini的模型规模（3B-40B vs 1.5T）实现了平均约9%的SOTA提升。
+  [CVPR 2025][多模态VLM][医学VLM] 提出VILA-M3框架，通过四阶段训练方案将医学领域专家模型（分割/分类）的知识按需集成到通用VLM中，在VQA、报告生成、分类等多个医学基准上以远小于Med-Gemini的模型规模（3B-40B vs 1.5T）实现了平均约9%的SOTA提升。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 医学VLM
-  - 专家模型集成
-  - 指令微调
-  - 多模态VLM
-  - 领域知识融合
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "医学VLM"
+  - "专家模型集成"
+  - "指令微调"
+  - "多任务医学AI"
+  - "领域知识融合"
 ---
 
 # VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge

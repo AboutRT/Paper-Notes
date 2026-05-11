@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][模型压缩][量化] SpecQuant 提出一种基于自适应傅里叶域分解的两阶段量化框架：先将激活离群值平滑迁移到权重，再通过通道级低频傅里叶截断吸收权重中的高频噪声，在LLaMA-3 8B上实现W4A4量化仅1.5%精度损失，同时获得2×加速和3×内存节省。
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - 量化
-  - 频域分解
-  - 离群值缓解
-  - 超低比特
-  - 傅里叶截断
+  - "AAAI 2026"
+  - "模型压缩"
+  - "量化"
+  - "频域分解"
+  - "离群值缓解"
+  - "超低比特"
+  - "傅里叶截断"
 ---
 
 # SpecQuant: Spectral Decomposition and Adaptive Truncation for Ultra-Low-Bit LLMs Quantization

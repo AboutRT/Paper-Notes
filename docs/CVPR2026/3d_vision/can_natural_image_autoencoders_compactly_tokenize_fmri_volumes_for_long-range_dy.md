@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?
 description: >-
-  [CVPR 2026][3D视觉][fMRI分析] 提出 TABLeT，利用预训练的 2D 自然图像自编码器（DCAE）将 3D fMRI 体积压缩为仅 27 个连续 token，配合简单 Transformer 编码器实现前所未有的长时序建模（256 帧），在 UKB、HCP、ADHD-200 上多任务超越 SOTA 体素方法，且计算效率大幅提升。
+  [CVPR 2026][3D视觉][fMRI分析] 提出 TABLeT，利用预训练的 2D 自然图像自编码器（DCAE）将 3D fMRI 体积压缩为仅 27 个连续 token，配合简单 Transformer 编码器实现前所未有的长时序建模（256 帧）…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - fMRI分析
-  - 自编码器迁移
-  - 长序列建模
-  - Transformer
-  - 掩码token建模
+  - "CVPR 2026"
+  - "3D视觉"
+  - "fMRI分析"
+  - "自编码器迁移"
+  - "长序列建模"
+  - "Transformer"
+  - "掩码token建模"
 ---
 
 # Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?

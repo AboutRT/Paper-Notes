@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][neural head avatar] 提出首个可在移动端实时运行的单张人脸头像动画方法 MobilePortrait，通过混合显隐式关键点 + 预计算外观知识，仅用 16 GFLOPs 即匹敌 SOTA（100–600+ GFLOPs）的效果。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - neural head avatar
-  - face reenactment
-  - mobile deployment
-  - mixed keypoints
-  - lightweight U-Net
+  - "CVPR 2025"
+  - "图像生成"
+  - "neural head avatar"
+  - "face reenactment"
+  - "mobile deployment"
+  - "mixed keypoints"
+  - "lightweight U-Net"
 ---
 
 # MobilePortrait: Real-Time One-Shot Neural Head Avatars on Mobile Devices

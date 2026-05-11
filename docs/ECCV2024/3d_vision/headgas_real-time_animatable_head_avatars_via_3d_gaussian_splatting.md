@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D Gaussian Splatting] 提出HeadGaS，通过为每个3D高斯基元配备可学习的潜在特征基底，利用表情参数线性混合特征并经MLP预测表情相关的颜色和不透明度，实现**实时（250+ fps）**且高质量的可动画头部重建，PSNR超越基线约2 dB。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 头部动画
-  - 可驱动头部建模
-  - 表情迁移
-  - 实时渲染
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "头部动画"
+  - "可驱动头部建模"
+  - "表情迁移"
+  - "实时渲染"
 ---
 
 # HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][面部情感分析] 提出首个面向面部情感行为分析（FABA）的指令微调数据集 FABA-Instruct、评测基准 FABA-Bench 以及高效 MLLM 架构 EmoLA，通过面部先验专家模块和 LoRA 适配实现了对情绪与 AU 的细粒度描述与识别。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 面部情感分析
-  - 指令微调
-  - 多模态大语言模型
-  - Action Unit识别
-  - LoRA
+  - "ECCV 2024"
+  - "人体理解"
+  - "面部情感分析"
+  - "指令微调"
+  - "多模态大语言模型"
+  - "Action Unit识别"
+  - "LoRA"
 ---
 
 # Facial Affective Behavior Analysis with Instruction Tuning

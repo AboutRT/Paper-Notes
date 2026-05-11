@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][单图3D重建] MVBoost 提出了一种通过多视图精炼策略生成伪真值数据来增强 3D 重建的框架，巧妙结合多视图生成模型的高精度和 3D 重建模型的一致性优势，在 GSO 数据集上实现了 SOTA 的单图到 3D 重建效果（PSNR 18.561, CD 0.101）。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单图3D重建
-  - 多视图精炼
-  - 伪真值生成
-  - 高斯溅射
-  - LoRA微调
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单图3D重建"
+  - "多视图精炼"
+  - "伪真值生成"
+  - "高斯溅射"
+  - "LoRA微调"
 ---
 
 # MVBoost: Boost 3D Reconstruction with Multi-View Refinement

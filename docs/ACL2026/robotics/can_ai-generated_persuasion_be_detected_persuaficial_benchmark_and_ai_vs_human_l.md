@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can AI-Generated Persuasion Be Detected? Persuaficial Benchmark and AI vs. Human Linguistic Differences
 description: >-
-  [ACL 2026][机器人][说服力检测] 本文引入 Persuaficial——一个覆盖六种语言的高质量 AI 生成说服性文本多语言基准，系统评估了 LLM 生成的说服性文本与人类撰写的说服性文本在自动检测难度上的差异，发现微妙的 AI 说服比人类说服更难检测（F1 下降约 20%），而过度强化的说服反而更容易被发现。
+  [ACL 2026][机器人][说服力检测] 本文引入 Persuaficial——一个覆盖六种语言的高质量 AI 生成说服性文本多语言基准，系统评估了 LLM 生成的说服性文本与人类撰写的说服性文本在自动检测难度上的差异，发现微妙的 AI 说服比人类说服更难检测（F1 下降约 20%）…
 tags:
-  - ACL 2026
-  - 机器人
-  - 说服力检测
-  - AI 生成文本
-  - 多语言基准
-  - 语言差异分析
-  - 可控生成
+  - "ACL 2026"
+  - "机器人"
+  - "说服力检测"
+  - "AI 生成文本"
+  - "多语言基准"
+  - "语言差异分析"
+  - "可控生成"
 ---
 
 # Can AI-Generated Persuasion Be Detected? Persuaficial Benchmark and AI vs. Human Linguistic Differences

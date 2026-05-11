@@ -2,15 +2,15 @@
 title: >-
   [论文解读] When Person Re-Identification Meets Event Camera: A Benchmark Dataset and An Attribute-guided Re-Identification Framework
 description: >-
-  [AAAI2026][自动驾驶][person re-identification] 构建首个大规模 RGB-Event 行人重识别数据集 EvReID（1200 ID / 118,988 图像对），并提出基于行人属性引导的三阶段对比学习框架 TriPro-ReID，通过正负属性 prompt 和跨模态 prompt 融合 RGB 与 Event 两种模态特征，mAP 达 69.3%。
+  [AAAI2026][自动驾驶][person re-identification] 构建首个大规模 RGB-Event 行人重识别数据集 EvReID（1200 ID / 118,988 图像对），并提出基于行人属性引导的三阶段对比学习框架 TriPro-ReID…
 tags:
-  - AAAI2026
-  - 自动驾驶
-  - person re-identification
-  - event camera
-  - RGB-Event fusion
-  - pedestrian attributes
-  - benchmark dataset
+  - "AAAI2026"
+  - "自动驾驶"
+  - "person re-identification"
+  - "event camera"
+  - "RGB-Event fusion"
+  - "pedestrian attributes"
+  - "benchmark dataset"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

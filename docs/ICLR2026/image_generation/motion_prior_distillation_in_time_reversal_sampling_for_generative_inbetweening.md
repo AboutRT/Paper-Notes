@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][生成式帧插值] 提出 Motion Prior Distillation (MPD)，一种推理时蒸馏方法，将前向路径的运动残差蒸馏到后向路径中，从根本上解决了时间反转采样中双向运动先验冲突的问题，无需额外训练即可实现更连贯的生成式帧插值。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 生成式帧插值
-  - 运动先验
-  - 时间反转采样
-  - 推理时蒸馏
-  - SVD
+  - "ICLR 2026"
+  - "图像生成"
+  - "生成式帧插值"
+  - "运动先验"
+  - "时间反转采样"
+  - "推理时蒸馏"
+  - "SVD"
 ---
 
 # Motion Prior Distillation in Time Reversal Sampling for Generative Inbetweening

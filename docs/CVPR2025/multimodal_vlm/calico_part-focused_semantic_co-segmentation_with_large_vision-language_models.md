@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Calico: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][部件级共分割] 提出 Calico——首个面向部件级语义共分割的大视觉语言模型，通过对应关系提取模块（CEM）和对应关系适配模块（CAM）在多图像间建立部件级语义对应，仅微调 0.3% 参数就在新构建的 MixedParts 基准上全面超越现有方法，mIoU 提升 6.3%、推理加速 51.3%。
+  [CVPR 2025][多模态VLM][部件级共分割] 提出 Calico——首个面向部件级语义共分割的大视觉语言模型，通过对应关系提取模块（CEM）和对应关系适配模块（CAM）在多图像间建立部件级语义对应，仅微调 0.3% 参数就在新构建的 MixedParts 基准上全面超越现有方法…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 多图像推理
-  - 语义对应
-  - 大视觉语言模型
-  - 参数高效适配
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "部件级共分割"
+  - "多图像推理"
+  - "语义对应"
+  - "大视觉语言模型"
+  - "参数高效适配"
 ---
 
 # Calico: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models

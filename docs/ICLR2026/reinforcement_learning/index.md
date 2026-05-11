@@ -1,18 +1,28 @@
 ---
 title: >-
-  ICLR2026 强化学习方向139篇论文解读
+  ICLR2026 强化学习方向138篇论文解读
 description: >-
-  139篇ICLR2026的强化学习方向论文解读，涵盖强化学习、推理、LLM、对抗鲁棒、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  138篇ICLR2026的强化学习方向论文解读，涵盖强化学习、推理、LLM、对抗鲁棒、Agent、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICLR2026"
+  - "强化学习"
+  - "论文解读"
+  - "论文笔记"
+  - "推理"
+  - "LLM"
+  - "对抗鲁棒"
+  - "Agent"
+  - "多模态"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🔬 ICLR2026** · **139** 篇论文解读
+**🔬 ICLR2026** · **138** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (34)](../../ACL2026/reinforcement_learning/index.md) · [📷 CVPR2026 (19)](../../CVPR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (172)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (81)](../../ICML2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (34)](../../ACL2026/reinforcement_learning/index.md) · [📷 CVPR2026 (19)](../../CVPR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (171)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (80)](../../ICML2025/reinforcement_learning/index.md)
 
-🔥 **高频主题：** 强化学习 ×44 · 推理 ×23 · LLM ×14 · 对抗鲁棒 ×14 · Agent ×12
+🔥 **高频主题：** 强化学习 ×43 · 推理 ×23 · LLM ×14 · 对抗鲁棒 ×14 · Agent ×12
 
 **[A Unifying View of Coverage in Linear Off-Policy Evaluation](a_unifying_view_of_coverage_in_linear_off-policy_evaluation.md)**
 
@@ -265,10 +275,6 @@ description: >-
 **[Nearly-Optimal Bandit Learning in Stackelberg Games with Side Information](nearly-optimal_bandit_learning_in_stackelberg_games_with_side_information.md)**
 
 :   本文通过将Stackelberg博弈中的领导者效用空间线性化，提出了一种约简到线性上下文赌臂问题的算法，在带侧信息的赌臂反馈设置下将遗憾界从 $\tilde{O}(T^{2/3})$ 改进到近似最优的 $\tilde{O}(T^{1/2})$。
-
-**[Offline Reinforcement Learning with Generative Trajectory Policies](offline_reinforcement_learning_with_generative_trajectory_policies.md)**
-
-:   提出 Generative Trajectory Policy (GTP)，通过学习 ODE 完整解映射统一扩散、流匹配和一致性模型，配合分数近似和值驱动引导两项关键适配技术，在 D4RL 上达到 SOTA。
 
 **[On Discovering Algorithms for Adversarial Imitation Learning](on_discovering_algorithms_for_adversarial_imitation_learning.md)**
 

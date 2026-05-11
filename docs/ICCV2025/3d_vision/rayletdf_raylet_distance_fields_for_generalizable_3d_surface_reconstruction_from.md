@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RayletDF: Raylet Distance Fields for Generalizable 3D Surface Reconstruction from Point Clouds or Gaussians
 description: >-
-  [ICCV 2025][3D视觉][Raylet Distance Field] 提出 RayletDF，一种基于"raylet"（光线片段）距离场的泛化3D表面重建方法，通过raylet特征提取器、距离场预测器和多raylet混合器三个模块，从点云或3D高斯直接预测表面点，在未见数据集上实现单次前向传播的高精度跨数据集泛化。
+  [ICCV 2025][3D视觉][Raylet Distance Field] 提出 RayletDF，一种基于"raylet"（光线片段）距离场的泛化3D表面重建方法，通过raylet特征提取器、距离场预测器和多raylet混合器三个模块，从点云或3D高斯直接预测表面点…
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - Raylet Distance Field
-  - Surface Reconstruction
-  - 点云
-  - 3DGS
-  - Generalization
+  - "ICCV 2025"
+  - "3D视觉"
+  - "Raylet Distance Field"
+  - "Surface Reconstruction"
+  - "点云"
+  - "3DGS"
+  - "Generalization"
 ---
 
 # RayletDF: Raylet Distance Fields for Generalizable 3D Surface Reconstruction from Point Clouds or Gaussians

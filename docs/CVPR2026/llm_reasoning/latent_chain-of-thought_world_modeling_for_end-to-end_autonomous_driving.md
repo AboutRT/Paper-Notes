@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM推理][潜空间推理] LCDrive 提出潜在链式思考（Latent CoT）框架，用动作提议token和世界模型预测token替代自然语言CoT进行推理，通过冷启动+RL后训练实现更低延迟、更好轨迹质量的端到端自动驾驶。
 tags:
-  - CVPR 2026
-  - LLM推理
-  - 潜空间推理
-  - 链式思考
-  - 世界模型
-  - 端到端驾驶
-  - VLA模型
+  - "CVPR 2026"
+  - "LLM推理"
+  - "潜空间推理"
+  - "链式思考"
+  - "世界模型"
+  - "端到端驾驶"
+  - "VLA模型"
 ---
 
 # Latent Chain-of-Thought World Modeling for End-to-End Autonomous Driving

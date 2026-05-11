@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][超分辨率] 利用无参考图像质量评估（NR-IQA）模型代替人工标注，通过加权采样和直接优化两种方式提升感知超分辨率的图像质量，在无需人工数据的条件下超越依赖人工反馈的 SOTA 方法。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 超分辨率
-  - 图像复原
-  - 感知质量
-  - NR-IQA
-  - 感知-失真权衡
+  - "CVPR 2025"
+  - "图像恢复"
+  - "超分辨率"
+  - "无参考图像质量评估"
+  - "感知质量"
+  - "NR-IQA"
+  - "感知-失真权衡"
 ---
 
 # Augmenting Perceptual Super-Resolution via Image Quality Predictors

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D重建] 提出 Fast3R，将 DUSt3R 的配对 pointmap 回归推广到多视图，通过 Transformer 的 all-to-all attention 在单次前向传播中处理 N 张无序无位姿图像，彻底消除了 $O(N^2)$ 配对推理和全局对齐优化。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D重建
-  - multi-view
-  - Transformer
-  - pointmap regression
-  - DUSt3R
-  - scalability
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D重建"
+  - "multi-view"
+  - "Transformer"
+  - "pointmap regression"
+  - "DUSt3R"
+  - "scalability"
 ---
 
 # Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass

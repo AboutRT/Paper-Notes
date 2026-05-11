@@ -3,6 +3,17 @@ title: >-
   CVPR2025 医学图像方向83篇论文解读
 description: >-
   83篇CVPR2025的医学图像方向论文解读，涵盖医学影像、语义分割、扩散模型、多模态、推理、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "CVPR2025"
+  - "医学图像"
+  - "论文解读"
+  - "论文笔记"
+  - "医学影像"
+  - "语义分割"
+  - "扩散模型"
+  - "多模态"
+  - "推理"
+  - "少样本学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **📷 CVPR2025** · **83** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (105)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (141)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (105)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (140)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md)
 
 🔥 **高频主题：** 医学影像 ×30 · 语义分割 ×19 · 扩散模型 ×10 · 多模态 ×6 · 推理 ×4
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM对齐][序数奖励] 提出序数概率奖励模型(OPRM)，将响应质量离散化为1-9序数等级并学习完整概率分布，结合区域洪泛调优(RgFT)实现数据高效训练。在RewardBench达89.3%，比现有RM提升2.9%-7.4%，同时提供不确定性估计和标注分歧检测。
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - 序数奖励
-  - 概率分布
-  - 区域洪泛调优
-  - 奖励模型
-  - 不确定性估计
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "序数奖励"
+  - "概率分布"
+  - "区域洪泛调优"
+  - "奖励模型"
+  - "不确定性估计"
 ---
 
 # Learning Ordinal Probabilistic Reward from Preferences (OPRM)

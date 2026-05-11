@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][像素扩散] PixelDiT 提出完全基于Transformer的双层像素空间扩散模型：patch级DiT捕捉全局语义 + pixel级DiT细化纹理细节，无需VAE即可在ImageNet上达到1.61 FID，并直接在1024分辨率像素空间训练文本到图像模型。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 像素扩散
-  - Transformer
-  - 端到端生成
-  - 像素建模
-  - 文本到图像
+  - "CVPR 2026"
+  - "图像生成"
+  - "像素扩散"
+  - "Transformer"
+  - "端到端生成"
+  - "像素建模"
+  - "文本到图像"
 ---
 
 # PixelDiT: Pixel Diffusion Transformers for Image Generation

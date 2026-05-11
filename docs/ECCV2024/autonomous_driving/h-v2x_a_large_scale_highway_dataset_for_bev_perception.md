@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][V2X] 提出首个大规模真实世界高速公路 BEV 感知数据集 H-V2X，覆盖100+公里高速路段，含190万+细粒度标注样本，并设计了BEV检测、跟踪和轨迹预测三个基准任务及融合矢量地图的创新方法。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - V2X
-  - 高速公路
-  - BEV感知
-  - 目标检测
-  - 轨迹预测
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "V2X"
+  - "高速公路"
+  - "BEV感知"
+  - "目标检测"
+  - "轨迹预测"
 ---
 
 # H-V2X: A Large Scale Highway Dataset for BEV Perception

@@ -3,6 +3,13 @@ title: >-
   ACL2026 人体理解方向1篇论文解读
 description: >-
   1篇ACL2026的人体理解方向论文解读，涵盖人脸/视线、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2026"
+  - "人体理解"
+  - "论文解读"
+  - "论文笔记"
+  - "人脸/视线"
+  - "机器人"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +17,7 @@ description: >-
 
 **💬 ACL2026** · **1** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (47)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (7)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (46)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
 
 **[ForgeryTalker: Generating Attribution Reports for Manipulated Facial Images](generating_attribution_reports_for_manipulated_facial_images_a_dataset_and_basel.md)**
 

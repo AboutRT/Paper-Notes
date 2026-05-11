@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM推理][多跳问答] 本文针对多跳问答（Multi-hop QA）任务中推理过程不透明、评估粒度粗糙的问题，提出了一种基于细粒度图推理的框架，通过构建推理图来显式建模证据链，并引入细粒度评估指标来衡量推理过程的质量，而非仅关注最终答案的正确性。
 tags:
-  - ACL 2025
-  - LLM推理
-  - 多跳问答
-  - 图推理
-  - 细粒度评估
-  - 证据链
-  - 知识图谱
+  - "ACL 2025"
+  - "LLM推理"
+  - "多跳问答"
+  - "图推理"
+  - "细粒度评估"
+  - "证据链"
+  - "知识图谱"
 ---
 
 # Beyond the Answer: Advancing Multi-Hop QA with Fine-Grained Graph Reasoning and Evaluation

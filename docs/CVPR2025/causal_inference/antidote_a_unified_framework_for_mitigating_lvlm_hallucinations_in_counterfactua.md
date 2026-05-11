@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Antidote: A Unified Framework for Mitigating LVLM Hallucinations in Counterfactual Presupposition and Object Perception
 description: >-
-  [CVPR 2025][因果推理] 提出Antidote统一后训练框架和CP-Bench基准，通过合成数据驱动的自校正偏好优化，同时缓解LVLM在反事实预设问题和物体感知上的幻觉。
+  [CVPR 2025][因果推理][LVLM幻觉] 提出Antidote——合成数据驱动的统一后训练框架，通过将事实先验注入提示实现模型自校正，将幻觉缓解解耦为偏好优化问题，在LLaVA系列上CP-Bench提升超50%，POPE提升1.8-3.3%，CHAIR/SHR降低30-50%，且无灾难性遗忘。
 tags:
-  - CVPR 2025
-  - 因果推理
-  - 反事实预设
-  - 偏好优化
-  - CP-Bench
-  - DPO
+  - "CVPR 2025"
+  - "因果推理"
+  - "LVLM幻觉"
+  - "反事实预设"
+  - "偏好优化"
+  - "CP-Bench"
+  - "自校正"
 ---
 
 # Antidote: A Unified Framework for Mitigating LVLM Hallucinations in Counterfactual Presupposition and Object Perception

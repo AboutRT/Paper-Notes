@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Neural Deprojection of Galaxy Stellar Mass Profiles
 description: >-
-  [NeurIPS 2025][星系质量分布] 提出一种神经网络方法，将 Nuker 星系轮廓参数映射为可解析反投影的 Multi Gaussian Expansion (MGE) 分量，从而在无需光学成像的情况下实现星系恒星质量建模，并集成到可微分动力学建模管道 SuperMAGE 中，对超大质量黑洞 (SMBH) 质量进行贝叶斯推断。
+  [NeurIPS 2025][物理学][星系质量分布] 提出一种神经网络方法，将 Nuker 星系轮廓参数映射为可解析反投影的 Multi Gaussian Expansion (MGE) 分量，从而在无需光学成像的情况下实现星系恒星质量建模，并集成到可微分动力学建模管道 SuperMAGE 中…
 tags:
-  - NeurIPS 2025
-  - 星系质量分布
-  - 反投影
-  - 深度学习
-  - 条件流匹配
-  - 天文数据
+  - "NeurIPS 2025"
+  - "物理学"
+  - "星系质量分布"
+  - "反投影"
+  - "深度学习"
+  - "条件流匹配"
+  - "天文数据"
 ---
 
 # Neural Deprojection of Galaxy Stellar Mass Profiles

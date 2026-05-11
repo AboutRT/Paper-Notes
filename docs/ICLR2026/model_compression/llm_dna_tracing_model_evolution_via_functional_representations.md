@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][LLM DNA] 从生物学 DNA 类比出发，将 LLM DNA 数学定义为模型功能行为的低维双 Lipschitz 表示，证明其满足遗传和基因决定性属性，并设计了无需训练的 RepTrace 管道在 305 个 LLM 上提取 DNA、构建进化树。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - LLM DNA
-  - 模型进化树
-  - 功能表示
-  - 系统发育分析
-  - 模型溯源
+  - "ICLR 2026"
+  - "模型压缩"
+  - "LLM DNA"
+  - "模型进化树"
+  - "功能表示"
+  - "系统发育分析"
+  - "模型溯源"
 ---
 
 # LLM DNA: Tracing Model Evolution via Functional Representations

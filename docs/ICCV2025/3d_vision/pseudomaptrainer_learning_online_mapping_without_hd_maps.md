@@ -2,16 +2,16 @@
 title: >-
   [论文解读] PseudoMapTrainer: Learning Online Mapping without HD Maps
 description: >-
-  [ICCV2025][3D视觉][在线建图] 提出 PseudoMapTrainer，首次实现**完全不依赖 GT HD Map** 训练在线建图模型：利用 2D Gaussian Splatting（RoGS）从多视角相机图像重建道路表面并结合预训练语义分割（Mask2Former）生成矢量化伪标签，同时设计 mask-aware 匹配算法与损失函数处理部分遮挡的伪标签，支持单次行程和多次行程（众包数据）两种模式。
+  [ICCV2025][3D视觉][在线建图] 提出 PseudoMapTrainer，首次实现**完全不依赖 GT HD Map** 训练在线建图模型：利用 2D Gaussian Splatting（RoGS）从多视角相机图像重建道路表面并结合预训练语义分割（Mask2Former）生成矢量化伪标签…
 tags:
-  - ICCV2025
-  - 3D视觉
-  - 在线建图
-  - 伪标签
-  - Gaussian Splatting
-  - HD Map
-  - 半监督学习
-  - 矢量化地图
+  - "ICCV2025"
+  - "3D视觉"
+  - "在线建图"
+  - "伪标签"
+  - "Gaussian Splatting"
+  - "HD Map"
+  - "半监督学习"
+  - "矢量化地图"
 ---
 
 # PseudoMapTrainer: Learning Online Mapping without HD Maps

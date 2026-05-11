@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MetaShadow: Object-Centered Shadow Detection, Removal, and Synthesis
 description: >-
-  [CVPR 2025][图像生成][阴影检测] MetaShadow 提出首个三合一框架，将基于GAN的 Shadow Analyzer（阴影检测+去除）与基于扩散模型的 Shadow Synthesizer（阴影合成）协同结合，通过 GAN 中间特征引导扩散模型进行阴影知识迁移，在三个阴影任务上均达到 SOTA。
+  [CVPR 2025][图像生成][阴影检测] MetaShadow 提出首个三合一框架，将基于GAN的 Shadow Analyzer（阴影检测+去除）与基于扩散模型的 Shadow Synthesizer（阴影合成）协同结合，通过 GAN 中间特征引导扩散模型进行阴影知识迁移…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 阴影检测
-  - 阴影去除
-  - 阴影合成
-  - GAN
-  - 以物体为中心
+  - "CVPR 2025"
+  - "图像生成"
+  - "阴影检测"
+  - "阴影去除"
+  - "阴影合成"
+  - "GAN"
+  - "以物体为中心"
 ---
 
 # MetaShadow: Object-Centered Shadow Detection, Removal, and Synthesis

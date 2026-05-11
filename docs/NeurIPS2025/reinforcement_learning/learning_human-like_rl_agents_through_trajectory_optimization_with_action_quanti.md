@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Human-Like RL Agents through Trajectory Optimization with Action Quantization
 description: >-
-  [NeurIPS 2025][类人RL] 提出 MAQ（Motion-Action Quantization）方法，通过 VQ-VAE 将人类动作离散化为有限的原语集合，然后在量化动作空间中进行轨迹优化，训练出行为模式更接近人类的 RL agent。
+  [NeurIPS 2025][强化学习][类人RL] 提出 MAQ（Motion-Action Quantization）方法，通过 VQ-VAE 将人类动作离散化为有限的原语集合，然后在量化动作空间中进行轨迹优化，训练出行为模式更接近人类的 RL agent。
 tags:
-  - NeurIPS 2025
-  - 类人RL
-  - 强化学习
-  - 轨迹优化
-  - VQ-VAE
-  - 行为建模
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "类人RL"
+  - "动作量化"
+  - "轨迹优化"
+  - "VQ-VAE"
+  - "行为建模"
 ---
 
 # Learning Human-Like RL Agents through Trajectory Optimization with Action Quantization

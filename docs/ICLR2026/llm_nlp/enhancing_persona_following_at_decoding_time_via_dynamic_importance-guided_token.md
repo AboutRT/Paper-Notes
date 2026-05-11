@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM/NLP][角色扮演智能体] 提出 Persona Dynamic Decoding (PDD) 框架，通过条件互信息动态估计人格属性的场景依赖重要性，并将重要性分数整合到多目标奖励引导解码中，实现无需微调的推理时人格跟随。
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - 角色扮演智能体
-  - 人格跟随
-  - 推理时对齐
-  - 条件互信息
-  - 多目标奖励解码
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "角色扮演智能体"
+  - "人格跟随"
+  - "推理时对齐"
+  - "条件互信息"
+  - "多目标奖励解码"
 ---
 
 # Enhancing Persona Following at Decoding Time via Dynamic Importance-Guided Token Estimation for Role-Playing Agents

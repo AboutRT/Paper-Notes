@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SutureBot: A Precision Framework & Benchmark for Autonomous End-to-End Suturing
 description: >-
-  [NeurIPS 2025][机器人][手术机器人] 提出SutureBot——首个针对da Vinci手术机器人端到端自主缝合的精度导向基准与目标条件框架，发布1890条高保真演示数据集，通过点标签目标条件将针刺精度提升59%-74%，并系统评估了π0、GR00T N1、OpenVLA-OFT和多任务ACT等SOTA VLA模型。
+  [NeurIPS 2025][机器人][手术机器人] 提出SutureBot——首个针对da Vinci手术机器人端到端自主缝合的精度导向基准与目标条件框架，发布1890条高保真演示数据集，通过点标签目标条件将针刺精度提升59%-74%…
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 手术机器人
-  - 缝合自主化
-  - 模仿学习
-  - 目标条件控制
-  - VLA基准
+  - "NeurIPS 2025"
+  - "机器人"
+  - "手术机器人"
+  - "缝合自主化"
+  - "模仿学习"
+  - "目标条件控制"
+  - "VLA基准"
 ---
 
 # SutureBot: A Precision Framework & Benchmark for Autonomous End-to-End Suturing

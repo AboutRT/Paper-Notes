@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Stream Query Denoising for Vectorized HD-Map Construction
 description: >-
-  [ECCV 2024][图像复原][HD地图构建] 提出 Stream Query Denoising (SQD) 策略，通过对前一帧 GT 添加噪声并训练网络恢复当前帧 GT 来增强流式 HD 地图构建中的时序一致性建模，在 nuScenes 和 Argoverse2 上全面超越 StreamMapNet。
+  [ECCV 2024][图像恢复][HD地图构建] 提出 Stream Query Denoising (SQD) 策略，通过对前一帧 GT 添加噪声并训练网络恢复当前帧 GT 来增强流式 HD 地图构建中的时序一致性建模，在 nuScenes 和 Argoverse2 上全面超越 StreamMapNet。
 tags:
-  - ECCV 2024
-  - 图像复原
-  - HD地图构建
-  - 时序建模
-  - 查询去噪
-  - 流式推理
-  - 矢量化地图
+  - "ECCV 2024"
+  - "图像恢复"
+  - "HD地图构建"
+  - "时序建模"
+  - "查询去噪"
+  - "流式推理"
+  - "矢量化地图"
 ---
 
 # Stream Query Denoising for Vectorized HD-Map Construction

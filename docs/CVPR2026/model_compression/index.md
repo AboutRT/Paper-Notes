@@ -1,16 +1,24 @@
 ---
 title: >-
-  CVPR2026 模型压缩方向51篇论文解读
+  CVPR2026 模型压缩方向50篇论文解读
 description: >-
-  51篇CVPR2026的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、扩散模型、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  50篇CVPR2026的模型压缩方向论文解读，涵盖压缩/编码、模型压缩、扩散模型、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "CVPR2026"
+  - "模型压缩"
+  - "论文解读"
+  - "论文笔记"
+  - "压缩/编码"
+  - "扩散模型"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**📷 CVPR2026** · **51** 篇论文解读
+**📷 CVPR2026** · **50** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md) · [🧪 ICML2025 (70)](../../ICML2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md) · [🧪 ICML2025 (70)](../../ICML2025/model_compression/index.md)
 
 🔥 **高频主题：** 压缩/编码 ×7 · 模型压缩 ×7 · 扩散模型 ×6 · 对抗鲁棒 ×3
 
@@ -69,10 +77,6 @@ description: >-
 **[Enhancing Mixture-of-Experts Specialization via Cluster-Aware Upcycling](enhancing_mixture_of_experts_specialization_via_cluster_aware_upcycling.md)**
 
 :   提出 Cluster-aware Upcycling，通过球面 k-means 聚类提取密集模型的语义结构来初始化 MoE 的专家和路由器参数，打破专家对称性并促进早期专业化，配合专家集成自蒸馏损失在 CLIP ViT 上一致超越现有 upcycling 方法。
-
-**[FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection](faar_efficient_frequency-aware_multi-task_fine-tuning_via_automatic_rank_selecti.md)**
-
-:   提出 FAAR，一种频率感知的多任务参数高效微调方法，通过 Performance-Driven Rank Shrinking (PDRS) 为每个任务和层动态选择最优秩，并设计 Task-Spectral Pyramidal Decoder (TS-PD) 利用 FFT 频率信息增强空间感知和跨任务一致性，以传统微调 1/9 的参数量实现更优性能。
 
 **[FAIR-Pruner: Leveraging Tolerance of Difference for Flexible Automatic Layer-Wise Neural Network Pruning](fair-pruner_leveraging_tolerance_of_difference_for_flexible_automatic_layer-wise.md)**
 

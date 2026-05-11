@@ -3,6 +3,17 @@ title: >-
   ICML2025 其他方向93篇论文解读
 description: >-
   93篇ICML2025的其他方向论文解读，涵盖对抗鲁棒、推理、Agent、少样本学习、域适应、生物分子等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICML2025"
+  - "其他"
+  - "论文解读"
+  - "论文笔记"
+  - "对抗鲁棒"
+  - "推理"
+  - "Agent"
+  - "少样本学习"
+  - "域适应"
+  - "生物分子"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **🧪 ICML2025** · **93** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [📷 CVPR2026 (44)](../../CVPR2026/others/index.md) · [🔬 ICLR2026 (76)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (126)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [📷 CVPR2026 (44)](../../CVPR2026/others/index.md) · [🔬 ICLR2026 (76)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (126)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md)
 
 🔥 **高频主题：** 对抗鲁棒 ×6
 

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses
 description: >-
-  [AAAI 2026][multi-agent bandit] 提出 MACO 多智能体会话式 Bandit 框架，通过本地 agent 的在线淘汰和云服务器的自适应偏好查询机制，实现 LLM 响应的在线评估与用户偏好对齐，达到 $\tilde{O}(\sqrt{dMT})$ 的近优 regret 界。
+  [AAAI 2026][强化学习][multi-agent bandit] 提出 MACO 多智能体会话式 Bandit 框架，通过本地 agent 的在线淘汰和云服务器的自适应偏好查询机制，实现 LLM 响应的在线评估与用户偏好对齐…
 tags:
-  - AAAI 2026
-  - multi-agent bandit
-  - conversational bandit
-  - 强化学习
-  - user preference alignment
-  - regret bound
+  - "AAAI 2026"
+  - "强化学习"
+  - "multi-agent bandit"
+  - "conversational bandit"
+  - "LLM response selection"
+  - "user preference alignment"
+  - "regret bound"
 ---
 
 # A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses

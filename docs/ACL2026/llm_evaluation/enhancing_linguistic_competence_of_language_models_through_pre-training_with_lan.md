@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks
 description: >-
-  [ACL 2026][语言能力] L2T 提出了一种预训练框架，将 14 种语言学习任务（字符级→篇章级）与标准 next-token prediction 混合训练，在 500M/1B 参数规模上将 BLiMP 语言能力得分提升 2-3 个百分点并加速其习得过程，同时保持通用推理性能。
+  [ACL 2026][LLM评测][语言能力] L2T 提出了一种预训练框架，将 14 种语言学习任务（字符级→篇章级）与标准 next-token prediction 混合训练，在 500M/1B 参数规模上将 BLiMP 语言能力得分提升 2-3 个百分点并加速其习得过程，同时保持通用推理性能。
 tags:
-  - ACL 2026
-  - 语言能力
-  - LLM评测
-  - 语言学习任务
-  - 语言习得
-  - 结构化刺激
+  - "ACL 2026"
+  - "LLM评测"
+  - "语言能力"
+  - "预训练"
+  - "语言学习任务"
+  - "语言习得"
+  - "结构化刺激"
 ---
 
 # Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks

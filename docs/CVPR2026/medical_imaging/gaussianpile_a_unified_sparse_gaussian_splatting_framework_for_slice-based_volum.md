@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GaussianPile: A Unified Sparse Gaussian Splatting Framework for Slice-based Volumetric Reconstruction
 description: >-
-  [CVPR 2026][医学图像][3D高斯溅射] 提出 GaussianPile，通过引入焦点感知的物理成像模型（Focus Gaussian），将 3D 高斯溅射从表面外观建模扩展到切片体数据重建，在超声和光片显微镜数据上实现了比 NeRF 方法快 11 倍、比体素网格储存缩小 16 倍的高质量体数据压缩与重建。
+  [CVPR 2026][医学图像][3D高斯溅射] 提出 GaussianPile，通过引入焦点感知的物理成像模型（Focus Gaussian），将 3D 高斯溅射从表面外观建模扩展到切片体数据重建…
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 3D高斯溅射
-  - 体数据压缩
-  - 切片成像
-  - 焦点感知模型
-  - 实时渲染
+  - "CVPR 2026"
+  - "医学图像"
+  - "3D高斯溅射"
+  - "体数据压缩"
+  - "切片成像"
+  - "焦点感知模型"
+  - "实时渲染"
 ---
 
 # GaussianPile: A Unified Sparse Gaussian Splatting Framework for Slice-based Volumetric Reconstruction

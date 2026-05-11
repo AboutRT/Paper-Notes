@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ReCode: Updating Code API Knowledge with Reinforcement Learning
 description: >-
-  [AAAI 2026][代码生成] 提出 ReCode 框架，通过基于规则的强化学习（而非 SFT）训练 LLM 在 prompt 中正确利用 API 更新文档完成代码版本迁移，使 7B 模型在 CodeUpdateArena 上超越 32B 模型。
+  [AAAI 2026][代码智能][代码生成] 提出 ReCode 框架，通过基于规则的强化学习（而非 SFT）训练 LLM 在 prompt 中正确利用 API 更新文档完成代码版本迁移，使 7B 模型在 CodeUpdateArena 上超越 32B 模型。
 tags:
-  - AAAI 2026
-  - 代码生成
-  - API更新
-  - 代码智能
-  - GRPO
-  - 版本迁移
+  - "AAAI 2026"
+  - "代码智能"
+  - "代码生成"
+  - "API更新"
+  - "强化学习"
+  - "GRPO"
+  - "版本迁移"
 ---
 
 # ReCode: Updating Code API Knowledge with Reinforcement Learning

@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 通过将鲁棒判别分类器重新解释为基于能量的模型（EBM），揭示了对抗训练的能量动态规律，提出了基于能量加权的对抗训练方法WEAT，并展示了鲁棒分类器隐含的生成能力。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # Shedding More Light on Robust Classifiers under the lens of Energy-based Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Soft Self-Labeling and Potts Relaxations for Weakly-Supervised Segmentation
 description: >-
-  [CVPR 2025][图像分割][弱监督语义分割] 本文提出一种基于软伪标签的自标注方法，通过系统性评估多种 Potts 松弛形式和交叉熵变体，在标准网络架构上仅使用涂鸦（3% 像素）监督就实现了接近甚至超过全像素监督的分割性能，无需任何网络结构修改。
+  [CVPR 2025][语义分割][弱监督语义分割] 本文提出一种基于软伪标签的自标注方法，通过系统性评估多种 Potts 松弛形式和交叉熵变体，在标准网络架构上仅使用涂鸦（3% 像素）监督就实现了接近甚至超过全像素监督的分割性能，无需任何网络结构修改。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 弱监督语义分割
-  - 软伪标签
-  - Potts 松弛
-  - 碰撞交叉熵
-  - 涂鸦监督
+  - "CVPR 2025"
+  - "语义分割"
+  - "弱监督语义分割"
+  - "软伪标签"
+  - "Potts 松弛"
+  - "碰撞交叉熵"
+  - "涂鸦监督"
 ---
 
 # Soft Self-Labeling and Potts Relaxations for Weakly-Supervised Segmentation

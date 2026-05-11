@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring Large Action Sets with Hyperspherical Embeddings using von Mises-Fisher Sampling
 description: >-
-  [ICML2025][大动作空间探索] 提出 vMF-exp，通过在超球面上采样 von Mises-Fisher 分布向量再做最近邻检索，实现对大规模动作集（百万级）的可扩展探索，理论证明在均匀分布假设下渐近等价于 Boltzmann 探索，并成功部署于 Deezer 音乐推荐系统。
+  [ICML2025][强化学习][大动作空间探索] 提出 vMF-exp，通过在超球面上采样 von Mises-Fisher 分布向量再做最近邻检索，实现对大规模动作集（百万级）的可扩展探索，理论证明在均匀分布假设下渐近等价于 Boltzmann 探索，并成功部署于 Deezer 音乐推荐系统。
 tags:
-  - ICML2025
-  - 大动作空间探索
-  - von Mises-Fisher 分布
-  - 超球面嵌入
-  - Boltzmann 探索
-  - 强化学习
+  - "ICML2025"
+  - "强化学习"
+  - "大动作空间探索"
+  - "von Mises-Fisher 分布"
+  - "超球面嵌入"
+  - "Boltzmann 探索"
+  - "推荐系统"
 ---
 
 # Exploring Large Action Sets with Hyperspherical Embeddings using von Mises-Fisher Sampling

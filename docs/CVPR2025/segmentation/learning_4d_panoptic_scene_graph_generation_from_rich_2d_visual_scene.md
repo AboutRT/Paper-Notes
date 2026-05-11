@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning 4D Panoptic Scene Graph Generation from Rich 2D Visual Scene
 description: >-
-  [CVPR 2025][图像分割][4D全景场景图] 本文提出了一种基于 4D-LLM 和 2D-to-4D 迁移学习的 4D 全景场景图生成框架，通过链式场景图推理利用 LLM 的开放词汇能力，并从丰富的 2D 场景标注中迁移维度不变特征到 4D 场景，大幅缓解数据稀缺和词汇受限问题。
+  [CVPR 2025][语义分割][4D全景场景图] 本文提出了一种基于 4D-LLM 和 2D-to-4D 迁移学习的 4D 全景场景图生成框架，通过链式场景图推理利用 LLM 的开放词汇能力，并从丰富的 2D 场景标注中迁移维度不变特征到 4D 场景，大幅缓解数据稀缺和词汇受限问题。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 4D全景场景图
-  - 场景图生成
-  - 迁移学习
-  - 大语言模型
-  - 3D场景理解
+  - "CVPR 2025"
+  - "语义分割"
+  - "4D全景场景图"
+  - "场景图生成"
+  - "迁移学习"
+  - "大语言模型"
+  - "3D场景理解"
 ---
 
 # Learning 4D Panoptic Scene Graph Generation from Rich 2D Visual Scene

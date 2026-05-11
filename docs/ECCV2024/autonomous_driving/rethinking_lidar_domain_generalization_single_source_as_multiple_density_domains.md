@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][LiDAR语义分割] 提出密度判别特征嵌入（DDFE）模块，利用单一 LiDAR 源域点云中固有的密度多样性（近处密/远处疏），学习密度感知的特征表示，实现对不同传感器配置下未见域的泛化，无需目标域数据。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - LiDAR语义分割
-  - 域泛化
-  - 点云密度
-  - 特征嵌入
-  - 数据增强
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "LiDAR语义分割"
+  - "域泛化"
+  - "点云密度"
+  - "特征嵌入"
+  - "数据增强"
 ---
 
 # Rethinking LiDAR Domain Generalization: Single Source as Multiple Density Domains

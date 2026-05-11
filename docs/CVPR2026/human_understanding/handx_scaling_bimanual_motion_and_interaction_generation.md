@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HandX: Scaling Bimanual Motion and Interaction Generation
 description: >-
-  [CVPR 2026][人体理解][双手运动生成] 构建了 HandX——一个统一的双手运动生成基础设施（包含 54.2 小时运动数据 + 48.5 万条细粒度文本标注），提出解耦式自动标注策略（运动学特征提取 + LLM 推理生成描述），并基准测试了扩散和自回归两种生成范式，展示了明确的数据和模型 scaling 趋势。
+  [CVPR 2026][人体理解][双手运动生成] 构建了 HandX——一个统一的双手运动生成基础设施（包含 54.2 小时运动数据 + 48.5 万条细粒度文本标注），提出解耦式自动标注策略（运动学特征提取 + LLM 推理生成描述），并基准测试了扩散和自回归两种生成范式…
 tags:
-  - CVPR 2026
-  - 人体理解
-  - 双手运动生成
-  - 灵巧手部交互
-  - 运动捕捉数据集
-  - 文本到运动
-  - Scaling Law
+  - "CVPR 2026"
+  - "人体理解"
+  - "双手运动生成"
+  - "灵巧手部交互"
+  - "运动捕捉数据集"
+  - "文本到运动"
+  - "Scaling Law"
 ---
 
 # HandX: Scaling Bimanual Motion and Interaction Generation

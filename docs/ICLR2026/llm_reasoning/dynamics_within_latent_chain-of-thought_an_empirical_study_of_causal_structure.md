@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][LLM推理][隐式思维链] 将隐式CoT建模为结构因果模型(SCM)，通过逐步do-干预分析Coconut和CODI两种范式，发现隐式推理步骤具有异质性因果杠杆、非局部跳跃传播结构、以及输出层早期偏向与表征层晚期提交之间的持续性差距。
 tags:
-  - ICLR2026
-  - LLM推理
-  - 隐式思维链
-  - 因果分析
-  - do-干预
-  - 结构因果模型
-  - 可解释性
+  - "ICLR2026"
+  - "LLM推理"
+  - "隐式思维链"
+  - "因果分析"
+  - "do-干预"
+  - "结构因果模型"
+  - "可解释性"
 ---
 
 # Dynamics Within Latent Chain-of-Thought: An Empirical Study of Causal Structure
@@ -87,7 +87,7 @@ $$\mathrm{KL}_{t \to s}^{(i)} = \frac{1}{|y_i^*|}\sum_{u=1}^{|y_i^*|}\mathrm{KL}
 | CODI (Llama3-1B) | GSM8K | 中等 | 相对Coconut更稳定 |
 | Coconut (Qwen3-4B) | GSM8K | 较低 | 强backbone显著抑制flip |
 | CODI (Qwen3-4B) | GSM8K | 最低 | 强backbone+CODI最稳定 |
-| 各范式 | CommonsenseQA | 普遍<0.1 | 常识任务对干预更鲁棒 |
+| 各范式 | CommonsenseQA | 普遍&lt;0.1 | 常识任务对干预更鲁棒 |
 
 ### 表2: RQ2 信息流结构指标对比 (GSM8K)
 

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps
 description: >-
-  [ACL 2025][Adaptive-RAG] 提出 IDR²，一种模型无关的自适应RAG加速框架，通过消除多轮检索间重叠文档的冗余表示并利用检索内容指导并行解码，实现端到端约2倍加速且不损失生成质量。
+  [ACL 2025][信息检索/RAG][Adaptive-RAG] 提出 IDR²，一种模型无关的自适应RAG加速框架，通过消除多轮检索间重叠文档的冗余表示并利用检索内容指导并行解码，实现端到端约2倍加速且不损失生成质量。
 tags:
-  - ACL 2025
-  - Adaptive-RAG
-  - 信息检索
-  - 推理加速
-  - 推测解码
-  - 检索增强生成
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "Adaptive-RAG"
+  - "KV Cache共享"
+  - "推理加速"
+  - "推测解码"
+  - "检索增强生成"
 ---
 
 # Accelerating Adaptive Retrieval Augmented Generation via Instruction-Driven Representation Reduction of Retrieval Overlaps

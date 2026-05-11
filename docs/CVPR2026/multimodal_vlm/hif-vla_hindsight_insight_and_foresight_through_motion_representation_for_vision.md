@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models
 description: >-
-  [CVPR 2026][多模态VLM][VLA模型] 提出 HiF-VLA 框架，通过运动向量（Motion Vector）作为紧凑时间原语，统一回顾（Hindsight）、洞察（Insight）和前瞻（Foresight）三种时间推理能力，实现 VLA 模型的双向时间扩展，在长时操作任务中以极低计算开销大幅超越基线。
+  [CVPR 2026][多模态VLM][VLA模型] 提出 HiF-VLA 框架，通过运动向量（Motion Vector）作为紧凑时间原语，统一回顾（Hindsight）、洞察（Insight）和前瞻（Foresight）三种时间推理能力，实现 VLA 模型的双向时间扩展…
 tags:
-  - CVPR 2026
-  - 多模态VLM
-  - VLA模型
-  - 运动表示
-  - 时间推理
-  - 长时操作
-  - 世界模型
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "VLA模型"
+  - "运动表示"
+  - "时间推理"
+  - "长时操作"
+  - "世界模型"
 ---
 
 # HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models

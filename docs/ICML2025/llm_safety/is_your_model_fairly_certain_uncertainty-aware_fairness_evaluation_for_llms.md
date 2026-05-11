@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs
 description: >-
-  [ICML 2025][AI安全][fairness] 提出不确定性感知的公平性指标 UCerF，以及大规模性别-职业偏见评估数据集 SynthBias（31,756样本），通过联合分析预测正确性与模型不确定性来更精细地评估LLM的内在偏见。
+  [ICML 2025][LLM安全][fairness] 提出不确定性感知的公平性指标 UCerF，以及大规模性别-职业偏见评估数据集 SynthBias（31,756样本），通过联合分析预测正确性与模型不确定性来更精细地评估LLM的内在偏见。
 tags:
-  - ICML 2025
-  - AI安全
-  - fairness
-  - uncertainty
-  - LLM bias
-  - gender-occupation bias
-  - co-reference resolution
+  - "ICML 2025"
+  - "LLM安全"
+  - "fairness"
+  - "uncertainty"
+  - "LLM bias"
+  - "gender-occupation bias"
+  - "co-reference resolution"
 ---
 
 # Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs

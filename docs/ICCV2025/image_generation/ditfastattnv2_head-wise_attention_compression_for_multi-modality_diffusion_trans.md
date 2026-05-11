@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DiTFastAttnV2: Head-wise Attention Compression for Multi-Modality Diffusion Transformers
 description: >-
-  [ICCV 2025][图像生成][Transformer] 针对多模态扩散Transformer（MMDiT）提出DiTFastAttnV2，通过Head-wise Arrow Attention和Head-wise Caching机制实现细粒度的注意力压缩，在2K图像生成中减少68%注意力FLOPs并实现1.5倍端到端加速，且不损失视觉质量。
+  [ICCV 2025][图像生成][Transformer] 针对多模态扩散Transformer（MMDiT）提出DiTFastAttnV2，通过Head-wise Arrow Attention和Head-wise Caching机制实现细粒度的注意力压缩…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - Transformer
-  - 注意力压缩
-  - MMDiT
-  - 稀疏注意力
-  - 推理加速
+  - "ICCV 2025"
+  - "图像生成"
+  - "Transformer"
+  - "注意力压缩"
+  - "MMDiT"
+  - "稀疏注意力"
+  - "推理加速"
 ---
 
 # DiTFastAttnV2: Head-wise Attention Compression for Multi-Modality Diffusion Transformers

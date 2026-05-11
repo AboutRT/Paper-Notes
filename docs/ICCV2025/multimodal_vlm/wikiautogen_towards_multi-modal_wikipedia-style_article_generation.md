@@ -2,15 +2,15 @@
 title: >-
   [论文解读] WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation
 description: >-
-  [ICCV2025][多模态][多模态文章生成] 提出 WikiAutoGen 多智能体框架，通过整合文本和图像的多模态检索与多视角自反思机制，自动生成高质量的多模态 Wikipedia 风格文章，在自建基准 WikiSeek 上相比已有方法提升 8%–29%。
+  [ICCV2025][多模态VLM][多模态文章生成] 提出 WikiAutoGen 多智能体框架，通过整合文本和图像的多模态检索与多视角自反思机制，自动生成高质量的多模态 Wikipedia 风格文章，在自建基准 WikiSeek 上相比已有方法提升 8%–29%。
 tags:
-  - ICCV2025
-  - 多模态
-  - 多模态文章生成
-  - 多模态VLM
-  - 自反思机制
-  - Wikipedia
-  - 知识检索
+  - "ICCV2025"
+  - "多模态VLM"
+  - "多模态文章生成"
+  - "多智能体框架"
+  - "自反思机制"
+  - "Wikipedia"
+  - "知识检索"
 ---
 
 # WikiAutoGen: Towards Multi-Modal Wikipedia-Style Article Generation

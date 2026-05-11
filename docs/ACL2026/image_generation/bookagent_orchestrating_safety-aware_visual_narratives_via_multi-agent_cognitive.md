@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像生成][绘本生成] BookAgent 是一个安全感知的多智能体框架，通过**价值对齐故事板（VAS）+ 迭代跨模态精炼（ICR）+ 时序认知校准（TCC）**三阶段闭环架构，从用户草稿端到端生成高质量、角色一致、内容安全的绘本故事。
 tags:
-  - ACL 2026
-  - 图像生成
-  - 绘本生成
-  - 多智能体协作
-  - 安全对齐
-  - 跨帧一致性
-  - 视觉叙事
+  - "ACL 2026"
+  - "图像生成"
+  - "绘本生成"
+  - "多智能体协作"
+  - "安全对齐"
+  - "跨帧一致性"
+  - "视觉叙事"
 ---
 
 # BookAgent: Orchestrating Safety-Aware Visual Narratives via Multi-Agent Cognitive Calibration

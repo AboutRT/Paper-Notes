@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Can Multimodal Large Language Models Understand Spatial Relations?
 description: >-
-  [多模态] 提出 SpatialMQA 基准，以多选题形式评估 MLLM 的空间关系推理能力，发现 SOTA 模型仅达 48.14% 准确率，远低于人类 98.40%。
+  [多模态VLM] 提出 SpatialMQA 基准，以多选题形式评估 MLLM 的空间关系推理能力，发现 SOTA 模型仅达 48.14% 准确率，远低于人类 98.40%。
 tags:
-  - 多模态
+  - "多模态VLM"
 ---
 
 # Can Multimodal Large Language Models Understand Spatial Relations?

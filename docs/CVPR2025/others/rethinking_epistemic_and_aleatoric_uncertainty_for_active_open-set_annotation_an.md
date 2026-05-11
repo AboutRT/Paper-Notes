@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Rethinking Epistemic and Aleatoric Uncertainty for Active Open-Set Annotation: An Energy-Based Approach
 description: >-
-  [CVPR 2025][其他][主动学习] 提出EAOA框架，通过基于自由能的认知不确定性（EU）和偶然不确定性（AU）度量，结合自适应粗到细的查询策略，在开放集主动学习场景中有效选择既属于已知类又具有高信息量的样本。
+  [CVPR 2025][主动学习] 提出EAOA框架，通过基于自由能的认知不确定性（EU）和偶然不确定性（AU）度量，结合自适应粗到细的查询策略，在开放集主动学习场景中有效选择既属于已知类又具有高信息量的样本。
 tags:
-  - CVPR 2025
-  - 其他
-  - 主动学习
-  - 开放集标注
-  - 认知不确定性
-  - 偶然不确定性
-  - 能量模型
+  - "CVPR 2025"
+  - "主动学习"
+  - "开放集标注"
+  - "认知不确定性"
+  - "偶然不确定性"
+  - "能量模型"
 ---
 
 # Rethinking Epistemic and Aleatoric Uncertainty for Active Open-Set Annotation: An Energy-Based Approach

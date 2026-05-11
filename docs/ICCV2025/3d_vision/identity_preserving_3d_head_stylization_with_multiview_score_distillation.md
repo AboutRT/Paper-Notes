@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出基于负对数似然蒸馏(LD)的3D头部风格化框架，通过多视角网格评分、镜像梯度和秩加权评分张量，实现在360度一致渲染下的高质量风格化与身份保持。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Identity Preserving 3D Head Stylization with Multiview Score Distillation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][HDR新视角合成] 提出 GaussHDR，通过统一 3D 和 2D 局部色调映射来改进 HDR 高斯溅射，设计残差局部色调映射器和不确定性自适应调制机制，同时提升 HDR 重建稳定性和 LDR 拟合质量，在合成和真实场景上大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - HDR新视角合成
-  - 高斯溅射
-  - 色调映射
-  - 不确定性学习
-  - 局部色调映射
+  - "CVPR 2025"
+  - "3D视觉"
+  - "HDR新视角合成"
+  - "高斯溅射"
+  - "色调映射"
+  - "不确定性学习"
+  - "局部色调映射"
 ---
 
 # GaussHDR: High Dynamic Range Gaussian Splatting via Learning Unified 3D and 2D Local Tone Mapping

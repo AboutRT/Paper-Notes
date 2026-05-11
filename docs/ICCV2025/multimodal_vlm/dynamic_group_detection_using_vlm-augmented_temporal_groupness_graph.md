@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dynamic Group Detection using VLM-augmented Temporal Groupness Graph
 description: >-
-  [ICCV 2025][多模态][群组检测] 本文提出基于VLM增强的时序群组图（temporal groupness graph）进行视频中的动态人群群组检测，核心创新是用CLIP提取包含人对和背景的groupness-augmented特征来估计成组概率，并通过全帧时序图的Louvain聚类实现动态变化群组的检测。
+  [ICCV 2025][多模态VLM][群组检测] 本文提出基于VLM增强的时序群组图（temporal groupness graph）进行视频中的动态人群群组检测，核心创新是用CLIP提取包含人对和背景的groupness-augmented特征来估计成组概率…
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态VLM
-  - CLIP
-  - 时序图聚类
-  - 社交行为分析
-  - Louvain算法
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "群组检测"
+  - "CLIP"
+  - "时序图聚类"
+  - "社交行为分析"
+  - "Louvain算法"
 ---
 
 # Dynamic Group Detection using VLM-augmented Temporal Groupness Graph

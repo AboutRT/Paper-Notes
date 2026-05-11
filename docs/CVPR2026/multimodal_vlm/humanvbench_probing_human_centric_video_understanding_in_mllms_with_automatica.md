@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][多模态VLM][视频基准测试] 提出 HumanVBench，一个包含 16 个细粒度任务的人体中心视频理解基准，配套两个自动化流水线（视频标注 + 干扰项感知 QA 合成），对 30 个主流视频 MLLM 的评测揭示了当前模型在细微情感感知和语音-视觉对齐方面的关键不足。
 tags:
-  - CVPR 2026
-  - 多模态VLM
-  - 视频基准测试
-  - 人体中心视频理解
-  - 多模态大模型
-  - 情感感知
-  - 语音视觉对齐
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视频基准测试"
+  - "人体中心视频理解"
+  - "多模态大模型"
+  - "情感感知"
+  - "语音视觉对齐"
 ---
 
 # HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmarks

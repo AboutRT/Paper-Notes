@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][AI安全][联邦学习] 提出 CafCor 算法，通过参与者间的共享随机性实现关联噪声注入，结合新型鲁棒聚合方法 CAF，在不信任服务器、存在恶意参与者的联邦学习场景下，实现接近中心化 DP 的隐私-效用权衡。
 tags:
-  - ICML 2025
-  - AI安全
-  - 联邦学习
-  - 差分隐私
-  - 鲁棒聚合
-  - 拜占庭容错
-  - 关联噪声
+  - "ICML 2025"
+  - "AI安全"
+  - "联邦学习"
+  - "差分隐私"
+  - "鲁棒聚合"
+  - "拜占庭容错"
+  - "关联噪声"
 ---
 
 # Towards Trustworthy Federated Learning with Untrusted Participants

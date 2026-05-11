@@ -2,16 +2,15 @@
 title: >-
   [论文解读] Provably Improving Generalization of Few-Shot Models with Synthetic Data
 description: >-
-  [ICML2025][其他][few-shot learning] 提出一个理论框架量化合成数据与真实数据的分布差异对少样本分类泛化能力的影响，并基于该理论设计了联合优化数据划分与模型训练的算法，在10个基准数据集上超越SOTA。
+  [ICML2025][few-shot learning] 提出一个理论框架量化合成数据与真实数据的分布差异对少样本分类泛化能力的影响，并基于该理论设计了联合优化数据划分与模型训练的算法，在10个基准数据集上超越SOTA。
 tags:
-  - ICML2025
-  - 其他
-  - few-shot learning
-  - synthetic data
-  - Generalization Bound
-  - Prototype Learning
-  - Distribution Matching
-  - CLIP
+  - "ICML2025"
+  - "few-shot learning"
+  - "synthetic data"
+  - "Generalization Bound"
+  - "Prototype Learning"
+  - "Distribution Matching"
+  - "CLIP"
 ---
 
 # Provably Improving Generalization of Few-Shot Models with Synthetic Data

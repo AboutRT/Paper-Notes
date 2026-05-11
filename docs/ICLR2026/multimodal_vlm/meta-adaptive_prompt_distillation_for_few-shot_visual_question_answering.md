@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Meta-Adaptive Prompt Distillation for Few-Shot Visual Question Answering
 description: >-
-  [ICLR 2026][多模态][元学习] 提出 MAPD（Meta-Adaptive Prompt Distillation），一种基于 MAML 元学习的提示蒸馏方法，通过注意力映射器从任务相关的图像特征中蒸馏软提示，使 LMM 在测试时仅用少量梯度步即可适应新的视觉问答任务，性能超越 ICL 21.2%。
+  [ICLR 2026][多模态VLM][元学习] 提出 MAPD（Meta-Adaptive Prompt Distillation），一种基于 MAML 元学习的提示蒸馏方法，通过注意力映射器从任务相关的图像特征中蒸馏软提示，使 LMM 在测试时仅用少量梯度步即可适应新的视觉问答任务…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 元学习
-  - 多模态VLM
-  - 少样本VQA
-  - LMM
-  - MAML
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "元学习"
+  - "提示蒸馏"
+  - "少样本VQA"
+  - "LMM"
+  - "MAML"
 ---
 
 # Meta-Adaptive Prompt Distillation for Few-Shot Visual Question Answering
@@ -29,7 +29,7 @@ tags:
 
 大型多模态模型（LMM）通常依赖上下文学习（ICL）来处理少样本任务，但存在关键问题：
 
-**小模型的 ICL 表现不稳定**：<7B 参数的模型在增加上下文示例时，性能常停滞甚至下降，尤其在 VQA 任务中
+**小模型的 ICL 表现不稳定**：&lt;7B 参数的模型在增加上下文示例时，性能常停滞甚至下降，尤其在 VQA 任务中
 
 **图像嵌入的信息过载**：模型被图像嵌入中与下游任务无关的额外信息所淹没，无法有效聚焦于任务相关特征
 
@@ -137,7 +137,7 @@ MAPD 基于 LLaVA v1.5 架构，包含三个核心组件：
 
 - **MAML 在 VLM 中的应用**：延续了 Qin et al. (2023) 和 Najdenkoska et al. (2023) 的路线，但首次在大规模 LMM（7B）中验证了元学习提示蒸馏的有效性
 - **与 Flamingo、MMICL 等 ICL 方法的对比**：证明了参数高效的微调适应可以超越纯 ICL 方法
-- 启发：对于小模型（<10B），微调式适应可能比 ICL 更可靠；未来的 LMM 设计应考虑内置高效的适应机制
+- 启发：对于小模型（&lt;10B），微调式适应可能比 ICL 更可靠；未来的 LMM 设计应考虑内置高效的适应机制
 
 ## 评分
 

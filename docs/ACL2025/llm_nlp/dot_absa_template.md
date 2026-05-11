@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dynamic Order Template Prediction for Generative Aspect-Based Sentiment Analysis
 description: >-
-  [ACL 2025][NLP理解][ABSA] 本文提出 Dynamic Order Template (DOT) 方法，将 ABSA 情感四元组生成分为两阶段——先预测元组数量并生成初始模板，再基于动态模板生成具体情感元组，在 9 个 ABSA 数据集上实现 SOTA 同时推理时间比 MvP 减少 7 倍。
+  [ACL 2025][LLM/NLP][ABSA] 本文提出 Dynamic Order Template (DOT) 方法，将 ABSA 情感四元组生成分为两阶段——先预测元组数量并生成初始模板，再基于动态模板生成具体情感元组…
 tags:
-  - ACL 2025
-  - NLP理解
-  - ABSA
-  - 情感四元组
-  - 动态模板
-  - 多视角提示
-  - 生成式情感分析
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "ABSA"
+  - "情感四元组"
+  - "动态模板"
+  - "多视角提示"
+  - "生成式情感分析"
 ---
 
 # Dynamic Order Template Prediction for Generative Aspect-Based Sentiment Analysis

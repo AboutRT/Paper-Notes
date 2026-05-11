@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML 2025][molecular conformation] 本文提出 WGFormer，一种由 Wasserstein 梯度流驱动的 SE(3)-Transformer，在自编码器框架内通过最小化原子潜在混合模型上的能量函数来优化分子构象，在基态构象预测任务上一致超越 SOTA。
 tags:
-  - ICML 2025
-  - molecular conformation
-  - Transformer
-  - Wasserstein gradient flow
-  - ground-state conformation
-  - autoencoder
+  - "ICML 2025"
+  - "molecular conformation"
+  - "Transformer"
+  - "Wasserstein gradient flow"
+  - "ground-state conformation"
+  - "autoencoder"
 ---
 
 # WGFormer: An SE(3)-Transformer Driven by Wasserstein Gradient Flows for Molecular Generation

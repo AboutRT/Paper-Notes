@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Unlocking the Power of Rehearsal in Continual Learning: A Theoretical Perspective
 description: >-
-  [ICML 2025][持续学习] 从理论角度建立排练（experience replay）策略的严格分析框架，证明排练通过控制梯度偏差有效缓解遗忘，且遗忘界随缓冲区大小呈次线性 O(sqrt(T/m)) 增长，为缓冲区配置提供精确指导。
+  [ICML 2025][LLM安全][continual learning] 从理论角度严格证明持续学习中排练策略的有效性机制——排练通过控制梯度方向偏差将多任务顺序学习近似为联合训练，遗忘界随缓冲区大小 $m$ 呈 $O(\sqrt{T/m})$ 次线性增长…
 tags:
-  - ICML 2025
-  - continual learning
-  - rehearsal
-  - experience replay
-  - catastrophic forgetting
-  - theoretical analysis
+  - "ICML 2025"
+  - "LLM安全"
+  - "continual learning"
+  - "rehearsal"
+  - "experience replay"
+  - "catastrophic forgetting"
+  - "theoretical analysis"
 ---
 
 # Unlocking the Power of Rehearsal in Continual Learning: A Theoretical Perspective

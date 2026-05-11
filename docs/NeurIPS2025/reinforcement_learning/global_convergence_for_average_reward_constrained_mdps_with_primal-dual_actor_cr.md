@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Global Convergence for Average Reward Constrained MDPs with Primal-Dual Actor-Critic
 description: >-
-  [NeurIPS 2025][约束MDP] 提出Primal-Dual Natural Actor-Critic（PDNAC）算法，首次在一般参数化策略下的平均奖励约束MDP中实现 $\tilde{\mathcal{O}}(1/\sqrt{T})$ 的全局收敛率和约束违反率，匹配理论下界。
+  [NeurIPS 2025][强化学习][约束MDP] 提出Primal-Dual Natural Actor-Critic（PDNAC）算法，首次在一般参数化策略下的平均奖励约束MDP中实现 $\tilde{\mathcal{O}}(1/\sqrt{T})$ 的全局收敛率和约束违反率，匹配理论下界。
 tags:
-  - NeurIPS 2025
-  - 约束MDP
-  - 平均奖励
-  - 原始-对偶
-  - 自然策略梯度
-  - 全局收敛
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "约束MDP"
+  - "平均奖励"
+  - "原始-对偶"
+  - "自然策略梯度"
+  - "全局收敛"
 ---
 
 # Global Convergence for Average Reward Constrained MDPs with Primal-Dual Actor-Critic

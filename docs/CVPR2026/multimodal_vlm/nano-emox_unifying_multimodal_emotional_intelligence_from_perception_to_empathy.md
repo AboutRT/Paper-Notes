@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy
 description: >-
-  [CVPR 2026][多模态][情感计算] Nano-EmoX 提出认知启发的三级情感任务层次（感知→理解→交互），是首个以2.2B紧凑参数统一六项核心情感任务的多模态语言模型，通过P2E渐进式训练框架从基础感知逐步培养到高层共情能力。
+  [CVPR 2026][多模态VLM][情感计算] Nano-EmoX 提出认知启发的三级情感任务层次（感知→理解→交互），是首个以2.2B紧凑参数统一六项核心情感任务的多模态语言模型，通过P2E渐进式训练框架从基础感知逐步培养到高层共情能力。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 情感计算
-  - 多模态VLM
-  - 认知层次
-  - 情绪识别
-  - 共情交互
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "情感计算"
+  - "多模态语言模型"
+  - "认知层次"
+  - "情绪识别"
+  - "共情交互"
 ---
 
 # Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy

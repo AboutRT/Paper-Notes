@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][人体姿态估计] 提出mmDiff，一种基于扩散模型的毫米波雷达人体姿态估计框架，通过全局-局部雷达上下文提取和结构-运动一致性约束，有效应对雷达点云稀疏、噪声大和信号不一致的挑战，显著超越现有SOTA。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 人体姿态估计
-  - 毫米波雷达
-  - 扩散模型
-  - 点云
-  - RF-Vision
+  - "ECCV 2024"
+  - "图像生成"
+  - "人体姿态估计"
+  - "毫米波雷达"
+  - "扩散模型"
+  - "点云"
+  - "RF-Vision"
 ---
 
 # Diffusion Model is a Good Pose Estimator from 3D RF-Vision

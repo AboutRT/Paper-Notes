@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][class-agnostic counting] 提出首个无需样例图像即可同时计数图像中多类未知物体的方法ABC123，通过ViT回归多通道密度图+匈牙利匹配训练+SAM示例发现机制，在自建合成数据集MCAC上大幅超越需要样例的方法，且能泛化到FSC-147真实数据集。
 tags:
-  - ECCV 2024
-  - class-agnostic counting
-  - exemplar-free
-  - multi-class
-  - density map regression
-  - Hungarian matching
+  - "ECCV 2024"
+  - "class-agnostic counting"
+  - "exemplar-free"
+  - "multi-class"
+  - "density map regression"
+  - "Hungarian matching"
 ---
 
 # ABC Easy as 123: A Blind Counter for Exemplar-Free Multi-Class Class-Agnostic Counting

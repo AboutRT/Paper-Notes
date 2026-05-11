@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging
 description: >-
-  [ECCV 2024][光源估计] 本文提出从双曝光 HDR 图像对中提取一种简洁的双曝光特征（DEF），并基于此构建了两个超轻量级光源估计器 EMLP 和 ECCC，在仅使用几百到几千个参数的情况下即可达到或超越需要数十万参数的先前方法的性能。
+  [ECCV 2024][信号/通信][光源估计] 本文提出从双曝光 HDR 图像对中提取一种简洁的双曝光特征（DEF），并基于此构建了两个超轻量级光源估计器 EMLP 和 ECCC，在仅使用几百到几千个参数的情况下即可达到或超越需要数十万参数的先前方法的性能。
 tags:
-  - ECCV 2024
-  - 光源估计
-  - HDR成像
-  - 双曝光
-  - 白平衡
-  - 色彩恒常性
+  - "ECCV 2024"
+  - "信号/通信"
+  - "光源估计"
+  - "HDR成像"
+  - "双曝光"
+  - "白平衡"
+  - "色彩恒常性"
 ---
 
 # Optimizing Illuminant Estimation in Dual-Exposure HDR Imaging

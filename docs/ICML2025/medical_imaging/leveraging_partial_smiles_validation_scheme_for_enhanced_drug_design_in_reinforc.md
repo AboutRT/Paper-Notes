@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][医学图像][SMILES分子生成] 提出 PSV-PPO 算法，在自回归 SMILES 分子生成的每一步引入部分 SMILES 验证（PSV）真值表，实时惩罚无效 token，在保持分子有效性的同时增强化学空间探索能力。
 tags:
-  - ICML2025
-  - 医学图像
-  - SMILES分子生成
-  - 强化学习
-  - PPO
-  - 部分验证
-  - 药物发现
-  - 灾难性遗忘
+  - "ICML2025"
+  - "医学图像"
+  - "SMILES分子生成"
+  - "强化学习"
+  - "PPO"
+  - "部分验证"
+  - "药物发现"
+  - "灾难性遗忘"
 ---
 
 # Leveraging Partial SMILES Validation Scheme for Enhanced Drug Design in Reinforcement Learning Frameworks

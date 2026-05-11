@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How Does Response Length Affect Long-Form Factuality
 description: >-
-  [ACL 2025 (Findings)][长文本事实性] 本文系统研究了LLM响应长度与事实精确度的关系，提出高效的双层事实性评估框架Bafe（与人类注释89.31%一致），确认了长度偏差的存在，并通过排除错误传播和长上下文假说，证明"事实耗竭"是事实性下降的主要原因。
+  [ACL 2025 (Findings)][LLM安全][长文本事实性] 本文系统研究了LLM响应长度与事实精确度的关系，提出高效的双层事实性评估框架Bafe（与人类注释89.31%一致），确认了长度偏差的存在，并通过排除错误传播和长上下文假说，证明"事实耗竭"是事实性下降的主要原因。
 tags:
-  - ACL 2025 (Findings)
-  - 长文本事实性
-  - 长度偏差
-  - 事实耗竭
-  - 事实性评估
-  - 幻觉
+  - "ACL 2025 (Findings)"
+  - "LLM安全"
+  - "长文本事实性"
+  - "长度偏差"
+  - "事实耗竭"
+  - "事实性评估"
+  - "幻觉"
 ---
 
 # How Does Response Length Affect Long-Form Factuality

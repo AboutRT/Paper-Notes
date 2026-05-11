@@ -2,14 +2,15 @@
 title: >-
   [论文解读] EvoLM: In Search of Lost Language Model Training Dynamics
 description: >-
-  [NeurIPS 2025][training dynamics] 系统训练 100+ 个 1B/4B 参数的 LM（从零开始），透明地研究预训练→续训→SFT→RL 各阶段的训练动态，揭示过度训练的递减收益、灾难性遗忘的缓解策略、以及 SFT/RL 配置的复杂权衡。
+  [NeurIPS 2025][强化学习][training dynamics] 系统训练 100+ 个 1B/4B 参数的 LM（从零开始），透明地研究预训练→续训→SFT→RL 各阶段的训练动态，揭示过度训练的递减收益、灾难性遗忘的缓解策略、以及 SFT/RL 配置的复杂权衡。
 tags:
-  - NeurIPS 2025
-  - training dynamics
-  - 强化学习
-  - continued pre-training
-  - reinforcement-learning
-  - SFT
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "training dynamics"
+  - "scaling law"
+  - "continued pre-training"
+  - "reinforcement-learning"
+  - "SFT"
 ---
 
 # EvoLM: In Search of Lost Language Model Training Dynamics

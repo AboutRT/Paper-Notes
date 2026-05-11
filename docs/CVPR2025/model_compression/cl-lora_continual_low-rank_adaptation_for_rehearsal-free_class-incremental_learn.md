@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][Class-Incremental Learning] 提出 CL-LoRA，设计双适配器架构（任务共享 + 任务特定 LoRA），结合知识蒸馏与梯度重分配以及可学习块级权重，在仅 0.3% 可训练参数下实现 SOTA 持续学习性能。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - Class-Incremental Learning
-  - LoRA
-  - PEFT
-  - 知识蒸馏
-  - catastrophic forgetting
+  - "CVPR 2025"
+  - "模型压缩"
+  - "Class-Incremental Learning"
+  - "LoRA"
+  - "PEFT"
+  - "知识蒸馏"
+  - "catastrophic forgetting"
 ---
 
 # CL-LoRA: Continual Low-Rank Adaptation for Rehearsal-Free Class-Incremental Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][隐式世界模型] 提出对抗序列生成方法验证生成式序列模型的隐式世界模型健全性，在国际象棋领域通过多种对抗策略（IMO/BSO/AD）系统评估，发现所有模型均不健全，但训练方法和数据集选择对健全性有显著影响，且线性棋盘状态探针在大多数模型中无因果作用。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 隐式世界模型
-  - 对抗序列生成
-  - 国际象棋
-  - 健全性验证
-  - 线性探针
+  - "ICLR 2026"
+  - "图像生成"
+  - "隐式世界模型"
+  - "对抗序列生成"
+  - "国际象棋"
+  - "健全性验证"
+  - "线性探针"
 ---
 
 # Verification of the Implicit World Model in a Generative Model via Adversarial Sequences

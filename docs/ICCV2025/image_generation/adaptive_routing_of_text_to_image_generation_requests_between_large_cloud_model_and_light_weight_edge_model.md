@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][text-to-image routing] 提出RouteT2I框架，通过多维质量评估指标和双门控token选择MoE路由模型，动态将文本到图像生成请求分配到边缘轻量模型或云端大模型，在50%路由率下实现云端全用83.97%的质量提升。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - text-to-image routing
-  - edge-cloud collaboration
-  - mixture-of-experts
-  - Pareto relative superiority
-  - dual-gate MoE
+  - "ICCV 2025"
+  - "图像生成"
+  - "text-to-image routing"
+  - "edge-cloud collaboration"
+  - "mixture-of-experts"
+  - "Pareto relative superiority"
+  - "dual-gate MoE"
 ---
 
 # Adaptive Routing of Text-to-Image Generation Requests Between Large Cloud Model and Light-Weight Edge Model

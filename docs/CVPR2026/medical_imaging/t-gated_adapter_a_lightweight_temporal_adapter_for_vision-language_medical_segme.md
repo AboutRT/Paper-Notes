@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][医学图像分割] 提出轻量级时序门控适配器（T-Gated Adapter），为2D视觉语言模型CLIPSeg注入相邻切片上下文，在仅30个标注CT体积上训练即可实现平均Dice 0.704（+0.206），跨域零样本评估和CT到MRI跨模态评估中均一致提升。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 医学图像分割
-  - 视觉语言模型
-  - 时序适配器
-  - 跨模态泛化
-  - 3D体积感知
+  - "CVPR 2026"
+  - "医学图像"
+  - "医学图像分割"
+  - "视觉语言模型"
+  - "时序适配器"
+  - "跨模态泛化"
+  - "3D体积感知"
 ---
 
 # T-Gated Adapter: A Lightweight Temporal Adapter for Vision-Language Medical Segmentation

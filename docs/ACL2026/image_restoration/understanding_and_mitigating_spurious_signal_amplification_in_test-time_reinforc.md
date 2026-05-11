@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][图像恢复][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 图像恢复
-  - 待补充
+  - "ACL 2026"
+  - "图像恢复"
+  - "待补充"
 ---
 
 # Understanding and Mitigating Spurious Signal Amplification in Test-Time Reinforcement Learning for Math Reasoning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][非朗伯体] 提出 LayeredFlow——首个包含多层光流标注的真实世界非朗伯体基准数据集（150k 光流对，185 个场景，360 个物体），并提出多层光流任务定义、大规模合成训练数据集和基于 RAFT 的多层光流基线方法。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 非朗伯体
-  - 多层光流
-  - 真实世界基准
-  - 透明物体
-  - 合成数据集
+  - "ECCV 2024"
+  - "视频理解"
+  - "非朗伯体"
+  - "多层光流"
+  - "真实世界基准"
+  - "透明物体"
+  - "合成数据集"
 ---
 
 # LayeredFlow: A Real-World Benchmark for Non-Lambertian Multi-Layer Optical Flow

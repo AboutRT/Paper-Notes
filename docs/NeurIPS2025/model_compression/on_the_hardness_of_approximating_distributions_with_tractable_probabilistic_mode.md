@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][概率电路] 本文证明了用可处理概率模型（如分解概率电路）在有界f-散度下近似任意分布是NP-hard的，并证明了在近似建模条件下分解PC和（确定性+分解）PC之间存在指数级大小差距，揭示了近似放宽并不能缓解精确建模中的复杂度瓶颈。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 概率电路
-  - 可处理概率模型
-  - 近似建模
-  - NP-hardness
-  - 表达效率
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "概率电路"
+  - "可处理概率模型"
+  - "近似建模"
+  - "NP-hardness"
+  - "表达效率"
 ---
 
 # On the Hardness of Approximating Distributions with Tractable Probabilistic Models
@@ -45,7 +45,7 @@ tags:
 1. **NP-hardness证明（定理3.4/3.5）**:
 
     - **归约思路**：从SAT问题归约。给定布尔公式$\hat{P}$，构造新的布尔公式$\hat{P}' = (Y \wedge \hat{P}) \vee (\neg Y \wedge X_1 \wedge \cdots \wedge X_n)$
-    - 关键洞察：如果$\hat{P}$可满足，则规范化分布P中Y=1的概率≥1/2；否则为0。任何TV距离<1/4的近似Q都必须保留这一区分
+    - 关键洞察：如果$\hat{P}$可满足，则规范化分布P中Y=1的概率≥1/2；否则为0。任何TV距离&lt;1/4的近似Q都必须保留这一区分
     - 因此判定$Q(Y=1) \geq 1/4$等价于判定$\hat{P}$的可满足性
     - 推论：对任何k-凸f-散度$D_f$，以有界$k\epsilon^2$-$D_f$近似建模是NP-hard
     - 意义：这不仅适用于分解PC，而适用于所有支持可处理边际的模型类（包括和方电路、概率生成电路、行列式点过程等）

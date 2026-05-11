@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视觉语言跟踪] 提出DUTrack，通过动态更新多模态参考信息（模板帧+语言描述）来解决视觉语言跟踪中静态参考与动态目标之间的语义不一致问题，首次让VL跟踪器在LaSOT上超越最佳纯视觉跟踪器。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视觉语言跟踪
-  - 动态更新
-  - 多模态参考
-  - 大语言模型
-  - 目标跟踪
+  - "CVPR 2025"
+  - "视频理解"
+  - "视觉语言跟踪"
+  - "动态更新"
+  - "多模态参考"
+  - "大语言模型"
+  - "目标跟踪"
 ---
 
 # Dynamic Updates for Language Adaptation in Visual-Language Tracking

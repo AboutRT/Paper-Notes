@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][conformal prediction] 提出 RCP1（单样本鲁棒共形预测），通过认证共形过程本身而非单个 conformity score，仅需一次随机扰动前向传播即可获得比需要 100 次前向传播的 SOTA 方法更小的鲁棒预测集。
 tags:
-  - NeurIPS 2025
-  - conformal prediction
-  - robustness
-  - randomized smoothing
-  - prediction sets
-  - conformal risk control
+  - "NeurIPS 2025"
+  - "conformal prediction"
+  - "robustness"
+  - "randomized smoothing"
+  - "prediction sets"
+  - "conformal risk control"
 ---
 
 # One Sample is Enough to Make Conformal Prediction Robust

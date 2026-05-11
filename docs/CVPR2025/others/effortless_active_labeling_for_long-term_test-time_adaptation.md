@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][测试时适应] 提出EATTA方法，在长期测试时适应（TTA）中通过特征扰动敏感度每批次仅标注1个最有价值样本（而非多个），结合梯度范数去偏策略平衡监督和无监督损失的梯度，在ImageNet-C上以极低标注代价实现50.9%的平均错误率（超过标注3倍的SimATTA 3.9%）。
 tags:
-  - CVPR 2025
-  - 测试时适应
-  - 主动学习
-  - 伪标签
-  - 梯度归一化
-  - 长期适应
+  - "CVPR 2025"
+  - "测试时适应"
+  - "主动学习"
+  - "伪标签"
+  - "梯度归一化"
+  - "长期适应"
 ---
 
 # Effortless Active Labeling for Long-Term Test-Time Adaptation

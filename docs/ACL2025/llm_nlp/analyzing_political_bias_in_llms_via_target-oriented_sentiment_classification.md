@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Analyzing Political Bias in LLMs via Target-Oriented Sentiment Classification
 description: >-
-  [ACL 2025][NLP理解][政治偏差] 提出基于目标导向情感分类(TSC)的LLM政治偏差分析框架，通过在450个政治句子中替换1319位政治家名字并用7个模型在6种语言中预测情感，定义了基于熵的不一致性指标来量化偏差，发现LLM对左翼和中间派有正面偏见、对极右翼有负面偏见，且更大模型偏差更强更一致。
+  [ACL 2025][LLM/NLP][政治偏差] 提出基于目标导向情感分类(TSC)的LLM政治偏差分析框架，通过在450个政治句子中替换1319位政治家名字并用7个模型在6种语言中预测情感，定义了基于熵的不一致性指标来量化偏差，发现LLM对左翼和中间派有正面偏见、对极右翼有负面偏见…
 tags:
-  - ACL 2025
-  - NLP理解
-  - 政治偏差
-  - 目标情感分类
-  - LLM偏差
-  - 多语言分析
-  - 偏差缓解
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "政治偏差"
+  - "目标情感分类"
+  - "LLM偏差"
+  - "多语言分析"
+  - "偏差缓解"
 ---
 
 # Analyzing Political Bias in LLMs via Target-Oriented Sentiment Classification

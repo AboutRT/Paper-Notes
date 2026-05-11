@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Language Models Resist Alignment: Evidence From Data Compression
 description: >-
-  [ACL 2025 (Best Paper Award)][模型压缩][elasticity] 本文从压缩理论视角提出LLM的"弹性"(elasticity)概念，证明模型在受到微调扰动时压缩率变化与数据集大小成反比——因为预训练数据远大于对齐数据，对齐效果被优先"遗忘"，这从信息论角度根本性地解释了为什么LLM对齐如此脆弱。
+  [ACL 2025 (Best Paper Award)][模型压缩][elasticity] 本文从压缩理论视角提出LLM的"弹性"(elasticity)概念，证明模型在受到微调扰动时压缩率变化与数据集大小成反比——因为预训练数据远大于对齐数据，对齐效果被优先"遗忘"…
 tags:
-  - ACL 2025 (Best Paper Award)
-  - 模型压缩
-  - elasticity
-  - inverse alignment
-  - compression theory
-  - alignment fragility
-  - Hooke's Law analogy
+  - "ACL 2025 (Best Paper Award)"
+  - "模型压缩"
+  - "elasticity"
+  - "inverse alignment"
+  - "compression theory"
+  - "alignment fragility"
+  - "Hooke's Law analogy"
 ---
 
 # Language Models Resist Alignment: Evidence From Data Compression

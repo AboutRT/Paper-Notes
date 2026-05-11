@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025 (Spotlight)][图学习][场景图生成] 提出 ESCA 框架，通过开放域场景图生成（SGClip 模型）为 MLLM 驱动的具身智能体提供结构化视觉理解上下文，显著降低了感知错误率并提升了任务完成率。
 tags:
-  - NeurIPS 2025 (Spotlight)
-  - 图学习
-  - 场景图生成
-  - 具身智能体
-  - CLIP
-  - 视觉语言模型
-  - 神经符号学习
+  - "NeurIPS 2025 (Spotlight)"
+  - "图学习"
+  - "场景图生成"
+  - "具身智能体"
+  - "CLIP"
+  - "视觉语言模型"
+  - "神经符号学习"
 ---
 
 # ESCA: Contextualizing Embodied Agents via Scene-Graph Generation

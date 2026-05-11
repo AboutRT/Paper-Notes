@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][AI安全][人脸伪造检测] 提出 Forensics Adapter，一个仅 5.7M 参数的轻量适配器网络，与冻结 CLIP 并行学习人脸伪造的融合边界特征，通过掩码边界预测+逐块对比+样本级对比三重目标实现跨数据集的高泛化性人脸伪造检测，CDF-v1 上 AUC 达 0.914。
 tags:
-  - CVPR 2025
-  - AI安全
-  - 人脸伪造检测
-  - CLIP适配
-  - 融合边界
-  - 对比学习
-  - 跨数据集泛化
+  - "CVPR 2025"
+  - "AI安全"
+  - "人脸伪造检测"
+  - "CLIP适配"
+  - "融合边界"
+  - "对比学习"
+  - "跨数据集泛化"
 ---
 
 # Forensics Adapter: Adapting CLIP for Generalizable Face Forgery Detection

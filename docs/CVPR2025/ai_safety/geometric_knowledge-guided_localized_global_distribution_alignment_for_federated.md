@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][AI安全][联邦学习] 在联邦学习中通过从局部协方差矩阵精确重建全局协方差来获取全局嵌入分布的几何形状，沿全局主方向生成增强样本本地化全局分布信息，在 CIFAR-100 极端异质场景（β=0.01）下提升 17 个百分点。
 tags:
-  - CVPR 2025
-  - AI安全
-  - 联邦学习
-  - 数据异质性
-  - 几何分布对齐
-  - CLIP嵌入
-  - 协方差重建
+  - "CVPR 2025"
+  - "AI安全"
+  - "联邦学习"
+  - "数据异质性"
+  - "几何分布对齐"
+  - "CLIP嵌入"
+  - "协方差重建"
 ---
 
 # Geometric Knowledge-Guided Localized Global Distribution Alignment for Federated Learning

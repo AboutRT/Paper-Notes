@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SCURank: Ranking Multiple Candidate Summaries with Summary Content Units for Enhanced Summarization
 description: >-
-  [ACL 2026][模型压缩][摘要排序] 本文提出 SCURank，一种基于摘要内容单元（SCU）的排序框架，通过提取 SCU、跨摘要聚类估计信息重要性、按信息丰富度评分来排序候选摘要，替代不稳定的 LLM 直接排序和粗粒度的 ROUGE 排序，在多 LLM 蒸馏场景中配合 BRIO 对比学习显著提升了蒸馏模型的摘要性能。
+  [ACL 2026][模型压缩][摘要排序] 本文提出 SCURank，一种基于摘要内容单元（SCU）的排序框架，通过提取 SCU、跨摘要聚类估计信息重要性、按信息丰富度评分来排序候选摘要，替代不稳定的 LLM 直接排序和粗粒度的 ROUGE 排序…
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 摘要排序
-  - 内容单元
-  - 对比学习
-  - 多LLM蒸馏
-  - 信息丰富度
+  - "ACL 2026"
+  - "模型压缩"
+  - "摘要排序"
+  - "内容单元"
+  - "对比学习"
+  - "多LLM蒸馏"
+  - "信息丰富度"
 ---
 
 # SCURank: Ranking Multiple Candidate Summaries with Summary Content Units for Enhanced Summarization

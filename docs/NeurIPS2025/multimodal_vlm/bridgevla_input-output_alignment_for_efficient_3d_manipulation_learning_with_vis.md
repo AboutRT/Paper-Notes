@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
 description: >-
-  [NEURIPS2025][多模态][视觉语言] 提出 BridgeVLA，通过将 3D 点云投影为多视角 2D 图像并以 2D 热力图作为中间表示来对齐输入输出空间，实现了高效且有效的 3D 机器人操作学习。
+  [NEURIPS2025][多模态VLM][视觉语言] 提出 BridgeVLA，通过将 3D 点云投影为多视角 2D 图像并以 2D 热力图作为中间表示来对齐输入输出空间，实现了高效且有效的 3D 机器人操作学习。
 tags:
-  - NEURIPS2025
-  - 多模态
-  - 视觉语言
-  - 3D Manipulation
-  - Heatmap Prediction
-  - Robot Learning
-  - sample efficiency
+  - "NEURIPS2025"
+  - "多模态VLM"
+  - "视觉语言"
+  - "3D Manipulation"
+  - "Heatmap Prediction"
+  - "Robot Learning"
+  - "sample efficiency"
 ---
 
 # BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models

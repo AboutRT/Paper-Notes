@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FADE: Frequency-Aware Diffusion Model Factorization for Video Editing
 description: >-
-  [CVPR 2025][video editing] 提出 FADE，一种免训练的视频编辑方法，通过分析 T2V 模型中各 transformer block 的频率角色（sketching vs sharpening），利用频谱引导调制在频域中分离保留与编辑内容，实现高质量的外观和运动编辑。
+  [CVPR 2025][视频生成][video editing] 提出 FADE，一种免训练的视频编辑方法，通过分析 T2V 模型中各 transformer block 的频率角色（sketching vs sharpening），利用频谱引导调制在频域中分离保留与编辑内容，实现高质量的外观和运动编辑。
 tags:
-  - CVPR 2025
-  - video editing
-  - 扩散模型
-  - frequency-aware factorization
-  - 视频生成
-  - training-free
+  - "CVPR 2025"
+  - "视频生成"
+  - "video editing"
+  - "扩散模型"
+  - "frequency-aware factorization"
+  - "spectrum-guided modulation"
+  - "training-free"
 ---
 
 # FADE: Frequency-Aware Diffusion Model Factorization for Video Editing

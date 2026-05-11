@@ -2,14 +2,15 @@
 title: >-
   [论文解读] What Makes an Ensemble (Un)interpretable?
 description: >-
-  [ICML 2025][ensemble learning] 系统研究集成学习方法的可解释性问题——什么因素使集成模型难以解释，以及如何在保持预测性能的同时提高集成的可解释性，提出了量化集成可解释性的理论框架和实用的可解释集成构建方法。
+  [ICML 2025][可解释性][ensemble learning] 系统研究集成学习方法的可解释性问题——什么因素使集成模型难以解释，以及如何在保持预测性能的同时提高集成的可解释性，提出了量化集成可解释性的理论框架和实用的可解释集成构建方法。
 tags:
-  - ICML 2025
-  - ensemble learning
-  - interpretability
-  - model complexity
-  - feature importance
-  - transparency
+  - "ICML 2025"
+  - "可解释性"
+  - "ensemble learning"
+  - "interpretability"
+  - "model complexity"
+  - "feature importance"
+  - "transparency"
 ---
 
 # What Makes an Ensemble (Un)interpretable?
@@ -58,14 +59,14 @@ tags:
 | Random Forest (100棵) | 低 (0.3) | 高 |
 | Bagging (10棵) | 中 (0.5) | 高 |
 | AdaBoost (50轮) | 中-高 (0.6) | 高 |
-| **可解释RF (本文)** | **高 (0.8)** | 高（降<1%） |
+| **可解释RF (本文)** | **高 (0.8)** | 高（降&lt;1%） |
 
 ### 消融
 
 | 因素 | 对可解释性的影响 |
 |------|----------------|
 | 基模型数从10→100 | 可解释性降40% |
-| 特征对齐正则 | 可解释性提升30%，准确率降<2% |
+| 特征对齐正则 | 可解释性提升30%，准确率降&lt;2% |
 | 冗余剪枝 | 可解释性提升25%，去掉40%基模型 |
 
 ### 关键发现

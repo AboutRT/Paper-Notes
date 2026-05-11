@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Harmonizing Visual Representations for Unified Multimodal Understanding and Generation
 description: >-
-  [ICCV 2025][多模态][MAR编码器] 发现掩码自回归（MAR）模型的编码器天然兼具生成所需的细粒度图像特征和理解所需的高层语义表示，据此提出Harmon——以共享MAR编码器统一图像生成与理解的自回归框架，通过三阶段渐进训练在GenEval上以0.76 Overall超越所有统一模型，同时理解能力匹配使用独立SigLIP编码器的Janus系列。
+  [ICCV 2025][多模态VLM][MAR编码器] 发现掩码自回归（MAR）模型的编码器天然兼具生成所需的细粒度图像特征和理解所需的高层语义表示，据此提出Harmon——以共享MAR编码器统一图像生成与理解的自回归框架，通过三阶段渐进训练在GenEval上以0.76 Overall超越所有统一模型…
 tags:
-  - ICCV 2025
-  - 多模态
-  - MAR编码器
-  - 统一视觉表示
-  - 掩码自回归
-  - 多模态VLM
-  - 三阶段训练
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "MAR编码器"
+  - "统一视觉表示"
+  - "掩码自回归"
+  - "图像生成与理解"
+  - "三阶段训练"
 ---
 
 # Harmonizing Visual Representations for Unified Multimodal Understanding and Generation

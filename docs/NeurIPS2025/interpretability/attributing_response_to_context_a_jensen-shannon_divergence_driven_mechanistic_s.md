@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ARC-JSD: Attributing Response to Context via Jensen-Shannon Divergence Driven Mechanistic Study
 description: >-
-  [NeurIPS 2025][上下文归因] ARC-JSD 提出基于 Jensen-Shannon 散度的 RAG 上下文归因方法——通过比较有/无特定上下文句子时模型输出分布的 JSD 差异，无需微调/梯度计算即可定位回答所依赖的上下文，计算效率比 baseline 快 3 倍，Top-1 归因准确率平均提升 10.7%，并通过 Logit Lens 揭示归因相关的注意力头集中在高层。
+  [NeurIPS 2025][可解释性][上下文归因] ARC-JSD 提出基于 Jensen-Shannon 散度的 RAG 上下文归因方法——通过比较有/无特定上下文句子时模型输出分布的 JSD 差异，无需微调/梯度计算即可定位回答所依赖的上下文，计算效率比 baseline 快 3 倍…
 tags:
-  - NeurIPS 2025
-  - 上下文归因
-  - Jensen-Shannon散度
-  - 机制可解释性
-  - 可解释性
-  - Logit Lens
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "上下文归因"
+  - "Jensen-Shannon散度"
+  - "机制可解释性"
+  - "RAG幻觉"
+  - "Logit Lens"
 ---
 
 # ARC-JSD: Attributing Response to Context via Jensen-Shannon Divergence Driven Mechanistic Study
@@ -92,7 +93,7 @@ ARC-JSD 提出基于 Jensen-Shannon 散度的 RAG 上下文归因方法——通
 |------|------|
 | 消融 Top-10 JSD 注意力头 | 准确率显著下降（平均 JSD 变化 2.23±0.12） |
 | 消融随机 10 个头 | 变化小（1.53±0.76） |
-| JSD vs 语义增益 Spearman 相关 | 0.67-0.79（p<0.01），验证两种指标一致 |
+| JSD vs 语义增益 Spearman 相关 | 0.67-0.79（p&lt;0.01），验证两种指标一致 |
 | 扩展到 LLaMA-3.1-8B / Qwen3-80B | 保持优势 |
 
 ### 关键发现

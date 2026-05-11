@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Refine Now, Query Fast: A Decoupled Refinement Paradigm for Implicit Neural Fields
 description: >-
-  [ICLR 2026][其他][Implicit Neural Representation] 本文提出解耦表示精炼（DRR）范式，通过深度 refiner 网络在离线阶段精炼 embedding 结构并缓存结果，使推理阶段仅需快速插值和轻量解码器，在集成仿真代理建模任务上以不到 1/27 的推理成本达到 SOTA 重建精度。
+  [ICLR 2026][Implicit Neural Representation] 本文提出解耦表示精炼（DRR）范式，通过深度 refiner 网络在离线阶段精炼 embedding 结构并缓存结果，使推理阶段仅需快速插值和轻量解码器…
 tags:
-  - ICLR 2026
-  - 其他
-  - Implicit Neural Representation
-  - Decoupled Refinement
-  - Ensemble Surrogate
-  - Variational Pairs
-  - Feature Grid
+  - "ICLR 2026"
+  - "Implicit Neural Representation"
+  - "Decoupled Refinement"
+  - "Ensemble Surrogate"
+  - "Variational Pairs"
+  - "Feature Grid"
 ---
 
 # Refine Now, Query Fast: A Decoupled Refinement Paradigm for Implicit Neural Fields

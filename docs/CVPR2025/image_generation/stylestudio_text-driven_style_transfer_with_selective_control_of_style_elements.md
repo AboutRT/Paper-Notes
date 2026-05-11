@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][文本驱动风格迁移] StyleStudio提出跨模态AdaIN、基于风格的无分类器引导(SCFG)和教师模型三个互补策略，解决文本驱动风格迁移中的风格过拟合、文本对齐不准和布局不稳定问题，实现了对风格元素的选择性控制。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 文本驱动风格迁移
-  - AdaIN
-  - 分类器引导
-  - 布局稳定
-  - 风格过拟合
+  - "CVPR 2025"
+  - "图像生成"
+  - "文本驱动风格迁移"
+  - "AdaIN"
+  - "分类器引导"
+  - "布局稳定"
+  - "风格过拟合"
 ---
 
 # StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements

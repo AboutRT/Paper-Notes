@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][最小描述长度] 从柯尔莫哥洛夫复杂度理论出发，提出了"渐近最优描述长度目标"的理论框架，证明了 Transformer 存在这样的目标函数（基于其计算通用性的新证明），并通过构造基于自适应高斯混合先验的可微变分目标进行了实证验证，揭示了重要的优化挑战。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 最小描述长度
-  - 柯尔莫哥洛夫复杂度
-  - Transformer
-  - 计算通用性
-  - 变分目标
+  - "ICLR 2026"
+  - "模型压缩"
+  - "最小描述长度"
+  - "柯尔莫哥洛夫复杂度"
+  - "Transformer"
+  - "计算通用性"
+  - "变分目标"
 ---
 
 # Bridging Kolmogorov Complexity and Deep Learning: Asymptotically Optimal Description Length Objectives for Transformers

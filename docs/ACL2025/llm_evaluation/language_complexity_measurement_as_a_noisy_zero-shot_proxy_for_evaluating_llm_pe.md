@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Language Complexity Measurement as a Noisy Zero-Shot Proxy for Evaluating LLM Performance
 description: >-
-  [ACL 2025][语言复杂度] 利用语言复杂度计算任务（LIX 可读性指标和平均依存距离 ADD）作为 LLM 通用能力的零样本代理评估方法，在瑞典语论文上测试 6 个模型，发现 LIX 误差与 MMLU 分数呈强负相关（$r=-0.875$, $p=0.026$），表明结构分析能力可作为模型通用能力的廉价近似指标。
+  [ACL 2025][LLM评测][语言复杂度] 利用语言复杂度计算任务（LIX 可读性指标和平均依存距离 ADD）作为 LLM 通用能力的零样本代理评估方法，在瑞典语论文上测试 6 个模型，发现 LIX 误差与 MMLU 分数呈强负相关（$r=-0.875$, $p=0.026$）…
 tags:
-  - ACL 2025
-  - 语言复杂度
-  - LIX可读性
-  - 依存距离
-  - LLM评测
-  - 零样本评估
+  - "ACL 2025"
+  - "LLM评测"
+  - "语言复杂度"
+  - "LIX可读性"
+  - "依存距离"
+  - "MMLU代理"
+  - "零样本评估"
 ---
 
 # Language Complexity Measurement as a Noisy Zero-Shot Proxy for Evaluating LLM Performance

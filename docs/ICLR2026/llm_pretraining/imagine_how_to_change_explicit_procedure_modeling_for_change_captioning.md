@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Imagine How To Change: Explicit Procedure Modeling for Change Captioning
 description: >-
-  [ICLR 2026][变化描述] 提出 ProCap 框架，将变化描述从静态图像对比较重新定义为动态过程建模：第一阶段通过帧插值和掩码重建训练过程编码器学习时空变化动力学，第二阶段用可学习过程查询隐式推断变化过程，在三个数据集上超越 SOTA。
+  [ICLR 2026][预训练][变化描述] 提出 ProCap 框架，将变化描述从静态图像对比较重新定义为动态过程建模：第一阶段通过帧插值和掩码重建训练过程编码器学习时空变化动力学，第二阶段用可学习过程查询隐式推断变化过程，在三个数据集上超越 SOTA。
 tags:
-  - ICLR 2026
-  - 变化描述
-  - 过程建模
-  - 帧插值
-  - 掩码重建
-  - 可学习查询
-  - LLM预训练
+  - "ICLR 2026"
+  - "预训练"
+  - "变化描述"
+  - "过程建模"
+  - "帧插值"
+  - "掩码重建"
+  - "可学习查询"
+  - "视觉语言"
 ---
 
 # Imagine How To Change: Explicit Procedure Modeling for Change Captioning

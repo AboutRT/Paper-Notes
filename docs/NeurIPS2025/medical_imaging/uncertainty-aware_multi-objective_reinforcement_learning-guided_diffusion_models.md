@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Uncertainty-Aware Multi-Objective Reinforcement Learning-Guided Diffusion Models for 3D De Novo Molecular Design
 description: >-
-  [NeurIPS 2025][医学图像][扩散模型] 提出不确定性感知的多目标强化学习框架，引导 3D 分子扩散模型（EDM）同时优化药物相关性（QED）、合成可及性（SAS）和结合亲和力（binding affinity），通过代理模型的预测不确定性动态塑造奖励函数，在三个基准数据集上一致超越基线，并通过分子动力学模拟和 ADMET 验证候选分子的药物潜力。
+  [NeurIPS 2025][医学图像][扩散模型] 提出不确定性感知的多目标强化学习框架，引导 3D 分子扩散模型（EDM）同时优化药物相关性（QED）、合成可及性（SAS）和结合亲和力（binding affinity），通过代理模型的预测不确定性动态塑造奖励函数，在三个基准数据集上一致超越基线…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 扩散模型
-  - 强化学习
-  - 多目标优化
-  - 不确定性量化
-  - 3D 分子生成
-  - 药物发现
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "扩散模型"
+  - "强化学习"
+  - "多目标优化"
+  - "不确定性量化"
+  - "3D 分子生成"
+  - "药物发现"
 ---
 
 # Uncertainty-Aware Multi-Objective Reinforcement Learning-Guided Diffusion Models for 3D De Novo Molecular Design
@@ -136,7 +136,7 @@ $$\mathcal{L}_{\text{PPO}} = -\mathbb{E}_{m \sim p_\theta}\left[\min\left(r(m) \
 - **代理模型依赖**: 奖励质量取决于代理模型的预测精度和不确定性校准，binding affinity 的 R² 仅 0.86-0.88
 - **属性独立性假设**: 多目标奖励假设各属性条件独立，但药物属性间往往存在相关性（如 QED 与 SAS 负相关）
 - **计算开销**: RL 训练阶段需反复生成分子+评估属性+策略更新，训练成本较高
-- **评估阈值宽松**: Top 指标使用宽松阈值（QED>0.4, SAS<8），实际药物开发可能需要更严格的标准
+- **评估阈值宽松**: Top 指标使用宽松阈值（QED>0.4, SAS&lt;8），实际药物开发可能需要更严格的标准
 
 ## 相关工作
 - **3D 分子生成**: G-SchNet（自回归）→ E-NF（等变流）→ EDM（等变扩散）→ GeoLDM（潜空间扩散）→ GFMDiff（物理约束）；本文基于 EDM 并扩展到 GeoLDM/GFMDiff 验证通用性

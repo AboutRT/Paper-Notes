@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Distilling Cross-Modal Knowledge via Feature Disentanglement
 description: >-
-  [AAAI 2026][模型压缩][跨模态蒸馏] 提出频域解耦跨模态知识蒸馏（FD-CMKD），通过傅里叶变换将特征分解为低频（模态共享语义）和高频（模态特有细节）分量，分别施加强一致性 MSE 和弱一致性 logMSE 损失，并引入尺度标准化与共享分类器对齐特征空间，在音频-视觉、图像-文本、语义分割等多个跨模态场景全面超越现有蒸馏方法。
+  [AAAI 2026][模型压缩][跨模态蒸馏] 提出频域解耦跨模态知识蒸馏（FD-CMKD），通过傅里叶变换将特征分解为低频（模态共享语义）和高频（模态特有细节）分量，分别施加强一致性 MSE 和弱一致性 logMSE 损失，并引入尺度标准化与共享分类器对齐特征空间…
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - 跨模态蒸馏
-  - 频域特征解耦
-  - 知识迁移
-  - 尺度一致性
-  - 共享分类器对齐
+  - "AAAI 2026"
+  - "模型压缩"
+  - "跨模态蒸馏"
+  - "频域特征解耦"
+  - "知识迁移"
+  - "尺度一致性"
+  - "共享分类器对齐"
 ---
 
 # Distilling Cross-Modal Knowledge via Feature Disentanglement

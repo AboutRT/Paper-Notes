@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][第一人称视觉] 提出 EgoSpanLift 方法，将第一人称 2D 注视预测提升到 3D 空间，构建多层级体积视觉跨度表示，结合 3D U-Net 和单向 Transformer 实现对未来 3D 视觉关注区域的预测。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 第一人称视觉
-  - 注视预测
-  - 3D视觉跨度
-  - SLAM
-  - 体素预测
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "第一人称视觉"
+  - "注视预测"
+  - "3D视觉跨度"
+  - "SLAM"
+  - "体素预测"
 ---
 
 # Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span
@@ -96,7 +96,7 @@ $$V_{[t_b,t_e]}^{\theta,\mathbf{g}_t}(i,j,k) = \mathcal{I}(|\{p_i \in \cup_{t} Q
 
 ### 损失函数 / 训练策略
 
-由于视觉跨度仅占空间极小区域（中央凹 <1%），传统交叉熵难以学习有意义信号。采用 **Dice Loss**：
+由于视觉跨度仅占空间极小区域（中央凹 &lt;1%），传统交叉熵难以学习有意义信号。采用 **Dice Loss**：
 
 $$\mathcal{L} = 1 - \frac{2 \times \sum \tilde{Y}_{ijk} \odot Y_{ijk}}{\sum \tilde{Y}_{ijk} + \sum Y_{ijk} + 1}$$
 

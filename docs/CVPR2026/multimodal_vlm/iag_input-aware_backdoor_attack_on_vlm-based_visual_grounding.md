@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][多模态VLM][后门攻击] 提出IAG，首个针对VLM视觉定位的多目标后门攻击方法，通过文本条件U-Net动态生成输入感知触发器，将任意指定目标物体的语义信息嵌入视觉输入中，在12种设置下的11种达到最高攻击成功率。
 tags:
-  - CVPR 2026
-  - 多模态VLM
-  - 后门攻击
-  - 视觉定位
-  - 多目标攻击
-  - 输入感知触发器
-  - VLM安全
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "后门攻击"
+  - "视觉定位"
+  - "多目标攻击"
+  - "输入感知触发器"
+  - "VLM安全"
 ---
 
 # IAG: Input-aware Backdoor Attack on VLM-based Visual Grounding

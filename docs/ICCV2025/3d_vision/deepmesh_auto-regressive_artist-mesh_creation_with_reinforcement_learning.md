@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][3D网格生成] 提出 DeepMesh 框架，通过改进的高效mesh tokenization算法（72%压缩率）和首次将DPO强化学习引入3D网格生成来实现人类偏好对齐，能够生成最高3万面的高质量Artist-like三角网格。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 3D网格生成
-  - 自回归模型
-  - 强化学习
-  - DPO
-  - 网格tokenization
-  - 点云条件生成
+  - "ICCV 2025"
+  - "3D视觉"
+  - "3D网格生成"
+  - "自回归模型"
+  - "强化学习"
+  - "DPO"
+  - "网格tokenization"
+  - "点云条件生成"
 ---
 
 # DeepMesh: Auto-Regressive Artist-Mesh Creation with Reinforcement Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][视频理解][RAG幻觉检测] 提出 Lumina 框架，通过"上下文-知识信号"检测RAG系统中的幻觉：用MMD度量**外部上下文利用**程度，用跨层token预测演化度量**内部知识利用**程度，无需超参调优即可泛化。
 tags:
-  - ICLR 2026
-  - 视频理解
-  - RAG幻觉检测
-  - 外部上下文利用
-  - 内部知识利用
-  - 最大均值差异
-  - 信息处理率
+  - "ICLR 2026"
+  - "视频理解"
+  - "RAG幻觉检测"
+  - "外部上下文利用"
+  - "内部知识利用"
+  - "最大均值差异"
+  - "信息处理率"
 ---
 
 # LUMINA: Detecting Hallucinations in RAG System with Context-Knowledge Signals

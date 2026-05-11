@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UniABG: Unified Adversarial View Bridging and Graph Correspondence for Unsupervised Cross-View Geo-Localization
 description: >-
-  [AAAI 2026][遥感][cross-view geo-localization] 提出双阶段无监督跨视角地理定位框架 UniABG，通过对抗式视角桥接 (VAAB) 消除无人机/卫星视角域差距，再用异构图过滤校准 (HGFC) 净化跨视角关联，在 University-1652 上 Satellite→Drone AP 达 93.29%，超过多数有监督方法。
+  [AAAI 2026][遥感][cross-view geo-localization] 提出双阶段无监督跨视角地理定位框架 UniABG，通过对抗式视角桥接 (VAAB) 消除无人机/卫星视角域差距，再用异构图过滤校准 (HGFC) 净化跨视角关联…
 tags:
-  - AAAI 2026
-  - 遥感
-  - cross-view geo-localization
-  - unsupervised
-  - adversarial learning
-  - graph filtering
-  - 伪标签
+  - "AAAI 2026"
+  - "遥感"
+  - "cross-view geo-localization"
+  - "unsupervised"
+  - "adversarial learning"
+  - "graph filtering"
+  - "伪标签"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Finer-CAM: Spotting the Difference Reveals Finer Details for Visual Explanation
 description: >-
-  [CVPR 2025][多模态][可解释性] 将 CAM 的解释目标从单类 logit $y^c$ 改为类间差值 $y^c - \gamma \cdot y^d$（目标类与相似类的 logit 差），零额外参数地将任何 CAM 方法升级为细粒度版本，使激活图从"整体轮廓"细化到"区分性局部细节"。
+  [CVPR 2025][多模态VLM][可解释性] 将 CAM 的解释目标从单类 logit $y^c$ 改为类间差值 $y^c - \gamma \cdot y^d$（目标类与相似类的 logit 差），零额外参数地将任何 CAM 方法升级为细粒度版本，使激活图从"整体轮廓"细化到"区分性局部细节"。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - CAM改进
-  - 细粒度识别
-  - 类别对比
-  - 视觉解释
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "可解释性"
+  - "CAM改进"
+  - "细粒度识别"
+  - "类别对比"
+  - "视觉解释"
 ---
 
 # Finer-CAM: Spotting the Difference Reveals Finer Details for Visual Explanation

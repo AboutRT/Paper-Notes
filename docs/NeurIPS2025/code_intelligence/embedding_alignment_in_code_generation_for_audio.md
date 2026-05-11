@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Embedding Alignment in Code Generation for Audio
 description: >-
-  [NeurIPS 2025][代码智能] 提出双 MLP + InfoNCE 对比学习框架，将代码嵌入（distilroberta-base）和音频嵌入（wav2vec2）对齐到共享空间，使 LLM 代码生成流程无需编译执行即可从代码推断音乐相似性，CKA 从 0.090 提升至 0.590。
+  [NeurIPS 2025][代码智能][code generation] 提出双 MLP + InfoNCE 对比学习框架，将代码嵌入（distilroberta-base）和音频嵌入（wav2vec2）对齐到共享空间，使 LLM 代码生成流程无需编译执行即可从代码推断音乐相似性…
 tags:
-  - NeurIPS 2025
-  - 代码智能
-  - audio embedding
-  - 对比学习
-  - 跨模态
-  - live-coding
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "code generation"
+  - "audio embedding"
+  - "对比学习"
+  - "跨模态"
+  - "live-coding"
 ---
 
 # Embedding Alignment in Code Generation for Audio

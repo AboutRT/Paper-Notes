@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ConsistCompose: Unified Multimodal Layout Control for Image Composition
 description: >-
-  [CVPR 2026][图像生成][布局控制生成] 提出 ConsistCompose，通过将布局坐标直接嵌入语言prompt（LELG范式），在统一多模态框架中实现布局可控的多实例图像生成；构建340万样本的ConsistCompose3M数据集提供布局+身份监督；配合坐标感知CFG机制，在COCO-Position上实现布局IoU 7.2%提升和AP 13.7%提升，同时保持通用理解能力。
+  [CVPR 2026][图像生成][布局控制生成] 提出 ConsistCompose，通过将布局坐标直接嵌入语言prompt（LELG范式），在统一多模态框架中实现布局可控的多实例图像生成；构建340万样本的ConsistCompose3M数据集提供布局+身份监督；配合坐标感知CFG机制…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 布局控制生成
-  - 多实例图像合成
-  - LELG
-  - 提示学习
-  - 身份保持
+  - "CVPR 2026"
+  - "图像生成"
+  - "布局控制生成"
+  - "多实例图像合成"
+  - "LELG"
+  - "提示学习"
+  - "身份保持"
 ---
 
 # ConsistCompose: Unified Multimodal Layout Control for Image Composition

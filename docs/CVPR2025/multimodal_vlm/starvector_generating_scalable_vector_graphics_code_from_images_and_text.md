@@ -2,15 +2,15 @@
 title: >-
   [论文解读] StarVector: Generating Scalable Vector Graphics Code from Images and Text
 description: >-
-  [CVPR 2025][多模态][SVG生成] 提出 StarVector，一个基于多模态大语言模型的 SVG 生成框架，将图像矢量化重新定义为逆渲染+代码生成任务，通过视觉语义理解直接生成包含丰富SVG基元（圆形、多边形、文本等）的紧凑SVG代码，在10个数据集3个任务上建立了新的SOTA。
+  [CVPR 2025][多模态VLM][SVG生成] 提出 StarVector，一个基于多模态大语言模型的 SVG 生成框架，将图像矢量化重新定义为逆渲染+代码生成任务，通过视觉语义理解直接生成包含丰富SVG基元（圆形、多边形、文本等）的紧凑SVG代码，在10个数据集3个任务上建立了新的SOTA。
 tags:
-  - CVPR 2025
-  - 多模态
-  - SVG生成
-  - 多模态VLM
-  - 多模态大语言模型
-  - 代码生成
-  - 矢量图形
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "SVG生成"
+  - "图像矢量化"
+  - "多模态大语言模型"
+  - "代码生成"
+  - "矢量图形"
 ---
 
 # StarVector: Generating Scalable Vector Graphics Code from Images and Text

@@ -2,9 +2,9 @@
 title: >-
   [论文解读] RapVerse: Coherent Vocals and Whole-Body Motion Generation from Text
 description: >-
-  [人体理解] 构建大规模说唱数据集 RapVerse 并提出统一自回归变换器框架，首次实现从歌词文本同时生成连贯的歌声和全身3D运动。
+  [3D视觉] 构建大规模说唱数据集 RapVerse 并提出统一自回归变换器框架，首次实现从歌词文本同时生成连贯的歌声和全身3D运动。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # RapVerse: Coherent Vocals and Whole-Body Motion Generation from Text

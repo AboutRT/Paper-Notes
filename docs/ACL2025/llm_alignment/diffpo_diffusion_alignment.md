@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][扩散模型] 提出 DiffPO，将 LLM 对齐重新建模为句子级扩散去噪过程，通过 parallel decoding 实现高效推理时对齐，作为即插即用模块可增强任意底座模型的对齐质量。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 扩散模型
-  - 推理时对齐
-  - parallel decoding
-  - 模型无关
-  - 偏好优化
+  - "ACL 2025"
+  - "LLM对齐"
+  - "扩散模型"
+  - "推理时对齐"
+  - "parallel decoding"
+  - "模型无关"
+  - "偏好优化"
 ---
 
 # DiffPO: Diffusion Alignment with Direct Preference Optimization

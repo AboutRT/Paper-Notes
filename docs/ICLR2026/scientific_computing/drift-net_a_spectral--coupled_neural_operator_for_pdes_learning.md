@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][科学计算][神经算子] 提出 DRIFT-Net 双分支神经算子，通过受控低频混合（谱分支）和局部细节保真（图像分支）的带宽融合（radial gating），解决窗口注意力中全局谱耦合不足导致的自回归漂移问题，在 Navier-Stokes 基准上误差降低 7%-54%。
 tags:
-  - ICLR2026
-  - 科学计算
-  - 神经算子
-  - 偏微分方程
-  - spectral coupling
-  - dual-branch
-  - Navier-Stokes
+  - "ICLR2026"
+  - "科学计算"
+  - "神经算子"
+  - "偏微分方程"
+  - "spectral coupling"
+  - "dual-branch"
+  - "Navier-Stokes"
 ---
 
 # DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning

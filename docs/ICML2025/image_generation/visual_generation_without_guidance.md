@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Visual Generation Without Guidance
 description: >-
-  [ICML 2025][图像生成][Classifier-Free Guidance] 提出 Guidance-Free Training (GFT)，通过重新参数化条件模型为采样网络与无条件网络的线性插值，直接从数据训练出无需引导的视觉生成模型，在 DiT/VAR/LlamaGen/MAR/LDM 五种模型上匹配 CFG 性能的同时将采样计算量减半。
+  [ICML 2025][图像生成][Classifier-Free Guidance] 提出 Guidance-Free Training (GFT)，通过重新参数化条件模型为采样网络与无条件网络的线性插值，直接从数据训练出无需引导的视觉生成模型…
 tags:
-  - ICML 2025
-  - 图像生成
-  - Classifier-Free Guidance
-  - 无引导生成
-  - 采样效率
-  - 伪温度参数化
-  - 蒸馏替代
+  - "ICML 2025"
+  - "图像生成"
+  - "Classifier-Free Guidance"
+  - "无引导生成"
+  - "采样效率"
+  - "伪温度参数化"
+  - "蒸馏替代"
 ---
 
 # Visual Generation Without Guidance

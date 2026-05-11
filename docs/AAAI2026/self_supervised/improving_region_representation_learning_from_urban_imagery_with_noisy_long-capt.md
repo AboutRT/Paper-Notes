@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI2026][自监督学习][urban computing] 提出 UrbanLN 框架，通过长文本感知的位置编码插值策略和数据-模型双层噪声抑制机制，改善基于 LLM 生成描述的城市区域表征学习。
 tags:
-  - AAAI2026
-  - 自监督学习
-  - urban computing
-  - region representation
-  - 跨模态
-  - CLIP
-  - noise suppression
-  - self-distillation
+  - "AAAI2026"
+  - "自监督学习"
+  - "urban computing"
+  - "region representation"
+  - "跨模态"
+  - "CLIP"
+  - "noise suppression"
+  - "self-distillation"
 ---
 
 # Improving Region Representation Learning from Urban Imagery with Noisy Long-Caption Supervision

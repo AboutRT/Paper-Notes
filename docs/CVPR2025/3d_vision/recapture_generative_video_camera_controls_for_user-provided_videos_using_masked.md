@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ReCapture: Generative Video Camera Controls for User-Provided Videos Using Masked Video Fine-Tuning
 description: >-
-  [CVPR 2025][3D视觉][视频相机控制] ReCapture 通过两阶段方法——先用深度点云渲染或多视角扩散模型生成带新相机轨迹的粗糙锚定视频，再用 masked video fine-tuning（时空 LoRA）修复补全——实现了对用户已有视频的相机轨迹控制，能保持原始场景运动同时从全新角度观看视频。
+  [CVPR 2025][3D视觉][视频相机控制] ReCapture 通过两阶段方法——先用深度点云渲染或多视角扩散模型生成带新相机轨迹的粗糙锚定视频，再用 masked video fine-tuning（时空 LoRA）修复补全——实现了对用户已有视频的相机轨迹控制…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 视频相机控制
-  - 新视角合成
-  - 扩散模型微调
-  - LoRA
-  - 点云渲染
+  - "CVPR 2025"
+  - "3D视觉"
+  - "视频相机控制"
+  - "新视角合成"
+  - "扩散模型微调"
+  - "LoRA"
+  - "点云渲染"
 ---
 
 # ReCapture: Generative Video Camera Controls for User-Provided Videos Using Masked Video Fine-Tuning

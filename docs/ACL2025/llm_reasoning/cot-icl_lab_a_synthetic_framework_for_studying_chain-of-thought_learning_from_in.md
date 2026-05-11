@@ -2,16 +2,16 @@
 title: >-
   [论文解读] CoT-ICL Lab: A Synthetic Framework for Studying Chain-of-Thought Learning from In-Context Demonstrations
 description: >-
-  [ACL 2025][LLM推理][思维链] 提出 CoT-ICL Lab 框架，通过解耦因果结构（DAG）和 token 处理函数（MLP）生成可控的合成 token 化数据集，系统研究了 CoT 对 ICL 的加速效应、模型深度的关键作用、以及 Transformer 嵌入与注意力图对底层推理结构的学习机制。
+  [ACL 2025][LLM推理][思维链] 提出 CoT-ICL Lab 框架，通过解耦因果结构（DAG）和 token 处理函数（MLP）生成可控的合成 token 化数据集…
 tags:
-  - ACL 2025
-  - LLM推理
-  - 思维链
-  - 上下文学习
-  - 合成数据集
-  - DAG因果结构
-  - Transformer
-  - 注意力图分析
+  - "ACL 2025"
+  - "LLM推理"
+  - "思维链"
+  - "上下文学习"
+  - "合成数据集"
+  - "DAG因果结构"
+  - "Transformer"
+  - "注意力图分析"
 ---
 
 # CoT-ICL Lab: A Synthetic Framework for Studying Chain-of-Thought Learning from In-Context Demonstrations

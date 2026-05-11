@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][目标检测][旋转目标检测] 提出 SPWOOD 框架统一处理稀疏标注和弱标注（HBox/Point）的旋转目标检测问题，通过自适应旋转目标检测器(SAOD)和空间布局学习策略，在 DOTA 基准上以混合标注（RBox:HBox:Point=1:1:1）达到接近全监督的性能。
 tags:
-  - ICLR 2026
-  - 目标检测
-  - 旋转目标检测
-  - 弱监督
-  - 稀疏标注
-  - 半监督
-  - 遥感
+  - "ICLR 2026"
+  - "目标检测"
+  - "旋转目标检测"
+  - "弱监督"
+  - "稀疏标注"
+  - "半监督"
+  - "遥感"
 ---
 
 # SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection

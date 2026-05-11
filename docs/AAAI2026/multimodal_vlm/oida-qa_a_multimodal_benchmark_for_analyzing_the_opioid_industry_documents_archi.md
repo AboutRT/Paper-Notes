@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OIDA-QA: A Multimodal Benchmark for Analyzing the Opioid Industry Documents Archive
 description: >-
-  [AAAI 2026][多模态][文档问答] 本文基于UCSF-JHU阿片类药物行业文档档案（OIDA），构建了包含400K训练文档和370K多跳QA对的多模态文档问答基准OIDA-QA，并开发了结合内容重述和页面查找器的领域特化LLM系统，有效处理超长文档的多轮问答和答案页面定位。
+  [AAAI 2026][多模态VLM][文档问答] 本文基于UCSF-JHU阿片类药物行业文档档案（OIDA），构建了包含400K训练文档和370K多跳QA对的多模态文档问答基准OIDA-QA，并开发了结合内容重述和页面查找器的领域特化LLM系统，有效处理超长文档的多轮问答和答案页面定位。
 tags:
-  - AAAI 2026
-  - 多模态
-  - 多模态VLM
-  - 多模态基准
-  - 长上下文
-  - 页面定位
-  - 阿片类药物危机
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "文档问答"
+  - "多模态基准"
+  - "长上下文"
+  - "页面定位"
+  - "阿片类药物危机"
 ---
 
 # OIDA-QA: A Multimodal Benchmark for Analyzing the Opioid Industry Documents Archive

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Verification-Guided Context Optimization for Tool Calling via Hierarchical LLMs-as-editors
 description: >-
-  [AAAI 2026][其他] 提出VGCO框架，利用LLM作为分层编辑器，通过验证引导的方式迭代优化工具文档和知识库上下文，显著提升大规模工具调用场景下的检索召回、工具选择和参数填充准确率。
+  [AAAI 2026][工具调用] 提出VGCO框架，利用LLM作为分层编辑器，通过验证引导的方式迭代优化工具文档和知识库上下文，显著提升大规模工具调用场景下的检索召回、工具选择和参数填充准确率。
 tags:
-  - AAAI 2026
-  - 其他
-  - 上下文优化
-  - LLM编辑器
-  - 知识库检索
-  - 文档优化
+  - "AAAI 2026"
+  - "工具调用"
+  - "上下文优化"
+  - "LLM编辑器"
+  - "知识库检索"
+  - "文档优化"
 ---
 
 # Verification-Guided Context Optimization for Tool Calling via Hierarchical LLMs-as-editors

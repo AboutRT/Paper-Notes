@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DropGaussian: Structural Regularization for Sparse-view Gaussian Splatting
 description: >-
-  [CVPR 2025][3D视觉][稀疏视角新视角合成] DropGaussian 提出了一种无需额外先验的简单正则化方法，通过在 3DGS 训练中随机丢弃高斯并引入不透明度补偿因子，使被遮挡的远距离高斯获得更大梯度和可见性，并采用渐进式丢弃率策略有效缓解稀疏视角下的过拟合问题，在不增加计算复杂度的情况下达到与先验方法可比的性能。
+  [CVPR 2025][3D视觉][稀疏视角新视角合成] DropGaussian 提出了一种无需额外先验的简单正则化方法，通过在 3DGS 训练中随机丢弃高斯并引入不透明度补偿因子，使被遮挡的远距离高斯获得更大梯度和可见性，并采用渐进式丢弃率策略有效缓解稀疏视角下的过拟合问题…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 稀疏视角新视角合成
-  - 3D高斯泼溅
-  - 过拟合正则化
-  - Dropout
-  - 无先验方法
+  - "CVPR 2025"
+  - "3D视觉"
+  - "稀疏视角新视角合成"
+  - "3D高斯泼溅"
+  - "过拟合正则化"
+  - "Dropout"
+  - "无先验方法"
 ---
 
 # DropGaussian: Structural Regularization for Sparse-view Gaussian Splatting

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Weakly Supervised 3D Object Detection via Multi-Level Visual Guidance
 description: >-
-  [ECCV 2024][3D视觉][弱监督3D检测] 提出 VG-W3D 框架，仅使用 2D 标注（无需任何 3D 标签），通过特征级、输出级和训练级三层视觉引导来训练 3D 目标检测器，在 KITTI 上取得了与使用 500 帧 3D 标注方法相当的性能。
+  [ECCV 2024][目标检测][弱监督3D检测] 提出 VG-W3D 框架，仅使用 2D 标注（无需任何 3D 标签），通过特征级、输出级和训练级三层视觉引导来训练 3D 目标检测器，在 KITTI 上取得了与使用 500 帧 3D 标注方法相当的性能。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 弱监督3D检测
-  - 视觉引导
-  - 伪标签
-  - 2D-3D约束
-  - 特征对齐
+  - "ECCV 2024"
+  - "目标检测"
+  - "弱监督3D检测"
+  - "视觉引导"
+  - "伪标签"
+  - "2D-3D约束"
+  - "特征对齐"
 ---
 
 # Weakly Supervised 3D Object Detection via Multi-Level Visual Guidance

@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Towards a Foundation Model for Partial Differential Equations Across Physics Domains
 description: >-
-  [AAAI 2026][科学计算][偏微分方程] 提出 PDE-FM，结合空间-频谱 tokenization、FiLM 物理调制和 Mamba backbone 的跨物理域 PDE foundation model，在 The Well 基准的 12 个数据集上平均降低 VRMSE 46%。
+  [AAAI 2026][科学计算][偏微分方程] 提出 PDE-FM，一个结合空间-频谱 tokenization、物理感知 FiLM 调制和 Mamba 状态空间 backbone 的模块化 PDE foundation model…
 tags:
-  - AAAI 2026
-  - 科学计算
-  - 偏微分方程
-  - foundation model
-  - 神经算子
-  - Mamba
-  - FNO
-  - multi-physics
-  - The Well benchmark
+  - "AAAI 2026"
+  - "科学计算"
+  - "偏微分方程"
+  - "foundation model"
+  - "神经算子"
+  - "Mamba"
+  - "FNO"
+  - "multi-physics"
+  - "The Well benchmark"
 ---
 
 # Towards a Foundation Model for Partial Differential Equations Across Physics Domains

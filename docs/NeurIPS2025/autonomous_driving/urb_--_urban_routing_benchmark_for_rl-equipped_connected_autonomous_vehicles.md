@@ -2,14 +2,14 @@
 title: >-
   [论文解读] URB -- Urban Routing Benchmark for RL-Equipped Connected Autonomous Vehicles
 description: >-
-  [NeurIPS 2025][自动驾驶][城市路由基准] 本文提出 URB——首个面向城市混合交通（人类+CAV）路由问题的大规模 MARL 基准环境，整合 29 个真实交通网络、微观交通仿真器 SUMO 和真实出行需求模式，实验发现当前 SOTA MARL 算法很难超越人类驾驶员的路由表现，揭示了该领域亟需算法突破。
+  [NeurIPS 2025][自动驾驶][城市路由基准] 本文提出 URB——首个面向城市混合交通（人类+CAV）路由问题的大规模 MARL 基准环境，整合 29 个真实交通网络、微观交通仿真器 SUMO 和真实出行需求模式，实验发现当前 SOTA MARL 算法很难超越人类驾驶员的路由表现…
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - 城市路由基准
-  - 多智能体强化学习
-  - 交通仿真
-  - 博弈论
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "城市路由基准"
+  - "多智能体强化学习"
+  - "交通仿真"
+  - "博弈论"
 ---
 
 # URB -- Urban Routing Benchmark for RL-Equipped Connected Autonomous Vehicles

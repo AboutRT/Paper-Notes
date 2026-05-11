@@ -2,15 +2,15 @@
 title: >-
   [论文解读] See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models
 description: >-
-  [CVPR 2026][多模态][多模态基准] 提出 AV-SpeakerBench 基准，包含 3,212 道以说话人为中心的音视频推理多选题，系统评估多模态大语言模型在"谁在说话、说了什么、何时说的"上的细粒度音视频融合能力，揭示当前最强模型与人类表现仍有超 20% 的差距。
+  [CVPR 2026][多模态VLM][多模态基准] 提出 AV-SpeakerBench 基准，包含 3,212 道以说话人为中心的音视频推理多选题，系统评估多模态大语言模型在"谁在说话、说了什么、何时说的"上的细粒度音视频融合能力，揭示当前最强模型与人类表现仍有超 20% 的差距。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态基准
-  - 多模态VLM
-  - 音视频融合
-  - 大语言模型评估
-  - 视听理解
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态基准"
+  - "说话人中心推理"
+  - "音视频融合"
+  - "大语言模型评估"
+  - "视听理解"
 ---
 
 # See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models

@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] FlipSketch 首次实现从单张静态草图 + 文本描述自动生成无约束栅格草图动画，通过在 T2V 扩散模型上微调 LoRA、DDIM 反演参考帧机制和双注意力组合三大创新，在保持草图身份的同时生成流畅、动态的动画序列。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # FlipSketch: Flipping Static Drawings to Text-Guided Sketch Animations

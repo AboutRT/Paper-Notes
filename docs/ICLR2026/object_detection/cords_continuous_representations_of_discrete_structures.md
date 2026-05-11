@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][目标检测][集合预测] 提出 CORDS 框架，通过将变大小离散集合（检测框、分子原子）双射映射为连续的密度场和特征场，使模型可在场空间中学习并精确解码回离散集合，避免了固定 slot 或 padding 的限制。
 tags:
-  - ICLR 2026
-  - 目标检测
-  - 集合预测
-  - 连续场表示
-  - 可逆映射
-  - 变基数推理
-  - 密度场
+  - "ICLR 2026"
+  - "目标检测"
+  - "集合预测"
+  - "连续场表示"
+  - "可逆映射"
+  - "变基数推理"
+  - "密度场"
 ---
 
 # CORDS: Continuous Representations of Discrete Structures

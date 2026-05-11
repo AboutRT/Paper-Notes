@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Inter-Passage Verification for Multi-evidence Multi-answer QA
 description: >-
-  [ACL 2025 Findings][其他] 本文提出 RI²VER 框架解决多答案问答（multi-answer QA）问题——先通过独立阅读大量检索段落生成高召回但含噪声的候选答案集，再通过段落间验证（生成验证问题 → 收集额外证据 → 跨段落综合验证）过滤错误答案，在 QAMPARI 和 RoMQA 上平均 F1 提升 11.17%。
+  [ACL 2025 Findings][多答案问答] 本文提出 RI²VER 框架解决多答案问答（multi-answer QA）问题——先通过独立阅读大量检索段落生成高召回但含噪声的候选答案集，再通过段落间验证（生成验证问题 → 收集额外证据 → 跨段落综合验证）过滤错误答案…
 tags:
-  - ACL 2025 Findings
-  - 其他
-  - 段落间验证
-  - 检索增强生成
-  - 证据综合
-  - 事实核查
+  - "ACL 2025 Findings"
+  - "多答案问答"
+  - "段落间验证"
+  - "检索增强生成"
+  - "证据综合"
+  - "事实核查"
 ---
 
 # Inter-Passage Verification for Multi-evidence Multi-answer QA

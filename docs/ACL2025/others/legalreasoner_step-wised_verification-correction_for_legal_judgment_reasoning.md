@@ -2,14 +2,14 @@
 title: >-
   [论文解读] LegalReasoner: Step-wised Verification-Correction for Legal Judgment Reasoning
 description: >-
-  [ACL 2025][法律判决预测] 本文提出LegalReasoner框架，通过争议焦点识别、分步推理、过程验证器逐步校验以及专家设计的归因纠正策略来增强法律判决预测的可靠性，配合新发布的58130条香港法院案例LegalHK数据集，在LLAMA-3.1-70B上将与法院判决的一致率从72.37%提升至80.27%。
+  [ACL 2025][法律判决预测] 本文提出LegalReasoner框架，通过争议焦点识别、分步推理、过程验证器逐步校验以及专家设计的归因纠正策略来增强法律判决预测的可靠性，配合新发布的58130条香港法院案例LegalHK数据集…
 tags:
-  - ACL 2025
-  - 法律判决预测
-  - 分步验证
-  - 其他
-  - 过程验证器
-  - 争议焦点
+  - "ACL 2025"
+  - "法律判决预测"
+  - "分步验证"
+  - "推理纠正"
+  - "过程验证器"
+  - "争议焦点"
 ---
 
 # LegalReasoner: Step-wised Verification-Correction for Legal Judgment Reasoning

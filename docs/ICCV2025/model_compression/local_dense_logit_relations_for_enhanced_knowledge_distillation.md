@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Local Dense Logit Relations for Enhanced Knowledge Distillation
 description: >-
-  [ICCV 2025][模型压缩][知识蒸馏] 本文提出局部稠密关系 logit 蒸馏（LDRLD），通过递归解耦和重组 logit 知识来捕获细粒度的类间关系，结合自适应衰减权重（ADW）策略对关键类别对赋予更高权重，在 CIFAR-100、ImageNet-1K 和 Tiny-ImageNet 上持续优于现有 logit 蒸馏 SOTA。
+  [ICCV 2025][模型压缩][知识蒸馏] 本文提出局部稠密关系 logit 蒸馏（LDRLD），通过递归解耦和重组 logit 知识来捕获细粒度的类间关系，结合自适应衰减权重（ADW）策略对关键类别对赋予更高权重…
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 知识蒸馏
-  - logit 蒸馏
-  - 类别对关系
-  - 自适应衰减权重
-  - 细粒度知识迁移
+  - "ICCV 2025"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "logit 蒸馏"
+  - "类别对关系"
+  - "自适应衰减权重"
+  - "细粒度知识迁移"
 ---
 
 # Local Dense Logit Relations for Enhanced Knowledge Distillation

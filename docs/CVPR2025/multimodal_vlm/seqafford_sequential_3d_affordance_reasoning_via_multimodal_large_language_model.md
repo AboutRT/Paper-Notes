@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model
 description: >-
-  [CVPR 2025][多模态][3D affordance] 提出 Sequential 3D Affordance Reasoning 任务，构建180K指令-点云对基准，通过在3D MLLM中引入 `<SEG>` token 和多粒度语言-点云融合模块，从复杂人类指令中推理并分割出序列化的affordance区域。
+  [CVPR 2025][多模态VLM][3D affordance] 提出 Sequential 3D Affordance Reasoning 任务，构建180K指令-点云对基准，通过在3D MLLM中引入 `<SEG>` token 和多粒度语言-点云融合模块…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 3D affordance
-  - 多模态VLM
-  - 多模态大语言模型
-  - 点云分割
-  - 具身智能
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "3D affordance"
+  - "序列推理"
+  - "多模态大语言模型"
+  - "点云分割"
+  - "具身智能"
 ---
 
 # SeqAfford: Sequential 3D Affordance Reasoning via Multimodal Large Language Model

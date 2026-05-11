@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][自监督学习][group activity] 提出利用 DINOv3 结合两个自监督预训练任务（人物光流估计和群体相关物体定位）来学习群体活动特征（GAF），在无群体活动标注的情况下大幅超越现有方法。
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - group activity
-  - DINO
-  - 光流
-  - activity retrieval
+  - "CVPR 2026"
+  - "自监督学习"
+  - "group activity"
+  - "DINO"
+  - "光流"
+  - "activity retrieval"
 ---
 
 # Group-DINOmics: Incorporating People Dynamics into DINO for Self-supervised Group Activity Feature Learning

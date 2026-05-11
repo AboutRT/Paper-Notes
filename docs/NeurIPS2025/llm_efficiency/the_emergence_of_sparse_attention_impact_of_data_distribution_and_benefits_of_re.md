@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition
 description: >-
-  [NeurIPS 2025][LLM效率][注意力机制] 通过理论分析和受控实验研究 sparse attention 的涌现机制，揭示涌现时间遵循关于序列长度和维度的幂律关系 $T_\epsilon \propto \sqrt{d} \cdot T$，并发现 in-context 和 cross-sample 两种数据重复策略都能加速涌现，为理解 LLM 能力涌现提供了统一的 sparse attention 视角。
+  [NeurIPS 2025][LLM效率][注意力机制] 通过理论分析和受控实验研究 sparse attention 的涌现机制，揭示涌现时间遵循关于序列长度和维度的幂律关系 $T_\epsilon \propto \sqrt{d} \cdot T$…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - 注意力机制
-  - emergence
-  - power law
-  - repetition
-  - learning dynamics
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "注意力机制"
+  - "emergence"
+  - "power law"
+  - "repetition"
+  - "learning dynamics"
 ---
 
 # The Emergence of Sparse Attention: Impact of Data Distribution and Benefits of Repetition

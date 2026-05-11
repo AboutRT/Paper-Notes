@@ -4,7 +4,7 @@ title: >-
 description: >-
   [视频理解] 系统分析了动作识别中背景偏差在分类模型、对比预训练模型（CLIP/SigLIP2）和视频大语言模型（VLLM）三类范式中的普遍存在，并提出两条缓解路径：分类模型通过双分支架构融合分割人体输入降低SBErr 3.78%，VLLM通过自动化prompt tuning降低SBErr 9.85%。
 tags:
-  - 视频理解
+  - "视频理解"
 ---
 
 # Seeing Beyond the Scene: Analyzing and Mitigating Background Bias in Action Recognition

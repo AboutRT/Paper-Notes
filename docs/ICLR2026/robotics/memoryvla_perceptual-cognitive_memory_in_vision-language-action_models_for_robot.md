@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][机器人][VLA] 受认知科学双重记忆系统启发，提出MemoryVLA框架，在VLA模型中引入感知-认知记忆库（PCMB），通过记忆检索、门控融合和整合机制捕捉长时序依赖，在SimplerEnv/LIBERO/真实世界150+任务上全面超越CogACT和π₀。
 tags:
-  - ICLR 2026
-  - 机器人
-  - VLA
-  - 记忆机制
-  - 长时序操作
-  - 扩散策略
-  - 认知科学
+  - "ICLR 2026"
+  - "机器人"
+  - "VLA"
+  - "记忆机制"
+  - "长时序操作"
+  - "扩散策略"
+  - "认知科学"
 ---
 
 # MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation

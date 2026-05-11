@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Benchmarking and Enabling Efficient Chinese Medical Retrieval via Asymmetric Encoders
 description: >-
-  [ACL 2026][医学图像][医学文本检索] 提出 CMedTEB（中文医学文本嵌入基准）和 CARE（非对称检索框架），前者通过多 LLM 投票+专家验证构建高质量的中文医学检索/重排/STS 基准，后者用轻量 BERT 编码查询+大型 LLM 编码文档的非对称架构，通过两阶段渐进对齐策略实现 LLM 级检索精度+BERT 级在线延迟。
+  [ACL 2026][医学图像][医学文本检索] 提出 CMedTEB（中文医学文本嵌入基准）和 CARE（非对称检索框架），前者通过多 LLM 投票+专家验证构建高质量的中文医学检索/重排/STS 基准，后者用轻量 BERT 编码查询+大型 LLM 编码文档的非对称架构…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 医学文本检索
-  - 非对称编码器
-  - 中文医学基准
-  - 嵌入模型
-  - RAG
+  - "ACL 2026"
+  - "医学图像"
+  - "医学文本检索"
+  - "非对称编码器"
+  - "中文医学基准"
+  - "嵌入模型"
+  - "RAG"
 ---
 
 # Benchmarking and Enabling Efficient Chinese Medical Retrieval via Asymmetric Encoders

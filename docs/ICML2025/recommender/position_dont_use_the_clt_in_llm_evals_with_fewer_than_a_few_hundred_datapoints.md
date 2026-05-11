@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Position: Don't Use the CLT in LLM Evals with Fewer Than a Few Hundred Datapoints
 description: >-
-  [ICML 2025 (Spotlight Position Paper)][中心极限定理 (CLT)] 本文作为立场论文，论证了在 LLM 评估数据量少于几百个样本时，基于中心极限定理 (CLT) 的置信区间严重低估不确定性，推荐使用贝叶斯可信区间或 Wilson 得分区间作为替代方案。
+  [ICML 2025 (Spotlight Position Paper)][推荐系统][中心极限定理 (CLT)] 本文作为立场论文，论证了在 LLM 评估数据量少于几百个样本时，基于中心极限定理 (CLT) 的置信区间严重低估不确定性，推荐使用贝叶斯可信区间或 Wilson 得分区间作为替代方案。
 tags:
-  - ICML 2025 (Spotlight Position Paper)
-  - 中心极限定理 (CLT)
-  - 置信区间
-  - 贝叶斯可信区间
-  - 推荐系统
-  - 小样本统计
-  - Wilson 得分区间
-  - Bootstrap
+  - "ICML 2025 (Spotlight Position Paper)"
+  - "推荐系统"
+  - "中心极限定理 (CLT)"
+  - "置信区间"
+  - "贝叶斯可信区间"
+  - "LLM 评估"
+  - "小样本统计"
+  - "Wilson 得分区间"
+  - "Bootstrap"
 ---
 
 # Position: Don't Use the CLT in LLM Evals with Fewer Than a Few Hundred Datapoints
@@ -135,7 +136,7 @@ $$\text{CI}_{1-\alpha}(\theta) = \frac{\hat{\theta} + \frac{z_{\alpha/2}^2}{2N}}
 
 ### 关键发现
 
-1. **CLT 在 N<100 时系统性失败**：实际覆盖率远低于设定的名义覆盖率
+1. **CLT 在 N&lt;100 时系统性失败**：实际覆盖率远低于设定的名义覆盖率
 2. **Bootstrap 同样不可靠**：即使 K=10000 次重采样，小样本下覆盖率仍然不足
 3. **Wilson 得分区间**在 IID 单模型场景下表现优异，且 SciPy 直接实现
 4. **贝叶斯方法**是唯一在所有场景中都能达到正确覆盖率的方法

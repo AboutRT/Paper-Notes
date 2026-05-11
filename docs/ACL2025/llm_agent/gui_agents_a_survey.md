@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 (Findings)][LLM Agent][GUI代理] 本文对基于大型基础模型的图形用户界面（GUI）代理进行了全面综述，提出了涵盖感知、推理、规划、执行四大能力的统一分析框架，系统梳理了 GUI Agent 的基准测试、评估指标、架构设计和训练方法，并讨论了关键挑战和未来方向。
 tags:
-  - ACL 2025 (Findings)
-  - LLM Agent
-  - GUI代理
-  - 自动化交互
-  - 大模型Agent
-  - 基准评测
-  - 多平台操作
+  - "ACL 2025 (Findings)"
+  - "LLM Agent"
+  - "GUI代理"
+  - "自动化交互"
+  - "大模型Agent"
+  - "基准评测"
+  - "多平台操作"
 ---
 
 # GUI Agents: A Survey

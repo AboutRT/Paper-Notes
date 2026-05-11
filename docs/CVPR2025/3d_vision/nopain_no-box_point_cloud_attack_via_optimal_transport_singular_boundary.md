@@ -2,15 +2,15 @@
 title: >-
   [论文解读] NoPain: No-box Point Cloud Attack via Optimal Transport Singular Boundary
 description: >-
-  [CVPR 2025][3D视觉][点云对抗攻击] NoPain 提出首个无盒（no-box）点云对抗攻击方法，利用半离散最优传输（OT）计算从噪声到特征空间的映射，在映射的奇异边界（非可微点）处采样生成对抗扰动，无需目标分类器或替代模型，在 PointNet 上 ASR 达 100%，生成速度仅 28ms/样本。
+  [CVPR 2025][3D视觉][点云对抗攻击] NoPain 提出首个无盒（no-box）点云对抗攻击方法，利用半离散最优传输（OT）计算从噪声到特征空间的映射，在映射的奇异边界（非可微点）处采样生成对抗扰动，无需目标分类器或替代模型，在 PointNet 上 ASR 达 100%…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点云对抗攻击
-  - 无盒攻击
-  - 最优传输
-  - 奇异边界
-  - 可迁移性
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点云对抗攻击"
+  - "无盒攻击"
+  - "最优传输"
+  - "奇异边界"
+  - "可迁移性"
 ---
 
 # NoPain: No-box Point Cloud Attack via Optimal Transport Singular Boundary

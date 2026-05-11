@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Taxonomy-Aware Evaluation of Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][VLM评估] 提出taxonomy-aware VLM评估框架，通过将VLM的自由文本输出映射到分类学树上，利用**层次精度(hP)**和**层次召回(hR)**来量化预测的正确性和具体性，解决了传统精确匹配/文本相似度无法给"部分正确"答案打分的问题。
+  [CVPR 2025][多模态VLM][VLM评估] 提出taxonomy-aware VLM评估框架，通过将VLM的自由文本输出映射到分类学树上，利用**层次精度(hP)**和**层次召回(hR)**来量化预测的正确性和具体性，解决了传统精确匹配/文本相似度无法给"部分正确"答案打分的问题。
 tags:
-  - CVPR 2025
-  - 多模态
-  - VLM评估
-  - 细粒度视觉分类
-  - 层次度量
-  - 分类学映射
-  - 多模态VLM
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "VLM评估"
+  - "细粒度视觉分类"
+  - "层次度量"
+  - "分类学映射"
+  - "文本-分类学对齐"
 ---
 
 # Taxonomy-Aware Evaluation of Vision-Language Models

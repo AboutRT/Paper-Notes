@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][点跟踪] 本文提出LocoTrack，通过局部4D相关性体（local 4D correlation）实现视频中任意点的全对应匹配，结合轻量级相关性编码器和长度可泛化的Transformer，在所有TAP-Vid基准测试上达到最高精度，同时比SOTA方法快近6倍。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 点跟踪
-  - 4D相关性
-  - 全对应匹配
-  - TAP-Vid
-  - Transformer
+  - "ECCV 2024"
+  - "视频理解"
+  - "点跟踪"
+  - "4D相关性"
+  - "全对应匹配"
+  - "TAP-Vid"
+  - "Transformer"
 ---
 
 # Local All-Pair Correspondence for Point Tracking

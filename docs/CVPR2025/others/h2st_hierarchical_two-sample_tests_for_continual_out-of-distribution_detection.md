@@ -2,14 +2,14 @@
 title: >-
   [论文解读] H2ST: Hierarchical Two-Sample Tests for Continual Out-of-Distribution Detection
 description: >-
-  [CVPR 2025][其他] 提出H2ST方法，用层次化的两样本检验架构实现增量学习中的OOD检测——每个任务对应一个特征级别的源-目标二分类器层，通过Clopper-Pearson置信区间假设检验自动判定ID/OOD（无需手动阈值），同时提供任务ID预测能力，在7个基准上优于MSP/Energy/ODIN且计算效率提升$(T+1)/2$倍。
+  [CVPR 2025][OOD检测] 提出H2ST方法，用层次化的两样本检验架构实现增量学习中的OOD检测——每个任务对应一个特征级别的源-目标二分类器层，通过Clopper-Pearson置信区间假设检验自动判定ID/OOD（无需手动阈值），同时提供任务ID预测能力…
 tags:
-  - CVPR 2025
-  - 其他
-  - 增量学习
-  - 两样本检验
-  - 层次化架构
-  - 无阈值
+  - "CVPR 2025"
+  - "OOD检测"
+  - "增量学习"
+  - "两样本检验"
+  - "层次化架构"
+  - "无阈值"
 ---
 
 # H2ST: Hierarchical Two-Sample Tests for Continual Out-of-Distribution Detection

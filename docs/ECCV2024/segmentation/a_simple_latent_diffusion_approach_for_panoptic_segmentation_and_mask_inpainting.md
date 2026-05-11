@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting
 description: >-
-  [ECCV 2024][图像分割][潜在扩散模型] 基于Stable Diffusion构建了一个极简的潜在扩散分割框架LDMSeg，通过浅层自编码器将分割mask压缩到潜空间、再训练图像条件扩散模型来生成全景分割结果，避免了传统方法中的目标检测模块、匈牙利匹配和复杂后处理，并天然支持mask inpainting和多任务扩展。
+  [ECCV 2024][语义分割][潜在扩散模型] 基于Stable Diffusion构建了一个极简的潜在扩散分割框架LDMSeg，通过浅层自编码器将分割mask压缩到潜空间、再训练图像条件扩散模型来生成全景分割结果，避免了传统方法中的目标检测模块、匈牙利匹配和复杂后处理…
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 潜在扩散模型
-  - 全景分割
-  - 图像修复
-  - 多任务学习
-  - 生成式分割
+  - "ECCV 2024"
+  - "语义分割"
+  - "潜在扩散模型"
+  - "全景分割"
+  - "图像修复"
+  - "多任务学习"
+  - "生成式分割"
 ---
 
 # A Simple Latent Diffusion Approach for Panoptic Segmentation and Mask Inpainting

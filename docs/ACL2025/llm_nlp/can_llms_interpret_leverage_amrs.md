@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][AMR] 系统评估LLM解释和利用抽象语义表示(AMR)的能力，发现AMR增强提示在长上下文任务（如对话摘要）中可显著提升性能（Llama3.1零样本余弦相似度从66%提升至76%），但在短上下文任务中通常会降低表现。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - AMR
-  - 结构化语义表示
-  - LLM
-  - 长上下文理解
-  - 零样本/少样本提示
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "AMR"
+  - "结构化语义表示"
+  - "LLM"
+  - "长上下文理解"
+  - "零样本/少样本提示"
 ---
 
 # Can LLMs Interpret and Leverage Structured Linguistic Representations? A Case Study with AMRs

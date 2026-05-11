@@ -2,15 +2,15 @@
 title: >-
   [论文解读] It's Time to Get It Right: Improving Analog Clock Reading and Clock-Hand Spatial Reasoning in Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][模拟时钟读取] 揭示 SOTA VLM 仍无法可靠读取真实场景中的模拟时钟（零样本准确率不到10%），提出 TickTockVQA 真实场景数据集（12K图像）和 Swap-DPO 微调框架，将 Llama-3.2-11B 的时间读取准确率从1.43%提升至46.22%。
+  [CVPR 2026][多模态VLM][模拟时钟读取] 揭示 SOTA VLM 仍无法可靠读取真实场景中的模拟时钟（零样本准确率不到10%），提出 TickTockVQA 真实场景数据集（12K图像）和 Swap-DPO 微调框架，将 Llama-3.2-11B 的时间读取准确率从1.43%提升至46.22%…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 模拟时钟读取
-  - 多模态VLM
-  - VLM
-  - DPO
-  - 时空理解
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "模拟时钟读取"
+  - "空间推理"
+  - "VLM"
+  - "DPO"
+  - "时空理解"
 ---
 
 # It's Time to Get It Right: Improving Analog Clock Reading and Clock-Hand Spatial Reasoning in Vision-Language Models

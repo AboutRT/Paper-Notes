@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ONLY: One-Layer Intervention Sufficiently Mitigates Hallucinations in Large Vision-Language Models
 description: >-
-  [ICCV 2025][多模态][hallucination mitigation] 提出ONLY，一种training-free的单层干预解码方法——通过Text-to-Visual Entropy Ratio（TVER）选择偏向文本的attention head生成textually-enhanced logits，然后与原始logits做自适应对比/协作解码，仅增加1.07×推理时间就在POPE上比VCD/M3ID高3.14%，在CHAIR上降低CHAIR_S 6.2个点。
+  [ICCV 2025][多模态VLM][hallucination mitigation] 提出ONLY，一种training-free的单层干预解码方法——通过Text-to-Visual Entropy Ratio（TVER）选择偏向文本的attention head生成textually-enhance…
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态VLM
-  - contrastive decoding
-  - text-to-visual entropy ratio
-  - training-free
-  - single-layer intervention
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "hallucination mitigation"
+  - "contrastive decoding"
+  - "text-to-visual entropy ratio"
+  - "training-free"
+  - "single-layer intervention"
 ---
 
 # ONLY: One-Layer Intervention Sufficiently Mitigates Hallucinations in Large Vision-Language Models

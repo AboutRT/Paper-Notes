@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D目标检测] SEED 提出了一种简洁高效的 3D DETR 检测器，通过双重查询选择（DQS）模块以粗到精方式获取高质量查询，结合可变形网格注意力（DGA）模块利用 3D 物体的几何结构信息实现灵活的查询交互，在 Waymo 和 nuScenes 上达到新 SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D目标检测
-  - DETR
-  - 点云
-  - Query选择
-  - 可变形注意力
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D目标检测"
+  - "DETR"
+  - "点云"
+  - "Query选择"
+  - "可变形注意力"
 ---
 
 # SEED: A Simple and Effective 3D DETR in Point Clouds

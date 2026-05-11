@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][三维重建] 通过将VGGT中的全局自注意力替换为基于描述符的交叉注意力，实现了1000张图像推理时间降至VGGT的9.3%，同时保持竞争性重建精度，并可扩展至3000+张图像序列。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 三维重建
-  - Transformer
-  - 描述符注意力
-  - 在线推理
-  - 多视图几何
+  - "CVPR 2026"
+  - "模型压缩"
+  - "三维重建"
+  - "Transformer"
+  - "描述符注意力"
+  - "在线推理"
+  - "多视图几何"
 ---
 
 # FlashVGGT: Efficient and Scalable Visual Geometry Transformers with Compressed Descriptor Attention

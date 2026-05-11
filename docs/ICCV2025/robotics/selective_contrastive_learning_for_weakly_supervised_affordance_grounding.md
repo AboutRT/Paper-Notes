@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Selective Contrastive Learning for Weakly Supervised Affordance Grounding
 description: >-
-  [ICCV 2025][机器人][可供性定位] 提出选择性对比学习方法用于弱监督可供性定位，通过原型级对比学习和像素级对比学习，在目标和部件两个粒度上自适应学习可供性相关线索，有效避免模型关注与动作无关的显著特征，在 AGD20K 和 HICO-IIF 上全面超越了使用更强基础模型（GPT-4、LLAVA 等）的竞争方法。
+  [ICCV 2025][机器人][可供性定位] 提出选择性对比学习方法用于弱监督可供性定位，通过原型级对比学习和像素级对比学习，在目标和部件两个粒度上自适应学习可供性相关线索，有效避免模型关注与动作无关的显著特征…
 tags:
-  - ICCV 2025
-  - 机器人
-  - 可供性定位
-  - 弱监督
-  - 对比学习
-  - 部件发现
-  - CLIP
+  - "ICCV 2025"
+  - "机器人"
+  - "可供性定位"
+  - "弱监督"
+  - "对比学习"
+  - "部件发现"
+  - "CLIP"
 ---
 
 # Selective Contrastive Learning for Weakly Supervised Affordance Grounding

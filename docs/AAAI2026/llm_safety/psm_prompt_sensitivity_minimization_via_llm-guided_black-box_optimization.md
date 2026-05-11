@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PSM: Prompt Sensitivity Minimization via LLM-Guided Black-Box Optimization
 description: >-
-  [AAAI 2026][AI安全][系统提示安全] 提出 PSM 框架，将系统提示防护形式化为效用约束下的黑盒优化问题，利用 LLM-as-Optimizer 自动搜索最优"盾牌"后缀，在不降低模型功能的前提下将提示泄漏攻击成功率降至接近零。
+  [AAAI 2026][LLM安全][系统提示安全] 提出 PSM 框架，将系统提示防护形式化为效用约束下的黑盒优化问题，利用 LLM-as-Optimizer 自动搜索最优"盾牌"后缀，在不降低模型功能的前提下将提示泄漏攻击成功率降至接近零。
 tags:
-  - AAAI 2026
-  - AI安全
-  - 系统提示安全
-  - 提示提取攻击
-  - 黑盒优化
-  - LLM-as-Optimizer
-  - 防御盾牌
+  - "AAAI 2026"
+  - "LLM安全"
+  - "系统提示安全"
+  - "提示提取攻击"
+  - "黑盒优化"
+  - "LLM-as-Optimizer"
+  - "防御盾牌"
 ---
 
 # PSM: Prompt Sensitivity Minimization via LLM-Guided Black-Box Optimization

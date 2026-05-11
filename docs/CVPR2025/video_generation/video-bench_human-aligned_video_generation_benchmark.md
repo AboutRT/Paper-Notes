@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Video-Bench: Human-Aligned Video Generation Benchmark
 description: >-
-  [CVPR 2025][视频生成评估] 本文提出 Video-Bench，一个全面的视频生成评估基准，通过 Chain-of-Query 和 Few-Shot Scoring 两种技术系统性地利用多模态大语言模型（MLLM）自动评估生成视频，在所有评估维度上实现了与人类偏好最高的对齐度。
+  [CVPR 2025][视频生成][视频生成评估] 本文提出 Video-Bench，一个全面的视频生成评估基准，通过 Chain-of-Query 和 Few-Shot Scoring 两种技术系统性地利用多模态大语言模型（MLLM）自动评估生成视频，在所有评估维度上实现了与人类偏好最高的对齐度。
 tags:
-  - CVPR 2025
-  - 视频生成评估
-  - 视频生成
-  - MLLM评估
-  - 人类偏好对齐
-  - Chain-of-Query
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频生成评估"
+  - "Benchmark"
+  - "MLLM评估"
+  - "人类偏好对齐"
+  - "Chain-of-Query"
 ---
 
 # Video-Bench: Human-Aligned Video Generation Benchmark

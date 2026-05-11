@@ -3,6 +3,14 @@ title: >-
   CVPR2026 其他方向44篇论文解读
 description: >-
   44篇CVPR2026的其他方向论文解读，涵盖异常检测、对抗鲁棒、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "CVPR2026"
+  - "其他"
+  - "论文解读"
+  - "论文笔记"
+  - "异常检测"
+  - "对抗鲁棒"
+  - "多模态"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +18,7 @@ description: >-
 
 **📷 CVPR2026** · **44** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [🔬 ICLR2026 (76)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (126)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md) · [🧪 ICML2025 (93)](../../ICML2025/others/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [🔬 ICLR2026 (76)](../../ICLR2026/others/index.md) · [🤖 AAAI2026 (126)](../../AAAI2026/others/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md) · [🧪 ICML2025 (93)](../../ICML2025/others/index.md)
 
 🔥 **高频主题：** 异常检测 ×2 · 对抗鲁棒 ×2 · 多模态 ×2
 

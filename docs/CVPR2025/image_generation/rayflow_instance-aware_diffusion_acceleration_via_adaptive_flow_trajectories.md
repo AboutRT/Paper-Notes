@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型加速] 提出 RayFlow 扩散框架，为每个样本设计独特的扩散路径（指向实例特定目标分布），并通过 Time Sampler 重要性采样优化训练，在最小化采样步数的同时保持生成多样性和稳定性。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型加速
-  - 流匹配
-  - 实例感知路径
-  - 重要性采样
-  - 采样稳定性
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型加速"
+  - "流匹配"
+  - "实例感知路径"
+  - "重要性采样"
+  - "采样稳定性"
 ---
 
 # RayFlow: Instance-Aware Diffusion Acceleration via Adaptive Flow Trajectories

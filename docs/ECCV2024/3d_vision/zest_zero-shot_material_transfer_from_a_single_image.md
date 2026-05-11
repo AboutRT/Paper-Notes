@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出ZeST，一种零样本免训练的材质迁移方法，通过IP-Adapter提取材质表示、ControlNet提供几何引导、前景灰度图提供光照线索，三条分支组合实现从单张材质样本图像到目标物体的2D材质迁移。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # ZeST: Zero-Shot Material Transfer from a Single Image

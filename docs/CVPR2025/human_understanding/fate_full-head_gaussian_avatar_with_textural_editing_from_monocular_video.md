@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][高斯头部化身] 提出 FATE，从单目视频重建可动画化的全头高斯化身，通过基于采样的密化策略（替代阈值分裂）、神经烘焙（将离散高斯转为连续UV纹理图以支持编辑）和通用补全框架（合成后脑外观），实现仅 49K 高斯即达到 28.37dB PSNR 的高效高质量重建。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 高斯头部化身
-  - 纹理编辑
-  - 采样密化
-  - 神经烘焙
-  - FLAME
+  - "CVPR 2025"
+  - "人体理解"
+  - "高斯头部化身"
+  - "纹理编辑"
+  - "采样密化"
+  - "神经烘焙"
+  - "FLAME"
 ---
 
 # FATE: Full-head Gaussian Avatar with Textural Editing from Monocular Video

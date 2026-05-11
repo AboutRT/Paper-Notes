@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视频问答] 提出 MovieRecapsQA，一个基于电影解说视频构建的多模态开放式视频问答基准，包含 60 部电影的约 8.2K 个问题，并设计了基于原子事实 (atomic facts) 的无参考评估指标，揭示了当前 MLLM 在视觉感知而非推理上的关键瓶颈。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频问答
-  - 多模态理解
-  - 开放式评估
-  - 电影理解
-  - 无参考评估
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频问答"
+  - "多模态理解"
+  - "开放式评估"
+  - "电影理解"
+  - "无参考评估"
 ---
 
 # MovieRecapsQA: A Multimodal Open-Ended Video Question-Answering Benchmark

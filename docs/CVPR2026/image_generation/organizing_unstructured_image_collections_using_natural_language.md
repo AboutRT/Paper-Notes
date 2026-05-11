@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][开放式语义多聚类] 本文定义了开放式语义多聚类（OpenSMC）新任务，并提出 X-Cluster 框架，利用 MLLM 将图像转为文本后通过 LLM 自动发现聚类标准和语义子结构，无需任何人类先验输入即可将大规模无标签图像集组织为多维度、多粒度、可解释的语义聚类。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 开放式语义多聚类
-  - 图像组织
-  - 自然语言
-  - 大语言模型
-  - 多粒度聚类
+  - "CVPR 2026"
+  - "图像生成"
+  - "开放式语义多聚类"
+  - "图像组织"
+  - "自然语言"
+  - "大语言模型"
+  - "多粒度聚类"
 ---
 
 # Organizing Unstructured Image Collections using Natural Language

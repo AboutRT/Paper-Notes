@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][文本-3D检索] 提出H2ARN，在Lorentz双曲空间中嵌入文本和3D点云数据，通过层次排序损失（蕴含锥）解决层次表示坍塌问题，通过贡献感知双曲聚合解决冗余导致的显著性稀释问题，在Text-3D检索中取得SOTA，并发布了2.6倍规模的T3DR-HIT v2数据集。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 文本-3D检索
-  - 双曲空间
-  - 层次对齐
-  - 蕴含锥
-  - 贡献感知聚合
+  - "AAAI 2026"
+  - "图像生成"
+  - "文本-3D检索"
+  - "双曲空间"
+  - "层次对齐"
+  - "蕴含锥"
+  - "贡献感知聚合"
 ---
 
 # Hyperbolic Hierarchical Alignment Reasoning Network for Text-3D Retrieval

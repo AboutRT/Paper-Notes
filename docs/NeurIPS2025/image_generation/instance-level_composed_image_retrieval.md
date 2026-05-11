@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][组合图像检索] 提出实例级组合图像检索（i-CIR）基准和训练免费方法BASIC，通过独立估计图像和文本查询的相似度并进行乘法融合，在无需训练的情况下在i-CIR和现有CIR数据集上均达到SOTA。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 组合图像检索
-  - 实例级检索
-  - VLM
-  - 训练免费
-  - 特征融合
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "组合图像检索"
+  - "实例级检索"
+  - "VLM"
+  - "训练免费"
+  - "特征融合"
 ---
 
 # Instance-Level Composed Image Retrieval

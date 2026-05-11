@@ -2,15 +2,15 @@
 title: >-
   [论文解读] XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution
 description: >-
-  [ECCV 2024][图像复原][图像超分辨率] XPSR提出将多模态大语言模型（LLaVA）生成的高层与低层语义描述作为跨模态先验，通过Semantic-Fusion Attention融合到扩散模型中，并设计Degradation-Free Constraint提取语义保留特征，实现高保真高真实感的图像超分辨率。
+  [ECCV 2024][图像恢复][图像超分辨率] XPSR提出将多模态大语言模型（LLaVA）生成的高层与低层语义描述作为跨模态先验，通过Semantic-Fusion Attention融合到扩散模型中，并设计Degradation-Free Constraint提取语义保留特征…
 tags:
-  - ECCV 2024
-  - 图像复原
-  - 图像超分辨率
-  - 扩散模型
-  - 多模态大语言模型
-  - 跨模态语义先验
-  - ControlNet
+  - "ECCV 2024"
+  - "图像恢复"
+  - "图像超分辨率"
+  - "扩散模型"
+  - "多模态大语言模型"
+  - "跨模态语义先验"
+  - "ControlNet"
 ---
 
 # XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution

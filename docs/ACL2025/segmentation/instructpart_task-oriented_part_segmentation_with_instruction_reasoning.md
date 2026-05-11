@@ -2,16 +2,16 @@
 title: >-
   [论文解读] InstructPart: Task-Oriented Part Segmentation with Instruction Reasoning
 description: >-
-  [ACL 2025][图像分割][部件分割] 提出 InstructPart，首个将任务导向指令与部件级分割结合的真实世界 benchmark——2400 张图像、48 类物体、44 类部件、9600 条人工标注的任务指令，评估发现当前 VLM 在指令驱动的部件分割上严重不足，基于 LISA+DINOv2 的 baseline 微调后性能提升约 100%。
+  [ACL 2025][语义分割][部件分割] 提出 InstructPart，首个将任务导向指令与部件级分割结合的真实世界 benchmark——2400 张图像、48 类物体、44 类部件、9600 条人工标注的任务指令，评估发现当前 VLM 在指令驱动的部件分割上严重不足…
 tags:
-  - ACL 2025
-  - 图像分割
-  - 部件分割
-  - 任务导向
-  - 指令推理
-  - VLM
-  - affordance
-  - benchmark
+  - "ACL 2025"
+  - "语义分割"
+  - "部件分割"
+  - "任务导向"
+  - "指令推理"
+  - "VLM"
+  - "affordance"
+  - "benchmark"
 ---
 
 # InstructPart: Task-Oriented Part Segmentation with Instruction Reasoning

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming
 description: >-
-  [ICML2025][优化][神经网络验证] 提出 SDP-CROWN，将半定规划（SDP）松弛的紧致性融入线性界传播框架，每层仅增加一个参数 λ，便可在 ℓ₂ 扰动下将验证松弛度最多收紧 √n 倍，同时保持与 α-CROWN 同级的可扩展性。
+  [ICML2025][优化/理论][神经网络验证] 提出 SDP-CROWN，将半定规划（SDP）松弛的紧致性融入线性界传播框架，每层仅增加一个参数 λ，便可在 ℓ₂ 扰动下将验证松弛度最多收紧 √n 倍，同时保持与 α-CROWN 同级的可扩展性。
 tags:
-  - ICML2025
-  - 优化
-  - 神经网络验证
-  - 半定规划
-  - 线性界传播
-  - ℓ₂ 鲁棒性
-  - ReLU 松弛
-  - CROWN
+  - "ICML2025"
+  - "优化/理论"
+  - "神经网络验证"
+  - "半定规划"
+  - "线性界传播"
+  - "ℓ₂ 鲁棒性"
+  - "ReLU 松弛"
+  - "CROWN"
 ---
 
 # SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming
@@ -30,7 +30,7 @@ tags:
 
 - **线性界传播**（CROWN / α-CROWN / β-CROWN）是当前最可扩展的神经网络验证方法，在 VNN-COMP 竞赛中表现优异，尤其擅长 ℓ∞ 扰动。
 - **核心痛点**：面对 ℓ₂ 扰动时，界传播方法必须先将 ℓ₂ 球放松为外接 ℓ∞ 盒，这会让攻击半径放大 √n 倍（n 为输入维度），导致界极度松弛。例如在 ConvLarge（≈2.47M 参数、65k 神经元）上，α-CROWN 仅验证 2.5% 准确率。
-- **SDP 方法**可通过 n×n 耦合矩阵精确捕捉神经元间依赖关系，但 $O(n^3)$ 复杂度限制了其只能应用于小规模模型（<10k 神经元）。
+- **SDP 方法**可通过 n×n 耦合矩阵精确捕捉神经元间依赖关系，但 $O(n^3)$ 复杂度限制了其只能应用于小规模模型（&lt;10k 神经元）。
 - **目标**：在不牺牲可扩展性的前提下，把 SDP 的紧致性注入界传播框架。
 
 ## 方法详解

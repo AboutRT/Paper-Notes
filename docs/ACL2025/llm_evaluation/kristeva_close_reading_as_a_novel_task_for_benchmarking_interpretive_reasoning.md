@@ -2,14 +2,15 @@
 title: >-
   [论文解读] KRISTEVA: Close Reading as a Novel Task for Benchmarking Interpretive Reasoning
 description: >-
-  [ACL 2025][LLM评测] 本文提出 KRISTEVA，首个评估 LLM 细读（close reading）能力的基准，包含 1331 道从大学课堂数据中构建的多选题，覆盖风格特征提取、上下文检索、特征-上下文多跳推理三个递进难度层次，19 个 SOTA LLM 在 11 个任务中的 10 个上仍落后于人类专家。
+  [ACL 2025][LLM评测][细读推理] 本文提出 KRISTEVA，首个评估 LLM 细读（close reading）能力的基准，包含 1331 道从大学课堂数据中构建的多选题，覆盖风格特征提取、上下文检索、特征-上下文多跳推理三个递进难度层次…
 tags:
-  - ACL 2025
-  - LLM评测
-  - 文学理解基准
-  - 修辞手法
-  - 多跳推理
-  - 比喻语言理解
+  - "ACL 2025"
+  - "LLM评测"
+  - "细读推理"
+  - "文学理解基准"
+  - "修辞手法"
+  - "多跳推理"
+  - "比喻语言理解"
 ---
 
 # KRISTEVA: Close Reading as a Novel Task for Benchmarking Interpretive Reasoning

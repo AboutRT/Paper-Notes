@@ -3,6 +3,16 @@ title: >-
   NeurIPS2025 模型压缩方向137篇论文解读
 description: >-
   137篇NeurIPS2025的模型压缩方向论文解读，涵盖 LLM、压缩/编码、模型压缩、对抗鲁棒、推理、持续学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "模型压缩"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "压缩/编码"
+  - "对抗鲁棒"
+  - "推理"
+  - "持续学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +20,7 @@ description: >-
 
 **🧠 NeurIPS2025** · **137** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (51)](../../CVPR2026/model_compression/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md) · [🧪 ICML2025 (70)](../../ICML2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (50)](../../CVPR2026/model_compression/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md) · [🧪 ICML2025 (70)](../../ICML2025/model_compression/index.md)
 
 🔥 **高频主题：** LLM ×25 · 压缩/编码 ×20 · 模型压缩 ×15 · 对抗鲁棒 ×5 · 推理 ×4
 

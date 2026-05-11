@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：Language Bottleneck Models (LBMs) are proposed to achieve interpretable image recognition by classifying images based on textual concept bottlenecks. However, current LBMs simply list all concepts together as the bottleneck layer, leading to the spurious cue inference problem and cannot generalized
+  [CVPR 2025][可解释性][待补充] > 基于摘要：Language Bottleneck Models (LBMs) are proposed to achieve interpretable image recognition by classifying images based on text…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "可解释性"
+  - "待补充"
 ---
 
 # Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability

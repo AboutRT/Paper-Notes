@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][视频配音] 提出 Segment Supervised Preference Optimization (SSPO)，将视频配音中译文与源语音的时长对齐问题建模为段级偏好优化，通过逐句采样+细粒度 DPO 损失实现每行对话的时长一致性，同时维持翻译质量和输出格式。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 视频配音
-  - 时长对齐
-  - 偏好优化
-  - DPO
-  - 段级监督
-  - 可控文本生成
+  - "ACL 2025"
+  - "LLM对齐"
+  - "视频配音"
+  - "时长对齐"
+  - "偏好优化"
+  - "DPO"
+  - "段级监督"
+  - "可控文本生成"
 ---
 
 # Fine-grained Video Dubbing Duration Alignment with Segment Supervised Preference Optimization

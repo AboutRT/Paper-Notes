@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Logits to Hierarchies: Hierarchical Clustering made Simple
 description: >-
-  [ICML 2025][模型压缩][层次聚类] 提出 L2H（Logits to Hierarchies）算法，仅利用预训练平面聚类模型的 logits 输出，通过掩码 softmax 和迭代合并策略，在无需微调的情况下构建高质量层次聚类，大幅超越专用深度层次聚类模型，且在 ImageNet 规模数据集上 CPU 运行不到一分钟。
+  [ICML 2025][模型压缩][层次聚类] 提出 L2H（Logits to Hierarchies）算法，仅利用预训练平面聚类模型的 logits 输出，通过掩码 softmax 和迭代合并策略，在无需微调的情况下构建高质量层次聚类，大幅超越专用深度层次聚类模型…
 tags:
-  - ICML 2025
-  - 模型压缩
-  - 层次聚类
-  - Logits
-  - 预训练模型
-  - 树状图
-  - 无监督学习
+  - "ICML 2025"
+  - "模型压缩"
+  - "层次聚类"
+  - "Logits"
+  - "预训练模型"
+  - "树状图"
+  - "无监督学习"
 ---
 
 # From Logits to Hierarchies: Hierarchical Clustering made Simple
@@ -160,7 +160,7 @@ L2H 在所有数据集上全面碾压专用深度层次聚类模型，NMI 提升
 - **掩码 softmax 的巧妙设计**：通过"如果这些聚类不存在，数据点会去哪里"这一反事实思维来度量聚类亲缘关系，既直观又高效。
 - **保留叶层性能**：L2H 是纯后处理方法，不影响原始模型的聚类质量，这是相对于 end-to-end 层次模型的本质优势。
 - **跨范式通用性**：同一算法既适用于无监督聚类也适用于监督分类，为模型可解释性提供了新工具。
-- **极致效率**：ImageNet-1K 规模数据集上 CPU 运行 <1 分钟，而 TreeVAE 需要 GPU 训练数小时。
+- **极致效率**：ImageNet-1K 规模数据集上 CPU 运行 &lt;1 分钟，而 TreeVAE 需要 GPU 训练数小时。
 
 ## 局限与展望
 

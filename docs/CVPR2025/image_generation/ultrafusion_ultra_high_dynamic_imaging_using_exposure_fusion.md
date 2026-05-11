@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][高动态范围] UltraFusion 首次将曝光融合建模为引导式修复问题，利用欠曝图像作为高光区域的软引导而非硬约束，实现 9 档曝光差的超高动态范围成像，同时对对齐误差和光照变化保持鲁棒。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 高动态范围
-  - 曝光融合
-  - 引导修复
-  - 扩散模型
-  - 超大曝光差
+  - "CVPR 2025"
+  - "图像生成"
+  - "高动态范围"
+  - "曝光融合"
+  - "引导修复"
+  - "扩散模型"
+  - "超大曝光差"
 ---
 
 # UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion

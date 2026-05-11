@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Benchmarking Overton Pluralism in LLMs
 description: >-
-  [ICLR 2026][Overton多元主义] 提出 OvertonBench 框架，通过大规模人类研究（1208名美国代表性参与者、60个主观问题、8个LLM）将 Overton 多元主义形式化为集合覆盖度指标 OvertonScore，发现当前所有模型得分仅 0.35–0.41（理论上限为 1.0），并构建了与人类判断高度相关（ρ=0.88）的自动化评测工具。
+  [ICLR 2026][LLM评测][Overton多元主义] 提出 OvertonBench 框架，通过大规模人类研究（1208名美国代表性参与者、60个主观问题、8个LLM）将 Overton 多元主义形式化为集合覆盖度指标 OvertonScore…
 tags:
-  - ICLR 2026
-  - Overton多元主义
-  - LLM评测
-  - benchmark
-  - 观点覆盖
-  - 自动化评估
+  - "ICLR 2026"
+  - "LLM评测"
+  - "Overton多元主义"
+  - "LLM偏见"
+  - "benchmark"
+  - "观点覆盖"
+  - "自动化评估"
 ---
 
 # Benchmarking Overton Pluralism in LLMs
@@ -106,7 +107,7 @@ tags:
 - DeepSeek V3 在完整基准上表现最强，但在 Model Slant 子集上最弱——多元主义不是单一能力，依赖于具体领域
 - **政治中立 ≠ 多元表征**：o4-mini 被 Model Slant 评为第二大政治偏见模型，但在 OvertonScore 上表现优异 (r=-0.41 负相关)
 - Llama 3.3 在两个子集上均优于 Llama 4，质疑政治偏见缓解努力对多元表征的实际效果
-- 自动化基准无显著的性别/种族公平性差异，但政治倾向和模型身份存在微小显著差异（效应量 η²<0.004）
+- 自动化基准无显著的性别/种族公平性差异，但政治倾向和模型身份存在微小显著差异（效应量 η²&lt;0.004）
 
 ## 亮点与洞察
 - **OvertonScore 的集合覆盖形式化**是本文最重要的贡献——将模糊的"多元性"转化为0-1之间可量化的指标，且有明确的理论上限。这比 pairwise 评比更有信息量，因为它衡量的是绝对覆盖而非相对优劣

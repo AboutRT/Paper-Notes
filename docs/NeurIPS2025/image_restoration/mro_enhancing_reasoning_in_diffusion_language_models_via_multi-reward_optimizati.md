@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MRO: Enhancing Reasoning in Diffusion Language Models via Multi-Reward Optimization
 description: >-
-  [NeurIPS 2025][图像恢复][扩散语言模型] 首次系统分析扩散语言模型（DLM）推理短板的根因——去噪过程中token独立生成导致序列内/序列间相关性缺失，提出多奖励优化框架MRO，在test-time scaling、reject sampling和RL三种模式下均显著提升LLaDA-8B的推理性能，MATH500从34.4%提升至37.4%。
+  [NeurIPS 2025][图像恢复][扩散语言模型] 首次系统分析扩散语言模型（DLM）推理短板的根因——去噪过程中token独立生成导致序列内/序列间相关性缺失，提出多奖励优化框架MRO…
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 图像复原
-  - 多奖励优化
-  - token相关性
-  - 强化学习
-  - SGRO
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "扩散语言模型"
+  - "多奖励优化"
+  - "token相关性"
+  - "强化学习"
+  - "SGRO"
 ---
 
 # MRO: Enhancing Reasoning in Diffusion Language Models via Multi-Reward Optimization

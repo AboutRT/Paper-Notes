@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][Automated Metrics] 指出机器翻译自动评估指标存在被忽视的"系统依赖性"问题：同一指标分数对不同翻译系统对应不同的人类评分，提出 SysDep 度量来量化这一效应，揭示即使是 WMT23 最佳指标 XCOMET 也存在严重的系统依赖性导致错误排名。
 tags:
-  - ACL 2025
-  - Automated Metrics
-  - System Dependence
-  - Machine Translation
-  - Isotonic Regression
-  - Evaluation
+  - "ACL 2025"
+  - "Automated Metrics"
+  - "System Dependence"
+  - "Machine Translation"
+  - "Isotonic Regression"
+  - "Evaluation"
 ---
 
 # A Measure of the System Dependence of Automated Metrics

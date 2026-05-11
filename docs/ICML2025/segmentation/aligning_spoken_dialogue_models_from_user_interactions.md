@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Aligning Spoken Dialogue Models from User Interactions
 description: >-
-  [ICML2025][图像分割][全双工语音对话] 首次为全双工语音对话模型（Moshi）设计完整的偏好对齐框架，从15万+条真实用户语音对话中自动构建内容+时序两类偏好对，通过仅在文本token上做DPO-LN对齐，QA平均提升3.1%、安全性提升6.9%，并通过人类评估确认多轮对话质量的改善。
+  [ICML2025][语义分割][全双工语音对话] 首次为全双工语音对话模型（Moshi）设计完整的偏好对齐框架，从15万+条真实用户语音对话中自动构建内容+时序两类偏好对，通过仅在文本token上做DPO-LN对齐，QA平均提升3.1%、安全性提升6.9%，并通过人类评估确认多轮对话质量的改善。
 tags:
-  - ICML2025
-  - 图像分割
-  - 全双工语音对话
-  - 偏好对齐
-  - DPO
-  - AI反馈
-  - 时序偏好
+  - "ICML2025"
+  - "语义分割"
+  - "全双工语音对话"
+  - "偏好对齐"
+  - "DPO"
+  - "AI反馈"
+  - "时序偏好"
 ---
 
 # Aligning Spoken Dialogue Models from User Interactions

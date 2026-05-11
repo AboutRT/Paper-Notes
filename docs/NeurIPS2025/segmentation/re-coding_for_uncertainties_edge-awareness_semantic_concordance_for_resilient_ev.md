@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Re-coding for Uncertainties: Edge-awareness Semantic Concordance for Resilient Event-RGB Segmentation
 description: >-
-  [NeurIPS 2025][图像分割][Event-RGB融合] 提出 Edge-awareness Semantic Concordance（ESC）框架，利用语义边缘作为异质 Event 和 RGB 模态的中间桥梁，通过边缘字典的离散潜空间建模实现跨模态特征对齐和不确定性优化，在极端条件下超越 SOTA 2.55% mIoU。
+  [NeurIPS 2025][语义分割][Event-RGB融合] 提出 Edge-awareness Semantic Concordance（ESC）框架，利用语义边缘作为异质 Event 和 RGB 模态的中间桥梁，通过边缘字典的离散潜空间建模实现跨模态特征对齐和不确定性优化…
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - Event-RGB融合
-  - 语义边缘
-  - 离散潜空间
-  - 不确定性优化
-  - 极端条件
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "Event-RGB融合"
+  - "语义边缘"
+  - "离散潜空间"
+  - "不确定性优化"
+  - "极端条件"
 ---
 
 # Re-coding for Uncertainties: Edge-awareness Semantic Concordance for Resilient Event-RGB Segmentation

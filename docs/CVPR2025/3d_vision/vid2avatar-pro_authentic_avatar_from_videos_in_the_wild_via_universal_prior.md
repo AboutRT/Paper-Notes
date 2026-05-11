@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][单目视频人体重建] 提出Vid2Avatar-Pro，利用从千人级多视角穿衣人体动态捕捉数据中学习的通用先验模型(UPM)，从单目野外视频创建照片级逼真且可动画化的3D人体头像，在新视角/新姿态合成上大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单目视频人体重建
-  - 通用先验模型
-  - 3D高斯泼溅
-  - 可动画化头像
-  - 前后视图参数化
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单目视频人体重建"
+  - "通用先验模型"
+  - "3D高斯泼溅"
+  - "可动画化头像"
+  - "前后视图参数化"
 ---
 
 # Vid2Avatar-Pro: Authentic Avatar from Videos in the Wild via Universal Prior

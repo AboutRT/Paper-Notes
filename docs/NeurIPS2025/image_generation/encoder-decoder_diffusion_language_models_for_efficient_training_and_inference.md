@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][扩散模型] 提出 E2D2，一种面向离散扩散语言模型的编码器-解码器架构，通过轻量解码器迭代去噪、大型编码器定期更新表征，同时实现更快推理（~3× vs MDLM）和更高效的 block diffusion 训练（FLOPs 减半）。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散模型
-  - encoder-decoder
-  - language model
-  - KV caching
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "encoder-decoder"
+  - "language model"
+  - "KV caching"
 ---
 
 # Encoder-Decoder Diffusion Language Models for Efficient Training and Inference
@@ -122,7 +122,7 @@ E2D2 比 AR 吞吐量高 ~75%，ROUGE-L 更高；比 MDLM 快 ~3×。
 
 ## 局限与展望
 
-1. 实验规模相对较小（<2B 参数），未在 7-8B 级模型上验证 E2D2 的扩展性
+1. 实验规模相对较小（&lt;2B 参数），未在 7-8B 级模型上验证 E2D2 的扩展性
 2. 编码器需定期重新编码已生成 tokens，对非常长的序列可能成为瓶颈
 3. 当前仅在任务特定模型上评估，通用语言建模的效果有待进一步验证
 4. 融合注意力核强制解码器在编码器表征和自身隐状态之间分配注意力，可能限制某些场景下的表达能力

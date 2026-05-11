@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][概念移除] 提出 Six-CD 基准，包含六类不良概念（有害、裸露、名人、版权角色、物体、艺术风格）和新评估指标 in-prompt CLIP score，首次系统性地对比评估文生图扩散模型的概念移除方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 概念移除
-  - 扩散模型安全
-  - 基准评测
-  - NSFW过滤
-  - 文生图模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "概念移除"
+  - "扩散模型安全"
+  - "基准评测"
+  - "NSFW过滤"
+  - "文生图模型"
 ---
 
 # Six-CD: Benchmarking Concept Removals for Text-to-Image Diffusion Models

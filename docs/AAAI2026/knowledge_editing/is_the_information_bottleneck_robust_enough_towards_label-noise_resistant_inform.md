@@ -1,15 +1,16 @@
 ---
 title: >-
-  [论文解读] LaT-IB：面向标签噪声鲁棒的信息瓶颈学习
+  [论文解读] Is the Information Bottleneck Robust Enough? Towards Label-Noise Resistant Information Bottleneck Learning
 description: >-
-  [AAAI 2026][信息瓶颈] 本文揭示了信息瓶颈（IB）原理在标签噪声下的固有脆弱性，提出 LaT-IB 方法，通过将表征解耦为干净标签空间和噪声标签空间两部分，结合"最小-充分-干净"（MSC）准则和三阶段训练框架，在多种噪声条件下实现了对现有 IB 方法的显著超越。
+  [AAAI 2026][知识编辑][信息瓶颈] 本文揭示了信息瓶颈（IB）原理在标签噪声下的固有脆弱性，提出 LaT-IB 方法，通过将表征解耦为干净标签空间和噪声标签空间两部分，结合"最小-充分-干净"（MSC）准则和三阶段训练框架，在多种噪声条件下实现了对现有 IB 方法的显著超越。
 tags:
-  - AAAI 2026
-  - 信息瓶颈
-  - 标签噪声
-  - 表示学习
-  - 鲁棒性
-  - 互信息
+  - "AAAI 2026"
+  - "知识编辑"
+  - "信息瓶颈"
+  - "标签噪声"
+  - "表示学习"
+  - "鲁棒性"
+  - "互信息"
 ---
 
 # Is the Information Bottleneck Robust Enough? Towards Label-Noise Resistant Information Bottleneck Learning

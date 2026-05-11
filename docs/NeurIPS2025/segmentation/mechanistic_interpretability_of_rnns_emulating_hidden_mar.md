@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Mechanistic Interpretability of RNNs Emulating Hidden Markov Models
 description: >-
-  [NeurIPS 2025][图像分割][RNN] 训练 vanilla RNN 复现 HMM 的发射统计，然后通过反向工程揭示 RNN 实现离散随机状态转换的机制：噪声驱动的轨道动力学 + "kick 神经元"触发的快速转换，本质是自诱导随机共振（SISR），该动力学基元可组合复用以模拟更复杂的离散潜在结构。
+  [NeurIPS 2025][语义分割][RNN] 训练 vanilla RNN 复现 HMM 的发射统计，然后通过反向工程揭示 RNN 实现离散随机状态转换的机制：噪声驱动的轨道动力学 + "kick 神经元"触发的快速转换，本质是自诱导随机共振（SISR），该动力学基元可组合复用以模拟更复杂的离散潜在结构…
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - RNN
-  - HMM
-  - mechanistic interpretability
-  - stochastic resonance
-  - kick neurons
-  - orbital dynamics
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "RNN"
+  - "HMM"
+  - "mechanistic interpretability"
+  - "stochastic resonance"
+  - "kick neurons"
+  - "orbital dynamics"
 ---
 
 # Mechanistic Interpretability of RNNs Emulating Hidden Markov Models
@@ -88,7 +88,7 @@ $$h_t = \text{ReLU}(h_{t-1} W_{hh}^\top + x_t W_{ih}^\top), \quad y_t = h_t A^\t
 **Transitions（驻留时间 < 2）**：
 - 跨过 kick-zone 后进入的短暂通道
 - 几乎确定性地向下一个 cluster 运动
-- logit 梯度变化极少（<1），流场稳定且有方向性
+- logit 梯度变化极少（&lt;1），流场稳定且有方向性
 
 **噪声敏感性验证**：Transition 区域对噪声条件几乎不敏感——一旦跨过 kick-zone，轨迹准确定性地前进。而 Cluster 区域高度噪声敏感——不同噪声条件下轨迹分歧显著。
 

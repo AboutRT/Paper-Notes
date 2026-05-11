@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][Chain-of-Thought] 本文通过 Cross-CoT 实验和逐步分析，揭示了 CoT 推理的"解耦机制"：最终准确率由 CoT 内容决定（99% 方差贡献），但分布排序由模型内在先验主导（>80%），说明长 CoT 是强大的决策器但弱的分布校准器。
 tags:
-  - ACL 2026
-  - LLM推理
-  - Chain-of-Thought
-  - 人类标签变异
-  - 分布对齐
-  - 推理解耦
-  - 模型先验
+  - "ACL 2026"
+  - "LLM推理"
+  - "Chain-of-Thought"
+  - "人类标签变异"
+  - "分布对齐"
+  - "推理解耦"
+  - "模型先验"
 ---
 
 # Decoupling the Effect of Chain-of-Thought Reasoning: A Human Label Variation Perspective

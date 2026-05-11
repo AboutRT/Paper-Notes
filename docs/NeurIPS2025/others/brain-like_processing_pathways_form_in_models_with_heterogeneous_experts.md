@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Brain-Like Processing Pathways Form in Models With Heterogeneous Experts
 description: >-
-  [NeurIPS 2025][Mixture-of-Experts] 在异构 Mixture-of-Experts 模型中，异构专家并不会自动形成处理通路；本文提出三个受大脑启发的归纳偏置（路由代价、任务表现缩放、专家 Dropout），使模型形成类似大脑"皮层-皮层下"动态通路的 Mixture-of-Pathways 架构。
+  [NeurIPS 2025][Mixture-of-Experts] 在异构 Mixture-of-Experts 模型中，异构专家并不会自动形成处理通路；本文提出三个受大脑启发的归纳偏置（路由代价、任务表现缩放、专家 Dropout）…
 tags:
-  - NeurIPS 2025
-  - Mixture-of-Experts
-  - 异构专家
-  - 处理通路
-  - 归纳偏置
-  - 类脑计算
-  - 认知任务
+  - "NeurIPS 2025"
+  - "Mixture-of-Experts"
+  - "异构专家"
+  - "处理通路"
+  - "归纳偏置"
+  - "类脑计算"
+  - "认知任务"
 ---
 
 # Brain-Like Processing Pathways Form in Models With Heterogeneous Experts
@@ -82,9 +82,9 @@ $$L = L_{fix} + \sum_{i}^{\mathcal{T}} \left( L_{response,i} + \frac{\alpha \cdo
 
 | 判据 | 指标 | 基线模型 | MoP 模型 |
 |------|------|----------|----------|
-| 一致性 (Consistency) | 20 次训练的路由模式相关性 | 0.03 | **0.51** (p<0.0001) |
+| 一致性 (Consistency) | 20 次训练的路由模式相关性 | 0.03 | **0.51** (p&lt;0.0001) |
 | 自给自足 (Self-sufficiency) | 去除低权重专家后准确率 | 98.2%→16.4% | 85.8%→**74.4%** |
-| 区分性 (Distinctness) | 不同任务集群使用不同专家组合 | 均匀分布 | **幂律分布** (p<0.0001) |
+| 区分性 (Distinctness) | 不同任务集群使用不同专家组合 | 均匀分布 | **幂律分布** (p&lt;0.0001) |
 
 ### 表2：消融实验——设计选择对类脑通路的影响
 

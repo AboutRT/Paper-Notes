@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][干扰项生成] 本文提出了一个通过成对排序器预测学生选择倾向、再利用DPO训练干扰项生成器的三步流水线，使生成的多选题干扰项更具有迷惑性和区分度。
 tags:
-  - ACL 2025
-  - 干扰项生成
-  - 多选题
-  - 其他
-  - 学生选择预测
-  - 教育评估
+  - "ACL 2025"
+  - "干扰项生成"
+  - "多选题"
+  - "DPO"
+  - "学生选择预测"
+  - "教育评估"
 ---
 
 # Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction

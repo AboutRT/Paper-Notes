@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][时间序列][不确定性估计] 提出 SIVR 框架，通过计算 LLM 隐藏状态跨层的内部方差（广义方差、圆方差、token 熵）作为 token 级特征，用轻量 Transformer 编码器聚合全序列模式来估计不确定性/检测幻觉，显著优于基线且泛化更强。
 tags:
-  - ACL 2026
-  - 时间序列
-  - 不确定性估计
-  - 幻觉检测
-  - 隐藏状态方差
-  - 序列聚合
-  - 内部表征分散度
+  - "ACL 2026"
+  - "时间序列"
+  - "不确定性估计"
+  - "幻觉检测"
+  - "隐藏状态方差"
+  - "序列聚合"
+  - "内部表征分散度"
 ---
 
 # Learning Uncertainty from Sequential Internal Dispersion in Large Language Models

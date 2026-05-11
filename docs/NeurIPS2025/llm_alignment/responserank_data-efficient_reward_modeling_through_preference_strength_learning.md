@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][奖励模型] 提出 ResponseRank 方法,通过利用偏好强度的代理信号（如响应时间和标注者一致性）的局部相对差异来鲁棒地学习效用差值,显著提升奖励模型的样本效率。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - 奖励模型
-  - 偏好强度
-  - 响应排名
-  - RLHF
-  - 样本效率
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "奖励模型"
+  - "偏好强度"
+  - "响应排名"
+  - "RLHF"
+  - "样本效率"
 ---
 
 # ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning

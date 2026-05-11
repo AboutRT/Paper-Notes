@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
 description: >-
-  [NeurIPS 2025 (D&B Oral)][mode collapse] 构建了 Infinity-Chat 数据集（26K 开放式真实用户查询 + 31,250 条人类标注），揭示了 LM 在开放式生成中的"Artificial Hivemind"效应——模型内重复和模型间同质化严重，并发现 Reward Model 和 LM Judge 在个体偏好差异大的样本上校准失败。
+  [NeurIPS 2025 (D&B Oral)][信号/通信][mode collapse] 构建了 Infinity-Chat 数据集（26K 开放式真实用户查询 + 31,250 条人类标注），揭示了 LM 在开放式生成中的"Artificial Hivemind"效应——模型内重复和模型间同质化严重…
 tags:
   - "NeurIPS 2025 (D&B Oral)"
-  - mode collapse
-  - LM diversity
-  - 信号通信
-  - Infinity-Chat
-  - artificial hivemind
-  - human preferences
+  - "信号/通信"
+  - "mode collapse"
+  - "LM diversity"
+  - "open-ended generation"
+  - "Infinity-Chat"
+  - "artificial hivemind"
+  - "human preferences"
 ---
 
 # Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)

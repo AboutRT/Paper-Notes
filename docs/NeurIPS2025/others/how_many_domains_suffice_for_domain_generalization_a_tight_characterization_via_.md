@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][领域泛化] 提出"领域碎裂维度"（Domain Shattering Dimension）这一新组合度量，紧致刻画了领域泛化所需的领域数量（领域样本复杂度），并证明其与经典VC维的关系为 $\Theta(d \log(1/\alpha))$。
 tags:
-  - NeurIPS 2025
-  - 领域泛化
-  - 领域碎裂维度
-  - 样本复杂度
-  - VC维
-  - Min-Max ERM
+  - "NeurIPS 2025"
+  - "领域泛化"
+  - "领域碎裂维度"
+  - "样本复杂度"
+  - "VC维"
+  - "Min-Max ERM"
 ---
 
 # How Many Domains Suffice for Domain Generalization? A Tight Characterization via the Domain Shattering Dimension

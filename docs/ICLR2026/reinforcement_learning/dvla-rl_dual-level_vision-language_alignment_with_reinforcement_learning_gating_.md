@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DVLA-RL: Dual-Level Vision-Language Alignment with Reinforcement Learning Gating for Few-Shot Learning
 description: >-
-  [ICLR 2026][少样本学习] 提出 DVLA-RL 框架，通过双层语义构建（DSC）生成互补的低层属性和高层描述，并以 RL 门控注意力（RLA）动态平衡自注意力和交叉注意力在不同网络层的贡献，实现从低层到高层的层次化视觉-语言对齐，在 9 个少样本学习基准上达到 SOTA。
+  [ICLR 2026][强化学习][少样本学习] 提出 DVLA-RL 框架，通过双层语义构建（DSC）生成互补的低层属性和高层描述，并以 RL 门控注意力（RLA）动态平衡自注意力和交叉注意力在不同网络层的贡献，实现从低层到高层的层次化视觉-语言对齐，在 9 个少样本学习基准上达到 SOTA。
 tags:
-  - ICLR 2026
-  - 少样本学习
-  - 强化学习
-  - 强化学习门控
-  - 双层语义
-  - 跨模态融合
+  - "ICLR 2026"
+  - "强化学习"
+  - "少样本学习"
+  - "视觉-语言对齐"
+  - "强化学习门控"
+  - "双层语义"
+  - "跨模态融合"
 ---
 
 # DVLA-RL: Dual-Level Vision-Language Alignment with Reinforcement Learning Gating for Few-Shot Learning
@@ -141,7 +142,7 @@ DVLA-RL 包含两个核心模块：
 
 1. 依赖 LLM（Qwen2.5-VL-32B）生成属性，推理时的 LLM 调用增加延迟
 2. 属性和描述可以预计算，但新类别仍需 LLM 推理
-3. ChestX 等极端跨域场景提升有限（<1%），极端域偏移下视觉-语言对齐仍面临挑战
+3. ChestX 等极端跨域场景提升有限（&lt;1%），极端域偏移下视觉-语言对齐仍面临挑战
 4. RL 门控的 $\kappa$ 等超参需要验证集调优
 
 ## 相关工作与启发

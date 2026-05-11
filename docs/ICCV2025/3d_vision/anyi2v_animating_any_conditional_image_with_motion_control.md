@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][training-free] 提出AnyI2V，一个无需训练的框架，可接受任意模态图像（mesh、点云、深度图、骨架等）作为首帧条件，结合用户定义的轨迹实现运动控制的视频生成，在FID/FVD/ObjMC指标上优于现有training-free方法并与训练方法竞争。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - training-free
-  - Image-to-Video
-  - Motion Control
-  - 扩散模型
-  - 多模态条件
+  - "ICCV 2025"
+  - "3D视觉"
+  - "training-free"
+  - "Image-to-Video"
+  - "Motion Control"
+  - "扩散模型"
+  - "多模态条件"
 ---
 
 # AnyI2V: Animating Any Conditional Image with Motion Control

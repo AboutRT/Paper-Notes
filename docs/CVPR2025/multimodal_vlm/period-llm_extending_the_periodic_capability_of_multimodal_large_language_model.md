@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model
 description: >-
-  [CVPR 2025][多模态][周期性任务] 提出Period-LLM——首个具备周期性感知能力的MLLM，采用"从易到难"渐进式训练范式（文本重复→宏观周期视频→微观周期信号），配合"抵抗逻辑遗忘"（RLO）梯度优化策略，在重复动作计数、rPPG心率估计等跨模态周期任务上显著超越现有MLLM。
+  [CVPR 2025][多模态VLM][周期性任务] 提出Period-LLM——首个具备周期性感知能力的MLLM，采用"从易到难"渐进式训练范式（文本重复→宏观周期视频→微观周期信号），配合"抵抗逻辑遗忘"（RLO）梯度优化策略，在重复动作计数、rPPG心率估计等跨模态周期任务上显著超越现有MLLM。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 周期性任务
-  - 多模态VLM
-  - 渐进式训练
-  - 梯度优化
-  - 重复计数
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "周期性任务"
+  - "多模态大语言模型"
+  - "渐进式训练"
+  - "梯度优化"
+  - "重复计数"
 ---
 
 # Period-LLM: Extending the Periodic Capability of Multimodal Large Language Model

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][AI安全][政治偏见] 本文构建了首个带政治倾向标签的多文档新闻摘要数据集 FairNews，并通过五维公平性评估框架对 13 个 LLM 进行评估，发现中等规模模型在公平性和效率上优于大模型，且实体情感相似性是最难通过提示去偏的维度。
 tags:
-  - ACL 2026
-  - AI安全
-  - 政治偏见
-  - 多文档摘要
-  - 公平性评估
-  - 去偏方法
-  - 模型规模
+  - "ACL 2026"
+  - "AI安全"
+  - "政治偏见"
+  - "多文档摘要"
+  - "公平性评估"
+  - "去偏方法"
+  - "模型规模"
 ---
 
 # When Bigger Isn't Better: A Comprehensive Fairness Evaluation of Political Bias in Multi-News Summarisation

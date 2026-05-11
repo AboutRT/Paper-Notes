@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Improving the Calibration of Confidence Scores in Text Generation Using the Output Distribution's Characteristics
 description: >-
-  [ACL 2025 (Short)][置信度校准] 针对文本生成中多个有效输出导致传统置信度指标失效的问题，提出两种任务无关的置信度度量——"比率"（头部vs中部概率比）和"尾部稀薄度"（分布尾部薄厚），仅依赖模型输出概率即可改善 BART/Flan-T5 在摘要、翻译、问答任务上的置信度校准。
+  [ACL 2025 (Short)][LLM评测][置信度校准] 针对文本生成中多个有效输出导致传统置信度指标失效的问题，提出两种任务无关的置信度度量——"比率"（头部vs中部概率比）和"尾部稀薄度"（分布尾部薄厚），仅依赖模型输出概率即可改善 BART/Flan-T5 在摘要、翻译、问答任务上的置信度校准。
 tags:
-  - ACL 2025 (Short)
-  - 置信度校准
-  - LLM评测
-  - 概率分布
-  - 尾部稀薄度
-  - 生成不确定性
+  - "ACL 2025 (Short)"
+  - "LLM评测"
+  - "置信度校准"
+  - "文本生成"
+  - "概率分布"
+  - "尾部稀薄度"
+  - "生成不确定性"
 ---
 
 # Improving the Calibration of Confidence Scores in Text Generation Using the Output Distribution's Characteristics

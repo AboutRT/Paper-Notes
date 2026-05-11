@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Shrinking the Teacher: An Adaptive Teaching Paradigm for Asymmetric EEG-Vision Alignment
 description: >-
-  [AAAI 2026][其他][知识蒸馏] 提出自适应教学范式（Adaptive Teaching Paradigm），通过无残差连接的瓶颈结构 ShrinkAdapter 让视觉"教师"主动收缩和调整其知识结构以适配 EEG"学生"的学习能力，在零样本脑-图像检索任务上 Top-1 准确率达到 60.2%，超越前 SOTA 9.8 个百分点。
+  [AAAI 2026][知识蒸馏] 提出自适应教学范式（Adaptive Teaching Paradigm），通过无残差连接的瓶颈结构 ShrinkAdapter 让视觉"教师"主动收缩和调整其知识结构以适配 EEG"学生"的学习能力，在零样本脑-图像检索任务上 Top-1 准确率达到 60.2%…
 tags:
-  - AAAI 2026
-  - 其他
-  - 知识蒸馏
-  - EEG decoding
-  - 跨模态
-  - information bottleneck
-  - brain-computer interface
+  - "AAAI 2026"
+  - "知识蒸馏"
+  - "EEG decoding"
+  - "跨模态"
+  - "information bottleneck"
+  - "brain-computer interface"
 ---
 
 # Shrinking the Teacher: An Adaptive Teaching Paradigm for Asymmetric EEG-Vision Alignment

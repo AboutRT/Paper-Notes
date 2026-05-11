@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Optimization over Sparse Support-Preserving Sets: Two-Step Projection with Global Optimality Guarantees
 description: >-
-  [ICML 2025][优化][sparse optimization] 针对带有额外支撑保持约束的稀疏优化问题，提出两步投影IHT算法（先硬阈值再投影凸集），在RSC/RSS条件下给出全局目标值保证（无系统误差），揭示稀疏度松弛与次优性间的新trade-off。
+  [ICML 2025][优化/理论][sparse optimization] 针对带有额外支撑保持约束的稀疏优化问题，提出两步投影IHT算法（先硬阈值再投影凸集），在RSC/RSS条件下给出全局目标值保证（无系统误差），揭示稀疏度松弛与次优性间的新trade-off。
 tags:
-  - ICML 2025
-  - 优化
-  - sparse optimization
-  - IHT
-  - l0 constraint
-  - support-preserving
-  - two-step projection
+  - "ICML 2025"
+  - "优化/理论"
+  - "sparse optimization"
+  - "IHT"
+  - "l0 constraint"
+  - "support-preserving"
+  - "two-step projection"
 ---
 
 # Optimization over Sparse Support-Preserving Sets: Two-Step Projection with Global Optimality Guarantees

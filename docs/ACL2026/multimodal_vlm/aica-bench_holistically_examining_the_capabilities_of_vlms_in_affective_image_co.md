@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AICA-Bench: Holistically Examining the Capabilities of VLMs in Affective Image Content Analysis
 description: >-
-  [ACL 2026][多模态][情感分析] 提出 AICA-Bench，一个涵盖情感理解（EU）、情感推理（ER）和情感引导内容生成（EGCG）三个维度的综合基准，评估 23 个 VLM 后发现模型存在强度校准失败和描述浅薄两大缺陷，并提出 GAT Prompting 训练无关框架来缓解这些问题。
+  [ACL 2026][多模态VLM][情感分析] 提出 AICA-Bench，一个涵盖情感理解（EU）、情感推理（ER）和情感引导内容生成（EGCG）三个维度的综合基准，评估 23 个 VLM 后发现模型存在强度校准失败和描述浅薄两大缺陷，并提出 GAT Prompting 训练无关框架来缓解这些问题。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 视觉语言模型
-  - 基准测试
-  - 情感推理
-  - 提示工程
+  - "ACL 2026"
+  - "多模态VLM"
+  - "情感分析"
+  - "视觉语言模型"
+  - "基准测试"
+  - "情感推理"
+  - "提示工程"
 ---
 
 # AICA-Bench: Holistically Examining the Capabilities of VLMs in Affective Image Content Analysis

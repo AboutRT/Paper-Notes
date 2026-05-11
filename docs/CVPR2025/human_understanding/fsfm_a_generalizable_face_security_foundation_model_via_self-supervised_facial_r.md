@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][人脸安全] FSFM 提出首个面向人脸安全任务的自监督预训练框架，通过 CRFR-P 面部掩码策略 + MIM/ID 双任务协同学习真实人脸的 3C 表示（区域内一致性、区域间连贯性、局部到全局对应性），在深伪检测、活体检测和扩散伪造检测三大任务上超越任务专用 SOTA。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 人脸安全
-  - 自监督预训练
-  - 掩码图像建模
-  - 实例判别
-  - 基础模型
+  - "CVPR 2025"
+  - "人体理解"
+  - "人脸安全"
+  - "自监督预训练"
+  - "掩码图像建模"
+  - "实例判别"
+  - "基础模型"
 ---
 
 # FSFM: A Generalizable Face Security Foundation Model via Self-Supervised Facial Representation Learning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Constrained Network Slice Assignment via Large Language Models
 description: >-
-  [NeurIPS 2025][优化][网络切片] 探索用LLM（Claude系列）解决5G网络切片资源分配的约束优化问题，提出零样本LLM直接分配和LLM引导整数规划两种方法，发现LLM单独使用可产生合理的初始分配但可能违反约束，与ILP求解器结合则能实现100%完备性和均衡利用率。
+  [NeurIPS 2025][优化/理论][网络切片] 探索用LLM（Claude系列）解决5G网络切片资源分配的约束优化问题，提出零样本LLM直接分配和LLM引导整数规划两种方法，发现LLM单独使用可产生合理的初始分配但可能违反约束，与ILP求解器结合则能实现100%完备性和均衡利用率。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 网络切片
-  - 5G资源分配
-  - LLM
-  - 整数规划
-  - 约束优化
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "网络切片"
+  - "5G资源分配"
+  - "LLM"
+  - "整数规划"
+  - "约束优化"
 ---
 
 # Constrained Network Slice Assignment via Large Language Models

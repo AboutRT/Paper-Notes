@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ThreadSumm: Summarization of Nested Discourse Threads Using Tree of Thoughts
 description: >-
-  [ACL 2026][可解释性][嵌套话语线程摘要] 本文提出 ThreadSumm，一个多阶段 LLM 管道框架，将嵌套话语线程摘要建模为层次推理问题——先提取方面和原子内容单元进行内容规划，再通过句子排序构建线程感知序列，最后用 Tree of Thoughts 搜索生成和评分多个段落候选，在 Reddit/StackExchange 数据集上优于基线。
+  [ACL 2026][可解释性][嵌套话语线程摘要] 本文提出 ThreadSumm，一个多阶段 LLM 管道框架，将嵌套话语线程摘要建模为层次推理问题——先提取方面和原子内容单元进行内容规划，再通过句子排序构建线程感知序列，最后用 Tree of Thoughts 搜索生成和评分多个段落候选…
 tags:
-  - ACL 2026
-  - 可解释性
-  - 嵌套话语线程摘要
-  - Tree of Thoughts
-  - 原子内容单元
-  - 多阶段LLM管道
-  - 连贯性与覆盖性
+  - "ACL 2026"
+  - "可解释性"
+  - "嵌套话语线程摘要"
+  - "Tree of Thoughts"
+  - "原子内容单元"
+  - "多阶段LLM管道"
+  - "连贯性与覆盖性"
 ---
 
 # ThreadSumm: Summarization of Nested Discourse Threads Using Tree of Thoughts

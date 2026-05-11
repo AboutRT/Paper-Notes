@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Large Stepsizes Accelerate Gradient Descent for Regularized Logistic Regression
 description: >-
-  [NeurIPS 2025][优化][gradient descent] 证明了在线性可分数据上对 $\ell_2$ 正则化逻辑回归使用大步长 GD（进入 Edge of Stability 区间），可将步复杂度从经典的 $\widetilde{O}(\kappa)$ 加速到 $\widetilde{O}(\sqrt{\kappa})$，在小正则化下匹配 Nesterov 动量的加速率。
+  [NeurIPS 2025][优化/理论][gradient descent] 证明了在线性可分数据上对 $\ell_2$ 正则化逻辑回归使用大步长 GD（进入 Edge of Stability 区间）…
 tags:
-  - NeurIPS 2025
-  - 优化
-  - gradient descent
-  - large stepsizes
-  - edge of stability
-  - logistic regression
-  - acceleration
-  - condition number
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "gradient descent"
+  - "large stepsizes"
+  - "edge of stability"
+  - "logistic regression"
+  - "acceleration"
+  - "condition number"
 ---
 
 # Large Stepsizes Accelerate Gradient Descent for Regularized Logistic Regression

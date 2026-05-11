@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型] 提出U2Diff，一个统一的扩散模型框架，能同时处理多智能体轨迹补全和预测任务，通过增强去噪损失提供逐状态不确定性估计，并引入Rank Neural Network对生成的多模态预测进行误差概率排序。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型
-  - trajectory completion
-  - uncertainty estimation
-  - multi-agent
-  - error probability
-  - sports analytics
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "trajectory completion"
+  - "uncertainty estimation"
+  - "multi-agent"
+  - "error probability"
+  - "sports analytics"
 ---
 
 # Unified Uncertainty-Aware Diffusion for Multi-Agent Trajectory Modeling

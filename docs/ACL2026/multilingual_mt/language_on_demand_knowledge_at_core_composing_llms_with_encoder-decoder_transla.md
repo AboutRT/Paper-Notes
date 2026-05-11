@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Language on Demand, Knowledge at Core: Composing LLMs with Encoder-Decoder Translation Models for Extensible Multilinguality
 description: >-
-  [ACL 2026][多语言翻译][多语言LLM] 本文提出 XBridge，一种将预训练多语言编码器-解码器翻译模型（如 NLLB）与英语为中心的 LLM 组合的架构——编码器负责多语言理解、LLM 负责知识推理、解码器负责多语言生成，通过轻量级映射层和最优传输对齐实现跨模型语义桥接，在低资源和未见语言上显著优于基线。
+  [ACL 2026][多语言/翻译][多语言LLM] 本文提出 XBridge，一种将预训练多语言编码器-解码器翻译模型（如 NLLB）与英语为中心的 LLM 组合的架构——编码器负责多语言理解、LLM 负责知识推理、解码器负责多语言生成，通过轻量级映射层和最优传输对齐实现跨模型语义桥接…
 tags:
-  - ACL 2026
-  - 多语言翻译
-  - 多语言LLM
-  - 模型组合
-  - 编码器-解码器翻译模型
-  - 最优传输对齐
-  - 低资源语言
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "多语言LLM"
+  - "模型组合"
+  - "编码器-解码器翻译模型"
+  - "最优传输对齐"
+  - "低资源语言"
 ---
 
 # Language on Demand, Knowledge at Core: Composing LLMs with Encoder-Decoder Translation Models for Extensible Multilinguality

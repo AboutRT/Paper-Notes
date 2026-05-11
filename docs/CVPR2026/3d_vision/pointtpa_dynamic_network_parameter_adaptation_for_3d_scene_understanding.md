@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][点云语义分割] 提出 PointTPA 框架，通过序列化邻域分组（SNG）和动态参数投射器（DPP）两个轻量模块在推理时为每个输入场景生成定制化的网络参数，仅增加 <2% 参数量即在 ScanNet 上达到 78.4% mIoU，超越现有参数高效微调（PEFT）方法。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 点云语义分割
-  - 测试时参数自适应
-  - 动态网络
-  - 参数高效微调
-  - 场景级理解
+  - "CVPR 2026"
+  - "3D视觉"
+  - "点云语义分割"
+  - "测试时参数自适应"
+  - "动态网络"
+  - "参数高效微调"
+  - "场景级理解"
 ---
 
 # PointTPA: Dynamic Network Parameter Adaptation for 3D Scene Understanding

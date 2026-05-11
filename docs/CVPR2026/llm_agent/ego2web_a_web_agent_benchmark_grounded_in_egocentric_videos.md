@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos
 description: >-
-  [CVPR 2026][LLM Agent][Web Agent] 提出 Ego2Web，首个将第一人称视频感知与 Web 代理执行相结合的基准测试，配套半自动数据构建流程和 Ego2WebJudge 自动评测框架，实验揭示当前最强 Agent 在真实视觉感知到在线行动的跨模态迁移上仍有巨大差距，最高仅 48.2% 成功率。
+  [CVPR 2026][LLM Agent][Web Agent] 提出 Ego2Web，首个将第一人称视频感知与 Web 代理执行相结合的基准测试，配套半自动数据构建流程和 Ego2WebJudge 自动评测框架，实验揭示当前最强 Agent 在真实视觉感知到在线行动的跨模态迁移上仍有巨大差距…
 tags:
-  - CVPR 2026
-  - LLM Agent
-  - Web Agent
-  - 第一人称视频
-  - 多模态基准
-  - 跨模态迁移
-  - 自动评测
+  - "CVPR 2026"
+  - "LLM Agent"
+  - "Web Agent"
+  - "第一人称视频"
+  - "多模态基准"
+  - "跨模态迁移"
+  - "自动评测"
 ---
 
 # Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos

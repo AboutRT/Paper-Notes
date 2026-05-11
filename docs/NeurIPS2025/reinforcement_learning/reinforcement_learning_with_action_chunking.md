@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reinforcement Learning with Action Chunking
 description: >-
-  [NeurIPS 2025][动作分块] 提出 Q-chunking,将动作分块技术从模仿学习推广到基于 TD 的强化学习方法中,通过在"分块"动作空间上直接运行 RL 来改善长horizon稀疏奖励任务的探索和学习效率。
+  [NeurIPS 2025][强化学习][动作分块] 提出 Q-chunking,将动作分块技术从模仿学习推广到基于 TD 的强化学习方法中,通过在"分块"动作空间上直接运行 RL 来改善长horizon稀疏奖励任务的探索和学习效率。
 tags:
-  - NeurIPS 2025
-  - 动作分块
-  - Q-learning
-  - 离线到在线RL
-  - 稀疏奖励
-  - 强化学习
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "动作分块"
+  - "Q-learning"
+  - "离线到在线RL"
+  - "稀疏奖励"
+  - "操作任务"
 ---
 
 # Reinforcement Learning with Action Chunking

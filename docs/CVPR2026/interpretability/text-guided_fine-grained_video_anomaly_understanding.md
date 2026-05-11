@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Text-guided Fine-Grained Video Anomaly Understanding
 description: >-
-  [CVPR2026][可解释性] 提出T-VAU框架，通过异常热力图解码器(AHD)实现像素级时空异常定位，并设计区域感知异常编码器(RAE)将热力图证据注入LVLM进行异常判断、定位和语义解释的统一推理。
+  [CVPR2026][可解释性][视频异常检测] 提出T-VAU框架，通过异常热力图解码器(AHD)实现像素级时空异常定位，并设计区域感知异常编码器(RAE)将热力图证据注入LVLM进行异常判断、定位和语义解释的统一推理。
 tags:
-  - CVPR2026
-  - 可解释性
-  - 异常热力图
-  - 区域感知编码器
-  - 大视觉语言模型
-  - 多轮对话
+  - "CVPR2026"
+  - "可解释性"
+  - "视频异常检测"
+  - "异常热力图"
+  - "区域感知编码器"
+  - "大视觉语言模型"
+  - "多轮对话"
 ---
 
 # Text-guided Fine-Grained Video Anomaly Understanding

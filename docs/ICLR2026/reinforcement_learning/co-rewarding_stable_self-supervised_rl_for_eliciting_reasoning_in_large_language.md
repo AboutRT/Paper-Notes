@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models
 description: >-
-  [ICLR 2026][强化学习] Co-rewarding 提出自监督 RL 框架，通过数据侧（对比改写问题的跨视角一致性）和模型侧（EMA 教师模型提供伪标签）两种互补监督方式，解决自奖励 RL 中的训练崩溃问题，在无人工标签条件下多项数学推理基准上达到甚至超过 RLVR（有标签）的性能。
+  [ICLR 2026][强化学习][自监督RL] Co-rewarding 提出自监督 RL 框架，通过数据侧（对比改写问题的跨视角一致性）和模型侧（EMA 教师模型提供伪标签）两种互补监督方式，解决自奖励 RL 中的训练崩溃问题，在无人工标签条件下多项数学推理基准上达到甚至超过 RLVR（有标签）的性能。
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 无标签推理
-  - 训练崩溃
-  - GRPO
-  - 对比学习
+  - "ICLR 2026"
+  - "强化学习"
+  - "自监督RL"
+  - "无标签推理"
+  - "训练崩溃"
+  - "GRPO"
+  - "对比学习"
 ---
 
 # Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models

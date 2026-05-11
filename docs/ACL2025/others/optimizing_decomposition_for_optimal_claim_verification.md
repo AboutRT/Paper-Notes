@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][Decompose-Then-Verify] 提出动态分解（Dynamic Decomposition）框架，通过强化学习从验证器反馈中学习分解策略，将声明（claim）分解为验证器偏好的原子性粒度，弥合分解器与验证器之间的性能差距。
 tags:
-  - ACL 2025
-  - Decompose-Then-Verify
-  - atomicity
-  - 其他
-  - PPO
-  - fact-checking
+  - "ACL 2025"
+  - "Decompose-Then-Verify"
+  - "atomicity"
+  - "强化学习"
+  - "PPO"
+  - "fact-checking"
 ---
 
 # Optimizing Decomposition for Optimal Claim Verification

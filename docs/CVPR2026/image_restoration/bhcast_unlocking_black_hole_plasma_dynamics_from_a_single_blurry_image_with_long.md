@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][黑洞成像] BHCast从单张模糊的EHT黑洞图像出发，通过U-Net动力学代理模型进行超分辨率+长期自回归预测（100步稳定），从预测的等离子体动力学中提取物理特征（旋转速度、螺旋角等），再通过XGBoost推断黑洞自旋和倾角，在真实M87*观测图像上也展示了有效性。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - 黑洞成像
-  - 超分辨率
-  - 图像复原
-  - 物理推断
-  - 动力学建模
+  - "CVPR 2026"
+  - "图像恢复"
+  - "黑洞成像"
+  - "超分辨率"
+  - "长期时序预测"
+  - "物理推断"
+  - "动力学建模"
 ---
 
 # BHCast: Unlocking Black Hole Plasma Dynamics from a Single Blurry Image with Long-Term Forecasting

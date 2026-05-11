@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Graph Counselor: Adaptive Graph Exploration via Multi-Agent Synergy to Enhance LLM Reasoning
 description: >-
-  [ACL 2025][LLM/NLP][图检索增强生成] Graph Counselor 提出了一个多智能体协作的 GraphRAG 推理框架，通过 Planning/Thought/Execution 三个 Agent 自适应提取图结构信息，并引入多视角自反思机制纠正推理偏差，在多个图推理任务上超越现有方法。
+  [ACL 2025][LLM/NLP][图检索增强生成] Graph Counselor 提出了一个多智能体协作的 GraphRAG 推理框架，通过 Planning/Thought/Execution 三个 Agent 自适应提取图结构信息，并引入多视角自反思机制纠正推理偏差，在多个图推理任务上超越现有方法…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 图检索增强生成
-  - 多智能体协作
-  - 知识图谱推理
-  - 自反思
-  - 图结构推理
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "图检索增强生成"
+  - "多智能体协作"
+  - "知识图谱推理"
+  - "自反思"
+  - "图结构推理"
 ---
 
 # Graph Counselor: Adaptive Graph Exploration via Multi-Agent Synergy to Enhance LLM Reasoning

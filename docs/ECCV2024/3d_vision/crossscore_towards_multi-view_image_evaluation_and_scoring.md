@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][图像质量评估] 提出 Cross-Reference（CR）图像质量评估新范式，通过对比查询图像与多个不同视角参考图像，利用 cross-attention 神经网络预测与 SSIM 高度相关的像素级质量分数，无需 ground truth 参考图像即可评估新视角合成质量。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 图像质量评估
-  - 跨参考评估
-  - 新视角合成
-  - 注意力机制
-  - 自监督
+  - "ECCV 2024"
+  - "3D视觉"
+  - "图像质量评估"
+  - "跨参考评估"
+  - "新视角合成"
+  - "注意力机制"
+  - "自监督"
 ---
 
 # CrossScore: Towards Multi-View Image Evaluation and Scoring

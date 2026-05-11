@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation
 description: >-
-  [NeurIPS 2025][模型压缩][LoRA] TopLoRA 从输入-输出投影角度分析 LoRA 的表达能力，发现所有 token 共享同一投影矩阵是关键瓶颈，提出通过可学习的 token 级对角矩阵 $\Sigma_X$ 动态调整 LoRA 权重（$\Delta W_X = B\Sigma_X A$），在不增加秩的前提下实现细粒度适配，跨任务一致优于 LoRA 2-3%。
+  [NeurIPS 2025][模型压缩][LoRA] TopLoRA 从输入-输出投影角度分析 LoRA 的表达能力，发现所有 token 共享同一投影矩阵是关键瓶颈，提出通过可学习的 token 级对角矩阵 $\Sigma_X$ 动态调整 LoRA 权重（$\Delta W_X = B\Sigma_X A$…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - LoRA
-  - 低秩适配
-  - Token级自适应
-  - 输入输出投影
-  - PEFT
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "LoRA"
+  - "低秩适配"
+  - "Token级自适应"
+  - "输入输出投影"
+  - "PEFT"
 ---
 
 # Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation

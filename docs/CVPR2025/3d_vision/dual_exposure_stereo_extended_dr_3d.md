@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][双曝光立体] 提出双曝光立体方法（Dual-Exposure Stereo），通过自动控制立体相机的双曝光参数扩展有效动态范围，并设计运动感知的双曝光深度估计网络，在宽动态范围场景中实现鲁棒的 3D 成像。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 双曝光立体
-  - 高动态范围
-  - 深度估计
-  - 自动曝光控制
-  - 机器人视觉
+  - "CVPR 2025"
+  - "3D视觉"
+  - "双曝光立体"
+  - "高动态范围"
+  - "深度估计"
+  - "自动曝光控制"
+  - "机器人视觉"
 ---
 
 # Dual Exposure Stereo for Extended Dynamic Range 3D Imaging

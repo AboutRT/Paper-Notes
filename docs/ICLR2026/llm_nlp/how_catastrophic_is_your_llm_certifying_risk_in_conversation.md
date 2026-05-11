@@ -2,15 +2,15 @@
 title: >-
   [论文解读] How Catastrophic is Your LLM? Certifying Risk in Conversation
 description: >-
-  [ICLR 2026][LLM/NLP][safety certification] 提出 C3LLM（Certification of Catastrophic risks in multi-turn Conversation for LLMs），首个为多轮 LLM 对话中灾难性风险提供统计认证的框架：用语义相似度图上的 Markov 过程建模对话分布，定义 3 种对话采样策略 + 增强层，使用 Clopper-Pearson 95% 置信区间认证模型产生有害输出的概率界——发现最差模型风险下界高达 72%。
+  [ICLR 2026][LLM/NLP][safety certification] 提出 C3LLM（Certification of Catastrophic risks in multi-turn Conversation for LLMs）…
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - safety certification
-  - multi-turn attack
-  - Markov process
-  - catastrophic risk
-  - statistical guarantee
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "safety certification"
+  - "multi-turn attack"
+  - "Markov process"
+  - "catastrophic risk"
+  - "statistical guarantee"
 ---
 
 # How Catastrophic is Your LLM? Certifying Risk in Conversation
@@ -107,7 +107,7 @@ tags:
 ### 关键发现
 
 - **DeepSeek-R1 在 Cybercrime 下风险下界 72.1%**——即使最保守估计，>70% 随机采样对话触发灾难性输出
-- **Claude-Sonnet-4 和 Nova Premier 显著更安全**（<14% / <7%），但绝非零风险
+- **Claude-Sonnet-4 和 Nova Premier 显著更安全**（&lt;14% / &lt;7%），但绝非零风险
 - **拒绝信号的双刃剑**：拒绝率 15-20% 的模型为自适应攻击提供了精确的反馈信号——拒绝告诉攻击者"你太接近了，稍退一步"
 - **案例分析发现两种攻击模式**：(a) 干扰项（distractors）——在有害查询前插入无害查询降低模型警惕 (b) 上下文（context）——前几轮提供背景信息让最终有害查询看起来更合理
 - 统计认证比固定基准发现的脆弱性多出数量级——20 条固定攻击 vs $10^{10}$ 空间的概率界

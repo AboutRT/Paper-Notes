@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss
 description: >-
-  [ICLR 2026][视频理解][Mixture-of-Experts] 提出 Expert-Router Coupling (ERC) Loss，一种轻量级辅助损失函数，通过将路由器参数视为聚类中心的代理 token 并约束专家对其激活范数，实现路由器决策与专家能力的紧密耦合，仅需 $n^2$ 次激活计算即可显著提升 MoE-LLM 性能。
+  [ICLR 2026][视频理解][Mixture-of-Experts] 提出 Expert-Router Coupling (ERC) Loss，一种轻量级辅助损失函数，通过将路由器参数视为聚类中心的代理 token 并约束专家对其激活范数，实现路由器决策与专家能力的紧密耦合…
 tags:
-  - ICLR 2026
-  - 视频理解
-  - Mixture-of-Experts
-  - 路由-专家耦合
-  - 辅助损失
-  - 专家特化
-  - 大语言模型
+  - "ICLR 2026"
+  - "视频理解"
+  - "Mixture-of-Experts"
+  - "路由-专家耦合"
+  - "辅助损失"
+  - "专家特化"
+  - "大语言模型"
 ---
 
 # Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss

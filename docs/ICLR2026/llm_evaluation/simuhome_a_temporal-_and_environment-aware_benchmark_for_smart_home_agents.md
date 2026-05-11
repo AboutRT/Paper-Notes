@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home Agents
 description: >-
-  [ICLR 2026][smart_home] SimuHome 是一个基于 Matter 协议的高保真智能家居仿真器和 600 集评估基准，支持环境变量动态变化和时间加速调度评估，揭示了工作流调度是当前 LLM 代理最持久的挑战。
+  [ICLR 2026][LLM评测][smart_home] SimuHome 是一个基于 Matter 协议的高保真智能家居仿真器和 600 集评估基准，支持环境变量动态变化和时间加速调度评估，揭示了工作流调度是当前 LLM 代理最持久的挑战。
 tags:
-  - ICLR 2026
-  - smart_home
-  - LLM评测
-  - benchmark
-  - temporal_reasoning
-  - workflow_scheduling
+  - "ICLR 2026"
+  - "LLM评测"
+  - "smart_home"
+  - "LLM_agent"
+  - "benchmark"
+  - "temporal_reasoning"
+  - "workflow_scheduling"
 ---
 
 # SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home Agents

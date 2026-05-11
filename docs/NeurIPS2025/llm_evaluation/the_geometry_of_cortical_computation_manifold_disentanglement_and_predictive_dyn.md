@@ -2,14 +2,15 @@
 title: >-
   [论文解读] The Geometry of Cortical Computation: Manifold Disentanglement and Predictive Dynamics in VCNet
 description: >-
-  [NeurIPS 2025 (Workshop: NeurReps & CogInterp)][视觉皮层网络] 本文提出VCNet——一种模拟灵长类视觉皮层宏观组织的神经网络架构，用几何和动力系统语言重新诠释双流分离（流形解缠）和预测编码（测地线精炼），以0.04MB的极小体积在Spots-10上达到92.1%（比DenseNet蒸馏版高10%），在光场分类上以3.52MB达到74.4%（超MobileNetV2 2.3%）。
+  [NeurIPS 2025 (Workshop: NeurReps & CogInterp)][LLM评测][视觉皮层网络] 本文提出VCNet——一种模拟灵长类视觉皮层宏观组织的神经网络架构，用几何和动力系统语言重新诠释双流分离（流形解缠）和预测编码（测地线精炼）…
 tags:
   - "NeurIPS 2025 (Workshop: NeurReps & CogInterp)"
-  - 视觉皮层网络
-  - 流形解缠
-  - 预测编码
-  - 双流处理
-  - 生物启发架构
+  - "LLM评测"
+  - "视觉皮层网络"
+  - "流形解缠"
+  - "预测编码"
+  - "双流处理"
+  - "生物启发架构"
 ---
 
 # The Geometry of Cortical Computation: Manifold Disentanglement and Predictive Dynamics in VCNet

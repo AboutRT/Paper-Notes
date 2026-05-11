@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][扩散语言模型] 本文提出通过任务特定的训练策略优化扩散语言模型，在保持生成质量的同时大幅降低训练和推理成本，使扩散模型在文本生成任务上更具实用性。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 扩散语言模型
-  - 任务特定训练
-  - 文本生成
-  - 去噪效率
-  - 推理加速
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "扩散语言模型"
+  - "任务特定训练"
+  - "文本生成"
+  - "去噪效率"
+  - "推理加速"
 ---
 
 # Cheaper and Better Diffusion Language Model via Task-Specific Training

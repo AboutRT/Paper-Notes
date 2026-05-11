@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM评测][文档摘要] 首次将Conformal Prediction应用于文档摘要，通过校准句子重要性分数的阈值，为抽取式摘要提供用户可控的覆盖率($1-\alpha$)和召回率($\beta$)的严格统计保证，方法模型无关且仅需小规模校准集。
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - 文档摘要
-  - 共形预测
-  - 重要性覆盖保证
-  - 抽取式摘要
-  - 分布无关
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "文档摘要"
+  - "共形预测"
+  - "重要性覆盖保证"
+  - "抽取式摘要"
+  - "分布无关"
 ---
 
 # Document Summarization with Conformal Importance Guarantees

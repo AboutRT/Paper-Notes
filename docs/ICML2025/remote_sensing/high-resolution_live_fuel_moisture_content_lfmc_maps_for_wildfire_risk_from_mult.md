@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][遥感][LFMC] 利用预训练多模态地球观测模型 Galileo 微调生成 10 米分辨率的活体燃料含水量（LFMC）地图，相比随机初始化模型 RMSE 降低 20%+，并通过 2025 年洛杉矶野火案例验证了管线的实用性。
 tags:
-  - ICML 2025
-  - 遥感
-  - LFMC
-  - Wildfire Risk
-  - foundation model
-  - Remote Sensing
-  - Galileo
+  - "ICML 2025"
+  - "遥感"
+  - "LFMC"
+  - "Wildfire Risk"
+  - "foundation model"
+  - "Remote Sensing"
+  - "Galileo"
 ---
 
 # High-Resolution Live Fuel Moisture Content (LFMC) Maps for Wildfire Risk from Multimodal Earth Observation Data
@@ -101,7 +101,7 @@ tags:
 | TerraClimate | 19.51 | 0.70 | 25.57 | **0.49** (-14%) |
 | 位置编码 | 20.08 | 0.69 | 23.80 | 0.56 |
 
-预训练模型移除任何单一模态后性能波动小（RMSE 变化 <1.2），而随机初始化模型移除 TerraClimate 后 R² 暴跌 14%。
+预训练模型移除任何单一模态后性能波动小（RMSE 变化 &lt;1.2），而随机初始化模型移除 TerraClimate 后 R² 暴跌 14%。
 
 ### 关键发现
 

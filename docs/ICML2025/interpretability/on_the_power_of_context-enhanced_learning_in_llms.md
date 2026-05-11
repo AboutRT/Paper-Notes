@@ -2,15 +2,16 @@
 title: >-
   [论文解读] On the Power of Context-Enhanced Learning in LLMs
 description: >-
-  [ICML 2025 (Main Conference)][Context-Enhanced Learning] 本文形式化定义了"上下文增强学习"（context-enhanced learning），证明在简化设定下它比标准学习的样本效率**指数级更高**，并在机制层面揭示其优势来源于更精确的梯度学习信号。
+  [ICML 2025 (Main Conference)][可解释性][Context-Enhanced Learning] 本文形式化定义了"上下文增强学习"（context-enhanced learning），证明在简化设定下它比标准学习的样本效率**指数级更高**…
 tags:
-  - ICML 2025 (Main Conference)
-  - Context-Enhanced Learning
-  - In-Context Learning
-  - Sample Efficiency
-  - Gradient Signal
-  - 可解释性
-  - Data Security
+  - "ICML 2025 (Main Conference)"
+  - "可解释性"
+  - "Context-Enhanced Learning"
+  - "In-Context Learning"
+  - "Sample Efficiency"
+  - "Gradient Signal"
+  - "Multi-Step Reasoning"
+  - "Data Security"
 ---
 
 # On the Power of Context-Enhanced Learning in LLMs

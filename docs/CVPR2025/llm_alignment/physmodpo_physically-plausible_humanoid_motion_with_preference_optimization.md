@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization
 description: >-
-  [CVPR 2025][LLM对齐][运动生成] 提出 PhysMoDPO，将 Direct Preference Optimization 应用于文本驱动的人体运动生成，通过将全身控制器（WBC）集成到训练 pipeline 中计算基于物理的奖励来构造偏好数据，使生成运动同时满足物理约束和文本指令，并在 Unitree G1 机器人上实现零样本部署。
+  [CVPR 2025][LLM对齐][运动生成] 提出 PhysMoDPO，将 Direct Preference Optimization 应用于文本驱动的人体运动生成，通过将全身控制器（WBC）集成到训练 pipeline 中计算基于物理的奖励来构造偏好数据，使生成运动同时满足物理约束和文本指令…
 tags:
-  - CVPR 2025
-  - LLM对齐
-  - 运动生成
-  - DPO
-  - 物理合理性
-  - 人形机器人
-  - 全身控制器
+  - "CVPR 2025"
+  - "LLM对齐"
+  - "运动生成"
+  - "DPO"
+  - "物理合理性"
+  - "人形机器人"
+  - "全身控制器"
 ---
 
 # PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization

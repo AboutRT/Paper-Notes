@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VisionPAD: A Vision-Centric Pre-training Paradigm for Autonomous Driving
 description: >-
-  [CVPR 2025][自动驾驶][自监督预训练] 本文提出 VisionPAD，一种纯视觉自监督预训练框架，用基于锚点的 3D 高斯溅射替代体积渲染重建多视角图像，并引入自监督体素速度估计和多帧光度一致性约束来学习运动线索和 3D 几何信息，完全不依赖 LiDAR 深度监督，在 3D 检测、占用预测和地图分割三个下游任务上显著超越现有预训练方法。
+  [CVPR 2025][自动驾驶][自监督预训练] 本文提出 VisionPAD，一种纯视觉自监督预训练框架，用基于锚点的 3D 高斯溅射替代体积渲染重建多视角图像，并引入自监督体素速度估计和多帧光度一致性约束来学习运动线索和 3D 几何信息，完全不依赖 LiDAR 深度监督…
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 自监督预训练
-  - 3D高斯溅射
-  - 体素速度估计
-  - 光度一致性
-  - 自动驾驶感知
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "自监督预训练"
+  - "3D高斯溅射"
+  - "体素速度估计"
+  - "光度一致性"
+  - "自动驾驶感知"
 ---
 
 # VisionPAD: A Vision-Centric Pre-training Paradigm for Autonomous Driving

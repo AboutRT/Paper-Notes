@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][VLA模型] 提出 Action Preference Optimization (APO)，通过人机协作框架收集交互轨迹，利用基于前景理论的二元期望信号和自适应重加权方法对 VLA 模型进行偏好对齐优化，使其能从失败中学习并持续迭代改进。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - VLA模型
-  - 偏好对齐
-  - 人机协作
-  - 机器人操作
-  - 自适应重加权
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "VLA模型"
+  - "偏好对齐"
+  - "人机协作"
+  - "机器人操作"
+  - "自适应重加权"
 ---
 
 # Human-assisted Robotic Policy Refinement via Action Preference Optimization

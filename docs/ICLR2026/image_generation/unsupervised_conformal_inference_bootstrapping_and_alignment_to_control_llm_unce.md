@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][无监督共形推断] 提出无监督共形推断框架（BB-UCP），通过Gram矩阵交互能量评分、批次自举校准和共形对齐，在无标签、API兼容条件下实现LLM生成的分布无关有限样本覆盖率保证，有效检测和过滤幻觉输出。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 无监督共形推断
-  - 自举法
-  - LLM幻觉检测
-  - Gram矩阵
-  - 共形对齐
+  - "ICLR 2026"
+  - "图像生成"
+  - "无监督共形推断"
+  - "自举法"
+  - "LLM幻觉检测"
+  - "Gram矩阵"
+  - "共形对齐"
 ---
 
 # Unsupervised Conformal Inference: Bootstrapping and Alignment to Control LLM Uncertainty

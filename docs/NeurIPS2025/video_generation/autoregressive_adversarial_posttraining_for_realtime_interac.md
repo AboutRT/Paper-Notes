@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation
 description: >-
-  [NeurIPS 2025][视频生成] 本文提出 AAPT（Autoregressive Adversarial Post-Training），通过对抗训练将预训练视频扩散模型转化为自回归实时视频生成器，每帧仅需一次前向传播（1NFE），基于 student-forcing 训练减少误差累积，8B 模型在单张 H100 上实现 736×416 分辨率 24fps 实时流式生成，最长可达一分钟（1440帧）。
+  [NeurIPS 2025][视频生成][对抗训练] 本文提出 AAPT（Autoregressive Adversarial Post-Training），通过对抗训练将预训练视频扩散模型转化为自回归实时视频生成器，每帧仅需一次前向传播（1NFE），基于 student-forcing 训练减少误差累积…
 tags:
-  - NeurIPS 2025
-  - 视频生成
-  - 自回归视频生成
-  - 实时交互
-  - 一步生成
-  - KV缓存
+  - "NeurIPS 2025"
+  - "视频生成"
+  - "对抗训练"
+  - "自回归视频生成"
+  - "实时交互"
+  - "一步生成"
+  - "KV缓存"
 ---
 
 # Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] COSMMIC: Comment-Sensitive Multimodal Multilingual Indian Corpus
 description: >-
-  [ACL 2025][印度语言] 构建首个面向印度语言的评论感知多模态多语言数据集COSMMIC——覆盖9种印度语言、4,959篇文章-图像对、24,484条读者评论，提出评论过滤（IndicBERT）和图像分类（CLIP）增强方案，用GPT-4和LLaMA3建立摘要和标题生成基准。
+  [ACL 2025][多语言/翻译][印度语言] 构建首个面向印度语言的评论感知多模态多语言数据集COSMMIC——覆盖9种印度语言、4,959篇文章-图像对、24,484条读者评论，提出评论过滤（IndicBERT）和图像分类（CLIP）增强方案，用GPT-4和LLaMA3建立摘要和标题生成基准。
 tags:
-  - ACL 2025
-  - 印度语言
-  - 多语言翻译
-  - 评论感知
-  - 摘要生成
-  - 标题生成
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "印度语言"
+  - "多模态"
+  - "评论感知"
+  - "摘要生成"
+  - "标题生成"
 ---
 
 # COSMMIC: Comment-Sensitive Multimodal Multilingual Indian Corpus

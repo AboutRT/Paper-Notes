@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][目标检测][多传感器融合] 提出首个多传感器异常检测数据集 MulSen-AD，整合 RGB 相机、红外热成像和激光扫描三种模态，以及基线方法 MulSen-TripleAD，通过决策级融合实现 96.1% AUROC 的物体级异常检测。
 tags:
-  - CVPR 2025
-  - 目标检测
-  - 多传感器融合
-  - 异常检测
-  - RGB-红外-点云
-  - 工业质检
-  - 数据集
+  - "CVPR 2025"
+  - "目标检测"
+  - "多传感器融合"
+  - "异常检测"
+  - "RGB-红外-点云"
+  - "工业质检"
+  - "数据集"
 ---
 
 # MulSen-AD: Multi-Sensor Object Anomaly Detection

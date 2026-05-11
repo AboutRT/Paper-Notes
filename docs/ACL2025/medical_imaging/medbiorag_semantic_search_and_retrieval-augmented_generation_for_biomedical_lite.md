@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] MedBioRAG 提出了一种结合语义搜索、文档检索和微调 LLM 的检索增强生成框架，在生物医学问答的文本检索、封闭式 QA 和长文本 QA 三类任务上全面超越 GPT-4o 基线和此前 SOTA。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # MedBioRAG: Semantic Search and Retrieval-Augmented Generation with Large Language Models for Medical and Biological QA

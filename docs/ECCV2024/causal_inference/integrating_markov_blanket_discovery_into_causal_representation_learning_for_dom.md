@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization
 description: >-
-  [ECCV 2024][马尔可夫毯] 提出 CMBRL 框架，在隐空间中发现马尔可夫毯（Markov Blanket）特征——目标变量的最小充分统计量——代替现有方法中仅选择因果/反因果变量的做法，构建不变预测机制实现跨域泛化。
+  [ECCV 2024][因果推理][马尔可夫毯] 提出 CMBRL 框架，在隐空间中发现马尔可夫毯（Markov Blanket）特征——目标变量的最小充分统计量——代替现有方法中仅选择因果/反因果变量的做法，构建不变预测机制实现跨域泛化。
 tags:
-  - ECCV 2024
-  - 马尔可夫毯
-  - 因果表示学习
-  - 域泛化
-  - 不变预测
-  - 隐变量
+  - "ECCV 2024"
+  - "因果推理"
+  - "马尔可夫毯"
+  - "因果表示学习"
+  - "域泛化"
+  - "不变预测"
+  - "隐变量"
 ---
 
 # Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization

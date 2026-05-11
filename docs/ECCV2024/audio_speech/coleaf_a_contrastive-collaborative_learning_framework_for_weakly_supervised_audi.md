@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CoLeaF: A Contrastive-Collaborative Learning Framework for Weakly Supervised Audio-Visual Video Parsing
 description: >-
-  [ECCV2024][语音][audio-visual video parsing] 提出 CoLeaF 双分支学习框架，通过事件感知对比学习显式优化跨模态上下文的整合，在弱监督音视频解析任务上平均提升 1.9% F-score。
+  [ECCV2024][音频/语音][audio-visual video parsing] 提出 CoLeaF 双分支学习框架，通过事件感知对比学习显式优化跨模态上下文的整合，在弱监督音视频解析任务上平均提升 1.9% F-score。
 tags:
-  - ECCV2024
-  - 语音
-  - audio-visual video parsing
-  - weakly supervised learning
-  - 音频语音
-  - 知识蒸馏
-  - 跨模态
+  - "ECCV2024"
+  - "音频/语音"
+  - "audio-visual video parsing"
+  - "weakly supervised learning"
+  - "对比学习"
+  - "知识蒸馏"
+  - "跨模态"
 ---
 
 # CoLeaF: A Contrastive-Collaborative Learning Framework for Weakly Supervised Audio-Visual Video Parsing

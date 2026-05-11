@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图学习][冷启动推荐] 提出 MoToRec，将多模态推荐重新定义为离散语义分词任务，通过稀疏正则化的残差量化VAE（RQ-VAE）将原始多模态特征转化为可组合的离散语义编码，结合自适应稀有度放大和层级多源图编码器，有效解决物品冷启动问题。
 tags:
-  - AAAI 2026
-  - 图学习
-  - 冷启动推荐
-  - 多模态推荐
-  - 离散语义分词
-  - 残差量化VAE
-  - 图神经网络
+  - "AAAI 2026"
+  - "图学习"
+  - "冷启动推荐"
+  - "多模态推荐"
+  - "离散语义分词"
+  - "残差量化VAE"
+  - "图神经网络"
 ---
 
 # MoToRec: Sparse-Regularized Multimodal Tokenization for Cold-Start Recommendation

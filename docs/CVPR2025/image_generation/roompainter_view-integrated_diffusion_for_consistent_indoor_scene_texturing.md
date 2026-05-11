@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][室内场景纹理] 提出 RoomPainter，通过零样本的多视角集成采样(MVIS)和相关视角注意力机制，将 2D 扩散模型适配为 3D 一致的室内场景纹理合成工具，采用两阶段策略确保全局和局部一致性。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 室内场景纹理
-  - 扩散模型
-  - 多视角一致性
-  - 零样本纹理合成
-  - 遮挡修复
+  - "CVPR 2025"
+  - "图像生成"
+  - "室内场景纹理"
+  - "扩散模型"
+  - "多视角一致性"
+  - "零样本纹理合成"
+  - "遮挡修复"
 ---
 
 # RoomPainter: View-Integrated Diffusion for Consistent Indoor Scene Texturing

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GLSim: Detecting Object Hallucinations in LVLMs via Global-Local Similarity
 description: >-
-  [NeurIPS 2025][多模态][object hallucination] 提出GLSim，一种无训练的LVLM物体幻觉检测方法，通过融合全局场景相似度（物体token与最后instruction token的余弦相似度）和局部视觉定位相似度（物体token与Visual Logit Lens定位的Top-K图像patch的余弦相似度），在MSCOCO上以83.7% AUROC超越SVAR 9%、Internal Confidence 10.8%。
+  [NeurIPS 2025][多模态VLM][object hallucination] 提出GLSim，一种无训练的LVLM物体幻觉检测方法，通过融合全局场景相似度（物体token与最后instruction token的余弦相似度）和局部视觉定位相似度（物体token与Visual Logit Lens定…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - hallucination detection
-  - global-local similarity
-  - visual logit lens
-  - training-free
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "object hallucination"
+  - "hallucination detection"
+  - "global-local similarity"
+  - "visual logit lens"
+  - "training-free"
 ---
 
 # GLSim: Detecting Object Hallucinations in LVLMs via Global-Local Similarity

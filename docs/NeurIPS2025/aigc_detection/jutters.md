@@ -2,14 +2,15 @@
 title: >-
   [论文解读] "Jutters"
 description: >-
-  [NeurIPS 2025 (Creative AI Track)][AI-generated content] 通过荷兰传统"jutters"（海岸拾荒者）的隐喻，构建了一个融合真实海滩碎片与AI生成图像/视频的沉浸式装置艺术，引导参观者以拾荒者心态反思如何对待AI生成内容。
+  [NeurIPS 2025 (Creative AI Track)][AIGC检测][AI-generated content] 通过荷兰传统"jutters"（海岸拾荒者）的隐喻，构建了一个融合真实海滩碎片与AI生成图像/视频的沉浸式装置艺术，引导参观者以拾荒者心态反思如何对待AI生成内容。
 tags:
-  - NeurIPS 2025 (Creative AI Track)
-  - AIGC检测
-  - art installation
-  - human-AI interaction
-  - digital curation
-  - AI imagery
+  - "NeurIPS 2025 (Creative AI Track)"
+  - "AIGC检测"
+  - "AI-generated content"
+  - "art installation"
+  - "human-AI interaction"
+  - "digital curation"
+  - "AI imagery"
 ---
 
 # "Jutters"

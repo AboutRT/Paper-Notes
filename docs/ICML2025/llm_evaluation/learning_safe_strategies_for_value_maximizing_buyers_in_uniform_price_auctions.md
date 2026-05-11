@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Learning Safe Strategies for Value Maximizing Buyers in Uniform Price Auctions
 description: >-
-  [ICML2025][统一价格拍卖] 针对重复统一价格多物品拍卖中带有RoI约束的价值最大化买家，提出"安全竞标策略"概念，证明其仅需满足温和的不超出竞价条件，并设计多项式时间在线学习算法实现 $\widetilde{O}(M\sqrt{mT})$ 的遗憾界。
+  [ICML2025][LLM评测][统一价格拍卖] 针对重复统一价格多物品拍卖中带有RoI约束的价值最大化买家，提出"安全竞标策略"概念，证明其仅需满足温和的不超出竞价条件，并设计多项式时间在线学习算法实现 $\widetilde{O}(M\sqrt{mT})$ 的遗憾界。
 tags:
-  - ICML2025
-  - 统一价格拍卖
-  - 安全竞标策略
-  - 价值最大化
-  - RoI约束
-  - 在线学习
-  - 遗憾界
+  - "ICML2025"
+  - "LLM评测"
+  - "统一价格拍卖"
+  - "安全竞标策略"
+  - "价值最大化"
+  - "RoI约束"
+  - "在线学习"
+  - "遗憾界"
 ---
 
 # Learning Safe Strategies for Value Maximizing Buyers in Uniform Price Auctions

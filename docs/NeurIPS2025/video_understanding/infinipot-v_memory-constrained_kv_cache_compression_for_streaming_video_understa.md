@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][KV Cache压缩] 提出首个无需训练、查询无关的流式视频理解框架InfiniPot-V，通过时序冗余度（TaR）和值范数（VaN）两个度量实现KV缓存的在线压缩，在固定内存约束下支持任意长度的流式视频理解。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - KV Cache压缩
-  - 流式视频理解
-  - 多模态大模型
-  - 时序冗余
-  - 边缘部署
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "KV Cache压缩"
+  - "流式视频理解"
+  - "多模态大模型"
+  - "时序冗余"
+  - "边缘部署"
 ---
 
 # InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding

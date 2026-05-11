@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][医学图像][genotype-to-phenotype] 提出G2PDiffusion，首个基于扩散模型的跨物种基因型到表型预测框架，通过进化信号（多序列比对MSA和环境上下文）条件化生成形态学图像，实现从DNA序列预测物种外观。
 tags:
-  - ICCV 2025
-  - 医学图像
-  - genotype-to-phenotype
-  - 扩散模型
-  - multiple sequence alignment
-  - cross-species
-  - evolutionary biology
+  - "ICCV 2025"
+  - "医学图像"
+  - "genotype-to-phenotype"
+  - "扩散模型"
+  - "multiple sequence alignment"
+  - "cross-species"
+  - "evolutionary biology"
 ---
 
 # G2PDiffusion: Cross-Species Genotype-to-Phenotype Prediction via Evolutionary Diffusion

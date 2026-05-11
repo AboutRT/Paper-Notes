@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Global Convergence and Rich Feature Learning in $L$-Layer Infinite-Width Neural Networks under $\mu$P Parametrization
 description: >-
-  [ICML2025][优化][μP参数化] 证明了在 $\mu$P (Maximal Update Parametrization) 下，$L$ 层无限宽 MLP 用 SGD 训练时，各层特征在整个训练过程中保持线性独立且发生实质性演化，从而保证训练收敛点必为全局最小值——首次同时解决"丰富特征学习"和"全局收敛"两个理论目标。
+  [ICML2025][优化/理论][μP参数化] 证明了在 $\mu$P (Maximal Update Parametrization) 下，$L$ 层无限宽 MLP 用 SGD 训练时，各层特征在整个训练过程中保持线性独立且发生实质性演化…
 tags:
-  - ICML2025
-  - 优化
-  - μP参数化
-  - 无限宽网络
-  - 特征学习
-  - 全局收敛
-  - 高斯过程
-  - 张量程序
-  - 线性独立性
+  - "ICML2025"
+  - "优化/理论"
+  - "μP参数化"
+  - "无限宽网络"
+  - "特征学习"
+  - "全局收敛"
+  - "高斯过程"
+  - "张量程序"
+  - "线性独立性"
 ---
 
 # Global Convergence and Rich Feature Learning in $L$-Layer Infinite-Width Neural Networks under $\mu$P Parametrization

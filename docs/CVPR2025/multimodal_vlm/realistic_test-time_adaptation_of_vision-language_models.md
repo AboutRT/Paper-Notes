@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Realistic Test-Time Adaptation of Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][测试时适应] 本文揭示现有VLM测试时适应（TTA）/转导方法在realistic场景下（有效类数可变、非i.i.d.数据流）会严重损害CLIP的零样本鲁棒性，并提出StatA方法，通过在高斯聚类模型参数上引入基于文本编码器知识的KL散度正则化（统计锚），在所有部署场景中保持稳定提升。
+  [CVPR 2025][多模态VLM][测试时适应] 本文揭示现有VLM测试时适应（TTA）/转导方法在realistic场景下（有效类数可变、非i.i.d.数据流）会严重损害CLIP的零样本鲁棒性，并提出StatA方法，通过在高斯聚类模型参数上引入基于文本编码器知识的KL散度正则化（统计锚）…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 测试时适应
-  - 多模态VLM
-  - 转导学习
-  - 统计锚
-  - 零样本分类
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "测试时适应"
+  - "视觉语言模型"
+  - "转导学习"
+  - "统计锚"
+  - "零样本分类"
 ---
 
 # Realistic Test-Time Adaptation of Vision-Language Models

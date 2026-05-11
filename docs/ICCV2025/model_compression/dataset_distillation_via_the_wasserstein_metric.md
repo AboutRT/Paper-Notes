@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dataset Distillation via the Wasserstein Metric
 description: >-
-  [ICCV 2025][模型压缩][数据集蒸馏] 提出 WMDD（Wasserstein Metric-based Dataset Distillation），使用 Wasserstein 重心替代 MMD 进行分布匹配，结合逐类 BatchNorm 正则化，在 ImageNet-1K 等大规模数据集上达到 SOTA 数据集蒸馏性能。
+  [ICCV 2025][模型压缩][数据集蒸馏] 提出 WMDD（Wasserstein Metric-based Dataset Distillation），使用 Wasserstein 重心替代 MMD 进行分布匹配，结合逐类 BatchNorm 正则化…
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 数据集蒸馏
-  - Wasserstein距离
-  - 最优传输
-  - 分布匹配
-  - BatchNorm正则化
+  - "ICCV 2025"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "Wasserstein距离"
+  - "最优传输"
+  - "分布匹配"
+  - "BatchNorm正则化"
 ---
 
 # Dataset Distillation via the Wasserstein Metric

@@ -4,17 +4,17 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][3D重建] 提出 Fin3R，通过冻结 decoder 并用带重归一化的 LoRA 适配器对 encoder 进行单目知识蒸馏微调，以统一且轻量的方式提升 DUSt3R/MASt3R/CUT3R/VGGT 等前馈式 3D 重建模型的几何精度和鲁棒性。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 3D重建
-  - 前馈式重建
-  - 知识蒸馏
-  - LoRA微调
-  - 单目深度估计
-  - DUSt3R
-  - MASt3R
-  - CUT3R
-  - VGGT
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "3D重建"
+  - "前馈式重建"
+  - "知识蒸馏"
+  - "LoRA微调"
+  - "单目深度估计"
+  - "DUSt3R"
+  - "MASt3R"
+  - "CUT3R"
+  - "VGGT"
 ---
 
 # Fin3R: Fine-tuning Feed-forward 3D Reconstruction Models via Monocular Knowledge Distillation

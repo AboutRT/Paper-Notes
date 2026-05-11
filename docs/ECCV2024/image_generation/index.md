@@ -1,14 +1,25 @@
 ---
 title: >-
-  ECCV2024 图像生成方向108篇论文解读
+  ECCV2024 图像生成方向107篇论文解读
 description: >-
-  108篇ECCV2024的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、个性化生成、对抗鲁棒、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  107篇ECCV2024的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、个性化生成、对抗鲁棒、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ECCV2024"
+  - "图像生成"
+  - "论文解读"
+  - "论文笔记"
+  - "扩散模型"
+  - "文生图"
+  - "图像编辑"
+  - "个性化生成"
+  - "对抗鲁棒"
+  - "少样本学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🎞️ ECCV2024** · **108** 篇论文解读
+**🎞️ ECCV2024** · **107** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (11)](../../ACL2026/image_generation/index.md) · [📷 CVPR2026 (208)](../../CVPR2026/image_generation/index.md) · [🔬 ICLR2026 (154)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (78)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (247)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
 
@@ -33,10 +44,6 @@ description: >-
 **[AccDiffusion: An Accurate Method for Higher-Resolution Image Generation](accdiffusion_an_accurate_method_for_higher-resolution_image_generation.md)**
 
 :   提出AccDiffusion，通过将全局文本prompt解耦为patch级别的内容感知prompt（利用cross-attention map判断每个词汇是否属于某patch），并引入带窗口交互的膨胀采样来改善全局一致性，在无需额外训练的情况下有效解决patch-wise高分辨率图像生成中的目标重复问题，在SDXL上实现了从2K到4K分辨率的无重复高质量图像外推。
-
-**[Active Generation for Image Classification](active_generation_for_image_classification.md)**
-
-:   ActGen将主动学习思想引入扩散模型数据增强，通过识别分类器的错分样本并以注意力掩码引导+梯度对抗引导生成"难样本"，仅用10%的合成数据量即超越了此前需要近等量合成数据的方法，在ImageNet上ResNet-50获得+2.26%的精度提升。
 
 **[AdaDiffSR: Adaptive Region-Aware Dynamic Acceleration Diffusion Model for Real-World Image Super-Resolution](adadiffsr_adaptive_region-aware_dynamic_acceleration_diffusion_model_for_real-wo.md)**
 

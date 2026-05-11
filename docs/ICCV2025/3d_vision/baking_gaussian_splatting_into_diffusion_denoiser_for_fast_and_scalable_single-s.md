@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation and Reconstruction
 description: >-
-  [ICCV 2025][3D视觉][3D Gaussian Splatting] 提出DiffusionGS，将3D高斯点云"烘焙"进扩散模型的去噪器中，实现单阶段、视图一致的单视图3D物体生成和场景重建，配合场景-物体混合训练策略和RPPC相机条件编码，在PSNR/FID上大幅超越现有方法，推理速度仅需约6秒。
+  [ICCV 2025][3D视觉][3D Gaussian Splatting] 提出DiffusionGS，将3D高斯点云"烘焙"进扩散模型的去噪器中，实现单阶段、视图一致的单视图3D物体生成和场景重建，配合场景-物体混合训练策略和RPPC相机条件编码，在PSNR/FID上大幅超越现有方法…
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 扩散模型
-  - 单视图3D生成
-  - 场景重建
-  - 混合训练
+  - "ICCV 2025"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "扩散模型"
+  - "单视图3D生成"
+  - "场景重建"
+  - "混合训练"
 ---
 
 # Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation and Reconstruction

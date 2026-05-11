@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MagicQuill: An Intelligent Interactive Image Editing System
 description: >-
-  [CVPR 2025][图像生成][image editing] 提出 MagicQuill 智能交互式图像编辑系统，用三种笔触（添加/减去/颜色）表达编辑意图，双分支扩散插件（inpainting + control）实现边缘和颜色的精细控制，MLLM 实时猜测意图自动生成 prompt，形成无需手动输入文字的连续编辑工作流。
+  [CVPR 2025][图像生成][image editing] 提出 MagicQuill 智能交互式图像编辑系统，用三种笔触（添加/减去/颜色）表达编辑意图，双分支扩散插件（inpainting + control）实现边缘和颜色的精细控制，MLLM 实时猜测意图自动生成 prompt…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - image editing
-  - interactive system
-  - brushstroke control
-  - 扩散模型
-  - MLLM
+  - "CVPR 2025"
+  - "图像生成"
+  - "image editing"
+  - "interactive system"
+  - "brushstroke control"
+  - "扩散模型"
+  - "MLLM"
   - "Draw&Guess"
 ---
 

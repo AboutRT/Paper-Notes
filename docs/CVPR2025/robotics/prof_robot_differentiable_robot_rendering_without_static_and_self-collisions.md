@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][可微机器人渲染] 提出 Prof. Robot，首个结合碰撞约束的可微机器人渲染框架——将 3D 高斯点绑定到机器人 URDF 模型的各连杆上实现可微渲染，同时在优化中加入静态碰撞（与环境）和自碰撞（机器人自身）约束，将碰撞率从 24% 降至 0%，同时保持视觉保真度。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 可微机器人渲染
-  - 碰撞避免
-  - 自碰撞
-  - 逆运动学
-  - 3DGS
+  - "CVPR 2025"
+  - "机器人"
+  - "可微机器人渲染"
+  - "碰撞避免"
+  - "自碰撞"
+  - "逆运动学"
+  - "3DGS"
 ---
 
 # Prof. Robot: Differentiable Robot Rendering without Static and Self-Collisions

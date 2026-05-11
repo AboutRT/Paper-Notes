@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference
 description: >-
-  [ICLR 2026][早退机制] 提出 RAEE，一种无需训练分类器的检索增强早退框架，通过检索语义相似样本的退出信息来动态确定最优退出层，不仅加速推理还能纠正模型错误预测，实现加速与性能提升的双赢。
+  [ICLR 2026][信息检索/RAG][早退机制] 提出 RAEE，一种无需训练分类器的检索增强早退框架，通过检索语义相似样本的退出信息来动态确定最优退出层，不仅加速推理还能纠正模型错误预测，实现加速与性能提升的双赢。
 tags:
-  - ICLR 2026
-  - 早退机制
-  - 检索增强
-  - 分布预测
-  - 信息检索
-  - 纠错机制
+  - "ICLR 2026"
+  - "信息检索/RAG"
+  - "早退机制"
+  - "检索增强"
+  - "分布预测"
+  - "推理加速"
+  - "纠错机制"
 ---
 
 # RAEE: A Robust Retrieval-Augmented Early Exit Framework for Efficient Inference

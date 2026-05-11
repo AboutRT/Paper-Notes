@@ -2,14 +2,15 @@
 title: >-
   [论文解读] KoCo: Conditioning Language Model Pre-training on Knowledge Coordinates
 description: >-
-  [ACL 2026][知识坐标] 提出知识坐标条件化预训练（KoCo），将每个文档映射为三维语义坐标（来源、内容、稳定性），作为文本前缀注入预训练，使模型获得显式的上下文感知能力，在 10 个下游任务上提升性能、加速收敛约 30%，并有效缓解幻觉。
+  [ACL 2026][LLM安全][知识坐标] 提出知识坐标条件化预训练（KoCo），将每个文档映射为三维语义坐标（来源、内容、稳定性），作为文本前缀注入预训练，使模型获得显式的上下文感知能力，在 10 个下游任务上提升性能、加速收敛约 30%，并有效缓解幻觉。
 tags:
-  - ACL 2026
-  - 知识坐标
-  - LLM安全
-  - 幻觉缓解
-  - 数据上下文化
-  - 预训练加速
+  - "ACL 2026"
+  - "LLM安全"
+  - "知识坐标"
+  - "条件预训练"
+  - "幻觉缓解"
+  - "数据上下文化"
+  - "预训练加速"
 ---
 
 # KoCo: Conditioning Language Model Pre-training on Knowledge Coordinates

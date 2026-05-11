@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][LLM/NLP][记忆检索] 提出 SynapticRAG，借鉴神经科学中突触传播和漏积分发放（LIF）模型，将时序关联触发与语义相似度融合，在对话记忆检索任务上较 SOTA 提升最高 14.66%。
 tags:
-  - ACL2025
-  - LLM/NLP
-  - 记忆检索
-  - 时序关联
-  - 突触机制
-  - 对话系统
-  - RAG
+  - "ACL2025"
+  - "LLM/NLP"
+  - "记忆检索"
+  - "时序关联"
+  - "突触机制"
+  - "对话系统"
+  - "RAG"
 ---
 
 # SynapticRAG: Enhancing Temporal Memory Retrieval in Large Language Models through Synaptic Mechanisms

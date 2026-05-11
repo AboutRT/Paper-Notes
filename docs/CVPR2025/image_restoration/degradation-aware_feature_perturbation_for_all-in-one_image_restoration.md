@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][全能图像恢复] 本文提出DFPIR框架，通过退化类型引导的通道打乱扰动和注意力选择性掩码扰动两种机制，在编解码器之间调整特征空间以适配统一参数空间，在去噪/去雾/去雨/去模糊/低光增强五个任务上取得SOTA。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 全能图像恢复
-  - 特征扰动
-  - 通道打乱
-  - 注意力选择
-  - 退化感知
+  - "CVPR 2025"
+  - "图像恢复"
+  - "全能图像恢复"
+  - "特征扰动"
+  - "通道打乱"
+  - "注意力选择"
+  - "退化感知"
 ---
 
 # Degradation-Aware Feature Perturbation for All-in-One Image Restoration

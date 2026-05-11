@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Breaking Block Boundaries: Anchor-based History-stable Decoding for Diffusion Large Language Models
 description: >-
-  [ACL 2026][音频语音][扩散语言模型] 提出 AHD（Anchor-based History-stable Decoding），一种无需训练的即插即用动态解码策略，通过动态锚点回溯历史轨迹判定扩散LLM中跨块稳定token，实现早期解锁，在BBH上减少80%解码步数的同时提升3.67%性能。
+  [ACL 2026][音频/语音][扩散语言模型] 提出 AHD（Anchor-based History-stable Decoding），一种无需训练的即插即用动态解码策略，通过动态锚点回溯历史轨迹判定扩散LLM中跨块稳定token，实现早期解锁，在BBH上减少80%解码步数的同时提升3.67%性能。
 tags:
-  - ACL 2026
-  - 音频语音
-  - 扩散语言模型
-  - 半自回归解码
-  - 跨块稳定token
-  - 动态锚点
-  - 推理加速
+  - "ACL 2026"
+  - "音频/语音"
+  - "扩散语言模型"
+  - "半自回归解码"
+  - "跨块稳定token"
+  - "动态锚点"
+  - "推理加速"
 ---
 
 # Breaking Block Boundaries: Anchor-based History-stable Decoding for Diffusion Large Language Models

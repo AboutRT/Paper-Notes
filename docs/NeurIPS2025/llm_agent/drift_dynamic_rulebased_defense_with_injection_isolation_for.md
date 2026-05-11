@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents
 description: >-
-  [NeurIPS 2025][LLM Agent][提示学习] 提出 DRIFT 系统级 Agent 安全框架，通过 Secure Planner（预规划函数轨迹+参数检查表）、Dynamic Validator（基于 Read/Write/Execute 权限的动态策略更新）和 Injection Isolator（从 memory stream 中检测并屏蔽注入指令）三层防御，在 AgentDojo 上将 ASR 从 30.7% 降至 1.3%，同时比 CaMeL 提升 20.1% utility。
+  [NeurIPS 2025][LLM Agent][提示学习] 提出 DRIFT 系统级 Agent 安全框架，通过 Secure Planner（预规划函数轨迹+参数检查表）、Dynamic Validator（基于 Read/Write/Execute 权限的动态策略更新）和 Injection Isol…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - 提示学习
-  - agent security
-  - dynamic policy
-  - injection isolation
-  - system-level defense
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "提示学习"
+  - "agent security"
+  - "dynamic policy"
+  - "injection isolation"
+  - "system-level defense"
 ---
 
 # DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents
@@ -95,7 +95,7 @@ Planner 提供强安全但大幅牺牲 utility；Validator 恢复 utility（+22%
 ### 关键发现
 - **跨模型泛化强**：GPT-4o ASR 51.7%→1.5%，Claude-3.5-sonnet 37.1%→4.4%，Qwen2.5-7B 15.1%→0.0%（fine-tuned 后）
 - **动态策略在复杂任务上必要**：轨迹长度 ≤2 时静态/动态差异不大，但 ≥3 时静态策略 utility 急剧下降，动态策略保持稳定
-- **对自适应攻击鲁棒**：多种adaptive attack（手工设计+PAIR 自动攻击）仅造成 ASR 增加 <1%
+- **对自适应攻击鲁棒**：多种adaptive attack（手工设计+PAIR 自动攻击）仅造成 ASR 增加 &lt;1%
 - **计算开销合理**：DRIFT 消耗约 1.89× token（vs 无防御），低于 CaMeL 的 7× token
 
 ## 亮点与洞察

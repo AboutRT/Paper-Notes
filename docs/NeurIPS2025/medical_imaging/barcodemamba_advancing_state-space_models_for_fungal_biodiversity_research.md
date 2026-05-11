@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][DNA条形码] BarcodeMamba+ 是用于真菌 DNA 条形码分类的基础模型——基于状态空间模型架构，采用预训练+微调范式利用部分标注数据，结合层次标签平滑、加权损失和多头输出增强真菌分类（93%样本种级未标注），在所有分类层级上超越现有方法。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - DNA条形码
-  - 真菌分类
-  - 状态空间模型
-  - 基础模型
-  - 层次分类
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "DNA条形码"
+  - "真菌分类"
+  - "状态空间模型"
+  - "基础模型"
+  - "层次分类"
 ---
 
 # BarcodeMamba+: Advancing State-Space Models for Fungal Biodiversity Research

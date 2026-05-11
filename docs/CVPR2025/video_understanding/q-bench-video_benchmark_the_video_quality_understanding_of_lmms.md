@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频质量评估] 首个系统评估大型多模态模型视频质量理解能力的基准 Q-Bench-Video，涵盖自然/AIGC/CG视频、四维质量关注和多题型设计。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频质量评估
-  - 大模型基准
-  - LMM
-  - AIGC失真
-  - 时序一致性
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频质量评估"
+  - "大模型基准"
+  - "LMM"
+  - "AIGC失真"
+  - "时序一致性"
 ---
 
 # Q-Bench-Video: Benchmark the Video Quality Understanding of LMMs

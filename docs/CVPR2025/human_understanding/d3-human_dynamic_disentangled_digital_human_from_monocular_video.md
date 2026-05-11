@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][数字人重建] D3-Human 提出了一种从单目视频重建解耦（服装+人体）数字人几何的方法，通过定义人体流形上的有符号距离场（hmSDF）在无需3D服装先验的条件下实现了可见区域的服装-人体精确分割，约20分钟生成解耦模板并支持换装和动画应用。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 数字人重建
-  - 服装解耦
-  - 单目视频
-  - 隐式-显式混合表示
-  - hmSDF
+  - "CVPR 2025"
+  - "人体理解"
+  - "数字人重建"
+  - "服装解耦"
+  - "单目视频"
+  - "隐式-显式混合表示"
+  - "hmSDF"
 ---
 
 # D3-Human: Dynamic Disentangled Digital Human from Monocular Video

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Grounding-IQA: Grounding Multimodal Language Models for Image Quality Assessment
 description: >-
-  [ICLR 2026][多模态][图像质量评估] 将空间定位（referring + grounding）与图像质量评估结合，构建 GIQA-160K 数据集训练多模态 LLM 生成带有边界框的质量描述和空间 VQA，在细粒度质量感知上显著优于通用 MLLM。
+  [ICLR 2026][多模态VLM][图像质量评估] 将空间定位（referring + grounding）与图像质量评估结合，构建 GIQA-160K 数据集训练多模态 LLM 生成带有边界框的质量描述和空间 VQA，在细粒度质量感知上显著优于通用 MLLM。
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - 空间定位
-  - 多模态LLM
-  - 细粒度感知
-  - grounding
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "图像质量评估"
+  - "空间定位"
+  - "多模态LLM"
+  - "细粒度感知"
+  - "grounding"
 ---
 
 # Grounding-IQA: Grounding Multimodal Language Models for Image Quality Assessment

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PhysInOne: Visual Physics Learning and Reasoning in One Suite
 description: >-
-  [CVPR 2026][多模态][物理学习] PhysInOne是一个包含153,810个动态3D场景和200万个标注视频的大规模合成数据集，覆盖力学、光学、流体动力学和磁学的71种基本物理现象，为物理感知的世界模型建立了新基准。
+  [CVPR 2026][多模态VLM][物理学习] PhysInOne是一个包含153,810个动态3D场景和200万个标注视频的大规模合成数据集，覆盖力学、光学、流体动力学和磁学的71种基本物理现象，为物理感知的世界模型建立了新基准。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 合成数据集
-  - 世界模型
-  - 视频生成
-  - 物理推理
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "物理学习"
+  - "合成数据集"
+  - "世界模型"
+  - "视频生成"
+  - "物理推理"
 ---
 
 # PhysInOne: Visual Physics Learning and Reasoning in One Suite

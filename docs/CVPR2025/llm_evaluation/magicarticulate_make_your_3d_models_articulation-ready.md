@@ -2,16 +2,16 @@
 title: >-
   [论文解读] MagicArticulate: Make Your 3D Models Articulation-Ready
 description: >-
-  [CVPR 2025][LLM评测][3D articulation] 提出 MagicArticulate 两阶段框架，第一阶段用自回归 Transformer 将骨架生成建模为序列预测任务，第二阶段用函数扩散过程结合体积测地距离先验预测蒙皮权重，搭配 33K+ 大规模 Articulation-XL 数据集，实现静态 3D 模型到可动画化资产的自动转换。
+  [CVPR 2025][LLM评测][3D articulation] 提出 MagicArticulate 两阶段框架，第一阶段用自回归 Transformer 将骨架生成建模为序列预测任务，第二阶段用函数扩散过程结合体积测地距离先验预测蒙皮权重…
 tags:
-  - CVPR 2025
-  - LLM评测
-  - 3D articulation
-  - skeleton generation
-  - skinning weight prediction
-  - Transformer
-  - 扩散模型
-  - Articulation-XL
+  - "CVPR 2025"
+  - "LLM评测"
+  - "3D articulation"
+  - "skeleton generation"
+  - "skinning weight prediction"
+  - "Transformer"
+  - "扩散模型"
+  - "Articulation-XL"
 ---
 
 # MagicArticulate: Make Your 3D Models Articulation-Ready

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] What Makes LLMs Effective Sequential Recommenders? A Study on Preference Intensity and Temporal Context
 description: >-
-  [ACL 2026][序列推荐] 本文揭示现有 LLM 推荐系统的二元偏好建模丢失了偏好强度和时间上下文两个关键信息，提出 RecPO 框架通过自适应奖励边际将这两个因素纳入偏好优化，在五个数据集上显著超越 S-DPO 等基线。
+  [ACL 2026][推荐系统][序列推荐] 本文揭示现有 LLM 推荐系统的二元偏好建模丢失了偏好强度和时间上下文两个关键信息，提出 RecPO 框架通过自适应奖励边际将这两个因素纳入偏好优化，在五个数据集上显著超越 S-DPO 等基线。
 tags:
-  - ACL 2026
-  - 序列推荐
-  - 推荐系统
-  - 偏好强度
-  - 时间上下文
-  - DPO
+  - "ACL 2026"
+  - "推荐系统"
+  - "序列推荐"
+  - "偏好对齐"
+  - "偏好强度"
+  - "时间上下文"
+  - "DPO"
 ---
 
 # What Makes LLMs Effective Sequential Recommenders? A Study on Preference Intensity and Temporal Context

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][推测解码] 提出 Traversal Verification，一种从叶节点到根节点的自底向上验证算法，通过考虑整条路径的序列级概率而非单 token 概率来决定接受/拒绝，理论证明无损性和单链最优性，在多种树结构和任务上一致提升接受长度 2.2%-5.7%。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 推测解码
-  - 树解码
-  - 验证算法
-  - 无损推理加速
-  - 序列级接受
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "推测解码"
+  - "树解码"
+  - "验证算法"
+  - "无损推理加速"
+  - "序列级接受"
 ---
 
 # Traversal Verification for Speculative Tree Decoding

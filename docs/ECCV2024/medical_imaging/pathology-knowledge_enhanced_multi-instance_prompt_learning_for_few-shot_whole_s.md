@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Pathology-knowledge Enhanced Multi-instance Prompt Learning for Few-shot Whole Slide Image Classification
 description: >-
-  [ECCV 2024][医学图像][few-shot learning] 提出 PEMP 框架，将病理学先验知识（视觉样例 + 文本描述）融入 patch 级和 slide 级的 prompt 中，结合 CLIP 进行多实例 prompt learning，在少样本弱监督 WSI 分类任务上平均超越 SOTA 方法 4%。
+  [ECCV 2024][医学图像][few-shot learning] 提出 PEMP 框架，将病理学先验知识（视觉样例 + 文本描述）融入 patch 级和 slide 级的 prompt 中，结合 CLIP 进行多实例 prompt learning…
 tags:
-  - ECCV 2024
-  - 医学图像
-  - few-shot learning
-  - 提示学习
-  - Whole Slide Image
-  - Multiple Instance Learning
-  - 视觉语言
+  - "ECCV 2024"
+  - "医学图像"
+  - "few-shot learning"
+  - "提示学习"
+  - "Whole Slide Image"
+  - "Multiple Instance Learning"
+  - "视觉语言"
 ---
 
 # Pathology-knowledge Enhanced Multi-instance Prompt Learning for Few-shot Whole Slide Image Classification

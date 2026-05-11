@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Schrödinger Bridge Matching for Tree-Structured Costs and Entropic Wasserstein Barycentres
 description: >-
-  [NeurIPS 2025][图像生成][Schrödinger Bridge] 将Iterative Markovian Fitting (IMF)程序推广到树结构Schrödinger Bridge问题，提出TreeDSBM算法，在Wasserstein重心计算中将IMF迭代与不动点迭代优雅合并，仅需廉价的bridge-matching步骤即可高效求解。
+  [NeurIPS 2025][图像生成][Schrödinger Bridge] 将Iterative Markovian Fitting (IMF)程序推广到树结构Schrödinger Bridge问题，提出TreeDSBM算法，在Wasserstein重心计算中将IMF迭代与不动点迭代优雅合并…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - Schrödinger Bridge
-  - Iterative Markovian Fitting
-  - Wasserstein Barycentre
-  - 最优传输
-  - 树结构代价
-  - 生成模型
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "Schrödinger Bridge"
+  - "Iterative Markovian Fitting"
+  - "Wasserstein Barycentre"
+  - "最优传输"
+  - "树结构代价"
+  - "生成模型"
 ---
 
 # Schrödinger Bridge Matching for Tree-Structured Costs and Entropic Wasserstein Barycentres

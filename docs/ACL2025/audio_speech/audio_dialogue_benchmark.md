@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models
 description: >-
-  [ACL 2025][语音][大型音频语言模型] 本文提出 ADU-Bench，一个包含 4 个子数据集（通用对话、技能、多语言、歧义处理）共 20,000+ 开放式音频对话的综合基准，系统评估 16 个大型音频语言模型（LALM）在音频对话理解上的能力，揭示现有模型在数学公式理解、角色扮演、多语言和语音歧义处理上的显著不足。
+  [ACL 2025][音频/语音][大型音频语言模型] 本文提出 ADU-Bench，一个包含 4 个子数据集（通用对话、技能、多语言、歧义处理）共 20,000+ 开放式音频对话的综合基准，系统评估 16 个大型音频语言模型（LALM）在音频对话理解上的能力…
 tags:
-  - ACL 2025
-  - 语音
-  - 音频语音
-  - 音频对话
-  - LALM
-  - benchmark
-  - 歧义处理
+  - "ACL 2025"
+  - "音频/语音"
+  - "大型音频语言模型"
+  - "音频对话"
+  - "LALM"
+  - "benchmark"
+  - "歧义处理"
 ---
 
 # Benchmarking Open-ended Audio Dialogue Understanding for Large Audio-Language Models

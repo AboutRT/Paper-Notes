@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Angular Constraint Embedding via SpherePair Loss for Constrained Clustering
 description: >-
-  [NeurIPS 2025][自监督][约束聚类] 本文提出SpherePair损失函数，通过在角度空间（而非欧几里得空间）进行成对约束嵌入学习，实现了不依赖锚点(anchor)、不需要预知聚类数的深度约束聚类方法，并提供了严格的理论保证来确定最优超参数。
+  [NeurIPS 2025][自监督学习][约束聚类] 本文提出SpherePair损失函数，通过在角度空间（而非欧几里得空间）进行成对约束嵌入学习，实现了不依赖锚点(anchor)、不需要预知聚类数的深度约束聚类方法，并提供了严格的理论保证来确定最优超参数。
 tags:
-  - NeurIPS 2025
-  - 自监督
-  - 约束聚类
-  - 角度嵌入
-  - SpherePair损失
-  - 深度约束聚类
-  - 球面表示
+  - "NeurIPS 2025"
+  - "自监督学习"
+  - "约束聚类"
+  - "角度嵌入"
+  - "SpherePair损失"
+  - "深度约束聚类"
+  - "球面表示"
 ---
 
 # Angular Constraint Embedding via SpherePair Loss for Constrained Clustering
@@ -94,7 +94,7 @@ tags:
 ### 关键发现
 
 - **SpherePair在所有数据集和所有约束规模上均取得最优或近最优结果**，特别是在低约束量(1k)和不平衡约束条件下优势更明显
-- **泛化能力强**：训练集和测试集性能差距极小（通常<1%），说明学到的表示能很好地泛化到未见样本
+- **泛化能力强**：训练集和测试集性能差距极小（通常&lt;1%），说明学到的表示能很好地泛化到未见样本
 - **聚类数推断准确**：PCA平台检测方法在多数数据集上能准确推断K值
 - **无预训练的SpherePair†仍优于大多数预训练基线**，证明角度约束嵌入的方法论优势不依赖于初始化
 

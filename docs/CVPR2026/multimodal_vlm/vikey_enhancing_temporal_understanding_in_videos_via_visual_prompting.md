@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ViKey: Enhancing Temporal Understanding in Videos via Visual Prompting
 description: >-
-  [CVPR 2026][多模态][视觉提示] ViKey 通过在视频帧上叠加帧序号的视觉提示（Visual Prompting），配合轻量的关键词-帧映射（KFM）模块，在免训练条件下显著提升 VideoLLM 的时序推理能力，即使只用 20% 的帧也能接近密集帧的性能。
+  [CVPR 2026][多模态VLM][视觉提示] ViKey 通过在视频帧上叠加帧序号的视觉提示（Visual Prompting），配合轻量的关键词-帧映射（KFM）模块，在免训练条件下显著提升 VideoLLM 的时序推理能力，即使只用 20% 的帧也能接近密集帧的性能。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 视觉提示
-  - 多模态VLM
-  - 时序理解
-  - 帧索引
-  - 免训练
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视觉提示"
+  - "视频大语言模型"
+  - "时序理解"
+  - "帧索引"
+  - "免训练"
 ---
 
 # ViKey: Enhancing Temporal Understanding in Videos via Visual Prompting

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][训练后量化] 本文提出PQ-SAM，首个专为Segment Anything Model定制的训练后量化方法，通过分组激活分布变换(GADT)和两阶段异常值层次聚类(OHC)方案解决SAM的高度不对称激活分布和有害异常值问题，将4-bit量化的SAM推进到可用水平。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 训练后量化
-  - SAM
-  - 激活分布变换
-  - 异常值聚类
-  - 低比特量化
+  - "ECCV 2024"
+  - "模型压缩"
+  - "训练后量化"
+  - "SAM"
+  - "激活分布变换"
+  - "异常值聚类"
+  - "低比特量化"
 ---
 
 # PQ-SAM: Post-training Quantization for Segment Anything Model

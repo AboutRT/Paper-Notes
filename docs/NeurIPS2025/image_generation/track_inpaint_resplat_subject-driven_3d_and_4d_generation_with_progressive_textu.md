@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][主体驱动生成] 提出TIRE（Track, Inpaint, REsplat）三阶段管线，通过视频跟踪定位未观测区域、主体驱动修复模型渐进式填充纹理、多视图一致性反投影回3D，实现身份保持的3D/4D生成。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 主体驱动生成
-  - 3D/4D生成
-  - 身份保持
-  - 纹理填充
-  - 视频跟踪
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "主体驱动生成"
+  - "3D/4D生成"
+  - "身份保持"
+  - "纹理填充"
+  - "视频跟踪"
 ---
 
 # Track, Inpaint, Resplat: Subject-driven 3D and 4D Generation with Progressive Texture Infilling

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][政治偏见] 通过两项大规模交互实验（N=299），本文首次实证证明带有党派偏见的LLM可以显著影响人类的政治观点和预算分配决策，且这种影响甚至跨越党派——民主党人会被保守偏见的LLM说服，共和党人也会被自由偏见的LLM影响。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 政治偏见
-  - LLM影响力
-  - 决策实验
-  - 党派偏见
-  - 人机交互
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "政治偏见"
+  - "LLM影响力"
+  - "决策实验"
+  - "党派偏见"
+  - "人机交互"
 ---
 
 # Biased LLMs Can Influence Political Decision-Making

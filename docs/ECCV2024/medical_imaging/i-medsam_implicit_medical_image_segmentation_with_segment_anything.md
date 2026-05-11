@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][医学图像分割] 提出 I-MedSAM，将 SAM 的强泛化能力与隐式神经表示（INR）的连续空间预测优势结合，通过频率适配器增强边界高频信息、不确定性引导采样精细化分割，仅用 1.6M 可训练参数即超越现有离散和隐式方法。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 医学图像分割
-  - 隐式神经表示
-  - Segment Anything
-  - 频率适配器
-  - 不确定性引导采样
+  - "ECCV 2024"
+  - "医学图像"
+  - "医学图像分割"
+  - "隐式神经表示"
+  - "Segment Anything"
+  - "频率适配器"
+  - "不确定性引导采样"
 ---
 
 # I-MedSAM: Implicit Medical Image Segmentation with Segment Anything

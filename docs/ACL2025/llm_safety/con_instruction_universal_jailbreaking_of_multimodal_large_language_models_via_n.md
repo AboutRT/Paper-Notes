@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities
 description: >-
-  [ACL 2025][多模态][多模态越狱] 本文提出 Con Instruction 方法，通过优化对抗性图像或音频使其在嵌入空间中与目标恶意指令对齐，实现无需文本输入即可越狱多模态大语言模型（MLLM），在 LLaVA-v1.5 上达到 86.6% 的攻击成功率，并提出了 ARC 评估框架来同时衡量攻击响应的质量和相关性。
+  [ACL 2025][LLM安全][多模态越狱] 本文提出 Con Instruction 方法，通过优化对抗性图像或音频使其在嵌入空间中与目标恶意指令对齐，实现无需文本输入即可越狱多模态大语言模型（MLLM），在 LLaVA-v1.5 上达到 86.6% 的攻击成功率…
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态越狱
-  - 多模态VLM
-  - 非文本指令
-  - 嵌入空间对齐
-  - 安全机制绕过
+  - "ACL 2025"
+  - "LLM安全"
+  - "多模态越狱"
+  - "对抗性攻击"
+  - "非文本指令"
+  - "嵌入空间对齐"
+  - "安全机制绕过"
 ---
 
 # Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities

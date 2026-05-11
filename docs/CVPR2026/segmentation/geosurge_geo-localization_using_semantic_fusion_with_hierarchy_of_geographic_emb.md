@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GeoSURGE: Geo-localization using Semantic Fusion with Hierarchy of Geographic Embeddings
 description: >-
-  [CVPR 2026][图像分割][视觉地理定位] GeoSURGE 提出层级地理嵌入和语义融合模块，将全球图像地理定位问题建模为视觉表征与学习得到的地理表征之间的匹配，在 5 个基准的 25 项指标中取得 22 项 SOTA。
+  [CVPR 2026][语义分割][视觉地理定位] GeoSURGE 提出层级地理嵌入和语义融合模块，将全球图像地理定位问题建模为视觉表征与学习得到的地理表征之间的匹配，在 5 个基准的 25 项指标中取得 22 项 SOTA。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 视觉地理定位
-  - 语义融合
-  - 层级地理嵌入
-  - 对比学习
-  - 跨注意力
+  - "CVPR 2026"
+  - "语义分割"
+  - "视觉地理定位"
+  - "语义融合"
+  - "层级地理嵌入"
+  - "对比学习"
+  - "跨注意力"
 ---
 
 # GeoSURGE: Geo-localization using Semantic Fusion with Hierarchy of Geographic Embeddings

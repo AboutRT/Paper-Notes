@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][开放词汇3D语义分割] 提出CORE-3D，一个无需训练的开放词汇3D语义分割与自然语言目标检索流水线，通过渐进式粒度掩码生成、上下文感知CLIP编码和多视角3D融合，在Replica和ScanNet上超越现有方法。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 开放词汇3D语义分割
-  - 场景图
-  - CLIP嵌入
-  - 语言检索
-  - SemanticSAM
+  - "ICLR 2026"
+  - "3D视觉"
+  - "开放词汇3D语义分割"
+  - "场景图"
+  - "CLIP嵌入"
+  - "语言检索"
+  - "SemanticSAM"
 ---
 
 # CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D

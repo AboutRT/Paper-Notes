@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][热红外图像合成] 提出 T-FAKE 数据集和 RGB2Thermal 损失函数，通过半监督热红外图像合成生成首个大规模合成热红外面部关键点数据集（20万张图像），在热红外域实现 SOTA 的稀疏/稠密面部关键点检测。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 热红外图像合成
-  - 面部关键点检测
-  - 合成数据集
-  - 域自适应
-  - Wasserstein距离
+  - "CVPR 2025"
+  - "医学图像"
+  - "热红外图像合成"
+  - "面部关键点检测"
+  - "合成数据集"
+  - "域自适应"
+  - "Wasserstein距离"
 ---
 
 # T-FAKE: Synthesizing Thermal Images for Facial Landmarking

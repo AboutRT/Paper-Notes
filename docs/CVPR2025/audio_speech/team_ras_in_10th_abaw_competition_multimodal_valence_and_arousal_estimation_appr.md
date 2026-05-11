@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Team RAS in 10th ABAW Competition: Multimodal Valence and Arousal Estimation Approach
 description: >-
-  [CVPR2025][音频语音][valence-arousal estimation] 提出结合面部（GRADA+Transformer）、行为描述（Qwen3-VL+Mamba）和音频（WavLM）三模态的连续情感估计方法，通过 Directed Cross-Modal MoE 和 Reliability-Aware Audio-Visual 两种融合策略在 Aff-Wild2 上达到 CCC 0.6576（dev）/ 0.62（test）。
+  [CVPR2025][音频/语音][valence-arousal estimation] 提出结合面部（GRADA+Transformer）、行为描述（Qwen3-VL+Mamba）和音频（WavLM）三模态的连续情感估计方法…
 tags:
-  - CVPR2025
-  - 音频语音
-  - valence-arousal estimation
-  - 多模态
-  - mixture of experts
-  - affective computing
-  - ABAW
+  - "CVPR2025"
+  - "音频/语音"
+  - "valence-arousal estimation"
+  - "多模态"
+  - "mixture of experts"
+  - "affective computing"
+  - "ABAW"
 ---
 
 # Team RAS in 10th ABAW Competition: Multimodal Valence and Arousal Estimation Approach

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ECCV 2024][AI安全][adversarial attack] 提出 CGNC，利用 CLIP 文本编码器为条件生成网络注入目标类别语义信息，结合交叉注意力模块和 masked fine-tuning，大幅提升多目标/单目标定向对抗攻击的黑盒迁移成功率。
 tags:
-  - ECCV 2024
-  - AI安全
-  - adversarial attack
-  - targeted transferability
-  - CLIP
-  - generative model
-  - 注意力机制
-  - multi-target attack
+  - "ECCV 2024"
+  - "AI安全"
+  - "adversarial attack"
+  - "targeted transferability"
+  - "CLIP"
+  - "generative model"
+  - "注意力机制"
+  - "multi-target attack"
 ---
 
 # CLIP-Guided Generative Networks for Transferable Targeted Adversarial Attacks

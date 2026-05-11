@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Optimal Multimodal Information Bottleneck Representations
 description: >-
-  [ICML2025][多模态][多模态学习] 提出 OMIB 框架，通过理论推导正则化参数 β 的上界并动态调整各模态权重 r，保证多模态信息瓶颈表示的最优性（包含全部任务相关信息、排除冗余信息）。
+  [ICML2025][多模态VLM][多模态学习] 提出 OMIB 框架，通过理论推导正则化参数 β 的上界并动态调整各模态权重 r，保证多模态信息瓶颈表示的最优性（包含全部任务相关信息、排除冗余信息）。
 tags:
-  - ICML2025
-  - 多模态
-  - 多模态学习
-  - 信息瓶颈
-  - 变分推断
-  - regularization bound
-  - 注意力机制
+  - "ICML2025"
+  - "多模态VLM"
+  - "多模态学习"
+  - "信息瓶颈"
+  - "变分推断"
+  - "regularization bound"
+  - "注意力机制"
 ---
 
 # Learning Optimal Multimodal Information Bottleneck Representations

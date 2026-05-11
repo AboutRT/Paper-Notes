@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM评测][LLM记忆] 提出AnchorMem记忆框架，受普鲁斯特现象启发，将检索单元（原子事实）与生成上下文（原始交互）解耦，通过关联事件图连接碎片化记忆，在LoCoMo基准上大幅超越A-Mem、Mem0等现有记忆系统。
 tags:
-  - ACL 2026
-  - LLM评测
-  - LLM记忆
-  - 原子事实
-  - 关联事件图
-  - 检索增强
-  - 长期对话
+  - "ACL 2026"
+  - "LLM评测"
+  - "LLM记忆"
+  - "原子事实"
+  - "关联事件图"
+  - "检索增强"
+  - "长期对话"
 ---
 
 # AnchorMem: Anchored Facts with Associative Contexts for Building Memory in Large Language Models

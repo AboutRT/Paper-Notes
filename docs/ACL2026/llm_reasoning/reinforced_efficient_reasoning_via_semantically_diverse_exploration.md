@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][MCTS] ROSE 提出语义熵引导的 MCTS 分支策略和长度感知的段级优势估计，解决了现有 MCTS-based RLVR 方法探索多样性不足和推理效率低的问题，在多个数学推理基准上取得最优 pass@8 性能。
 tags:
-  - ACL 2026
-  - LLM推理
-  - MCTS
-  - 语义熵
-  - GRPO
-  - 高效推理
-  - 分支策略
+  - "ACL 2026"
+  - "LLM推理"
+  - "MCTS"
+  - "语义熵"
+  - "GRPO"
+  - "高效推理"
+  - "分支策略"
 ---
 
 # Reinforced Efficient Reasoning via Semantically Diverse Exploration

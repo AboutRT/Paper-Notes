@@ -2,16 +2,16 @@
 title: >-
   [论文解读] StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation
 description: >-
-  [ICCV 2025][图像生成][实时生成] StreamDiffusion 提出管线级实时扩散框架，通过 Stream Batch（去噪步骤批处理）、R-CFG（残差无分类器引导）和 SSF（随机相似性过滤）等策略，在单张 RTX 4090 上实现高达 91 fps 的实时图像生成，比 Diffusers AutoPipeline 快 59.6 倍。
+  [ICCV 2025][图像生成][实时生成] StreamDiffusion 提出管线级实时扩散框架，通过 Stream Batch（去噪步骤批处理）、R-CFG（残差无分类器引导）和 SSF（随机相似性过滤）等策略，在单张 RTX 4090 上实现高达 91 fps 的实时图像生成…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 实时生成
-  - 流式扩散
-  - Stream Batch
-  - 残差CFG
-  - 随机相似性过滤
-  - 流水线优化
+  - "ICCV 2025"
+  - "图像生成"
+  - "实时生成"
+  - "流式扩散"
+  - "Stream Batch"
+  - "残差CFG"
+  - "随机相似性过滤"
+  - "流水线优化"
 ---
 
 # StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation

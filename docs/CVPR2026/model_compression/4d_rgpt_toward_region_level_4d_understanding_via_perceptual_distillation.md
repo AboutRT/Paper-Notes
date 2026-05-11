@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][4D理解] 提出4D-RGPT和感知4D蒸馏（P4D）框架，通过从冻结的4D感知专家模型中蒸馏深度和光流等知识到MLLM中增强4D感知，同时构建R4D-Bench——首个区域级4D视频问答基准。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 4D理解
-  - 区域级VQA
-  - 感知蒸馏
-  - 时间位置编码
-  - 深度感知
+  - "CVPR 2026"
+  - "模型压缩"
+  - "4D理解"
+  - "区域级VQA"
+  - "感知蒸馏"
+  - "时间位置编码"
+  - "深度感知"
 ---
 
 # 4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation

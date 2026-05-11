@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][3D视觉][点云] 提出 DiPVNet，基于 atomic dot-product operator 的双重属性（方向选择性 + 旋转不变性），构建局部 L2DP 算子和全局 DASFT 模块，实现层次化方向感知的旋转不变点云学习。
 tags:
-  - AAAI2026
-  - 3D视觉
-  - 点云
-  - 旋转不变性
-  - dot-product operator
-  - spherical Fourier transform
-  - 等变性
+  - "AAAI2026"
+  - "3D视觉"
+  - "点云"
+  - "旋转不变性"
+  - "dot-product operator"
+  - "spherical Fourier transform"
+  - "等变性"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

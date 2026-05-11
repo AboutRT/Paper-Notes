@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Open-Vocabulary Audio-Visual Event Localization
 description: >-
-  [CVPR 2025][语音][开放词汇] 首次定义开放词汇音视频事件定位（OV-AVEL）任务，构建了包含 24800 个视频、67 类事件的 OV-AVEBench 基准，并提出基于 ImageBind 的训练免和微调两种基线方法，其中仅用 1 层时序 Transformer 微调即达 57.8% 平均性能。
+  [CVPR 2025][音频/语音][开放词汇] 首次定义开放词汇音视频事件定位（OV-AVEL）任务，构建了包含 24800 个视频、67 类事件的 OV-AVEBench 基准，并提出基于 ImageBind 的训练免和微调两种基线方法…
 tags:
-  - CVPR 2025
-  - 语音
-  - 开放词汇
-  - 音视频事件定位
-  - ImageBind
-  - 时序建模
-  - 零样本泛化
+  - "CVPR 2025"
+  - "音频/语音"
+  - "开放词汇"
+  - "音视频事件定位"
+  - "ImageBind"
+  - "时序建模"
+  - "零样本泛化"
 ---
 
 # Towards Open-Vocabulary Audio-Visual Event Localization

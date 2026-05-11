@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][强化学习][Verilog生成] ChipSeek 提出了一个将 EDA 工具链直接集成到训练循环中的分层奖励 RL 框架，通过课程引导的动态策略优化（CDPO）使 LLM 能够生成同时满足功能正确性和 PPA（功耗-性能-面积）优化的 RTL 代码，在标准基准上达到 SOTA。
 tags:
-  - ACL 2026
-  - 强化学习
-  - Verilog生成
-  - EDA集成
-  - 分层奖励
-  - PPA优化
-  - 课程式策略优化
+  - "ACL 2026"
+  - "强化学习"
+  - "Verilog生成"
+  - "EDA集成"
+  - "分层奖励"
+  - "PPA优化"
+  - "课程式策略优化"
 ---
 
 # ChipSeek: Optimizing Verilog Generation via EDA-Integrated Reinforcement Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][neural processes] 提出 FlowNP，将 flow matching 引入神经过程框架，通过 transformer 预测目标点的流速度场实现对条件分布的并行采样，在 1D GP、图像和气象数据三大基准上全面超越现有 NP 方法。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - neural processes
-  - flow matching
-  - stochastic processes
-  - conditional generation
-  - Transformer
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "neural processes"
+  - "flow matching"
+  - "stochastic processes"
+  - "conditional generation"
+  - "Transformer"
 ---
 
 # Flow Matching Neural Processes

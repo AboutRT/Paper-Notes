@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][个性化生成] 提出 DreamCache 通过在单个去噪步（t=1）缓存参考图的 U-Net 中间特征，用轻量 25M 参数的条件适配器在生成时注入缓存特征，实现免微调、免编码器、即插即用的个性化图像生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 个性化生成
-  - 特征缓存
-  - 免微调
-  - 即插即用
-  - 轻量适配
+  - "CVPR 2025"
+  - "图像生成"
+  - "个性化生成"
+  - "特征缓存"
+  - "免微调"
+  - "即插即用"
+  - "轻量适配"
 ---
 
 # DreamCache: Finetuning-Free Lightweight Personalized Image Generation via Feature Caching

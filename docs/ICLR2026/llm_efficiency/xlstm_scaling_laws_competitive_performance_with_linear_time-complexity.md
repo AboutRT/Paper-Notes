@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][LLM效率][scaling laws] 系统对比 xLSTM 与 Transformer 的 scaling law，证明 xLSTM 在训练损失-算力 Pareto 前沿、过训练 regime 和推理速度上全面优于同规模 Transformer，且优势随上下文长度增大而增长。
 tags:
-  - ICLR2026
-  - LLM效率
-  - scaling laws
-  - xLSTM
-  - 线性复杂度
-  - Transformer
-  - 推理效率
+  - "ICLR2026"
+  - "LLM效率"
+  - "scaling laws"
+  - "xLSTM"
+  - "线性复杂度"
+  - "Transformer"
+  - "推理效率"
 ---
 
 # xLSTM Scaling Laws: Competitive Performance with Linear Time-Complexity

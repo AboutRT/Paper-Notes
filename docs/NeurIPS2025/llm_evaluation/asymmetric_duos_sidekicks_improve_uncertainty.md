@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Asymmetric Duos: Sidekicks Improve Uncertainty
 description: >-
-  [NeurIPS 2025][LLM评测] Asymmetric Duos（AD）将一个大模型与一个小"sidekick"配对——通过温度加权的 logit 平均融合两者预测，在仅增加 10-20% FLOPs 的条件下达到接近 5× 深度集成的不确定性估计质量，RN50 AD（5% FLOPs 额外开销）在 AUROC/AURC/SAC@98 上接近 m=5 深度集成（400% 额外 FLOPs）。
+  [NeurIPS 2025][LLM评测][不确定性量化] Asymmetric Duos（AD）将一个大模型与一个小"sidekick"配对——通过温度加权的 logit 平均融合两者预测，在仅增加 10-20% FLOPs 的条件下达到接近 5× 深度集成的不确定性估计质量…
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - 深度集成
-  - 非对称配对
-  - 温度缩放
-  - FLOPs效率
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "不确定性量化"
+  - "深度集成"
+  - "非对称配对"
+  - "温度缩放"
+  - "FLOPs效率"
 ---
 
 # Asymmetric Duos: Sidekicks Improve Uncertainty

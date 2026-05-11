@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][协同感知] 提出 CooperTrim 自适应特征选择框架，通过共形时序不确定性度量评估特征相关性，并用数据驱动机制动态决定共享数量，在协同语义分割中实现 80.28% 带宽降低且性能可比，首次将选择性共享应用于协同分割任务。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 协同感知
-  - 带宽优化
-  - 时序不确定性
-  - 特征选择
-  - 共形预测
+  - "ICLR 2026"
+  - "3D视觉"
+  - "协同感知"
+  - "带宽优化"
+  - "时序不确定性"
+  - "特征选择"
+  - "共形预测"
 ---
 
 # COOPERTRIM: Adaptive Data Selection for Uncertainty-Aware Cooperative Perception

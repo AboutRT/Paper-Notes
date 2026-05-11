@@ -2,17 +2,17 @@
 title: >-
   [论文解读] LT3SD: Latent Trees for 3D Scene Diffusion
 description: >-
-  [CVPR 2025][3D视觉][3D scene generation] 提出 LT3SD，将 3D 场景渐进分解为潜在树（每层包含几何体积 + 高频潜在特征体积），在此表征上训练基于 patch 的扩散模型，实现从粗到细、逐 patch 的高质量无限 3D 场景生成，FID 相对 SOTA 提升 70%。
+  [CVPR 2025][3D视觉][3D scene generation] 提出 LT3SD，将 3D 场景渐进分解为潜在树（每层包含几何体积 + 高频潜在特征体积），在此表征上训练基于 patch 的扩散模型，实现从粗到细、逐 patch 的高质量无限 3D 场景生成，FID 相对 SOTA 提升 70%…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D scene generation
-  - 扩散模型
-  - latent tree
-  - TUDF
-  - coarse-to-fine
-  - patch-based
-  - unconditional generation
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D scene generation"
+  - "扩散模型"
+  - "latent tree"
+  - "TUDF"
+  - "coarse-to-fine"
+  - "patch-based"
+  - "unconditional generation"
 ---
 
 # LT3SD: Latent Trees for 3D Scene Diffusion

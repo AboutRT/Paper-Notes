@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models
 description: >-
-  [CVPR 2026][LLM推理][多模态幻觉] 本文系统分析了多模态 CoT 模型中幻觉的成因，发现"发散思维"（associative reasoning）是幻觉的核心触发因素，并提出基于视觉熵的免训练检测+解码干预策略，在 Object HalBench 上将 CHAIRS 降低超过 30%，同时保持甚至提升通用推理能力。
+  [CVPR 2026][LLM推理][多模态幻觉] 本文系统分析了多模态 CoT 模型中幻觉的成因，发现"发散思维"（associative reasoning）是幻觉的核心触发因素，并提出基于视觉熵的免训练检测+解码干预策略，在 Object HalBench 上将 CHAIRS 降低超过 30%…
 tags:
-  - CVPR 2026
-  - LLM推理
-  - 多模态幻觉
-  - 链式思维推理
-  - 发散思维
-  - 视觉熵
-  - 解码干预
+  - "CVPR 2026"
+  - "LLM推理"
+  - "多模态幻觉"
+  - "链式思维推理"
+  - "发散思维"
+  - "视觉熵"
+  - "解码干预"
 ---
 
 # Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models

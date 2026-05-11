@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Speculative Sampling with Reinforcement Learning
 description: >-
-  [AAAI 2026][推测采样] 提出 Re-SpS，首个将推测采样（Speculative Sampling）的草稿树超参数优化建模为 MDP 并用强化学习求解的框架，通过特征复用和动作缓存两大设计，在不损失输出保真度的前提下，相比 EAGLE-3 实现最高 1.12× 的额外加速。
+  [AAAI 2026][强化学习][推测采样] 提出 Re-SpS，首个将推测采样（Speculative Sampling）的草稿树超参数优化建模为 MDP 并用强化学习求解的框架，通过特征复用和动作缓存两大设计，在不损失输出保真度的前提下，相比 EAGLE-3 实现最高 1.12× 的额外加速。
 tags:
-  - AAAI 2026
-  - 推测采样
-  - 强化学习
-  - 强化学习
-  - 草稿树优化
-  - PPO
+  - "AAAI 2026"
+  - "强化学习"
+  - "推测采样"
+  - "大语言模型推理加速"
+  - "草稿树优化"
+  - "PPO"
 ---
 
 # Speculative Sampling with Reinforcement Learning

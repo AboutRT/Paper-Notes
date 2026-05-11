@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][奖励微调] 本文提出 LaSRO，通过在潜空间中学习可微的代理奖励模型，将任意（包括不可微）奖励信号转化为可微梯度引导，实现对两步扩散模型的高效奖励微调，显著优于 DDPO、DPO 等主流强化学习方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 奖励微调
-  - 步骤蒸馏扩散模型
-  - 代理奖励
-  - 潜空间优化
-  - 强化学习
+  - "CVPR 2025"
+  - "图像生成"
+  - "奖励微调"
+  - "步骤蒸馏扩散模型"
+  - "代理奖励"
+  - "潜空间优化"
+  - "强化学习"
 ---
 
 # Reward Fine-Tuning Two-Step Diffusion Models via Learning Differentiable Latent-Space Surrogate Reward

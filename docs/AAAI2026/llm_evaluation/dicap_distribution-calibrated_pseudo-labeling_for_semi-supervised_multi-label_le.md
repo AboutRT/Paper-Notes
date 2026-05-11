@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning
 description: >-
-  [AAAI 2026][半监督学习] 提出 DiCaP（Distribution-Calibrated Pseudo-labeling），通过估计伪标签的后验正确率来校准权重、引入双阈值机制分离置信区间和模糊区间并采用不同策略，在半监督多标签学习中以最高 4.27% 的幅度超越 SOTA。
+  [AAAI 2026][LLM评测][半监督学习] 提出 DiCaP（Distribution-Calibrated Pseudo-labeling），通过估计伪标签的后验正确率来校准权重、引入双阈值机制分离置信区间和模糊区间并采用不同策略，在半监督多标签学习中以最高 4.27% 的幅度超越 SOTA。
 tags:
-  - AAAI 2026
-  - 半监督学习
-  - 多标签学习
-  - 伪标签
-  - 校准权重
-  - LLM评测
+  - "AAAI 2026"
+  - "LLM评测"
+  - "半监督学习"
+  - "多标签学习"
+  - "伪标签"
+  - "校准权重"
+  - "对比学习"
 ---
 
 # DiCaP: Distribution-Calibrated Pseudo-labeling for Semi-Supervised Multi-Label Learning

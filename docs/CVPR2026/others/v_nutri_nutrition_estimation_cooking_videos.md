@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][营养估计] 提出 V-Nutri 框架，首次利用第一人称烹饪视频中的过程信息来辅助菜品营养估计，通过 VideoMamba 关键帧选择模块提取食材添加时刻，与最终成品图像融合来预测热量和宏量营养素。
 tags:
-  - CVPR 2026
-  - 营养估计
-  - 第一人称视频
-  - 关键帧选择
-  - 其他
-  - 食物分析
+  - "CVPR 2026"
+  - "营养估计"
+  - "第一人称视频"
+  - "关键帧选择"
+  - "多模态融合"
+  - "食物分析"
 ---
 
 # V-Nutri: Dish-Level Nutrition Estimation from Egocentric Cooking Videos

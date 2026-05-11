@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][交通标志规则] 本文首次定义了将交通标志规则集成到在线向量化高精地图的任务，构建了包含10000+视频片段和18000+车道级规则的MapDR数据集，并提出模块化（VLE-MEE）和端到端（RuleVLM）两种基线方案，其中RuleVLM在整体F1指标上达到64.2%。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 交通标志规则
-  - 高精地图
-  - 数据集基准
-  - 视觉语言模型
-  - 规则-车道关联推理
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "交通标志规则"
+  - "高精地图"
+  - "数据集基准"
+  - "视觉语言模型"
+  - "规则-车道关联推理"
 ---
 
 # Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map

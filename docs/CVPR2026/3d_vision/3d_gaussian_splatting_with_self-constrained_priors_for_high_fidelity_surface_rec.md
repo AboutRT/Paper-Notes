@@ -2,15 +2,15 @@
 title: >-
   [论文解读] 3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction
 description: >-
-  [CVPR 2026][3D视觉][3D Gaussian Splatting] 提出自约束先验（Self-Constrained Prior），通过融合当前3D高斯渲染的深度图构建TSDF距离场，以此为先验对高斯施加几何感知约束（异常值移除、不透明度约束、向表面移动），实现高保真表面重建，在NeRF-Synthetic和DTU上达到SOTA。
+  [CVPR 2026][3D视觉][3D Gaussian Splatting] 提出自约束先验（Self-Constrained Prior），通过融合当前3D高斯渲染的深度图构建TSDF距离场，以此为先验对高斯施加几何感知约束（异常值移除、不透明度约束、向表面移动），实现高保真表面重建…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 表面重建
-  - TSDF
-  - 自约束先验
-  - 几何约束
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "表面重建"
+  - "TSDF"
+  - "自约束先验"
+  - "几何约束"
 ---
 
 # 3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction

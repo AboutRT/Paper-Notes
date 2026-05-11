@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][视觉语言模型] 提出 Saliency-R1，通过基于 logit 分解的高效显著性图技术和思维链瓶颈注意力回溯，将显著性图与人工标注 bounding box 的对齐度作为 GRPO 奖励，训练 VLM 在推理时聚焦任务相关的图像区域，提升推理的可解释性和忠实性。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 视觉语言模型
-  - 显著性图
-  - GRPO强化学习
-  - 可解释推理
-  - 注意力对齐
+  - "CVPR 2026"
+  - "目标检测"
+  - "视觉语言模型"
+  - "显著性图"
+  - "GRPO强化学习"
+  - "可解释推理"
+  - "注意力对齐"
 ---
 
 # Saliency-R1: Enforcing Interpretable and Faithful Vision-language Reasoning via Saliency-map Alignment Reward

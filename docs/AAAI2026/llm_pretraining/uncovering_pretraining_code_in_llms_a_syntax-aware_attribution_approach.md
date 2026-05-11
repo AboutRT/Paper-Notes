@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach
 description: >-
-  [AAAI 2026][成员推断攻击] 提出SynPrune——首个语法感知的代码成员推断攻击方法，通过识别47种Python语法约定并在计算成员推断分数时剪除语法决定的token（仅保留反映作者特征的token），平均AUROC提升15.4%，可有效检测代码LLM的预训练数据归属。
+  [AAAI 2026][预训练][成员推断攻击] 提出SynPrune——首个语法感知的代码成员推断攻击方法，通过识别47种Python语法约定并在计算成员推断分数时剪除语法决定的token（仅保留反映作者特征的token），平均AUROC提升15.4%，可有效检测代码LLM的预训练数据归属。
 tags:
-  - AAAI 2026
-  - 成员推断攻击
-  - LLM预训练
-  - 语法感知
-  - 预训练数据检测
-  - Python
+  - "AAAI 2026"
+  - "预训练"
+  - "成员推断攻击"
+  - "代码版权"
+  - "语法感知"
+  - "预训练数据检测"
+  - "Python"
 ---
 
 # Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach

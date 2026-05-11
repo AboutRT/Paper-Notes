@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Reliable and Holistic Visual In-Context Learning Prompt Selection
 description: >-
-  [NeurIPS 2025][自监督学习][visual in-context learning] 提出RH-Partial2Global方法，首次用Spearman秩相关检验证明VICL中"相似性优先假设"虽统计显著但相关强度极弱($\bar{\rho} \approx 0.03\text{-}0.05$)，通过Jackknife共形预测构建可靠候选集+覆盖设计实现全面均匀的成对偏好采样，在分割/检测/着色三个视觉任务上一致超越SOTA。
+  [NeurIPS 2025][自监督学习][visual in-context learning] 提出RH-Partial2Global方法，首次用Spearman秩相关检验证明VICL中"相似性优先假设"虽统计显著但相关强度极弱($\bar{\rho} \approx 0.03\text{-}0.05$)…
 tags:
-  - NeurIPS 2025
-  - 自监督学习
-  - visual in-context learning
-  - conformal prediction
-  - covering design
-  - 提示学习
-  - global ranking
+  - "NeurIPS 2025"
+  - "自监督学习"
+  - "visual in-context learning"
+  - "conformal prediction"
+  - "covering design"
+  - "提示学习"
+  - "global ranking"
 ---
 
 # Towards Reliable and Holistic Visual In-Context Learning Prompt Selection

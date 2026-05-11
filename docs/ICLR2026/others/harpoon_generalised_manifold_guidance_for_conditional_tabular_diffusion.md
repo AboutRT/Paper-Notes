@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][表格数据] 将流形理论从图像扩展到表格数据扩散模型，证明任意可微推理时损失的梯度都位于数据流形切线空间中（不限于平方误差损失），据此提出Harpoon方法在推理时沿流形引导无条件样本满足多样化表格约束。
 tags:
-  - ICLR 2026
-  - 表格数据
-  - 流形引导
-  - 条件生成
-  - 其他
-  - 不等式约束
+  - "ICLR 2026"
+  - "表格数据"
+  - "流形引导"
+  - "条件生成"
+  - "推理时引导"
+  - "不等式约束"
 ---
 
 # Harpoon: Generalised Manifold Guidance for Conditional Tabular Diffusion

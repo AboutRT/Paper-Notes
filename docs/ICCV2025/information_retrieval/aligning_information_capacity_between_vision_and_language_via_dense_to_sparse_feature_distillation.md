@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching
 description: >-
-  [ICCV 2025][image-text matching] 提出D2S-VSE，通过两阶段训练——先用LLaVA生成的稠密文本与图像预训练对齐以增强信息容量，再将稠密文本嵌入蒸馏到稀疏文本嵌入——解决图文匹配中信息密度不对称问题，在MS-COCO和Flickr30K上超越SOTA。
+  [ICCV 2025][信息检索/RAG][image-text matching] 提出D2S-VSE，通过两阶段训练——先用LLaVA生成的稠密文本与图像预训练对齐以增强信息容量，再将稠密文本嵌入蒸馏到稀疏文本嵌入——解决图文匹配中信息密度不对称问题，在MS-COCO和Flickr30K上超越SOTA。
 tags:
-  - ICCV 2025
-  - image-text matching
-  - visual semantic embedding
-  - dense-to-sparse distillation
-  - information capacity
-  - 跨模态
+  - "ICCV 2025"
+  - "信息检索/RAG"
+  - "image-text matching"
+  - "visual semantic embedding"
+  - "dense-to-sparse distillation"
+  - "information capacity"
+  - "跨模态"
 ---
 
 # Aligning Information Capacity Between Vision and Language via Dense-to-Sparse Feature Distillation for Image-Text Matching

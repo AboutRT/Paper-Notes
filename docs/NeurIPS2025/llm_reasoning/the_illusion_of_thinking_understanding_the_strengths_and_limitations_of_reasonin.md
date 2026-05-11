@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
 description: >-
-  [NeurIPS 2025][LLM推理][Large Reasoning Models] 通过可控拼图环境系统揭示大型推理模型（LRMs）的三阶段行为：低复杂度不如标准 LLM、中等复杂度显著优于、高复杂度完全崩溃(0%)，且反直觉地在崩溃时减少思考 token，证实当前 LRMs 并未发展出真正泛化的推理能力。
+  [NeurIPS 2025][LLM推理][Large Reasoning Models] 通过可控拼图环境系统揭示大型推理模型（LRMs）的三阶段行为：低复杂度不如标准 LLM、中等复杂度显著优于、高复杂度完全崩溃(0%)，且反直觉地在崩溃时减少思考 token…
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - Large Reasoning Models
-  - 问题复杂度
-  - 思考Token
-  - Chain-of-Thought
-  - 推理崩溃
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "Large Reasoning Models"
+  - "问题复杂度"
+  - "思考Token"
+  - "Chain-of-Thought"
+  - "推理崩溃"
 ---
 
 # The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity

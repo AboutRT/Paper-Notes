@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
 description: >-
-  [CVPR 2026][人体理解][灵巧操作] 提出UniDex机器人基础套件——包含跨8种灵巧手的大规模数据集（50K+轨迹/9M帧）、功能-执行器对齐的统一动作空间（FAAS）和3D VLA策略（UniDex-VLA），在真实世界工具使用任务上达到81%平均任务进度（vs π₀的38%），并展示了空间、物体和零样本跨手泛化能力。
+  [CVPR 2026][人体理解][灵巧操作] 提出UniDex机器人基础套件——包含跨8种灵巧手的大规模数据集（50K+轨迹/9M帧）、功能-执行器对齐的统一动作空间（FAAS）和3D VLA策略（UniDex-VLA），在真实世界工具使用任务上达到81%平均任务进度（vs π₀的38%）…
 tags:
-  - CVPR 2026
-  - 人体理解
-  - 灵巧操作
-  - VLA基础模型
-  - 统一动作空间
-  - 人类视频学习
-  - 跨手迁移
+  - "CVPR 2026"
+  - "人体理解"
+  - "灵巧操作"
+  - "VLA基础模型"
+  - "统一动作空间"
+  - "人类视频学习"
+  - "跨手迁移"
 ---
 
 # UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos

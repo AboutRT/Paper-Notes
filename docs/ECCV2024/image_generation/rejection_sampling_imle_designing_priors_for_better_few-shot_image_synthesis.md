@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 揭示 IMLE 方法中训练/测试时潜在码分布不对齐问题，提出 RS-IMLE 通过拒绝采样改变训练先验分布，在九个少样本图像数据集上平均降低 45.9% FID。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # Rejection Sampling IMLE: Designing Priors for Better Few-Shot Image Synthesis

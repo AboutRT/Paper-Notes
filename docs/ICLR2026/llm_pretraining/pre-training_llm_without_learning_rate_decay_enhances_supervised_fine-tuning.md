@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning
 description: >-
-  [ICLR 2026][学习率调度] 提出 Warmup-Stable-Only (WSO) 学习率调度策略——在预训练中完全去掉学习率衰减阶段，虽然预训练指标较差，但在 SFT 后一致性地超越所有衰减策略，通过损失景观分析揭示 WSO 保持更平坦的极小值区域是其优势根源。
+  [ICLR 2026][预训练][学习率调度] 提出 Warmup-Stable-Only (WSO) 学习率调度策略——在预训练中完全去掉学习率衰减阶段，虽然预训练指标较差，但在 SFT 后一致性地超越所有衰减策略，通过损失景观分析揭示 WSO 保持更平坦的极小值区域是其优势根源。
 tags:
-  - ICLR 2026
-  - 学习率调度
-  - 预训练
-  - 监督微调
-  - 损失景观
-  - Warmup-Stable-Only
+  - "ICLR 2026"
+  - "预训练"
+  - "学习率调度"
+  - "监督微调"
+  - "损失景观"
+  - "Warmup-Stable-Only"
 ---
 
 # Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning

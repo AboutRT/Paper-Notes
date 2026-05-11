@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Every Camera Effect, Every Time, All at Once: 4D Gaussian Ray Tracing for Physics-based Camera Effect Data Generation
 description: >-
-  [NeurIPS 2025][3D视觉][4D Gaussian Splatting] 提出 4D Gaussian Ray Tracing (4D-GRT)，将 4D Gaussian Splatting 与物理光线追踪结合，从多视角视频重建动态场景后，以可控参数生成鱼眼畸变、景深模糊、卷帘快门等物理精确的相机效果视频数据。
+  [NeurIPS 2025][3D视觉][4D Gaussian Splatting] 提出 4D Gaussian Ray Tracing (4D-GRT)，将 4D Gaussian Splatting 与物理光线追踪结合，从多视角视频重建动态场景后…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 4D Gaussian Splatting
-  - Ray Tracing
-  - Camera Effects
-  - Dynamic Scene Reconstruction
-  - Data Generation
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "4D Gaussian Splatting"
+  - "Ray Tracing"
+  - "Camera Effects"
+  - "Dynamic Scene Reconstruction"
+  - "Data Generation"
 ---
 
 # Every Camera Effect, Every Time, All at Once: 4D Gaussian Ray Tracing for Physics-based Camera Effect Data Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][LoRA] RefLoRA 通过在每次迭代中选择最优的低秩分解形式（最小化损失上界），解决了 LoRA 因分解不唯一性导致的权重更新不一致和不平衡问题，在几乎不增加计算开销的前提下加速收敛并提升微调性能。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - LoRA
-  - 参数高效微调
-  - 低秩分解
-  - 矩阵重分解
-  - 大语言模型
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "LoRA"
+  - "参数高效微调"
+  - "低秩分解"
+  - "矩阵重分解"
+  - "大语言模型"
 ---
 
 # RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models
@@ -108,7 +108,7 @@ $$A_{t+1} = A_t - \eta \nabla \ell(W_t) B_t \tilde{S}_t^{-1}, \quad B_{t+1} = B_
 | LoRA-Pro | 60.2% | +134 MB |
 | LoRA-RITE | 72.6% | +140 MB |
 | **RefLoRA** | **88.5%** | +132 MB |
-| **RefLoRA-S** | **98.7%** | **<1 MB** |
+| **RefLoRA-S** | **98.7%** | **&lt;1 MB** |
 
 ## 亮点
 

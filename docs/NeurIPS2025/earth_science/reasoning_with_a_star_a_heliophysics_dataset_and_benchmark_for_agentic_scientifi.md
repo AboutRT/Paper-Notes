@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reasoning With a Star: A Heliophysics Dataset and Benchmark for Agentic Scientific Reasoning
 description: >-
-  [NeurIPS 2025][地球科学] 提出 Reasoning With a Star (RWS)，一个源自 NASA 太阳物理暑期学校问题集的 158 道科学推理 benchmark（含数值/符号/文本三类答案），配合 unit-aware 评分器，比较了四种多 agent 协调模式（HMAW/PACE/PHASE/SCHEMA），发现没有单一模式在所有任务上占优——系统工程启发的 SCHEMA 在需要严格约束验证的任务上最强。
+  [NeurIPS 2025][地球科学][scientific reasoning] 提出 Reasoning With a Star (RWS)，一个源自 NASA 太阳物理暑期学校问题集的 158 道科学推理 benchmark（含数值/符号/文本三类答案），配合 unit-aware 评分器…
 tags:
-  - NeurIPS 2025
-  - 地球科学
-  - multi-agent
-  - heliophysics
-  - systems engineering
-  - benchmark
+  - "NeurIPS 2025"
+  - "地球科学"
+  - "scientific reasoning"
+  - "multi-agent"
+  - "heliophysics"
+  - "systems engineering"
+  - "benchmark"
 ---
 
 # Reasoning With a Star: A Heliophysics Dataset and Benchmark for Agentic Scientific Reasoning
@@ -95,7 +96,7 @@ RWS benchmark（158 道太阳物理题，数值/符号/文本三类） -> 程序
 - **HMAW 在 GPQA 上最强**（79.0%）：简单层级交接足以处理分类式科学 QA。
 - **SCHEMA 在 RWS/HumanEval/SWE-bench 上最强**（44.3%/43.3%/63.2%）：需要格式约束、假设跟踪和需求验证的任务受益于系统工程方法。
 - **所有多 agent 模式在 RWS 上都超过 single-shot**（39-44% vs 35%）——即使简单的协调也能增强科学推理。
-- **RWS 上的绝对准确率仍然很低**（<45%）——科学推理对当前 LLM 仍然很难。
+- **RWS 上的绝对准确率仍然很低**（&lt;45%）——科学推理对当前 LLM 仍然很难。
 
 ## 亮点与洞察
 - **"复杂性必须被赚取，不能被假设"的系统工程原则**应用于 agent 设计非常有智慧：添加更多 agent 不一定更好，关键是匹配任务需求。

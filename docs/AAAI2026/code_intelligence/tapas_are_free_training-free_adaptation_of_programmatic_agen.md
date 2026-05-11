@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TAPA: Training-Free Adaptation of Programmatic Agents via LLM-Guided Program Synthesis in Dynamic Environments
 description: >-
-  [AAAI 2026][代码智能] TAPA 将 LLM 定位为符号动作空间的"智能调制器"而非直接决策者，通过 LLM 引导的程序合成动态适配程序化 Agent 的符号动作，无需重新训练即可适应动态环境，在网络安全 DDoS 防御（77.7% 网络正常运行率）和群体智能编队控制中表现优异。
+  [AAAI 2026][代码智能][程序化Agent] TAPA 将 LLM 定位为符号动作空间的"智能调制器"而非直接决策者，通过 LLM 引导的程序合成动态适配程序化 Agent 的符号动作，无需重新训练即可适应动态环境，在网络安全 DDoS 防御（77.7% 网络正常运行率）和群体智能编队控制中表现优异…
 tags:
-  - AAAI 2026
-  - 代码智能
-  - LLM引导的程序合成
-  - 动态环境适应
-  - 逻辑原语
-  - 符号动作空间
+  - "AAAI 2026"
+  - "代码智能"
+  - "程序化Agent"
+  - "LLM引导的程序合成"
+  - "动态环境适应"
+  - "逻辑原语"
+  - "符号动作空间"
 ---
 
 # TAPA: Training-Free Adaptation of Programmatic Agents via LLM-Guided Program Synthesis in Dynamic Environments

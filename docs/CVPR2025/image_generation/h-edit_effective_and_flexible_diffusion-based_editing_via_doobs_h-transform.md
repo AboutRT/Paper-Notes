@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像编辑] h-Edit 基于 Doob's h-transform 将扩散图像编辑形式化为反向时间桥建模问题，通过将编辑更新解耦为"重建项"和"编辑项"，首次实现了免训练的文本引导+奖励模型联合编辑，在 PIE-Bench 上全面超越现有 SOTA 方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像编辑
-  - Doob h变换
-  - 扩散桥
-  - 免训练编辑
-  - 奖励模型编辑
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像编辑"
+  - "Doob h变换"
+  - "扩散桥"
+  - "免训练编辑"
+  - "奖励模型编辑"
 ---
 
 # h-Edit: Effective and Flexible Diffusion-Based Editing via Doob's h-Transform

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][文本频率] 本文提出"文本频率定律"（TFL），发现当语义相同时，使用更高频率的文本表达来提示或微调LLM能获得更好效果，并设计了频率蒸馏和课程训练策略来进一步利用该规律。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 文本频率
-  - 释义选择
-  - 课程学习
-  - 提示优化
-  - 微调策略
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "文本频率"
+  - "释义选择"
+  - "课程学习"
+  - "提示优化"
+  - "微调策略"
 ---
 
 # Adam's Law: Textual Frequency Law on Large Language Models

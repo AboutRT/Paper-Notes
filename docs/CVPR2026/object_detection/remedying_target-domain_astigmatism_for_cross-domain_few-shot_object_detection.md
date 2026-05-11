@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][跨域少样本检测] 首次发现跨域少样本目标检测（CD-FSOD）中模型注意力在目标域持续分散的"散光"现象，受人类中央凹视觉系统启发，设计正向模式精化（PPR）、负向上下文调制（NCM）和文本语义对齐（TSA）三个互补模块来重塑注意力，在6个跨域基准上以显著优势达到SOTA。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 跨域少样本检测
-  - 注意力散光
-  - 仿生中央凹视觉
-  - 原型学习
-  - 负上下文建模
+  - "CVPR 2026"
+  - "目标检测"
+  - "跨域少样本检测"
+  - "注意力散光"
+  - "仿生中央凹视觉"
+  - "原型学习"
+  - "负上下文建模"
 ---
 
 # Remedying Target-Domain Astigmatism for Cross-Domain Few-Shot Object Detection

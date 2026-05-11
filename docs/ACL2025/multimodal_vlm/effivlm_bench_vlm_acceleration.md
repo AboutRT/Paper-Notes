@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models
 description: >-
-  [ACL 2025][多模态][VLM加速] 提出 EffiVLM-Bench 统一评估框架，从性能、泛化性、忠实度和效率四个维度系统评估 LVLM 免训练加速方法（token 压缩 + 参数压缩），覆盖 3 个前沿模型和 17 个基准任务，揭示各方法在不同压缩率下的 Pareto 最优权衡。
+  [ACL 2025][多模态VLM][VLM加速] 提出 EffiVLM-Bench 统一评估框架，从性能、泛化性、忠实度和效率四个维度系统评估 LVLM 免训练加速方法（token 压缩 + 参数压缩），覆盖 3 个前沿模型和 17 个基准任务，揭示各方法在不同压缩率下的 Pareto 最优权衡。
 tags:
-  - ACL 2025
-  - 多模态
-  - VLM加速
-  - 免训练压缩
-  - Token压缩
-  - 多模态VLM
-  - Pareto最优
+  - "ACL 2025"
+  - "多模态VLM"
+  - "VLM加速"
+  - "免训练压缩"
+  - "Token压缩"
+  - "参数量化"
+  - "Pareto最优"
 ---
 
 # EffiVLM-Bench: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models

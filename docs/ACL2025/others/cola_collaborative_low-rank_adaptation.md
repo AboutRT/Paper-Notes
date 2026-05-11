@@ -2,14 +2,14 @@
 title: >-
   [论文解读] CoLA: Collaborative Low-Rank Adaptation
 description: >-
-  [ACL 2025][其他] 提出 CoLA，一种灵活的 LoRA 架构，打破矩阵 A 和 B 之间的固定数量约束（#A=M, #B=N），并设计三种协作策略（全协作/随机协作/启发式协作），结合扩展的 PiSSA 初始化，在低样本场景下显著优于现有 PEFT 方法。
+  [ACL 2025][LoRA] 提出 CoLA，一种灵活的 LoRA 架构，打破矩阵 A 和 B 之间的固定数量约束（#A=M, #B=N），并设计三种协作策略（全协作/随机协作/启发式协作），结合扩展的 PiSSA 初始化，在低样本场景下显著优于现有 PEFT 方法。
 tags:
-  - ACL 2025
-  - 其他
-  - parameter-efficient fine-tuning
-  - Low-Rank Adaptation
-  - Multi-Task Learning
-  - LLM Fine-Tuning
+  - "ACL 2025"
+  - "LoRA"
+  - "parameter-efficient fine-tuning"
+  - "Low-Rank Adaptation"
+  - "Multi-Task Learning"
+  - "LLM Fine-Tuning"
 ---
 
 # CoLA: Collaborative Low-Rank Adaptation

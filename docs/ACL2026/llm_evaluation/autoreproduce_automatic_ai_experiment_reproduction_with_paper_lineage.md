@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AutoReproduce: Automatic AI Experiment Reproduction with Paper Lineage
 description: >-
-  [ACL 2026][论文复现] AutoReproduce 提出了一个多智能体框架，通过"论文谱系"算法从引用文献中挖掘隐式领域知识，实现端到端的论文实验自动复现，在自建基准 ReproduceBench 上的代码执行率达 94.87%，性能差距仅 19.72%。
+  [ACL 2026][LLM评测][论文复现] AutoReproduce 提出了一个多智能体框架，通过"论文谱系"算法从引用文献中挖掘隐式领域知识，实现端到端的论文实验自动复现，在自建基准 ReproduceBench 上的代码执行率达 94.87%，性能差距仅 19.72%。
 tags:
-  - ACL 2026
-  - 论文复现
-  - 论文谱系
-  - LLM评测
-  - 代码生成
-  - 科研自动化
+  - "ACL 2026"
+  - "LLM评测"
+  - "论文复现"
+  - "论文谱系"
+  - "多智能体"
+  - "代码生成"
+  - "科研自动化"
 ---
 
 # AutoReproduce: Automatic AI Experiment Reproduction with Paper Lineage

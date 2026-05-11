@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][点云配准] 提出基于SE(3)等变图神经网络的稀疏点云配准方法Equi-GSPR，通过等变消息传播、低秩特征变换（LRFT）和隐式特征空间相似度匹配，在室内外数据集上以低模型复杂度实现SOTA配准性能。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 点云配准
-  - SE(3)等变性
-  - 图神经网络
-  - 特征描述符
-  - 相似度匹配
+  - "ECCV 2024"
+  - "3D视觉"
+  - "点云配准"
+  - "SE(3)等变性"
+  - "图神经网络"
+  - "特征描述符"
+  - "相似度匹配"
 ---
 
 # Equi-GSPR: Equivariant SE(3) Graph Network Model for Sparse Point Cloud Registration

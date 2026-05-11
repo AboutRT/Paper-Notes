@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像恢复][JPEG伪影去除] 针对双重 JPEG 压缩图像恢复问题，提出 OAPT，通过预测两次压缩之间的像素偏移量，将每个 8×8 block 中的四种不同模式进行聚类分组后分别进行自注意力处理，在双重 JPEG 恢复任务上超越 SOTA 方法 0.16 dB。
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - JPEG伪影去除
-  - 双重JPEG压缩
-  - Transformer
-  - 偏移感知
-  - 模式聚类
+  - "ECCV 2024"
+  - "图像恢复"
+  - "JPEG伪影去除"
+  - "双重JPEG压缩"
+  - "Transformer"
+  - "偏移感知"
+  - "模式聚类"
 ---
 
 # OAPT: Offset-Aware Partition Transformer for Double JPEG Artifacts Removal

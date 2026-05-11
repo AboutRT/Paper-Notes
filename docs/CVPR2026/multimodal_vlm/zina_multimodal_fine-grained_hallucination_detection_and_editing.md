@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Zina: Multimodal Fine-grained Hallucination Detection and Editing
 description: >-
-  [CVPR 2026][多模态][多模态幻觉检测] Zina 提出了多模态细粒度幻觉检测与编辑任务，设计了两阶段系统（detector MLLM + reviewer MLLM）将 token 复制委托给确定性函数以简化模型负担，同时构建了 VisionHall 数据集（6.9K 人工标注 + 20K 图结构合成数据），在检测 F1 上超过 GPT-4o 达 15.8 个点。
+  [CVPR 2026][多模态VLM][多模态幻觉检测] Zina 提出了多模态细粒度幻觉检测与编辑任务，设计了两阶段系统（detector MLLM + reviewer MLLM）将 token 复制委托给确定性函数以简化模型负担…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态幻觉检测
-  - 细粒度编辑
-  - VLM评估
-  - 合成数据
-  - 标签分类
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态幻觉检测"
+  - "细粒度编辑"
+  - "VLM评估"
+  - "合成数据"
+  - "标签分类"
 ---
 
 # Zina: Multimodal Fine-grained Hallucination Detection and Editing

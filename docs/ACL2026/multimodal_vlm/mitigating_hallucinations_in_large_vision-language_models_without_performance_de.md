@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Mitigating Hallucinations in Large Vision-Language Models without Performance Degradation
 description: >-
-  [ACL 2026][多模态][视觉语言模型] 本文提出 MPD 框架，通过语义感知正交子空间投影分离幻觉成分，并仅选择性更新与幻觉最相关的少量参数，在减少 23.4% 幻觉的同时保持 97.4% 的通用生成能力，不引入额外推理开销。
+  [ACL 2026][多模态VLM][视觉语言模型] 本文提出 MPD 框架，通过语义感知正交子空间投影分离幻觉成分，并仅选择性更新与幻觉最相关的少量参数，在减少 23.4% 幻觉的同时保持 97.4% 的通用生成能力，不引入额外推理开销。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 对象幻觉
-  - 表示干预
-  - 正交投影
-  - 选择性参数编辑
+  - "ACL 2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "对象幻觉"
+  - "表示干预"
+  - "正交投影"
+  - "选择性参数编辑"
 ---
 
 # Mitigating Hallucinations in Large Vision-Language Models without Performance Degradation

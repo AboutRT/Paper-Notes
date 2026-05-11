@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][Transformer] 通过机械可解释性方法揭示了扩散Transformer（DiT）生成空间关系的内部电路机制：随机嵌入模型使用两阶段模块化电路（关系头+物体生成头），T5编码器模型则将关系信息融合到物体token中通过单token解码，两种机制的鲁棒性差异显著。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - Transformer
-  - 空间关系生成
-  - 机械可解释性
-  - 注意力电路
-  - 文本编码器
+  - "CVPR 2026"
+  - "图像生成"
+  - "Transformer"
+  - "空间关系生成"
+  - "机械可解释性"
+  - "注意力电路"
+  - "文本编码器"
 ---
 
 # Circuit Mechanisms for Spatial Relation Generation in Diffusion Transformers

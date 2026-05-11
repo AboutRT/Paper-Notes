@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM对齐][模态偏差] NaPO 针对MLLM的模态偏差问题（过度依赖语言先验或视觉细节），通过mask模态信息构造偏差数据集RLAIF-V-Bias，并提出基于负Box-Cox变换的噪声感知偏好优化算法，在自动构造的含噪数据上实现鲁棒训练，在去偏和减幻觉上均取得显著效果。
 tags:
-  - CVPR 2025
-  - LLM对齐
-  - 模态偏差
-  - 噪声感知优化
-  - 偏好学习
-  - MLLM去偏
-  - 幻觉缓解
+  - "CVPR 2025"
+  - "LLM对齐"
+  - "模态偏差"
+  - "噪声感知优化"
+  - "偏好学习"
+  - "MLLM去偏"
+  - "幻觉缓解"
 ---
 
 # Debiasing Multimodal Large Language Models via Noise-Aware Preference Optimization

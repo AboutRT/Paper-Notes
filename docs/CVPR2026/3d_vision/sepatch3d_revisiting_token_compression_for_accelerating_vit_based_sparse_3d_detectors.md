@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][目标检测] 提出 SEPatch3D，通过时空感知的动态 patch 大小选择和基于熵的信息性 patch 筛选增强机制，在 ViT 基稀疏多视角 3D 检测中实现 57% 推理加速且保持可比检测精度。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 目标检测
-  - token compression
-  - patch size selection
-  - multi-view detection
-  - ViT acceleration
+  - "CVPR 2026"
+  - "3D视觉"
+  - "目标检测"
+  - "token compression"
+  - "patch size selection"
+  - "multi-view detection"
+  - "ViT acceleration"
 ---
 
 # SEPatch3D: Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors

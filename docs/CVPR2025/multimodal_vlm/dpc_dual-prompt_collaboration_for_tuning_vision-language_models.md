@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][提示学习] 提出双提示协作（DPC）框架，通过冻结原始调优提示保持新类泛化、训练并行提示强化基类性能，配合加权解耦推理机制，作为即插即用模块在 4 种 prompt tuning 基线上一致提升 base-new 调和均值。
+  [CVPR 2025][多模态VLM][提示学习] 提出双提示协作（DPC）框架，通过冻结原始调优提示保持新类泛化、训练并行提示强化基类性能，配合加权解耦推理机制，作为即插即用模块在 4 种 prompt tuning 基线上一致提升 base-new 调和均值。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 提示学习
-  - base-new trade-off
-  - 双提示协作
-  - 硬负样本
-  - CLIP微调
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "提示学习"
+  - "base-new trade-off"
+  - "双提示协作"
+  - "硬负样本"
+  - "CLIP微调"
 ---
 
 # DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models

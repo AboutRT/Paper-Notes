@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Domain-Adapted Granger Causality for Real-Time Cross-Slice Attack Attribution in 6G Networks
 description: >-
-  [NEURIPS2025][Granger causality] 提出一种面向6G网络切片的域适应Granger因果框架，将增强型Granger因果检验与网络资源争用建模相结合，实现实时跨切片攻击归因，在1100个攻击场景上达到89.2%准确率和87ms响应时间，显著超越现有统计、深度学习和因果发现方法。
+  [NEURIPS2025][因果推理][Granger causality] 提出一种面向6G网络切片的域适应Granger因果框架，将增强型Granger因果检验与网络资源争用建模相结合，实现实时跨切片攻击归因，在1100个攻击场景上达到89.2%准确率和87ms响应时间…
 tags:
-  - NEURIPS2025
-  - Granger causality
-  - 6G network slicing
-  - cross-slice attack attribution
-  - resource contention
-  - real-time security
+  - "NEURIPS2025"
+  - "因果推理"
+  - "Granger causality"
+  - "6G network slicing"
+  - "cross-slice attack attribution"
+  - "resource contention"
+  - "real-time security"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->
@@ -95,8 +96,8 @@ Domain-Adapted Granger Causality 框架接收 N 个切片的安全遥测流 {x_t
 
 ### 关键发现
 
-1. 本方法比最强基线 Transformer-XL 高出7.9个百分点准确率（p<0.001, Cohen's d>1.5），同时响应时间快2.7倍（87ms vs 234ms），内存仅为其1/11
-2. 消融实验量化了各组件贡献：资源条件化 +8.2pp、资源争用建模 +4.7pp、集成学习 +2.2pp，均达到 p<0.001 显著水平
+1. 本方法比最强基线 Transformer-XL 高出7.9个百分点准确率（p&lt;0.001, Cohen's d>1.5），同时响应时间快2.7倍（87ms vs 234ms），内存仅为其1/11
+2. 消融实验量化了各组件贡献：资源条件化 +8.2pp、资源争用建模 +4.7pp、集成学习 +2.2pp，均达到 p&lt;0.001 显著水平
 3. 框架在60%部分可观测性下仍保持84.3%准确率，展现出优雅的性能退化特性
 4. 工业IoT攻击案例中，完整重建5跳攻击链（96.3%准确率、零假阳性、73ms响应），传统相关性方法产生11个误报
 

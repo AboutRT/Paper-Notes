@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cyclic Counterfactuals under Shift–Scale Interventions
 description: >-
-  [NeurIPS 2025][因果推断] 本文在循环（非DAG）结构因果模型中建立了shift-scale软干预下反事实推理的理论框架，证明了全局收缩条件保证循环SCM的唯一可解性，并推导出反事实分布的sub-Gaussian集中不等式。
+  [NeurIPS 2025][因果推理][因果推断] 本文在循环（非DAG）结构因果模型中建立了shift-scale软干预下反事实推理的理论框架，证明了全局收缩条件保证循环SCM的唯一可解性，并推导出反事实分布的sub-Gaussian集中不等式。
 tags:
-  - NeurIPS 2025
-  - 因果推断
-  - 循环因果模型
-  - 反事实推理
-  - 软干预
-  - 收缩映射
+  - "NeurIPS 2025"
+  - "因果推理"
+  - "因果推断"
+  - "循环因果模型"
+  - "反事实推理"
+  - "软干预"
+  - "收缩映射"
 ---
 
 # Cyclic Counterfactuals under Shift–Scale Interventions
@@ -79,7 +80,7 @@ tags:
 | $\mathbb{E}[C]$ | 1.5625 | 2.024 | +29% |
 | $\mathbb{E}[I]$ | 1.125 | 2.048 | +82% |
 | $\text{Corr}(C,I)$ | 0.75 | 0.69 | -8% |
-| 收缩常数$\kappa$ | 0.6403 | 0.5936 | 保持<1 |
+| 收缩常数$\kappa$ | 0.6403 | 0.5936 | 保持&lt;1 |
 
 干预为：对收入$I$进行$\alpha=0.8$的缩放 + $\beta=1.0$的平移（模拟财政改革：抑制消费对收入的反馈效应，同时提供固定收入补贴）。
 

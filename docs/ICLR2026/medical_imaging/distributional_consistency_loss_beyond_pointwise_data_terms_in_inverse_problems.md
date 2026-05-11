@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][逆问题] 提出分布一致性（DC）损失，用分布级别的校准替代传统逐点数据保真项（如MSE/NLL），避免对噪声的过拟合，在DIP去噪和PET图像重建中显著提升性能且无需早停。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 逆问题
-  - 数据保真项
-  - 分布一致性
-  - PET重建
-  - Deep Image Prior
+  - "ICLR 2026"
+  - "医学图像"
+  - "逆问题"
+  - "数据保真项"
+  - "分布一致性"
+  - "PET重建"
+  - "Deep Image Prior"
 ---
 
 # Distributional Consistency Loss: Beyond Pointwise Data Terms in Inverse Problems

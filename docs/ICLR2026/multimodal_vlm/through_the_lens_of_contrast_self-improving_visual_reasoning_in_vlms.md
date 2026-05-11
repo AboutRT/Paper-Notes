@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs
 description: >-
-  [ICLR 2026][多模态][visual reasoning] 提出 VC-STaR（Visual Contrastive Self-Taught Reasoner），基于"VLM 在对比两张相似图像时看得更准"的观察，设计了一套对比式自改进框架：通过构造对比 VQA 对让模型在对比中生成更忠实的视觉分析，再由 LLM 将对比分析融入推理路径，产出高质量视觉推理数据集 VisCoR-55K，微调后在 MMVP 上提升 5.7%、Hallusion 上提升 3.2%。
+  [ICLR 2026][多模态VLM][visual reasoning] 提出 VC-STaR（Visual Contrastive Self-Taught Reasoner），基于"VLM 在对比两张相似图像时看得更准"的观察…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - self-improving
-  - visual contrast
-  - hallucination mitigation
-  - contrastive VQA pairs
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "visual reasoning"
+  - "self-improving"
+  - "visual contrast"
+  - "hallucination mitigation"
+  - "contrastive VQA pairs"
 ---
 
 # Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions
 description: >-
-  [CVPR 2026][多模态][触觉定位] 提出触觉定位任务——给定触觉输入识别图像中具有相同材质属性的区域，通过局部视觉-触觉对齐和材质多样性配对策略学习密集跨模态特征，构建两个新的触觉-材质分割数据集。
+  [CVPR 2026][多模态VLM][触觉定位] 提出触觉定位任务——给定触觉输入识别图像中具有相同材质属性的区域，通过局部视觉-触觉对齐和材质多样性配对策略学习密集跨模态特征，构建两个新的触觉-材质分割数据集。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 触觉定位
-  - 多模态VLM
-  - 材质分割
-  - 跨模态学习
-  - 数据集
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "触觉定位"
+  - "视觉-触觉对齐"
+  - "材质分割"
+  - "跨模态学习"
+  - "数据集"
 ---
 
 # Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions

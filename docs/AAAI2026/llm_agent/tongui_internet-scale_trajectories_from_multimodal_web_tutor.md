@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents
 description: >-
-  [AAAI 2026][LLM Agent][GUI Agent] TongUI 提出从互联网上的多模态教程（视频+图文）自动转化为 GUI 操作轨迹数据的框架，构建了百万级的 GUI-Net-1M 数据集，用于微调 Qwen2.5-VL 模型，在多个 grounding 和 navigation 基准上超越或接近 UI-TARS 等 SOTA。
+  [AAAI 2026][LLM Agent][GUI Agent] TongUI 提出从互联网上的多模态教程（视频+图文）自动转化为 GUI 操作轨迹数据的框架，构建了百万级的 GUI-Net-1M 数据集，用于微调 Qwen2.5-VL 模型…
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - GUI Agent
-  - 轨迹数据
-  - 多模态教程
-  - VLM微调
-  - 跨平台泛化
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "GUI Agent"
+  - "轨迹数据"
+  - "多模态教程"
+  - "VLM微调"
+  - "跨平台泛化"
 ---
 
 # TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents

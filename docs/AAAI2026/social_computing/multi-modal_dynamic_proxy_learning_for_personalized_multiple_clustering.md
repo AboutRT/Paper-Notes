@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multi-modal Dynamic Proxy Learning for Personalized Multiple Clustering
 description: >-
-  [AAAI 2026][多重聚类] 本文提出Multi-DProxy框架，通过门控跨模态融合、双约束代理优化和动态候选词管理三大创新机制，利用可学习的文本代理实现个性化多重聚类，在全部公开基准上达到SOTA。
+  [AAAI 2026][社会计算][多重聚类] 本文提出Multi-DProxy框架，通过门控跨模态融合、双约束代理优化和动态候选词管理三大创新机制，利用可学习的文本代理实现个性化多重聚类，在全部公开基准上达到SOTA。
 tags:
-  - AAAI 2026
-  - 多重聚类
-  - 跨模态融合
-  - 社会计算
-  - 动态候选词管理
-  - CLIP
+  - "AAAI 2026"
+  - "社会计算"
+  - "多重聚类"
+  - "跨模态融合"
+  - "代理学习"
+  - "动态候选词管理"
+  - "CLIP"
 ---
 
 # Multi-modal Dynamic Proxy Learning for Personalized Multiple Clustering

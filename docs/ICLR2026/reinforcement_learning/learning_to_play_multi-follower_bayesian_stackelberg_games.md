@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning to Play Multi-Follower Bayesian Stackelberg Games
 description: >-
-  [ICLR 2026][Stackelberg博弈] 首次系统研究多追随者贝叶斯Stackelberg博弈（BSG）的在线学习问题，通过对领导者策略空间进行"最佳响应区域"几何分割，在类型反馈下实现 $\tilde{O}(\sqrt{\min\{L, nK\} \cdot T})$ 的遗憾界——该界不随追随者数 $n$ 呈多项式增长，并证明了几乎匹配的 $\Omega(\sqrt{\min\{L, nK\}T})$ 下界。
+  [ICLR 2026][强化学习][Stackelberg博弈] 首次系统研究多追随者贝叶斯Stackelberg博弈（BSG）的在线学习问题，通过对领导者策略空间进行"最佳响应区域"几何分割，在类型反馈下实现 $\tilde{O}(\sqrt{\min\{L…
 tags:
-  - ICLR 2026
-  - Stackelberg博弈
-  - 贝叶斯博弈
-  - 在线学习
-  - 最佳响应区域
-  - 遗憾界
+  - "ICLR 2026"
+  - "强化学习"
+  - "Stackelberg博弈"
+  - "贝叶斯博弈"
+  - "在线学习"
+  - "最佳响应区域"
+  - "遗憾界"
 ---
 
 # Learning to Play Multi-Follower Bayesian Stackelberg Games

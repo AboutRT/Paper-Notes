@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Neuro-Symbolic Decoding of Neural Activity
 description: >-
-  [ICLR 2026][其他][fMRI解码] 提出 NEURONA，一个神经符号框架用于 fMRI 解码和概念基础，通过将视觉场景分解为符号程序（概念的逻辑组合），在 fMRI 问答任务上显著优于端到端神经解码和线性模型。
+  [ICLR 2026][fMRI解码] 提出 NEURONA，一个神经符号框架用于 fMRI 解码和概念基础，通过将视觉场景分解为符号程序（概念的逻辑组合），在 fMRI 问答任务上显著优于端到端神经解码和线性模型。
 tags:
-  - ICLR 2026
-  - 其他
-  - fMRI解码
-  - 神经符号
-  - 概念基础
-  - 思维语言假说
-  - 视觉问答
+  - "ICLR 2026"
+  - "fMRI解码"
+  - "神经符号"
+  - "概念基础"
+  - "思维语言假说"
+  - "视觉问答"
 ---
 
 # Neuro-Symbolic Decoding of Neural Activity

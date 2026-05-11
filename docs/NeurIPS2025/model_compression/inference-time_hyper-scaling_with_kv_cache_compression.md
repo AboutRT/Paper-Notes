@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][KV Cache压缩] 提出"推理时超缩放"（Inference-Time Hyper-Scaling）范式：通过高效压缩KV缓存，在相同计算/内存预算下生成更长或更多并行推理序列，显著提升推理模型在数学、代码、科学推理等任务上的准确率。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - KV Cache压缩
-  - 推理时缩放
-  - 稀疏注意力
-  - Dynamic Memory Sparsification
-  - 长序列推理
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "KV Cache压缩"
+  - "推理时缩放"
+  - "稀疏注意力"
+  - "Dynamic Memory Sparsification"
+  - "长序列推理"
 ---
 
 # Inference-Time Hyper-Scaling with KV Cache Compression

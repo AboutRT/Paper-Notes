@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Sample Complexity of Distributionally Robust Average-Reward Reinforcement Learning
 description: >-
-  [NeurIPS 2025][强化学习][分布鲁棒优化] 首次为分布鲁棒平均奖励强化学习（DR-AMDP）建立了有限样本收敛保证，提出两种算法（折扣归约法和锚定法），在KL和$f_k$-散度不确定集下均达到$\widetilde{O}(|S||A|t_{\mathrm{mix}}^2\varepsilon^{-2})$的近最优样本复杂度。
+  [NeurIPS 2025][强化学习][分布鲁棒优化] 首次为分布鲁棒平均奖励强化学习（DR-AMDP）建立了有限样本收敛保证，提出两种算法（折扣归约法和锚定法），在KL和$f_k$-散度不确定集下均达到$\widetilde{O}(|S||A|t_{\mathrm{mix}}^2\varepsilon^{…
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 分布鲁棒优化
-  - 平均奖励强化学习
-  - 样本复杂度
-  - Markov决策过程
-  - KL散度
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "分布鲁棒优化"
+  - "平均奖励强化学习"
+  - "样本复杂度"
+  - "Markov决策过程"
+  - "KL散度"
 ---
 
 # Sample Complexity of Distributionally Robust Average-Reward Reinforcement Learning

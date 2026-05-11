@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Why Does It Look There? Structured Explanations for Image Classification
 description: >-
-  [CVPR 2025][结构化解释] 本文提出 I2X 框架，通过在训练检查点上追踪从 GradCAM 显著性图中提取的抽象原型（prototype）的强度变化与模型置信度的对应关系，将非结构化的可解释性转化为结构化的可解释性，并利用识别出的"不确定原型"来指导微调、减少类间混淆、提升分类精度。
+  [CVPR 2025][可解释性][结构化解释] 本文提出 I2X 框架，通过在训练检查点上追踪从 GradCAM 显著性图中提取的抽象原型（prototype）的强度变化与模型置信度的对应关系，将非结构化的可解释性转化为结构化的可解释性，并利用识别出的"不确定原型"来指导微调、减少类间混淆、提升分类精度。
 tags:
-  - CVPR 2025
-  - 结构化解释
-  - 原型学习
-  - GradCAM
-  - 训练轨迹分析
-  - 可解释人工智能
+  - "CVPR 2025"
+  - "可解释性"
+  - "结构化解释"
+  - "原型学习"
+  - "GradCAM"
+  - "训练轨迹分析"
+  - "可解释人工智能"
 ---
 
 # Why Does It Look There? Structured Explanations for Image Classification

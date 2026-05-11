@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][点云定位] 提出 CMMLoc，一个基于柯西混合模型（CMM）的不确定性感知文本-点云定位框架，通过将粗检索阶段建模为部分相关检索问题并引入 CMM Transformer 和方位整合模块，在 KITTI360Pose 数据集上实现 SOTA 性能。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点云定位
-  - 文本定位
-  - 跨模态匹配
-  - 柯西混合模型
-  - 不确定性建模
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点云定位"
+  - "文本定位"
+  - "跨模态匹配"
+  - "柯西混合模型"
+  - "不确定性建模"
 ---
 
 # CMMLoc: Advancing Text-to-PointCloud Localization with Cauchy-Mixture-Model Based Framework

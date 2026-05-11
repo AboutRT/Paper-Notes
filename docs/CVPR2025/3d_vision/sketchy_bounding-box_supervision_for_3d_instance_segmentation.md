@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Sketchy Bounding-Box Supervision for 3D Instance Segmentation
 description: >-
-  [CVPR 2025][3D视觉][弱监督3D实例分割] 提出 Sketchy-3DIS 框架，首次将不精确（sketchy）的3D包围盒标注引入弱监督3D实例分割，通过自适应 box-to-point 伪标签生成器和粗到精实例分割器的联合训练，在 ScanNetV2 和 S3DIS 上达到 SOTA，甚至超越部分全监督方法。
+  [CVPR 2025][3D视觉][弱监督3D实例分割] 提出 Sketchy-3DIS 框架，首次将不精确（sketchy）的3D包围盒标注引入弱监督3D实例分割，通过自适应 box-to-point 伪标签生成器和粗到精实例分割器的联合训练，在 ScanNetV2 和 S3DIS 上达到 SOTA…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 弱监督3D实例分割
-  - 不精确包围盒
-  - 伪标签
-  - 粗到精分割
-  - 点云理解
+  - "CVPR 2025"
+  - "3D视觉"
+  - "弱监督3D实例分割"
+  - "不精确包围盒"
+  - "伪标签"
+  - "粗到精分割"
+  - "点云理解"
 ---
 
 # Sketchy Bounding-Box Supervision for 3D Instance Segmentation

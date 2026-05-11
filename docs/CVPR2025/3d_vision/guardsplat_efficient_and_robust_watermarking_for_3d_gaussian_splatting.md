@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3DGS] 提出 GuardSplat，通过 CLIP 引导的消息解耦优化（仅训练解码器 5 分钟）和 SH-aware 水印嵌入（仅修改球谐偏移量），实现对 3DGS 资产的高容量、高保真、鲁棒版权保护，总优化时间仅 15 分钟。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3DGS
-  - watermarking
-  - CLIP
-  - spherical harmonics
-  - copyright protection
-  - anti-distortion
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3DGS"
+  - "watermarking"
+  - "CLIP"
+  - "spherical harmonics"
+  - "copyright protection"
+  - "anti-distortion"
 ---
 
 # GuardSplat: Efficient and Robust Watermarking for 3D Gaussian Splatting

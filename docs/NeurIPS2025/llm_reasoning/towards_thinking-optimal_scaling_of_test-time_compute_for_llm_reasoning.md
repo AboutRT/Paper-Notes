@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM推理][测试时计算] 揭示了过度延长 CoT 长度会损害 LLM 推理性能，并提出 Thinking-Optimal Scaling (TOPS) 策略，让模型为每道题选择最短正确响应进行自我提升，在效果和效率上同时优于现有蒸馏方法。
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - 测试时计算
-  - Chain-of-Thought
-  - reasoning scaling
-  - 过度思考
-  - 自我改进
-  - optimal reasoning effort
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "测试时计算"
+  - "Chain-of-Thought"
+  - "reasoning scaling"
+  - "过度思考"
+  - "自我改进"
+  - "optimal reasoning effort"
 ---
 
 # Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning

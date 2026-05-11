@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][3D视觉][3DGS] 提出Arbi-3DGSR集成框架，通过尺度感知渲染、生成先验引导优化和渐进超分三个核心组件，首次实现单个3DGS模型支持任意（包括非整数）倍率的高分辨率渲染，在×5.7倍率下PSNR比3DGS提升6.59dB，且保持85 FPS实时速度。
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 3DGS
-  - 超分辨率
-  - scale-aware rendering
-  - generative prior
-  - progressive training
+  - "AAAI 2026"
+  - "3D视觉"
+  - "3DGS"
+  - "超分辨率"
+  - "scale-aware rendering"
+  - "generative prior"
+  - "progressive training"
 ---
 
 # Arbitrary-Scale 3D Gaussian Super-Resolution

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Generalizing while Preserving Monotonicity in Comparison-based Preference Learning Models
 description: >-
-  [NeurIPS 2025][LLM对齐][preference learning] 提出 **Linear GBT with Diffusion Prior**，一类在保证**单调性**（偏好比较后被偏好方的分数不会反常下降）的同时能**泛化到未比较数据**的偏好学习模型，首次正面回答了"泛化与单调性能否兼得"的核心问题。
+  [NeurIPS 2025][LLM对齐][preference learning] 提出 **Linear GBT with Diffusion Prior**，一类在保证**单调性**（偏好比较后被偏好方的分数不会反常下降）的同时能**泛化到未比较数据**的偏好学习模型…
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - preference learning
-  - monotonicity
-  - Bradley-Terry
-  - 扩散模型
-  - alignment
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "preference learning"
+  - "monotonicity"
+  - "Bradley-Terry"
+  - "扩散模型"
+  - "alignment"
 ---
 
 # Generalizing while Preserving Monotonicity in Comparison-based Preference Learning Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][数据选择] 提出MOSAIC框架——通过聚类数据、拟合各域对评估指标的缩放律、贪心迭代选择边际收益最大的数据簇样本，实现端到端自动驾驶模型的高效数据选择，用80%更少的数据达到甚至超越基线性能。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 数据选择
-  - 神经缩放律
-  - 数据混合优化
-  - 端到端自动驾驶
-  - EPDMS
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "数据选择"
+  - "神经缩放律"
+  - "数据混合优化"
+  - "端到端自动驾驶"
+  - "EPDMS"
 ---
 
 # Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems

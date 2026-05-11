@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][黑盒LLM] 提出 QueRE 方法，通过向黑盒LLM提出约50个后续问题（如"你对回答有信心吗？"），以"Yes"token的概率作为特征训练线性分类器，在预测模型正确性、检测对抗操纵和区分不同LLM等任务上，甚至超越需要访问模型内部状态的白盒方法。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 黑盒LLM
-  - 性能预测
-  - 后续提问
-  - 不确定性量化
-  - 对抗检测
+  - "NeurIPS 2025"
+  - "机器人"
+  - "黑盒LLM"
+  - "性能预测"
+  - "后续提问"
+  - "不确定性量化"
+  - "对抗检测"
 ---
 
 # Predicting the Performance of Black-Box LLMs through Follow-Up Queries

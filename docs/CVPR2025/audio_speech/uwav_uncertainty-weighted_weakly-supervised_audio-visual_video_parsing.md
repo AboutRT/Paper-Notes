@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UWAV: Uncertainty-Weighted Weakly-Supervised Audio-Visual Video Parsing
 description: >-
-  [CVPR 2025][语音][音视频解析] 提出 UWAV，一个弱监督音视频视频解析框架，通过在大规模标注数据上预训练时序感知模块生成高质量伪标签，再用不确定性加权软标签+类别平衡重加权+特征混合三种技术提升弱监督训练效果，在 LLP 数据集上刷新 SOTA。
+  [CVPR 2025][音频/语音][音视频解析] 提出 UWAV，一个弱监督音视频视频解析框架，通过在大规模标注数据上预训练时序感知模块生成高质量伪标签，再用不确定性加权软标签+类别平衡重加权+特征混合三种技术提升弱监督训练效果，在 LLP 数据集上刷新 SOTA。
 tags:
-  - CVPR 2025
-  - 语音
-  - 音视频解析
-  - 弱监督
-  - 不确定性加权
-  - 伪标签
-  - 特征混合
+  - "CVPR 2025"
+  - "音频/语音"
+  - "音视频解析"
+  - "弱监督"
+  - "不确定性加权"
+  - "伪标签"
+  - "特征混合"
 ---
 
 # UWAV: Uncertainty-Weighted Weakly-Supervised Audio-Visual Video Parsing

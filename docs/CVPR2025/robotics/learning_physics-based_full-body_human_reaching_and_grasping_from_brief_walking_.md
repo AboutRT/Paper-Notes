@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][物理仿真] 仅使用约 30 秒的行走 MoCap 数据，通过将行走动作中的可迁移运动模式（浅层网络特征对齐）与运动学方法生成的抓取姿态（主动数据扩充策略）相结合，实现了物理可行、自然流畅的全身人体接近-抓取运动生成，在简单场景下抓取成功率达 99.8%。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 物理仿真
-  - 全身抓取
-  - 行走迁移
-  - 主动数据增强
-  - 浅层特征对齐
+  - "CVPR 2025"
+  - "机器人"
+  - "物理仿真"
+  - "全身抓取"
+  - "行走迁移"
+  - "主动数据增强"
+  - "浅层特征对齐"
 ---
 
 # Learning Physics-Based Full-Body Human Reaching and Grasping from Brief Walking References

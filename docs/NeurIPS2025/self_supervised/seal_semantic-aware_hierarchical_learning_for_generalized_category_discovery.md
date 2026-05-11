@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][自监督学习][Generalized Category Discovery] 提出 SEAL 框架，利用自然存在的语义层级结构（而非手工设计的抽象层级）指导广义类别发现，通过层级语义引导的软对比学习和跨粒度一致性模块，在细粒度基准上取得 SOTA 性能。
 tags:
-  - NeurIPS 2025
-  - 自监督学习
-  - 自监督
-  - Hierarchical Learning
-  - 对比学习
-  - Semantic Hierarchy
-  - Cross-Granularity Consistency
+  - "NeurIPS 2025"
+  - "自监督学习"
+  - "Generalized Category Discovery"
+  - "Hierarchical Learning"
+  - "对比学习"
+  - "Semantic Hierarchy"
+  - "Cross-Granularity Consistency"
 ---
 
 # SEAL: Semantic-Aware Hierarchical Learning for Generalized Category Discovery

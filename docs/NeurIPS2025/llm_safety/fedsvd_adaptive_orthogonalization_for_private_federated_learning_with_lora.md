@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA
 description: >-
-  [NeurIPS 2025][AI安全][联邦学习] FedSVD 提出通过 SVD 对 LoRA 矩阵进行全局重参数化，在每轮通信后用聚合的 BA 乘积的右奇异向量更新 A 矩阵，避免 DP-SGD 下的二次噪声放大同时保持 A 的自适应能力，在多个 NLU 基准上一致超越固定 A 的基线。
+  [NeurIPS 2025][LLM安全][联邦学习] FedSVD 提出通过 SVD 对 LoRA 矩阵进行全局重参数化，在每轮通信后用聚合的 BA 乘积的右奇异向量更新 A 矩阵，避免 DP-SGD 下的二次噪声放大同时保持 A 的自适应能力，在多个 NLU 基准上一致超越固定 A 的基线。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 联邦学习
-  - 差分隐私
-  - LoRA
-  - SVD
-  - 噪声放大
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "联邦学习"
+  - "差分隐私"
+  - "LoRA"
+  - "SVD"
+  - "噪声放大"
 ---
 
 # FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA

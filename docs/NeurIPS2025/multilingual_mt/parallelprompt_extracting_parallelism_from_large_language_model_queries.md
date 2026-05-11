@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ParallelPrompt: Extracting Parallelism from Large Language Model Queries
 description: >-
-  [NeurIPS 2025][查询内并行] 构建了首个查询内并行（intra-query parallelism）基准数据集ParallelPrompt，包含37000+条真实用户提示的结构化分解标注，证明约10%的用户查询包含可并行的潜在结构，并行执行可实现最高5.7×的延迟加速且质量损失有限。
+  [NeurIPS 2025][多语言/翻译][查询内并行] 构建了首个查询内并行（intra-query parallelism）基准数据集ParallelPrompt，包含37000+条真实用户提示的结构化分解标注，证明约10%的用户查询包含可并行的潜在结构…
 tags:
-  - NeurIPS 2025
-  - 查询内并行
-  - 提示学习
-  - 多语言翻译
-  - benchmark
-  - 语义保真度
+  - "NeurIPS 2025"
+  - "多语言/翻译"
+  - "查询内并行"
+  - "提示学习"
+  - "LLM推理加速"
+  - "benchmark"
+  - "语义保真度"
 ---
 
 # ParallelPrompt: Extracting Parallelism from Large Language Model Queries

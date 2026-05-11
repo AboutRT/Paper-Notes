@@ -3,6 +3,17 @@ title: >-
   ICML2025 自监督/表示学习方向24篇论文解读
 description: >-
   24篇ICML2025的自监督/表示学习方向论文解读，涵盖自监督学习、少样本学习、强化学习、扩散模型、LLM、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICML2025"
+  - "自监督/表示学习"
+  - "论文解读"
+  - "论文笔记"
+  - "自监督学习"
+  - "少样本学习"
+  - "强化学习"
+  - "扩散模型"
+  - "LLM"
+  - "对齐/RLHF"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **🧪 ICML2025** · **24** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/self_supervised/index.md) · [📷 CVPR2026 (31)](../../CVPR2026/self_supervised/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/self_supervised/index.md) · [🤖 AAAI2026 (14)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (35)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/self_supervised/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (2)](../../ACL2026/self_supervised/index.md) · [📷 CVPR2026 (30)](../../CVPR2026/self_supervised/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/self_supervised/index.md) · [🤖 AAAI2026 (14)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (33)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/self_supervised/index.md)
 
 🔥 **高频主题：** 自监督学习 ×3
 

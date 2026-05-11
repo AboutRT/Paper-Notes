@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视觉Token压缩] 提出 VoCo-LLaMA，首个利用 LLM 自身能力压缩视觉 token 的方法，通过在视觉和文本 token 之间插入 VoCo token 并修改注意力掩码实现注意力蒸馏，以单个 token 实现 576 倍压缩率同时保持 83.7% 性能。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视觉Token压缩
-  - 大语言模型
-  - 注意力蒸馏
-  - KV Cache复用
+  - "CVPR 2025"
+  - "视频理解"
+  - "视觉Token压缩"
+  - "大语言模型"
+  - "注意力蒸馏"
+  - "KV Cache复用"
 ---
 
 # VoCo-LLaMA: Towards Vision Compression with Large Language Models

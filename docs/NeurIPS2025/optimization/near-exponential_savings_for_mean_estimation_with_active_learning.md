@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Near-Exponential Savings for Mean Estimation with Active Learning
 description: >-
-  [NeurIPS 2025][优化][主动学习] 提出 PartiBandits 算法，结合基于分歧的主动学习与 UCB 风格的分层抽样，在辅助信息 $X$ 对目标变量 $Y$ 有预测力时，实现了均值估计的近指数级标签节省。
+  [NeurIPS 2025][优化/理论][主动学习] 提出 PartiBandits 算法，结合基于分歧的主动学习与 UCB 风格的分层抽样，在辅助信息 $X$ 对目标变量 $Y$ 有预测力时，实现了均值估计的近指数级标签节省。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 主动学习
-  - 均值估计
-  - 分层抽样
-  - UCB算法
-  - 极小化极大最优
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "主动学习"
+  - "均值估计"
+  - "分层抽样"
+  - "UCB算法"
+  - "极小化极大最优"
 ---
 
 # Near-Exponential Savings for Mean Estimation with Active Learning

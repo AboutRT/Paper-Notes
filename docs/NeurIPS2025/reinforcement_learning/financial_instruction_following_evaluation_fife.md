@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Financial Instruction Following Evaluation (FIFE)
 description: >-
-  [NeurIPS 2025 (GenAI Finance Workshop)][指令遵循] FIFE 是一个面向金融分析任务的高难度指令遵循基准，包含 88 个人工编写的复杂提示和 40+ 种金融领域专用的可链式验证约束，通过严格/宽松两种模式评测 53 个模型，揭示出即使最强的开放权重模型（76.1% strict）也无法完美遵循金融领域的复杂指令要求。
+  [NeurIPS 2025 (GenAI Finance Workshop)][强化学习][指令遵循] FIFE 是一个面向金融分析任务的高难度指令遵循基准，包含 88 个人工编写的复杂提示和 40+ 种金融领域专用的可链式验证约束，通过严格/宽松两种模式评测 53 个模型…
 tags:
-  - NeurIPS 2025 (GenAI Finance Workshop)
-  - 指令遵循
-  - 金融领域
-  - 基准测试
-  - 可链式约束
-  - 强化学习
+  - "NeurIPS 2025 (GenAI Finance Workshop)"
+  - "强化学习"
+  - "指令遵循"
+  - "金融领域"
+  - "基准测试"
+  - "可链式约束"
+  - "LLM评测"
 ---
 
 # Financial Instruction Following Evaluation (FIFE)

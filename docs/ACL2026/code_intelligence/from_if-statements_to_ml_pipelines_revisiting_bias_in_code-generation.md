@@ -2,14 +2,15 @@
 title: >-
   [论文解读] From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation
 description: >-
-  [ACL 2026][代码生成偏差] 揭示LLM代码生成的偏差评估严重低估了实际风险：在ML流水线生成中，敏感属性出现在87.7%的特征选择中（vs 条件语句中的59.2%），且模型能正确排除无关特征但仍选择保留种族、性别等敏感属性，显示出系统性的隐性歧视。
+  [ACL 2026][代码智能][代码生成偏差] 揭示LLM代码生成的偏差评估严重低估了实际风险：在ML流水线生成中，敏感属性出现在87.7%的特征选择中（vs 条件语句中的59.2%），且模型能正确排除无关特征但仍选择保留种族、性别等敏感属性，显示出系统性的隐性歧视。
 tags:
-  - ACL 2026
-  - 代码生成偏差
-  - ML流水线
-  - 特征选择
-  - 隐性歧视
-  - 代码智能
+  - "ACL 2026"
+  - "代码智能"
+  - "代码生成偏差"
+  - "ML流水线"
+  - "特征选择"
+  - "隐性歧视"
+  - "公平性评估"
 ---
 
 # From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation

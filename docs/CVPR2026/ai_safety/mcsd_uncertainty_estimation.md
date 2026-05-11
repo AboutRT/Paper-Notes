@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Monte Carlo Stochastic Depth for Uncertainty Estimation in Deep Learning
 description: >-
-  [CVPR 2026][AI安全][不确定性量化] 将随机深度（Stochastic Depth）正式连接到贝叶斯变分推理框架，提出 Monte Carlo Stochastic Depth (MCSD) 作为不确定性估计方法，并在 YOLO、RT-DETR 等现代检测器上进行首次系统基准测试，证明其在校准和不确定性排名上与 MC Dropout 竞争力强。
+  [CVPR 2026][AI安全][不确定性量化] 将随机深度（Stochastic Depth）正式连接到贝叶斯变分推理框架，提出 Monte Carlo Stochastic Depth (MCSD) 作为不确定性估计方法，并在 YOLO、RT-DETR 等现代检测器上进行首次系统基准测试…
 tags:
-  - CVPR 2026
-  - AI安全
-  - 不确定性量化
-  - 随机深度
-  - 贝叶斯推理
-  - 目标检测
-  - Monte Carlo
+  - "CVPR 2026"
+  - "AI安全"
+  - "不确定性量化"
+  - "随机深度"
+  - "贝叶斯推理"
+  - "目标检测"
+  - "Monte Carlo"
 ---
 
 # Monte Carlo Stochastic Depth for Uncertainty Estimation in Deep Learning

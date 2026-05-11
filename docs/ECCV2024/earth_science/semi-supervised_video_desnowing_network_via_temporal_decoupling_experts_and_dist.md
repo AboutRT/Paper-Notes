@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Semi-supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization
 description: >-
-  [ECCV2024][video desnowing] 提出首个半监督视频去雪框架 SemiVDN，通过物理先验引导的时序解耦专家模块和分布驱动的对比正则化，利用无标签真实雪景视频缩小合成-真实域差距，在合成与真实数据集上均超越现有方法。
+  [ECCV2024][地球科学][video desnowing] 提出首个半监督视频去雪框架 SemiVDN，通过物理先验引导的时序解耦专家模块和分布驱动的对比正则化，利用无标签真实雪景视频缩小合成-真实域差距，在合成与真实数据集上均超越现有方法。
 tags:
-  - ECCV2024
-  - video desnowing
-  - 半监督学习
-  - mixture of experts
-  - 地球科学
-  - atmospheric scattering model
+  - "ECCV2024"
+  - "地球科学"
+  - "video desnowing"
+  - "半监督学习"
+  - "mixture of experts"
+  - "对比学习"
+  - "atmospheric scattering model"
 ---
 
 # Semi-supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization

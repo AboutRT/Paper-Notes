@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像恢复][恶劣天气图像复原] 提出双层强化学习框架（DRL），结合物理驱动的百万级合成天气数据集HFLS-Weather进行高质量冷启动训练，通过局部扰动驱动图像质量优化（PIQO）和全局元控制器多智能体协作，实现真实恶劣天气图像的自适应复原。
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 恶劣天气图像复原
-  - 图像复原
-  - GRPO
-  - 多智能体系统
-  - 无参考图像质量评估
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "恶劣天气图像复原"
+  - "强化学习"
+  - "GRPO"
+  - "多智能体系统"
+  - "无参考图像质量评估"
 ---
 
 # Real-World Adverse Weather Image Restoration via Dual-Level Reinforcement Learning with High-Quality Cold Start

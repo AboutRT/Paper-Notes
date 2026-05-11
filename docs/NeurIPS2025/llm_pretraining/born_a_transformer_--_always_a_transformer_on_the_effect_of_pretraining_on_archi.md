@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Born a Transformer – Always a Transformer? On the Effect of Pretraining on Architectural Abilities
 description: >-
-  [NeurIPS 2025][长度泛化] 通过系统性地研究检索和复制任务家族，揭示了大规模预训练会为Transformer引入方向性偏置（右/前向优于左/后向），但无法克服非唯一任务上的根本架构限制；微调可消除方向偏置但不能突破架构表达力边界。
+  [NeurIPS 2025][预训练][长度泛化] 通过系统性地研究检索和复制任务家族，揭示了大规模预训练会为Transformer引入方向性偏置（右/前向优于左/后向），但无法克服非唯一任务上的根本架构限制；微调可消除方向偏置但不能突破架构表达力边界。
 tags:
-  - NeurIPS 2025
-  - 长度泛化
-  - Transformer
-  - 归纳头
-  - 预训练偏置
-  - 可靠性
+  - "NeurIPS 2025"
+  - "预训练"
+  - "长度泛化"
+  - "Transformer"
+  - "归纳头"
+  - "预训练偏置"
+  - "可靠性"
 ---
 
 # Born a Transformer – Always a Transformer? On the Effect of Pretraining on Architectural Abilities

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][市场博弈] 形式化三层模型-平台-用户市场博弈，分析生成模型竞争下纯策略 Nash 均衡的存在条件、市场结构、社会福利影响，并设计模型提供者的最优进入策略。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 市场博弈
-  - Nash 均衡
-  - 生成模型竞争
-  - 社会福利
-  - 策略性进入
+  - "ICLR 2026"
+  - "图像生成"
+  - "市场博弈"
+  - "Nash 均衡"
+  - "生成模型竞争"
+  - "社会福利"
+  - "策略性进入"
 ---
 
 # Market Games for Generative Models: Equilibria, Welfare, and Strategic Entry

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Conjunctive Prompt Attacks in Multi-Agent LLM Systems
 description: >-
-  [ACL 2026][LLM Agent][提示注入攻击] 本文研究多智能体 LLM 系统中的联合提示攻击（conjunctive prompt attacks）：用户查询中嵌入的触发键和被入侵远程代理中的隐藏模板各自看起来无害，但当路由将它们带到同一代理时会激活有害行为，现有防御（PromptGuard、Llama-Guard 等）均无法可靠阻止。
+  [ACL 2026][LLM Agent][提示注入攻击] 本文研究多智能体 LLM 系统中的联合提示攻击（conjunctive prompt attacks）：用户查询中嵌入的触发键和被入侵远程代理中的隐藏模板各自看起来无害，但当路由将它们带到同一代理时会激活有害行为…
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 提示注入攻击
-  - 多智能体安全
-  - 联合激活
-  - 拓扑感知
-  - 供应链威胁
+  - "ACL 2026"
+  - "LLM Agent"
+  - "提示注入攻击"
+  - "多智能体安全"
+  - "联合激活"
+  - "拓扑感知"
+  - "供应链威胁"
 ---
 
 # Conjunctive Prompt Attacks in Multi-Agent LLM Systems

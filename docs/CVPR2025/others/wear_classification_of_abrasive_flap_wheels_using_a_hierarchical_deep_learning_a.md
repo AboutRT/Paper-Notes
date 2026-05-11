@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][砂轮磨损分类] 本文提出一种基于 EfficientNetV2 的分层视觉分类框架，将砂布翼轮的磨损状态分解为三个层级（使用状态→磨损类型→严重程度），在各子任务上取得 93.8%~99.3% 的分类精度。
 tags:
-  - CVPR 2025
-  - 砂轮磨损分类
-  - 层级分类
-  - 迁移学习
-  - EfficientNetV2
-  - Grad-CAM
+  - "CVPR 2025"
+  - "砂轮磨损分类"
+  - "层级分类"
+  - "迁移学习"
+  - "EfficientNetV2"
+  - "Grad-CAM"
 ---
 
 # Wear Classification of Abrasive Flap Wheels using a Hierarchical Deep Learning Approach

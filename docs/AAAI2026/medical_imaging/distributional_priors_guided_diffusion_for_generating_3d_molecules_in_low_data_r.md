@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][3D分子生成] 本文提出 GODD（Geometric OOD Diffusion Model），通过等变非对称自编码器捕捉分布结构先验来引导扩散模型的生成过程，使得在数据丰富的分子分布上训练的模型能够泛化到数据稀缺的分布，在 OOD 结构偏移基准上成功率提升 12.6%。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 3D分子生成
-  - 扩散模型
-  - 分布外泛化
-  - 结构先验
-  - 药物设计
+  - "AAAI 2026"
+  - "医学图像"
+  - "3D分子生成"
+  - "扩散模型"
+  - "分布外泛化"
+  - "结构先验"
+  - "药物设计"
 ---
 
 # Distributional Priors Guided Diffusion for Generating 3D Molecules in Low Data Regimes

@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Hierarchical Document Refinement for Long-context Retrieval-augmented Generation
 description: >-
-  [ACL 2025][RAG] 提出 LongRefiner，一个即插即用的长文档精炼系统，通过双层查询分析、层次化文档结构化和自适应精炼三个步骤，在 7 个 QA 数据集上以**仅 1/10 的 token 预算**实现了优于全文输入的性能，同时延迟仅为最佳基线的 1/10。
+  [ACL 2025][信息检索/RAG][RAG] 提出 LongRefiner，一个即插即用的长文档精炼系统，通过双层查询分析、层次化文档结构化和自适应精炼三个步骤，在 7 个 QA 数据集上以**仅 1/10 的 token 预算**实现了优于全文输入的性能，同时延迟仅为最佳基线的 1/10。
 tags:
-  - ACL 2025
-  - RAG
-  - 文档精炼
-  - 层次化结构
-  - XML格式
-  - 信息检索
-  - 多任务LoRA
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "RAG"
+  - "文档精炼"
+  - "层次化结构"
+  - "XML格式"
+  - "长上下文"
+  - "多任务LoRA"
 ---
 
 # Hierarchical Document Refinement for Long-context Retrieval-augmented Generation

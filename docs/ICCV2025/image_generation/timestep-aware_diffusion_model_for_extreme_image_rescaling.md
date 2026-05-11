@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 提出 TADM，在预训练 SD 的潜空间中执行极端图像缩放（16×/32×），通过解耦特征缩放模块和时间步自适应对齐策略，动态分配扩散模型的生成能力以应对空间非均匀退化。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # Timestep-Aware Diffusion Model for Extreme Image Rescaling

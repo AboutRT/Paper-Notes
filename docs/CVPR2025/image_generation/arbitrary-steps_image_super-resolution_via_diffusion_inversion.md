@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散反演] 本文提出InvSR，通过训练一个噪声预测网络来实现扩散反演（Diffusion Inversion），利用预训练扩散模型的图像先验进行超分辨率，支持1-5步任意步数采样，即使单步采样也能达到或超过现有SOTA方法的效果。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散反演
-  - 图像超分辨率
-  - 噪声预测
-  - 部分噪声预测
-  - 任意步采样
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散反演"
+  - "图像超分辨率"
+  - "噪声预测"
+  - "部分噪声预测"
+  - "任意步采样"
 ---
 
 # Arbitrary-Steps Image Super-Resolution via Diffusion Inversion

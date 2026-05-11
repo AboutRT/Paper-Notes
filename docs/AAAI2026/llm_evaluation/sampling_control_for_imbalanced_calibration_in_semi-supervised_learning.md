@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sampling Control for Imbalanced Calibration in Semi-Supervised Learning
 description: >-
-  [AAAI 2026][半监督学习] 提出 SC-SSL 框架，通过引入**扩展分类器**进行解耦采样控制来缓解特征级不平衡，并利用线性层**偏置项**作为优化偏差向量在推理时直接校准 logits，在多种数据分布设定下达到 SOTA。
+  [AAAI 2026][LLM评测][半监督学习] 提出 SC-SSL 框架，通过引入**扩展分类器**进行解耦采样控制来缓解特征级不平衡，并利用线性层**偏置项**作为优化偏差向量在推理时直接校准 logits，在多种数据分布设定下达到 SOTA。
 tags:
-  - AAAI 2026
-  - 半监督学习
-  - 类别不平衡
-  - 采样控制
-  - 伪标签
-  - 校准
+  - "AAAI 2026"
+  - "LLM评测"
+  - "半监督学习"
+  - "类别不平衡"
+  - "采样控制"
+  - "伪标签"
+  - "校准"
 ---
 
 # Sampling Control for Imbalanced Calibration in Semi-Supervised Learning

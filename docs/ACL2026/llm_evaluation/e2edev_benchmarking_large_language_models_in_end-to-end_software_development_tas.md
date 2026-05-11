@@ -2,14 +2,15 @@
 title: >-
   [论文解读] E2EDev: Benchmarking Large Language Models in End-to-End Software Development Task
 description: >-
-  [ACL 2026][端到端软件开发] 本文提出 E2EDev，一个基于行为驱动开发（BDD）原则的端到端软件开发基准，包含 46 个真实 Web 项目、244 条细粒度需求和 703 个可执行 BDD 测试，评估发现即使最强 LLM（Claude 系列）在需求准确率上也不超过 60%，多智能体框架的复杂交互成本与性能收益不成正比。
+  [ACL 2026][LLM评测][端到端软件开发] 本文提出 E2EDev，一个基于行为驱动开发（BDD）原则的端到端软件开发基准，包含 46 个真实 Web 项目、244 条细粒度需求和 703 个可执行 BDD 测试，评估发现即使最强 LLM（Claude 系列）在需求准确率上也不超过 60%…
 tags:
-  - ACL 2026
-  - 端到端软件开发
-  - 行为驱动开发
-  - 基准评测
-  - LLM评测
-  - 需求验证
+  - "ACL 2026"
+  - "LLM评测"
+  - "端到端软件开发"
+  - "行为驱动开发"
+  - "基准评测"
+  - "多智能体编码"
+  - "需求验证"
 ---
 
 # E2EDev: Benchmarking Large Language Models in End-to-End Software Development Task

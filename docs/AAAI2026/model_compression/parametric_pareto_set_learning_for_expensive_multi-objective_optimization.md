@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][模型压缩][Pareto Set Learning] 本文提出 PPSL-MOBO 框架，通过超网络 + LoRA 架构学习从偏好和外在参数到 Pareto 最优解的统一映射，结合高斯过程代理模型和超体积改进采集策略，高效解决昂贵的参数化多目标优化问题。
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - Pareto Set Learning
-  - Multi-Objective Bayesian Optimization
-  - Hypernetwork
-  - LoRA
-  - 参数化多目标优化
+  - "AAAI 2026"
+  - "模型压缩"
+  - "Pareto Set Learning"
+  - "Multi-Objective Bayesian Optimization"
+  - "Hypernetwork"
+  - "LoRA"
+  - "参数化多目标优化"
 ---
 
 # Parametric Pareto Set Learning for Expensive Multi-Objective Optimization

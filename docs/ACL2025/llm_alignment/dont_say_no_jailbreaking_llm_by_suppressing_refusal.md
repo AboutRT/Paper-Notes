@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 (Findings)][LLM对齐][越狱攻击] 本文提出 DSN（Don't Say No）攻击方法，通过分析现有越狱攻击中目标损失函数的缺陷，引入余弦衰减调度和拒绝抑制两种改进策略，在多个 LLM 上实现了超越现有方法的攻击成功率（ASR），并展示了对未见数据集和黑盒模型的强迁移性。
 tags:
-  - ACL 2025 (Findings)
-  - LLM对齐
-  - 越狱攻击
-  - 拒绝抑制
-  - 安全对齐
-  - 攻击成功率
-  - 对抗优化
+  - "ACL 2025 (Findings)"
+  - "LLM对齐"
+  - "越狱攻击"
+  - "拒绝抑制"
+  - "安全对齐"
+  - "攻击成功率"
+  - "对抗优化"
 ---
 
 # Don't Say No: Jailbreaking LLM by Suppressing Refusal

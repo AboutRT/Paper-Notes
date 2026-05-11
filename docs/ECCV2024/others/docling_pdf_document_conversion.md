@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][PDF解析] Docling 是一个开源的 PDF 文档转换工具，集成了基于 DocLayNet 的布局分析模型和 TableFormer 表格结构识别模型，可在普通硬件上高效地将 PDF 转换为结构化的 JSON 或 Markdown 格式。
 tags:
-  - ECCV 2024
-  - PDF解析
-  - 文档布局分析
-  - 表格结构识别
-  - 开源工具
-  - DocLayNet
+  - "ECCV 2024"
+  - "PDF解析"
+  - "文档布局分析"
+  - "表格结构识别"
+  - "开源工具"
+  - "DocLayNet"
 ---
 
 # Docling Technical Report

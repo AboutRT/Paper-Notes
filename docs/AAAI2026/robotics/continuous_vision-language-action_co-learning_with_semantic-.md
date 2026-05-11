@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning
 description: >-
-  [AAAI 2026][机器人][行为克隆] 提出CCoL框架，通过NeuralODE驱动的多模态连续协同学习（MCC）和双向交叉注意力的语义-物理对齐（CSA），在Behavioral Cloning中同时解决动作序列的物理不连续性和语义-物理失配问题，在三个仿真平台上平均相对提升8.0%，双臂插入任务最高达19.2%。
+  [AAAI 2026][机器人][行为克隆] 提出CCoL框架，通过NeuralODE驱动的多模态连续协同学习（MCC）和双向交叉注意力的语义-物理对齐（CSA），在Behavioral Cloning中同时解决动作序列的物理不连续性和语义-物理失配问题，在三个仿真平台上平均相对提升8.0%…
 tags:
-  - AAAI 2026
-  - 机器人
-  - 行为克隆
-  - 语义-物理对齐
-  - NeuralODE
-  - 多模态连续协同学习
-  - 语言条件操控
+  - "AAAI 2026"
+  - "机器人"
+  - "行为克隆"
+  - "语义-物理对齐"
+  - "NeuralODE"
+  - "多模态连续协同学习"
+  - "语言条件操控"
 ---
 
 # Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][survey] 本文系统综述了大语言模型在生物信息学四大领域（DNA/基因组、RNA、蛋白质、单细胞分析）的应用进展，涵盖 30+ 代表性模型的架构、任务和数据集，并讨论了数据稀缺、计算复杂度、跨组学整合等核心挑战和未来方向。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - survey
-  - bioinformatics
-  - DNA
-  - RNA
-  - protein
-  - single-cell
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "survey"
+  - "bioinformatics"
+  - "DNA"
+  - "RNA"
+  - "protein"
+  - "single-cell"
 ---
 
 # Large Language Models in Bioinformatics: A Survey

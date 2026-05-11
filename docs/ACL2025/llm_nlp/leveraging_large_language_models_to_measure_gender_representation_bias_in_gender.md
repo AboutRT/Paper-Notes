@@ -4,7 +4,7 @@ title: >-
 description: >-
   [LLM/NLP] 提出利用LLM的语境理解能力来检测和量化有语法性别语言（如西班牙语、巴伦西亚语）训练语料中的性别表征偏差（representation bias），发现严重的男性主导不平衡，并验证了通过反向偏差数据进行持续预训练可有效缓解模型输出偏差。
 tags:
-  - LLM/NLP
+  - "LLM/NLP"
 ---
 
 # Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora

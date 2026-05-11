@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][音频驱动动画] 提出基于 Wan2.1 的 DiT 音频驱动人物视频生成框架：通过 LoRA 训练策略实现长视频生成，结合部分参数更新与 DPO 奖励反馈增强唇同步与动作自然度，并首创免训练的 Mask-CFG 方法实现多角色（≥3 人）音频驱动动画。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 音频驱动动画
-  - 多角色动画
-  - Transformer
-  - 免训练推理
-  - DPO
+  - "AAAI 2026"
+  - "图像生成"
+  - "音频驱动动画"
+  - "多角色动画"
+  - "Transformer"
+  - "免训练推理"
+  - "DPO"
 ---
 
 # Playmate2: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback

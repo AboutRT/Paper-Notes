@@ -1,18 +1,27 @@
 ---
 title: >-
-  ICLR2026 LLM Agent方向40篇论文解读
+  ICLR2026 LLM Agent方向39篇论文解读
 description: >-
-  40篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  39篇ICLR2026的 LLM Agent 方向论文解读，涵盖 LLM、Agent、推理、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICLR2026"
+  - "LLM Agent"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "Agent"
+  - "推理"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🦾 LLM Agent
 
-**🔬 ICLR2026** · **40** 篇论文解读
+**🔬 ICLR2026** · **39** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (41)](../../ACL2026/llm_agent/index.md) · [📷 CVPR2026 (15)](../../CVPR2026/llm_agent/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (50)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md) · [🧪 ICML2025 (15)](../../ICML2025/llm_agent/index.md)
 
-🔥 **高频主题：** LLM ×17 · Agent ×12 · 推理 ×6 · 对抗鲁棒 ×2
+🔥 **高频主题：** LLM ×17 · Agent ×11 · 推理 ×6 · 对抗鲁棒 ×2
 
 **[A Benchmark for Deep Information Synthesis (DeepSynth)](a_benchmark_for_deep_information_synthesis.md)**
 
@@ -85,10 +94,6 @@ description: >-
 **[FeatureBench: Benchmarking Agentic Coding for Complex Feature Development](membership_privacy_risks_of_sharpness_aware_minimization.md)**
 
 :   提出 FeatureBench——面向特征级软件开发的代码智能体评测基准，通过测试驱动的自动化流水线从开源仓库中提取可验证的 feature 实现任务，最强 Claude Opus 4.5 仅解决 11.0%，揭示当前 Agent 在复杂特征开发上的巨大差距。
-
-**[Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](multi-agent_design_optimizing_agents_with_better_prompts_and_topologies.md)**
-
-:   深入分析多智能体系统中 prompt 和拓扑设计的影响，发现 prompt 优化是最关键的设计因素（仅优化 prompt 的单 Agent 即可超越复杂多 Agent 拓扑），提出 Mass 三阶段框架（block-level prompt → topology → workflow-level prompt）在 8 个 benchmark 上取得 SOTA。
 
 **[NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents](newtonbench_benchmarking_generalizable_scientific_law_discovery_in_llm_agents.md)**
 

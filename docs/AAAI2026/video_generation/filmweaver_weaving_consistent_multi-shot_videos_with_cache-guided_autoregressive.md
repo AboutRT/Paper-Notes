@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion
 description: >-
-  [AAAI 2026][多镜头视频生成] 提出 FilmWeaver 框架，通过双层缓存（Shot Cache + Temporal Cache）引导自回归扩散模型，实现任意长度、跨镜头一致性的多镜头视频生成。
+  [AAAI 2026][视频生成][多镜头视频生成] 提出 FilmWeaver 框架，通过双层缓存（Shot Cache + Temporal Cache）引导自回归扩散模型，实现任意长度、跨镜头一致性的多镜头视频生成。
 tags:
-  - AAAI 2026
-  - 多镜头视频生成
-  - 自回归扩散
-  - 缓存机制
-  - 一致性
-  - 长视频生成
+  - "AAAI 2026"
+  - "视频生成"
+  - "多镜头视频生成"
+  - "自回归扩散"
+  - "缓存机制"
+  - "一致性"
+  - "长视频生成"
 ---
 
 # FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion

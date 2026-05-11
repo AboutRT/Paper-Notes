@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像恢复][扩散语言模型] LSP 调度器通过在每个去噪步骤中原子性地提交最长连续稳定前缀（而非分散接受离散 token），将 DLM 推理加速 3.4 倍，同时保持或略微提升输出质量。
 tags:
-  - ICLR 2026
-  - 图像恢复
-  - 图像复原
-  - 推理加速
-  - KV cache
-  - 前缀提交
-  - logit margin
+  - "ICLR 2026"
+  - "图像恢复"
+  - "扩散语言模型"
+  - "推理加速"
+  - "KV cache"
+  - "前缀提交"
+  - "logit margin"
 ---
 
 # Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes

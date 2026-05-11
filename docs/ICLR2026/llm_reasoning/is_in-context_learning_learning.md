@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICLR2026][LLM推理][in-context learning] 通过大规模控制变量实验系统分析 ICL 是否构成"学习"，发现数学上 ICL 满足学习定义，但实证表明其泛化能力有限——模型主要依赖 prompt 中的结构规律进行模式推演（deduction），而非从示例中真正习得新能力。
 tags:
-  - ICLR2026
-  - LLM推理
-  - in-context learning
-  - ICL
-  - memorisation
-  - distributional shift
-  - generalization
-  - autoregressive models
+  - "ICLR2026"
+  - "LLM推理"
+  - "in-context learning"
+  - "ICL"
+  - "memorisation"
+  - "distributional shift"
+  - "generalization"
+  - "autoregressive models"
 ---
 
 # Is In-Context Learning Learning?

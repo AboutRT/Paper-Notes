@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][知识边界] 通过探测 LLM 内部表示，揭示知识边界认知在多语言间呈线性结构，提出 training-free 对齐方法实现跨语言知识边界感知迁移，并发现"弱到强泛化"现象。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 知识边界
-  - 跨语言迁移
-  - 内部表示探测
-  - 幻觉缓解
-  - 低资源语言
-  - 子空间对齐
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "知识边界"
+  - "跨语言迁移"
+  - "内部表示探测"
+  - "幻觉缓解"
+  - "低资源语言"
+  - "子空间对齐"
 ---
 
 # Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations

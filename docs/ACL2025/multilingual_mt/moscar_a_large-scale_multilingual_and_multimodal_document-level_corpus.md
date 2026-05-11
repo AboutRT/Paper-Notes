@@ -2,14 +2,15 @@
 title: >-
   [论文解读] mOSCAR: A Large-scale Multilingual and Multimodal Document-level Corpus
 description: >-
-  [ACL 2025][多语言] 提出 mOSCAR——首个大规模多语言多模态文档级语料库（163种语言、303M文档、200B tokens、1.15B图片），从 Common Crawl 中提取交错的图文文档，并证明在此数据上训练的多语言 mLLM 能获得显著的 few-shot 学习提升。
+  [ACL 2025][多语言/翻译][多语言] 提出 mOSCAR——首个大规模多语言多模态文档级语料库（163种语言、303M文档、200B tokens、1.15B图片），从 Common Crawl 中提取交错的图文文档，并证明在此数据上训练的多语言 mLLM 能获得显著的 few-shot 学习提升。
 tags:
-  - ACL 2025
-  - 多语言
-  - 多语言翻译
-  - 交错图文数据
-  - Web爬取
-  - few-shot学习
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "多语言"
+  - "多模态"
+  - "交错图文数据"
+  - "Web爬取"
+  - "few-shot学习"
 ---
 
 # mOSCAR: A Large-scale Multilingual and Multimodal Document-level Corpus

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing
 description: >-
-  [ICML 2025][社会计算] 提出 GETA 框架，将心理测量学中的计算机自适应测试（CAT）与自动出题（AIG）结合，通过变分 IRT 和 LLM 驱动的题目生成器动态探测 LLM 的价值边界，解决静态基准因数据泄漏和难度饱和导致的"评估时效性效应"（evaluation chronoeffect）问题。
+  [ICML 2025][社会计算][价值对齐评估] 提出 GETA 框架，将心理测量学中的计算机自适应测试（CAT）与自动出题（AIG）结合，通过变分 IRT 和 LLM 驱动的题目生成器动态探测 LLM 的价值边界…
 tags:
-  - ICML 2025
-  - 社会计算
-  - 自适应测试
-  - 项目反应理论
-  - 自动出题
-  - 评估时效性
+  - "ICML 2025"
+  - "社会计算"
+  - "价值对齐评估"
+  - "自适应测试"
+  - "项目反应理论"
+  - "自动出题"
+  - "评估时效性"
 ---
 
 # Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing
@@ -62,9 +63,9 @@ GETA（Generative Evolving Testing of vAlues）包含三个核心组件，联合
 
     - 生成器 $p_\omega(x|d)$ 基于 LLaMA-3-8B，通过 Prefix Adapter + LoRA 微调，输入难度参数 $d=(b,c)$，输出对应难度的测试题目。
     - 联合训练目标统一为建模 $p(\mathbf{x}, \mathbf{y})$ 的 ELBO：
-      - 第一项：IRT 似然——根据能力和难度预测答对概率
-      - 第二项：生成器损失——学习从难度参数映射到题目文本
-      - 后两项：KL 散度正则——对能力和难度参数施加标准正态先验
+        - 第一项：IRT 似然——根据能力和难度预测答对概率
+        - 第二项：生成器损失——学习从难度参数映射到题目文本
+        - 后两项：KL 散度正则——对能力和难度参数施加标准正态先验
     - 这种联合方式让 IRT 估计和题目生成互相受益：IRT 提供准确的难度标注，生成器提供新数据扩展训练分布。
 
 3. **选择性生成与迭代进化**

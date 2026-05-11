@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MCGA: A Multi-task Classical Chinese Literary Genre Audio Corpus
 description: >-
-  [ACL 2026][音频语音][古典文学语音语料库] 本文构建了首个面向中国古典文学的大规模（119小时、22000条样本）全版权音频语料库 MCGA，涵盖赋、诗、文、词、曲五大文体和六项语音任务（ASR/S2TT/SEC/SQA/SU/SR），并通过评测 10 个多模态大模型揭示了当前模型在古典文学语音理解上的显著不足。
+  [ACL 2026][音频/语音][古典文学语音语料库] 本文构建了首个面向中国古典文学的大规模（119小时、22000条样本）全版权音频语料库 MCGA，涵盖赋、诗、文、词、曲五大文体和六项语音任务（ASR/S2TT/SEC/SQA/SU/SR）…
 tags:
-  - ACL 2026
-  - 音频语音
-  - 古典文学语音语料库
-  - 多模态大语言模型
-  - 语音情感分析
-  - 跨模态一致性
-  - 中国古典文学研究
+  - "ACL 2026"
+  - "音频/语音"
+  - "古典文学语音语料库"
+  - "多模态大语言模型"
+  - "语音情感分析"
+  - "跨模态一致性"
+  - "中国古典文学研究"
 ---
 
 # MCGA: A Multi-task Classical Chinese Literary Genre Audio Corpus

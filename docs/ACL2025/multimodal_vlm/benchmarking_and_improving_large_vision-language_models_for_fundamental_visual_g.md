@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning
 description: >-
-  [ACL 2025][多模态][视觉图结构理解] 本文构建了一个系统性评测基准来评估大型视觉语言模型（LVLM）在基础视觉图结构理解与推理上的能力，发现现有模型在此类任务上表现欠佳，并提出了针对性的改进方法。
+  [ACL 2025][多模态VLM][视觉图结构理解] 本文构建了一个系统性评测基准来评估大型视觉语言模型（LVLM）在基础视觉图结构理解与推理上的能力，发现现有模型在此类任务上表现欠佳，并提出了针对性的改进方法。
 tags:
-  - ACL 2025
-  - 多模态
-  - 视觉图结构理解
-  - 多模态VLM
-  - 图理解基准
-  - 大型视觉语言模型
-  - 结构化视觉推理
+  - "ACL 2025"
+  - "多模态VLM"
+  - "视觉图结构理解"
+  - "视觉推理"
+  - "图理解基准"
+  - "大型视觉语言模型"
+  - "结构化视觉推理"
 ---
 
 # Benchmarking and Improving Large Vision-Language Models for Fundamental Visual Graph Understanding and Reasoning

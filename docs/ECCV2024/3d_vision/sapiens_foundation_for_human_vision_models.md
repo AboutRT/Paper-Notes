@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][人体视觉基础模型] Sapiens 提出了一个以人为中心的视觉基础模型家族（0.3B-2B参数），通过在3亿张人体图像上进行 MAE 自监督预训练，原生支持1K高分辨率推理，在2D姿态估计、身体部位分割、深度估计和表面法线预测四个人体视觉任务上全面超越现有SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 人体视觉基础模型
-  - 自监督预训练
-  - Transformer
-  - 高分辨率推理
-  - 人体感知
+  - "ECCV 2024"
+  - "3D视觉"
+  - "人体视觉基础模型"
+  - "自监督预训练"
+  - "Transformer"
+  - "高分辨率推理"
+  - "人体感知"
 ---
 
 # Sapiens: Foundation for Human Vision Models

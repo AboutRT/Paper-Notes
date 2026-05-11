@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LLaVA-Critic: Learning to Evaluate Multimodal Models
 description: >-
-  [CVPR 2025][多模态][多模态评估器] LLaVA-Critic 是首个开源的通用多模态评估模型，通过在精心构建的113k评估指令数据上训练，使开源LMM具备了接近GPT-4o水平的Pointwise评分和Pairwise排序能力，并可作为奖励模型为迭代DPO提供有效的偏好信号，超越基于人类反馈训练的LLaVA-RLHF奖励模型。
+  [CVPR 2025][多模态VLM][多模态评估器] LLaVA-Critic 是首个开源的通用多模态评估模型，通过在精心构建的113k评估指令数据上训练，使开源LMM具备了接近GPT-4o水平的Pointwise评分和Pairwise排序能力，并可作为奖励模型为迭代DPO提供有效的偏好信号…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态评估器
-  - LMM-as-a-Judge
-  - 偏好学习
-  - 多模态VLM
-  - 奖励信号
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "多模态评估器"
+  - "LMM-as-a-Judge"
+  - "偏好学习"
+  - "评估指令数据"
+  - "奖励信号"
 ---
 
 # LLaVA-Critic: Learning to Evaluate Multimodal Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][REPL-Plan] 本文提出REPL-Plan，通过让LLM与扩展的REPL（Read-Eval-Print Loop）交互，实现既能充分利用代码表达力又能动态纠错和处理模糊子问题的自顶向下规划方法，在ALFWorld、WebShop和真实网页导航任务中取得强劲表现。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - REPL-Plan
-  - LLM-REPL
-  - 代码增强规划
-  - 交互式决策
-  - 任务分解
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "REPL-Plan"
+  - "LLM-REPL"
+  - "代码增强规划"
+  - "交互式决策"
+  - "任务分解"
 ---
 
 # Interactive and Expressive Code-Augmented Planning with Large Language Models

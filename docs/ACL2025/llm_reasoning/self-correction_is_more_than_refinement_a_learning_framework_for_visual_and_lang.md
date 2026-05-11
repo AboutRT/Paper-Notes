@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks
 description: >-
-  [ACL 2025][自纠正] 提出 Self-Correction Learning (SCL)，通过将 VLM 自身产生的自纠正数据（成功和失败的纠正样本）分类为偏好/非偏好对，利用 DPO 进行偏好微调，从根本上提升模型直接生成正确答案的能力，而非仅仅依赖推理时的迭代修正。
+  [ACL 2025][LLM推理][自纠正] 提出 Self-Correction Learning (SCL)，通过将 VLM 自身产生的自纠正数据（成功和失败的纠正样本）分类为偏好/非偏好对，利用 DPO 进行偏好微调，从根本上提升模型直接生成正确答案的能力，而非仅仅依赖推理时的迭代修正。
 tags:
-  - ACL 2025
-  - 自纠正
-  - 其他
-  - DPO
-  - 偏好优化
-  - 多模态推理
+  - "ACL 2025"
+  - "LLM推理"
+  - "自纠正"
+  - "VLM"
+  - "DPO"
+  - "偏好优化"
+  - "多模态推理"
 ---
 
 # Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks

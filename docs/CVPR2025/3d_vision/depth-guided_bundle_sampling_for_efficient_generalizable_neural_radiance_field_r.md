@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][新视角合成] 本文提出深度引导的束采样策略(GDB)，将相邻光线打包成束并通过球面-锥体采样来联合处理，同时根据深度置信度自适应分配采样点数量，应用于ENeRF和MVSGaussian后在DTU数据集上实现PSNR提升1.27dB且FPS提升47%。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 新视角合成
-  - 泛化NeRF
-  - 束采样
-  - 深度引导
-  - 高效渲染
+  - "CVPR 2025"
+  - "3D视觉"
+  - "新视角合成"
+  - "泛化NeRF"
+  - "束采样"
+  - "深度引导"
+  - "高效渲染"
 ---
 
 # Depth-Guided Bundle Sampling for Efficient Generalizable Neural Radiance Field Reconstruction

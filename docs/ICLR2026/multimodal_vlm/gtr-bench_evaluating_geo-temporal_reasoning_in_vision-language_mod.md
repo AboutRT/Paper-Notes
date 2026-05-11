@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models
 description: >-
-  [ICLR 2026][多模态][地理时空推理] 提出 GTR-Bench，一个面向大规模摄像头网络中移动目标地理时空推理的新基准，评估发现最强模型 Gemini-2.5-Pro（34.9%）远落后于人类水平（78.61%），揭示了当前 VLM 在时空上下文利用失衡、时序预测能力弱、地图-视频对齐能力不足三大缺陷。
+  [ICLR 2026][多模态VLM][地理时空推理] 提出 GTR-Bench，一个面向大规模摄像头网络中移动目标地理时空推理的新基准，评估发现最强模型 Gemini-2.5-Pro（34.9%）远落后于人类水平（78.61%）…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - 视觉语言模型
-  - 多摄像头网络
-  - benchmark
-  - 时空智能
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "地理时空推理"
+  - "视觉语言模型"
+  - "多摄像头网络"
+  - "benchmark"
+  - "时空智能"
 ---
 
 # GTR-Bench: Evaluating Geo-Temporal Reasoning in Vision-Language Models

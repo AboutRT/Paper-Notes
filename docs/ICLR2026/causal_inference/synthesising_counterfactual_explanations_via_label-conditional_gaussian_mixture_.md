@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders
 description: >-
-  [ICLR 2026][反事实解释] 提出 L-GMVAE（标签条件高斯混合 VAE）和 LAPACE 算法，通过在潜空间中学习每个类别的多个高斯聚类中心，然后从输入潜表征到目标类别中心进行线性插值，生成路径式反事实解释，同时保证有效性、似合性、多样性和对输入扰动的完美鲁棒性。
+  [ICLR 2026][因果推理][反事实解释] 提出 L-GMVAE（标签条件高斯混合 VAE）和 LAPACE 算法，通过在潜空间中学习每个类别的多个高斯聚类中心，然后从输入潜表征到目标类别中心进行线性插值，生成路径式反事实解释，同时保证有效性、似合性、多样性和对输入扰动的完美鲁棒性。
 tags:
-  - ICLR 2026
-  - 反事实解释
-  - 变分自编码器
-  - 高斯混合
-  - 鲁棒性
-  - 算法追索
+  - "ICLR 2026"
+  - "因果推理"
+  - "反事实解释"
+  - "变分自编码器"
+  - "高斯混合"
+  - "鲁棒性"
+  - "算法追索"
 ---
 
 # Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders
@@ -76,7 +77,7 @@ ELBO = KL(c) + KL(z) + 重建损失。分类特征用二元交叉熵，连续特
 | LAPACE-Last | 100% | 中等 | **最佳** | 高 | **100%** | **完美** |
 | LAPACE-First | 100% | **竞争力** | 最佳 | 高 | 中等 | 完美 |
 | NNCE | 100% | 最佳 | 好 | N/A | - | 好 |
-| DiCE | <100% | 好 | 差 | 好 | - | - |
+| DiCE | &lt;100% | 好 | 差 | 好 | - | - |
 | DRCE | 100% | 好 | 好 | 好 | - | 好 |
 
 ### 消融实验

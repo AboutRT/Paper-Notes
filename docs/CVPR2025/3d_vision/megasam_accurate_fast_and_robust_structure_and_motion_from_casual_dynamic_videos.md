@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][动态视频] MegaSaM 通过在深度视觉 SLAM 框架中集成单目深度先验、运动概率图和不确定性感知全局 BA，实现了对日常拍摄的动态视频进行精确、快速且鲁棒的相机参数和深度图估计，在合成和真实数据集上显著优于现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 动态视频
-  - 视觉SLAM
-  - 相机追踪
-  - 深度估计
-  - 不确定性感知
+  - "CVPR 2025"
+  - "3D视觉"
+  - "动态视频"
+  - "视觉SLAM"
+  - "相机追踪"
+  - "深度估计"
+  - "不确定性感知"
 ---
 
 # MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos

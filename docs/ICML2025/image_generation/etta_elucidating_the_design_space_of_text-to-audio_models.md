@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][文本到音频] ETTA 通过大规模系统性实验阐明了文本到音频(TTA)模型的设计空间（数据、架构、训练目标、采样策略），并基于分析结论构建了当前公开数据下最优的 TTA 模型。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 文本到音频
-  - 扩散模型
-  - Flow Matching
-  - 设计空间
-  - 合成数据
+  - "ICML 2025"
+  - "图像生成"
+  - "文本到音频"
+  - "扩散模型"
+  - "Flow Matching"
+  - "设计空间"
+  - "合成数据"
 ---
 
 # ETTA: Elucidating the Design Space of Text-to-Audio Models

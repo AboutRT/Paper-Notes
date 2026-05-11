@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SegMASt3R: Geometry Grounded Segment Matching
 description: >-
-  [NeurIPS 2025][机器人][宽基线匹配] SegMASt3R 在预训练 MASt3R 3D 基础模型上添加轻量分割特征头和可微 Sinkhorn 匹配层，利用 3D 几何先验实现极端视角变化（达 180°）下的鲁棒语义段匹配，AUPRC 在 135-180° 基线上达 83.6%（vs SAM2 的 17%）。
+  [NeurIPS 2025][机器人][宽基线匹配] SegMASt3R 在预训练 MASt3R 3D 基础模型上添加轻量分割特征头和可微 Sinkhorn 匹配层，利用 3D 几何先验实现极端视角变化（达 180°）下的鲁棒语义段匹配…
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 宽基线匹配
-  - MASt3R
-  - 语义分割
-  - Sinkhorn匹配
-  - 3D实例映射
+  - "NeurIPS 2025"
+  - "机器人"
+  - "宽基线匹配"
+  - "MASt3R"
+  - "语义分割"
+  - "Sinkhorn匹配"
+  - "3D实例映射"
 ---
 
 # SegMASt3R: Geometry Grounded Segment Matching

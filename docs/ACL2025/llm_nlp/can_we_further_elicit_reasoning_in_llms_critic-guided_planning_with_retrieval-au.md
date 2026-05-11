@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][批判引导规划] 本文提出CR-Planner框架，通过微调的批判模型（critic model）引导推理和检索过程的规划，结合蒙特卡洛树搜索（MCTS）来训练critic，在竞赛编程、定理驱动的数学推理和复杂领域检索问题上显著优于基线方法。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 批判引导规划
-  - 检索增强
-  - 蒙特卡洛树搜索
-  - 子目标分解
-  - 竞赛编程
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "批判引导规划"
+  - "检索增强"
+  - "蒙特卡洛树搜索"
+  - "子目标分解"
+  - "竞赛编程"
 ---
 
 # Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks

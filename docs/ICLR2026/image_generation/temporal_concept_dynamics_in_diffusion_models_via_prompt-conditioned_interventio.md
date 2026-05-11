@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][概念时间动力学] 提出 PCI（Prompt-Conditioned Intervention）框架，通过在去噪轨迹不同时间步切换文本提示，量化概念何时在扩散模型中锁定，并将此发现应用于时间感知的图像编辑。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 概念时间动力学
-  - 提示条件干预
-  - 概念插入成功率
-  - 扩散可解释性
-  - 训练免费编辑
+  - "ICLR 2026"
+  - "图像生成"
+  - "概念时间动力学"
+  - "提示条件干预"
+  - "概念插入成功率"
+  - "扩散可解释性"
+  - "训练免费编辑"
 ---
 
 # Temporal Concept Dynamics in Diffusion Models via Prompt-Conditioned Interventions

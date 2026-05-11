@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks
 description: >-
-  [ICCV 2025][多模态][视觉语言模型] 提出GEOBench-VLM，一个专为评估VLM地理空间任务能力而设计的综合基准，覆盖8大类31个子任务、超过10,000条人工验证指令，揭示了现有SOTA VLM（包括GPT-4o）在地理空间任务上仍然表现不佳（最高仅41.7%准确率）。
+  [ICCV 2025][多模态VLM][视觉语言模型] 提出GEOBench-VLM，一个专为评估VLM地理空间任务能力而设计的综合基准，覆盖8大类31个子任务、超过10,000条人工验证指令，揭示了现有SOTA VLM（包括GPT-4o）在地理空间任务上仍然表现不佳（最高仅41.7%准确率）。
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态VLM
-  - 地理空间
-  - 遥感基准
-  - 多模态评估
-  - 时序分析
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "地理空间"
+  - "遥感基准"
+  - "多模态评估"
+  - "时序分析"
 ---
 
 # GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks

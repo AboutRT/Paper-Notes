@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][神经算子] 提出 SVD-NO，通过显式参数化积分核的奇异值分解（SVD）来构建神经算子，在保持高表达力的同时实现 $O(ndL)$ 的线性计算复杂度，在 5 个 PDE 基准上达到新 SOTA。
 tags:
-  - AAAI 2026
-  - 神经算子
-  - 奇异值分解
-  - 偏微分方程
-  - 积分核
-  - 低秩近似
+  - "AAAI 2026"
+  - "神经算子"
+  - "奇异值分解"
+  - "偏微分方程"
+  - "积分核"
+  - "低秩近似"
 ---
 
 # SVD-NO: Learning PDE Solution Operators with SVD Integral Kernels

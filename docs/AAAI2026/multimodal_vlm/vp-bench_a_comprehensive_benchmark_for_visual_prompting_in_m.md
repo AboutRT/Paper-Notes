@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models
 description: >-
-  [AAAI 2026][多模态][提示学习] VP-Bench 提出了首个系统评估 MLLM 视觉提示（Visual Prompt）理解能力的两阶段 Benchmark：Stage 1 用 30K+ 图像覆盖 8 种 VP 形状×355 种属性组合评测 VP 感知能力，Stage 2 评测 VP 对 6 个下游任务的实际效果。在 28 个 MLLM 上的评测揭示了 VP 形状选择对性能的关键影响。
+  [AAAI 2026][多模态VLM][提示学习] VP-Bench 提出了首个系统评估 MLLM 视觉提示（Visual Prompt）理解能力的两阶段 Benchmark：Stage 1 用 30K+ 图像覆盖 8 种 VP 形状×355 种属性组合评测 VP 感知能力…
 tags:
-  - AAAI 2026
-  - 多模态
-  - 提示学习
-  - 多模态VLM
-  - 视觉提示感知
-  - 区域指向
-  - Benchmark设计
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "提示学习"
+  - "MLLM评测"
+  - "视觉提示感知"
+  - "区域指向"
+  - "Benchmark设计"
 ---
 
 # VP-Bench: A Comprehensive Benchmark for Visual Prompting in Multimodal Large Language Models

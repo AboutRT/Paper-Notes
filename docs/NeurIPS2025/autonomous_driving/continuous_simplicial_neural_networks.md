@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NEURIPS2025][自动驾驶][Simplicial Neural Networks] 提出 COSIMO，首个基于偏微分方程（PDE）的连续单纯形神经网络，通过在 Hodge Laplacian 上定义热扩散动力学实现连续信息流，比离散 SNN 具有更好的稳定性和过平滑控制能力。
 tags:
-  - NEURIPS2025
-  - 自动驾驶
-  - Simplicial Neural Networks
-  - 偏微分方程
-  - Over-smoothing
-  - Hodge Laplacian
-  - 拓扑深度学习
+  - "NEURIPS2025"
+  - "自动驾驶"
+  - "Simplicial Neural Networks"
+  - "偏微分方程"
+  - "Over-smoothing"
+  - "Hodge Laplacian"
+  - "拓扑深度学习"
 ---
 
 # Continuous Simplicial Neural Networks

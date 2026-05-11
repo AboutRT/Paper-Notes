@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D姿态迁移] 本文提出 MimiCAT，一个级联 Transformer 框架，通过语义关键点标签学习柔性多对多软对应关系，结合百万级多类别动作数据集 PokeAnimDB，首次实现了跨类别（如人形到四足动物/鸟类）的高质量 3D 姿态迁移。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D姿态迁移
-  - 跨类别迁移
-  - 软对应
-  - Transformer
-  - 大规模动作数据集
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D姿态迁移"
+  - "跨类别迁移"
+  - "软对应"
+  - "Transformer"
+  - "大规模动作数据集"
 ---
 
 # MimiCAT: Mimic with Correspondence-Aware Cascade-Transformer for Category-Free 3D Pose Transfer

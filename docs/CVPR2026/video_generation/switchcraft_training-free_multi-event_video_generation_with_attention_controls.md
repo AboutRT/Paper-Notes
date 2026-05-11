@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls
 description: >-
-  [CVPR 2026][多事件视频生成] 提出 SwitchCraft，一个无需训练的多事件视频生成框架，通过 Event-Aligned Query Steering (EAQS) 将帧级注意力对齐到对应事件提示、Auto-Balance Strength Solver (ABSS) 自适应平衡引导强度，在不修改模型权重的情况下实现多事件视频的清晰时序切换和场景一致性。
+  [CVPR 2026][视频生成][多事件视频生成] 提出 SwitchCraft，一个无需训练的多事件视频生成框架，通过 Event-Aligned Query Steering (EAQS) 将帧级注意力对齐到对应事件提示、Auto-Balance Strength Solver (ABSS) 自适应平衡…
 tags:
-  - CVPR 2026
-  - 多事件视频生成
-  - 注意力控制
-  - 无训练框架
-  - 扩散模型
-  - 视频生成
+  - "CVPR 2026"
+  - "视频生成"
+  - "多事件视频生成"
+  - "注意力控制"
+  - "无训练框架"
+  - "扩散模型"
+  - "时序对齐"
 ---
 
 # SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls

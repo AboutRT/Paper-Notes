@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring Multimodal Challenges in Toxic Chinese Detection: Taxonomy, Benchmark, and Findings
 description: >-
-  [ACL 2025][社会计算] 这篇工作把中文毒性文本中的“形、音、义混合扰动”系统化为 3 类 8 种策略，构建了大规模扰动基准 CNTP，并证明当前中美主流 LLM 在这类中文多模态毒性检测上都明显不稳，而小样本 ICL / SFT 虽能抬高检出率，却容易把正常内容一起误杀。
+  [ACL 2025][社会计算][中文毒性检测] 这篇工作把中文毒性文本中的“形、音、义混合扰动”系统化为 3 类 8 种策略，构建了大规模扰动基准 CNTP，并证明当前中美主流 LLM 在这类中文多模态毒性检测上都明显不稳，而小样本 ICL / SFT 虽能抬高检出率，却容易把正常内容一起误杀。
 tags:
-  - ACL 2025
-  - 社会计算
-  - 多模态扰动
-  - 鲁棒性评测
-  - LLM安全
-  - 基准数据集
+  - "ACL 2025"
+  - "社会计算"
+  - "中文毒性检测"
+  - "多模态扰动"
+  - "鲁棒性评测"
+  - "LLM安全"
+  - "基准数据集"
 ---
 
 # Exploring Multimodal Challenges in Toxic Chinese Detection: Taxonomy, Benchmark, and Findings

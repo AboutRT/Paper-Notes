@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Hallucination Detection via Future Context
 description: >-
-  [ACL 2026][LLM安全] 本文提出利用采样生成的"未来上下文"（后续句子）来增强黑盒场景下的幻觉检测，利用幻觉一旦出现就倾向于持续传播的"滚雪球效应"，在 SelfCheckGPT 和 SC 等多种采样方法上一致提升检测性能。
+  [ACL 2026][LLM安全][幻觉检测] 本文提出利用采样生成的"未来上下文"（后续句子）来增强黑盒场景下的幻觉检测，利用幻觉一旦出现就倾向于持续传播的"滚雪球效应"，在 SelfCheckGPT 和 SC 等多种采样方法上一致提升检测性能。
 tags:
-  - ACL 2026
-  - LLM安全
-  - 未来上下文
-  - 黑盒生成器
-  - 采样方法
-  - 滚雪球效应
+  - "ACL 2026"
+  - "LLM安全"
+  - "幻觉检测"
+  - "未来上下文"
+  - "黑盒生成器"
+  - "采样方法"
+  - "滚雪球效应"
 ---
 
 # Enhancing Hallucination Detection via Future Context

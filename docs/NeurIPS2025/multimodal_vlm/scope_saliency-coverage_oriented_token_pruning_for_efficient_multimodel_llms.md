@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodal LLMs
 description: >-
-  [NeurIPS 2025][多模态][视觉Token剪枝] 提出 SCOPE，一种联合建模显著性和覆盖率的视觉 Token 剪枝策略，通过迭代选择 SCOPE 得分最高的 Token 来保持语义完整性，在 9 倍 Token 缩减下保留 LLaVA-1.5 96% 的性能。
+  [NeurIPS 2025][多模态VLM][视觉Token剪枝] 提出 SCOPE，一种联合建模显著性和覆盖率的视觉 Token 剪枝策略，通过迭代选择 SCOPE 得分最高的 Token 来保持语义完整性，在 9 倍 Token 缩减下保留 LLaVA-1.5 96% 的性能。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 多模态大模型推理加速
-  - 语义覆盖率
-  - 子模函数
-  - 训练无关
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "视觉Token剪枝"
+  - "多模态大模型推理加速"
+  - "语义覆盖率"
+  - "子模函数"
+  - "训练无关"
 ---
 
 # SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodal LLMs

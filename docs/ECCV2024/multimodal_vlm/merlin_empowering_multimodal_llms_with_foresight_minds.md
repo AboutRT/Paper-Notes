@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Merlin: Empowering Multimodal LLMs with Foresight Minds
 description: >-
-  [ECCV 2024][多模态][多模态大语言模型] 提出 Foresight Pre-Training (FPT) 和 Foresight Instruction-Tuning (FIT) 两阶段训练范式，通过轨迹建模赋予多模态大语言模型"前瞻性思维"能力，使模型能够基于当前观察预测未来事件并进行推理。
+  [ECCV 2024][多模态VLM][多模态大语言模型] 提出 Foresight Pre-Training (FPT) 和 Foresight Instruction-Tuning (FIT) 两阶段训练范式，通过轨迹建模赋予多模态大语言模型"前瞻性思维"能力，使模型能够基于当前观察预测未来事件并进行推理…
 tags:
-  - ECCV 2024
-  - 多模态
-  - 多模态VLM
-  - 未来推理
-  - 轨迹预测
-  - 前瞻性思维
-  - 视觉理解
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "多模态大语言模型"
+  - "未来推理"
+  - "轨迹预测"
+  - "前瞻性思维"
+  - "视觉理解"
 ---
 
 # Merlin: Empowering Multimodal LLMs with Foresight Minds

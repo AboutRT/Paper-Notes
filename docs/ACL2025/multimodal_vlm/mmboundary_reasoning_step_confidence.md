@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration
 description: >-
-  [ACL 2025][多模态][多模态LLM] 提出 MMBoundary 框架，通过在推理链的每一步插入自然语言置信度表述（而非只在最终回答后给置信度），结合文本+跨模态的自奖励信号估计置信度，并用 SFT+RL 两阶段训练实现步级置信度校准，平均降低 7.5% 校准误差并提升 8.3% 任务准确率。
+  [ACL 2025][多模态VLM][多模态LLM] 提出 MMBoundary 框架，通过在推理链的每一步插入自然语言置信度表述（而非只在最终回答后给置信度），结合文本+跨模态的自奖励信号估计置信度，并用 SFT+RL 两阶段训练实现步级置信度校准，平均降低 7.5% 校准误差并提升 8.3% 任务准确率。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - 置信度校准
-  - 推理步骤
-  - 知识边界
-  - 强化学习
+  - "ACL 2025"
+  - "多模态VLM"
+  - "多模态LLM"
+  - "置信度校准"
+  - "推理步骤"
+  - "知识边界"
+  - "强化学习"
 ---
 
 # MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration

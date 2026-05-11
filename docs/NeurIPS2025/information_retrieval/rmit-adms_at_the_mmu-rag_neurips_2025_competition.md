@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RMIT-ADM+S at the MMU-RAG NeurIPS 2025 Competition
 description: >-
-  [NeurIPS 2025][检索增强生成] 提出Routing-to-RAG (R2RAG)系统，通过LLM查询分类器将简单查询路由到单轮Vanilla RAG、复杂查询路由到迭代式Vanilla Agent，全部基于Qwen3-4B（未量化）和Qwen3-Reranker-0.6B两个轻量模型在单块消费级GPU上运行，获NeurIPS 2025 MMU-RAG竞赛开源赛道Best Dynamic Evaluation奖。
+  [NeurIPS 2025][信息检索/RAG][检索增强生成] 提出Routing-to-RAG (R2RAG)系统，通过LLM查询分类器将简单查询路由到单轮Vanilla RAG、复杂查询路由到迭代式Vanilla Agent…
 tags:
-  - NeurIPS 2025
-  - 检索增强生成
-  - 查询分类
-  - 自适应检索
-  - 轻量级RAG
-  - 信息检索
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "检索增强生成"
+  - "查询分类"
+  - "自适应检索"
+  - "轻量级RAG"
+  - "动态评估"
 ---
 
 # RMIT-ADM+S at the MMU-RAG NeurIPS 2025 Competition
@@ -54,7 +55,7 @@ R2RAG是一个"分类-路由-生成"三阶段管线：(1) 查询分类器（LLM-
 
     - 四阶段单轮管线：查询变体生成 → 并行检索 → 重排序 → 答案生成
     - 查询变体：Qwen3-4B开启thinking mode生成3个变体，用不同关键词/表述扩展检索覆盖
-    - 检索：每个变体在ClueWeb22-A索引上并行检索，每个返回≤10篇，去重后约<30篇
+    - 检索：每个变体在ClueWeb22-A索引上并行检索，每个返回≤10篇，去重后约&lt;30篇
     - 重排序：Qwen3-Reranker-0.6B作为Pointwise重排序器，对每个query-document对预测"yes"概率作为相关性分数。选取top文档并截断到5K词限制
     - 答案生成：Qwen3-4B基于检索文档合成回答，要求附带[ID]格式行内引用，对争议性话题鼓励提供平衡观点
 

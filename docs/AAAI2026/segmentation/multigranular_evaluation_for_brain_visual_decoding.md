@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multigranular Evaluation for Brain Visual Decoding
 description: >-
-  [AAAI 2026][图像分割][brain decoding] 提出BASIC多粒度评估框架，从结构（四级分割mask匹配）和语义（MLLM提取对象/属性/关系图的精确率-召回率-F1）两个轴统一评估脑视觉解码质量，横跨fMRI/EEG × Image/Video/3D六种模态组合，解决现有指标饱和、缺乏神经科学基础和细粒度诊断能力的问题。
+  [AAAI 2026][语义分割][brain decoding] 提出BASIC多粒度评估框架，从结构（四级分割mask匹配）和语义（MLLM提取对象/属性/关系图的精确率-召回率-F1）两个轴统一评估脑视觉解码质量，横跨fMRI/EEG × Image/Video/3D六种模态组合…
 tags:
-  - AAAI 2026
-  - 图像分割
-  - brain decoding
-  - evaluation metric
-  - semantic matching
-  - MLLM
+  - "AAAI 2026"
+  - "语义分割"
+  - "brain decoding"
+  - "evaluation metric"
+  - "图像分割"
+  - "semantic matching"
+  - "MLLM"
 ---
 
 # Multigranular Evaluation for Brain Visual Decoding

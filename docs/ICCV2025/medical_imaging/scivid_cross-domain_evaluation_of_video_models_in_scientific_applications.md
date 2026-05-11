@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SciVid: Cross-Domain Evaluation of Video Models in Scientific Applications
 description: >-
-  [ICCV 2025][医学图像][视频基础模型] 提出 SciVid 基准，包含动物行为分类、组织追踪、天气预测等 5 个跨学科科学视频任务，系统评估 6 类视频基础模型（ViFM），发现用简单可训练 readout 适配冻结的 ViFM backbone 即可在多个科学应用中达到 SOTA，首次证明通用 ViFM 在科学领域的可迁移性。
+  [ICCV 2025][医学图像][视频基础模型] 提出 SciVid 基准，包含动物行为分类、组织追踪、天气预测等 5 个跨学科科学视频任务，系统评估 6 类视频基础模型（ViFM），发现用简单可训练 readout 适配冻结的 ViFM backbone 即可在多个科学应用中达到 SOTA…
 tags:
-  - ICCV 2025
-  - 医学图像
-  - 视频基础模型
-  - 跨域评估
-  - 科学应用
-  - benchmark
-  - 时空建模
+  - "ICCV 2025"
+  - "医学图像"
+  - "视频基础模型"
+  - "跨域评估"
+  - "科学应用"
+  - "benchmark"
+  - "时空建模"
 ---
 
 # SciVid: Cross-Domain Evaluation of Video Models in Scientific Applications

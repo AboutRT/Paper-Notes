@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VinaBench: Benchmark for Faithful and Consistent Visual Narratives
 description: >-
-  [CVPR 2025][视觉叙事] 构建了 VinaBench 基准，为视觉叙事样本标注常识链接和话语约束，提出忠实度和一致性评估指标，并验证利用这些约束可显著提升视觉叙事生成的质量。
+  [CVPR 2025][LLM评测][视觉叙事] 构建了 VinaBench 基准，为视觉叙事样本标注常识链接和话语约束，提出忠实度和一致性评估指标，并验证利用这些约束可显著提升视觉叙事生成的质量。
 tags:
-  - CVPR 2025
-  - 视觉叙事
-  - 一致性评估
-  - 常识约束
-  - 话语结构
-  - 基准数据集
+  - "CVPR 2025"
+  - "LLM评测"
+  - "视觉叙事"
+  - "一致性评估"
+  - "常识约束"
+  - "话语结构"
+  - "基准数据集"
 ---
 
 # VinaBench: Benchmark for Faithful and Consistent Visual Narratives

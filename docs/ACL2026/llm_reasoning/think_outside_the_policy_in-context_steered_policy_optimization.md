@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][强化学习] 提出 ICPO (In-Context Steered Policy Optimization)，利用大语言模型自身的上下文学习(ICL)能力作为隐式专家引导，在 RLVR 训练中扩展策略探索空间，无需依赖外部更强模型的推理轨迹。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 强化学习
-  - 上下文学习引导
-  - 策略优化
-  - 探索增强
-  - 数学推理
+  - "ACL 2026"
+  - "LLM推理"
+  - "强化学习"
+  - "上下文学习引导"
+  - "策略优化"
+  - "探索增强"
+  - "数学推理"
 ---
 
 # Think Outside the Policy: In-Context Steered Policy Optimization

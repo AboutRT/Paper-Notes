@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PRUE: A Practical Recipe for Field Boundary Segmentation at Scale
 description: >-
-  [CVPR 2026][图像分割][农田边界分割] 本文对18个分割和地理空间基础模型（GFM）进行了系统性评估，提出PRUE——一种结合U-Net骨干、复合损失函数和针对性数据增强的农田边界分割方案，在FTW基准上达到76% IoU和47% object-F1，分别比baseline提升6%和9%，同时提出了一套评估部署鲁棒性的新指标。
+  [CVPR 2026][语义分割][农田边界分割] 本文对18个分割和地理空间基础模型（GFM）进行了系统性评估，提出PRUE——一种结合U-Net骨干、复合损失函数和针对性数据增强的农田边界分割方案，在FTW基准上达到76% IoU和47% object-F1，分别比baseline提升6%和9%…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 农田边界分割
-  - 地理空间基础模型
-  - U-Net
-  - 部署鲁棒性
-  - 大规模制图
+  - "CVPR 2026"
+  - "语义分割"
+  - "农田边界分割"
+  - "地理空间基础模型"
+  - "U-Net"
+  - "部署鲁棒性"
+  - "大规模制图"
 ---
 
 # PRUE: A Practical Recipe for Field Boundary Segmentation at Scale

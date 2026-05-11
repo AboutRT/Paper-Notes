@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multi-perspective Alignment for Increasing Naturalness in Neural Machine Translation
 description: >-
-  [ACL 2025][机器翻译] 提出多视角对齐框架 (Multi-perspective Alignment)，同时奖励翻译自然度和内容保留，通过翻译体分类器和 COMET 的联合奖励信号对 NMT 模型进行强化学习微调，使译文词汇更丰富且不损失翻译准确度。
+  [ACL 2025][多语言/翻译][机器翻译] 提出多视角对齐框架 (Multi-perspective Alignment)，同时奖励翻译自然度和内容保留，通过翻译体分类器和 COMET 的联合奖励信号对 NMT 模型进行强化学习微调，使译文词汇更丰富且不损失翻译准确度。
 tags:
-  - ACL 2025
-  - 机器翻译
-  - 自然度
-  - 翻译体消除
-  - 多语言翻译
-  - 多视角对齐
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "机器翻译"
+  - "自然度"
+  - "翻译体消除"
+  - "强化学习"
+  - "多视角对齐"
 ---
 
 # Multi-perspective Alignment for Increasing Naturalness in Neural Machine Translation

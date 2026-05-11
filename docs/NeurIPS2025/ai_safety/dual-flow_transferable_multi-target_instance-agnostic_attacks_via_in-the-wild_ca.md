@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dual-Flow: Transferable Multi-Target, Instance-Agnostic Attacks via In-the-wild Cascading Flow Optimization
 description: >-
-  [NeurIPS 2025][AI安全][对抗攻击] 本文提出 Dual-Flow 框架，利用预训练扩散模型的正向 ODE 流和微调 LoRA 速度函数的逆向流进行多目标实例无关对抗攻击，通过级联分布偏移训练策略显著提升迁移攻击成功率（从 Inc-v3 到 Res-152 成功率提升 34.58%），在防御模型上也表现出强鲁棒性。
+  [NeurIPS 2025][AI安全][对抗攻击] 本文提出 Dual-Flow 框架，利用预训练扩散模型的正向 ODE 流和微调 LoRA 速度函数的逆向流进行多目标实例无关对抗攻击，通过级联分布偏移训练策略显著提升迁移攻击成功率（从 Inc-v3 到 Res-152 成功率提升 34.58%）…
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 对抗攻击
-  - 黑盒迁移攻击
-  - 扩散模型
-  - 流匹配
-  - 多目标攻击
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "对抗攻击"
+  - "黑盒迁移攻击"
+  - "扩散模型"
+  - "流匹配"
+  - "多目标攻击"
 ---
 
 # Dual-Flow: Transferable Multi-Target, Instance-Agnostic Attacks via In-the-wild Cascading Flow Optimization
@@ -76,7 +76,7 @@ tags:
 
 ### 损失函数 / 训练策略
 - 交叉熵损失 CE(f(x_0_hat), c)
-- l-inf <= 16/255 扰动约束
+- l-inf &lt;= 16/255 扰动约束
 - LoRA 微调减少参数量
 
 ## 实验关键数据
@@ -111,7 +111,7 @@ tags:
 ## 局限与展望
 - 需要源模型白盒训练（源模型梯度用于训练），迁移到目标模型是黑盒
 - 实验仅在 ImageNet 分类任务上验证，未扩展到检测/分割等下游任务
-- 扰动约束固定为 l-inf <= 16/255，未探索其他约束或更小扰动预算
+- 扰动约束固定为 l-inf &lt;= 16/255，未探索其他约束或更小扰动预算
 - 正向流的时间步 tau 的选择可能需要调参
 
 ## 相关工作与启发

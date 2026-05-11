@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing
 description: >-
-  [ICLR 2026][reversal curse] 通过在合成关系知识图谱上从头训练 Transformer，发现适当正则化会使模型隐层涌现出双线性关系结构（bilinear relational structure），该结构不仅能克服逆向诅咒（reversal curse），还能实现编辑单个事实后逻辑一致地传播到相关事实。
+  [ICLR 2026][知识编辑][reversal curse] 通过在合成关系知识图谱上从头训练 Transformer，发现适当正则化会使模型隐层涌现出双线性关系结构（bilinear relational structure），该结构不仅能克服逆向诅咒（reversal curse）…
 tags:
-  - ICLR 2026
-  - reversal curse
-  - bilinear representation
-  - model editing
-  - relational structure
-  - knowledge graph
+  - "ICLR 2026"
+  - "知识编辑"
+  - "reversal curse"
+  - "bilinear representation"
+  - "model editing"
+  - "relational structure"
+  - "knowledge graph"
 ---
 
 # Bilinear Representation Mitigates Reversal Curse and Enables Consistent Model Editing
@@ -77,7 +78,7 @@ tags:
 3. **Weight Decay 作为关键正则化手段**:
 
     - 功能：在 AdamW 中扫描 weight decay 从 0 到 6.0
-    - 核心发现：所有模型训练精度 100%，但低 weight decay（<1.0）的模型完全无法推理逆向关系，高 weight decay 的模型能达到近 100% 的逆向推理精度
+    - 核心发现：所有模型训练精度 100%，但低 weight decay（&lt;1.0）的模型完全无法推理逆向关系，高 weight decay 的模型能达到近 100% 的逆向推理精度
     - 设计动机：正则化促使模型学到更泛化的内部结构（bilinear），而非简单记忆
 
 4. **代数性质验证**:

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling
 description: >-
-  [NeurIPS 2025 (Spotlight)][图像生成][ConvNet] 重新发掘卷积网络在扩散模型中的潜力——发现预训练DiT的全局自注意力主要捕获局部模式（冗余），提出用标准ConvNet模块+紧凑通道注意力构建纯卷积扩散模型DiCo，在ImageNet-256上以2.05 FID超越DiT-XL/2且速度快2.7倍。
+  [NeurIPS 2025 (Spotlight)][图像生成][ConvNet] 重新发掘卷积网络在扩散模型中的潜力——发现预训练DiT的全局自注意力主要捕获局部模式（冗余），提出用标准ConvNet模块+紧凑通道注意力构建纯卷积扩散模型DiCo…
 tags:
-  - NeurIPS 2025 (Spotlight)
-  - 图像生成
-  - ConvNet
-  - 扩散模型
-  - 卷积替代注意力
-  - 通道冗余
-  - 注意力机制
-  - 高效生成
+  - "NeurIPS 2025 (Spotlight)"
+  - "图像生成"
+  - "ConvNet"
+  - "扩散模型"
+  - "卷积替代注意力"
+  - "通道冗余"
+  - "注意力机制"
+  - "高效生成"
 ---
 
 # DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling

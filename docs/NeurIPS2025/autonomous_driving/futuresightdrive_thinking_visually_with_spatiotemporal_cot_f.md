@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][自动驾驶][视觉CoT] FSDrive让VLA"用视觉思考"——先作为世界模型生成融合了未来车道线、3D检测框和场景预测的统一视觉CoT帧，再作为逆动力学模型基于当前观测和视觉CoT进行轨迹规划，用极少数据(约0.3%)即可激活MLLM的视觉生成能力。
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - 视觉CoT
-  - 轨迹规划
-  - 世界模型
-  - VLA
-  - 未来帧预测
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "视觉CoT"
+  - "轨迹规划"
+  - "世界模型"
+  - "VLA"
+  - "未来帧预测"
 ---
 
 # FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving

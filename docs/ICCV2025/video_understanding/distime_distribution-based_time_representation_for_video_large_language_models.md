@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DisTime: Distribution-based Time Representation for Video Large Language Models
 description: >-
-  [ICCV 2025][视频理解][Video-LLM] 提出DisTime框架，通过一个可学习的时间token和基于分布的时间解码器，在Video-LLM中实现连续时间表示，配合大规模自动标注数据集InternVid-TG（125万事件），在时刻检索、密集视频描述、Grounded-VQA三类时间敏感任务上达到SOTA。
+  [ICCV 2025][视频理解][Video-LLM] 提出DisTime框架，通过一个可学习的时间token和基于分布的时间解码器，在Video-LLM中实现连续时间表示，配合大规模自动标注数据集InternVid-TG（125万事件）…
 tags:
-  - ICCV 2025
-  - 视频理解
-  - Video-LLM
-  - 时间表示
-  - 分布式解码
-  - 时序定位
-  - 时间敏感数据集
+  - "ICCV 2025"
+  - "视频理解"
+  - "Video-LLM"
+  - "时间表示"
+  - "分布式解码"
+  - "时序定位"
+  - "时间敏感数据集"
 ---
 
 # DisTime: Distribution-based Time Representation for Video Large Language Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Reading Recognition in the Wild
 description: >-
-  [NeurIPS 2025][多模态][阅读识别] 提出了阅读识别新任务及首个大规模多模态"野外阅读"数据集（100小时），利用RGB、眼动和IMU三种互补模态的轻量级Transformer模型，在智能眼镜上实现实时阅读检测。
+  [NeurIPS 2025][多模态VLM][阅读识别] 提出了阅读识别新任务及首个大规模多模态"野外阅读"数据集（100小时），利用RGB、眼动和IMU三种互补模态的轻量级Transformer模型，在智能眼镜上实现实时阅读检测。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 阅读识别
-  - 可穿戴设备
-  - 多模态融合
-  - 眼动追踪
-  - 第一人称视觉
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "阅读识别"
+  - "可穿戴设备"
+  - "多模态融合"
+  - "眼动追踪"
+  - "第一人称视觉"
 ---
 
 # Reading Recognition in the Wild

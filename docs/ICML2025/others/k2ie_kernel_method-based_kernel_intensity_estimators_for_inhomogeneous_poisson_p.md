@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML2025][泊松过程] 提出 K²IE——基于 RKHS 最小二乘正则化的核强度估计器，证明其 representer theorem 的对偶系数恒为 1，从而将经典核强度估计 (KIE) 与现代核方法在理论上统一，同时兼顾 KIE 的高效性与核方法的边缘校正优势。
 tags:
-  - ICML2025
-  - 泊松过程
-  - 核强度估计
-  - 再生核希尔伯特空间
-  - 最小二乘损失
-  - 等价核
+  - "ICML2025"
+  - "泊松过程"
+  - "核强度估计"
+  - "再生核希尔伯特空间"
+  - "最小二乘损失"
+  - "等价核"
 ---
 
 # K²IE: Kernel Method-based Kernel Intensity Estimators for Inhomogeneous Poisson Processes

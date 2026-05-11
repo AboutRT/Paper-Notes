@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds
 description: >-
-  [NeurIPS 2025][其他][黎曼优化] 提出 Riemannian Online to NonConvex (RO2NC) 算法及其零阶版本 ZO-RO2NC，首次为黎曼流形上完全非光滑非凸随机优化建立了 $O(\delta^{-1}\epsilon^{-3})$ 的有限时间样本复杂度保证，匹配欧几里德最优结果。
+  [NeurIPS 2025][黎曼优化] 提出 Riemannian Online to NonConvex (RO2NC) 算法及其零阶版本 ZO-RO2NC，首次为黎曼流形上完全非光滑非凸随机优化建立了 $O(\delta^{-1}\epsilon^{-3})$ 的有限时间样本复杂度保证…
 tags:
-  - NeurIPS 2025
-  - 其他
-  - 黎曼优化
-  - 非光滑非凸
-  - Goldstein 稳定性
-  - 零阶优化
-  - 有限时间分析
+  - "NeurIPS 2025"
+  - "黎曼优化"
+  - "非光滑非凸"
+  - "Goldstein 稳定性"
+  - "零阶优化"
+  - "有限时间分析"
 ---
 
 # Finite-Time Analysis of Stochastic Nonconvex Nonsmooth Optimization on the Riemannian Manifolds

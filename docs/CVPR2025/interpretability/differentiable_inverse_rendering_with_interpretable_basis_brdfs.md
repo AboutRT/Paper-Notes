@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Differentiable Inverse Rendering with Interpretable Basis BRDFs
 description: >-
-  [CVPR 2025][inverse rendering] 提出基于可解释基 BRDF 的可微逆渲染方法，将材质分解为有物理意义的基函数组合，实现可解释的材质估计
+  [CVPR 2025][可解释性][inverse rendering] 提出基于可解释基 BRDF 的可微逆渲染方法，将材质分解为有物理意义的基函数组合，实现可解释的材质估计
 tags:
-  - CVPR 2025
-  - inverse rendering
-  - BRDF
-  - differentiable rendering
-  - material estimation
-  - physically-based
+  - "CVPR 2025"
+  - "可解释性"
+  - "inverse rendering"
+  - "BRDF"
+  - "differentiable rendering"
+  - "material estimation"
+  - "physically-based"
 ---
 
 # Differentiable Inverse Rendering with Interpretable Basis BRDFs

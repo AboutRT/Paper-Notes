@@ -2,15 +2,16 @@
 title: >-
   [论文解读] A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering
 description: >-
-  [CVPR 2025][CAD逆向工程] 构建了包含100万+复杂CAD模型、超1000万多模态标注（高分辨率3D扫描、手绘3D草图、文本描述、BRep拓扑标签）的A2Z数据集，是目前最大的CAD逆向工程数据集，并基于此训练了BRep边界和角点检测的基础模型。
+  [CVPR 2025][3D视觉][CAD逆向工程] 构建了包含100万+复杂CAD模型、超1000万多模态标注（高分辨率3D扫描、手绘3D草图、文本描述、BRep拓扑标签）的A2Z数据集，是目前最大的CAD逆向工程数据集，并基于此训练了BRep边界和角点检测的基础模型。
 tags:
-  - CVPR 2025
-  - CAD逆向工程
-  - 边界表示(BRep)
-  - 3D视觉
-  - 几何深度学习
-  - 3D扫描
-  - 大规模数据集
+  - "CVPR 2025"
+  - "3D视觉"
+  - "CAD逆向工程"
+  - "边界表示(BRep)"
+  - "多模态标注"
+  - "几何深度学习"
+  - "3D扫描"
+  - "大规模数据集"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

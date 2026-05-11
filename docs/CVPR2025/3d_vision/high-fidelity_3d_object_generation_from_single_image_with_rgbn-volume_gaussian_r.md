@@ -2,16 +2,16 @@
 title: >-
   [论文解读] High-fidelity 3D Object Generation from Single Image with RGBN-Volume Gaussian Reconstruction Model
 description: >-
-  [CVPR 2025][3D视觉][单图 3D 重建] GS-RGBN 提出混合 Voxel-Gaussian 表示为无结构高斯提供 3D 空间约束，并设计跨体积融合（CVF）模块在特征层面融合 RGB 语义信息和法线几何信息，从单张图像在数秒内生成高保真 3D 对象，在 GSO 数据集上 PSNR 超出次优方法 5.59dB。
+  [CVPR 2025][3D视觉][单图 3D 重建] GS-RGBN 提出混合 Voxel-Gaussian 表示为无结构高斯提供 3D 空间约束，并设计跨体积融合（CVF）模块在特征层面融合 RGB 语义信息和法线几何信息，从单张图像在数秒内生成高保真 3D 对象…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单图 3D 重建
-  - 2D 高斯溅射
-  - 体素-高斯混合
-  - 法线融合
-  - 跨体积注意力
-  - 前馈 3D 生成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单图 3D 重建"
+  - "2D 高斯溅射"
+  - "体素-高斯混合"
+  - "法线融合"
+  - "跨体积注意力"
+  - "前馈 3D 生成"
 ---
 
 # High-fidelity 3D Object Generation from Single Image with RGBN-Volume Gaussian Reconstruction Model

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can Multimodal Foundation Models Understand Schematic Diagrams? An Empirical Study on Information-Seeking QA over Scientific Papers
 description: >-
-  [ACL 2025 Findings][多模态][示意图理解] 本文提出 MISS-QA，首个专门评估多模态基础模型理解科学论文中示意图能力的基准，包含 1,500 个专家标注样本，揭示了当前最强模型与人类专家之间存在显著性能差距。
+  [ACL 2025 Findings][多模态VLM][示意图理解] 本文提出 MISS-QA，首个专门评估多模态基础模型理解科学论文中示意图能力的基准，包含 1,500 个专家标注样本，揭示了当前最强模型与人类专家之间存在显著性能差距。
 tags:
-  - ACL 2025 Findings
-  - 多模态
-  - 示意图理解
-  - 多模态VLM
-  - 多模态基准
-  - 视觉语言模型
-  - 信息检索
+  - "ACL 2025 Findings"
+  - "多模态VLM"
+  - "示意图理解"
+  - "科学文献QA"
+  - "多模态基准"
+  - "视觉语言模型"
+  - "信息检索"
 ---
 
 # Can Multimodal Foundation Models Understand Schematic Diagrams? An Empirical Study on Information-Seeking QA over Scientific Papers

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI for Social Impact] 本文主张 AI for Social Impact (AISI) 领域的学术生态需要双轨改革：拓宽"影响力"的定义以认可非部署/非方法创新的贡献，同时对已部署系统采用因果推断级别的严格评估标准。
 tags:
-  - NeurIPS 2025
-  - AI for Social Impact
-  - evaluation standards
-  - deployment
-  - field experiments
-  - research ecosystem
-  - 其他
+  - "NeurIPS 2025"
+  - "AI for Social Impact"
+  - "evaluation standards"
+  - "deployment"
+  - "field experiments"
+  - "research ecosystem"
+  - "causal inference"
 ---
 
 # Fostering the Ecosystem of AI for Social Impact Requires Expanding and Strengthening Evaluation Standards

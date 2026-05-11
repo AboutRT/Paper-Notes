@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines
 description: >-
-  [ICML 2025][优化][Multi-Agent System] 提出 MetaAgent，一个基于有限状态机（FSM）的框架，给定任务描述即可自动设计多智能体系统，无需外部训练数据，支持工具调用和状态回溯，在文本任务、ML 任务和软件开发任务上超越现有自动设计方法并逼近人工设计系统性能。
+  [ICML 2025][优化/理论][Multi-Agent System] 提出 MetaAgent，一个基于有限状态机（FSM）的框架，给定任务描述即可自动设计多智能体系统，无需外部训练数据，支持工具调用和状态回溯，在文本任务、ML 任务和软件开发任务上超越现有自动设计方法并逼近人工设计系统性能。
 tags:
-  - ICML 2025
-  - 优化
-  - Multi-Agent System
-  - Finite State Machine
-  - LLM Agent
-  - 自动化设计
-  - 工具集成
+  - "ICML 2025"
+  - "优化/理论"
+  - "Multi-Agent System"
+  - "Finite State Machine"
+  - "LLM Agent"
+  - "自动化设计"
+  - "工具集成"
 ---
 
 # MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines

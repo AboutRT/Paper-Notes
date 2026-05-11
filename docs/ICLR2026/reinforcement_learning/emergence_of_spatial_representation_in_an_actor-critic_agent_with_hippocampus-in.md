@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Emergence of Spatial Representation in an Actor-Critic Agent with Hippocampus-Inspired Sequence Generator
 description: >-
-  [ICLR 2026][海马体序列生成器] 受海马体 CA3 区内在递归回路启发，提出最小序列生成器（shift register）与 actor-critic 结合，在稀疏视觉输入下实现迷宫导航，同时涌现出位置场、DG 正交化、距离相关空间核和任务依赖重映射等神经生物学现象。
+  [ICLR 2026][强化学习][海马体序列生成器] 受海马体 CA3 区内在递归回路启发，提出最小序列生成器（shift register）与 actor-critic 结合，在稀疏视觉输入下实现迷宫导航，同时涌现出位置场、DG 正交化、距离相关空间核和任务依赖重映射等神经生物学现象。
 tags:
-  - ICLR 2026
-  - 海马体序列生成器
-  - 空间表征
-  - Actor-Critic
-  - 稀疏编码
-  - 位置细胞
+  - "ICLR 2026"
+  - "强化学习"
+  - "海马体序列生成器"
+  - "空间表征"
+  - "Actor-Critic"
+  - "稀疏编码"
+  - "位置细胞"
 ---
 
 # Emergence of Spatial Representation in an Actor-Critic Agent with Hippocampus-Inspired Sequence Generator

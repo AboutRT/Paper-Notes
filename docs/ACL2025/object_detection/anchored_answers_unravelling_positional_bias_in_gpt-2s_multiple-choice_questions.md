@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][目标检测][锚定偏差] 首次从失败案例角度对GPT-2系列在MCQ中的"锚定偏差"（始终选A）进行机械分析，通过Logit Lens定位到MLP中存储"A"偏好的特定值向量，用极简干预（更新值向量）将MCQ准确率平均提升70%+。
 tags:
-  - ACL 2025
-  - 目标检测
-  - 锚定偏差
-  - GPT-2
-  - 机械可解释性
-  - Logit Lens
-  - MLP值向量
+  - "ACL 2025"
+  - "目标检测"
+  - "锚定偏差"
+  - "GPT-2"
+  - "机械可解释性"
+  - "Logit Lens"
+  - "MLP值向量"
 ---
 
 # Anchored Answers: Unravelling Positional Bias in GPT-2's Multiple-Choice Questions

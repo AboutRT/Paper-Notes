@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MEGA: Masked Generative Autoencoder for Human Mesh Recovery
 description: >-
-  [CVPR 2025][3D视觉][人体网格恢复] MEGA 提出了一种基于遮掩生成建模的人体网格恢复方法，通过将人体 mesh 离散化为 token 序列，在自监督预训练后进行图像条件生成，同时支持确定性单次预测和随机多输出生成模式，在两种模式下均达到 SOTA 性能。
+  [CVPR 2025][人体理解][人体网格恢复] MEGA 提出了一种基于遮掩生成建模的人体网格恢复方法，通过将人体 mesh 离散化为 token 序列，在自监督预训练后进行图像条件生成，同时支持确定性单次预测和随机多输出生成模式，在两种模式下均达到 SOTA 性能。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 人体网格恢复
-  - 遮掩生成建模
-  - 多输出预测
-  - 自监督预训练
-  - VQ-VAE
+  - "CVPR 2025"
+  - "人体理解"
+  - "人体网格恢复"
+  - "遮掩生成建模"
+  - "多输出预测"
+  - "自监督预训练"
+  - "VQ-VAE"
 ---
 
 # MEGA: Masked Generative Autoencoder for Human Mesh Recovery

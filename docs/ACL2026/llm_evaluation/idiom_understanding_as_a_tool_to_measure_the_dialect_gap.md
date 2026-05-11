@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Idiom Understanding as a Tool to Measure the Dialect Gap
 description: >-
-  [ACL 2026][方言差距] 提出三个新的法语习语理解基准数据集（魁北克法语 QFrCoRE/QFrCoRT 和标准法语 MFrCoE），在 111 个 LLM 上评估发现 65.77% 的模型在方言习语上表现显著差于标准法语，量化了方言差距现象。
+  [ACL 2026][LLM评测][方言差距] 提出三个新的法语习语理解基准数据集（魁北克法语 QFrCoRE/QFrCoRT 和标准法语 MFrCoE），在 111 个 LLM 上评估发现 65.77% 的模型在方言习语上表现显著差于标准法语，量化了方言差距现象。
 tags:
-  - ACL 2026
-  - 方言差距
-  - 习语理解
-  - 魁北克法语
-  - 基准数据集
-  - LLM评测
+  - "ACL 2026"
+  - "LLM评测"
+  - "方言差距"
+  - "习语理解"
+  - "魁北克法语"
+  - "基准数据集"
+  - "多语言评估"
 ---
 
 # Idiom Understanding as a Tool to Measure the Dialect Gap

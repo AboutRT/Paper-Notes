@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][数字孪生] 提出 Twinner，首个能从少量图像同时恢复场景光照、物体几何和 PBR 材质属性的大型前馈重建模型，通过 tricolumn 表示、程序化合成数据和可微 PBR 渲染器在真实数据上微调，在 StanfordORB 上超越前馈方法并媲美逐场景优化方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 数字孪生
-  - PBR材质重建
-  - 环境光照估计
-  - 大型重建模型
-  - 体素网格表示
+  - "CVPR 2025"
+  - "3D视觉"
+  - "数字孪生"
+  - "PBR材质重建"
+  - "环境光照估计"
+  - "大型重建模型"
+  - "体素网格表示"
 ---
 
 # Twinner: Shining Light on Digital Twins in a Few Snaps

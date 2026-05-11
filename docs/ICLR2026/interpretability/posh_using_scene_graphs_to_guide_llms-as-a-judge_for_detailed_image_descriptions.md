@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PoSh: Using Scene Graphs to Guide LLMs-as-a-Judge for Detailed Image Descriptions
 description: >-
-  [ICLR 2026][detailed image description] 提出PoSh评估指标，通过从生成描述和参考描述中提取场景图 $G(d) = \langle O(d), E(d), K(d) \rangle$ 作为结构化rubric，引导开源14B LLM（Qwen3-14B）进行QA式细粒度错误定位，在DOCENT艺术品基准和CapArena上以+0.05 Spearman ρ超越GPT-4o-as-Judge，且完全可复现。
+  [ICLR 2026][可解释性][detailed image description] 提出PoSh评估指标，通过从生成描述和参考描述中提取场景图 $G(d) = \langle O(d), E(d), K(d) \rangle$ 作为结构化rubric…
 tags:
-  - ICLR 2026
-  - detailed image description
-  - scene graph
-  - 可解释性
-  - fine-grained evaluation
-  - assistive text
+  - "ICLR 2026"
+  - "可解释性"
+  - "detailed image description"
+  - "scene graph"
+  - "LLM-as-Judge"
+  - "fine-grained evaluation"
+  - "assistive text"
 ---
 
 # PoSh: Using Scene Graphs to Guide LLMs-as-a-Judge for Detailed Image Descriptions

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Regor: Progressive Correspondence Regenerator for Robust 3D Registration
 description: >-
-  [CVPR 2025][其他] Regor提出了一种渐进式对应关系再生策略，不同于传统的"自上而下"外点剔除方法，通过"自下而上"地在局部球体内迭代生成更多高质量对应关系，生成的正确匹配数量是现有方法的10倍，即使在弱特征条件下也能实现鲁棒配准。
+  [CVPR 2025][点云配准] Regor提出了一种渐进式对应关系再生策略，不同于传统的"自上而下"外点剔除方法，通过"自下而上"地在局部球体内迭代生成更多高质量对应关系，生成的正确匹配数量是现有方法的10倍，即使在弱特征条件下也能实现鲁棒配准。
 tags:
-  - CVPR 2025
-  - 其他
-  - 对应关系再生
-  - 外点剔除
-  - 三点一致性
-  - 渐进迭代
+  - "CVPR 2025"
+  - "点云配准"
+  - "对应关系再生"
+  - "外点剔除"
+  - "三点一致性"
+  - "渐进迭代"
 ---
 
 # Regor: Progressive Correspondence Regenerator for Robust 3D Registration

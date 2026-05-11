@@ -2,10 +2,14 @@
 title: >-
   [论文解读] ATA: Adaptive Transformation Agent for Text-Guided Subject-Position Variable Background Generation
 description: >-
-  [CVPR 2025][LLM Agent / 图像生成] 提出 ATA（Adaptive Transformation Agent）框架，在文本引导的背景生成中实现对主体位置和姿态的精确控制，通过自适应变换模块动态调整主体在背景中的放置，兼顾视觉一致性和语义
+  [CVPR 2025][LLM Agent][text-guided generation] 提出 ATA（Adaptive Transformation Agent）框架，在文本引导的背景生成中实现对主体位置和姿态的精确控制，通过自适应变换模块动态调整主体在背景中的放置，兼顾视觉一致性和语义合理性。
 tags:
-  - CVPR 2025
-  - LLM Agent
+  - "CVPR 2025"
+  - "LLM Agent"
+  - "text-guided generation"
+  - "subject-position control"
+  - "adaptive transformation"
+  - "background generation"
 ---
 
 # ATA: Adaptive Transformation Agent for Text-Guided Subject-Position Variable Background Generation

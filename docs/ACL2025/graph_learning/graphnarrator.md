@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][图学习][图神经网络] GraphNarrator是首个为图神经网络生成自然语言解释的方法，通过显著性图语言化生成伪标签、信息论指标驱动的专家迭代自改进、以及知识蒸馏训练端到端解释器，实现了忠实、简洁且人类友好的GNN决策解释。
 tags:
-  - ACL 2025
-  - 图学习
-  - 图神经网络
-  - 自然语言解释
-  - 文本属性图
-  - 专家迭代
-  - 知识蒸馏
+  - "ACL 2025"
+  - "图学习"
+  - "图神经网络"
+  - "自然语言解释"
+  - "文本属性图"
+  - "专家迭代"
+  - "知识蒸馏"
 ---
 
 # GraphNarrator: Generating Textual Explanations for Graph Neural Networks

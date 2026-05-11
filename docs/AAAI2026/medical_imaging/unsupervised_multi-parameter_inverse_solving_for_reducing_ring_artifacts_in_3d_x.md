@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][CT环形伪影去除] 提出 Riner，将 CT 环形伪影去除（RAR）建模为基于物理的多参数逆问题，通过隐式神经表示（INR）联合学习无伪影图像和探测器物理参数，实现无监督且优于有监督 SOTA 方法的 3D CBCT 重建。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - CT环形伪影去除
-  - 隐式神经表示
-  - 无监督学习
-  - 多参数逆问题
-  - CBCT重建
+  - "AAAI 2026"
+  - "医学图像"
+  - "CT环形伪影去除"
+  - "隐式神经表示"
+  - "无监督学习"
+  - "多参数逆问题"
+  - "CBCT重建"
 ---
 
 # Unsupervised Multi-Parameter Inverse Solving for Reducing Ring Artifacts in 3D X-Ray CBCT

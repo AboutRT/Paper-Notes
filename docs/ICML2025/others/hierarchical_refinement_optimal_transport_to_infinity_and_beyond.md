@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML 2025][最优传输] 提出 Hierarchical Refinement (HiRef) 算法，通过递归求解低秩最优传输子问题来动态构建多尺度数据分区，以对数线性时间和线性空间复杂度获得完整的双射 Monge 映射，将最优传输扩展到百万级数据集。
 tags:
-  - ICML 2025
-  - 最优传输
-  - 低秩分解
-  - 层次细化
-  - Monge映射
-  - 其他
+  - "ICML 2025"
+  - "最优传输"
+  - "低秩分解"
+  - "层次细化"
+  - "Monge映射"
+  - "大规模对齐"
 ---
 
 # Hierarchical Refinement: Optimal Transport to Infinity and Beyond

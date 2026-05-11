@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM评测][老电影修复] 本文提出MambaOFR框架，针对老电影特有的复合退化问题，设计退化感知prompt引导Mamba模型动态调整修复模式，配合光流引导的掩码变形对齐模块防止结构缺陷传播，并引入首个包含合成与真实数据的老电影修复benchmark数据集。
 tags:
-  - CVPR 2025
-  - LLM评测
-  - 老电影修复
-  - Mamba
-  - 退化感知
-  - 光流对齐
-  - 状态空间模型
+  - "CVPR 2025"
+  - "LLM评测"
+  - "老电影修复"
+  - "Mamba"
+  - "退化感知"
+  - "光流对齐"
+  - "状态空间模型"
 ---
 
 # Making Old Film Great Again: Degradation-aware State Space Model for Old Film Restoration

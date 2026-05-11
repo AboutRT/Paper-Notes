@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图学习][视频检索增强生成] 提出 G2F-RAG 范式，将检索到的结构化知识渲染为单帧"推理帧"附加到视频末尾，使大模型在视觉空间内统一推理，避免了文本追加导致的注意力稀释和认知负荷，在 8 个视频基准上实现免训练的一致性提升。
 tags:
-  - CVPR 2026
-  - 图学习
-  - 视频检索增强生成
-  - 知识图谱
-  - 视觉空间融合
-  - 多智能体框架
-  - 免训练视频推理
+  - "CVPR 2026"
+  - "图学习"
+  - "视频检索增强生成"
+  - "知识图谱"
+  - "视觉空间融合"
+  - "多智能体框架"
+  - "免训练视频推理"
 ---
 
 # Graph-to-Frame RAG: Visual-Space Knowledge Fusion for Training-Free and Auditable Video Reasoning

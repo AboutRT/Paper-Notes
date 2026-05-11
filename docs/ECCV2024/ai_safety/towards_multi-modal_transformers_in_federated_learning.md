@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV2024][AI安全][联邦学习] 提出 FedCola 框架，通过互补本地训练和协作聚合两个策略，在联邦学习中实现多模态 Transformer 的跨模态知识迁移，无需公共数据即可弥合单模态与多模态客户端之间的差距。
 tags:
-  - ECCV2024
-  - AI安全
-  - 联邦学习
-  - 多模态
-  - Transformer
-  - 视觉语言
-  - Mixture of Experts
+  - "ECCV2024"
+  - "AI安全"
+  - "联邦学习"
+  - "多模态"
+  - "Transformer"
+  - "视觉语言"
+  - "Mixture of Experts"
 ---
 
 # Towards Multi-modal Transformers in Federated Learning

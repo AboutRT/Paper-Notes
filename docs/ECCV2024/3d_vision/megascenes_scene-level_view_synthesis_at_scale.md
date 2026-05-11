@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][新视角合成] 从Wikimedia Commons互联网照片构建包含10万+SfM重建的大规模场景级3D数据集MegaScenes，并结合warp条件和位姿条件提升场景级新视角合成的位姿一致性。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 新视角合成
-  - 大规模数据集
-  - 扩散模型
-  - 位姿条件生成
-  - SfM重建
+  - "ECCV 2024"
+  - "3D视觉"
+  - "新视角合成"
+  - "大规模数据集"
+  - "扩散模型"
+  - "位姿条件生成"
+  - "SfM重建"
 ---
 
 # MegaScenes: Scene-Level View Synthesis at Scale

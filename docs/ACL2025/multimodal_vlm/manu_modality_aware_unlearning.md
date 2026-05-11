@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models
 description: >-
-  [ACL 2025 (Long Paper)][多模态][机器遗忘] 提出 MANU——首个模态感知的 MLLM 遗忘框架，通过四种互补的神经元重要性函数（绝对/频率/方差/RMS）识别跨模态纠缠的知识载体神经元，选择性剪枝 top-α% 神经元实现多模态和纯文本输入下的均衡遗忘，无需任何梯度更新。
+  [ACL 2025 (Long Paper)][多模态VLM][机器遗忘] 提出 MANU——首个模态感知的 MLLM 遗忘框架，通过四种互补的神经元重要性函数（绝对/频率/方差/RMS）识别跨模态纠缠的知识载体神经元，选择性剪枝 top-α% 神经元实现多模态和纯文本输入下的均衡遗忘，无需任何梯度更新。
 tags:
-  - ACL 2025 (Long Paper)
-  - 多模态
-  - 多模态VLM
-  - MLLM
-  - 神经元剪枝
-  - 模态感知
-  - 隐私保护
+  - "ACL 2025 (Long Paper)"
+  - "多模态VLM"
+  - "机器遗忘"
+  - "MLLM"
+  - "神经元剪枝"
+  - "模态感知"
+  - "隐私保护"
 ---
 
 # Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models

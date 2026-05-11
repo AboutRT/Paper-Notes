@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data
 description: >-
-  [ACL 2025][多模态][空间推理] 本文发现现有VLM数据集中空间关系数据严重匮乏（前17%的关系占据90%以上样本），提出从DOCCI、Localized Narratives和PixMo-Cap等超详细图像描述数据集中，利用LLM自动提取45.5万样本（340万QA对）的空间推理合成数据，微调后的SpaRE模型在What's Up基准上实现最高49%的性能提升，同时不损害通用VL能力。
+  [ACL 2025][多模态VLM][空间推理] 本文发现现有VLM数据集中空间关系数据严重匮乏（前17%的关系占据90%以上样本），提出从DOCCI、Localized Narratives和PixMo-Cap等超详细图像描述数据集中，利用LLM自动提取45.5万样本（340万QA对）的空间推理合成数据…
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - 合成数据
-  - 超详细描述
-  - 视觉问答
-  - VLM微调
+  - "ACL 2025"
+  - "多模态VLM"
+  - "空间推理"
+  - "合成数据"
+  - "超详细描述"
+  - "视觉问答"
+  - "VLM微调"
 ---
 
 # SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data

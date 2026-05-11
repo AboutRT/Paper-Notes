@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback
 description: >-
-  [ACL 2025][Spoken Language Model] 本文提出 Align-SLM 框架，首次将偏好优化（DPO + RLAIF）应用于纯语音语言模型（无文本注入），通过 LLM 自动评估生成的语音续写质量构建偏好数据，结合课程学习迭代提升 SLM 的语义理解能力，在 ZeroSpeech 和 StoryCloze 等基准上达到 SLM 的 SOTA。
+  [ACL 2025][强化学习][Spoken Language Model] 本文提出 Align-SLM 框架，首次将偏好优化（DPO + RLAIF）应用于纯语音语言模型（无文本注入），通过 LLM 自动评估生成的语音续写质量构建偏好数据，结合课程学习迭代提升 SLM 的语义理解能力…
 tags:
-  - ACL 2025
-  - Spoken Language Model
-  - 强化学习
-  - RLAIF
-  - preference optimization
-  - semantic alignment
+  - "ACL 2025"
+  - "强化学习"
+  - "Spoken Language Model"
+  - "DPO"
+  - "RLAIF"
+  - "preference optimization"
+  - "semantic alignment"
 ---
 
 # Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Resolving the Identity Crisis in Text-to-Image Generation
 description: >-
-  [CVPR 2026][图像生成][身份多样性] 本文揭示了文本到图像模型在多人场景生成中的"身份危机"问题（重复面孔、身份合并），提出 DisCo 框架，通过组合式奖励函数和 GRPO 强化学习微调 flow-matching 模型，实现了 98.6% 的唯一面孔准确率，超越包括 GPT-Image-1 在内的闭源模型。
+  [CVPR 2026][图像生成][身份多样性] 本文揭示了文本到图像模型在多人场景生成中的"身份危机"问题（重复面孔、身份合并），提出 DisCo 框架，通过组合式奖励函数和 GRPO 强化学习微调 flow-matching 模型，实现了 98.6% 的唯一面孔准确率…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 身份多样性
-  - 多人图像生成
-  - 强化学习
-  - GRPO
-  - 文本到图像
+  - "CVPR 2026"
+  - "图像生成"
+  - "身份多样性"
+  - "多人图像生成"
+  - "强化学习"
+  - "GRPO"
+  - "文本到图像"
 ---
 
 # Resolving the Identity Crisis in Text-to-Image Generation

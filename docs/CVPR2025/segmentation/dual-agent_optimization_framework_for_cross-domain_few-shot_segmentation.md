@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dual-Agent Optimization framework for Cross-Domain Few-Shot Segmentation
 description: >-
-  [CVPR 2025][图像分割][跨域小样本分割] 提出 Dual-Agent Optimization (DATO) 框架，包含一致性互聚合（CMA）模块学习跨域不变特征以增强表示，以及相关性修正策略（CRS）将 support-query 匹配转移到域不敏感的特征空间，有效提升跨域小样本分割的泛化能力。
+  [CVPR 2025][语义分割][跨域小样本分割] 提出 Dual-Agent Optimization (DATO) 框架，包含一致性互聚合（CMA）模块学习跨域不变特征以增强表示，以及相关性修正策略（CRS）将 support-query 匹配转移到域不敏感的特征空间，有效提升跨域小样本分割的泛化能力。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 跨域小样本分割
-  - 域不变特征
-  - 一致性互聚合
-  - 相关性修正
-  - 特征适配
+  - "CVPR 2025"
+  - "语义分割"
+  - "跨域小样本分割"
+  - "域不变特征"
+  - "一致性互聚合"
+  - "相关性修正"
+  - "特征适配"
 ---
 
 # Dual-Agent Optimization framework for Cross-Domain Few-Shot Segmentation

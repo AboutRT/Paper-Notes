@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][时间序列][Time Series Foundation Model] 提出 FeDaL 联邦框架，通过客户端域偏差消除（DBE）和服务器全局偏差消除（GBE）从头训练通用时序基础模型，在8类下游任务上以远少于集中式TSFM的参数达到竞争甚至超越的性能。
 tags:
-  - ICLR 2026
-  - 时间序列
-  - Time Series Foundation Model
-  - 联邦学习
-  - Dataset Heterogeneity
-  - Domain Bias Elimination
-  - Cross-domain Generalization
+  - "ICLR 2026"
+  - "时间序列"
+  - "Time Series Foundation Model"
+  - "联邦学习"
+  - "Dataset Heterogeneity"
+  - "Domain Bias Elimination"
+  - "Cross-domain Generalization"
 ---
 
 # FeDaL: Federated Dataset Learning for General Time Series Foundation Models

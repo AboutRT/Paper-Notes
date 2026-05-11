@@ -2,15 +2,16 @@
 title: >-
   [论文解读] THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation
 description: >-
-  [ACL 2025][Mixture-of-Experts] 提出THOR-MoE框架，通过层级任务引导路由（自动预测领域/语言并生成混合任务表示来选任务级专家子集）和上下文响应路由（将全局上下文注入token表示以辅助专家选择），在多领域和多语言翻译中以更少激活参数获得显著性能提升。
+  [ACL 2025][多语言/翻译][Mixture-of-Experts] 提出THOR-MoE框架，通过层级任务引导路由（自动预测领域/语言并生成混合任务表示来选任务级专家子集）和上下文响应路由（将全局上下文注入token表示以辅助专家选择），在多领域和多语言翻译中以更少激活参数获得显著性能提升。
 tags:
-  - ACL 2025
-  - Mixture-of-Experts
-  - 神经机器翻译
-  - 层级路由
-  - 上下文感知路由
-  - 多领域翻译
-  - 多语言翻译
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "Mixture-of-Experts"
+  - "神经机器翻译"
+  - "层级路由"
+  - "上下文感知路由"
+  - "多领域翻译"
+  - "多语言翻译"
 ---
 
 # THOR-MoE: Hierarchical Task-Guided and Context-Responsive Routing for Neural Machine Translation

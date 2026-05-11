@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][超声标准切面识别] 提出 SEMC 框架，通过**语义-结构融合模块（SSFM）**对齐浅层结构线索与深层语义表征，结合**混合专家对比识别模块（MCRM）**在多层特征上进行分层对比学习，提升超声标准切面识别的细粒度判别能力，并构建了新的肝脏超声数据集 LP2025。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 超声标准切面识别
-  - 混合专家
-  - 对比学习
-  - 语义结构融合
-  - 肝脏超声
+  - "AAAI 2026"
+  - "医学图像"
+  - "超声标准切面识别"
+  - "混合专家"
+  - "对比学习"
+  - "语义结构融合"
+  - "肝脏超声"
 ---
 
 # SEMC: Structure-Enhanced Mixture-of-Experts Contrastive Learning for Ultrasound Standard Plane Recognition

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spotlight and Shadow: Attention-Guided Dual-Anchor Introspective Decoding for MLLM Hallucination Mitigation
 description: >-
-  [ACL 2026][多模态][多模态幻觉] 提出 DaID (Dual-Anchor Introspective Decoding)，通过挖掘 MLLM 内部不同层的视觉感知差异——Spotlight 层放大视觉信号、Shadow 层抑制语言惯性——在单次前向传播内实现幻觉缓解。
+  [ACL 2026][多模态VLM][多模态幻觉] 提出 DaID (Dual-Anchor Introspective Decoding)，通过挖掘 MLLM 内部不同层的视觉感知差异——Spotlight 层放大视觉信号、Shadow 层抑制语言惯性——在单次前向传播内实现幻觉缓解。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态幻觉
-  - 对比解码
-  - 层级分析
-  - 视觉注意力
-  - 训练无关
+  - "ACL 2026"
+  - "多模态VLM"
+  - "多模态幻觉"
+  - "对比解码"
+  - "层级分析"
+  - "视觉注意力"
+  - "训练无关"
 ---
 
 # Spotlight and Shadow: Attention-Guided Dual-Anchor Introspective Decoding for MLLM Hallucination Mitigation

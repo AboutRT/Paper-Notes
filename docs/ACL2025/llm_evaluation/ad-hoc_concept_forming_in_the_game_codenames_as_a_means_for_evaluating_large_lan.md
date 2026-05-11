@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Ad-hoc Concept Forming in the Game Codenames as a Means for Evaluating Large Language Models
 description: >-
-  [ACL 2025][Codenames] 将桌游Codenames实现为LLM评测基准，LLM同时扮演线索给出者(Spymaster)和猜测者(Field Operative)，在13种不同难度实验中与确定性对手对战，14个模型中最佳(o3-mini)胜率仅49%，揭示了LLM在词汇关联、策略选择和纠错能力上的显著局限。
+  [ACL 2025][LLM评测][Codenames] 将桌游Codenames实现为LLM评测基准，LLM同时扮演线索给出者(Spymaster)和猜测者(Field Operative)，在13种不同难度实验中与确定性对手对战，14个模型中最佳(o3-mini)胜率仅49%…
 tags:
-  - ACL 2025
-  - Codenames
-  - 游戏评测
-  - 概念生成
-  - LLM评测
-  - 合作博弈
+  - "ACL 2025"
+  - "LLM评测"
+  - "Codenames"
+  - "游戏评测"
+  - "概念生成"
+  - "语用推理"
+  - "合作博弈"
 ---
 
 # Ad-hoc Concept Forming in the Game Codenames as a Means for Evaluating Large Language Models

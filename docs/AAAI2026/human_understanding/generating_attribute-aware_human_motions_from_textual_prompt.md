@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][人体理解][人体运动生成] 提出 AttrMoGen 框架，通过基于结构因果模型（SCM）的因果信息瓶颈将动作语义与人体属性（年龄、性别等）解耦，生成属性感知的人体运动，并构建了首个包含广泛属性标注的大规模文本-运动数据集 HumanAttr。
 tags:
-  - AAAI 2026
-  - 人体理解
-  - 人体运动生成
-  - 属性感知
-  - 因果解耦
-  - VQVAE
-  - 文本驱动
+  - "AAAI 2026"
+  - "人体理解"
+  - "人体运动生成"
+  - "属性感知"
+  - "因果解耦"
+  - "VQVAE"
+  - "文本驱动"
 ---
 
 # Generating Attribute-Aware Human Motions from Textual Prompt

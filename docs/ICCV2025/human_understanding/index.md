@@ -1,16 +1,27 @@
 ---
 title: >-
-  ICCV2025 人体理解方向47篇论文解读
+  ICCV2025 人体理解方向46篇论文解读
 description: >-
-  47篇ICCV2025的人体理解方向论文解读，涵盖人体姿态、人脸/视线、扩散模型、重识别、语音、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  46篇ICCV2025的人体理解方向论文解读，涵盖人体姿态、人脸/视线、扩散模型、重识别、语音、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICCV2025"
+  - "人体理解"
+  - "论文解读"
+  - "论文笔记"
+  - "人体姿态"
+  - "人脸/视线"
+  - "扩散模型"
+  - "重识别"
+  - "语音"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**📹 ICCV2025** · **47** 篇论文解读
+**📹 ICCV2025** · **46** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/human_understanding/index.md) · [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (8)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/human_understanding/index.md) · [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🔬 ICLR2026 (7)](../../ICLR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
 
 🔥 **高频主题：** 人体姿态 ×11 · 人脸/视线 ×7 · 扩散模型 ×6 · 重识别 ×4 · 语音 ×3
 
@@ -129,10 +140,6 @@ description: >-
 **[MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation](mdd_a_dataset_for_text-and-music_conditioned_duet_dance_generation.md)**
 
 :   介绍 Multimodal DuetDance (MDD)，首个同时整合动作、音乐和文本描述的大规模专业级双人舞蹈数据集，包含 620 分钟动捕数据、15 种舞蹈类型和超过 10K 条细粒度文本标注，并提出 Text-to-Duet 和 Text-to-Dance Accompaniment 两个新任务。
-
-**[Mitigating Object Hallucinations via Sentence-Level Early Intervention](mitigating_object_hallucinations_via_sentence-level_early_intervention.md)**
-
-:   提出 SENTINEL 框架，通过句子级早期干预和域内偏好学习有效缓解 MLLM 的物体幻觉，在 Object HalBench 上将幻觉率降低超过 90%，同时保持甚至提升通用能力。
 
 **[MixRI: Mixing Features of Reference Images for Novel Object Pose Estimation](mixri_mixing_features_of_reference_images_for_novel_object_pose_estimation.md)**
 

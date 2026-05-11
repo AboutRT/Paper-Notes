@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs
 description: >-
-  [NeurIPS 2025][AI安全][信息泄漏] 将 LLM 对抗攻击建模为信息通道问题——定义每次查询的"泄漏比特数" $I(Z;T)$ 为攻击目标属性 $T$ 与可观测信号 $Z$ 的互信息，证明攻击达到误差 $\varepsilon$ 所需最少查询数为 $\log(1/\varepsilon)/I(Z;T)$，在 7 个 LLM 上验证：暴露 answer tokens 需 ~1000 次查询，加 logits 降到 ~100 次，加思维链降到 ~几十次，为透明性-安全性权衡提供首个原则性标尺。
+  [NeurIPS 2025][LLM安全][信息泄漏] 将 LLM 对抗攻击建模为信息通道问题——定义每次查询的"泄漏比特数" $I(Z;T)$ 为攻击目标属性 $T$ 与可观测信号 $Z$ 的互信息…
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 信息泄漏
-  - 对抗攻击
-  - LLM安全
-  - 查询复杂度下界
-  - 信息通道模型
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "信息泄漏"
+  - "对抗攻击"
+  - "查询复杂度下界"
+  - "信息通道模型"
 ---
 
 # Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs

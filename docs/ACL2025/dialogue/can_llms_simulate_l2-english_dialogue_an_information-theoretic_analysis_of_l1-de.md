@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can LLMs Simulate L2-English Dialogue? An Information-Theoretic Analysis of L1-Dependent Biases
 description: >-
-  [ACL 2025][LLM/NLP][二语模拟] 本文评估LLM模拟非母语英语使用者（L2学习者）对话的能力，通过信息论和分布密度度量分析LLM生成的L2英语是否能复现人类L2学习者的母语依赖性偏差（如时态一致性错误、回避行为等），发现现代LLM确实能复现部分L1依赖模式。
+  [ACL 2025][对话系统][二语模拟] 本文评估LLM模拟非母语英语使用者（L2学习者）对话的能力，通过信息论和分布密度度量分析LLM生成的L2英语是否能复现人类L2学习者的母语依赖性偏差（如时态一致性错误、回避行为等），发现现代LLM确实能复现部分L1依赖模式。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 二语模拟
-  - 母语干扰
-  - 信息论分析
-  - L1迁移
-  - 语言教育
+  - "ACL 2025"
+  - "对话系统"
+  - "二语模拟"
+  - "母语干扰"
+  - "信息论分析"
+  - "L1迁移"
+  - "语言教育"
 ---
 
 # Can LLMs Simulate L2-English Dialogue? An Information-Theoretic Analysis of L1-Dependent Biases

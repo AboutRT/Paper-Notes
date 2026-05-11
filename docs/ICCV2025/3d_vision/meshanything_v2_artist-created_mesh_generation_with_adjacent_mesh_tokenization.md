@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization
 description: >-
-  [ICCV 2025][3D视觉][网格生成] MeshAnything V2 提出 Adjacent Mesh Tokenization (AMT)，通过用单个顶点（而非传统三个顶点）表示相邻面，将网格的 token 序列长度平均缩短一半，从而在不增加计算成本的前提下将最大生成面数从 800 提升到 1600，显著提高了自回归网格生成的效率和质量。
+  [ICCV 2025][3D视觉][网格生成] MeshAnything V2 提出 Adjacent Mesh Tokenization (AMT)，通过用单个顶点（而非传统三个顶点）表示相邻面，将网格的 token 序列长度平均缩短一半…
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 网格生成
-  - 序列化
-  - tokenization
-  - 自回归
-  - Artist-Created Mesh
+  - "ICCV 2025"
+  - "3D视觉"
+  - "网格生成"
+  - "序列化"
+  - "tokenization"
+  - "自回归"
+  - "Artist-Created Mesh"
 ---
 
 # MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization

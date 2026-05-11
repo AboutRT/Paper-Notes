@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多模态视频预测] 提出 SyncVP 多模态视频预测框架，使用双分支扩散模型通过高效时空跨模态注意力同步生成 RGB+深度未来帧，创新地使用共享噪声和跨模态引导训练策略，在 Cityscapes 上达到 SOTA 且支持部分模态输入。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多模态视频预测
-  - 联合扩散
-  - 跨模态注意力
-  - 噪声共享
-  - 深度预测
+  - "CVPR 2025"
+  - "图像生成"
+  - "多模态视频预测"
+  - "联合扩散"
+  - "跨模态注意力"
+  - "噪声共享"
+  - "深度预测"
 ---
 
 # SyncVP: Joint Diffusion for Synchronous Multi-Modal Video Prediction

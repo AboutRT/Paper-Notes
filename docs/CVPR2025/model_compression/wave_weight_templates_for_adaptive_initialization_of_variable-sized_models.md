@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][权重模板] 提出 WAVE，将变尺寸模型初始化重新定义为多任务学习问题，通过共享的尺寸无关权重模板和轻量级尺寸特定的权重缩放器（via Kronecker 积）实现高效初始化，仅需 3.3% 预训练参数即可在 10 个 epoch 内超越 150 epoch 训练的模型。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 权重模板
-  - 模型初始化
-  - Learngene
-  - Kronecker积
-  - 变尺寸模型
+  - "CVPR 2025"
+  - "模型压缩"
+  - "权重模板"
+  - "模型初始化"
+  - "Learngene"
+  - "Kronecker积"
+  - "变尺寸模型"
 ---
 
 # WAVE: Weight Templates for Adaptive Initialization of Variable-sized Models

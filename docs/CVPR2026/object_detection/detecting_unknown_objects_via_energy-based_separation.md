@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][开放世界目标检测] 提出 DEUS 框架，通过 ETF 子空间未知目标分离（EUS）在几何正交的已知/未知子空间中利用能量分数有效分离已知、未知和背景提案，并设计能量基已知区分损失（EKD）减少增量学习中新旧类的交叉干扰，在 OWOD 基准上大幅提升未知目标召回率。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 开放世界目标检测
-  - 能量函数
-  - 未知目标检测
-  - 增量学习
-  - 灾难性遗忘
+  - "CVPR 2026"
+  - "目标检测"
+  - "开放世界目标检测"
+  - "能量函数"
+  - "未知目标检测"
+  - "增量学习"
+  - "灾难性遗忘"
 ---
 
 # Detecting Unknown Objects via Energy-Based Separation for Open World Object Detection

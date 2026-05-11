@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][SDF] 提出 CrossSDF，通过从 2D 截面符号距离场重建 3D SDF，结合混合编码（哈希网格 + 随机傅里叶特征）和对称差损失，首次实现对薄管状结构（如血管）的精确重建。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - SDF
-  - cross-section reconstruction
-  - thin structures
-  - neural implicit fields
-  - hash encoding
+  - "CVPR 2025"
+  - "医学图像"
+  - "SDF"
+  - "cross-section reconstruction"
+  - "thin structures"
+  - "neural implicit fields"
+  - "hash encoding"
 ---
 
 # CrossSDF: 3D Reconstruction of Thin Structures From Cross-Sections

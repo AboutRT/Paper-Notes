@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats
 description: >-
-  [NeurIPS 2025][多模态][hallucination] 提出 AllPath，一个基于 Transformer 因果架构的多路径幻觉干预框架，首次发现 LVLM 的幻觉不来自单一因果路径而是 image-to-input-text、image-to-output-text、text-to-text 三条路径的交互，并且模型会根据问答对齐格式自适应选择不同路径；通过为每条路径设计轻量级关键 head 识别方法并自适应干预，在 POPE、MCQ-POPE、CHAIR、MME 四个不同格式 benchmark 上一致降低幻觉。
+  [NeurIPS 2025][多模态VLM][hallucination] 提出 AllPath，一个基于 Transformer 因果架构的多路径幻觉干预框架，首次发现 LVLM 的幻觉不来自单一因果路径而是 image-to-input-text、image-to-output-text、text-to-…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 注意力机制
-  - causal path
-  - multi-path framework
-  - training-free
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "hallucination"
+  - "注意力机制"
+  - "causal path"
+  - "multi-path framework"
+  - "training-free"
 ---
 
 # Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats

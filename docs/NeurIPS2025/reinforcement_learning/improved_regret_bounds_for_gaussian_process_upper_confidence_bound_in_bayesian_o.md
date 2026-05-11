@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Improved Regret Bounds for GP-UCB in Bayesian Optimization
 description: >-
-  [NeurIPS 2025][Bayesian optimization] 本文证明 GP-UCB 在贝叶斯设定下可达 $\widetilde{O}(\sqrt{T})$ 高概率 regret（Matern 核满足光滑条件时）和 $O(\sqrt{T \ln^2 T})$（SE 核），弥合了 GP-UCB 已有上界与最优上界间的差距。
+  [NeurIPS 2025][强化学习][Bayesian optimization] 本文证明 GP-UCB 在贝叶斯设定下可达 $\widetilde{O}(\sqrt{T})$ 高概率 regret（Matern 核满足光滑条件时）和 $O(\sqrt{T \ln^2 T})$（SE 核）…
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - GP-UCB
-  - regret bound
-  - information gain
-  - Gaussian process
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "Bayesian optimization"
+  - "GP-UCB"
+  - "regret bound"
+  - "information gain"
+  - "Gaussian process"
 ---
 
 # Improved Regret Bounds for GP-UCB in Bayesian Optimization

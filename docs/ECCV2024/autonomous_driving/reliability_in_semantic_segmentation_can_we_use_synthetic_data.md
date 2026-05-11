@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][语义分割] 首次系统地利用 Stable Diffusion 生成合成 OOD 数据来全面评估语义分割模型的可靠性，包括协变量偏移下的鲁棒性评估、OOD 物体检测评估和模型校准，并证明合成数据与真实 OOD 数据的评估结果高度相关。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 语义分割
-  - 合成数据
-  - 可靠性评估
-  - OOD检测
-  - 扩散模型
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "语义分割"
+  - "合成数据"
+  - "可靠性评估"
+  - "OOD检测"
+  - "扩散模型"
 ---
 
 # Reliability in Semantic Segmentation: Can We Use Synthetic Data?

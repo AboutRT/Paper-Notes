@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM对齐][SAM] 本文提出一种增强的SAM框架，通过BiomedCLIP、VQA和GPT-4生成无监督语义/位置/形状提示，并引入DPO启发的偏好对齐损失模拟人类反馈，在仅10%标注数据的半监督设置下实现了肺部、乳腺肿瘤和腹部器官分割的优异性能。
 tags:
-  - CVPR 2025
-  - LLM对齐
-  - SAM
-  - 半监督分割
-  - 偏好优化
-  - 无监督提示
-  - 医学影像
+  - "CVPR 2025"
+  - "LLM对齐"
+  - "SAM"
+  - "半监督分割"
+  - "偏好优化"
+  - "无监督提示"
+  - "医学影像"
 ---
 
 # Enhancing SAM with Efficient Prompting and Preference Optimization for Semi-supervised Medical Image Segmentation

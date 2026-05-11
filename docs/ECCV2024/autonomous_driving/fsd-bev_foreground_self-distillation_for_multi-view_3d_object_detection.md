@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][BEV 3D检测] 提出前景自蒸馏（FSD）框架，在同一模型内构建教师-学生分支共享图像特征，避免跨模态蒸馏中的分布差异问题，配合点云增强和多尺度前景增强模块，在 nuScenes 上取得 SOTA 性能。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - BEV 3D检测
-  - 自蒸馏
-  - 前景增强
-  - 点云增强
-  - 多视图感知
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "BEV 3D检测"
+  - "自蒸馏"
+  - "前景增强"
+  - "点云增强"
+  - "多视图感知"
 ---
 
 # FSD-BEV: Foreground Self-Distillation for Multi-View 3D Object Detection

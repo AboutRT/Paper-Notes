@@ -2,15 +2,15 @@
 title: >-
   [论文解读] On the Robustness of Verbal Confidence of LLMs in Adversarial Attacks
 description: >-
-  [NeurIPS 2025][AI安全][verbal confidence] 首次系统研究 LLM 语言化置信度（verbal confidence）在对抗攻击下的鲁棒性，提出基于扰动和越狱的攻击框架，揭示攻击可导致置信度下降最高 30%、答案翻转率高达 100%，且现有防御策略基本无效。
+  [NeurIPS 2025][LLM安全][verbal confidence] 首次系统研究 LLM 语言化置信度（verbal confidence）在对抗攻击下的鲁棒性，提出基于扰动和越狱的攻击框架，揭示攻击可导致置信度下降最高 30%、答案翻转率高达 100%，且现有防御策略基本无效。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - verbal confidence
-  - 对抗攻击
-  - LLM robustness
-  - 置信度校准
-  - 越狱攻击
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "verbal confidence"
+  - "对抗攻击"
+  - "LLM robustness"
+  - "置信度校准"
+  - "越狱攻击"
 ---
 
 # On the Robustness of Verbal Confidence of LLMs in Adversarial Attacks
@@ -108,7 +108,7 @@ tags:
 - **首次系统研究 verbal confidence 的对抗鲁棒性**：填补了 LLM 安全领域的重要空白，之前所有对抗攻击工作都聚焦于准确率或 logit 置信度
 - **ConfidenceTriggers 的通用性**：只需优化一次 trigger，即可对任意后续查询降低置信度，类似"一次注入，永久生效"的 prompt 后门
 - **防御困境的深刻揭示**：输入扰动防御（paraphrase、SmoothLLM）对正常样本的副作用太大，困惑度过滤无法区分对抗样本和真实世界噪声文本，LLM-Guard 过滤率也很低
-- **置信度稳定性的反直觉发现**：即使删除大部分 token，置信度变化通常 <15%，说明有效攻击需要精确优化而非简单破坏输入
+- **置信度稳定性的反直觉发现**：即使删除大部分 token，置信度变化通常 &lt;15%，说明有效攻击需要精确优化而非简单破坏输入
 
 ## 局限与展望
 - 由于攻击成本高，大模型（GPT-4o、70B）实验规模有限，仅用子集验证

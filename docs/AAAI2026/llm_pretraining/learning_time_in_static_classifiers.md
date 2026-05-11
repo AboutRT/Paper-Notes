@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Time in Static Classifiers
 description: >-
-  [AAAI 2026][LLM预训练] 提出 Support-Exemplar-Query (SEQ) 学习框架，通过损失函数设计（而非架构修改）为标准前馈分类器注入时序推理能力，利用软DTW将预测序列与类别时序原型对齐，在细粒度图像分类和视频异常检测上均取得提升。
+  [AAAI 2026][预训练][时序推理] 提出 Support-Exemplar-Query (SEQ) 学习框架，通过损失函数设计（而非架构修改）为标准前馈分类器注入时序推理能力，利用软DTW将预测序列与类别时序原型对齐，在细粒度图像分类和视频异常检测上均取得提升。
 tags:
-  - AAAI 2026
-  - LLM预训练
-  - 细粒度分类
-  - 软DTW
-  - 时序原型对齐
-  - 视频异常检测
+  - "AAAI 2026"
+  - "预训练"
+  - "时序推理"
+  - "细粒度分类"
+  - "软DTW"
+  - "时序原型对齐"
+  - "视频异常检测"
 ---
 
 # Learning Time in Static Classifiers

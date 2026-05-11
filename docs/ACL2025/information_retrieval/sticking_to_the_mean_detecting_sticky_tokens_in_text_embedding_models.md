@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sticking to the Mean: Detecting Sticky Tokens in Text Embedding Models
 description: >-
-  [ACL 2025 Main][文本嵌入] 本文系统研究了文本嵌入模型中的"粘性token"现象——某些异常token被反复插入句子后会将句子相似度拉向固定值，提出了高效检测方法 STD 并在 14 个模型家族的 40 个检查点中发现 868 个粘性token，揭示了高达 50% 的下游任务性能下降。
+  [ACL 2025 Main][信息检索/RAG][文本嵌入] 本文系统研究了文本嵌入模型中的"粘性token"现象——某些异常token被反复插入句子后会将句子相似度拉向固定值，提出了高效检测方法 STD 并在 14 个模型家族的 40 个检查点中发现 868 个粘性token…
 tags:
-  - ACL 2025 Main
-  - 文本嵌入
-  - 粘性token
-  - 词表异常
-  - tokenization鲁棒性
-  - 嵌入模型分析
+  - "ACL 2025 Main"
+  - "信息检索/RAG"
+  - "文本嵌入"
+  - "粘性token"
+  - "词表异常"
+  - "tokenization鲁棒性"
+  - "嵌入模型分析"
 ---
 
 # Sticking to the Mean: Detecting Sticky Tokens in Text Embedding Models

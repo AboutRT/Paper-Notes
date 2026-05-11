@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][数据增强] 提出基于KKT系统仿射变换的原则性数据增强框架，为线性规划(LP)和二次规划(QP)的MPNN学习优化(L2O)任务生成保最优性的增强实例，并结合对比学习预训练，在数据稀缺和OOD泛化场景下大幅提升性能。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 数据增强
-  - 二次规划
-  - 图神经网络
-  - 对比学习
-  - 学习优化
-  - KKT条件
+  - "NeurIPS 2025"
+  - "图学习"
+  - "数据增强"
+  - "二次规划"
+  - "图神经网络"
+  - "对比学习"
+  - "学习优化"
+  - "KKT条件"
 ---
 
 # Principled Data Augmentation for Learning to Solve Quadratic Programming Problems

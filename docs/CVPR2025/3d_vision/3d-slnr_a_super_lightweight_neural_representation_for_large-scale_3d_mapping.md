@@ -2,16 +2,17 @@
 title: >-
   [论文解读] 3D-SLNR: A Super Lightweight Neural Representation for Large-scale 3D Mapping
 description: >-
-  [CVPR 2025][3D视觉][SDF] 提出3D-SLNR，基于锚定在支撑点上的带限局部SDF集合定义全局SDF，每个局部SDF仅由共享微型MLP参数化（无隐特征），通过可学习几何属性调制适应复杂几何，以不到先前方法1/5内存实现SOTA重建。
+  [CVPR 2025][3D视觉][SDF] 提出 3D-SLNR，一种超轻量神经 3D 表示——基于锚定在点云支撑点上的带限局部 SDF 集合定义全局 SDF，每个局部 SDF 仅由一个共享的微型 MLP 参数化（无隐特征向量），通过可学习的位置/旋转/缩放几何属性调制 MLP 输出适应不同区域的复杂几何…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - SDF
-  - Lightweight
-  - Neural Mapping
-  - Local SDF
-  - Support Points
-  - Prune-and-Expand
+  - "CVPR 2025"
+  - "3D视觉"
+  - "SDF"
+  - "超轻量"
+  - "Neural Mapping"
+  - "Local SDF"
+  - "支撑点"
+  - "几何变换调制"
+  - "Prune-and-Expand"
 ---
 
 # 3D-SLNR: A Super Lightweight Neural Representation for Large-scale 3D Mapping

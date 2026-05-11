@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Health-LLM: Personalized Retrieval-Augmented Disease Prediction System
 description: >-
-  [ACL 2025][RAG] 提出 Health-LLM 框架，通过 LLM + Llama Index 从健康报告中提取特征评分、RAG 增强医学知识检索、CAAFE 自动特征工程结合 XGBoost 分类器，在 IMCS-21 中文远程医疗数据集上实现 Accuracy 0.833、F1 0.762 的疾病预测性能，大幅超越 GPT-4 few-shot+RAG (Acc 0.68) 和 fine-tuned LLaMA-2-13B (Acc 0.73)。
+  [ACL 2025][信息检索/RAG][RAG] 提出 Health-LLM 框架，通过 LLM + Llama Index 从健康报告中提取特征评分、RAG 增强医学知识检索、CAAFE 自动特征工程结合 XGBoost 分类器…
 tags:
-  - ACL 2025
-  - RAG
-  - 疾病预测
-  - Llama Index
-  - 特征工程
-  - 个性化健康管理
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "RAG"
+  - "疾病预测"
+  - "Llama Index"
+  - "特征工程"
+  - "个性化健康管理"
 ---
 
 # Health-LLM: Personalized Retrieval-Augmented Disease Prediction System

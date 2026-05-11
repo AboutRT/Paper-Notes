@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][logical reasoning] 系统研究 LLM 在命题逻辑和模态逻辑推理上的能力，发现除了输入概率（perplexity）外，逻辑形式（modality、argument form）是预测 LLM 表现的重要互补因素，并通过人类行为数据对比揭示人机推理的异同。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - logical reasoning
-  - modal logic
-  - propositional logic
-  - syllogism
-  - LLM evaluation
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "logical reasoning"
+  - "modal logic"
+  - "propositional logic"
+  - "syllogism"
+  - "LLM evaluation"
 ---
 
 # Logical Forms Complement Probability in Understanding Language Model (and Human) Performance

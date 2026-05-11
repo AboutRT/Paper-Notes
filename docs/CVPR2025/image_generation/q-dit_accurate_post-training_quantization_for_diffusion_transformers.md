@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][Transformer] 提出 Q-DiT，针对 Diffusion Transformer (DiT) 的后训练量化方法，通过进化搜索自动分配量化组大小和样本级动态激活量化，在 W4A8 设置下实现高保真图像/视频生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - Transformer
-  - 后训练量化
-  - 动态激活量化
-  - 组粒度分配
-  - DiT加速
+  - "CVPR 2025"
+  - "图像生成"
+  - "Transformer"
+  - "后训练量化"
+  - "动态激活量化"
+  - "组粒度分配"
+  - "DiT加速"
 ---
 
 # Q-DiT: Accurate Post-Training Quantization for Diffusion Transformers

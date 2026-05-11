@@ -2,15 +2,15 @@
 title: >-
   [论文解读] IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models
 description: >-
-  [ECCV 2024][多模态][视觉token剪枝] IVTP提出在大型视觉语言模型的推理过程中，利用文本指令（instruction）信息动态评估各视觉token的重要性并剪枝冗余token，实现与任务相关的自适应视觉信息压缩，在大幅减少计算量的同时保持甚至提升模型性能。
+  [ECCV 2024][多模态VLM][视觉token剪枝] IVTP提出在大型视觉语言模型的推理过程中，利用文本指令（instruction）信息动态评估各视觉token的重要性并剪枝冗余token，实现与任务相关的自适应视觉信息压缩，在大幅减少计算量的同时保持甚至提升模型性能。
 tags:
-  - ECCV 2024
-  - 多模态
-  - 多模态VLM
-  - 指令引导
-  - LVLM
-  - 推理加速
-  - 注意力评分
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "视觉token剪枝"
+  - "指令引导"
+  - "LVLM"
+  - "推理加速"
+  - "注意力评分"
 ---
 
 # IVTP: Instruction-Guided Visual Token Pruning for Large Vision-Language Models

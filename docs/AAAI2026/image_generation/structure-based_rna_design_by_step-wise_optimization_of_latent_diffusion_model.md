@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][潜在扩散模型] 提出SOLD框架，将潜在扩散模型（LDM）与强化学习（RL）结合，通过步进式单步采样优化策略，直接优化RNA逆折叠中不可微的结构指标（二级结构相似度SS、最小自由能MFE、LDDT），在多个指标上全面超越现有方法。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 潜在扩散模型
-  - RNA逆折叠
-  - 强化学习
-  - PPO
-  - 步进优化
-  - RNA-FM
+  - "AAAI 2026"
+  - "图像生成"
+  - "潜在扩散模型"
+  - "RNA逆折叠"
+  - "强化学习"
+  - "PPO"
+  - "步进优化"
+  - "RNA-FM"
 ---
 
 # Structure-based RNA Design by Step-wise Optimization of Latent Diffusion Model

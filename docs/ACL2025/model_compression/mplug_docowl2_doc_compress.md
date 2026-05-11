@@ -2,15 +2,15 @@
 title: >-
   [论文解读] mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding
 description: >-
-  [ACL 2025][模型压缩][文档理解] 提出布局感知的High-resolution DocCompressor模块，用全局低分辨率视觉特征作为query、子图特征作为key/value进行分组交叉注意力，将每张高分辨率文档图片从数千tokens压缩至324 tokens，配合三阶段训练框架在多页文档理解上达到SOTA且First Token Latency降低50%以上。
+  [ACL 2025][模型压缩][文档理解] 提出布局感知的High-resolution DocCompressor模块，用全局低分辨率视觉特征作为query、子图特征作为key/value进行分组交叉注意力，将每张高分辨率文档图片从数千tokens压缩至324 tokens…
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 文档理解
-  - 视觉token压缩
-  - 布局感知
-  - 多页文档
-  - OCR
+  - "ACL 2025"
+  - "模型压缩"
+  - "文档理解"
+  - "视觉token压缩"
+  - "布局感知"
+  - "多页文档"
+  - "OCR"
 ---
 
 # mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding

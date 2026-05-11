@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs
 description: >-
-  [ACL 2026][方言阿拉伯语] Alexandria 构建了覆盖 13 个阿拉伯国家、11 个社会影响领域、107K 轮次的多轮对话方言阿拉伯语-英语平行数据集，通过社区驱动的人工翻译与修订流程，为方言阿拉伯语机器翻译提供了前所未有的细粒度训练和评测资源，并在 24 个 LLM 上进行了系统性基准评估。
+  [ACL 2026][音频/语音][方言阿拉伯语] Alexandria 构建了覆盖 13 个阿拉伯国家、11 个社会影响领域、107K 轮次的多轮对话方言阿拉伯语-英语平行数据集，通过社区驱动的人工翻译与修订流程，为方言阿拉伯语机器翻译提供了前所未有的细粒度训练和评测资源…
 tags:
-  - ACL 2026
-  - 方言阿拉伯语
-  - 音频语音
-  - 多领域数据集
-  - 文化包容
-  - 大语言模型评测
+  - "ACL 2026"
+  - "音频/语音"
+  - "方言阿拉伯语"
+  - "机器翻译"
+  - "多领域数据集"
+  - "文化包容"
+  - "大语言模型评测"
 ---
 
 # Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs

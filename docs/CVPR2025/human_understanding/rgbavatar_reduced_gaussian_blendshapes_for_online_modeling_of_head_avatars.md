@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][头部虚拟形象] RGBAvatar提出"精简高斯混合形状"表示，仅用20个可学习基底即可高效表征可动画头部虚拟形象，配合批量并行渲染和颜色初始化策略，首次实现在线实时（边拍边建）的头部虚拟形象重建。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 头部虚拟形象
-  - 高斯混合形状
-  - 实时重建
-  - 在线建模
-  - 面部动画
+  - "CVPR 2025"
+  - "人体理解"
+  - "头部虚拟形象"
+  - "高斯混合形状"
+  - "实时重建"
+  - "在线建模"
+  - "面部动画"
 ---
 
 # RGBAvatar: Reduced Gaussian Blendshapes for Online Modeling of Head Avatars

@@ -3,6 +3,12 @@ title: >-
   ACL2026 AI 安全方向2篇论文解读
 description: >-
   2篇ACL2026的 AI 安全方向论文解读，涵盖翻译等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2026"
+  - "AI 安全"
+  - "论文解读"
+  - "论文笔记"
+  - "翻译"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +16,7 @@ description: >-
 
 **💬 ACL2026** · **2** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/ai_safety/index.md) · [🔬 ICLR2026 (26)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (72)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (21)](../../ICCV2025/ai_safety/index.md) · [🧪 ICML2025 (33)](../../ICML2025/ai_safety/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (22)](../../CVPR2026/ai_safety/index.md) · [🔬 ICLR2026 (26)](../../ICLR2026/ai_safety/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/ai_safety/index.md) · [🧠 NeurIPS2025 (70)](../../NeurIPS2025/ai_safety/index.md) · [📹 ICCV2025 (21)](../../ICCV2025/ai_safety/index.md) · [🧪 ICML2025 (33)](../../ICML2025/ai_safety/index.md)
 
 **[When Bigger Isn't Better: A Comprehensive Fairness Evaluation of Political Bias in Multi-News Summarisation](when_bigger_isn39t_better_a_comprehensive_fairness_evaluation_of_political_bias_.md)**
 

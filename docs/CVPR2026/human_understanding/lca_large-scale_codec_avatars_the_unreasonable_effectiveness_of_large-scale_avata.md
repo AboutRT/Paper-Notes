@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][人体理解][3D头像] LCA 首次将大规模预训练/后训练范式应用于 3D 头像建模：在 100 万野外视频上预训练学习广泛的外观和几何先验，再在高质量多视图工作室数据上后训练增强精细表情和保真度，打破了泛化性与保真度的固有矛盾。
 tags:
-  - CVPR 2026
-  - 人体理解
-  - 3D头像
-  - 大规模预训练
-  - 前馈生成
-  - 高斯溅射
-  - 表情控制
+  - "CVPR 2026"
+  - "人体理解"
+  - "3D头像"
+  - "大规模预训练"
+  - "前馈生成"
+  - "高斯溅射"
+  - "表情控制"
 ---
 
 # LCA: Large-scale Codec Avatars - The Unreasonable Effectiveness of Large-scale Avatar Pretraining

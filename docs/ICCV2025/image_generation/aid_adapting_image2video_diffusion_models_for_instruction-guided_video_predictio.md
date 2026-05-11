@@ -2,13 +2,14 @@
 title: >-
   [论文解读] AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction
 description: >-
-  [ICCV 2025][视频预测] 提出AID框架，将预训练的Image2Video扩散模型（SVD）迁移至文本引导视频预测任务，通过MLLM辅助的视频状态预测、双查询Transformer条件注入和时空适配器，在多个数据集上FVD指标超越前SOTA 50%以上。
+  [ICCV 2025][图像生成][视频预测] 提出AID框架，将预训练的Image2Video扩散模型（SVD）迁移至文本引导视频预测任务，通过MLLM辅助的视频状态预测、双查询Transformer条件注入和时空适配器，在多个数据集上FVD指标超越前SOTA 50%以上。
 tags:
-  - ICCV 2025
-  - 视频预测
-  - 扩散模型
-  - 文本引导
-  - 适配器
+  - "ICCV 2025"
+  - "图像生成"
+  - "视频预测"
+  - "扩散模型"
+  - "文本引导"
+  - "适配器"
 ---
 
 # AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction

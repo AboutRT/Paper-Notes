@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models
 description: >-
-  [ACL 2026][多模态][错误推理诊断] 本文提出 MMErroR，一个包含 1997 个样本的多模态错误推理基准，每个样本嵌入一个单一推理错误，覆盖 6 大领域和 4 种错误类型，要求 VLM 不仅检测推理链中的错误存在，还要分类错误类型（视觉感知错误/知识应用错误/问题理解错误/推理错误），评测 12 个代表性 VLM 后发现最强模型 Gemini-3-Pro-Preview 也仅达 66.65% 准确率。
+  [ACL 2026][多模态VLM][错误推理诊断] 本文提出 MMErroR，一个包含 1997 个样本的多模态错误推理基准，每个样本嵌入一个单一推理错误，覆盖 6 大领域和 4 种错误类型，要求 VLM 不仅检测推理链中的错误存在，还要分类错误类型（视觉感知错误/知识应用错误/问题理解错误/推理错误）…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 视觉语言模型评测
-  - 过程级评估
-  - 错误分类
-  - 多模态推理
+  - "ACL 2026"
+  - "多模态VLM"
+  - "错误推理诊断"
+  - "视觉语言模型评测"
+  - "过程级评估"
+  - "错误分类"
+  - "多模态推理"
 ---
 
 # MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models

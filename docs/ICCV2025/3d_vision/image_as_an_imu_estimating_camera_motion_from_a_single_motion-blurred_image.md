@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][运动模糊] 本文将运动模糊从"不需要的伪影"转变为"有价值的运动线索"，通过从单张模糊图像预测稠密光流场和单目深度图，再用可微分最小二乘求解器恢复相机6DoF瞬时速度，实现媲美甚至超越IMU的运动估计精度和30FPS实时性能。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 运动模糊
-  - 相机运动估计
-  - 6DoF速度估计
-  - 单图像运动估计
-  - IMU替代
+  - "ICCV 2025"
+  - "3D视觉"
+  - "运动模糊"
+  - "相机运动估计"
+  - "6DoF速度估计"
+  - "单图像运动估计"
+  - "IMU替代"
 ---
 
 # Image as an IMU: Estimating Camera Motion from a Single Motion-Blurred Image

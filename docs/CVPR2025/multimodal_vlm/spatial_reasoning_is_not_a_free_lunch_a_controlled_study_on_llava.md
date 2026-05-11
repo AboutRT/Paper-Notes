@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA
 description: >-
-  [CVPR 2025][多模态][空间推理] 通过在 LLaVA 框架中系统替换图像编码器（CLIP/SigLIP/SigLIP2/AIMv2）和引入 2D-RoPE 位置编码，发现 VLM 的空间推理能力主要由编码器的训练目标决定，指望仅靠 2D 位置结构改善空间理解是不够的。
+  [CVPR 2025][多模态VLM][空间推理] 通过在 LLaVA 框架中系统替换图像编码器（CLIP/SigLIP/SigLIP2/AIMv2）和引入 2D-RoPE 位置编码，发现 VLM 的空间推理能力主要由编码器的训练目标决定，指望仅靠 2D 位置结构改善空间理解是不够的。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - VLM
-  - 图像编码器
-  - 2D位置编码
-  - LLaVA
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "空间推理"
+  - "VLM"
+  - "图像编码器"
+  - "2D位置编码"
+  - "LLaVA"
 ---
 
 # Spatial Reasoning is Not a Free Lunch: A Controlled Study on LLaVA

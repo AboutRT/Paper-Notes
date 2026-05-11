@@ -1,14 +1,27 @@
 ---
 title: >-
-  ICML2025 1069篇论文解读
+  ICML2025 1063篇论文解读
 description: >-
-  1069篇ICML2025论文解读，涵盖图像生成(112篇)、强化学习(81篇)、模型压缩(70篇)、医学图像(62篇)、优化/理论(58篇)、多模态 VLM(52篇)、LLM 评测(49篇)、AI 安全(33篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1063篇ICML2025论文解读，涵盖图像生成(110篇)、强化学习(80篇)、模型压缩(70篇)、医学图像(62篇)、优化/理论(57篇)、多模态 VLM(52篇)、LLM 评测(49篇)、AI 安全(33篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICML2025"
+  - "AI顶会"
+  - "论文解读"
+  - "论文笔记"
+  - "图像生成"
+  - "强化学习"
+  - "模型压缩"
+  - "医学图像"
+  - "优化/理论"
+  - "多模态 VLM"
+  - "LLM 评测"
+  - "AI 安全"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧪 ICML2025 论文笔记
 
-1069篇ICML2025论文解读，涵盖图像生成(112篇)、强化学习(81篇)、模型压缩(70篇)、医学图像(62篇)、优化/理论(58篇)、多模态 VLM(52篇)、LLM 评测(49篇)、AI 安全(33篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1063篇ICML2025论文解读，涵盖图像生成(110篇)、强化学习(80篇)、模型压缩(70篇)、医学图像(62篇)、优化/理论(57篇)、多模态 VLM(52篇)、LLM 评测(49篇)、AI 安全(33篇)等 42个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -288,10 +301,6 @@ description: >-
 
 :   提出 PAK-UCB 上下文老虎机算法，通过为每个生成模型学习独立的核函数，在线预测给定 prompt 下的最优模型，实现 prompt 级别的生成模型/LLM 选择，并用随机傅里叶特征（RFF）降低计算开销。
 
-**[Parameter-Efficient Fine-Tuning of State Space Models](image_generation/parameter-efficient_fine-tuning_of_state_space_models.md)**
-
-:   本文系统性地评估了现有 PEFT 方法在 SSM（如 Mamba）模型上的效果，发现 LoRA 虽在线性投影层表现最优但无法有效调优 SSM 模块，进而提出 Sparse Dimension Tuning（SDT）——一种专为 SSM 模块设计的 PEFT 方法，结合 LoRA 用于线性层，在多个基准上达到 SOTA 性能。
-
 **[PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](image_generation/peptune_de_novo_generation_of_therapeutic_peptides_with_multi-objective-guided_d.md)**
 
 :   PepTune 结合 Masked Discrete Language Model (MDLM) 和蒙特卡罗树搜索 (MCTS) 多目标引导策略，在离散肽 SMILES 空间中同时优化多种治疗属性（结合亲和力、溶解性、膜通透性等），生成含非天然氨基酸和环化修饰的从头设计肽药物。
@@ -431,10 +440,6 @@ description: >-
 **[Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes](image_generation/understanding_and_mitigating_memorization_in_generative_models_via_sharpness_of_.md)**
 
 :   通过对数概率密度的 Hessian 曲率（sharpness）建立扩散模型记忆化的几何分析框架，提出可在生成初始阶段检测记忆化的新指标，并设计无需重训练的 SAIL 初始噪声优化策略来缓解记忆化。
-
-**[Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](image_generation/understanding_and_mitigating_miscalibration_in_prompt_tuning_for_vision-language.md)**
-
-:   揭示 CLIP prompt tuning 在 base 和 novel 类之间存在校准权衡（CoOp 导致 novel 类过度自信，KgCoOp 导致 base 类自信不足），从文本特征散度视角解释原因，并提出 Dynamic Outlier Regularization (DOR) 通过正则化非训练类文本标签的特征偏差同时保持两端校准。
 
 **[Unsupervised Learning for Class Distribution Mismatch (UCDM)](image_generation/unsupervised_learning_for_class_distribution_mismatch.md)**
 
@@ -607,10 +612,6 @@ description: >-
 **[Hierarchical Reinforcement Learning with Targeted Causal Interventions](reinforcement_learning/hierarchical_reinforcement_learning_with_targeted_causal_interventions.md)**
 
 :   提出 HRC 框架，将层次强化学习中的子目标关系建模为因果图，通过因果发现算法学习子目标结构，并基于因果效应优先级进行**定向干预**，显著降低长时域稀疏奖励任务的训练代价。
-
-**[Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals](reinforcement_learning/hierarchical_reinforcement_learning_with_uncertainty-guided_diffusional_subgoals.md)**
-
-:   提出 HIDI 框架，以条件扩散模型建模子目标分布，并引入高斯过程 (GP) 先验进行不确定性正则化与子目标选择，在长时域连续控制任务上显著超越现有层次强化学习方法。
 
 **[KEA: Keeping Exploration Alive by Proactively Coordinating Exploration Strategies](reinforcement_learning/kea_keeping_exploration_alive_by_proactively_coordinating_exploration_strategies.md)**
 
@@ -1411,10 +1412,6 @@ description: >-
 **[Generalization and Robustness of the Tilted Empirical Risk](optimization/generalization_and_robustness_of_the_tilted_empirical_risk.md)**
 
 :   本文为负倾斜参数(γ<0)下的 Tilted Empirical Risk (TER) 提供了系统性的泛化误差上下界和鲁棒性保证，在损失函数无界但具有有界 (1+ε) 阶矩条件下，通过均匀方法和信息论方法建立了 $O(n^{-\epsilon/(1+\epsilon)})$ 的收敛速率，并给出了数据驱动的倾斜参数选择方案。
-
-**[Generalization in Federated Learning: A Conditional Mutual Information Framework](optimization/generalization_in_federated_learning_a_conditional_mutual_information_framework.md)**
-
-:   首次将条件互信息（CMI）框架引入联邦学习的两层泛化分析，通过构造"超级客户端"和"超级样本"，推导出有界的 CMI 泛化界，证明隐私约束蕴含泛化保证，并给出在低经验风险区间恢复最优收敛率的快速率界。
 
 **[Global Convergence and Rich Feature Learning in $L$-Layer Infinite-Width Neural Networks under $\mu$P Parametrization](optimization/global_convergence_and_rich_feature_learning_in_l-layer_infinite-width_neural_ne.md)**
 
@@ -3498,62 +3495,6 @@ description: >-
 
 ---
 
-## ⚡ LLM 效率 { #llm_efficiency }
-
-**[Autonomy-of-Experts Models (AoE)](llm_efficiency/autonomy-of-experts_models.md)**
-
-:   AoE 提出让 MoE 中的 expert 基于自身内部激活范数自主决定是否处理输入（而非由外部 router 决定），通过低秩权重分解降低预计算开销，在 700M-4B 参数语言模型预训练中超越传统 MoE。
-
-**[Curse of High Dimensionality Issue in Transformer for Long-context Modeling](llm_efficiency/curse_of_high_dimensionality_issue_in_transformer_for_long-context_modeling.md)**
-
-:   本文从监督学习视角重新审视序列建模中的注意力冗余问题，提出了 Dynamic Group Attention (DGA) 机制，通过将不重要的 token 动态分组聚合来减少注意力计算中的冗余，在保持竞争性能的同时大幅降低推理延迟（LLaMA2-7B 在 16K 上下文下推理速度提升 2.42 倍）。
-
-**[DSSD: Efficient Edge-Device LLM Deployment and Collaborative Inference via Distributed Split Speculative Decoding](llm_efficiency/dssd_efficient_edge-device_llm_deployment_and_collaborative_inference_via_distri.md)**
-
-:   提出分布式拆分推测解码（DSSD）框架，将推测解码的验证阶段拆分到设备端和边缘端，用一次下行传输（LLM的单个词表分布）替代多次上行传输（SLM的$\gamma$个词表分布），在保持推理质量不变的前提下大幅降低通信延迟。
-
-**[EasyInv: Toward Fast and Better DDIM Inversion](llm_efficiency/easyinv_toward_fast_and_better_ddim_inversion.md)**
-
-:   提出 EasyInv，通过在反演过程中周期性地将当前 latent 状态与前一步 latent 状态加权聚合（类卡尔曼滤波），增强初始 latent 的影响力、抑制噪声累积误差，在不需要迭代优化的前提下达到与迭代方法相当甚至更好的反演质量，同时推理速度提升约 3 倍。
-
-**[Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling](llm_efficiency/efficient_length-generalizable_attention_via_causal_retrieval_for_long-context_l.md)**
-
-:   本文提出 Grouped Cross-Attention (GCA) 机制，将 chunk 级别的因果检索（causal retrieval）集成到注意力中实现端到端可学习的检索器，构建的 Differentiable Retrieval-based Transformer (DRT) 在 16M 上下文的 passkey 检索测试中达到近乎完美的准确率，实现了训练长度 1000 倍的长度泛化。
-
-**[Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization](llm_efficiency/fourier_position_embedding_enhancing_attentions_periodic_extension_for_length_ge.md)**
-
-:   用离散信号处理 (DSP) 理论揭示 RoPE 隐式实现了非均匀 DFT 以编码周期性注意力，但线性层导致的频谱泄漏、激活函数导致的频谱畸变以及训练长度截断导致的欠训练频率分量会破坏这一周期性，据此提出 FoPE——将每个维度建模为傅里叶级数（而非单一频率）并裁剪破坏性低频分量为零频，在多个模型规模和任务上显著改善长度泛化。
-
-**[Ladder Residual: Parallelism-Aware Architecture for Accelerating Large Model Inference](llm_efficiency/ladder-residual_parallelism-aware_architecture_for_accelerating_large_model_infe.md)**
-
-:   本文提出 Ladder Residual，一种简单的架构修改——将每个模块的输入从上一层的输出改为上上层的输出（错位残差），使模块计算与 AllReduce 通信解耦，从而实现通信与计算的重叠，在 70B 模型 8 卡 TP 推理中实现 29% 的端到端加速，且模型性能与标准 Transformer 持平。
-
-**[Long-Short Alignment for Effective Long-Context Modeling in LLMs](llm_efficiency/long-short_alignment_for_effective_long-context_modeling_in_llms.md)**
-
-:   本文从模型输出分布的角度提出长度泛化的新视角——长短对齐 (Long-Short Alignment)，指出不同长度输入的输出分布一致性是长度泛化的关键因素，提出 Long-Short Misalignment 度量并将其作为训练正则项，在合成任务和自然语言任务上均显著提升长上下文建模能力。
-
-**[Mixture of Lookup Experts](llm_efficiency/mixture_of_lookup_experts.md)**
-
-:   提出 MoLE（Mixture of Lookup Experts），将 MoE 中的路由专家输入从中间特征改为 embedding token，使专家可在推理前被重参数化为查找表（LUT）并卸载到存储设备，从而在保持 MoE 级别性能的同时实现与 dense 模型相当的推理速度和显存占用。
-
-**[MoH: Multi-Head Attention as Mixture-of-Head Attention](llm_efficiency/moh_multi-head_attention_as_mixture-of-head_attention.md)**
-
-:   本文将多头注意力（MHA）重新表述为求和形式，借鉴 MoE 思想提出 Mixture-of-Head Attention（MoH），通过路由器为每个 token 动态选择最相关的注意力头子集，仅激活 50%~90% 的头即可匹配甚至超越标准 MHA 性能，并证明预训练模型（如 LLaMA3-8B）可通过 continue-tuning 转换为 MoH 模型。
-
-**[NExtLong: Toward Effective Long-Context Training without Long Documents](llm_efficiency/nextlong_toward_effective_long-context_training_without_long_documents.md)**
-
-:   本文提出 NExtLong 框架，通过将文档分割为 meta-chunk 并在 chunk 之间插入从预训练语料检索的硬负例干扰文本来合成长上下文训练数据，迫使模型区分长距离依赖信息和干扰内容，在 HELMET 和 RULER 基准上比此前最佳的长上下文合成方法 Quest 平均提升 7.33%。
-
-**[Retraining-Free Merging of Sparse MoE via Hierarchical Clustering](llm_efficiency/retraining-free_merging_of_sparse_moe_via_hierarchical_clustering.md)**
-
-:   提出 HC-SMoE，一种基于专家输出层次聚类的无需重训练专家合并框架，通过输出相似度度量和层次聚类实现 SMoE 模型的高效压缩，在 Qwen 和 Mixtral 上分别实现 25%-50% 的专家参数缩减并保持优越性能。
-
-**[SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator](llm_efficiency/sepllm_accelerate_large_language_models_by_compressing_one_segment_into_one_sepa.md)**
-
-:   SepLLM 发现分隔符 token（标点等）在注意力中占据主导地位，提出将文本段信息压缩到分隔符 token 中，通过数据依赖的稀疏注意力掩码仅保留 Initial + Separator + Neighboring tokens 的 KV cache，实现 50%+ 的 KV cache 压缩且性能几乎无损。
-
----
-
 ## 🧊 3D 视觉 { #3d_vision }
 
 **[EvoMesh: Adaptive Physical Simulation with Hierarchical Graph Evolutions](3d_vision/evomesh_adaptive_physical_simulation_with_hierarchical_graph_evolutions.md)**
@@ -3695,6 +3636,54 @@ description: >-
 **[Training Software Engineering Agents and Verifiers with SWE-Gym](code_intelligence/training_software_engineering_agents_and_verifiers_with_swe-gym.md)**
 
 :   本文提出 SWE-Gym——首个用于训练软件工程 Agent 的环境，包含来自 11 个开源 Python 仓库的 2438 个真实任务实例，通过在 SWE-Gym 上进行拒绝采样微调训练 SWE Agent 和 Verifier，在 SWE-Bench Verified/Lite 上最终达到 32.0%/26.0% 的解决率，创造了开源权重 SWE Agent 的新 SOTA。
+
+---
+
+## ⚡ LLM 效率 { #llm_efficiency }
+
+**[Autonomy-of-Experts Models (AoE)](llm_efficiency/autonomy-of-experts_models.md)**
+
+:   AoE 提出让 MoE 中的 expert 基于自身内部激活范数自主决定是否处理输入（而非由外部 router 决定），通过低秩权重分解降低预计算开销，在 700M-4B 参数语言模型预训练中超越传统 MoE。
+
+**[Curse of High Dimensionality Issue in Transformer for Long-context Modeling](llm_efficiency/curse_of_high_dimensionality_issue_in_transformer_for_long-context_modeling.md)**
+
+:   本文从监督学习视角重新审视序列建模中的注意力冗余问题，提出了 Dynamic Group Attention (DGA) 机制，通过将不重要的 token 动态分组聚合来减少注意力计算中的冗余，在保持竞争性能的同时大幅降低推理延迟（LLaMA2-7B 在 16K 上下文下推理速度提升 2.42 倍）。
+
+**[DSSD: Efficient Edge-Device LLM Deployment and Collaborative Inference via Distributed Split Speculative Decoding](llm_efficiency/dssd_efficient_edge-device_llm_deployment_and_collaborative_inference_via_distri.md)**
+
+:   提出分布式拆分推测解码（DSSD）框架，将推测解码的验证阶段拆分到设备端和边缘端，用一次下行传输（LLM的单个词表分布）替代多次上行传输（SLM的$\gamma$个词表分布），在保持推理质量不变的前提下大幅降低通信延迟。
+
+**[EasyInv: Toward Fast and Better DDIM Inversion](llm_efficiency/easyinv_toward_fast_and_better_ddim_inversion.md)**
+
+:   提出 EasyInv，通过在反演过程中周期性地将当前 latent 状态与前一步 latent 状态加权聚合（类卡尔曼滤波），增强初始 latent 的影响力、抑制噪声累积误差，在不需要迭代优化的前提下达到与迭代方法相当甚至更好的反演质量，同时推理速度提升约 3 倍。
+
+**[Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling](llm_efficiency/efficient_length-generalizable_attention_via_causal_retrieval_for_long-context_l.md)**
+
+:   本文提出 Grouped Cross-Attention (GCA) 机制，将 chunk 级别的因果检索（causal retrieval）集成到注意力中实现端到端可学习的检索器，构建的 Differentiable Retrieval-based Transformer (DRT) 在 16M 上下文的 passkey 检索测试中达到近乎完美的准确率，实现了训练长度 1000 倍的长度泛化。
+
+**[Ladder Residual: Parallelism-Aware Architecture for Accelerating Large Model Inference](llm_efficiency/ladder-residual_parallelism-aware_architecture_for_accelerating_large_model_infe.md)**
+
+:   本文提出 Ladder Residual，一种简单的架构修改——将每个模块的输入从上一层的输出改为上上层的输出（错位残差），使模块计算与 AllReduce 通信解耦，从而实现通信与计算的重叠，在 70B 模型 8 卡 TP 推理中实现 29% 的端到端加速，且模型性能与标准 Transformer 持平。
+
+**[Long-Short Alignment for Effective Long-Context Modeling in LLMs](llm_efficiency/long-short_alignment_for_effective_long-context_modeling_in_llms.md)**
+
+:   本文从模型输出分布的角度提出长度泛化的新视角——长短对齐 (Long-Short Alignment)，指出不同长度输入的输出分布一致性是长度泛化的关键因素，提出 Long-Short Misalignment 度量并将其作为训练正则项，在合成任务和自然语言任务上均显著提升长上下文建模能力。
+
+**[Mixture of Lookup Experts](llm_efficiency/mixture_of_lookup_experts.md)**
+
+:   提出 MoLE（Mixture of Lookup Experts），将 MoE 中的路由专家输入从中间特征改为 embedding token，使专家可在推理前被重参数化为查找表（LUT）并卸载到存储设备，从而在保持 MoE 级别性能的同时实现与 dense 模型相当的推理速度和显存占用。
+
+**[MoH: Multi-Head Attention as Mixture-of-Head Attention](llm_efficiency/moh_multi-head_attention_as_mixture-of-head_attention.md)**
+
+:   本文将多头注意力（MHA）重新表述为求和形式，借鉴 MoE 思想提出 Mixture-of-Head Attention（MoH），通过路由器为每个 token 动态选择最相关的注意力头子集，仅激活 50%~90% 的头即可匹配甚至超越标准 MHA 性能，并证明预训练模型（如 LLaMA3-8B）可通过 continue-tuning 转换为 MoH 模型。
+
+**[NExtLong: Toward Effective Long-Context Training without Long Documents](llm_efficiency/nextlong_toward_effective_long-context_training_without_long_documents.md)**
+
+:   本文提出 NExtLong 框架，通过将文档分割为 meta-chunk 并在 chunk 之间插入从预训练语料检索的硬负例干扰文本来合成长上下文训练数据，迫使模型区分长距离依赖信息和干扰内容，在 HELMET 和 RULER 基准上比此前最佳的长上下文合成方法 Quest 平均提升 7.33%。
+
+**[Retraining-Free Merging of Sparse MoE via Hierarchical Clustering](llm_efficiency/retraining-free_merging_of_sparse_moe_via_hierarchical_clustering.md)**
+
+:   提出 HC-SMoE，一种基于专家输出层次聚类的无需重训练专家合并框架，通过输出相似度度量和层次聚类实现 SMoE 模型的高效压缩，在 Qwen 和 Mixtral 上分别实现 25%-50% 的专家参数缩减并保持优越性能。
 
 ---
 

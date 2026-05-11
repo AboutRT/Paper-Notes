@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Benchmarking Deflection and Hallucination in Large Vision-Language Models
 description: >-
-  [ACL 2026][多模态][视觉语言模型] 提出 VLM-DeflectionBench，一个包含 2775 个样本的多模态基准，通过四种评估场景（参数化/Oracle/现实/对抗）系统性地评估大型视觉语言模型在证据不足或误导时的拒答（deflection）vs 幻觉（hallucination）行为，实验覆盖 20 个 SOTA LVLM，发现几乎所有模型都无法在噪声证据下可靠拒答。
+  [ACL 2026][多模态VLM][视觉语言模型] 提出 VLM-DeflectionBench，一个包含 2775 个样本的多模态基准，通过四种评估场景（参数化/Oracle/现实/对抗）系统性地评估大型视觉语言模型在证据不足或误导时的拒答（deflection）vs 幻觉（hallucination）行…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 幻觉检测
-  - 拒答评估
-  - 知识问答
-  - 检索增强生成
+  - "ACL 2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "幻觉检测"
+  - "拒答评估"
+  - "知识问答"
+  - "检索增强生成"
 ---
 
 # Benchmarking Deflection and Hallucination in Large Vision-Language Models

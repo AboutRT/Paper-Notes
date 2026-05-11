@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Long-Form Speech Generation with Spoken Language Models
 description: >-
-  [ICML 2025][图像生成][语音语言模型] 提出 SpeechSSM，首个能在单次解码会话中学习和生成长达 16 分钟语音的 textless 语音语言模型，利用 Griffin 混合 SSM 架构实现常量内存解码和无限上下文，并引入 LibriSpeech-Long 评估基准和新的嵌入/LLM 评判指标。
+  [ICML 2025][图像生成][语音语言模型] 提出 SpeechSSM，首个能在单次解码会话中学习和生成长达 16 分钟语音的 textless 语音语言模型，利用 Griffin 混合 SSM 架构实现常量内存解码和无限上下文…
 tags:
-  - ICML 2025
-  - 图像生成
-  - 语音语言模型
-  - 长程语音生成
-  - 状态空间模型
-  - SSM
-  - 语音评估
+  - "ICML 2025"
+  - "图像生成"
+  - "语音语言模型"
+  - "长程语音生成"
+  - "状态空间模型"
+  - "SSM"
+  - "语音评估"
 ---
 
 # Long-Form Speech Generation with Spoken Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026 (Student Abstract)][医学图像][半监督分割] 本文提出 TGC（Topology Graph Consistency）框架，通过对齐预测图与参考图之间的拉普拉斯谱、连通分量数和邻接统计量来引入图论拓扑约束，在仅 5-10% 标注下实现接近全监督的组织病理学分割性能。
 tags:
-  - AAAI 2026 (Student Abstract)
-  - 医学图像
-  - 半监督分割
-  - 病理图像
-  - 拓扑一致性
-  - 图论约束
-  - 伪标签
+  - "AAAI 2026 (Student Abstract)"
+  - "医学图像"
+  - "半监督分割"
+  - "病理图像"
+  - "拓扑一致性"
+  - "图论约束"
+  - "伪标签"
 ---
 
 # Graph-Theoretic Consistency for Robust and Topology-Aware Semi-Supervised Histopathology Segmentation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Improving Flow Matching by Aligning Flow Divergence
 description: >-
-  [ICML 2025][图像生成][Flow Matching] 从 PDE 视角分析了 Flow Matching 中学习概率路径与真实概率路径之间的误差，证明该误差受到向量场散度(divergence)差距的控制，并提出联合匹配流和散度的 FDM 训练目标，在密度估计、DNA 序列生成和视频预测等任务上显著提升了 FM 的表现。
+  [ICML 2025][图像生成][Flow Matching] 从 PDE 视角分析了 Flow Matching 中学习概率路径与真实概率路径之间的误差，证明该误差受到向量场散度(divergence)差距的控制，并提出联合匹配流和散度的 FDM 训练目标…
 tags:
-  - ICML 2025
-  - 图像生成
-  - Flow Matching
-  - 散度匹配
-  - 概率路径误差
-  - Total Variation
-  - 条件散度损失
+  - "ICML 2025"
+  - "图像生成"
+  - "Flow Matching"
+  - "散度匹配"
+  - "概率路径误差"
+  - "Total Variation"
+  - "条件散度损失"
 ---
 
 # Improving Flow Matching by Aligning Flow Divergence

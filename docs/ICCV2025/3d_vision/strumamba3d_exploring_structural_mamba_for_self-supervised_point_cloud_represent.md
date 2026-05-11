@@ -2,15 +2,15 @@
 title: >-
   [论文解读] StruMamba3D: Exploring Structural Mamba for Self-supervised Point Cloud Representation Learning
 description: >-
-  [ICCV 2025][3D视觉][点云表示学习] 提出 StruMamba3D，通过为 SSM 的隐含状态赋予空间位置属性（空间状态）来维护 3D 点的邻接关系，并引入序列长度自适应策略解决预训练与下游任务之间的序列长度差异问题，在 ScanObjectNN 最难分割上达到 92.75% 准确率，ModelNet40 达到 95.1%，均为单模态 SOTA。
+  [ICCV 2025][3D视觉][点云表示学习] 提出 StruMamba3D，通过为 SSM 的隐含状态赋予空间位置属性（空间状态）来维护 3D 点的邻接关系，并引入序列长度自适应策略解决预训练与下游任务之间的序列长度差异问题，在 ScanObjectNN 最难分割上达到 92.75% 准确率…
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 点云表示学习
-  - 状态空间模型
-  - Mamba
-  - 自监督学习
-  - 结构建模
+  - "ICCV 2025"
+  - "3D视觉"
+  - "点云表示学习"
+  - "状态空间模型"
+  - "Mamba"
+  - "自监督学习"
+  - "结构建模"
 ---
 
 # StruMamba3D: Exploring Structural Mamba for Self-supervised Point Cloud Representation Learning

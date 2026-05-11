@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning
 description: >-
-  [ICLR 2026][连续归一化流] 提出PolicyFlow，将连续归一化流(CNF)策略无缝嵌入PPO框架：通过沿插值路径的速度场变化近似重要性比率（避免全流路径反向传播），并引入受布朗运动启发的隐式熵正则器防止模式坍缩，在MultiGoal/PointMaze/IsaacLab/MuJoCo等环境中达到或超越高斯PPO和流式基线(FPO/DPPO)的性能。
+  [ICLR 2026][强化学习][连续归一化流] 提出PolicyFlow，将连续归一化流(CNF)策略无缝嵌入PPO框架：通过沿插值路径的速度场变化近似重要性比率（避免全流路径反向传播），并引入受布朗运动启发的隐式熵正则器防止模式坍缩…
 tags:
-  - ICLR 2026
-  - 连续归一化流
-  - PPO
-  - 强化学习
-  - 重要性比率近似
-  - 布朗运动熵正则
+  - "ICLR 2026"
+  - "强化学习"
+  - "连续归一化流"
+  - "PPO"
+  - "多模态策略"
+  - "重要性比率近似"
+  - "布朗运动熵正则"
 ---
 
 # PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning
@@ -104,7 +105,7 @@ PolicyFlow在多数IsaacLab任务上与PPO持平或更优，在G1人形机器人
 | H1 | 512 | 63.4 | 115.5 | +82% |
 | Go2 | 512 | 63.9 | 111.5 | +74% |
 
-当模型参数与PPO可比时，每迭代训练时间增加<50%；即使embedding维度增大8倍，计算成本仍不到PPO的2倍。
+当模型参数与PPO可比时，每迭代训练时间增加&lt;50%；即使embedding维度增大8倍，计算成本仍不到PPO的2倍。
 
 ### 多模态能力(MultiGoal)
 

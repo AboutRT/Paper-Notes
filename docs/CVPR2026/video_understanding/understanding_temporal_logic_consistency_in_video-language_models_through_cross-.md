@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Understanding Temporal Logic Consistency in Video-Language Models through Cross-Modal Attention Discriminability
 description: >-
-  [CVPR 2026][视频理解][时间逻辑一致性] 本文从可解释性角度分析了视频语言模型（Video-LLMs）时间理解逻辑不一致的根本原因——跨模态注意力头无法有效区分不同时间戳的视频token——并提出 TCAS（Temporally Conditioned Attention Sharpening）方法通过优化注意力分布显著提升了时间逻辑一致性和通用时序定位性能。
+  [CVPR 2026][视频理解][时间逻辑一致性] 本文从可解释性角度分析了视频语言模型（Video-LLMs）时间理解逻辑不一致的根本原因——跨模态注意力头无法有效区分不同时间戳的视频token——并提出 TCAS（Temporally Conditioned Attention Sharpening）方…
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 时间逻辑一致性
-  - 视频语言模型
-  - 注意力可解释性
-  - 跨模态注意力
-  - 视频时序定位
+  - "CVPR 2026"
+  - "视频理解"
+  - "时间逻辑一致性"
+  - "视频语言模型"
+  - "注意力可解释性"
+  - "跨模态注意力"
+  - "视频时序定位"
 ---
 
 # Understanding Temporal Logic Consistency in Video-Language Models through Cross-Modal Attention Discriminability

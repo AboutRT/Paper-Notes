@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Controlling Thinking Speed in Reasoning Models
 description: >-
-  [NeurIPS 2025][LLM推理][thinking speed] 通过表示工程（Representation Engineering）从 LRM 的隐藏空间中提取控制快/慢思考转换的 steering vector，结合基于层间 logit 散度的实时推理难度估计，实现无需训练的自适应推理速度调节，在 4 个 LRM 上平均提升 +1.3% 准确率并减少 -8.6% token 使用。
+  [NeurIPS 2025][LLM推理][thinking speed] 通过表示工程（Representation Engineering）从 LRM 的隐藏空间中提取控制快/慢思考转换的 steering vector，结合基于层间 logit 散度的实时推理难度估计，实现无需训练的自适应推理速度调节…
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - thinking speed
-  - representation engineering
-  - System 1/2
-  - test-time scaling
-  - steering vector
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "thinking speed"
+  - "representation engineering"
+  - "System 1/2"
+  - "test-time scaling"
+  - "steering vector"
 ---
 
 # Controlling Thinking Speed in Reasoning Models

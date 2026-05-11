@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][神经场压缩] 将InstantNGP的欧拉网格哈希表与拉格朗日点云表示相结合，在哈希桶中存储可移动的高斯特征点，实现**参数量减少1.8-2.8倍**但重建质量不降的紧凑神经场表示。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 神经场压缩
-  - 哈希表
-  - 拉格朗日表示
-  - 高斯混合
-  - NeRF
+  - "ECCV 2024"
+  - "模型压缩"
+  - "神经场压缩"
+  - "哈希表"
+  - "拉格朗日表示"
+  - "高斯混合"
+  - "NeRF"
 ---
 
 # Lagrangian Hashing for Compressed Neural Field Representations

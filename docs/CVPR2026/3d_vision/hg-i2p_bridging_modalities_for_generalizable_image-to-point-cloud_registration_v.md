@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][图像-点云配准] Hg-I2P 引入异构图（Heterogeneous Graph）来统一建模 2D 图像区域和 3D 点云区域之间的关系，通过多路径邻接关系挖掘学习跨模态边、基于异构边的特征适配和基于图的投影一致性剪枝，在六个室内外跨域基准上实现了最优的泛化能力和精度。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 图像-点云配准
-  - 异构图
-  - 跨模态特征适配
-  - 对应关系剪枝
-  - 跨域泛化
+  - "CVPR 2026"
+  - "3D视觉"
+  - "图像-点云配准"
+  - "异构图"
+  - "跨模态特征适配"
+  - "对应关系剪枝"
+  - "跨域泛化"
 ---
 
 # Hg-I2P: Bridging Modalities for Generalizable Image-to-Point-Cloud Registration via Heterogeneous Graphs

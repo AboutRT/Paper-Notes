@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自监督学习][SPD流形] 本文提出 GBWBN，首个基于广义 Bures-Wasserstein 几何的 SPD 流形批归一化方法，引入可学习的度量参数和矩阵幂非线性变形来有效处理病态协方差矩阵，在骨骼动作识别和脑电分类上取得 SOTA。
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - SPD流形
-  - Bures-Wasserstein度量
-  - 黎曼批归一化
-  - 病态矩阵
-  - 可学习几何
+  - "CVPR 2025"
+  - "自监督学习"
+  - "SPD流形"
+  - "Bures-Wasserstein度量"
+  - "黎曼批归一化"
+  - "病态矩阵"
+  - "可学习几何"
 ---
 
 # Learning to Normalize on the SPD Manifold under Bures-Wasserstein Geometry

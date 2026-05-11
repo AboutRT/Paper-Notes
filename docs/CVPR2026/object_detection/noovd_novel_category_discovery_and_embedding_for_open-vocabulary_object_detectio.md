@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][开放词汇目标检测] 提出NoOVD框架，在基于冻结VLM的OVD训练中通过无参数K-FPN保留CLIP知识来发现潜在新类别目标、通过自蒸馏将新类别知识嵌入检测器、通过R-RPN在推理时提升新类别召回率，在OV-LVIS/OV-COCO/Objects365上取得SOTA。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 开放词汇目标检测
-  - 新类别发现
-  - 自蒸馏
-  - K-FPN
-  - 冻结VLM
+  - "CVPR 2026"
+  - "目标检测"
+  - "开放词汇目标检测"
+  - "新类别发现"
+  - "自蒸馏"
+  - "K-FPN"
+  - "冻结VLM"
 ---
 
 # NoOVD: Novel Category Discovery and Embedding for Open-Vocabulary Object Detection

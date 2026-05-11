@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][实例检测] 从开放世界视角出发，通过度量学习适配基础模型特征、干扰物采样和NeRF新视角合成三种策略，显著提升实例检测中的实例级特征匹配性能，在CID和NID两种设定下均大幅超越前人方法。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 实例检测
-  - 开放世界
-  - 基础模型适配
-  - 度量学习
-  - NeRF数据增强
+  - "CVPR 2025"
+  - "机器人"
+  - "实例检测"
+  - "开放世界"
+  - "基础模型适配"
+  - "度量学习"
+  - "NeRF数据增强"
 ---
 
 # Solving Instance Detection from an Open-World Perspective

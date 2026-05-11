@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HIS-GPT: Towards 3D Human-In-Scene Multimodal Understanding
 description: >-
-  [ICCV 2025][3D视觉][人体-场景理解] 提出 HIS-QA 任务和 HIS-Bench 基准以及首个 3D 人体-场景联合理解基础模型 HIS-GPT，通过辅助交互模块（AInt）和布局-轨迹位置编码（LTP）捕获人与3D场景的精细交互，在16项子任务上大幅超越 GPT-4o 等基线。
+  [ICCV 2025][人体理解][人体-场景理解] 提出 HIS-QA 任务和 HIS-Bench 基准以及首个 3D 人体-场景联合理解基础模型 HIS-GPT，通过辅助交互模块（AInt）和布局-轨迹位置编码（LTP）捕获人与3D场景的精细交互，在16项子任务上大幅超越 GPT-4o 等基线。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 人体-场景理解
-  - 3D多模态
-  - 大语言模型
-  - 人体运动
-  - 问答基准
+  - "ICCV 2025"
+  - "人体理解"
+  - "人体-场景理解"
+  - "3D多模态"
+  - "大语言模型"
+  - "人体运动"
+  - "问答基准"
 ---
 
 # HIS-GPT: Towards 3D Human-In-Scene Multimodal Understanding

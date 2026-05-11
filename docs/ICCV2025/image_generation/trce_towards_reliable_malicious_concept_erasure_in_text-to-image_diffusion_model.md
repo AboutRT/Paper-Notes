@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 提出 TRCE，通过两阶段概念擦除策略（文本语义擦除 + 去噪轨迹转向），在可靠擦除恶意概念的同时最小化对模型正常生成能力的影响。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models

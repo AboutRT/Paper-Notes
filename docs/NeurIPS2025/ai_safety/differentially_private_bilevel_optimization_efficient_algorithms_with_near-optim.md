@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][双层优化] 本文系统研究差分隐私 (DP) 下的双层优化问题，在凸情形下通过指数机制和正则化指数机制给出近紧的上下界（匹配单层 DP-ERM 最优率），在非凸情形下提出二阶 DP 方法实现不依赖内层维度的 SOTA 收敛率。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 双层优化
-  - 差分隐私
-  - 指数机制
-  - 对数凹采样
-  - 非凸优化
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "双层优化"
+  - "差分隐私"
+  - "指数机制"
+  - "对数凹采样"
+  - "非凸优化"
 ---
 
 # Differentially Private Bilevel Optimization: Efficient Algorithms with Near-Optimal Rates
@@ -60,7 +60,7 @@ tags:
 3. **高效实现 — 带误差的对数凹采样**:
 
     - 功能：由于内层最优解无法精确计算，分析函数评估误差对 Grid-Walk 算法的影响
-    - 核心结论：扰动 Markov Chain 的 conductance 满足 phi' >= e^(-6*zeta) * phi，混合时间增加 e^(12*zeta) 倍，分布距离满足 Dist_inf(pi', pi) <= 2*zeta
+    - 核心结论：扰动 Markov Chain 的 conductance 满足 phi' >= e^(-6*zeta) * phi，混合时间增加 e^(12*zeta) 倍，分布距离满足 Dist_inf(pi', pi) &lt;= 2*zeta
     - 设计动机：保证多项式时间内可高效采样，是解决 BLO 中函数评估不精确的核心技术贡献
 
 4. **非凸情形 — 二阶 DP BLO (Algorithm 1)**:

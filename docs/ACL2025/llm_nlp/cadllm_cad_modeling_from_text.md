@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Automated CAD Modeling Sequence Generation from Text Descriptions via Transformer-Based Large Language Models
 description: >-
-  [ACL 2025][LLM/NLP][CAD modeling] 本文提出了一个从文本描述自动生成 CAD 建模序列的框架，包含半自动标注流水线、双通道 Transformer 生成器 TCADGen 和 LLM 增强模块 CADLLM，最终将 CAD 命令准确率从 84% 提升到 96.6%，Chamfer Distance 从 120.99 降至 3.12。
+  [ACL 2025][LLM/NLP][CAD modeling] 本文提出了一个从文本描述自动生成 CAD 建模序列的框架，包含半自动标注流水线、双通道 Transformer 生成器 TCADGen 和 LLM 增强模块 CADLLM，最终将 CAD 命令准确率从 84% 提升到 96.6%…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - CAD modeling
-  - text-to-CAD
-  - Transformer
-  - LLM
-  - computer-automated design
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "CAD modeling"
+  - "text-to-CAD"
+  - "Transformer"
+  - "LLM"
+  - "computer-automated design"
 ---
 
 # Automated CAD Modeling Sequence Generation from Text Descriptions via Transformer-Based Large Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][提示学习] 提出首个图拓扑导向的 prompting 框架 GraphTOP，通过将 topology-oriented prompting 建模为边重连问题并用 Gumbel-Softmax 松弛到连续空间，在 5 个数据集 4 种预训练策略下超越 6 个基线方法。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 提示学习
-  - Topology
-  - Edge Rewiring
-  - Pre-training
-  - Gumbel-Softmax
+  - "NeurIPS 2025"
+  - "图学习"
+  - "提示学习"
+  - "Topology"
+  - "Edge Rewiring"
+  - "Pre-training"
+  - "Gumbel-Softmax"
 ---
 
 # GraphTOP: Graph Topology-Oriented Prompting for Graph Neural Networks

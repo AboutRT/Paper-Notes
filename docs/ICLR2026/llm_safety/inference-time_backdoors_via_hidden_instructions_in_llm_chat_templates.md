@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates
 description: >-
-  [ICLR 2026][AI安全][backdoor attack] 揭示了LLM聊天模板(Jinja2)作为全新推理时后门攻击面——无需修改模型权重、毒化训练数据或控制推理基础设施，仅修改GGUF文件中的模板即可植入条件触发后门，在18个模型/4个推理引擎上验证成功率超80%且完全逃避HuggingFace安全扫描。
+  [ICLR 2026][LLM安全][backdoor attack] 揭示了LLM聊天模板(Jinja2)作为全新推理时后门攻击面——无需修改模型权重、毒化训练数据或控制推理基础设施，仅修改GGUF文件中的模板即可植入条件触发后门…
 tags:
-  - ICLR 2026
-  - AI安全
-  - backdoor attack
-  - Chat模板
-  - Jinja2
-  - 推理时攻击
-  - 供应链安全
+  - "ICLR 2026"
+  - "LLM安全"
+  - "backdoor attack"
+  - "Chat模板"
+  - "Jinja2"
+  - "推理时攻击"
+  - "供应链安全"
 ---
 
 # Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates
@@ -39,7 +39,7 @@ tags:
 ### 攻击设计
 
 1. **模板修改机制**:
-    - 在原始模板中添加<10行条件块
+    - 在原始模板中添加&lt;10行条件块
     - 检测用户消息中的触发短语→注入攻击者控制的指令到系统上下文
     - 触发不存在时→输出与干净模板完全相同（字节级一致）
 

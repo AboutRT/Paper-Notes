@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Certifying Stability of Reinforcement Learning Policies using Generalized Lyapunov Functions
 description: >-
-  [NEURIPS2025][Lyapunov stability] 提出 Generalized Lyapunov Function 方法，通过将 RL 值函数与神经网络残差项结合，并用多步加权下降条件替代经典的逐步严格下降要求，实现对 RL 策略的稳定性认证。
+  [NEURIPS2025][强化学习][Lyapunov stability] 提出 Generalized Lyapunov Function 方法，通过将 RL 值函数与神经网络残差项结合，并用多步加权下降条件替代经典的逐步严格下降要求，实现对 RL 策略的稳定性认证。
 tags:
-  - NEURIPS2025
-  - Lyapunov stability
-  - reinforcement-learning
-  - stability certification
-  - value function
-  - region of attraction
+  - "NEURIPS2025"
+  - "强化学习"
+  - "Lyapunov stability"
+  - "reinforcement-learning"
+  - "stability certification"
+  - "value function"
+  - "region of attraction"
 ---
 
 # Certifying Stability of Reinforcement Learning Policies using Generalized Lyapunov Functions

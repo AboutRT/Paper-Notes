@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Revisiting Matrix Sketching in Linear Bandits: Achieving Sublinear Regret via Dyadic Block Sketching
 description: >-
-  [ICLR 2026][线性Bandit] 本文揭示了现有基于矩阵草图的线性Bandit方法在流数据频谱尾部较重时会退化为线性遗憾的根本缺陷，提出 Dyadic Block Sketching 多尺度草图框架，通过动态加倍草图大小控制全局逼近误差至预设参数 $\epsilon$，使算法在无需预知流矩阵频谱性质的情况下始终保证次线性遗憾，并在频谱友好场景下自适应恢复单尺度方法的计算效率。
+  [ICLR 2026][强化学习][线性Bandit] 本文揭示了现有基于矩阵草图的线性Bandit方法在流数据频谱尾部较重时会退化为线性遗憾的根本缺陷，提出 Dyadic Block Sketching 多尺度草图框架，通过动态加倍草图大小控制全局逼近误差至预设参数 $\epsilon$…
 tags:
-  - ICLR 2026
-  - 线性Bandit
-  - 矩阵草图
-  - Frequent Directions
-  - 多尺度草图
-  - 次线性遗憾
-  - Dyadic Block Sketching
+  - "ICLR 2026"
+  - "强化学习"
+  - "线性Bandit"
+  - "矩阵草图"
+  - "Frequent Directions"
+  - "多尺度草图"
+  - "次线性遗憾"
+  - "Dyadic Block Sketching"
 ---
 
 # Revisiting Matrix Sketching in Linear Bandits: Achieving Sublinear Regret via Dyadic Block Sketching
@@ -115,7 +116,7 @@ $\epsilon$ 阶从 $3/2$ 降至 $1/2$，解耦 $d$ 与 $\epsilon$，得益于 RFD
 | DBSLinUCB-RFD | $\epsilon=4, l_0=50$ | ~210 | ~60% | ~80% |
 | DBSLinUCB-FD | $\epsilon=25, l_0=50$ | ~300 | ~80% | ~90% |
 
-关键发现：(1) DBSLinUCB 在 Pareto 前沿（遗憾 vs 时间/空间）全面优于 SOFUL，最多减少 40% 遗憾或同遗憾下减少 60% 时间 + 80% 空间。(2) 遗憾始终 <300，而 SOFUL 小草图下超 500。(3) $\epsilon$ 很小时不同 $l_0$ 表现趋同（Invariant 2 约束下更多依赖精确更新）。
+关键发现：(1) DBSLinUCB 在 Pareto 前沿（遗憾 vs 时间/空间）全面优于 SOFUL，最多减少 40% 遗憾或同遗憾下减少 60% 时间 + 80% 空间。(2) 遗憾始终 &lt;300，而 SOFUL 小草图下超 500。(3) $\epsilon$ 很小时不同 $l_0$ 表现趋同（Invariant 2 约束下更多依赖精确更新）。
 
 ## 亮点与洞察
 

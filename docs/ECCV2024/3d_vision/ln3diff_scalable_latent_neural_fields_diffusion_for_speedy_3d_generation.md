@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D生成] 提出LN3Diff++框架，通过3D感知的VAE将多视角图像压缩到紧凑的3D潜在空间，在该空间上训练扩散模型（U-Net或DiT），实现高质量、快速、通用的条件3D生成，包括文本到3D和图像到3D。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D生成
-  - 潜在扩散模型
-  - 神经场
-  - 三平面表示
-  - VAE
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D生成"
+  - "潜在扩散模型"
+  - "神经场"
+  - "三平面表示"
+  - "VAE"
 ---
 
 # LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation

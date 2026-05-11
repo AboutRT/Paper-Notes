@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][GPTQ] 首次证明 GPTQ（从后向前执行时）在数学上等价于经典格理论中的 Babai 最近平面算法，由此获得几何解释和层级误差上界，并基于此设计了无裁剪的改进量化方法。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - GPTQ
-  - 量化
-  - 格理论
-  - 最近向量问题
-  - Babai算法
-  - 误差界
+  - "ICLR 2026"
+  - "模型压缩"
+  - "GPTQ"
+  - "量化"
+  - "格理论"
+  - "最近向量问题"
+  - "Babai算法"
+  - "误差界"
 ---
 
 # The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm

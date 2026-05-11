@@ -4,7 +4,7 @@ title: >-
 description: >-
   [人体理解] 提出 ControlFace，利用双分支 U-Net（FaceNet + 去噪 U-Net）结合 3DMM 渲染条件，实现无需微调即可灵活编辑人脸姿态、表情和光照，同时精确保留身份和语义细节。
 tags:
-  - 人体理解
+  - "人体理解"
 ---
 
 # ControlFace: Harnessing Facial Parametric Control for Face Rigging

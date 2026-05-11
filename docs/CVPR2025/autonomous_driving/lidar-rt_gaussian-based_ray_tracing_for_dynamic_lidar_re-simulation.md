@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][LiDAR仿真] 本文提出LiDAR-RT，将3D高斯原语与NVIDIA OptiX硬件加速光线追踪相结合，首次实现动态驾驶场景下实时且物理精确的LiDAR重新仿真，渲染速度达30 FPS，训练仅需2小时，远超NeRF方案的0.2 FPS和15小时。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - LiDAR仿真
-  - 3D高斯
-  - 光线追踪
-  - 动态场景
-  - 新视角合成
-  - OptiX
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "LiDAR仿真"
+  - "3D高斯"
+  - "光线追踪"
+  - "动态场景"
+  - "新视角合成"
+  - "OptiX"
 ---
 
 # LiDAR-RT: Gaussian-based Ray Tracing for Dynamic LiDAR Re-Simulation

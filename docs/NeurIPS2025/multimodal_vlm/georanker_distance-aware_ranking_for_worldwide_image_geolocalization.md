@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GeoRanker: Distance-Aware Ranking for Worldwide Image Geolocalization
 description: >-
-  [NeurIPS 2025][多模态][图像地理定位] 提出 GeoRanker，一种距离感知排序框架，利用大视觉语言模型建模查询-候选之间的空间关系，通过多阶距离损失实现全球图像地理定位的 SOTA。
+  [NeurIPS 2025][多模态VLM][图像地理定位] 提出 GeoRanker，一种距离感知排序框架，利用大视觉语言模型建模查询-候选之间的空间关系，通过多阶距离损失实现全球图像地理定位的 SOTA。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 图像地理定位
-  - 距离感知排序
-  - 多模态VLM
-  - 学习排序
-  - 空间推理
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "图像地理定位"
+  - "距离感知排序"
+  - "大视觉语言模型"
+  - "学习排序"
+  - "空间推理"
 ---
 
 # GeoRanker: Distance-Aware Ranking for Worldwide Image Geolocalization

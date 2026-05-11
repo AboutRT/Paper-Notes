@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][多标签意图理解] 提出了 IntCLIP 框架，通过双分支编码策略将 CLIP 中的"视觉感知"（Sight）知识迁移到"语义中心"（Semantic）的多标签意图理解任务中，结合层次化类别整合和视觉辅助聚合，在标准 MIU benchmark 和图像情感识别任务上显著超越 SOTA。
 tags:
-  - ECCV 2024
-  - 多标签意图理解
-  - CLIP
-  - 双分支架构
-  - 层次类别整合
-  - 视觉语义融合
+  - "ECCV 2024"
+  - "多标签意图理解"
+  - "CLIP"
+  - "双分支架构"
+  - "层次类别整合"
+  - "视觉语义融合"
 ---
 
 # Synergy of Sight and Semantics: Visual Intention Understanding with CLIP

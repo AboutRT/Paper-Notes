@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][OOD检测] 揭示了OOD检测中一个此前未被报告的偏差——"隐形大猩猩效应"：当OOD伪影与模型关注区域（ROI）视觉外观相似时检测性能显著更好，不相似时则大幅下降，尤其影响基于特征的OOD方法。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - OOD检测
-  - 分布外检测偏差
-  - 视觉相似性
-  - 医学影像安全
-  - 特征空间分析
+  - "CVPR 2026"
+  - "医学图像"
+  - "OOD检测"
+  - "分布外检测偏差"
+  - "视觉相似性"
+  - "医学影像安全"
+  - "特征空间分析"
 ---
 
 # The Invisible Gorilla Effect in Out-of-distribution Detection

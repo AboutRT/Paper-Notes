@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][关系推理] 提出NoRA benchmark，系统性地打破现有关系推理benchmark中"推理可归约为路径组合"的假设，引入非路径推理、歧义事实和多关系等挑战，揭示包括o3在内的所有现有模型在off-path推理上的根本缺陷。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 关系推理
-  - benchmark
-  - 非路径推理
-  - 系统性泛化
-  - 图神经网络
+  - "NeurIPS 2025"
+  - "图学习"
+  - "关系推理"
+  - "benchmark"
+  - "非路径推理"
+  - "系统性泛化"
+  - "图神经网络"
 ---
 
 # When No Paths Lead to Rome: Benchmarking Systematic Neural Relational Reasoning
@@ -116,8 +116,8 @@ tags:
 
 ### 关键发现
 
-1. **OPEC是最困难的维度**：所有模型在Test-OPEC上接近完全失败（<10%），包括明确给定规则的o3
-2. **BL同样极具挑战**：无歧义设置下所有模型在BL-na上<11%
+1. **OPEC是最困难的维度**：所有模型在Test-OPEC上接近完全失败（&lt;10%），包括明确给定规则的o3
+2. **BL同样极具挑战**：无歧义设置下所有模型在BL-na上&lt;11%
 3. **歧义意外不难**（但有快捷方式）：Test-W的表现合理，但进一步分析发现模型在利用捷径
 4. **GNN方法整体表现差**：even在分布内测试集上也远低于ET，因路径偏置太强
 5. **ET是最佳但远不够好**：最佳OPEC准确率仅6%

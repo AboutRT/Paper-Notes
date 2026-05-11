@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Efficient Training for Cross-lingual Speech Language Models
 description: >-
-  [ACL 2026][多语言翻译] 本文提出CSLM，一种高效训练跨语言语音LLM的方法，通过新颖的对齐策略实现跨模态和跨语言对齐，并引入语音-文本交织链式模态生成来提升质量和降低延迟，无需大规模语音数据即可扩展到新语言。
+  [ACL 2026][多语言/翻译][跨语言语音LLM] 本文提出CSLM，一种高效训练跨语言语音LLM的方法，通过新颖的对齐策略实现跨模态和跨语言对齐，并引入语音-文本交织链式模态生成来提升质量和降低延迟，无需大规模语音数据即可扩展到新语言。
 tags:
-  - ACL 2026
-  - 多语言翻译
-  - 离散语音token
-  - 模态对齐
-  - 链式模态生成
-  - 数据高效训练
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "跨语言语音LLM"
+  - "离散语音token"
+  - "模态对齐"
+  - "链式模态生成"
+  - "数据高效训练"
 ---
 
 # Efficient Training for Cross-lingual Speech Language Models

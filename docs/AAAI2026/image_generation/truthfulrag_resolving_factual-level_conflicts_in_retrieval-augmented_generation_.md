@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][知识冲突] 提出 TruthfulRAG 框架，首次利用知识图谱 (KG) 从事实级别解决 RAG 系统中检索知识与 LLM 参数知识之间的冲突，通过三元组提取、查询感知图检索和基于熵的冲突过滤机制提升生成准确性与可信度。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 知识冲突
-  - 检索增强生成
-  - 知识图谱
-  - 事实级推理
-  - 熵过滤
+  - "AAAI 2026"
+  - "图像生成"
+  - "知识冲突"
+  - "检索增强生成"
+  - "知识图谱"
+  - "事实级推理"
+  - "熵过滤"
 ---
 
 # TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation with Knowledge Graphs

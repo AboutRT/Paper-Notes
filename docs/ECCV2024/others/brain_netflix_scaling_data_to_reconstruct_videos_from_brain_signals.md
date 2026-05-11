@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][脑信号视频重建] 本文提出了一种从功能磁共振成像（fMRI）信号重建视频的新方法，通过多数据集多被试训练和三阶段pipeline，利用预训练的文本到视频和视频到视频模型，实现了跨数据集和跨被试的SOTA视频重建能力。
 tags:
-  - ECCV 2024
-  - 脑信号视频重建
-  - fMRI
-  - 多被试学习
-  - 扩散模型
-  - 神经解码
+  - "ECCV 2024"
+  - "脑信号视频重建"
+  - "fMRI"
+  - "多被试学习"
+  - "扩散模型"
+  - "神经解码"
 ---
 
 # Brain Netflix: Scaling Data to Reconstruct Videos from Brain Signals

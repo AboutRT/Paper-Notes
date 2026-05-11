@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Knowledge is Overrated: A Zero-Knowledge ML and Cryptographic Hashing-Based Framework for Verifiable, Low Latency Inference at the LHC
 description: >-
-  [NeurIPS 2025][zero-knowledge proof] 提出PHAZE框架，利用密码学哈希（Rabin指纹）和零知识机器学习（zkML）实现LHC触发器级别的可验证早退出推理，理论延迟降至~152-253ns量级，同时内建异常检测能力。
+  [NeurIPS 2025][物理学][zero-knowledge proof] 提出PHAZE框架，利用密码学哈希（Rabin指纹）和零知识机器学习（zkML）实现LHC触发器级别的可验证早退出推理，理论延迟降至~152-253ns量级，同时内建异常检测能力。
 tags:
-  - NeurIPS 2025
-  - zero-knowledge proof
-  - LHC trigger
-  - 物理学
-  - cryptographic hashing
-  - verifiable inference
+  - "NeurIPS 2025"
+  - "物理学"
+  - "zero-knowledge proof"
+  - "LHC trigger"
+  - "early-exit"
+  - "cryptographic hashing"
+  - "verifiable inference"
 ---
 
 # Knowledge is Overrated: A Zero-Knowledge ML and Cryptographic Hashing-Based Framework for Verifiable, Low Latency Inference at the LHC

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Making MLLMs Blind: Adversarial Smuggling Attacks in MLLM Content Moderation
 description: >-
-  [ACL 2026][多模态][对抗攻击] 本文揭示了多模态大模型内容审核中的"对抗走私攻击"（ASA）威胁——将有害内容编码为人可读但 AI 不可读的视觉格式来规避自动检测，构建了包含 1,700 个样本、9 种攻击技术的 SmuggleBench 基准，发现包括 GPT-5 在内的 SOTA 模型攻击成功率超过 90%。
+  [ACL 2026][多模态VLM][对抗攻击] 本文揭示了多模态大模型内容审核中的"对抗走私攻击"（ASA）威胁——将有害内容编码为人可读但 AI 不可读的视觉格式来规避自动检测，构建了包含 1,700 个样本、9 种攻击技术的 SmuggleBench 基准…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 内容审核
-  - 多模态大模型
-  - 感知盲区
-  - 推理阻断
+  - "ACL 2026"
+  - "多模态VLM"
+  - "对抗攻击"
+  - "内容审核"
+  - "多模态大模型"
+  - "感知盲区"
+  - "推理阻断"
 ---
 
 # Making MLLMs Blind: Adversarial Smuggling Attacks in MLLM Content Moderation

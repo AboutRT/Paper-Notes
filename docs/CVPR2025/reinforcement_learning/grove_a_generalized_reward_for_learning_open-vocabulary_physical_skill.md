@@ -4,13 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][强化学习][开放词汇物理技能] 本文提出GROVE框架，利用LLM生成物理约束+VLM评估动作语义的互补方式构建广义奖励函数，并通过Pose2CLIP轻量映射器跳过渲染直接将姿态投影到语义空间，实现了开放词汇物理技能学习，比现有方法训练速度快8.4倍同时动作自然度提升22.2%。
 tags:
-  - CVPR 2025
-  - 强化学习
-  - 开放词汇物理技能
-  - 广义奖励函数
-  - LLM约束生成
-  - VLM动作评估
-  - 强化学习
+  - "CVPR 2025"
+  - "强化学习"
+  - "开放词汇物理技能"
+  - "广义奖励函数"
+  - "LLM约束生成"
+  - "VLM动作评估"
 ---
 
 # GROVE: A Generalized Reward for Learning Open-Vocabulary Physical Skill

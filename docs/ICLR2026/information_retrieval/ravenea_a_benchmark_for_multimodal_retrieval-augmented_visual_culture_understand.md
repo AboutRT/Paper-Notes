@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RAVENEA: A Benchmark for Multimodal Retrieval-Augmented Visual Culture Understanding
 description: >-
-  [ICLR 2026][检索增强生成] 构建首个评估多模态检索增强文化理解的基准 Ravenea，包含 1868 个实例和 11396 篇人工排序的 Wikipedia 文档，覆盖 8 个国家 11 个类别，评估 7 个多模态检索器和 17 个 VLM，发现文化感知的 RAG 可在 cVQA 上平均提升 6%、cIC 上提升 11%。
+  [ICLR 2026][信息检索/RAG][检索增强生成] 构建首个评估多模态检索增强文化理解的基准 Ravenea，包含 1868 个实例和 11396 篇人工排序的 Wikipedia 文档，覆盖 8 个国家 11 个类别，评估 7 个多模态检索器和 17 个 VLM…
 tags:
-  - ICLR 2026
-  - 检索增强生成
-  - 文化理解
-  - 信息检索
-  - 视觉问答
-  - 图像描述
+  - "ICLR 2026"
+  - "信息检索/RAG"
+  - "检索增强生成"
+  - "文化理解"
+  - "多模态基准"
+  - "视觉问答"
+  - "图像描述"
 ---
 
 # RAVENEA: A Benchmark for Multimodal Retrieval-Augmented Visual Culture Understanding

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][追逃博弈] 研究异构速度下多追逐者-单逃避者的追逃博弈——定义逃避者安全可达集为所有追逐者-逃避者对的 Apollonius 圆的交集，将捕获策略建模为追逐者最小化/逃避者最大化该交集面积的零和博弈，推导出闭式瞬时最优航向控制律，仿真验证追逐者可系统性缩小安全区域实现保证捕获。
 tags:
-  - AAAI 2026
-  - 追逃博弈
-  - 其他
-  - Apollonius圆
-  - 面积最优
-  - 闭式控制律
-  - 安全可达集
-  - 零和博弈
+  - "AAAI 2026"
+  - "追逃博弈"
+  - "异构多智能体"
+  - "Apollonius圆"
+  - "面积最优"
+  - "闭式控制律"
+  - "安全可达集"
+  - "零和博弈"
 ---
 
 # Area-Optimal Control Strategies for Heterogeneous Multi-Agent Pursuit

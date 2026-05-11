@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers
 description: >-
-  [NeurIPS 2025][3D视觉][单目深度估计] 提出Pixel-Perfect Depth——在像素空间（而非潜空间）直接做扩散生成的单目深度估计模型，通过语义提示DiT（SP-DiT）引入视觉基础模型的高层语义表示和级联DiT设计，生成无飞点（flying-pixel-free）的深度图，在五个benchmark上超越所有已发表的生成式模型。
+  [NeurIPS 2025][3D视觉][单目深度估计] 提出Pixel-Perfect Depth——在像素空间（而非潜空间）直接做扩散生成的单目深度估计模型，通过语义提示DiT（SP-DiT）引入视觉基础模型的高层语义表示和级联DiT设计，生成无飞点（flying-pixel-free）的深度图…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 单目深度估计
-  - 像素空间扩散
-  - DiT
-  - 语义提示
-  - 飞点消除
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "单目深度估计"
+  - "像素空间扩散"
+  - "DiT"
+  - "语义提示"
+  - "飞点消除"
 ---
 
 # Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers

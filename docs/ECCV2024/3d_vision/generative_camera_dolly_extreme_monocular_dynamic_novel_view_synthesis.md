@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][动态新视角合成] 提出GCD（Generative Camera Dolly），通过微调Stable Video Diffusion模型实现从单目视频生成任意视角的同步动态新视角视频，支持最高180°的极端相机变换，无需深度输入或显式3D建模。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 动态新视角合成
-  - 视频扩散模型
-  - 扩散模型
-  - 相机控制
-  - 单目视频
+  - "ECCV 2024"
+  - "3D视觉"
+  - "动态新视角合成"
+  - "视频扩散模型"
+  - "扩散模型"
+  - "相机控制"
+  - "单目视频"
 ---
 
 # Generative Camera Dolly: Extreme Monocular Dynamic Novel View Synthesis

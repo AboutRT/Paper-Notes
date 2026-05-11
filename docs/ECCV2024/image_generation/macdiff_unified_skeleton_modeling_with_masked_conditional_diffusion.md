@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 首次将扩散模型用于骨架表征学习，提出 Masked Conditional Diffusion（MacDiff）框架，通过语义编码器提取掩码骨架的表征来引导条件扩散解码器进行去噪，统一了骨架的判别式和生成式建模。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # MacDiff: Unified Skeleton Modeling with Masked Conditional Diffusion

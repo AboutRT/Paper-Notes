@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Vision-Language Models Do Not Understand Negation
 description: >-
-  [CVPR 2025][多模态][否定理解] 本文提出 NegBench 基准，系统揭示了 CLIP 等视觉语言模型在否定理解上的严重缺陷（表现接近随机水平），并通过在大规模合成否定数据集上微调，将否定查询的检索召回率提升 10%、MCQ 准确率提升高达 40%。
+  [CVPR 2025][多模态VLM][否定理解] 本文提出 NegBench 基准，系统揭示了 CLIP 等视觉语言模型在否定理解上的严重缺陷（表现接近随机水平），并通过在大规模合成否定数据集上微调，将否定查询的检索召回率提升 10%、MCQ 准确率提升高达 40%。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 否定理解
-  - 多模态VLM
-  - CLIP
-  - 基准测试
-  - 数据驱动改进
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "否定理解"
+  - "视觉语言模型"
+  - "CLIP"
+  - "基准测试"
+  - "数据驱动改进"
 ---
 
 # Vision-Language Models Do Not Understand Negation

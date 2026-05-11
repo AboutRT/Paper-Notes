@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][多目标跟踪] 提出 FC-Track，一种轻量级的后关联校正框架，通过基于 IoA（Intersection over Area）的重叠感知外观特征过滤和局部不匹配重分配策略，在在线 MOT 中显式纠正由目标重叠引起的身份切换错误，将长期身份切换比例降至 29.55%。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 多目标跟踪
-  - 身份切换校正
-  - 重叠感知
-  - 后关联校正
-  - 在线跟踪
+  - "CVPR 2026"
+  - "视频理解"
+  - "多目标跟踪"
+  - "身份切换校正"
+  - "重叠感知"
+  - "后关联校正"
+  - "在线跟踪"
 ---
 
 # FC-Track: Overlap-Aware Post-Association Correction for Online Multi-Object Tracking

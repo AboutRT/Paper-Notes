@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models
 description: >-
-  [CVPR2026][多模态][双曲VLM] 提出UNCHA框架，在双曲VLM中用双曲不确定性建模部分图像对整体场景的语义代表性，通过不确定性引导的对比损失和蒸含损失增强组合性场景理解，在多个下游任务上超趇现有双曲VLM。
+  [CVPR2026][多模态VLM][双曲VLM] 提出UNCHA框架，在双曲VLM中用双曲不确定性建模部分图像对整体场景的语义代表性，通过不确定性引导的对比损失和蒸含损失增强组合性场景理解，在多个下游任务上超趇现有双曲VLM。
 tags:
-  - CVPR2026
-  - 多模态
-  - 双曲VLM
-  - 不确定性建模
-  - 多模态VLM
-  - 组合性理解
-  - 蒸含损失
+  - "CVPR2026"
+  - "多模态VLM"
+  - "双曲VLM"
+  - "不确定性建模"
+  - "部分-整体对齐"
+  - "组合性理解"
+  - "蒸含损失"
 ---
 
 # Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models

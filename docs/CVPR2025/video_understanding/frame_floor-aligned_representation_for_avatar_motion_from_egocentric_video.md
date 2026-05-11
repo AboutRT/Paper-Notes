@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FRAME: Floor-aligned Representation for Avatar Motion from Egocentric Video
 description: >-
-  [CVPR 2025 (Highlight)][视频理解][自我中心动作捕捉] FRAME 提出了一种基于地面对齐坐标系的自我中心动作捕捉方法，通过建立轻量级 VR 数据采集系统收集大规模真实世界数据集，并设计了一个几何感知的多模态融合架构将设备 6D 位姿与相机图像有效结合，在 300 FPS 下实现了 state-of-the-art 的全身姿态预测。
+  [CVPR 2025 (Highlight)][视频理解][自我中心动作捕捉] FRAME 提出了一种基于地面对齐坐标系的自我中心动作捕捉方法，通过建立轻量级 VR 数据采集系统收集大规模真实世界数据集，并设计了一个几何感知的多模态融合架构将设备 6D 位姿与相机图像有效结合…
 tags:
-  - CVPR 2025 (Highlight)
-  - 视频理解
-  - 自我中心动作捕捉
-  - 全身姿态估计
-  - VR/AR
-  - 多模态融合
-  - 地面对齐表示
+  - "CVPR 2025 (Highlight)"
+  - "视频理解"
+  - "自我中心动作捕捉"
+  - "全身姿态估计"
+  - "VR/AR"
+  - "多模态融合"
+  - "地面对齐表示"
 ---
 
 # FRAME: Floor-aligned Representation for Avatar Motion from Egocentric Video

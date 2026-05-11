@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][性能预测] 本文提出协同性能预测框架CPP，利用多个LLM在多个任务上的历史性能数据及模型/任务的设计因素进行协同过滤式预测，突破了传统Scaling Law仅限单模型族预测的限制，能跨模型族准确预测LLM的下游性能。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 性能预测
-  - Scaling Law
-  - 协同过滤
-  - LLM评估
-  - 模型选择
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "性能预测"
+  - "Scaling Law"
+  - "协同过滤"
+  - "LLM评估"
+  - "模型选择"
 ---
 
 # Collaborative Performance Prediction for Large Language Models

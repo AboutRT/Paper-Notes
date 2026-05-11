@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - LLM推理
-  - 待补充
+  - "ACL 2026"
+  - "LLM推理"
+  - "待补充"
 ---
 
 # Efficient Test-Time Scaling via Temporal Reasoning Aggregation

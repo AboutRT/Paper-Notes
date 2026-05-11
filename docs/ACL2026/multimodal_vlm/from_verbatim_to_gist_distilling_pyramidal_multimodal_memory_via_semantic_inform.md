@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck
 description: >-
-  [ACL 2026][多模态][长视频理解] 本文提出 MM-Mem，一种受模糊痕迹理论启发的金字塔式多模态记忆架构——将记忆分为感知缓冲层（视觉为主）、情景流层（事件级摘要）和符号图式层（知识图谱）三个层级，通过 SIB-GRPO（语义信息瓶颈+强化学习）自底向上压缩冗余、通过熵驱动自顶向下检索，在 4 个长视频 benchmark 上实现 SOTA。
+  [ACL 2026][多模态VLM][长视频理解] 本文提出 MM-Mem，一种受模糊痕迹理论启发的金字塔式多模态记忆架构——将记忆分为感知缓冲层（视觉为主）、情景流层（事件级摘要）和符号图式层（知识图谱）三个层级，通过 SIB-GRPO（语义信息瓶颈+强化学习）自底向上压缩冗余、通过熵驱动自顶向下检索…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 多模态记忆
-  - 信息瓶颈
-  - 模糊痕迹理论
-  - 强化学习
+  - "ACL 2026"
+  - "多模态VLM"
+  - "长视频理解"
+  - "多模态记忆"
+  - "信息瓶颈"
+  - "模糊痕迹理论"
+  - "强化学习"
 ---
 
 # From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck

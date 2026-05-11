@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][运动中心评估] 通过提出四项运动中心的探测技术和 MoCentric-Bench 基准，证明当前视频多模态 LLM 在像素级视觉接地任务中未能真正利用运动信息，可被静态关键帧欺骗。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 运动中心评估
-  - 视觉接地
-  - 视频 MLLM
-  - 指称分割
-  - 运动理解
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "运动中心评估"
+  - "视觉接地"
+  - "视频 MLLM"
+  - "指称分割"
+  - "运动理解"
 ---
 
 # PixFoundation 2.0: Do Video Multi-Modal LLMs Use Motion in Visual Grounding?

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][交通场景生成] 提出 TTSG，一个无需训练的模块化框架，能够直接从自由格式自然语言描述生成逼真的交通场景，通过 LLM 驱动的提示分析、道路检索、智能体规划和计划感知道路排序算法，无需预定义路线或生成点，在 SafeBench 上实现最低 3.5% 平均碰撞率。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 交通场景生成
-  - 自然语言驱动
-  - 大语言模型
-  - 自动驾驶仿真
-  - CARLA
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "交通场景生成"
+  - "自然语言驱动"
+  - "大语言模型"
+  - "自动驾驶仿真"
+  - "CARLA"
 ---
 
 # Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model

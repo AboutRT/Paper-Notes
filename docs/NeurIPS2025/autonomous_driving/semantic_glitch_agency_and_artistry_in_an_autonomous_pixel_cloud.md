@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][自动驾驶][弱机器人] 本文提出一个"低保真"自主飞行机器人艺术装置"像素云"，拒绝传统LiDAR/SLAM传感器，仅依赖多模态大语言模型(MLLM)的语义理解实现导航，并通过自然语言提示为机器人赋予生物启发的叙事人格，展示了不精确但富有角色魅力的涌现行为。
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - 弱机器人
-  - MLLM导航
-  - 思辨设计
-  - 像素云
-  - 涌现行为
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "弱机器人"
+  - "MLLM导航"
+  - "思辨设计"
+  - "像素云"
+  - "涌现行为"
 ---
 
 # Semantic Glitch: Agency and Artistry in an Autonomous Pixel Cloud

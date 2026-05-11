@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Model Predictive Adversarial Imitation Learning for Planning from Observation
 description: >-
-  [ICLR 2026][强化学习] 提出 MPAIL（Model Predictive Adversarial Imitation Learning），将 MPPI 规划器嵌入对抗模仿学习循环，首次实现端到端的仅观测规划框架（Planning-from-Observation），在泛化性、鲁棒性、可解释性和样本效率上全面优于基于策略的 AIL 方法，并在真实世界机器人导航中从单条观测演示成功部署。
+  [ICLR 2026][强化学习][对抗模仿学习] 提出 MPAIL（Model Predictive Adversarial Imitation Learning），将 MPPI 规划器嵌入对抗模仿学习循环，首次实现端到端的仅观测规划框架（Planning-from-Observation）…
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 模型预测控制
-  - 逆强化学习
-  - 仅观测学习
-  - MPPI
+  - "ICLR 2026"
+  - "强化学习"
+  - "对抗模仿学习"
+  - "模型预测控制"
+  - "逆强化学习"
+  - "仅观测学习"
+  - "MPPI"
 ---
 
 # Model Predictive Adversarial Imitation Learning for Planning from Observation
@@ -103,7 +104,7 @@ MPAIL 的规划 horizon 仅 3 米，但任务 horizon 可达规划 horizon 的 1
 |------|-----------|-------------|----------|
 | GAIL | 收敛 | 慢（2x 交互数） | 最快 |
 | AIRL | 不收敛 | - | 与 MPAIL 相当 |
-| MPAIL | 收敛 | 快（<50% 交互数）| 可比 |
+| MPAIL | 收敛 | 快（&lt;50% 交互数）| 可比 |
 
 ### 关键发现
 - **奖励部署至关重要**: 策略式 AIL 学到了奖励却在部署时完全丢弃——这是一个根本性限制。MPAIL 在线重新引入奖励，将泛化负担从策略转移到奖励函数

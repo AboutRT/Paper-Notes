@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SIFT-50M: A Large-Scale Multilingual Dataset for Speech Instruction Fine-Tuning
 description: >-
-  [ACL 2025][多语言翻译] 本文构建了 SIFT-50M，一个包含 5000 万条样本、覆盖 5 种语言的语音指令微调数据集，利用 LLM 和专家模型从公开语音语料中自动生成多样化的语音理解与可控语音生成指令，并训练出 SIFT-LLM 在指令跟随基准上超越现有语音文本 LLM。
+  [ACL 2025][多语言/翻译][语音指令微调] 本文构建了 SIFT-50M，一个包含 5000 万条样本、覆盖 5 种语言的语音指令微调数据集，利用 LLM 和专家模型从公开语音语料中自动生成多样化的语音理解与可控语音生成指令，并训练出 SIFT-LLM 在指令跟随基准上超越现有语音文本 LLM。
 tags:
-  - ACL 2025
-  - 多语言翻译
-  - 多语言数据集
-  - 语音文本LLM
-  - 指令跟随
-  - 数据构建
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "语音指令微调"
+  - "多语言数据集"
+  - "语音文本LLM"
+  - "指令跟随"
+  - "数据构建"
 ---
 
 # SIFT-50M: A Large-Scale Multilingual Dataset for Speech Instruction Fine-Tuning

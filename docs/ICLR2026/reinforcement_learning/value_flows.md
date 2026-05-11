@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Value Flows
 description: >-
-  [ICLR 2026][distributional RL] Value Flows 首次将流匹配（flow matching）引入分布式 RL——学习一个向量场使生成的概率密度路径自动满足分布式 Bellman 方程，通过 flow derivative ODE 高效估计回报方差实现置信度加权优先学习，在 OGBench 62 个任务上平均 1.3× 成功率提升，回报分布估计精度比 C51/CODAC 好 3×+。
+  [ICLR 2026][强化学习][distributional RL] Value Flows 首次将流匹配（flow matching）引入分布式 RL——学习一个向量场使生成的概率密度路径自动满足分布式 Bellman 方程…
 tags:
-  - ICLR 2026
-  - distributional RL
-  - flow matching
-  - return distribution
-  - uncertainty quantification
-  - OGBench
+  - "ICLR 2026"
+  - "强化学习"
+  - "distributional RL"
+  - "flow matching"
+  - "return distribution"
+  - "uncertainty quantification"
+  - "OGBench"
 ---
 
 # Value Flows

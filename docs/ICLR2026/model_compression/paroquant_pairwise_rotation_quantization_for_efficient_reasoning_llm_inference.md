@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][后训练量化] 提出 ParoQuant，通过硬件高效且可优化的独立 Givens 旋转与通道缩放相结合来消除权重异常值，在推理 LLM 上实现高精度低开销的 4-bit 权重量化。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 后训练量化
-  - Givens旋转
-  - 推理LLM
-  - 量化效率
-  - 算法-系统协同设计
+  - "ICLR 2026"
+  - "模型压缩"
+  - "后训练量化"
+  - "Givens旋转"
+  - "推理LLM"
+  - "量化效率"
+  - "算法-系统协同设计"
 ---
 
 # ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference

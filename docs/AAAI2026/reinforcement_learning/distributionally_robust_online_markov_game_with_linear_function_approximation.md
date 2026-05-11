@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][强化学习][Markov Game] 本文研究具有线性函数近似的在线分布鲁棒马尔可夫博弈，首次识别了该设定下的学习困难性，并提出 DR-CCE-LSI 算法，在特定特征映射条件下实现了关于特征维度 $d$ 的极小极大最优样本复杂度。
 tags:
-  - AAAI 2026
-  - 强化学习
-  - Markov Game
-  - Distributional Robustness
-  - Linear Function Approximation
-  - Coarse Correlated Equilibrium
-  - Sample Complexity
+  - "AAAI 2026"
+  - "强化学习"
+  - "Markov Game"
+  - "Distributional Robustness"
+  - "Linear Function Approximation"
+  - "Coarse Correlated Equilibrium"
+  - "Sample Complexity"
 ---
 
 # Distributionally Robust Online Markov Game with Linear Function Approximation

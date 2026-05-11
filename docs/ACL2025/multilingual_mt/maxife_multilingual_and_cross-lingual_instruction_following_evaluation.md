@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MaXIFE: Multilingual and Cross-lingual Instruction Following Evaluation
 description: >-
-  [ACL 2025][多语言评测] 提出 MaXIFE 评测基准，覆盖 23 种语言的 1667 个可验证指令跟随任务，结合基于规则和基于模型的双重评估策略，系统评测 LLM 在多语言和跨语言场景下的指令遵循能力，填补了该方向的评测空白。
+  [ACL 2025][多语言/翻译][多语言评测] 提出 MaXIFE 评测基准，覆盖 23 种语言的 1667 个可验证指令跟随任务，结合基于规则和基于模型的双重评估策略，系统评测 LLM 在多语言和跨语言场景下的指令遵循能力，填补了该方向的评测空白。
 tags:
-  - ACL 2025
-  - 多语言评测
-  - 跨语言指令跟随
-  - 多语言翻译
-  - 规则评估
-  - 模型评估
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "多语言评测"
+  - "跨语言指令跟随"
+  - "评测基准"
+  - "规则评估"
+  - "模型评估"
 ---
 
 # MaXIFE: Multilingual and Cross-lingual Instruction Following Evaluation

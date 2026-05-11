@@ -1,14 +1,27 @@
 ---
 title: >-
-  NeurIPS2025 2551篇论文解读
+  NeurIPS2025 2537篇论文解读
 description: >-
-  2551篇NeurIPS2025论文解读，涵盖图像生成(247篇)、强化学习(172篇)、多模态 VLM(154篇)、医学图像(141篇)、模型压缩(137篇)、3D 视觉(116篇)、优化/理论(116篇)、可解释性(86篇)等 45个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  2537篇NeurIPS2025论文解读，涵盖图像生成(247篇)、强化学习(171篇)、多模态 VLM(153篇)、医学图像(140篇)、模型压缩(137篇)、3D 视觉(116篇)、优化/理论(114篇)、可解释性(86篇)等 45个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "AI顶会"
+  - "论文解读"
+  - "论文笔记"
+  - "图像生成"
+  - "强化学习"
+  - "多模态 VLM"
+  - "医学图像"
+  - "模型压缩"
+  - "3D 视觉"
+  - "优化/理论"
+  - "可解释性"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧠 NeurIPS2025 论文笔记
 
-2551篇NeurIPS2025论文解读，涵盖图像生成(247篇)、强化学习(172篇)、多模态 VLM(154篇)、医学图像(141篇)、模型压缩(137篇)、3D 视觉(116篇)、优化/理论(116篇)、可解释性(86篇)等 45个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+2537篇NeurIPS2025论文解读，涵盖图像生成(247篇)、强化学习(171篇)、多模态 VLM(153篇)、医学图像(140篇)、模型压缩(137篇)、3D 视觉(116篇)、优化/理论(114篇)、可解释性(86篇)等 45个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -1228,10 +1241,6 @@ description: >-
 
 :   系统性评估了基础模型（LLM）作为零样本世界模型（FWM）和直接决策智能体（FA）在文本网格世界中的表现，揭示了两种策略在确定性/随机性环境中的互补优势。
 
-**[Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits](reinforcement_learning/gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)**
-
-:   本文证明 GP-UCB 在 noise-free GP bandit 问题中可达到 nearly-optimal regret，首次在 SE 核下实现 $O(1)$ 常数累积遗憾、在 Matérn 核（$d < \nu$）下实现 $O(1)$ 累积遗憾，弥合了 GP-UCB 理论与实践之间的长期差距。
-
 **[Generalized Linear Bandits: Almost Optimal Regret with One-Pass Update](reinforcement_learning/generalized_linear_bandits_almost_optimal_regret_with_one-pass_update.md)**
 
 :   提出GLB-OMD算法，首次在广义线性赌博机（GLB）问题中同时实现近似最优遗憾界 $\mathcal{O}(\log T\sqrt{T/\kappa_*})$ 和每轮 $\mathcal{O}(1)$ 的时间/空间复杂度，核心技术是基于混合损失（mix loss）为在线镜像下降（OMD）估计量构建紧致置信集。
@@ -2024,10 +2033,6 @@ description: >-
 
 :   提出 MoniTor，一个基于记忆的在线评分队列方案，利用 LLM 进行免训练的在线视频异常检测（VAD），通过双层记忆机制、行为预测和标准评分队列引导 LLM 实现实时异常识别。
 
-**[Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology](multimodal_vlm/multi-modal_masked_autoencoders_for_learning_image-spectrum_associations_for_gal.md)**
-
-:   构建了包含 134,533 个星系的图像-光谱-红移多模态数据集（GalaxiesML-Spectra），适配多模态掩码自编码器（MMAE）同时进行图像和光谱的联合重建与红移回归，证明在测试时即使光谱完全缺失，仅用 25% 掩码图像即可实现优于 AstroCLIP 的红移预测散度 $\sigma_{NMAD} = 0.016$。
-
 **[Multimodal Bandits: Regret Lower Bounds and Optimal Algorithms](multimodal_vlm/multimodal_bandits_regret_lower_bounds_and_optimal_algorithms.md)**
 
 :   针对奖励函数至多有 $m$ 个极值的多模态多臂赌博机问题，提出首个计算可行的算法求解 Graves-Lai 优化问题，实现渐近最优的遗憾界，并证明局部搜索策略是次优的。
@@ -2643,10 +2648,6 @@ description: >-
 **[MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology](medical_imaging/mtbbench_a_multimodal_sequential_clinical_decision-making_benchmark_in_oncology.md)**
 
 :   提出MTBBench——首个同时覆盖多模态、纵向时序和交互式Agent工作流三个维度的临床基准，模拟分子肿瘤委员会（MTB）的决策流程，评估并增强AI Agent在肿瘤学精准医疗中的多模态纵向推理能力。
-
-**[Multi-Objective Reinforcement Learning with Max-Min Criterion: A Game-Theoretic Approach](medical_imaging/multi-objective_reinforcement_learning_with_max-min_criterion_a_game-theoretic_a.md)**
-
-:   将max-min多目标强化学习重新表述为两人零和正则化连续博弈，提出ERAM/ARAM算法，利用镜像下降实现简洁的闭式权重更新，保证全局最后迭代收敛，在交通信号控制等任务中显著优于已有方法。
 
 **[Multimodal 3D Genome Pre-training](medical_imaging/multimodal_3d_genome_pre-training.md)**
 
@@ -4024,10 +4025,6 @@ description: >-
 
 :   本文提出统一的充分条件连接 $(L_0,L_1)$-光滑性与各向异性光滑性两种广义光滑框架，证明非线性预条件梯度法（含梯度裁剪）在此放松条件下保持鞍点规避性质，并给出扰动变体以多项对数维数依赖达到二阶稳定点。
 
-**[Estimation of Stochastic Optimal Transport Maps](optimization/estimation_of_stochastic_optimal_transport_maps.md)**
-
-:   提出适用于随机OT映射的传输误差指标 $\mathcal{E}_p$（由优化间隙与可行性间隙组成），在无需Brenier映射存在或唯一性的最小假设下，构造了计算高效的rounding估计器达到近最优收敛率 $\tilde{O}(n^{-1/(d+2p)})$，并推广至Hölder连续核与对抗污染场景，建立了首个通用OT映射估计理论。
-
 **[Evaluating LLMs for Combinatorial Optimization: One-Phase and Two-Phase Heuristics for 2D Bin-Packing](optimization/evaluating_llms_for_combinatorial_optimization_one-phase_and_two-phase_heuristic.md)**
 
 :   本文提出一个结合 LLM 与进化算法的系统性评估框架，用于评估 LLM 在 2D 装箱问题上生成和优化启发式算法的能力，GPT-4o 在 2 轮迭代内即达到最优解，将平均箱数从 16 降至 15，空间利用率从 0.76-0.78 提升至 0.83。
@@ -4247,10 +4244,6 @@ description: >-
 **[Personalized Subgraph Federated Learning with Differentiable Auxiliary Projections](optimization/personalized_subgraph_federated_learning_with_differentiable_auxiliary_projectio.md)**
 
 :   提出FedAux框架，通过可微分的辅助投影向量（APV）将节点嵌入映射到一维空间并用高斯核进行软排序聚合，APV既作为局部子图的紧凑隐私保护摘要用于服务器端相似度计算，又参与客户端的联合优化，实现了个性化的子图联邦学习。
-
-**[Perturbation Bounds for Low-Rank Inverse Approximations under Noise](optimization/perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)**
-
-:   首次给出在加性噪声下低秩逆近似 $\|(\tilde{A}^{-1})_p - A_p^{-1}\|$ 的非渐近谱范数扰动界，利用轮廓积分技术得到依赖特征间隙、谱衰减和噪声对齐的锐界，比经典全逆界改进高达 $\sqrt{n}$ 倍。
 
 **[Preference Learning with Response Time: Robust Losses and Guarantees](optimization/preference_learning_with_response_time_robust_losses_and_guarantees.md)**
 
@@ -4772,10 +4765,6 @@ description: >-
 
 :   提出LAGER框架，通过聚合LLM中间层到最终层的score token logits并计算期望分数，无需微调模型即可将LLM评判与人类评分的对齐度提升最高7.5%，且不需要思维链推理步骤就能匹配或超过推理类方法。
 
-**[Bispectral OT: Dataset Comparison using Symmetry-Aware Optimal Transport](llm_evaluation/bispectral_ot_dataset_comparison_using_symmetry-aware_optimal_transport.md)**
-
-:   提出 Bispectral Optimal Transport (BOT)，将离散最优传输中的代价矩阵从原始像素距离替换为 bispectrum（群 Fourier 不变量）距离，使得传输计划在保持信号结构的同时精确消除群作用（如旋转）带来的变异，在旋转变换的 MNIST 等数据集上将类别保持准确率从 33% 提升至 84%。
-
 **[BLINK-Twice: You See But Do You Observe? A Reasoning Benchmark on Visual Perception](llm_evaluation/blink-twice_you_see_but_do_you_observe_a_reasoning_benchmark_on_visual_perceptio.md)**
 
 :   提出视觉中心推理 benchmark BLINK-Twice（345 张视觉挑战图 + 103 个对抗样本 + 896 个 VQA + 1725 个推理步骤标注），通过 7 类视觉错觉场景评估 MLLM "看到但未观察到"的推理能力，发现最强模型 Gemini-2.5 Pro 的 G-Acc 仅 26.9%，多轮图像观察和主动视觉交互是提升方向。
@@ -5052,10 +5041,6 @@ description: >-
 
 :   这篇立场论文受生物感觉系统的启发，主张AI研究必须从单纯的"扩模型"范式转向"优化输入"——通过在传感器层面动态调整参数（曝光、增益、多模态配置等），使小模型（5M参数的EfficientNet-B0）在理想传感器适应下超越大模型（632M参数的OpenCLIP-H），并提出了从单次感知到闭环感知-运动耦合的渐进式形式化框架。
 
-**[Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)](ai_safety/artificial_hivemind_the_open-ended_homogeneity_of_language_models_and_beyond.md)**
-
-:   构建了 Infinity-Chat 数据集（26K 开放式真实用户查询 + 31,250 条人类标注），揭示了 LM 在开放式生成中的"Artificial Hivemind"效应——模型内重复和模型间同质化严重，并发现 Reward Model 和 LM Judge 在个体偏好差异大的样本上校准失败。
-
 **[Beyond Last-Click: An Optimal Mechanism for Ad Attribution](ai_safety/beyond_last-click_an_optimal_mechanism_for_ad_attribution.md)**
 
 :   从博弈论角度分析广告归因中 Last-Click 机制的策略操纵漏洞——平台可以通过篡改时间戳获取不公正的归因信用，提出 Peer-Validated Mechanism（PVM）——每个平台的信用仅取决于其他平台的报告（类比同行评审），理论证明 PVM 是占优策略激励兼容（DSIC）且在同质设置下最优，准确率从 34% 提升到 75%（2 平台）。
@@ -5251,10 +5236,6 @@ description: >-
 **[Optimal Adjustment Sets for Nonparametric Estimation of Weighted Controlled Direct Effect](ai_safety/optimal_adjustment_sets_for_nonparametric_estimation_of_weighted_controlled_dire.md)**
 
 :   针对加权控制直接效应（WCDE）建立三项基础理论：唯一可识别性的充要条件、非参数估计的影响函数推导、以及最小化渐近方差的最优协变量调整集刻画。
-
-**[Perturbation Bounds for Low-Rank Inverse Approximations under Noise](ai_safety/perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)**
-
-:   首次给出在加性噪声下低秩逆近似 $\|(\tilde{A}^{-1})_p - A_p^{-1}\|$ 的非渐近谱范数扰动界，利用轮廓积分技术得到依赖特征间隙、谱衰减和噪声对齐的锐界，比经典全逆界改进高达 $\sqrt{n}$ 倍。
 
 **[Position: Bridge the Gaps between Machine Unlearning and AI Regulation](ai_safety/position_bridge_the_gaps_between_machine_unlearning_and_ai_regulation.md)**
 
@@ -5548,10 +5529,6 @@ description: >-
 
 :   系统实验发现在大推理模型的 RL 训练中，量化感知训练（QAFT/STE）会损害推理能力，而训练后量化（PTQ）和 QLoRA 即使在 4-bit 精度下也能很好地保持推理性能，为实践者提供了"先全精度 RL、再 PTQ 量化"的推荐路线。
 
-**[The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning](llm_reasoning/the_surprising_effectiveness_of_negative_reinforcement_in_llm_reasoning.md)**
-
-:   将可验证奖励的强化学习（RLVR）分解为正样本强化（PSR，增强正确回答概率）和负样本强化（NSR，惩罚错误回答），发现仅用 NSR 就能在整个 Pass@k 谱上持续提升推理性能且通常匹配或超越 PPO/GRPO，据此提出 Weighted-REINFORCE（降低 PSR 权重至 0.1）在 MATH/AIME 2025/AMC23 上取得全面最优。
-
 **[The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning](llm_reasoning/the_virtues_of_brevity_avoid_overthinking_in_parallel_test-time_reasoning.md)**
 
 :   证明在推理模型的 Best-of-N 采样中，选择最短解是一个简单、反直觉但高效的启发式方法，性能与 self-consistency 相当，token 成本显著更低，其原理在于利用了模型在"常规模式"与"过度思考模式"之间的系统性偏差。
@@ -5627,10 +5604,6 @@ description: >-
 **[ALMGuard: Safety Shortcuts and Where to Find Them as Guardrails for Audio-Language Models](llm_safety/almguard_safety_shortcuts_and_where_to_find_them_as_guardrails_for_audio-languag.md)**
 
 :   首个针对音频语言模型（ALM）越狱攻击的防御框架——发现对齐过的 ALM 存在可被激活的潜在安全快捷路径（safety shortcuts），通过 Mel 梯度稀疏掩码（M-GSM）定位关键频率段，施加快捷路径激活扰动（SAP），将平均攻击成功率从 41.6% 降至 4.6%，同时几乎不影响正常任务性能。
-
-**[Angular Steering: Behavior Control via Rotation in Activation Space](llm_safety/angular_steering_behavior_control_via_rotation_in_activation_space.md)**
-
-:   提出Angular Steering，将LLM激活引导统一建模为固定2D子空间中的旋转操作——通过旋转角度提供0°-360°的连续、细粒度、范数保持的行为控制旋钮，统一了激活加法和方向消融为旋转的特例，在Llama 3/Qwen 2.5/Gemma 2（3B-14B）上实现鲁棒的行为调控。
 
 **[Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs](llm_safety/bits_leaked_per_query_information-theoretic_bounds_on_adversarial_attacks_agains.md)**
 
@@ -8256,10 +8229,6 @@ description: >-
 
 :   提出三种离散时间深度混合专家(MoE)生存分析架构，其中 Personalized MoE 通过让每个专家为每位患者生成定制化事件分布，同时实现出色的聚类、校准和预测精度。
 
-**[Linear Attention for Efficient Bidirectional Sequence Modeling](llm_efficiency/linear_attention_for_efficient_bidirectional_sequence_modeling.md)**
-
-:   提出 Lion 框架，首次系统地将线性 Transformer 扩展到双向序列建模，统一了全线性注意力、双向 RNN 和分块并行三种等价表示，在图像分类和 MLM 任务上训练速度比 SSM 快达 10 倍且性能可比 softmax Transformer。
-
 **[Long-Context Modeling with Dynamic Hierarchical Sparse Attention for On-Device LLMs](llm_efficiency/long-context_modeling_with_dynamic_hierarchical_sparse_attention_for_on-device_l.md)**
 
 :   提出动态分层稀疏注意力 (DHSA)，通过自适应 chunk 分割 + chunk 级相似度预测 + 上采样到 token 级的分层框架，在不重训基座模型的前提下将密集注意力替换为稀疏注意力，在 Gemma2/3 上实现与密集注意力同等精度、20-60% prefill 延迟降低和 35% 峰值内存节省。
@@ -8368,10 +8337,6 @@ description: >-
 
 :   提出 CoSO 框架，通过从每步梯度的 SVD 动态导出连续子空间（而非 LoRA 的固定子空间），结合历史任务正交投影防止干扰和 Frequent Directions 高效聚合梯度信息，在 ImageNet-R 20 任务上以 78.19% 最终准确率超越最佳 baseline 2.77 个百分点。
 
-**[Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning](self_supervised/contrastive_consolidation_of_top-down_modulations_achieves_sparsely_supervised_c.md)**
-
-:   提出 Task-Modulated Contrastive Learning (TMCL)，受大脑新皮层自顶向下调制启发，在持续学习中通过 affine modulation 集成稀疏标签信息（仅需 1% 标签），再利用对比学习将调制信息固化到前馈权重中，在 class-incremental 和迁移学习上超越无监督和有监督基线。
-
 **[Contrastive Representations for Temporal Reasoning](self_supervised/contrastive_representations_for_temporal_reasoning.md)**
 
 :   提出 CRTR（Contrastive Representations for Temporal Reasoning），通过在训练批次中重复同一轨迹来引入轨迹内负样本对，消除标准时间对比学习对静态上下文特征的依赖，学习到反映时间结构的表征，在魔方等组合推理任务上首次实现无搜索求解。
@@ -8415,10 +8380,6 @@ description: >-
 **[Manifolds and Modules: How Function Develops in a Neural Foundation Model](self_supervised/manifolds_and_modules_how_function_develops_in_a_neural_foundation_model.md)**
 
 :   从计算神经科学视角"打开黑箱"分析 SOTA 神经活动基础模型 (FNN)，通过构建解码流形和编码流形发现其各处理模块（编码器、循环、读出）展现出质性不同的表征结构，且与生物视觉系统存在关键差异。
-
-**[Memory-Integrated Reconfigurable Adapters: A Unified Framework for Settings with Multiple Tasks](self_supervised/memory-integrated_reconfigurable_adapters_a_unified_framework_for_settings_with_.md)**
-
-:   MIRA 将 Hopfield 式联想记忆模块嵌入 ViT 各层，以键值对方式存储和检索 LoRA 适配器权重，通过两阶段训练（适应+巩固），在一个统一架构下同时解决领域泛化（DG）、类增量学习（CIL）和域增量学习（DIL）三类任务，在多个基准上显著超过各任务的专用方法。
 
 **[Minimal Semantic Sufficiency Meets Unsupervised Domain Generalization](self_supervised/minimal_semantic_sufficiency_meets_unsupervised_domain_generalization.md)**
 
@@ -9863,10 +9824,6 @@ description: >-
 **[Computable Universal Online Learning](others/computable_universal_online_learning.md)**
 
 :   在 universal online learning 框架中引入可计算性约束，证明了"数学上可学习"不等于"可用计算机程序实现的可学习"，并给出了 agnostic 和 proper 变体下可计算学习的精确刻画。
-
-**[ConTextTab: 语义感知的表格上下文学习器](others/contexttab_a_semantics-aware_tabular_in-context_learner.md)**
-
-:   ConTextTab 将语义嵌入（列名、分类值的文本编码）融入 table-native ICL 架构，并在大规模真实表格数据（T4, ~2.18M 表）上预训练，在语义丰富的 CARTE 基准上取得新 SOTA，同时在非语义基准上保持与现有方法竞争力。
 
 **[Contextual Dynamic Pricing with Heterogeneous Buyers](others/contextual_dynamic_pricing_with_heterogeneous_buyers.md)**
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][医学图像][概念瓶颈模型] 本文将概念瓶颈模型（Concept Bottleneck Model）的可解释性设计理念引入蛋白质语言模型，通过中间层的生物学概念作为瓶颈，实现既能设计功能性蛋白质序列又能提供人类可理解的设计理由的蛋白质生成系统。
 tags:
-  - ACL 2025
-  - 医学图像
-  - 概念瓶颈模型
-  - 蛋白质设计
-  - 语言模型
-  - 可解释AI
-  - 蛋白质语言模型
+  - "ACL 2025"
+  - "医学图像"
+  - "概念瓶颈模型"
+  - "蛋白质设计"
+  - "语言模型"
+  - "可解释AI"
+  - "蛋白质语言模型"
 ---
 
 # Concept Bottleneck Language Models For Protein Design

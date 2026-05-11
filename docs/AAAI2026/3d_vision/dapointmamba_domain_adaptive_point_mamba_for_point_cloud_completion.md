@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][3D视觉][点云补全] 首次将 Mamba（SSM）引入无监督域自适应点云补全（UDA PCC），提出 DAPointMamba 框架，通过跨域 Patch 级扫描、空间 SSM 对齐和通道 SSM 对齐三个模块，在保持线性复杂度和全局感受野的同时实现了跨域高质量点云补全。
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 点云补全
-  - 域自适应
-  - State Space Model
-  - Mamba
-  - 跨域对齐
+  - "AAAI 2026"
+  - "3D视觉"
+  - "点云补全"
+  - "域自适应"
+  - "State Space Model"
+  - "Mamba"
+  - "跨域对齐"
 ---
 
 # DAPointMamba: Domain Adaptive Point Mamba for Point Cloud Completion

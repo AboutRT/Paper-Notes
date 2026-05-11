@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][文本修订] 系统分析了传统相似度指标（ROUGE、BERTScore 等）在科学文本修订评估中的局限性，发现它们与编辑距离强相关且惩罚深度修改，提出结合 LLM-as-Judge 和任务特定跨域指标的混合评估方法，在与人类判断的对齐度上显著优于单一指标。
 tags:
-  - ACL 2025
-  - 文本修订
-  - 其他
-  - LLM-as-Judge
-  - 科学写作
-  - 人工评估
+  - "ACL 2025"
+  - "文本修订"
+  - "评估指标"
+  - "LLM-as-Judge"
+  - "科学写作"
+  - "人工评估"
 ---
 
 # Identifying Reliable Evaluation Metrics for Scientific Text Revision

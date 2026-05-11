@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][多重生物网络] 提出CAZI-MBN框架，通过融合领域特定LLM序列嵌入、拓扑感知图分词器、上下文感知跨层注意力和教师-学生蒸馏，实现多重生物网络中未见实体的零样本交互预测，在5个基准数据集上AUROC较最优baseline提升3.1-20.4%。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 多重生物网络
-  - 零样本预测
-  - 知识蒸馏
-  - Transformer
-  - 多模态表示学习
+  - "ICLR 2026"
+  - "模型压缩"
+  - "多重生物网络"
+  - "零样本预测"
+  - "知识蒸馏"
+  - "Transformer"
+  - "多模态表示学习"
 ---
 
 # Distilling and Adapting: A Topology-Aware Framework for Zero-Shot Interaction Prediction in Multiplex Biological Networks

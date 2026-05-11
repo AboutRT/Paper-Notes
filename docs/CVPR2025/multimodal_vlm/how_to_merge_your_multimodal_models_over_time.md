@@ -2,15 +2,15 @@
 title: >-
   [论文解读] How to Merge Your Multimodal Models Over Time?
 description: >-
-  [CVPR 2025][多模态][模型融合] 本文提出 TIME（Temporal Integration of Model Expertise）框架，系统研究了多模态专家模型随时间渐进融合的问题，通过初始化策略、部署策略和融合技术三个轴定义搜索空间，在 FoMo-in-Flux 基准上揭示了时序模型融合的关键设计原则。
+  [CVPR 2025][多模态VLM][模型融合] 本文提出 TIME（Temporal Integration of Model Expertise）框架，系统研究了多模态专家模型随时间渐进融合的问题，通过初始化策略、部署策略和融合技术三个轴定义搜索空间…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 模型融合
-  - 时序模型融合
-  - 多模态学习
-  - 持续学习
-  - 基础模型
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "模型融合"
+  - "时序模型融合"
+  - "多模态学习"
+  - "持续学习"
+  - "基础模型"
 ---
 
 # How to Merge Your Multimodal Models Over Time?

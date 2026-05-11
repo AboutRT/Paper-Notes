@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Where Are We? Evaluating LLM Performance on African Languages
 description: >-
-  [ACL 2025][非洲语言] 构建了覆盖517种非洲语言、30个数据集、16类任务的 Sahara 基准，系统评估24个LLM在非洲语言上的表现，揭示语言政策驱动的数据不平等如何直接影响模型效果。
+  [ACL 2025][LLM评测][非洲语言] 构建了覆盖517种非洲语言、30个数据集、16类任务的 Sahara 基准，系统评估24个LLM在非洲语言上的表现，揭示语言政策驱动的数据不平等如何直接影响模型效果。
 tags:
-  - ACL 2025
-  - 非洲语言
-  - LLM评测
-  - 语言政策
-  - 低资源NLP
-  - 基准测试
+  - "ACL 2025"
+  - "LLM评测"
+  - "非洲语言"
+  - "多语言评估"
+  - "语言政策"
+  - "低资源NLP"
+  - "基准测试"
 ---
 
 # Where Are We? Evaluating LLM Performance on African Languages

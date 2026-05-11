@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][轨迹预测] 从数据中心视角出发，提出 Den-TP 框架通过密度感知的数据集筛选和评估协议来解决轨迹预测数据集中场景密度的长尾不平衡问题，仅用 50% 数据就能保持整体性能并显著改善高密度场景的鲁棒性。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 轨迹预测
-  - 数据中心
-  - 密度平衡
-  - 子模优化
-  - 长尾分布
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "轨迹预测"
+  - "数据中心"
+  - "密度平衡"
+  - "子模优化"
+  - "长尾分布"
 ---
 
 # Den-TP: A Density-Balanced Data Curation and Evaluation Framework for Trajectory Prediction

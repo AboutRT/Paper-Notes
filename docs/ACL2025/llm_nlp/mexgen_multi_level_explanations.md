@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][可解释性] 提出MExGen框架，通过scalarizer将生成模型的文本输出映射为实数值、多粒度语言分割和线性复杂度归因算法（C-LIME/L-SHAP），为上下文驱动的文本生成（摘要、QA）提供比PartitionSHAP和LLM自解释更忠实的输入归因解释。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 可解释性
-  - 输入归因
-  - LIME
-  - SHAP
-  - scalarizer
-  - 多层次解释
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "可解释性"
+  - "输入归因"
+  - "LIME"
+  - "SHAP"
+  - "scalarizer"
+  - "多层次解释"
 ---
 
 # MExGen: Multi-Level Explanations for Generative Language Models

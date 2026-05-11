@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Controllable Sequence Editing for Biological and Clinical Trajectories
 description: >-
-  [ICLR 2026][医学图像][反事实生成] 提出 Clef，一个基于"时间概念"（temporal concepts）的可控序列编辑模型，能够在给定条件（如药物、手术）下对生物/临床多变量轨迹进行即时和延迟编辑，在细胞重编程和患者实验室检测数据上，即时编辑 MAE 提升 16.28%，延迟编辑提升 26.73%，零样本反事实生成提升达 62.84%。
+  [ICLR 2026][医学图像][反事实生成] 提出 Clef，一个基于"时间概念"（temporal concepts）的可控序列编辑模型，能够在给定条件（如药物、手术）下对生物/临床多变量轨迹进行即时和延迟编辑，在细胞重编程和患者实验室检测数据上，即时编辑 MAE 提升 16.28%…
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 反事实生成
-  - 序列编辑
-  - 时间概念
-  - 病人轨迹
-  - 细胞重编程
+  - "ICLR 2026"
+  - "医学图像"
+  - "反事实生成"
+  - "序列编辑"
+  - "时间概念"
+  - "病人轨迹"
+  - "细胞重编程"
 ---
 
 # Controllable Sequence Editing for Biological and Clinical Trajectories

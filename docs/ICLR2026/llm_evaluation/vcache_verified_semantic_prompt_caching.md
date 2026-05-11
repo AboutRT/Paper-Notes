@@ -2,14 +2,15 @@
 title: >-
   [论文解读] vCache: Verified Semantic Prompt Caching
 description: >-
-  [ICLR2026][Semantic Caching] 提出 vCache——首个具有**用户定义错误率保证**的语义缓存系统，通过在线学习为每个缓存嵌入独立估计最优相似度阈值，无需预训练即可在满足正确性约束下实现最高 12.5× 缓存命中率提升和 26× 错误率降低。
+  [ICLR2026][LLM评测][Semantic Caching] 提出 vCache——首个具有**用户定义错误率保证**的语义缓存系统，通过在线学习为每个缓存嵌入独立估计最优相似度阈值，无需预训练即可在满足正确性约束下实现最高 12.5× 缓存命中率提升和 26× 错误率降低。
 tags:
-  - ICLR2026
-  - Semantic Caching
-  - LLM评测
-  - Error-Rate Guarantee
-  - online learning
-  - Per-Embedding Threshold
+  - "ICLR2026"
+  - "LLM评测"
+  - "Semantic Caching"
+  - "LLM Inference Optimization"
+  - "Error-Rate Guarantee"
+  - "online learning"
+  - "Per-Embedding Threshold"
 ---
 
 # vCache: Verified Semantic Prompt Caching

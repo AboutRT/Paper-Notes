@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Observation to Action: Latent Action-based Primitive Segmentation for VLA Pre-training in Industrial Settings
 description: >-
-  [CVPR 2026][多模态][VLA预训练] 提出 LAPS（Latent Action-based Primitive Segmentation）流水线，通过在潜在动作空间中定义"Latent Action Energy"指标，从未标注的工业视频流中无监督发现和分割语义动作原语，为 VLA 模型预训练提供结构化数据。
+  [CVPR 2026][多模态VLM][VLA预训练] 提出 LAPS（Latent Action-based Primitive Segmentation）流水线，通过在潜在动作空间中定义"Latent Action Energy"指标，从未标注的工业视频流中无监督发现和分割语义动作原语…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 动作分割
-  - 潜在动作能量
-  - 无监督学习
-  - 工业制造
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "VLA预训练"
+  - "动作分割"
+  - "潜在动作能量"
+  - "无监督学习"
+  - "工业制造"
 ---
 
 # From Observation to Action: Latent Action-based Primitive Segmentation for VLA Pre-training in Industrial Settings

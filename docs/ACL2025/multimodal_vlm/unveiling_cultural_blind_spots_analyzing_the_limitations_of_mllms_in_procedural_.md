@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unveiling Cultural Blind Spots: Analyzing the Limitations of mLLMs in Procedural Text Comprehension
 description: >-
-  [ACL 2025][多模态][多语言大模型] 提出 CAPTex 基准，通过跨 7 个国家/语言的文化程序性文本理解任务（步骤排序、选择题、对话推理等），系统揭示了多语言大模型在文化特定程序性文本理解上的盲区和局限。
+  [ACL 2025][多模态VLM][多语言大模型] 提出 CAPTex 基准，通过跨 7 个国家/语言的文化程序性文本理解任务（步骤排序、选择题、对话推理等），系统揭示了多语言大模型在文化特定程序性文本理解上的盲区和局限。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - 程序性文本
-  - 文化理解
-  - 基准评测
-  - 低资源语言
+  - "ACL 2025"
+  - "多模态VLM"
+  - "多语言大模型"
+  - "程序性文本"
+  - "文化理解"
+  - "基准评测"
+  - "低资源语言"
 ---
 
 # Unveiling Cultural Blind Spots: Analyzing the Limitations of mLLMs in Procedural Text Comprehension

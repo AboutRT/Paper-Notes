@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unblur-SLAM: Dense Neural SLAM for Blurry Inputs
 description: >-
-  [CVPR 2026][3D视觉][模糊鲁棒 SLAM] Unblur-SLAM 不是简单把去模糊网络塞进 SLAM 前端，而是围绕“哪些模糊帧可以先去模糊再跟踪、哪些模糊帧必须直接在 3D 空间里建模”这一关键决策，设计了模糊检测、物理约束去模糊、3D Gaussian blur refinement 和严重模糊 fallback 的完整流水线，因此能同时处理运动模糊和散焦模糊，并显著提升跟踪与重建质量。
+  [CVPR 2026][3D视觉][模糊鲁棒 SLAM] Unblur-SLAM 不是简单把去模糊网络塞进 SLAM 前端，而是围绕“哪些模糊帧可以先去模糊再跟踪、哪些模糊帧必须直接在 3D 空间里建模”这一关键决策…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 模糊鲁棒 SLAM
-  - 3DGS
-  - 单帧去模糊
-  - 子帧建模
-  - 混合 bundle adjustment
+  - "CVPR 2026"
+  - "3D视觉"
+  - "模糊鲁棒 SLAM"
+  - "3DGS"
+  - "单帧去模糊"
+  - "子帧建模"
+  - "混合 bundle adjustment"
 ---
 
 # Unblur-SLAM: Dense Neural SLAM for Blurry Inputs

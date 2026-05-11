@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CityWalker: Learning Embodied Urban Navigation from Web-Scale Videos
 description: >-
-  [CVPR 2025][强化学习] 利用互联网上超过 2000 小时的城市步行和驾驶视频，通过视觉里程计 (VO) 自动提取动作标签进行大规模模仿学习，训练出能在复杂动态城市环境中导航的具身智能体，真实部署成功率达 77.3%，显著超越现有方法。
+  [CVPR 2025][强化学习][城市导航] 利用互联网上超过 2000 小时的城市步行和驾驶视频，通过视觉里程计 (VO) 自动提取动作标签进行大规模模仿学习，训练出能在复杂动态城市环境中导航的具身智能体，真实部署成功率达 77.3%，显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 强化学习
-  - 模仿学习
-  - 视觉里程计
-  - 网络视频训练
-  - 具身智能
+  - "CVPR 2025"
+  - "强化学习"
+  - "城市导航"
+  - "模仿学习"
+  - "视觉里程计"
+  - "网络视频训练"
+  - "具身智能"
 ---
 
 # CityWalker: Learning Embodied Urban Navigation from Web-Scale Videos

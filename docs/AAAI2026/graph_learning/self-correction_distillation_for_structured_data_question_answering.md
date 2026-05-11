@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图学习][知识蒸馏] 提出自纠正蒸馏（SCD）方法，通过错误提示机制（EPM）和两阶段蒸馏策略，将大规模LLM（GPT4）的结构化数据问答能力高效迁移到小规模LLM（8B），在5个基准上取得最优蒸馏性能。
 tags:
-  - AAAI 2026
-  - 图学习
-  - 知识蒸馏
-  - 结构化数据问答
-  - CoT蒸馏
-  - 错误纠正
-  - 小模型
+  - "AAAI 2026"
+  - "图学习"
+  - "知识蒸馏"
+  - "结构化数据问答"
+  - "CoT蒸馏"
+  - "错误纠正"
+  - "小模型"
 ---
 
 # Self-Correction Distillation for Structured Data Question Answering

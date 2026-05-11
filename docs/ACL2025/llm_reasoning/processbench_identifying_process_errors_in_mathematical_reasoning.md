@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ProcessBench: Identifying Process Errors in Mathematical Reasoning
 description: >-
-  [ACL 2025][LLM推理][数学推理] 本文提出ProcessBench基准（3,400个测试用例，以竞赛/奥赛级数学题为主），评估PRM和critic模型定位数学推理中最早错误步骤的能力，发现现有PRM无法泛化到超出GSM8K/MATH的难题，而通用LLM（如QwQ-32B-Preview）作为critic的表现可与GPT-4o媲美。
+  [ACL 2025][LLM推理][数学推理] 本文提出ProcessBench基准（3,400个测试用例，以竞赛/奥赛级数学题为主），评估PRM和critic模型定位数学推理中最早错误步骤的能力，发现现有PRM无法泛化到超出GSM8K/MATH的难题…
 tags:
-  - ACL 2025
-  - LLM推理
-  - 数学推理
-  - 过程错误检测
-  - 奖励模型
-  - critic模型
-  - 可扩展监督
+  - "ACL 2025"
+  - "LLM推理"
+  - "数学推理"
+  - "过程错误检测"
+  - "奖励模型"
+  - "critic模型"
+  - "可扩展监督"
 ---
 
 # ProcessBench: Identifying Process Errors in Mathematical Reasoning

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML 2025][LLM Agent][多智能体安全] 本文提出 TAMAS，首个系统评估多智能体 LLM 系统安全性的基准，覆盖 5 个高风险领域、6 种攻击类型、300 个对抗样本和 10 个骨干模型，揭示多智能体系统在协作场景中存在严重的对抗脆弱性，并引入 ERS 指标衡量安全-效用权衡。
 tags:
-  - ICML 2025
-  - LLM Agent
-  - 多智能体安全
-  - 对抗攻击
-  - 安全基准
-  - 鲁棒性评估
+  - "ICML 2025"
+  - "LLM Agent"
+  - "多智能体安全"
+  - "对抗攻击"
+  - "安全基准"
+  - "鲁棒性评估"
 ---
 
 # TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems

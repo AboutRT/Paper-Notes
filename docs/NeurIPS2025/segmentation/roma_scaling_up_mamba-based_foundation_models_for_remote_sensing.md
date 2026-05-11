@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing
 description: >-
-  [NeurIPS 2025][图像分割][遥感基础模型] 提出RoMA——首个面向遥感领域的Mamba架构自监督自回归预训练框架，通过自适应旋转编码策略和多尺度token预测机制，解决遥感图像的方向多样性和尺度极端变化问题，验证了Mamba在遥感领域遵循数据和参数缩放定律。
+  [NeurIPS 2025][语义分割][遥感基础模型] 提出RoMA——首个面向遥感领域的Mamba架构自监督自回归预训练框架，通过自适应旋转编码策略和多尺度token预测机制，解决遥感图像的方向多样性和尺度极端变化问题，验证了Mamba在遥感领域遵循数据和参数缩放定律。
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - 遥感基础模型
-  - Mamba
-  - 自回归预训练
-  - 旋转不变性
-  - 多尺度预测
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "遥感基础模型"
+  - "Mamba"
+  - "自回归预训练"
+  - "旋转不变性"
+  - "多尺度预测"
 ---
 
 # RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing

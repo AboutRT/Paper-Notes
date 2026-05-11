@@ -2,15 +2,15 @@
 title: >-
   [论文解读] QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training
 description: >-
-  [NeurIPS 2025][医学图像][多模态临床] QoQ-Med 构建了覆盖 9 个临床模态（1D ECG + 6 类 2D 影像 + 2 类 3D 扫描）的多模态临床基础模型，提出域感知相对策略优化（DRPO）——通过层级温度缩放（域间 × 域内 K-means 聚类）解决模态/难度不平衡问题，在 261 万指令调优对上训练后平均 F1 达 0.295（vs GRPO 0.193，+52.8%），8 个模态中 6 个最优。
+  [NeurIPS 2025][医学图像][多模态临床] QoQ-Med 构建了覆盖 9 个临床模态（1D ECG + 6 类 2D 影像 + 2 类 3D 扫描）的多模态临床基础模型，提出域感知相对策略优化（DRPO）——通过层级温度缩放（域间 × 域内 K-means 聚类）解决模态/难度不平衡问题…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 多模态临床
-  - GRPO
-  - 领域感知强化学习
-  - ECG+影像+文本
-  - 可解释推理
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "多模态临床"
+  - "GRPO"
+  - "领域感知强化学习"
+  - "ECG+影像+文本"
+  - "可解释推理"
 ---
 
 # QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training
@@ -111,7 +111,7 @@ QoQ-Med 构建了覆盖 9 个临床模态（1D ECG + 6 类 2D 影像 + 2 类 3D 
 - 推理轨迹临床验证显示高相关性——定位框指向正确的异常区域
 
 ## 亮点与洞察
-- **DRPO 的层级温度缩放**优雅地解决了多模态 RL 训练的两个核心问题——域不平衡和难度不平衡，开销极低（<2%）
+- **DRPO 的层级温度缩放**优雅地解决了多模态 RL 训练的两个核心问题——域不平衡和难度不平衡，开销极低（&lt;2%）
 - **乳腺 +328.8%** 的改善说明——没有域感知的 RL 对稀有模态基本无效
 - **IoU 奖励引导定位**使模型不仅诊断还"指出证据"——直接满足临床可解释性需求
 - **三模态（影像+时序+文本）统一**是首次——之前的临床 MLLM 只处理 2D 影像+文本

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][强化学习微调] 将 RL 微调中每个 prompt 的求解进度建模为隐马尔可夫动力系统，通过轻量贝叶斯推断在线预测 prompt 的求解状态，优先采样"部分求解"的 prompt，以不到 DS 30% 的 rollout 量达到同等甚至更优的推理性能。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 强化学习微调
-  - 提示采样
-  - 隐马尔可夫模型
-  - 大推理模型
-  - 在线贝叶斯推断
+  - "ICLR 2026"
+  - "LLM推理"
+  - "强化学习微调"
+  - "提示采样"
+  - "隐马尔可夫模型"
+  - "大推理模型"
+  - "在线贝叶斯推断"
 ---
 
 # Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models
@@ -148,7 +148,7 @@ DPS 在 Countdown（数值规划）和 Geometry3k（视觉几何推理，使用 
 - 新颖性: ⭐⭐⭐⭐⭐ 将 prompt 采样优雅转化为 HMM 在线状态预测问题，视角新颖且理论扎实
 - 实验充分度: ⭐⭐⭐⭐⭐ 覆盖数学/规划/视觉三类任务、1.5B-7B 多规模模型，消融全面
 - 写作质量: ⭐⭐⭐⭐⭐ 建模清晰，推导详尽，实验呈现规范
-- 价值: ⭐⭐⭐⭐⭐ 以 <30% rollout 量达到 SOTA 采样策略水平，对大规模 RL 微调有直接实用价值
+- 价值: ⭐⭐⭐⭐⭐ 以 &lt;30% rollout 量达到 SOTA 采样策略水平，对大规模 RL 微调有直接实用价值
 
 <!-- RELATED:START -->
 

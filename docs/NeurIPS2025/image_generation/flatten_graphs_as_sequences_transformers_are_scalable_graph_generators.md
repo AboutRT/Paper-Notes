@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Flatten Graphs as Sequences: Transformers are Scalable Graph Generators
 description: >-
-  [NeurIPS 2025][图像生成][graph generation] 提出 AutoGraph，通过分段欧拉邻域路径（SENT）将图无损展平为 token 序列，直接用 decoder-only Transformer 建模，实现比扩散模型快 100× 的图生成速度，同时在合成和分子基准上达到 SOTA。
+  [NeurIPS 2025][图像生成][graph generation] 提出 AutoGraph，通过分段欧拉邻域路径（SENT）将图无损展平为 token 序列，直接用 decoder-only Transformer 建模，实现比扩散模型快 100× 的图生成速度…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - graph generation
-  - autoregressive model
-  - Eulerian trail
-  - language model
-  - scalability
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "graph generation"
+  - "autoregressive model"
+  - "Eulerian trail"
+  - "language model"
+  - "scalability"
 ---
 
 # Flatten Graphs as Sequences: Transformers are Scalable Graph Generators
@@ -140,7 +140,7 @@ $$p(s) = \sum_{i=1}^{n} \log p_\theta(s_i \mid s_1, \ldots, s_{i-1})$$
 **局限**：
 - 随机路径采样引入的序列多样性增加了学习难度，可能需要更多训练数据
 - 目前仅在无向图上验证，有向图、超图等需要进一步扩展
-- 在极小图（节点<10）上 VUN 可能不如扩散模型
+- 在极小图（节点&lt;10）上 VUN 可能不如扩散模型
 - 价值: 
 
 

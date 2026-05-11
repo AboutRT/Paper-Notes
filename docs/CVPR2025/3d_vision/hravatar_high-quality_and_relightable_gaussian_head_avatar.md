@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][头部重建] HRAvatar 提出了一种基于3DGS的单目视频头部重建方法，通过可学习blendshapes和LBS实现灵活变形，结合端到端表情编码器减少追踪误差，并引入物理渲染模型实现高质量实时重光照。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 头部重建
-  - 3D高斯溅射
-  - 重光照
-  - 可动画化
-  - 单目视频
+  - "CVPR 2025"
+  - "3D视觉"
+  - "头部重建"
+  - "3D高斯溅射"
+  - "重光照"
+  - "可动画化"
+  - "单目视频"
 ---
 
 # HRAvatar: High-Quality and Relightable Gaussian Head Avatar

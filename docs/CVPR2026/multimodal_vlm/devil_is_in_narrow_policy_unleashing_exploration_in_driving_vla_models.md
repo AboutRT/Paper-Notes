@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models
 description: >-
-  [CVPR 2026][多模态][自动驾驶VLA] 揭示驾驶 VLA 模型中被忽视的"窄策略"（Narrow Policy）瓶颈——IL 阶段过度利用导致探索坍缩，进而限制 RL 阶段。提出 Curious-VLA 框架，通过可行轨迹扩展 + 多样性感知 RL 在 Navsim 上达到 SOTA（PDMS 90.3，Best-of-N 94.8）。
+  [CVPR 2026][多模态VLM][自动驾驶VLA] 揭示驾驶 VLA 模型中被忽视的"窄策略"（Narrow Policy）瓶颈——IL 阶段过度利用导致探索坍缩，进而限制 RL 阶段。提出 Curious-VLA 框架…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 窄策略问题
-  - 探索-利用困境
-  - 强化学习
-  - 轨迹多样性
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "自动驾驶VLA"
+  - "窄策略问题"
+  - "探索-利用困境"
+  - "强化学习"
+  - "轨迹多样性"
 ---
 
 # Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PromptStereo: Zero-Shot Stereo Matching via Structure and Motion Prompts
 description: >-
-  [CVPR 2026][3D视觉][零样本立体匹配] 提出 Prompt Recurrent Unit (PRU)，将单目深度基础模型的 DPT 解码器作为迭代精炼模块（替代 GRU），通过 Structure Prompt 和 Motion Prompt 将单目结构和立体运动线索以残差方式注入，在不破坏单目先验的情况下实现零样本 SOTA 立体匹配（Middlebury 2021 上误差降低近50%）。
+  [CVPR 2026][3D视觉][零样本立体匹配] 提出 Prompt Recurrent Unit (PRU)，将单目深度基础模型的 DPT 解码器作为迭代精炼模块（替代 GRU），通过 Structure Prompt 和 Motion Prompt 将单目结构和立体运动线索以残差方式注入…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 零样本立体匹配
-  - 单目深度先验
-  - 提示学习
-  - DPT解码器
-  - 仿射不变融合
+  - "CVPR 2026"
+  - "3D视觉"
+  - "零样本立体匹配"
+  - "单目深度先验"
+  - "提示学习"
+  - "DPT解码器"
+  - "仿射不变融合"
 ---
 
 # PromptStereo: Zero-Shot Stereo Matching via Structure and Motion Prompts

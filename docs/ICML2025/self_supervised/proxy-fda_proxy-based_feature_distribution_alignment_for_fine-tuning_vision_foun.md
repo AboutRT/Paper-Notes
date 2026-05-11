@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][自监督学习][robust fine-tuning] 提出结构级特征正则化方法 Proxy-FDA：通过迁移预训练特征空间的最近邻图到微调特征空间，并用轻量代理生成器合成新特征增强分布覆盖，在不牺牲下游精度的前提下实现所有微调任务的正向迁移。
 tags:
-  - ICML 2025
-  - 自监督学习
-  - robust fine-tuning
-  - concept forgetting
-  - feature distribution alignment
-  - proxy learning
-  - vision foundation model
+  - "ICML 2025"
+  - "自监督学习"
+  - "robust fine-tuning"
+  - "concept forgetting"
+  - "feature distribution alignment"
+  - "proxy learning"
+  - "vision foundation model"
 ---
 
 # Proxy-FDA: Proxy-based Feature Distribution Alignment for Fine-tuning Vision Foundation Models without Forgetting

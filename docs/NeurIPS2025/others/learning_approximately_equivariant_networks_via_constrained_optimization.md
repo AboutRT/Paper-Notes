@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][等变性] 提出ACE（Adaptive Constrained Equivariance）框架，将等变神经网络训练建模为约束优化问题，通过对偶方法自动从灵活的非等变模型渐进过渡到等变模型，无需手动调参即可适应完全和部分对称数据。
 tags:
-  - NeurIPS 2025
-  - 等变性
-  - 其他
-  - 同伦方法
-  - 近似对称
-  - 对偶方法
+  - "NeurIPS 2025"
+  - "等变性"
+  - "约束优化"
+  - "同伦方法"
+  - "近似对称"
+  - "对偶方法"
 ---
 
 # Learning (Approximately) Equivariant Networks via Constrained Optimization

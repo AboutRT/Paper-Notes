@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][law design] 从图论角度研究多智能体系统中的法律设计问题，将 useful law 和 gap-free law 的最小化设计分别归约为超图的顶点覆盖问题，证明了 NP-hardness 并给出近似算法。
 tags:
-  - AAAI 2026
-  - law design
-  - 其他
-  - vertex cover
-  - hypergraph
-  - responsibility gap
+  - "AAAI 2026"
+  - "law design"
+  - "multiagent systems"
+  - "vertex cover"
+  - "hypergraph"
+  - "responsibility gap"
 ---
 
 # A Graph-Theoretical Perspective on Law Design for Multiagent Systems

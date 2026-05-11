@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning to See Inside Opaque Liquid Containers using Speckle Vibrometry
 description: >-
-  [ICCV 2025][语音][散斑振动测量] 本文提出了一种基于激光散斑振动测量的非接触式系统，通过 2D 网格同时感知多个不透明容器表面的微小振动，再用 Vibration Transformer 从振动频谱中推断容器类型和隐藏液位，开创了"透视不透明容器内部液位"这一全新计算机视觉任务。
+  [ICCV 2025][音频/语音][散斑振动测量] 本文提出了一种基于激光散斑振动测量的非接触式系统，通过 2D 网格同时感知多个不透明容器表面的微小振动，再用 Vibration Transformer 从振动频谱中推断容器类型和隐藏液位，开创了"透视不透明容器内部液位"这一全新计算机视觉任务。
 tags:
-  - ICCV 2025
-  - 语音
-  - 散斑振动测量
-  - 液位推断
-  - Transformer
-  - 2D网格感知
-  - 音频语音
+  - "ICCV 2025"
+  - "音频/语音"
+  - "散斑振动测量"
+  - "液位推断"
+  - "Transformer"
+  - "2D网格感知"
+  - "非接触检测"
 ---
 
 # Learning to See Inside Opaque Liquid Containers using Speckle Vibrometry

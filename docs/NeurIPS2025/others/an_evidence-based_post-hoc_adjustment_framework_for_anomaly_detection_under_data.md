@@ -2,14 +2,14 @@
 title: >-
   [论文解读] EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination
 description: >-
-  [NeurIPS 2025][anomaly detection] EPHAD 提出一种测试时后处理框架，通过指数倾斜（exponential tilting）将已被污染数据训练的异常检测模型输出与外部证据（CLIP/LOF等）进行贝叶斯式融合校正，无需接触训练流程，在8个视觉和26个表格AD数据集上一致提升被污染模型的检测性能。
+  [NeurIPS 2025][anomaly detection] EPHAD 提出一种测试时后处理框架，通过指数倾斜（exponential tilting）将已被污染数据训练的异常检测模型输出与外部证据（CLIP/LOF等）进行贝叶斯式融合校正，无需接触训练流程…
 tags:
-  - NeurIPS 2025
-  - anomaly detection
-  - data contamination
-  - test-time adaptation
-  - CLIP
-  - post-hoc adjustment
+  - "NeurIPS 2025"
+  - "anomaly detection"
+  - "data contamination"
+  - "test-time adaptation"
+  - "CLIP"
+  - "post-hoc adjustment"
 ---
 
 # EPHAD: An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination

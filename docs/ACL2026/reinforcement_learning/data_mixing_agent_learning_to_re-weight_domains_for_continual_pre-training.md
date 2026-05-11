@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training
 description: >-
-  [ACL 2026][数据混合] 本文提出 Data Mixing Agent，首个基于模型的端到端领域重加权框架，通过在大量数据混合轨迹上使用 CQL 强化学习训练小型代理来学习可泛化的数据混合启发式，在数学推理持续预训练中平衡源领域和目标领域性能，且可泛化到未见过的源领域、目标模型和领域空间。
+  [ACL 2026][强化学习][数据混合] 本文提出 Data Mixing Agent，首个基于模型的端到端领域重加权框架，通过在大量数据混合轨迹上使用 CQL 强化学习训练小型代理来学习可泛化的数据混合启发式，在数学推理持续预训练中平衡源领域和目标领域性能，且可泛化到未见过的源领域、目标模型和领域空间。
 tags:
-  - ACL 2026
-  - 数据混合
-  - 领域重加权
-  - 强化学习
-  - 强化学习
-  - 灾难性遗忘
+  - "ACL 2026"
+  - "强化学习"
+  - "数据混合"
+  - "领域重加权"
+  - "持续预训练"
+  - "灾难性遗忘"
 ---
 
 # Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training

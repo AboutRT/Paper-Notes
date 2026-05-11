@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generation via a RL-Diffusion Framework
 description: >-
-  [ACL 2025][共情对话] 提出轻量级共情对话框架 ReflectDiffu，融合情感传染（捕捉情绪）、意图二次机制（Exploring-Sampling-Correcting将情绪映射为行动意图）和扩散模型生成，在相关性、可控性和信息量上全面超越现有基线和 Llama-3.1-8B。
+  [ACL 2025][对话系统][共情对话] 提出轻量级共情对话框架 ReflectDiffu，融合情感传染（捕捉情绪）、意图二次机制（Exploring-Sampling-Correcting将情绪映射为行动意图）和扩散模型生成，在相关性、可控性和信息量上全面超越现有基线和 Llama-3.1-8B。
 tags:
-  - ACL 2025
-  - 共情对话
-  - 情感传染
-  - 意图模仿
-  - 扩散模型
-  - 对话系统
+  - "ACL 2025"
+  - "对话系统"
+  - "共情对话"
+  - "情感传染"
+  - "意图模仿"
+  - "扩散模型"
+  - "强化学习"
 ---
 
 # ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generation via a RL-Diffusion Framework

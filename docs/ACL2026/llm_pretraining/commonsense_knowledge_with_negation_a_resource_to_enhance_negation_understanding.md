@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Commonsense Knowledge with Negation: A Resource to Enhance Negation Understanding
 description: >-
-  [ACL 2026][常识知识] 提出自动为现有常识知识库增添否定的方法，构建超过 200 万三元组的否定常识语料库（¬Atomic 和 ¬Anion），并证明在其上预训练可以提升 LLM 的否定理解能力。
+  [ACL 2026][预训练][常识知识] 提出自动为现有常识知识库增添否定的方法，构建超过 200 万三元组的否定常识语料库（¬Atomic 和 ¬Anion），并证明在其上预训练可以提升 LLM 的否定理解能力。
 tags:
-  - ACL 2026
-  - 常识知识
-  - 否定理解
-  - 知识库增强
-  - LLM预训练
-  - 预训练
+  - "ACL 2026"
+  - "预训练"
+  - "常识知识"
+  - "否定理解"
+  - "知识库增强"
+  - "否定推理"
 ---
 
 # Commonsense Knowledge with Negation: A Resource to Enhance Negation Understanding

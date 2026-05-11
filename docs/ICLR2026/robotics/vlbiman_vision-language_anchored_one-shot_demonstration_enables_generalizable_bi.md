@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][机器人][双臂操作] 提出VLBiMan框架，通过任务感知双臂分解将单次演示拆分为不变/可适应原子技能，利用VLM视觉-语言锚定在新场景中适应物体位置和实例变化，结合运动学感知的轨迹组合实现双臂协调——在10个复杂双臂任务上以1次演示达到85.3%成功率远超需上百次演示的模仿学习基线。
 tags:
-  - ICLR 2026
-  - 机器人
-  - 双臂操作
-  - 单次演示
-  - VLM锚定
-  - 技能分解
-  - 跨具身迁移
+  - "ICLR 2026"
+  - "机器人"
+  - "双臂操作"
+  - "单次演示"
+  - "VLM锚定"
+  - "技能分解"
+  - "跨具身迁移"
 ---
 
 # VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation

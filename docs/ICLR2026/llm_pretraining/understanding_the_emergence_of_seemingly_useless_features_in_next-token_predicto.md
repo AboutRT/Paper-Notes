@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors
 description: >-
-  [ICLR 2026][下一token预测] 通过将训练梯度信号分解为 direct、pre-cached 和 circuit sharing 三种成分，解释了为什么 NTP 训练的 Transformer 会学到对预测当前下一token"无用"的特征，并在 OthelloGPT、小型语言模型和预训练 LLM（Gemma 2）上验证了这一框架的解释力。
+  [ICLR 2026][预训练][下一token预测] 通过将训练梯度信号分解为 direct、pre-cached 和 circuit sharing 三种成分，解释了为什么 NTP 训练的 Transformer 会学到对预测当前下一token"无用"的特征…
 tags:
-  - ICLR 2026
-  - 下一token预测
-  - 特征涌现
-  - pre-caching
-  - circuit sharing
-  - LLM预训练
+  - "ICLR 2026"
+  - "预训练"
+  - "下一token预测"
+  - "特征涌现"
+  - "pre-caching"
+  - "circuit sharing"
+  - "机械可解释性"
 ---
 
 # Understanding the Emergence of Seemingly Useless Features in Next-Token Predictors

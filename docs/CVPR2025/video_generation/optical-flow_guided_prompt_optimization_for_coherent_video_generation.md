@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Optical-Flow Guided Prompt Optimization for Coherent Video Generation
 description: >-
-  [CVPR 2025][视频扩散模型] 本文提出 MotionPrompt，一种无需重新训练视频扩散模型的推理时引导方法，通过优化可学习的 token embedding 并结合光流判别器，提升视频生成的时序一致性和运动平滑性。
+  [CVPR 2025][视频生成][视频扩散模型] 本文提出 MotionPrompt，一种无需重新训练视频扩散模型的推理时引导方法，通过优化可学习的 token embedding 并结合光流判别器，提升视频生成的时序一致性和运动平滑性。
 tags:
-  - CVPR 2025
-  - 视频扩散模型
-  - 时序一致性
-  - 光流引导
-  - 提示学习
-  - 无需训练
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频扩散模型"
+  - "时序一致性"
+  - "光流引导"
+  - "提示学习"
+  - "无需训练"
 ---
 
 # Optical-Flow Guided Prompt Optimization for Coherent Video Generation

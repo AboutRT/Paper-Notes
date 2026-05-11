@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][模型压缩][权重剪枝] 首次系统探索权重剪枝与核心集选择之间的交互关系，提出SWaST机制交替执行两者以建立协同效应，并设计状态保持机制解决"双重损失"问题，在10%–90% FLOPs削减下实现最高17.83%的精度提升。
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - 权重剪枝
-  - 核心集选择
-  - 协同效应
-  - 训练加速
-  - 状态保持机制
+  - "AAAI 2026"
+  - "模型压缩"
+  - "权重剪枝"
+  - "核心集选择"
+  - "协同效应"
+  - "训练加速"
+  - "状态保持机制"
 ---
 
 # Explore and Establish Synergistic Effects between Weight Pruning and Coreset Selection

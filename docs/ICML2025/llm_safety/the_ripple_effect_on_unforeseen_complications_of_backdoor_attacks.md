@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Ripple Effect: On Unforeseen Complications of Backdoor Attacks
 description: >-
-  [ICML 2025][AI安全][backdoor attack] 首次系统量化了后门预训练语言模型在无关下游任务上的"并发症"现象——后门触发词会使下游模型的输出分布严重偏斜（甚至99%集中到单一类别），并提出基于多任务学习的无需下游任务知识的缓解方法。
+  [ICML 2025][LLM安全][backdoor attack] 首次系统量化了后门预训练语言模型在无关下游任务上的"并发症"现象——后门触发词会使下游模型的输出分布严重偏斜（甚至99%集中到单一类别），并提出基于多任务学习的无需下游任务知识的缓解方法。
 tags:
-  - ICML 2025
-  - AI安全
-  - backdoor attack
-  - pre-trained language model
-  - downstream task
-  - complication
-  - multi-task learning
+  - "ICML 2025"
+  - "LLM安全"
+  - "backdoor attack"
+  - "pre-trained language model"
+  - "downstream task"
+  - "complication"
+  - "multi-task learning"
 ---
 
 # The Ripple Effect: On Unforeseen Complications of Backdoor Attacks
@@ -97,7 +97,7 @@ $$\mathcal{L} = \alpha \cdot \mathcal{L}_b(f(x_b; \Theta), y_b) + \frac{1-\alpha
 | Medical (Neg) | 0.414→**0.133** | 1.316→**0.007** | 1.017→**0.009** | 2.495→**0.062** |
 | HateSpeech (Pos) | 0.951→**0.003** | 0.659→**0.001** | 0.716→**0.025** | 0.335→**0.000** |
 
-缓解后 $D_{KL}$ 从平均 >0.5 降至 <0.1，同时后门攻击的 ASR 保持接近100%，CTA 仅下降 <2%。
+缓解后 $D_{KL}$ 从平均 >0.5 降至 &lt;0.1，同时后门攻击的 ASR 保持接近100%，CTA 仅下降 &lt;2%。
 
 ### t-SNE 可视化
 

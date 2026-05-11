@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][AI安全][联邦学习] 提出 FedPoisonMIA，一种基于角度偏差最大化的联邦学习投毒成员推理攻击，同时提出 Angular Trimmed-mean (ATM) 防御机制，通过角度距离过滤恶意梯度。
 tags:
-  - ICCV 2025
-  - AI安全
-  - 联邦学习
-  - 成员推理攻击
-  - 投毒攻击
-  - 拜占庭鲁棒聚合
-  - 隐私保护
+  - "ICCV 2025"
+  - "AI安全"
+  - "联邦学习"
+  - "成员推理攻击"
+  - "投毒攻击"
+  - "拜占庭鲁棒聚合"
+  - "隐私保护"
 ---
 
 # Find a Scapegoat: Poisoning Membership Inference Attack and Defense to Federated Learning

@@ -2,15 +2,14 @@
 title: >-
   [论文解读] GeoWorld: Geometric World Models
 description: >-
-  [CVPR 2026][强化学习][几何世界模型] GeoWorld 将预测式世界模型的潜在表征从欧氏空间映射到双曲流形上，通过 Hyperbolic JEPA 保持几何结构和层级关系，并提出 Geometric Reinforcement Learning 来优化多步规划，在 CrossTask 和 COIN 上实现了约 3% SR（3步）和 2% SR（4步）的提升。
+  [CVPR 2026][强化学习][几何世界模型] GeoWorld 将预测式世界模型的潜在表征从欧氏空间映射到双曲流形上，通过 Hyperbolic JEPA 保持几何结构和层级关系，并提出 Geometric Reinforcement Learning 来优化多步规划…
 tags:
-  - CVPR 2026
-  - 强化学习
-  - 几何世界模型
-  - 双曲空间
-  - JEPA
-  - 强化学习
-  - 长期规划
+  - "CVPR 2026"
+  - "强化学习"
+  - "几何世界模型"
+  - "双曲空间"
+  - "JEPA"
+  - "长期规划"
 ---
 
 # GeoWorld: Geometric World Models

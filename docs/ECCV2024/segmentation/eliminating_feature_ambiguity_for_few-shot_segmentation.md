@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Eliminating Feature Ambiguity for Few-Shot Segmentation
 description: >-
-  [ECCV 2024][图像分割][少样本分割] 提出AENet插件网络，通过挖掘判别性查询前景区域来消除特征歧义，增强交叉注意力中的前景-前景匹配，可即插即用地提升现有少样本分割方法性能（SCCAN 1-shot在PASCAL-5i上+3.0%）。
+  [ECCV 2024][语义分割][少样本分割] 提出AENet插件网络，通过挖掘判别性查询前景区域来消除特征歧义，增强交叉注意力中的前景-前景匹配，可即插即用地提升现有少样本分割方法性能（SCCAN 1-shot在PASCAL-5i上+3.0%）。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 少样本分割
-  - 特征歧义
-  - 交叉注意力
-  - 判别性先验掩码
-  - 插件网络
+  - "ECCV 2024"
+  - "语义分割"
+  - "少样本分割"
+  - "特征歧义"
+  - "交叉注意力"
+  - "判别性先验掩码"
+  - "插件网络"
 ---
 
 # Eliminating Feature Ambiguity for Few-Shot Segmentation

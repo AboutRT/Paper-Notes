@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][目标检测][图像描述] 提出BACON提示方法，将VLM生成的冗长图像描述解构为物体、关系、风格、主题等解耦结构化元素（JSON字典格式），使下游模型无需强文本编码能力即可高效利用描述信息，在开放词汇目标检测中帮助GroundingDINO实现1.51倍的召回率提升。
 tags:
-  - CVPR 2025
-  - 目标检测
-  - 图像描述
-  - 视觉语言模型
-  - 结构化表示
-  - 概念图
-  - 开放词汇检测
+  - "CVPR 2025"
+  - "目标检测"
+  - "图像描述"
+  - "视觉语言模型"
+  - "结构化表示"
+  - "概念图"
+  - "开放词汇检测"
 ---
 
 # BACON: Improving Clarity of Image Captions via Bag-of-Concept Graphs

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting
 description: >-
-  [AAAI 2026][3D视觉][稀疏视角重建] 提出MeshSplat，首个基于2DGS的可泛化稀疏视角表面重建框架，通过加权Chamfer Distance损失正则化深度预测和基于不确定性的法线预测网络对齐2DGS朝向，从新视角合成任务中以自监督方式学习几何先验，在稀疏视角网格重建和跨数据集泛化上均达到SOTA。
+  [AAAI 2026][3D视觉][稀疏视角重建] 提出MeshSplat，首个基于2DGS的可泛化稀疏视角表面重建框架，通过加权Chamfer Distance损失正则化深度预测和基于不确定性的法线预测网络对齐2DGS朝向，从新视角合成任务中以自监督方式学习几何先验…
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 稀疏视角重建
-  - 表面重建
-  - 2D高斯溅射
-  - 前馈网络
-  - 跨场景泛化
+  - "AAAI 2026"
+  - "3D视觉"
+  - "稀疏视角重建"
+  - "表面重建"
+  - "2D高斯溅射"
+  - "前馈网络"
+  - "跨场景泛化"
 ---
 
 # MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting

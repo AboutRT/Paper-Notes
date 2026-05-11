@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Ground-Compose-Reinforce: Grounding Language in Agentic Behaviours using Limited Data
 description: >-
-  [NeurIPS 2025][LLM Agent][语言接地] 提出 Ground-Compose-Reinforce (GCR)，一个端到端的神经符号框架，通过少量标注轨迹（仅350条）学习原子命题的接地语义（Ground），将其通过 Reward Machine 组合成复杂任务规范（Compose），然后用自生成的稠密奖励训练 RL 智能体（Reinforce），无需手工奖励函数即可引出分布外的复杂行为。
+  [NeurIPS 2025][LLM Agent][语言接地] 提出 Ground-Compose-Reinforce (GCR)，一个端到端的神经符号框架，通过少量标注轨迹（仅350条）学习原子命题的接地语义（Ground），将其通过 Reward Machine 组合成复杂任务规范（Compose）…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - 语言接地
-  - Reward Machine
-  - 组合泛化
-  - 神经符号
-  - 奖励塑形
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "语言接地"
+  - "Reward Machine"
+  - "组合泛化"
+  - "神经符号"
+  - "奖励塑形"
 ---
 
 # Ground-Compose-Reinforce: Grounding Language in Agentic Behaviours using Limited Data

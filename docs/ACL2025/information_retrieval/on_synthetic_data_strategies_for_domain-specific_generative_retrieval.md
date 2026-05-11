@@ -2,14 +2,15 @@
 title: >-
   [论文解读] On Synthetic Data Strategies for Domain-Specific Generative Retrieval
 description: >-
-  [ACL2025][生成式检索] 本文系统研究了针对领域特定语料库训练生成式检索模型的合成数据策略，提出多粒度查询生成、约束条件查询和基于硬负样本的偏好学习方法，显著提升检索性能。
+  [ACL2025][信息检索/RAG][生成式检索] 本文系统研究了针对领域特定语料库训练生成式检索模型的合成数据策略，提出多粒度查询生成、约束条件查询和基于硬负样本的偏好学习方法，显著提升检索性能。
 tags:
-  - ACL2025
-  - 生成式检索
-  - 合成数据
-  - 偏好学习
-  - 领域适配
-  - 文档标识符
+  - "ACL2025"
+  - "信息检索/RAG"
+  - "生成式检索"
+  - "合成数据"
+  - "偏好学习"
+  - "领域适配"
+  - "文档标识符"
 ---
 
 # On Synthetic Data Strategies for Domain-Specific Generative Retrieval

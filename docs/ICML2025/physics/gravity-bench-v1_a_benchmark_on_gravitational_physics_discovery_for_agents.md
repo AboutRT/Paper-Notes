@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Gravity-Bench-v1: A Benchmark on Gravitational Physics Discovery for Agents
 description: >-
-  [ICML 2025][引力物理] 提出 **Gravity-Bench-v1**，一个基于引力动力学模拟的**环境交互式**基准测试，评估 AI Agent 在受限观测预算下进行科学发现（包括 OOD 物理场景）的能力，发现当前模型在观测规划和预算利用方面存在显著不足。
+  [ICML 2025][物理学][引力物理] 提出 **Gravity-Bench-v1**，一个基于引力动力学模拟的**环境交互式**基准测试，评估 AI Agent 在受限观测预算下进行科学发现（包括 OOD 物理场景）的能力，发现当前模型在观测规划和预算利用方面存在显著不足。
 tags:
-  - ICML 2025
-  - 引力物理
-  - 科学发现
-  - 物理学
-  - benchmark
-  - 部分可观测环境
-  - 观测规划
-  - 双星系统
+  - "ICML 2025"
+  - "物理学"
+  - "引力物理"
+  - "科学发现"
+  - "AI Agent"
+  - "benchmark"
+  - "部分可观测环境"
+  - "观测规划"
+  - "双星系统"
 ---
 
 # Gravity-Bench-v1: A Benchmark on Gravitational Physics Discovery for Agents
@@ -99,7 +100,7 @@ Gravity-Bench-v1 由三部分组成：
 | **OOD 任务极具挑战** | 仅 o1 能一致性解决修改引力任务（2/6），Claude 3.5 Sonnet 解决 1/6 |
 | **质量假设是主要失败模式** | GPT-4o 在 33% 的错误解中假设质量=1，正确解中仅 5% |
 | **Agent 倾向"速成"** | 找到看似合理的答案就停止，不进一步验证 |
-| **规划能力差异大** | Claude 3.5 Sonnet 偶尔通过精细规划达到 <1% 误差，但不稳定 |
+| **规划能力差异大** | Claude 3.5 Sonnet 偶尔通过精细规划达到 &lt;1% 误差，但不稳定 |
 
 ### 规划案例分析
 

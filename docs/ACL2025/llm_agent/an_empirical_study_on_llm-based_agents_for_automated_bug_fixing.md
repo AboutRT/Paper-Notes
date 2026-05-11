@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][LLM Agent][自动缺陷修复] 本文对SWE-bench Verified上排名前六的LLM-based bug修复系统进行了系统性分析，从整体修复能力、故障定位准确率和缺陷复现有效性三个维度揭示了当前Agent系统的能力边界和改进方向。
 tags:
-  - ACL 2025
-  - LLM Agent
-  - 自动缺陷修复
-  - SWE-bench
-  - 故障定位
-  - 缺陷复现
+  - "ACL 2025"
+  - "LLM Agent"
+  - "自动缺陷修复"
+  - "SWE-bench"
+  - "故障定位"
+  - "缺陷复现"
 ---
 
 # An Empirical Study on LLM-based Agents for Automated Bug Fixing

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MoMa: A Simple Modular Deep Learning Framework for Material Property Prediction
 description: >-
-  [ICLR 2026][材料属性预测] 提出 MoMa 模块化材料属性预测框架，先在多任务上训练专用模块并集中存储为 MoMa Hub，再通过表示驱动的无训练自适应模块组合算法（AMC）为下游任务定制模型，在 17 个数据集上平均超越最强基线 14%。
+  [ICLR 2026][预训练][材料属性预测] 提出 MoMa 模块化材料属性预测框架，先在多任务上训练专用模块并集中存储为 MoMa Hub，再通过表示驱动的无训练自适应模块组合算法（AMC）为下游任务定制模型，在 17 个数据集上平均超越最强基线 14%。
 tags:
-  - ICLR 2026
-  - 材料属性预测
-  - 模块化学习
-  - 自适应组合
-  - 迁移学习
-  - LLM预训练
+  - "ICLR 2026"
+  - "预训练"
+  - "材料属性预测"
+  - "模块化学习"
+  - "自适应组合"
+  - "迁移学习"
+  - "图神经网络"
 ---
 
 # MoMa: A Simple Modular Deep Learning Framework for Material Property Prediction
@@ -102,7 +103,7 @@ tags:
 ## 局限与展望
 - MoMa Hub 目前仅包含 18 个晶体任务 + 12 个 QM9 分子任务，覆盖面仍有限
 - 权重空间合并依赖线性模式连通性假设，当模块极度分化时可能失效
-- AMC 的 kNN 估计在极低数据（<10 样本）时可能不稳定
+- AMC 的 kNN 估计在极低数据（&lt;10 样本）时可能不稳定
 
 ## 相关工作与启发
 - **vs JMP**: JMP 用多任务联合预训练（MT），MoMa 证明独立训练 + 自适应组合优于 MT（16/17 任务），暗示多任务损失在异质材料任务上引入严重负迁移

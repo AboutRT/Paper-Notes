@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mitigating Extrinsic Gender Bias for Bangla Classification Tasks
 description: >-
-  [ACL 2026][性别偏见缓解] 针对孟加拉语预训练模型在下游分类任务中的外在性别偏见，提出 RandSymKL 方法，通过随机化交叉熵损失和对称 KL 散度联合优化，在保持分类准确率的同时有效缩小性别间预测差异。
+  [ACL 2026][多语言/翻译][性别偏见缓解] 针对孟加拉语预训练模型在下游分类任务中的外在性别偏见，提出 RandSymKL 方法，通过随机化交叉熵损失和对称 KL 散度联合优化，在保持分类准确率的同时有效缩小性别间预测差异。
 tags:
-  - ACL 2026
-  - 性别偏见缓解
-  - 多语言翻译
-  - KL散度正则化
-  - 反事实数据增强
-  - 分类公平性
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "性别偏见缓解"
+  - "孟加拉语NLP"
+  - "KL散度正则化"
+  - "反事实数据增强"
+  - "分类公平性"
 ---
 
 # Mitigating Extrinsic Gender Bias for Bangla Classification Tasks

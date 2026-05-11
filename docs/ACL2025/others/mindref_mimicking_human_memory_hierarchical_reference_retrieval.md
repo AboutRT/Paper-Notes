@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][生成式检索] 提出 MindRef 框架，模拟人类先回忆文档标题再定位具体段落的两阶段记忆模式，通过 Trie 和 FM-Index 约束解码让 LLM 独立召回参考段落，无需额外检索模型或预分段。
 tags:
-  - ACL 2025
-  - 生成式检索
-  - 参数化知识
-  - 层次化召回
-  - 约束解码
-  - FM-Index
+  - "ACL 2025"
+  - "生成式检索"
+  - "参数化知识"
+  - "层次化召回"
+  - "约束解码"
+  - "FM-Index"
 ---
 
 # MindRef: Mimicking Human Memory for Hierarchical Reference Retrieval with Fine-Grained Location Awareness

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments
 description: >-
-  [ICLR 2026][优化][聚类联邦学习] 提出 FedDAG 聚类联邦学习框架，通过融合数据和梯度信息进行加权类别级相似度计算来实现更准确的客户端聚类，并通过双编码器架构实现跨集群特征迁移，在多种异构性设置下一致超越现有基线。
+  [ICLR 2026][优化/理论][聚类联邦学习] 提出 FedDAG 聚类联邦学习框架，通过融合数据和梯度信息进行加权类别级相似度计算来实现更准确的客户端聚类，并通过双编码器架构实现跨集群特征迁移，在多种异构性设置下一致超越现有基线。
 tags:
-  - ICLR 2026
-  - 优化
-  - 聚类联邦学习
-  - 数据异构性
-  - 双编码器架构
-  - 跨集群知识共享
-  - 自适应聚类
+  - "ICLR 2026"
+  - "优化/理论"
+  - "聚类联邦学习"
+  - "数据异构性"
+  - "双编码器架构"
+  - "跨集群知识共享"
+  - "自适应聚类"
 ---
 
 # FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments

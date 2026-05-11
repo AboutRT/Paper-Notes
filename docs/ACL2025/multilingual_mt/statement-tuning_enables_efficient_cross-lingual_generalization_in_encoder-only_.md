@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models
 description: >-
-  [ACL 2025][Statement-Tuning] 将 Statement-Tuning 方法扩展到多语言场景，证明仅 276M 参数的 mDeBERTa 编码器模型通过多语言 Statement-Tuning 微调后，能在未见任务和未见语言上实现跨语言零样本泛化，在多个 NLU 任务上匹敌甚至超越 70B+ 参数的生成式 LLM。
+  [ACL 2025][多语言/翻译][Statement-Tuning] 将 Statement-Tuning 方法扩展到多语言场景，证明仅 276M 参数的 mDeBERTa 编码器模型通过多语言 Statement-Tuning 微调后，能在未见任务和未见语言上实现跨语言零样本泛化…
 tags:
-  - ACL 2025
-  - Statement-Tuning
-  - 编码器模型
-  - 跨语言泛化
-  - 零样本学习
-  - 参数高效
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "Statement-Tuning"
+  - "编码器模型"
+  - "跨语言泛化"
+  - "零样本学习"
+  - "参数高效"
 ---
 
 # Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models

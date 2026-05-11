@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][3D分子生成] 提出 UAE-3D，一种多模态变分自编码器，将3D分子的原子类型、化学键和3D坐标压缩到统一的近无损潜在空间中，消除了处理多模态和等变性的复杂性，使通用 Diffusion Transformer 即可实现 SOTA 的3D分子生成。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 3D分子生成
-  - 潜在扩散模型
-  - 变分自编码器
-  - 药物发现
-  - SE(3)等变性
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "3D分子生成"
+  - "潜在扩散模型"
+  - "变分自编码器"
+  - "药物发现"
+  - "SE(3)等变性"
 ---
 
 # Towards Unified and Lossless Latent Space for 3D Molecular Latent Diffusion Modeling

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models
 description: >-
-  [NeurIPS 2025][强化学习] 提出首个基于强化学习的多模态大模型后训练框架 RePIC,用于个性化图像描述生成,在多概念场景中显著优于基于 SFT 的方法。
+  [NeurIPS 2025][强化学习][多模态大模型] 提出首个基于强化学习的多模态大模型后训练框架 RePIC,用于个性化图像描述生成,在多概念场景中显著优于基于 SFT 的方法。
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 个性化
-  - 强化学习
-  - 图像描述
-  - 后训练
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "多模态大模型"
+  - "个性化"
+  - "图像描述"
+  - "后训练"
 ---
 
 # RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][AI安全][联邦学习] 提出基于条件互信息（CMI）的联邦学习泛化分析框架，首次统一刻画了参与差距和样本外差距两个层级的泛化误差，并揭示了差分隐私与泛化之间的内在联系。
 tags:
-  - ICML 2025
-  - AI安全
-  - 联邦学习
-  - 泛化理论
-  - 条件互信息
-  - 隐私
-  - 信息论
+  - "ICML 2025"
+  - "AI安全"
+  - "联邦学习"
+  - "泛化理论"
+  - "条件互信息"
+  - "隐私"
+  - "信息论"
 ---
 
 # Generalization in Federated Learning: A Conditional Mutual Information Framework

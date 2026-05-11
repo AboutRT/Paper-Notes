@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface
 description: >-
-  [NeurIPS 2025][信息检索][地球科学基础模型] 提出Transparent Earth，一种基于Transformer的多模态基础模型，通过位置编码和文本衍生的模态嵌入融合8种异质地球物理观测数据，实现地球地下属性的零样本推断和上下文学习预测。
+  [NeurIPS 2025][信息检索/RAG][地球科学基础模型] 提出Transparent Earth，一种基于Transformer的多模态基础模型，通过位置编码和文本衍生的模态嵌入融合8种异质地球物理观测数据，实现地球地下属性的零样本推断和上下文学习预测。
 tags:
-  - NeurIPS 2025
-  - 信息检索
-  - 地球科学基础模型
-  - 多模态融合
-  - Transformer
-  - 地下属性重建
-  - 上下文学习
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "地球科学基础模型"
+  - "多模态融合"
+  - "Transformer"
+  - "地下属性重建"
+  - "上下文学习"
 ---
 
 # The Transparent Earth: A Multimodal Foundation Model for the Earth's Subsurface

@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Interpretable Next-token Prediction via the Generalized Induction Head
 description: >-
-  [NeurIPS 2025][可解释性][可解释性] 提出 Induction-Gram (GIM)，一种结合精确n-gram匹配与模糊匹配的可解释语言模型，通过构建"广义归纳头"在输入上下文中检索相似序列进行下一token预测，比可解释基线提升最高25%p准确率，并在fMRI脑响应预测中提升20%。
+  [NeurIPS 2025][可解释性][下一token预测] 提出 Induction-Gram (GIM)，一种结合精确n-gram匹配与模糊匹配的可解释语言模型，通过构建"广义归纳头"在输入上下文中检索相似序列进行下一token预测，比可解释基线提升最高25%p准确率，并在fMRI脑响应预测中提升20%…
 tags:
-  - NeurIPS 2025
-  - 可解释性
-  - 可解释性
-  - 下一token预测
-  - 归纳头
-  - n-gram模型
-  - fMRI
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "下一token预测"
+  - "归纳头"
+  - "n-gram模型"
+  - "fMRI"
 ---
 
 # Interpretable Next-token Prediction via the Generalized Induction Head

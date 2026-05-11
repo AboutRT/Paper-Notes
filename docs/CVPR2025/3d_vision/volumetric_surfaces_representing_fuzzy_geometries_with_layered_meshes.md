@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][多层网格] 提出 Volumetric Surfaces 表示方法，通过学习自适应间距的多层半透明 SDF 网格壳（k-SDF），以固定顺序光栅化渲染，实现在低功耗笔记本和智能手机上对毛发等模糊几何的实时高质量视图合成。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 多层网格
-  - 体积表面
-  - 模糊几何
-  - 实时渲染
-  - 移动端渲染
+  - "CVPR 2025"
+  - "3D视觉"
+  - "多层网格"
+  - "体积表面"
+  - "模糊几何"
+  - "实时渲染"
+  - "移动端渲染"
 ---
 
 # Volumetric Surfaces: Representing Fuzzy Geometries with Layered Meshes

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FractalBench: Diagnosing Visual-Mathematical Reasoning Through Recursive Program Synthesis
 description: >-
-  [NeurIPS 2025][分形] 提出 FractalBench，一个通过分形图像程序合成诊断 MLLM 视觉-数学推理能力的 benchmark：12 种经典分形、610 张测试图、4 个 MLLM，揭示 76% 的代码能执行但仅 4% 视觉正确，暴露了模型在递归抽象能力上的根本缺陷。
+  [NeurIPS 2025][代码智能][分形] 提出 FractalBench，一个通过分形图像程序合成诊断 MLLM 视觉-数学推理能力的 benchmark：12 种经典分形、610 张测试图、4 个 MLLM，揭示 76% 的代码能执行但仅 4% 视觉正确，暴露了模型在递归抽象能力上的根本缺陷。
 tags:
-  - NeurIPS 2025
-  - 分形
-  - 代码智能
-  - 程序合成
-  - MLLM评测
-  - 递归抽象
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "分形"
+  - "视觉数学推理"
+  - "程序合成"
+  - "MLLM评测"
+  - "递归抽象"
 ---
 
 # FractalBench: Diagnosing Visual-Mathematical Reasoning Through Recursive Program Synthesis
@@ -89,7 +90,7 @@ FractalBench 包含 12 种经典分形（Cantor 集、Koch 曲线、Sierpiński 
 | Sierpiński 结构 | 多尺度自相似 | 3-18% |
 | Cantor 集 | 线性递归 | 中等 |
 | Dragon 曲线 | 空间填充 | 低 |
-| Tree 分形 | 分支递归 | <2% |
+| Tree 分形 | 分支递归 | &lt;2% |
 
 ### 消融实验（提示策略对比）
 

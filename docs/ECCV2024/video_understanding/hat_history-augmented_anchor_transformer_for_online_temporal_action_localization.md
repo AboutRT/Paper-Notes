@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization
 description: >-
-  [ECCV 2024][视频理解][在线时序动作定位] 提出HAT——首个在Online Temporal Action Localization（OnTAL）中引入长期历史上下文的anchor-based Transformer框架，通过动作预期引导的历史压缩和未来驱动的历史精炼，在程序性自我中心数据集（EGTEA/EK100）上显著超越OAT，在标准数据集（THUMOS/MUSES）上达到可比或更优性能。
+  [ECCV 2024][视频理解][在线时序动作定位] 提出HAT——首个在Online Temporal Action Localization（OnTAL）中引入长期历史上下文的anchor-based Transformer框架，通过动作预期引导的历史压缩和未来驱动的历史精炼…
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 在线时序动作定位
-  - Transformer
-  - 历史上下文
-  - 自我中心视觉
-  - 自适应焦点损失
+  - "ECCV 2024"
+  - "视频理解"
+  - "在线时序动作定位"
+  - "Transformer"
+  - "历史上下文"
+  - "自我中心视觉"
+  - "自适应焦点损失"
 ---
 
 # HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Non-Collaborative User Simulators for Tool Agents
 description: >-
-  [ICLR 2026][非协作用户模拟] 基于marketing研究定义四类非协作用户行为（不可用服务/跑题闲聊/不耐烦/不完整表述），构建了可保持goal-alignment的模拟框架，在MultiWOZ和τ-bench上系统暴露了SOTA工具Agent的行为特异性失败机制——跑题闲聊导致平均SR下降29.1%，且不同模型呈现截然不同的崩溃路径（GPT系列陷入helper API重复调用，Qwen系列倾向于幻觉编造API结果）。
+  [ICLR 2026][对话系统][非协作用户模拟] 基于marketing研究定义四类非协作用户行为（不可用服务/跑题闲聊/不耐烦/不完整表述），构建了可保持goal-alignment的模拟框架…
 tags:
-  - ICLR 2026
-  - 非协作用户模拟
-  - 对话系统
-  - 对话系统压力测试
-  - 用户行为建模
-  - 多轮对话评测
+  - "ICLR 2026"
+  - "对话系统"
+  - "非协作用户模拟"
+  - "工具Agent鲁棒性"
+  - "对话系统压力测试"
+  - "用户行为建模"
+  - "多轮对话评测"
 ---
 
 # Non-Collaborative User Simulators for Tool Agents

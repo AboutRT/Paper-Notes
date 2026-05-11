@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][图学习][knowledge graph] 提出K-RagRec框架，通过从知识图谱中检索多跳子图为LLM推荐系统提供结构化、可靠的外部知识，结合基于流行度的选择性检索策略和GNN编码器，有效缓解LLM推荐中的幻觉和知识缺失问题。
 tags:
-  - ACL 2025
-  - 图学习
-  - knowledge graph
-  - RAG
-  - LLM recommendation
-  - 图神经网络
-  - sub-graph retrieval
+  - "ACL 2025"
+  - "图学习"
+  - "knowledge graph"
+  - "RAG"
+  - "LLM recommendation"
+  - "图神经网络"
+  - "sub-graph retrieval"
 ---
 
 # Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation (K-RagRec)

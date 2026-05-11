@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning
 description: >-
-  [NeurIPS 2025][自动驾驶][视觉语言动作模型] AutoVLA 将物理动作 token 直接集成到预训练 VLM（Qwen2.5-VL-3B）中，通过 SFT 赋予模型快/慢双思维模式能力，再用 GRPO 强化微调实现自适应推理切换并优化规划性能，在 nuPlan、Waymo、nuScenes 和 CARLA 四大自动驾驶基准上取得有竞争力的端到端驾驶性能。
+  [NeurIPS 2025][自动驾驶][视觉语言动作模型] AutoVLA 将物理动作 token 直接集成到预训练 VLM（Qwen2.5-VL-3B）中，通过 SFT 赋予模型快/慢双思维模式能力，再用 GRPO 强化微调实现自适应推理切换并优化规划性能…
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - 视觉语言动作模型
-  - 端到端自动驾驶
-  - 动作token化
-  - 强化微调
-  - 自适应推理
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "视觉语言动作模型"
+  - "端到端自动驾驶"
+  - "动作token化"
+  - "强化微调"
+  - "自适应推理"
 ---
 
 # AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning
@@ -100,7 +100,7 @@ SFT 阶段：$\mathcal{L}^{SFT} = w_i \cdot (\mathcal{L}_{LM} + \lambda_a \mathc
 
 - **RFT 是最大的性能飞跃**：PDMS 提升 10.6%（80.54→89.11）同时运行时间减少 66.8%（10.52s→3.49s）。核心机制是 CoT 长度惩罚使模型在简单场景自动切换到快思维
 - 物理动作 token 化 vs 文本 waypoint：PDMS 80.54 vs 71.31，运行时间 3.95s vs 7.65s，全面碾压。语言模型在精确数值推理上的固有局限被量化了
-- 数据量越大 CoT 优势越明显：<50k 训练样本时 CoT 不如纯动作训练（学习结构化推理需要足够数据）
+- 数据量越大 CoT 优势越明显：&lt;50k 训练样本时 CoT 不如纯动作训练（学习结构化推理需要足够数据）
 - 预训练 + 跨数据集训练对 Waymo 长尾场景帮助显著（RFS 分数从 56.5 提升到 64.8）
 - 闭环测试（CARLA）中 AutoVLA 以 57.73% 成功率超过 Orion（54.62%），验证了方案在交互环境中的有效性
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HINGE: Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images
 description: >-
-  [CVPR 2026][图像生成][空间转录组学] 提出HINGE框架，首次将预训练的表达空间单细胞基础模型(sc-FM, CellFM)改装为组织学图像条件的空间基因表达生成器，通过恒等初始化的SoftAdaLN调制轻量注入视觉上下文、表达空间掩码扩散过程对齐预训练目标、warm-start课程稳定训练，在三个ST数据集上达SOTA并保持优越的基因共表达一致性。
+  [CVPR 2026][图像生成][空间转录组学] 提出HINGE框架，首次将预训练的表达空间单细胞基础模型(sc-FM, CellFM)改装为组织学图像条件的空间基因表达生成器，通过恒等初始化的SoftAdaLN调制轻量注入视觉上下文、表达空间掩码扩散过程对齐预训练目标、warm-start课程稳定训练…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 空间转录组学
-  - 单细胞基础模型
-  - 掩码扩散
-  - 组织学条件生成
-  - SoftAdaLN
+  - "CVPR 2026"
+  - "图像生成"
+  - "空间转录组学"
+  - "单细胞基础模型"
+  - "掩码扩散"
+  - "组织学条件生成"
+  - "SoftAdaLN"
 ---
 
 # HINGE: Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images

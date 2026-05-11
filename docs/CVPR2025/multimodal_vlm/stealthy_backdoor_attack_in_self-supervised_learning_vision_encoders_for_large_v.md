@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BadVision: Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models
 description: >-
-  [CVPR 2025][多模态][后门攻击] 首次揭示SSL视觉编码器对LVLM的后门安全威胁，提出BadVision——通过双层触发器优化和触发器聚焦后门学习机制，仅篡改视觉编码器即可使下游LVLM产生自由文本形式的视觉幻觉（ASR>99%），同时绕过SOTA检测方法。
+  [CVPR 2025][多模态VLM][后门攻击] 首次揭示SSL视觉编码器对LVLM的后门安全威胁，提出BadVision——通过双层触发器优化和触发器聚焦后门学习机制，仅篡改视觉编码器即可使下游LVLM产生自由文本形式的视觉幻觉（ASR>99%），同时绕过SOTA检测方法。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 自监督学习视觉编码器
-  - 大视觉语言模型
-  - 安全性
-  - 对抗扰动
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "后门攻击"
+  - "自监督学习视觉编码器"
+  - "大视觉语言模型"
+  - "安全性"
+  - "对抗扰动"
 ---
 
 # BadVision: Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models

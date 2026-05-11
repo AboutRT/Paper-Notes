@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Task-Agnostic Representations through Multi-Teacher Distillation
 description: >-
-  [NeurIPS 2025][信息检索] 提出基于互信息最大化的任务无关多教师蒸馏框架，通过高斯核估计教师嵌入的条件分布来训练学生模型，使其在不依赖任何下游任务标签的情况下学到高信息密度的通用表示，在文本、视觉和分子建模三个领域均取得了同体量最优性能。
+  [NeurIPS 2025][信息检索/RAG][知识蒸馏] 提出基于互信息最大化的任务无关多教师蒸馏框架，通过高斯核估计教师嵌入的条件分布来训练学生模型，使其在不依赖任何下游任务标签的情况下学到高信息密度的通用表示，在文本、视觉和分子建模三个领域均取得了同体量最优性能。
 tags:
-  - NeurIPS 2025
-  - 信息检索
-  - multi-teacher
-  - task-agnostic
-  - 表示学习
-  - 互信息
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "知识蒸馏"
+  - "multi-teacher"
+  - "task-agnostic"
+  - "表示学习"
+  - "互信息"
 ---
 
 # Learning Task-Agnostic Representations through Multi-Teacher Distillation
@@ -99,7 +100,7 @@ tags:
 **关键发现**：
 - 8 教师蒸馏显著优于单教师和双教师蒸馏，证明了多教师多样性的价值
 - NLL 蒸馏在回归和分类任务上均取得最佳平均排名，超越所有教师模型
-- 计算开销极低：每增加一个教师仅增加 1.57ms/step（<1%），可高效扩展教师数量
+- 计算开销极低：每增加一个教师仅增加 1.57ms/step（&lt;1%），可高效扩展教师数量
 
 ### 实验 3：视觉嵌入蒸馏
 

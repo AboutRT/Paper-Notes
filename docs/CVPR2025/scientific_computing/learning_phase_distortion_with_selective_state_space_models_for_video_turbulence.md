@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation
 description: >-
-  [CVPR 2025][科学计算][大气湍流消除] 提出 MambaTM——首个基于 Mamba 的视频大气湍流消除网络，通过 VAE 将传统 Zernike 多项式表示的相位畸变重参数化为潜在相位畸变（LPD），用 LPD 引导 SSM 的状态转移；在保持线性复杂度和全局感受野的同时，实现了 SOTA 恢复质量和接近 2× 的推理加速（55.4 FPS vs 32.7 FPS）。
+  [CVPR 2025][科学计算][大气湍流消除] 提出 MambaTM——首个基于 Mamba 的视频大气湍流消除网络，通过 VAE 将传统 Zernike 多项式表示的相位畸变重参数化为潜在相位畸变（LPD），用 LPD 引导 SSM 的状态转移；在保持线性复杂度和全局感受野的同时…
 tags:
-  - CVPR 2025
-  - 科学计算
-  - 大气湍流消除
-  - Mamba
-  - 状态空间模型
-  - 潜在相位畸变
-  - 退化感知恢复
+  - "CVPR 2025"
+  - "科学计算"
+  - "大气湍流消除"
+  - "Mamba"
+  - "状态空间模型"
+  - "潜在相位畸变"
+  - "退化感知恢复"
 ---
 
 # Learning Phase Distortion with Selective State Space Models for Video Turbulence Mitigation

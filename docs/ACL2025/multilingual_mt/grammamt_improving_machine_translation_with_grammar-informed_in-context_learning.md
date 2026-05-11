@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GrammaMT: Improving Machine Translation with Grammar-Informed In-Context Learning
 description: >-
-  [ACL 2025][机器翻译] 提出 GrammaMT，利用语素间注释文本 (Interlinear Glossed Text, IGT) 的语法信息来增强 LLM 的 few-shot 机器翻译，在濒危语言上平均提升 12+ BLEU，在中高资源语言上也有一致改进。
+  [ACL 2025][多语言/翻译][机器翻译] 提出 GrammaMT，利用语素间注释文本 (Interlinear Glossed Text, IGT) 的语法信息来增强 LLM 的 few-shot 机器翻译，在濒危语言上平均提升 12+ BLEU，在中高资源语言上也有一致改进。
 tags:
-  - ACL 2025
-  - 机器翻译
-  - 语法信息
-  - 上下文学习
-  - 低资源语言
-  - 语素间注释
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "机器翻译"
+  - "语法信息"
+  - "上下文学习"
+  - "低资源语言"
+  - "语素间注释"
 ---
 
 # GrammaMT: Improving Machine Translation with Grammar-Informed In-Context Learning

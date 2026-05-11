@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][广义类别发现] 挑战了GCD中"场景信息是噪声"的传统观点，发现场景被误解为噪声是因为"歧义挑战"（目标与场景的base/novel关系冲突），提出MOS框架通过双分支网络+MLP场景感知模块有效利用场景信息，在细粒度GCD上平均提升4%。
 tags:
-  - CVPR 2025
-  - 广义类别发现
-  - 场景信息
-  - 目标-场景关联
-  - 双分支网络
-  - 细粒度分类
+  - "CVPR 2025"
+  - "广义类别发现"
+  - "场景信息"
+  - "目标-场景关联"
+  - "双分支网络"
+  - "细粒度分类"
 ---
 
 # MOS: Modeling Object-Scene Associations in Generalized Category Discovery

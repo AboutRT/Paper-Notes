@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Dynamic Regret Reduces to Kernelized Static Regret
 description: >-
-  [NeurIPS 2025][dynamic regret] 将动态遗憾最小化问题重新建模为再生核希尔伯特空间(RKHS)中的静态遗憾问题，通过精心设计平移不变核实现最优路径长度依赖 $\widetilde{\mathcal{O}}(\sqrt{MP_TT})$，且天然不需要时间范围先验知识。
+  [NeurIPS 2025][强化学习][dynamic regret] 将动态遗憾最小化问题重新建模为再生核希尔伯特空间(RKHS)中的静态遗憾问题，通过精心设计平移不变核实现最优路径长度依赖 $\widetilde{\mathcal{O}}(\sqrt{MP_TT})$，且天然不需要时间范围先验知识。
 tags:
-  - NeurIPS 2025
-  - dynamic regret
-  - 强化学习
-  - RKHS
-  - kernel methods
-  - path-length
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "dynamic regret"
+  - "online convex optimization"
+  - "RKHS"
+  - "kernel methods"
+  - "path-length"
 ---
 
 # Dynamic Regret Reduces to Kernelized Static Regret

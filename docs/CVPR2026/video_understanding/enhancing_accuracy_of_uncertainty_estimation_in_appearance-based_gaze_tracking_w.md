@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视线追踪] 提出一种数据高效的后验校准方法，通过等保序回归将不确定性感知视线追踪模型的预测分布与真实观测分布对齐，并引入 Coverage Probability Error (CPE) 指标替代不可靠的误差-不确定性相关性(EUC)来评估不确定性质量。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视线追踪
-  - 不确定性估计
-  - 后验校准
-  - 域偏移
-  - 覆盖概率误差
+  - "CVPR 2026"
+  - "视频理解"
+  - "视线追踪"
+  - "不确定性估计"
+  - "后验校准"
+  - "域偏移"
+  - "覆盖概率误差"
 ---
 
 # Enhancing Accuracy of Uncertainty Estimation in Appearance-based Gaze Tracking with Probabilistic Evaluation and Calibration

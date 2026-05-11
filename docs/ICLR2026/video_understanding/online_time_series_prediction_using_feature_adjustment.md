@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Online Time Series Prediction Using Feature Adjustment
 description: >-
-  [ICLR 2026][视频理解][在线学习] 提出 ADAPT-Z（Automatic Delta Adjustment via Persistent Tracking in Z-space），将在线时序预测的适应目标从模型参数更新转移到特征空间修正，通过轻量 adapter 融合当前特征与历史梯度来应对多步预测中的延迟反馈问题，在13个数据集上一致超越现有在线学习方法。
+  [ICLR 2026][视频理解][在线学习] 提出 ADAPT-Z（Automatic Delta Adjustment via Persistent Tracking in Z-space），将在线时序预测的适应目标从模型参数更新转移到特征空间修正…
 tags:
-  - ICLR 2026
-  - 视频理解
-  - 在线学习
-  - 分布漂移
-  - 特征空间适应
-  - 延迟反馈
-  - 时间序列预测
+  - "ICLR 2026"
+  - "视频理解"
+  - "在线学习"
+  - "分布漂移"
+  - "特征空间适应"
+  - "延迟反馈"
+  - "时间序列预测"
 ---
 
 # Online Time Series Prediction Using Feature Adjustment

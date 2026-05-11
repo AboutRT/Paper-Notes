@@ -2,15 +2,15 @@
 title: >-
   [论文解读] An Information Theoretic Evaluation Metric for Strong Unlearning
 description: >-
-  [AAAI 2026][AI安全][机器遗忘] 揭示现有黑盒遗忘评估指标（MIA/JSD等）的根本缺陷——仅修改最后一层即可满足所有黑盒指标但中间层完整保留遗忘数据信息，提出IDI白盒指标通过InfoNCE估计各层与遗忘标签的互信息差异来量化遗忘效果，并提出COLA方法在CIFAR-10/100和ImageNet-1K上实现接近Retrain的IDI得分。
+  [AAAI 2026][AI安全][机器遗忘] 揭示现有黑盒遗忘评估指标（MIA/JSD等）的根本缺陷——仅修改最后一层即可满足所有黑盒指标但中间层完整保留遗忘数据信息，提出IDI白盒指标通过InfoNCE估计各层与遗忘标签的互信息差异来量化遗忘效果…
 tags:
-  - AAAI 2026
-  - AI安全
-  - 机器遗忘
-  - 互信息
-  - 白盒评估
-  - IDI指标
-  - COLA方法
+  - "AAAI 2026"
+  - "AI安全"
+  - "机器遗忘"
+  - "互信息"
+  - "白盒评估"
+  - "IDI指标"
+  - "COLA方法"
 ---
 
 # An Information Theoretic Evaluation Metric for Strong Unlearning

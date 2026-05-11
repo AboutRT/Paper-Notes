@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][过度拒绝] 本文提出 AdaCD（自适应对比解码），通过比较极端安全提示下和无提示下的 token 分布差异提取拒绝 token 分布，再根据一致性比率动态决定增强或抑制拒绝行为，在降低过度拒绝 10.35% 的同时提升恶意查询拒绝率 0.13%。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 过度拒绝
-  - 对比解码
-  - 安全对齐
-  - 推理时干预
-  - 自适应解码
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "过度拒绝"
+  - "对比解码"
+  - "安全对齐"
+  - "推理时干预"
+  - "自适应解码"
 ---
 
 # Please Refuse to Answer Me: Mitigating Over-Refusal in LLMs via Adaptive Contrastive Decoding

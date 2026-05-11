@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets
 description: >-
-  [ICLR 2026][GFlowNets] 提出 FoSS，首次将 GFlowNets 引入 span 级别语言模型，通过构建 DAG 结构的状态空间代替传统 token-by-token 的树形结构，实现更灵活多样的文本生成，MAUVE 分数最高提升 12.5%。
+  [ICLR 2026][信息检索/RAG][GFlowNets] 提出 FoSS，首次将 GFlowNets 引入 span 级别语言模型，通过构建 DAG 结构的状态空间代替传统 token-by-token 的树形结构，实现更灵活多样的文本生成，MAUVE 分数最高提升 12.5%。
 tags:
-  - ICLR 2026
-  - GFlowNets
-  - 动态词表
-  - span生成
-  - DAG状态空间
-  - 信息检索
+  - "ICLR 2026"
+  - "信息检索/RAG"
+  - "GFlowNets"
+  - "动态词表"
+  - "span生成"
+  - "DAG状态空间"
+  - "文本生成"
 ---
 
 # Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets

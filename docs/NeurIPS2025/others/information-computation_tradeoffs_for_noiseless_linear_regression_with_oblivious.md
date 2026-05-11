@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Information-Computation Tradeoffs for Noiseless Linear Regression with Oblivious Contamination
 description: >-
-  [NeurIPS 2025][信息-计算权衡] 对无噪声线性回归在Oblivious污染模型下，形式化证明任何高效Statistical Query算法都需要 $\tilde{\Omega}(d^{1/2}/\alpha^2)$ 的VSTAT复杂度，给出了 $1/\alpha$ 的二次依赖对高效算法具有本质性的计算下界证据。
+  [NeurIPS 2025][信息-计算权衡] 对无噪声线性回归在Oblivious污染模型下，形式化证明任何高效Statistical Query算法都需要 $\tilde{\Omega}(d^{1/2}/\alpha^2)$ 的VSTAT复杂度…
 tags:
-  - NeurIPS 2025
-  - 信息-计算权衡
-  - 鲁棒线性回归
-  - Oblivious Contamination
-  - Statistical Query
-  - 计算下界
+  - "NeurIPS 2025"
+  - "信息-计算权衡"
+  - "鲁棒线性回归"
+  - "Oblivious Contamination"
+  - "Statistical Query"
+  - "计算下界"
 ---
 
 # Information-Computation Tradeoffs for Noiseless Linear Regression with Oblivious Contamination

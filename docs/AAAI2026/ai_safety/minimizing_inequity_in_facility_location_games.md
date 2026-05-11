@@ -1,14 +1,16 @@
 ---
-title: "[论文解读] Minimizing Inequity in Facility Location Games"
+title: >-
+  [论文解读] Minimizing Inequity in Facility Location Games
 description: >-
-  [AAAI 2026][公平机制设计] 研究实数轴上设施选址博弈的组间不公平最小化问题，提出BALANCED和MAJOR-PHANTOM两种策略防护机制，在单设施和双设施场景下均实现紧近似比，统一了多种经典公平目标。
+  [AAAI 2026][AI安全][设施选址] 研究实数轴上设施选址博弈中最小化组间最大加权效果（Maximum Group Effect）的问题，提出 BALANCED 和 MAJOR-PHANTOM 两种策略防护机制，在单设施场景下实现紧近似比…
 tags:
-  - AAAI 2026
-  - 设施选址
-  - 机制设计
-  - 公平性
-  - 策略防护
-  - 近似算法
+  - "AAAI 2026"
+  - "AI安全"
+  - "设施选址"
+  - "组间公平"
+  - "策略防护"
+  - "近似比"
+  - "社会选择"
 ---
 
 # Minimizing Inequity in Facility Location Games

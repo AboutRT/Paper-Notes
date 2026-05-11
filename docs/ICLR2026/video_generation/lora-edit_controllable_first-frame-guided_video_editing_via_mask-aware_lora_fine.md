@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning
 description: >-
-  [ICLR 2026][视频编辑] 提出 LoRA-Edit，利用时空 mask 引导 LoRA 微调预训练 I2V 模型，实现可控的首帧引导视频编辑——mask 同时作为编辑区域指令和 LoRA 学习内容的引导信号，支持运动继承和外观控制。
+  [ICLR 2026][视频生成][视频编辑] 提出 LoRA-Edit，利用时空 mask 引导 LoRA 微调预训练 I2V 模型，实现可控的首帧引导视频编辑——mask 同时作为编辑区域指令和 LoRA 学习内容的引导信号，支持运动继承和外观控制。
 tags:
-  - ICLR 2026
-  - 视频编辑
-  - 视频生成
-  - 首帧引导
-  - 时空mask
-  - 外观控制
+  - "ICLR 2026"
+  - "视频生成"
+  - "视频编辑"
+  - "LoRA微调"
+  - "首帧引导"
+  - "时空mask"
+  - "外观控制"
 ---
 
 # LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning

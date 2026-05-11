@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HD2-SSC: High-Dimension High-Density Semantic Scene Completion for Autonomous Driving
 description: >-
-  [AAAI 2026][自动驾驶][Semantic Scene Completion] 本文提出 HD2-SSC 框架，通过高维语义解耦（HSD）模块解决 2D→3D 的输入-输出维度间隙（将像素特征沿伪维度展开并正交解耦），以及高密度占用精炼（HOR）模块解决标注-现实密度间隙（"检测-精炼"范式对齐几何和语义关键体素），在 SemanticKITTI 和 SSCBench-KITTI-360 上达到 SOTA。
+  [AAAI 2026][自动驾驶][Semantic Scene Completion] 本文提出 HD2-SSC 框架，通过高维语义解耦（HSD）模块解决 2D→3D 的输入-输出维度间隙（将像素特征沿伪维度展开并正交解耦）…
 tags:
-  - AAAI 2026
-  - 自动驾驶
-  - Semantic Scene Completion
-  - 维度间隙
-  - 密度间隙
-  - 语义解耦
-  - 体素对齐
+  - "AAAI 2026"
+  - "自动驾驶"
+  - "Semantic Scene Completion"
+  - "维度间隙"
+  - "密度间隙"
+  - "语义解耦"
+  - "体素对齐"
 ---
 
 # HD2-SSC: High-Dimension High-Density Semantic Scene Completion for Autonomous Driving

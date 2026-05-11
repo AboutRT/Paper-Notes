@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Improved Video VAE for Latent Video Diffusion Model
 description: >-
-  [CVPR 2025][视频VAE] 本文提出 IV-VAE，通过关键帧时序压缩架构（KTC）和组因果卷积（GCConv）解决现有视频 VAE 中图像权重初始化抑制时序压缩学习、以及因果卷积导致帧间性能不均衡的问题，在多个基准上实现 SOTA 视频重建和生成质量。
+  [CVPR 2025][视频生成][视频VAE] 本文提出 IV-VAE，通过关键帧时序压缩架构（KTC）和组因果卷积（GCConv）解决现有视频 VAE 中图像权重初始化抑制时序压缩学习、以及因果卷积导致帧间性能不均衡的问题，在多个基准上实现 SOTA 视频重建和生成质量。
 tags:
-  - CVPR 2025
-  - 视频VAE
-  - 时序压缩
-  - 视频生成
-  - 关键帧
-  - 潜空间扩散
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频VAE"
+  - "时序压缩"
+  - "因果卷积"
+  - "关键帧"
+  - "潜空间扩散"
 ---
 
 # Improved Video VAE for Latent Video Diffusion Model

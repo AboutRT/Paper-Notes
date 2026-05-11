@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CreBench: Human-Aligned Creativity Evaluation from Idea to Process to Product
 description: >-
-  [AAAI 2026][多模态][创造力评估] 构建 CreBench 创造力评估基准和 CreMIT 多模态指令微调数据集（2.2K 样本、79.2K 人类反馈、4.7M 条指令），从创意想法→过程→产品三个维度 12 项指标评估 MLLM 的创造力对齐能力，微调得到的 CreExpert 大幅超越 GPT-4V。
+  [AAAI 2026][多模态VLM][创造力评估] 构建 CreBench 创造力评估基准和 CreMIT 多模态指令微调数据集（2.2K 样本、79.2K 人类反馈、4.7M 条指令），从创意想法→过程→产品三个维度 12 项指标评估 MLLM 的创造力对齐能力…
 tags:
-  - AAAI 2026
-  - 多模态
-  - 多模态VLM
-  - 多模态大模型
-  - 人类对齐
-  - 指令微调
-  - benchmark
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "创造力评估"
+  - "多模态大模型"
+  - "人类对齐"
+  - "指令微调"
+  - "benchmark"
 ---
 
 # CreBench: Human-Aligned Creativity Evaluation from Idea to Process to Product

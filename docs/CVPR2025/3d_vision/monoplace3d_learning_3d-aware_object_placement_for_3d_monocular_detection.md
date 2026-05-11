@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][单目3D检测] 提出MonoPlace3D，一个场景感知的3D数据增强系统，核心是学习一个从场景图像到合理3D边界框分布的放置网络（SA-PlaceNet），配合基于ControlNet的真实感渲染管线，显著提升单目3D检测器性能和数据效率。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 单目3D检测
-  - 数据增强
-  - 目标放置
-  - 场景感知
-  - 合成数据
+  - "CVPR 2025"
+  - "3D视觉"
+  - "单目3D检测"
+  - "数据增强"
+  - "目标放置"
+  - "场景感知"
+  - "合成数据"
 ---
 
 # MonoPlace3D: Learning 3D-Aware Object Placement for 3D Monocular Detection

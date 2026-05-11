@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][LLM评测] 本文提出 GAMEBoT，一个基于游戏的 LLM 推理评测平台，通过将游戏中的复杂推理分解为预定义的模块化子问题，结合基于规则的 ground truth 验证，实现对 17 个主流 LLM 的透明化推理能力评估。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - LLM评测
-  - 游戏推理
-  - 思维链
-  - 中间推理验证
-  - 数据污染
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "LLM评测"
+  - "游戏推理"
+  - "思维链"
+  - "中间推理验证"
+  - "数据污染"
 ---
 
 # GAMEBoT: Transparent Assessment of LLM Reasoning in Games

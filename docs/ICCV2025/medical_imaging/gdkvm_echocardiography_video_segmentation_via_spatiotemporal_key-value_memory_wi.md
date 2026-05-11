@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][医学图像][图像分割] 提出 GDKVM，一种基于线性键值关联和门控 Delta 规则的心脏超声视频分割架构，通过高效的内存管理和多尺度特征融合，在 CAMUS 和 EchoNet-Dynamic 上实现 SOTA 性能，同时保持实时推理速度。
 tags:
-  - ICCV 2025
-  - 医学图像
-  - 图像分割
-  - 注意力机制
-  - key-value memory
-  - gated delta rule
+  - "ICCV 2025"
+  - "医学图像"
+  - "图像分割"
+  - "注意力机制"
+  - "key-value memory"
+  - "gated delta rule"
 ---
 
 # GDKVM: Echocardiography Video Segmentation via Spatiotemporal Key-Value Memory with Gated Delta Rule

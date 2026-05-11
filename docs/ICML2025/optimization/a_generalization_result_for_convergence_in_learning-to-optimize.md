@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Generalization Result for Convergence in Learning-to-Optimize
 description: >-
-  [ICML 2025][优化][Learning-to-Optimize] 提出一个概率框架，将 PAC-Bayesian 泛化理论与变分分析中的 Kurdyka-Łojasiewicz (KL) 收敛定理相结合，首次在不限制学习算法设计的前提下，以高概率证明了学习型优化算法收敛到临界点。
+  [ICML 2025][优化/理论][Learning-to-Optimize] 提出一个概率框架，将 PAC-Bayesian 泛化理论与变分分析中的 Kurdyka-Łojasiewicz (KL) 收敛定理相结合，首次在不限制学习算法设计的前提下，以高概率证明了学习型优化算法收敛到临界点。
 tags:
-  - ICML 2025
-  - 优化
-  - Learning-to-Optimize
-  - PAC-Bayesian
-  - 收敛性保证
-  - Kurdyka-Łojasiewicz
-  - 非光滑非凸优化
+  - "ICML 2025"
+  - "优化/理论"
+  - "Learning-to-Optimize"
+  - "PAC-Bayesian"
+  - "收敛性保证"
+  - "Kurdyka-Łojasiewicz"
+  - "非光滑非凸优化"
 ---
 
 # A Generalization Result for Convergence in Learning-to-Optimize

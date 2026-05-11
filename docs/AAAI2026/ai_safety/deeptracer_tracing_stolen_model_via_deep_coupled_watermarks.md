@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DeepTracer: Tracing Stolen Model via Deep Coupled Watermarks
 description: >-
-  [AAAI 2026][AI安全][模型水印] 提出DeepTracer鲁棒水印框架，通过自适应源类选择（K-Means聚类覆盖特征空间）+ 同类耦合损失（拉近水印样本与目标类在输出空间的距离）+ 两阶段关键样本过滤，使水印任务与主任务深度耦合，在6种模型窃取攻击（含hard-label和data-free）下水印成功率平均达77-100%，远超现有方法。
+  [AAAI 2026][AI安全][模型水印] 提出DeepTracer鲁棒水印框架，通过自适应源类选择（K-Means聚类覆盖特征空间）+ 同类耦合损失（拉近水印样本与目标类在输出空间的距离）+ 两阶段关键样本过滤，使水印任务与主任务深度耦合…
 tags:
-  - AAAI 2026
-  - AI安全
-  - 模型水印
-  - 模型窃取
-  - 深度耦合水印
-  - 黑盒验证
-  - 知识产权保护
+  - "AAAI 2026"
+  - "AI安全"
+  - "模型水印"
+  - "模型窃取"
+  - "深度耦合水印"
+  - "黑盒验证"
+  - "知识产权保护"
 ---
 
 # DeepTracer: Tracing Stolen Model via Deep Coupled Watermarks

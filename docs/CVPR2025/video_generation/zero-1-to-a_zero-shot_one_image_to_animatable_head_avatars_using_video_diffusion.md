@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion
 description: >-
-  [CVPR 2025][头部虚拟形象] 提出 Zero-1-to-A，通过共生生成（SymGEN）和渐进式学习策略，从单张图片利用预训练视频扩散模型生成高保真可动画化 4D 头部虚拟形象，有效解决了视频扩散的时空不一致性问题。
+  [CVPR 2025][视频生成][头部虚拟形象] 提出 Zero-1-to-A，通过共生生成（SymGEN）和渐进式学习策略，从单张图片利用预训练视频扩散模型生成高保真可动画化 4D 头部虚拟形象，有效解决了视频扩散的时空不一致性问题。
 tags:
-  - CVPR 2025
-  - 头部虚拟形象
-  - 视频扩散
-  - 3D高斯
-  - 渐进式学习
-  - 零样本生成
+  - "CVPR 2025"
+  - "视频生成"
+  - "头部虚拟形象"
+  - "视频扩散"
+  - "3D高斯"
+  - "渐进式学习"
+  - "零样本生成"
 ---
 
 # Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion

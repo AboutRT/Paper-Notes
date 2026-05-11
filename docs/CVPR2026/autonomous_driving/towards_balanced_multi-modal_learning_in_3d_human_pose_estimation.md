@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2026][自动驾驶][位姿估计] 提出基于 Shapley 值的模态贡献评估和 Fisher 信息矩阵加权的自适应权重约束（AWC）正则化，解决多模态（RGB/LiDAR/mmWave/WiFi）3D 人体姿态估计中的模态不平衡问题，无需引入额外可学习参数即可实现平衡优化。
 tags:
-  - CVPR2026
-  - 自动驾驶
-  - 位姿估计
-  - 多模态
-  - modality imbalance
-  - Shapley value
-  - Fisher Information Matrix
+  - "CVPR2026"
+  - "自动驾驶"
+  - "位姿估计"
+  - "多模态"
+  - "modality imbalance"
+  - "Shapley value"
+  - "Fisher Information Matrix"
 ---
 
 # Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation

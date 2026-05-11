@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][图像生成][扩散策略] 提出 Contractive Diffusion Policies (CDPs)，通过在扩散采样 ODE 中引入收缩正则化来抑制 score 匹配误差和求解器误差的累积，以最小修改和单一超参数 $\gamma$ 提升离线学习中扩散策略的鲁棒性。
 tags:
-  - ICLR2026
-  - 图像生成
-  - 扩散策略
-  - 收缩理论
-  - 离线强化学习
-  - 模仿学习
-  - Score-Based Models
+  - "ICLR2026"
+  - "图像生成"
+  - "扩散策略"
+  - "收缩理论"
+  - "离线强化学习"
+  - "模仿学习"
+  - "Score-Based Models"
 ---
 
 # Contractive Diffusion Policies: Robust Action Diffusion via Contractive Score-Based Sampling with Differential Equations

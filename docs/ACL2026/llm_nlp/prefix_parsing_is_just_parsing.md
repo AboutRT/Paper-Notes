@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Prefix Parsing is Just Parsing
 description: >-
-  [ACL2026][LLM NLP] 提出前缀文法变换，将前缀解析优雅地归约为普通解析，消除对专用前缀解析算法的需求
-tags: [形式文法, 前缀解析, 上下文无关语言模型, 约束生成, 自动微分]
+  [ACL 2026][LLM/NLP][前缀解析] 本文提出**前缀文法变换**（prefix grammar transformation），一种将前缀解析归约为普通解析的高效方法——给定一个文法，构造另一个恰好生成其所有前缀字符串的新文法，从而可以直接复用任何现有的普通解析算法，无需设计专用的前缀解析算法…
+tags:
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "前缀解析"
+  - "文法变换"
+  - "上下文无关语言模型"
+  - "前缀概率"
+  - "约束生成"
 ---
 
 # Prefix Parsing is Just Parsing

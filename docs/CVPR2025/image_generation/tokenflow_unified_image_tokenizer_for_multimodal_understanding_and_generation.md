@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][统一图像tokenizer] 提出TokenFlow统一图像tokenizer，通过双码本+共享映射架构解耦语义和像素级特征学习，首次实现离散视觉输入超越LLaVA-1.5 13B（+7.2%），同时在自回归生成中达到GenEval 0.55的SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 统一图像tokenizer
-  - 双码本
-  - VQ编码
-  - 多模态理解
-  - 自回归生成
+  - "CVPR 2025"
+  - "图像生成"
+  - "统一图像tokenizer"
+  - "双码本"
+  - "VQ编码"
+  - "多模态理解"
+  - "自回归生成"
 ---
 
 # TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation

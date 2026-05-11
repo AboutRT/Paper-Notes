@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][遥感][散度无关神经网络] 提出散度无关神经网络（dfNN），通过流函数的辛梯度从架构上精确保证质量守恒（散度恒为零），结合方向引导学习策略，在南极Byrd冰川冰通量插值中显著优于软约束PINNs和无约束NN。
 tags:
-  - NeurIPS 2025
-  - 遥感
-  - 散度无关神经网络
-  - 物理信息神经网络
-  - 冰流建模
-  - 质量守恒
-  - 向量场插值
+  - "NeurIPS 2025"
+  - "遥感"
+  - "散度无关神经网络"
+  - "物理信息神经网络"
+  - "冰流建模"
+  - "质量守恒"
+  - "向量场插值"
 ---
 
 # Mass Conservation on Rails – Rethinking Physics-Informed Learning of Ice Flow Vector Fields

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning
 description: >-
-  [CVPR 2025][域增量学习] 提出Duct方法，通过表征合并（累加任务向量构建统一嵌入空间）和分类器合并（利用类别语义信息通过最优传输估计旧域分类器权重），在预训练模型基础上实现无样本存储的域增量学习，在四个基准上以1~7%的优势超越SOTA。
+  [CVPR 2025][LLM评测][域增量学习] 提出Duct方法，通过表征合并（累加任务向量构建统一嵌入空间）和分类器合并（利用类别语义信息通过最优传输估计旧域分类器权重），在预训练模型基础上实现无样本存储的域增量学习，在四个基准上以1~7%的优势超越SOTA。
 tags:
-  - CVPR 2025
-  - 域增量学习
-  - 模型合并
-  - 分类器校准
-  - 任务向量
-  - LLM评测
+  - "CVPR 2025"
+  - "LLM评测"
+  - "域增量学习"
+  - "模型合并"
+  - "分类器校准"
+  - "任务向量"
+  - "预训练模型"
 ---
 
 # Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning

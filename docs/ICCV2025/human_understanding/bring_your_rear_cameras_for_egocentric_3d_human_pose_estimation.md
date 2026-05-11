@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation
 description: >-
-  [ICCV 2025][3D视觉][自中心视角] 首次研究HMD后置相机对自中心3D全身姿态估计的价值，提出基于Transformer的多视图热图细化方法，结合不确定性感知掩码机制，在新建的Ego4View数据集上实现>10% MPJPE提升。
+  [ICCV 2025][人体理解][自中心视角] 首次研究HMD后置相机对自中心3D全身姿态估计的价值，提出基于Transformer的多视图热图细化方法，结合不确定性感知掩码机制，在新建的Ego4View数据集上实现>10% MPJPE提升。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 自中心视角
-  - 3D人体姿态估计
-  - 后置相机
-  - 多视图融合
-  - 头戴式设备
+  - "ICCV 2025"
+  - "人体理解"
+  - "自中心视角"
+  - "3D人体姿态估计"
+  - "后置相机"
+  - "多视图融合"
+  - "头戴式设备"
 ---
 
 # Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Embracing Large Language Models in Traffic Flow Forecasting
 description: >-
-  [ACL 2025][自动驾驶][交通流预测] 提出 LEAF 框架，用图分支（pair-wise关系）和超图分支（non-pair-wise关系）的双分支预测器生成候选预测，再用冻结的 LLM 作为选择器（判别而非生成）挑选最优预测，通过 ranking loss 反馈优化预测器，在 PEMS 数据集上取得 SOTA。
+  [ACL 2025][自动驾驶][交通流预测] 提出 LEAF 框架，用图分支（pair-wise关系）和超图分支（non-pair-wise关系）的双分支预测器生成候选预测，再用冻结的 LLM 作为选择器（判别而非生成）挑选最优预测，通过 ranking loss 反馈优化预测器…
 tags:
-  - ACL 2025
-  - 自动驾驶
-  - 交通流预测
-  - LLM判别能力
-  - 图神经网络
-  - 超图
-  - Ranking Loss
+  - "ACL 2025"
+  - "自动驾驶"
+  - "交通流预测"
+  - "LLM判别能力"
+  - "图神经网络"
+  - "超图"
+  - "Ranking Loss"
 ---
 
 # Embracing Large Language Models in Traffic Flow Forecasting

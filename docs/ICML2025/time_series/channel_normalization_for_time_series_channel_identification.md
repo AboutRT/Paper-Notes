@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Channel Normalization for Time Series Channel Identification
 description: >-
-  [ICML 2025][时间序列][通道归一化] 提出通道归一化（Channel Normalization, CN），通过为每个通道分配独立的仿射变换参数来增强时间序列模型的通道可辨识性（CID），并扩展出自适应版本 ACN（动态调整参数）和原型版本 PCN（支持未知/可变通道数），在多种时间序列模型上实现显著性能提升。
+  [ICML 2025][时间序列][通道归一化] 提出通道归一化（Channel Normalization, CN），通过为每个通道分配独立的仿射变换参数来增强时间序列模型的通道可辨识性（CID），并扩展出自适应版本 ACN（动态调整参数）和原型版本 PCN（支持未知/可变通道数）…
 tags:
-  - ICML 2025
-  - 时间序列
-  - 通道归一化
-  - 通道可辨识性
-  - 多变量时间序列预测
-  - 仿射变换
-  - 基础模型
+  - "ICML 2025"
+  - "时间序列"
+  - "通道归一化"
+  - "通道可辨识性"
+  - "多变量时间序列预测"
+  - "仿射变换"
+  - "基础模型"
 ---
 
 # Channel Normalization for Time Series Channel Identification

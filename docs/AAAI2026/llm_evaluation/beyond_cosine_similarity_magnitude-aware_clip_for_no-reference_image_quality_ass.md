@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Beyond Cosine Similarity: Magnitude-Aware CLIP for No-Reference Image Quality Assessment
 description: >-
-  [AAAI 2026][LLM评测] 提出 MA-CLIP，发现并利用 CLIP 图像特征的**幅度信息**作为感知质量的互补线索，结合余弦相似度实现无需训练的自适应双线索融合图像质量评估。
+  [AAAI 2026][LLM评测][NR-IQA] 提出 MA-CLIP，发现并利用 CLIP 图像特征的**幅度信息**作为感知质量的互补线索，结合余弦相似度实现无需训练的自适应双线索融合图像质量评估。
 tags:
-  - AAAI 2026
-  - LLM评测
-  - CLIP
-  - 特征幅度
-  - Box-Cox变换
-  - 零样本质量评估
+  - "AAAI 2026"
+  - "LLM评测"
+  - "NR-IQA"
+  - "CLIP"
+  - "特征幅度"
+  - "Box-Cox变换"
+  - "零样本质量评估"
 ---
 
 # Beyond Cosine Similarity: Magnitude-Aware CLIP for No-Reference Image Quality Assessment

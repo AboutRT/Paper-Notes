@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][多语言模型] 提出权重共享框架，通过在编码器和解码器之间共享和交错权重，将多语言编码器高效适配为文本生成模型，在藏语、维吾尔语、哈萨克语和蒙古语四种极低资源语言上显著超越基线。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 多语言模型
-  - 低资源语言
-  - 权重共享
-  - 编码器-解码器
-  - 中国少数民族语言
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "多语言模型"
+  - "低资源语言"
+  - "权重共享"
+  - "编码器-解码器"
+  - "中国少数民族语言"
 ---
 
 # Multilingual Encoder Knows more than You Realize: Shared Weights Pretraining for Extremely Low-Resource Languages

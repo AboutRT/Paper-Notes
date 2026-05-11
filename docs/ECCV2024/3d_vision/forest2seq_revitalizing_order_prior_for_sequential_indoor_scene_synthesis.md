@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][室内场景合成] 提出Forest2Seq框架，通过将无序的室内场景物体组织为层次化的场景树/森林结构，用广度优先遍历导出有意义的排列顺序作为先验知识，配合Transformer自回归解码器显著提升室内场景合成质量。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 室内场景合成
-  - 自回归生成
-  - 序列顺序
-  - 场景树/森林
-  - Transformer
+  - "ECCV 2024"
+  - "3D视觉"
+  - "室内场景合成"
+  - "自回归生成"
+  - "序列顺序"
+  - "场景树/森林"
+  - "Transformer"
 ---
 
 # Forest2Seq: Revitalizing Order Prior for Sequential Indoor Scene Synthesis

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][多分辨率病理] 提出 MR-PLIP，首个多分辨率病理学视觉语言预训练模型，在 TCGA 数据集的 3400 万张多分辨率图文对上预训练，通过跨分辨率视觉-文本对齐和文本引导视觉表示，在 26 个数据集上超越 SOTA。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 多分辨率病理
-  - 视觉语言模型
-  - 跨分辨率对齐
-  - 组织病理学
-  - 全切片图像
+  - "CVPR 2025"
+  - "医学图像"
+  - "多分辨率病理"
+  - "视觉语言模型"
+  - "跨分辨率对齐"
+  - "组织病理学"
+  - "全切片图像"
 ---
 
 # MR-PLIP: Multi-Resolution Pathology-Language Pre-training Model with Text-Guided Visual Representation

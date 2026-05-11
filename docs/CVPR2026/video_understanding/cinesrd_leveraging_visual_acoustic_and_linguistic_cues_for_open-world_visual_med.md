@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][说话人分离] 提出 CineSRD，一个免训练的多模态说话人分离框架，通过视觉锚点聚类进行说话人注册，结合音频语言模型进行说话人转换检测，解决影视作品中长视频、大量角色、音视频不同步等开放世界挑战。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 说话人分离
-  - 多模态融合
-  - 视觉锚点聚类
-  - 音频语言模型
-  - 开放世界
+  - "CVPR 2026"
+  - "视频理解"
+  - "说话人分离"
+  - "多模态融合"
+  - "视觉锚点聚类"
+  - "音频语言模型"
+  - "开放世界"
 ---
 
 # CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization

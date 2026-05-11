@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][无人机3D重建] DroneSplat 提出了一个面向野外无人机影像的鲁棒 3DGS 框架，通过自适应局部-全局掩膜策略消除动态干扰物，结合基于多视图立体的几何感知点采样和体素引导优化策略解决有限视角下的重建质量问题，并提供了 24 个场景的无人机 3D 重建数据集。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 无人机3D重建
-  - 3D高斯泼溅
-  - 动态干扰物消除
-  - 稀疏视角重建
-  - 自适应掩膜
+  - "CVPR 2025"
+  - "3D视觉"
+  - "无人机3D重建"
+  - "3D高斯泼溅"
+  - "动态干扰物消除"
+  - "稀疏视角重建"
+  - "自适应掩膜"
 ---
 
 # DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery

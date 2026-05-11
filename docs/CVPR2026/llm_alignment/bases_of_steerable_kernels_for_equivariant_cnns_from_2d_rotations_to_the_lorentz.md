@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group
 description: >-
-  [CVPR 2026][LLM对齐][等变卷积神经网络] 提出一种绕过 Clebsch-Gordan 系数的方法来求解等变CNN中的可转向核（steerable kernel）约束，通过在稳定子群上求解简单的不变性条件再"转向（steer）"到任意点，为 SO(2) 到 Lorentz 群等不同对称群给出了显式的核基底。
+  [CVPR 2026][LLM对齐][等变卷积神经网络] 提出一种绕过 Clebsch-Gordan 系数的方法来求解等变CNN中的可转向核（steerable kernel）约束，通过在稳定子群上求解简单的不变性条件再"转向（steer）"到任意点…
 tags:
-  - CVPR 2026
-  - LLM对齐
-  - 等变卷积神经网络
-  - 可转向核
-  - Clebsch-Gordan系数
-  - Lorentz群
-  - 群表示论
+  - "CVPR 2026"
+  - "LLM对齐"
+  - "等变卷积神经网络"
+  - "可转向核"
+  - "Clebsch-Gordan系数"
+  - "Lorentz群"
+  - "群表示论"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

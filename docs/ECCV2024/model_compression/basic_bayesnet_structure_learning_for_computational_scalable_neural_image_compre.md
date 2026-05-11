@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][神经图像压缩] 本文提出 BaSIC 框架，通过学习神经图像压缩（NIC）系统的贝叶斯网络结构，同时控制骨干网络复杂度和自回归单元的并行计算能力，首次实现了对 NIC 全流程的计算可扩展性控制。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 神经图像压缩
-  - 贝叶斯网络
-  - 计算可扩展性
-  - 自回归模型
-  - 结构学习
+  - "ECCV 2024"
+  - "模型压缩"
+  - "神经图像压缩"
+  - "贝叶斯网络"
+  - "计算可扩展性"
+  - "自回归模型"
+  - "结构学习"
 ---
 
 # BaSIC: BayesNet Structure Learning for Computational Scalable Neural Image Compression

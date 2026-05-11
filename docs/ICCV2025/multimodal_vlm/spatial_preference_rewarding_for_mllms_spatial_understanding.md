@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Spatial Preference Rewarding for MLLMs Spatial Understanding
 description: >-
-  [ICCV 2025][MLLM] 提出 SPR（Spatial Preference Rewarding）框架，通过语义分数和定位分数自动构建偏好数据对，利用 DPO 训练 MLLM 区分高精度定位（正样本）和模糊/错误定位（负样本），大幅提升细粒度空间理解能力，尤其在高 IoU 阈值下效果显著。
+  [ICCV 2025][多模态VLM][MLLM] 提出 SPR（Spatial Preference Rewarding）框架，通过语义分数和定位分数自动构建偏好数据对，利用 DPO 训练 MLLM 区分高精度定位（正样本）和模糊/错误定位（负样本），大幅提升细粒度空间理解能力…
 tags:
-  - ICCV 2025
-  - MLLM
-  - 空间理解
-  - 多模态VLM
-  - DPO
-  - 目标定位
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "MLLM"
+  - "空间理解"
+  - "偏好优化"
+  - "DPO"
+  - "目标定位"
 ---
 
 # Spatial Preference Rewarding for MLLMs Spatial Understanding

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Cascade: Token-Sharded Private LLM Inference
 description: >-
-  [ICML 2025][AI安全][隐私推理] 提出 Cascade——一种基于 token 维度分片的多方推理协议，通过将隐藏状态按 token 维度分发给不同计算节点，避免密码学原语的高昂开销，在保持抵抗 vocab-matching 攻击能力的同时实现比 SMPC 方案快 100× 的推理速度。
+  [ICML 2025][LLM安全][隐私推理] 提出 Cascade——一种基于 token 维度分片的多方推理协议，通过将隐藏状态按 token 维度分发给不同计算节点，避免密码学原语的高昂开销，在保持抵抗 vocab-matching 攻击能力的同时实现比 SMPC 方案快 100× 的推理速度。
 tags:
-  - ICML 2025
-  - AI安全
-  - 隐私推理
-  - Token分片
-  - 多方计算
-  - LLM隐私
-  - vocab-matching攻击
+  - "ICML 2025"
+  - "LLM安全"
+  - "隐私推理"
+  - "Token分片"
+  - "多方计算"
+  - "LLM隐私"
+  - "vocab-matching攻击"
 ---
 
 # Cascade: Token-Sharded Private LLM Inference

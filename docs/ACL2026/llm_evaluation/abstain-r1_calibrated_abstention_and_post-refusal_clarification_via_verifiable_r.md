@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM评测][拒答校准] Abstain-R1 提出一种**澄清感知的 RLVR 奖励**，在不可回答查询上联合优化"明确拒答"和"拒答后给出有用澄清（指出缺失信息）"，使 3B 模型在拒答和澄清质量上接近甚至超越 DeepSeek-R1 等大模型。
 tags:
-  - ACL 2026
-  - LLM评测
-  - 拒答校准
-  - 后拒答澄清
-  - 可验证奖励
-  - GRPO
-  - 不可回答查询
+  - "ACL 2026"
+  - "LLM评测"
+  - "拒答校准"
+  - "后拒答澄清"
+  - "可验证奖励"
+  - "GRPO"
+  - "不可回答查询"
 ---
 
 # Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL

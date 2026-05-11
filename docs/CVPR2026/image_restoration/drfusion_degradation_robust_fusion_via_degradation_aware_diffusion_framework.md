@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][多模态] 提出退化感知扩散框架 DRFusion，通过直接回归融合图像（而非显式预测噪声）和联合观测模型校正机制，在少量扩散步骤内实现任意退化场景下的多模态图像融合。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - 图像复原
-  - 扩散模型
-  - degradation-aware
-  - joint observation model
+  - "CVPR 2026"
+  - "图像恢复"
+  - "多模态"
+  - "扩散模型"
+  - "degradation-aware"
+  - "joint observation model"
 ---
 
 # DRFusion: Degradation-Robust Fusion via Degradation-Aware Diffusion Framework

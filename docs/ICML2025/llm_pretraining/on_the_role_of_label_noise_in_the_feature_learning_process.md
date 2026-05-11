@@ -2,15 +2,16 @@
 title: >-
   [论文解读] On the Role of Label Noise in the Feature Learning Process
 description: >-
-  [ICML 2025][label noise] 从特征学习理论视角严格分析了两层ReLU CNN在标签噪声下的训练动态，揭示清晰的二阶段行为——Stage I模型学信号拟合干净样本（泛化好），Stage II损失收敛后模型记忆噪声过拟合噪声样本（泛化退化）——并为早停和小损失样本选择提供严格理论保证。
+  [ICML 2025][预训练][label noise] 从特征学习理论视角严格分析了两层ReLU CNN在标签噪声下的训练动态，揭示清晰的二阶段行为——Stage I模型学信号拟合干净样本（泛化好）…
 tags:
-  - ICML 2025
-  - label noise
-  - feature learning
-  - training dynamics
-  - LLM预训练
-  - sample selection
-  - CNN
+  - "ICML 2025"
+  - "预训练"
+  - "label noise"
+  - "feature learning"
+  - "training dynamics"
+  - "early stopping"
+  - "sample selection"
+  - "CNN"
 ---
 
 # On the Role of Label Noise in the Feature Learning Process

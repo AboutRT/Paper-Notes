@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VDocRAG: Retrieval-Augmented Generation over Visually-Rich Documents
 description: >-
-  [CVPR 2025][文档RAG] 构建首个直接以文档图像（而非解析文本）为输入的 RAG 框架，用 LVLM 作为双编码器检索器 + 两种自监督预训练任务（对比+生成）实现文档图像检索，在 ChartQA 上比文本 RAG 高 24 个点。
+  [CVPR 2025][信息检索/RAG][文档RAG] 构建首个直接以文档图像（而非解析文本）为输入的 RAG 框架，用 LVLM 作为双编码器检索器 + 两种自监督预训练任务（对比+生成）实现文档图像检索，在 ChartQA 上比文本 RAG 高 24 个点。
 tags:
-  - CVPR 2025
-  - 文档RAG
-  - 视觉检索
-  - 信息检索
-  - 自监督预训练
-  - OpenDocVQA
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "文档RAG"
+  - "视觉检索"
+  - "LVLM检索器"
+  - "自监督预训练"
+  - "OpenDocVQA"
 ---
 
 # VDocRAG: Retrieval-Augmented Generation over Visually-Rich Documents

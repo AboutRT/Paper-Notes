@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D视觉定位] 本文提出 SeeGround，一个免训练的零样本 3D 视觉定位框架，通过将 3D 场景表示为查询对齐的渲染图像和空间增强文本描述的混合形式，利用 2D 视觉语言模型实现了在 ScanRefer 上超越之前零样本方法 7.7% 的精度。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D视觉定位
-  - 零样本
-  - 视觉语言模型
-  - 视角自适应
-  - 开放词汇
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D视觉定位"
+  - "零样本"
+  - "视觉语言模型"
+  - "视角自适应"
+  - "开放词汇"
 ---
 
 # SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding

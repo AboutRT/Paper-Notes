@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][多模态VLM][提示学习] 提出 vMFCoOp 框架，通过在统一超球面流形上反向估计 von Mises-Fisher 分布对齐 LLM 和 CLIP 的语义偏差，实现生物医学 VLM 的鲁棒少样本提示学习。
 tags:
-  - AAAI 2026
-  - 多模态VLM
-  - 提示学习
-  - 生物医学VLM
-  - von Mises-Fisher分布
-  - 超球面流形
-  - 少样本学习
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "提示学习"
+  - "生物医学VLM"
+  - "von Mises-Fisher分布"
+  - "超球面流形"
+  - "少样本学习"
 ---
 
 # vMFCoOp: Towards Equilibrium on a Unified Hyperspherical Manifold for Prompting Biomedical VLMs

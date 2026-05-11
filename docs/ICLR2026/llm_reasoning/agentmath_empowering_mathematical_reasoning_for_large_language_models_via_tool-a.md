@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent
 description: >-
-  [ICLR 2026][LLM推理][数学推理] AgentMath提出一个工具增强的Agent框架，通过自动化数据合成、多轮交互式强化学习和高效异步训练系统，将LLM推理能力与代码解释器的计算精度无缝结合，在AIME24/25和HMMT25上以30B-A3B规模达到SOTA水平（90.6%/86.4%/73.8%），超越o3-mini和Claude-Opus-4.0-Thinking。
+  [ICLR 2026][LLM推理][数学推理] AgentMath提出一个工具增强的Agent框架，通过自动化数据合成、多轮交互式强化学习和高效异步训练系统，将LLM推理能力与代码解释器的计算精度无缝结合…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 数学推理
-  - 工具增强
-  - 强化学习
-  - 代码解释器
-  - Agent框架
+  - "ICLR 2026"
+  - "LLM推理"
+  - "数学推理"
+  - "工具增强"
+  - "强化学习"
+  - "代码解释器"
+  - "Agent框架"
 ---
 
 # AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent

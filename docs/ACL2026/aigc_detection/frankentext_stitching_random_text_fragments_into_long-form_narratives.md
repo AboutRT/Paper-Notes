@@ -2,8 +2,14 @@
 title: >-
   [论文解读] Frankentext: Stitching Random Text Fragments into Long-Form Narratives
 description: >-
-  [ACL 2026][AIGC检测] 提出Frankentext范式，LLM将大量人类文本片段拼接为连贯叙事，90%内容逐字复制自人类写作，有效欺骗AI文本检测器
-tags: [AIGC检测, 混合作者归因, 文本生成, LLM, 可控生成]
+  [ACL 2026][AIGC检测][混合作者归因] 提出Frankentext范式，让LLM在极端约束下（90%文本逐字复制自人类写作）拼接随机人类文本片段为连贯长篇叙事，揭示现有AI文本检测器在混合作者场景下的严重失败（72%的Frankentext被误判为人类写作）。
+tags:
+  - "ACL 2026"
+  - "AIGC检测"
+  - "混合作者归因"
+  - "可控文本生成"
+  - "AI文本检测器"
+  - "人机协作写作"
 ---
 
 # Frankentext: Stitching Random Text Fragments into Long-Form Narratives

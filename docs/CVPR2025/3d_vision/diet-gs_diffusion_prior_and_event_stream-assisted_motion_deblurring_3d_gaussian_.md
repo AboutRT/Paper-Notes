@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][运动去模糊] 提出 DiET-GS 双阶段框架，通过事件双积分（EDI）先验和预训练扩散模型联合约束 3DGS 优化，从模糊多视角图像和事件流中重建清晰的 3D 表示，实现精确色彩和精细细节的高质量新视角合成。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 运动去模糊
-  - 3D高斯泼溅
-  - 事件相机
-  - 扩散先验
-  - 新视角合成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "运动去模糊"
+  - "3D高斯泼溅"
+  - "事件相机"
+  - "扩散先验"
+  - "新视角合成"
 ---
 
 # DiET-GS: Diffusion Prior and Event Stream-Assisted Motion Deblurring 3D Gaussian Splatting

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][多教师蒸馏] 提出UNIC框架，通过改进的多教师蒸馏策略（包括梯形投影器和教师丢弃技术），将多个互补预训练模型的知识融合到单一学生模型中，实现跨任务的通用分类。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 多教师蒸馏
-  - 通用分类模型
-  - 梯形投影器
-  - 教师丢弃
-  - 知识融合
+  - "ECCV 2024"
+  - "模型压缩"
+  - "多教师蒸馏"
+  - "通用分类模型"
+  - "梯形投影器"
+  - "教师丢弃"
+  - "知识融合"
 ---
 
 # UNIC: Universal Classification Models via Multi-teacher Distillation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][目标检测][微小目标检测] SR-TOD 首次将图像自重建机制引入目标检测，发现重建差异图与微小目标之间的强相关性，并设计差异图引导的特征增强（DGFE）模块，在自建反无人机数据集 DroneSwarms 和 VisDrone2019、AI-TOD 上均取得显著提升。
 tags:
-  - ECCV 2024
-  - 目标检测
-  - 微小目标检测
-  - 自重建
-  - 差异图
-  - 特征增强
-  - 反无人机
+  - "ECCV 2024"
+  - "目标检测"
+  - "微小目标检测"
+  - "自重建"
+  - "差异图"
+  - "特征增强"
+  - "反无人机"
 ---
 
 # Visible and Clear: Finding Tiny Objects in Difference Map

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Position: Solve Layerwise Linear Models First to Understand Neural Dynamical Phenomena
 description: >-
-  [ICML2025][layerwise linear models] 提出**动态反馈原则 (Dynamical Feedback Principle)**，论证逐层线性模型（layerwise linear models）足以统一解释 neural collapse、emergence、lazy/rich regime 和 grokking 四大深度学习动力学现象，呼吁优先研究逐层结构而非非线性激活。
+  [ICML2025][layerwise linear models] 提出**动态反馈原则 (Dynamical Feedback Principle)**，论证逐层线性模型（layerwise linear models）足以统一解释 neural collapse、emergence、lazy/rich…
 tags:
-  - ICML2025
-  - layerwise linear models
-  - dynamical feedback principle
-  - neural collapse
-  - emergence
-  - lazy/rich regime
-  - grokking
+  - "ICML2025"
+  - "layerwise linear models"
+  - "dynamical feedback principle"
+  - "neural collapse"
+  - "emergence"
+  - "lazy/rich regime"
+  - "grokking"
 ---
 
 # Position: Solve Layerwise Linear Models First to Understand Neural Dynamical Phenomena

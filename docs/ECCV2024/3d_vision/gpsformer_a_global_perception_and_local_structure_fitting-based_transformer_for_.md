@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][点云理解] 提出GPSFormer，通过全局感知模块(GPM)学习短程和长程依赖关系，并利用Taylor级数启发的局部结构拟合卷积(LSFConv)精确建模局部几何信息，在ScanObjectNN上以2.36M参数达到95.4%准确率，超越所有监督学习和预训练方法。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 点云理解
-  - 全局感知
-  - 可变形图卷积
-  - 局部结构拟合
-  - Taylor级数
+  - "ECCV 2024"
+  - "3D视觉"
+  - "点云理解"
+  - "全局感知"
+  - "可变形图卷积"
+  - "局部结构拟合"
+  - "Taylor级数"
 ---
 
 # GPSFormer: A Global Perception and Local Structure Fitting-Based Transformer for Point Cloud Understanding

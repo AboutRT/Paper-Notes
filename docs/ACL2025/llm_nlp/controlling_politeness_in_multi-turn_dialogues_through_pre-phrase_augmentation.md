@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Controlling Politeness in Multi-Turn Dialogues Through Pre-Phrase Augmentation
 description: >-
-  [ACL 2025][文本生成][礼貌控制] 本文提出一种基于前缀短语增强（Pre-Phrase Augmentation）的方法，通过在对话生成过程中自动添加礼貌性调控前缀，实现多轮对话中礼貌程度的细粒度控制，同时保持对话内容的连贯性和信息完整性。
+  [ACL 2025][LLM/NLP][礼貌控制] 本文提出一种基于前缀短语增强（Pre-Phrase Augmentation）的方法，通过在对话生成过程中自动添加礼貌性调控前缀，实现多轮对话中礼貌程度的细粒度控制，同时保持对话内容的连贯性和信息完整性。
 tags:
-  - ACL 2025
-  - 文本生成
-  - 礼貌控制
-  - 多轮对话
-  - 前缀短语增强
-  - 风格控制
-  - 对话生成
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "礼貌控制"
+  - "多轮对话"
+  - "前缀短语增强"
+  - "风格控制"
+  - "对话生成"
 ---
 
 # Controlling Politeness in Multi-Turn Dialogues Through Pre-Phrase Augmentation

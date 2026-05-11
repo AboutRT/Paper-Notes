@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Latent Variable Causal Discovery under Selection Bias
 description: >-
-  [ICML 2025][潜变量因果发现] 首次将秩约束推广到选择偏差场景，证明在线性选择机制下有偏协方差矩阵的秩仍保留因果结构和选择机制的信息，提出广义 t-separation 图准则，并在单因子模型上证明了可识别性，在合成和真实数据（World Value Survey、Big Five 人格）上验证了有效性。
+  [ICML 2025][因果推理][潜变量因果发现] 首次将秩约束推广到选择偏差场景，证明在线性选择机制下有偏协方差矩阵的秩仍保留因果结构和选择机制的信息，提出广义 t-separation 图准则，并在单因子模型上证明了可识别性…
 tags:
-  - ICML 2025
-  - 潜变量因果发现
-  - 选择偏差
-  - 秩约束
-  - 线性高斯模型
-  - 单因子模型
+  - "ICML 2025"
+  - "因果推理"
+  - "潜变量因果发现"
+  - "选择偏差"
+  - "秩约束"
+  - "线性高斯模型"
+  - "单因子模型"
 ---
 
 # Latent Variable Causal Discovery under Selection Bias

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D高斯溅射] NimbusGS 提出统一的3D场景重建框架，通过将天气退化分解为连续散射场（雾/霾）和逐视图粒子残差层（雨/雪），配合几何引导梯度缩放机制，在单一框架内实现跨天气和混合天气条件下的SOTA重建。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D高斯溅射
-  - 恶劣天气
-  - 场景重建
-  - 物理建模
-  - 天气分解
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "恶劣天气"
+  - "场景重建"
+  - "物理建模"
+  - "天气分解"
 ---
 
 # NimbusGS: Unified 3D Scene Reconstruction under Hybrid Weather

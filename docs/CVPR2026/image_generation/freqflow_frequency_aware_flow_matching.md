@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][流匹配] FreqFlow 通过在流匹配框架中显式引入频域感知条件，采用双分支架构分别处理低频全局结构和高频细节信息，在 ImageNet-256 上以 1.38 FID 达到 SOTA。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 流匹配
-  - 频域感知
-  - 双分支架构
-  - 自适应加权
+  - "CVPR 2026"
+  - "图像生成"
+  - "流匹配"
+  - "频域感知"
+  - "双分支架构"
+  - "自适应加权"
 ---
 
 # Frequency-Aware Flow Matching for High-Quality Image Generation

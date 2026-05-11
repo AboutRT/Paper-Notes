@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][视频超分辨率] 提出 StableVSR，首次将扩散模型应用于视频超分辨率任务，通过时序条件模块（TCM）和帧级双向采样策略，在显著提升感知质量的同时确保帧间时序一致性。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 视频超分辨率
-  - 扩散模型
-  - 时间一致性
-  - 感知质量
-  - 纹理引导
+  - "ECCV 2024"
+  - "图像生成"
+  - "视频超分辨率"
+  - "扩散模型"
+  - "时间一致性"
+  - "感知质量"
+  - "纹理引导"
 ---
 
 # Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models

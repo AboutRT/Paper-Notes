@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Occlusion Handling in 3D Human Pose Estimation with Perturbed Positional Encoding
 description: >-
-  [ECCV 2024][人体理解][3D人体姿态估计] 针对人体关节遮挡导致2D骨架图边缺失、传统图拉普拉斯位置编码失效的问题，提出PerturbPE方法，利用瑞利-薛定谔微扰定理多次随机扰动并求平均来提取图拉普拉斯特征基的一致性部分作为位置编码，在完整骨架上优于MöbiusGCN，在边缺失场景下性能提升达12%。
+  [ECCV 2024][人体理解][3D人体姿态估计] 针对人体关节遮挡导致2D骨架图边缺失、传统图拉普拉斯位置编码失效的问题，提出PerturbPE方法，利用瑞利-薛定谔微扰定理多次随机扰动并求平均来提取图拉普拉斯特征基的一致性部分作为位置编码，在完整骨架上优于MöbiusGCN…
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 3D人体姿态估计
-  - 图卷积网络
-  - 位置编码
-  - 遮挡处理
-  - 瑞利-薛定谔微扰理论
+  - "ECCV 2024"
+  - "人体理解"
+  - "3D人体姿态估计"
+  - "图卷积网络"
+  - "位置编码"
+  - "遮挡处理"
+  - "瑞利-薛定谔微扰理论"
 ---
 
 # Occlusion Handling in 3D Human Pose Estimation with Perturbed Positional Encoding

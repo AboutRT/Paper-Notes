@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Brain Harmony: A Multimodal Foundation Model Unifying Morphology and Function into 1D Tokens
 description: >-
-  [NeurIPS 2025][医学图像][脑影像基础模型] 首个统一脑结构形态（T1 sMRI）与功能动态（fMRI）的多模态脑基础模型，通过几何谐波预对齐和时序自适应 Patch Embedding（TAPE）将高维神经影像压缩为紧凑的 1D token 表示，在神经发育/退行性疾病诊断和认知预测任务上全面超越先前方法。
+  [NeurIPS 2025][医学图像][脑影像基础模型] 首个统一脑结构形态（T1 sMRI）与功能动态（fMRI）的多模态脑基础模型，通过几何谐波预对齐和时序自适应 Patch Embedding（TAPE）将高维神经影像压缩为紧凑的 1D token 表示…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 脑影像基础模型
-  - 多模态融合
-  - fMRI
-  - sMRI
-  - 1D token
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "脑影像基础模型"
+  - "多模态融合"
+  - "fMRI"
+  - "sMRI"
+  - "1D token"
 ---
 
 # Brain Harmony: A Multimodal Foundation Model Unifying Morphology and Function into 1D Tokens
@@ -105,7 +105,7 @@ $$\mathcal{L}_{\text{fusion}} = \|\mathcal{D}_S(\tilde{\mathbf{H}}) - \mathbf{Z}
 
 ### 关键发现
 
-1. **多模态融合持续带来增益**：BrainHarmonix 在 6 个基准中的 5 个上取得最佳结果（p<0.05 显著性）。
+1. **多模态融合持续带来增益**：BrainHarmonix 在 6 个基准中的 5 个上取得最佳结果（p&lt;0.05 显著性）。
 2. **Token 缩放**：1D token 数从 32 增至 256 时性能稳步提升，128→256 时趋于饱和。
 3. **线性探测即超越 SOTA**：仅 0.0015M 可训练参数的线性探测已超越先前最优方法。
 4. **消融验证**：几何谐波预对齐和 TR 数据增强均带来显著且一致的提升。

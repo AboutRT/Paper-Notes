@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Self-Refining Language Model Anonymizers via Adversarial Distillation
 description: >-
-  [NeurIPS 2025][AI安全][隐私保护] 提出 SEAL 框架，通过对抗蒸馏将 GPT-4 级 LLM 的文本匿名化能力蒸馏到 8B 小模型中，结合 SFT + DPO 训练和自我精炼机制，使小模型在隐私-效用权衡上达到甚至超越 GPT-4 匿名化器的水平，且可完全本地部署。
+  [NeurIPS 2025][LLM安全][隐私保护] 提出 SEAL 框架，通过对抗蒸馏将 GPT-4 级 LLM 的文本匿名化能力蒸馏到 8B 小模型中，结合 SFT + DPO 训练和自我精炼机制，使小模型在隐私-效用权衡上达到甚至超越 GPT-4 匿名化器的水平，且可完全本地部署。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 隐私保护
-  - 文本匿名化
-  - 知识蒸馏
-  - 对抗学习
-  - 自我精炼
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "隐私保护"
+  - "文本匿名化"
+  - "知识蒸馏"
+  - "对抗学习"
+  - "自我精炼"
 ---
 
 # Self-Refining Language Model Anonymizers via Adversarial Distillation

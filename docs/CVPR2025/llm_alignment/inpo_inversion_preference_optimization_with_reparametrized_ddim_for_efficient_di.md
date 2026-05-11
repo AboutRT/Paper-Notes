@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM对齐][DDIM反演] 提出 InPO（Inversion Preference Optimization），通过 DDIM 反演的重参数化技巧将偏好优化从需要完整去噪链的长马尔可夫过程简化为单步优化，在训练效率和生成质量上同时优于现有 Diffusion-DPO 方法。
 tags:
-  - CVPR 2025
-  - LLM对齐
-  - DDIM反演
-  - 偏好优化
-  - 扩散模型对齐
-  - 重参数化
-  - 高效训练
+  - "CVPR 2025"
+  - "LLM对齐"
+  - "DDIM反演"
+  - "偏好优化"
+  - "扩散模型对齐"
+  - "重参数化"
+  - "高效训练"
 ---
 
 # InPO: Inversion Preference Optimization with Reparametrized DDIM for Efficient Diffusion Model Alignment

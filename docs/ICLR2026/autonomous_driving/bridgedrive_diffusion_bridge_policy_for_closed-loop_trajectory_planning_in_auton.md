@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving
 description: >-
-  [ICLR 2026][自动驾驶][扩散桥模型] BridgeDrive 提出用扩散桥（diffusion bridge）替代截断扩散来实现锚点引导的自动驾驶轨迹规划，保证前向/反向过程的理论对称性，在 Bench2Drive 闭环评估中成功率达到 74.99%（PDM-Lite）和 89.25%（LEAD），分别超越前 SOTA 7.72% 和 2.45%。
+  [ICLR 2026][自动驾驶][扩散桥模型] BridgeDrive 提出用扩散桥（diffusion bridge）替代截断扩散来实现锚点引导的自动驾驶轨迹规划，保证前向/反向过程的理论对称性，在 Bench2Drive 闭环评估中成功率达到 74.99%（PDM-Lite）和 89.25%（LEAD）…
 tags:
-  - ICLR 2026
-  - 自动驾驶
-  - 扩散桥模型
-  - 锚点轨迹引导
-  - 闭环规划
-  - 几何路径点
-  - Bench2Drive
+  - "ICLR 2026"
+  - "自动驾驶"
+  - "扩散桥模型"
+  - "锚点轨迹引导"
+  - "闭环规划"
+  - "几何路径点"
+  - "Bench2Drive"
 ---
 
 # BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving

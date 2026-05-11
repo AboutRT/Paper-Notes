@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][数据扩展] 提出AIDE框架，通过"属性引导+Persona增强+残差连接"的多跳数据扩展机制，从仅10个种子样本生成约3K条高质量任务特定训练数据，微调Mistral-7B后在zero-shot上平均超越人工标注数据微调6%、超越Evol-Instruct等SOTA方法30%。
 tags:
-  - ACL 2025
-  - 数据扩展
-  - 多跳合成
-  - 属性引导
-  - Persona
-  - 残差连接
+  - "ACL 2025"
+  - "数据扩展"
+  - "多跳合成"
+  - "属性引导"
+  - "Persona"
+  - "残差连接"
 ---
 
 # AIDE: Attribute-Guided Multi-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][自适应检索] 对 35 种自适应检索方法（含 8 种最新方法和 27 种不确定性估计方法）进行了全面评测，发现经典的不确定性估计技术在效率和自知能力方面往往优于复杂的专用流水线，同时保持相当的 QA 性能。
 tags:
-  - ACL 2025
-  - 自适应检索
-  - 其他
-  - 不确定性估计
-  - 自知能力
-  - 问答系统
+  - "ACL 2025"
+  - "自适应检索"
+  - "RAG"
+  - "不确定性估计"
+  - "自知能力"
+  - "问答系统"
 ---
 
 # Adaptive Retrieval without Self-Knowledge? Bringing Uncertainty Back Home

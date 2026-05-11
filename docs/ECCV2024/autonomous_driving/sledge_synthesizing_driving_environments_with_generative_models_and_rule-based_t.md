@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic
 description: >-
-  [ECCV 2024][自动驾驶][Transformer] SLEDGE 提出了首个基于生成模型的驾驶仿真器，通过 Raster-to-Vector 自编码器将驾驶场景编码为栅格化潜在图（RLM），再利用 Diffusion Transformer 生成高质量的车道图和交通参与者，实现了比 nuPlan 少 500 倍存储（<4GB）的仿真环境，同时支持 500m 长路线测试，暴露了 SOTA 规划器 PDM-Closed 超过 40% 的失败率。
+  [ECCV 2024][自动驾驶][Transformer] SLEDGE 提出了首个基于生成模型的驾驶仿真器，通过 Raster-to-Vector 自编码器将驾驶场景编码为栅格化潜在图（RLM），再利用 Diffusion Transformer 生成高质量的车道图和交通参与者…
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - Transformer
-  - 驾驶仿真
-  - 车道图生成
-  - 潜在扩散模型
-  - 运动规划
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "Transformer"
+  - "驾驶仿真"
+  - "车道图生成"
+  - "潜在扩散模型"
+  - "运动规划"
 ---
 
 # SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic

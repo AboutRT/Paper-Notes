@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Gradient Variance Reveals Failure Modes in Flow-Based Generative Models
 description: >-
-  [NeurIPS 2025][图像生成][Rectified Flow] 本文通过分析 CFM 损失的梯度方差（gradient variance），揭示了 Rectified Flow 在确定性插值下会不可避免地记忆训练配对而非学习最优传输映射，并证明引入随机性（stochastic interpolant）可打破该记忆化通道、恢复泛化能力。
+  [NeurIPS 2025][图像生成][Rectified Flow] 本文通过分析 CFM 损失的梯度方差（gradient variance），揭示了 Rectified Flow 在确定性插值下会不可避免地记忆训练配对而非学习最优传输映射…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - Rectified Flow
-  - 梯度方差
-  - 记忆化
-  - 最优传输
-  - 随机插值
-  - Conditional Flow Matching
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "Rectified Flow"
+  - "梯度方差"
+  - "记忆化"
+  - "最优传输"
+  - "随机插值"
+  - "Conditional Flow Matching"
 ---
 
 # Gradient Variance Reveals Failure Modes in Flow-Based Generative Models

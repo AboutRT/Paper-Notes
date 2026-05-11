@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][image annotation] 提出一种基于视觉属性约束的图像标注方法论，通过知识表示构建对象类别层次结构并结合交互式众包框架，利用视觉属和视觉差引导标注过程，减少标注者主观性和语义鸿沟问题。
 tags:
-  - CVPR 2026
-  - image annotation
-  - crowdsourcing
-  - visual properties
-  - semantic gap
-  - object hierarchy
+  - "CVPR 2026"
+  - "image annotation"
+  - "crowdsourcing"
+  - "visual properties"
+  - "semantic gap"
+  - "object hierarchy"
 ---
 
 # Crowdsourcing of Real-world Image Annotation via Visual Properties

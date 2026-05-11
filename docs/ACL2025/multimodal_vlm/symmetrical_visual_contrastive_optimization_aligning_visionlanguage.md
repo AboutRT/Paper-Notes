@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Symmetrical Visual Contrastive Optimization: Aligning Vision-Language Models with Minimal Contrastive Images
 description: >-
-  [ACL 2025][多模态][visual grounding] 提出 S-VCO（对称视觉对比优化），一种新的 VLM 微调目标，通过对称地对齐/拒绝匹配/矛盾的图像-文本对来增强视觉依赖，配合最小视觉对比数据集 MVC，在幻觉检测上减少 22%，视觉依赖任务上显著提升。
+  [ACL 2025][多模态VLM][visual grounding] 提出 S-VCO（对称视觉对比优化），一种新的 VLM 微调目标，通过对称地对齐/拒绝匹配/矛盾的图像-文本对来增强视觉依赖，配合最小视觉对比数据集 MVC，在幻觉检测上减少 22%，视觉依赖任务上显著提升。
 tags:
-  - ACL 2025
-  - 多模态
-  - visual grounding
-  - 多模态VLM
-  - VLM alignment
-  - hallucination
-  - DPO
+  - "ACL 2025"
+  - "多模态VLM"
+  - "visual grounding"
+  - "contrastive optimization"
+  - "VLM alignment"
+  - "hallucination"
+  - "DPO"
 ---
 
 # Symmetrical Visual Contrastive Optimization: Aligning Vision-Language Models with Minimal Contrastive Images

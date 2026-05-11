@@ -2,15 +2,14 @@
 title: >-
   [论文解读] PISR: Polarimetric Neural Implicit Surface Reconstruction for Textureless and Specular Objects
 description: >-
-  [ECCV 2024][其他][偏振重建] 提出PISR方法，利用偏振光的几何约束（偏振角与法线方位角的对应关系）直接正则化神经隐式表面形状，结合哈希网格加速和图像空间法线平滑，在无纹理和镜面物体上实现了0.5mm Chamfer距离和99.5% F-score的高精度重建，速度比此前偏振方法快4~30倍。
+  [ECCV 2024][偏振重建] 提出PISR方法，利用偏振光的几何约束（偏振角与法线方位角的对应关系）直接正则化神经隐式表面形状，结合哈希网格加速和图像空间法线平滑，在无纹理和镜面物体上实现了0.5mm Chamfer距离和99.5% F-score的高精度重建，速度比此前偏振方法快4~30倍。
 tags:
-  - ECCV 2024
-  - 其他
-  - 偏振重建
-  - 神经隐式表面
-  - SDF
-  - 无纹理和镜面物体
-  - 多视图重建
+  - "ECCV 2024"
+  - "偏振重建"
+  - "神经隐式表面"
+  - "SDF"
+  - "无纹理和镜面物体"
+  - "多视图重建"
 ---
 
 # PISR: Polarimetric Neural Implicit Surface Reconstruction for Textureless and Specular Objects

@@ -2,8 +2,15 @@
 title: >-
   [论文解读] IMPACT: Importance-Aware Activation Space Reconstruction
 description: >-
-  [ACL2026][模型压缩] 通过重要性感知的激活空间重构实现LLM低秩压缩，利用梯度信息加权协方差矩阵推导闭式解，最高可减少55.4%模型体积
-tags: [模型压缩, 低秩分解, 激活空间, 重要性感知, LLM]
+  [ACL 2026][模型压缩][低秩压缩] 提出 IMPACT 框架，将 LLM 低秩压缩从最小化权重重构误差转向最小化重要性加权的激活重构误差，通过将梯度信息融入激活协方差矩阵推导出闭式最优解，实现在保持精度的同时最高减少 55.4% 的模型体积。
+tags:
+  - "ACL 2026"
+  - "模型压缩"
+  - "低秩压缩"
+  - "激活空间重构"
+  - "重要性感知"
+  - "梯度加权"
+  - "大语言模型"
 ---
 
 # IMPACT: Importance-Aware Activation Space Reconstruction

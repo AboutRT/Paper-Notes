@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Golden Subspace: Where Efficiency Meets Generalization in Continual Test-Time Adaptation
 description: >-
-  [CVPR 2026][图像分割][持续测试时适应] 提出 GOLD 框架用于持续测试时适应（CTTA），核心发现是最小特征更新子空间（"黄金子空间"）与分类器权重行空间一致且天然低秩；通过 Average Gradient Outer Product (AGOP) 在线估计该子空间，结合轻量缩放向量进行特征适应，在分类和分割基准上以极低计算开销达到 SOTA 性能。
+  [CVPR 2026][语义分割][持续测试时适应] 提出 GOLD 框架用于持续测试时适应（CTTA），核心发现是最小特征更新子空间（"黄金子空间"）与分类器权重行空间一致且天然低秩；通过 Average Gradient Outer Product (AGOP) 在线估计该子空间…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 持续测试时适应
-  - 黄金子空间
-  - AGOP
-  - 低秩适应
-  - 分类器行空间
+  - "CVPR 2026"
+  - "语义分割"
+  - "持续测试时适应"
+  - "黄金子空间"
+  - "AGOP"
+  - "低秩适应"
+  - "分类器行空间"
 ---
 
 # The Golden Subspace: Where Efficiency Meets Generalization in Continual Test-Time Adaptation

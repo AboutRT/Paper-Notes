@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ReVisionLLM: Recursive Vision-Language Model for Temporal Grounding in Hour-Long Videos
 description: >-
-  [CVPR 2025][多模态][长视频时序定位] 提出 ReVisionLLM，首个能在小时级长视频中进行时序定位的视觉语言模型，模仿人类搜索策略递归处理视频——先粗粒度锁定相关片段，再逐级细化至精确时间边界，在 MAD 数据集上超越 SOTA +2.6% R1@0.1。
+  [CVPR 2025][多模态VLM][长视频时序定位] 提出 ReVisionLLM，首个能在小时级长视频中进行时序定位的视觉语言模型，模仿人类搜索策略递归处理视频——先粗粒度锁定相关片段，再逐级细化至精确时间边界，在 MAD 数据集上超越 SOTA +2.6% R1@0.1。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 递归视觉语言模型
-  - 层次化适配器
-  - 渐进训练
-  - 视频理解
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "长视频时序定位"
+  - "递归视觉语言模型"
+  - "层次化适配器"
+  - "渐进训练"
+  - "视频理解"
 ---
 
 # ReVisionLLM: Recursive Vision-Language Model for Temporal Grounding in Hour-Long Videos

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][目标检测][目标计数] 提出 YOLO-Count，一个基于 YOLO 架构的全可微分开放词汇目标计数模型，通过创新的"基数图"（cardinality map）回归目标和混合强弱监督训练策略，在通用计数和文本到图像生成的数量控制两个任务上均达到 SOTA。
 tags:
-  - ICCV 2025
-  - 目标检测
-  - 目标计数
-  - 可微分
-  - 文本到图像生成
-  - 基数图
-  - 开放词汇
+  - "ICCV 2025"
+  - "目标检测"
+  - "目标计数"
+  - "可微分"
+  - "文本到图像生成"
+  - "基数图"
+  - "开放词汇"
 ---
 
 # YOLO-Count: Differentiable Object Counting for Text-to-Image Generation

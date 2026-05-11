@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval
 description: >-
-  [CVPR 2025][Composed Image Retrieval] 提出 ConText-CIR 框架，通过 Text Concept-Consistency 损失让文本修改中的名词短语更好地关注查询图像的相关部分，配合合成数据生成管线，在多个 CIR 基准上取得 SOTA。
+  [CVPR 2025][LLM评测][Composed Image Retrieval] 提出 ConText-CIR 框架，通过 Text Concept-Consistency 损失让文本修改中的名词短语更好地关注查询图像的相关部分，配合合成数据生成管线，在多个 CIR 基准上取得 SOTA。
 tags:
-  - CVPR 2025
-  - Composed Image Retrieval
-  - Text Concept-Consistency
-  - CLIP
-  - zero-shot retrieval
-  - synthetic data
+  - "CVPR 2025"
+  - "LLM评测"
+  - "Composed Image Retrieval"
+  - "Text Concept-Consistency"
+  - "CLIP"
+  - "zero-shot retrieval"
+  - "synthetic data"
 ---
 
 # ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval

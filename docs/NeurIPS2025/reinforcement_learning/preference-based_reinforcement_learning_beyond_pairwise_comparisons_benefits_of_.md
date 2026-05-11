@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][强化学习][偏好强化学习] 在偏好强化学习中提出 M-AUPO 算法,利用 Plackett-Luce 排序模型处理多选项比较反馈,首次从理论上证明更大的子集规模直接改善样本效率。
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 偏好强化学习
-  - Plackett-Luce模型
-  - 排序反馈
-  - 样本效率
-  - 多选项比较
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "偏好强化学习"
+  - "Plackett-Luce模型"
+  - "排序反馈"
+  - "样本效率"
+  - "多选项比较"
 ---
 
 # Preference-based Reinforcement Learning beyond Pairwise Comparisons: Benefits of Multiple Options

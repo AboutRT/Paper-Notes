@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines
 description: >-
-  [ACL 2025][LLM/NLP][in-context learning] 从理论和实验两方面证明 ICL 示例无法充分传递任务的语言和格式属性，提出 LongGuide 算法从少量训练数据中自动学习 Metric Guideline (MG) 和 Output Constraint Guideline (OCG) 两类指导规则，在 7 个长文本生成任务上平均提升超过 5% ROUGE-L。
+  [ACL 2025][LLM/NLP][in-context learning] 从理论和实验两方面证明 ICL 示例无法充分传递任务的语言和格式属性，提出 LongGuide 算法从少量训练数据中自动学习 Metric Guideline (MG) 和 Output Constraint Guideline…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - in-context learning
-  - Long-form Generation
-  - LongGuide
-  - Metric Guidelines
-  - Output Constraints
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "in-context learning"
+  - "Long-form Generation"
+  - "LongGuide"
+  - "Metric Guidelines"
+  - "Output Constraints"
 ---
 
 # Beyond In-Context Learning: Aligning Long-form Generation of LLMs via Task-Inherent Attribute Guidelines

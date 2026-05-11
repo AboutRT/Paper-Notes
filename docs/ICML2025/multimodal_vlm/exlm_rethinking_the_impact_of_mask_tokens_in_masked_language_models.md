@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ExLM: Rethinking the Impact of [MASK] Tokens in Masked Language Models
 description: >-
-  [ICML 2025][多模态][掩码语言模型] 本文首次系统分析了 MLM 中 [MASK] 对性能的影响，发现**语义损坏（corrupted semantics）**比**非真实token（unreal tokens）**的负面作用更大，据此提出 ExLM：通过将每个 [MASK] 扩展为多个隐状态并用转移矩阵建模依赖关系，有效缓解语义多模态性问题，在文本和分子建模任务上均取得显著提升。
+  [ICML 2025][多模态VLM][掩码语言模型] 本文首次系统分析了 MLM 中 [MASK] 对性能的影响，发现**语义损坏（corrupted semantics）**比**非真实token（unreal tokens）**的负面作用更大…
 tags:
-  - ICML 2025
-  - 多模态
-  - 多模态VLM
-  - 语义损坏
-  - 多模态性
-  - 状态扩展
-  - DAG对齐
+  - "ICML 2025"
+  - "多模态VLM"
+  - "掩码语言模型"
+  - "语义损坏"
+  - "多模态性"
+  - "状态扩展"
+  - "DAG对齐"
 ---
 
 # ExLM: Rethinking the Impact of [MASK] Tokens in Masked Language Models

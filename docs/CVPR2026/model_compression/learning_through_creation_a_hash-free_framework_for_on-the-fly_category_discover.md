@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning through Creation: A Hash-Free Framework for On-the-Fly Category Discovery
 description: >-
-  [CVPR2026][模型压缩][On-the-Fly Category Discovery] 提出 LTC 框架，通过在训练阶段利用 MKEE（最小化核能量+最大化熵）在线生成伪未知类样本，配合双最大间隔损失和自适应阈值，在7个数据集上实现1.5%–13.1%的全类精度提升，彻底摆脱了哈希编码对细粒度语义的损害。
+  [CVPR2026][模型压缩][On-the-Fly Category Discovery] 提出 LTC 框架，通过在训练阶段利用 MKEE（最小化核能量+最大化熵）在线生成伪未知类样本，配合双最大间隔损失和自适应阈值，在7个数据集上实现1.5%–13.1%的全类精度提升…
 tags:
-  - CVPR2026
-  - 模型压缩
-  - On-the-Fly Category Discovery
-  - 伪未知类生成
-  - 无哈希框架
-  - 动态原型字典
-  - 最大间隔损失
+  - "CVPR2026"
+  - "模型压缩"
+  - "On-the-Fly Category Discovery"
+  - "伪未知类生成"
+  - "无哈希框架"
+  - "动态原型字典"
+  - "最大间隔损失"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

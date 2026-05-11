@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][去噪] 重新审视经典视频去噪方法并与现代ML工具结合，实现鲁棒、快速且噪声级别可控的视频去噪
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 去噪
-  - classic methods
-  - ML integration
-  - controllable
-  - fast inference
+  - "CVPR 2025"
+  - "图像恢复"
+  - "去噪"
+  - "classic methods"
+  - "ML integration"
+  - "controllable"
+  - "fast inference"
 ---
 
 # Classic Video Denoising in a Machine Learning World: Robust, Fast, and Controllable

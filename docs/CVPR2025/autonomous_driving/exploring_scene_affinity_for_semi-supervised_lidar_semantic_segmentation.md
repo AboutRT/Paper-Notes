@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][半监督学习] 提出 AIScene 框架利用场景内一致性（点擦除策略）和场景间关联（MixPatch + InsFill 跨场景增强），在仅 1% 标注的 SemanticKITTI 上将半监督 LiDAR 分割提升 1.9 mIoU。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 半监督学习
-  - LiDAR分割
-  - 点云擦除
-  - 跨场景增强
-  - 伪标签
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "半监督学习"
+  - "LiDAR分割"
+  - "点云擦除"
+  - "跨场景增强"
+  - "伪标签"
 ---
 
 # Exploring Scene Affinity for Semi-Supervised LiDAR Semantic Segmentation

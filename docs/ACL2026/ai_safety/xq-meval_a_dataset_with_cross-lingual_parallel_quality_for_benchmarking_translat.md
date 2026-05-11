@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][AI安全][翻译评估指标] 构建首个具有跨语言平行质量的翻译评估基准 XQ-MEval，通过半自动注入 MQM 错误生成可控质量的伪翻译，首次实证揭示自动评估指标的跨语言评分偏差，并提出 LGN 归一化策略有效校准多语言指标评估。
 tags:
-  - ACL 2026
-  - AI安全
-  - 翻译评估指标
-  - 跨语言评分偏差
-  - MQM错误注入
-  - 多语言基准
-  - 指标校准
+  - "ACL 2026"
+  - "AI安全"
+  - "翻译评估指标"
+  - "跨语言评分偏差"
+  - "MQM错误注入"
+  - "多语言基准"
+  - "指标校准"
 ---
 
 # XQ-MEval: A Dataset with Cross-lingual Parallel Quality for Benchmarking Translation Metrics

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][概念遗忘] 提出 FADE（Fine-grained Attenuation for Diffusion Erasure），首次解决文生图扩散模型中概念遗忘的邻近性问题——精确擦除目标概念的同时保留语义相近概念的生成能力，在保留性能上比 SOTA 提升至少 12%。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 概念遗忘
-  - 细粒度擦除
-  - 邻近感知
-  - 扩散模型安全
-  - LoRA
+  - "CVPR 2025"
+  - "图像生成"
+  - "概念遗忘"
+  - "细粒度擦除"
+  - "邻近感知"
+  - "扩散模型安全"
+  - "LoRA"
 ---
 
 # FADE: Fine-Grained Erasure in Text-to-Image Diffusion-based Foundation Models

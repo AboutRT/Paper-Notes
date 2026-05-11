@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ActionSwitch: Class-agnostic Detection of Simultaneous Actions in Streaming Videos
 description: >-
-  [ECCV 2024][视频理解][Online Temporal Action Localization] 提出 ActionSwitch——首个无需类别信息即可检测流式视频中重叠动作实例的在线时序动作定位（On-TAL）框架，核心将多动作检测建模为有限状态机的状态分类问题，并辅以 conservativeness loss 减少碎片化误检，在 THUMOS14、FineAction、Epic-Kitchens 100 等数据集上在 OAD 扩展方法中达到 SOTA。
+  [ECCV 2024][视频理解][Online Temporal Action Localization] 提出 ActionSwitch——首个无需类别信息即可检测流式视频中重叠动作实例的在线时序动作定位（On-TAL）框架，核心将多动作检测建模为有限状态机的状态分类问题…
 tags:
-  - ECCV 2024
-  - 视频理解
-  - Online Temporal Action Localization
-  - Class-agnostic Detection
-  - Overlapping Actions
-  - Conservativeness Loss
-  - Finite State Machine
+  - "ECCV 2024"
+  - "视频理解"
+  - "Online Temporal Action Localization"
+  - "Class-agnostic Detection"
+  - "Overlapping Actions"
+  - "Conservativeness Loss"
+  - "Finite State Machine"
 ---
 
 # ActionSwitch: Class-agnostic Detection of Simultaneous Actions in Streaming Videos

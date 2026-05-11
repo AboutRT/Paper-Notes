@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SpeechWeave: Diverse Multilingual Synthetic Text & Audio Data Generation Pipeline for Training Text to Speech Models
 description: >-
-  [ACL 2025][语音][文本转语音] SpeechWeave 提出了一套端到端的合成语音数据生成流水线，通过关键词采样提升文本多样性、在生成时即完成文本归一化（准确率达97%）、并利用跨语言语音克隆实现说话人标准化，生成的数据在多样性上比直接提示LLM高出10-48%，并能有效提升下游TTS模型性能。
+  [ACL 2025][音频/语音][文本转语音] SpeechWeave 提出了一套端到端的合成语音数据生成流水线，通过关键词采样提升文本多样性、在生成时即完成文本归一化（准确率达97%）、并利用跨语言语音克隆实现说话人标准化，生成的数据在多样性上比直接提示LLM高出10-48%…
 tags:
-  - ACL 2025
-  - 语音
-  - 文本转语音
-  - 合成数据
-  - 音频语音
-  - 文本归一化
-  - 语音克隆
+  - "ACL 2025"
+  - "音频/语音"
+  - "文本转语音"
+  - "合成数据"
+  - "多语言"
+  - "文本归一化"
+  - "语音克隆"
 ---
 
 # SpeechWeave: Diverse Multilingual Synthetic Text & Audio Data Generation Pipeline for Training Text to Speech Models

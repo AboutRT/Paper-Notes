@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][点轨迹深度估计] 本文提出 Seurat，一种基于 2D 点轨迹的单目视频深度估计方法，通过空间和时序 Transformer 分析跟踪点的运动模式来推断深度随时间的变化，仅在合成数据上训练即可实现零样本泛化到真实场景。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点轨迹深度估计
-  - 单目视频深度
-  - Transformer
-  - 零样本泛化
-  - 时序深度比
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点轨迹深度估计"
+  - "单目视频深度"
+  - "Transformer"
+  - "零样本泛化"
+  - "时序深度比"
 ---
 
 # Seurat: From Moving Points to Depth

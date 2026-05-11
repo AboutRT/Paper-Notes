@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][文本到图像生成] 提出 RouteT2I，首个面向文本到图像生成的边缘-云模型路由框架，通过多维质量度量、Pareto 相对优越性和双门控 token 选择 MoE 架构，在控制成本的同时最大化图像生成质量。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 文本到图像生成
-  - 模型路由
-  - 边缘-云协同
-  - 混合专家
-  - 多指标质量评估
+  - "ICCV 2025"
+  - "图像生成"
+  - "文本到图像生成"
+  - "模型路由"
+  - "边缘-云协同"
+  - "混合专家"
+  - "多指标质量评估"
 ---
 
 # Adaptive Routing of Text-to-Image Generation Requests Between Large Cloud Models and Small Edge Models

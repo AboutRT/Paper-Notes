@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型微调] 本文将扩散模型训练视为多任务学习问题，提出Decouple-then-Merge（DeMe）框架——先将时间步分组微调多个专用模型以消除梯度冲突，再通过参数空间合并回单一模型，在不增加推理开销的情况下显著提升生成质量。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型微调
-  - 多任务学习
-  - 模型合并
-  - 梯度冲突
-  - 时间步解耦
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型微调"
+  - "多任务学习"
+  - "模型合并"
+  - "梯度冲突"
+  - "时间步解耦"
 ---
 
 # Decouple-Then-Merge: Finetune Diffusion Models as Multi-Task Learning

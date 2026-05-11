@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][多模态VLM][组合式视觉推理] 本文提出 DWIM 框架，通过差异感知的工作流生成策略筛选高质量训练数据，以及指令掩码微调策略只克隆有效动作，使 LLM 在组合式视觉推理中具备工具感知能力，在多个 VR 基准上取得 SOTA。
 tags:
-  - ICCV 2025
-  - 多模态VLM
-  - 组合式视觉推理
-  - 工具感知
-  - 工作流生成
-  - 指令掩码微调
-  - LLM
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "组合式视觉推理"
+  - "工具感知"
+  - "工作流生成"
+  - "指令掩码微调"
+  - "LLM"
 ---
 
 # DWIM: Towards Tool-aware Visual Reasoning via Discrepancy-aware Workflow Generation & Instruct-Masking Tuning

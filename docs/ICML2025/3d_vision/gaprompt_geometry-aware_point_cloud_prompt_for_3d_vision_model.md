@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model
 description: >-
-  [ICML 2025][3D视觉][参数高效微调] 提出 GAPrompt，针对预训练 3D 视觉模型的几何感知 PEFT 方法，通过可学习点云提示 (Point Prompt)、点偏移提示器 (Point Shift Prompter) 和提示传播 (Prompt Propagation) 三个模块协同利用点云几何信息，仅训练 2.19% 参数即可匹配甚至超越全量微调。
+  [ICML 2025][3D视觉][参数高效微调] 提出 GAPrompt，针对预训练 3D 视觉模型的几何感知 PEFT 方法，通过可学习点云提示 (Point Prompt)、点偏移提示器 (Point Shift Prompter) 和提示传播 (Prompt Propagation) 三个模块协同利用…
 tags:
-  - ICML 2025
-  - 3D视觉
-  - 参数高效微调
-  - 点云
-  - 几何感知
-  - 提示学习
-  - Transformer
+  - "ICML 2025"
+  - "3D视觉"
+  - "参数高效微调"
+  - "点云"
+  - "几何感知"
+  - "提示学习"
+  - "Transformer"
 ---
 
 # GAPrompt: Geometry-Aware Point Cloud Prompt for 3D Vision Model

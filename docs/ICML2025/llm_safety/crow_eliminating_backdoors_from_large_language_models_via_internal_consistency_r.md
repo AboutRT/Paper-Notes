@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CROW: Eliminating Backdoors from Large Language Models via Internal Consistency Regularization
 description: >-
-  [ICML 2025][AI安全][后门攻击防御] 提出 CROW（Internal Consistency Regularization），通过对抗扰动 + 层间隐藏状态一致性正则化来消除 LLM 中的后门，仅需 100 条干净样本、单卡 4 分钟微调即可将攻击成功率降至 5% 以下，且不需要干净参考模型或触发器先验知识。
+  [ICML 2025][LLM安全][后门攻击防御] 提出 CROW（Internal Consistency Regularization），通过对抗扰动 + 层间隐藏状态一致性正则化来消除 LLM 中的后门，仅需 100 条干净样本、单卡 4 分钟微调即可将攻击成功率降至 5% 以下…
 tags:
-  - ICML 2025
-  - AI安全
-  - 后门攻击防御
-  - 内部一致性正则化
-  - 对抗扰动
-  - 大语言模型安全
-  - 层间一致性
+  - "ICML 2025"
+  - "LLM安全"
+  - "后门攻击防御"
+  - "内部一致性正则化"
+  - "对抗扰动"
+  - "大语言模型安全"
+  - "层间一致性"
 ---
 
 # CROW: Eliminating Backdoors from Large Language Models via Internal Consistency Regularization

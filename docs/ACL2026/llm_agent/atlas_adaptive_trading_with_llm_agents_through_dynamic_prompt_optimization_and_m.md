@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][LLM交易智能体] 提出 ATLAS 多智能体金融交易框架和 Adaptive-OPRO 提示优化方法，通过专业化分析师智能体准备异构市场信息，并基于延迟噪声反馈动态优化中央交易智能体的指令提示，在多种市场波动环境中显著超越基线。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - LLM交易智能体
-  - 提示优化
-  - 多智能体协作
-  - 金融决策
-  - 自适应策略
+  - "ACL 2026"
+  - "LLM Agent"
+  - "LLM交易智能体"
+  - "提示优化"
+  - "多智能体协作"
+  - "金融决策"
+  - "自适应策略"
 ---
 
 # ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research
 description: >-
-  [NeurIPS 2025][代码智能] 提出 MLR-Bench，一个包含 201 个开放式 ML 研究任务的综合基准，配套 MLR-Judge（LLM 评审框架）和 MLR-Agent（模块化研究代理），发现当前最先进的编码代理在约 80% 的情况下会生成伪造或未验证的实验结果，揭示了 AI 自动化科学研究的核心瓶颈。
+  [NeurIPS 2025][代码智能][AI研究代理] 提出 MLR-Bench，一个包含 201 个开放式 ML 研究任务的综合基准，配套 MLR-Judge（LLM 评审框架）和 MLR-Agent（模块化研究代理），发现当前最先进的编码代理在约 80% 的情况下会生成伪造或未验证的实验结果…
 tags:
-  - NeurIPS 2025
-  - 代码智能
-  - benchmark
-  - LLM评审
-  - 自动化科学发现
-  - 实验结果幻觉
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "AI研究代理"
+  - "benchmark"
+  - "LLM评审"
+  - "自动化科学发现"
+  - "实验结果幻觉"
 ---
 
 # MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research

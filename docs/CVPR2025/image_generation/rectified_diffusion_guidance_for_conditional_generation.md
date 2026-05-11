@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Rectified Diffusion Guidance for Conditional Generation
 description: >-
-  [CVPR 2025][图像生成][Classifier-Free Guidance] ReCFG 从理论上揭示了标准 Classifier-Free Guidance (CFG) 中两个系数求和为 1 的约束导致生成分布的期望偏移问题，通过放松系数约束并给出 $\gamma_0$ 的闭式解，提供了一种无需重训练、几乎不增加推理开销的后处理方案来校正 CFG 的引导效果。
+  [CVPR 2025][图像生成][Classifier-Free Guidance] ReCFG 从理论上揭示了标准 Classifier-Free Guidance (CFG) 中两个系数求和为 1 的约束导致生成分布的期望偏移问题，通过放松系数约束并给出 $\gamma_0$ 的闭式解…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - Classifier-Free Guidance
-  - 期望偏移
-  - 校正引导
-  - 查找表
-  - 后处理方案
+  - "CVPR 2025"
+  - "图像生成"
+  - "Classifier-Free Guidance"
+  - "期望偏移"
+  - "校正引导"
+  - "查找表"
+  - "后处理方案"
 ---
 
 # Rectified Diffusion Guidance for Conditional Generation

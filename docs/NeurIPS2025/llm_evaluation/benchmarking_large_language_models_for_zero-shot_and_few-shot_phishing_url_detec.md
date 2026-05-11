@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Benchmarking Large Language Models for Zero-Shot and Few-Shot Phishing URL Detection
 description: >-
-  [NeurIPS 2025][LLM评测] 在统一的零样本和少样本 prompt 框架下系统评估 GPT-4o、Claude-3.7 和 Grok-3-Beta 三个商用 LLM 在钓鱼 URL 检测任务上的表现，发现少样本 prompt 可显著提升所有模型性能，Grok-3-Beta 在平衡数据集上取得最佳 F1（0.9399），但不同模型在精度-召回率权衡上呈现差异化行为模式。
+  [NeurIPS 2025][LLM评测][钓鱼URL检测] 在统一的零样本和少样本 prompt 框架下系统评估 GPT-4o、Claude-3.7 和 Grok-3-Beta 三个商用 LLM 在钓鱼 URL 检测任务上的表现，发现少样本 prompt 可显著提升所有模型性能…
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - LLM
-  - 零样本学习
-  - 少样本学习
-  - 提示学习
-  - 网络安全benchmark
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "钓鱼URL检测"
+  - "LLM"
+  - "零样本学习"
+  - "少样本学习"
+  - "提示学习"
+  - "网络安全benchmark"
 ---
 
 # Benchmarking Large Language Models for Zero-Shot and Few-Shot Phishing URL Detection

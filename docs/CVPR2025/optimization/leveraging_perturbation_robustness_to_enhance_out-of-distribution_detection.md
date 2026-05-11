@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Leveraging Perturbation Robustness to Enhance Out-of-Distribution Detection
 description: >-
-  [CVPR 2025][优化][分布外检测] 发现 OOD 样本的检测得分比 IND 样本更容易被对抗扰动降低，提出 PRO 方法——在推理时用梯度下降搜索 ε-球内的最小 OOD 得分，增强 IND/OOD 可分性，在 CIFAR-10 上 FPR@95 从 44.35% 降至 19.95%。
+  [CVPR 2025][优化/理论][分布外检测] 发现 OOD 样本的检测得分比 IND 样本更容易被对抗扰动降低，提出 PRO 方法——在推理时用梯度下降搜索 ε-球内的最小 OOD 得分，增强 IND/OOD 可分性，在 CIFAR-10 上 FPR@95 从 44.35% 降至 19.95%。
 tags:
-  - CVPR 2025
-  - 优化
-  - 分布外检测
-  - 扰动鲁棒性
-  - 对抗训练
-  - 后处理方法
-  - 得分函数
+  - "CVPR 2025"
+  - "优化/理论"
+  - "分布外检测"
+  - "扰动鲁棒性"
+  - "对抗训练"
+  - "后处理方法"
+  - "得分函数"
 ---
 
 # Leveraging Perturbation Robustness to Enhance Out-of-Distribution Detection

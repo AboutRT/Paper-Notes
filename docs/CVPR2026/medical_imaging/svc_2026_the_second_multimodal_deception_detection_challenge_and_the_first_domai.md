@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][欺骗检测] 组织SVC 2026挑战赛，包含跨域多模态欺骗检测和域泛化远程生理信号测量两个赛道，提供统一评估框架和基线模型，共22支队伍提交最终结果。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 欺骗检测
-  - 远程光电容积脉搏波
-  - 跨域泛化
-  - 多模态融合
-  - 微弱视觉信号
+  - "CVPR 2026"
+  - "医学图像"
+  - "欺骗检测"
+  - "远程光电容积脉搏波"
+  - "跨域泛化"
+  - "多模态融合"
+  - "微弱视觉信号"
 ---
 
 # SVC 2026: The Second Multimodal Deception Detection Challenge and the First Domain Generalized Remote Physiological Measurement Challenge

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][视觉语言对齐] 提出 RadZero 框架及核心组件 VL-CABS（基于相似度的视觉语言交叉注意力），在胸部X光上实现可解释的、细粒度的视觉语言对齐，支持零样本分类、定位和分割多任务。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 视觉语言对齐
-  - 胸部X光
-  - 零样本
-  - 可解释性
-  - 交叉注意力
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "视觉语言对齐"
+  - "胸部X光"
+  - "零样本"
+  - "可解释性"
+  - "交叉注意力"
 ---
 
 # RadZero: Similarity-Based Cross-Attention for Explainable Vision-Language Alignment in Chest X-ray

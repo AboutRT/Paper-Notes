@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TensoFlow: Tensorial Flow-based Sampler for Inverse Rendering
 description: >-
-  [CVPR 2025][LLM评测][逆渲染] 提出 TensoFlow，通过张量化归一化流（Tensorial Normalizing Flow）学习空间-方向感知的重要性采样器，替代逆渲染中固定的预定义采样器（如 cosine-weighted、GGX），大幅降低渲染方程蒙特卡洛估计的方差，提升材质和光照分解质量。
+  [CVPR 2025][LLM评测][逆渲染] 提出 TensoFlow，通过张量化归一化流（Tensorial Normalizing Flow）学习空间-方向感知的重要性采样器，替代逆渲染中固定的预定义采样器（如 cosine-weighted、GGX），大幅降低渲染方程蒙特卡洛估计的方差…
 tags:
-  - CVPR 2025
-  - LLM评测
-  - 逆渲染
-  - 重要性采样
-  - 归一化流
-  - 张量分解
-  - 材质估计
+  - "CVPR 2025"
+  - "LLM评测"
+  - "逆渲染"
+  - "重要性采样"
+  - "归一化流"
+  - "张量分解"
+  - "材质估计"
 ---
 
 # TensoFlow: Tensorial Flow-based Sampler for Inverse Rendering

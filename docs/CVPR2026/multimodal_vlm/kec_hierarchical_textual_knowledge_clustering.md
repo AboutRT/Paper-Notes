@@ -2,15 +2,15 @@
 title: >-
   [论文解读] KEC: Hierarchical Textual Knowledge for Enhanced Image Clustering
 description: >-
-  [CVPR 2026][多模态][图像聚类] KEC 利用 LLM 构建层级化的概念-属性结构化文本知识来引导图像聚类，在 20 个数据集上无需训练即超越零样本 CLIP 14 个数据集，证明了判别性属性比简单类名更有效。
+  [CVPR 2026][多模态VLM][图像聚类] KEC 利用 LLM 构建层级化的概念-属性结构化文本知识来引导图像聚类，在 20 个数据集上无需训练即超越零样本 CLIP 14 个数据集，证明了判别性属性比简单类名更有效。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 图像聚类
-  - 文本知识
-  - 多模态VLM
-  - CLIP
-  - 判别性属性
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "图像聚类"
+  - "文本知识"
+  - "大语言模型"
+  - "CLIP"
+  - "判别性属性"
 ---
 
 # KEC: Hierarchical Textual Knowledge for Enhanced Image Clustering

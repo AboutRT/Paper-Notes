@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][Agent蒸馏] AoTD 用 LLM agent 将复杂视频问题分解为子任务、调用专家视觉模型执行并收集中间结果作为推理链（CoT），经 LLM 质量过滤后蒸馏到 Video-LLM 中，让端到端模型同时获得准确答案和可解释的多步推理能力。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - Agent蒸馏
-  - 视频问答
-  - 推理链
-  - 时空定位
-  - 多步推理
+  - "CVPR 2025"
+  - "视频理解"
+  - "Agent蒸馏"
+  - "视频问答"
+  - "推理链"
+  - "时空定位"
+  - "多步推理"
 ---
 
 # Enhancing Video-LLM Reasoning via Agent-of-Thoughts Distillation

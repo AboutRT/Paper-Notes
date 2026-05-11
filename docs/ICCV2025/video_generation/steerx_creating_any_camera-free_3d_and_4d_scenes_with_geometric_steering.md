@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering
 description: >-
-  [ICCV 2025][3D场景生成] SteerX 提出了一种零样本推理时引导方法，通过将场景重建融入视频生成过程中，利用无需相机参数的前馈重建模型设计几何奖励函数，引导生成分布朝向更好的几何一致性，实现了高质量的无相机条件 3D/4D 场景生成。
+  [ICCV 2025][视频生成][3D场景生成] SteerX 提出了一种零样本推理时引导方法，通过将场景重建融入视频生成过程中，利用无需相机参数的前馈重建模型设计几何奖励函数，引导生成分布朝向更好的几何一致性，实现了高质量的无相机条件 3D/4D 场景生成。
 tags:
-  - ICCV 2025
-  - 3D场景生成
-  - 4D场景生成
-  - 几何引导
-  - 视频生成
-  - 视频生成
+  - "ICCV 2025"
+  - "视频生成"
+  - "3D场景生成"
+  - "4D场景生成"
+  - "几何引导"
+  - "推理时引导"
 ---
 
 # SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering

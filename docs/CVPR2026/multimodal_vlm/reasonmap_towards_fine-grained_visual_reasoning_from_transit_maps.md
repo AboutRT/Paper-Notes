@@ -2,17 +2,17 @@
 title: >-
   [论文解读] ReasonMap: Towards Fine-Grained Visual Reasoning from Transit Maps
 description: >-
-  [CVPR2026][多模态][多模态推理] 提出 ReasonMap 基准，利用 30 个城市的高分辨率公交地图构建 1,008 个 QA 对，通过两级评估框架（正确性+质量）系统评估 16 个 MLLM 的细粒度视觉推理能力，发现开源模型中 base 优于 reasoning 而闭源模型相反。
+  [CVPR2026][多模态VLM][多模态推理] 提出 ReasonMap 基准，利用 30 个城市的高分辨率公交地图构建 1,008 个 QA 对，通过两级评估框架（正确性+质量）系统评估 16 个 MLLM 的细粒度视觉推理能力，发现开源模型中 base 优于 reasoning 而闭源模型相反。
 tags:
-  - CVPR2026
-  - 多模态
-  - 多模态推理
-  - 多模态VLM
-  - 空间推理
-  - 地铁地图
-  - benchmark
-  - 强化微调
-  - GRPO
+  - "CVPR2026"
+  - "多模态VLM"
+  - "多模态推理"
+  - "视觉推理"
+  - "空间推理"
+  - "地铁地图"
+  - "benchmark"
+  - "强化微调"
+  - "GRPO"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Critical Batch Size Revisited: A Simple Empirical Approach to Large-Batch Language Model Training
 description: >-
-  [NeurIPS 2025][LLM效率][critical batch size] 提出 branched training 方法直接实证测量临界 batch size (CBS)，发现 CBS 在训练早期快速增长后趋于平稳且不依赖模型规模，据此设计 batch size warmup 策略以 43% 更少的梯度步数达到同等甚至更优的训练 loss。
+  [NeurIPS 2025][LLM效率][critical batch size] 提出 branched training 方法直接实证测量临界 batch size (CBS)，发现 CBS 在训练早期快速增长后趋于平稳且不依赖模型规模…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - critical batch size
-  - large-batch training
-  - learning rate scaling
-  - batch size warmup
-  - gradient noise scale
-  - OLMo
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "critical batch size"
+  - "large-batch training"
+  - "learning rate scaling"
+  - "batch size warmup"
+  - "gradient noise scale"
+  - "OLMo"
 ---
 
 # Critical Batch Size Revisited: A Simple Empirical Approach to Large-Batch Language Model Training

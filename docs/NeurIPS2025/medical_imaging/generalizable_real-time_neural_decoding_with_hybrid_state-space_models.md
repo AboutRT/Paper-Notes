@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][状态空间模型] POSSM 提出了一种混合 SSM-注意力架构，结合 spike 级别 tokenization 和循环状态空间模型骨干，实现了可泛化的实时神经解码，在保持与 Transformer 可比的精度的同时，推理速度提升最高 9 倍。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 状态空间模型
-  - 脑机接口
-  - 神经解码
-  - 跨物种迁移
-  - 实时推理
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "状态空间模型"
+  - "脑机接口"
+  - "神经解码"
+  - "跨物种迁移"
+  - "实时推理"
 ---
 
 # Generalizable, Real-Time Neural Decoding with Hybrid State-Space Models
@@ -81,7 +81,7 @@ $$\mathbf{h}^{(t)} = f_{\text{SSM}}(\mathbf{z}^{(t)}, \mathbf{h}^{(t-1)})$$
 交叉注意力捕获局部（50ms 内）时间结构，SSM 整合跨块的全局上下文。实验中使用了三种骨干：S4D、GRU 和 Mamba。
 
 **泛化策略**：两种微调方法：
-- **Unit Identification (UI)**：冻结模型权重，仅训练新的 unit/session embedding（更新 <1% 参数）
+- **Unit Identification (UI)**：冻结模型权重，仅训练新的 unit/session embedding（更新 &lt;1% 参数）
 - **Full Finetuning (FT)**：先 UI 若干 epoch，再解冻全部参数端到端训练
 
 ### 损失函数 / 训练策略
@@ -157,7 +157,7 @@ POSSM 在 CPU 上也能实现 ~2.44ms/块（单会话）和 ~5.65ms/块（预训
 
 1. **架构设计优雅**：将 Perceiver 的灵活输入处理与 SSM 的高效序列建模有机结合，解决了神经解码的核心矛盾
 2. **跨物种迁移的开创性意义**：证明了猴子和人类的运动皮层神经动力学具有可迁移的共性特征，为稀缺人类数据场景提供了解决方案
-3. **临床实用性**：GPU 和 CPU 上均满足实时 BCI 延迟要求（<10ms），适合部署
+3. **临床实用性**：GPU 和 CPU 上均满足实时 BCI 延迟要求（&lt;10ms），适合部署
 4. **模块化设计**：骨干网络可替换（S4D/GRU/Mamba），适应不同需求
 5. **全面的实验覆盖**：从猴子运动到人类手写、语音，涵盖了神经解码的主要应用场景
 

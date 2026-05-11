@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Reverse Constitutional AI: A Framework for Controllable Toxic Data Generation via Probability-Clamped RLAIF
 description: >-
-  [ACL 2026][待补充] 待深读论文后补充
+  [ACL 2026][强化学习][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 待补充
+  - "ACL 2026"
+  - "强化学习"
+  - "待补充"
 ---
 
 # Reverse Constitutional AI: A Framework for Controllable Toxic Data Generation via Probability-Clamped RLAIF

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Geometric Imbalance in Semi-Supervised Node Classification
 description: >-
-  [NeurIPS 2025][图学习][geometric imbalance] 首次形式化定义了半监督节点分类中的"几何不平衡"概念——消息传递在类别不平衡图上导致少数类节点在黎曼流形嵌入空间中产生几何歧义，并提出 UNREAL 框架，通过双路径伪标签对齐、节点重排序和几何歧义样本丢弃三个模块系统性缓解该问题。
+  [NeurIPS 2025][图学习][geometric imbalance] 首次形式化定义了半监督节点分类中的"几何不平衡"概念——消息传递在类别不平衡图上导致少数类节点在黎曼流形嵌入空间中产生几何歧义，并提出 UNREAL 框架…
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - geometric imbalance
-  - 半监督学习
-  - self-training
-  - 伪标签
-  - 图神经网络
-  - Riemannian manifold
+  - "NeurIPS 2025"
+  - "图学习"
+  - "geometric imbalance"
+  - "半监督学习"
+  - "self-training"
+  - "伪标签"
+  - "图神经网络"
+  - "Riemannian manifold"
 ---
 
 # Geometric Imbalance in Semi-Supervised Node Classification
@@ -126,7 +126,7 @@ $$G(u^j) = \frac{\|\tilde{h}_{u^j}^{(l)} - \tilde{\mu}_{y^{u^j}}\|^2}{\sum_{\mat
 - **K-Means 聚类假设**：在超球面嵌入上使用欧氏 K-Means 而非球面聚类（如 spherical K-Means），虽作者在附录中讨论了鲁棒性，但理论上不完全一致
 - **超参数敏感性**：聚类数 $k'$ 和 DGIS 阈值 $\gamma$ 需要调优，虽然敏感性分析表明在合理范围内较稳定，但最优值因数据集而异
 - **SAGE 骨干在 Computers-Random 上表现下降**：Δ 为 -3.17 bAcc.，说明框架在特定骨干-数据集组合下不总是最优
-- **大规模数据集提升有限**：在 Ogbn-arxiv 上整体提升幅度较小（<1.5 bAcc.），可能因极端不平衡（ρ≈775）超出了当前方法的有效范围
+- **大规模数据集提升有限**：在 Ogbn-arxiv 上整体提升幅度较小（&lt;1.5 bAcc.），可能因极端不平衡（ρ≈775）超出了当前方法的有效范围
 
 ## 相关工作
 

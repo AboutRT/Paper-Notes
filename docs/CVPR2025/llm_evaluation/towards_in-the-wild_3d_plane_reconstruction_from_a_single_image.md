@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM评测][平面重建] ZeroPlane 提出了首个跨域零样本3D平面重建框架，通过构建包含14个数据集/56万标注的大规模平面基准数据集，并设计法向量-偏移解耦的分类-回归范式和像素几何增强嵌入模块，实现了在室内外多样场景中显著优于现有方法的泛化性能。
 tags:
-  - CVPR 2025
-  - LLM评测
-  - 平面重建
-  - 零样本泛化
-  - 单图3D重建
-  - 跨域学习
-  - Transformer
+  - "CVPR 2025"
+  - "LLM评测"
+  - "平面重建"
+  - "零样本泛化"
+  - "单图3D重建"
+  - "跨域学习"
+  - "Transformer"
 ---
 
 # Towards In-the-Wild 3D Plane Reconstruction from a Single Image

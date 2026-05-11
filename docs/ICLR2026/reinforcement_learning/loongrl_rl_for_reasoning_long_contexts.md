@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts
 description: >-
-  [ICLR 2026 Oral][long-context reasoning] 提出 LoongRL，通过构建 KeyChain 合成数据进行强化学习训练，使 LLM 涌现出 plan–retrieve–reason–recheck 的长上下文推理模式，仅在 16K 上下文上训练即可泛化到 128K，14B 模型达到 74.2 分接近 o3-mini (74.5) 和 DeepSeek-R1 (74.9)。
+  [ICLR 2026 Oral][强化学习][long-context reasoning] 提出 LoongRL，通过构建 KeyChain 合成数据进行强化学习训练，使 LLM 涌现出 plan–retrieve–reason–recheck 的长上下文推理模式…
 tags:
-  - ICLR 2026 Oral
-  - 强化学习
-  - reinforcement-learning
-  - GRPO
-  - multi-hop QA
-  - emergent reasoning patterns
+  - "ICLR 2026 Oral"
+  - "强化学习"
+  - "long-context reasoning"
+  - "reinforcement-learning"
+  - "GRPO"
+  - "multi-hop QA"
+  - "emergent reasoning patterns"
 ---
 
 # LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts
@@ -27,7 +28,7 @@ tags:
 
 **领域现状**：当前 LLM 推理方面的进展（如 DeepSeek-R1、o1）主要集中在短上下文推理任务（数学、代码），通过 RL 引导模型产生更长的 chain-of-thought 和自我反思。对于长上下文推理——需要在数千 token 的外部输入中检索并整合信息——则基本未被探索。
 
-**现有痛点**：(a) 现有长上下文模型虽然支持长窗口（128K+），但主要只擅长 **检索**，在需要 **推理** 的场景下表现差；(b) 用于 RL 训练的高难度长上下文数据极度稀缺，答案形式多样导致验证困难；(c) 将 RL rollout 从短文本（<1K）扩展到 128K 上下文计算成本极高；(d) 仅在长上下文数据上训练会退化短上下文能力。
+**现有痛点**：(a) 现有长上下文模型虽然支持长窗口（128K+），但主要只擅长 **检索**，在需要 **推理** 的场景下表现差；(b) 用于 RL 训练的高难度长上下文数据极度稀缺，答案形式多样导致验证困难；(c) 将 RL rollout 从短文本（&lt;1K）扩展到 128K 上下文计算成本极高；(d) 仅在长上下文数据上训练会退化短上下文能力。
 
 **核心矛盾**：长上下文推理需要独特的思维模式（先规划→再检索→再推理→再验证），但这种模式无法通过简单的 SFT 或 prompting 获得，需要 RL 来探索和激励。然而，适合 RL 训练的数据不存在——必须足够难以触发推理，必须需要从长上下文中检索信息，且答案必须可验证。
 

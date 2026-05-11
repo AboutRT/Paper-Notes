@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Adapting Psycholinguistic Research for LLMs: Gender-Inclusive Language in a Coreference Context
 description: >-
-  [ACL 2025][NLP理解][性别包容性语言] 将 Tibblin et al. (2023) 的心理语言学实验从法语适配到英语和德语 LLM，通过测量共指词概率和生成内容分析发现：英语 LLM 基本保持先行词-共指词性别一致但 they 单数几乎不被使用且存在底层男性偏见；德语 Leo Mistral 7B 的男性偏见更强烈（压倒所有 8 种包容策略），但包容策略仍能增加女性/中性性别的出现概率，与心理语言学人类实验结果一致。
+  [ACL 2025][LLM/NLP][性别包容性语言] 将 Tibblin et al. (2023) 的心理语言学实验从法语适配到英语和德语 LLM，通过测量共指词概率和生成内容分析发现：英语 LLM 基本保持先行词-共指词性别一致但 they 单数几乎不被使用且存在底层男性偏见…
 tags:
-  - ACL 2025
-  - NLP理解
-  - 性别包容性语言
-  - 共指消解
-  - LLM偏见
-  - 心理语言学
-  - 德语
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "性别包容性语言"
+  - "共指消解"
+  - "LLM偏见"
+  - "心理语言学"
+  - "德语"
 ---
 
 # Adapting Psycholinguistic Research for LLMs: Gender-Inclusive Language in a Coreference Context

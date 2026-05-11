@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 提出 InfinityStar，首个能生成工业级 720p 视频的纯离散自回归模型，通过时空金字塔建模统一 T2I/T2V/I2V/交互式长视频生成，VBench 83.74 超越 HunyuanVideo，推理速度比扩散模型快 10-32×。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation

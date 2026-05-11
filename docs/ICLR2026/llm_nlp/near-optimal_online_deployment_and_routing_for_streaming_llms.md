@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Near-Optimal Online Deployment and Routing for Streaming LLMs
 description: >-
-  [ICLR 2026][LLM/NLP][LLM路由] 首次形式化 LLM 流式在线部署+路由联合问题：新模型持续出现、旧模型可能过时，在并发部署上限 $M_{\max}$ 和成本预算约束下，提出 StageRoute 分层算法，证明 $\tilde{\mathcal{O}}(T^{2/3})$ 遗憾界并给出匹配下界，达到近最优。
+  [ICLR 2026][LLM/NLP][LLM路由] 首次形式化 LLM 流式在线部署+路由联合问题：新模型持续出现、旧模型可能过时，在并发部署上限 $M_{\max}$ 和成本预算约束下，提出 StageRoute 分层算法…
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - LLM路由
-  - 在线部署
-  - streaming bandits
-  - 并发上限
-  - 预算约束
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "LLM路由"
+  - "在线部署"
+  - "streaming bandits"
+  - "并发上限"
+  - "预算约束"
 ---
 
 # Near-Optimal Online Deployment and Routing for Streaming LLMs
@@ -71,8 +71,8 @@ StageRoute 是一个两层分层算法，镜像问题的层级结构：
 
 | 实验设置 | StageRoute vs Oracle 差距 | 说明 |
 |---------|------------------------|------|
-| 紧预算 $(b=0.3)$ | <5% sub-optimality | 在严格预算下仍紧跟 oracle |
-| 宽预算 $(b=0.7)$ | <2% sub-optimality | 预算宽裕时几乎最优 |
+| 紧预算 $(b=0.3)$ | &lt;5% sub-optimality | 在严格预算下仍紧跟 oracle |
+| 宽预算 $(b=0.7)$ | &lt;2% sub-optimality | 预算宽裕时几乎最优 |
 | $M_{\max}$ 变化 | 性能随 $M_{\max}$ 单调提升 | 验证理论中并发上限的作用 |
 | $K$ 变化 | $K=T^{1/3}$ 附近最优 | 验证理论最优 stage 数 |
 | 多任务/多语言查询 | 一致有效 | 跨多样负载鲁棒 |

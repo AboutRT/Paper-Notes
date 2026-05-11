@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Hallucination Detection through Noise Injection
 description: >-
-  [ICLR 2026][LLM安全] 在 LLM 中间层的 MLP 激活中注入均匀噪声来近似贝叶斯后验，捕获认知不确定性（epistemic uncertainty），与采样温度捕获的偶然不确定性（aleatoric uncertainty）互补，将 GSM8K 上的幻觉检测 AUROC 从 71.56 提升到 76.14。
+  [ICLR 2026][LLM安全][幻觉检测] 在 LLM 中间层的 MLP 激活中注入均匀噪声来近似贝叶斯后验，捕获认知不确定性（epistemic uncertainty），与采样温度捕获的偶然不确定性（aleatoric uncertainty）互补…
 tags:
-  - ICLR 2026
-  - LLM安全
-  - 噪声注入
-  - 认知不确定性
-  - 贝叶斯近似
-  - 中间表征
+  - "ICLR 2026"
+  - "LLM安全"
+  - "幻觉检测"
+  - "噪声注入"
+  - "认知不确定性"
+  - "贝叶斯近似"
+  - "中间表征"
 ---
 
 # Enhancing Hallucination Detection through Noise Injection

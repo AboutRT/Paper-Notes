@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][自监督学习] 提出 RayZer，一个无需任何3D监督（无相机位姿/无场景几何标注）的自监督多视角3D视觉模型，通过将图像解耦为相机参数和场景表示实现3D感知自编码，在新视角合成任务上达到甚至超越依赖位姿标注的"oracle"方法。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 自监督学习
-  - 新视角合成
-  - 相机位姿估计
-  - Plücker光线
-  - Transformer
+  - "ICCV 2025"
+  - "3D视觉"
+  - "自监督学习"
+  - "新视角合成"
+  - "相机位姿估计"
+  - "Plücker光线"
+  - "Transformer"
 ---
 
 # RayZer: A Self-supervised Large View Synthesis Model

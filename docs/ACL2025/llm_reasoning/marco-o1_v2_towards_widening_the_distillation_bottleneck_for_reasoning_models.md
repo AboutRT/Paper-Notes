@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM推理][Reasoning Distillation] 揭示了直接蒸馏大推理模型（如 DeepSeek-R1）的长 CoT 数据到小模型时的「形式化长时间思考」瓶颈，提出基于 MCTS 从头构造树状 CoT 数据并结合思维长度平衡、细粒度 DPO 和联合训练目标来缓解该问题。
 tags:
-  - ACL 2025
-  - LLM推理
-  - Reasoning Distillation
-  - MCTS
-  - Chain-of-Thought
-  - DPO
-  - Formalistic Thinking
+  - "ACL 2025"
+  - "LLM推理"
+  - "Reasoning Distillation"
+  - "MCTS"
+  - "Chain-of-Thought"
+  - "DPO"
+  - "Formalistic Thinking"
 ---
 
 # Marco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models

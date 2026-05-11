@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][自动驾驶][3D目标检测] 提出 DriveFlow，一种基于预训练 T2I Flow 模型的 rectified flow 适配方法，通过频率分解对前景高频保持和背景双频优化，实现无需训练的驾驶场景图像编辑数据增强，大幅提升视觉 3D 检测器在 OOD 场景下的鲁棒性。
 tags:
-  - AAAI 2026
-  - 自动驾驶
-  - 3D目标检测
-  - 数据增强
-  - Rectified Flow
-  - 图像编辑
-  - 鲁棒性
+  - "AAAI 2026"
+  - "自动驾驶"
+  - "3D目标检测"
+  - "数据增强"
+  - "Rectified Flow"
+  - "图像编辑"
+  - "鲁棒性"
 ---
 
 # DriveFlow: Rectified Flow Adaptation for Robust 3D Object Detection in Autonomous Driving

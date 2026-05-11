@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CAMU: Context Augmentation for Meme Understanding
 description: >-
-  [AAAI 2026][多模态VLM][仇恨检测] 提出 CAMU 框架，通过视觉 grounding 增强上下文生成、caption 评分网络和参数高效文本编码器微调，在 Hateful Memes 数据集上以远少参数达到与 55B 参数 SOTA 相当的性能。
+  [AAAI 2026][多模态VLM][仇恨meme检测] 本文提出 CAMU 框架，通过视觉 grounding 增强的上下文 caption 生成、新颖的 caption 评分网络和 CLIP 文本编码器的参数高效 n-layer 微调…
 tags:
-  - AAAI 2026
-  - 多模态VLM
-  - 仇恨检测
-  - CLIP微调
-  - 视觉grounding
-  - meme理解
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "仇恨meme检测"
+  - "多模态融合"
+  - "CLIP微调"
+  - "视觉grounding"
+  - "caption生成"
 ---
 
 # CAMU: Context Augmentation for Meme Understanding

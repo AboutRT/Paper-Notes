@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language
 description: >-
-  [ACL 2025 (GeBNLP Workshop)][性别偏见] 本文针对德语场景构建了五个性别偏见评测数据集，并在八个多语言 LLM 上进行系统评估，揭示了德语特有的性别偏见挑战——包括阳性职业名词的歧义解读和看似中性的名词对性别感知的影响。
+  [ACL 2025 (GeBNLP Workshop)][社会计算][性别偏见] 本文针对德语场景构建了五个性别偏见评测数据集，并在八个多语言 LLM 上进行系统评估，揭示了德语特有的性别偏见挑战——包括阳性职业名词的歧义解读和看似中性的名词对性别感知的影响。
 tags:
-  - 社会计算
-  - 性别偏见
-  - 德语
-  - 大语言模型
-  - 偏见评测
-  - 多语言
+  - "ACL 2025 (GeBNLP Workshop)"
+  - "社会计算"
+  - "性别偏见"
+  - "德语"
+  - "大语言模型"
+  - "偏见评测"
+  - "多语言"
 ---
 
 # Exploring Gender Bias in Large Language Models: An In-depth Dive into the German Language

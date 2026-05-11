@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][点云配准] 提出 UGP 框架，通过消除交叉注意力、引入渐进式自注意力和 BEV 特征融合，显著提升 LiDAR 点云配准在跨距离和跨数据集场景下的泛化能力。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 点云配准
-  - 跨距离泛化
-  - 跨数据集泛化
-  - 自注意力
-  - BEV特征
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "点云配准"
+  - "跨距离泛化"
+  - "跨数据集泛化"
+  - "自注意力"
+  - "BEV特征"
 ---
 
 # Unlocking Generalization Power in LiDAR Point Cloud Registration

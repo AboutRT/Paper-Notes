@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][人体运动恢复] 构建了首个大规模攀岩运动多模态数据集 AscendMotion（412K帧，RGB+LiDAR+IMU），并提出 ClimbingCap 方法通过分离坐标解码、后处理优化和半监督训练，在世界坐标系中精确恢复攀岩者的3D运动。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 人体运动恢复
-  - 攀岩
-  - 多模态
-  - LiDAR
-  - RGB
-  - SMPL
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "人体运动恢复"
+  - "攀岩"
+  - "多模态"
+  - "LiDAR"
+  - "RGB"
+  - "SMPL"
 ---
 
 # ClimbingCap: Multi-Modal Dataset and Method for Rock Climbing in World Coordinate

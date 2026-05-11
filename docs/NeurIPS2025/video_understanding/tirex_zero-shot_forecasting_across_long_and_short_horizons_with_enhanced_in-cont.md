@@ -2,16 +2,16 @@
 title: >-
   [论文解读] TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning
 description: >-
-  [NeurIPS 2025][视频理解][时间序列预测] 提出基于xLSTM的预训练时间序列预测模型TiRex，通过连续片段掩码（CPM）策略和数据增强技术，在GiftEval和Chronos-ZS两大标准基准上以仅35M参数全面超越Chronos Bolt（200M）、TimesFM（500M）等大模型，同时在短期和长期零样本预测中均达到SOTA。
+  [NeurIPS 2025][视频理解][时间序列预测] 提出基于xLSTM的预训练时间序列预测模型TiRex，通过连续片段掩码（CPM）策略和数据增强技术，在GiftEval和Chronos-ZS两大标准基准上以仅35M参数全面超越Chronos Bolt（200M）、TimesFM（500M）等大模型…
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 时间序列预测
-  - 零样本预测
-  - xLSTM
-  - 上下文学习
-  - 数据增强
-  - 预训练模型
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "时间序列预测"
+  - "零样本预测"
+  - "xLSTM"
+  - "上下文学习"
+  - "数据增强"
+  - "预训练模型"
 ---
 
 # TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning

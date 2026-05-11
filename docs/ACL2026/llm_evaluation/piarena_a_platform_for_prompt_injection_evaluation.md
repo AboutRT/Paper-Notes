@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PIArena: A Platform for Prompt Injection Evaluation
 description: >-
-  [ACL 2026][提示注入攻击] 本文提出 PIArena，一个统一且可扩展的提示注入（Prompt Injection）评估平台，集成了多种 SOTA 攻击和防御方法，支持即插即用评估，并设计了基于策略的自适应攻击方法，系统性地揭示了现有防御在泛化性、自适应攻击和任务对齐场景下的关键局限。
+  [ACL 2026][LLM评测][提示注入攻击] 本文提出 PIArena，一个统一且可扩展的提示注入（Prompt Injection）评估平台，集成了多种 SOTA 攻击和防御方法，支持即插即用评估，并设计了基于策略的自适应攻击方法，系统性地揭示了现有防御在泛化性、自适应攻击和任务对齐场景下的关键局限。
 tags:
-  - ACL 2026
-  - 提示注入攻击
-  - 防御评估平台
-  - 自适应攻击
-  - LLM评测
-  - 基准统一
+  - "ACL 2026"
+  - "LLM评测"
+  - "提示注入攻击"
+  - "防御评估平台"
+  - "自适应攻击"
+  - "LLM安全"
+  - "基准统一"
 ---
 
 # PIArena: A Platform for Prompt Injection Evaluation

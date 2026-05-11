@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Adaptation to Generalization: Adaptive Visual Prompting for Medical Image Segmentation
 description: >-
-  [CVPR 2026][医学图像][视觉提示] 提出 APEX（Adaptive Prompt EXtraction），通过从可学习 prompt 记忆中自适应检索输入特定的 visual prompt（而非为每个域固定一个 prompt），结合低频特征对比学习增强域间区分能力，显著提升医学图像分割在已见域和未见域上的泛化性能。
+  [CVPR 2026][医学图像][视觉提示] 提出 APEX（Adaptive Prompt EXtraction），通过从可学习 prompt 记忆中自适应检索输入特定的 visual prompt（而非为每个域固定一个 prompt），结合低频特征对比学习增强域间区分能力…
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 视觉提示
-  - 域适应
-  - 域泛化
-  - 医学图像分割
-  - 低频特征对比学习
+  - "CVPR 2026"
+  - "医学图像"
+  - "视觉提示"
+  - "域适应"
+  - "域泛化"
+  - "医学图像分割"
+  - "低频特征对比学习"
 ---
 
 # From Adaptation to Generalization: Adaptive Visual Prompting for Medical Image Segmentation

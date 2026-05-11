@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][推测解码] 本文提出一种即插即用的推测解码自适应方案，能够在推理过程中动态调整草稿模型的推测窗口大小γ（以及可能的草稿模型选择），从而在不同输入分布下最大化推测解码的端到端加速比。
 tags:
-  - ACL 2025
-  - LLM效率
-  - 推测解码
-  - 窗口自适应
-  - LLM推理加速
-  - 草稿模型选择
-  - 端到端速度优化
+  - "ACL 2025"
+  - "LLM效率"
+  - "推测解码"
+  - "窗口自适应"
+  - "LLM推理加速"
+  - "草稿模型选择"
+  - "端到端速度优化"
 ---
 
 # A Drop-In Solution for On-the-Fly Adaptation of Speculative Decoding in Large Language Models

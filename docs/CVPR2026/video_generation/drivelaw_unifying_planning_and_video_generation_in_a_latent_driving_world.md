@@ -2,14 +2,14 @@
 title: >-
   [论文解读] DriveLaW: Unifying Planning and Video Generation in a Latent Driving World
 description: >-
-  [CVPR 2026][世界模型] 提出 DriveLaW，一个通过共享潜在空间将视频生成与运动规划统一的驾驶世界模型，将视频生成器的中间潜在特征直接注入扩散规划器，在 nuScenes 视频预测和 NAVSIM 规划基准上同时达到 SOTA。
+  [CVPR 2026][视频生成][世界模型] 提出 DriveLaW，一个通过共享潜在空间将视频生成与运动规划统一的驾驶世界模型，将视频生成器的中间潜在特征直接注入扩散规划器，在 nuScenes 视频预测和 NAVSIM 规划基准上同时达到 SOTA。
 tags:
-  - CVPR 2026
-  - 世界模型
-  - 视频生成
-  - 视频生成
-  - 潜在空间
-  - 扩散策略
+  - "CVPR 2026"
+  - "视频生成"
+  - "世界模型"
+  - "自动驾驶规划"
+  - "潜在空间"
+  - "扩散策略"
 ---
 
 # DriveLaW: Unifying Planning and Video Generation in a Latent Driving World

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TOD³Cap: Towards 3D Dense Captioning in Outdoor Scenes
 description: >-
-  [ECCV 2024][自动驾驶][3D dense captioning] 首次提出户外 3D 密集描述任务，构建百万级 TOD3Cap 数据集（850 场景 2.3M 描述），设计基于 BEV 特征 + Relation Q-Former + LLaMA-Adapter 的端到端网络，超越适配后的室内方法 +9.6 CIDEr@0.5IoU。
+  [ECCV 2024][自动驾驶][3D dense captioning] 首次提出户外 3D 密集描述任务，构建百万级 TOD3Cap 数据集（850 场景 2.3M 描述），设计基于 BEV 特征 + Relation Q-Former + LLaMA-Adapter 的端到端网络…
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 3D dense captioning
-  - outdoor scenes
-  - BEV
-  - Relation Q-Former
-  - LLaMA-Adapter
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "3D dense captioning"
+  - "outdoor scenes"
+  - "BEV"
+  - "Relation Q-Former"
+  - "LLaMA-Adapter"
 ---
 
 # TOD³Cap: Towards 3D Dense Captioning in Outdoor Scenes

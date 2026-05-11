@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][字体理解] 构建了包含 135,000 个字体-文本对的大规模多模态数据集 DFD，并提出 Font-Agent——一个基于视觉语言模型的字体理解代理，通过边缘感知追踪模块（EAT）捕捉字体笔画细节和动态直接偏好优化策略（D-DPO）精细化模型对字体风格的理解能力。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 字体理解
-  - 视觉语言模型
-  - 边缘感知
-  - DPO
-  - 多模态数据集
-  - 字体描述
+  - "CVPR 2025"
+  - "图像生成"
+  - "字体理解"
+  - "视觉语言模型"
+  - "边缘感知"
+  - "DPO"
+  - "多模态数据集"
+  - "字体描述"
 ---
 
 # Font-Agent: Enhancing Font Understanding with Large Language Models

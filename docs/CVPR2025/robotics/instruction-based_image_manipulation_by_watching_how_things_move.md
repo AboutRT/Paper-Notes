@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][指令图像编辑] 本文提出 InstructMove，通过从视频中采样帧对并用多模态大模型生成编辑指令来构建大规模真实图像编辑数据集，结合空间条件化策略微调 T2I 模型，在姿态调整、视角变换等非刚性编辑任务上实现了 SOTA 效果。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 指令图像编辑
-  - 视频帧对
-  - 空间条件化
-  - 非刚性变换
-  - 多模态大模型
+  - "CVPR 2025"
+  - "机器人"
+  - "指令图像编辑"
+  - "视频帧对"
+  - "空间条件化"
+  - "非刚性变换"
+  - "多模态大模型"
 ---
 
 # Instruction-based Image Manipulation by Watching How Things Move

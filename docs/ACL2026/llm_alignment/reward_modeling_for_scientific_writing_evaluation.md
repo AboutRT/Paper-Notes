@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM对齐][奖励模型] 本文提出 SciRM 和 SciRM-Ref 两个针对科学写作评估的开源奖励模型，通过两阶段强化学习（GRPO）分别优化评估偏好和推理能力，实现了在多种科学写作任务上的细粒度多方面评估，并能泛化到未见过的评估任务和标准。
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 奖励模型
-  - 科学写作评估
-  - GRPO
-  - 多方面评估
-  - 推理增强
+  - "ACL 2026"
+  - "LLM对齐"
+  - "奖励模型"
+  - "科学写作评估"
+  - "GRPO"
+  - "多方面评估"
+  - "推理增强"
 ---
 
 # Reward Modeling for Scientific Writing Evaluation

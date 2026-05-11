@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ICML 2025][医学图像][MEG] 开发神经科学启发的自监督 pretext 任务和异构脑信号处理架构，将 MEG 语音解码扩展至约 400 小时/900 名被试，超越 SOTA 15-27%，首次以非侵入式数据匹配手术级解码性能，并展现跨数据集、跨被试、跨任务的泛化能力。
 tags:
-  - ICML 2025
-  - 医学图像
-  - MEG
-  - 自监督学习
-  - pretext task
-  - 语音解码
-  - 跨被试泛化
-  - 脑信号
-  - scaling
+  - "ICML 2025"
+  - "医学图像"
+  - "MEG"
+  - "自监督学习"
+  - "pretext task"
+  - "语音解码"
+  - "跨被试泛化"
+  - "脑信号"
+  - "scaling"
 ---
 
 # The Brain's Bitter Lesson: Scaling Speech Decoding With Self-Supervised Learning

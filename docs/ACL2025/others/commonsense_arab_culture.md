@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Commonsense Reasoning in Arab Culture
 description: >-
-  [ACL 2025][阿拉伯文化] 提出 ArabCulture 数据集（3482 个 MSA 问题，覆盖 13 个阿拉伯国家/4 个区域/54 个文化子领域），系统评估多个 LLM 的阿拉伯文化常识推理能力，发现即使 GPT-4o 也仅达 90%、大部分模型在 40-80% 之间，揭示了 LLM 在非西方文化理解上的显著不足。
+  [ACL 2025][阿拉伯文化] 提出 ArabCulture 数据集（3482 个 MSA 问题，覆盖 13 个阿拉伯国家/4 个区域/54 个文化子领域），系统评估多个 LLM 的阿拉伯文化常识推理能力，发现即使 GPT-4o 也仅达 90%、大部分模型在 40-80% 之间…
 tags:
-  - ACL 2025
-  - 阿拉伯文化
-  - 其他
-  - LLM评估
-  - 多语言
-  - 文化基准
-  - ArabCulture
+  - "ACL 2025"
+  - "阿拉伯文化"
+  - "常识推理"
+  - "LLM评估"
+  - "多语言"
+  - "文化基准"
+  - "ArabCulture"
 ---
 
 # Commonsense Reasoning in Arab Culture

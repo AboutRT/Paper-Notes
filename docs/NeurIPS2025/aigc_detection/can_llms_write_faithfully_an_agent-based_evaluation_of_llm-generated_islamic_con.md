@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content
 description: >-
-  [NEURIPS2025 (MusIML Workshop)][3D视觉][LLM评估] 提出双Agent（定量+定性）评估框架，从神学准确性、引用完整性和文体恰当性三个维度系统评估 GPT-4o、Ansari AI 和 Fanar 在伊斯兰内容生成任务上的忠实度，发现即使最优模型也在引用可靠性上存在显著不足。
+  [NEURIPS2025 (MusIML Workshop)][AIGC检测][LLM评估] 提出双Agent（定量+定性）评估框架，从神学准确性、引用完整性和文体恰当性三个维度系统评估 GPT-4o、Ansari AI 和 Fanar 在伊斯兰内容生成任务上的忠实度…
 tags:
-  - NEURIPS2025 (MusIML Workshop)
-  - AIGC检测
-  - LLM评估
-  - 伊斯兰内容生成
-  - 双Agent框架
-  - 引用验证
-  - 高风险领域生成
+  - "NEURIPS2025 (MusIML Workshop)"
+  - "AIGC检测"
+  - "LLM评估"
+  - "伊斯兰内容生成"
+  - "双Agent框架"
+  - "引用验证"
+  - "高风险领域生成"
 ---
 
 # Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content
@@ -64,7 +64,7 @@ tags:
 
 **3. 定性比较Agent**
 
-- 同时处理三个模型的回复（用 XML 标签 `<R1>/<R2>/<R3>` 分隔），进行 side-by-side 对比
+- 同时处理三个模型的回复（用 XML 标签 <code>&lt;R1&gt;/&lt;R2&gt;/&lt;R3&gt;</code> 分隔），进行 side-by-side 对比
 - 在 5 个维度评估：Clarity & Structure、Islamic Accuracy、Tone & Appropriateness、Depth & Originality、Comparative Reflection
 - 每个维度识别最强/最弱回复，用具体文本摘录作为依据
 - 使用与定量Agent相同的验证工具链，确保一致性

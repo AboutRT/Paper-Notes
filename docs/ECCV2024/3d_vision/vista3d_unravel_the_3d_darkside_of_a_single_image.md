@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出Vista3D，通过粗到细的两阶段框架（高斯溅射→FlexiCubes等值面细化+解耦纹理），结合角度扩散先验组合，5分钟内从单张图像生成多样且一致的高保真3D网格。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # Vista3D: Unravel the 3D Darkside of a Single Image

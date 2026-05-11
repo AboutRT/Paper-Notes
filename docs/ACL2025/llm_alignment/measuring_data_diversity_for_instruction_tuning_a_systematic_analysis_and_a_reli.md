@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][Data Diversity] 系统分析 11 种现有多样性度量方法的局限性，提出 NovelSum——一种同时考虑样本间差异和信息密度的数据多样性指标，与指令微调性能达到 0.97 相关性。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - Data Diversity
-  - instruction tuning
-  - NovelSum
-  - Data Selection
-  - Metric Design
+  - "ACL 2025"
+  - "LLM对齐"
+  - "Data Diversity"
+  - "instruction tuning"
+  - "NovelSum"
+  - "Data Selection"
+  - "Metric Design"
 ---
 
 # Measuring Data Diversity for Instruction Tuning: A Systematic Analysis and A Reliable Metric

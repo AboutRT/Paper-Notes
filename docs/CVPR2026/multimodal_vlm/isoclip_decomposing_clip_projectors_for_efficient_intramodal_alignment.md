@@ -2,15 +2,15 @@
 title: >-
   [论文解读] IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment
 description: >-
-  [CVPR 2026][多模态][CLIP] IsoCLIP 从理论上分析 CLIP 投影头的结构，发现余弦相似度计算中隐含一个模态间算子 $\Psi = W_i^\top W_t$ 负责跨模态对齐，和一个模态内算子 $\Psi_i = W_i^\top W_i$ 仅负责归一化但不促进模态内对齐；通过对 $\Psi$ 的奇异值分解识别出近似各向同性(isotropic)的对齐子空间，去除各向异性方向后无需训练即可显著改善模态内检索和分类性能。
+  [CVPR 2026][多模态VLM][CLIP] IsoCLIP 从理论上分析 CLIP 投影头的结构，发现余弦相似度计算中隐含一个模态间算子 $\Psi = W_i^\top W_t$ 负责跨模态对齐，和一个模态内算子 $\Psi_i = W_i^\top W_i$ 仅负责归一化但不促进模态内对齐…
 tags:
-  - CVPR 2026
-  - 多模态
-  - CLIP
-  - 多模态VLM
-  - 投影头分析
-  - 奇异值分解
-  - 各向同性子空间
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "CLIP"
+  - "模态内对齐"
+  - "投影头分析"
+  - "奇异值分解"
+  - "各向同性子空间"
 ---
 
 # IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment

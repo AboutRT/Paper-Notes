@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][量化] TurboBoA 提出了一种无需反向传播的 LLM 后训练量化方法，通过多 out-channel 联合量化、前层误差补偿和自适应网格选择三大创新，在保留 BoA 精度优势的同时实现了 3 倍以上加速。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 量化
-  - 注意力机制
-  - backpropagation-free
-  - LLM compression
+  - "ICLR 2026"
+  - "模型压缩"
+  - "量化"
+  - "注意力机制"
+  - "backpropagation-free"
+  - "LLM compression"
 ---
 
 # TurboBoA: Faster and Exact Attention-aware Quantization without Backpropagation

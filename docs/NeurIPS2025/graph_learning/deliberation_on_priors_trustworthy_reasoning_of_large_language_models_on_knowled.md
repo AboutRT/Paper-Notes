@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][知识图谱问答] 提出 DP（Deliberation on Priors）框架，通过渐进式知识蒸馏利用知识图谱的结构先验生成忠实的关系路径，并通过推理内省策略基于约束先验验证推理可靠性，在 KGQA 基准上达到新 SOTA。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 知识图谱问答
-  - 可信推理
-  - 结构先验
-  - 约束推理
-  - 知识蒸馏
+  - "NeurIPS 2025"
+  - "图学习"
+  - "知识图谱问答"
+  - "可信推理"
+  - "结构先验"
+  - "约束推理"
+  - "知识蒸馏"
 ---
 
 # Deliberation on Priors: Trustworthy Reasoning of Large Language Models on Knowledge Graphs

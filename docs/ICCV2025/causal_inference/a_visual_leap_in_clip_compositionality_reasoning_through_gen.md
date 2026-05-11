@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets
 description: >-
-  [ICCV 2025][CLIP] 提出基于block-based diffusion的反事实图文对自动生成方法，将图像实体视为"拼图块"进行独立生成与组装，配合集合内/集合间双层损失函数微调CLIP（LoRA），在ARO、Winoground、sDCI等多个组合推理benchmark上以10K-300K合成数据超越使用3M手标数据的SOTA方法。
+  [ICCV 2025][因果推理][CLIP] 提出基于block-based diffusion的反事实图文对自动生成方法，将图像实体视为"拼图块"进行独立生成与组装，配合集合内/集合间双层损失函数微调CLIP（LoRA）…
 tags:
-  - ICCV 2025
-  - CLIP
-  - 因果推理
-  - 反事实数据增强
-  - 扩散模型
-  - 对比学习损失
+  - "ICCV 2025"
+  - "因果推理"
+  - "CLIP"
+  - "组合推理"
+  - "反事实数据增强"
+  - "扩散模型"
+  - "对比学习损失"
 ---
 
 # A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets

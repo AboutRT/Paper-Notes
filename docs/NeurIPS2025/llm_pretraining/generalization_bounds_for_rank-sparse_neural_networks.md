@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Generalization Bounds for Rank-sparse Neural Networks
 description: >-
-  [NeurIPS 2025][泛化界] 本文证明了利用神经网络权重矩阵近似低秩结构的泛化界，当 Schatten $p$ 拟范数较小时，样本复杂度仅为 $\widetilde{O}(WrL^2)$，其中 $W$, $L$, $r$ 分别为宽度、深度和权重矩阵的秩。
+  [NeurIPS 2025][预训练][泛化界] 本文证明了利用神经网络权重矩阵近似低秩结构的泛化界，当 Schatten $p$ 拟范数较小时，样本复杂度仅为 $\widetilde{O}(WrL^2)$，其中 $W$, $L$, $r$ 分别为宽度、深度和权重矩阵的秩。
 tags:
-  - NeurIPS 2025
-  - 泛化界
-  - 低秩结构
-  - Schatten 范数
-  - 瓶颈秩
-  - 样本复杂度
+  - "NeurIPS 2025"
+  - "预训练"
+  - "泛化界"
+  - "低秩结构"
+  - "Schatten 范数"
+  - "瓶颈秩"
+  - "样本复杂度"
 ---
 
 # Generalization Bounds for Rank-sparse Neural Networks

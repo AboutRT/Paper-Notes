@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][文献综述表格生成] 提出 arXiv2Table 基准（1,957 张表、7,158 篇论文），通过引入干扰论文、模式无关的用户需求和基于 QA 的无标注评估框架，实现更真实的 LLM 文献综述表格生成评估，并提出迭代批处理生成方法。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 文献综述表格生成
-  - 基准评估
-  - LLM
-  - 干扰论文
-  - QA评估
+  - "ACL 2026"
+  - "模型压缩"
+  - "文献综述表格生成"
+  - "基准评估"
+  - "LLM"
+  - "干扰论文"
+  - "QA评估"
 ---
 
 # arXiv2Table: Toward Realistic Benchmarking and Evaluation for LLM-Based Literature-Review Table Generation

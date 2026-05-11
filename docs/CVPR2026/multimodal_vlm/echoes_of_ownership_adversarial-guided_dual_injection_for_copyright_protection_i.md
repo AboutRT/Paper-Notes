@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Echoes of Ownership: Adversarial-Guided Dual Injection for Copyright Protection in MLLMs
 description: >-
-  [CVPR2026][多模态VLM][MLLM版权保护] 提出 AGDI 框架，通过对抗优化生成 trigger image 进行 MLLM 黑盒版权追踪：双注入机制同时在 response 级（CE loss 驱动辅助模型输出 target answer）和 semantic 级（最小化 trigger image 与 target text 的 CLIP 余弦距离）注入版权信息，并引入模型对抗训练模拟 fine-tune 抵抗，在 Qwen2-VL/LLaVA-1.5 上全面超越 PLA 和 RNA 基线。
+  [CVPR2026][多模态VLM][MLLM版权保护] 提出 AGDI 框架，通过对抗优化生成 trigger image 进行 MLLM 黑盒版权追踪：双注入机制同时在 response 级（CE loss 驱动辅助模型输出 target answer）和 semantic 级（最小化 trigger i…
 tags:
-  - CVPR2026
-  - 多模态VLM
-  - MLLM版权保护
-  - 对抗攻击
-  - 触发图像
-  - 双注入
-  - CLIP语义对齐
-  - 黑盒追踪
+  - "CVPR2026"
+  - "多模态VLM"
+  - "MLLM版权保护"
+  - "对抗攻击"
+  - "触发图像"
+  - "双注入"
+  - "CLIP语义对齐"
+  - "黑盒追踪"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

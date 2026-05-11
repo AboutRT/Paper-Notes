@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Think in Latent Thoughts: A New Paradigm for Gloss-Free Sign Language Translation
 description: >-
-  [ACL 2026][LLM评测] 提出 SignThought，一种推理驱动的无注释手语翻译框架：引入可学习的潜在思维槽作为视频和文本之间的显式中间语义层，通过"先规划后定位"的双流解码器实现语义规划与视觉证据检索的解耦，在多个基准上超越现有无注释方法。
+  [ACL 2026][LLM评测][手语翻译] 提出 SignThought，一种推理驱动的无注释手语翻译框架：引入可学习的潜在思维槽作为视频和文本之间的显式中间语义层，通过"先规划后定位"的双流解码器实现语义规划与视觉证据检索的解耦，在多个基准上超越现有无注释方法。
 tags:
-  - ACL 2026
-  - LLM评测
-  - 无注释翻译
-  - 潜在思维链
-  - 跨模态推理
-  - 双流解码器
+  - "ACL 2026"
+  - "LLM评测"
+  - "手语翻译"
+  - "无注释翻译"
+  - "潜在思维链"
+  - "跨模态推理"
+  - "双流解码器"
 ---
 
 # Think in Latent Thoughts: A New Paradigm for Gloss-Free Sign Language Translation

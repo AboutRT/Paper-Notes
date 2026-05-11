@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VoxRAG: A Step Toward Transcription-Free RAG Systems in Spoken Question Answering
 description: >-
-  [ACL 2025][信息检索] 提出 VoxRAG，一个模块化的语音到语音检索增强生成系统，使用 CLAP 音频嵌入绕过转录直接从语音查询检索语义相关的音频片段，在播客问答场景中验证了无转录语音检索的可行性，Recall@10 在 somewhat relevant 片段上达到 0.60。
+  [ACL 2025][信息检索/RAG][语音检索] 提出 VoxRAG，一个模块化的语音到语音检索增强生成系统，使用 CLAP 音频嵌入绕过转录直接从语音查询检索语义相关的音频片段，在播客问答场景中验证了无转录语音检索的可行性，Recall@10 在 somewhat relevant 片段上达到 0.60…
 tags:
-  - ACL 2025
-  - 信息检索
-  - 无转录RAG
-  - CLAP嵌入
-  - 播客问答
-  - 语音到语音
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "语音检索"
+  - "无转录RAG"
+  - "CLAP嵌入"
+  - "播客问答"
+  - "语音到语音"
 ---
 
 # VoxRAG: A Step Toward Transcription-Free RAG Systems in Spoken Question Answering

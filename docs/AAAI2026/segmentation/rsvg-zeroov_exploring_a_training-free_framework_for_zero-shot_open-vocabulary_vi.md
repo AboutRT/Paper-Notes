@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RSVG-ZeroOV: Exploring a Training-Free Framework for Zero-Shot Open-Vocabulary Visual Grounding in Remote Sensing Images
 description: >-
-  [AAAI 2026][图像分割][遥感视觉定位] 提出 RSVG-ZeroOV，一个免训练框架，通过"概览-聚焦-进化"三阶段策略融合 VLM 的交叉注意力图和扩散模型的自注意力图，实现零样本开放词汇遥感视觉定位。
+  [AAAI 2026][语义分割][遥感视觉定位] 提出 RSVG-ZeroOV，一个免训练框架，通过"概览-聚焦-进化"三阶段策略融合 VLM 的交叉注意力图和扩散模型的自注意力图，实现零样本开放词汇遥感视觉定位。
 tags:
-  - AAAI 2026
-  - 图像分割
-  - 遥感视觉定位
-  - 零样本
-  - 开放词汇
-  - 扩散模型
-  - 免训练
+  - "AAAI 2026"
+  - "语义分割"
+  - "遥感视觉定位"
+  - "零样本"
+  - "开放词汇"
+  - "扩散模型"
+  - "免训练"
 ---
 
 # RSVG-ZeroOV: Exploring a Training-Free Framework for Zero-Shot Open-Vocabulary Visual Grounding in Remote Sensing Images

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Avoiding Catastrophe in Online Learning by Asking for Help
 description: >-
-  [ICML2025][在线学习] 提出一个全新的在线学习理论框架来处理灾难性（不可逆）错误：将回报定义为避灾概率、目标函数为回报之积（总体避灾概率），引入导师求助机制和Local Generalization假设，证明不可能结果（不求助则必灾难）和可能结果（策略类可学则后悔和求助率同时趋零），将标准在线学习的子线性后悔提升为子常数后悔。
+  [ICML2025][在线学习] 提出一个全新的在线学习理论框架来处理灾难性（不可逆）错误：将回报定义为避灾概率、目标函数为回报之积（总体避灾概率），引入导师求助机制和Local Generalization假设，证明不可能结果（不求助则必灾难）和可能结果（策略类可学则后悔和求助率同时趋零）…
 tags:
-  - ICML2025
-  - 在线学习
-  - 灾难性风险
-  - 求助机制
-  - 后悔界
-  - 其他
-  - VC维
-  - Littlestone维
+  - "ICML2025"
+  - "在线学习"
+  - "灾难性风险"
+  - "求助机制"
+  - "后悔界"
+  - "Local Generalization"
+  - "VC维"
+  - "Littlestone维"
 ---
 
 # Avoiding Catastrophe in Online Learning by Asking for Help

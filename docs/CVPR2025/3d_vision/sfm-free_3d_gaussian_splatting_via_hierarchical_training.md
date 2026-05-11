@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯溅射] 提出无需SfM预处理的3DGS方法（SFGS），通过层次化训练策略合并多个局部3DGS模型为统一场景表示，并利用视频帧插值改善相机位姿估计，在Tanks and Temples上PSNR提升2.25dB。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 无SfM重建
-  - 层次化训练
-  - 视频帧插值
-  - 新视角合成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "无SfM重建"
+  - "层次化训练"
+  - "视频帧插值"
+  - "新视角合成"
 ---
 
 # SfM-Free 3D Gaussian Splatting via Hierarchical Training

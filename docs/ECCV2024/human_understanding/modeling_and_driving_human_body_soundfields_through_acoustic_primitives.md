@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][声场建模] 提出基于声学基元(Acoustic Primitives)的人体3D声场建模与渲染框架，将多个低阶球谐声场挂载到人体骨骼关节上，在保持与SOTA可比的音质的同时，实现了15倍加速和近场声音渲染能力。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 声场建模
-  - 声学基元
-  - 空间音频
-  - 人体姿态
-  - AR/VR
+  - "ECCV 2024"
+  - "人体理解"
+  - "声场建模"
+  - "声学基元"
+  - "空间音频"
+  - "人体姿态"
+  - "AR/VR"
 ---
 
 # Modeling and Driving Human Body Soundfields through Acoustic Primitives

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning-Augmented Facility Location Mechanisms for Envy Ratio
 description: >-
-  [NeurIPS 2025][AI安全][设施选址] 针对一维设施选址问题中的**嫉妒比**（envy ratio）目标，设计了确定性和随机化的学习增强机制：确定性的 $\alpha$-BIM 机制在一致性和鲁棒性之间实现最优权衡，随机化的BAM机制进一步改善保证；同时解决了Ding等人提出的公开问题，将无预测的随机机制近似比从2改进至约1.8944。
+  [NeurIPS 2025][AI安全][设施选址] 针对一维设施选址问题中的**嫉妒比**（envy ratio）目标，设计了确定性和随机化的学习增强机制：确定性的 $\alpha$-BIM 机制在一致性和鲁棒性之间实现最优权衡，随机化的BAM机制进一步改善保证；同时解决了Ding等人提出的公开问题…
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 设施选址
-  - 学习增强算法
-  - 嫉妒比
-  - 公平性
-  - 机制设计
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "设施选址"
+  - "学习增强算法"
+  - "嫉妒比"
+  - "公平性"
+  - "机制设计"
 ---
 
 # Learning-Augmented Facility Location Mechanisms for Envy Ratio

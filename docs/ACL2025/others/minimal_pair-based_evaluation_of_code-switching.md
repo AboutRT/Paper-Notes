@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Minimal Pair-Based Evaluation of Code-Switching
 description: >-
-  [ACL 2025][其他] 本文提出基于最小对（minimal pairs）的代码切换（code-switching, CS）评估方法，为11个语言对各收集最多1000个最小对，发现双语者和大规模LLM都倾向于自然出现的CS句子，且模型越大偏好越一致，封闭类词的操纵产生最大概率差异。
+  [ACL 2025][代码切换] 本文提出基于最小对（minimal pairs）的代码切换（code-switching, CS）评估方法，为11个语言对各收集最多1000个最小对，发现双语者和大规模LLM都倾向于自然出现的CS句子，且模型越大偏好越一致，封闭类词的操纵产生最大概率差异。
 tags:
-  - ACL 2025
-  - 其他
-  - 最小对
-  - 双语评估
-  - 语言模型
-  - 语言学理论
+  - "ACL 2025"
+  - "代码切换"
+  - "最小对"
+  - "双语评估"
+  - "语言模型"
+  - "语言学理论"
 ---
 
 # Minimal Pair-Based Evaluation of Code-Switching

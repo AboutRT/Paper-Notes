@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][交互式头部生成] INFP 提出了一个统一的音频驱动交互式头部生成框架，通过双轨音频（agent + 对话伙伴）驱动 agent 在说话和倾听状态间自然切换，无需手动角色分配或显式角色切换，同时引入大规模 DyConv 数据集支持研究。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 交互式头部生成
-  - 图像复原
-  - 音频驱动
-  - 运动潜空间
-  - Transformer
+  - "CVPR 2025"
+  - "图像恢复"
+  - "交互式头部生成"
+  - "双人对话"
+  - "音频驱动"
+  - "运动潜空间"
+  - "Transformer"
 ---
 
 # INFP: Audio-Driven Interactive Head Generation in Dyadic Conversations

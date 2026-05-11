@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Graph Tokenization for Bridging Graphs and Transformers
 description: >-
-  [ICLR 2026][图学习][graph tokenization] 提出 GraphTokenizer 框架，将图通过可逆的频率引导序列化转换为符号序列，再用 BPE 学习图子结构词汇表，使标准 Transformer（如 BERT/GTE）无需任何架构修改即可直接处理图数据，在 14 个 benchmark 上达到 SOTA。
+  [ICLR 2026][图学习][graph tokenization] 提出 GraphTokenizer 框架，将图通过可逆的频率引导序列化转换为符号序列，再用 BPE 学习图子结构词汇表，使标准 Transformer（如 BERT/GTE）无需任何架构修改即可直接处理图数据…
 tags:
-  - ICLR 2026
-  - 图学习
-  - graph tokenization
-  - BPE
-  - graph serialization
-  - Transformer
-  - graph classification
+  - "ICLR 2026"
+  - "图学习"
+  - "graph tokenization"
+  - "BPE"
+  - "graph serialization"
+  - "Transformer"
+  - "graph classification"
 ---
 
 # Graph Tokenization for Bridging Graphs and Transformers

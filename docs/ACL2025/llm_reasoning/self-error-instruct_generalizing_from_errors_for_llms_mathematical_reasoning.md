@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning
 description: >-
-  [ACL 2025][LLM推理][数学推理] 提出 Self-Error-Instruct (SEI) 框架，通过分析目标模型在数学推理中的错误案例，使用 GPT-4o 提取错误关键词并聚类得到错误类型，然后针对每种错误类型采用 self-instruct 方式合成训练数据，迭代微调模型以系统性地补齐数学推理能力短板。
+  [ACL 2025][LLM推理][数学推理] 提出 Self-Error-Instruct (SEI) 框架，通过分析目标模型在数学推理中的错误案例，使用 GPT-4o 提取错误关键词并聚类得到错误类型，然后针对每种错误类型采用 self-instruct 方式合成训练数据…
 tags:
-  - ACL 2025
-  - LLM推理
-  - 数学推理
-  - 错误分析
-  - 训练数据合成
-  - 自指令学习
-  - 迭代微调
+  - "ACL 2025"
+  - "LLM推理"
+  - "数学推理"
+  - "错误分析"
+  - "训练数据合成"
+  - "自指令学习"
+  - "迭代微调"
 ---
 
 # Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning

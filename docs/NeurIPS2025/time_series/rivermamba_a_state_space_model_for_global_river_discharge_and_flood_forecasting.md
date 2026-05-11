@@ -2,16 +2,16 @@
 title: >-
   [论文解读] RiverMamba: A State Space Model for Global River Discharge and Flood Forecasting
 description: >-
-  [NeurIPS 2025][时间序列][河流流量预测] 首个能在 0.05°（~5.5km）全球网格上做 7 天河流流量预报的深度学习模型——用空间填充曲线将 3D 时空点序列化后输入双向 Mamba block，结合 ECMWF HRES 气象预报，在 1.5-500 年重现期洪水检测上 F1 =0.459 超越 LSTM（0.358）和物理模型 GloFAS。
+  [NeurIPS 2025][时间序列][河流流量预测] 首个能在 0.05°（~5.5km）全球网格上做 7 天河流流量预报的深度学习模型——用空间填充曲线将 3D 时空点序列化后输入双向 Mamba block，结合 ECMWF HRES 气象预报…
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 河流流量预测
-  - 洪水预报
-  - Mamba
-  - 时空建模
-  - 全球尺度
-  - GloFAS
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "河流流量预测"
+  - "洪水预报"
+  - "Mamba"
+  - "时空建模"
+  - "全球尺度"
+  - "GloFAS"
 ---
 
 # RiverMamba: A State Space Model for Global River Discharge and Flood Forecasting
@@ -60,7 +60,7 @@ tags:
 3. **洪水加权损失**:
 
     - 功能：$\mathcal{L} = \text{MSE} \times w_{\text{flood}}$，按重现期加权——稀有洪水事件权重远高于常规流量
-    - 数据处理：log 变换处理流量的巨大动态范围（<1 m³/s → >10,000 m³/s）
+    - 数据处理：log 变换处理流量的巨大动态范围（&lt;1 m³/s → >10,000 m³/s）
     - 预测增量：模型预测 $\Delta X$ 而非绝对值——减少分布偏移问题
 
 ### 损失函数 / 训练策略

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][机器人][灵巧抓取] 提出一种两阶段层次化框架，通过语义关键点和交互等分面（IBS）作为手型无关的状态表示，结合Transformer策略网络和手型特定的适配模型，实现了灵巧抓取策略在不同高自由度机械手之间的零样本迁移。
 tags:
-  - ECCV 2024
-  - 机器人
-  - 灵巧抓取
-  - 策略迁移
-  - 跨手型泛化
-  - Transformer
-  - 交互等分面
+  - "ECCV 2024"
+  - "机器人"
+  - "灵巧抓取"
+  - "策略迁移"
+  - "跨手型泛化"
+  - "Transformer"
+  - "交互等分面"
 ---
 
 # Learning Cross-Hand Policies of High-DOF Reaching and Grasping

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PS-EIP: Robust Photometric Stereo Based on Event Interval Profile
 description: >-
-  [CVPR 2025][人体/场景理解][光度立体] 提出基于事件间隔轮廓（EIP）的鲁棒光度立体方法，利用事件间隔时间序列的连续性和轮廓形状进行异常值检测，无需深度学习即可显著提升对阴影和镜面反射的鲁棒性。
+  [CVPR 2025][时间序列][光度立体] 提出基于事件间隔轮廓（Event Interval Profile, EIP）的鲁棒光度立体方法，通过利用事件间隔时间序列的连续性和轮廓形状来检测阴影与镜面反射引起的异常值，无需深度学习即可显著超越 EventPS-FCN。
 tags:
-  - CVPR 2025
-  - 光度立体
-  - 事件相机
-  - 表面法线估计
-  - 时间序列
-  - 非朗伯反射
+  - "CVPR 2025"
+  - "时间序列"
+  - "光度立体"
+  - "事件相机"
+  - "表面法线估计"
+  - "异常值检测"
+  - "事件间隔轮廓"
 ---
 
 # PS-EIP: Robust Photometric Stereo Based on Event Interval Profile

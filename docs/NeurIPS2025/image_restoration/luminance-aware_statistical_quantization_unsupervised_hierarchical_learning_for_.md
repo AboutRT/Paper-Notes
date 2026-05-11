@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像恢复][低光图像增强] 提出 LASQ 框架，将低光图像增强重新定义为基于分层亮度分布的统计采样过程，利用自然亮度转换中固有的幂律分布特性，通过 MCMC 采样生成层次化亮度适配算子，嵌入扩散模型前向过程实现无监督增强，无需正常光照参考即可工作。
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 低光图像增强
-  - 扩散模型
-  - 幂律分布
-  - MCMC采样
-  - 无监督学习
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "低光图像增强"
+  - "扩散模型"
+  - "幂律分布"
+  - "MCMC采样"
+  - "无监督学习"
 ---
 
 # Luminance-Aware Statistical Quantization: Unsupervised Hierarchical Learning for Illumination Enhancement
@@ -135,7 +135,7 @@ LASQ 在保持扩散模型性能优势的同时，推理效率接近非扩散方
 - 中间层次级别不可或缺——两层简化版虽优于固定方案但不及完整 LASQ（PSNR 差 1.2 dB）
 - LASQ 在无参考场景超越所有监督方法——证实物理驱动的泛化优势
 - 加入正常光照参考（LASQ++）可提升域内色彩保真度，但可能轻微降低泛化能力
-- 超参数敏感性低：$\alpha$, $\eta$, $\lambda_d$, $\lambda_g$ 变化范围内 PSNR 波动 <0.3dB
+- 超参数敏感性低：$\alpha$, $\eta$, $\lambda_d$, $\lambda_g$ 变化范围内 PSNR 波动 &lt;0.3dB
 
 ## 亮点与洞察
 

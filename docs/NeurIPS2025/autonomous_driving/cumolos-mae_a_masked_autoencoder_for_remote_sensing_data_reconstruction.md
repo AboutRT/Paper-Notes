@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NEURIPS2025][自动驾驶][Masked Autoencoder] 提出 CuMoLoS-MAE，一种结合课程掩码策略和 Monte Carlo 随机集成的 Masked Autoencoder，用于遥感大气廓线数据的高保真重建与逐像素不确定性量化。
 tags:
-  - NEURIPS2025
-  - 自动驾驶
-  - Masked Autoencoder
-  - 遥感数据重建
-  - 不确定性量化
-  - 课程学习
-  - Monte Carlo 集成
+  - "NEURIPS2025"
+  - "自动驾驶"
+  - "Masked Autoencoder"
+  - "遥感数据重建"
+  - "不确定性量化"
+  - "课程学习"
+  - "Monte Carlo 集成"
 ---
 
 # CuMoLoS-MAE: A Masked Autoencoder for Remote Sensing Data Reconstruction

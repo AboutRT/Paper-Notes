@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Variational Approach for Mitigating Entity Bias in Relation Extraction
 description: >-
-  [ACL 2025][NLP理解][关系抽取] 提出将变分信息瓶颈(VIB)应用于关系抽取中的实体去偏，通过将实体映射到概率分布 $\mathcal{N}(\mu, \sigma)$ 来压缩实体特定信息同时保留任务相关特征，方差 $\sigma^2$ 可量化模型对实体vs上下文的依赖程度，在TACRED、REFinD、BioRED三个域的ID和OOD设置上均达到SOTA。
+  [ACL 2025][LLM/NLP][关系抽取] 提出将变分信息瓶颈(VIB)应用于关系抽取中的实体去偏，通过将实体映射到概率分布 $\mathcal{N}(\mu, \sigma)$ 来压缩实体特定信息同时保留任务相关特征，方差 $\sigma^2$ 可量化模型对实体vs上下文的依赖程度…
 tags:
-  - ACL 2025
-  - NLP理解
-  - 关系抽取
-  - 实体偏差
-  - 变分信息瓶颈
-  - VIB
-  - 去偏差
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "关系抽取"
+  - "实体偏差"
+  - "变分信息瓶颈"
+  - "VIB"
+  - "去偏差"
 ---
 
 # A Variational Approach for Mitigating Entity Bias in Relation Extraction

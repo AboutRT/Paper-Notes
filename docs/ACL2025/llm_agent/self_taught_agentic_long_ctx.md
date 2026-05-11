@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Self-Taught Agentic Long-Context Understanding
 description: >-
-  [ACL 2025][LLM Agent][long-context understanding] 提出 AgenticLU 框架，通过 Chain-of-Clarifications (CoC) 工作流让 LLM 自主生成澄清问题并检索相关上下文，再通过 SFT+DPO 两阶段微调将树搜索路径蒸馏到模型中，使 8B 模型在 128K 长上下文 QA 任务上大幅超越基线。
+  [ACL 2025][LLM Agent][long-context understanding] 提出 AgenticLU 框架，通过 Chain-of-Clarifications (CoC) 工作流让 LLM 自主生成澄清问题并检索相关上下文，再通过 SFT+DPO 两阶段微调将树搜索路径蒸馏到模型中…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - long-context understanding
-  - agentic workflow
-  - chain-of-clarifications
-  - inference-time scaling
-  - self-taught reasoning
+  - "ACL 2025"
+  - "LLM Agent"
+  - "long-context understanding"
+  - "agentic workflow"
+  - "chain-of-clarifications"
+  - "inference-time scaling"
+  - "self-taught reasoning"
 ---
 
 # Self-Taught Agentic Long-Context Understanding

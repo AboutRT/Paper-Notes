@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models
 description: >-
-  [NeurIPS 2025][表格识别] 提出VSGRPO——基于GRPO的双奖励强化学习策略，联合优化结构级奖励（TEDS-Structure）和视觉保真度奖励（CW-SSIM渲染图比较），使微调后的MLLM（仅3B参数）在表格图像到LaTeX代码生成任务上超越GPT-4o和72B+规模模型，尤其在复杂表格上提升显著。
+  [NeurIPS 2025][代码智能][表格识别] 提出VSGRPO——基于GRPO的双奖励强化学习策略，联合优化结构级奖励（TEDS-Structure）和视觉保真度奖励（CW-SSIM渲染图比较），使微调后的MLLM（仅3B参数）在表格图像到LaTeX代码生成任务上超越GPT-4o和72B+规模模型…
 tags:
-  - NeurIPS 2025
-  - 表格识别
-  - LaTeX生成
-  - 代码智能
-  - 双奖励机制
-  - 多模态大模型
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "表格识别"
+  - "LaTeX生成"
+  - "GRPO强化学习"
+  - "双奖励机制"
+  - "多模态大模型"
 ---
 
 # Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models
@@ -65,7 +66,7 @@ tags:
 
 3. **训练策略的精心设计**：
 
-    - VSGRPO仅在**5,936个复杂表格**上训练（ground truth LaTeX<3000字符），平衡复杂度和计算可行性
+    - VSGRPO仅在**5,936个复杂表格**上训练（ground truth LaTeX&lt;3000字符），平衡复杂度和计算可行性
     - SFT是必要前置步骤——不经SFT直接做RL效果极差（消融验证）
     - 编译失败的输出自动获得0奖励
 

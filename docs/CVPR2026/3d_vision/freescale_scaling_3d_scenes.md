@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][新视角合成] FreeScale 通过从已有场景重建中以确定性引导的方式采样高质量自由视角图像，将有限的真实世界数据扩展为大规模训练数据，在前馈新视角合成模型上获得 2.7 dB PSNR 提升。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 新视角合成
-  - 数据增强
-  - 3D高斯溅射
-  - 前馈重建
-  - 确定性采样
+  - "CVPR 2026"
+  - "3D视觉"
+  - "新视角合成"
+  - "数据增强"
+  - "3D高斯溅射"
+  - "前馈重建"
+  - "确定性采样"
 ---
 
 # FreeScale: Scaling 3D Scenes via Certainty-Aware Free-View Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自监督学习][UCDIR] 提出TPSNet，将CLIP学习的域提示（domain prompt）作为文本先验提供精细语义监督，同时引入相位谱特征作为相位先验来桥接域分布差异并保持语义完整性，通过文本-相位双先验的协同实现无监督跨域图像检索的显著提升。
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - UCDIR
-  - 提示学习
-  - 自监督
-  - text-phase dual priors
-  - cross-domain alignment
+  - "CVPR 2026"
+  - "自监督学习"
+  - "UCDIR"
+  - "提示学习"
+  - "phase spectrum"
+  - "text-phase dual priors"
+  - "cross-domain alignment"
 ---
 
 # Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval

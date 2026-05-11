@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CaesarNeRF: Calibrated Semantic Representation for Few-Shot Generalizable Neural Rendering
 description: >-
-  [ECCV2024][3D视觉][少样本新视图合成] 提出 CaesarNeRF，在可泛化 NeRF（GNT）基础上引入场景级语义表征，通过相机位姿校准（特征旋转对齐到目标视角）和序列细化（跨 Transformer 层逐步更新全局特征），在 1-view 设置下 PSNR 比 GNT 提升 1.74dB（LLFF），且可即插即用地增强 IBRNet、MatchNeRF 等其他基线。
+  [ECCV2024][3D视觉][少样本新视图合成] 提出 CaesarNeRF，在可泛化 NeRF（GNT）基础上引入场景级语义表征，通过相机位姿校准（特征旋转对齐到目标视角）和序列细化（跨 Transformer 层逐步更新全局特征）…
 tags:
-  - ECCV2024
-  - 3D视觉
-  - 少样本新视图合成
-  - 可泛化NeRF
-  - 语义表征校准
-  - Transformer
-  - 序列细化
+  - "ECCV2024"
+  - "3D视觉"
+  - "少样本新视图合成"
+  - "可泛化NeRF"
+  - "语义表征校准"
+  - "Transformer"
+  - "序列细化"
 ---
 
 # CaesarNeRF: Calibrated Semantic Representation for Few-Shot Generalizable Neural Rendering

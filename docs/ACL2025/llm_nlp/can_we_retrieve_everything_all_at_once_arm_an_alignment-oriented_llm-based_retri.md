@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method
 description: >-
-  [ACL 2025][LLM/NLP][检索增强生成] 提出 ARM（Alignment-oriented Retrieval Method），通过在 LLM 解码过程中融合信息对齐（N-gram 约束解码）、结构对齐（MIP 求解器推理数据对象间关系）和自验证聚合三个模块，实现"一次检索所有"所需数据对象，在 Bird 和 OTT-QA 数据集上显著优于标准 RAG（最高 +5.2pt）和 agentic RAG/ReAct（最高 +19.3pt）。
+  [ACL 2025][LLM/NLP][检索增强生成] 提出 ARM（Alignment-oriented Retrieval Method），通过在 LLM 解码过程中融合信息对齐（N-gram 约束解码）、结构对齐（MIP 求解器推理数据对象间关系）和自验证聚合三个模块，实现"一次检索所有"所需数据对象…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 检索增强生成
-  - 复杂问答
-  - 对齐式检索
-  - 约束解码
-  - 混合整数规划
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "检索增强生成"
+  - "复杂问答"
+  - "对齐式检索"
+  - "约束解码"
+  - "混合整数规划"
 ---
 
 # Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method

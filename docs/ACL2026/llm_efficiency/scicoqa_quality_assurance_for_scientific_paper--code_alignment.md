@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SciCoQA: Quality Assurance for Scientific Paper–Code Alignment
 description: >-
-  [ACL 2026][LLM效率][论文代码差异检测] 本文提出 SciCoQA，首个用于检测科学论文与其代码实现之间差异的基准数据集，包含 635 个差异实例（92 个真实 + 543 个合成），评测 22 个 LLM 后发现最强模型仅能检测 46.7% 的真实差异，揭示了自动化科学质量保证中的关键能力缺口。
+  [ACL 2026][LLM效率][论文代码差异检测] 本文提出 SciCoQA，首个用于检测科学论文与其代码实现之间差异的基准数据集，包含 635 个差异实例（92 个真实 + 543 个合成），评测 22 个 LLM 后发现最强模型仅能检测 46.7% 的真实差异，揭示了自动化科学质量保证中的关键能力缺口…
 tags:
-  - ACL 2026
-  - LLM效率
-  - 论文代码差异检测
-  - 科学可复现性
-  - 跨模态验证
-  - LLM评测
-  - 质量保证
+  - "ACL 2026"
+  - "LLM效率"
+  - "论文代码差异检测"
+  - "科学可复现性"
+  - "跨模态验证"
+  - "LLM评测"
+  - "质量保证"
 ---
 
 # SciCoQA: Quality Assurance for Scientific Paper–Code Alignment

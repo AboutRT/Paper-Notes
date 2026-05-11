@@ -3,6 +3,17 @@ title: >-
   ICML2025 LLM 安全方向32篇论文解读
 description: >-
   32篇ICML2025的 LLM 安全方向论文解读，涵盖 LLM、对抗鲁棒、持续学习、水印/隐写、对齐/RLHF、联邦学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICML2025"
+  - "LLM 安全"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "对抗鲁棒"
+  - "持续学习"
+  - "水印/隐写"
+  - "对齐/RLHF"
+  - "联邦学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **🧪 ICML2025** · **32** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (21)](../../ACL2026/llm_safety/index.md) · [📷 CVPR2026 (16)](../../CVPR2026/llm_safety/index.md) · [🔬 ICLR2026 (36)](../../ICLR2026/llm_safety/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (60)](../../NeurIPS2025/llm_safety/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_safety/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (21)](../../ACL2026/llm_safety/index.md) · [📷 CVPR2026 (16)](../../CVPR2026/llm_safety/index.md) · [🔬 ICLR2026 (36)](../../ICLR2026/llm_safety/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_safety/index.md) · [🧠 NeurIPS2025 (59)](../../NeurIPS2025/llm_safety/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_safety/index.md)
 
 🔥 **高频主题：** LLM ×11 · 对抗鲁棒 ×6 · 持续学习 ×4 · 水印/隐写 ×3 · 对齐/RLHF ×2
 

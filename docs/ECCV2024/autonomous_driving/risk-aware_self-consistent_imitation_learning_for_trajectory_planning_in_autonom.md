@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][模仿学习] RaSc 提出风险感知自一致模仿学习框架，通过 TTC（碰撞时间）预测分支学习人类驾驶行为背后的风险规避动机，并通过自一致性约束使规划器理解自身动作的物理后果，在 nuPlan 数据集的开环和闭环评估中均超越了先前的学习型方法。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 模仿学习
-  - 轨迹规划
-  - 碰撞时间TTC
-  - 自一致性
-  - 风险感知
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "模仿学习"
+  - "轨迹规划"
+  - "碰撞时间TTC"
+  - "自一致性"
+  - "风险感知"
 ---
 
 # Risk-Aware Self-Consistent Imitation Learning for Trajectory Planning in Autonomous Driving

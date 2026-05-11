@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][Transformer] 通过将 LSH 与 Point Transformer 结合，提出 HEPTv2 实现粒子轨迹重建的端到端学习，消除了 DBScan 聚类后处理瓶颈，在保持竞争性追踪效率的同时实现 28.9 倍加速。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - Transformer
-  - Locality-Sensitive Hashing
-  - 粒子追踪
-  - 端到端学习
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "Transformer"
+  - "Locality-Sensitive Hashing"
+  - "粒子追踪"
+  - "端到端学习"
 ---
 
 # Locality-Sensitive Hashing-Based Efficient Point Transformer for Charged Particle Reconstruction

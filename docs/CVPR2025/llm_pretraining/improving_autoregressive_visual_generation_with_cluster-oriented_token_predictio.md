@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction
 description: >-
-  [CVPR 2025][自回归视觉生成] 提出IAR方法，通过码本重排和簇导向交叉熵损失利用视觉embedding的空间相关性，使预测错误的token仍有高概率落在正确的语义簇内，将LLM图像生成训练效率翻倍。
+  [CVPR 2025][预训练][自回归视觉生成] 提出 IAR，通过平衡 K-means 重排 VQGAN 码本使相似 embedding 具有相邻索引，配合簇导向交叉熵损失引导模型正确预测目标 token 所在的语义簇，在 LlamaGen 100M-1.4B 各规模上将训练时间减半且提升生成质量。
 tags:
-  - CVPR 2025
-  - 自回归视觉生成
-  - 码本重排
-  - 簇导向预测
-  - LLM预训练
-  - 图像生成
+  - "CVPR 2025"
+  - "预训练"
+  - "自回归视觉生成"
+  - "码本重排"
+  - "簇导向损失"
+  - "LlamaGen"
+  - "训练效率"
 ---
 
 # Improving Autoregressive Visual Generation with Cluster-Oriented Token Prediction

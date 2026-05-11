@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Video-ColBERT: Contextualized Late Interaction for Text-to-Video Retrieval
 description: >-
-  [CVPR 2025][文本视频检索] 将文本检索中ColBERT的后交互引入文本-视频检索，提出Video-ColBERT，通过在帧级和视频级两个层面执行MeanMaxSim交互，配合双Sigmoid损失训练独立且兼容的多粒度表征，在多个T2VR benchmark上超越现有双编码器方法。
+  [CVPR 2025][视频生成][文本视频检索] 将文本检索中ColBERT的后交互引入文本-视频检索，提出Video-ColBERT，通过在帧级和视频级两个层面执行MeanMaxSim交互，配合双Sigmoid损失训练独立且兼容的多粒度表征，在多个T2VR benchmark上超越现有双编码器方法。
 tags:
-  - CVPR 2025
-  - 文本视频检索
-  - 后交互
-  - 多向量表示
-  - ColBERT
-  - Sigmoid损失
+  - "CVPR 2025"
+  - "视频生成"
+  - "文本视频检索"
+  - "后交互"
+  - "多向量表示"
+  - "ColBERT"
+  - "Sigmoid损失"
 ---
 
 # Video-ColBERT: Contextualized Late Interaction for Text-to-Video Retrieval

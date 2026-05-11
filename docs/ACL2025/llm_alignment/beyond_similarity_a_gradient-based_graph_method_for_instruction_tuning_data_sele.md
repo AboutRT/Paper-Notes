@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][指令调优数据选择] 本文提出 G2IS（Gradient-based Graph Instruction Selection），通过构建基于梯度的指令图来建模指令数据之间的联合分布和相互依赖关系，结合梯度遍历算法进行数据选择，仅用 1% 的数据即可超越全数据指令调优的效果。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 指令调优数据选择
-  - 梯度图
-  - 领域适配
-  - 联合分布
-  - 图遍历算法
+  - "ACL 2025"
+  - "LLM对齐"
+  - "指令调优数据选择"
+  - "梯度图"
+  - "领域适配"
+  - "联合分布"
+  - "图遍历算法"
 ---
 
 # Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection

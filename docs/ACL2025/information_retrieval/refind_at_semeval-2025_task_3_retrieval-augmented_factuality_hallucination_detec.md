@@ -2,14 +2,15 @@
 title: >-
   [论文解读] REFIND at SemEval-2025 Task 3: Retrieval-Augmented Factuality Hallucination Detection in Large Language Models
 description: >-
-  [ACL 2025][信息检索] 提出 REFIND 框架，通过计算每个 token 在有无检索文档条件下的生成概率之比（Context Sensitivity Ratio, CSR），实现对 LLM 输出中幻觉片段的高效检测，在 SemEval-2025 Task 3 的 9 种语言上显著超越基线。
+  [ACL 2025][信息检索/RAG][幻觉检测] 提出 REFIND 框架，通过计算每个 token 在有无检索文档条件下的生成概率之比（Context Sensitivity Ratio, CSR），实现对 LLM 输出中幻觉片段的高效检测…
 tags:
-  - ACL 2025
-  - 信息检索
-  - 检索增强
-  - 上下文敏感度
-  - 多语言
-  - token级别分析
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "幻觉检测"
+  - "检索增强"
+  - "上下文敏感度"
+  - "多语言"
+  - "token级别分析"
 ---
 
 # REFIND at SemEval-2025 Task 3: Retrieval-Augmented Factuality Hallucination Detection in Large Language Models

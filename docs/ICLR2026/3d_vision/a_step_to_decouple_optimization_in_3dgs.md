@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][3DGS] 深入分析 3DGS 优化中被忽视的更新步耦合（不可见视点下的隐式更新和动量重缩放）和梯度耦合（正则化与光度损失在 Adam 动量中的耦合），通过解耦和重组提出 AdamW-GS 优化器，在不引入额外剪枝操作的情况下同时提升重建质量和减少冗余原语。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 3DGS
-  - 优化器
-  - Adam
-  - 权重衰减
-  - 稀疏优化
+  - "ICLR 2026"
+  - "3D视觉"
+  - "3DGS"
+  - "优化器"
+  - "Adam"
+  - "权重衰减"
+  - "稀疏优化"
 ---
 
 # A Step to Decouple Optimization in 3DGS

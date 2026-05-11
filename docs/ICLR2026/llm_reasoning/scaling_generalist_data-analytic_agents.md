@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaling Generalist Data-Analytic Agents
 description: >-
-  [ICLR 2026][LLM推理][数据分析Agent] 提出 DataMind——一套完整的数据分析 Agent 训练方案，通过细粒度任务分类+递归难度组合实现多样 query 合成、知识增强轨迹采样+自一致性过滤保证数据质量、SFT+RL 动态混合训练策略以及内存友好的异步 rollout 框架，训练出的 DataMind-14B 以 71.16% 平均分在多个基准上 SOTA，超越 GPT-5 和 DeepSeek-V3.1。
+  [ICLR 2026][LLM推理][数据分析Agent] 提出 DataMind——一套完整的数据分析 Agent 训练方案，通过细粒度任务分类+递归难度组合实现多样 query 合成、知识增强轨迹采样+自一致性过滤保证数据质量、SFT+RL 动态混合训练策略以及内存友好的异步 rollout 框架…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 数据分析Agent
-  - Agent训练
-  - 多轮代码执行
-  - 数据合成
-  - SFT+RL
+  - "ICLR 2026"
+  - "LLM推理"
+  - "数据分析Agent"
+  - "Agent训练"
+  - "多轮代码执行"
+  - "数据合成"
+  - "SFT+RL"
 ---
 
 # Scaling Generalist Data-Analytic Agents

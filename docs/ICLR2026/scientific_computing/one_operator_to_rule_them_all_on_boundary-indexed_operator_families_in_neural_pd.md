@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][科学计算][神经算子] 论证神经 PDE 求解器在边界条件变化时学到的不是单一的解算子，而是由边界条件索引的算子族，并从学习理论角度形式化了 ERM 下边界分布偏移导致的不可辨识性问题。
 tags:
-  - ICLR 2026
-  - 科学计算
-  - 神经算子
-  - 边界条件
-  - 分布偏移
-  - 不可辨识性
+  - "ICLR 2026"
+  - "科学计算"
+  - "神经算子"
+  - "边界条件"
+  - "分布偏移"
+  - "不可辨识性"
 ---
 
 # One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers

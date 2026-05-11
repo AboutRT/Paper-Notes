@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters
 description: >-
-  [CVPR 2025][多模态VLM][社交交互] 提出 SOLAMI，首个端到端的社交视觉-语言-动作 (VLA) 建模框架，通过将语音和动作离散化为 token 并基于 decoder-only LLM 统一建模，实现用户与 3D 虚拟角色通过语音和肢体语言的沉浸式实时交互，同时构建了合成多模态社交交互数据集 SynMSI。
+  [CVPR 2025][多模态VLM][社交交互] 提出 SOLAMI，首个端到端的社交视觉-语言-动作 (VLA) 建模框架，通过将语音和动作离散化为 token 并基于 decoder-only LLM 统一建模，实现用户与 3D 虚拟角色通过语音和肢体语言的沉浸式实时交互…
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - 社交交互
-  - VLA模型
-  - 动作生成
-  - 3D角色
-  - VR沉浸
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "社交交互"
+  - "VLA模型"
+  - "动作生成"
+  - "3D角色"
+  - "VR沉浸"
 ---
 
 # SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters

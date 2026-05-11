@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning
 description: >-
-  [ICLR 2026][策略集成] 从理论上分析了集成策略梯度方法中策略间多样性对学习效率的影响，提出通过KL散度约束调控多样性的Coupled Policy Optimization（CPO），在大规模并行环境中实现高效稳定的探索。
+  [ICLR 2026][强化学习][策略集成] 从理论上分析了集成策略梯度方法中策略间多样性对学习效率的影响，提出通过KL散度约束调控多样性的Coupled Policy Optimization（CPO），在大规模并行环境中实现高效稳定的探索。
 tags:
-  - ICLR 2026
-  - 策略集成
-  - 大规模并行RL
-  - 策略多样性
-  - KL约束
-  - 强化学习
+  - "ICLR 2026"
+  - "强化学习"
+  - "策略集成"
+  - "大规模并行RL"
+  - "策略多样性"
+  - "KL约束"
+  - "灵巧操作"
 ---
 
 # Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning

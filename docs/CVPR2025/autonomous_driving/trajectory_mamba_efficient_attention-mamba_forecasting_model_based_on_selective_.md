@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][轨迹预测] 提出 Trajectory Mamba（Tamba），基于选择性状态空间模型重新设计自注意力机制，实现线性时间复杂度的轨迹预测，同时通过联合 polyline 编码策略和跨状态空间解码器保持预测精度，参数减少 40%+ 且 FLOPs 降低 4 倍。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 轨迹预测
-  - 状态空间模型
-  - Mamba
-  - 注意力机制
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "轨迹预测"
+  - "状态空间模型"
+  - "Mamba"
+  - "注意力机制"
 ---
 
 # Trajectory Mamba: Efficient Attention-Mamba Forecasting Model Based on Selective SSM

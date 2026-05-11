@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][in-context learning] 提出基于问题求解逻辑（Problem-Solving Logic）的课程式 ICL 策略，通过分析问题的求解步骤结构来选择和排序 demonstration examples，有效提升 LLM 的复杂推理能力。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - in-context learning
-  - curriculum learning
-  - problem-solving logic
-  - demonstration selection
-  - chain-of-thought
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "in-context learning"
+  - "curriculum learning"
+  - "problem-solving logic"
+  - "demonstration selection"
+  - "chain-of-thought"
 ---
 
 # Problem-Solving Logic Guided Curriculum In-Context Learning for LLMs Complex Reasoning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][自监督学习][偏好强化学习] 提出 CLARIFY 方法，通过对比学习构建融合偏好信息的轨迹嵌入空间，利用拒绝采样选择更清晰可区分的偏好查询，从而提升离线 PbRL 在非理想反馈下的标注效率和策略性能。
 tags:
-  - ICML 2025
-  - 自监督学习
-  - 自监督
-  - 对比学习
-  - 模糊查询
-  - 轨迹嵌入
-  - 离线RL
+  - "ICML 2025"
+  - "自监督学习"
+  - "偏好强化学习"
+  - "对比学习"
+  - "模糊查询"
+  - "轨迹嵌入"
+  - "离线RL"
 ---
 
 # CLARIFY: Contrastive Preference Reinforcement Learning for Untangling Ambiguous Queries

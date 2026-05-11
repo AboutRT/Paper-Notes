@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Region-based Cluster Discrimination for Visual Representation Learning
 description: >-
-  [ICCV 2025][图像分割][区域表示学习] 提出 RICE（Region-Aware Cluster Discrimination），通过构建十亿级区域数据集、设计 Region Transformer 层和统一区域聚类判别损失，联合优化目标感知和 OCR 能力，显著提升视觉编码器在分割、检测和 MLLM 多任务上的表现。
+  [ICCV 2025][语义分割][区域表示学习] 提出 RICE（Region-Aware Cluster Discrimination），通过构建十亿级区域数据集、设计 Region Transformer 层和统一区域聚类判别损失，联合优化目标感知和 OCR 能力…
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 区域表示学习
-  - 聚类判别
-  - OCR
-  - 视觉编码器
-  - 多模态大语言模型
+  - "ICCV 2025"
+  - "语义分割"
+  - "区域表示学习"
+  - "聚类判别"
+  - "OCR"
+  - "视觉编码器"
+  - "多模态大语言模型"
 ---
 
 # Region-based Cluster Discrimination for Visual Representation Learning

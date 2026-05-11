@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][生存预测] 提出 MUST 框架，通过代数约束将多模态表征显式分解为模态特有和跨模态共享两部分，并用条件潜在扩散模型在模态缺失时生成特有信息，在五个 TCGA 癌症数据集上以 0.742 C-index 达到 SOTA，且在模态缺失场景下仅降约 0.4%-3.5%。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 生存预测
-  - 缺失模态
-  - 代数分解
-  - 潜在扩散模型
-  - 多模态融合
+  - "CVPR 2026"
+  - "医学图像"
+  - "生存预测"
+  - "缺失模态"
+  - "代数分解"
+  - "潜在扩散模型"
+  - "多模态融合"
 ---
 
 # MUST: Modality-Specific Representation-Aware Transformer for Diffusion-Enhanced Survival Prediction with Missing Modality

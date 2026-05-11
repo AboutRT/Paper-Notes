@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][物体操纵] 提出Ctrl&Shift，一个端到端扩散框架，通过将物体操纵分解为物体移除+参考引导修复，并注入相对相机位姿控制，首次在不依赖显式3D重建的情况下实现几何一致的细粒度物体操纵。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 物体操纵
-  - 扩散模型
-  - 几何一致性
-  - 相机位姿控制
-  - 图像编辑
+  - "ICLR 2026"
+  - "3D视觉"
+  - "物体操纵"
+  - "扩散模型"
+  - "几何一致性"
+  - "相机位姿控制"
+  - "图像编辑"
 ---
 
 # Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation

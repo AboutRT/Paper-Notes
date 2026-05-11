@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D生成] 本文提出LGM，一个基于非对称U-Net架构的多视角3D高斯重建模型，从4张正交视角图像预测65536个3D高斯原语，在512分辨率下5秒内完成从文本/图像到高分辨率3D模型的生成，通过数据增强策略弥合训练-推理域差异。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D生成
-  - 高斯溅射
-  - 多视角重建
-  - 高分辨率
-  - U-Net
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D生成"
+  - "高斯溅射"
+  - "多视角重建"
+  - "高分辨率"
+  - "U-Net"
 ---
 
 # LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation

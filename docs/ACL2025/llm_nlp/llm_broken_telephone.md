@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][信息失真] 以翻译为测试床模拟 LLM 的"传话游戏"，发现信息在 100 次迭代翻译后严重失真——一辆卡车司机的罚款新闻经 100 轮英泰互译后变成"小汽车获得赔偿后发生爆炸"，而中间语言的选择、链条复杂度和解码温度是失真速度的关键调控因素。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 信息失真
-  - 迭代生成
-  - 模型坍缩
-  - 机器翻译
-  - 事实性
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "信息失真"
+  - "迭代生成"
+  - "模型坍缩"
+  - "机器翻译"
+  - "事实性"
 ---
 
 # LLM as a Broken Telephone: Iterative Generation Distorts Information

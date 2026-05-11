@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][蛋白质语言模型] 提出KPO框架，通过构建蛋白质安全知识图谱(PSKG)并结合加权图剪枝策略识别"相似但安全"的蛋白质对，用DPO微调蛋白质语言模型使其远离有害序列空间，同时保持功能性。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 蛋白质语言模型
-  - 知识图谱
-  - DPO
-  - 生物安全
-  - 偏好优化
+  - "ACL 2025"
+  - "LLM对齐"
+  - "蛋白质语言模型"
+  - "知识图谱"
+  - "DPO"
+  - "生物安全"
+  - "偏好优化"
 ---
 
 # Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization

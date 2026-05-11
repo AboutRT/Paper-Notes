@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][动态3D编辑] 通过单张编辑参考图像微调 InstructPix2Pix 模型以"学习"编辑能力，结合两阶段可变形3D高斯优化，实现可控、一致的动态3D场景编辑。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 动态3D编辑
-  - 可变形高斯
-  - InstructPix2Pix
-  - 个性化扩散
-  - 场景编辑
+  - "CVPR 2025"
+  - "3D视觉"
+  - "动态3D编辑"
+  - "可变形高斯"
+  - "InstructPix2Pix"
+  - "个性化扩散"
+  - "场景编辑"
 ---
 
 # Ctrl-D: Controllable Dynamic 3D Scene Editing with Personalized 2D Diffusion

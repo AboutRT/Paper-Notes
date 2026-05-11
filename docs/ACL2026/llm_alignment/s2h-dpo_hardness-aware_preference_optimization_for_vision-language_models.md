@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][LLM对齐][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 待补充
+  - "ACL 2026"
+  - "LLM对齐"
+  - "待补充"
 ---
 
 # S2H-DPO: Hardness-Aware Preference Optimization for Vision-Language Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FRET: Feature Redundancy Elimination for Test Time Adaptation
 description: >-
-  [ICCV 2025][AI安全][测试时自适应] 本文提出特征冗余消除（FRET）作为测试时自适应（TTA）的新视角，发现分布偏移时嵌入特征冗余度显著增加，并设计了S-FRET（直接最小化冗余分数）和G-FRET（基于GCN的注意力-冗余分解+双层优化）两种方法，G-FRET在多种架构和数据集上达到SOTA性能。
+  [ICCV 2025][AI安全][测试时自适应] 本文提出特征冗余消除（FRET）作为测试时自适应（TTA）的新视角，发现分布偏移时嵌入特征冗余度显著增加，并设计了S-FRET（直接最小化冗余分数）和G-FRET（基于GCN的注意力-冗余分解+双层优化）两种方法…
 tags:
-  - ICCV 2025
-  - AI安全
-  - 测试时自适应
-  - 特征冗余消除
-  - 分布偏移
-  - 图卷积网络
-  - 对比学习
+  - "ICCV 2025"
+  - "AI安全"
+  - "测试时自适应"
+  - "特征冗余消除"
+  - "分布偏移"
+  - "图卷积网络"
+  - "对比学习"
 ---
 
 # FRET: Feature Redundancy Elimination for Test Time Adaptation

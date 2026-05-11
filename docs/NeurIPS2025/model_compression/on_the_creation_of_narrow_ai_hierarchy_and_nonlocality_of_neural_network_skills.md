@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][窄域AI] 研究创建窄域（narrow）AI 系统面临的两大挑战：任务的层级依赖使得某些窄域技能必须在宽分布上训练才能学会；技能的非局部性使得剪枝无法精确分离想要保留和舍弃的能力——但剪枝+恢复训练仍优于蒸馏和从头训练。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 窄域AI
-  - 模型剪枝
-  - 知识蒸馏
-  - 课程学习
-  - 技能非局部性
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "窄域AI"
+  - "模型剪枝"
+  - "知识蒸馏"
+  - "课程学习"
+  - "技能非局部性"
 ---
 
 # On the Creation of Narrow AI: Hierarchy and Nonlocality of Neural Network Skills

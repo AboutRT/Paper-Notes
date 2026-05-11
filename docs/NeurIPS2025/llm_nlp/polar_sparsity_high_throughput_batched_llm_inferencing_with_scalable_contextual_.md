@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity
 description: >-
-  [NeurIPS 2025][LLM/NLP][LLM inference] 揭示了 LLM 推理中稀疏性的"极性转移"现象——MLP 层稀疏性随 batch 增大而消失，而 attention head 稀疏性保持稳定且与 batch 无关，据此设计了 Selective Head Attention 及对应 GPU kernel，在大 batch 推理中实现高达 2.2x 的端到端加速。
+  [NeurIPS 2025][LLM/NLP][LLM inference] 揭示了 LLM 推理中稀疏性的"极性转移"现象——MLP 层稀疏性随 batch 增大而消失，而 attention head 稀疏性保持稳定且与 batch 无关…
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - LLM inference
-  - contextual sparsity
-  - 注意力机制
-  - batched inference
-  - GPU kernel
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "LLM inference"
+  - "contextual sparsity"
+  - "注意力机制"
+  - "batched inference"
+  - "GPU kernel"
 ---
 
 # Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity
@@ -109,7 +109,7 @@ Router 训练：
 | LLaMA 3.1 70B | 0.92 | 0.370 | 0.831 | 0.697 | 0.799 | 0.665 | 0.753 | 0.872 | 0.606 | 0.724 |
 | LLaMA 3.1 70B + PS-0.625 | 0.91 | 0.340 | 0.823 | 0.729 | 0.793 | 0.650 | 0.732 | 0.853 | 0.590 | 0.712 |
 
-所有模型在关键稀疏度阈值处平均准确率差异 <1%。
+所有模型在关键稀疏度阈值处平均准确率差异 &lt;1%。
 
 **与其他稀疏方法对比**（LLaMA-2-7B）：
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] IMPARA-GED: Grammatical Error Detection is Boosting Reference-free Grammatical Error Quality Estimator
 description: >-
-  [ACL 2025][文本生成][语法纠错评估] 在 IMPARA 的质量估计器构建之前，增加一步语法错误检测（GED）预训练，同时去掉失效的相似度估计器，使无参考 GEC 评估在 SEEDA 上达到句子级最高相关性。
+  [ACL 2025][LLM/NLP][语法纠错评估] 在 IMPARA 的质量估计器构建之前，增加一步语法错误检测（GED）预训练，同时去掉失效的相似度估计器，使无参考 GEC 评估在 SEEDA 上达到句子级最高相关性。
 tags:
-  - ACL 2025
-  - 文本生成
-  - 语法纠错评估
-  - 语法错误检测
-  - 无参考评估
-  - 质量估计
-  - SEEDA
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "语法纠错评估"
+  - "语法错误检测"
+  - "无参考评估"
+  - "质量估计"
+  - "SEEDA"
 ---
 
 # IMPARA-GED: Grammatical Error Detection is Boosting Reference-free Grammatical Error Quality Estimator

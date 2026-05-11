@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][Flow Matching] 提出 BinauralFlow，一个基于条件 Flow Matching 的流式双耳语音合成框架，通过因果 U-Net 架构和连续推理管线实现高保真、可流式生成的双耳音频，感知测试中 42% 的混淆率表明生成结果几乎无法与真实录音区分。
 tags:
-  - ICML 2025
-  - 图像生成
-  - Flow Matching
-  - 双耳音频合成
-  - 因果U-Net
-  - 流式推理
-  - 空间音频
+  - "ICML 2025"
+  - "图像生成"
+  - "Flow Matching"
+  - "双耳音频合成"
+  - "因果U-Net"
+  - "流式推理"
+  - "空间音频"
 ---
 
 # BinauralFlow: A Causal and Streamable Approach for High-Quality Binaural Speech Synthesis with Flow Matching Models

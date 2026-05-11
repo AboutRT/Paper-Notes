@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视频智能体] 提出LensWalk，一个让LLM推理器主动控制视频观测范围和采样密度的智能体框架，通过reason-plan-observe循环实现自适应视频理解，无需微调即可在长视频基准上带来5%以上的即插即用性能提升。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频智能体
-  - 主动观测
-  - 视觉语言模型
-  - 长视频理解
-  - 工具调用
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频智能体"
+  - "主动观测"
+  - "视觉语言模型"
+  - "长视频理解"
+  - "工具调用"
 ---
 
 # LensWalk: Agentic Video Understanding by Planning How You See in Videos

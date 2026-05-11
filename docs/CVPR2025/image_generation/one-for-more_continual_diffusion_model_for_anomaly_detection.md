@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][持续学习] 提出CDAD框架，通过梯度投影实现扩散模型的稳定持续学习，配合迭代SVD（iSVD）将内存消耗从157GB降至17GB，并设计异常掩码网络增强条件机制，在MVTec和VisA上17/18个设置中取得第一。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 持续学习
-  - 扩散模型
-  - 异常检测
-  - 梯度投影
-  - 奇异值分解
+  - "CVPR 2025"
+  - "图像生成"
+  - "持续学习"
+  - "扩散模型"
+  - "异常检测"
+  - "梯度投影"
+  - "奇异值分解"
 ---
 
 # One-for-More: Continual Diffusion Model for Anomaly Detection

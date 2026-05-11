@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Identifying and Evaluating Inactive Heads in Pretrained LLMs
 description: >-
-  [ICLR 2026][注意力机制] 系统评估12种评分函数识别LLM中不活跃注意力头，发现基于头输出范数的评分函数（AHON LN）比传统注意力权重指标更能跨模型家族一致地识别不活跃头，14个模型上平均超过12%的头可被置零而保持MMLU精度在1%以内。
+  [ICLR 2026][预训练][注意力机制] 系统评估12种评分函数识别LLM中不活跃注意力头，发现基于头输出范数的评分函数（AHON LN）比传统注意力权重指标更能跨模型家族一致地识别不活跃头，14个模型上平均超过12%的头可被置零而保持MMLU精度在1%以内。
 tags:
-  - ICLR 2026
-  - 注意力机制
-  - Score Function
-  - Model Intervention
-  - Head Output Norm
+  - "ICLR 2026"
+  - "预训练"
+  - "注意力机制"
+  - "Score Function"
+  - "Model Intervention"
+  - "Head Output Norm"
 ---
 
 # Identifying and Evaluating Inactive Heads in Pretrained LLMs
@@ -78,7 +79,7 @@ AHON (LN) 在 8/14 模型排名第1，13/14 模型排名前3。
 | 评分函数 | MMLU 阈值 | PIQA 阈值 | WinoGrande 阈值 | 稳定性 |
 |---------|----------|----------|----------------|--------|
 | AWFT | 0.077 | 0.265 | 0.109 | 不稳定（3.4倍差异）|
-| AHON (LN) | 0.457 | 0.435 | 0.473 | 稳定（<9%差异）|
+| AHON (LN) | 0.457 | 0.435 | 0.473 | 稳定（&lt;9%差异）|
 
 ### 关键发现
 

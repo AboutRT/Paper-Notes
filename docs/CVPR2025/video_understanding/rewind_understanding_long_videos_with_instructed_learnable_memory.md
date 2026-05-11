@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][长视频理解] 本文提出 ReWind，一种基于可学习记忆模块的视觉语言模型架构，通过新颖的 read-perceive-write 循环机制和指令引导的动态帧选择，在使用更少 token 和帧的情况下，大幅超越先前方法在长视频 VQA 和时序定位任务上的表现。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 长视频理解
-  - 可学习记忆
-  - 视觉语言模型
-  - 动态帧选择
-  - 视频问答
+  - "CVPR 2025"
+  - "视频理解"
+  - "长视频理解"
+  - "可学习记忆"
+  - "视觉语言模型"
+  - "动态帧选择"
+  - "视频问答"
 ---
 
 # ReWind: Understanding Long Videos with Instructed Learnable Memory

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][flow matching] 提出基于 Transformer 的多模态流匹配框架（MMF），将连续流匹配与连续时间马尔可夫跳跃桥联合建模，实现对 LHC 喷注中粒子运动学（连续）和 flavor 量子数（离散）的统一生成。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - flow matching
-  - 多模态生成
-  - 粒子物理
-  - 连续时间马尔可夫跳跃
-  - Transformer
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "flow matching"
+  - "多模态生成"
+  - "粒子物理"
+  - "连续时间马尔可夫跳跃"
+  - "Transformer"
 ---
 
 # Multimodal Generative Flows for LHC Jets

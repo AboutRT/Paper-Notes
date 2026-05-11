@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][逆渲染] PBR-NeRF 在 NeILF++ 的基础上引入了两个基于物理的先验损失（能量守恒损失和 NDF 加权高光损失），有效约束了逆渲染中材质-光照的分解歧义，在不牺牲新视角合成质量的前提下实现了 SOTA 的材质估计。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 逆渲染
-  - 材质估计
-  - 物理先验
-  - NeRF
-  - BRDF
+  - "CVPR 2025"
+  - "3D视觉"
+  - "逆渲染"
+  - "材质估计"
+  - "物理先验"
+  - "NeRF"
+  - "BRDF"
 ---
 
 # PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs
 description: >-
-  [NeurIPS 2025][视频理解][temporal grounding] 提出TempSamp-R1强化微调框架，针对GRPO在视频时序定位中因搜索空间巨大而on-policy采样低效的问题，通过引入GT作为off-policy监督信号+非线性软优势估计+混合CoT训练范式，在Charades-STA/ActivityNet/QVHighlights三个基准上达到新SOTA。
+  [NeurIPS 2025][视频理解][temporal grounding] 提出TempSamp-R1强化微调框架，针对GRPO在视频时序定位中因搜索空间巨大而on-policy采样低效的问题，通过引入GT作为off-policy监督信号+非线性软优势估计+混合CoT训练范式…
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - temporal grounding
-  - GRPO
-  - off-policy
-  - soft advantage
-  - hybrid CoT
-  - video LLM
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "temporal grounding"
+  - "GRPO"
+  - "off-policy"
+  - "soft advantage"
+  - "hybrid CoT"
+  - "video LLM"
 ---
 
 # TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs

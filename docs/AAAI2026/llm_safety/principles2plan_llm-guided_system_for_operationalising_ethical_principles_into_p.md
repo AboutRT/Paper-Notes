@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Principles2Plan: LLM-Guided System for Operationalising Ethical Principles into Plans
 description: >-
-  [AAAI 2026][AI安全][伦理规划] 提出 Principles2Plan，一个交互式原型系统，通过人类与 LLM 协作将高层伦理原则（如仁善、隐私）转化为上下文相关的伦理规则，并嵌入 PDDL 规划器生成符合伦理的行动计划。
+  [AAAI 2026][LLM安全][伦理规划] 提出 Principles2Plan，一个交互式原型系统，通过人类与 LLM 协作将高层伦理原则（如仁善、隐私）转化为上下文相关的伦理规则，并嵌入 PDDL 规划器生成符合伦理的行动计划。
 tags:
-  - AAAI 2026
-  - AI安全
-  - 伦理规划
-  - LLM
-  - 自动化规划
-  - PDDL
-  - 人机协作
+  - "AAAI 2026"
+  - "LLM安全"
+  - "伦理规划"
+  - "LLM"
+  - "自动化规划"
+  - "PDDL"
+  - "人机协作"
 ---
 
 # Principles2Plan: LLM-Guided System for Operationalising Ethical Principles into Plans

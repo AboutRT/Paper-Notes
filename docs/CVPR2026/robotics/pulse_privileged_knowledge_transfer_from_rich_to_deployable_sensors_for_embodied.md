@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PULSE: Privileged Knowledge Transfer from Rich to Deployable Sensors for Embodied Multi-Sensory Learning
 description: >-
-  [CVPR 2026 Workshop (Sense of Space)][人体理解][特权知识蒸馏] 本文提出 PULSE 框架，通过冻结的特权传感器（如 EDA）教师模型向廉价可部署传感器（如 ECG、BVP、加速度计）学生模型进行知识蒸馏，引入共享-私有嵌入分解和重建防崩塌机制，在不使用 EDA 推理的情况下达到 0.994 AUROC 的压力检测性能，甚至超越使用全部传感器的模型。
+  [CVPR 2026 Workshop (Sense of Space)][机器人][特权知识蒸馏] 本文提出 PULSE 框架，通过冻结的特权传感器（如 EDA）教师模型向廉价可部署传感器（如 ECG、BVP、加速度计）学生模型进行知识蒸馏，引入共享-私有嵌入分解和重建防崩塌机制…
 tags:
-  - CVPR 2026 Workshop (Sense of Space)
-  - 机器人
-  - 特权知识蒸馏
-  - 传感器不对称
-  - 可穿戴设备
-  - 压力检测
-  - 多模态融合
+  - "CVPR 2026 Workshop (Sense of Space)"
+  - "机器人"
+  - "特权知识蒸馏"
+  - "传感器不对称"
+  - "可穿戴设备"
+  - "压力检测"
+  - "多模态融合"
 ---
 
 # PULSE: Privileged Knowledge Transfer from Rich to Deployable Sensors for Embodied Multi-Sensory Learning

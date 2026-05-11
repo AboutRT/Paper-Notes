@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][纵向联邦学习] 本文提出PubSub-VFL，一种基于发布/订阅架构的高效两方纵向联邦学习框架，通过分层异步机制和基于系统画像的超参数优化，在保证隐私和模型精度的前提下实现2~7倍的训练加速和高达91%的计算资源利用率。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 纵向联邦学习
-  - 分裂学习
-  - Pub/Sub架构
-  - 异步训练
-  - 资源异构
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "纵向联邦学习"
+  - "分裂学习"
+  - "Pub/Sub架构"
+  - "异步训练"
+  - "资源异构"
 ---
 
 # PubSub-VFL: Towards Efficient Two-Party Split Learning in Heterogeneous Environments via Publisher/Subscriber Architecture

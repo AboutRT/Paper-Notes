@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][电子病历] 提出EMR-AGENT，首个基于LLM Agent的电子病历（EMR）自动化预处理框架，通过动态SQL交互替代手工规则编写，实现跨数据库的队列选择、特征提取和代码映射，在MIMIC-III/eICU/SICdb上表现优异并具强泛化能力。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 电子病历
-  - LLM Agent
-  - 队列选择
-  - 特征提取
-  - 代码映射
+  - "ICLR 2026"
+  - "医学图像"
+  - "电子病历"
+  - "LLM Agent"
+  - "队列选择"
+  - "特征提取"
+  - "代码映射"
 ---
 
 # EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases
@@ -95,7 +95,7 @@ EMR-AGENT是基于推理的Agent框架，不涉及训练，而是依赖：
 | REACT | 0.308 | 0.524 | 0.503 |
 | ICL(SeqSQL) | 0.040 | 0.000 | 0.040 |
 
-EMR-AGENT在所有数据库上大幅领先。eICU和SICdb上基线方法几乎完全失败（F1<0.53），而EMR-AGENT保持>0.81。
+EMR-AGENT在所有数据库上大幅领先。eICU和SICdb上基线方法几乎完全失败（F1&lt;0.53），而EMR-AGENT保持>0.81。
 
 **代码映射（F1/Balanced Accuracy）**
 

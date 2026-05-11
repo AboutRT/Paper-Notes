@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Predicting Turn-Taking and Backchannel in Human-Machine Conversations Using Linguistic, Acoustic, and Visual Signals
 description: >-
-  [ACL 2025][语音][turn-taking prediction] 提出首个融合语言、声学和视觉三模态信号预测对话中轮换（turn-taking）和反馈通道（backchannel）动作的端到端框架，并构建了包含 210+ 小时的 MM-F2F 面对面对话数据集，turn-taking F1 提升 10%，backchannel F1 提升 33%。
+  [ACL 2025][音频/语音][turn-taking prediction] 提出首个融合语言、声学和视觉三模态信号预测对话中轮换（turn-taking）和反馈通道（backchannel）动作的端到端框架，并构建了包含 210+ 小时的 MM-F2F 面对面对话数据集…
 tags:
-  - ACL 2025
-  - 语音
-  - turn-taking prediction
-  - backchannel
-  - 音频语音
-  - face-to-face conversation
-  - low-rank fusion
+  - "ACL 2025"
+  - "音频/语音"
+  - "turn-taking prediction"
+  - "backchannel"
+  - "多模态"
+  - "face-to-face conversation"
+  - "low-rank fusion"
 ---
 
 # Predicting Turn-Taking and Backchannel in Human-Machine Conversations Using Linguistic, Acoustic, and Visual Signals

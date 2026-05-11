@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction
 description: >-
-  [CVPR 2026][长视频生成] FreeLOC 提出一种免训练的层自适应框架，通过识别视频DiT中各层对"帧级相对位置OOD"和"上下文长度OOD"两种分布外问题的敏感度差异，选择性地在敏感层应用多粒度位置重编码(VRPR)和分层稀疏注意力(TSA)，在不增加训练成本的情况下实现SOTA的长视频生成质量。
+  [CVPR 2026][视频生成][长视频生成] FreeLOC 提出一种免训练的层自适应框架，通过识别视频DiT中各层对"帧级相对位置OOD"和"上下文长度OOD"两种分布外问题的敏感度差异，选择性地在敏感层应用多粒度位置重编码(VRPR)和分层稀疏注意力(TSA)…
 tags:
-  - CVPR 2026
-  - 长视频生成
-  - 免训练
-  - 位置编码外推
-  - 稀疏注意力
-  - 层自适应
+  - "CVPR 2026"
+  - "视频生成"
+  - "长视频生成"
+  - "免训练"
+  - "位置编码外推"
+  - "稀疏注意力"
+  - "层自适应"
 ---
 
 # Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction

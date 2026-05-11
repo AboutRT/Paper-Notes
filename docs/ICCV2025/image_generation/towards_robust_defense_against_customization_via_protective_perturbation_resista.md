@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Robust Defense against Customization via Protective Perturbation Resistant to Diffusion-based Purification
 description: >-
-  [ICCV 2025][图像生成][Protective Perturbation] 提出 AntiPure，一种针对扩散模型净化（purification）过程的对抗扰动方法，通过 Patch-wise Frequency Guidance 和 Erroneous Timestep Guidance 两种引导机制，生成在净化后仍能持续干扰定制化微调的保护性扰动，在"净化-定制化"工作流中全面超越现有防护方法。
+  [ICCV 2025][图像生成][Protective Perturbation] 提出 AntiPure，一种针对扩散模型净化（purification）过程的对抗扰动方法，通过 Patch-wise Frequency Guidance 和 Erroneous Timestep Guidance 两种引…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - Protective Perturbation
-  - Anti-Purification
-  - DreamBooth
-  - 扩散模型
-  - adversarial attack
+  - "ICCV 2025"
+  - "图像生成"
+  - "Protective Perturbation"
+  - "Anti-Purification"
+  - "DreamBooth"
+  - "扩散模型"
+  - "adversarial attack"
 ---
 
 # Towards Robust Defense against Customization via Protective Perturbation Resistant to Diffusion-based Purification

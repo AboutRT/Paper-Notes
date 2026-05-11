@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Mitigating Object Hallucinations via Sentence-Level Early Intervention
 description: >-
-  [ICCV 2025][多模态][多模态大模型幻觉] 本文提出SENTINEL框架，基于"幻觉在生成早期出现并向后传播"的关键观察，通过域内候选引导、双检测器交叉验证构建句子级偏好数据，使用上下文感知DPO（C-DPO）实现早期干预，在Object HalBench上减少92%幻觉且保持通用能力。
+  [ICCV 2025][多模态VLM][多模态大模型幻觉] 本文提出SENTINEL框架，基于"幻觉在生成早期出现并向后传播"的关键观察，通过域内候选引导、双检测器交叉验证构建句子级偏好数据，使用上下文感知DPO（C-DPO）实现早期干预，在Object HalBench上减少92%幻觉且保持通用能力。
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态大模型幻觉
-  - 偏好学习
-  - 早期干预
-  - 多模态VLM
-  - 目标检测验证
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "多模态大模型幻觉"
+  - "偏好学习"
+  - "早期干预"
+  - "DPO"
+  - "目标检测验证"
 ---
 
 # Mitigating Object Hallucinations via Sentence-Level Early Intervention

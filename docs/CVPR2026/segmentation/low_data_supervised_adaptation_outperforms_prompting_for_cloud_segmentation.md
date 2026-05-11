@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift
 description: >-
-  [CVPR 2026][图像分割][域迁移] 本文系统证明了在卫星遥感云分割任务中，提示工程完全无法弥补视觉-语言模型的域差距，而仅需0.1%（约8张图像）的有标签数据进行微调就能超越所有零样本提示策略。
+  [CVPR 2026][语义分割][域迁移] 本文系统证明了在卫星遥感云分割任务中，提示工程完全无法弥补视觉-语言模型的域差距，而仅需0.1%（约8张图像）的有标签数据进行微调就能超越所有零样本提示策略。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 域迁移
-  - 云分割
-  - 提示工程
-  - 低数据微调
-  - 视觉语言模型
+  - "CVPR 2026"
+  - "语义分割"
+  - "域迁移"
+  - "云分割"
+  - "提示工程"
+  - "低数据微调"
+  - "视觉语言模型"
 ---
 
 # Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift

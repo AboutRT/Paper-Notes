@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Revealing the Deceptiveness of Knowledge Editing: A Mechanistic Analysis of Superficial Editing
 description: >-
-  [ACL 2025][知识编辑] 本文定义了"表面编辑"（superficial editing）现象——经过知识编辑的模型在常规提示下表现良好，但在特制攻击探针下会回退到原始知识——并通过机制分析揭示了早期层残差流和后期层特定注意力头是导致该现象的两个关键因素。
+  [ACL 2025][知识编辑][表面编辑] 本文定义了"表面编辑"（superficial editing）现象——经过知识编辑的模型在常规提示下表现良好，但在特制攻击探针下会回退到原始知识——并通过机制分析揭示了早期层残差流和后期层特定注意力头是导致该现象的两个关键因素。
 tags:
-  - ACL 2025
-  - 知识编辑
-  - 表面编辑
-  - 机制分析
-  - 注意力头
-  - 残差流
+  - "ACL 2025"
+  - "知识编辑"
+  - "表面编辑"
+  - "机制分析"
+  - "注意力头"
+  - "残差流"
 ---
 
 # Revealing the Deceptiveness of Knowledge Editing: A Mechanistic Analysis of Superficial Editing

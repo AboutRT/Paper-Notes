@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Sharpness-Aware Minimization with Z-Score Gradient Filtering
 description: >-
-  [NeurIPS 2025 (OPT Workshop)][人体理解][Sharpness-Aware Minimization] 提出 Z-Score Filtered SAM (ZSAM)，通过对每层梯度进行 Z-Score 统计过滤，仅保留最显著的梯度分量进行扰动上升步骤，从而引导优化器更有效地搜索平坦极小值，在多个数据集和架构上一致提升测试精度。
+  [NeurIPS 2025 (OPT Workshop)][Sharpness-Aware Minimization] 提出 Z-Score Filtered SAM (ZSAM)，通过对每层梯度进行 Z-Score 统计过滤，仅保留最显著的梯度分量进行扰动上升步骤，从而引导优化器更有效地搜索平坦极小值…
 tags:
-  - NeurIPS 2025 (OPT Workshop)
-  - 其他
-  - Sharpness-Aware Minimization
-  - 梯度过滤
-  - Z-Score
-  - 泛化
-  - 平坦极小值
+  - "NeurIPS 2025 (OPT Workshop)"
+  - "Sharpness-Aware Minimization"
+  - "梯度过滤"
+  - "Z-Score"
+  - "泛化"
+  - "平坦极小值"
 ---
 
 # Sharpness-Aware Minimization with Z-Score Gradient Filtering

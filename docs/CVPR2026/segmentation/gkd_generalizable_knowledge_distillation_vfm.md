@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GKD: Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation
 description: >-
-  [CVPR 2026][图像分割][知识蒸馏] 提出 GKD 框架，通过将表示学习与任务学习解耦的多阶段蒸馏（先学通用特征 → 冻结编码器 → 再训任务头）+ 查询式软蒸馏机制（QSD），从 VFM 中蒸馏出具有跨域泛化能力的轻量学生模型，在 F2L 设置下平均 mIoU 提升 +10.6%，F2F +1.9%。
+  [CVPR 2026][语义分割][知识蒸馏] 提出 GKD 框架，通过将表示学习与任务学习解耦的多阶段蒸馏（先学通用特征 → 冻结编码器 → 再训任务头）+ 查询式软蒸馏机制（QSD），从 VFM 中蒸馏出具有跨域泛化能力的轻量学生模型，在 F2L 设置下平均 mIoU 提升 +10.6%…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 知识蒸馏
-  - 视觉基础模型
-  - 域泛化分割
-  - DINOv2
-  - 多阶段蒸馏
+  - "CVPR 2026"
+  - "语义分割"
+  - "知识蒸馏"
+  - "视觉基础模型"
+  - "域泛化分割"
+  - "DINOv2"
+  - "多阶段蒸馏"
 ---
 
 # GKD: Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation

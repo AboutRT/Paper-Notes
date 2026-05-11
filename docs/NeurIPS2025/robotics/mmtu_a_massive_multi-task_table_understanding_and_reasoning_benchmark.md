@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][表格理解] 构建了一个包含 28,136 道问题、覆盖 25 种真实表格任务的大规模基准 MMTU，系统评估 LLM 在专业级表格理解、推理和操作方面的能力，发现即使是 GPT-5 等前沿推理模型也仅得分约 69.6%。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 表格理解
-  - benchmark
-  - LLM评估
-  - 多任务推理
-  - 结构化数据
+  - "NeurIPS 2025"
+  - "机器人"
+  - "表格理解"
+  - "benchmark"
+  - "LLM评估"
+  - "多任务推理"
+  - "结构化数据"
 ---
 
 # MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark

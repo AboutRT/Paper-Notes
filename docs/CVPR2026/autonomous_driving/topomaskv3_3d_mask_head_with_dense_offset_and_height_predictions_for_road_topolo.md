@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TopoMaskV3: 3D Mask Head with Dense Offset and Height Predictions for Road Topology Understanding
 description: >-
-  [CVPR 2026][自动驾驶][道路拓扑理解] 本文提出 TopoMaskV3，通过引入稠密偏移场和稠密高度图两个预测头，将基于掩码的道路拓扑理解范式从 2D 弱模块升级为独立的 3D 中心线预测器，并首次在道路拓扑评估中引入地理不重叠划分和远距离基准，揭示了现有基准因地理重叠导致的性能虚高现象，在地理不重叠基准上达到 SOTA 28.5 OLS。
+  [CVPR 2026][自动驾驶][道路拓扑理解] 本文提出 TopoMaskV3，通过引入稠密偏移场和稠密高度图两个预测头，将基于掩码的道路拓扑理解范式从 2D 弱模块升级为独立的 3D 中心线预测器，并首次在道路拓扑评估中引入地理不重叠划分和远距离基准，揭示了现有基准因地理重叠导致的性能虚高现象…
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 道路拓扑理解
-  - 掩码范式
-  - 偏移修正
-  - 高度预测
-  - 地理数据泄漏
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "道路拓扑理解"
+  - "掩码范式"
+  - "偏移修正"
+  - "高度预测"
+  - "地理数据泄漏"
 ---
 
 # TopoMaskV3: 3D Mask Head with Dense Offset and Height Predictions for Road Topology Understanding

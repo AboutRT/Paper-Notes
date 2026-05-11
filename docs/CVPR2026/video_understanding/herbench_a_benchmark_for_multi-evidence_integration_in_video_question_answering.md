@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视频问答基准] HERBench 是一个专为多证据整合设计的视频问答基准，包含 26,806 个五选一问题，每题结构性地要求融合 ≥3 个时间分散的非重叠视觉线索；通过提出最小必需帧集（MRFS）指标揭示了当前 Video-LLM 的两个关键瓶颈：帧检索不足和证据融合失败。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频问答基准
-  - 多证据整合
-  - 帧选择
-  - 长视频理解
-  - 时间推理
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频问答基准"
+  - "多证据整合"
+  - "帧选择"
+  - "长视频理解"
+  - "时间推理"
 ---
 
 # HERBench: A Benchmark for Multi-Evidence Integration in Video Question Answering

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][无监督目标跟踪] 提出 Diff-Tracker，首次利用预训练文本到图像扩散模型（Stable Diffusion）中蕴含的丰富视觉语义知识进行无监督目标跟踪，通过学习一个表示目标的 prompt 并在线更新来实现持续跟踪。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 无监督目标跟踪
-  - 文本到图像扩散模型
-  - 提示学习
-  - 注意力机制
-  - 在线更新
+  - "ECCV 2024"
+  - "图像生成"
+  - "无监督目标跟踪"
+  - "文本到图像扩散模型"
+  - "提示学习"
+  - "注意力机制"
+  - "在线更新"
 ---
 
 # Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers

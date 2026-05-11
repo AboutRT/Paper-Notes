@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][视频理解][event camera] 提出双向自适应时序相关性（BAT）框架，将事件相机的时序密集运动线索转化为空间密集线索，实现高精度事件光流估计，在 DSEC-Flow 基准上排名第一。
 tags:
-  - AAAI2026
-  - 视频理解
-  - event camera
-  - 光流
-  - bidirectional temporal correlation
-  - 注意力机制
-  - event-based vision
+  - "AAAI2026"
+  - "视频理解"
+  - "event camera"
+  - "光流"
+  - "bidirectional temporal correlation"
+  - "注意力机制"
+  - "event-based vision"
 ---
 
 # BAT: Learning Event-based Optical Flow with Bidirectional Adaptive Temporal Correlation

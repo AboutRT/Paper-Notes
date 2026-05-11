@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Biologically Plausible Online Hebbian Meta-Learning: Two-Timescale Local Rules for Spiking Neural Brain Interfaces
 description: >-
-  [ICLR2026][LLM评测][SNN] 提出一种无需BPTT的在线SNN解码器，通过三因子Hebbian局部学习规则结合双时间尺度eligibility trace和自适应学习率控制，在O(1)内存下实现可比离线训练方法的BCI神经解码精度（Pearson R≥0.63/0.81），并在闭环仿真中展现了对神经信号非平稳性的持续适应能力。
+  [ICLR2026][LLM评测][SNN] 提出一种无需BPTT的在线SNN解码器，通过三因子Hebbian局部学习规则结合双时间尺度eligibility trace和自适应学习率控制，在O(1)内存下实现可比离线训练方法的BCI神经解码精度（Pearson R≥0.63/0.81）…
 tags:
-  - ICLR2026
-  - LLM评测
-  - SNN
-  - BCI
-  - Hebbian学习
-  - 在线适应
-  - 脉冲神经网络
+  - "ICLR2026"
+  - "LLM评测"
+  - "SNN"
+  - "BCI"
+  - "Hebbian学习"
+  - "在线适应"
+  - "脉冲神经网络"
 ---
 
 # Biologically Plausible Online Hebbian Meta-Learning: Two-Timescale Local Rules for Spiking Neural Brain Interfaces

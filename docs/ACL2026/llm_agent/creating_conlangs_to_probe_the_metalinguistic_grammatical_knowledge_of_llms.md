@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Creating ConLangs to Probe the Metalinguistic Grammatical Knowledge of LLMs
 description: >-
-  [ACL2026][LLM Agent] 构建人造语言系统IASC来探测LLM的元语言学语法知识，发现LLM对常见语言类型模式处理远优于罕见模式
-tags: [人造语言, 元语言知识, 形态句法, LLM评估, 语言类型学]
+  [ACL 2026][LLM Agent][人造语言] 本文提出 IASC（Interactive Agentic System for ConLangs），一个模块化的人造语言构建系统，通过让 LLM 按语言学规格执行形态句法变换来探测其元语言知识，发现 LLM 处理常见语言类型模式远优于罕见模式…
+tags:
+  - "ACL 2026"
+  - "LLM Agent"
+  - "人造语言"
+  - "元语言知识"
+  - "形态句法变换"
+  - "LLM语言能力探测"
+  - "语言类型学"
 ---
 
 # Creating ConLangs to Probe the Metalinguistic Grammatical Knowledge of LLMs

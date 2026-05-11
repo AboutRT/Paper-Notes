@@ -2,14 +2,15 @@
 title: >-
   [论文解读] From Theory of Mind to Theory of Environment: Counterfactual Simulation of Latent Environmental Dynamics
 description: >-
-  [AAAI 2026 (Workshop: ToM4AI)][心智理论] 本文提出"环境理论"（Theory of Environment）概念，认为人类可能通过与心智理论（Theory of Mind）共享的计算机制来推断环境中隐含的动态规律，从而扩展运动探索的维度空间并促进行为创新。
+  [AAAI 2026 (Workshop: ToM4AI)][因果推理][心智理论] 本文提出"环境理论"（Theory of Environment）概念，认为人类可能通过与心智理论（Theory of Mind）共享的计算机制来推断环境中隐含的动态规律，从而扩展运动探索的维度空间并促进行为创新。
 tags:
   - "AAAI 2026 (Workshop: ToM4AI)"
-  - 心智理论
-  - 环境理论
-  - 反事实模拟
-  - 运动控制
-  - 行为创新
+  - "因果推理"
+  - "心智理论"
+  - "环境理论"
+  - "反事实模拟"
+  - "运动控制"
+  - "行为创新"
 ---
 
 # From Theory of Mind to Theory of Environment: Counterfactual Simulation of Latent Environmental Dynamics

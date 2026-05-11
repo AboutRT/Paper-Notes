@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][特征匹配] JamMa提出了基于Joint Mamba的超轻量级半密集特征匹配器，通过JEGO扫描-合并策略实现跨视角联合扫描、高效四方向扫描、全局感受野和全方向特征表示，以不到50%的参数和FLOPs实现了优于Transformer-based匹配器的性能-效率平衡。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 特征匹配
-  - Mamba
-  - 状态空间模型
-  - 轻量级
-  - 半密集匹配
+  - "CVPR 2025"
+  - "模型压缩"
+  - "特征匹配"
+  - "Mamba"
+  - "状态空间模型"
+  - "轻量级"
+  - "半密集匹配"
 ---
 
 # JamMa: Ultra-lightweight Local Feature Matching with Joint Mamba

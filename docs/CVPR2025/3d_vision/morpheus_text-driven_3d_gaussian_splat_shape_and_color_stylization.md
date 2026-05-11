@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯溅射] 提出Morpheus，一种自回归3DGS风格化方法，核心贡献包括：(1) 新的RGBD扩散模型实现外观和形状风格化的独立强度控制；(2) Warp ControlNet通过变形合成帧传播风格；(3) 深度引导的特征共享确保多视角一致性。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 风格化
-  - RGBD扩散模型
-  - 形状编辑
-  - 多视角一致性
-  - ControlNet
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "风格化"
+  - "RGBD扩散模型"
+  - "形状编辑"
+  - "多视角一致性"
+  - "ControlNet"
 ---
 
 # Morpheus: Text-Driven 3D Gaussian Splat Shape and Color Stylization

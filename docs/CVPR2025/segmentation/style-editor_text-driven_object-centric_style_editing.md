@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Style-Editor: Text-driven Object-Centric Style Editing
 description: >-
-  [CVPR 2025][图像分割][文本驱动风格编辑] 提出 Style-Editor，利用 CLIP 空间中的 patch 级方向损失和自适应背景保持损失，实现仅通过文本描述即可对目标对象进行精确风格编辑，无需分割掩码或参考图像。
+  [CVPR 2025][语义分割][文本驱动风格编辑] 提出 Style-Editor，利用 CLIP 空间中的 patch 级方向损失和自适应背景保持损失，实现仅通过文本描述即可对目标对象进行精确风格编辑，无需分割掩码或参考图像。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 文本驱动风格编辑
-  - 对象级编辑
-  - CLIP引导
-  - 背景保持
-  - patch选择
+  - "CVPR 2025"
+  - "语义分割"
+  - "文本驱动风格编辑"
+  - "对象级编辑"
+  - "CLIP引导"
+  - "背景保持"
+  - "patch选择"
 ---
 
 # Style-Editor: Text-driven Object-Centric Style Editing

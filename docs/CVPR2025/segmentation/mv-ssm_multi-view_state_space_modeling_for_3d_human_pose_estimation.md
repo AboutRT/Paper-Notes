@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MV-SSM: Multi-View State Space Modeling for 3D Human Pose Estimation
 description: >-
-  [CVPR 2025][图像分割][多视图人体姿态估计] MV-SSM 首次将状态空间模型（Mamba）引入多视图 3D 人体姿态估计任务，通过 Projective State Space (PSS) 块在特征级和关键点级显式建模关节空间序列，结合 Grid Token-guided Bidirectional Scanning (GTBS)，在 CMU Panoptic 上达到 93.5 AP25，并在跨相机/跨场景泛化测试中大幅超越 SOTA。
+  [CVPR 2025][语义分割][多视图人体姿态估计] MV-SSM 首次将状态空间模型（Mamba）引入多视图 3D 人体姿态估计任务，通过 Projective State Space (PSS) 块在特征级和关键点级显式建模关节空间序列…
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 多视图人体姿态估计
-  - 状态空间模型
-  - Mamba
-  - 跨视图泛化
-  - 投影注意力
+  - "CVPR 2025"
+  - "语义分割"
+  - "多视图人体姿态估计"
+  - "状态空间模型"
+  - "Mamba"
+  - "跨视图泛化"
+  - "投影注意力"
 ---
 
 # MV-SSM: Multi-View State Space Modeling for 3D Human Pose Estimation

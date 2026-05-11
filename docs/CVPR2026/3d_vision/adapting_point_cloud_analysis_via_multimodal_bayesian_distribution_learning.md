@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][测试时适配] BayesMM 提出了一个无需训练的动态贝叶斯分布学习框架，将文本和几何模态建模为高斯分布，并通过贝叶斯模型平均自动调节模态权重，在多个点云基准上实现了鲁棒的测试时适配，平均提升超过 4%。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 测试时适配
-  - 点云识别
-  - 贝叶斯推断
-  - 多模态分布学习
-  - 零样本泛化
+  - "CVPR 2026"
+  - "3D视觉"
+  - "测试时适配"
+  - "点云识别"
+  - "贝叶斯推断"
+  - "多模态分布学习"
+  - "零样本泛化"
 ---
 
 # Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning

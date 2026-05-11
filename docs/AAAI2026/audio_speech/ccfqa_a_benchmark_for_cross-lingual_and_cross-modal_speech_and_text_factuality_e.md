@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation
 description: >-
-  [AAAI2026][音频语音][factuality evaluation] 提出 CCFQA——首个覆盖 8 种语言、14,400 条完全平行语音-文本事实问答样本的跨语言跨模态基准，支持 QA/XQA/SQA/XSQA 四种任务设定，系统揭示了现有 MLLM 在语言和模态切换下的事实不一致性；同时提出 LLM-SQA，以英语为桥接语言、仅 5-shot 即实现跨语言语音问答迁移，在 XSQA 上 F1 达 51.4 超越 GPT-4o-mini-Audio（45.7）。
+  [AAAI2026][音频/语音][factuality evaluation] 提出 CCFQA——首个覆盖 8 种语言、14,400 条完全平行语音-文本事实问答样本的跨语言跨模态基准，支持 QA/XQA/SQA/XSQA 四种任务设定，系统揭示了现有 MLLM 在语言和模态切换下的事实不一致性…
 tags:
-  - AAAI2026
-  - 音频语音
-  - factuality evaluation
-  - multilingual benchmark
-  - spoken question answering
-  - cross-lingual consistency
-  - 多模态
+  - "AAAI2026"
+  - "音频/语音"
+  - "factuality evaluation"
+  - "multilingual benchmark"
+  - "spoken question answering"
+  - "cross-lingual consistency"
+  - "多模态"
 ---
 
 # CCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation

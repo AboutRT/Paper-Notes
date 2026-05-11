@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases
 description: >-
-  [AAAI 2026][音频语音][多Agent系统] 提出首个跨数据库、跨表的多 Agent 声明验证系统 Thucy，由 Verifier 领导三个专家 Agent（Data/Schema/SQL Expert），对数据源完全无先验知识，能自主发现、推理并生成 SQL 证据，在 TabFact 上超越 SOTA 5.6 个百分点（94.3%）。
+  [AAAI 2026][音频/语音][多Agent系统] 提出首个跨数据库、跨表的多 Agent 声明验证系统 Thucy，由 Verifier 领导三个专家 Agent（Data/Schema/SQL Expert），对数据源完全无先验知识，能自主发现、推理并生成 SQL 证据…
 tags:
-  - AAAI 2026
-  - 音频语音
-  - 多Agent系统
-  - 声明验证
-  - 关系数据库
-  - SQL证据生成
-  - 跨库推理
+  - "AAAI 2026"
+  - "音频/语音"
+  - "多Agent系统"
+  - "声明验证"
+  - "关系数据库"
+  - "SQL证据生成"
+  - "跨库推理"
 ---
 
 # Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases

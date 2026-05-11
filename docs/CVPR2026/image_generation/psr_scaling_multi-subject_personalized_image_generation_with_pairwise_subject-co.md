@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][多主体个性化生成] 针对多主体个性化图像生成中主体一致性差和文本遵循不足的问题，提出可扩展的多主体数据构建管线和成对主体一致性奖励（PSR），通过两阶段训练（SFT + RL）在自建的 PSRBench 上全面超越现有 SOTA。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 多主体个性化生成
-  - 主体一致性
-  - 强化学习
-  - 成对奖励
-  - 位置编码
+  - "CVPR 2026"
+  - "图像生成"
+  - "多主体个性化生成"
+  - "主体一致性"
+  - "强化学习"
+  - "成对奖励"
+  - "位置编码"
 ---
 
 # PSR: Scaling Multi-Subject Personalized Image Generation with Pairwise Subject-Consistency Rewards

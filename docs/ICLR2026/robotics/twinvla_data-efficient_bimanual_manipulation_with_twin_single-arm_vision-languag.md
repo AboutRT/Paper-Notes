@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models
 description: >-
-  [ICLR 2026][机器人][双臂操作] 提出TwinVLA——将两个预训练单臂VLA通过联合注意力和MoE组合为双臂VLA的模块化框架，仅需~800h公开单臂数据+50 episode双臂微调数据+25 H100 GPU-days，即可匹及使用10,900h私有数据+1,000+ GPU-days的π0性能水平。
+  [ICLR 2026][机器人][双臂操作] 提出TwinVLA——将两个预训练单臂VLA通过联合注意力和MoE组合为双臂VLA的模块化框架，仅需~800h公开单臂数据+50 episode双臂微调数据+25 H100 GPU-days，即可匹及使用10,900h私有数据+1…
 tags:
-  - ICLR 2026
-  - 机器人
-  - 双臂操作
-  - VLA
-  - 模块化组合
-  - 联合注意力
-  - 数据高效
+  - "ICLR 2026"
+  - "机器人"
+  - "双臂操作"
+  - "VLA"
+  - "模块化组合"
+  - "联合注意力"
+  - "数据高效"
 ---
 
 # TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models

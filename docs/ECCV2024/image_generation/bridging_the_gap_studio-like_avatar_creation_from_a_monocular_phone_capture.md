@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ECCV2024][图像生成][avatar creation] 提出从单目手机视频生成类似影棚级质量的面部纹理贴图的方法，结合 StyleGAN2 的 W+ 空间参数化与扩散模型超分辨率，实现从手机扫描到高质量 3D 头像的跨越。
 tags:
-  - ECCV2024
-  - 图像生成
-  - avatar creation
-  - texture map
-  - GAN
-  - 扩散模型
-  - phone capture
-  - studio lighting
+  - "ECCV2024"
+  - "图像生成"
+  - "avatar creation"
+  - "texture map"
+  - "GAN"
+  - "扩散模型"
+  - "phone capture"
+  - "studio lighting"
 ---
 
 # Bridging the Gap: Studio-Like Avatar Creation from a Monocular Phone Capture

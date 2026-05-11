@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Breaking the Frozen Subspace: Importance Sampling for Low-Rank Optimization in LLM Pretraining
 description: >-
-  [NeurIPS 2025][LLM预训练] 发现GaLore等低秩优化方法的主导子空间在预训练中会"冻结"（相邻子空间重叠度趋近1），导致权重更新卡在固定低秩子空间中；提出SARA（重要性采样子空间选择），按奇异值权重随机采样奇异向量构建子空间，证明收敛性的同时将低秩优化器与全秩Adam的性能差距缩小最高46%。
+  [NeurIPS 2025][预训练][低秩优化] 发现GaLore等低秩优化方法的主导子空间在预训练中会"冻结"（相邻子空间重叠度趋近1），导致权重更新卡在固定低秩子空间中；提出SARA（重要性采样子空间选择），按奇异值权重随机采样奇异向量构建子空间…
 tags:
-  - NeurIPS 2025
-  - LLM预训练
-  - GaLore
-  - 重要性采样
-  - LLM预训练
-  - 内存高效
+  - "NeurIPS 2025"
+  - "预训练"
+  - "低秩优化"
+  - "GaLore"
+  - "重要性采样"
+  - "LLM预训练"
+  - "内存高效"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

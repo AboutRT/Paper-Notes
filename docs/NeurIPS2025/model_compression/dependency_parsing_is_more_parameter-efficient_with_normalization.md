@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][dependency parsing] 揭示依存句法/语义分析中 biaffine scoring 缺乏归一化导致模型过参数化，通过简单的 $1/\sqrt{d}$ 缩放即可在减少高达 85% BiLSTM 参数的同时匹配甚至超越原始性能。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - dependency parsing
-  - biaffine scoring
-  - normalization
-  - parameter efficiency
-  - overparameterization
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "dependency parsing"
+  - "biaffine scoring"
+  - "normalization"
+  - "parameter efficiency"
+  - "overparameterization"
 ---
 
 # Dependency Parsing is More Parameter-Efficient with Normalization

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Forest Before Trees: Latent Superposition for Efficient Visual Reasoning
 description: >-
-  [ACL 2026][可解释性] 本文提出 Laser，通过动态窗口对齐学习（DWAL）在潜在空间中进行视觉推理，使模型在推理过程中维持未来语义的"概率叠加态"而非逐 token 精确预测，实现"先全局后局部"的认知层次，在 6 个基准上以仅 6 个推理 token（减少 97%+）达到潜在推理方法的 SOTA，超越 Monet 平均 5.03%。
+  [ACL 2026][可解释性][潜在推理] 本文提出 Laser，通过动态窗口对齐学习（DWAL）在潜在空间中进行视觉推理，使模型在推理过程中维持未来语义的"概率叠加态"而非逐 token 精确预测，实现"先全局后局部"的认知层次…
 tags:
-  - ACL 2026
-  - 可解释性
-  - 动态窗口对齐
-  - 语义叠加
-  - 视觉推理
-  - token 效率
+  - "ACL 2026"
+  - "可解释性"
+  - "潜在推理"
+  - "动态窗口对齐"
+  - "语义叠加"
+  - "视觉推理"
+  - "token 效率"
 ---
 
 # Forest Before Trees: Latent Superposition for Efficient Visual Reasoning

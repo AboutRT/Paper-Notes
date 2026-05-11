@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity
 description: >-
-  [ACL 2026][角色冲突] RoleConflictBench 通过构建 13,914 个角色冲突场景，利用情境紧迫性作为客观约束来评估 LLM 的上下文敏感性，揭示了模型决策被静态角色偏好主导而非响应动态情境线索的严重问题。
+  [ACL 2026][LLM评测][角色冲突] RoleConflictBench 通过构建 13,914 个角色冲突场景，利用情境紧迫性作为客观约束来评估 LLM 的上下文敏感性，揭示了模型决策被静态角色偏好主导而非响应动态情境线索的严重问题。
 tags:
-  - ACL 2026
-  - 角色冲突
-  - 上下文敏感性
-  - 社会偏见
-  - 情境紧迫性
-  - 基准测试
+  - "ACL 2026"
+  - "LLM评测"
+  - "角色冲突"
+  - "上下文敏感性"
+  - "社会偏见"
+  - "情境紧迫性"
+  - "基准测试"
 ---
 
 # RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity

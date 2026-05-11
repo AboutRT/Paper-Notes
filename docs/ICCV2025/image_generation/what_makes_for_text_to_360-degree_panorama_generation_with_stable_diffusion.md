@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 通过系统分析LoRA微调中$W_{\{q,k,v,o\}}$各组件的行为，揭示了$W_v$和$W_o$负责学习全景球面结构而$W_q$和$W_k$保留透视域共享知识的机制，并据此提出高效的单分支全景生成框架UniPano。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # What Makes for Text to 360-degree Panorama Generation with Stable Diffusion?

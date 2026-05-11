@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MotionStone: Decoupled Motion Intensity Modulation with Diffusion Transformer for Image-to-Video Generation
 description: >-
-  [CVPR 2025][图像到视频生成] 提出 MotionStone，通过训练独立的运动强度估计器将视频运动解耦为物体运动和相机运动两个维度，并以解耦方式注入 Diffusion Transformer，实现精细的运动强度可控 I2V 生成。
+  [CVPR 2025][视频生成][图像到视频生成] 提出 MotionStone，通过训练独立的运动强度估计器将视频运动解耦为物体运动和相机运动两个维度，并以解耦方式注入 Diffusion Transformer，实现精细的运动强度可控 I2V 生成。
 tags:
-  - CVPR 2025
-  - 图像到视频生成
-  - 运动强度估计
-  - 物体/相机运动解耦
-  - 视频生成
-  - 扩散模型
+  - "CVPR 2025"
+  - "视频生成"
+  - "图像到视频生成"
+  - "运动强度估计"
+  - "物体/相机运动解耦"
+  - "对比学习"
+  - "扩散模型"
 ---
 
 # MotionStone: Decoupled Motion Intensity Modulation with Diffusion Transformer for Image-to-Video Generation

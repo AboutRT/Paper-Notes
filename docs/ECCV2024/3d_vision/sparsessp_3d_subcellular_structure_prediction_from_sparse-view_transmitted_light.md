@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][亚细胞结构预测] 提出 SparseSSP，一种混合维度拓扑的高效框架，通过 Z 轴深度到通道变换将 3D 亚细胞结构预测转化为 2D 网络任务，最多减少 87.5% 的成像频次同时保持领先精度。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 亚细胞结构预测
-  - 稀疏视图
-  - 混合维度网络
-  - 荧光预测
-  - 深度到通道变换
+  - "ECCV 2024"
+  - "3D视觉"
+  - "亚细胞结构预测"
+  - "稀疏视图"
+  - "混合维度网络"
+  - "荧光预测"
+  - "深度到通道变换"
 ---
 
 # SparseSSP: 3D Subcellular Structure Prediction from Sparse-View Transmitted Light Images

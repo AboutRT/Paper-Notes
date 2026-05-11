@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯] ReCap 利用同一物体在不同光照环境下的多组图像作为多任务监督信号，共享材质属性并独立优化光照表示，从根本上解决了 albedo-lighting 歧义问题，配合简化的着色函数和 HDR 后处理，在扩展的重光照基准上显著超越所有现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯
-  - 重光照
-  - 逆渲染
-  - 跨环境捕获
-  - 材质-光照解耦
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯"
+  - "重光照"
+  - "逆渲染"
+  - "跨环境捕获"
+  - "材质-光照解耦"
 ---
 
 # ReCap: Better Gaussian Relighting with Cross-Environment Captures

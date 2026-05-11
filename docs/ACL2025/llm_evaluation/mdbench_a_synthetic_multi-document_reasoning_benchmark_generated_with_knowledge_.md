@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance
 description: >-
-  [ACL 2025][LLM评测] 提出 MDBench，一个通过「结构化知识→LLM 辅助增强→自然文本生成」管线合成的多文档推理 QA 基准，可控地注入跨文档依赖，对前沿 LLM 构成显著挑战（最佳模型 EM 仅~60%）。
+  [ACL 2025][LLM评测][多文档推理] 提出 MDBench，一个通过「结构化知识→LLM 辅助增强→自然文本生成」管线合成的多文档推理 QA 基准，可控地注入跨文档依赖，对前沿 LLM 构成显著挑战（最佳模型 EM 仅~60%）。
 tags:
-  - ACL 2025
-  - LLM评测
-  - 合成数据
-  - 知识引导生成
-  - LLM 评测
-  - QA 基准
+  - "ACL 2025"
+  - "LLM评测"
+  - "多文档推理"
+  - "合成数据"
+  - "知识引导生成"
+  - "LLM 评测"
+  - "QA 基准"
 ---
 
 # MDBench: A Synthetic Multi-Document Reasoning Benchmark Generated with Knowledge Guidance

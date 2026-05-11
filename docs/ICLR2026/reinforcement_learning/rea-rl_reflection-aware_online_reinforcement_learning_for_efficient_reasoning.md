@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][强化学习][推理过度思考] 提出REA-RL框架，通过蒸馏训练的小型反思模型在线识别并截断过度思考token生成修订路径，配合反思奖励防止RL训练中模型退化为无反思的朴素CoT，在DeepSeek-R1-Distill-Qwen-7B上实现推理token开销降低36%且准确率零损失。
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 推理过度思考
-  - 反思感知
-  - 在线RL
-  - GRPO
-  - 推理效率
+  - "ICLR 2026"
+  - "强化学习"
+  - "推理过度思考"
+  - "反思感知"
+  - "在线RL"
+  - "GRPO"
+  - "推理效率"
 ---
 
 # REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning

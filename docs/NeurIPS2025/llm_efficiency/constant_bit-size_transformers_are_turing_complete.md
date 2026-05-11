@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Constant Bit-Size Transformers Are Turing Complete
 description: >-
-  [NeurIPS 2025][LLM效率][Turing completeness] 首次证明常数 bit 精度、固定参数数量的 Transformer（仅允许上下文窗口增长）是图灵完备的，并建立了精确的复杂度等价关系 WINDOW[s(n)] = SPACE[s(n)]，表明扩展上下文窗口——而非模型尺寸——已足以实现通用计算。
+  [NeurIPS 2025][LLM效率][Turing completeness] 首次证明常数 bit 精度、固定参数数量的 Transformer（仅允许上下文窗口增长）是图灵完备的，并建立了精确的复杂度等价关系 WINDOW[s(n)] = SPACE[s(n)]…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - Turing completeness
-  - Transformer
-  - computational complexity
-  - Post machines
-  - context window
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "Turing completeness"
+  - "Transformer"
+  - "computational complexity"
+  - "Post machines"
+  - "context window"
 ---
 
 # Constant Bit-Size Transformers Are Turing Complete

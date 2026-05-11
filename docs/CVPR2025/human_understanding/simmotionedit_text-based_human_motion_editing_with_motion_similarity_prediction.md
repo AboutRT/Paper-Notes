@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][动作编辑] 提出 SimMotionEdit，引入运动相似度预测作为辅助任务，配合 Condition Transformer + Diffusion Transformer 双模块架构，在 MotionFix 数据集上实现文本驱动 3D 人体动作编辑的 SOTA 性能。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 动作编辑
-  - 扩散模型
-  - 辅助任务
-  - 运动相似度
-  - Transformer
+  - "CVPR 2025"
+  - "人体理解"
+  - "动作编辑"
+  - "扩散模型"
+  - "辅助任务"
+  - "运动相似度"
+  - "Transformer"
 ---
 
 # SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][扩散模型反演] 提出 Editable Noise Map Inversion (ENM Inversion)，通过在反演过程中同时优化重建误差和编辑对齐误差，使 noise map 同时"铭刻"源图像与目标图像信息，在内容保持和编辑忠实度之间取得最优平衡。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 扩散模型反演
-  - 图像编辑
-  - Noise Map
-  - DDIM Inversion
-  - 注意力控制
+  - "ICML 2025"
+  - "图像生成"
+  - "扩散模型反演"
+  - "图像编辑"
+  - "Noise Map"
+  - "DDIM Inversion"
+  - "注意力控制"
 ---
 
 # Editable Noise Map Inversion: Encoding Target-image into Noise For High-Fidelity Image Manipulation

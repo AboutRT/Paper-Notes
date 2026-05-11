@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaling Mesh Generation via Compressive Tokenization
 description: >-
-  [CVPR 2025][3D视觉][网格生成] 本文提出 Blocked and Patchified Tokenization (BPT)，一种将三角网格序列压缩约 75% 的高效表征方法，使自回归 Transformer 首次能处理超过 8k 面的高精度网格，在点云/图像条件生成中达到产品级质量，并验证了网格面数对生成性能的正相关 scaling 规律。
+  [CVPR 2025][3D视觉][网格生成] 本文提出 Blocked and Patchified Tokenization (BPT)，一种将三角网格序列压缩约 75% 的高效表征方法，使自回归 Transformer 首次能处理超过 8k 面的高精度网格，在点云/图像条件生成中达到产品级质量…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 网格生成
-  - 压缩表征
-  - Transformer
-  - 高面数网格
-  - 块索引
+  - "CVPR 2025"
+  - "3D视觉"
+  - "网格生成"
+  - "压缩表征"
+  - "Transformer"
+  - "高面数网格"
+  - "块索引"
 ---
 
 # Scaling Mesh Generation via Compressive Tokenization

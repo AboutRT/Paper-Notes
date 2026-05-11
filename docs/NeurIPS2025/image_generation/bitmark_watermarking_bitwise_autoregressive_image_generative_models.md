@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BitMark: Watermarking Bitwise Autoregressive Image Generative Models
 description: >-
-  [NeurIPS 2025][图像生成][比特级水印] 提出 BitMark——首个针对比特级自回归图像生成模型（Infinity、Instella）的水印方案，在生成过程中通过对 logit 加偏置将 bit 序列引向"绿色列表"，实现可靠检测（z-test）、高图像保真度（FID 几乎不变）、对多种攻击的鲁棒性和放射性（训练在水印图上的下游模型也带有水印），为防止模型坍缩提供了关键工具。
+  [NeurIPS 2025][图像生成][比特级水印] 提出 BitMark——首个针对比特级自回归图像生成模型（Infinity、Instella）的水印方案，在生成过程中通过对 logit 加偏置将 bit 序列引向"绿色列表"…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 比特级水印
-  - 自回归图像生成
-  - 模型坍缩预防
-  - 放射性水印
-  - Infinity
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "比特级水印"
+  - "自回归图像生成"
+  - "模型坍缩预防"
+  - "放射性水印"
+  - "Infinity"
 ---
 
 # BitMark: Watermarking Bitwise Autoregressive Image Generative Models
@@ -78,7 +78,7 @@ tags:
 
 | 指标 | 无水印 | BitMark ($\delta$=1.5) | 说明 |
 |------|--------|----------------------|------|
-| FID | 基线 | 接近基线（<1差异） | 图像质量几乎不受影响 |
+| FID | 基线 | 接近基线（&lt;1差异） | 图像质量几乎不受影响 |
 | 绿色序列比例 | ~50% | ~65-70% | 水印信号显著 |
 | 检测 AUC | - | >0.99 | 几乎完美检测 |
 | 推理速度 | 基线 | 基线 | 零额外开销（仅加偏置） |

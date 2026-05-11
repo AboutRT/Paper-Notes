@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding
 description: >-
-  [ICLR 2026][信息检索] 提出 Token-Guard，一种基于自检验解码的 token 级幻觉控制方法，通过隐空间中的 token 级/段级评分和迭代修正机制，在解码过程中检测并抑制幻觉生成，F1 平均提升 16.3%。
+  [ICLR 2026][信息检索/RAG][LLM 幻觉控制] 提出 Token-Guard，一种基于自检验解码的 token 级幻觉控制方法，通过隐空间中的 token 级/段级评分和迭代修正机制，在解码过程中检测并抑制幻觉生成，F1 平均提升 16.3%。
 tags:
-  - ICLR 2026
-  - 信息检索
-  - Token 级解码
-  - 自检验
-  - 段级评分
-  - 迭代修正
+  - "ICLR 2026"
+  - "信息检索/RAG"
+  - "LLM 幻觉控制"
+  - "Token 级解码"
+  - "自检验"
+  - "段级评分"
+  - "迭代修正"
 ---
 
 # Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][视频生成音频] 提出 Mel-QCD，将 Mel 频谱图分解为语义向量（量化）、能量和标准差（连续）三种信号，通过 V2X 预测器从视频预测这些信号，结合 ControlNet 和文本反转技术，在 VGGSound 上 8 项指标中取得全面 SOTA 的视频到音频生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 视频生成音频
-  - Mel频谱分解
-  - 向量量化
-  - ControlNet
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "视频生成音频"
+  - "Mel频谱分解"
+  - "向量量化"
+  - "ControlNet"
+  - "扩散模型"
 ---
 
 # Synchronized Video-to-Audio Generation via Mel Quantization-Continuum Decomposition

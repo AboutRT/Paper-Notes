@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Path of Least Resistance: Guiding LLM Reasoning Trajectories for Efficient Consistency
 description: >-
-  [ICLR 2026][LLM/NLP][self-consistency] 提出 PoLR（Path of Least Resistance），首个利用推理前缀一致性的推理时方法，通过聚类短前缀并仅扩展主导聚类来实现 Self-Consistency 的高效替代，可减少高达 60% token 使用和 50% 延迟。
+  [ICLR 2026][LLM/NLP][self-consistency] 提出 PoLR（Path of Least Resistance），首个利用推理前缀一致性的推理时方法，通过聚类短前缀并仅扩展主导聚类来实现 Self-Consistency 的高效替代…
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - self-consistency
-  - inference efficiency
-  - prefix clustering
-  - reasoning
-  - token reduction
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "self-consistency"
+  - "inference efficiency"
+  - "prefix clustering"
+  - "reasoning"
+  - "token reduction"
 ---
 
 # The Path of Least Resistance: Guiding LLM Reasoning Trajectories for Efficient Consistency

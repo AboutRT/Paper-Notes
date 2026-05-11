@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unified Spherical Frontend: Learning Rotation-Equivariant Representations of Spherical Images from Any Camera
 description: >-
-  [CVPR 2026][图像分割][球面卷积] USF 提出了一个模块化、镜头无关的球面视觉前端，通过将任意标定相机图像投影到单位球面上执行空间域球面重采样、卷积和池化操作，仅用距离加权核就能天然保证旋转等变性，在分类、检测和分割任务上展现了对随机旋转和跨镜头的零样本泛化鲁棒性。
+  [CVPR 2026][语义分割][球面卷积] USF 提出了一个模块化、镜头无关的球面视觉前端，通过将任意标定相机图像投影到单位球面上执行空间域球面重采样、卷积和池化操作，仅用距离加权核就能天然保证旋转等变性，在分类、检测和分割任务上展现了对随机旋转和跨镜头的零样本泛化鲁棒性。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 球面卷积
-  - 旋转等变性
-  - 广角相机
-  - 全景图像
-  - 镜头无关
+  - "CVPR 2026"
+  - "语义分割"
+  - "球面卷积"
+  - "旋转等变性"
+  - "广角相机"
+  - "全景图像"
+  - "镜头无关"
 ---
 
 # Unified Spherical Frontend: Learning Rotation-Equivariant Representations of Spherical Images from Any Camera

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][眼动追踪] 本文提出基于标记时空点过程（marked spatio-temporal point process）的阅读行为统一概率模型，同时建模注视何时发生、落在哪里、持续多久，避免传统聚合测量的信息损失，发现 surprisal 对细粒度眼动的预测贡献极其有限。
 tags:
-  - ACL 2025
-  - 眼动追踪
-  - Hawkes过程
-  - 时空点过程
-  - surprisal theory
-  - 阅读行为建模
+  - "ACL 2025"
+  - "眼动追踪"
+  - "Hawkes过程"
+  - "时空点过程"
+  - "surprisal theory"
+  - "阅读行为建模"
 ---
 
 # A Spatio-Temporal Point Process for Fine-Grained Modeling of Reading Behavior

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][video tokenizer] 提出EVATok框架——通过最优token分配估计+轻量路由器+自适应tokenizer训练的三步流程，让视频tokenizer按片段复杂度自适应分配token长度，在UCF-101上节省24.4%+ token同时达到SOTA生成质量。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - video tokenizer
-  - adaptive token
-  - autoregressive generation
-  - efficiency
-  - VQ-VAE
+  - "CVPR 2026"
+  - "图像生成"
+  - "video tokenizer"
+  - "adaptive token"
+  - "autoregressive generation"
+  - "efficiency"
+  - "VQ-VAE"
 ---
 
 # EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation

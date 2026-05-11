@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models
 description: >-
-  [ACL 2025 (Long Paper, acl-long.17)][LLM Agent][Fact-Checking Evaluation] 提出FACT-AUDIT——一个基于重要性采样和多智能体协作的自适应动态事实核查评估框架，通过动态生成测试数据、迭代探测模型弱点、并同时评估verdict预测和justification质量，全面审计LLM的事实核查能力边界。
+  [ACL 2025 (Long Paper, acl-long.17)][LLM Agent][Fact-Checking Evaluation] 提出FACT-AUDIT——一个基于重要性采样和多智能体协作的自适应动态事实核查评估框架，通过动态生成测试数据、迭代探测模型弱点、并同时评估verdict预测和j…
 tags:
-  - ACL 2025 (Long Paper, acl-long.17)
-  - LLM Agent
-  - Fact-Checking Evaluation
-  - Multi-Agent Framework
-  - Importance Sampling
-  - LLM Auditing
-  - Justification Production
+  - "ACL 2025 (Long Paper, acl-long.17)"
+  - "LLM Agent"
+  - "Fact-Checking Evaluation"
+  - "Multi-Agent Framework"
+  - "Importance Sampling"
+  - "LLM Auditing"
+  - "Justification Production"
 ---
 
 # FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] To Trust or Not to Trust: Attention-Based Trust Management for LLM Multi-Agent Systems
 description: >-
-  [ACL 2026][可解释性] 本文为 LLM 多智能体系统（LLM-MAS）提出首个全面的"可信度"定义（基于 Grice 合作原则的六个正交维度），发现 LLM 的注意力模式可区分不同类型的可信度违规，据此设计了轻量级的 A-Trust 评估方法和端到端的信任管理系统（TMS），在多种攻击下将恶意消息检测率提升至 77-90%。
+  [ACL 2026][可解释性][LLM多智能体信任管理] 本文为 LLM 多智能体系统（LLM-MAS）提出首个全面的"可信度"定义（基于 Grice 合作原则的六个正交维度），发现 LLM 的注意力模式可区分不同类型的可信度违规，据此设计了轻量级的 A-Trust 评估方法和端到端的信任管理系统（TMS）…
 tags:
-  - ACL 2026
-  - 可解释性
-  - 注意力模式分析
-  - 信任度评估
-  - 恶意消息检测
-  - 可信通信
+  - "ACL 2026"
+  - "可解释性"
+  - "LLM多智能体信任管理"
+  - "注意力模式分析"
+  - "信任度评估"
+  - "恶意消息检测"
+  - "可信通信"
 ---
 
 # To Trust or Not to Trust: Attention-Based Trust Management for LLM Multi-Agent Systems

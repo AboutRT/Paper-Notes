@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Obliviator Reveals the Cost of Nonlinear Guardedness in Concept Erasure
 description: >-
-  [NeurIPS 2025][其他][concept erasure] 提出Obliviator——一种基于RKHS中HSIC最小化的后处理概念擦除方法，通过两步迭代优化逐步变形特征空间，首次实现对非线性对抗者的完全防护，同时量化了非线性防护的效用-擦除代价（utility-erasure trade-off），在多个PLM和数据集上显著优于现有方法。
+  [NeurIPS 2025][concept erasure] 提出Obliviator——一种基于RKHS中HSIC最小化的后处理概念擦除方法，通过两步迭代优化逐步变形特征空间，首次实现对非线性对抗者的完全防护，同时量化了非线性防护的效用-擦除代价（utility-erasure trade-off）…
 tags:
-  - NeurIPS 2025
-  - 其他
-  - concept erasure
-  - HSIC
-  - RKHS
-  - fairness
-  - nonlinear guardedness
+  - "NeurIPS 2025"
+  - "concept erasure"
+  - "HSIC"
+  - "RKHS"
+  - "fairness"
+  - "nonlinear guardedness"
 ---
 
 # Obliviator Reveals the Cost of Nonlinear Guardedness in Concept Erasure

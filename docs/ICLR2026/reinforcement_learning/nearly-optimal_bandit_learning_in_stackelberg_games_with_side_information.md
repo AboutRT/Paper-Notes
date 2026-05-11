@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Nearly-Optimal Bandit Learning in Stackelberg Games with Side Information
 description: >-
-  [ICLR 2026][Stackelberg博弈] 本文通过将Stackelberg博弈中的领导者效用空间线性化，提出了一种约简到线性上下文赌臂问题的算法，在带侧信息的赌臂反馈设置下将遗憾界从 $\tilde{O}(T^{2/3})$ 改进到近似最优的 $\tilde{O}(T^{1/2})$。
+  [ICLR 2026][强化学习][Stackelberg博弈] 本文通过将Stackelberg博弈中的领导者效用空间线性化，提出了一种约简到线性上下文赌臂问题的算法，在带侧信息的赌臂反馈设置下将遗憾界从 $\tilde{O}(T^{2/3})$ 改进到近似最优的 $\tilde{O}(T^{1/2})$。
 tags:
-  - ICLR 2026
-  - Stackelberg博弈
-  - 在线学习
-  - 上下文赌臂
-  - 侧信息
-  - 遗憾界
+  - "ICLR 2026"
+  - "强化学习"
+  - "Stackelberg博弈"
+  - "在线学习"
+  - "上下文赌臂"
+  - "侧信息"
+  - "遗憾界"
 ---
 
 # Nearly-Optimal Bandit Learning in Stackelberg Games with Side Information

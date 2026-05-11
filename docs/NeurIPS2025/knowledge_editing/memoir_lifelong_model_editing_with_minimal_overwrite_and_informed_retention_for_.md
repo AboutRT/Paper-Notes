@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MEMOIR: Lifelong Model Editing with Minimal Overwrite and Informed Retention for LLMs
 description: >-
-  [NeurIPS 2025][模型编辑] 提出MEMOIR框架，通过在FFN层引入零初始化的残差记忆矩阵，利用基于TopHash的稀疏掩码将每次编辑限制在记忆参数的不同子集上，推理时通过掩码重叠率识别相关编辑并条件性激活知识，在15000次连续编辑下仍保持可靠性、泛化性和局部性的最优平衡。
+  [NeurIPS 2025][知识编辑][模型编辑] 提出MEMOIR框架，通过在FFN层引入零初始化的残差记忆矩阵，利用基于TopHash的稀疏掩码将每次编辑限制在记忆参数的不同子集上，推理时通过掩码重叠率识别相关编辑并条件性激活知识，在15000次连续编辑下仍保持可靠性、泛化性和局部性的最优平衡。
 tags:
-  - NeurIPS 2025
-  - 模型编辑
-  - 终身学习
-  - 稀疏掩码
-  - 残差记忆
-  - 灾难性遗忘
+  - "NeurIPS 2025"
+  - "知识编辑"
+  - "模型编辑"
+  - "终身学习"
+  - "稀疏掩码"
+  - "残差记忆"
+  - "灾难性遗忘"
 ---
 
 # MEMOIR: Lifelong Model Editing with Minimal Overwrite and Informed Retention for LLMs

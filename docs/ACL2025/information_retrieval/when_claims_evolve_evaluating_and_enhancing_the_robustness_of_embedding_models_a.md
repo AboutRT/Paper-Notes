@@ -2,14 +2,15 @@
 title: >-
   [论文解读] When Claims Evolve: Evaluating and Enhancing the Robustness of Embedding Models Against Misinformation Edits
 description: >-
-  [ACL 2025 Findings][信息检索] 提出一个扰动框架来系统评估句子嵌入模型在处理经过编辑的虚假信息声明时的鲁棒性，发现标准嵌入模型性能显著下降，并通过知识蒸馏和声明规范化两种缓解方法将领域内鲁棒性提升最高 17 个百分点、跨域泛化提升 10 个百分点。
+  [ACL 2025 Findings][信息检索/RAG][事实核查] 提出一个扰动框架来系统评估句子嵌入模型在处理经过编辑的虚假信息声明时的鲁棒性，发现标准嵌入模型性能显著下降，并通过知识蒸馏和声明规范化两种缓解方法将领域内鲁棒性提升最高 17 个百分点、跨域泛化提升 10 个百分点。
 tags:
-  - ACL 2025 Findings
-  - 信息检索
-  - 声明匹配
-  - 嵌入模型鲁棒性
-  - 虚假信息变体
-  - 检索系统
+  - "ACL 2025 Findings"
+  - "信息检索/RAG"
+  - "事实核查"
+  - "声明匹配"
+  - "嵌入模型鲁棒性"
+  - "虚假信息变体"
+  - "检索系统"
 ---
 
 # When Claims Evolve: Evaluating and Enhancing the Robustness of Embedding Models Against Misinformation Edits

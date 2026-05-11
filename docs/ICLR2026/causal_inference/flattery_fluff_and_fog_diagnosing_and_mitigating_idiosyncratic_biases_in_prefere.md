@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models
 description: >-
-  [ICLR 2026][preference model] 系统研究偏好模型对五种表面特征（冗长、结构化、术语、谄媚、模糊）的过度依赖——通过因果反事实对量化偏差来源于训练数据的分布不平衡，并提出基于**反事实数据增强 (CDA)** 的后训练方法，将模型与人类判断的平均失校准率从 39.4% 降至 32.5%。
+  [ICLR 2026][因果推理][preference model] 系统研究偏好模型对五种表面特征（冗长、结构化、术语、谄媚、模糊）的过度依赖——通过因果反事实对量化偏差来源于训练数据的分布不平衡，并提出基于**反事实数据增强 (CDA)** 的后训练方法…
 tags:
-  - ICLR 2026
-  - preference model
-  - reward model bias
-  - 因果推理
-  - 数据增强
-  - LLM alignment
+  - "ICLR 2026"
+  - "因果推理"
+  - "preference model"
+  - "reward model bias"
+  - "RLHF"
+  - "数据增强"
+  - "LLM alignment"
 ---
 
 # Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models

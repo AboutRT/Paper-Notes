@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][Flow Matching] 通过在流匹配训练中注入可控噪声扩大策略覆盖范围，并结合熵引导的采样机制在在线微调时动态平衡探索与利用，在有限交互预算下显著提升离线到在线RL的样本效率。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - Flow Matching
-  - 离线-在线RL
-  - 噪声注入
-  - 探索-利用平衡
-  - 熵引导采样
+  - "ICLR 2026"
+  - "图像生成"
+  - "Flow Matching"
+  - "离线-在线RL"
+  - "噪声注入"
+  - "探索-利用平衡"
+  - "熵引导采样"
 ---
 
 # Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning

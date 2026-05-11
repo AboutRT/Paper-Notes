@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VISion On Request: Enhanced VLLM Efficiency with Sparse, Dynamically Selected, Vision-Language Interactions
 description: >-
-  [CVPR 2026][多模态][大视觉语言模型效率] VISOR 提出了一种区别于视觉 token 压缩的新效率范式——通过稀疏化 LLM 内部视觉-语言交互层（少量交叉注意力 + 动态选择的自注意力层），在保留完整高分辨率视觉 token 的同时实现 8.6-18 倍 FLOPs 节省，尤其在需要细粒度理解的困难任务上大幅超越 token 压缩方法。
+  [CVPR 2026][多模态VLM][大视觉语言模型效率] VISOR 提出了一种区别于视觉 token 压缩的新效率范式——通过稀疏化 LLM 内部视觉-语言交互层（少量交叉注意力 + 动态选择的自注意力层），在保留完整高分辨率视觉 token 的同时实现 8.6-18 倍 FLOPs 节省…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 视觉token稀疏化
-  - 动态计算分配
-  - 交叉注意力
-  - 自注意力选择
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "大视觉语言模型效率"
+  - "视觉token稀疏化"
+  - "动态计算分配"
+  - "交叉注意力"
+  - "自注意力选择"
 ---
 
 # VISion On Request: Enhanced VLLM Efficiency with Sparse, Dynamically Selected, Vision-Language Interactions

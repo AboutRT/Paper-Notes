@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][视频理解][多模态目标追踪] 本文提出了一个多模态目标追踪框架，通过结合视觉与语言线索来推理社交场景中参与者的隐含目标，从而提升模型对社交情境的理解能力（即"落地的社会智能"）。
 tags:
-  - ACL 2025
-  - 视频理解
-  - 多模态目标追踪
-  - 社会智能
-  - 视觉-语言理解
-  - 对话系统
-  - 意图推理
+  - "ACL 2025"
+  - "视频理解"
+  - "多模态目标追踪"
+  - "社会智能"
+  - "视觉-语言理解"
+  - "对话系统"
+  - "意图推理"
 ---
 
 # A Thousand Words Paint a Picture: Multimodal Goal Tracking for Grounded Social Intelligence

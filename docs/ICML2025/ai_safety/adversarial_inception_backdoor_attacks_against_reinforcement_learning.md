@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][AI安全][backdoor attack] 提出"inception"后门攻击框架——通过在 RL 智能体的训练轨迹中插入触发器并将高回报动作替换为目标对抗动作，首次在严格奖励约束下实现 100% 攻击成功率，同时保持智能体在正常任务上的表现。
 tags:
-  - ICML 2025
-  - AI安全
-  - backdoor attack
-  - 强化学习
-  - 数据投毒
-  - 动作操纵
-  - 奖励约束
+  - "ICML 2025"
+  - "AI安全"
+  - "backdoor attack"
+  - "强化学习"
+  - "数据投毒"
+  - "动作操纵"
+  - "奖励约束"
 ---
 
 # Adversarial Inception Backdoor Attacks against Reinforcement Learning
@@ -81,7 +81,7 @@ tags:
 | 环境 | Q-Incept ASR | SleeperNets ASR | TrojDRL ASR | Q-Incept 任务性能 |
 |------|-------------|-----------------|-------------|-----------------|
 | Atari Q*bert | 100% | ~20% | ~15% | ≈无损 |
-| CybORG (网络防御) | 100% | <50% | <30% | 最小影响 |
+| CybORG (网络防御) | 100% | &lt;50% | &lt;30% | 最小影响 |
 | Highway (自动驾驶) | 100% | 失败 | 失败 | ≈无损 |
 | Safety-Gym | 100% | 失败 | 失败 | ≈无损 |
 
@@ -95,7 +95,7 @@ tags:
 | 无 inception（仅触发器+奖励） | ~20% | 验证了动作操纵的必要性 |
 
 ### 关键发现
-- 在奖励裁剪到 [0,1] 后，SleeperNets 和 TrojDRL 攻击成功率从 ~100% 骤降至 <50%
+- 在奖励裁剪到 [0,1] 后，SleeperNets 和 TrojDRL 攻击成功率从 ~100% 骤降至 &lt;50%
 - Q-Incept 在所有测试环境中均保持 100% ASR，即使在严格奖励约束下
 - 投毒率 β 对隐蔽性的影响很小——智能体在正常任务上的表现几乎不受影响
 

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][指代多目标跟踪] STORM 是首个端到端的多模态大语言模型框架用于指代多目标跟踪（RMOT），通过任务组合学习策略大幅减少对 RMOT 标注数据的依赖，并构建了高质量 STORM-Bench 数据集。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 指代多目标跟踪
-  - 多模态大语言模型
-  - 任务组合学习
-  - 数据集
+  - "CVPR 2026"
+  - "视频理解"
+  - "指代多目标跟踪"
+  - "多模态大语言模型"
+  - "任务组合学习"
+  - "数据集"
 ---
 
 # STORM: End-to-End Referring Multi-Object Tracking in Videos

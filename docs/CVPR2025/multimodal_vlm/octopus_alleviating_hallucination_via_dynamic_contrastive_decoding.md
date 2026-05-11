@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Octopus: Alleviating Hallucination via Dynamic Contrastive Decoding
 description: >-
-  [CVPR 2025][多模态][幻觉缓解] 本文通过大量实验揭示了 LVLM 幻觉成因的混合性——不同样本和不同生成步骤面临不同类型的幻觉挑战，据此提出 Octopus 框架，利用可学习的 decision token 和 transformer block 在每个生成步自适应选择最合适的对比解码（CD）策略，通过 DPO 优化，在四个基准上全面超越现有 CD 方法。
+  [CVPR 2025][多模态VLM][幻觉缓解] 本文通过大量实验揭示了 LVLM 幻觉成因的混合性——不同样本和不同生成步骤面临不同类型的幻觉挑战，据此提出 Octopus 框架…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 对比解码
-  - 动态策略选择
-  - 大视觉语言模型
-  - DPO
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "幻觉缓解"
+  - "对比解码"
+  - "动态策略选择"
+  - "大视觉语言模型"
+  - "DPO"
 ---
 
 # Octopus: Alleviating Hallucination via Dynamic Contrastive Decoding

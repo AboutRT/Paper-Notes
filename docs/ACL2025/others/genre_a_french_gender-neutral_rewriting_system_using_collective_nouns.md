@@ -2,14 +2,14 @@
 title: >-
   [论文解读] GeNRe: A French Gender-Neutral Rewriting System Using Collective Nouns
 description: >-
-  [ACL 2025][gender-neutral rewriting] GeNRe 是首个法语性别中性重写系统，利用集体名词（collective nouns）替代阳性泛指（masculine generics），提出规则系统、微调模型和指令模型三种方案，其中规则系统和 Claude 3 Opus + 词典方案效果最好。
+  [ACL 2025][gender-neutral rewriting] GeNRe 是首个法语性别中性重写系统，利用集体名词（collective nouns）替代阳性泛指（masculine generics），提出规则系统、微调模型和指令模型三种方案…
 tags:
-  - ACL 2025
-  - gender-neutral rewriting
-  - collective nouns
-  - 其他
-  - gender bias
-  - rule-based system
+  - "ACL 2025"
+  - "gender-neutral rewriting"
+  - "collective nouns"
+  - "French NLP"
+  - "gender bias"
+  - "rule-based system"
 ---
 
 # GeNRe: A French Gender-Neutral Rewriting System Using Collective Nouns

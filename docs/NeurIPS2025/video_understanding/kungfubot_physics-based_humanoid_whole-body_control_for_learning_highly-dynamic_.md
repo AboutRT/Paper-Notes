@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][humanoid control] 提出 PBHC 框架，通过物理感知运动处理流水线和自适应跟踪因子的双层优化，使人形机器人（Unitree G1）学会功夫、舞蹈等高动态全身动作，跟踪误差显著优于现有方法并成功实机部署。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - humanoid control
-  - motion imitation
-  - reinforcement-learning
-  - adaptive tracking
-  - sim-to-real
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "humanoid control"
+  - "motion imitation"
+  - "reinforcement-learning"
+  - "adaptive tracking"
+  - "sim-to-real"
 ---
 
 # KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills

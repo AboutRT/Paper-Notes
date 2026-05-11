@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像恢复][电路发现] 系统引入AND、OR、ADDER三种逻辑门来分解语言模型电路，揭示电路不完整性主要源于OR门的遗漏，提出结合noising和denoising干预的框架来完整恢复三种逻辑门，同时保证忠实度和完整性。
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 图像复原
-  - 机械可解释性
-  - 逻辑门
-  - 完整性
-  - 忠实度
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "电路发现"
+  - "机械可解释性"
+  - "逻辑门"
+  - "完整性"
+  - "忠实度"
 ---
 
 # Rethinking Circuit Completeness in Language Models: AND, OR, and ADDER Gates

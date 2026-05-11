@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][多视图3D检测] 提出 OPEN，通过目标级深度编码器（ODE）从像素级深度先验中预测物体中心深度，并设计目标级位置编码（OPE）将该信息注入 Transformer 解码器，生成 3D 目标感知特征，在 nuScenes 上达到 64.4% NDS 的 SOTA 性能。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 多视图3D检测
-  - 深度估计
-  - 位置编码
-  - DETR
-  - nuScenes
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "多视图3D检测"
+  - "深度估计"
+  - "位置编码"
+  - "DETR"
+  - "nuScenes"
 ---
 
 # OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection

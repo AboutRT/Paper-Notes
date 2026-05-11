@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Synthia: Scalable Grounded Persona Generation from Social Media Data
 description: >-
-  [ACL 2026][AI安全][人格生成] 提出 Synthia 框架，基于真实社交媒体帖子（Bluesky）生成有根据的 LLM 人格叙事，在社会调查对齐度上比 SOTA 提升最高 11.6%，同时使用更小的模型，并保留社交网络拓扑结构支持网络感知分析。
+  [ACL 2026][LLM安全][人格生成] 提出 Synthia 框架，基于真实社交媒体帖子（Bluesky）生成有根据的 LLM 人格叙事，在社会调查对齐度上比 SOTA 提升最高 11.6%，同时使用更小的模型，并保留社交网络拓扑结构支持网络感知分析。
 tags:
-  - ACL 2026
-  - AI安全
-  - 人格生成
-  - 虚拟人口
-  - 社交媒体
-  - 社会调查模拟
-  - 公平性分析
+  - "ACL 2026"
+  - "LLM安全"
+  - "人格生成"
+  - "虚拟人口"
+  - "社交媒体"
+  - "社会调查模拟"
+  - "公平性分析"
 ---
 
 # Synthia: Scalable Grounded Persona Generation from Social Media Data

@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 提出语义潜在方向（SLD）方法，通过构建一组正交潜在基方向并将未来运动假设表示为这些方向的线性组合，在随机人体运动预测中实现了更准确、更多样且语义可控的运动预测。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # Learning Semantic Latent Directions for Accurate and Controllable Human Motion Prediction

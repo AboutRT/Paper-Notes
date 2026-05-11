@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][3D高斯泼溅] 提出EvaGaussians框架，利用事件相机的高时间分辨率事件流辅助3D高斯泼溅从运动模糊图像中学习，通过事件辅助初始化、模糊/事件联合重建损失和事件辅助几何正则化，实现高保真新视图合成并保持实时渲染效率。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 3D高斯泼溅
-  - 事件相机
-  - 运动去模糊
-  - 新视图合成
-  - 捆绑调整
+  - "ICCV 2025"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "事件相机"
+  - "运动去模糊"
+  - "新视图合成"
+  - "捆绑调整"
 ---
 
 # EvaGaussians: Event Stream Assisted Gaussian Splatting from Blurry Images

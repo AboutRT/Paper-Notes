@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training
 description: >-
-  [CVPR 2026][多模态][交错多模态生成] Wan-Weaver 提出规划器（VLM）+ 可视化器（DiT）的解耦架构，通过大规模文本代理数据训练规划器而非真实交错数据，在 OpenING 上 Overall 8.67 分超越 Nano Banana 的 8.85，在保持理解能力（MMMU 74.9）的同时实现 SOTA 交错文图生成。
+  [CVPR 2026][多模态VLM][交错多模态生成] Wan-Weaver 提出规划器（VLM）+ 可视化器（DiT）的解耦架构，通过大规模文本代理数据训练规划器而非真实交错数据，在 OpenING 上 Overall 8.67 分超越 Nano Banana 的 8.85…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 交错多模态生成
-  - 解耦训练
-  - 多模态VLM
-  - 视觉一致性
-  - 规划-可视化
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "交错多模态生成"
+  - "解耦训练"
+  - "文本代理数据"
+  - "视觉一致性"
+  - "规划-可视化"
 ---
 
 # Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training

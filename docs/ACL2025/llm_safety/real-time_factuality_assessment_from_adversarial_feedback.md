@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Real-time Factuality Assessment from Adversarial Feedback
 description: >-
-  [ACL 2025][事实性评估] 本文揭示了现有事实性评估数据集存在"数据泄漏"问题（LLM 因预训练记忆而轻松识别旧虚假信息），提出了一个基于 RAG 检测器对抗反馈的迭代改写流水线来生成真正具有挑战性的实时虚假新闻变体，使 GPT-4o RAG 检测器的 ROC-AUC 绝对下降 17.5%。
+  [ACL 2025][LLM安全][事实性评估] 本文揭示了现有事实性评估数据集存在"数据泄漏"问题（LLM 因预训练记忆而轻松识别旧虚假信息），提出了一个基于 RAG 检测器对抗反馈的迭代改写流水线来生成真正具有挑战性的实时虚假新闻变体…
 tags:
-  - ACL 2025
-  - 事实性评估
-  - LLM安全
-  - 实时新闻
-  - 检索增强
-  - 虚假信息检测
+  - "ACL 2025"
+  - "LLM安全"
+  - "事实性评估"
+  - "对抗反馈"
+  - "实时新闻"
+  - "检索增强"
+  - "虚假信息检测"
 ---
 
 # Real-time Factuality Assessment from Adversarial Feedback

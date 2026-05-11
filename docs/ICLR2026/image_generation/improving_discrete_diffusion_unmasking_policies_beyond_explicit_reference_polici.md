@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)
 description: >-
-  [ICLR 2026][图像生成][扩散模型] 提出 Unmasking Policy Optimization（UPO），将 Masked Diffusion Model 的去噪过程建模为 KL 正则化 MDP，通过强化学习训练轻量级的 unmasking 策略模型来替代 max-confidence 等启发式调度器，在理论和实验上均证明学习到的策略能生成更接近真实数据分布的样本。
+  [ICLR 2026][图像生成][扩散模型] 提出 Unmasking Policy Optimization（UPO），将 Masked Diffusion Model 的去噪过程建模为 KL 正则化 MDP…
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 扩散模型
-  - Unmasking Policy
-  - reinforcement-learning
-  - KL-正则化MDP
-  - GRPO
+  - "ICLR 2026"
+  - "图像生成"
+  - "扩散模型"
+  - "Unmasking Policy"
+  - "reinforcement-learning"
+  - "KL-正则化MDP"
+  - "GRPO"
 ---
 
 # Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies (UPO)

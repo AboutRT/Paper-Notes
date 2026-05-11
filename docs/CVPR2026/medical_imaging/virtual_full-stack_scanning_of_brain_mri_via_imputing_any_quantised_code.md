@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][MRI模态补全] 提出 CodeBrain，将脑 MRI 任意到任意模态补全问题重新表述为区域级全栈量化码预测任务，通过两阶段流程（标量量化重建 + 分级损失码预测）实现统一的缺失模态合成，超越五种 SOTA 方法。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - MRI模态补全
-  - 有限标量量化
-  - 脑MRI
-  - 跨模态合成
-  - 任意到任意
+  - "CVPR 2026"
+  - "医学图像"
+  - "MRI模态补全"
+  - "有限标量量化"
+  - "脑MRI"
+  - "跨模态合成"
+  - "任意到任意"
 ---
 
 # Virtual Full-stack Scanning of Brain MRI via Imputing Any Quantised Code

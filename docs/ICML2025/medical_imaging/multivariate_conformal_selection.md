@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Multivariate Conformal Selection
 description: >-
-  [ICML2025][医学图像][Conformal Selection] 将 Conformal Selection 从单变量响应推广到多变量设定，提出区域单调性 (Regional Monotonicity) 概念，设计距离型 (mCS-dist) 和学习型 (mCS-learn) 两种非一致性分数，在有限样本下保证 FDR 控制并提升选择功效。
+  [ICML2025][医学图像][Conformal Selection] 将 Conformal Selection 从单变量响应推广到多变量设定，提出区域单调性 (Regional Monotonicity) 概念，设计距离型 (mCS-dist) 和学习型 (mCS-learn) 两种非一致性分数…
 tags:
-  - ICML2025
-  - 医学图像
-  - Conformal Selection
-  - 多变量响应
-  - FDR 控制
-  - 非一致性分数
-  - BH 过程
-  - 区域单调性
-  - 可微排序
+  - "ICML2025"
+  - "医学图像"
+  - "Conformal Selection"
+  - "多变量响应"
+  - "FDR 控制"
+  - "非一致性分数"
+  - "BH 过程"
+  - "区域单调性"
+  - "可微排序"
 ---
 
 # Multivariate Conformal Selection

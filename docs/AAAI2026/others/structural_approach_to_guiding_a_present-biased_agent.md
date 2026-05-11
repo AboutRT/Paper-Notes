@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][当前偏差] 在Kleinberg-Oren模型的委托-代理扩展中，系统性地研究了T-path-Editing问题的参数化复杂性，给出了以树宽和路径代价多样性为参数的FPT算法，并建立了紧的困难性结果，全面刻画了引导当前偏差agent完成关键任务的可处理-不可处理边界。
 tags:
-  - AAAI 2026
-  - 当前偏差
-  - 参数化复杂性
-  - 树宽
-  - 任务图修改
-  - 其他
+  - "AAAI 2026"
+  - "当前偏差"
+  - "参数化复杂性"
+  - "树宽"
+  - "任务图修改"
+  - "委托代理问题"
 ---
 
 # Structural Approach to Guiding a Present-Biased Agent

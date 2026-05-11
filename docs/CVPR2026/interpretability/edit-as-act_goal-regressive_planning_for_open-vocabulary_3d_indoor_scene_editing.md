@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing
 description: >-
-  [CVPR 2026][3D scene editing] 将开放词汇的3D室内场景编辑重新定义为目标回归规划问题，设计PDDL风格的EditLang符号语言，通过LLM驱动的Planner-Validator循环从目标状态逆向推导最小编辑序列，在63个编辑任务上同时实现指令忠实度（69.1%）、语义一致性（86.6%）和物理合理性（91.7%）三个指标的最佳平衡。
+  [CVPR 2026][可解释性][3D scene editing] 将开放词汇的3D室内场景编辑重新定义为目标回归规划问题，设计PDDL风格的EditLang符号语言，通过LLM驱动的Planner-Validator循环从目标状态逆向推导最小编辑序列…
 tags:
-  - CVPR 2026
-  - 3D scene editing
-  - goal regression
-  - PDDL
-  - 可解释性
-  - symbolic reasoning
+  - "CVPR 2026"
+  - "可解释性"
+  - "3D scene editing"
+  - "goal regression"
+  - "PDDL"
+  - "LLM planning"
+  - "symbolic reasoning"
 ---
 
 # Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing

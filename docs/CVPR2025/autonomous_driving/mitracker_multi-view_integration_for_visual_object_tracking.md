@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][多视角目标跟踪] 提出多视角目标跟踪数据集 MVTrack（234K 帧，27 类目标）和方法 MITracker，通过将 2D 特征投影到 3D 特征体并压缩为 BEV 平面进行跨视角融合，结合空间增强注意力修正各视角跟踪结果，实现从遮挡中快速恢复跟踪。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 多视角目标跟踪
-  - 3D特征体
-  - 鸟瞰图
-  - 空间增强注意力
-  - 多视角数据集
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "多视角目标跟踪"
+  - "3D特征体"
+  - "鸟瞰图"
+  - "空间增强注意力"
+  - "多视角数据集"
 ---
 
 # MITracker: Multi-View Integration for Visual Object Tracking

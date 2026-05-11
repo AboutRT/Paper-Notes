@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像恢复][扩散语言模型] 首次系统性地对比扩散大语言模型（dLLM）与自回归（AR）对应模型的幻觉模式，揭示当前 dLLM 幻觉倾向更高，并识别出三种扩散特有的失败模式：过早终止、不完全去噪和上下文入侵。
 tags:
-  - ACL 2026
-  - 图像恢复
-  - 图像复原
-  - 幻觉
-  - 非自回归生成
-  - 失败模式
-  - 推理时计算
+  - "ACL 2026"
+  - "图像恢复"
+  - "扩散语言模型"
+  - "幻觉"
+  - "非自回归生成"
+  - "失败模式"
+  - "推理时计算"
 ---
 
 # Lost in Diffusion: Uncovering Hallucination Patterns and Failure Modes in Diffusion Large Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][AI安全][公平性] 首次系统性量化分析输入归因解释（input-based explanations）与公平性的关系：发现解释能有效检测有偏预测、可作为训练正则化减少偏见，但不能用于自动选择公平模型。
 tags:
-  - ICLR 2026
-  - AI安全
-  - 公平性
-  - 可解释性
-  - hate speech detection
-  - input attribution
-  - 偏差缓解
+  - "ICLR 2026"
+  - "AI安全"
+  - "公平性"
+  - "可解释性"
+  - "hate speech detection"
+  - "input attribution"
+  - "偏差缓解"
 ---
 
 # Bridging Fairness and Explainability: Can Input-Based Explanations Promote Fairness in Hate Speech Detection?

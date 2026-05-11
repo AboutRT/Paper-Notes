@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Tell, Don't Show: Leveraging Language Models' Abstractive Retellings to Model Literary Themes
 description: >-
-  [ACL2025][文本生成][topic modeling] 提出 Retell 方法：利用小型 LM 对文学段落进行抽象复述（abstractive retelling），
+  [ACL2025][LLM/NLP][topic modeling] 提出 Retell 方法：利用小型 LM 对文学段落进行抽象复述（abstractive retelling），
 tags:
-  - ACL2025
-  - 文本生成
-  - topic modeling
-  - literary analysis
-  - abstractive retelling
-  - LDA
-  - cultural analytics
+  - "ACL2025"
+  - "LLM/NLP"
+  - "topic modeling"
+  - "literary analysis"
+  - "abstractive retelling"
+  - "LDA"
+  - "cultural analytics"
 ---
 
 # Tell, Don't Show: Leveraging Language Models' Abstractive Retellings to Model Literary Themes

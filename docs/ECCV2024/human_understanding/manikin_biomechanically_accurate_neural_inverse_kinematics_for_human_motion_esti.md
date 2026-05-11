@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][逆运动学] 本文提出MANIKIN，通过在SMPL参数模型中嵌入解剖学约束并设计基于旋转角预测的神经逆运动学求解器，从头部和手部的稀疏末端执行器姿态精确恢复全身运动，同时保证生物力学合理性和地面非穿透性。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 逆运动学
-  - 生物力学约束
-  - 全身运动跟踪
-  - 混合现实
-  - SMPL模型
+  - "ECCV 2024"
+  - "人体理解"
+  - "逆运动学"
+  - "生物力学约束"
+  - "全身运动跟踪"
+  - "混合现实"
+  - "SMPL模型"
 ---
 
 # MANIKIN: Biomechanically Accurate Neural Inverse Kinematics for Human Motion Estimation

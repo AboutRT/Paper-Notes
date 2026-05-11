@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages
 description: >-
-  [ACL 2025][语音][自动语音识别] GigaSpeech 2 构建了一个约 30,000 小时的大规模低资源语言（泰语、印尼语、越南语）ASR 语料库，通过自动化爬取-转录-精炼管线从无标注 YouTube 视频生成高质量伪标签，训练的模型仅用 10% 参数量即可将 WER 比 Whisper large-v3 降低 25%-40%。
+  [ACL 2025][音频/语音][自动语音识别] GigaSpeech 2 构建了一个约 30,000 小时的大规模低资源语言（泰语、印尼语、越南语）ASR 语料库，通过自动化爬取-转录-精炼管线从无标注 YouTube 视频生成高质量伪标签…
 tags:
-  - ACL 2025
-  - 语音
-  - 自动语音识别
-  - 低资源语言
-  - 大规模语料库
-  - Noisy Student Training
-  - 伪标签精炼
+  - "ACL 2025"
+  - "音频/语音"
+  - "自动语音识别"
+  - "低资源语言"
+  - "大规模语料库"
+  - "Noisy Student Training"
+  - "伪标签精炼"
 ---
 
 # GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages

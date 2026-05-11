@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][医学图像][临床推理] 本文将Toulmin论证模型适配到临床诊断过程，提出CGCL三阶段课程训练框架（事实收集→假设检验→综合结论），配合T-Eval量化评估推理结构完整性，在无需RL的情况下实现与RL方法可比的诊断推理质量。
 tags:
-  - ACL 2026
-  - 医学图像
-  - 临床推理
-  - Toulmin论证模型
-  - 课程学习
-  - 目标条件学习
-  - 可信诊断
+  - "ACL 2026"
+  - "医学图像"
+  - "临床推理"
+  - "Toulmin论证模型"
+  - "课程学习"
+  - "目标条件学习"
+  - "可信诊断"
 ---
 
 # From Answers to Arguments: Toward Trustworthy Clinical Diagnostic Reasoning with Toulmin-Guided Curriculum Goal-Conditioned Learning

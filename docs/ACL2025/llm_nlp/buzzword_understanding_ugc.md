@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][buzzword] 本文构建了首个中文网络流行语数据集 Cheer（1127 条），并提出 Ress 方法——通过模拟儿童语言习得的六维理解技能引导 LLM 从用户生成内容中产出更准确的流行语定义，在语义准确度上平均提升 2.51%。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - buzzword
-  - definition generation
-  - user-generated content
-  - language acquisition
-  - LLM
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "buzzword"
+  - "definition generation"
+  - "user-generated content"
+  - "language acquisition"
+  - "LLM"
 ---
 
 # Can Large Language Models Understand Internet Buzzwords Through User-Generated Content

@@ -2,17 +2,17 @@
 title: >-
   [论文解读] The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution
 description: >-
-  [ICLR 2026][LLM Agent][language agent] 提出 Toolathlon，一个覆盖 32 个软件应用、604 个工具和 108 个任务的语言 Agent 基准，强调真实多样的环境状态和长程多步交互（平均约 20 轮工具调用），最强模型 Claude-4.5-Sonnet 仅达 38.6% 成功率。
+  [ICLR 2026][LLM Agent][language agent] 提出 Toolathlon，一个覆盖 32 个软件应用、604 个工具和 108 个任务的语言 Agent 基准，强调真实多样的环境状态和长程多步交互（平均约 20 轮工具调用）…
 tags:
-  - ICLR 2026
-  - LLM Agent
-  - language agent
-  - benchmark
-  - MCP
-  - tool calling
-  - long-horizon
-  - 多应用交互
-  - 执行式评估
+  - "ICLR 2026"
+  - "LLM Agent"
+  - "language agent"
+  - "benchmark"
+  - "MCP"
+  - "tool calling"
+  - "long-horizon"
+  - "多应用交互"
+  - "执行式评估"
 ---
 
 # The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution
@@ -79,7 +79,7 @@ Toolathlon 的设计围绕四个核心原则：应用多样性（Diverse Apps）
 | Claude-4.5-Sonnet | **38.6** | 20.2 | 闭源 | 最强模型 |
 | GPT-4o / GPT-5 系列 | 25-35 (推测) | ~20 | 闭源 | 中等表现 |
 | DeepSeek-V3.2-Exp | **20.1** | ~20 | 开源最强 | 开源权重最佳 |
-| 其他开源模型 | <20 | 变化大 | 开源 | 普遍不足 |
+| 其他开源模型 | &lt;20 | 变化大 | 开源 | 普遍不足 |
 
 ### 不同应用类别的表现差异
 

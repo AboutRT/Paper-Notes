@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][双点图] 提出 Dual Point Maps（DualPM），通过同时预测相机空间和规范空间的点图对，将可变形物体的 3D 形状和姿态重建简化为点图预测问题，仅用合成数据训练即可泛化到真实图像。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 双点图
-  - 可变形物体重建
-  - 规范空间
-  - 姿态估计
-  - 四足动物
+  - "CVPR 2025"
+  - "3D视觉"
+  - "双点图"
+  - "可变形物体重建"
+  - "规范空间"
+  - "姿态估计"
+  - "四足动物"
 ---
 
 # DualPM: Dual Posed-Canonical Point Maps for 3D Shape and Pose Reconstruction

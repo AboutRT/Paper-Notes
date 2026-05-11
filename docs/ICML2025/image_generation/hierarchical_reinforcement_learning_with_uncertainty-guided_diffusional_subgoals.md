@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][分层强化学习] 提出将条件扩散模型与高斯过程先验相结合的分层强化学习框架，通过不确定性感知的子目标生成机制，解决高层策略在低层策略动态变化时难以产生有效子目标的核心难题。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 分层强化学习
-  - 扩散模型
-  - 高斯过程
-  - 子目标生成
-  - 不确定性
+  - "ICML 2025"
+  - "图像生成"
+  - "分层强化学习"
+  - "扩散模型"
+  - "高斯过程"
+  - "子目标生成"
+  - "不确定性"
 ---
 
 # Hierarchical Reinforcement Learning with Uncertainty-Guided Diffusional Subgoals

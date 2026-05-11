@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Compute-Optimal Quantization-Aware Training
 description: >-
-  [ICLR 2026][模型压缩][量化感知训练] 本文通过 757 组 QAT 实验（86M-2.2B 参数，1-6 bit）发现：QAT 的最优训练比例随总计算量增长而增大（与先前认为固定 10% 的结论相反），并提出 tokens-per-parameter-byte 统计量和新的 loss scaling law 来精确预测最优 QAT 分配策略和最终损失。
+  [ICLR 2026][模型压缩][量化感知训练] 本文通过 757 组 QAT 实验（86M-2.2B 参数，1-6 bit）发现：QAT 的最优训练比例随总计算量增长而增大（与先前认为固定 10% 的结论相反）…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 量化感知训练
-  - Scaling Law
-  - 计算最优分配
-  - tokens-per-parameter-byte
-  - 低比特量化
+  - "ICLR 2026"
+  - "模型压缩"
+  - "量化感知训练"
+  - "Scaling Law"
+  - "计算最优分配"
+  - "tokens-per-parameter-byte"
+  - "低比特量化"
 ---
 
 # Compute-Optimal Quantization-Aware Training

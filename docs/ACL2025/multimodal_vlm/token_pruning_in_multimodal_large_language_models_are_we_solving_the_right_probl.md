@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?
 description: >-
-  [ACL 2025][多模态][剪枝] 通过大规模基准实验揭示了当前MLLM视觉token剪枝方法的多个根本性问题：精心设计的剪枝策略（FastV、SparseVLM）在多数基准上甚至不如随机选择和池化等朴素方法，原因在于注意力评分的位置偏差、对语言信息的误用、重要性与冗余性的失衡以及评估指标的不可靠。
+  [ACL 2025][多模态VLM][剪枝] 通过大规模基准实验揭示了当前MLLM视觉token剪枝方法的多个根本性问题：精心设计的剪枝策略（FastV、SparseVLM）在多数基准上甚至不如随机选择和池化等朴素方法，原因在于注意力评分的位置偏差、对语言信息的误用、重要性与冗余性的失衡以及评估指标的不可靠。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - 多模态大模型
-  - 视觉token压缩
-  - 注意力偏差
-  - 推理加速
+  - "ACL 2025"
+  - "多模态VLM"
+  - "剪枝"
+  - "多模态大模型"
+  - "视觉token压缩"
+  - "注意力偏差"
+  - "推理加速"
 ---
 
 # Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?

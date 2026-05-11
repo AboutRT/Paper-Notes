@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自监督学习][统一时空学习] 提出 UniSTD 框架，利用标准 Transformer + 自适应秩混合专家（RA-MoE）+ 轻量时序模块，实现了一个模型同时处理 4 个学科 10 个时空预测任务且无性能损失，在多任务联合训练中比现有方法高出 18.8 PSNR。
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - 统一时空学习
-  - 混合专家
-  - 低秩自适应
-  - 多任务学习
-  - Transformer
+  - "CVPR 2025"
+  - "自监督学习"
+  - "统一时空学习"
+  - "混合专家"
+  - "低秩自适应"
+  - "多任务学习"
+  - "Transformer"
 ---
 
 # UniSTD: Towards Unified Spatio-Temporal Learning Across Diverse Disciplines

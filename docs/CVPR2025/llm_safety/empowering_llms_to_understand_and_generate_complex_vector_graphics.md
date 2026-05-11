@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Empowering LLMs to Understand and Generate Complex Vector Graphics
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：The unprecedented advancements in Large Language Models (LLMs) have profoundly impacted natural language processing but have yet to fully embrace the realm of scalable vector graphics (SVG) generation. While LLMs encode partial knowledge of SVG data from web pages during training, recent findings su
+  [CVPR 2025][LLM安全][待补充] > 基于摘要：The unprecedented advancements in Large Language Models (LLMs) have profoundly impacted natural language processing but have…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "LLM安全"
+  - "待补充"
 ---
 
 # Empowering LLMs to Understand and Generate Complex Vector Graphics

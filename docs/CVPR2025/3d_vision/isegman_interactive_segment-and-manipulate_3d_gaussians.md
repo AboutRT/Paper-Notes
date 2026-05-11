@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯泼溅] iSegMan提出了一个无需场景特定训练的交互式3DGS分割与操作框架，通过极线引导的交互传播(EIP)和基于可见性的高斯投票(VGV)实现精确的3D区域控制，配合完整的操作工具箱支持语义编辑、上色、缩放、复制粘贴、组合和删除等多种功能。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯泼溅
-  - 交互式分割
-  - 场景操作
-  - 极线约束
-  - SAM
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "交互式分割"
+  - "场景操作"
+  - "极线约束"
+  - "SAM"
 ---
 
 # iSegMan: Interactive Segment-and-Manipulate 3D Gaussians

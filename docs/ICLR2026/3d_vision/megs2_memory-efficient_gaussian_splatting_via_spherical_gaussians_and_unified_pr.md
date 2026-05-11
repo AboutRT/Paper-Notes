@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MEGS2: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning
 description: >-
-  [ICLR 2026][3D视觉][3D Gaussian Splatting] 提出MEGS2——从渲染VRAM角度出发压缩3DGS：用可裁剪的任意方向球面高斯(SG)完全替代球谐函数(SH)降低每个primitive的参数量 + 统一软剪枝框架将primitive数量和lobe数量的裁剪建模为单一内存约束优化问题 -> 实现8x静态VRAM压缩和6x渲染VRAM压缩，同时保持渲染质量，首次让3DGS在移动端实时运行。
+  [ICLR 2026][3D视觉][3D Gaussian Splatting] 提出MEGS2——从渲染VRAM角度出发压缩3DGS：用可裁剪的任意方向球面高斯(SG)完全替代球谐函数(SH)降低每个primitive的参数量 + 统一软剪枝框架将primitive数量和lobe数量的裁剪建模为单一内存约束…
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 内存压缩
-  - 球谐函数替代
-  - Spherical Gaussians
-  - 统一剪枝
+  - "ICLR 2026"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "内存压缩"
+  - "球谐函数替代"
+  - "Spherical Gaussians"
+  - "统一剪枝"
 ---
 
 # MEGS2: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning

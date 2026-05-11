@@ -2,14 +2,14 @@
 title: >-
   [论文解读] MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision
 description: >-
-  [NeurIPS 2025 (SEA Workshop, Oral)][multi-agent system] MAS-ZERO 是首个推理时自动 MAS 设计框架，通过 meta-agent 迭代设计、批评和改进 MAS 配置（包括任务分解和 sub-MAS 分配），无需验证集和训练，在推理（+16.69%）、编程（+16.66%）和搜索代理（+5.45%）任务上均超越手动和自动 MAS baseline，同时保持 Pareto 最优的准确率-成本权衡。
+  [NeurIPS 2025 (SEA Workshop, Oral)][multi-agent system] MAS-ZERO 是首个推理时自动 MAS 设计框架，通过 meta-agent 迭代设计、批评和改进 MAS 配置（包括任务分解和 sub-MAS 分配），无需验证集和训练…
 tags:
-  - NeurIPS 2025 (SEA Workshop, Oral)
-  - 其他
-  - automatic MAS design
-  - meta-agent
-  - zero supervision
-  - inference-time optimization
+  - "NeurIPS 2025 (SEA Workshop, Oral)"
+  - "multi-agent system"
+  - "automatic MAS design"
+  - "meta-agent"
+  - "zero supervision"
+  - "inference-time optimization"
 ---
 
 # MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision

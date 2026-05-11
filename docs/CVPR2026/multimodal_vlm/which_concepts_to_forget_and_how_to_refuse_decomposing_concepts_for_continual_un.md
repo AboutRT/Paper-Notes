@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Which Concepts to Forget and How to Refuse? Decomposing Concepts for Continual Unlearning in Large Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][持续遗忘] 本文提出CORE(COncept-aware REfuser)，一个面向大视觉语言模型(LVLM)持续遗忘的框架：通过将待删除的视觉-语言对分解为细粒度的视觉属性和文本意图概念，使用概念调制器识别需要拒绝的概念组合，再通过混合拒绝专家(refusers)生成概念对齐的拒绝回复，在16个连续遗忘任务上实现了90.67% CRR和88.02% AR的最佳遗忘-保留权衡。
+  [CVPR 2026][多模态VLM][持续遗忘] 本文提出CORE(COncept-aware REfuser)，一个面向大视觉语言模型(LVLM)持续遗忘的框架：通过将待删除的视觉-语言对分解为细粒度的视觉属性和文本意图概念，使用概念调制器识别需要拒绝的概念组合…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 持续遗忘
-  - 多模态VLM
-  - 概念分解
-  - 拒绝专家混合
-  - 选择性知识删除
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "持续遗忘"
+  - "大视觉语言模型"
+  - "概念分解"
+  - "拒绝专家混合"
+  - "选择性知识删除"
 ---
 
 # Which Concepts to Forget and How to Refuse? Decomposing Concepts for Continual Unlearning in Large Vision-Language Models

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][合规检测] 提出 AIMSCheck——一个端到端的企业现代奴隶制声明合规评估框架，将评估任务分解为句子级多标签分类、token 级 SHAP 解释和证据状态追踪三个层级，同时构建英国和加拿大两个新标注数据集，验证了在澳大利亚数据上微调的模型能有效跨司法管辖区泛化。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 合规检测
-  - 现代奴隶制
-  - 跨司法管辖泛化
-  - 多标签句子分类
-  - SHAP可解释性
-  - 证据追踪
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "合规检测"
+  - "现代奴隶制"
+  - "跨司法管辖泛化"
+  - "多标签句子分类"
+  - "SHAP可解释性"
+  - "证据追踪"
 ---
 
 # AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for Parametric 3D Design
 description: >-
-  [CVPR 2026][模型压缩][CAD生成] 本文提出 GeoFusion-CAD，一个端到端的扩散框架，通过将 CAD 程序编码为层次化树结构并引入几何感知的 G-Mamba 块（线性时间复杂度）替代二次复杂度的 Transformer，实现了对长序列参数化 CAD 程序的可扩展和结构感知生成，在新构建的 DeepCAD-240（最长240步命令）基准上大幅超越 Transformer 方法。
+  [CVPR 2026][模型压缩][CAD生成] 本文提出 GeoFusion-CAD，一个端到端的扩散框架，通过将 CAD 程序编码为层次化树结构并引入几何感知的 G-Mamba 块（线性时间复杂度）替代二次复杂度的 Transformer，实现了对长序列参数化 CAD 程序的可扩展和结构感知生成…
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - CAD生成
-  - 扩散模型
-  - 状态空间模型
-  - Mamba
-  - 层次化树表示
+  - "CVPR 2026"
+  - "模型压缩"
+  - "CAD生成"
+  - "扩散模型"
+  - "状态空间模型"
+  - "Mamba"
+  - "层次化树表示"
 ---
 
 # GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for Parametric 3D Design

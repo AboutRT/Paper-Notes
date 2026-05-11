@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][视觉语言预训练] 提出SiLC框架，在CLIP式图文对比学习中加入局部到全局的自蒸馏，显著提升密集预测任务（检测、分割）的性能，同时改善分类和检索。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 视觉语言预训练
-  - 自蒸馏
-  - CLIP改进
-  - 密集预测
-  - 局部特征学习
+  - "ECCV 2024"
+  - "模型压缩"
+  - "视觉语言预训练"
+  - "自蒸馏"
+  - "CLIP改进"
+  - "密集预测"
+  - "局部特征学习"
 ---
 
 # SiLC: Improving Vision Language Pretraining with Self-Distillation

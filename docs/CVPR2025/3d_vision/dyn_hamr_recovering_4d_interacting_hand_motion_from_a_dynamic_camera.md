@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] Dyn-HaMR 提出首个从动态相机单目视频中恢复双手 4D 全局运动轨迹的优化框架，通过三阶段流水线（层级初始化 → SLAM 引导全局运动优化 → 交互运动先验优化）解耦相机运动与手部运动，在多个数据集上大幅超越现有方法。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera

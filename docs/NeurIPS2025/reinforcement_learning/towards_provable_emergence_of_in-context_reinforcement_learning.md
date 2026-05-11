@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Provable Emergence of In-Context Reinforcement Learning
 description: >-
-  [NeurIPS 2025][In-Context RL] 本文从理论上证明了 Transformer 经过标准 RL 预训练后，其全局最优参数能够实现 in-context temporal difference (TD) 学习，为 in-context RL (ICRL) 现象提供了首个可证明的理论支撑。
+  [NeurIPS 2025][强化学习][In-Context RL] 本文从理论上证明了 Transformer 经过标准 RL 预训练后，其全局最优参数能够实现 in-context temporal difference (TD) 学习…
 tags:
-  - NeurIPS 2025
-  - In-Context RL
-  - Transformer
-  - 强化学习
-  - 策略评估
-  - 时序差分学习
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "In-Context RL"
+  - "Transformer"
+  - "预训练"
+  - "策略评估"
+  - "时序差分学习"
 ---
 
 # Towards Provable Emergence of In-Context Reinforcement Learning

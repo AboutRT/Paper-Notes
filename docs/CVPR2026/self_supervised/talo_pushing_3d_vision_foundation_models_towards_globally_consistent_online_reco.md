@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction
 description: >-
-  [CVPR 2026][自监督学习][3D 视觉基础模型] 提出 TALO，一种基于 Thin Plate Spline 的高自由度对齐框架，通过全局传播控制点和点无关的子图配准设计，纠正 3D 视觉基础模型在在线重建中的空间变化不一致性，兼容多种基础模型和相机配置，在 Waymo/nuScenes 数据集上显著降低轨迹误差。
+  [CVPR 2026][自监督学习][3D 视觉基础模型] 提出 TALO，一种基于 Thin Plate Spline 的高自由度对齐框架，通过全局传播控制点和点无关的子图配准设计，纠正 3D 视觉基础模型在在线重建中的空间变化不一致性，兼容多种基础模型和相机配置…
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - 自监督
-  - 在线重建
-  - Thin Plate Spline
-  - 子图对齐
-  - 自动驾驶
+  - "CVPR 2026"
+  - "自监督学习"
+  - "3D 视觉基础模型"
+  - "在线重建"
+  - "Thin Plate Spline"
+  - "子图对齐"
+  - "自动驾驶"
 ---
 
 # TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction

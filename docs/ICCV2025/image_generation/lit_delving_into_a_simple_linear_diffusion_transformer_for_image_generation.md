@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] > 系统研究如何将预训练 DiT 安全高效地转换为线性注意力版本 LiT，提出 5 条实践指南（深度卷积增强、少头策略、权重继承、选择性加载、混合蒸馏），仅需 DiT 训练步数的 20% 即可达到可比性能。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # LiT: Delving into a Simple Linear Diffusion Transformer for Image Generation

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][EEG] 首次系统验证EEG数据具有双曲性（层次结构），提出HEEGNet混合双曲网络架构，结合欧几里得编码器提取时空频谱特征和双曲编码器捕捉层次关系，配合创新的粗到细域适应策略(DSMDBN)，在视觉诱发电位、情感识别和颅内EEG多个跨域任务上达到SOTA。
 tags:
-  - ICLR 2026
-  - EEG
-  - 双曲空间
-  - 域适应
-  - 层次结构
-  - 脑机接口
+  - "ICLR 2026"
+  - "EEG"
+  - "双曲空间"
+  - "域适应"
+  - "层次结构"
+  - "脑机接口"
 ---
 
 # HEEGNet: Hyperbolic Embeddings for EEG

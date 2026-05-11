@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][多模态VLM][大型多模态模型] 系统性地评估了 13 个大型多模态模型（LMM）在开放世界图像分类任务上的表现，提出包含 4 种互补指标的评估协议，揭示了 LMM 在粒度判断和细粒度区分上的系统性错误模式。
 tags:
-  - ICCV 2025
-  - 多模态VLM
-  - 大型多模态模型
-  - 开放世界分类
-  - 评估协议
-  - LMM
-  - 图像分类
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "大型多模态模型"
+  - "开放世界分类"
+  - "评估协议"
+  - "LMM"
+  - "图像分类"
 ---
 
 # On Large Multimodal Models as Open-World Image Classifiers

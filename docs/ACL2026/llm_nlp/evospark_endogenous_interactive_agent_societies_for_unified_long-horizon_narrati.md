@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution
 description: >-
-  [ACL 2026][LLM/NLP][多智能体叙事] EvoSpark 提出一个支持长程叙事演化的多智能体框架，通过分层递归记忆（RSB 做社会认知代谢）、生成式场面调度（GMS 做角色-地点-情节对齐）和涌现角色锚定协议（ECGP 将 LLM 幻觉转化为持久角色）三重设计解决社会记忆堆叠和叙事-空间失谐问题。
+  [ACL 2026][LLM/NLP][多智能体叙事] EvoSpark 提出一个支持长程叙事演化的多智能体框架，通过分层递归记忆（RSB 做社会认知代谢）、生成式场面调度（GMS 做角色-地点-情节对齐）和涌现角色锚定协议（ECGP 将 LLM 幻觉转化为持久角色）三重设计解决社会记忆堆叠和叙事-空间失谐问…
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 多智能体叙事
-  - 长程故事演化
-  - 社会记忆代谢
-  - 空间对齐
-  - 涌现角色
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "多智能体叙事"
+  - "长程故事演化"
+  - "社会记忆代谢"
+  - "空间对齐"
+  - "涌现角色"
 ---
 
 # EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution

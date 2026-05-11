@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][CAD模型检索] 提出FastCAD，通过对比学习嵌入空间蒸馏和直接参数预测，实现50ms内完成场景中所有物体的CAD模型检索与对齐，比现有方法快50倍且精度更优。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - CAD模型检索
-  - 3D对齐
-  - 嵌入蒸馏
-  - 实时3D重建
-  - 对比学习
+  - "ECCV 2024"
+  - "3D视觉"
+  - "CAD模型检索"
+  - "3D对齐"
+  - "嵌入蒸馏"
+  - "实时3D重建"
+  - "对比学习"
 ---
 
 # FastCAD: Real-Time CAD Retrieval and Alignment from Scans and Videos

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][操作概念] 提出自监督框架从无标注多模态机器人演示中学习层级操作概念，通过跨模态相关性网络和多时域子目标预测器组织表示，增强模仿学习策略在新物体、新障碍和新环境下的泛化能力。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 操作概念
-  - 层级表示
-  - 跨模态相关性
-  - 多时间尺度子目标
-  - 自监督学习
+  - "NeurIPS 2025"
+  - "机器人"
+  - "操作概念"
+  - "层级表示"
+  - "跨模态相关性"
+  - "多时间尺度子目标"
+  - "自监督学习"
 ---
 
 # HiMaCon: Discovering Hierarchical Manipulation Concepts from Unlabeled Multi-Modal Data

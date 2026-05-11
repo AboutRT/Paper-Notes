@@ -2,18 +2,18 @@
 title: >-
   [论文解读] Hard to Be Heard: Phoneme-Level ASR Analysis of Phonologically Complex, Low-Resource Endangered Languages
 description: >-
-  [ACL 2026][语音][ASR] 本文对两种音系极端复杂的低资源濒危东高加索语言（Archi和Rutul）进行音素级ASR分析，发现音素识别准确率与训练频率呈S型学习曲线关系，许多归因于音系复杂性的错误实际上更多源于数据稀缺。
+  [ACL 2026][音频/语音][ASR] 本文对两种音系极端复杂的低资源濒危东高加索语言（Archi和Rutul）进行音素级ASR分析，发现音素识别准确率与训练频率呈S型学习曲线关系，许多归因于音系复杂性的错误实际上更多源于数据稀缺。
 tags:
-  - ACL 2026
-  - 语音
-  - ASR
-  - 低资源
-  - 濒危语言
-  - 音素级分析
-  - 东高加索语
-  - wav2vec2
-  - Whisper
-  - 频率效应
+  - "ACL 2026"
+  - "音频/语音"
+  - "ASR"
+  - "低资源"
+  - "濒危语言"
+  - "音素级分析"
+  - "东高加索语"
+  - "wav2vec2"
+  - "Whisper"
+  - "频率效应"
 ---
 
 # Hard to Be Heard: Phoneme-Level ASR Analysis of Phonologically Complex, Low-Resource Endangered Languages

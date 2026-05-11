@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像恢复][事件相机] EDformer 提出了一种基于 Transformer 的逐事件去噪模型，通过学习事件之间的时空相关性来处理不同噪声水平下的事件相机噪声，并首次构建了包含 21 个噪声等级的真实世界事件去噪数据集 ED24。
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 事件相机
-  - 事件去噪
-  - Transformer
-  - 背景活动噪声
-  - 真实世界数据集
+  - "ECCV 2024"
+  - "图像恢复"
+  - "事件相机"
+  - "事件去噪"
+  - "Transformer"
+  - "背景活动噪声"
+  - "真实世界数据集"
 ---
 
 # EDformer: Transformer-Based Event Denoising Across Varied Noise Levels

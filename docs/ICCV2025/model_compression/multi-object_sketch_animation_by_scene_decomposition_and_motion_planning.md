@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][草图动画] MoSketch 首次解决多物体草图动画问题，通过 LLM 场景分解 + LLM 运动规划 + 运动精炼网络 + 组合式 SDS 四个模块，以分治策略处理物体感知运动建模和复杂运动优化两大挑战，无需任何训练数据实现高质量多物体草图动画。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 草图动画
-  - 多物体动画
-  - LLM运动规划
-  - Score Distillation Sampling
-  - 组合生成
+  - "ICCV 2025"
+  - "模型压缩"
+  - "草图动画"
+  - "多物体动画"
+  - "LLM运动规划"
+  - "Score Distillation Sampling"
+  - "组合生成"
 ---
 
 # Multi-Object Sketch Animation by Scene Decomposition and Motion Planning

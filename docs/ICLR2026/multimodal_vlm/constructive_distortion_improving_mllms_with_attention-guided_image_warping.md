@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][多模态VLM][MLLM] 提出 AttWarp，一种即插即用的测试时图像变形方法，利用 MLLM 自身的跨模态注意力图进行矩形网格重采样，
 tags:
-  - ICLR 2026
-  - 多模态VLM
-  - MLLM
-  - image warping
-  - 注意力机制
-  - fine-grained perception
-  - test-time intervention
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "MLLM"
+  - "image warping"
+  - "注意力机制"
+  - "fine-grained perception"
+  - "test-time intervention"
 ---
 
 # Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping

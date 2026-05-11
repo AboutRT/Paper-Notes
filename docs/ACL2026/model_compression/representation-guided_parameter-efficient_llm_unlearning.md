@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 待补充
+  - "ACL 2026"
+  - "模型压缩"
+  - "待补充"
 ---
 
 # Representation-Guided Parameter-Efficient LLM Unlearning

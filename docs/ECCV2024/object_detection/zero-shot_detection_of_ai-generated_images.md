@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Zero-Shot Detection of AI-Generated Images
 description: >-
-  [ECCV 2024][目标检测][AI生成图像检测] 本文提出了零样本熵检测器ZED（Zero-shot Entropy-based Detector），通过无损图像编码器估计每个像素在给定上下文下的概率分布，用"图像对真实图像模型的意外程度"作为判别特征，无需任何AI生成训练数据即可检测多种生成器生成的图像，在广泛的生成模型上比SOTA平均准确率提升超过3%。
+  [ECCV 2024][目标检测][AI生成图像检测] 本文提出了零样本熵检测器ZED（Zero-shot Entropy-based Detector），通过无损图像编码器估计每个像素在给定上下文下的概率分布，用"图像对真实图像模型的意外程度"作为判别特征…
 tags:
-  - ECCV 2024
-  - 目标检测
-  - AI生成图像检测
-  - 零样本检测
-  - 熵估计
-  - 无损编码器
-  - 图像取证
+  - "ECCV 2024"
+  - "目标检测"
+  - "AI生成图像检测"
+  - "零样本检测"
+  - "熵估计"
+  - "无损编码器"
+  - "图像取证"
 ---
 
 # Zero-Shot Detection of AI-Generated Images

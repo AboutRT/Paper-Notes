@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SteelDefectX: A Coarse-to-Fine Vision-Language Dataset and Benchmark for Generalizable Steel Surface Defect Detection
 description: >-
-  [CVPR 2026][可解释性][钢材表面缺陷检测] 提出 SteelDefectX，首个面向钢材表面缺陷检测的视觉-语言数据集（7778 张图像、25 类缺陷），包含从类级到样本级的粗到细文本标注，并建立了涵盖纯视觉分类、视觉-语言分类、零/少样本识别和零样本迁移的四任务基准，实验证明高质量文本标注显著提升模型的可解释性、泛化性和跨域迁移能力。
+  [CVPR 2026][可解释性][钢材表面缺陷检测] 提出 SteelDefectX，首个面向钢材表面缺陷检测的视觉-语言数据集（7778 张图像、25 类缺陷），包含从类级到样本级的粗到细文本标注，并建立了涵盖纯视觉分类、视觉-语言分类、零/少样本识别和零样本迁移的四任务基准…
 tags:
-  - CVPR 2026
-  - 可解释性
-  - 钢材表面缺陷检测
-  - 视觉-语言数据集
-  - 粗到细标注
-  - 零样本迁移
-  - 工业质检
+  - "CVPR 2026"
+  - "可解释性"
+  - "钢材表面缺陷检测"
+  - "视觉-语言数据集"
+  - "粗到细标注"
+  - "零样本迁移"
+  - "工业质检"
 ---
 
 # SteelDefectX: A Coarse-to-Fine Vision-Language Dataset and Benchmark for Generalizable Steel Surface Defect Detection

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning
 description: >-
-  [ICLR 2026][视频理解][策略梯度] 提出 CAPO（Curvature-Aware Policy Optimization），通过在 LM head 最后一层建模二阶优化几何来预测并过滤会导致策略崩溃的 token 更新，在激进超参数（5× 学习率、1/12 batch size）下仍保持训练稳定，实现 MATH 上相较标准 GRPO 的 30× 样本效率提升。
+  [ICLR 2026][视频理解][策略梯度] 提出 CAPO（Curvature-Aware Policy Optimization），通过在 LM head 最后一层建模二阶优化几何来预测并过滤会导致策略崩溃的 token 更新，在激进超参数（5× 学习率、1/12 batch size）下仍保持训练稳定…
 tags:
-  - ICLR 2026
-  - 视频理解
-  - 策略梯度
-  - 曲率感知
-  - 样本效率
-  - GRPO
-  - 二阶优化
+  - "ICLR 2026"
+  - "视频理解"
+  - "策略梯度"
+  - "曲率感知"
+  - "样本效率"
+  - "GRPO"
+  - "二阶优化"
 ---
 
 # Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning
@@ -82,9 +82,9 @@ CAPO 在 GRPO 的基础上增加一个轻量级数据筛选层：每次梯度更
 
 | 分析维度 | 结果 | 说明 |
 |---------|------|------|
-| Token 拒绝率 | 初期 ~8%，之后 <2% | 极少干预即可稳定 |
+| Token 拒绝率 | 初期 ~8%，之后 &lt;2% | 极少干预即可稳定 |
 | 扩展性 | Dr.CAPO、ReinCAPO 均有效 | 可叠加到任意 PG 方法 |
-| 计算开销 | <5% 额外时间 | last-layer 计算极轻量 |
+| 计算开销 | &lt;5% 额外时间 | last-layer 计算极轻量 |
 | $m_F$ 追踪 | 崩溃方法的全局 $m_F$ 急剧飙升 | 曲率模型有效预警不稳定 |
 | $m_H$ 追踪 | CAPO 的 $m_H$ 曲线平滑 | 局部约束保证全局稳定 |
 
@@ -95,7 +95,7 @@ CAPO 在 GRPO 的基础上增加一个轻量级数据筛选层：每次梯度更
 - 曲率感知筛选可以推广到不同策略梯度目标（Dr.GRPO→Dr.CAPO、REINFORCE→ReinCAPO），一致性地防止崩溃
 
 ## 亮点与洞察
-- **极简干预实现极大提升**：仅在最后一层计算曲率、仅拒绝 <8% token，就实现了 30× 样本效率。这说明训练不稳定性集中在少数"有毒"样本上，大多数 token 的更新方向是安全的
+- **极简干预实现极大提升**：仅在最后一层计算曲率、仅拒绝 &lt;8% token，就实现了 30× 样本效率。这说明训练不稳定性集中在少数"有毒"样本上，大多数 token 的更新方向是安全的
 - **曲率模型的诊断价值**：$m_F$ 和 $m_H$ 的追踪不仅用于筛选，还提供了理解 RL-LLM 优化动态的窗口——$m_F$ 飙升是崩溃的前兆，这在此前几乎是黑盒的
 - **通用性强**：CAPO 的 token 筛选机制可叠加在任何策略梯度方法上，且理论保证不依赖于具体的优势函数形式——Dr.CAPO 和 ReinCAPO 的成功验证了这一点
 - **理论与实践的紧密对应**：Theorem 5.1 的单调改进保证在实验中被精确验证——CAPO 的 $m_F$ 始终在阈值以下

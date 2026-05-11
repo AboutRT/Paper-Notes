@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FDeID-Toolbox: Face De-Identification Toolbox
 description: >-
-  [CVPR 2025][图像生成][人脸去标识] 本文提出 FDeID-Toolbox，一个面向人脸去标识化（Face De-Identification）研究的综合性工具箱，通过模块化架构统一了数据加载、方法实现、推理流程和评测协议四个核心组件，解决了该领域实现碎片化、评测标准不一致、结果不可比较的长期痛点。
+  [CVPR 2025][图像生成][人脸去标识] 本文提出 FDeID-Toolbox，一个面向人脸去标识化（Face De-Identification）研究的综合性工具箱，通过模块化架构统一了数据加载、方法实现、推理流程和评测协议四个核心组件，解决了该领域实现碎片化、评测标准不一致、结果不可比较的长期痛点…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 人脸去标识
-  - 隐私保护
-  - 评测工具箱
-  - 可复现性
-  - 基准测试
+  - "CVPR 2025"
+  - "图像生成"
+  - "人脸去标识"
+  - "隐私保护"
+  - "评测工具箱"
+  - "可复现性"
+  - "基准测试"
 ---
 
 # FDeID-Toolbox: Face De-Identification Toolbox

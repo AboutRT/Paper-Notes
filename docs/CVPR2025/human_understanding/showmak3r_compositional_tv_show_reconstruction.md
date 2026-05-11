@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ShowMak3r++: Compositional Entertainment Video Reconstruction
 description: >-
-  [CVPR 2025][人体理解][动态重建] 提出 ShowMak3r++ 综合管线，通过时空定位模块、ShotMatcher 跨镜头追踪和人脸拟合网络，从电视节目和网络视频重建动态辐射场，支持场景编辑。
+  [CVPR 2025][人体理解][动态辐射场] 本文提出 ShowMak3r++，一个从电视节目和网络视频重建动态辐射场的组合式管线，核心创新包括基于深度先验的时空定位模块、跨镜头演员关联的 ShotMatcher，以及隐式人脸拟合网络，支持演员重定位、插入、删除等后制编辑应用。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 动态场景重建
-  - 3D高斯
-  - 视频重建
-  - 辐射场
+  - "CVPR 2025"
+  - "人体理解"
+  - "动态辐射场"
+  - "3D高斯"
+  - "电视节目重建"
+  - "人体定位"
+  - "人脸拟合"
 ---
 
 # ShowMak3r++: Compositional Entertainment Video Reconstruction

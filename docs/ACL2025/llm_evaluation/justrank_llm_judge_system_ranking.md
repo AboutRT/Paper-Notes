@@ -2,14 +2,15 @@
 title: >-
   [论文解读] JuStRank: Benchmarking LLM Judges for System Ranking
 description: >-
-  [ACL 2025][LLM-as-Judge] 首次大规模研究 LLM 判官在系统排名任务中的表现，提出 JuStRank 基准，收集 48 个判官对 63 个系统的 150 万条评分，揭示实例级判断能力与系统级排名能力之间存在显著差距，并发现判官的"果断性"（decisiveness）和"系统特异性偏见"两个可量化的系统级行为特征。
+  [ACL 2025][LLM评测][LLM-as-Judge] 首次大规模研究 LLM 判官在系统排名任务中的表现，提出 JuStRank 基准，收集 48 个判官对 63 个系统的 150 万条评分，揭示实例级判断能力与系统级排名能力之间存在显著差距…
 tags:
-  - ACL 2025
-  - LLM-as-Judge
-  - 系统排名
-  - 判官基准
-  - 果断性
-  - 偏见分析
+  - "ACL 2025"
+  - "LLM评测"
+  - "LLM-as-Judge"
+  - "系统排名"
+  - "判官基准"
+  - "果断性"
+  - "偏见分析"
 ---
 
 # JuStRank: Benchmarking LLM Judges for System Ranking

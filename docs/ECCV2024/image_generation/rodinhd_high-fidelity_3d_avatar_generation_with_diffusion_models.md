@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][3D头像生成] 提出RodinHD，解决triplane解码器的灾难性遗忘问题，并通过层级化肖像表示注入实现高保真3D头像生成。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 3D头像生成
-  - 高保真
-  - 扩散模型
-  - triplane
-  - 灾难性遗忘
+  - "ECCV 2024"
+  - "图像生成"
+  - "3D头像生成"
+  - "高保真"
+  - "扩散模型"
+  - "triplane"
+  - "灾难性遗忘"
 ---
 
 # RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models

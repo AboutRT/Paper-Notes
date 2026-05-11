@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Curvature Enhanced Data Augmentation for Regression
 description: >-
-  [ICML 2025][其他][数据增强] 提出 CEMS（Curvature-Enhanced Manifold Sampling），利用数据流形的二阶近似（曲率信息）生成合成样本，用于回归任务的数据增强，在分布内和分布外场景均取得 SOTA 或接近 SOTA 的性能。
+  [ICML 2025][数据增强] 提出 CEMS（Curvature-Enhanced Manifold Sampling），利用数据流形的二阶近似（曲率信息）生成合成样本，用于回归任务的数据增强，在分布内和分布外场景均取得 SOTA 或接近 SOTA 的性能。
 tags:
-  - ICML 2025
-  - 其他
-  - 数据增强
-  - 回归任务
-  - 流形学习
-  - 曲率
-  - 二阶近似
+  - "ICML 2025"
+  - "数据增强"
+  - "回归任务"
+  - "流形学习"
+  - "曲率"
+  - "二阶近似"
 ---
 
 # Curvature Enhanced Data Augmentation for Regression

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][血管分割] vesselFM 是首个专为 3D 血管分割设计的基础模型，通过整合三种异构数据源——精心策划的大规模真实标注数据集、域随机化合成数据和基于 flow matching 的生成数据——实现了跨四种临床成像模态的零样本、单样本和少样本分割 SOTA。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 血管分割
-  - 基础模型
-  - 域随机化
-  - 流匹配
-  - 零样本泛化
+  - "CVPR 2025"
+  - "医学图像"
+  - "血管分割"
+  - "基础模型"
+  - "域随机化"
+  - "流匹配"
+  - "零样本泛化"
 ---
 
 # vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation

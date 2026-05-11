@@ -2,16 +2,16 @@
 title: >-
   [论文解读] AFRO: Bootstrap Dynamic-Aware 3D Visual Representation for Scalable Robot Learning
 description: >-
-  [CVPR 2026][图像分割][3D表征学习] 提出AFRO自监督3D视觉预训练框架，通过逆动力学模型（IDM）推断潜在动作、扩散Transformer前向动力学模型（FDM）预测未来特征、逆一致性约束保证时序对称性，在RH20T大规模数据上预训练后，MetaWorld 14任务平均成功率76.0%（vs DynaMo-3D 64.9%、PointMAE 63.9%），4个real-world任务也取得最优。
+  [CVPR 2026][语义分割][3D表征学习] 提出AFRO自监督3D视觉预训练框架，通过逆动力学模型（IDM）推断潜在动作、扩散Transformer前向动力学模型（FDM）预测未来特征、逆一致性约束保证时序对称性，在RH20T大规模数据上预训练后…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 3D表征学习
-  - 动态感知
-  - 逆动力学模型
-  - 前向动力学模型
-  - Transformer
-  - 机器人操控
+  - "CVPR 2026"
+  - "语义分割"
+  - "3D表征学习"
+  - "动态感知"
+  - "逆动力学模型"
+  - "前向动力学模型"
+  - "Transformer"
+  - "机器人操控"
 ---
 
 # AFRO: Bootstrap Dynamic-Aware 3D Visual Representation for Scalable Robot Learning

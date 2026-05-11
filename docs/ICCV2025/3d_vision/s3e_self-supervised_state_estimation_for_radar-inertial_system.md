@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][毫米波雷达] 提出S3E，首次实现从雷达信号频谱和惯性数据的互补自监督状态估计，通过基于旋转的跨融合技术增强有限角分辨率下的空间结构信息。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 毫米波雷达
-  - IMU融合
-  - 自监督
-  - 状态估计
-  - 雷达频谱
+  - "ICCV 2025"
+  - "3D视觉"
+  - "毫米波雷达"
+  - "IMU融合"
+  - "自监督"
+  - "状态估计"
+  - "雷达频谱"
 ---
 
 # S3E: Self-Supervised State Estimation for Radar-Inertial System

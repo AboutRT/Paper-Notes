@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][遥感][SAR-光学配准] 本文在零样本设置下评估了24个预训练图像匹配器族在SAR-光学卫星配准上的表现，发现部署协议选择（几何模型、tile大小等）对精度的影响可达33倍，有时超过更换匹配器本身的效果。
 tags:
-  - CVPR 2026
-  - 遥感
-  - SAR-光学配准
-  - 图像匹配
-  - 跨模态
-  - 零样本迁移
-  - 卫星图像
+  - "CVPR 2026"
+  - "遥感"
+  - "SAR-光学配准"
+  - "图像匹配"
+  - "跨模态"
+  - "零样本迁移"
+  - "卫星图像"
 ---
 
 # Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MIMO: A Medical Vision Language Model with Visual Referring Multimodal Input and Pixel Grounding Multimodal Output
 description: >-
-  [CVPR 2025][多模态][医学视觉问答] 本文提出MIMO——首个同时支持"视觉引用多模态输入"（用户通过点/框指定感兴趣区域）和"像素级定位多模态输出"（模型在文本回答中嵌入分割mask）的医学视觉语言模型，并构建了895K样本的MIMOSeg数据集，在多种医学VQA和分割任务上展示了独特的referring+grounding能力。
+  [CVPR 2025][多模态VLM][医学视觉问答] 本文提出MIMO——首个同时支持"视觉引用多模态输入"（用户通过点/框指定感兴趣区域）和"像素级定位多模态输出"（模型在文本回答中嵌入分割mask）的医学视觉语言模型，并构建了895K样本的MIMOSeg数据集…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 医学视觉问答
-  - 视觉引用
-  - 像素级定位
-  - 多模态输入输出
-  - 多模态VLM
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "医学视觉问答"
+  - "视觉引用"
+  - "像素级定位"
+  - "多模态输入输出"
+  - "医学图像分割"
 ---
 
 # MIMO: A Medical Vision Language Model with Visual Referring Multimodal Input and Pixel Grounding Multimodal Output

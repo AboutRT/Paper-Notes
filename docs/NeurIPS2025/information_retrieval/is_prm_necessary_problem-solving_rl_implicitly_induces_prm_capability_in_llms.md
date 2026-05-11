@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Is PRM Necessary? Problem-Solving RL Implicitly Induces PRM Capability in LLMs
 description: >-
-  [NeurIPS 2025][过程奖励模型] 系统研究表明纯 RL 训练（无需显式 PRM 监督）能隐式诱导出强大的过程判断能力，且现有 PRM 在 DeepSeek-R1/QwQ-32B 等强推理模型上甚至不如简单多数投票有效；提出 Self-PRM 让模型用自身的内部奖励信号重排输出，一致性地优于外部 PRM。
+  [NeurIPS 2025][信息检索/RAG][过程奖励模型] 系统研究表明纯 RL 训练（无需显式 PRM 监督）能隐式诱导出强大的过程判断能力，且现有 PRM 在 DeepSeek-R1/QwQ-32B 等强推理模型上甚至不如简单多数投票有效；提出 Self-PRM 让模型用自身的内部奖励信号重排输出…
 tags:
-  - NeurIPS 2025
-  - 过程奖励模型
-  - 信息检索
-  - Self-PRM
-  - 推理验证
-  - 内省式评估
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "过程奖励模型"
+  - "强化学习"
+  - "Self-PRM"
+  - "推理验证"
+  - "内省式评估"
 ---
 
 # Is PRM Necessary? Problem-Solving RL Implicitly Induces PRM Capability in LLMs
@@ -104,7 +105,7 @@ tags:
 - 外部 PRM (Qwen2.5-Math-PRM-72B) 对 DeepSeek-R1/QwQ-32B 的 BoN 重排效果与简单多数投票持平甚至更差——用 72B 的 PRM 完全是浪费
 - Self-PRM 在 k≥16 时开始显现优势，在 k=32 时达到最佳效果（AIME24: 90.0 vs 86.7）
 - Self-REF 对指令微调模型帮助巨大（+18.8 F1），但对 RL 模型无效甚至略有害
-- Self-PRM 的致命弱点：难题上精度极低（<10%），经常把错误解答标为正确
+- Self-PRM 的致命弱点：难题上精度极低（&lt;10%），经常把错误解答标为正确
 
 ## 亮点与洞察
 

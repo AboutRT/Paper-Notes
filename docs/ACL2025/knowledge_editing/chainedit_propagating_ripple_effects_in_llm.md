@@ -2,14 +2,14 @@
 title: >-
   [论文解读] ChainEdit: Propagating Ripple Effects in LLM Knowledge Editing through Logical Rule-Guided Chains
 description: >-
-  [ACL 2025][知识编辑] 提出 ChainEdit 框架，通过将知识图谱中挖掘的逻辑规则与 LLM 内在逻辑推理能力对齐，实现知识编辑时的链式更新，将逻辑泛化准确率从约 20% 提升至 58-65%。
+  [ACL 2025][知识编辑][逻辑规则] 提出 ChainEdit 框架，通过将知识图谱中挖掘的逻辑规则与 LLM 内在逻辑推理能力对齐，实现知识编辑时的链式更新，将逻辑泛化准确率从约 20% 提升至 58-65%。
 tags:
-  - ACL 2025
-  - 知识编辑
-  - 逻辑规则
-  - 涟漪效应
-  - 知识图谱
-  - 链式更新
+  - "ACL 2025"
+  - "知识编辑"
+  - "逻辑规则"
+  - "涟漪效应"
+  - "知识图谱"
+  - "链式更新"
 ---
 
 # ChainEdit: Propagating Ripple Effects in LLM Knowledge Editing through Logical Rule-Guided Chains

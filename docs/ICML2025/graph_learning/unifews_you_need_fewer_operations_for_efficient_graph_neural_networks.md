@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图学习][graph_neural_networks] Unifews 提出统一的逐元素稀疏化框架，将 GNN 的图传播和特征变换视为矩阵运算，基于幅值阈值同时剪枝图边和模型权重，通过谱图平滑理论给出有界近似误差保证，在十亿边级别图上实现高达 100x 加速且不损失精度。
 tags:
-  - ICML 2025
-  - 图学习
-  - graph_neural_networks
-  - graph_sparsification
-  - 剪枝
-  - efficiency
-  - spectral_theory
+  - "ICML 2025"
+  - "图学习"
+  - "graph_neural_networks"
+  - "graph_sparsification"
+  - "剪枝"
+  - "efficiency"
+  - "spectral_theory"
 ---
 
 # Unifews: You Need Fewer Operations for Efficient Graph Neural Networks
@@ -104,7 +104,7 @@ NDLS 在大数据集上 OOM；NIGCN 不保证计算量下降；Unifews 是唯一
 
 ### 表2：迭代模型联合稀疏化精度对比（GCN/GAT on cora/citeseer/pubmed）
 
-| 方法 | 边剪枝 <80% | 边剪枝 >90% | 权重剪枝 | 联合稀疏 |
+| 方法 | 边剪枝 &lt;80% | 边剪枝 >90% | 权重剪枝 | 联合稀疏 |
 |------|------------|------------|---------|---------|
 | GLT | 中等 | 大幅下降 | 中等 | 次优 |
 | GEBT | 特定场景好 | 不稳定 | 较强 | 受限于训练开销 |

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Experience-based Knowledge Correction for Robust Planning in Minecraft
 description: >-
-  [ICLR 2026][机器人][LLM planning] 证明 LLM 无法通过 prompting 自我纠正其错误的规划先验知识（物品依赖关系），提出 XENON——通过算法化的知识管理（自适应依赖图 ADG + 失败感知动作记忆 FAM）从二值反馈中学习，使 7B LLM 在 Minecraft 长期规划中超越使用 GPT-4V + oracle 知识的 SOTA。
+  [ICLR 2026][机器人][LLM planning] 证明 LLM 无法通过 prompting 自我纠正其错误的规划先验知识（物品依赖关系），提出 XENON——通过算法化的知识管理（自适应依赖图 ADG + 失败感知动作记忆 FAM）从二值反馈中学习…
 tags:
-  - ICLR 2026
-  - 机器人
-  - LLM planning
-  - knowledge correction
-  - Minecraft
-  - embodied agent
-  - self-correction failure
+  - "ICLR 2026"
+  - "机器人"
+  - "LLM planning"
+  - "knowledge correction"
+  - "Minecraft"
+  - "embodied agent"
+  - "self-correction failure"
 ---
 
 # Experience-based Knowledge Correction for Robust Planning in Minecraft

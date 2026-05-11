@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Generating 3D House Wireframes with Semantics
 description: >-
-  [ECCV 2024][图像生成][3D 线框生成] 提出基于自回归模型的 3D 房屋线框生成方法，采用统一的线段（wire）表示替代传统的顶点-边分离建模，通过语义感知的 BFS 序列排列和两阶段 coarse-to-fine Transformer 解码器生成语义丰富的线框结构，可自动分割为墙壁、屋顶、房间等语义组件。
+  [ECCV 2024][图像生成][3D 线框生成] 提出基于自回归模型的 3D 房屋线框生成方法，采用统一的线段（wire）表示替代传统的顶点-边分离建模，通过语义感知的 BFS 序列排列和两阶段 coarse-to-fine Transformer 解码器生成语义丰富的线框结构…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 3D 线框生成
-  - 自回归模型
-  - 语义分组
-  - 残差量化
-  - Transformer
+  - "ECCV 2024"
+  - "图像生成"
+  - "3D 线框生成"
+  - "自回归模型"
+  - "语义分组"
+  - "残差量化"
+  - "Transformer"
 ---
 
 # Generating 3D House Wireframes with Semantics

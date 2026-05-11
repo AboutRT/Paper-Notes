@@ -2,14 +2,15 @@
 title: >-
   [论文解读] R2G: A Multi-View Circuit Graph Benchmark Suite from RTL to GDSII
 description: >-
-  [CVPR 2026][circuit graph] 提出 R2G，首个标准化的多视图电路图基准套件，在 30 个 IP 核上提供 5 种阶段感知的图表示（具有信息对等性），系统研究发现图表示选择比 GNN 模型选择对性能影响更大。
+  [CVPR 2026][LLM评测][circuit graph] 提出 R2G，首个标准化的多视图电路图基准套件，在 30 个 IP 核上提供 5 种阶段感知的图表示（具有信息对等性），系统研究发现图表示选择比 GNN 模型选择对性能影响更大。
 tags:
-  - CVPR 2026
-  - circuit graph
-  - LLM评测
-  - multi-view
-  - physical design
-  - EDA
+  - "CVPR 2026"
+  - "LLM评测"
+  - "circuit graph"
+  - "图神经网络"
+  - "multi-view"
+  - "physical design"
+  - "EDA"
 ---
 
 # R2G: A Multi-View Circuit Graph Benchmark Suite from RTL to GDSII

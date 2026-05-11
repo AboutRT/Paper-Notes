@@ -2,14 +2,14 @@
 title: >-
   [论文解读] IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization
 description: >-
-  [ICCV 2025][其他] 提出 IAP 框架，通过**感知感知（perceptibility-aware）的贴片定位**和**保色梯度更新**，首次实现在目标攻击场景下生成真正不可见的对抗补丁，同时能绕过多种 SOTA 补丁防御方法。
+  [ICCV 2025][对抗补丁] 提出 IAP 框架，通过**感知感知（perceptibility-aware）的贴片定位**和**保色梯度更新**，首次实现在目标攻击场景下生成真正不可见的对抗补丁，同时能绕过多种 SOTA 补丁防御方法。
 tags:
-  - ICCV 2025
-  - 其他
-  - 不可感知攻击
-  - 感知敏感度
-  - 目标攻击
-  - 补丁防御
+  - "ICCV 2025"
+  - "对抗补丁"
+  - "不可感知攻击"
+  - "感知敏感度"
+  - "目标攻击"
+  - "补丁防御"
 ---
 
 # IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization

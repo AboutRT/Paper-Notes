@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Adaptive Instruction Composition for Automated LLM Red-Teaming
 description: >-
-  [ACL 2026][强化学习] 提出 Adaptive Instruction Composition (AIC) 框架，利用 Neural Thompson Sampling 在众包有害查询和越狱策略的组合空间中自适应地选择攻击指令，同时优化攻击成功率和多样性，在 Harmbench 上大幅超越已有方法。
+  [ACL 2026][强化学习][LLM红队测试] 提出 Adaptive Instruction Composition (AIC) 框架，利用 Neural Thompson Sampling 在众包有害查询和越狱策略的组合空间中自适应地选择攻击指令，同时优化攻击成功率和多样性…
 tags:
-  - ACL 2026
-  - 强化学习
-  - 自适应指令组合
-  - 上下文赌博机
-  - 越狱攻击
-  - 多样性-有效性权衡
+  - "ACL 2026"
+  - "强化学习"
+  - "LLM红队测试"
+  - "自适应指令组合"
+  - "上下文赌博机"
+  - "越狱攻击"
+  - "多样性-有效性权衡"
 ---
 
 # Adaptive Instruction Composition for Automated LLM Red-Teaming

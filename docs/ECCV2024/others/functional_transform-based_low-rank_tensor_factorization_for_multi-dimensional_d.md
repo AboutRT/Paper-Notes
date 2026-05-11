@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][低秩张量分解] 提出了基于函数变换的低秩张量分解方法（FLRTF），利用隐式神经表示替代传统离散变换来捕获数据在第三维度上的连续平滑性，有效解决时间/光谱退化问题。
 tags:
-  - ECCV 2024
-  - 低秩张量分解
-  - 隐式神经表示
-  - 视频帧插值
-  - 其他
-  - 连续变换
+  - "ECCV 2024"
+  - "低秩张量分解"
+  - "隐式神经表示"
+  - "视频帧插值"
+  - "多光谱图像超分辨率"
+  - "连续变换"
 ---
 
 # Functional Transform-Based Low-Rank Tensor Factorization for Multi-Dimensional Data Recovery

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LFPC: Learning to Focus and Precise Cropping for MLLMs
 description: >-
-  [CVPR 2026][多模态][多模态大语言模型] LFPC 提出两阶段纯强化学习框架，通过"信息差"机制（降低全局图像分辨率迫使模型依赖高分辨率裁剪区域）和接地损失（提升裁剪精度），解决了现有 agent-based MLLM 中"先答后裁"的虚假工具调用问题，在高分辨率 VQA 上达到 SOTA。
+  [CVPR 2026][多模态VLM][多模态大语言模型] LFPC 提出两阶段纯强化学习框架，通过"信息差"机制（降低全局图像分辨率迫使模型依赖高分辨率裁剪区域）和接地损失（提升裁剪精度），解决了现有 agent-based MLLM 中"先答后裁"的虚假工具调用问题，在高分辨率 VQA 上达到 SOTA。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 强化学习
-  - 裁剪工具
-  - 信息差
-  - 高分辨率VQA
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态大语言模型"
+  - "强化学习"
+  - "裁剪工具"
+  - "信息差"
+  - "高分辨率VQA"
 ---
 
 # LFPC: Learning to Focus and Precise Cropping for MLLMs

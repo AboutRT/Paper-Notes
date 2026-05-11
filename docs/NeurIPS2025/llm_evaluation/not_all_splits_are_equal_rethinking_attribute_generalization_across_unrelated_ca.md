@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NEURIPS2025][LLM评测][属性泛化] 本文首次系统评估了属性预测任务中训练/测试划分策略对泛化性能的影响,提出了基于 LLM 语义分组、嵌入相似度、嵌入聚类和超类标签的四种渐进式难度划分方案,发现无监督聚类划分在不依赖标注的情况下实现了与真值超类划分相当的去泄漏效果,同时保留了更好的预测性能。
 tags:
-  - NEURIPS2025
-  - LLM评测
-  - 属性泛化
-  - 训练/测试划分
-  - 语义泄漏
-  - 聚类
-  - 线性探测
-  - 视觉表征
+  - "NEURIPS2025"
+  - "LLM评测"
+  - "属性泛化"
+  - "训练/测试划分"
+  - "语义泄漏"
+  - "聚类"
+  - "线性探测"
+  - "视觉表征"
 ---
 
 # Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories

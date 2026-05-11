@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning
 description: >-
-  [CVPR 2025][AI安全][联邦学习] 本文首次研究了联邦学习中非合作多标签后门攻击(MBA)场景，揭示了现有单标签后门攻击方法扩展到多标签场景时因构建相似的分布外(OOD)映射而导致攻击者间相互排斥的内在缺陷，提出 Mirage 方法通过构建分布内(ID)后门映射，使多个攻击者可以独立且持久地植入后门，平均攻击成功率超过97%且在900轮后仍保持90%以上。
+  [CVPR 2025][AI安全][联邦学习] 本文首次研究了联邦学习中非合作多标签后门攻击(MBA)场景，揭示了现有单标签后门攻击方法扩展到多标签场景时因构建相似的分布外(OOD)映射而导致攻击者间相互排斥的内在缺陷，提出 Mirage 方法通过构建分布内(ID)后门映射…
 tags:
-  - CVPR 2025
-  - AI安全
-  - 联邦学习
-  - 后门攻击
-  - 多标签后门
-  - 分布内映射
-  - 对抗适应
+  - "CVPR 2025"
+  - "AI安全"
+  - "联邦学习"
+  - "后门攻击"
+  - "多标签后门"
+  - "分布内映射"
+  - "对抗适应"
 ---
 
 # Infighting in the Dark: Multi-Label Backdoor Attack in Federated Learning

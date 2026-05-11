@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LLMSR@XLLM25: Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation
 description: >-
-  [ACL 2025 (XLLM Workshop)][模型压缩][结构化推理] 本文提出 Less is More 框架，在仅有 24 个标注样本的极端低资源条件下，通过逆向提示归纳、GPT-4o 增强的检索式推理合成和双阶段奖励引导过滤三个阶段，蒸馏出高质量的结构化推理数据来微调 LLaMA3-8B 多智能体系统，在 XLLM@ACL2025 共享任务中获得第三名。
+  [ACL 2025 (XLLM Workshop)][模型压缩 / LLM推理][结构化推理] 本文提出 Less is More 框架，在仅有 24 个标注样本的极端低资源条件下，通过逆向提示归纳、GPT-4o 增强的检索式推理合成和双阶段奖励引导过滤三个阶段…
 tags:
-  - 模型压缩
-  - 模型压缩
-  - 结构化推理
-  - 多智能体框架
-  - 知识蒸馏
-  - 低资源学习
-  - 质量引导过滤
+  - "ACL 2025 (XLLM Workshop)"
+  - "模型压缩 / LLM推理"
+  - "结构化推理"
+  - "多智能体框架"
+  - "知识蒸馏"
+  - "低资源学习"
+  - "质量引导过滤"
 ---
 
 # LLMSR@XLLM25: Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation

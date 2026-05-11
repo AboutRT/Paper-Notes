@@ -2,14 +2,14 @@
 title: >-
   [论文解读] A Dual-Mind Framework for Strategic and Expressive Negotiation Agent
 description: >-
-  [ACL 2025][其他] 本文受人类认知双过程理论启发，提出双心智谈判智能体框架（DMNA），将直觉模块（快速策略规划，基于 MCTS+DPO 训练）和审慎模块（慢速表达优化，基于多面反思机制）相结合，在谈判任务上取得了最优性能。
+  [ACL 2025][谈判智能体] 本文受人类认知双过程理论启发，提出双心智谈判智能体框架（DMNA），将直觉模块（快速策略规划，基于 MCTS+DPO 训练）和审慎模块（慢速表达优化，基于多面反思机制）相结合，在谈判任务上取得了最优性能。
 tags:
-  - ACL 2025
-  - 其他
-  - 双过程理论
-  - 策略规划
-  - 表达优化
-  - MCTS
+  - "ACL 2025"
+  - "谈判智能体"
+  - "双过程理论"
+  - "策略规划"
+  - "表达优化"
+  - "MCTS"
 ---
 
 # A Dual-Mind Framework for Strategic and Expressive Negotiation Agent

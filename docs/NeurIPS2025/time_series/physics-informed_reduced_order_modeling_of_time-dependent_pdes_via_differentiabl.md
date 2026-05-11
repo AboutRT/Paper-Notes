@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][降阶建模] 提出Φ-ROM框架，将可微分PDE求解器嵌入非线性降阶模型的训练过程中，通过求解器反馈直接约束潜在空间动态，使模型在泛化到未见参数/初始条件、长时间外推、稀疏观测数据恢复等方面显著优于纯数据驱动ROM和其他物理信息方法。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 降阶建模
-  - 可微分求解器
-  - 物理信息神经网络
-  - 隐式神经表示
-  - 偏微分方程
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "降阶建模"
+  - "可微分求解器"
+  - "物理信息神经网络"
+  - "隐式神经表示"
+  - "偏微分方程"
 ---
 
 # Physics-informed Reduced Order Modeling of Time-dependent PDEs via Differentiable Solvers

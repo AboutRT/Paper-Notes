@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][光照控制] 发现T2I模型文本编码器无法理解标准光照术语（如 tungsten、6500K）的语义鸿沟，提出 LumiCtrl 通过物理光照增强、边缘引导 prompt 解耦和掩码重建损失三个组件学习光照 prompt，在保持目标概念身份的同时实现精确的文本引导光照控制。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 光照控制
-  - 文本到图像
-  - 个性化生成
-  - 提示学习
-  - ControlNet
+  - "CVPR 2026"
+  - "图像生成"
+  - "光照控制"
+  - "文本到图像"
+  - "个性化生成"
+  - "提示学习"
+  - "ControlNet"
 ---
 
 # LumiCtrl: Learning Illuminant Prompts for Lighting Control in Personalized Text-to-Image Models

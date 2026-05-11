@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][动态高斯泼溅] 本文提出通过自适应 SE(3) B 样条运动基显式建模动态高斯的连续位置和朝向变形轨迹，配合软分段重建策略和多视角扩散模型先验，实现单目视频的高质量动态场景新视角合成，在 iPhone 和 NVIDIA 数据集上超越现有方法。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 动态高斯泼溅
-  - 单目视频
-  - SE(3) B样条
-  - 运动表示
-  - 新视角合成
+  - "CVPR 2026"
+  - "3D视觉"
+  - "动态高斯泼溅"
+  - "单目视频"
+  - "SE(3) B样条"
+  - "运动表示"
+  - "新视角合成"
 ---
 
 # Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos

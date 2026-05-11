@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][跨语言迁移] 本文通过训练受控的小型双语语言模型，使用心理语言学中的结构启动方法（structural priming）研究跨语言语法表征的共享机制，发现跨语言结构启动效应在语言对之间呈不对称性，且对类型学距离较远的语言对（如英语-希腊语）明显减弱。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 跨语言迁移
-  - 双语模型
-  - 结构启动
-  - 语法表征共享
-  - 语言类型学
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "跨语言迁移"
+  - "双语模型"
+  - "结构启动"
+  - "语法表征共享"
+  - "语言类型学"
 ---
 
 # On the Acquisition of Shared Grammatical Representations in Bilingual Language Models

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Revisit Self-Debugging with Self-Generated Tests for Code Generation
 description: >-
-  [ACL 2025][代码智能] 系统性地研究了使用 LLM 自生成测试进行自调试（self-debugging）的效果，发现基于后执行信息的自调试在基础编程问题上反而降低性能（因自生成测试偏差），但基于执行中间状态（in-execution）的自调试可有效规避该偏差，在基础和竞赛题上均有提升。
+  [ACL 2025][代码智能][code generation] 系统性地研究了使用 LLM 自生成测试进行自调试（self-debugging）的效果，发现基于后执行信息的自调试在基础编程问题上反而降低性能（因自生成测试偏差），但基于执行中间状态（in-execution）的自调试可有效规避该偏差…
 tags:
-  - ACL 2025
-  - 代码智能
-  - self-debugging
-  - self-generated tests
-  - execution feedback
-  - LLM
+  - "ACL 2025"
+  - "代码智能"
+  - "code generation"
+  - "self-debugging"
+  - "self-generated tests"
+  - "execution feedback"
+  - "LLM"
 ---
 
 # Revisit Self-Debugging with Self-Generated Tests for Code Generation

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][弱到强泛化] 提出两阶段训练框架解决弱到强泛化中的过拟合问题：第一阶段通过基于不确定性的过滤提高弱监督信号质量，第二阶段用已微调的强模型为被丢弃的难题重新生成答案以恢复问题质量，在 GSM8k 和 MATH 上将 PGR 从 7.19% 提升到 120.50%。
 tags:
-  - ACL 2025
-  - 弱到强泛化
-  - 其他
-  - overfitting
-  - data filtering
-  - 自一致性
+  - "ACL 2025"
+  - "弱到强泛化"
+  - "超级对齐"
+  - "overfitting"
+  - "data filtering"
+  - "自一致性"
 ---
 
 # How to Mitigate Overfitting in Weak-to-Strong Generalization?

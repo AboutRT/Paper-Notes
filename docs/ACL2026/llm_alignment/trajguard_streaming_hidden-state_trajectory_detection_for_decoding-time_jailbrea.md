@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM对齐][越狱防御] 本文提出 TrajGuard，一种无需训练的解码时越狱防御框架，通过滑动窗口聚合关键层隐藏状态轨迹实时量化风险，仅在风险持续超过阈值时触发轻量级语义裁判，在 12 种越狱攻击上实现 95% 平均防御率，检测延迟仅 5.2ms/token，误报率低于 1.5%。
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 越狱防御
-  - 隐藏状态轨迹
-  - 解码时检测
-  - 实时安全
-  - 无训练防御
+  - "ACL 2026"
+  - "LLM对齐"
+  - "越狱防御"
+  - "隐藏状态轨迹"
+  - "解码时检测"
+  - "实时安全"
+  - "无训练防御"
 ---
 
 # TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense

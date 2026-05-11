@@ -2,8 +2,15 @@
 title: >-
   [论文解读] ProtoCycle: Reflective Tool-Augmented Planning for Text-Guided Protein Design
 description: >-
-  [ACL2026][蛋白质设计] 通过LLM驱动的反思式工具增强规划框架实现文本引导的蛋白质设计
-tags: [蛋白质设计, LLM Agent, 工具增强, 强化学习, 反思规划]
+  [ACL 2026 (Findings)][医学图像][蛋白质设计] ProtoCycle提出一种将LLM作为规划器、结合轻量级工具环境的**反思式智能体框架**，用于文本引导的蛋白质序列设计——通过多轮反馈驱动的决策循环和在线强化学习训练，实现了强语言对齐性同时保持有竞争力的可折叠性。
+tags:
+  - "ACL 2026 (Findings)"
+  - "医学图像"
+  - "蛋白质设计"
+  - "文本引导"
+  - "反思规划"
+  - "工具增强"
+  - "强化学习"
 ---
 
 # ProtoCycle: Reflective Tool-Augmented Planning for Text-Guided Protein Design

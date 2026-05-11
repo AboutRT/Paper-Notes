@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Core Knowledge Deficits in Multi-Modal Language Models
 description: >-
-  [ICML 2025][多模态][核心知识] 提出 CoreCognition 基准（12种核心认知能力、1503题），大规模评测230个MLLM后发现：模型在基础认知能力上系统性落后于人类，且随规模增大并未改善，而是更依赖捷径学习而非真正理解。
+  [ICML 2025][多模态VLM][核心知识] 提出 CoreCognition 基准（12种核心认知能力、1503题），大规模评测230个MLLM后发现：模型在基础认知能力上系统性落后于人类，且随规模增大并未改善，而是更依赖捷径学习而非真正理解。
 tags:
-  - ICML 2025
-  - 多模态
-  - 核心知识
-  - 多模态VLM
-  - 认知科学
-  - shortcut learning
-  - benchmark
+  - "ICML 2025"
+  - "多模态VLM"
+  - "核心知识"
+  - "多模态大语言模型评测"
+  - "认知科学"
+  - "shortcut learning"
+  - "benchmark"
 ---
 
 # Core Knowledge Deficits in Multi-Modal Language Models
@@ -141,7 +141,7 @@ tags:
 
 1. **核心知识缺陷（Core Knowledge Deficits）**：MLLM在低层次能力上系统性表现差于高层次能力，与人类一致高水平形成鲜明对比
 
-2. **依赖关系错位（Misaligned Dependency）**：高层次能力表现与底层支撑能力不相关（Pearson ρ<0.4），缺乏人类认知发展中的层级结构化依赖
+2. **依赖关系错位（Misaligned Dependency）**：高层次能力表现与底层支撑能力不相关（Pearson ρ&lt;0.4），缺乏人类认知发展中的层级结构化依赖
 
 3. **缩放失效（Not Scaling）**：9种低层次能力中7种的缩放斜率显著低于高层次能力；视角采纳甚至出现**逆向缩放**（模型越大越差）
 

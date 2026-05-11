@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement
 description: >-
-  [ECCV 2024][图像分割][视频实例分割] 针对在线视频实例分割(VIS)中现有方法过度依赖位置信息导致的关联错误，提出VISAGE通过从骨干特征中显式提取外观嵌入、结合对比学习和简化tracker来增强实例关联准确性，在YTVIS和OVIS基准上取得SOTA。
+  [ECCV 2024][语义分割][视频实例分割] 针对在线视频实例分割(VIS)中现有方法过度依赖位置信息导致的关联错误，提出VISAGE通过从骨干特征中显式提取外观嵌入、结合对比学习和简化tracker来增强实例关联准确性，在YTVIS和OVIS基准上取得SOTA。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 视频实例分割
-  - 外观引导
-  - 查询匹配
-  - 对比学习
-  - 记忆库
+  - "ECCV 2024"
+  - "语义分割"
+  - "视频实例分割"
+  - "外观引导"
+  - "查询匹配"
+  - "对比学习"
+  - "记忆库"
 ---
 
 # VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement

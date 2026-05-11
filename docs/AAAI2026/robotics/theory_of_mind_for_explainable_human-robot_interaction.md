@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][机器人][心智理论] 提出将心智理论（ToM）视为可解释AI（XAI）的一种形式，使用VXAI框架的七个评价标准系统评估现有HRI中的ToM研究，发现关键缺陷（特别是忠实度缺失），并主张将ToM整合到XAI框架中以实现用户导向的解释。
 tags:
-  - AAAI 2026
-  - 机器人
-  - 心智理论
-  - 可解释AI
-  - 人机交互
-  - VXAI框架
-  - 用户中心评估
+  - "AAAI 2026"
+  - "机器人"
+  - "心智理论"
+  - "可解释AI"
+  - "人机交互"
+  - "VXAI框架"
+  - "用户中心评估"
 ---
 
 # Theory of Mind for Explainable Human-Robot Interaction

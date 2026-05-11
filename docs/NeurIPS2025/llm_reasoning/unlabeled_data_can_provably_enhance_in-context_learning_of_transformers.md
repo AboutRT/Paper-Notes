@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Unlabeled Data Can Provably Enhance In-Context Learning of Transformers
 description: >-
-  [NeurIPS 2025][LLM推理][in-context learning] 提出增强型ICL框架，在prompt中同时包含少量标记样本和大量无标记样本，理论证明多层Transformer通过CoT可模拟EM算法从无标记数据中提取信息，将分类excess risk从 $\mathcal{O}(1/\sqrt{N})$ 改进到 $\mathcal{O}(1/\sqrt{N + \text{poly}(M)})$。
+  [NeurIPS 2025][LLM推理][in-context learning] 提出增强型ICL框架，在prompt中同时包含少量标记样本和大量无标记样本，理论证明多层Transformer通过CoT可模拟EM算法从无标记数据中提取信息…
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - in-context learning
-  - unlabeled data
-  - 半监督学习
-  - EM algorithm
-  - chain-of-thought
-  - Transformer
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "in-context learning"
+  - "unlabeled data"
+  - "半监督学习"
+  - "EM algorithm"
+  - "chain-of-thought"
+  - "Transformer"
 ---
 
 # Unlabeled Data Can Provably Enhance In-Context Learning of Transformers

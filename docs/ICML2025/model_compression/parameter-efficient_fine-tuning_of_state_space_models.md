@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][模型压缩][状态空间模型] 首次系统性基准测试 6 种 PEFT 方法在 SSM（Mamba）上的表现，发现 LoRA 应作用于线性投影层而非 SSM 模块，并提出 SDT（稀疏维度调优）方法选择性更新关键状态维度以更高效地微调 SSM 参数。
 tags:
-  - ICML 2025
-  - 模型压缩
-  - 状态空间模型
-  - 参数高效微调
-  - LoRA
-  - Mamba
-  - 稀疏维度调优
+  - "ICML 2025"
+  - "模型压缩"
+  - "状态空间模型"
+  - "参数高效微调"
+  - "LoRA"
+  - "Mamba"
+  - "稀疏维度调优"
 ---
 
 # Parameter-Efficient Fine-Tuning of State Space Models
@@ -76,7 +76,7 @@ tags:
 | 方法 | 目标模块 | GLUE 平均 | 可训练参数 |
 |:---:|:---:|:---:|:---:|
 | Full Fine-tuning | 全部 | 80.5 | 100% |
-| Prompt Tuning | 输入嵌入 | 63.8 | <1% |
+| Prompt Tuning | 输入嵌入 | 63.8 | &lt;1% |
 | LoRA | SSM 模块 | 76.9 | ~0.5% |
 | LoRA | 线性投影层 | **81.2** | ~0.5% |
 | LoRA | SSM + 线性投影 | 80.3-89.8 | ~1% |

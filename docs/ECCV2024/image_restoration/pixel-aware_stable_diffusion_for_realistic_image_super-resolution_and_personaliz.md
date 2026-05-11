@@ -2,10 +2,10 @@
 title: >-
   [论文解读] Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization
 description: >-
-  [ECCV 2024][图像复原] 提出 PASD（Pixel-Aware Stable Diffusion），通过像素感知交叉注意力（PACA）模块使扩散模型在像素级感知图像局部结构，结合退化去除模块和可调噪声调度，实现了真实图像超分辨率和个性化风格化的统一框架，只需替换底座模型即可切换风格。
+  [ECCV 2024][图像恢复] 提出 PASD（Pixel-Aware Stable Diffusion），通过像素感知交叉注意力（PACA）模块使扩散模型在像素级感知图像局部结构，结合退化去除模块和可调噪声调度，实现了真实图像超分辨率和个性化风格化的统一框架，只需替换底座模型即可切换风格。
 tags:
-  - ECCV 2024
-  - 图像复原
+  - "ECCV 2024"
+  - "图像恢复"
 ---
 
 # Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization

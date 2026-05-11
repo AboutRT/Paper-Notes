@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Rethinking Data Bias: Dataset Copyright Protection via Embedding Class-Wise Hidden Bias
 description: >-
-  [ECCV 2024][其他] 本文提出"Undercover Bias"数据集水印方法，通过在训练数据中嵌入与目标任务无关但与标签对应的隐蔽水印图案，使未授权使用者训练的模型不自觉地学会分类这些水印，水印分类能力作为未授权使用的不可抵赖证据，实现了隐蔽、模型无关、对目标任务无损的数据集版权保护。
+  [ECCV 2024][数据集水印] 本文提出"Undercover Bias"数据集水印方法，通过在训练数据中嵌入与目标任务无关但与标签对应的隐蔽水印图案，使未授权使用者训练的模型不自觉地学会分类这些水印，水印分类能力作为未授权使用的不可抵赖证据，实现了隐蔽、模型无关、对目标任务无损的数据集版权保护。
 tags:
-  - ECCV 2024
-  - 其他
-  - 版权保护
-  - 隐蔽偏差
-  - 模型取证
-  - 知识产权
+  - "ECCV 2024"
+  - "数据集水印"
+  - "版权保护"
+  - "隐蔽偏差"
+  - "模型取证"
+  - "知识产权"
 ---
 
 # Rethinking Data Bias: Dataset Copyright Protection via Embedding Class-Wise Hidden Bias

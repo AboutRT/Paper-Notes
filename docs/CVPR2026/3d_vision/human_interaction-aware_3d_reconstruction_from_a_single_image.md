@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][多人3D重建] 提出HUG3D框架，通过透视-正交视图变换、群体-个体多视图扩散模型和物理感知几何重建，从单张图片实现交互多人的高保真纹理3D重建，在CD/P2S/NC等指标上全面超越现有方法。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 多人3D重建
-  - 人体交互
-  - 多视图扩散
-  - 物理约束
-  - 遮挡补全
+  - "CVPR 2026"
+  - "3D视觉"
+  - "多人3D重建"
+  - "人体交互"
+  - "多视图扩散"
+  - "物理约束"
+  - "遮挡补全"
 ---
 
 # Human Interaction-Aware 3D Reconstruction from a Single Image

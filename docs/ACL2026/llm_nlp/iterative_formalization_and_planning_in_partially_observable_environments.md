@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][部分可观测环境] 提出 PDDLego+ 框架，让 LLM 在部分可观测环境中迭代地生成和修正 PDDL（规划领域定义语言）表示，通过双层错误修复循环（solver error + simulation error）实现无需微调、无需示例的有效规划。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 部分可观测环境
-  - PDDL形式化
-  - 迭代规划
-  - LLM-as-Formalizer
-  - 错误修复
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "部分可观测环境"
+  - "PDDL形式化"
+  - "迭代规划"
+  - "LLM-as-Formalizer"
+  - "错误修复"
 ---
 
 # Iterative Formalization and Planning in Partially Observable Environments

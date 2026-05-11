@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][姿态引导人物图像生成] MCLD通过将源人物图像解耦为面部区域、外观纹理和整体图像三个焦点条件，设计多焦点条件聚合模块(MFCA)在UNet不同阶段选择性注入不同条件，有效缓解了LDM压缩导致的面部和纹理细节退化问题，在DeepFashion上取得SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 姿态引导人物图像生成
-  - 潜在扩散模型
-  - 多焦点条件
-  - 人脸身份保持
-  - 外观纹理保持
+  - "CVPR 2025"
+  - "图像生成"
+  - "姿态引导人物图像生成"
+  - "潜在扩散模型"
+  - "多焦点条件"
+  - "人脸身份保持"
+  - "外观纹理保持"
 ---
 
 # Multi-focal Conditioned Latent Diffusion for Person Image Synthesis

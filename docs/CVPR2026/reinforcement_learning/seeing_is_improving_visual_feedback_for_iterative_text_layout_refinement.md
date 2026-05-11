@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement
 description: >-
-  [CVPR 2026][视觉反馈] VFLM 提出一个利用视觉反馈进行迭代优化的布局生成框架，通过结合 OCR 准确率的视觉奖励模型和强化学习训练，使多模态大语言模型能够"看到"渲染结果并反复修正，在文本排版质量上显著超越仅生成代码的方法。
+  [CVPR 2026][强化学习][视觉反馈] VFLM 提出一个利用视觉反馈进行迭代优化的布局生成框架，通过结合 OCR 准确率的视觉奖励模型和强化学习训练，使多模态大语言模型能够"看到"渲染结果并反复修正，在文本排版质量上显著超越仅生成代码的方法。
 tags:
-  - CVPR 2026
-  - 视觉反馈
-  - 文本排版
-  - 布局生成
-  - 强化学习
-  - 迭代优化
+  - "CVPR 2026"
+  - "强化学习"
+  - "视觉反馈"
+  - "文本排版"
+  - "布局生成"
+  - "迭代优化"
 ---
 
 # Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement

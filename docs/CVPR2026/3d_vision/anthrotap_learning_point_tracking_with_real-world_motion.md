@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][点跟踪] AnthroTAP 提出了一种自动化管线，从真实人体运动视频中通过 SMPL 拟合和光流过滤生成大规模伪标签点跟踪数据，仅用 1.4K 视频 + 4 GPU 一天训练即达到TAP-Vid 基准的 SOTA 性能，超越使用 15M 视频的 BootsTAPIR。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 点跟踪
-  - 人体运动
-  - 伪标签
-  - SMPL
-  - 光流一致性
+  - "CVPR 2026"
+  - "3D视觉"
+  - "点跟踪"
+  - "人体运动"
+  - "伪标签"
+  - "SMPL"
+  - "光流一致性"
 ---
 
 # AnthroTAP: Learning Point Tracking with Real-World Motion

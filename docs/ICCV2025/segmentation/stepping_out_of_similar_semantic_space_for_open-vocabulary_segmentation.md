@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Stepping Out of Similar Semantic Space for Open-Vocabulary Segmentation
 description: >-
-  [ICCV 2025][图像分割][开放词汇分割] 揭示现有开放词汇分割（OVS）测试集与训练语义空间高度相似的评估偏差，提出新基准 OpenBench 和方法 OVSNet，通过梯度无关聚合（GFA）融合异构特征和代理校准（PC）零成本扩展训练空间，在已有基准和 OpenBench 上均取得 SOTA。
+  [ICCV 2025][语义分割][开放词汇分割] 揭示现有开放词汇分割（OVS）测试集与训练语义空间高度相似的评估偏差，提出新基准 OpenBench 和方法 OVSNet，通过梯度无关聚合（GFA）融合异构特征和代理校准（PC）零成本扩展训练空间，在已有基准和 OpenBench 上均取得 SOTA。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 开放词汇分割
-  - 基准评估
-  - 语义空间
-  - CLIP微调
-  - 梯度无关聚合
-  - 代理校准
+  - "ICCV 2025"
+  - "语义分割"
+  - "开放词汇分割"
+  - "基准评估"
+  - "语义空间"
+  - "CLIP微调"
+  - "梯度无关聚合"
+  - "代理校准"
 ---
 
 # Stepping Out of Similar Semantic Space for Open-Vocabulary Segmentation

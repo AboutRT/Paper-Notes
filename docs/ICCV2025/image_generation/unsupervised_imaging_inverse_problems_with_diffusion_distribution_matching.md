@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][无监督图像复原] DDM4IP 提出一种无监督框架，利用条件流匹配（Conditional Flow Matching）建模退化分布，同时通过分布匹配损失自动学习未知的前向退化模型，仅需少量非配对数据即可在去模糊、非均匀 PSF 标定和盲超分辨率任务上达到或超过现有方法。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 无监督图像复原
-  - 逆问题
-  - 条件流匹配
-  - 分布匹配
-  - 前向模型学习
+  - "ICCV 2025"
+  - "图像生成"
+  - "无监督图像复原"
+  - "逆问题"
+  - "条件流匹配"
+  - "分布匹配"
+  - "前向模型学习"
 ---
 
 # Unsupervised Imaging Inverse Problems with Diffusion Distribution Matching

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Smaller Models, Smarter Rewards: A Two-Sided Approach to Process and Outcome Rewards
 description: >-
-  [NeurIPS 2025 (Workshop: Foundations of Reasoning in Language Models)][LLM推理][奖励模型] 将 Phi-4 系列小模型（3.8B/14B）的最后一层替换为回归头并微调，使其同时具备 ORM（结果奖励）和 PRM（过程奖励）能力，在代码生成任务上通过选择最优 rollout 实现 20%+ 的 pass@k 提升。
+  [NeurIPS 2025 (Workshop: Foundations of Reasoning in Language Models)][LLM推理][奖励模型] 将 Phi-4 系列小模型（3.8B/14B）的最后一层替换为回归头并微调，使其同时具备 ORM（结果奖励）和 PRM（过程奖励）能力…
 tags:
   - "NeurIPS 2025 (Workshop: Foundations of Reasoning in Language Models)"
-  - LLM推理
-  - 奖励模型
-  - 过程奖励
-  - 结果奖励
-  - 代码生成
-  - 小模型
+  - "LLM推理"
+  - "奖励模型"
+  - "过程奖励"
+  - "结果奖励"
+  - "代码生成"
+  - "小模型"
 ---
 
 # Smaller Models, Smarter Rewards: A Two-Sided Approach to Process and Outcome Rewards
@@ -30,7 +30,7 @@ tags:
 
 **现有痛点**：ORM 信号稀疏、信度分配延迟——只在最后给一个分数，无法指导中间步骤的搜索；PRM 需要昂贵的中间步骤标注（通常需人工）。此外，现有奖励模型通常基于大模型（数百亿参数），部署成本高。
 
-**核心矛盾**：能否用小模型（<15B）同时实现 ORM 和 PRM 的功能？即一个模型既能评判完整 rollout 的正确性，又能在生成过程中估计中间状态的成功概率？
+**核心矛盾**：能否用小模型（&lt;15B）同时实现 ORM 和 PRM 的功能？即一个模型既能评判完整 rollout 的正确性，又能在生成过程中估计中间状态的成功概率？
 
 **本文目标**：验证 Phi-4 家族的小 LM 能否通过简单的架构改造（回归头替换 + SFT）成为有效的奖励模型，且能同时服务于 ORM 和 PRM 两种角色。
 

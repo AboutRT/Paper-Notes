@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Cognitive Mirrors: Exploring the Diverse Functional Roles of Attention Heads in LLM Reasoning
 description: >-
-  [NeurIPS 2025][注意力头] 提出CogQA基准数据集和多类probing框架，系统分析LLM中注意力头的认知功能特化现象，发现认知头具有稀疏性、普遍性和层级化功能组织特征，去除认知头显著降低推理性能，增强则提升准确率。
+  [NeurIPS 2025][可解释性][注意力头] 提出CogQA基准数据集和多类probing框架，系统分析LLM中注意力头的认知功能特化现象，发现认知头具有稀疏性、普遍性和层级化功能组织特征，去除认知头显著降低推理性能，增强则提升准确率。
 tags:
-  - NeurIPS 2025
-  - 注意力头
-  - 认知功能
-  - 可解释性
-  - probing
-  - 功能特化
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "注意力头"
+  - "认知功能"
+  - "probing"
+  - "功能特化"
 ---
 
 # Cognitive Mirrors: Exploring the Diverse Functional Roles of Attention Heads in LLM Reasoning
@@ -80,7 +80,7 @@ tags:
 
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
-| 高重要性头(<7%) | 覆盖大部分功能 | 稀疏但精确 |
+| 高重要性头(&lt;7%) | 覆盖大部分功能 | 稀疏但精确 |
 | Retrieval头 | 6.45%超过阈值0.01 | 最多活跃头 |
 | Inference头 | 3.42%超过阈值0.01 | 最少活跃头 |
 | Math头(Llama3.1-8B) | 59个 | 需较少头 |

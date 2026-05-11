@@ -1,16 +1,27 @@
 ---
 title: >-
-  ICLR2026 多模态 VLM方向91篇论文解读
+  ICLR2026 多模态 VLM方向90篇论文解读
 description: >-
-  91篇ICLR2026的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、机器人、Agent、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  90篇ICLR2026的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、机器人、Agent、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICLR2026"
+  - "多模态 VLM"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态"
+  - "推理"
+  - "LLM"
+  - "机器人"
+  - "Agent"
+  - "模型压缩"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**🔬 ICLR2026** · **91** 篇论文解读
+**🔬 ICLR2026** · **90** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [📷 CVPR2026 (241)](../../CVPR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [📷 CVPR2026 (240)](../../CVPR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
 
 🔥 **高频主题：** 多模态 ×45 · 推理 ×22 · LLM ×5 · 机器人 ×4 · Agent ×3
 
@@ -197,10 +208,6 @@ description: >-
 **[Modal Aphasia: Can Unified Multimodal Models Describe Images From Memory?](modal_aphasia_can_unified_multimodal_models_describe_images_from_memory.md)**
 
 :   本文发现并系统定义"模态失语"（Modal Aphasia）现象——统一多模态模型能从记忆中近乎完美地生成视觉概念（如电影海报图像），但在文字描述同一概念时错误率高出 7 倍以上，且严重幻觉几乎只出现在文本模态；通过前沿模型（ChatGPT-5）的真实实验和开源模型（Janus-Pro、Harmon）的合成控制实验，证实模态失语是当前统一架构的系统性缺陷而非训练偶然，并展示了该现象对 AI 安全框架的潜在威胁。
-
-**[Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional](multi-modal_data_spectrum_multi-modal_datasets_are_multi-dimensional.md)**
-
-:   大规模实证研究揭示23个VQA基准中存在严重的单模态依赖问题——许多为消除文本偏差而设计的基准反而引入了图像偏差，模型利用单模态捷径而非真正的跨模态推理。
 
 **[Multimodal Classification via Total Correlation Maximization](multimodal_classification_via_total_correlation_maximization.md)**
 

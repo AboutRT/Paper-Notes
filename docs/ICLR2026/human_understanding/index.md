@@ -1,16 +1,26 @@
 ---
 title: >-
-  ICLR2026 人体理解方向8篇论文解读
+  ICLR2026 人体理解方向7篇论文解读
 description: >-
-  8篇ICLR2026的人体理解方向论文解读，涵盖情感分析、人脸/视线、对抗鲁棒、LLM、多模态、图像编辑等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  7篇ICLR2026的人体理解方向论文解读，涵盖情感分析、人脸/视线、对抗鲁棒、LLM、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICLR2026"
+  - "人体理解"
+  - "论文解读"
+  - "论文笔记"
+  - "情感分析"
+  - "人脸/视线"
+  - "对抗鲁棒"
+  - "LLM"
+  - "多模态"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧑 人体理解
 
-**🔬 ICLR2026** · **8** 篇论文解读
+**🔬 ICLR2026** · **7** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/human_understanding/index.md) · [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (47)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/human_understanding/index.md) · [📷 CVPR2026 (56)](../../CVPR2026/human_understanding/index.md) · [🤖 AAAI2026 (16)](../../AAAI2026/human_understanding/index.md) · [🧠 NeurIPS2025 (19)](../../NeurIPS2025/human_understanding/index.md) · [📹 ICCV2025 (46)](../../ICCV2025/human_understanding/index.md) · [🧪 ICML2025 (2)](../../ICML2025/human_understanding/index.md)
 
 **[BAH Dataset for Ambivalence/Hesitancy Recognition in Videos for Digital Behaviour Analysis](bah_dataset_for_ambivalencehesitancy_recognition_in_videos_for_digital_behaviour.md)**
 
@@ -39,7 +49,3 @@ description: >-
 **[QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture](quamo_quaternion_motion_kinematics.md)**
 
 :   QuaMo 提出基于四元数微分方程（QDE）的 3D 人体运动学捕捉方法，通过在四元数单位球面约束下求解运动学方程，并引入二阶加速度增强的 meta-PD 控制器，实现了无不连续性、低抖动的在线实时人体运动估计，在 Human3.6M 等多个数据集上超越 SOTA。
-
-**[Visual Autoregressive Modeling for Instruction-Guided Image Editing](visual_autoregressive_modeling_for_instruction-guided_image_editing.md)**
-
-:   VAREdit将指令引导图像编辑重构为next-scale预测问题，提出Scale-Aligned Reference (SAR)模块解决最细尺度条件与粗目标特征间的尺度不匹配，在EMU-Edit和PIE-Bench上GPT-Balance分数超越最强扩散基线64.9%和45.3%，512×512编辑仅需1.2秒。

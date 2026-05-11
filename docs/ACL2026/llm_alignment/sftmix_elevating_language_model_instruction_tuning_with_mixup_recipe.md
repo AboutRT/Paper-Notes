@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM对齐][指令微调] 本文提出 SFTMix，一种基于 Mixup 的指令微调方法，通过训练动态将 SFT 数据集分为高置信度和低置信度子集，在隐表示空间对两者进行线性插值并施加 Mixup 正则化，在不依赖高质量数据集的情况下，跨 LLM 家族和数据集规模一致性地提升指令遵循能力。
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 指令微调
-  - Mixup 正则化
-  - 训练动态
-  - 置信度分区
-  - 数据利用效率
+  - "ACL 2026"
+  - "LLM对齐"
+  - "指令微调"
+  - "Mixup 正则化"
+  - "训练动态"
+  - "置信度分区"
+  - "数据利用效率"
 ---
 
 # SFTMix: Elevating Language Model Instruction Tuning with Mixup Recipe

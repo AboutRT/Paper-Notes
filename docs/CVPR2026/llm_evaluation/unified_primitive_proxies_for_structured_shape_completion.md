@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unified Primitive Proxies for Structured Shape Completion
 description: >-
-  [CVPR 2026][LLM评测][形状补全] 提出 UniCo，通过基元代理（primitive proxies）在共享形状特征上学习统一的基元表示，在单次前向传递中联合预测完整点云和装配就绪的二次曲面基元（含几何、语义和成员关系），在合成/真实点云 benchmark 上 Chamfer 距离降低最高 50%，法线一致性提升最高 7%。
+  [CVPR 2026][LLM评测][形状补全] 提出 UniCo，通过基元代理（primitive proxies）在共享形状特征上学习统一的基元表示，在单次前向传递中联合预测完整点云和装配就绪的二次曲面基元（含几何、语义和成员关系）…
 tags:
-  - CVPR 2026
-  - LLM评测
-  - 形状补全
-  - 基元装配
-  - 3D重建
-  - Transformer
-  - 结构化理解
+  - "CVPR 2026"
+  - "LLM评测"
+  - "形状补全"
+  - "基元装配"
+  - "3D重建"
+  - "Transformer"
+  - "结构化理解"
 ---
 
 # Unified Primitive Proxies for Structured Shape Completion

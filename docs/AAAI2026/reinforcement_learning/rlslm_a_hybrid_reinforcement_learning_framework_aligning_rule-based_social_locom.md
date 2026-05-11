@@ -2,14 +2,14 @@
 title: >-
   [论文解读] RLSLM: A Hybrid Reinforcement Learning Framework Aligning Rule-Based Social Locomotion Model with Human Social Norms
 description: >-
-  [AAAI 2026][强化学习] 本文提出RLSLM，一种将心理学实验驱动的规则式社交运动模型（SLM）嵌入强化学习奖励函数的混合框架，使智能体在人群环境中高效学习符合人类社交规范的导航策略，VR实验验证其舒适度评分显著优于现有规则式基线。
+  [AAAI 2026][强化学习][社会导航] 本文提出RLSLM，一种将心理学实验驱动的规则式社交运动模型（SLM）嵌入强化学习奖励函数的混合框架，使智能体在人群环境中高效学习符合人类社交规范的导航策略，VR实验验证其舒适度评分显著优于现有规则式基线。
 tags:
-  - AAAI 2026
-  - 强化学习
-  - 强化学习
-  - 社交运动模型
-  - VR实验
-  - 人机交互
+  - "AAAI 2026"
+  - "强化学习"
+  - "社会导航"
+  - "社交运动模型"
+  - "VR实验"
+  - "人机交互"
 ---
 
 # RLSLM: A Hybrid Reinforcement Learning Framework Aligning Rule-Based Social Locomotion Model with Human Social Norms

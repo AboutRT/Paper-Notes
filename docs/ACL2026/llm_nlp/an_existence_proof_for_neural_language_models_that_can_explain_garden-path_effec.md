@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][惊奇度理论] 通过在花园路径句上微调神经语言模型，证明了存在一个神经 LM 能够通过惊奇度（surprisal）同时解释花园路径效应和自然阅读时间，为惊奇度理论提供了存在性证明。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 惊奇度理论
-  - 花园路径效应
-  - 人类阅读时间
-  - 语言模型微调
-  - 心理语言学
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "惊奇度理论"
+  - "花园路径效应"
+  - "人类阅读时间"
+  - "语言模型微调"
+  - "心理语言学"
 ---
 
 # An Existence Proof for Neural Language Models That Can Explain Garden-Path Effects via Surprisal

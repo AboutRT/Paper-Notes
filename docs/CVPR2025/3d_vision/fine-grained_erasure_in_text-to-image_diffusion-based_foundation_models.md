@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Fine-Grained Erasure in Text-to-Image Diffusion-based Foundation Models
 description: >-
-  [3D视觉] FADE 提出邻接感知（adjacency-aware）的细粒度概念擦除框架，通过 Concept Neighborhood 识别语义邻近类别并设计 Mesh Modules（Erasing + Adjacency + Guidance 三重损失），在精确删除目标概念的同时保留语义相关概念的生成能力，相比 SOTA 方法在邻接保留性能上提升至少 12%。
+  [3D视觉] FADE 提出邻接感知（adjacency-aware）的细粒度概念擦除框架，通过 Concept Neighborhood 识别语义邻近类别并设计 Mesh Modules（Erasing + Adjacency + Guidance 三重损失）…
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Fine-Grained Erasure in Text-to-Image Diffusion-based Foundation Models

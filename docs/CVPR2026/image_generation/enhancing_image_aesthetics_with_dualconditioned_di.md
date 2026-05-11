@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][图像美学增强] DIAE提出多模态美学感知（MAP）模块将模糊的美学指令转为HSV+轮廓图+文本的显式控制信号，并构建"不完美配对"数据集IIAEData配合双分支监督框架进行弱监督训练，实现内容一致的美学增强，LAION美学评分提升17.4%。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 图像美学增强
-  - 多模态美学感知
-  - 弱监督扩散模型
-  - 不完美配对数据
-  - ControlNet
+  - "CVPR 2026"
+  - "图像生成"
+  - "图像美学增强"
+  - "多模态美学感知"
+  - "弱监督扩散模型"
+  - "不完美配对数据"
+  - "ControlNet"
 ---
 
 # Enhancing Image Aesthetics with Dual-Conditioned Diffusion Models Guided by Multimodal Perception

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像编辑] 提出 HATIE，一个大规模（18K图像/50K查询）、全自动、多维度的文本引导图像编辑评估基准，通过5个维度的指标组合并拟合用户研究权重实现与人类感知的对齐。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像编辑
-  - 评估基准
-  - 人类对齐
-  - 自动化评估
-  - 多维度指标
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像编辑"
+  - "评估基准"
+  - "人类对齐"
+  - "自动化评估"
+  - "多维度指标"
 ---
 
 # Towards Scalable Human-Aligned Benchmark for Text-Guided Image Editing

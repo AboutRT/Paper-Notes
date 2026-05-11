@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Understanding and Meeting Practitioner Needs When Measuring Representational Harms Caused by LLM-Based Systems
 description: >-
-  [ACL2025][LLM/NLP][表征性伤害] 通过对 12 位负责评估 LLM 系统表征性伤害（representational harms）的从业者进行半结构化访谈，发现公开可用的测量工具普遍无法满足实践者需求——要么因效度/特异性不足而"不好用"（not useful），要么因组织/制度壁垒而"用不了"（not used），并基于测量理论和实用测量框架提出系统性改进建议。
+  [ACL2025][LLM/NLP][表征性伤害] 通过对 12 位负责评估 LLM 系统表征性伤害（representational harms）的从业者进行半结构化访谈，发现公开可用的测量工具普遍无法满足实践者需求——要么因效度/特异性不足而"不好用"（not useful）…
 tags:
-  - ACL2025
-  - LLM/NLP
-  - 表征性伤害
-  - LLM评估
-  - 测量工具
-  - 半结构化访谈
-  - 实践者需求
-  - 测量理论
+  - "ACL2025"
+  - "LLM/NLP"
+  - "表征性伤害"
+  - "LLM评估"
+  - "测量工具"
+  - "半结构化访谈"
+  - "实践者需求"
+  - "测量理论"
 ---
 
 # Understanding and Meeting Practitioner Needs When Measuring Representational Harms Caused by LLM-Based Systems

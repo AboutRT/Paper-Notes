@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Block-Sample MAC-Bayes Generalization Bounds
 description: >-
-  [ICLR2026][PAC-Bayes] 提出块样本MAC-Bayes泛化界（mean approximately correct），将训练数据划分为J个块后用各块条件下的KL散度之和替代整体KL散度，在确定性学习算法（如均值估计）等原始PAC-Bayes界为空（vacuous）的场景下仍能给出有限、有意义的泛化误差界，并证明了该界的高概率版本在一般情况下不可行。
+  [ICLR2026][预训练][PAC-Bayes] 提出块样本MAC-Bayes泛化界（mean approximately correct），将训练数据划分为J个块后用各块条件下的KL散度之和替代整体KL散度…
 tags:
-  - ICLR2026
-  - PAC-Bayes
-  - MAC-Bayes
-  - 泛化界
-  - 信息论
-  - 块样本
+  - "ICLR2026"
+  - "预训练"
+  - "PAC-Bayes"
+  - "MAC-Bayes"
+  - "泛化界"
+  - "信息论"
+  - "块样本"
 ---
 
 # Block-Sample MAC-Bayes Generalization Bounds

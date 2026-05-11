@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][state space models] 本文扩展了 HiPPO 理论以处理带噪声的测量数据，将 SSM 的初始化问题重新表述为线性随机控制问题，推导出不确定性感知的动力学初始化方案，在不增加运行时间的前提下显著提升 SSM 的噪声鲁棒性。
 tags:
-  - ICML 2025
-  - state space models
-  - HiPPO
-  - initialization
-  - uncertainty
-  - Kalman filter
-  - noise robustness
+  - "ICML 2025"
+  - "state space models"
+  - "HiPPO"
+  - "initialization"
+  - "uncertainty"
+  - "Kalman filter"
+  - "noise robustness"
 ---
 
 # UnHiPPO: Uncertainty-Aware Initialization for State Space Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI
 description: >-
-  [ICLR 2026][机器人][embodied AI] 提出 D2E 框架，证明桌面游戏交互数据可作为具身 AI 的有效预训练基底：通过 OWA 工具包收集 335h 人类演示 + Generalist-IDM 伪标注 1000+h YouTube 游戏视频 + VAPT 迁移训练，1B 参数模型在 LIBERO 操作达 96.6%、CANVAS 导航达 83.3%，匹敌或超越 7x 更大的模型。
+  [ICLR 2026][机器人][embodied AI] 提出 D2E 框架，证明桌面游戏交互数据可作为具身 AI 的有效预训练基底：通过 OWA 工具包收集 335h 人类演示 + Generalist-IDM 伪标注 1000+h YouTube 游戏视频 + VAPT 迁移训练…
 tags:
-  - ICLR 2026
-  - 机器人
-  - embodied AI
-  - desktop pretraining
-  - inverse dynamics model
-  - vision-action pretraining
-  - robotics transfer
+  - "ICLR 2026"
+  - "机器人"
+  - "embodied AI"
+  - "desktop pretraining"
+  - "inverse dynamics model"
+  - "vision-action pretraining"
+  - "robotics transfer"
 ---
 
 # D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI
@@ -52,7 +52,7 @@ tags:
 
 2. **Generalist-IDM**:
 
-    - **时间戳事件标记化**: 每个事件序列化为 `<EVENT_START>{TYPE}{TIMESTAMP}{DETAIL}<EVENT_END>`，不依赖固定 tick 间隔
+    - **时间戳事件标记化**: 每个事件序列化为 <code>&lt;EVENT_START&gt;{TYPE}{TIMESTAMP}{DETAIL}&lt;EVENT_END&gt;</code>，不依赖固定 tick 间隔
     - **NEP-τ (带时间偏移的下一事件预测)**: 将观测窗口向前移动 $\tau$ 步，提供未来上下文：
     $\mathcal{L}_{\text{NEP-}\tau} = -\mathbb{E}\left[\sum_t \log P_\theta(a_t | o_{1:\min(t+\tau,T)}, a_{1:t-1})\right]$
       $\tau=100$ms 为最优，$\tau=0$ 时 Pearson 相关性几乎为零

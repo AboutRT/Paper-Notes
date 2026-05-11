@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][时空图神经网络] 提出 StRap 框架，通过构建包含空间、时间和时空三维键值对的模式库，在推理时检索与当前输入最相似的历史模式并自适应融合，有效应对流式时空数据中的分布偏移（STOOD）问题。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 时空图神经网络
-  - OOD 泛化
-  - 检索增强学习
-  - 持续学习
-  - 模式库
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "时空图神经网络"
+  - "OOD 泛化"
+  - "检索增强学习"
+  - "持续学习"
+  - "模式库"
 ---
 
 # StRap: Spatio-Temporal Pattern Retrieval for Out-of-Distribution Generalization

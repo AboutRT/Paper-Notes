@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][压缩感知] 将预训练扩散模型的强大先验知识嵌入深度展开网络（DUN），提出 DMP-DUN 方法，仅需 2 步即可实现高质量图像压缩感知重建。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 压缩感知
-  - 深度展开网络
-  - 扩散模型
-  - 图像重建
-  - 消息传递
+  - "CVPR 2025"
+  - "图像生成"
+  - "压缩感知"
+  - "深度展开网络"
+  - "扩散模型"
+  - "图像重建"
+  - "消息传递"
 ---
 
 # Using Powerful Prior Knowledge of Diffusion Model in Deep Unfolding Networks for Image Compressive Sensing

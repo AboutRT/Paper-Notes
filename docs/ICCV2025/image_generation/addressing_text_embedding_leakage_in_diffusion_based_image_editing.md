@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Addressing Text Embedding Leakage in Diffusion-based Image Editing
 description: >-
-  [ICCV 2025][图像生成][attribute leakage] 提出ALE框架，通过对象限制嵌入(ORE)解耦EOS token的语义纠缠、区域引导混合交叉注意力掩码(RGB-CAM)约束空间注意力、背景混合(BB)保留未编辑区域，系统性解决扩散模型文本图像编辑中的属性泄漏问题，并建立了ALE-Bench评估基准。
+  [ICCV 2025][图像生成][attribute leakage] 提出ALE框架，通过对象限制嵌入(ORE)解耦EOS token的语义纠缠、区域引导混合交叉注意力掩码(RGB-CAM)约束空间注意力、背景混合(BB)保留未编辑区域，系统性解决扩散模型文本图像编辑中的属性泄漏问题…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - attribute leakage
-  - 扩散模型
-  - EOS embedding
-  - 注意力机制
-  - multi-object editing
+  - "ICCV 2025"
+  - "图像生成"
+  - "attribute leakage"
+  - "扩散模型"
+  - "EOS embedding"
+  - "注意力机制"
+  - "multi-object editing"
 ---
 
 # Addressing Text Embedding Leakage in Diffusion-based Image Editing

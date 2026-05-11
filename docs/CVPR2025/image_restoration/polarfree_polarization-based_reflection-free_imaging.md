@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PolarFree: Polarization-based Reflection-Free Imaging
 description: >-
-  [CVPR 2025][反射去除] 构建 6500 对的大规模 RGB-偏振图像数据集 PolaRGB，并提出 PolarFree 两阶段网络——先用条件扩散模型生成无反射先验，再用去反射骨干网络分离透射层，在偏振引导的反射去除任务上超越先前方法约 2dB PSNR。
+  [CVPR 2025][图像恢复][反射去除] 构建 6500 对的大规模 RGB-偏振图像数据集 PolaRGB，并提出 PolarFree 两阶段网络——先用条件扩散模型生成无反射先验，再用去反射骨干网络分离透射层，在偏振引导的反射去除任务上超越先前方法约 2dB PSNR。
 tags:
-  - CVPR 2025
-  - 反射去除
-  - 偏振成像
-  - 扩散模型
-  - 大规模数据集
-  - 频域损失
+  - "CVPR 2025"
+  - "图像恢复"
+  - "反射去除"
+  - "偏振成像"
+  - "扩散模型"
+  - "大规模数据集"
+  - "频域损失"
 ---
 
 # PolarFree: Polarization-based Reflection-Free Imaging

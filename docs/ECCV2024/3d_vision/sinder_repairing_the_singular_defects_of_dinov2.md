@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][DINOv2] 揭示DINOv2特征图中高范数缺陷token的根源是网络权重的主左奇异向量（singular defect），并提出SINDER——仅需小数据集微调奇异值即可修复缺陷，同时保持特征质量。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - DINOv2
-  - 奇异缺陷
-  - 自监督学习
-  - Transformer
-  - 无监督分割
+  - "ECCV 2024"
+  - "3D视觉"
+  - "DINOv2"
+  - "奇异缺陷"
+  - "自监督学习"
+  - "Transformer"
+  - "无监督分割"
 ---
 
 # SINDER: Repairing the Singular Defects of DINOv2

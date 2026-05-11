@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Understanding Synthetic Context Extension via Retrieval Heads
 description: >-
-  [ICML 2025][信息检索] 本文通过系统实验揭示了合成上下文扩展（synthetic context extension）为何有效的机制：合成数据训练出的"检索头"（retrieval heads）与真实数据训练出的检索头高度重叠，检索头的召回率可以预测下游长上下文任务的性能，并通过注意力剔除（attention knockout）和激活修补（activation patching）从机制层面证明了检索头的必要性。
+  [ICML 2025][信息检索/RAG][长上下文扩展] 本文通过系统实验揭示了合成上下文扩展（synthetic context extension）为何有效的机制：合成数据训练出的"检索头"（retrieval heads）与真实数据训练出的检索头高度重叠，检索头的召回率可以预测下游长上下文任务的性能…
 tags:
-  - ICML 2025
-  - 信息检索
-  - 合成数据
-  - 检索头
-  - 注意力机制
-  - 机制可解释性
-  - 激活修补
+  - "ICML 2025"
+  - "信息检索/RAG"
+  - "长上下文扩展"
+  - "合成数据"
+  - "检索头"
+  - "注意力机制"
+  - "机制可解释性"
+  - "激活修补"
 ---
 
 # Understanding Synthetic Context Extension via Retrieval Heads

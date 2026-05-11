@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology
 description: >-
-  [NeurIPS 2025][信号通信] 构建了包含 134,533 个星系的图像-光谱-红移多模态数据集（GalaxiesML-Spectra），适配多模态掩码自编码器（MMAE）同时进行图像和光谱的联合重建与红移回归，证明在测试时即使光谱完全缺失，仅用 25% 掩码图像即可实现优于 AstroCLIP 的红移预测散度 $\sigma_{NMAD} = 0.016$。
+  [NeurIPS 2025][信号/通信][多模态掩码自编码器] 构建了包含 134,533 个星系的图像-光谱-红移多模态数据集（GalaxiesML-Spectra），适配多模态掩码自编码器（MMAE）同时进行图像和光谱的联合重建与红移回归，证明在测试时即使光谱完全缺失…
 tags:
-  - NeurIPS 2025
-  - 信号通信
-  - 星系图像
-  - 光谱重建
-  - 红移回归
-  - 缺失模态学习
+  - "NeurIPS 2025"
+  - "信号/通信"
+  - "多模态掩码自编码器"
+  - "星系图像"
+  - "光谱重建"
+  - "红移回归"
+  - "缺失模态学习"
 ---
 
 # Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations for Galaxy Evolution and Cosmology

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D Gaussian Splatting] 提出自适应重建感知剪枝策略（RPS）和 3D DoG 原语，在保持渲染质量的同时实现 90% 的高斯点裁减。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 模型剪枝
-  - Difference-of-Gaussians
-  - 紧凑表示
-  - 新视角合成
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "模型剪枝"
+  - "Difference-of-Gaussians"
+  - "紧凑表示"
+  - "新视角合成"
 ---
 
 # Prune Wisely, Reconstruct Sharply: Compact 3D Gaussian Splatting via Adaptive Pruning and Difference-of-Gaussian Primitives

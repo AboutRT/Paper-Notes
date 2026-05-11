@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][主成分分析] 通过 Difference-of-Convex (DC) 框架重新审视 PCA,建立了核化和样本外推广能力,揭示了同步迭代是 DCA 的特例,并提出了鲁棒 $\ell_1$-PCA 的核化对偶公式。
 tags:
-  - NeurIPS 2025
-  - 主成分分析
-  - 对偶理论
-  - DC规划
-  - 核PCA
-  - QR算法
+  - "NeurIPS 2025"
+  - "主成分分析"
+  - "对偶理论"
+  - "DC规划"
+  - "核PCA"
+  - "QR算法"
 ---
 
 # Rethinking PCA Through Duality

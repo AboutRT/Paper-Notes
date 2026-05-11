@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Concept-TRAK: Understanding how diffusion models learn concepts through concept-level attribution
 description: >-
-  [ICLR2026][图像生成][扩散模型] 提出 Concept-TRAK，通过设计概念特异的训练损失（DPS reward）和效用损失（CFG guidance），将影响函数从全图归因扩展到概念级归因，在合成、CelebA-HQ 和 AbC benchmark 上大幅超越 TRAK/D-TRAK/DAS 等方法，特别是在 OOD 组合新概念场景下优势显著。
+  [ICLR2026][图像生成][扩散模型] 提出 Concept-TRAK，通过设计概念特异的训练损失（DPS reward）和效用损失（CFG guidance），将影响函数从全图归因扩展到概念级归因…
 tags:
-  - ICLR2026
-  - 图像生成
-  - 扩散模型
-  - 数据归因
-  - concept attribution
-  - 影响函数
-  - copyright
+  - "ICLR2026"
+  - "图像生成"
+  - "扩散模型"
+  - "数据归因"
+  - "concept attribution"
+  - "影响函数"
+  - "copyright"
 ---
 
 # Concept-TRAK: Understanding how diffusion models learn concepts through concept-level attribution

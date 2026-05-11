@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How does Misinformation Affect Large Language Model Behaviors and Preferences?
 description: >-
-  [ACL 2025][misinformation] 构建了目前最大的误信息评估基准 MisBench（1034 万条误信息），从知识冲突类型和文本风格两个维度系统分析 LLM 对误信息的行为和偏好，并提出 RtD 方法结合外部知识源提升误信息检测能力。
+  [ACL 2025][社会计算][misinformation] 构建了目前最大的误信息评估基准 MisBench（1034 万条误信息），从知识冲突类型和文本风格两个维度系统分析 LLM 对误信息的行为和偏好，并提出 RtD 方法结合外部知识源提升误信息检测能力。
 tags:
-  - ACL 2025
-  - misinformation
-  - knowledge conflict
-  - MisBench
-  - 社会计算
-  - Reconstruct to Discriminate
+  - "ACL 2025"
+  - "社会计算"
+  - "misinformation"
+  - "knowledge conflict"
+  - "MisBench"
+  - "LLM robustness"
+  - "Reconstruct to Discriminate"
 ---
 
 # How does Misinformation Affect Large Language Model Behaviors and Preferences?

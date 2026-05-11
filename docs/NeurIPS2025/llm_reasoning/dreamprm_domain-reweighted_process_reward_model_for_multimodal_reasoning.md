@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM推理][过程奖励模型] 提出 DreamPRM，通过双层优化自动学习多模态推理数据集的域权重，解决 PRM 训练中的数据质量不均衡问题，在 MathVista 排行榜上以 o4-mini 模型达到 85.2% 的 top-1 准确率。
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - 过程奖励模型
-  - 多模态
-  - domain reweighting
-  - 双层优化
-  - 测试时缩放
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "过程奖励模型"
+  - "多模态"
+  - "domain reweighting"
+  - "双层优化"
+  - "测试时缩放"
 ---
 
 # DreamPRM: Domain-Reweighted Process Reward Model for Multimodal Reasoning
@@ -84,7 +84,7 @@ MathVista 排行榜: o4-mini + DreamPRM 达到 **85.2%** (top-1)，超越 VL-Ret
 | 移除结构化思维 (ST) | MathVision -1.8% |
 
 ### 关键发现
-- **域权重收敛**: M3CoT 和 FigureQA 获得最高权重(~1.5)，AI2D 和 IconQA 获得最低权重(<0.8)——高权重数据集需要更深推理，低权重数据集过于简单
+- **域权重收敛**: M3CoT 和 FigureQA 获得最高权重(~1.5)，AI2D 和 IconQA 获得最低权重(&lt;0.8)——高权重数据集需要更深推理，低权重数据集过于简单
 - **可扩展性**: CoT 候选数从 2→4→8 时性能单调递增，说明 DreamPRM 能可靠地从更大候选池中筛选
 - **跨模型泛化**: 用 InternVL 训练的 PRM 在 GPT-4.1-mini 和 o4-mini 上也能持续提升性能
 

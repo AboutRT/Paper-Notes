@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][视觉说服] 构建了首个将图像说服策略与 2,521 位标注者心理特征（人格/价值观/道德基础）关联的大规模数据集 PVP（28,454 张图像、596 条行为消息、9 种说服策略），并在"个性化说服图像生成"和"说服力自动评估"两个基准任务上验证了心理特征对提升说服效果的关键作用。
 tags:
-  - ACL 2025
-  - 视觉说服
-  - 个性化
-  - 说服策略
-  - 心理特征
-  - 数据集
+  - "ACL 2025"
+  - "视觉说服"
+  - "个性化"
+  - "说服策略"
+  - "心理特征"
+  - "数据集"
 ---
 
 # PVP: An Image Dataset for Personalized Visual Persuasion with Persuasion Strategies, Viewer Characteristics, and Persuasiveness Ratings

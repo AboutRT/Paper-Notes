@@ -1,14 +1,25 @@
 ---
 title: >-
-  ICML2025 图像生成方向112篇论文解读
+  ICML2025 图像生成方向110篇论文解读
 description: >-
-  112篇ICML2025的图像生成方向论文解读，涵盖扩散模型、语音、对齐/RLHF、时序预测、对抗鲁棒、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  110篇ICML2025的图像生成方向论文解读，涵盖扩散模型、语音、对齐/RLHF、时序预测、对抗鲁棒、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICML2025"
+  - "图像生成"
+  - "论文解读"
+  - "论文笔记"
+  - "扩散模型"
+  - "语音"
+  - "对齐/RLHF"
+  - "时序预测"
+  - "对抗鲁棒"
+  - "模型压缩"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎨 图像生成
 
-**🧪 ICML2025** · **112** 篇论文解读
+**🧪 ICML2025** · **110** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (11)](../../ACL2026/image_generation/index.md) · [📷 CVPR2026 (208)](../../CVPR2026/image_generation/index.md) · [🔬 ICLR2026 (154)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (78)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (247)](../../NeurIPS2025/image_generation/index.md) · [📹 ICCV2025 (213)](../../ICCV2025/image_generation/index.md)
 
@@ -286,10 +297,6 @@ description: >-
 
 :   提出 PAK-UCB 上下文老虎机算法，通过为每个生成模型学习独立的核函数，在线预测给定 prompt 下的最优模型，实现 prompt 级别的生成模型/LLM 选择，并用随机傅里叶特征（RFF）降低计算开销。
 
-**[Parameter-Efficient Fine-Tuning of State Space Models](parameter-efficient_fine-tuning_of_state_space_models.md)**
-
-:   本文系统性地评估了现有 PEFT 方法在 SSM（如 Mamba）模型上的效果，发现 LoRA 虽在线性投影层表现最优但无法有效调优 SSM 模块，进而提出 Sparse Dimension Tuning（SDT）——一种专为 SSM 模块设计的 PEFT 方法，结合 LoRA 用于线性层，在多个基准上达到 SOTA 性能。
-
 **[PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](peptune_de_novo_generation_of_therapeutic_peptides_with_multi-objective-guided_d.md)**
 
 :   PepTune 结合 Masked Discrete Language Model (MDLM) 和蒙特卡罗树搜索 (MCTS) 多目标引导策略，在离散肽 SMILES 空间中同时优化多种治疗属性（结合亲和力、溶解性、膜通透性等），生成含非天然氨基酸和环化修饰的从头设计肽药物。
@@ -429,10 +436,6 @@ description: >-
 **[Understanding and Mitigating Memorization in Generative Models via Sharpness of Probability Landscapes](understanding_and_mitigating_memorization_in_generative_models_via_sharpness_of_.md)**
 
 :   通过对数概率密度的 Hessian 曲率（sharpness）建立扩散模型记忆化的几何分析框架，提出可在生成初始阶段检测记忆化的新指标，并设计无需重训练的 SAIL 初始噪声优化策略来缓解记忆化。
-
-**[Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](understanding_and_mitigating_miscalibration_in_prompt_tuning_for_vision-language.md)**
-
-:   揭示 CLIP prompt tuning 在 base 和 novel 类之间存在校准权衡（CoOp 导致 novel 类过度自信，KgCoOp 导致 base 类自信不足），从文本特征散度视角解释原因，并提出 Dynamic Outlier Regularization (DOR) 通过正则化非训练类文本标签的特征偏差同时保持两端校准。
 
 **[Unsupervised Learning for Class Distribution Mismatch (UCDM)](unsupervised_learning_for_class_distribution_mismatch.md)**
 

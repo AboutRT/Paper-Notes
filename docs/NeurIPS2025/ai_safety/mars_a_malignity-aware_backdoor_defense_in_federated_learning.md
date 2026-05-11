@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][后门攻击防御] 提出 MARS 防御方法，通过计算神经元的后门能量（Backdoor Energy）来感知模型的恶意程度，并利用 Wasserstein 距离聚类有效识别联邦学习中的后门模型。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 后门攻击防御
-  - 联邦学习
-  - Wasserstein距离
-  - 后门能量
-  - 聚类检测
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "后门攻击防御"
+  - "联邦学习"
+  - "Wasserstein距离"
+  - "后门能量"
+  - "聚类检测"
 ---
 
 # MARS: A Malignity-Aware Backdoor Defense in Federated Learning
@@ -83,7 +83,7 @@ MARS 包含三个步骤：（1）计算每个神经元的后门能量（BE）；
 
 - 从 Lipschitz 常数推导 BE 的上界是巧妙的理论贡献，避免了对触发器和干净数据的依赖
 - Wasserstein 距离替代欧几里得/余弦距离是关键创新，解决了 FL 中 CBE 元素顺序不一致的问题
-- 提出的防御不需要假设攻击者比例<50%，实用性更强
+- 提出的防御不需要假设攻击者比例&lt;50%，实用性更强
 
 ## 局限与展望
 

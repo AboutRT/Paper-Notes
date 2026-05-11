@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Accessible Machine Translation Evaluation For Low-Resource Languages
 description: >-
-  [ACL 2025][机器翻译评估] 本文针对低资源语言的机器翻译评估困境，提出了一套不依赖高质量参考翻译和大规模标注数据的可访问评估框架，使得资源匮乏的语言可以有效评估翻译质量。
+  [ACL 2025][多语言/翻译][机器翻译评估] 本文针对低资源语言的机器翻译评估困境，提出了一套不依赖高质量参考翻译和大规模标注数据的可访问评估框架，使得资源匮乏的语言可以有效评估翻译质量。
 tags:
-  - ACL 2025
-  - 机器翻译评估
-  - 低资源语言
-  - 多语言翻译
-  - 翻译质量估计
-  - 多语言NLP
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "机器翻译评估"
+  - "低资源语言"
+  - "可访问性评估"
+  - "翻译质量估计"
+  - "多语言NLP"
 ---
 
 # Accessible Machine Translation Evaluation For Low-Resource Languages

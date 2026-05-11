@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM推理][溯因推理] 本文提出一种融合多源知识（知识图谱、预训练语言模型、规则库）的常识溯因推理方法，通过联合利用结构化和非结构化知识来生成更准确、更可解释的最佳解释，在溯因推理基准上取得了显著提升。
 tags:
-  - ACL 2025
-  - LLM推理
-  - 溯因推理
-  - 常识推理
-  - 多源知识
-  - 知识融合
-  - 可解释推理
+  - "ACL 2025"
+  - "LLM推理"
+  - "溯因推理"
+  - "常识推理"
+  - "多源知识"
+  - "知识融合"
+  - "可解释推理"
 ---
 
 # Commonsense Abductive Reasoning using Knowledge from Multiple Sources

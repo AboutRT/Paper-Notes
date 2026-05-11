@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaling Tumor Segmentation: Best Lessons from Real and Synthetic Data
 description: >-
-  [ICCV 2025][医学图像][数据缩放定律] 通过在大规模私有数据集上系统研究数据缩放定律，发现合成肿瘤可大幅降低真实标注需求（从 1500 降至 500 例），并据此构建了 AbdomenAtlas 2.0——首个涵盖 6 种器官肿瘤的万级 CT 大规模人工标注数据集，在分布内和分布外测试上均取得显著提升。
+  [ICCV 2025][医学图像][数据缩放定律] 通过在大规模私有数据集上系统研究数据缩放定律，发现合成肿瘤可大幅降低真实标注需求（从 1500 降至 500 例），并据此构建了 AbdomenAtlas 2.0——首个涵盖 6 种器官肿瘤的万级 CT 大规模人工标注数据集…
 tags:
-  - ICCV 2025
-  - 医学图像
-  - 数据缩放定律
-  - 肿瘤分割
-  - 合成数据
-  - AbdomenAtlas
-  - CT分割
+  - "ICCV 2025"
+  - "医学图像"
+  - "数据缩放定律"
+  - "肿瘤分割"
+  - "合成数据"
+  - "AbdomenAtlas"
+  - "CT分割"
 ---
 
 # Scaling Tumor Segmentation: Best Lessons from Real and Synthetic Data

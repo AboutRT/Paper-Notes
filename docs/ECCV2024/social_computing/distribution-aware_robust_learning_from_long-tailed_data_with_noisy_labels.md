@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Distribution-Aware Robust Learning from Long-Tailed Data with Noisy Labels
 description: >-
-  [ECCV2024][noisy label] 提出 DaSC 框架，通过分布感知的类中心估计（DaCC）和置信度感知的对比学习（SBCL + MIDL），同时解决长尾分布和噪声标签的联合问题，在 CIFAR 和真实噪声数据集上达到 SOTA。
+  [ECCV2024][社会计算][noisy label] 提出 DaSC 框架，通过分布感知的类中心估计（DaCC）和置信度感知的对比学习（SBCL + MIDL），同时解决长尾分布和噪声标签的联合问题，在 CIFAR 和真实噪声数据集上达到 SOTA。
 tags:
-  - ECCV2024
-  - noisy label
-  - long-tailed learning
-  - 社会计算
-  - sample selection
-  - 半监督学习
+  - "ECCV2024"
+  - "社会计算"
+  - "noisy label"
+  - "long-tailed learning"
+  - "对比学习"
+  - "sample selection"
+  - "半监督学习"
 ---
 
 # Distribution-Aware Robust Learning from Long-Tailed Data with Noisy Labels

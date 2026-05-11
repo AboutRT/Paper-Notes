@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][多光谱跟踪] 提出首个大规模多光谱无人机单目标跟踪数据集 MUST（250 序列、43K 帧、8 光谱波段），并设计 UNTrack 统一框架融合光谱、空间、时序特征，通过非对称 Transformer 和光谱提示编码器实现高效鲁棒跟踪。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 多光谱跟踪
-  - 无人机目标跟踪
-  - Transformer
-  - 光谱提示
-  - 背景消除
+  - "CVPR 2025"
+  - "视频理解"
+  - "多光谱跟踪"
+  - "无人机目标跟踪"
+  - "Transformer"
+  - "光谱提示"
+  - "背景消除"
 ---
 
 # MUST: The First Dataset and Unified Framework for Multispectral UAV Single Object Tracking

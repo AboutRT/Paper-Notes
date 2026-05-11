@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation
 description: >-
-  [ICLR 2026][多模态][MLLM幻觉缓解] 提出 AIR（Adaptive vIsual Reinforcement）框架，通过原型距离的 token 精简 + 最优传输引导的 patch 选择性增强，在推理时无训练地减少 MLLM 幻觉（LLaVA-1.5-7B CHAIR_S: 22→18.4，POPE 准确率 +5.3%），同时保持多模态通用能力。
+  [ICLR 2026][多模态VLM][MLLM幻觉缓解] 提出 AIR（Adaptive vIsual Reinforcement）框架，通过原型距离的 token 精简 + 最优传输引导的 patch 选择性增强…
 tags:
-  - ICLR 2026
-  - 多模态
-  - MLLM幻觉缓解
-  - 视觉增强
-  - 最优传输
-  - token精简
-  - 多模态VLM
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "MLLM幻觉缓解"
+  - "视觉增强"
+  - "最优传输"
+  - "token精简"
+  - "无训练推理"
 ---
 
 # Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation

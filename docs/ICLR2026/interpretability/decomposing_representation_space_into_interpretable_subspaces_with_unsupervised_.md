@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning
 description: >-
-  [ICLR 2026][子空间分解] 提出 NDM（Neighbor Distance Minimization），通过最小化子空间内的近邻距离来无监督地发现神经网络表征空间中的可解释非基对齐子空间，在 GPT-2 上平均 Gini=0.71（信息高度集中），在 Qwen2.5-1.5B 上发现了参数化知识与上下文知识路由的分离子空间。
+  [ICLR 2026][可解释性][子空间分解] 提出 NDM（Neighbor Distance Minimization），通过最小化子空间内的近邻距离来无监督地发现神经网络表征空间中的可解释非基对齐子空间，在 GPT-2 上平均 Gini=0.71（信息高度集中）…
 tags:
-  - ICLR 2026
-  - 子空间分解
-  - 表征解释
-  - 近邻距离最小化
-  - 无监督分解
-  - 知识定位
-  - 机制可解释性
+  - "ICLR 2026"
+  - "可解释性"
+  - "子空间分解"
+  - "表征解释"
+  - "近邻距离最小化"
+  - "无监督分解"
+  - "知识定位"
+  - "机制可解释性"
 ---
 
 # Decomposing Representation Space into Interpretable Subspaces with Unsupervised Learning
@@ -80,7 +81,7 @@ tags:
 | PCA | 0.43 | 0.46 | 0.50 | 0.38 | 0.35 | — |
 | **NDM** | **0.71** | **0.72** | **0.75** | **0.68** | **0.69** | **0.71** |
 
-NDM 的平均 Gini 远超所有基线（>0.6 阈值表示信息高度集中），Identity/Random/PCA 均 <0.5。
+NDM 的平均 Gini 远超所有基线（>0.6 阈值表示信息高度集中），Identity/Random/PCA 均 &lt;0.5。
 
 ### Qwen2.5-1.5B 定性分析
 

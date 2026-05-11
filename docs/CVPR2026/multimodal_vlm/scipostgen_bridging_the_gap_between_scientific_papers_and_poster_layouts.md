@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SciPostGen: Bridging the Gap between Scientific Papers and Poster Layouts
 description: >-
-  [CVPR 2026][多模态][海报布局生成] 构建了包含 18,097 个论文-海报对的大规模数据集 SciPostGen，分析发现论文结构与海报布局元素数量存在中等相关性，并提出检索增强海报布局生成框架，通过对比学习检索与论文匹配的布局模板来指导 LLM 生成海报布局。
+  [CVPR 2026][多模态VLM][海报布局生成] 构建了包含 18,097 个论文-海报对的大规模数据集 SciPostGen，分析发现论文结构与海报布局元素数量存在中等相关性，并提出检索增强海报布局生成框架，通过对比学习检索与论文匹配的布局模板来指导 LLM 生成海报布局。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 海报布局生成
-  - 科学论文
-  - 多模态VLM
-  - 对比学习
-  - 文档布局分析
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "海报布局生成"
+  - "科学论文"
+  - "检索增强生成"
+  - "对比学习"
+  - "文档布局分析"
 ---
 
 # SciPostGen: Bridging the Gap between Scientific Papers and Poster Layouts

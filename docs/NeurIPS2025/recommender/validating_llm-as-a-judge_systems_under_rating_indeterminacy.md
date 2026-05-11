@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Validating LLM-as-a-Judge Systems under Rating Indeterminacy
 description: >-
-  [NeurIPS 2025][推荐系统] 提出在评分不确定性 (rating indeterminacy) 条件下验证 LLM-as-a-Judge 系统的框架，通过 "response set" 多标签评分方案替代强制选择评分，使选出的 judge 系统性能提升高达 31%。
+  [NeurIPS 2025][推荐系统][LLM-as-a-Judge] 提出在评分不确定性 (rating indeterminacy) 条件下验证 LLM-as-a-Judge 系统的框架，通过 "response set" 多标签评分方案替代强制选择评分，使选出的 judge 系统性能提升高达 31%。
 tags:
-  - NeurIPS 2025
-  - 推荐系统
-  - 评分不确定性
-  - 验证框架
-  - 多标签评估
-  - 强制选择偏差
+  - "NeurIPS 2025"
+  - "推荐系统"
+  - "LLM-as-a-Judge"
+  - "评分不确定性"
+  - "验证框架"
+  - "多标签评估"
+  - "强制选择偏差"
 ---
 
 # Validating LLM-as-a-Judge Systems under Rating Indeterminacy

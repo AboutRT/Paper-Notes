@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning
 description: >-
-  [ACL 2025][LLM Agent][table reasoning] 提出 Table-Critic 多智能体框架，通过 Judge-Critic-Refiner-Curator 四个专门化 Agent 的协作批评与迭代精化，配合自进化模板树累积批评知识，在 WikiTQ 和 TabFact 上分别实现 73.7% 和 91.7% 的准确率，大幅超越现有方法。
+  [ACL 2025][LLM Agent][table reasoning] 提出 Table-Critic 多智能体框架，通过 Judge-Critic-Refiner-Curator 四个专门化 Agent 的协作批评与迭代精化，配合自进化模板树累积批评知识…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - table reasoning
-  - multi-agent framework
-  - self-evolving template tree
-  - collaborative criticism
-  - iterative refinement
+  - "ACL 2025"
+  - "LLM Agent"
+  - "table reasoning"
+  - "multi-agent framework"
+  - "self-evolving template tree"
+  - "collaborative criticism"
+  - "iterative refinement"
 ---
 
 # Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning

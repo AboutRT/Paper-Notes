@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Learning Dense Hand Contact Estimation from Imbalanced Data
 description: >-
-  [NeurIPS 2025][其他][手部接触估计] 提出 HACO 框架，通过平衡接触采样（BCS）解决类别不平衡和顶点级类别平衡损失（VCB Loss）解决空间不平衡，首次在 14 个数据集（65.5 万图像）上训练稠密手部接触估计模型，在多种交互场景下达到 SOTA。
+  [NeurIPS 2025][手部接触估计] 提出 HACO 框架，通过平衡接触采样（BCS）解决类别不平衡和顶点级类别平衡损失（VCB Loss）解决空间不平衡，首次在 14 个数据集（65.5 万图像）上训练稠密手部接触估计模型，在多种交互场景下达到 SOTA。
 tags:
-  - NeurIPS 2025
-  - 其他
-  - 手部接触估计
-  - 数据不平衡
-  - 类别平衡损失
-  - 大规模训练
-  - ViT
+  - "NeurIPS 2025"
+  - "手部接触估计"
+  - "数据不平衡"
+  - "类别平衡损失"
+  - "大规模训练"
+  - "ViT"
 ---
 
 # Learning Dense Hand Contact Estimation from Imbalanced Data

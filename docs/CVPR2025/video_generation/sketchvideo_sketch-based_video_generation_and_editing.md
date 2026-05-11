@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SketchVideo: Sketch-Based Video Generation and Editing
 description: >-
-  [CVPR 2025][草图控制] 基于 DiT 视频生成架构，提出内存高效的草图条件网络和帧间注意力机制，实现通过 1-2 张关键帧草图对视频进行精细的空间布局和几何细节控制，同时支持基于草图的视频局部编辑。
+  [CVPR 2025][视频生成][草图控制] 基于 DiT 视频生成架构，提出内存高效的草图条件网络和帧间注意力机制，实现通过 1-2 张关键帧草图对视频进行精细的空间布局和几何细节控制，同时支持基于草图的视频局部编辑。
 tags:
-  - CVPR 2025
-  - 草图控制
-  - 视频生成
-  - 视频编辑
-  - DiT架构
-  - 帧间注意力
+  - "CVPR 2025"
+  - "视频生成"
+  - "草图控制"
+  - "视频编辑"
+  - "DiT架构"
+  - "帧间注意力"
 ---
 
 # SketchVideo: Sketch-Based Video Generation and Editing

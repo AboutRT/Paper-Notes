@@ -2,15 +2,16 @@
 title: >-
   [论文解读] SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion
 description: >-
-  [ICLR 2026][视频扩散模型] SIGMark提出首个针对现代视频扩散模型的盲提取生成内水印框架，通过全局帧级伪随机编码(GF-PRC)实现常数级提取开销的盲水印，并设计分段分组排序(SGO)模块增强因果3D VAE下的时序鲁棒性，在HunyuanVideo和Wan-2.2上以512×16位容量达到90%+比特精度。
+  [ICLR 2026][视频生成][视频扩散模型] SIGMark提出首个针对现代视频扩散模型的盲提取生成内水印框架，通过全局帧级伪随机编码(GF-PRC)实现常数级提取开销的盲水印，并设计分段分组排序(SGO)模块增强因果3D VAE下的时序鲁棒性…
 tags:
-  - ICLR 2026
-  - 视频扩散模型
-  - 视频生成
-  - 盲提取
-  - 伪随机编码
-  - 因果3D VAE
-  - 可扩展性
+  - "ICLR 2026"
+  - "视频生成"
+  - "视频扩散模型"
+  - "水印"
+  - "盲提取"
+  - "伪随机编码"
+  - "因果3D VAE"
+  - "可扩展性"
 ---
 
 # SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion

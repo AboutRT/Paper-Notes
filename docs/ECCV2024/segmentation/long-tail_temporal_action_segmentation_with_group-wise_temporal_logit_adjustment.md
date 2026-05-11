@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Long-Tail Temporal Action Segmentation with Group-wise Temporal Logit Adjustment
 description: >-
-  [ECCV 2024][图像分割][时序动作分割] 首次系统性地解决时序动作分割中的长尾问题，提出 Group-wise Temporal Logit Adjustment (G-TLA) 框架，利用活动标签进行分组分类并结合动作时序先验进行 logit 调整，在大幅提升尾部类别性能的同时不损失头部类别。
+  [ECCV 2024][语义分割][时序动作分割] 首次系统性地解决时序动作分割中的长尾问题，提出 Group-wise Temporal Logit Adjustment (G-TLA) 框架，利用活动标签进行分组分类并结合动作时序先验进行 logit 调整，在大幅提升尾部类别性能的同时不损失头部类别。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 时序动作分割
-  - 长尾分布
-  - Logit 调整
-  - 程序化活动视频
-  - 过分割
+  - "ECCV 2024"
+  - "语义分割"
+  - "时序动作分割"
+  - "长尾分布"
+  - "Logit 调整"
+  - "程序化活动视频"
+  - "过分割"
 ---
 
 # Long-Tail Temporal Action Segmentation with Group-wise Temporal Logit Adjustment

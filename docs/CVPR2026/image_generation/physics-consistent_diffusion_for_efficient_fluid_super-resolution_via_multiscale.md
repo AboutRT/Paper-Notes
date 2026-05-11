@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR2026][图像生成][流体超分辨率] 提出 ReMD（Residual-Multigrid Diffusion），在扩散模型的每一步反向采样中嵌入多重网格残差修正，利用多小波基构建跨尺度层次结构，无需显式 PDE 即可实现物理一致的高效流体超分辨率。
 tags:
-  - CVPR2026
-  - 图像生成
-  - 流体超分辨率
-  - 扩散模型
-  - 多重网格残差修正
-  - 多小波基
-  - 物理一致性
-  - equation-free
+  - "CVPR2026"
+  - "图像生成"
+  - "流体超分辨率"
+  - "扩散模型"
+  - "多重网格残差修正"
+  - "多小波基"
+  - "物理一致性"
+  - "equation-free"
 ---
 
 # Physics-Consistent Diffusion for Efficient Fluid Super-Resolution via Multiscale Residual Correction

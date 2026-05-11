@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][OOD detection] 发现 Feature Resonance 现象——优化已知 ID 节点表征时未知 ID 节点的表征变化显著大于 OOD 节点，且该现象与标签无关，据此提出无需多类标签的图 OOD 节点检测框架 RSL，在 13 个数据集上达到 SOTA。
 tags:
-  - NeurIPS 2025
-  - OOD detection
-  - 其他
-  - feature resonance
-  - unsupervised
-  - node-level
-  - label-agnostic
+  - "NeurIPS 2025"
+  - "OOD detection"
+  - "图神经网络"
+  - "feature resonance"
+  - "unsupervised"
+  - "node-level"
+  - "label-agnostic"
 ---
 
 # Harnessing Feature Resonance under Arbitrary Target Alignment for Out-of-Distribution Node Detection

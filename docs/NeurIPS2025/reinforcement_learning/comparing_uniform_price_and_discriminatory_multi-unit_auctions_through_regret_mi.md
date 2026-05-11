@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Comparing Uniform Price and Discriminatory Multi-Unit Auctions through Regret Minimization
 description: >-
-  [NeurIPS 2025][多物品拍卖] 从在线学习和遗憾最小化框架出发，系统比较统一价格拍卖与歧视性拍卖的学习难度，证明两种格式在最坏情况下遗憾率相同，但特定结构条件下统一价格拍卖允许更快的学习速率。
+  [NeurIPS 2025][强化学习][多物品拍卖] 从在线学习和遗憾最小化框架出发，系统比较统一价格拍卖与歧视性拍卖的学习难度，证明两种格式在最坏情况下遗憾率相同，但特定结构条件下统一价格拍卖允许更快的学习速率。
 tags:
-  - NeurIPS 2025
-  - 多物品拍卖
-  - 在线学习
-  - 遗憾最小化
-  - 统一价格拍卖
-  - 歧视性拍卖
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "多物品拍卖"
+  - "在线学习"
+  - "遗憾最小化"
+  - "统一价格拍卖"
+  - "歧视性拍卖"
 ---
 
 # Comparing Uniform Price and Discriminatory Multi-Unit Auctions through Regret Minimization

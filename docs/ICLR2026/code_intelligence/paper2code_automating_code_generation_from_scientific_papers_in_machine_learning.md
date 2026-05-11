@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning
 description: >-
-  [ICLR 2026][论文转代码] 提出 PaperCoder——一个多智能体 LLM 框架，通过规划（Planning）、分析（Analysis）、生成（Coding）三阶段流水线，将机器学习论文自动转化为可运行的代码仓库，其中 88% 的生成仓库被论文作者评为最佳，且在 PaperBench 基准上大幅超越基线。
+  [ICLR 2026][代码智能][论文转代码] 提出 PaperCoder——一个多智能体 LLM 框架，通过规划（Planning）、分析（Analysis）、生成（Coding）三阶段流水线，将机器学习论文自动转化为可运行的代码仓库，其中 88% 的生成仓库被论文作者评为最佳…
 tags:
-  - ICLR 2026
-  - 论文转代码
-  - 代码智能
-  - 仓库级代码生成
-  - 科学可复现性
-  - LLM
+  - "ICLR 2026"
+  - "代码智能"
+  - "论文转代码"
+  - "多智能体框架"
+  - "仓库级代码生成"
+  - "科学可复现性"
+  - "LLM"
 ---
 
 # Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D高斯溅射] 将3D高斯溅射的2D-to-3D分割问题建模为整数线性规划，利用alpha混合的线性性质得到闭式最优解，仅需30秒完成优化，比现有方法快50倍。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D高斯溅射
-  - 3D分割
-  - 线性规划
-  - 最优求解
-  - 物体移除
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "3D分割"
+  - "线性规划"
+  - "最优求解"
+  - "物体移除"
 ---
 
 # FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally

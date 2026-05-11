@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][科学计算][政策短视] 论证政策短视（policy myopia）不是注意力分配问题，而是一个制度性机制——通过显著性捕获、能力级联和价值锁死三个耦合的正反馈循环，在后AGI时代系统性地、不可逆地剥夺人类的治理参与能力，而标准的缓解措施只能延缓但无法阻止这一过程。
 tags:
-  - ICLR 2026
-  - 科学计算
-  - 政策短视
-  - 渐进失权
-  - AGI治理
-  - 制度动力学
-  - AI安全
+  - "ICLR 2026"
+  - "科学计算"
+  - "政策短视"
+  - "渐进失权"
+  - "AGI治理"
+  - "制度动力学"
+  - "AI安全"
 ---
 
 # Policy Myopia as a Mechanism of Gradual Disempowerment in Post-AGI Governance

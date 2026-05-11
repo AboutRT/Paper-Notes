@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MagicMirror: ID-Preserved Video Generation in Video Diffusion Transformers
 description: >-
-  [ICCV 2025][身份保持视频生成] MagicMirror 是首个基于 Video Diffusion Transformer（CogVideoX）实现零样本身份保持视频生成的框架，通过双分支面部特征提取、条件自适应归一化（CAN）和图像预训练+视频微调两阶段策略，在保持人脸身份一致性的同时生成高质量动态视频。
+  [ICCV 2025][视频生成][身份保持视频生成] MagicMirror 是首个基于 Video Diffusion Transformer（CogVideoX）实现零样本身份保持视频生成的框架，通过双分支面部特征提取、条件自适应归一化（CAN）和图像预训练+视频微调两阶段策略…
 tags:
-  - ICCV 2025
-  - 身份保持视频生成
-  - Transformer
-  - 面部特征提取
-  - 自适应归一化
-  - 两阶段训练
+  - "ICCV 2025"
+  - "视频生成"
+  - "身份保持视频生成"
+  - "Transformer"
+  - "面部特征提取"
+  - "自适应归一化"
+  - "两阶段训练"
 ---
 
 # MagicMirror: ID-Preserved Video Generation in Video Diffusion Transformers

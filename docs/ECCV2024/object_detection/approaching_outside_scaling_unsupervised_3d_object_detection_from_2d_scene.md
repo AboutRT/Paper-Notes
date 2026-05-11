@@ -2,14 +2,13 @@
 title: >-
   [论文解读] Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene
 description: >-
-  [ECCV2024][3D视觉][目标检测] 提出 LiSe 方法，将 2D 图像信息引入无监督 3D 目标检测，通过自步学习（self-paced learning）中的自适应采样和弱模型聚合策略，大幅提升远距离和小目标的检测能力。
+  [ECCV2024][目标检测][LiDAR-Camera Fusion] 提出 LiSe 方法，将 2D 图像信息引入无监督 3D 目标检测，通过自步学习（self-paced learning）中的自适应采样和弱模型聚合策略，大幅提升远距离和小目标的检测能力。
 tags:
-  - ECCV2024
-  - 3D视觉
-  - 目标检测
-  - LiDAR-Camera Fusion
-  - Self-paced Learning
-  - Pseudo Labels
+  - "ECCV2024"
+  - "目标检测"
+  - "LiDAR-Camera Fusion"
+  - "Self-paced Learning"
+  - "Pseudo Labels"
 ---
 
 # Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis
 description: >-
-  [ECCV 2024][3D视觉][3D Gaussian Splatting] 将3DGS中的位置和旋转参数建模为时间的函数（位置用Fourier逼近、旋转用线性逼近），使动态场景的存储复杂度从O(TN)降低到O(LN)，在D-NeRF/DyNeRF/HyperNeRF三个数据集上实现了与NeRF方法匹敌的渲染质量，同时保持118+ FPS的实时渲染速度。
+  [ECCV 2024][3D视觉][3D Gaussian Splatting] 将3DGS中的位置和旋转参数建模为时间的函数（位置用Fourier逼近、旋转用线性逼近），使动态场景的存储复杂度从O(TN)降低到O(LN)…
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 动态场景
-  - Fourier逼近
-  - 实时渲染
-  - 紧凑表示
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "动态场景"
+  - "Fourier逼近"
+  - "实时渲染"
+  - "紧凑表示"
 ---
 
 # A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis

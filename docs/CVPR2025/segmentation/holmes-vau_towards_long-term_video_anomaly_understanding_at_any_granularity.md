@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity
 description: >-
-  [CVPR 2025][图像分割][视频异常理解] 本文提出 Holmes-VAU，构建了包含 70k+ 多粒度标注的视频异常理解基准 HIVAU-70k，并设计异常聚焦时序采样器（ATS）让多模态 VLM 集中关注异常密集区域，在长视频异常检测和推理任务上大幅超越现有方法。
+  [CVPR 2025][语义分割][视频异常理解] 本文提出 Holmes-VAU，构建了包含 70k+ 多粒度标注的视频异常理解基准 HIVAU-70k，并设计异常聚焦时序采样器（ATS）让多模态 VLM 集中关注异常密集区域，在长视频异常检测和推理任务上大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 视频异常理解
-  - 多粒度标注
-  - 异常聚焦采样
-  - 多模态大语言模型
-  - 层次化指令数据
+  - "CVPR 2025"
+  - "语义分割"
+  - "视频异常理解"
+  - "多粒度标注"
+  - "异常聚焦采样"
+  - "多模态大语言模型"
+  - "层次化指令数据"
 ---
 
 # Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity

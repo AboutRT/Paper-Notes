@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Understanding Ice Crystal Habit Diversity with Self-Supervised Learning
 description: >-
-  [NeurIPS 2025][自监督学习][自监督学习] 本文首次将自监督学习（SSL）应用于冰晶图像的潜在表征学习，通过在大规模云粒子图像上预训练ViT，学习冰晶形态的连续潜在表征，并用vMF浓度参数量化冰晶多样性，实现30倍计算效率提升的同时取得最佳分类准确率84.39%。
+  [NeurIPS 2025][自监督学习][冰晶形态] 本文首次将自监督学习（SSL）应用于冰晶图像的潜在表征学习，通过在大规模云粒子图像上预训练ViT，学习冰晶形态的连续潜在表征，并用vMF浓度参数量化冰晶多样性，实现30倍计算效率提升的同时取得最佳分类准确率84.39%。
 tags:
-  - NeurIPS 2025
-  - 自监督学习
-  - 冰晶形态
-  - 自监督
-  - Transformer
-  - 数据策化
+  - "NeurIPS 2025"
+  - "自监督学习"
+  - "冰晶形态"
+  - "气候科学"
+  - "Transformer"
+  - "数据策化"
 ---
 
 # Understanding Ice Crystal Habit Diversity with Self-Supervised Learning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] StructKV: Preserving the Structural Skeleton for Scalable Long-Context Inference
 description: >-
-  [ACL 2026][可解释性][KV Cache压缩] 本文提出 StructKV，一个结构感知的 KV Cache 压缩框架，通过全局入度中心性（Global In-Degree Centrality）跨层累积注意力模式识别全局信息枢纽，动态枢纽层检测（Dynamic Pivot Detection）自适应定位最优压缩层，以及结构传播与解耦（Structural Propagation & Decoupling）分离计算预算和存储预算，在 LongBench 和 RULER 上以 60% prefill + 10% KV 实现了接近全上下文的性能。
+  [ACL 2026][可解释性][KV Cache压缩] 本文提出 StructKV，一个结构感知的 KV Cache 压缩框架，通过全局入度中心性（Global In-Degree Centrality）跨层累积注意力模式识别全局信息枢纽…
 tags:
-  - ACL 2026
-  - 可解释性
-  - KV Cache压缩
-  - 长上下文推理
-  - 全局入度中心性
-  - 动态枢纽层检测
-  - 结构性传播
+  - "ACL 2026"
+  - "可解释性"
+  - "KV Cache压缩"
+  - "长上下文推理"
+  - "全局入度中心性"
+  - "动态枢纽层检测"
+  - "结构性传播"
 ---
 
 # StructKV: Preserving the Structural Skeleton for Scalable Long-Context Inference

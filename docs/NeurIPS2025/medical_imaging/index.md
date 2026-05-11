@@ -1,14 +1,25 @@
 ---
 title: >-
-  NeurIPS2025 医学图像方向141篇论文解读
+  NeurIPS2025 医学图像方向140篇论文解读
 description: >-
-  141篇NeurIPS2025的医学图像方向论文解读，涵盖医学影像、生物分子、多模态、扩散模型、LLM、语义分割等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  140篇NeurIPS2025的医学图像方向论文解读，涵盖医学影像、生物分子、多模态、扩散模型、LLM、语义分割等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "医学图像"
+  - "论文解读"
+  - "论文笔记"
+  - "医学影像"
+  - "生物分子"
+  - "多模态"
+  - "扩散模型"
+  - "LLM"
+  - "语义分割"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🧠 NeurIPS2025** · **141** 篇论文解读
+**🧠 NeurIPS2025** · **140** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (105)](../../AAAI2026/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (62)](../../ICML2025/medical_imaging/index.md)
 
@@ -337,10 +348,6 @@ description: >-
 **[MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology](mtbbench_a_multimodal_sequential_clinical_decision-making_benchmark_in_oncology.md)**
 
 :   提出MTBBench——首个同时覆盖多模态、纵向时序和交互式Agent工作流三个维度的临床基准，模拟分子肿瘤委员会（MTB）的决策流程，评估并增强AI Agent在肿瘤学精准医疗中的多模态纵向推理能力。
-
-**[Multi-Objective Reinforcement Learning with Max-Min Criterion: A Game-Theoretic Approach](multi-objective_reinforcement_learning_with_max-min_criterion_a_game-theoretic_a.md)**
-
-:   将max-min多目标强化学习重新表述为两人零和正则化连续博弈，提出ERAM/ARAM算法，利用镜像下降实现简洁的闭式权重更新，保证全局最后迭代收敛，在交通信号控制等任务中显著优于已有方法。
 
 **[Multimodal 3D Genome Pre-training](multimodal_3d_genome_pre-training.md)**
 

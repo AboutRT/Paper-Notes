@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][图像生成][扩散模型] 揭示扩散模型在生成图像中嵌入 NSFW 文字的新威胁，提出基于文本生成层定向 LoRA 微调的 NSFW-Intervention 方法，并发布 ToxicBench 基准。
 tags:
-  - AAAI2026
-  - 图像生成
-  - 扩散模型
-  - NSFW Safety
-  - Text-in-Image
-  - Safety Fine-tuning
-  - benchmark
+  - "AAAI2026"
+  - "图像生成"
+  - "扩散模型"
+  - "NSFW Safety"
+  - "Text-in-Image"
+  - "Safety Fine-tuning"
+  - "benchmark"
 ---
 
 # Beautiful Images, Toxic Words: Understanding and Addressing Offensive Text in Generated Images

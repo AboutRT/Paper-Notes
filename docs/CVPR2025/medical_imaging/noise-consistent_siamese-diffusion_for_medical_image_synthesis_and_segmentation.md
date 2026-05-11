@@ -2,10 +2,15 @@
 title: >-
   [论文解读] Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation
 description: >-
-  [CVPR 2025][医学图像 / 扩散模型] 提出 Siamese-Diffusion 双组件模型（Mask-Diffusion + Image-Diffusion），通过噪声一致性损失使 Image-Diffusion 的预测噪声引导 Mask
+  [CVPR 2025][医学图像][medical image synthesis] 提出 Siamese-Diffusion 双组件模型（Mask-Diffusion + Image-Diffusion）…
 tags:
-  - CVPR 2025
-  - 医学图像
+  - "CVPR 2025"
+  - "医学图像"
+  - "medical image synthesis"
+  - "扩散模型"
+  - "Siamese architecture"
+  - "noise consistency"
+  - "图像分割"
 ---
 
 # Noise-Consistent Siamese-Diffusion for Medical Image Synthesis and Segmentation

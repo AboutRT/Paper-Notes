@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Index-Preserving Lightweight Token Pruning for Efficient Document Understanding
 description: >-
-  [ICLR 2026 (Workshop on MM Intelligence)][多模态][剪枝] 在 VLM 视觉编码器之前插入一个仅 203K 参数的二值 patch 分类器剔除文档背景 token，再用 $3 \times 3$ max-pooling 恢复碎片化文本区域并保留原始空间索引，在 Qwen2.5-VL 上实现 40-60% FLOPs 缩减且精度损失不超过 ~5%p。
+  [ICLR 2026 (Workshop on MM Intelligence)][多模态VLM][剪枝] 在 VLM 视觉编码器之前插入一个仅 203K 参数的二值 patch 分类器剔除文档背景 token，再用 $3 \times 3$ max-pooling 恢复碎片化文本区域并保留原始空间索引…
 tags:
-  - ICLR 2026 (Workshop on MM Intelligence)
-  - 多模态
-  - 多模态VLM
-  - 文档理解
-  - VLM 效率
-  - patch 分类器
-  - 索引保持
+  - "ICLR 2026 (Workshop on MM Intelligence)"
+  - "多模态VLM"
+  - "剪枝"
+  - "文档理解"
+  - "VLM 效率"
+  - "patch 分类器"
+  - "索引保持"
 ---
 
 # Index-Preserving Lightweight Token Pruning for Efficient Document Understanding

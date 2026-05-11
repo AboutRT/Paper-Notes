@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯泼溅] DeSplat提出将3D高斯泼溅分解为静态场景高斯和逐视角干扰物高斯两部分，纯粹基于体积渲染实现场景-干扰物分离，无需任何外部语义模型辅助，在三个基准数据集上取得与先前方法可比的去干扰新视角合成效果且不牺牲渲染速度。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯泼溅
-  - 干扰物去除
-  - 场景分解
-  - 新视角合成
-  - alpha合成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "干扰物去除"
+  - "场景分解"
+  - "新视角合成"
+  - "alpha合成"
 ---
 
 # DeSplat: Decomposed Gaussian Splatting for Distractor-Free Rendering

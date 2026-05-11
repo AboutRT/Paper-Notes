@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Motion Mamba: Efficient and Long Sequence Motion Generation
 description: >-
-  [ECCV 2024][人体理解][人体运动生成] 本文提出 Motion Mamba，首次将选择性状态空间模型（Mamba）引入人体运动生成任务，通过层次化时序 Mamba（HTM）和双向空间 Mamba（BSM）两个核心模块，在 HumanML3D 上实现 FID 降低50%（0.473→0.281），同时推理速度提升4倍（0.217s→0.058s）。
+  [ECCV 2024][人体理解][人体运动生成] 本文提出 Motion Mamba，首次将选择性状态空间模型（Mamba）引入人体运动生成任务，通过层次化时序 Mamba（HTM）和双向空间 Mamba（BSM）两个核心模块，在 HumanML3D 上实现 FID 降低50%（0.473→0.281）…
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 人体运动生成
-  - 状态空间模型
-  - Mamba
-  - 潜在扩散模型
-  - 长序列建模
+  - "ECCV 2024"
+  - "人体理解"
+  - "人体运动生成"
+  - "状态空间模型"
+  - "Mamba"
+  - "潜在扩散模型"
+  - "长序列建模"
 ---
 
 # Motion Mamba: Efficient and Long Sequence Motion Generation

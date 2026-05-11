@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][概念解纠缠] 提出Lego方法，通过主体分离和上下文损失实现超越外观的个性化概念（如形容词、动词）的解纠缠与反演，用于扩散模型的个性化内容生成。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 概念解纠缠
-  - 文本反演
-  - 个性化生成
-  - 扩散模型
-  - 非外观概念
+  - "ECCV 2024"
+  - "图像生成"
+  - "概念解纠缠"
+  - "文本反演"
+  - "个性化生成"
+  - "扩散模型"
+  - "非外观概念"
 ---
 
 # Lego: Learning to Disentangle and Invert Personalized Concepts Beyond Object Appearance in Text-to-Image Diffusion Models

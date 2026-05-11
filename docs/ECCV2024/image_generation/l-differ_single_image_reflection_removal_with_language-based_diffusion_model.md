@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][图像反射去除] 提出 L-DiffER，一种语言引导的扩散模型，通过迭代条件精化策略解决控制条件不准确问题，结合多条件约束机制保证图像恢复的颜色和结构保真度，同时保留扩散模型的生成能力以处理低透射率反射。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 图像反射去除
-  - 扩散模型
-  - 语言引导
-  - 迭代条件精化
-  - 多条件约束
+  - "ECCV 2024"
+  - "图像生成"
+  - "图像反射去除"
+  - "扩散模型"
+  - "语言引导"
+  - "迭代条件精化"
+  - "多条件约束"
 ---
 
 # L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model

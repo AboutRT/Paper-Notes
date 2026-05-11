@@ -2,15 +2,15 @@
 title: >-
   [论文解读] C3TG: Conflict-aware, Composite, and Collaborative Controlled Text Generation
 description: >-
-  [AAAI 2026][文本生成][controlled text generation] 提出 C3TG 框架，通过两阶段方法实现多维度细粒度可控文本生成：生成阶段用加权 KL 散度融合属性分布调整 token 概率，优化阶段用能量函数（分类器分数 + 冲突惩罚项）结合 Feedback Agent 迭代重写，在 17 个属性子类上达到 90.4% 属性准确率且大幅降低毒性。
+  [AAAI 2026][LLM/NLP][controlled text generation] 提出 C3TG 框架，通过两阶段方法实现多维度细粒度可控文本生成：生成阶段用加权 KL 散度融合属性分布调整 token 概率…
 tags:
-  - AAAI 2026
-  - 文本生成
-  - controlled text generation
-  - multi-attribute control
-  - KL divergence
-  - energy function
-  - conflict resolution
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "controlled text generation"
+  - "multi-attribute control"
+  - "KL divergence"
+  - "energy function"
+  - "conflict resolution"
 ---
 
 # C3TG: Conflict-aware, Composite, and Collaborative Controlled Text Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][新视角合成] 提出WildCAT3D，通过显式建模图像的全局外观条件，扩展多视角扩散模型（CAT3D）从野外互联网数据（如旅游照片）中学习场景级新视角合成，同时支持外观控制生成。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 新视角合成
-  - 多视角扩散
-  - 外观建模
-  - 场景级NVS
-  - 野外数据
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "新视角合成"
+  - "多视角扩散"
+  - "外观建模"
+  - "场景级NVS"
+  - "野外数据"
 ---
 
 # WildCAT3D: Appearance-Aware Multi-View Diffusion in the Wild

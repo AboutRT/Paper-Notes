@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][半监督分割] 提出 VQ-Seg，首次将向量量化引入半监督医学图像分割，用量化扰动模块（QPM）替代传统 dropout 实现更可控的特征扰动，并结合双分支架构和基础模型引导对齐来弥补量化信息损失。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 半监督分割
-  - 向量量化
-  - 特征扰动
-  - 一致性学习
-  - 医学图像分割
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "半监督分割"
+  - "向量量化"
+  - "特征扰动"
+  - "一致性学习"
+  - "医学图像分割"
 ---
 
 # VQ-Seg: Vector-Quantized Token Perturbation for Semi-Supervised Medical Image Segmentation

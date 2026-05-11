@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][高斯过程] 证明GP-UCB算法在无噪声GP bandit问题中达到近最优遗憾界，包括在SE核和Matérn核（$d > \nu$）条件下首次获得常数累积遗憾$O(1)$，弥合了GP-UCB理论与实际性能之间的差距。
 tags:
-  - NeurIPS 2025
-  - 高斯过程
-  - 其他
-  - 贝叶斯优化
-  - 遗憾界
-  - 无噪声优化
+  - "NeurIPS 2025"
+  - "高斯过程"
+  - "Bandit问题"
+  - "贝叶斯优化"
+  - "遗憾界"
+  - "无噪声优化"
 ---
 
 # Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits

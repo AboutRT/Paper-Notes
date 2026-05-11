@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Generalizable Scene Change Detection
 description: >-
-  [CVPR 2025][图像分割][场景变化检测] 提出首个零样本场景变化检测框架 GeSCF，利用 SAM 内部特征实现跨域泛化且时序一致的变化掩码生成，同时定义了泛化 SCD 基准。
+  [CVPR 2025][语义分割][场景变化检测] 提出首个零样本场景变化检测框架 GeSCF，利用 SAM 内部特征实现跨域泛化且时序一致的变化掩码生成，同时定义了泛化 SCD 基准。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 场景变化检测
-  - 零样本
-  - SAM
-  - 泛化能力
-  - 时序一致性
+  - "CVPR 2025"
+  - "语义分割"
+  - "场景变化检测"
+  - "零样本"
+  - "SAM"
+  - "泛化能力"
+  - "时序一致性"
 ---
 
 # Towards Generalizable Scene Change Detection

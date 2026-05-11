@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV2024][模型压缩][rPPG] 提出 Bi-TTA 框架，首次将 Test-Time Adaptation 引入远程光电容积脉搏波 (rPPG) 任务，通过时空一致性自监督先验和前瞻-回溯双向适应策略，在推理时仅用无标注单实例数据即可完成模型域适应。
 tags:
-  - ECCV2024
-  - 模型压缩
-  - rPPG
-  - 测试时自适应
-  - 远程生理信号测量
-  - 自监督先验
-  - 域适应
+  - "ECCV2024"
+  - "模型压缩"
+  - "rPPG"
+  - "测试时自适应"
+  - "远程生理信号测量"
+  - "自监督先验"
+  - "域适应"
 ---
 
 # Bi-TTA: Bidirectional Test-Time Adapter for Remote Physiological Measurement

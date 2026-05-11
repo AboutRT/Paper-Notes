@@ -2,14 +2,15 @@
 title: >-
   [论文解读] KTCF: Actionable Recourse in Knowledge Tracing via Counterfactual Explanations for Education
 description: >-
-  [AAAI2026][Knowledge Tracing] 提出 KTCF，一种面向知识追踪（KT）的反事实解释生成方法，通过考虑知识概念间关系生成稀疏且可操作的反事实解释，并将其后处理为顺序化的教学指令，在有效性、稀疏性和可操作性指标上全面超越基线方法。
+  [AAAI2026][因果推理][Knowledge Tracing] 提出 KTCF，一种面向知识追踪（KT）的反事实解释生成方法，通过考虑知识概念间关系生成稀疏且可操作的反事实解释，并将其后处理为顺序化的教学指令，在有效性、稀疏性和可操作性指标上全面超越基线方法。
 tags:
-  - AAAI2026
-  - Knowledge Tracing
-  - Counterfactual Explanation
-  - XAI
-  - Actionable Recourse
-  - Education
+  - "AAAI2026"
+  - "因果推理"
+  - "Knowledge Tracing"
+  - "Counterfactual Explanation"
+  - "XAI"
+  - "Actionable Recourse"
+  - "Education"
 ---
 
 # KTCF: Actionable Recourse in Knowledge Tracing via Counterfactual Explanations for Education

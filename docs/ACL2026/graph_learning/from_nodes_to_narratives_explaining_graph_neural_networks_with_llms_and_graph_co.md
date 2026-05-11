@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图学习][图神经网络] 本文提出 Gspell，一个轻量级后验解释框架，通过将 GNN 节点嵌入投影到 LLM 嵌入空间并构建混合提示（软提示+文本），使 LLM 能够直接推理 GNN 内部表示并生成自然语言解释和解释子图，在文本属性图（TAG）上实现了忠实性与可解释性的良好平衡。
 tags:
-  - ACL 2026
-  - 图学习
-  - 图神经网络
-  - LLM 解释器
-  - 软提示
-  - 文本属性图
-  - 自然语言解释
+  - "ACL 2026"
+  - "图学习"
+  - "图神经网络"
+  - "LLM 解释器"
+  - "软提示"
+  - "文本属性图"
+  - "自然语言解释"
 ---
 
 # From Nodes to Narratives: Explaining Graph Neural Networks with LLMs and Graph Context

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][Shapley值] 提出 ViaSHAP，将 Shapley 值的计算融入模型训练过程，使得推理时通过对 Shapley 值求和直接得到预测，无需后验解释器，在表格数据上达到 XGBoost 级别的预测精度，同时 Shapley 值近似质量显著优于 FastSHAP。
 tags:
-  - ICML2025
-  - Shapley值
-  - 其他
-  - KAN
-  - 特征归因
-  - 表格数据
-  - 自解释模型
+  - "ICML2025"
+  - "Shapley值"
+  - "可解释性"
+  - "KAN"
+  - "特征归因"
+  - "表格数据"
+  - "自解释模型"
 ---
 
 # Prediction via Shapley Value Regression (ViaSHAP)

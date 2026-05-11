@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Efficiently Identifying Watermarked Segments in Mixed-Source Texts
 description: >-
-  [ACL 2025][AI安全][watermark detection] 提出两种高效方法（Geometric Cover Detector 和 Adaptive Online Locator）用于在长文混合来源文本中检测和精确定位水印片段，时间复杂度从 O(n²) 降至 O(n log n)，在三种主流水印技术上均显著优于 baseline。
+  [ACL 2025][AI安全][watermark detection] 提出两种高效方法（Geometric Cover Detector 和 Adaptive Online Locator）用于在长文混合来源文本中检测和精确定位水印片段，时间复杂度从 O(n²) 降至 O(n log n)…
 tags:
-  - ACL 2025
-  - AI安全
-  - watermark detection
-  - mixed-source text
-  - geometric cover
-  - online learning
-  - watermark localization
+  - "ACL 2025"
+  - "AI安全"
+  - "watermark detection"
+  - "mixed-source text"
+  - "geometric cover"
+  - "online learning"
+  - "watermark localization"
 ---
 
 # Efficiently Identifying Watermarked Segments in Mixed-Source Texts

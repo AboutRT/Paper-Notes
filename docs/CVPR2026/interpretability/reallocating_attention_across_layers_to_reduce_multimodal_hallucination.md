@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Reallocating Attention Across Layers to Reduce Multimodal Hallucination
 description: >-
-  [CVPR 2026][可解释性] 提出一种轻量级、无需训练的插件方法，通过识别感知型和推理型注意力头并进行类别条件缩放（Class-Conditioned Rescaling），重新平衡跨层注意力分配，从而缓解多模态大推理模型（MLRM）中的幻觉问题，在5个基准上平均提升4.2%，几乎无额外推理开销。
+  [CVPR 2026][可解释性][多模态幻觉] 提出一种轻量级、无需训练的插件方法，通过识别感知型和推理型注意力头并进行类别条件缩放（Class-Conditioned Rescaling），重新平衡跨层注意力分配，从而缓解多模态大推理模型（MLRM）中的幻觉问题，在5个基准上平均提升4.2%…
 tags:
-  - CVPR 2026
-  - 可解释性
-  - 注意力头
-  - 感知-推理分层
-  - 训练无关插件
-  - 注意力重分配
+  - "CVPR 2026"
+  - "可解释性"
+  - "多模态幻觉"
+  - "注意力头"
+  - "感知-推理分层"
+  - "训练无关插件"
+  - "注意力重分配"
 ---
 
 # Reallocating Attention Across Layers to Reduce Multimodal Hallucination

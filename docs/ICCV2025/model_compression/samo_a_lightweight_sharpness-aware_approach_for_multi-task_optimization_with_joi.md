@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][多任务学习] 提出 SAMO，一种轻量级锐度感知多任务优化方法，通过全局-局部联合扰动缓解任务梯度冲突，并利用零阶梯度近似和层级归一化大幅降低计算开销。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 多任务学习
-  - 锐度感知最小化
-  - 梯度冲突
-  - 零阶梯度估计
-  - 层级归一化
+  - "ICCV 2025"
+  - "模型压缩"
+  - "多任务学习"
+  - "锐度感知最小化"
+  - "梯度冲突"
+  - "零阶梯度估计"
+  - "层级归一化"
 ---
 
 # SAMO: A Lightweight Sharpness-Aware Approach for Multi-Task Optimization with Joint Global-Local Perturbation

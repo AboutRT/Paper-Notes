@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][flow matching] 提出等变 flow matching 框架，结合 symmetric coupling 策略，用生成式 AI 建模对称性破缺分岔问题中的多模态概率分布，在物理系统（屈曲梁、Allen-Cahn 方程）上显著优于确定性模型和 VAE。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - flow matching
-  - equivariance
-  - symmetry breaking
-  - bifurcation
-  - generative modeling
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "flow matching"
+  - "equivariance"
+  - "symmetry breaking"
+  - "bifurcation"
+  - "generative modeling"
 ---
 
 # Equivariant Flow Matching for Symmetry-Breaking Bifurcation Problems

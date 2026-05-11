@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM/NLP][零样本异常检测] 本文提出 CoPS 框架，通过显式状态token合成（ESTS）和隐式类别token采样（ICTS）两种视觉条件化机制动态生成提示，配合空间感知对齐（SAGA），在13个工业和医学数据集上实现零样本异常检测SOTA。
 tags:
-  - CVPR 2026
-  - LLM/NLP
-  - 零样本异常检测
-  - 条件提示合成
-  - CLIP
-  - 视觉语言模型
-  - 工业缺陷
+  - "CVPR 2026"
+  - "LLM/NLP"
+  - "零样本异常检测"
+  - "条件提示合成"
+  - "CLIP"
+  - "视觉语言模型"
+  - "工业缺陷"
 ---
 
 # CoPS: Conditional Prompt Synthesis for Zero-Shot Anomaly Detection

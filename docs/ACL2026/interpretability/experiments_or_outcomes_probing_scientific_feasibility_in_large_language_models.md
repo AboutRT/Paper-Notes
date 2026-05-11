@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models
 description: >-
-  [ACL 2026][可解释性] 构建控制知识框架系统研究LLM在科学可行性评估中如何利用实验描述和结果证据，发现提供结果证据比实验描述更可靠，部分实验信息常导致性能低于仅用参数知识的基线，揭示了LLM推理的脆弱性。
+  [ACL 2026][可解释性][科学可行性评估] 构建控制知识框架系统研究LLM在科学可行性评估中如何利用实验描述和结果证据，发现提供结果证据比实验描述更可靠，部分实验信息常导致性能低于仅用参数知识的基线，揭示了LLM推理的脆弱性。
 tags:
-  - ACL 2026
-  - 可解释性
-  - 控制知识框架
-  - 证据鲁棒性
-  - 实验vs结果
-  - LLM推理
+  - "ACL 2026"
+  - "可解释性"
+  - "科学可行性评估"
+  - "控制知识框架"
+  - "证据鲁棒性"
+  - "实验vs结果"
+  - "LLM推理"
 ---
 
 # Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models

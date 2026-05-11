@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Precise, Fast, and Low-cost Concept Erasure in Value Space: Orthogonal Complement Matters
 description: >-
-  [CVPR 2025][图像生成][概念擦除] 本文提出 AdaVD（Adaptive Value Decomposer），一种免训练的 T2I 扩散模型概念擦除方法，通过在 cross-attention 的 value 空间中将原始 prompt 投影到目标概念的正交补空间，并引入自适应 shift 因子，实现了精确擦除目标概念且极少影响非目标内容。
+  [CVPR 2025][图像生成][概念擦除] 本文提出 AdaVD（Adaptive Value Decomposer），一种免训练的 T2I 扩散模型概念擦除方法，通过在 cross-attention 的 value 空间中将原始 prompt 投影到目标概念的正交补空间，并引入自适应 shift 因子…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 概念擦除
-  - 扩散模型安全
-  - 正交补空间
-  - 免训练方法
-  - 先验保持
+  - "CVPR 2025"
+  - "图像生成"
+  - "概念擦除"
+  - "扩散模型安全"
+  - "正交补空间"
+  - "免训练方法"
+  - "先验保持"
 ---
 
 # Precise, Fast, and Low-cost Concept Erasure in Value Space: Orthogonal Complement Matters

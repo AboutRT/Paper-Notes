@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs
 description: >-
-  [ACL 2026][多语言翻译] 本文提出 LocQA 基准（12 种语言、49 个地区、2156 个地域相关问答），通过地域模糊问题（如"紧急电话号码是多少？"）揭示 LLM 的隐式偏差：跨语言上存在持续的美国中心默认行为（模型回答的 50% 包含美国答案 vs 数据中仅 26%），语言内部存在人口规模驱动的"人口概率引擎"效应，且指令微调加剧了全球偏差。
+  [ACL 2026][多语言/翻译][多语言LLM] 本文提出 LocQA 基准（12 种语言、49 个地区、2156 个地域相关问答），通过地域模糊问题（如"紧急电话号码是多少？"）揭示 LLM 的隐式偏差：跨语言上存在持续的美国中心默认行为（模型回答的 50% 包含美国答案 vs 数据中仅 26%）…
 tags:
-  - ACL 2026
-  - 多语言翻译
-  - 地域偏差
-  - 美国中心主义
-  - 文化本地化
-  - 隐式偏差
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "多语言LLM"
+  - "地域偏差"
+  - "美国中心主义"
+  - "文化本地化"
+  - "隐式偏差"
 ---
 
 # Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs

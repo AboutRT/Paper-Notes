@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Goal-oriented Proactive Dialogue Systems via Consistency Reflection and Correction
 description: >-
-  [ACL 2025][目标导向对话] 提出模型无关的两阶段 CRC 框架（一致性反思 + 一致性纠正），通过先让模型反思生成回复与对话上下文之间的不一致之处、再据此纠正回复，显著提升了目标导向主动对话系统中生成回复与对话上下文的一致性。
+  [ACL 2025][对话系统][目标导向对话] 提出模型无关的两阶段 CRC 框架（一致性反思 + 一致性纠正），通过先让模型反思生成回复与对话上下文之间的不一致之处、再据此纠正回复，显著提升了目标导向主动对话系统中生成回复与对话上下文的一致性。
 tags:
-  - ACL 2025
-  - 目标导向对话
-  - 主动对话系统
-  - 一致性反思
-  - 一致性纠正
-  - 模型无关框架
+  - "ACL 2025"
+  - "对话系统"
+  - "目标导向对话"
+  - "主动对话系统"
+  - "一致性反思"
+  - "一致性纠正"
+  - "模型无关框架"
 ---
 
 # Enhancing Goal-oriented Proactive Dialogue Systems via Consistency Reflection and Correction

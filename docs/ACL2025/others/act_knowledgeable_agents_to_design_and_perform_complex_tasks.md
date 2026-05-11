@@ -2,14 +2,14 @@
 title: >-
   [论文解读] ACT: Knowledgeable Agents to Design and Perform Complex Tasks
 description: >-
-  [ACL 2025][其他] 本文提出 ACT 框架，让多个 LLM 智能体通过协作设计任务并相互获取结构化知识描述，使每个智能体不仅理解自身任务还了解他人的工作方式，从而在创意写作和工具使用等复杂任务上显著超越现有多智能体方法。
+  [ACL 2025][多智能体协作] 本文提出 ACT 框架，让多个 LLM 智能体通过协作设计任务并相互获取结构化知识描述，使每个智能体不仅理解自身任务还了解他人的工作方式，从而在创意写作和工具使用等复杂任务上显著超越现有多智能体方法。
 tags:
-  - ACL 2025
-  - 其他
-  - 知识共享
-  - 复杂任务分解
-  - LLM Agent
-  - 结构化知识
+  - "ACL 2025"
+  - "多智能体协作"
+  - "知识共享"
+  - "复杂任务分解"
+  - "LLM Agent"
+  - "结构化知识"
 ---
 
 # ACT: Knowledgeable Agents to Design and Perform Complex Tasks

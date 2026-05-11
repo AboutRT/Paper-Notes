@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][时间序列][时间序列质量评估] TSRating 利用 LLM 的先验知识从趋势、频率、幅度、模式四个维度成对评判时间序列数据块的质量，再通过 Bradley-Terry 模型转换为标量分数，并用元学习训练跨域泛化的 TSRater 模型，实现高效、准确的时间序列数据质量评估。
 tags:
-  - ICLR 2026
-  - 时间序列
-  - 时间序列质量评估
-  - LLM判断
-  - 元学习
-  - 数据选择
-  - Bradley-Terry模型
+  - "ICLR 2026"
+  - "时间序列"
+  - "时间序列质量评估"
+  - "LLM判断"
+  - "元学习"
+  - "数据选择"
+  - "Bradley-Terry模型"
 ---
 
 # TSRating: Rating Quality of Diverse Time Series Data by Meta-learning from LLM Judgment

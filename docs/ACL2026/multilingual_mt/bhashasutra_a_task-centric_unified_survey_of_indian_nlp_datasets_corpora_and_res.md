@@ -2,14 +2,15 @@
 title: >-
   [论文解读] BhashaSutra: A Task-Centric Unified Survey of Indian NLP Datasets, Corpora, and Resources
 description: >-
-  [ACL 2026][多语言翻译] 首篇专门针对印度语言NLP资源的统一综述，覆盖200+数据集、50+基准、100+模型/工具，按17个任务类别组织（从核心语言处理到社会文化任务），系统分析了语言覆盖不均、标注碎片化、评估不一致等持续挑战。
+  [ACL 2026][多语言/翻译][印度语言NLP] 首篇专门针对印度语言NLP资源的统一综述，覆盖200+数据集、50+基准、100+模型/工具，按17个任务类别组织（从核心语言处理到社会文化任务），系统分析了语言覆盖不均、标注碎片化、评估不一致等持续挑战。
 tags:
-  - ACL 2026
-  - 多语言翻译
-  - 数据集综述
-  - 多语言资源
-  - 低资源语言
-  - 文化NLP
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "印度语言NLP"
+  - "数据集综述"
+  - "多语言资源"
+  - "低资源语言"
+  - "文化NLP"
 ---
 
 # BhashaSutra: A Task-Centric Unified Survey of Indian NLP Datasets, Corpora, and Resources

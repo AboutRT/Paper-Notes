@@ -2,14 +2,15 @@
 title: >-
   [论文解读] POA: Pre-training Once for Models of All Sizes
 description: >-
-  [ECCV 2024][LLM预训练] POA 提出在自监督自蒸馏框架中引入**弹性学生分支**，通过参数共享和随机子网络采样，**一次预训练即可同时产出上百个不同大小的预训练模型**（如从 ViT-L 直接提取 ViT-S/B），各子网络在 k-NN、线性探测和下游任务上均达到 SOTA 水平。
+  [ECCV 2024][预训练][自监督预训练] POA 提出在自监督自蒸馏框架中引入**弹性学生分支**，通过参数共享和随机子网络采样，**一次预训练即可同时产出上百个不同大小的预训练模型**（如从 ViT-L 直接提取 ViT-S/B），各子网络在 k-NN、线性探测和下游任务上均达到 SOTA 水平。
 tags:
-  - ECCV 2024
-  - LLM预训练
-  - 弹性网络
-  - 自蒸馏
-  - 一次训练多尺寸模型
-  - Once-for-All
+  - "ECCV 2024"
+  - "预训练"
+  - "自监督预训练"
+  - "弹性网络"
+  - "自蒸馏"
+  - "一次训练多尺寸模型"
+  - "Once-for-All"
 ---
 
 # POA: Pre-training Once for Models of All Sizes

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation
 description: >-
-  [ICLR 2026][贝叶斯注意力] 将位置编码重新表述为贝叶斯注意力机制中的先验分布，统一了 NoPE（均匀先验）和 ALiBi（拉普拉斯先验），并提出广义高斯先验（GGD-BAM），仅增加 384 个参数即可在 500 倍训练长度上实现完美的 passkey 检索。
+  [ICLR 2026][信息检索/RAG][贝叶斯注意力] 将位置编码重新表述为贝叶斯注意力机制中的先验分布，统一了 NoPE（均匀先验）和 ALiBi（拉普拉斯先验），并提出广义高斯先验（GGD-BAM），仅增加 384 个参数即可在 500 倍训练长度上实现完美的 passkey 检索。
 tags:
-  - ICLR 2026
-  - 贝叶斯注意力
-  - 位置编码
-  - 上下文外推
-  - 广义高斯分布
-  - 信息检索
+  - "ICLR 2026"
+  - "信息检索/RAG"
+  - "贝叶斯注意力"
+  - "位置编码"
+  - "上下文外推"
+  - "广义高斯分布"
+  - "长上下文"
 ---
 
 # Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation

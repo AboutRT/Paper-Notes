@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频理解基准] 提出 SeriesBench，首个面向叙事驱动电视剧理解的视频基准，涵盖105部剧集、28个任务、5大维度，并提出 PC-DCoT（情节-角色双链思维）框架使MLLM性能提升超10%。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频理解基准
-  - 叙事理解
-  - 电视剧理解
-  - 多模态大模型
-  - 思维链
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频理解基准"
+  - "叙事理解"
+  - "电视剧理解"
+  - "多模态大模型"
+  - "思维链"
 ---
 
 # SeriesBench: A Benchmark for Narrative-Driven Drama Series Understanding

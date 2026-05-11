@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][scientometrics] 从内部（NLP 社区）和外部（其他领域）两个维度衡量 NLP 论文影响力，构建影响力预测模型。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - scientometrics
-  - impact measurement
-  - NLP research
-  - citation analysis
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "scientometrics"
+  - "impact measurement"
+  - "NLP research"
+  - "citation analysis"
 ---
 
 # Internal and External Impacts of Natural Language Processing Papers

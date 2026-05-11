@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples
 description: >-
-  [CVPR 2026][其他] 针对工业异常检测中"正常"定义随规格变更而变化的实际问题，提出了两种新场景（A2N/N2A）、一个新评价指标（S-AUROC）和一种训练增强方法 RePaste，通过将高异常分数区域重新粘贴到训练图片中来增加其出现频率，使模型灵活适应正常样本定义的变化。
+  [CVPR 2026][异常检测] 针对工业异常检测中"正常"定义随规格变更而变化的实际问题，提出了两种新场景（A2N/N2A）、一个新评价指标（S-AUROC）和一种训练增强方法 RePaste，通过将高异常分数区域重新粘贴到训练图片中来增加其出现频率，使模型灵活适应正常样本定义的变化。
 tags:
-  - CVPR 2026
-  - 其他
-  - 规格变更
-  - 正常样本定义模糊
-  - 伪异常
-  - 工业缺陷检测
+  - "CVPR 2026"
+  - "异常检测"
+  - "规格变更"
+  - "正常样本定义模糊"
+  - "伪异常"
+  - "工业缺陷检测"
 ---
 
 # Novel Anomaly Detection Scenarios and Evaluation Metrics to Address the Ambiguity in the Definition of Normal Samples

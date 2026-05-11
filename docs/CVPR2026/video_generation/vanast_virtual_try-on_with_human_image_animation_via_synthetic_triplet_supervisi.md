@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision
 description: >-
-  [CVPR 2026][视频生成][虚拟试穿] Vanast 提出一种统一框架，通过 Dual Module 架构（HAM + GTM）和三阶段合成数据构建流水线，在单阶段内同时完成服装迁移和人体动画生成，在 Internet 数据集上 PSNR 达到 17.95dB（+5.5dB vs 最佳两阶段方案），LPIPS 仅 0.237。
+  [CVPR 2026][视频生成][虚拟试穿] Vanast 提出一种统一框架，通过 Dual Module 架构（HAM + GTM）和三阶段合成数据构建流水线，在单阶段内同时完成服装迁移和人体动画生成，在 Internet 数据集上 PSNR 达到 17.95dB（+5.5dB vs 最佳两阶段方案）…
 tags:
-  - CVPR 2026
-  - 视频生成
-  - 虚拟试穿
-  - 人体动画
-  - 合成三元组
-  - Dual Module
-  - 视频扩散
+  - "CVPR 2026"
+  - "视频生成"
+  - "虚拟试穿"
+  - "人体动画"
+  - "合成三元组"
+  - "Dual Module"
+  - "视频扩散"
 ---
 
 # Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision

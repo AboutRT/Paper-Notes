@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][低光图像增强] 本文提出了一种新的色彩空间 HVI（Horizontal/Vertical-Intensity），通过极化的 HS 映射消除红色伪影、可学习的强度分量压缩暗区黑色伪影，并配合 CIDNet 解耦网络在 10 个数据集上超越了现有低光增强 SOTA。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 低光图像增强
-  - 色彩空间
-  - HVI色彩空间
-  - 颜色解耦
-  - CIDNet
+  - "CVPR 2025"
+  - "图像恢复"
+  - "低光图像增强"
+  - "色彩空间"
+  - "HVI色彩空间"
+  - "颜色解耦"
+  - "CIDNet"
 ---
 
 # HVI: A New Color Space for Low-light Image Enhancement

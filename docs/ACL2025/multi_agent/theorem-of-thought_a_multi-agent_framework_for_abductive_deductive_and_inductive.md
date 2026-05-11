@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Theorem-of-Thought: A Multi-Agent Framework for Abductive, Deductive, and Inductive Reasoning in Language Models
 description: >-
-  [ACL 2025][LLM Agent][多智能体推理] 提出 Theorem-of-Thought (ToTh) 框架，通过三个并行智能体分别模拟溯因、演绎和归纳推理，将推理轨迹构建为形式推理图并利用 NLI 校准的贝叶斯置信传播选出最连贯推理链，在符号和数值推理上一致优于 CoT、Self-Consistency 和 CoT-Decoding。
+  [ACL 2025][LLM Agent / 推理][多智能体推理] 提出 Theorem-of-Thought (ToTh) 框架，通过三个并行智能体分别模拟溯因、演绎和归纳推理，将推理轨迹构建为形式推理图并利用 NLI 校准的贝叶斯置信传播选出最连贯推理链…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - 多智能体推理
-  - 溯因推理
-  - 演绎推理
-  - 归纳推理
-  - 贝叶斯置信传播
+  - "ACL 2025"
+  - "LLM Agent / 推理"
+  - "多智能体推理"
+  - "溯因推理"
+  - "演绎推理"
+  - "归纳推理"
+  - "贝叶斯置信传播"
 ---
 
 # Theorem-of-Thought: A Multi-Agent Framework for Abductive, Deductive, and Inductive Reasoning in Language Models

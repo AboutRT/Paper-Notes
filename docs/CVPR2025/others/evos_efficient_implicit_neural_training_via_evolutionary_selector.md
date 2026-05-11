@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][隐式神经表示] 提出EVOS方法，通过进化选择范式（稀疏适应度评估+频率引导交叉+增强无偏变异）对INR训练样本进行智能稀疏采样，在保持甚至提升重建质量（PSNR 37.81 vs 标准37.10）的同时将训练时间减少48-66%（180秒→97秒）。
 tags:
-  - CVPR 2025
-  - 隐式神经表示
-  - 进化采样
-  - 频率引导
-  - 训练加速
-  - 稀疏训练
+  - "CVPR 2025"
+  - "隐式神经表示"
+  - "进化采样"
+  - "频率引导"
+  - "训练加速"
+  - "稀疏训练"
 ---
 
 # EVOS: Efficient Implicit Neural Training via EVOlutionary Selector

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Hierarchical Reinforcement Learning with Targeted Causal Interventions
 description: >-
-  [ICML2025][层次强化学习] 提出 HRC 框架，将层次强化学习中的子目标关系建模为因果图，通过因果发现算法学习子目标结构，并基于因果效应优先级进行**定向干预**，显著降低长时域稀疏奖励任务的训练代价。
+  [ICML2025][强化学习][层次强化学习] 提出 HRC 框架，将层次强化学习中的子目标关系建模为因果图，通过因果发现算法学习子目标结构，并基于因果效应优先级进行**定向干预**，显著降低长时域稀疏奖励任务的训练代价。
 tags:
-  - ICML2025
-  - 层次强化学习
-  - 强化学习
-  - 子目标结构
-  - 干预采样
-  - 长时域稀疏奖励
+  - "ICML2025"
+  - "强化学习"
+  - "层次强化学习"
+  - "因果发现"
+  - "子目标结构"
+  - "干预采样"
+  - "长时域稀疏奖励"
 ---
 
 # Hierarchical Reinforcement Learning with Targeted Causal Interventions

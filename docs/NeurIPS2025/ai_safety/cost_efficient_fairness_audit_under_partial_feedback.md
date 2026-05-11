@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][fairness audit] 在部分反馈（partial feedback）设定下，提出了一套包含新颖成本模型的公平性审计框架，分别在黑盒与混合模型两种场景给出近最优审计算法，审计成本比自然基线降低约 50%。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - fairness audit
-  - partial feedback
-  - equalized odds
-  - rejection sampling
-  - exponential family mixture
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "fairness audit"
+  - "partial feedback"
+  - "equalized odds"
+  - "rejection sampling"
+  - "exponential family mixture"
 ---
 
 # Cost Efficient Fairness Audit Under Partial Feedback

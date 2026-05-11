@@ -2,11 +2,11 @@
 title: >-
   [论文解读] From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration
 description: >-
-  [ACL 2026][多模态][待补充] 待深读论文后补充
+  [ACL 2026][多模态VLM][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 多模态
-  - 待补充
+  - "ACL 2026"
+  - "多模态VLM"
+  - "待补充"
 ---
 
 # From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration

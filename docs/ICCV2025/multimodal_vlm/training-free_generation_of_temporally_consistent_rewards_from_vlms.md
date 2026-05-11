@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][多模态VLM][视觉语言模型] T²-VLM 提出了一种免训练、时间一致的奖励生成框架，通过仅在每个 episode 开始时查询一次 VLM 生成空间感知子目标，然后用贝叶斯粒子滤波跟踪子目标完成状态来生成结构化 RL 奖励，在机器人操作基准上达到 SOTA 且计算成本大幅降低。
 tags:
-  - ICCV 2025
-  - 多模态VLM
-  - 视觉语言模型
-  - 奖励生成
-  - 强化学习
-  - 机器人操作
-  - 贝叶斯跟踪
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "奖励生成"
+  - "强化学习"
+  - "机器人操作"
+  - "贝叶斯跟踪"
 ---
 
 # Training-free Generation of Temporally Consistent Rewards from VLMs

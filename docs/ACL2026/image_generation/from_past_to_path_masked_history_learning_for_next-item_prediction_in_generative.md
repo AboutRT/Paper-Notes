@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像生成][生成式推荐] 提出掩码历史学习（MHL）训练框架，通过在生成式推荐的自回归训练中加入掩码历史重建辅助任务，结合熵引导的自适应掩码策略和课程学习调度器，使模型从仅预测"下一个是什么"转向理解"为什么形成这条路径"，在三个数据集上显著超越SOTA。
 tags:
-  - ACL 2026
-  - 图像生成
-  - 生成式推荐
-  - 掩码历史学习
-  - 信息熵引导
-  - 课程学习
-  - 序列推荐
+  - "ACL 2026"
+  - "图像生成"
+  - "生成式推荐"
+  - "掩码历史学习"
+  - "信息熵引导"
+  - "课程学习"
+  - "序列推荐"
 ---
 
 # From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation

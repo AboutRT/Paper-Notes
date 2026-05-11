@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals
 description: >-
-  [NeurIPS 2025][动态上下文截断] 本文提出 dynamic context cutoff，通过探测 Transformer 特定注意力头中编码的"信息充分性信号"，训练轻量分类器判断模型何时已获取足够上下文，实现提前终止处理，在6个QA数据集上平均提高3.4%准确率同时减少1.33×token消耗。
+  [NeurIPS 2025][可解释性][动态上下文截断] 本文提出 dynamic context cutoff，通过探测 Transformer 特定注意力头中编码的"信息充分性信号"，训练轻量分类器判断模型何时已获取足够上下文，实现提前终止处理…
 tags:
-  - NeurIPS 2025
-  - 动态上下文截断
-  - 注意力头探针
-  - 信息充分性
-  - 可解释性
-  - KV缓存
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "动态上下文截断"
+  - "注意力头探针"
+  - "信息充分性"
+  - "推理效率"
+  - "KV缓存"
 ---
 
 # Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals

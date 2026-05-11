@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CoVE: Compressed Vocabulary Expansion Makes Better LLM-based Recommender Systems
 description: >-
-  [ACL 2025][LLM推荐系统] 提出 CoVE 框架，通过扩展 LLM 词表为每个物品分配唯一 token ID 和嵌入，将序列推荐任务转化为 next-token prediction，相比现有方法推荐准确率提升最高 62%，推理速度提升约 100 倍，并通过哈希嵌入压缩解决大规模场景的内存问题。
+  [ACL 2025][推荐系统][LLM推荐系统] 提出 CoVE 框架，通过扩展 LLM 词表为每个物品分配唯一 token ID 和嵌入，将序列推荐任务转化为 next-token prediction，相比现有方法推荐准确率提升最高 62%，推理速度提升约 100 倍…
 tags:
-  - ACL 2025
-  - LLM推荐系统
-  - 词表扩展
-  - 嵌入压缩
-  - 序列推荐
-  - 哈希压缩
+  - "ACL 2025"
+  - "推荐系统"
+  - "LLM推荐系统"
+  - "词表扩展"
+  - "嵌入压缩"
+  - "序列推荐"
+  - "哈希压缩"
 ---
 
 # CoVE: Compressed Vocabulary Expansion Makes Better LLM-based Recommender Systems

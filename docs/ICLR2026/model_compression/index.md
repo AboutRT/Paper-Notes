@@ -1,16 +1,26 @@
 ---
 title: >-
-  ICLR2026 模型压缩方向91篇论文解读
+  ICLR2026 模型压缩方向90篇论文解读
 description: >-
-  91篇ICLR2026的模型压缩方向论文解读，涵盖 LLM、模型压缩、推理、压缩/编码、持续学习、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  90篇ICLR2026的模型压缩方向论文解读，涵盖 LLM、模型压缩、推理、压缩/编码、持续学习、知识蒸馏等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICLR2026"
+  - "模型压缩"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "推理"
+  - "压缩/编码"
+  - "持续学习"
+  - "知识蒸馏"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📦 模型压缩
 
-**🔬 ICLR2026** · **91** 篇论文解读
+**🔬 ICLR2026** · **90** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (51)](../../CVPR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md) · [🧪 ICML2025 (70)](../../ICML2025/model_compression/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (42)](../../ACL2026/model_compression/index.md) · [📷 CVPR2026 (50)](../../CVPR2026/model_compression/index.md) · [🤖 AAAI2026 (54)](../../AAAI2026/model_compression/index.md) · [🧠 NeurIPS2025 (137)](../../NeurIPS2025/model_compression/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/model_compression/index.md) · [🧪 ICML2025 (70)](../../ICML2025/model_compression/index.md)
 
 🔥 **高频主题：** LLM ×19 · 模型压缩 ×16 · 推理 ×11 · 压缩/编码 ×8 · 持续学习 ×4
 
@@ -129,10 +139,6 @@ description: >-
 **[Evolution and compression in LLMs: On the emergence of human-aligned categorization](evolution_and_compression_in_llms_on_the_emergence_of_human-aligned_categorizati.md)**
 
 :   通过 Information Bottleneck (IB) 框架和迭代上下文语言学习 (IICLL) 范式，证明 LLM 能够在未经 IB 目标训练的情况下，自发涌现出与人类语义分类系统高度对齐的、近最优压缩效率的类别结构。
-
-**[FASA: Frequency-aware Sparse Attention](fasa_frequency-aware_sparse_attention.md)**
-
-:   发现 RoPE 注意力在频率块(FC)级别存在功能稀疏性——仅不到 1% 的"主导 FC"就能近似完整注意力头的 token 选择行为。据此设计无需训练的 FASA 框架，通过两阶段策略（主导 FC 预测 token 重要性 → 仅对重要 token 做完整注意力）实现 8× 内存压缩和 2.6× 推理加速且几乎无质量损失。
 
 **[Fine-tuning Quantized Neural Networks with Zeroth-order Optimization](fine-tuning_quantized_neural_networks_with_zeroth-order_optimization.md)**
 

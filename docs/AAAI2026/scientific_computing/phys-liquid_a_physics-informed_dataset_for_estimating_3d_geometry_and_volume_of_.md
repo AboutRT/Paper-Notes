@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Phys-Liquid: A Physics-Informed Dataset for Estimating 3D Geometry and Volume of Transparent Deformable Liquids
 description: >-
-  [AAAI 2026][科学计算][physics-informed dataset] 构建了 Phys-Liquid 数据集（97,200 张物理仿真图像 + 3D mesh），基于 Navier-Stokes 方程模拟透明容器内液体的动态形变，并提出四阶段重建管线（分割→多视角 mask 生成→3D 重建→缩放），在仿真和真实场景中实现高精度液体几何与体积估计。
+  [AAAI 2026][科学计算][physics-informed dataset] 构建了 Phys-Liquid 数据集（97,200 张物理仿真图像 + 3D mesh），基于 Navier-Stokes 方程模拟透明容器内液体的动态形变…
 tags:
-  - AAAI 2026
-  - 科学计算
-  - physics-informed dataset
-  - transparent liquid
-  - 3D重建
-  - liquid simulation
-  - deformable objects
+  - "AAAI 2026"
+  - "科学计算"
+  - "physics-informed dataset"
+  - "transparent liquid"
+  - "3D重建"
+  - "liquid simulation"
+  - "deformable objects"
 ---
 
 # Phys-Liquid: A Physics-Informed Dataset for Estimating 3D Geometry and Volume of Transparent Deformable Liquids

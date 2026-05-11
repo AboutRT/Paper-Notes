@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][逆渲染] IRIS提出了一个从多视角LDR图像中联合恢复HDR光照、物理材质和相机响应函数的逆渲染框架，通过显式建模色调映射、自动检测发光体和迭代优化策略，在真实和合成室内场景上实现了高质量的材质估计、重光照和虚拟物体插入。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 逆渲染
-  - 室内场景
-  - 低动态范围
-  - HDR恢复
-  - 相机响应函数
+  - "CVPR 2025"
+  - "3D视觉"
+  - "逆渲染"
+  - "室内场景"
+  - "低动态范围"
+  - "HDR恢复"
+  - "相机响应函数"
 ---
 
 # IRIS: Inverse Rendering of Indoor Scenes from Low Dynamic Range Images

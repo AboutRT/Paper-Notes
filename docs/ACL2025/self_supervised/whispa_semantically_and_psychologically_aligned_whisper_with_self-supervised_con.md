@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][自监督学习][语音-文本对齐] 提出 WhiSPA，通过对比学习将 Whisper 音频编码器的潜在空间与 SBERT 语义表征和心理学维度（情感、人格）对齐，消除语音处理中对额外文本 LM 的依赖，在心理学评估任务上误差降低 73-84%。
 tags:
-  - ACL 2025
-  - 自监督学习
-  - 自监督
-  - Whisper
-  - 对比学习
-  - 心理学表征
-  - 情感分析
+  - "ACL 2025"
+  - "自监督学习"
+  - "语音-文本对齐"
+  - "Whisper"
+  - "对比学习"
+  - "心理学表征"
+  - "情感分析"
 ---
 
 # WhiSPA: Semantically and Psychologically Aligned Whisper with Self-Supervised Contrastive and Student-Teacher Learning

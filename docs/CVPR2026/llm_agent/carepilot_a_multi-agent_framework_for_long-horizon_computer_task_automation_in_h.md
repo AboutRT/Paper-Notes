@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare
 description: >-
-  [CVPR 2026][LLM Agent][医疗软件自动化] 提出CareFlow基准（1050个医疗软件长视界工作流任务，8-24步，覆盖DICOM/3D Slicer/EMR/LIS四大系统）和CarePilot框架（基于Actor-Critic范式，集成工具grounding和双记忆机制），在CareFlow上超越GPT-5约15%的任务准确率。
+  [CVPR 2026][LLM Agent][医疗软件自动化] 提出CareFlow基准（1050个医疗软件长视界工作流任务，8-24步，覆盖DICOM/3D Slicer/EMR/LIS四大系统）和CarePilot框架（基于Actor-Critic范式，集成工具grounding和双记忆机制）…
 tags:
-  - CVPR 2026
-  - LLM Agent
-  - 医疗软件自动化
-  - 多Agent框架
-  - Actor-Critic
-  - 长视界GUI交互
-  - 双记忆机制
+  - "CVPR 2026"
+  - "LLM Agent"
+  - "医疗软件自动化"
+  - "多Agent框架"
+  - "Actor-Critic"
+  - "长视界GUI交互"
+  - "双记忆机制"
 ---
 
 # CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare

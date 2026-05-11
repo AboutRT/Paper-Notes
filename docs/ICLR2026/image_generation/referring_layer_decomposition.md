@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][图层分解] 提出 Referring Layer Decomposition (RLD) 任务，根据用户提供的灵活提示（空间/文本/混合）从单张 RGB 图像中预测完整的 RGBA 图层，并构建了包含 111 万样本的 RefLade 数据集和自动评估协议。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 图层分解
-  - RGBA 层
-  - 多模态引用输入
-  - 数据引擎
-  - RefLayer
+  - "ICLR 2026"
+  - "图像生成"
+  - "图层分解"
+  - "RGBA 层"
+  - "多模态引用输入"
+  - "数据引擎"
+  - "RefLayer"
 ---
 
 # Referring Layer Decomposition

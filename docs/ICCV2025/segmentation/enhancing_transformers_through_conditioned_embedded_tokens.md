@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing Transformers Through Conditioned Embedded Tokens
 description: >-
-  [ICCV 2025][图像分割][Transformer] 揭示 Transformer 自注意力矩阵存在固有的 ill-conditioning 问题，通过理论分析建立自注意力条件数与嵌入令牌条件数的直接关系，提出 Conditioned Embedded Tokens 方法（对嵌入矩阵添加基于 SVD 的修正项），在图像分类、目标检测、实例分割和 NLP 等多种任务上一致提升性能。
+  [ICCV 2025][语义分割][Transformer] 揭示 Transformer 自注意力矩阵存在固有的 ill-conditioning 问题，通过理论分析建立自注意力条件数与嵌入令牌条件数的直接关系…
 tags:
-  - ICCV 2025
-  - 图像分割
-  - Transformer
-  - 条件数
-  - 自注意力
-  - 嵌入令牌
-  - 优化稳定性
+  - "ICCV 2025"
+  - "语义分割"
+  - "Transformer"
+  - "条件数"
+  - "自注意力"
+  - "嵌入令牌"
+  - "优化稳定性"
 ---
 
 # Enhancing Transformers Through Conditioned Embedded Tokens

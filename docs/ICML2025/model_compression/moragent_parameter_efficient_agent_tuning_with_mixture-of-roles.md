@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][模型压缩][Agent Tuning] 提出 Mixture-of-Roles (MoR) 框架，将 Agent 能力分解为推理者、执行者、总结者三个角色，每个角色分配专门的 LoRA 组，以极少额外参数（0.16B–0.36B）实现接近甚至超越全参数微调的 Agent 性能。
 tags:
-  - ICML2025
-  - 模型压缩
-  - Agent Tuning
-  - parameter-efficient fine-tuning
-  - LoRA
-  - Mixture-of-Experts
-  - Function Calling
+  - "ICML2025"
+  - "模型压缩"
+  - "Agent Tuning"
+  - "parameter-efficient fine-tuning"
+  - "LoRA"
+  - "Mixture-of-Experts"
+  - "Function Calling"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

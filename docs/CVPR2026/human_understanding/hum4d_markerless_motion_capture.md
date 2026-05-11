@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][人体理解][无标记运动捕捉] 提出 HUM4D 数据集，包含复杂单人和多人运动场景（快速运动、遮挡、身份交换），提供同步多视角 RGB/RGB-D 序列、精确 Vicon 标记运动捕捉真值和 SMPL/SMPL-X 参数，基准测试揭示 SOTA 无标记方法在真实条件下的显著性能退化。
 tags:
-  - CVPR 2026
-  - 人体理解
-  - 无标记运动捕捉
-  - 4D人体建模
-  - 多人交互
-  - 数据集
-  - SMPL
+  - "CVPR 2026"
+  - "人体理解"
+  - "无标记运动捕捉"
+  - "4D人体建模"
+  - "多人交互"
+  - "数据集"
+  - "SMPL"
 ---
 
 # HUM4D: A Dataset and Evaluation for Complex 4D Markerless Human Motion Capture

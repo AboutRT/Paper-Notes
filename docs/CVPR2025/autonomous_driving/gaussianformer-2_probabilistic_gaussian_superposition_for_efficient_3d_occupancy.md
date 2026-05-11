@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][3D占用预测] 本文提出GaussianFormer-2，从概率视角重新诠释3D语义高斯：每个高斯表示其邻域被占用的概率分布，通过概率乘法聚合几何预测、高斯混合模型归一化语义预测，彻底消除了高斯描述空区域和相互冗余重叠的问题，以仅8.9%的高斯数量达到SOTA。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 3D占用预测
-  - 高斯表示
-  - 概率建模
-  - 稀疏场景表示
-  - 高斯混合模型
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "3D占用预测"
+  - "高斯表示"
+  - "概率建模"
+  - "稀疏场景表示"
+  - "高斯混合模型"
 ---
 
 # GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction

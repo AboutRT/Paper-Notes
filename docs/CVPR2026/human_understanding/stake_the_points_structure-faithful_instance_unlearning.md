@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2026][人体理解][machine unlearning] 提出 Structguard，通过语义锚点（semantic anchors）保持遗忘过程中保留实例间的语义关系结构，避免结构性崩塌，在图像分类/人脸识别/检索三任务上平均提升 32.9%/19.3%/22.5%。
 tags:
-  - CVPR2026
-  - 人体理解
-  - machine unlearning
-  - instance-level unlearning
-  - structural preservation
-  - semantic anchors
-  - CLIP
+  - "CVPR2026"
+  - "人体理解"
+  - "machine unlearning"
+  - "instance-level unlearning"
+  - "structural preservation"
+  - "semantic anchors"
+  - "CLIP"
 ---
 
 # Stake the Points: Structure-Faithful Instance Unlearning

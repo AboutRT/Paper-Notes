@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning
 description: >-
-  [CVPR 2025][3D视觉][人体交互重建] 本文提出一个双分支优化框架，通过结合人体外观（3D Gaussian Splatting）约束、社会距离学（proxemics）扩散先验和物理约束，从单目野外视频中重建紧密人体交互的准确 3D 姿态、自然交互关系和合理身体接触，在 Hi4D 和 3DPW 上达到 SOTA。
+  [CVPR 2025][3D视觉][人体交互重建] 本文提出一个双分支优化框架，通过结合人体外观（3D Gaussian Splatting）约束、社会距离学（proxemics）扩散先验和物理约束，从单目野外视频中重建紧密人体交互的准确 3D 姿态、自然交互关系和合理身体接触…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 人体交互重建
-  - 3D高斯喷射
-  - 社会距离学先验
-  - 双分支优化
-  - 近距离交互
+  - "CVPR 2025"
+  - "3D视觉"
+  - "人体交互重建"
+  - "3D高斯喷射"
+  - "社会距离学先验"
+  - "双分支优化"
+  - "近距离交互"
 ---
 
 # Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning

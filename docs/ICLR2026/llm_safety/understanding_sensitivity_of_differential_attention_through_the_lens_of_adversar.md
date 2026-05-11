@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness
 description: >-
-  [ICLR 2026][注意力机制] 首次从对抗鲁棒性角度分析 Differential Attention（DA）机制，揭示其减法结构在抑制噪声的同时会通过负梯度对齐放大对抗扰动敏感度，发现"脆弱性原理"——DA 在干净样本上提升判别力但在对抗攻击下更脆弱，且存在深度依赖的鲁棒性交叉效应。
+  [ICLR 2026][LLM安全][注意力机制] 首次从对抗鲁棒性角度分析 Differential Attention（DA）机制，揭示其减法结构在抑制噪声的同时会通过负梯度对齐放大对抗扰动敏感度，发现"脆弱性原理"——DA 在干净样本上提升判别力但在对抗攻击下更脆弱，且存在深度依赖的鲁棒性交叉效应。
 tags:
-  - ICLR 2026
-  - 注意力机制
-  - LLM安全
-  - 梯度对齐
-  - Lipschitz常数
+  - "ICLR 2026"
+  - "LLM安全"
+  - "注意力机制"
+  - "对抗鲁棒性"
+  - "梯度对齐"
+  - "Lipschitz常数"
 ---
 
 # Understanding Sensitivity of Differential Attention through the Lens of Adversarial Robustness

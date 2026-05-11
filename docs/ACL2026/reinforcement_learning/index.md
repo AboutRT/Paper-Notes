@@ -3,6 +3,16 @@ title: >-
   ACL2026 强化学习方向34篇论文解读
 description: >-
   34篇ACL2026的强化学习方向论文解读，涵盖 LLM、强化学习、推理、Agent、对话系统、RAG等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2026"
+  - "强化学习"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "推理"
+  - "Agent"
+  - "对话系统"
+  - "RAG"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +20,7 @@ description: >-
 
 **💬 ACL2026** · **34** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (19)](../../CVPR2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (139)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (172)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (81)](../../ICML2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (19)](../../CVPR2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (138)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (171)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (80)](../../ICML2025/reinforcement_learning/index.md)
 
 🔥 **高频主题：** LLM ×10 · 强化学习 ×10 · 推理 ×8 · Agent ×3 · 对话系统 ×3
 

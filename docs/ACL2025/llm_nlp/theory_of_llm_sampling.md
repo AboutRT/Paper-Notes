@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][LLM采样] 提出并验证了LLM的响应采样理论——采样过程同时受描述性成分(统计规范)和规范性成分(隐式理想值)双重驱动，导致样本系统性地偏离统计平均值向理想值方向偏移，这种偏差在15个模型、500个概念上具有统计显著性，且模型越大偏差越强。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - LLM采样
-  - 规范性偏差
-  - 描述性规范
-  - 原型理论
-  - System-1
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "LLM采样"
+  - "规范性偏差"
+  - "描述性规范"
+  - "原型理论"
+  - "System-1"
 ---
 
 # A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive

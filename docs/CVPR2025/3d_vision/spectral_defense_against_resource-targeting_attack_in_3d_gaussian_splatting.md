@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting
 description: >-
-  [CVPR 2025][3D视觉][3DGS安全] 本文提出了针对 3DGS 资源耗尽攻击的频谱防御方法，在 3D 频域（通过傅里叶分析连接 Gaussian 协方差与高频响应，剪枝异常高频 splat）和 2D 频域（用熔正则化惩罚各向异性角度能量分布）联合防御，将 Gaussian 过度生长抑制 5.92×，内存减少 3.66×，速度提升 4.34×，同时保持渲染质量。
+  [CVPR 2025][3D视觉][3DGS安全] 本文提出了针对 3DGS 资源耗尽攻击的频谱防御方法，在 3D 频域（通过傅里叶分析连接 Gaussian 协方差与高频响应，剪枝异常高频 splat）和 2D 频域（用熔正则化惩罚各向异性角度能量分布）联合防御…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3DGS安全
-  - 对抗攻击
-  - 频谱防御
-  - Gaussian剪枝
-  - 资源耗尽攻击
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3DGS安全"
+  - "对抗攻击"
+  - "频谱防御"
+  - "Gaussian剪枝"
+  - "资源耗尽攻击"
 ---
 
 # Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting

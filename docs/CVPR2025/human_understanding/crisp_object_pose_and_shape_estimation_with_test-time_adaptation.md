@@ -4,7 +4,7 @@ title: >-
 description: >-
   [人体理解] 提出 CRISP，一个类别无关的物体姿态与形状估计 pipeline，核心创新在于基于 active shape model 的优化校正器和 correct-and-certify 自训练策略，可在测试时自适应弥合大的域差距。
 tags:
-  - 人体理解
+  - "人体理解"
 ---
 
 # CRISP: Object Pose and Shape Estimation with Test-Time Adaptation

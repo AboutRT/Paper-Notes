@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自监督学习][手写数学公式识别] 提出位置森林 Transformer（PosFormer），通过将数学表达式的 LaTeX 序列编码为位置森林结构，显式建模符号间的层级与位置关系，并设计隐式注意力校正模块，在不增加推理开销的前提下，在单行/多行/复杂表达式数据集上全面超越 SOTA。
 tags:
-  - ECCV 2024
-  - 自监督学习
-  - 手写数学公式识别
-  - 位置森林
-  - Transformer
-  - 注意力校正
-  - 结构关系建模
+  - "ECCV 2024"
+  - "自监督学习"
+  - "手写数学公式识别"
+  - "位置森林"
+  - "Transformer"
+  - "注意力校正"
+  - "结构关系建模"
 ---
 
 # PosFormer: Recognizing Complex Handwritten Mathematical Expression with Position Forest Transformer

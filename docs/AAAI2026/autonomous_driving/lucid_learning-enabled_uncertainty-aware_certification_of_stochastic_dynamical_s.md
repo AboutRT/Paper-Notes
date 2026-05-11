@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][自动驾驶][安全认证] 本文提出 LUCID，首个可为黑盒随机动力系统提供量化安全保证的验证引擎，通过数据驱动的控制障碍证书方法、条件均值嵌入和有限傅里叶核展开，将半无限非凸优化问题重构为可处理的线性规划。
 tags:
-  - AAAI 2026
-  - 自动驾驶
-  - 安全认证
-  - 随机系统
-  - 控制障碍证书
-  - 核方法
-  - 鲁棒验证
+  - "AAAI 2026"
+  - "自动驾驶"
+  - "安全认证"
+  - "随机系统"
+  - "控制障碍证书"
+  - "核方法"
+  - "鲁棒验证"
 ---
 
 # LUCID: Learning-Enabled Uncertainty-Aware Certification of Stochastic Dynamical Systems

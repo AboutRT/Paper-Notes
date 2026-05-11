@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Vision-Language Models Struggle to Align Entities across Modalities
 description: >-
-  [ACL 2025][多模态][跨模态实体链接] 提出 MATE 基准（5,500 个问答实例），通过合成 3D 场景的跨模态属性检索任务系统评估 VLM 的实体链接能力，发现即使最强闭源模型仍落后人类约 15 个百分点，且性能随场景物体数量增加急剧下降——根源在于跨模态特征绑定而非单模态感知。
+  [ACL 2025][多模态VLM][跨模态实体链接] 提出 MATE 基准（5,500 个问答实例），通过合成 3D 场景的跨模态属性检索任务系统评估 VLM 的实体链接能力，发现即使最强闭源模型仍落后人类约 15 个百分点，且性能随场景物体数量增加急剧下降——根源在于跨模态特征绑定而非单模态感知。
 tags:
-  - ACL 2025
-  - 多模态
-  - 跨模态实体链接
-  - 多模态VLM
-  - benchmark
-  - 实体属性对齐
-  - 视觉搜索
+  - "ACL 2025"
+  - "多模态VLM"
+  - "跨模态实体链接"
+  - "视觉语言模型"
+  - "benchmark"
+  - "实体属性对齐"
+  - "视觉搜索"
 ---
 
 # Vision-Language Models Struggle to Align Entities across Modalities

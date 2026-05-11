@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][安全对齐] 本文提出 Constrained Knowledge Unlearning (CKU)，通过在 MLP 层中定位有用知识神经元并在遗忘过程中保护其梯度来删除有害知识，在不损害模型通用能力的前提下显著提升 LLM 的安全性。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 安全对齐
-  - 知识遗忘
-  - 越狱攻击防御
-  - 神经元定位
-  - 模型编辑
+  - "ACL 2025"
+  - "LLM对齐"
+  - "安全对齐"
+  - "知识遗忘"
+  - "越狱攻击防御"
+  - "神经元定位"
+  - "模型编辑"
 ---
 
 # Safety Alignment via Constrained Knowledge Unlearning

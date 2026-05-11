@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像生成][电商检索] 提出 AFMRL 框架，将电商产品的细粒度理解定义为属性生成任务，通过 MLLM 生成关键属性来增强对比学习（AGCL），并用检索性能作为奖励信号反向优化属性生成器（RAR），在大规模电商数据集上实现 SOTA 检索性能。
 tags:
-  - ACL 2026
-  - 图像生成
-  - 电商检索
-  - 细粒度表示学习
-  - 属性生成
-  - 强化学习对齐
-  - 对比学习
+  - "ACL 2026"
+  - "图像生成"
+  - "电商检索"
+  - "细粒度表示学习"
+  - "属性生成"
+  - "强化学习对齐"
+  - "对比学习"
 ---
 
 # AFMRL: Attribute-Enhanced Fine-Grained Multi-Modal Representation Learning in E-commerce

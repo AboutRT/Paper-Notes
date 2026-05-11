@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance
 description: >-
-  [CVPR 2025][轨迹可控视频生成] FlashMotion 提出了一个三阶段训练框架，将轨迹可控视频生成从多步去噪蒸馏到少步推理（4-8步），通过先训练轨迹适配器、再蒸馏生成器、最后用扩散+对抗混合目标微调适配器的策略，在大幅加速推理的同时保持了视频质量和轨迹精度。
+  [CVPR 2025][视频生成][轨迹可控视频生成] FlashMotion 提出了一个三阶段训练框架，将轨迹可控视频生成从多步去噪蒸馏到少步推理（4-8步），通过先训练轨迹适配器、再蒸馏生成器、最后用扩散+对抗混合目标微调适配器的策略，在大幅加速推理的同时保持了视频质量和轨迹精度。
 tags:
-  - CVPR 2025
-  - 轨迹可控视频生成
-  - 视频生成
-  - 少步推理
-  - 对抗训练
-  - 视频扩散模型
+  - "CVPR 2025"
+  - "视频生成"
+  - "轨迹可控视频生成"
+  - "知识蒸馏"
+  - "少步推理"
+  - "对抗训练"
+  - "视频扩散模型"
 ---
 
 # FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance

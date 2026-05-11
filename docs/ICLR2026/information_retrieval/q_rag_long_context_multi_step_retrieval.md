@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Q-RAG: Long Context Multi-Step Retrieval via Value-Based Embedder Training
 description: >-
-  [ICLR 2026 Oral][信息检索][multi-step retrieval] 将多步检索建模为 MDP，用基于值的 RL（soft Q-learning）微调 **embedder 而非 LLM**，Q 函数设计为状态嵌入和动作嵌入的内积（理论证明为万能近似器），结合 RoPE 相对位置编码实现时序推理，在单卡 A100 上训练 12 小时，4K 训练泛化到 1M+ token 上下文，RULER 基准达到近乎完美的 NIAH 性能。
+  [ICLR 2026 Oral][信息检索/RAG][multi-step retrieval] 将多步检索建模为 MDP，用基于值的 RL（soft Q-learning）微调 **embedder 而非 LLM**，Q 函数设计为状态嵌入和动作嵌入的内积（理论证明为万能近似器）…
 tags:
-  - ICLR 2026 Oral
-  - 信息检索
-  - multi-step retrieval
-  - value-based RL
-  - embedder training
-  - long context
-  - RAG
+  - "ICLR 2026 Oral"
+  - "信息检索/RAG"
+  - "multi-step retrieval"
+  - "value-based RL"
+  - "embedder training"
+  - "long context"
+  - "RAG"
 ---
 
 # Q-RAG: Long Context Multi-Step Retrieval via Value-Based Embedder Training
@@ -64,7 +64,7 @@ tags:
     - 设计动机：检索场景中 chunk 数量可达数千，replay buffer 每次采样都需重计算所有 chunk 的 Q 值，PQN 的在线特性避免了这一瓶头
 
 ### 损失函数 / 训练策略
-$\mathcal{L}_Q = \mathbb{E}[(Q_\theta(s_t, a_t) - G_t^\lambda)^2]$，AdamW 优化器，lr=1.5e-5，温度 $\alpha=0.05$ 退火到 0，$\lambda=0.5$，单卡 A100-80GB 训练 <12 小时。
+$\mathcal{L}_Q = \mathbb{E}[(Q_\theta(s_t, a_t) - G_t^\lambda)^2]$，AdamW 优化器，lr=1.5e-5，温度 $\alpha=0.05$ 退火到 0，$\lambda=0.5$，单卡 A100-80GB 训练 &lt;12 小时。
 
 ## 实验关键数据
 

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ChunQiuTR: Time-Keyed Temporal Retrieval in Classical Chinese Annals
 description: >-
-  [ACL 2026][时间检索] 提出 ChunQiuTR，首个基于非格里历的时间键检索基准，从《春秋》及其注疏传统中构建，并设计了 CTD（历法时间双编码器），通过傅里叶绝对历法上下文和相对偏移偏置实现时间感知检索，显著优于纯语义基线。
+  [ACL 2026][信息检索/RAG][时间检索] 提出 ChunQiuTR，首个基于非格里历的时间键检索基准，从《春秋》及其注疏传统中构建，并设计了 CTD（历法时间双编码器），通过傅里叶绝对历法上下文和相对偏移偏置实现时间感知检索，显著优于纯语义基线。
 tags:
-  - ACL 2026
-  - 时间检索
-  - 古典中文
-  - 历法编码
-  - 双编码器
-  - RAG
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "时间检索"
+  - "古典中文"
+  - "历法编码"
+  - "双编码器"
+  - "RAG"
 ---
 
 # ChunQiuTR: Time-Keyed Temporal Retrieval in Classical Chinese Annals

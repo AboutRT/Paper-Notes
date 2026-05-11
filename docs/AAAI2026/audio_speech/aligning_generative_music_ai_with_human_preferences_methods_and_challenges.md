@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Aligning Generative Music AI with Human Preferences: Methods and Challenges
 description: >-
-  [AAAI 2026][语音][音乐生成] 综述/立场论文，系统梳理偏好对齐技术在音乐生成中的三条路线——MusicRL（大规模 RLHF，~30 万偏好对）、DiffRhythm+（扩散模型多偏好 DPO）、Text2midi-InferAlign（推理时树搜索，CLAP +29.4%），深入分析音乐领域独有的对齐挑战（多尺度时间连贯性、和声一致性、文化主观性、评估悖论），并给出未来路线图。
+  [AAAI 2026][音频/语音][音乐生成] 综述/立场论文，系统梳理偏好对齐技术在音乐生成中的三条路线——MusicRL（大规模 RLHF，~30 万偏好对）、DiffRhythm+（扩散模型多偏好 DPO）、Text2midi-InferAlign（推理时树搜索，CLAP +29.4%）…
 tags:
-  - AAAI 2026
-  - 语音
-  - 音乐生成
-  - 音频语音
-  - RLHF
-  - DPO
-  - 推理时优化
+  - "AAAI 2026"
+  - "音频/语音"
+  - "音乐生成"
+  - "偏好对齐"
+  - "RLHF"
+  - "DPO"
+  - "推理时优化"
 ---
 
 # Aligning Generative Music AI with Human Preferences: Methods and Challenges

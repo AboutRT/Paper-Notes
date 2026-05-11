@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][动态上下文运动生成] 提出SemGeoMo，通过LLM自动标注器提供语义引导并结合affordance-level和joint-level的层级几何引导，在两阶段框架中实现动态上下文环境下的高质量人体交互运动生成，同时输出对应文本描述。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 动态上下文运动生成
-  - 语义几何引导
-  - Affordance Map
-  - LLM标注器
-  - 人物交互
+  - "CVPR 2025"
+  - "人体理解"
+  - "动态上下文运动生成"
+  - "语义几何引导"
+  - "Affordance Map"
+  - "LLM标注器"
+  - "人物交互"
 ---
 
 # SemGeoMo: Dynamic Contextual Human Motion Generation with Semantic and Geometric Guidance

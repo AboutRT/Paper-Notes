@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][风格归因] 提出 IntroStyle，一种无需训练的风格归因方法，仅利用扩散模型自身中间层特征的通道级均值和方差统计量，通过 2-Wasserstein 距离度量图像间的风格相似性，在 WikiArt 和 DomainNet 上大幅超越需要专门训练的 SOTA 方法。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 风格归因
-  - 扩散模型特征
-  - 免训练
-  - Wasserstein距离
-  - 版权保护
-  - 风格检索
+  - "ICCV 2025"
+  - "图像生成"
+  - "风格归因"
+  - "扩散模型特征"
+  - "免训练"
+  - "Wasserstein距离"
+  - "版权保护"
+  - "风格检索"
 ---
 
 # IntroStyle: Training-Free Introspective Style Attribution using Diffusion Features

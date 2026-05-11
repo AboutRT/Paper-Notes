@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TRUST -- Transformer-Driven U-Net for Sparse Target Recovery
 description: >-
-  [NeurIPS 2025][稀疏恢复] 提出 TRUST 架构，将 Transformer 的注意力机制与 U-Net 解码器结合，在感知矩阵未知的条件下同时学习感知算子和重建稀疏信号，在 SSIM 和 PSNR 上显著超越传统方法。
+  [NeurIPS 2025][LLM安全][稀疏恢复] 提出 TRUST 架构，将 Transformer 的注意力机制与 U-Net 解码器结合，在感知矩阵未知的条件下同时学习感知算子和重建稀疏信号，在 SSIM 和 PSNR 上显著超越传统方法。
 tags:
-  - NeurIPS 2025
-  - 稀疏恢复
-  - Transformer
-  - U-Net
-  - 逆问题
-  - 感知矩阵学习
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "稀疏恢复"
+  - "Transformer"
+  - "U-Net"
+  - "逆问题"
+  - "感知矩阵学习"
 ---
 
 # TRUST -- Transformer-Driven U-Net for Sparse Target Recovery

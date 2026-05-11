@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Quantifying the Role of OpenFold Components in Protein Structure Prediction
 description: >-
-  [NeurIPS 2025 (Workshop)][医学图像][OpenFold] 本文提出系统方法评估 OpenFold/AlphaFold2 中 Evoformer 各组件对蛋白质结构预测精度的贡献，发现 MSA 列注意力和 MLP Transition 层是最关键的组件，且多个组件的重要性与蛋白质序列长度显著相关。
+  [NeurIPS 2025 (Workshop)][医学图像][OpenFold] 本文提出系统方法评估 OpenFold/AlphaFold2 中 Evoformer 各组件对蛋白质结构预测精度的贡献，发现 MSA 列注意力和 MLP Transition 层是最关键的组件…
 tags:
-  - NeurIPS 2025 (Workshop)
-  - 医学图像
-  - OpenFold
-  - AlphaFold2
-  - Evoformer
-  - 组件消融
-  - 蛋白质长度
+  - "NeurIPS 2025 (Workshop)"
+  - "医学图像"
+  - "OpenFold"
+  - "AlphaFold2"
+  - "Evoformer"
+  - "组件消融"
+  - "蛋白质长度"
 ---
 
 # Quantifying the Role of OpenFold Components in Protein Structure Prediction
@@ -56,7 +56,7 @@ OpenFold 的蛋白质结构预测分三个阶段：
 
 **数据筛选策略**
 
-使用 CAMEO 三个月子集（序列长度<700 的蛋白质），排除缺失结构文件和基线 TM-score < 0.7 的目标，最终保留 154 个蛋白质。
+使用 CAMEO 三个月子集（序列长度&lt;700 的蛋白质），排除缺失结构文件和基线 TM-score < 0.7 的目标，最终保留 154 个蛋白质。
 
 ### 损失函数 / 训练策略
 

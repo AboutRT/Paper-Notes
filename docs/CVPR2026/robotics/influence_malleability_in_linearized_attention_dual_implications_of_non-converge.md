@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2026][机器人][Neural Tangent Kernel] 本文揭示线性化注意力机制在 NTK 框架下不收敛至无穷宽极限，并提出"影响力可塑性"(influence malleability) 度量，证明注意力的强大能力与对抗脆弱性共享同一来源——偏离核regime的数据依赖核结构。
 tags:
-  - CVPR2026
-  - 机器人
-  - Neural Tangent Kernel
-  - 线性化注意力
-  - 影响力可塑性
-  - 核方法
-  - 特征学习
+  - "CVPR2026"
+  - "机器人"
+  - "Neural Tangent Kernel"
+  - "线性化注意力"
+  - "影响力可塑性"
+  - "核方法"
+  - "特征学习"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

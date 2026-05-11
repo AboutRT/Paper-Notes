@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][结构化稀疏分解] 本文提出一种结构化稀疏分解方法，将LLM权重矩阵分解为低秩部分和结构化稀疏部分的组合，实现高压缩比的同时保持模型性能，使大模型在资源受限环境下高效部署成为可能。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 结构化稀疏分解
-  - LLM压缩
-  - 权重矩阵分解
-  - 低秩近似
-  - 稀疏表示
+  - "ACL 2025"
+  - "模型压缩"
+  - "结构化稀疏分解"
+  - "LLM压缩"
+  - "权重矩阵分解"
+  - "低秩近似"
+  - "稀疏表示"
 ---
 
 # Compact and Compressible Representations for LLMs Using Structured Sparse Decomposition

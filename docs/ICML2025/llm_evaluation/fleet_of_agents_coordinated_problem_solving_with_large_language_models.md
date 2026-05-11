@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][LLM评测][LLM推理] 提出Fleet of Agents(FoA)——用遗传粒子滤波思想协调多Agent的LLM推理：生成多个Agent各自探索→基于启发式价值函数重采样→动态分支适应发现的方案，平均比SOTA方法提升5%质量同时仅需40%的成本。
 tags:
-  - ICML2025
-  - LLM评测
-  - LLM推理
-  - 遗传粒子滤波
-  - 树搜索
-  - 成本效率
-  - 探索利用
+  - "ICML2025"
+  - "LLM评测"
+  - "LLM推理"
+  - "遗传粒子滤波"
+  - "树搜索"
+  - "成本效率"
+  - "探索利用"
 ---
 
 # Fleet of Agents: Coordinated Problem Solving with Large Language Models

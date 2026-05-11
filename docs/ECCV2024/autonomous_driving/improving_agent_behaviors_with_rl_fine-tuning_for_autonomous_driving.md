@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][强化学习微调] 通过闭环强化学习微调改善监督学习训练的交通智能体行为模型，解决开环训练的分布偏移问题，在Waymo仿真基准上取得SOTA。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 强化学习微调
-  - 智能体行为建模
-  - 自动驾驶仿真
-  - 分布偏移
-  - Waymo
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "强化学习微调"
+  - "智能体行为建模"
+  - "自动驾驶仿真"
+  - "分布偏移"
+  - "Waymo"
 ---
 
 # Improving Agent Behaviors with RL Fine-tuning for Autonomous Driving

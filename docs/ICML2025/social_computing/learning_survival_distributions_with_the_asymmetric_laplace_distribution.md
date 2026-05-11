@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Survival Distributions with the Asymmetric Laplace Distribution
 description: >-
-  [ICML2025][生存分析] 提出基于非对称拉普拉斯分布 (ALD) 的参数化生存分析方法，通过神经网络学习 ALD 的三个参数（位置、尺度、不对称性），实现连续、闭式的生存分布估计，在判别性和校准性上全面优于现有参数化与非参数化方法。
+  [ICML2025][社会计算][生存分析] 提出基于非对称拉普拉斯分布 (ALD) 的参数化生存分析方法，通过神经网络学习 ALD 的三个参数（位置、尺度、不对称性），实现连续、闭式的生存分布估计，在判别性和校准性上全面优于现有参数化与非参数化方法。
 tags:
-  - ICML2025
-  - 生存分析
-  - 非对称拉普拉斯分布
-  - 参数化模型
-  - 分位数回归
-  - 最大似然估计
+  - "ICML2025"
+  - "社会计算"
+  - "生存分析"
+  - "非对称拉普拉斯分布"
+  - "参数化模型"
+  - "分位数回归"
+  - "最大似然估计"
 ---
 
 # Learning Survival Distributions with the Asymmetric Laplace Distribution

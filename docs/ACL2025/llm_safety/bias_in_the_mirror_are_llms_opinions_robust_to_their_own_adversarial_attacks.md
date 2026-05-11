@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Bias in the Mirror: Are LLMs' Opinions Robust to Their Own Adversarial Attacks
 description: >-
-  [ACL 2025][AI安全][LLM偏见] 本文提出一种新颖的"自辩论"范式，让同一个LLM的两个实例分别扮演正方和反方进行辩论，试图说服一个中立版本的模型，以此评估LLM内在偏见的鲁棒性——偏见是否容易被动摇，以及模型是否容易被自身的对抗性论证带偏。
+  [ACL 2025][LLM安全][LLM偏见] 本文提出一种新颖的"自辩论"范式，让同一个LLM的两个实例分别扮演正方和反方进行辩论，试图说服一个中立版本的模型，以此评估LLM内在偏见的鲁棒性——偏见是否容易被动摇，以及模型是否容易被自身的对抗性论证带偏。
 tags:
-  - ACL 2025
-  - AI安全
-  - LLM偏见
-  - 自辩论
-  - 对抗攻击
-  - 观点鲁棒性
-  - 多语言
+  - "ACL 2025"
+  - "LLM安全"
+  - "LLM偏见"
+  - "自辩论"
+  - "对抗攻击"
+  - "观点鲁棒性"
+  - "多语言"
 ---
 
 # Bias in the Mirror: Are LLMs' Opinions Robust to Their Own Adversarial Attacks

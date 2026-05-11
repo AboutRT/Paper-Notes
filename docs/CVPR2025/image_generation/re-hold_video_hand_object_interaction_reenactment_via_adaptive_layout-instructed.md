@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][手物交互] 提出 Re-HOLD，首个以人为中心的手物交互(HOI)视频重演框架，通过分离式布局表示解耦手和物体建模，结合交互纹理增强模块和自适应布局调整策略，实现跨物体高保真 HOI 视频生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 手物交互
-  - 视频重演
-  - 布局引导
-  - 扩散模型
-  - 纹理增强
+  - "CVPR 2025"
+  - "图像生成"
+  - "手物交互"
+  - "视频重演"
+  - "布局引导"
+  - "扩散模型"
+  - "纹理增强"
 ---
 
 # Re-HOLD: Video Hand Object Interaction Reenactment via Adaptive Layout-instructed Diffusion Model

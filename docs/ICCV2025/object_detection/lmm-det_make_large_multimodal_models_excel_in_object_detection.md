@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][目标检测][大型多模态模型] 提出 LMM-Det，通过系统分析发现大型多模态模型在目标检测中核心瓶颈是低召回率，并通过数据分布调整（伪标签增强）和推理优化（按类别逐一检测）将 LMM 的 COCO AP 从 0.2 提升至 47.5，无需任何额外专用检测模块。
 tags:
-  - ICCV 2025
-  - 目标检测
-  - 大型多模态模型
-  - 召回率
-  - 数据分布调整
-  - 推理优化
+  - "ICCV 2025"
+  - "目标检测"
+  - "大型多模态模型"
+  - "召回率"
+  - "数据分布调整"
+  - "推理优化"
 ---
 
 # LMM-Det: Make Large Multimodal Models Excel in Object Detection

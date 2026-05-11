@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Behavior Injection: Preparing Language Models for Reinforcement Learning
 description: >-
-  [NeurIPS 2025][RL微调] 揭示 LLM 对 RL 微调响应不一致的根本原因——通过 per-step influence 分析发现 RL 效果取决于（1）rollout 准确率分布（中等最优）和（2）数据 co-influence 强度，提出 BRIDGE 在 SFT 阶段注入探索/利用行为，使后续 RL 增益从 6% 提升到 46.6%。
+  [NeurIPS 2025][强化学习][RL微调] 揭示 LLM 对 RL 微调响应不一致的根本原因——通过 per-step influence 分析发现 RL 效果取决于（1）rollout 准确率分布（中等最优）和（2）数据 co-influence 强度…
 tags:
-  - NeurIPS 2025
-  - RL微调
-  - 行为注入
-  - 数据增强
-  - GRPO
-  - per-step influence
-  - 强化学习
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "RL微调"
+  - "行为注入"
+  - "数据增强"
+  - "GRPO"
+  - "per-step influence"
+  - "推理"
 ---
 
 # Behavior Injection: Preparing Language Models for Reinforcement Learning
@@ -85,7 +86,7 @@ SFT: 标准交叉熵（含 BRIDGE 增强数据）。RL: GRPO（标准）。
 
 | 配置 | 关键发现 | 说明 |
 |------|---------|------|
-| Rollout 准确率分布 | BRIDGE 有最大比例的 0<acc<1 | 验证理论：中等准确率最优 |
+| Rollout 准确率分布 | BRIDGE 有最大比例的 0<acc&lt;1 | 验证理论：中等准确率最优 |
 | Co-influence 测量 | BRIDGE 2-3× 高于基线 | 结构化推理增强迁移性 |
 | 去除探索行为 | RL 增益显著降低 | 探索是必要条件 |
 | 去除利用行为 | RL 增益中等降低 | 两者互补 |

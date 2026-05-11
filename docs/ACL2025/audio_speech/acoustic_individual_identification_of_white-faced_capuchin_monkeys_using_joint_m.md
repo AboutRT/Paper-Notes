@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Acoustic Individual Identification of White-Faced Capuchin Monkeys Using Joint Multi-Species Embeddings
 description: >-
-  [ACL 2025 (Short Paper)][语音][动物个体识别] 本文探索利用来自鸟类和人类的跨物种声学预训练嵌入来识别白面卷尾猴的个体叫声，发现联合多物种表征能进一步提升识别性能，为数据极度稀缺的野生动物个体识别提供了新的迁移学习范式。
+  [ACL 2025 (Short Paper)][音频/语音][动物个体识别] 本文探索利用来自鸟类和人类的跨物种声学预训练嵌入来识别白面卷尾猴的个体叫声，发现联合多物种表征能进一步提升识别性能，为数据极度稀缺的野生动物个体识别提供了新的迁移学习范式。
 tags:
-  - ACL 2025 (Short Paper)
-  - 语音
-  - 动物个体识别
-  - 跨物种迁移学习
-  - 声学嵌入
-  - 多物种表征
-  - 白面卷尾猴
+  - "ACL 2025 (Short Paper)"
+  - "音频/语音"
+  - "动物个体识别"
+  - "跨物种迁移学习"
+  - "声学嵌入"
+  - "多物种表征"
+  - "白面卷尾猴"
 ---
 
 # Acoustic Individual Identification of White-Faced Capuchin Monkeys Using Joint Multi-Species Embeddings

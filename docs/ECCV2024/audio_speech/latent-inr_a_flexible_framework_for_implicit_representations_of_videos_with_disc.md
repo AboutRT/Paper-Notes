@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Latent-INR: A Flexible Framework for Implicit Representations of Videos with Discriminative Semantics
 description: >-
-  [ECCV2024][语音][Implicit Neural Representations] 提出 Latent-INR 框架，通过为视频每帧学习一个隐式 latent code 并结合 hypernetwork 进行低秩权重调制，将视频 INR 的空间与时间建模解耦，在保持压缩性能的同时赋予表征语义判别能力，支持检索、视频插帧和任意分辨率推理等多种下游任务。
+  [ECCV2024][音频/语音][Implicit Neural Representations] 提出 Latent-INR 框架，通过为视频每帧学习一个隐式 latent code 并结合 hypernetwork 进行低秩权重调制，将视频 INR 的空间与时间建模解耦…
 tags:
-  - ECCV2024
-  - 语音
-  - Implicit Neural Representations
-  - Video Compression
-  - Video Retrieval
-  - Hypernetwork
-  - CLIP Alignment
+  - "ECCV2024"
+  - "音频/语音"
+  - "Implicit Neural Representations"
+  - "Video Compression"
+  - "Video Retrieval"
+  - "Hypernetwork"
+  - "CLIP Alignment"
 ---
 
 # Latent-INR: A Flexible Framework for Implicit Representations of Videos with Discriminative Semantics

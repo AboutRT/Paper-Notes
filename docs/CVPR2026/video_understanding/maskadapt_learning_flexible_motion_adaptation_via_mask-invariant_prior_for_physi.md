@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][物理仿真] 本文提出 MaskAdapt 框架，通过两阶段残差学习范式——先训练遮蔽不变的鲁棒基础策略，再训练冻结基础控制器上的残差策略来修改目标身体部位——实现灵活精准的物理仿真人形角色动作适应。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 物理仿真
-  - 动作适应
-  - 残差学习
-  - 身体部位遮蔽
-  - 人形控制
+  - "CVPR 2026"
+  - "视频理解"
+  - "物理仿真"
+  - "动作适应"
+  - "残差学习"
+  - "身体部位遮蔽"
+  - "人形控制"
 ---
 
 # MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters

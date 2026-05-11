@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][注意力机制] GSPN 提出广义空间传播网络，通过行/列线扫描的 2D 线性传播和稳定性-上下文条件，实现原生 2D 空间感知的亚二次注意力机制，将有效序列长度降至 $\sqrt{N}$，在 16K 图像生成中加速 SD-XL 达 84 倍。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 注意力机制
-  - 空间传播网络
-  - 线性复杂度
-  - 2D结构
-  - 高分辨率生成
+  - "CVPR 2025"
+  - "图像生成"
+  - "注意力机制"
+  - "空间传播网络"
+  - "线性复杂度"
+  - "2D结构"
+  - "高分辨率生成"
 ---
 
 # Parallel Sequence Modeling via Generalized Spatial Propagation Network

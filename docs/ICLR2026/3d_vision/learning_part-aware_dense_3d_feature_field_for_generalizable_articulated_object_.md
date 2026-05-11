@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Part-Aware Dense 3D Feature Field for Generalizable Articulated Object Manipulation
 description: >-
-  [ICLR 2026][3D视觉][3D特征场] 提出 PA3FF（Part-Aware 3D Feature Field），一种原生 3D 的稠密部件感知特征表示，通过 Sonata 预训练骨干 + 几何/语义对比学习获得零部件级特征，结合 Part-Aware Diffusion Policy (PADP) 实现少样本、高泛化性的关节物体操作，在仿真和真实环境中均大幅超越 CLIP/DINOv2/GenDP 等基线。
+  [ICLR 2026][3D视觉][3D特征场] 提出 PA3FF（Part-Aware 3D Feature Field），一种原生 3D 的稠密部件感知特征表示，通过 Sonata 预训练骨干 + 几何/语义对比学习获得零部件级特征…
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 3D特征场
-  - 部件感知
-  - 关节物体操作
-  - 对比学习
-  - 扩散策略
+  - "ICLR 2026"
+  - "3D视觉"
+  - "3D特征场"
+  - "部件感知"
+  - "关节物体操作"
+  - "对比学习"
+  - "扩散策略"
 ---
 
 # Learning Part-Aware Dense 3D Feature Field for Generalizable Articulated Object Manipulation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation
 description: >-
-  [CVPR 2025][图像分割][SAM 适配] HFP-SAM 提出分层频率提示的 SAM 框架，通过频率引导适配器（FGA）注入海洋场景信息、频率感知点选择（FPS）自动生成高质量点提示、全视图 Mamba（FVM）高效解码，在四个海洋动物分割数据集上取得 SOTA。
+  [CVPR 2025][语义分割][SAM 适配] HFP-SAM 提出分层频率提示的 SAM 框架，通过频率引导适配器（FGA）注入海洋场景信息、频率感知点选择（FPS）自动生成高质量点提示、全视图 Mamba（FVM）高效解码，在四个海洋动物分割数据集上取得 SOTA。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - SAM 适配
-  - 频率域先验
-  - 点提示生成
-  - Mamba 解码器
-  - 海洋动物分割
+  - "CVPR 2025"
+  - "语义分割"
+  - "SAM 适配"
+  - "频率域先验"
+  - "点提示生成"
+  - "Mamba 解码器"
+  - "海洋动物分割"
 ---
 
 # HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation

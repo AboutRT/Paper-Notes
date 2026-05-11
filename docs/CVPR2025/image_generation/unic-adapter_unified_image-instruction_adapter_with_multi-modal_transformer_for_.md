@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][统一可控生成] UNIC-Adapter 基于 MM-DiT 架构设计了一个统一的图像-指令适配器，通过跨注意力机制和 RoPE 增强的空间感知注入，使单个 SD3 模型能够处理像素级控制、主题驱动生成和风格迁移等 14 种条件图像生成任务。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 统一可控生成
-  - 适配器
-  - MM-DiT
-  - 跨注意力
-  - 旋转位置编码
+  - "CVPR 2025"
+  - "图像生成"
+  - "统一可控生成"
+  - "适配器"
+  - "MM-DiT"
+  - "跨注意力"
+  - "旋转位置编码"
 ---
 
 # UNIC-Adapter: Unified Image-Instruction Adapter with Multi-modal Transformer for Image Generation

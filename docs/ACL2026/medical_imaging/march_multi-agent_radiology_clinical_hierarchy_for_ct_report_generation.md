@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation
 description: >-
-  [ACL 2026][医学图像][多智能体] 本文提出 MARCH，一个模拟放射科住院医-专科医-主治医层级协作流程的多智能体框架，通过三阶段（初始报告起草、检索增强修订、共识驱动定稿）生成 CT 报告，在 RadGenome-ChestCT 数据集上 CE-F1 达 0.399，比最佳基线 Reg2RG 的 0.253 提升 57.7%。
+  [ACL 2026][医学图像][多智能体] 本文提出 MARCH，一个模拟放射科住院医-专科医-主治医层级协作流程的多智能体框架，通过三阶段（初始报告起草、检索增强修订、共识驱动定稿）生成 CT 报告，在 RadGenome-ChestCT 数据集上 CE-F1 达 0.399…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 多智能体
-  - 放射学报告生成
-  - 共识驱动
-  - 检索增强
-  - 3D CT
+  - "ACL 2026"
+  - "医学图像"
+  - "多智能体"
+  - "放射学报告生成"
+  - "共识驱动"
+  - "检索增强"
+  - "3D CT"
 ---
 
 # MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation

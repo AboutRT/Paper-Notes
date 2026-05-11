@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][个性化助手] 提出HiCUPID——首个全面满足个性化AI助手五大需求（用户信息遵循/隐含信息理解/多信息推理/长上下文建模/主动性回复）的开源基准，含1500用户×40个对话+QA对+Llama-3.2自动评估模型。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 个性化助手
-  - benchmark
-  - 长上下文
-  - 用户信息
-  - 自动评估
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "个性化助手"
+  - "benchmark"
+  - "长上下文"
+  - "用户信息"
+  - "自动评估"
 ---
 
 # HiCUPID: Exploring the Potential of LLMs as Personalized Assistants

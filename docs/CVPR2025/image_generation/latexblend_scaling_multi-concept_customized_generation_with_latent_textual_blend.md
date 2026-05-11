@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多概念定制生成] LaTexBlend 通过在文本编码器后的潜在文本空间（Latent Textual Space）中表示和融合多个定制概念，实现了高保真、高效率的多概念定制图像生成，微调复杂度线性增长且推理无额外开销。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多概念定制生成
-  - 文本到图像
-  - 潜在文本空间
-  - 概念融合
-  - 去噪偏差
+  - "CVPR 2025"
+  - "图像生成"
+  - "多概念定制生成"
+  - "文本到图像"
+  - "潜在文本空间"
+  - "概念融合"
+  - "去噪偏差"
 ---
 
 # LaTexBlend: Scaling Multi-concept Customized Generation with Latent Textual Blending

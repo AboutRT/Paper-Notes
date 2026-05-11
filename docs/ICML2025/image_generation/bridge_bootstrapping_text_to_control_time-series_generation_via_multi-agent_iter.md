@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][文本控制时序生成] 提出 Bridge 框架，通过 LLM 多智能体系统生成高质量文本-时序配对数据，并利用语义原型与文本描述的混合提示驱动扩散模型，实现跨域、实例级别的文本控制时序生成（Text-Controlled TSG），在12个数据集中11个取得SOTA。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 文本控制时序生成
-  - 多智能体
-  - 扩散模型
-  - 语义原型
-  - 跨域泛化
+  - "ICML 2025"
+  - "图像生成"
+  - "文本控制时序生成"
+  - "多智能体"
+  - "扩散模型"
+  - "语义原型"
+  - "跨域泛化"
 ---
 
 # BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling

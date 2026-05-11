@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ChemAmp: Amplified Chemistry Tools via Composable Agents
 description: >-
-  [ACL 2026][模型压缩][工具放大] 提出"工具放大"新范式（区别于传统的工具编排），通过 ChemAmp 框架将化学专用工具（UniMol2、Chemformer等）作为可组合积木块动态构建任务专用超级智能体，在分子设计、反应预测等四个核心化学任务上超越专用模型和通用LLM，同时推理token成本减少94%。
+  [ACL 2026][模型压缩][工具放大] 提出"工具放大"新范式（区别于传统的工具编排），通过 ChemAmp 框架将化学专用工具（UniMol2、Chemformer等）作为可组合积木块动态构建任务专用超级智能体，在分子设计、反应预测等四个核心化学任务上超越专用模型和通用LLM…
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 工具放大
-  - 可组合智能体
-  - 化学AI
-  - 多智能体系统
-  - 层次化组合
+  - "ACL 2026"
+  - "模型压缩"
+  - "工具放大"
+  - "可组合智能体"
+  - "化学AI"
+  - "多智能体系统"
+  - "层次化组合"
 ---
 
 # ChemAmp: Amplified Chemistry Tools via Composable Agents

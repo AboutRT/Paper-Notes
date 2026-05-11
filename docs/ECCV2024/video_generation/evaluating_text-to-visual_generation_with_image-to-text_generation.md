@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Evaluating Text-to-Visual Generation with Image-to-Text Generation
 description: >-
-  [ECCV 2024][视频生成] 提出VQAScore，利用VQA模型替代CLIP来评估文本-视觉生成质量，在复杂组合性提示上大幅超越CLIPScore，并发布GenAI-Bench基准。
+  [ECCV 2024][视频生成][文本-视觉生成评估] 提出VQAScore，利用VQA模型替代CLIP来评估文本-视觉生成质量，在复杂组合性提示上大幅超越CLIPScore，并发布GenAI-Bench基准。
 tags:
-  - ECCV 2024
-  - 视频生成
-  - VQAScore
-  - 图文对齐
-  - 组合性提示
-  - GenAI-Bench
+  - "ECCV 2024"
+  - "视频生成"
+  - "文本-视觉生成评估"
+  - "VQAScore"
+  - "图文对齐"
+  - "组合性提示"
+  - "GenAI-Bench"
 ---
 
 # Evaluating Text-to-Visual Generation with Image-to-Text Generation

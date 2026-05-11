@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM Agent][Web Agent] 本文提出WebExperT框架，模拟人类"快思考与慢思考"的规划模式，并通过从失败中反思的经验学习机制不断改进决策，在Mind2Web基准上取得了监督和无监督设置下的优异表现。
 tags:
-  - ACL 2025
-  - LLM Agent
-  - Web Agent
-  - 快思考慢思考
-  - 经验学习
-  - 多模态
-  - 网页导航
+  - "ACL 2025"
+  - "LLM Agent"
+  - "Web Agent"
+  - "快思考慢思考"
+  - "经验学习"
+  - "多模态"
+  - "网页导航"
 ---
 
 # Browsing Like Human: A Multimodal Web Agent with Experiential Fast-and-Slow Thinking

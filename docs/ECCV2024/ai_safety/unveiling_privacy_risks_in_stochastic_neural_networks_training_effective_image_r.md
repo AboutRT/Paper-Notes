@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][AI安全][梯度反演攻击] 本文揭示了随机神经网络（SNNs）在联邦学习中同样容易遭受梯度反演攻击，提出 ISG 方法通过将 SNN 的随机训练过程等价为传统 NN 训练的变体来重建训练数据，并引入特征约束策略提升重建保真度。
 tags:
-  - ECCV 2024
-  - AI安全
-  - 梯度反演攻击
-  - 随机神经网络
-  - 联邦学习
-  - 隐私泄露
-  - 图像重建
+  - "ECCV 2024"
+  - "AI安全"
+  - "梯度反演攻击"
+  - "随机神经网络"
+  - "联邦学习"
+  - "隐私泄露"
+  - "图像重建"
 ---
 
 # Unveiling Privacy Risks in Stochastic Neural Networks Training: Effective Image Reconstruction from Gradients

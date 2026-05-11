@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Breaking the Gradient Barrier: Unveiling Large Language Models for Strategic Classification
 description: >-
-  [NEURIPS2025][机器人][Strategic Classification] 提出 GLIM（Gradient-free Learning In-context Method），首次利用 LLM 的 In-Context Learning 机制隐式模拟策略分类中的双层优化（特征操纵 + 决策规则优化），无需微调即可在大规模数据上高效完成策略分类任务。
+  [NEURIPS2025][机器人][Strategic Classification] 提出 GLIM（Gradient-free Learning In-context Method），首次利用 LLM 的 In-Context Learning 机制隐式模拟策略分类中的双层优化（特征操纵 + 决策规则优…
 tags:
-  - NEURIPS2025
-  - 机器人
-  - Strategic Classification
-  - in-context learning
-  - Large Language Models
-  - Bi-level Optimization
-  - Gradient-free
+  - "NEURIPS2025"
+  - "机器人"
+  - "Strategic Classification"
+  - "in-context learning"
+  - "Large Language Models"
+  - "Bi-level Optimization"
+  - "Gradient-free"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

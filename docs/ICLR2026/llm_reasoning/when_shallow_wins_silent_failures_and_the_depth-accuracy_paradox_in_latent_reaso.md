@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][latent reasoning] 本文系统分析了 Qwen2.5-Math-7B 在 GSM8K 上的隐式推理行为，发现 81.6% 的正确预测来自计算不一致的路径，8.8% 为静默失败（高置信错误），并揭示了推理深度与准确率之间的悖论关系。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - latent reasoning
-  - faithfulness metrics
-  - silent failures
-  - depth-accuracy paradox
-  - computational stability
+  - "ICLR 2026"
+  - "LLM推理"
+  - "latent reasoning"
+  - "faithfulness metrics"
+  - "silent failures"
+  - "depth-accuracy paradox"
+  - "computational stability"
 ---
 
 # When Shallow Wins: Silent Failures and the Depth-Accuracy Paradox in Latent Reasoning

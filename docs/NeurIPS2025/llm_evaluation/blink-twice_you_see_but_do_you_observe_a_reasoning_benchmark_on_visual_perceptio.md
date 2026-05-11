@@ -2,15 +2,16 @@
 title: >-
   [论文解读] BLINK-Twice: You See But Do You Observe? A Reasoning Benchmark on Visual Perception
 description: >-
-  [NeurIPS 2025][LLM评测] 提出视觉中心推理 benchmark BLINK-Twice（345 张视觉挑战图 + 103 个对抗样本 + 896 个 VQA + 1725 个推理步骤标注），通过 7 类视觉错觉场景评估 MLLM "看到但未观察到"的推理能力，发现最强模型 Gemini-2.5 Pro 的 G-Acc 仅 26.9%，多轮图像观察和主动视觉交互是提升方向。
+  [NeurIPS 2025][LLM评测][视觉推理] 提出视觉中心推理 benchmark BLINK-Twice（345 张视觉挑战图 + 103 个对抗样本 + 896 个 VQA + 1725 个推理步骤标注），通过 7 类视觉错觉场景评估 MLLM "看到但未观察到"的推理能力…
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - VLM评估
-  - 感知vs推理
-  - 自然对抗样本
-  - 推理链评估
-  - benchmark
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "视觉推理"
+  - "VLM评估"
+  - "感知vs推理"
+  - "自然对抗样本"
+  - "推理链评估"
+  - "benchmark"
 ---
 
 # BLINK-Twice: You See But Do You Observe? A Reasoning Benchmark on Visual Perception
@@ -93,7 +94,7 @@ tags:
 | 分析维度 | 关键发现 | 说明 |
 |----------|---------|------|
 | CoT 推理增强 | QVQ > Qwen2-VL-72B (+15%), Claude-3.7-Thinking > Claude-3.7 (+20%) | CoT 显著改善视觉推理 |
-| 推理链效率 | QVQ 平均 950+ tokens，标准答案 <100 tokens | 大量冗余/自我矛盾推理 |
+| 推理链效率 | QVQ 平均 950+ tokens，标准答案 &lt;100 tokens | 大量冗余/自我矛盾推理 |
 | 多轮对话 | 弱模型（Gemini-2.0-flash-thinking）提升显著 | 重复观察图像改善感知 |
 | 强模型多轮 | GPT-4o, QwenVL2.5-72B 提升有限 | 已有较强视觉基础 |
 | MM-Eureka | 几乎无提升 | 数学推理增强不迁移到视觉推理 |

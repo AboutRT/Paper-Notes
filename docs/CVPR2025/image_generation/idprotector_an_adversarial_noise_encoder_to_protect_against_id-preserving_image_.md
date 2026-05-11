@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][人脸隐私保护] IDProtector 提出首个前馈式对抗噪声编码器，通过单次前向传播为人脸照片添加不可感知的对抗扰动，可同时防御 InstantID、IP-Adapter、PhotoMaker 等多种编码器驱动的身份保持生成方法，且对 JPEG 压缩、缩放等变换保持鲁棒。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 人脸隐私保护
-  - 对抗扰动
-  - 身份保持生成
-  - 前馈攻击
-  - 编码器攻击
+  - "CVPR 2025"
+  - "图像生成"
+  - "人脸隐私保护"
+  - "对抗扰动"
+  - "身份保持生成"
+  - "前馈攻击"
+  - "编码器攻击"
 ---
 
 # IDProtector: An Adversarial Noise Encoder to Protect Against ID-Preserving Image Generation

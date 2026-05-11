@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][思维链对齐] 本文提出 Alignment Score——一种基于语义熵矩阵的语义级指标，通过比较模型生成的思维链与人类偏好参考链的中间步骤来量化推理对齐度，发现 Alignment Score 与任务准确率、可读性和连贯性高度相关，且 2-hop 推理是对齐的峰值深度。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 思维链对齐
-  - Alignment Score
-  - 语义熵
-  - 推理质量
-  - 结构化推理
+  - "ACL 2026"
+  - "LLM推理"
+  - "思维链对齐"
+  - "Alignment Score"
+  - "语义熵"
+  - "推理质量"
+  - "结构化推理"
 ---
 
 # Chain-of-Thought as a Lens: Evaluating Structured Reasoning Alignment between Human Preferences and Large Language Models

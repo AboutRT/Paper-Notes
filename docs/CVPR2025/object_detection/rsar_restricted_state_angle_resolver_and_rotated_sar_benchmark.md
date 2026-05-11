@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][目标检测][旋转目标检测] 本文从维度映射的统一视角重新审视旋转目标检测中的角度解码器，揭示现有方法忽略单位圆约束导致的预测偏差，提出 Unit Cycle Resolver（UCR），并借助 UCR 构建了目前最大的多类别旋转 SAR 目标检测数据集 RSAR。
 tags:
-  - CVPR 2025
-  - 目标检测
-  - 旋转目标检测
-  - SAR图像
-  - 角度边界不连续
-  - 单位圆约束
-  - 弱监督
+  - "CVPR 2025"
+  - "目标检测"
+  - "旋转目标检测"
+  - "SAR图像"
+  - "角度边界不连续"
+  - "单位圆约束"
+  - "弱监督"
 ---
 
 # RSAR: Restricted State Angle Resolver and Rotated SAR Benchmark

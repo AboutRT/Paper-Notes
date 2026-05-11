@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Are LLM Belief Updates Consistent with Bayes' Theorem?
 description: >-
-  [ICML 2025 (Workshop on Assessing World Models)][Bayesian coherence] 本文提出贝叶斯一致性系数（BCC）来量化 LLM 的信念更新是否符合贝叶斯定理，发现更大、更强的预训练模型在给定新证据时，其信念更新与贝叶斯定理更一致。
+  [ICML 2025 (Workshop on Assessing World Models)][LLM评测][Bayesian coherence] 本文提出贝叶斯一致性系数（BCC）来量化 LLM 的信念更新是否符合贝叶斯定理，发现更大、更强的预训练模型在给定新证据时，其信念更新与贝叶斯定理更一致。
 tags:
-  - LLM评测
-  - Bayesian coherence
-  - belief update
-  - LLM evaluation
-  - probabilistic reasoning
-  - scaling
+  - "ICML 2025 (Workshop on Assessing World Models)"
+  - "LLM评测"
+  - "Bayesian coherence"
+  - "belief update"
+  - "LLM evaluation"
+  - "probabilistic reasoning"
+  - "scaling"
 ---
 
 # Are LLM Belief Updates Consistent with Bayes' Theorem?
@@ -66,7 +67,7 @@ tags:
 
 | 模型家族 | 参数量 | BCC ↑ | MMLU | 趋势 |
 |----------|--------|-------|------|------|
-| 小模型 | <7B | 较低 | 较低 | 基线 |
+| 小模型 | &lt;7B | 较低 | 较低 | 基线 |
 | 中等模型 | 7B-30B | 中等 | 中等 | 提升 |
 | 大模型 | 30B-70B | 较高 | 较高 | 显著提升 |
 | 最大模型 | >70B | 最高 | 最高 | 趋于饱和 |

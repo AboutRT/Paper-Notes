@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Language Reconstruction with Brain Predictive Coding from fMRI Data
 description: >-
-  [ACL 2026][医学图像][fMRI语言重建] 本文提出 PredFT，一个结合主网络（语言解码）和侧网络（脑预测编码表征）的端到端 fMRI-to-Text 解码模型，通过从大脑预测相关脑区（PTO 区域）提取前瞻性语义表征并融合到解码过程中，在 LeBel 数据集上 BLEU-1 达 34.95%（Sub-1），相比最强基线 MapGuide 提升 7.84 个百分点。
+  [ACL 2026][医学图像][fMRI语言重建] 本文提出 PredFT，一个结合主网络（语言解码）和侧网络（脑预测编码表征）的端到端 fMRI-to-Text 解码模型，通过从大脑预测相关脑区（PTO 区域）提取前瞻性语义表征并融合到解码过程中…
 tags:
-  - ACL 2026
-  - 医学图像
-  - fMRI语言重建
-  - 预测编码
-  - 脑信号解码
-  - 神经语言学
-  - 侧网络
+  - "ACL 2026"
+  - "医学图像"
+  - "fMRI语言重建"
+  - "预测编码"
+  - "脑信号解码"
+  - "神经语言学"
+  - "侧网络"
 ---
 
 # Language Reconstruction with Brain Predictive Coding from fMRI Data

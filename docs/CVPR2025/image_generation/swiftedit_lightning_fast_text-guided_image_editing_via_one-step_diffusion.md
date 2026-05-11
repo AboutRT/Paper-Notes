@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像编辑] 本文提出 SwiftEdit，首个基于单步扩散模型的文本引导图像编辑工具，通过两阶段训练的单步反演网络和注意力重缩放的 mask 编辑技术，在 0.23 秒内完成图像编辑，比多步方法快至少 50 倍。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像编辑
-  - 单步扩散
-  - 反演网络
-  - 注意力重缩放
-  - 实时编辑
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像编辑"
+  - "单步扩散"
+  - "反演网络"
+  - "注意力重缩放"
+  - "实时编辑"
 ---
 
 # SwiftEdit: Lightning Fast Text-Guided Image Editing via One-Step Diffusion

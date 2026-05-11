@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels
 description: >-
-  [NeurIPS 2025][LLM效率][注意力机制] 提出 TFLA（Tiled Flash Linear Attention）算法，通过二层序列并行化和 tiling 优化，实现高效的线性 RNN/mLSTM 内核，相比 FlashAttention 3 和 Mamba 2 获得显著墙钟加速（训练 >2x vs Mamba 2），同时保持等价的模型精度。
+  [NeurIPS 2025][LLM效率][注意力机制] 提出 TFLA（Tiled Flash Linear Attention）算法，通过二层序列并行化和 tiling 优化，实现高效的线性 RNN/mLSTM 内核…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - 注意力机制
-  - mLSTM
-  - xLSTM
-  - 线性RNN
-  - CUDA内核
-  - 分块并行
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "注意力机制"
+  - "mLSTM"
+  - "xLSTM"
+  - "线性RNN"
+  - "CUDA内核"
+  - "分块并行"
 ---
 
 # Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels
@@ -102,7 +102,7 @@ TFLA 包含两个核心内核：
 
 ### 关键发现
 - **L=256 是最优块大小**：平衡内存和速度
-- **TFLA 内核与 FLA 内核产生数值等价的结果**（损失偏差 <0.01）
+- **TFLA 内核与 FLA 内核产生数值等价的结果**（损失偏差 &lt;0.01）
 - **mLSTMsig 与 mLSTMexp 性能相当**，但内核快 30%
 - 训练时 TFLA 全面超越 Mamba 2（>2x），且在长序列上超越 FlashAttention 3
 

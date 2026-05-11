@@ -2,18 +2,18 @@
 title: >-
   [论文解读] On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks
 description: >-
-  [NeurIPS 2025][LLM效率][Mixture-of-Experts] 首次系统分析 MoE 在结构化复杂任务上的表达能力：证明浅层 MoE 可在低维流形上克服维度诅咒（近似速率由内在维度 $d$ 而非环境维度 $D$ 决定），深层 MoE 通过 $E$ 专家 × $L$ 层的分层组合可高效近似有 $E^L$ 段的分段函数，远超朴素上界 $LE$。
+  [NeurIPS 2025][LLM效率][Mixture-of-Experts] 首次系统分析 MoE 在结构化复杂任务上的表达能力：证明浅层 MoE 可在低维流形上克服维度诅咒（近似速率由内在维度 $d$ 而非环境维度 $D$ 决定）…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - Mixture-of-Experts
-  - expressive power
-  - approximation theory
-  - compositional sparsity
-  - curse of dimensionality
-  - manifold
-  - piecewise function
-  - gating mechanism
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "Mixture-of-Experts"
+  - "expressive power"
+  - "approximation theory"
+  - "compositional sparsity"
+  - "curse of dimensionality"
+  - "manifold"
+  - "piecewise function"
+  - "gating mechanism"
 ---
 
 # On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks

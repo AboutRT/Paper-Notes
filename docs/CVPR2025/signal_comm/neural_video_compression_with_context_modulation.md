@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Neural Video Compression with Context Modulation
 description: >-
-  [CVPR 2025][神经视频编码] 提出上下文调制机制，增强神经视频编码器（NVC）中时间上下文的传播和利用能力，解决现有条件编码方法时间上下文利用不充分的问题。
+  [CVPR 2025][信号/通信][神经视频编码] 提出上下文调制机制，增强神经视频编码器（NVC）中时间上下文的传播和利用能力，解决现有条件编码方法时间上下文利用不充分的问题。
 tags:
-  - CVPR 2025
-  - 神经视频编码
-  - 上下文调制
-  - 时间上下文
-  - 条件编码
+  - "CVPR 2025"
+  - "信号/通信"
+  - "神经视频编码"
+  - "上下文调制"
+  - "时间上下文"
+  - "条件编码"
 ---
 
-﻿# Neural Video Compression with Context Modulation
+# Neural Video Compression with Context Modulation
 
 **会议**: CVPR 2025  
 **arXiv**: [2505.14541](https://arxiv.org/abs/2505.14541)  

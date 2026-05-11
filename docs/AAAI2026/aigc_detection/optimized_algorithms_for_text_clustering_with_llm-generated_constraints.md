@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Optimized Algorithms for Text Clustering with LLM-Generated Constraints
 description: >-
-  [AAAI 2026][文本聚类] 提出 LSCK-HC 框架，利用 LLM 生成集合形式的 must-link/cannot-link 约束（而非传统成对约束），配合带惩罚项的局部搜索聚类算法，在5个短文本数据集上实现与 SOTA 可比的聚类精度，同时将 LLM 查询次数减少 20 倍以上。
+  [AAAI 2026][AIGC检测][文本聚类] 提出 LSCK-HC 框架，利用 LLM 生成集合形式的 must-link/cannot-link 约束（而非传统成对约束），配合带惩罚项的局部搜索聚类算法，在5个短文本数据集上实现与 SOTA 可比的聚类精度，同时将 LLM 查询次数减少 20 倍以上。
 tags:
-  - AAAI 2026
-  - 文本聚类
-  - AIGC检测
-  - k-means
-  - 半监督聚类
-  - 局部搜索
+  - "AAAI 2026"
+  - "AIGC检测"
+  - "文本聚类"
+  - "LLM约束生成"
+  - "k-means"
+  - "半监督聚类"
+  - "局部搜索"
 ---
 
 # Optimized Algorithms for Text Clustering with LLM-Generated Constraints

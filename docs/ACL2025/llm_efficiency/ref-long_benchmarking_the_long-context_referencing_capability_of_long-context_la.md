@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Ref-Long: Benchmarking the Long-Context Referencing Capability of Long-Context Language Models
 description: >-
-  [ACL 2025][LLM效率][长上下文引用] 提出 Ref-Long benchmark，从"引用定位"（给定 key 识别哪些文档引用了它并返回索引）这一被忽视的维度评估长上下文模型，包含 3 个子集（合成→真实）共 4300 个任务；发现即使 GPT-4o 在 Multi-Hard-24K 上 ExAcc 仅 19%，远低于人类 92%，且 prompt 工程和专项微调均无法根本解决该问题。
+  [ACL 2025][LLM效率][长上下文引用] 提出 Ref-Long benchmark，从"引用定位"（给定 key 识别哪些文档引用了它并返回索引）这一被忽视的维度评估长上下文模型，包含 3 个子集（合成→真实）共 4300 个任务…
 tags:
-  - ACL 2025
-  - LLM效率
-  - 长上下文引用
-  - benchmark
-  - 文档索引识别
-  - 人类对比
-  - LCLM评估
-  - 错误分析
+  - "ACL 2025"
+  - "LLM效率"
+  - "长上下文引用"
+  - "benchmark"
+  - "文档索引识别"
+  - "人类对比"
+  - "LCLM评估"
+  - "错误分析"
 ---
 
 # Ref-Long: Benchmarking the Long-Context Referencing Capability of Long-Context Language Models

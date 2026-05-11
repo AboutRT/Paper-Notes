@@ -2,16 +2,16 @@
 title: >-
   [论文解读] TrinityDNA: A Bio-Inspired Foundational Model for Efficient Long-Sequence DNA Modeling
 description: >-
-  [AAAI 2026][医学图像][DNA基础模型] 提出 TrinityDNA，一个生物启发的DNA基础模型，整合三大创新：Groove Fusion模块捕获DNA大小沟槽结构特征、Gated Reverse Complement机制处理双链互补对称性、Sliding Multi-Window Attention实现多尺度长程依赖建模，配合从原核到真核的进化训练策略（ETS），在GUE基准15个任务上平均MCC达0.708（超越2.5B参数的NT），在19个零样本任务上的原核/真核表现均领先，并提出新的CDS标注基准供长序列推理评估。
+  [AAAI 2026][医学图像][DNA基础模型] 提出 TrinityDNA，一个生物启发的DNA基础模型，整合三大创新：Groove Fusion模块捕获DNA大小沟槽结构特征、Gated Reverse Complement机制处理双链互补对称性、Sliding Multi-Window Attent…
 tags:
-  - AAAI 2026
-  - 医学图像
-  - DNA基础模型
-  - 长序列建模
-  - 反向互补
-  - 沟槽融合
-  - 多窗口注意力
-  - 进化训练策略
+  - "AAAI 2026"
+  - "医学图像"
+  - "DNA基础模型"
+  - "长序列建模"
+  - "反向互补"
+  - "沟槽融合"
+  - "多窗口注意力"
+  - "进化训练策略"
 ---
 
 # TrinityDNA: A Bio-Inspired Foundational Model for Efficient Long-Sequence DNA Modeling

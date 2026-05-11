@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Lossless Vocabulary Reduction for Auto-Regressive Language Models
 description: >-
-  [ICLR 2026][词表缩减] 建立了一个**无损词表缩减**的理论框架，能够将任意自回归语言模型高效转换为使用任意小词表的等价模型，且不损失精度，从而实现不同分词方案的语言模型之间的高效协作（如模型集成）。
+  [ICLR 2026][预训练][词表缩减] 建立了一个**无损词表缩减**的理论框架，能够将任意自回归语言模型高效转换为使用任意小词表的等价模型，且不损失精度，从而实现不同分词方案的语言模型之间的高效协作（如模型集成）。
 tags:
-  - ICLR 2026
-  - 词表缩减
-  - LLM预训练
-  - 分词
-  - 模型集成
-  - 无损转换
+  - "ICLR 2026"
+  - "预训练"
+  - "词表缩减"
+  - "自回归语言模型"
+  - "分词"
+  - "模型集成"
+  - "无损转换"
 ---
 
 # Lossless Vocabulary Reduction for Auto-Regressive Language Models

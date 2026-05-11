@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GenQ: Quantization in Low Data Regimes with Generative Synthetic Data
 description: >-
-  [ECCV 2024][模型压缩][量化] 提出 GenQ，首次利用 Stable Diffusion 生成的高质量合成数据进行神经网络量化，通过能量分数过滤和BN分布过滤两种机制确保合成数据的分布对齐，在无数据和少数据量化场景下大幅超越现有方法，4-bit QAT ResNet-50 在ImageNet上达到76.10%准确率。
+  [ECCV 2024][模型压缩][量化] 提出 GenQ，首次利用 Stable Diffusion 生成的高质量合成数据进行神经网络量化，通过能量分数过滤和BN分布过滤两种机制确保合成数据的分布对齐，在无数据和少数据量化场景下大幅超越现有方法…
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 量化
-  - 合成数据
-  - 扩散模型
-  - 数据无关量化
-  - 低数据量化
+  - "ECCV 2024"
+  - "模型压缩"
+  - "量化"
+  - "合成数据"
+  - "扩散模型"
+  - "数据无关量化"
+  - "低数据量化"
 ---
 
 # GenQ: Quantization in Low Data Regimes with Generative Synthetic Data

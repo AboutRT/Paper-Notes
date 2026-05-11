@@ -1,18 +1,29 @@
 ---
 title: >-
-  NeurIPS2025 LLM 推理方向66篇论文解读
+  NeurIPS2025 LLM 推理方向65篇论文解读
 description: >-
-  66篇NeurIPS2025的 LLM 推理方向论文解读，涵盖推理、LLM、多模态、强化学习、模型压缩、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  65篇NeurIPS2025的 LLM 推理方向论文解读，涵盖推理、LLM、多模态、强化学习、模型压缩、语音等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "NeurIPS2025"
+  - "LLM 推理"
+  - "论文解读"
+  - "论文笔记"
+  - "推理"
+  - "LLM"
+  - "多模态"
+  - "强化学习"
+  - "模型压缩"
+  - "语音"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💡 LLM 推理
 
-**🧠 NeurIPS2025** · **66** 篇论文解读
+**🧠 NeurIPS2025** · **65** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (37)](../../ACL2026/llm_reasoning/index.md) · [📷 CVPR2026 (12)](../../CVPR2026/llm_reasoning/index.md) · [🔬 ICLR2026 (65)](../../ICLR2026/llm_reasoning/index.md) · [🤖 AAAI2026 (30)](../../AAAI2026/llm_reasoning/index.md) · [📹 ICCV2025 (3)](../../ICCV2025/llm_reasoning/index.md) · [🧪 ICML2025 (15)](../../ICML2025/llm_reasoning/index.md)
 
-🔥 **高频主题：** 推理 ×43 · LLM ×12 · 多模态 ×4 · 强化学习 ×4 · 模型压缩 ×2
+🔥 **高频主题：** 推理 ×42 · LLM ×11 · 多模态 ×4 · 强化学习 ×4 · 模型压缩 ×2
 
 **[AbbIE: Autoregressive Block-Based Iterative Encoder for Efficient Sequence Modeling](abbie_autoregressive_block-based_iterative_encoder_for_efficient_sequence_modeli.md)**
 
@@ -225,10 +236,6 @@ description: >-
 **[The Impact of Quantization on Large Reasoning Model Reinforcement Learning](the_impact_of_quantization_on_large_reasoning_model_reinforcement_learning.md)**
 
 :   系统实验发现在大推理模型的 RL 训练中，量化感知训练（QAFT/STE）会损害推理能力，而训练后量化（PTQ）和 QLoRA 即使在 4-bit 精度下也能很好地保持推理性能，为实践者提供了"先全精度 RL、再 PTQ 量化"的推荐路线。
-
-**[The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning](the_surprising_effectiveness_of_negative_reinforcement_in_llm_reasoning.md)**
-
-:   将可验证奖励的强化学习（RLVR）分解为正样本强化（PSR，增强正确回答概率）和负样本强化（NSR，惩罚错误回答），发现仅用 NSR 就能在整个 Pass@k 谱上持续提升推理性能且通常匹配或超越 PPO/GRPO，据此提出 Weighted-REINFORCE（降低 PSR 权重至 0.1）在 MATH/AIME 2025/AMC23 上取得全面最优。
 
 **[The Virtues of Brevity: Avoid Overthinking in Parallel Test-Time Reasoning](the_virtues_of_brevity_avoid_overthinking_in_parallel_test-time_reasoning.md)**
 

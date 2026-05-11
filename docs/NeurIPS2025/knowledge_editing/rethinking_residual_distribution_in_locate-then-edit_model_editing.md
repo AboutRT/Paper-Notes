@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Rethinking Residual Distribution in Locate-then-Edit Model Editing
 description: >-
-  [NeurIPS 2025][model editing] 揭示 locate-then-edit 模型编辑中残差分配（residual distribution）机制引入的权重偏移误差会随分配距离、batch 大小和编辑序列长度增长，提出 BLUE（Boundary Layer UpdatE）策略仅更新首尾关键层，平均提升 35.59%。
+  [NeurIPS 2025][知识编辑][model editing] 揭示 locate-then-edit 模型编辑中残差分配（residual distribution）机制引入的权重偏移误差会随分配距离、batch 大小和编辑序列长度增长…
 tags:
-  - NeurIPS 2025
-  - model editing
-  - locate-then-edit
-  - residual distribution
-  - knowledge editing
-  - MEMIT
+  - "NeurIPS 2025"
+  - "知识编辑"
+  - "model editing"
+  - "locate-then-edit"
+  - "residual distribution"
+  - "knowledge editing"
+  - "MEMIT"
 ---
 
 # Rethinking Residual Distribution in Locate-then-Edit Model Editing

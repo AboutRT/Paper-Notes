@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][多模态VLM][共形预测] 将保形预测（Conformal Prediction）应用于零样本模型，为 CLIP 等模型的预测提供有理论保证的不确定性量化和校准预测集
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - 共形预测
-  - 零样本
-  - 不确定性
-  - 校准
-  - CLIP
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "共形预测"
+  - "零样本"
+  - "不确定性"
+  - "校准"
+  - "CLIP"
 ---
 
 # Conformal Prediction for Zero-Shot Models

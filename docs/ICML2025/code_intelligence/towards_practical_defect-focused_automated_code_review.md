@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Towards Practical Defect-Focused Automated Code Review
 description: >-
-  [ICML 2025][自动代码审查] 提出面向真实生产环境的端到端自动代码审查框架，通过AST代码切片提取上下文、多角色LLM协作审查、三层冗余评论过滤和内联行号定位四大模块，在近4亿日活公司的工业级C++代码库历史故障数据上实现KBI(关键缺陷包含率)2倍于标准LLM、10倍于先前基线的显著提升。
+  [ICML 2025][代码智能][自动代码审查] 提出面向真实生产环境的端到端自动代码审查框架，通过AST代码切片提取上下文、多角色LLM协作审查、三层冗余评论过滤和内联行号定位四大模块…
 tags:
-  - ICML 2025
-  - 自动代码审查
-  - 代码智能
-  - 代码切片
-  - 多角色LLM
-  - 冗余过滤
-  - 行号定位
+  - "ICML 2025"
+  - "代码智能"
+  - "自动代码审查"
+  - "缺陷检测"
+  - "代码切片"
+  - "多角色LLM"
+  - "冗余过滤"
+  - "行号定位"
 ---
 
 # Towards Practical Defect-Focused Automated Code Review

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D视觉定位] 提出Proxy Transformation，通过可变形点云聚类和代理注意力机制，利用文本信息引导子流形平移、图像信息引导子流形内部变换，在训练前高效增强点云流形结构，在自我中心3D视觉定位任务上实现7.49%的显著提升。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D视觉定位
-  - 点云增强
-  - 可变形聚类
-  - 代理注意力
-  - 流形变换
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D视觉定位"
+  - "点云增强"
+  - "可变形聚类"
+  - "代理注意力"
+  - "流形变换"
 ---
 
 # ProxyTransformation: Preshaping Point Cloud Manifold with Proxy Attention for 3D Visual Grounding

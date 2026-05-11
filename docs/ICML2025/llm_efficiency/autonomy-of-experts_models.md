@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM效率][Mixture-of-Experts] AoE 提出让 MoE 中的 expert 基于自身内部激活范数自主决定是否处理输入（而非由外部 router 决定），通过低秩权重分解降低预计算开销，在 700M-4B 参数语言模型预训练中超越传统 MoE。
 tags:
-  - ICML 2025
-  - LLM效率
-  - Mixture-of-Experts
-  - 专家自主选择
-  - 激活范数
-  - 低秩分解
-  - 大语言模型
+  - "ICML 2025"
+  - "LLM效率"
+  - "Mixture-of-Experts"
+  - "专家自主选择"
+  - "激活范数"
+  - "低秩分解"
+  - "大语言模型"
 ---
 
 # Autonomy-of-Experts Models (AoE)

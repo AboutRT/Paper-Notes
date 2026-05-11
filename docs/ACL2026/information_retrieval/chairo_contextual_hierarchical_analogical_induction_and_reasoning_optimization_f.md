@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ChAIRO: Contextual Hierarchical Analogical Induction and Reasoning Optimization for LLMs
 description: >-
-  [ACL 2026][内容审核] 提出 ChAIRO，一个上下文层次化类比归纳与推理优化框架，通过三阶段 pipeline（类比案例生成→规则归纳→规则注入微调）让 LLM 在内容审核中自主生成类比案例并归纳显式审核规则，比单实例规则生成提升 F1 4.5%，比静态 RAG 提升 2.3%。
+  [ACL 2026][信息检索/RAG][内容审核] 提出 ChAIRO，一个上下文层次化类比归纳与推理优化框架，通过三阶段 pipeline（类比案例生成→规则归纳→规则注入微调）让 LLM 在内容审核中自主生成类比案例并归纳显式审核规则，比单实例规则生成提升 F1 4.5%，比静态 RAG 提升 2.3%…
 tags:
-  - ACL 2026
-  - 内容审核
-  - 规则归纳
-  - 信息检索
-  - 层次化推理链
-  - 端到端优化
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "内容审核"
+  - "规则归纳"
+  - "类比推理"
+  - "层次化推理链"
+  - "端到端优化"
 ---
 
 # ChAIRO: Contextual Hierarchical Analogical Induction and Reasoning Optimization for LLMs

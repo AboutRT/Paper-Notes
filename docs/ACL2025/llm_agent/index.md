@@ -3,6 +3,17 @@ title: >-
   ACL2025 LLM Agent方向50篇论文解读
 description: >-
   50篇ACL2025的 LLM Agent 方向论文解读，涵盖 LLM、Agent、多模态、对齐/RLHF、推理、对话系统等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ACL2025"
+  - "LLM Agent"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "Agent"
+  - "多模态"
+  - "对齐/RLHF"
+  - "推理"
+  - "对话系统"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **💬 ACL2025** · **50** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (41)](../../ACL2026/llm_agent/index.md) · [📷 CVPR2026 (15)](../../CVPR2026/llm_agent/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_agent/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (50)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (41)](../../ACL2026/llm_agent/index.md) · [📷 CVPR2026 (15)](../../CVPR2026/llm_agent/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_agent/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (50)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md)
 
 🔥 **高频主题：** LLM ×22 · Agent ×22 · 多模态 ×4 · 对齐/RLHF ×2 · 推理 ×2
 

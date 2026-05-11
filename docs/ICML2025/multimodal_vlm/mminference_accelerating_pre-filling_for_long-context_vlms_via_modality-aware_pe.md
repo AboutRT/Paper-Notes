@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention
 description: >-
-  [ICML 2025][多模态][长上下文 VLM] 本文提出 MMInference，通过“模态感知的置换稀疏注意力 + 头级离线模式搜索 + 在线动态索引 + 定制 GPU Kernel”，在不改模型不微调的前提下，将长上下文 VLM 的 prefill 阶段在 1M token 场景最高加速到 8.3x，同时尽量保持任务精度。
+  [ICML 2025][多模态VLM][长上下文 VLM] 本文提出 MMInference，通过“模态感知的置换稀疏注意力 + 头级离线模式搜索 + 在线动态索引 + 定制 GPU Kernel”，在不改模型不微调的前提下…
 tags:
-  - ICML 2025
-  - 多模态
-  - 多模态VLM
-  - Prefill 加速
-  - 动态稀疏注意力
-  - 模态边界
-  - Grid Pattern
+  - "ICML 2025"
+  - "多模态VLM"
+  - "长上下文 VLM"
+  - "Prefill 加速"
+  - "动态稀疏注意力"
+  - "模态边界"
+  - "Grid Pattern"
 ---
 
 # MMInference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention
@@ -153,7 +153,7 @@ MMInference 的策略是：
 |---|---|---|
 | 稀疏召回需求 | VLM 在 128k 下 top 5.78% 权重可达 95% recall | 证明稀疏化可行，但需动态索引 |
 | 与文本 LLM 差异 | 文本 LLM 对应约 1.79%（同 95% recall） | VLM 更“稠密”，不能生搬文本稀疏配置 |
-| 头部异质性 | 52.3% 头在 <2% 权重下可回收主要注意力 | 需要头级模式分配，而非统一模板 |
+| 头部异质性 | 52.3% 头在 &lt;2% 权重下可回收主要注意力 | 需要头级模式分配，而非统一模板 |
 | 动态性检验 | 跨请求复用 top-k 索引会显著掉召回 | 必须在线估计索引 |
 | 边界结构性 | 明确提出 Q-Boundary 与 2D-Boundary | 模态感知置换是必要组件 |
 

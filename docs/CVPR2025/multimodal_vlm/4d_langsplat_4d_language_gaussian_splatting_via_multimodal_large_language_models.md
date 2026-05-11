@@ -2,15 +2,15 @@
 title: >-
   [论文解读] 4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models
 description: >-
-  [CVPR 2025][多模态][4D语言场] 提出4D LangSplat，通过多模态大语言模型生成逐物体视频caption来构建4D语言场，结合状态可变形网络建模语义的时间连续演变，首次实现动态场景中时间敏感和时间无关的开放词汇查询。
+  [CVPR 2025][多模态VLM][4D语言场] 提出4D LangSplat，通过多模态大语言模型生成逐物体视频caption来构建4D语言场，结合状态可变形网络建模语义的时间连续演变，首次实现动态场景中时间敏感和时间无关的开放词汇查询。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 4D语言场
-  - 多模态VLM
-  - 多模态大语言模型
-  - 开放词汇查询
-  - 动态场景理解
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "4D语言场"
+  - "高斯泼溅"
+  - "多模态大语言模型"
+  - "开放词汇查询"
+  - "动态场景理解"
 ---
 
 # 4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models

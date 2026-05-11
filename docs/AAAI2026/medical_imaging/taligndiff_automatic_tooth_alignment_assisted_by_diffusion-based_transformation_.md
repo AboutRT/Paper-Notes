@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][牙齿排列] 提出TAlignDiff框架，将基于点云的几何约束回归网络（PRN）与扩散模型辅助的变换矩阵去噪模块（DTMD）统一为一个联合训练框架，通过双向反馈机制在小样本临床数据上实现了优于现有方法的自动牙齿排列效果。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 牙齿排列
-  - 正畸治疗
-  - 扩散模型
-  - 变换矩阵
-  - 点云回归
+  - "AAAI 2026"
+  - "医学图像"
+  - "牙齿排列"
+  - "正畸治疗"
+  - "扩散模型"
+  - "变换矩阵"
+  - "点云回归"
 ---
 
 # TAlignDiff: Automatic Tooth Alignment assisted by Diffusion-based Transformation Learning

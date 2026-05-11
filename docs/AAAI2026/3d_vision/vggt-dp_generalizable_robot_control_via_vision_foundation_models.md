@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VGGT-DP: Generalizable Robot Control via Vision Foundation Models
 description: >-
-  [AAAI 2026][3D视觉][视觉运动策略] 提出 VGGT-DP，一个受生物视觉系统启发的视觉运动策略框架，将预训练的 3D 感知基础模型 VGGT 作为视觉编码器并与扩散策略（Diffusion Policy）结合，通过帧级 Token 复用机制、随机 Token 裁剪和本体感知引导视觉学习三个关键设计，在 MetaWorld 高精度操作任务上显著超越 DP 和 DP3 基线。
+  [AAAI 2026][3D视觉][视觉运动策略] 提出 VGGT-DP，一个受生物视觉系统启发的视觉运动策略框架，将预训练的 3D 感知基础模型 VGGT 作为视觉编码器并与扩散策略（Diffusion Policy）结合…
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 视觉运动策略
-  - 扩散策略
-  - VGGT
-  - 本体感知引导
-  - 机器人操作
+  - "AAAI 2026"
+  - "3D视觉"
+  - "视觉运动策略"
+  - "扩散策略"
+  - "VGGT"
+  - "本体感知引导"
+  - "机器人操作"
 ---
 
 # VGGT-DP: Generalizable Robot Control via Vision Foundation Models

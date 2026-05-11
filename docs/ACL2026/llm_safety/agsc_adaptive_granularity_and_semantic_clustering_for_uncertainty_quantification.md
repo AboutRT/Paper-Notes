@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation
 description: >-
-  [ACL 2026][LLM安全] AGSC 提出了一个针对长文本生成的不确定性量化框架，通过 NLI 中立概率触发自适应粒度分解（减少 60% 推理时间），并使用 GMM 软聚类捕捉潜在语义主题进行主题感知的加权聚合，在 BIO 和 LongFact 基准上达到 SOTA 的事实性相关性。
+  [ACL 2026][LLM安全][不确定性量化] AGSC 提出了一个针对长文本生成的不确定性量化框架，通过 NLI 中立概率触发自适应粒度分解（减少 60% 推理时间），并使用 GMM 软聚类捕捉潜在语义主题进行主题感知的加权聚合，在 BIO 和 LongFact 基准上达到 SOTA 的事实性相关性。
 tags:
-  - ACL 2026
-  - LLM安全
-  - 长文本生成
-  - 自适应粒度
-  - 语义聚类
-  - GMM
+  - "ACL 2026"
+  - "LLM安全"
+  - "不确定性量化"
+  - "长文本生成"
+  - "自适应粒度"
+  - "语义聚类"
+  - "GMM"
 ---
 
 # AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation

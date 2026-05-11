@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing LLM Agent Safety via Causal Influence Prompting
 description: >-
-  [ACL 2025 (Findings)][LLM Agent][LLM Agent] 提出 CIP（Causal Influence Prompting），利用因果影响图（CID）结构化表征 LLM Agent 的决策因果关系，通过初始化 CID→CID 引导交互→迭代更新 CID 三步流程，有效增强 Agent 在代码执行和移动设备控制任务中的安全性。
+  [ACL 2025 (Findings)][LLM Agent][LLM安全性] 提出 CIP（Causal Influence Prompting），利用因果影响图（CID）结构化表征 LLM Agent 的决策因果关系，通过初始化 CID→CID 引导交互→迭代更新 CID 三步流程…
 tags:
-  - ACL 2025 (Findings)
-  - LLM Agent
-  - LLM安全性
-  - 因果影响图
-  - 自主智能体
-  - 风险缓解
-  - 决策推理
+  - "ACL 2025 (Findings)"
+  - "LLM Agent"
+  - "LLM安全性"
+  - "因果影响图"
+  - "自主智能体"
+  - "风险缓解"
+  - "决策推理"
 ---
 
 # Enhancing LLM Agent Safety via Causal Influence Prompting

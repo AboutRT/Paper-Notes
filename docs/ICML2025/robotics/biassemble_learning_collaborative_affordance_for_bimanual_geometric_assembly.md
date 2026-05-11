@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][机器人][双臂协作] 提出 BiAssemble 框架，通过学习感知双臂协作的点级可供性（affordance），将几何装配任务分解为抓取→对齐→装配三步，在破碎物体重组任务上超越现有可供性和模仿学习方法，并在真实世界基准上验证。
 tags:
-  - ICML 2025
-  - 机器人
-  - 双臂协作
-  - 几何装配
-  - 点级可供性
-  - 碎片重组
-  - 长程规划
+  - "ICML 2025"
+  - "机器人"
+  - "双臂协作"
+  - "几何装配"
+  - "点级可供性"
+  - "碎片重组"
+  - "长程规划"
 ---
 
 # BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly

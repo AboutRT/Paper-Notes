@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Enhancing Optimization Robustness in 1-bit Neural Networks through Stochastic Sign Descent
 description: >-
-  [ECCV 2024][二值神经网络] 提出Diode优化器，专为二值神经网络（BNN）设计，通过利用梯度符号的低阶矩估计实现无潜在权重（latent-weight-free）的参数更新，在ImageNet上将BNext-18的Top-1准确率提升0.96%且训练迭代次数减少8倍，并在NLP任务上达到新SOTA。
+  [ECCV 2024][二值神经网络] 提出Diode优化器，专为二值神经网络（BNN）设计，通过利用梯度符号的低阶矩估计实现无潜在权重（latent-weight-free）的参数更新，在ImageNet上将BNext-18的Top-1准确率提升0.96%且训练迭代次数减少8倍…
 tags:
-  - ECCV 2024
-  - 二值神经网络
-  - 其他
-  - 随机符号下降
-  - 无潜在权重
-  - 1-bit网络
+  - "ECCV 2024"
+  - "二值神经网络"
+  - "优化器设计"
+  - "随机符号下降"
+  - "无潜在权重"
+  - "1-bit网络"
 ---
 
 # Enhancing Optimization Robustness in 1-bit Neural Networks through Stochastic Sign Descent

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][遥感][语义场景补全] 首次将卫星影像引入 3D 语义场景补全(SSC)任务，提出双分支框架 SGFormer，通过地面视角引导的卫星特征校正和自适应融合策略，有效解决因视觉遮挡导致的场景补全不完整问题。
 tags:
-  - CVPR 2025
-  - 遥感
-  - 语义场景补全
-  - 卫星影像融合
-  - 鸟瞰图
-  - 可变形注意力
-  - 自适应权重
+  - "CVPR 2025"
+  - "遥感"
+  - "语义场景补全"
+  - "卫星影像融合"
+  - "鸟瞰图"
+  - "可变形注意力"
+  - "自适应权重"
 ---
 
 # SGFormer: Satellite-Ground Fusion for 3D Semantic Scene Completion

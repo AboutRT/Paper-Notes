@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Diffusion-CAM: Faithful Visual Explanations for dMLLMs
 description: >-
-  [ACL 2026][图像恢复][扩散多模态模型] 提出 Diffusion-CAM，首个专为扩散式多模态大语言模型（dMLLM）设计的可解释性方法，通过在去噪轨迹中提取结构有效的中间表征并配合四个后处理模块（自适应核去噪、分布感知置信门控、上下文背景衰减、单实例因果去偏），在 COCO Caption 和 GranDf 上显著超越自回归 CAM 基线。
+  [ACL 2026][图像恢复][扩散多模态模型] 提出 Diffusion-CAM，首个专为扩散式多模态大语言模型（dMLLM）设计的可解释性方法，通过在去噪轨迹中提取结构有效的中间表征并配合四个后处理模块（自适应核去噪、分布感知置信门控、上下文背景衰减、单实例因果去偏）…
 tags:
-  - ACL 2026
-  - 图像恢复
-  - 图像复原
-  - 类激活映射
-  - 视觉解释
-  - 可解释AI
-  - 并行生成
+  - "ACL 2026"
+  - "图像恢复"
+  - "扩散多模态模型"
+  - "类激活映射"
+  - "视觉解释"
+  - "可解释AI"
+  - "并行生成"
 ---
 
 # Diffusion-CAM: Faithful Visual Explanations for dMLLMs

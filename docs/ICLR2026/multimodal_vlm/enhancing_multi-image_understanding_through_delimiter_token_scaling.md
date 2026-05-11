@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing Multi-Image Understanding through Delimiter Token Scaling
 description: >-
-  [ICLR 2026][多模态][多图理解] 通过对视觉语言模型中图像分隔符token的隐藏状态进行缩放，增强图像间的信息隔离能力，在不增加任何训练或推理成本的前提下，在多图理解（Mantis/MuirBench/MIRB/QBench2）和多文档/多表格理解（TQABench/MultiNews/WCEP-10）基准上均获得性能提升。
+  [ICLR 2026][多模态VLM][多图理解] 通过对视觉语言模型中图像分隔符token的隐藏状态进行缩放，增强图像间的信息隔离能力，在不增加任何训练或推理成本的前提下，在多图理解（Mantis/MuirBench/MIRB/QBench2）和多文档/多表格理解（TQABench/MultiNews/WC…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多图理解
-  - 多模态VLM
-  - 分隔符token
-  - 跨图信息泄漏
-  - 注意力机制
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "多图理解"
+  - "大型视觉语言模型"
+  - "分隔符token"
+  - "跨图信息泄漏"
+  - "注意力机制"
 ---
 
 # Enhancing Multi-Image Understanding through Delimiter Token Scaling

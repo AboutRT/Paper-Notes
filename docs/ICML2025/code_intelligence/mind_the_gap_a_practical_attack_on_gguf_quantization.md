@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mind the Gap: A Practical Attack on GGUF Quantization
 description: >-
-  [ICML 2025][代码智能] 首次提出针对 GGUF 量化格式的攻击：利用量化误差作为"自由度"训练恶意量化模型，全精度下正常但量化后注入后门，在不安全代码生成（Δ=88.7%）、定向内容注入（Δ=85.0%）和良性拒绝（Δ=30.1%）上有效。
+  [ICML 2025][代码智能][量化] 首次提出针对 GGUF 量化格式的攻击：利用量化误差作为"自由度"训练恶意量化模型，全精度下正常但量化后注入后门，在不安全代码生成（Δ=88.7%）、定向内容注入（Δ=85.0%）和良性拒绝（Δ=30.1%）上有效。
 tags:
-  - ICML 2025
-  - 代码智能
-  - GGUF
-  - llama.cpp
-  - model security
-  - backdoor
+  - "ICML 2025"
+  - "代码智能"
+  - "量化"
+  - "GGUF"
+  - "llama.cpp"
+  - "model security"
+  - "backdoor"
 ---
 
 # Mind the Gap: A Practical Attack on GGUF Quantization

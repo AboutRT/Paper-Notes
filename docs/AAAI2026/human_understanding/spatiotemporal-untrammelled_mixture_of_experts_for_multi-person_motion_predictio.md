@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][人体理解][多人运动预测] 提出ST-MoE框架，首次将混合专家模型（MoE）与双向时空Mamba相结合用于多人运动预测，通过四种异构时空专家灵活捕获复杂时空依赖，实现SOTA精度的同时减少41.38%参数量，训练加速3.6倍。
 tags:
-  - AAAI 2026
-  - 人体理解
-  - 多人运动预测
-  - 混合专家模型
-  - Mamba
-  - 时空建模
-  - 高效推理
+  - "AAAI 2026"
+  - "人体理解"
+  - "多人运动预测"
+  - "混合专家模型"
+  - "Mamba"
+  - "时空建模"
+  - "高效推理"
 ---
 
 # Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction

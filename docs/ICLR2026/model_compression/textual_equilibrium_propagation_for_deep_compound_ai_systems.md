@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][复合AI系统] 提出文本平衡传播（TEP），一种基于局部学习原理的复合AI系统优化方法，通过自由阶段和微扰阶段的两阶段设计，避免全局文本反向传播中的梯度爆炸/消失问题，在深层工作流上显著优于 TextGrad。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 复合AI系统
-  - 文本梯度
-  - 平衡传播
-  - 提示优化
-  - 多智能体工作流
+  - "ICLR 2026"
+  - "模型压缩"
+  - "复合AI系统"
+  - "文本梯度"
+  - "平衡传播"
+  - "提示优化"
+  - "多智能体工作流"
 ---
 
 # Textual Equilibrium Propagation for Deep Compound AI Systems

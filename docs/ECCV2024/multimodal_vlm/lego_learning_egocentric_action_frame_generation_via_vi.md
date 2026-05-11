@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][多模态VLM][第一人称视角] 提出 LEGO 模型，通过视觉指令微调增强 VLLM 的动作描述能力，并将 VLLM 的图像/文本嵌入作为额外条件注入扩散模型，实现从第一人称视角生成动作执行帧。
 tags:
-  - ECCV 2024
-  - 多模态VLM
-  - 第一人称视角
-  - 动作帧生成
-  - 视觉指令微调
-  - 扩散模型
-  - VLLM
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "第一人称视角"
+  - "动作帧生成"
+  - "视觉指令微调"
+  - "扩散模型"
+  - "VLLM"
 ---
 
 # LEGO: Learning EGOcentric Action Frame Generation via Visual Instruction Tuning

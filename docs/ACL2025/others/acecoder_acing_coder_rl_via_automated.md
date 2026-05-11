@@ -2,14 +2,14 @@
 title: >-
   [论文解读] AceCoder: Acing Coder RL via Automated Test-Case Synthesis
 description: >-
-  [ACL 2025][其他] 构建 AceCode-87K（87K 编码题 + 138 万自动合成测试用例），训练代码专用 Reward Model（7B 超越 340B Nemotron），Best-of-N 提升 Llama-3.1-8B 平均 8.9 分，R1 风格从 base 直接 RL 仅 80 步 HumanEval+ 提升 22.5%。
+  [ACL 2025][代码生成] 构建 AceCode-87K（87K 编码题 + 138 万自动合成测试用例），训练代码专用 Reward Model（7B 超越 340B Nemotron），Best-of-N 提升 Llama-3.1-8B 平均 8.9 分…
 tags:
-  - ACL 2025
-  - 其他
-  - 强化学习
-  - 奖励模型
-  - test case synthesis
-  - R1-style training
+  - "ACL 2025"
+  - "代码生成"
+  - "强化学习"
+  - "奖励模型"
+  - "test case synthesis"
+  - "R1-style training"
 ---
 
 # AceCoder: Acing Coder RL via Automated Test-Case Synthesis

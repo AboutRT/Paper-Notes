@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Verifying Chain-of-Thought Reasoning via Its Computational Graph
 description: >-
-  [ICLR 2026][LLM推理][Chain-of-Thought] 提出 CRV（Circuit-based Reasoning Verification），通过将 LLM 的 MLP 替换为 transcoder 构建可解释归因图，从图的结构特征中提取推理错误的"指纹"，实现白盒 CoT 推理验证，并可通过因果干预修正错误推理。
+  [ICLR 2026][LLM推理][Chain-of-Thought] 提出 CRV（Circuit-based Reasoning Verification），通过将 LLM 的 MLP 替换为 transcoder 构建可解释归因图，从图的结构特征中提取推理错误的"指纹"，实现白盒 CoT 推理验证…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - Chain-of-Thought
-  - 归因图
-  - Transcoder
-  - 推理验证
-  - 因果干预
+  - "ICLR 2026"
+  - "LLM推理"
+  - "Chain-of-Thought"
+  - "归因图"
+  - "Transcoder"
+  - "推理验证"
+  - "因果干预"
 ---
 
 # Verifying Chain-of-Thought Reasoning via Its Computational Graph

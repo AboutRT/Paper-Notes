@@ -2,14 +2,15 @@
 title: >-
   [论文解读] On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation
 description: >-
-  [ACL 2025][幻觉缓解] 提出 RLFH（Reinforcement Learning for Hallucination），一种在策略（on-policy）自对齐方法，让 LLM 自己作为评判者，将回复分解为原子事实并进行真实性和信息量评估，生成 token 级别的密集奖励信号，通过在线 PPO 优化来有效缓解幻觉问题。
+  [ACL 2025][LLM安全][幻觉缓解] 提出 RLFH（Reinforcement Learning for Hallucination），一种在策略（on-policy）自对齐方法，让 LLM 自己作为评判者，将回复分解为原子事实并进行真实性和信息量评估，生成 token 级别的密集奖励信号…
 tags:
-  - ACL 2025
-  - 幻觉缓解
-  - LLM安全
-  - 自对齐
-  - 细粒度反馈
-  - 在策略学习
+  - "ACL 2025"
+  - "LLM安全"
+  - "幻觉缓解"
+  - "强化学习"
+  - "自对齐"
+  - "细粒度反馈"
+  - "在策略学习"
 ---
 
 # On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Active Inference for Micro-Gesture Recognition: EFE-Guided Temporal Sampling and Adaptive Learning
 description: >-
-  [CVPR 2026][医学图像][Micro-Gesture Recognition] 提出 UAAI 框架，首次将主动推理(Active Inference)引入微手势识别，通过 EFE 引导的时间帧选择 + 空间注意力 + UMIX不确定性感知增强，在SMG数据集RGB模态上达到63.47%，大幅超越传统RGB方法。
+  [CVPR 2026][医学图像][Micro-Gesture Recognition] 提出 UAAI 框架，首次将主动推理(Active Inference)引入微手势识别，通过 EFE 引导的时间帧选择 + 空间注意力 + UMIX不确定性感知增强，在SMG数据集RGB模态上达到63.47%…
 tags:
-  - CVPR 2026
-  - 医学图像
-  - Micro-Gesture Recognition
-  - Active Inference
-  - Expected Free Energy
-  - POMDP
-  - 不确定性感知增强
+  - "CVPR 2026"
+  - "医学图像"
+  - "Micro-Gesture Recognition"
+  - "Active Inference"
+  - "Expected Free Energy"
+  - "POMDP"
+  - "不确定性感知增强"
 ---
 
 # Active Inference for Micro-Gesture Recognition: EFE-Guided Temporal Sampling and Adaptive Learning

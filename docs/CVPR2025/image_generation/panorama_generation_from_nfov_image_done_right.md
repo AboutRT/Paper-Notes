@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][全景图生成] 发现现有全景图生成方法的"视觉作弊"现象（追求视觉质量牺牲畸变准确性），提出 PanoDecouple 解耦框架将全景生成分解为畸变引导（DistortNet）和内容补全（ContentNet），仅用 3K 训练数据实现畸变和视觉质量双优。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 全景图生成
-  - 扩散模型
-  - 畸变引导
-  - 解耦框架
-  - CLIP微调
+  - "CVPR 2025"
+  - "图像生成"
+  - "全景图生成"
+  - "扩散模型"
+  - "畸变引导"
+  - "解耦框架"
+  - "CLIP微调"
 ---
 
 # Panorama Generation From NFoV Image Done Right

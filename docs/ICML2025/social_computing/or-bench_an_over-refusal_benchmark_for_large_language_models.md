@@ -2,14 +2,15 @@
 title: >-
   [论文解读] OR-Bench: An Over-Refusal Benchmark for Large Language Models
 description: >-
-  [ICML 2025][Over-Refusal] 提出首个大规模 LLM 过度拒绝（over-refusal）基准 OR-Bench，包含 80K 安全但易被拒绝的 prompt，揭示安全性与过度拒绝之间存在 Spearman 相关系数高达 0.89 的强权衡关系。
+  [ICML 2025][社会计算][Over-Refusal] 提出首个大规模 LLM 过度拒绝（over-refusal）基准 OR-Bench，包含 80K 安全但易被拒绝的 prompt，揭示安全性与过度拒绝之间存在 Spearman 相关系数高达 0.89 的强权衡关系。
 tags:
-  - ICML 2025
-  - Over-Refusal
-  - Safety Alignment
-  - 社会计算
-  - LLM Evaluation
-  - Red-Teaming
+  - "ICML 2025"
+  - "社会计算"
+  - "Over-Refusal"
+  - "Safety Alignment"
+  - "benchmark"
+  - "LLM Evaluation"
+  - "Red-Teaming"
 ---
 
 # OR-Bench: An Over-Refusal Benchmark for Large Language Models

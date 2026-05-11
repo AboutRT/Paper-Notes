@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] ZigMa 提出了一种 DiT 风格的 Zigzag Mamba 扩散模型，通过异构逐层锯齿形扫描方案保持空间连续性，以零参数/显存开销实现优于 Mamba 基线的生成质量，同时相比 Transformer 具备线性复杂度优势。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # ZigMa: A DiT-style Zigzag Mamba Diffusion Model

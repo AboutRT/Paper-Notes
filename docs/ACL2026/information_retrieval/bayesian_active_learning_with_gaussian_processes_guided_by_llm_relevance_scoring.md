@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring
 description: >-
-  [ACL 2026][段落检索] 提出 BAGEL，一个基于高斯过程（GP）的贝叶斯主动学习框架，在有限 LLM 预算下通过探索-利用平衡策略传播稀疏 LLM 相关性信号，实现全局嵌入空间的段落检索，显著超越传统 LLM 重排序方法。
+  [ACL 2026][信息检索/RAG][段落检索] 提出 BAGEL，一个基于高斯过程（GP）的贝叶斯主动学习框架，在有限 LLM 预算下通过探索-利用平衡策略传播稀疏 LLM 相关性信号，实现全局嵌入空间的段落检索，显著超越传统 LLM 重排序方法。
 tags:
-  - ACL 2026
-  - 段落检索
-  - 高斯过程
-  - 主动学习
-  - 信息检索
-  - 贝叶斯优化
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "段落检索"
+  - "高斯过程"
+  - "主动学习"
+  - "LLM重排序"
+  - "贝叶斯优化"
 ---
 
 # Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring

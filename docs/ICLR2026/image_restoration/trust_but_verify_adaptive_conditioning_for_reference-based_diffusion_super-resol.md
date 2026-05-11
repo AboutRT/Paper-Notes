@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][图像恢复][超分辨率] 提出 Ada-RefSR，一个基于"Trust but Verify"原则的单步参考引导扩散超分辨率框架，通过自适应隐式相关性门控（AICG）机制在利用可靠参考信息的同时抑制错误融合，仅增加 0.13% 计算开销。
 tags:
-  - ICLR 2026
-  - 图像恢复
-  - 超分辨率
-  - 扩散模型
-  - Adaptive Gating
-  - Implicit Correlation
+  - "ICLR 2026"
+  - "图像恢复"
+  - "超分辨率"
+  - "扩散模型"
+  - "Adaptive Gating"
+  - "Implicit Correlation"
 ---
 
 # Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution
@@ -139,7 +139,7 @@ $$\mathcal{L}_{total} = \lambda_1 \mathcal{L}_{rec} + \lambda_2 \mathcal{L}_{per
 ### 关键发现
 
 1. **AICG 在所有数据集上一致优于其他门控方案**：验证了隐式相关性建模的有效性
-2. **鲁棒性优势**：当 LQ-Ref 对齐比率 <0.7 时，SUPIR+ReFIR 低于其 baseline，而本文方法始终超越 baseline
+2. **鲁棒性优势**：当 LQ-Ref 对齐比率 &lt;0.7 时，SUPIR+ReFIR 低于其 baseline，而本文方法始终超越 baseline
 3. **摘要 token 的可解释性**：不同token捕获不同语义区域（人体部位、天空、草地、鸟类特征等）
 4. **16个摘要token是最佳选择**：8和32个token均不如16个
 

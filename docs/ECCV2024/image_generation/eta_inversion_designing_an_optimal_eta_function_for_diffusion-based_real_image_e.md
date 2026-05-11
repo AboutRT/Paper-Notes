@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][扩散模型反演] 通过理论分析DDIM采样方程中η参数的作用，设计时间和区域依赖的η函数，实现更灵活精确的真实图像编辑。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 扩散模型反演
-  - 图像编辑
-  - DDIM采样
-  - eta函数
-  - 真实图像编辑
+  - "ECCV 2024"
+  - "图像生成"
+  - "扩散模型反演"
+  - "图像编辑"
+  - "DDIM采样"
+  - "eta函数"
+  - "真实图像编辑"
 ---
 
 # Eta Inversion: Designing an Optimal Eta Function for Diffusion-based Real Image Editing

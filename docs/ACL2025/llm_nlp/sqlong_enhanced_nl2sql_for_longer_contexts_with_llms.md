@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][LLM/NLP][NL2SQL] 提出 SQLong，一种面向长上下文场景的 NL2SQL 数据增强框架，通过向训练数据中注入采样自其他数据库的合成 CREATE TABLE 语句来扩展上下文长度，使微调后的 LLM 在大规模 Schema 场景下显著提升 SQL 生成准确率。
 tags:
-  - ACL2025
-  - LLM/NLP
-  - NL2SQL
-  - 长上下文
-  - 数据增强
-  - 大规模数据库Schema
-  - Text-to-SQL
+  - "ACL2025"
+  - "LLM/NLP"
+  - "NL2SQL"
+  - "长上下文"
+  - "数据增强"
+  - "大规模数据库Schema"
+  - "Text-to-SQL"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

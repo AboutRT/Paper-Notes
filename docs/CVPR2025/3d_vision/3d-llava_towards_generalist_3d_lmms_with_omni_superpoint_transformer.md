@@ -2,15 +2,15 @@
 title: >-
   [论文解读] 3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer
 description: >-
-  [CVPR 2025][3D视觉][3D LMM] 提出3D-LLaVA，一个极简架构的通用3D大语言多模态模型，核心是**Omni Superpoint Transformer (OST)**作为多功能视觉连接器，同时充当视觉特征选择器、视觉提示编码器和分割掩码解码器，仅用点云输入就在ScanQA（92.6 CiDEr）、ScanRefer（43.3 mIoU）等5个基准上全面达到SOTA。
+  [CVPR 2025][3D视觉][3D LMM] 提出3D-LLaVA，一个极简架构的通用3D大语言多模态模型，核心是**Omni Superpoint Transformer (OST)**作为多功能视觉连接器，同时充当视觉特征选择器、视觉提示编码器和分割掩码解码器…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D LMM
-  - Transformer
-  - Visual Connector
-  - 图像分割
-  - 场景理解
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D LMM"
+  - "Transformer"
+  - "Visual Connector"
+  - "图像分割"
+  - "场景理解"
 ---
 
 # 3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer

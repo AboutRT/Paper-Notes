@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][surgical video] 提出面向真实手术视频中器械交接检测的时空视觉框架，结合 ViT 空间特征提取和单向 LSTM 时序建模，通过多任务学习联合预测交接事件和方向，在肾移植手术视频上达到 F1=0.84 的检测性能。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - surgical video
-  - instrument handover
-  - ViT-LSTM
-  - multi-task
-  - event detection
+  - "CVPR 2026"
+  - "医学图像"
+  - "surgical video"
+  - "instrument handover"
+  - "ViT-LSTM"
+  - "multi-task"
+  - "event detection"
 ---
 
 # Event-Level Detection of Surgical Instrument Handovers in Videos

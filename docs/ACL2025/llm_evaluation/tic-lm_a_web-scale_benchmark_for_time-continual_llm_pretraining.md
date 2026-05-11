@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TiC-LM: A Web-Scale Benchmark for Time-Continual LLM Pretraining
 description: >-
-  [ACL 2025][LLM评测] 本文提出TiC-LM，一个基于114个月Common Crawl数据（2.9T tokens）的大规模时间持续学习基准，通过150+实验系统评估了优化器、数据回放和正则化方法在持续预训练场景下的表现，发现自回归学习率调度结合固定比例数据回放可以在仅2.6倍计算量下接近从头训练的性能。
+  [ACL 2025][LLM评测][持续预训练] 本文提出TiC-LM，一个基于114个月Common Crawl数据（2.9T tokens）的大规模时间持续学习基准，通过150+实验系统评估了优化器、数据回放和正则化方法在持续预训练场景下的表现…
 tags:
-  - ACL 2025
-  - LLM评测
-  - 时间分布漂移
-  - 数据回放
-  - Common Crawl
-  - 遗忘问题
+  - "ACL 2025"
+  - "LLM评测"
+  - "持续预训练"
+  - "时间分布漂移"
+  - "数据回放"
+  - "Common Crawl"
+  - "遗忘问题"
 ---
 
 # TiC-LM: A Web-Scale Benchmark for Time-Continual LLM Pretraining

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][扩散模型] 本文从统计学习角度分析了条件扩散Transformer（DiT）在时间序列插补任务中的样本复杂度和不确定性量化性能，并提出混合掩码训练策略提升插补效果。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 扩散模型
-  - Transformer
-  - 时间序列插补
-  - 不确定性量化
-  - 统计学习理论
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "扩散模型"
+  - "Transformer"
+  - "时间序列插补"
+  - "不确定性量化"
+  - "统计学习理论"
 ---
 
 # Diffusion Transformers for Imputation: Statistical Efficiency and Uncertainty Quantification

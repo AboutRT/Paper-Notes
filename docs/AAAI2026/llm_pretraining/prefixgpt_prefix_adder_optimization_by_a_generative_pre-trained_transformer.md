@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PrefixGPT: Prefix Adder Optimization by a Generative Pre-trained Transformer
 description: >-
-  [AAAI 2026][LLM预训练][前缀加法器优化] 提出PrefixGPT，将前缀加法器优化建模为序列生成问题，通过定制的GPT模型预训练学习设计规则后用RL微调生成优化设计，在面积-延迟乘积(ADP)上取得SOTA且对初始化不敏感。
+  [AAAI 2026][预训练][前缀加法器优化] 提出PrefixGPT，将前缀加法器优化建模为序列生成问题，通过定制的GPT模型预训练学习设计规则后用RL微调生成优化设计，在面积-延迟乘积(ADP)上取得SOTA且对初始化不敏感。
 tags:
-  - AAAI 2026
-  - LLM预训练
-  - 前缀加法器优化
-  - GPT生成模型
-  - 硬件设计自动化
-  - 强化学习微调
-  - 合法性掩码
+  - "AAAI 2026"
+  - "预训练"
+  - "前缀加法器优化"
+  - "GPT生成模型"
+  - "硬件设计自动化"
+  - "强化学习微调"
+  - "合法性掩码"
 ---
 
 # PrefixGPT: Prefix Adder Optimization by a Generative Pre-trained Transformer

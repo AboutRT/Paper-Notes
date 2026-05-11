@@ -2,15 +2,15 @@
 title: >-
   [论文解读] IRGPT: Understanding Real-world Infrared Image with Bi-cross-modal Curriculum on Large-scale Benchmark
 description: >-
-  [ICCV 2025][图像生成][红外图像] 提出 IRGPT，首个基于真实红外图像的多模态大语言模型，构建了包含 260K+ 图像-文本对的大规模红外-文本数据集 IR-TD，并设计了双跨模态课程迁移学习策略（Bi-cross-modal Curriculum），在 9 个红外任务基准上取得 SOTA 性能，零样本 psum 比基线 InternVL2-8B 提升 76.35。
+  [ICCV 2025][图像生成][红外图像] 提出 IRGPT，首个基于真实红外图像的多模态大语言模型，构建了包含 260K+ 图像-文本对的大规模红外-文本数据集 IR-TD，并设计了双跨模态课程迁移学习策略（Bi-cross-modal Curriculum）…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 红外图像
-  - 多模态大语言模型
-  - 课程学习
-  - 跨模态迁移
-  - 视觉-语言模型
+  - "ICCV 2025"
+  - "图像生成"
+  - "红外图像"
+  - "多模态大语言模型"
+  - "课程学习"
+  - "跨模态迁移"
+  - "视觉-语言模型"
 ---
 
 # IRGPT: Understanding Real-world Infrared Image with Bi-cross-modal Curriculum on Large-scale Benchmark

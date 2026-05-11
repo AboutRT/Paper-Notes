@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][边缘检测] 提出 MEMO 框架，通过掩码边缘训练和基于置信度排序的渐进式推理策略，仅使用交叉熵损失就能生成清晰的单像素边缘图，在 crispness-aware 评估上大幅超越现有方法（BSDS 上 CEval ODS 从 0.749 提升到 0.836）。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 边缘检测
-  - 掩码预测
-  - 置信度排序推理
-  - 多粒度预测
-  - 合成数据预训练
+  - "CVPR 2026"
+  - "模型压缩"
+  - "边缘检测"
+  - "掩码预测"
+  - "置信度排序推理"
+  - "多粒度预测"
+  - "合成数据预训练"
 ---
 
 # MEMO: Human-like Crisp Edge Detection Using Masked Edge Prediction

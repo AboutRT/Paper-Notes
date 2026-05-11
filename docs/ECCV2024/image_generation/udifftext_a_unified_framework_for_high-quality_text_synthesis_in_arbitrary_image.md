@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models
 description: >-
-  [ECCV 2024][图像生成][Text Synthesis] 提出 UDiffText，通过设计轻量级字符级文本编码器替换 CLIP encoder、引入基于字符分割图的 local attention loss 和 STR loss 微调 cross-attention 层，并在推理阶段对 noised latent 进行 refinement，实现在任意图像中合成高精度、视觉协调的文本，SeqAcc 全面超越 SOTA。
+  [ECCV 2024][图像生成][Text Synthesis] 提出 UDiffText，通过设计轻量级字符级文本编码器替换 CLIP encoder、引入基于字符分割图的 local attention loss 和 STR loss 微调 cross-attention 层…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - Text Synthesis
-  - 扩散模型
-  - Character-level Encoder
-  - 注意力机制
-  - Scene Text Editing
+  - "ECCV 2024"
+  - "图像生成"
+  - "Text Synthesis"
+  - "扩散模型"
+  - "Character-level Encoder"
+  - "注意力机制"
+  - "Scene Text Editing"
 ---
 
 # UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models

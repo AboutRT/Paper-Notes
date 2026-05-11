@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][新视角合成] 提出GAURA，一种基于可泛化NeRF的统一复原与渲染框架，通过可学习的退化感知latent codes在特征聚合和渲染阶段动态适应不同图像退化类型，无需逐场景优化即可从退化图像中渲染清晰的新视角。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 新视角合成
-  - 图像复原
-  - 通用退化处理
-  - 可泛化NeRF
-  - Transformer
+  - "ECCV 2024"
+  - "3D视觉"
+  - "新视角合成"
+  - "图像复原"
+  - "通用退化处理"
+  - "可泛化NeRF"
+  - "Transformer"
 ---
 
 # GAURA: Generalizable Approach for Unified Restoration and Rendering of Arbitrary Views

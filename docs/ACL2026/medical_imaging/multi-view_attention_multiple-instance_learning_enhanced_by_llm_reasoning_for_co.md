@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection
 description: >-
-  [ACL 2026][医学图像] 本文提出将话语分解为情感-逻辑-行为（ELB）三组件并用 LLM 推理多个认知扭曲实例，然后通过多视角门控注意力 MIL 框架进行 bag 级分类，在韩语（KoACD）和英语（Therapist QA）数据集上均优于 LLM 直接推理基线。
+  [ACL 2026][医学图像][认知扭曲检测] 本文提出将话语分解为情感-逻辑-行为（ELB）三组件并用 LLM 推理多个认知扭曲实例，然后通过多视角门控注意力 MIL 框架进行 bag 级分类，在韩语（KoACD）和英语（Therapist QA）数据集上均优于 LLM 直接推理基线。
 tags:
-  - ACL 2026
-  - 医学图像
-  - 多实例学习
-  - LLM推理
-  - 心理学分解
-  - 门控注意力
+  - "ACL 2026"
+  - "医学图像"
+  - "认知扭曲检测"
+  - "多实例学习"
+  - "LLM推理"
+  - "心理学分解"
+  - "门控注意力"
 ---
 
 # Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection

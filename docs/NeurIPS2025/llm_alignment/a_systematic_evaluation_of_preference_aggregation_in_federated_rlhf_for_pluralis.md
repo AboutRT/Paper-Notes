@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NEURIPS2025][LLM对齐][联邦学习] 提出一种自适应 Alpha 聚合策略，在联邦 RLHF 框架中根据各用户群体的历史对齐表现动态调整奖励权重，从而在多元偏好对齐中同时实现高公平性和强对齐性能。
 tags:
-  - NEURIPS2025
-  - LLM对齐
-  - 联邦学习
-  - RLHF
-  - Pluralistic Alignment
-  - Preference Aggregation
-  - Fairness
+  - "NEURIPS2025"
+  - "LLM对齐"
+  - "联邦学习"
+  - "RLHF"
+  - "Pluralistic Alignment"
+  - "Preference Aggregation"
+  - "Fairness"
 ---
 
 # A Systematic Evaluation of Preference Aggregation in Federated RLHF for Pluralistic Alignment of LLMs

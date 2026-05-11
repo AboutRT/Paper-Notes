@@ -3,6 +3,16 @@ title: >-
   ACL2025 multi_agent方向33篇论文解读
 description: >-
   33篇ACL2025的 multi_agent 方向论文解读，涵盖 Agent、LLM、推理、对抗鲁棒、强化学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ACL2025"
+  - "multi_agent"
+  - "论文解读"
+  - "论文笔记"
+  - "Agent"
+  - "LLM"
+  - "推理"
+  - "对抗鲁棒"
+  - "强化学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

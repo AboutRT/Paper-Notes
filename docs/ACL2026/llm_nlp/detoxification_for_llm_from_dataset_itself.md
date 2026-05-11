@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Detoxification for LLM from Dataset Itself
 description: >-
-  [ACL 2026][LLM/NLP][数据级去毒] 本文提出 HSPD（层次化语义保留去毒）流水线，通过 SoCD（软对比解码）引导 LLM 定位并重写原始语料中的有毒片段，同时保留语义，生成可直接替换原始数据用于微调的去毒语料——在 GPT2-XL 上将毒性概率从 0.42 降至 0.18，在 LLaMA2-7B、OPT-6.7B 和 Falcon-7B 上也取得了最优去毒效果。
+  [ACL 2026][LLM/NLP][数据级去毒] 本文提出 HSPD（层次化语义保留去毒）流水线，通过 SoCD（软对比解码）引导 LLM 定位并重写原始语料中的有毒片段，同时保留语义，生成可直接替换原始数据用于微调的去毒语料——在 GPT2-XL 上将毒性概率从 0.42 降至 0.18…
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 数据级去毒
-  - 对比解码
-  - 语义保留
-  - 预训练语料清洗
-  - 毒性缓解
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "数据级去毒"
+  - "对比解码"
+  - "语义保留"
+  - "预训练语料清洗"
+  - "毒性缓解"
 ---
 
 # Detoxification for LLM from Dataset Itself

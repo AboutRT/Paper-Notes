@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs
 description: >-
-  [ACL 2025][LLM/NLP][提示工程] 从理论角度分析 prompt 在 LLM 推理中的作用机制——证明 prompt 充当"选择器"从隐藏状态中提取任务相关信息并定义答案空间中的轨迹，分析了最优 prompt 搜索空间的复杂度，并通过实验验证了最优 prompt 搜索可带来 50%+ 的推理性能提升。
+  [ACL 2025][LLM/NLP][提示工程] 从理论角度分析 prompt 在 LLM 推理中的作用机制——证明 prompt 充当"选择器"从隐藏状态中提取任务相关信息并定义答案空间中的轨迹，分析了最优 prompt 搜索空间的复杂度…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 提示工程
-  - 理论分析
-  - 搜索空间复杂度
-  - 思维链推理
-  - Transformer
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "提示工程"
+  - "理论分析"
+  - "搜索空间复杂度"
+  - "思维链推理"
+  - "Transformer"
 ---
 
 # Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs

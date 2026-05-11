@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents
 description: >-
-  [ACL 2025 (Main)][社交智能体] 本文提出 SOTOPIA-Ω 框架，通过将谈判理论中的多步推理策略和直接策略动态注入到专家 agent 中，自动构建高质量社交对话训练语料，并定义了"社交指令跟随（S-IF）"这一新概念和两个评估指标，在 7B 模型上超越了 GPT-4 专家 agent 的社交目标达成能力。
+  [ACL 2025 (Main)][社交智能体] 本文提出 SOTOPIA-Ω 框架，通过将谈判理论中的多步推理策略和直接策略动态注入到专家 agent 中，自动构建高质量社交对话训练语料，并定义了"社交指令跟随（S-IF）"这一新概念和两个评估指标…
 tags:
-  - ACL 2025 (Main)
-  - 其他
-  - 策略注入
-  - 社交指令跟随
-  - 对话数据构建
-  - 谈判理论
+  - "ACL 2025 (Main)"
+  - "社交智能体"
+  - "策略注入"
+  - "社交指令跟随"
+  - "对话数据构建"
+  - "谈判理论"
 ---
 
 # SOTOPIA-Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents

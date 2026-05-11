@@ -4,7 +4,7 @@ title: >-
 description: >-
   [模型压缩] 提出 S2R-HDR，首个大规模高质量合成 HDR 融合数据集（24,000 样本），并设计 S2R-Adapter 域适应方法弥合合成-真实域差距，在真实数据集上达到 SOTA HDR 融合性能。
 tags:
-  - 模型压缩
+  - "模型压缩"
 ---
 
 # S2R-HDR: A Large-Scale Rendered Dataset for HDR Fusion

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][image dehazing] 提出压缩-适应（CoA）框架实现实际图像去雾：先在合成数据上训练大模型，然后压缩+适应到真实域，平衡性能和部署效率
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - image dehazing
-  - 域适应
-  - real-world
-  - deployment
+  - "CVPR 2025"
+  - "模型压缩"
+  - "image dehazing"
+  - "域适应"
+  - "real-world"
+  - "deployment"
 ---
 
 # CoA: Towards Real Image Dehazing via Compression-and-Adaptation

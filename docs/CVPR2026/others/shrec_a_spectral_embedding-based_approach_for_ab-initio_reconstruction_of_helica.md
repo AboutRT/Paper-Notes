@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][cryo-EM] 提出 SHREC 算法，通过谱嵌入（spectral embedding）从冷冻电镜 2D 投影图像中直接恢复螺旋分子片段的投影角度，无需预先知道螺旋对称参数（rise/twist），实现了真正的 ab-initio 螺旋结构重建。
 tags:
-  - CVPR 2026
-  - cryo-EM
-  - 螺旋结构重建
-  - 谱嵌入
-  - 图拉普拉斯
-  - 流形学习
+  - "CVPR 2026"
+  - "cryo-EM"
+  - "螺旋结构重建"
+  - "谱嵌入"
+  - "图拉普拉斯"
+  - "流形学习"
 ---
 
 # SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules

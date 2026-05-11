@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][计算像差校正] 扩展 OptiFusion 自动设计 120 种多样化镜头，提出 ODE 综合评估指标和大规模 benchmark，系统对比 24 种算法，发现 CNN 模型在像差校正中提供最佳速度-精度权衡，反直觉地超越 Transformer。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 计算像差校正
-  - 镜头设计
-  - 图像复原
-  - Transformer
-  - 光学像差
-  - 通用校正
+  - "CVPR 2025"
+  - "图像恢复"
+  - "计算像差校正"
+  - "镜头设计"
+  - "benchmark"
+  - "Transformer"
+  - "光学像差"
+  - "通用校正"
 ---
 
 # OptiFusion: Towards Universal Computational Aberration Correction in Photographic Cameras

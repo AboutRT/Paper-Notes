@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation
 description: >-
-  [ECCV 2024][文本到视频扩散模型] 本文首次探索预训练文本到视频（T2V）扩散模型的视觉特征用于视频理解任务，提出 VD-IT 框架，通过文本引导的图像投影和视频特定噪声预测两项关键设计，从固定的 T2V 扩散模型中提取具有优越时序语义一致性的视觉特征，在 R-VOS 四大基准上超越了使用判别式预训练视频骨干网络（如 Video Swin Transformer）的 SOTA 方法。
+  [ECCV 2024][视频生成][文本到视频扩散模型] 本文首次探索预训练文本到视频（T2V）扩散模型的视觉特征用于视频理解任务，提出 VD-IT 框架，通过文本引导的图像投影和视频特定噪声预测两项关键设计，从固定的 T2V 扩散模型中提取具有优越时序语义一致性的视觉特征…
 tags:
-  - ECCV 2024
-  - 文本到视频扩散模型
-  - 视频生成
-  - 时序一致性
-  - 视觉特征提取
-  - 生成式预训练
+  - "ECCV 2024"
+  - "视频生成"
+  - "文本到视频扩散模型"
+  - "指代视频目标分割"
+  - "时序一致性"
+  - "视觉特征提取"
+  - "生成式预训练"
 ---
 
 # Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation

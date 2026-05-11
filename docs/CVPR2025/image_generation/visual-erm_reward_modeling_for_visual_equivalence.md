@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR2025][图像生成][奖励模型] 提出 Visual-ERM，一个多模态生成式奖励模型，在视觉空间中直接评估 vision-to-code 任务的渲染质量，提供细粒度、可解释、任务无关的奖励信号，用于 RL 训练和测试时缩放。
 tags:
-  - CVPR2025
-  - 图像生成
-  - 奖励模型
-  - vision-to-code
-  - 强化学习
-  - visual equivalence
-  - chart-to-code
-  - 测试时缩放
+  - "CVPR2025"
+  - "图像生成"
+  - "奖励模型"
+  - "vision-to-code"
+  - "强化学习"
+  - "visual equivalence"
+  - "chart-to-code"
+  - "测试时缩放"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

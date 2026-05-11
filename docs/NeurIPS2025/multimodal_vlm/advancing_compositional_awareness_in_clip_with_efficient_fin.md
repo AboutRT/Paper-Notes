@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Advancing Compositional Awareness in CLIP with Efficient Fine-Tuning
 description: >-
-  [NeurIPS 2025][多模态][CLIP组合推理] 提出 CLIC，通过拼接两张图像并基于跨图词汇交换生成 hard negatives，同时创建多个正样本描述，仅微调 CLIP 文本编码器就能同时提升组合推理能力（SugarCrepe++ SOTA）和下游检索性能，打破了之前方法中组合性与检索性不可兼得的困局。
+  [NeurIPS 2025][多模态VLM][CLIP组合推理] 提出 CLIC，通过拼接两张图像并基于跨图词汇交换生成 hard negatives，同时创建多个正样本描述，仅微调 CLIP 文本编码器就能同时提升组合推理能力（SugarCrepe++ SOTA）和下游检索性能…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - SugarCrepe++
-  - 图像拼接
-  - 困难负样本
-  - 对比学习
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "CLIP组合推理"
+  - "SugarCrepe++"
+  - "图像拼接"
+  - "困难负样本"
+  - "对比学习"
 ---
 
 # Advancing Compositional Awareness in CLIP with Efficient Fine-Tuning

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation
 description: >-
-  [ACL 2025][多语言翻译] 本文首次系统研究了序列级知识蒸馏（SeqKD）中教师模型的记忆行为如何传递给学生模型，发现学生模型虽未直接接触原始训练数据，但其提取式记忆率比基线模型高 57%，幻觉率也增加，并提出 Adaptive-SeqKD 通过在高质量子集上微调教师来缓解这些问题。
+  [ACL 2025][多语言/翻译][知识蒸馏] 本文首次系统研究了序列级知识蒸馏（SeqKD）中教师模型的记忆行为如何传递给学生模型，发现学生模型虽未直接接触原始训练数据，但其提取式记忆率比基线模型高 57%，幻觉率也增加，并提出 Adaptive-SeqKD 通过在高质量子集上微调教师来缓解这些问题。
 tags:
-  - ACL 2025
-  - 多语言翻译
-  - 记忆
-  - 幻觉
-  - 机器翻译
-  - SeqKD
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "知识蒸馏"
+  - "记忆"
+  - "幻觉"
+  - "机器翻译"
+  - "SeqKD"
 ---
 
 # Memorization Inheritance in Sequence-Level Knowledge Distillation for Neural Machine Translation

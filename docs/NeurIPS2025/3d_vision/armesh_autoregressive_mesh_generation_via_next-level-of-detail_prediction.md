@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ARMesh: Autoregressive Mesh Generation via Next-Level-of-Detail Prediction
 description: >-
-  [NeurIPS 2025][3D视觉][3D mesh generation] 提出将 3D mesh 生成建模为"由粗到精"的逐级细化过程（next-level-of-detail prediction），通过反转广义网格简化算法（GSlim）获得渐进式细化序列，再用 Transformer 自回归学习，从单个点开始逐步增加几何与拓扑细节生成完整网格。
+  [NeurIPS 2025][3D视觉][3D mesh generation] 提出将 3D mesh 生成建模为"由粗到精"的逐级细化过程（next-level-of-detail prediction），通过反转广义网格简化算法（GSlim）获得渐进式细化序列，再用 Transformer 自回归学习…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 3D mesh generation
-  - autoregressive model
-  - level-of-detail
-  - mesh simplification
-  - simplicial complex
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "3D mesh generation"
+  - "autoregressive model"
+  - "level-of-detail"
+  - "mesh simplification"
+  - "simplicial complex"
 ---
 
 # ARMesh: Autoregressive Mesh Generation via Next-Level-of-Detail Prediction
@@ -123,7 +123,7 @@ tags:
 2. **拓扑灵活性过高可能带来噪声**：PSC 允许任意拓扑变化，某些情况下可能生成不必要的拓扑结构，作者建议用 PSC 建立初始拓扑后切换到 progressive meshes 限制后续拓扑变化。
 3. **生成复杂度为线性**：每步 vertex split 串行依赖前序结果，未利用并行化；未来可用 parallel vertex splits 将线性降为对数复杂度。
 4. **不可微**：PSC 表示不支持梯度更新，无法与可微渲染等端到端优化结合。
-5. **数据规模**：当前实验主要在 ShapeNet 子集上进行（<1700 顶点/<800 面），对更大规模高精度网格的表现待验证。
+5. **数据规模**：当前实验主要在 ShapeNet 子集上进行（&lt;1700 顶点/&lt;800 面），对更大规模高精度网格的表现待验证。
 
 ## 相关工作
 

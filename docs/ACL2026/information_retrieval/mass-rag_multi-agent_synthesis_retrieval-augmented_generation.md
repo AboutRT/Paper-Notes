@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation
 description: >-
-  [ACL 2026][信息检索] 本文提出 MASS-RAG，一个免训练的多 Agent 综合 RAG 框架，通过 Summarizer/Extractor/Reasoner 三个专门化过滤 Agent 从互补视角处理检索文档，再通过 Synthesis Agent 整合多视角证据或候选答案，在四个基准上持续超越强基线。
+  [ACL 2026][信息检索/RAG][多Agent RAG] 本文提出 MASS-RAG，一个免训练的多 Agent 综合 RAG 框架，通过 Summarizer/Extractor/Reasoner 三个专门化过滤 Agent 从互补视角处理检索文档…
 tags:
-  - ACL 2026
-  - 信息检索
-  - 证据综合
-  - 免训练
-  - 多视角过滤
-  - 异构证据融合
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "多Agent RAG"
+  - "证据综合"
+  - "免训练"
+  - "多视角过滤"
+  - "异构证据融合"
 ---
 
 # MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][相对位姿估计] 本文提出三个新的相对位姿求解器，通过显式建模单目深度预测的仿射（尺度+偏移）模糊性来利用深度先验，并设计混合估计框架将深度感知求解器与经典点求解器结合，在标定和非标定设置下均大幅提升位姿估计精度。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 相对位姿估计
-  - 单目深度先验
-  - 仿射校正
-  - RANSAC
-  - 几何求解器
+  - "CVPR 2025"
+  - "3D视觉"
+  - "相对位姿估计"
+  - "单目深度先验"
+  - "仿射校正"
+  - "RANSAC"
+  - "几何求解器"
 ---
 
 # Relative Pose Estimation through Affine Corrections of Monocular Depth Priors

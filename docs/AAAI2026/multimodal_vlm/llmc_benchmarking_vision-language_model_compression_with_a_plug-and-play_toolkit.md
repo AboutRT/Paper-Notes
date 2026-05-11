@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LLMC+: Benchmarking Vision-Language Model Compression with a Plug-and-play Toolkit
 description: >-
-  [AAAI 2026][多模态][视觉语言模型] 本文提出 LLMC+，一个全面的视觉语言模型（VLM）压缩基准和即插即用工具包，支持 5 个代表性 VLM 家族的 20+ 种压缩算法，系统研究了 token 级和模型级压缩的独立及联合效果，揭示了三大关键发现。
+  [AAAI 2026][多模态VLM][视觉语言模型] 本文提出 LLMC+，一个全面的视觉语言模型（VLM）压缩基准和即插即用工具包，支持 5 个代表性 VLM 家族的 20+ 种压缩算法，系统研究了 token 级和模型级压缩的独立及联合效果，揭示了三大关键发现。
 tags:
-  - AAAI 2026
-  - 多模态
-  - 多模态VLM
-  - 模型压缩
-  - token裁剪
-  - 量化
-  - 基准测试
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "模型压缩"
+  - "token裁剪"
+  - "量化"
+  - "基准测试"
 ---
 
 # LLMC+: Benchmarking Vision-Language Model Compression with a Plug-and-play Toolkit

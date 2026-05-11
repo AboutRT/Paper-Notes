@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ImViD: Immersive Volumetric Videos for Enhanced VR Engagement
 description: >-
-  [CVPR 2025][语音][体积视频] 构建首个沉浸式体积视频数据集——用 46 台同步 GoPro 的移动多视角系统拍摄 7 个场景（含室内/室外），提出 STG++ 增加可学习仿射颜色变换解决跨相机颜色不一致，实现 110.47 FPS 渲染/387MB 存储，并集成 HRTF 空间音频。
+  [CVPR 2025][音频/语音][体积视频] 构建首个沉浸式体积视频数据集——用 46 台同步 GoPro 的移动多视角系统拍摄 7 个场景（含室内/室外），提出 STG++ 增加可学习仿射颜色变换解决跨相机颜色不一致，实现 110.47 FPS 渲染/387MB 存储，并集成 HRTF 空间音频。
 tags:
-  - CVPR 2025
-  - 语音
-  - 体积视频
-  - VR沉浸
-  - 多视角GoPro
-  - 3DGS时序
-  - 空间音频
+  - "CVPR 2025"
+  - "音频/语音"
+  - "体积视频"
+  - "VR沉浸"
+  - "多视角GoPro"
+  - "3DGS时序"
+  - "空间音频"
 ---
 
 # ImViD: Immersive Volumetric Videos for Enhanced VR Engagement

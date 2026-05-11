@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ICML 2025][医学图像][ECG预训练] MELP 提出了一种多尺度 ECG-语言预训练模型，通过 Token/Beat/Rhythm 三个层次的跨模态监督信号，结合心脏学专业语言模型预训练，在零样本分类、线性探测和迁移学习中全面超越现有 ECG 自监督和多模态方法。
 tags:
-  - ICML 2025
-  - 医学图像
-  - ECG预训练
-  - 多模态学习
-  - 多尺度表征
-  - 对比学习
-  - ECG-文本对齐
-  - 零样本分类
-  - 自监督学习
+  - "ICML 2025"
+  - "医学图像"
+  - "ECG预训练"
+  - "多模态学习"
+  - "多尺度表征"
+  - "对比学习"
+  - "ECG-文本对齐"
+  - "零样本分类"
+  - "自监督学习"
 ---
 
 # From Token to Rhythm: A Multi-Scale Approach for ECG-Language Pretraining

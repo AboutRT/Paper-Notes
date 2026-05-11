@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Thinking Diffusion: Penalize and Guide Visual-Grounded Reasoning in Diffusion Multimodal Language Models
 description: >-
-  [CVPR2026][多模态][扩散语言模型] 首次定量分析扩散多模态LLM (dMLLM)的CoT推理过程，发现"早期回答生成"和"弱视觉依赖"两个关键问题，提出PSP（位置-步骤惩罚）和VRG（视觉推理引导）两种免训练方法，在3倍加速下获得最高7.5%的精度提升。
+  [CVPR2026][多模态VLM][扩散语言模型] 首次定量分析扩散多模态LLM (dMLLM)的CoT推理过程，发现"早期回答生成"和"弱视觉依赖"两个关键问题，提出PSP（位置-步骤惩罚）和VRG（视觉推理引导）两种免训练方法，在3倍加速下获得最高7.5%的精度提升。
 tags:
-  - CVPR2026
-  - 多模态
-  - 多模态VLM
-  - 多模态推理
-  - Chain-of-Thought
-  - 视觉引导
-  - 重掩码策略
+  - "CVPR2026"
+  - "多模态VLM"
+  - "扩散语言模型"
+  - "多模态推理"
+  - "Chain-of-Thought"
+  - "视觉引导"
+  - "重掩码策略"
 ---
 
 # Thinking Diffusion: Penalize and Guide Visual-Grounded Reasoning in Diffusion Multimodal Language Models

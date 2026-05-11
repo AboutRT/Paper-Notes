@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FLAVC: Learned Video Compression with Feature Level Attention
 description: >-
-  [CVPR 2025][视频压缩] 提出FLAVC，在学习型视频压缩中引入Feature-level Attention模块，通过全局上下文矩阵和Dense Patcher实现全帧感知，取得SOTA率失真性能。
+  [CVPR 2025][时间序列][学习型视频压缩] 提出 FLAVC，在学习型视频压缩（LVC）框架中引入 Feature-level Attention（FLA）模块，通过将高层局部 patch embedding 转换为一维批次向量并替换传统注意力权重为全局上下文矩阵，实现全帧级全局感知…
 tags:
-  - CVPR 2025
-  - 学习型视频压缩
-  - 特征级注意力
-  - Transformer
-  - 时间序列
-  - 全局感知
+  - "CVPR 2025"
+  - "时间序列"
+  - "学习型视频压缩"
+  - "特征级注意力"
+  - "Transformer"
+  - "全局上下文矩阵"
+  - "Dense Patcher"
 ---
 
 # FLAVC: Learned Video Compression with Feature Level Attention

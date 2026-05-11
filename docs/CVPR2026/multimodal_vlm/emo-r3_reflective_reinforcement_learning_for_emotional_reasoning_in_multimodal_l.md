@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models
 description: >-
-  [CVPR 2026][多模态][情感推理] 提出 EMO-R3，通过结构化情感思维（SET）引导 MLLM 逐步进行情感推理，并设计反思情感奖励（RER）让模型重新评估推理的视觉-文本一致性和情感连贯性，显著提升多模态情感理解的可解释性和准确性。
+  [CVPR 2026][多模态VLM][情感推理] 提出 EMO-R3，通过结构化情感思维（SET）引导 MLLM 逐步进行情感推理，并设计反思情感奖励（RER）让模型重新评估推理的视觉-文本一致性和情感连贯性，显著提升多模态情感理解的可解释性和准确性。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - GRPO
-  - 结构化思维
-  - 反思奖励
-  - 多模态情感理解
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "情感推理"
+  - "GRPO"
+  - "结构化思维"
+  - "反思奖励"
+  - "多模态情感理解"
 ---
 
 # EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models

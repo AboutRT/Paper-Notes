@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations
 description: >-
-  [AAAI 2026][概念瓶颈模型] 提出 PCBM-ReD，通过从预训练视觉编码器中自动提取概念、MLLM 标注/过滤、重建引导选择，再利用 CLIP 视觉-文本对齐将图像表示稀疏分解为概念嵌入的线性组合，构建事后概念瓶颈模型，在 11 个分类任务上达到 SOTA 精度且保持可解释性。
+  [AAAI 2026][可解释性][概念瓶颈模型] 提出 PCBM-ReD，通过从预训练视觉编码器中自动提取概念、MLLM 标注/过滤、重建引导选择，再利用 CLIP 视觉-文本对齐将图像表示稀疏分解为概念嵌入的线性组合，构建事后概念瓶颈模型，在 11 个分类任务上达到 SOTA 精度且保持可解释性。
 tags:
-  - AAAI 2026
-  - 概念瓶颈模型
-  - 可解释性
-  - CLIP
-  - 稀疏分解
-  - 表示学习
+  - "AAAI 2026"
+  - "可解释性"
+  - "概念瓶颈模型"
+  - "CLIP"
+  - "稀疏分解"
+  - "表示学习"
 ---
 
 # Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations

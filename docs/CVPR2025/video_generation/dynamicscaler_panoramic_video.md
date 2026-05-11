@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes
 description: >-
-  [CVPR 2025][全景视频生成] 提出 DynamicScaler，一个无需训练的统一框架，通过偏移移位去噪器和全局运动引导，实现任意分辨率/宽高比的全景动态场景生成，支持 360° 视场、长时长和可循环视频。
+  [CVPR 2025][视频生成][全景视频生成] 提出 DynamicScaler，一个无需训练的统一框架，通过偏移移位去噪器和全局运动引导，实现任意分辨率/宽高比的全景动态场景生成，支持 360° 视场、长时长和可循环视频。
 tags:
-  - CVPR 2025
-  - 全景视频生成
-  - 视频生成
-  - 360度全景
-  - 无训练
-  - 可扩展
+  - "CVPR 2025"
+  - "视频生成"
+  - "全景视频生成"
+  - "偏移移位去噪"
+  - "360度全景"
+  - "无训练"
+  - "可扩展"
 ---
 
 # DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes

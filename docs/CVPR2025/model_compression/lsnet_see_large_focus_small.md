@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][lightweight network] 受人类视觉外周（广域感知）-中央（精细聚合）的双尺度机制启发，提出 LS 卷积（大核深度卷积感知 + 小核动态卷积聚合），构建 LSNet 轻量网络家族，在 0.3~1.3G FLOPs 下全面超越现有 SOTA 轻量模型。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - lightweight network
-  - LS convolution
-  - large kernel
-  - dynamic convolution
-  - heteroscale vision
-  - token mixing
+  - "CVPR 2025"
+  - "模型压缩"
+  - "lightweight network"
+  - "LS convolution"
+  - "large kernel"
+  - "dynamic convolution"
+  - "heteroscale vision"
+  - "token mixing"
 ---
 
 # LSNet: See Large, Focus Small

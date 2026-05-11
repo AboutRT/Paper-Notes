@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Pap2Pat: Benchmarking Outline-Guided Long-Text Patent Generation with Patent-Paper Pairs
 description: >-
-  [ACL 2025][专利生成] 构建了包含 1.8k 专利-论文配对的 Pap2Pat 基准，提出基于大纲的分块专利描述生成方法 COPGen，并设计了基于 NLI 的事实性/覆盖率/风格评估指标，系统评测了当前 LLM 在超长专利文档生成上的能力与不足。
+  [ACL 2025][LLM评测][专利生成] 构建了包含 1.8k 专利-论文配对的 Pap2Pat 基准，提出基于大纲的分块专利描述生成方法 COPGen，并设计了基于 NLI 的事实性/覆盖率/风格评估指标，系统评测了当前 LLM 在超长专利文档生成上的能力与不足。
 tags:
-  - ACL 2025
-  - 专利生成
-  - 长文档生成
-  - 大纲引导
-  - Patent-Paper Pairs
-  - 分块生成
+  - "ACL 2025"
+  - "LLM评测"
+  - "专利生成"
+  - "长文档生成"
+  - "大纲引导"
+  - "Patent-Paper Pairs"
+  - "分块生成"
 ---
 
 # Pap2Pat: Benchmarking Outline-Guided Long-Text Patent Generation with Patent-Paper Pairs

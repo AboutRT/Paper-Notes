@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][3D高斯溅射] 利用视觉语言基础模型（GroundedSAM）检测平面区域，结合DUSt3R多视图深度先验，通过共面约束和几何先验监督优化3DGS，实现室内场景的高保真表面重建。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 室内重建
-  - 平面先验
-  - 视觉语言模型
-  - DUSt3R
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "室内重建"
+  - "平面先验"
+  - "视觉语言模型"
+  - "DUSt3R"
 ---
 
 # PlanarGS: High-Fidelity Indoor 3D Gaussian Splatting Guided by Vision-Language Planar Priors
@@ -105,7 +105,7 @@ $\lambda_1=0.05, \lambda_2=0.5, \lambda_3=0.05, \lambda_4=0.2$。训练30K步，
 
 - 单独的共面约束贡献最大（尤其在无几何先验时），但缺少几何先验会导致大平面**整体倾斜偏移**
 - LP3流水线的跨视图融合和几何验证对平面先验质量至关重要——ZeroPlane和裸GroundedSAM都不够用
-- 训练时间与其他3DGS方法相当（<1小时），具有实用性
+- 训练时间与其他3DGS方法相当（&lt;1小时），具有实用性
 
 ## 亮点与洞察
 

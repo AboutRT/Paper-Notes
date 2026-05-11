@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Taming Sampling Perturbations with Variance Expansion Loss for Latent Diffusion Models
 description: >-
-  [CVPR 2026][图像生成][潜在扩散模型] 揭示了潜在扩散模型中β-VAE tokenizer因方差坍缩导致潜空间过于紧凑、对扩散采样扰动极敏感的问题，提出Variance Expansion (VE) Loss通过重构与方差扩展的对抗式平衡来自适应学习鲁棒的潜空间方差，在多种扩散架构上一致提升生成质量（FID 1.18）。
+  [CVPR 2026][图像生成][潜在扩散模型] 揭示了潜在扩散模型中β-VAE tokenizer因方差坍缩导致潜空间过于紧凑、对扩散采样扰动极敏感的问题，提出Variance Expansion (VE) Loss通过重构与方差扩展的对抗式平衡来自适应学习鲁棒的潜空间方差…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 潜在扩散模型
-  - 方差扩展损失
-  - 采样鲁棒性
-  - 方差坍缩
-  - VAE tokenizer
+  - "CVPR 2026"
+  - "图像生成"
+  - "潜在扩散模型"
+  - "方差扩展损失"
+  - "采样鲁棒性"
+  - "方差坍缩"
+  - "VAE tokenizer"
 ---
 
 # Taming Sampling Perturbations with Variance Expansion Loss for Latent Diffusion Models

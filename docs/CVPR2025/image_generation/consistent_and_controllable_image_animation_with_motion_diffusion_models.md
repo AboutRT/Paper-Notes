@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像动画] 提出 Cinemo，基于扩散模型的图像动画方法，通过学习运动残差（而非直接预测帧）分布大幅提升与输入图像的时间一致性，配合 SSIM 运动强度控制和 DCT 噪声初始化实现精细可控的 I2V 生成，在 UCF-101 和 MSR-VTT 上全面超越现有方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像动画
-  - 运动残差扩散
-  - 运动强度控制
-  - DCT初始化
-  - 时间一致性
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像动画"
+  - "运动残差扩散"
+  - "运动强度控制"
+  - "DCT初始化"
+  - "时间一致性"
 ---
 
 # Consistent and Controllable Image Animation with Motion Diffusion Models

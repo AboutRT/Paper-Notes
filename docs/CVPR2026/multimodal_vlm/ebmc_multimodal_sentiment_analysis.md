@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EBMC: Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis
 description: >-
-  [CVPR 2026][多模态][多模态情感分析] 提出 EBMC 两阶段框架，先通过语义解缠和跨模态增强提升弱模态表示质量，再通过能量引导的模态协调和实例感知信任蒸馏实现平衡的多模态情感分析，在缺失模态场景下保持强鲁棒性。
+  [CVPR 2026][多模态VLM][多模态情感分析] 提出 EBMC 两阶段框架，先通过语义解缠和跨模态增强提升弱模态表示质量，再通过能量引导的模态协调和实例感知信任蒸馏实现平衡的多模态情感分析，在缺失模态场景下保持强鲁棒性。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 模态不平衡
-  - 能量模型
-  - 模态信任蒸馏
-  - 鲁棒性
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态情感分析"
+  - "模态不平衡"
+  - "能量模型"
+  - "模态信任蒸馏"
+  - "鲁棒性"
 ---
 
 # EBMC: Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis

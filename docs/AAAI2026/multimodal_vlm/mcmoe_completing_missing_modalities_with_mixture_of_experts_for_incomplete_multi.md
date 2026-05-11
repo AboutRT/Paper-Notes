@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment
 description: >-
-  [AAAI 2026][多模态][不完整多模态学习] 本文首次探索不完整多模态动作质量评估问题，提出 MCMoE 框架，利用自适应门控模态生成器（AGMG）补全缺失模态，并通过混合专家（MoE）动态融合单模态和跨模态联合表示，在单阶段训练中统一学习，在三个公开 AQA 基准上的完整和不完整场景中均达到 SOTA，且参数量仅 4.90M。
+  [AAAI 2026][多模态VLM][不完整多模态学习] 本文首次探索不完整多模态动作质量评估问题，提出 MCMoE 框架，利用自适应门控模态生成器（AGMG）补全缺失模态，并通过混合专家（MoE）动态融合单模态和跨模态联合表示，在单阶段训练中统一学习…
 tags:
-  - AAAI 2026
-  - 多模态
-  - 不完整多模态学习
-  - 多模态VLM
-  - 混合专家
-  - 模态补全
-  - 跨模态融合
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "不完整多模态学习"
+  - "动作质量评估"
+  - "混合专家"
+  - "模态补全"
+  - "跨模态融合"
 ---
 
 # MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment

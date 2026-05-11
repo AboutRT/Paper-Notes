@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视频地理定位] 提出 VidTAG，一个双编码器（CLIP+DINOv2）帧到GPS检索框架，通过 TempGeo 模块实现帧间时间对齐，GeoRefiner 编码器-解码器模块精炼GPS预测，在全球尺度下实现时间一致的逐帧视频地理定位。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频地理定位
-  - 帧到GPS检索
-  - 时间一致性
-  - 轨迹预测
-  - 去噪
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频地理定位"
+  - "帧到GPS检索"
+  - "时间一致性"
+  - "轨迹预测"
+  - "去噪"
 ---
 
 # VidTAG: Temporally Aligned Video to GPS Geolocalization

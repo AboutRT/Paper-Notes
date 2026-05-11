@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][局部学习] 提出 HPFF，通过层次化局部监督学习（HiLo，将网络划分为独立+级联两级局部模块）和 Patch 特征融合（PFF，将辅助网络的输入切块计算再平均）解决局部学习中的模块间信息缺失和 GPU 内存占用过高问题，在多个数据集上显著超越已有局部学习方法并接近甚至超越 BP。
 tags:
-  - ECCV 2024
-  - 局部学习
-  - 梯度隔离
-  - 层次监督
-  - Patch特征融合
-  - 生物可信性
+  - "ECCV 2024"
+  - "局部学习"
+  - "梯度隔离"
+  - "层次监督"
+  - "Patch特征融合"
+  - "生物可信性"
 ---
 
 # HPFF: Hierarchical Locally Supervised Learning with Patch Feature Fusion

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Whitened CLIP as a Likelihood Surrogate of Images and Captions
 description: >-
-  [ICML 2025][CLIP] 提出 Whitened CLIP (W-CLIP)，通过对 CLIP 嵌入做可逆 PCA 白化变换使其近似 i.i.d. 标准正态分布，从而用欧氏范数的平方直接估计图像和文本的对数似然，在伪影检测、域偏移分析和全圆 SLERP 图像操控中展现了有效性。
+  [ICML 2025][预训练][CLIP] 提出 Whitened CLIP (W-CLIP)，通过对 CLIP 嵌入做可逆 PCA 白化变换使其近似 i.i.d. 标准正态分布，从而用欧氏范数的平方直接估计图像和文本的对数似然，在伪影检测、域偏移分析和全圆 SLERP 图像操控中展现了有效性。
 tags:
-  - ICML 2025
-  - CLIP
-  - 白化变换
-  - LLM预训练
-  - 各向同性
-  - OOD检测
+  - "ICML 2025"
+  - "预训练"
+  - "CLIP"
+  - "白化变换"
+  - "似然代理"
+  - "各向同性"
+  - "OOD检测"
 ---
 
 # Whitened CLIP as a Likelihood Surrogate of Images and Captions

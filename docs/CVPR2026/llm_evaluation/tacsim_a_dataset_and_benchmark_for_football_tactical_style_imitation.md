@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation
 description: >-
-  [CVPR 2026][足球战术模仿] 本文提出 TacSIm，首个从真实英超比赛转播画面中重建全队轨迹并在虚拟足球环境中进行战术风格模仿的大规模数据集与基准，通过空间占据相似度和运动向量相似度两个指标量化战术模仿保真度。
+  [CVPR 2026][LLM评测][足球战术模仿] 本文提出 TacSIm，首个从真实英超比赛转播画面中重建全队轨迹并在虚拟足球环境中进行战术风格模仿的大规模数据集与基准，通过空间占据相似度和运动向量相似度两个指标量化战术模仿保真度。
 tags:
-  - CVPR 2026
-  - 足球战术模仿
-  - LLM评测
-  - 轨迹重建
-  - 战术评估
-  - 虚拟仿真
+  - "CVPR 2026"
+  - "LLM评测"
+  - "足球战术模仿"
+  - "多智能体学习"
+  - "轨迹重建"
+  - "战术评估"
+  - "虚拟仿真"
 ---
 
 # TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation

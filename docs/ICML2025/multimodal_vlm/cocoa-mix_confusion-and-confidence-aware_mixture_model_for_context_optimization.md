@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization
 description: >-
-  [ICML 2025][多模态][提示学习] 提出 CoCoA-Mix 框架，通过混淆感知损失 (CoA-loss) 和置信度感知权重 (CoA-weights) 构建提示混合模型，在不引入额外网络参数的情况下同时提升 VLM prompt tuning 的专精性 (specialization) 和泛化性 (generalization)。
+  [ICML 2025][多模态VLM][提示学习] 提出 CoCoA-Mix 框架，通过混淆感知损失 (CoA-loss) 和置信度感知权重 (CoA-weights) 构建提示混合模型…
 tags:
-  - ICML 2025
-  - 多模态
-  - 提示学习
-  - 视觉语言
-  - 混合模型
-  - 类别混淆
-  - 泛化-专精平衡
+  - "ICML 2025"
+  - "多模态VLM"
+  - "提示学习"
+  - "视觉语言"
+  - "混合模型"
+  - "类别混淆"
+  - "泛化-专精平衡"
 ---
 
 # CoCoA-Mix: Confusion-and-Confidence-Aware Mixture Model for Context Optimization

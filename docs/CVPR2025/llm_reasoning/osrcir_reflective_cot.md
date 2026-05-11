@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM推理][组合图像检索] 本文提出OSrCIR，一种免训练的单阶段零样本组合图像检索方法，利用多模态大语言模型直接处理参考图像和修改文本，并通过反思式链式思维推理准确理解用户隐含意图，在多个基准上比现有免训练方法提升1.80%~6.44%。
 tags:
-  - CVPR 2025
-  - LLM推理
-  - 组合图像检索
-  - 零样本
-  - 链式推理
-  - 多模态大模型
-  - 免训练
+  - "CVPR 2025"
+  - "LLM推理"
+  - "组合图像检索"
+  - "零样本"
+  - "链式推理"
+  - "多模态大模型"
+  - "免训练"
 ---
 
 # Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval

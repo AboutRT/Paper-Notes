@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Integer Programming for Generalized Causal Bootstrap Designs
 description: >-
-  [ICML2025][优化][因果 bootstrap] 提出基于整数规划（IP）数值求解最不利 copula 的方法，将因果 bootstrap 的设计不确定性量化从"完全随机化 + 均值差估计量"推广到任意已知概率分配与线性/二次处理估计量，并证明渐近有效性。
+  [ICML2025][优化/理论][因果 bootstrap] 提出基于整数规划（IP）数值求解最不利 copula 的方法，将因果 bootstrap 的设计不确定性量化从"完全随机化 + 均值差估计量"推广到任意已知概率分配与线性/二次处理估计量，并证明渐近有效性。
 tags:
-  - ICML2025
-  - 优化
-  - 因果 bootstrap
-  - 整数规划
-  - 设计不确定性
-  - 方差上界
-  - 最不利 copula
-  - 有限总体推断
+  - "ICML2025"
+  - "优化/理论"
+  - "因果 bootstrap"
+  - "整数规划"
+  - "设计不确定性"
+  - "方差上界"
+  - "最不利 copula"
+  - "有限总体推断"
 ---
 
 # Integer Programming for Generalized Causal Bootstrap Designs

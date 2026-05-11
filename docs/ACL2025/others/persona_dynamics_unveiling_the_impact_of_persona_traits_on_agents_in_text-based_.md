@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][personality traits] 提出 PANDA 方法，将人类人格特质（Big Five + Dark Triad 共8种）投射到文本游戏智能体的策略学习中，通过人格分类器引导 Q 值调整，发现高开放性（Openness）人格在冒险类文本游戏中表现显著优于其他人格类型。
 tags:
-  - ACL 2025
-  - personality traits
-  - text-based games
-  - Big Five
-  - Dark Triad
-  - DRRN
-  - 其他
+  - "ACL 2025"
+  - "personality traits"
+  - "text-based games"
+  - "Big Five"
+  - "Dark Triad"
+  - "DRRN"
+  - "强化学习"
 ---
 
 # Persona Dynamics: Unveiling the Impact of Personality Traits on Agents in Text-Based Games

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates
 description: >-
-  [ACL 2026][灾难性遗忘] 提出 Source-Shielded Updates (SSU)，一种基于源数据驱动参数重要性评分的列级冻结策略，在仅使用无标签目标语言数据进行持续预训练时，将源语言性能退化从全量微调的 20.3% 降低至 3.4%，同时保持与全量微调相当甚至更优的目标语言性能。
+  [ACL 2026][LLM评测][灾难性遗忘] 提出 Source-Shielded Updates (SSU)，一种基于源数据驱动参数重要性评分的列级冻结策略，在仅使用无标签目标语言数据进行持续预训练时，将源语言性能退化从全量微调的 20.3% 降低至 3.4%…
 tags:
-  - ACL 2026
-  - 灾难性遗忘
-  - 语言适配
-  - 选择性参数更新
-  - 列级冻结
-  - 源知识保护
+  - "ACL 2026"
+  - "LLM评测"
+  - "灾难性遗忘"
+  - "语言适配"
+  - "选择性参数更新"
+  - "列级冻结"
+  - "源知识保护"
 ---
 
 # Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates

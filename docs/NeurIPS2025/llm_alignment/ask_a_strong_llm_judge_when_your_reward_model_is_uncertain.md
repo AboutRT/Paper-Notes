@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Ask a Strong LLM Judge when Your Reward Model is Uncertain
 description: >-
-  [NeurIPS 2025][LLM对齐][奖励模型] 提出基于不确定性的路由框架，用SNGP对pairwise reward model做不确定性量化，将高认知不确定性的样本路由到强LLM judge（DeepSeek-R1），在仅调用9.2%~42.5% judge的成本下显著超越随机路由的准确率，且有效改善下游在线RLHF对齐效果。
+  [NeurIPS 2025][LLM对齐][奖励模型] 提出基于不确定性的路由框架，用SNGP对pairwise reward model做不确定性量化，将高认知不确定性的样本路由到强LLM judge（DeepSeek-R1），在仅调用9.2%~42.5% judge的成本下显著超越随机路由的准确率…
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - 奖励模型
-  - LLM-as-judge
-  - 不确定性量化
-  - SNGP
-  - 路由
-  - RLHF
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "奖励模型"
+  - "LLM-as-judge"
+  - "不确定性量化"
+  - "SNGP"
+  - "路由"
+  - "RLHF"
 ---
 
 # Ask a Strong LLM Judge when Your Reward Model is Uncertain
@@ -87,7 +87,7 @@ tags:
 
 | 配置 | 说明 |
 |------|------|
-| SNGP-PM vs 标准PM | 准确率差异<1%，不确定性组件不损害性能 |
+| SNGP-PM vs 标准PM | 准确率差异&lt;1%，不确定性组件不损害性能 |
 | 阈值1.30 vs 1.45 | 更低阈值→更多judge调用→更高准确率，但边际递减 |
 | 不确定性路由 vs 随机路由 | 在所有judge调用比例下，不确定性路由均显著优于随机路由（+0.8~+2.5pp） |
 

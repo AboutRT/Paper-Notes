@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV2024][机器人][3D重建] 提出层次化神经骨骼（Hierarchical Neural Bones）框架，通过树状结构的骨骼系统以粗到细的方式分解物体运动，从随手拍摄的视频中重建可操控的高质量 3D 模型。
 tags:
-  - ECCV2024
-  - 机器人
-  - 3D重建
-  - Neural Bones
-  - Hierarchical Deformation
-  - NeRF
-  - Manipulation
+  - "ECCV2024"
+  - "机器人"
+  - "3D重建"
+  - "Neural Bones"
+  - "Hierarchical Deformation"
+  - "NeRF"
+  - "Manipulation"
 ---
 
 # Hierarchically Structured Neural Bones for Reconstructing Animatable Objects from Casual Videos

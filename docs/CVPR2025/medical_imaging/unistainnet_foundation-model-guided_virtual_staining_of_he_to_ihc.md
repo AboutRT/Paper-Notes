@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR2025][医学图像][virtual staining] 提出 UNIStainNet，首次将冻结病理基础模型 UNI 的稠密空间 token 作为生成器的直接条件信号，实现 H&E 到 IHC 的虚拟染色，单一统一模型同时服务四种 IHC 标记物并达到 SOTA。
 tags:
-  - CVPR2025
-  - 医学图像
-  - virtual staining
-  - computational pathology
-  - foundation model
-  - SPADE
-  - GAN
-  - immunohistochemistry
+  - "CVPR2025"
+  - "医学图像"
+  - "virtual staining"
+  - "computational pathology"
+  - "foundation model"
+  - "SPADE"
+  - "GAN"
+  - "immunohistochemistry"
 ---
 
 # UNIStainNet: Foundation-Model-Guided Virtual Staining of H&E to IHC

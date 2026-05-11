@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML 2025][图像恢复][Deepfake检测] 构建包含50万+高质量deepfake图像的新数据集，通过引入JPEG压缩、降分辨率、图像增强等真实场景增强，系统评估6种开源deepfake检测器，揭示不到一半检测器AUC>60%，最低仅约50%（随机水平）。
 tags:
-  - ICML 2025
-  - 图像恢复
-  - 图像复原
-  - 鲁棒性
-  - Face Swapping
-  - 真实场景评估
+  - "ICML 2025"
+  - "图像恢复"
+  - "Deepfake检测"
+  - "鲁棒性"
+  - "Face Swapping"
+  - "真实场景评估"
 ---
 
 # Evaluating Deepfake Detectors in the Wild

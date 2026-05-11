@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks
 description: >-
-  [CVPR 2025][量子神经网络] 提出自适应阈值剪枝(ATP)编码方法，通过自适应地剪除低信息量区域减少QNN所需量子比特，在保持分类性能的同时降低纠缠熵并提升对抗鲁棒性。
+  [CVPR 2025][物理学][量子神经网络] 提出 ATP（Adaptive Threshold Pruning），在量子数据编码前自适应地剪除低信息量的数据特征，通过 L-BFGS-B 优化阈值…
 tags:
-  - CVPR 2025
-  - 量子神经网络
-  - 物理学
-  - 数据编码
-  - 纠缠熵
-  - 对抗鲁棒性
+  - "CVPR 2025"
+  - "物理学"
+  - "量子神经网络"
+  - "自适应剪枝"
+  - "数据编码"
+  - "纠缠熵"
+  - "量子机器学习"
 ---
 
 # ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks

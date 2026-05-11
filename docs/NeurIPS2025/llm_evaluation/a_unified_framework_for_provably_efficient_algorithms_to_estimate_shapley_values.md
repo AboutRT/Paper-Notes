@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Unified Framework for Provably Efficient Algorithms to Estimate Shapley Values
 description: >-
-  [NEURIPS2025][Shapley Values] 提出统一框架将 KernelSHAP、LeverageSHAP 等 Shapley 值估计器纳入随机草图（sketching）视角，首次为 KernelSHAP 提供非渐近理论保证，并通过算法改进（Poisson 近似等）将方法扩展到 CIFAR-10 等高维数据集。
+  [NEURIPS2025][LLM评测][Shapley Values] 提出统一框架将 KernelSHAP、LeverageSHAP 等 Shapley 值估计器纳入随机草图（sketching）视角，首次为 KernelSHAP 提供非渐近理论保证…
 tags:
-  - NEURIPS2025
-  - Shapley Values
-  - KernelSHAP
-  - LLM评测
-  - Explainable AI
-  - Randomized Numerical Linear Algebra
+  - "NEURIPS2025"
+  - "LLM评测"
+  - "Shapley Values"
+  - "KernelSHAP"
+  - "LeverageSHAP"
+  - "Explainable AI"
+  - "Randomized Numerical Linear Algebra"
 ---
 
 # A Unified Framework for Provably Efficient Algorithms to Estimate Shapley Values

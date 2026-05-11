@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AstroVisBench: A Code Benchmark for Scientific Computing and Visualization in Astronomy
 description: >-
-  [NeurIPS 2025][科学可视化] AstroVisBench 构建了首个评估 LLM 天文科学计算和可视化能力的代码基准——从 110 个 Jupyter Notebook 提取 864 个任务（处理+可视化），设计双重评估管线（执行式变量检查 + VLM-as-Judge 可视化评分，与专家 Spearman ρ=0.822），评测 8 个 SOTA 模型后发现 Gemini 2.5 Pro 最佳但无错误率仅 15.7%，FileNotFoundError 占 43% 错误。
+  [NeurIPS 2025][代码智能][科学可视化] AstroVisBench 构建了首个评估 LLM 天文科学计算和可视化能力的代码基准——从 110 个 Jupyter Notebook 提取 864 个任务（处理+可视化），设计双重评估管线（执行式变量检查 + VLM-as-Judge 可视化评分…
 tags:
-  - NeurIPS 2025
-  - 科学可视化
-  - 天文代码生成
-  - 领域特定基准
-  - 代码智能
-  - Jupyter Notebook
+  - "NeurIPS 2025"
+  - "代码智能"
+  - "科学可视化"
+  - "天文代码生成"
+  - "领域特定基准"
+  - "VLM评估"
+  - "Jupyter Notebook"
 ---
 
 # AstroVisBench: A Code Benchmark for Scientific Computing and Visualization in Astronomy

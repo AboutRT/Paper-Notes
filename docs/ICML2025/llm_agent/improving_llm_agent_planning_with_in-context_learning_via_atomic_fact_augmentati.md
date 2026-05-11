@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Improving LLM Agent Planning with In-Context Learning via Atomic Fact Augmentation and Lookahead Search
 description: >-
-  [ICML 2025][LLM Agent][LLM Agent] 提出 LWM-Planner，从交互轨迹中提取"原子事实"增强 LLM 世界模型模拟，结合递归前瞻搜索实现纯 in-context 的 Agent 规划改进，在 ALFWorld 等任务上显著优于 ReAct 和 Reflexion。
+  [ICML 2025][LLM Agent][Atomic Facts] 提出 LWM-Planner，从交互轨迹中提取"原子事实"增强 LLM 世界模型模拟，结合递归前瞻搜索实现纯 in-context 的 Agent 规划改进，在 ALFWorld 等任务上显著优于 ReAct 和 Reflexion。
 tags:
-  - ICML 2025
-  - LLM Agent
-  - Atomic Facts
-  - Lookahead Search
-  - in-context learning
-  - world model
+  - "ICML 2025"
+  - "LLM Agent"
+  - "Atomic Facts"
+  - "Lookahead Search"
+  - "in-context learning"
+  - "world model"
 ---
 
 # Improving LLM Agent Planning with In-Context Learning via Atomic Fact Augmentation and Lookahead Search

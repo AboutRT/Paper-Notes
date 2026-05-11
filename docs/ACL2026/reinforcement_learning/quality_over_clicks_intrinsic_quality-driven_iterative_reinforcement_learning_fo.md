@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Quality Over Clicks: Intrinsic Quality-Driven Iterative RL for Cold-Start E-Commerce Query Suggestion
 description: >-
-  [ACL 2026][冷启动] 提出 Cold-EQS，一个面向冷启动电商场景的查询建议框架，利用可回答性、事实准确性和信息增益作为内在质量奖励，通过迭代强化学习持续优化查询建议质量，在线 chatUV 提升 6.81%。
+  [ACL 2026][强化学习][冷启动] 提出 Cold-EQS，一个面向冷启动电商场景的查询建议框架，利用可回答性、事实准确性和信息增益作为内在质量奖励，通过迭代强化学习持续优化查询建议质量，在线 chatUV 提升 6.81%。
 tags:
-  - ACL 2026
-  - 冷启动
-  - 查询建议
-  - 质量驱动奖励
-  - 不确定性采样
-  - 强化学习
+  - "ACL 2026"
+  - "强化学习"
+  - "冷启动"
+  - "查询建议"
+  - "质量驱动奖励"
+  - "不确定性采样"
+  - "电商对话"
 ---
 
 # Quality Over Clicks: Intrinsic Quality-Driven Iterative RL for Cold-Start E-Commerce Query Suggestion

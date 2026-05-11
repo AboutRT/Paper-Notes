@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] 将氨基酸序列视为 LLM 的"第二语言"，通过构建蛋白质-自然语言双语数据集和自适应上下文构造机制，无需任何训练即可让通用 LLM 在蛋白质问答任务上平均提升 7% ROUGE-L，最高 17.2%，甚至超越领域专用微调模型。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # Protein as a Second Language for LLMs

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][隐式记忆] 提出 ImplicitMemBench，首个系统评估 LLM 隐式记忆的基准，包含程序性记忆、启动效应和经典条件反射三种认知范式共 300 个测试项，在 17 个模型上揭示严重局限：最优模型仅达 66% 整体准确率，远低于人类基线。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 隐式记忆
-  - 行为适应
-  - 程序性记忆
-  - 启动效应
-  - 经典条件反射
+  - "ACL 2026"
+  - "LLM Agent"
+  - "隐式记忆"
+  - "行为适应"
+  - "程序性记忆"
+  - "启动效应"
+  - "经典条件反射"
 ---
 
 # ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models

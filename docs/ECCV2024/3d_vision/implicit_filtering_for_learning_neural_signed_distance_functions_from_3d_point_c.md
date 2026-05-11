@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][隐式场] 提出一种非线性隐式滤波器，在不需要法线的情况下对神经SDF的隐式场进行平滑同时保留尖锐几何细节，并通过扩展到非零等值面实现全场一致性正则化。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 隐式场
-  - 符号距离函数
-  - 点云重建
-  - 双边滤波
-  - 特征保持
+  - "ECCV 2024"
+  - "3D视觉"
+  - "隐式场"
+  - "符号距离函数"
+  - "点云重建"
+  - "双边滤波"
+  - "特征保持"
 ---
 
 # Implicit Filtering for Learning Neural Signed Distance Functions from 3D Point Clouds

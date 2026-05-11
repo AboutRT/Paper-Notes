@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Predicting LLM Reasoning Performance with Small Proxy Models
 description: >-
-  [ICLR 2026][LLM/NLP] 提出 rBridge 方法，通过结合前沿模型推理轨迹 (reasoning trace) 的 NLL 评估与 token 级任务对齐权重，使 ≤1B 的小模型能有效预测 13B-32B 大模型的推理性能，数据排序计算成本降低 100 倍以上。
+  [ICLR 2026][LLM/NLP][小模型代理] 提出 rBridge 方法，通过结合前沿模型推理轨迹 (reasoning trace) 的 NLL 评估与 token 级任务对齐权重，使 ≤1B 的小模型能有效预测 13B-32B 大模型的推理性能，数据排序计算成本降低 100 倍以上。
 tags:
-  - ICLR 2026
-  - LLM/NLP
-  - 推理能力预测
-  - 预训练数据
-  - scaling law
-  - NLL
+  - "ICLR 2026"
+  - "LLM/NLP"
+  - "小模型代理"
+  - "推理能力预测"
+  - "预训练数据"
+  - "scaling law"
+  - "NLL"
 ---
 
 # Predicting LLM Reasoning Performance with Small Proxy Models
@@ -88,7 +89,7 @@ rBridge 不训练新模型，而是一个评估指标。其计算流程：
 
 ## 实验关键数据
 
-### 主实验 1：数据集排名（<100M → 1.2B）
+### 主实验 1：数据集排名（&lt;100M → 1.2B）
 
 在 DataDecide 协议下，用代理模型排列 25 个预训练数据集：
 

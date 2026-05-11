@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][稀疏体素] 本文提出 SVRaster，一种无需神经网络或 3D 高斯的高效辐射场渲染方法，通过自适应多层次稀疏体素表示和基于方向相关 Morton 排序的定制光栅化器，实现了无伪影的实时高保真渲染。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 稀疏体素
-  - 光栅化
-  - 辐射场渲染
-  - 无神经网络
-  - 新视角合成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "稀疏体素"
+  - "光栅化"
+  - "辐射场渲染"
+  - "无神经网络"
+  - "新视角合成"
 ---
 
 # Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][模型压缩][低秩压缩] SkipCat 提出了一种秩最大化的低秩压缩框架，通过层内共享投影（Cat）和块跳跃（Skip）两项技术，在相同压缩率下保留更多有效秩，无需微调即可在零样本任务上比现有低秩方法提升7%准确率。
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - 低秩压缩
-  - SVD
-  - 秩最大化
-  - Block Skipping
-  - 共享投影
+  - "AAAI 2026"
+  - "模型压缩"
+  - "低秩压缩"
+  - "SVD"
+  - "秩最大化"
+  - "Block Skipping"
+  - "共享投影"
 ---
 
 # SkipCat: Rank-Maximized Low-Rank Compression of Large Language Models via Shared Projection and Block Skipping

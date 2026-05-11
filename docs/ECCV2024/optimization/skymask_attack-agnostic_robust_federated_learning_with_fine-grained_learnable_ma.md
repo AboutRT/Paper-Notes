@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SkyMask: Attack-Agnostic Robust Federated Learning with Fine-Grained Learnable Masks
 description: >-
-  [ECCV2024][优化][联邦学习] 提出 SkyMask，利用参数级可学习二值掩码在服务器端检测恶意客户端模型更新，实现攻击无关的鲁棒联邦学习，在恶意客户端占比高达 80% 时仍能有效防御。
+  [ECCV2024][优化/理论][联邦学习] 提出 SkyMask，利用参数级可学习二值掩码在服务器端检测恶意客户端模型更新，实现攻击无关的鲁棒联邦学习，在恶意客户端占比高达 80% 时仍能有效防御。
 tags:
-  - ECCV2024
-  - 优化
-  - 联邦学习
-  - Byzantine Attack
-  - Learnable Mask
-  - Robust Aggregation
+  - "ECCV2024"
+  - "优化/理论"
+  - "联邦学习"
+  - "Byzantine Attack"
+  - "Learnable Mask"
+  - "Robust Aggregation"
 ---
 
 # SkyMask: Attack-Agnostic Robust Federated Learning with Fine-Grained Learnable Masks

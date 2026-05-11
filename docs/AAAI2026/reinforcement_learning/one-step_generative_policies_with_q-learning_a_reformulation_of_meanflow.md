@@ -2,14 +2,15 @@
 title: >-
   [论文解读] One-Step Generative Policies with Q-Learning: A Reformulation of MeanFlow
 description: >-
-  [AAAI 2026][离线强化学习] 本文将MeanFlow从视觉生成任务重新改造为离线RL的生成式策略，提出一种残差形式的直接噪声到动作映射，实现单步采样的表达性策略，可在单阶段训练中与Q函数稳定联合优化，在OGBench和D4RL的73个任务上取得了强劲性能。
+  [AAAI 2026][强化学习][离线强化学习] 本文将MeanFlow从视觉生成任务重新改造为离线RL的生成式策略，提出一种残差形式的直接噪声到动作映射，实现单步采样的表达性策略，可在单阶段训练中与Q函数稳定联合优化，在OGBench和D4RL的73个任务上取得了强劲性能。
 tags:
-  - AAAI 2026
-  - 离线强化学习
-  - 生成式策略
-  - MeanFlow
-  - 单步采样
-  - Q学习
+  - "AAAI 2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "生成式策略"
+  - "MeanFlow"
+  - "单步采样"
+  - "Q学习"
 ---
 
 # One-Step Generative Policies with Q-Learning: A Reformulation of MeanFlow

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CodeReviewQA: The Code Review Comprehension Assessment for Large Language Models
 description: >-
-  [ACL 2025][代码审查] 提出 CodeReviewQA 基准，将代码审查理解分解为变更类型识别、变更定位和方案识别三个推理步骤，通过多选题探测提供细粒度反馈并缓解数据污染风险，在 72 个 LLM 上系统评估代码审查理解能力。
+  [ACL 2025][代码智能][代码审查] 提出 CodeReviewQA 基准，将代码审查理解分解为变更类型识别、变更定位和方案识别三个推理步骤，通过多选题探测提供细粒度反馈并缓解数据污染风险，在 72 个 LLM 上系统评估代码审查理解能力。
 tags:
-  - ACL 2025
-  - 代码审查
-  - 自动代码修正
-  - 多选题探测
-  - 数据污染
-  - 代码智能
+  - "ACL 2025"
+  - "代码智能"
+  - "代码审查"
+  - "自动代码修正"
+  - "多选题探测"
+  - "数据污染"
+  - "LLM评估"
 ---
 
 # CodeReviewQA: The Code Review Comprehension Assessment for Large Language Models

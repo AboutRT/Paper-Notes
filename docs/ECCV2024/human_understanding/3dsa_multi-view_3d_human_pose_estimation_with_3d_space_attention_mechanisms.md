@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][多视图人体姿态估计] 本文提出3D空间注意力模块（3DSA），通过3D空间细分算法将特征体积划分为多个区域并为其分配基于视角的注意力权重，解决多视图3D人体姿态估计中不同视角对不同空间区域贡献不均的问题，在 CMU Panoptic Studio 数据集上达到 SOTA。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 多视图人体姿态估计
-  - 3D空间注意力
-  - 特征体素
-  - VoxelPose
-  - 视角重要性
+  - "ECCV 2024"
+  - "人体理解"
+  - "多视图人体姿态估计"
+  - "3D空间注意力"
+  - "特征体素"
+  - "VoxelPose"
+  - "视角重要性"
 ---
 
 # 3DSA: Multi-view 3D Human Pose Estimation With 3D Space Attention Mechanisms

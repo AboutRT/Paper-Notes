@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][ComfyUI] 提出 ComfyUI-Copilot，一个基于 LLM 的层次化多 agent 框架，作为 ComfyUI 插件提供智能节点/模型推荐和一键式工作流构建，覆盖 7K 节点、62K 模型和 9K 工作流的知识库，在线服务 22 国的 19K 用户并处理了 85K+ 查询。
 tags:
-  - ACL 2025
-  - ComfyUI
-  - 其他
-  - Workflow Generation
-  - LLM Agent
-  - AIGC
+  - "ACL 2025"
+  - "ComfyUI"
+  - "Multi-Agent Framework"
+  - "Workflow Generation"
+  - "LLM Agent"
+  - "AIGC"
 ---
 
 # ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow Development

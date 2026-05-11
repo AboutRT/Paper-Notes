@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][AI安全][自监督学习] 提出Noisy Alignment（NA）方法，通过显式压缩投毒图像中的噪声成分来增强自监督对比学习的后门攻击效果，将攻击建模为二维图像布局优化问题，并推导出理论最优参数，在ImageNet-100上ASR提升最高达45.9%。
 tags:
-  - ICCV 2025
-  - AI安全
-  - 自监督学习
-  - 对比学习
-  - backdoor attack
-  - 数据投毒
-  - 噪声对齐
+  - "ICCV 2025"
+  - "AI安全"
+  - "自监督学习"
+  - "对比学习"
+  - "backdoor attack"
+  - "数据投毒"
+  - "噪声对齐"
 ---
 
 # Backdooring Self-Supervised Contrastive Learning by Noisy Alignment

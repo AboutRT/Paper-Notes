@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mitigating Content Effects on Reasoning in Language Models through Fine-Grained Activation Steering
 description: >-
-  [AAAI 2026][内容效应] 通过激活转向（activation steering）技术缓解 LLM 中的内容效应偏见——模型将内容可信度与形式逻辑有效性混淆的问题，提出 K-CAST（基于 kNN 的条件激活转向）方法，在不响应静态转向的模型上实现高达 15% 的形式推理准确率提升。
+  [AAAI 2026][多语言/翻译][内容效应] 通过激活转向（activation steering）技术缓解 LLM 中的内容效应偏见——模型将内容可信度与形式逻辑有效性混淆的问题，提出 K-CAST（基于 kNN 的条件激活转向）方法，在不响应静态转向的模型上实现高达 15% 的形式推理准确率提升。
 tags:
-  - AAAI 2026
-  - 内容效应
-  - 激活转向
-  - 多语言翻译
-  - 形式逻辑
-  - 推理偏见
+  - "AAAI 2026"
+  - "多语言/翻译"
+  - "内容效应"
+  - "激活转向"
+  - "三段论推理"
+  - "形式逻辑"
+  - "推理偏见"
 ---
 
 # Mitigating Content Effects on Reasoning in Language Models through Fine-Grained Activation Steering

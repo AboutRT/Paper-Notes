@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][多尺度生成] ZoomLDM 提出了一个尺度条件的潜在扩散模型，通过可训练的 Summarizer 模块构建跨倍率潜在空间，实现了病理图像在多个尺度下的高质量生成，并首次支持最大 $4096 \times 4096$ 像素的全局一致大图像合成和无训练超分辨率。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 多尺度生成
-  - 潜在扩散模型
-  - 病理图像
-  - 自监督学习
-  - 大图像合成
+  - "CVPR 2025"
+  - "医学图像"
+  - "多尺度生成"
+  - "潜在扩散模型"
+  - "病理图像"
+  - "自监督学习"
+  - "大图像合成"
 ---
 
 # ZoomLDM: Latent Diffusion Model for Multi-Scale Image Generation

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FABLE: Fine-grained Fact Anchoring for Unstructured Model Editing
 description: >-
-  [ACL 2026][模型编辑] 本文发现现有非结构化模型编辑方法虽能整体性回忆编辑文本但无法进行细粒度事实访问，提出FABLE框架通过两阶段层次化策略将细粒度事实锚定到浅层、整体性叙事整合到深层，并构建UnFine诊断基准进行系统评估。
+  [ACL 2026][知识编辑][模型编辑] 本文发现现有非结构化模型编辑方法虽能整体性回忆编辑文本但无法进行细粒度事实访问，提出FABLE框架通过两阶段层次化策略将细粒度事实锚定到浅层、整体性叙事整合到深层，并构建UnFine诊断基准进行系统评估。
 tags:
-  - ACL 2026
-  - 模型编辑
-  - 非结构化知识
-  - 细粒度事实注入
-  - 层次化键值存储
-  - UnFine基准
+  - "ACL 2026"
+  - "知识编辑"
+  - "模型编辑"
+  - "非结构化知识"
+  - "细粒度事实注入"
+  - "层次化键值存储"
+  - "UnFine基准"
 ---
 
 # FABLE: Fine-grained Fact Anchoring for Unstructured Model Editing

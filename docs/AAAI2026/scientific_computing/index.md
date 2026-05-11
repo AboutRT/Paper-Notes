@@ -3,6 +3,11 @@ title: >-
   AAAI2026 科学计算方向8篇论文解读
 description: >-
   8篇AAAI2026的科学计算方向论文解读，收录 Just Few States are Enough、Knowledge-Guided Masked Autoen、Phys-Liquid等。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "AAAI2026"
+  - "科学计算"
+  - "论文解读"
+  - "论文笔记"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->

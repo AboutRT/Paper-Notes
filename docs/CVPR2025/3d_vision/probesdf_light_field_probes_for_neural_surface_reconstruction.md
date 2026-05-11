@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][神经表面重建] ProbeSDF 重新设计了 SDF 基神经表面重建的外观模型，将空间特征和角度特征解耦存储在不同分辨率的体素网格中，用极少参数（每体素 4 个）和微型 MLP 实现了更好的几何和图像质量，训练仅需 1-2 分钟并支持实时渲染。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 神经表面重建
-  - 光场探针
-  - SDF
-  - 外观建模
-  - 球谐函数
+  - "CVPR 2025"
+  - "3D视觉"
+  - "神经表面重建"
+  - "光场探针"
+  - "SDF"
+  - "外观建模"
+  - "球谐函数"
 ---
 
 # ProbeSDF: Light Field Probes for Neural Surface Reconstruction

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Imbalance in Balance: Online Concept Balancing in Generation Models
 description: >-
-  [ICCV 2025][概念组合] 通过精心设计的因果实验揭示了数据分布（而非模型规模或数据量）是扩散模型概念组合能力的决定性因素，并提出 IMBA Loss——一种在线的、概念级别的均衡损失函数，通过条件与无条件分布差异（IMBA 距离）自适应调整 token 级损失权重，只需几行代码修改即可显著提升模型的多概念生成能力。
+  [ICCV 2025][LLM评测][概念组合] 通过精心设计的因果实验揭示了数据分布（而非模型规模或数据量）是扩散模型概念组合能力的决定性因素，并提出 IMBA Loss——一种在线的、概念级别的均衡损失函数，通过条件与无条件分布差异（IMBA 距离）自适应调整 token 级损失权重…
 tags:
-  - ICCV 2025
-  - 概念组合
-  - 数据不平衡
-  - IMBA Loss
-  - 扩散模型训练
-  - 长尾分布
+  - "ICCV 2025"
+  - "LLM评测"
+  - "概念组合"
+  - "数据不平衡"
+  - "IMBA Loss"
+  - "扩散模型训练"
+  - "长尾分布"
 ---
 
 # Imbalance in Balance: Online Concept Balancing in Generation Models

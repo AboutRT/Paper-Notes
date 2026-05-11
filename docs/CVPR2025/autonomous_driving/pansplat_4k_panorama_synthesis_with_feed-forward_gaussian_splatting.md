@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][全景图合成] PanSplat 提出了一种前馈式全景视图合成方法，通过球面 3D 高斯金字塔、Fibonacci 点阵排列和层级球面代价体积设计，首次实现了 4K 分辨率（2048×4096）的高效全景图生成，在单张 A100 GPU 上即可训练。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 全景图合成
-  - 高斯溅射
-  - 前馈式
-  - 4K分辨率
-  - 球面表示
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "全景图合成"
+  - "高斯溅射"
+  - "前馈式"
+  - "4K分辨率"
+  - "球面表示"
 ---
 
 # PanSplat: 4K Panorama Synthesis with Feed-Forward Gaussian Splatting

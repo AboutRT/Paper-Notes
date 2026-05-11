@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GeoDynamics: A Geometric State-Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds
 description: >-
-  [NeurIPS 2025][医学图像][state-space model] 提出GeoDynamics，将经典状态空间模型(SSM)从欧几里得空间推广到对称正定(SPD)流形，通过加权Frechet均值聚合和正交群平移实现流形上的状态演化，在脑连接组（AD/PD/ASD早期诊断）和人体动作识别上均取得SOTA。
+  [NeurIPS 2025][医学图像][state-space model] 提出GeoDynamics，将经典状态空间模型(SSM)从欧几里得空间推广到对称正定(SPD)流形，通过加权Frechet均值聚合和正交群平移实现流形上的状态演化…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - state-space model
-  - SPD manifold
-  - Riemannian geometry
-  - brain dynamics
-  - functional connectivity
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "state-space model"
+  - "SPD manifold"
+  - "Riemannian geometry"
+  - "brain dynamics"
+  - "functional connectivity"
 ---
 
 # GeoDynamics: A Geometric State-Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds

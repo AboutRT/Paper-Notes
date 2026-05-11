@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Massively Parallel Imitation Learning of Mouse Forelimb Musculoskeletal Reaching Dynamics
 description: >-
-  [NeurIPS 2025][musculoskeletal simulation] 基于 MIMIC-MJX 平台构建小鼠前肢肌肉骨骼模拟学习流水线，通过 JAX 加速的大规模并行 PPO（120 万步/秒）训练物理感知模仿学习策略，证明控制成本正则化能使模拟肌肉活动更好地预测真实 EMG 信号，并用基于 Takens 定理的非线性动力学方法从关节运动学预测肌肉激活。
+  [NeurIPS 2025][强化学习][musculoskeletal simulation] 基于 MIMIC-MJX 平台构建小鼠前肢肌肉骨骼模拟学习流水线，通过 JAX 加速的大规模并行 PPO（120 万步/秒）训练物理感知模仿学习策略，证明控制成本正则化能使模拟肌肉活动更好地预测真实 EMG 信号…
 tags:
-  - NeurIPS 2025
-  - musculoskeletal simulation
-  - mouse forelimb
-  - PPO
-  - MuJoCo-MJX
-  - EMG prediction
-  - imitation learning
-  - Takens theorem
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "musculoskeletal simulation"
+  - "mouse forelimb"
+  - "PPO"
+  - "MuJoCo-MJX"
+  - "EMG prediction"
+  - "imitation learning"
+  - "Takens theorem"
 ---
 
 # Massively Parallel Imitation Learning of Mouse Forelimb Musculoskeletal Reaching Dynamics

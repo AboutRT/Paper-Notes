@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DreamDiffusion: High-Quality EEG-to-Image Generation with Temporal Masked Signal Modeling and CLIP Alignment
 description: >-
-  [ECCV 2024][图像生成][EEG信号生成图像] 本文提出 DreamDiffusion，利用时序掩码信号建模对EEG编码器进行大规模预训练学习鲁棒的脑电表征，再通过CLIP图像编码器提供额外监督将EEG-文本-图像空间对齐，最终借助预训练的Stable Diffusion从脑电信号直接生成高质量图像，实现便携低成本的"思维转图像"。
+  [ECCV 2024][图像生成][EEG信号生成图像] 本文提出 DreamDiffusion，利用时序掩码信号建模对EEG编码器进行大规模预训练学习鲁棒的脑电表征，再通过CLIP图像编码器提供额外监督将EEG-文本-图像空间对齐，最终借助预训练的Stable Diffusion从脑电信号直接生成高质量图像…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - EEG信号生成图像
-  - 脑信号解码
-  - 时序掩码预训练
-  - CLIP对齐
-  - 扩散模型
+  - "ECCV 2024"
+  - "图像生成"
+  - "EEG信号生成图像"
+  - "脑信号解码"
+  - "时序掩码预训练"
+  - "CLIP对齐"
+  - "扩散模型"
 ---
 
 # DreamDiffusion: High-Quality EEG-to-Image Generation with Temporal Masked Signal Modeling and CLIP Alignment

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][360度感知] SphereUFormer 提出直接在球面域（icosphere 网格）上运行的 U 形 Transformer 架构，通过球面局部自注意力机制和球面特化的上下采样操作，避免了等距柱状投影带来的畸变，在 360° 深度估计和语义分割任务上全面超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 360度感知
-  - 球面表征
-  - Transformer
-  - 深度估计
-  - 语义分割
+  - "CVPR 2025"
+  - "3D视觉"
+  - "360度感知"
+  - "球面表征"
+  - "Transformer"
+  - "深度估计"
+  - "语义分割"
 ---
 
 # SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] EquaCode: A Multi-Strategy Jailbreak Approach for Large Language Models via Equation Solving and Code Completion
 description: >-
-  [AAAI 2026][代码智能] 提出EquaCode多策略越狱方法，将恶意查询分解为方程求解（B+C+x=A）和代码补全（补全Solver类的solve()方法）的跨域组合，在GPT系列上平均攻击成功率92.78%，在最新模型（Gemini/DeepSeek/Grok）上接近100%。
+  [AAAI 2026][代码智能][越狱攻击] 提出EquaCode多策略越狱方法，将恶意查询分解为方程求解（B+C+x=A）和代码补全（补全Solver类的solve()方法）的跨域组合，在GPT系列上平均攻击成功率92.78%，在最新模型（Gemini/DeepSeek/Grok）上接近100%。
 tags:
-  - AAAI 2026
-  - 代码智能
-  - LLM安全
-  - 方程求解
-  - 代码补全
-  - 跨域攻击
+  - "AAAI 2026"
+  - "代码智能"
+  - "越狱攻击"
+  - "LLM安全"
+  - "方程求解"
+  - "代码补全"
+  - "跨域攻击"
 ---
 
 # EquaCode: A Multi-Strategy Jailbreak Approach for Large Language Models via Equation Solving and Code Completion

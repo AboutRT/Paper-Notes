@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][社会计算][Compositional Zero-Shot Learning] 提出 Visual Proxy（视觉代理）概念，在 CZSL 任务中首次引入文本引导的视觉类中心，并通过跨模态联合学习（CMJL）协同优化文本原型与视觉代理，在四个 CZSL 基准上达到闭世界 SOTA。
 tags:
-  - ICCV 2025
-  - 社会计算
-  - Compositional Zero-Shot Learning
-  - Visual Proxy
-  - 跨模态
-  - CLIP
-  - VLM
+  - "ICCV 2025"
+  - "社会计算"
+  - "Compositional Zero-Shot Learning"
+  - "Visual Proxy"
+  - "跨模态"
+  - "CLIP"
+  - "VLM"
 ---
 
 # Learning Visual Proxy for Compositional Zero-Shot Learning

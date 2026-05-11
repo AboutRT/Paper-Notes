@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][开放域对齐] 本文提出 MAESTRO，将 GRPO 中的奖励标量化重新定义为上下文老虎机问题，通过轻量级 Conductor 网络利用模型末层隐藏状态自适应地为每个 prompt-response 对选择奖励权重，在七个开放域基准上一致超越静态奖励和单一奖励基线。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 开放域对齐
-  - 多目标优化
-  - 奖励编排
-  - 元学习
-  - GRPO
+  - "ACL 2026"
+  - "模型压缩"
+  - "开放域对齐"
+  - "多目标优化"
+  - "奖励编排"
+  - "元学习"
+  - "GRPO"
 ---
 
 # MAESTRO: Meta-learning Adaptive Estimation of Scalarization Trade-offs for Reward Optimization

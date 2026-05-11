@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Detecting and Mitigating Memorization in Diffusion Models through Anisotropy of the Log-Probability
 description: >-
-  [ICLR 2026][图像生成][记忆检测] 本文证明基于范数的记忆检测指标仅在各向同性（isotropic）对数概率分布下有效，在低噪声各向异性（anisotropic）区域失效；提出结合高噪声范数和低噪声角度对齐（cosine similarity）的无去噪检测指标，在 SD v1.4/v2.0 上超越现有无去噪方法且快 5× 以上。
+  [ICLR 2026][图像生成][记忆检测] 本文证明基于范数的记忆检测指标仅在各向同性（isotropic）对数概率分布下有效，在低噪声各向异性（anisotropic）区域失效；提出结合高噪声范数和低噪声角度对齐（cosine similarity）的无去噪检测指标…
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 记忆检测
-  - 各向异性
-  - score函数
-  - 余弦相似度
-  - 无去噪检测
+  - "ICLR 2026"
+  - "图像生成"
+  - "记忆检测"
+  - "各向异性"
+  - "score函数"
+  - "余弦相似度"
+  - "无去噪检测"
 ---
 
 # Detecting and Mitigating Memorization in Diffusion Models through Anisotropy of the Log-Probability

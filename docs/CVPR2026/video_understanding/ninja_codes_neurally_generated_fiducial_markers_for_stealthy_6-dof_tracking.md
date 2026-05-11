@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][基准标记] Ninja Codes 利用深度隐写术技术，通过端到端训练的编码器将任意图像转化为视觉上不显眼的基准标记，可用标准打印机打印并用RGB相机检测，实现隐蔽的6-DoF位置追踪。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 基准标记
-  - 6-DoF追踪
-  - 深度隐写术
-  - 隐蔽标记
-  - 神经网络编码
+  - "CVPR 2026"
+  - "视频理解"
+  - "基准标记"
+  - "6-DoF追踪"
+  - "深度隐写术"
+  - "隐蔽标记"
+  - "神经网络编码"
 ---
 
 # Ninja Codes: Neurally Generated Fiducial Markers for Stealthy 6-DoF Tracking

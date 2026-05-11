@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][鲁棒水印] 本文提出 Robust-Wide，首个针对指令驱动图像编辑的鲁棒水印方法，核心创新是部分指令驱动去噪采样引导（PIDSG）模块——在训练中将编辑过程的最后k步梯度打通，迫使水印嵌入到语义感知区域，实现编辑后仅约2.6% 的64位水印误码率。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 鲁棒水印
-  - 图像编辑
-  - InstructPix2Pix
-  - 语义级扰动
-  - 扩散模型
+  - "ECCV 2024"
+  - "图像生成"
+  - "鲁棒水印"
+  - "图像编辑"
+  - "InstructPix2Pix"
+  - "语义级扰动"
+  - "扩散模型"
 ---
 
 # Robust-Wide: Robust Watermarking against Instruction-driven Image Editing

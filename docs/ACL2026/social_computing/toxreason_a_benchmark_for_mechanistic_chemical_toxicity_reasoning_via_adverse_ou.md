@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ToxReason: A Benchmark for Mechanistic Chemical Toxicity Reasoning via Adverse Outcome Pathway
 description: >-
-  [ACL 2026][社会计算] 本文提出 ToxReason，一个基于不良结局路径 (AOP) 框架的化学毒性机理推理基准，整合药物-靶点实验数据与毒性标签，要求模型从分子起始事件推理到器官级不良结局；通过 GRPO 强化学习训练的 4B 模型在毒性预测（F1 71.4%）和推理质量上均超越 GPT-5 等大模型。
+  [ACL 2026][社会计算][毒性推理] 本文提出 ToxReason，一个基于不良结局路径 (AOP) 框架的化学毒性机理推理基准，整合药物-靶点实验数据与毒性标签，要求模型从分子起始事件推理到器官级不良结局…
 tags:
-  - ACL 2026
-  - 社会计算
-  - 不良结局路径
-  - 基准测试
-  - 强化学习
-  - LLM评估
+  - "ACL 2026"
+  - "社会计算"
+  - "毒性推理"
+  - "不良结局路径"
+  - "基准测试"
+  - "强化学习"
+  - "LLM评估"
 ---
 
 # ToxReason: A Benchmark for Mechanistic Chemical Toxicity Reasoning via Adverse Outcome Pathway

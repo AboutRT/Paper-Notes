@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][LiDAR动作捕捉] 提出 LiveHPS++，一种基于单 LiDAR 的鲁棒人体动作捕捉方法，通过轨迹引导身体追踪器、噪声不敏感速度预测器和运动学感知姿态优化器三个模块，隐式和显式建模人体运动的动力学和运动学特征，在复杂噪声环境下实现精确且连贯的全局人体运动捕捉。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - LiDAR动作捕捉
-  - 抗噪声
-  - 运动连贯性
-  - SMPL
-  - 运动学优化
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "LiDAR动作捕捉"
+  - "抗噪声"
+  - "运动连贯性"
+  - "SMPL"
+  - "运动学优化"
 ---
 
 # LiveHPS++: Robust and Coherent Motion Capture in Dynamic Free Environment

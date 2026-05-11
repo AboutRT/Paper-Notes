@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][功能基团] 本文提出 FGBench，一个包含 625K 分子性质推理问题的数据集，专注于功能基团（functional group）级别的推理评估，通过三个维度（单功能基团影响、多功能基团交互、分子比较）系统揭示了当前 LLM 在细粒度化学推理能力上的严重不足。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 功能基团
-  - 分子性质推理
-  - 化学基准
-  - 结构-活性关系
-  - LLM推理
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "功能基团"
+  - "分子性质推理"
+  - "化学基准"
+  - "结构-活性关系"
+  - "LLM推理"
 ---
 
 # FGBench: A Dataset and Benchmark for Molecular Property Reasoning at Functional Group-Level in Large Language Models

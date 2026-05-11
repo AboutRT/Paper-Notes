@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DISCO: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring
 description: >-
-  [ICLR 2026][医学图像][细胞实例分割] 将密集重叠细胞实例分割建模为图着色问题，提出"显式标记冲突节点 + 隐式邻接约束消歧"的分治框架 Disco，通过 BFS 分解细胞邻接图并引入五种协同损失函数，在高密度病理数据集 GBC-FS 2025 上 PQ 提升 7.08%，同时在四个异质数据集上均取得 SOTA。
+  [ICLR 2026][医学图像][细胞实例分割] 将密集重叠细胞实例分割建模为图着色问题，提出"显式标记冲突节点 + 隐式邻接约束消歧"的分治框架 Disco，通过 BFS 分解细胞邻接图并引入五种协同损失函数，在高密度病理数据集 GBC-FS 2025 上 PQ 提升 7.08%…
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 细胞实例分割
-  - 图着色
-  - 密集重叠
-  - 邻接约束
-  - 病理图像
+  - "ICLR 2026"
+  - "医学图像"
+  - "细胞实例分割"
+  - "图着色"
+  - "密集重叠"
+  - "邻接约束"
+  - "病理图像"
 ---
 
 # DISCO: Densely-overlapping Cell Instance Segmentation via Adjacency-aware Collaborative Coloring

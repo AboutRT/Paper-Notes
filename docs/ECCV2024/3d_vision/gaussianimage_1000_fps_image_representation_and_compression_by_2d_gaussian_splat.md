@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][2D Gaussian Splatting] 提出GaussianImage，首次将2D Gaussian Splatting用于图像表示与压缩，通过紧凑的8参数2D高斯和累积求和光栅化算法，实现了2000 FPS的解码速度，同时与INR方法在表示质量和压缩性能上持平。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 2D Gaussian Splatting
-  - 图像表示
-  - 图像压缩
-  - 向量量化
-  - 快速渲染
+  - "ECCV 2024"
+  - "3D视觉"
+  - "2D Gaussian Splatting"
+  - "图像表示"
+  - "图像压缩"
+  - "向量量化"
+  - "快速渲染"
 ---
 
 # GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting

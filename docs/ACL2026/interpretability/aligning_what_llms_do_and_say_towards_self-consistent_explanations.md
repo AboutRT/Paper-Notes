@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Aligning What LLMs Do and Say: Towards Self-Consistent Explanations
 description: >-
-  [ACL 2026][自一致性] 构建大规模Post-hoc Self-Consistency Bank（PSCB，85K决策×428K解释），量化LLM答案与其解释之间的特征归因差距，并通过DPO优化在不损害准确率的前提下提升解释的归因一致性。
+  [ACL 2026][可解释性][自一致性] 构建大规模Post-hoc Self-Consistency Bank（PSCB，85K决策×428K解释），量化LLM答案与其解释之间的特征归因差距，并通过DPO优化在不损害准确率的前提下提升解释的归因一致性。
 tags:
-  - ACL 2026
-  - 自一致性
-  - 特征归因
-  - 解释忠实性
-  - 可解释性
-  - 归因对齐
+  - "ACL 2026"
+  - "可解释性"
+  - "自一致性"
+  - "特征归因"
+  - "解释忠实性"
+  - "DPO优化"
+  - "归因对齐"
 ---
 
 # Aligning What LLMs Do and Say: Towards Self-Consistent Explanations

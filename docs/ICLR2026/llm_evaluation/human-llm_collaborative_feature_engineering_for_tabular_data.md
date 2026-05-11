@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM评测][特征工程] 提出一个人-LLM协作特征工程框架，将LLM的特征操作提议与选择过程解耦，通过贝叶斯神经网络建模操作效用和不确定性来指导选择，并选择性地引入人类偏好反馈，在18个表格数据集上平均错误率降低8.96%~11.23%。
 tags:
-  - ICLR 2026
-  - LLM评测
-  - 特征工程
-  - 人机协作
-  - 贝叶斯优化
-  - LLM
-  - 表格数据
+  - "ICLR 2026"
+  - "LLM评测"
+  - "特征工程"
+  - "人机协作"
+  - "贝叶斯优化"
+  - "LLM"
+  - "表格数据"
 ---
 
 # Human-LLM Collaborative Feature Engineering for Tabular Learning
@@ -84,7 +84,7 @@ BNN通过最小化ELBO训练：$\text{KL}(q_t(\boldsymbol{\theta}) \| \mathcal{P
 | 不同LLM骨干(GPT-5) | MLP平均85.9→86.5 | GPT-5骨干下Ours(w/ human)最优 |
 | 不同LLM骨干(GPT-3.5) | MLP平均84.6→85.1 | 弱骨干也能保持优势 |
 | 用户研究(ALG vs Control) | 性能: p=0.011 | ALG框架显著提升用户性能 |
-| 用户研究(ALG vs Control) | 完成时间: p<0.001 | ALG框架显著减少完成时间 |
+| 用户研究(ALG vs Control) | 完成时间: p&lt;0.001 | ALG框架显著减少完成时间 |
 
 ### 关键发现
 

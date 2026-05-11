@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Image Generation Diversity Issues and How to Tame Them
 description: >-
-  [CVPR 2025][图像生成][生成多样性] 本文揭示了当前扩散模型存在严重的多样性不足问题（最先进模型仅覆盖训练数据 77% 的多样性），提出了基于图像检索的 Image Retrieval Score (IRS) 作为可解释的多样性度量指标，并引入 Diversity-Aware Diffusion Models (DiADM) 在不损失生成质量的前提下提升多样性。
+  [CVPR 2025][图像生成][生成多样性] 本文揭示了当前扩散模型存在严重的多样性不足问题（最先进模型仅覆盖训练数据 77% 的多样性），提出了基于图像检索的 Image Retrieval Score (IRS) 作为可解释的多样性度量指标…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 生成多样性
-  - 图像检索评分
-  - 扩散模型评估
-  - 多样性感知生成
-  - 特征提取器评估
+  - "CVPR 2025"
+  - "图像生成"
+  - "生成多样性"
+  - "图像检索评分"
+  - "扩散模型评估"
+  - "多样性感知生成"
+  - "特征提取器评估"
 ---
 
 # Image Generation Diversity Issues and How to Tame Them

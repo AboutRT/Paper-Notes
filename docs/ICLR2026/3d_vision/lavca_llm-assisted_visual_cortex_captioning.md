@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][视觉皮层] 提出 LaVCa 方法，利用 LLM 为人类视觉皮层的每个体素生成自然语言描述（caption），通过"编码模型→最优图像选取→MLLM生成描述→LLM关键词提炼+句子组合"四步流程，比已有方法 BrainSCUBA 更准确、更多样地揭示了体素级视觉选择性。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 视觉皮层
-  - 体素选择性
-  - LLM
-  - fMRI编码模型
-  - 脑活动预测
+  - "ICLR 2026"
+  - "3D视觉"
+  - "视觉皮层"
+  - "体素选择性"
+  - "LLM"
+  - "fMRI编码模型"
+  - "脑活动预测"
 ---
 
 # LaVCa: LLM-assisted Visual Cortex Captioning

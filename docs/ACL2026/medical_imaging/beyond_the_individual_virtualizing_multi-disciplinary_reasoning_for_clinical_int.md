@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][医学图像][多学科会诊] 提出 Aegle 框架，通过图结构多智能体架构虚拟化多学科会诊（MDT），将解耦并行推理和动态拓扑引入门诊问诊流程，在24个科室53项指标上超越SOTA模型。
 tags:
-  - ACL 2026
-  - 医学图像
-  - 多学科会诊
-  - 多智能体
-  - 临床问诊
-  - SOAP笔记
-  - 动态拓扑
+  - "ACL 2026"
+  - "医学图像"
+  - "多学科会诊"
+  - "多智能体"
+  - "临床问诊"
+  - "SOAP笔记"
+  - "动态拓扑"
 ---
 
 # Beyond the Individual: Virtualizing Multi-Disciplinary Reasoning for Clinical Intake via Collaborative Agents

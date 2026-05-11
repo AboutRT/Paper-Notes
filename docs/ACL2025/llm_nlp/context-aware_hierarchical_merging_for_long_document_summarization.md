@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Context-Aware Hierarchical Merging for Long Document Summarization
 description: >-
-  [ACL 2025][文本生成][长文档摘要] 提出上下文感知的层次合并（CAHM）方法，通过在层次合并摘要过程中引入源文档的相关上下文（抽取/检索/引用三种方式），有效缓解 LLM 在超长文档（>100K tokens）摘要中的幻觉问题。
+  [ACL 2025][LLM/NLP][长文档摘要] 提出上下文感知的层次合并（CAHM）方法，通过在层次合并摘要过程中引入源文档的相关上下文（抽取/检索/引用三种方式），有效缓解 LLM 在超长文档（>100K tokens）摘要中的幻觉问题。
 tags:
-  - ACL 2025
-  - 文本生成
-  - 长文档摘要
-  - 层次合并
-  - 上下文增强
-  - 幻觉缓解
-  - 忠实性
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "长文档摘要"
+  - "层次合并"
+  - "上下文增强"
+  - "幻觉缓解"
+  - "忠实性"
 ---
 
 # Context-Aware Hierarchical Merging for Long Document Summarization

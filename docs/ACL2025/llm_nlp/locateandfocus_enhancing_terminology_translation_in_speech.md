@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][speech translation] 提出Locate-and-Focus方法用于语音LLM的术语翻译：先用滑动窗口检索定位语音中包含术语的片段，再通过音频替换和Tag Cue引导模型聚焦翻译知识，在英中/英德方向上术语翻译成功率大幅提升。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - speech translation
-  - terminology translation
-  - speech LLM
-  - sliding retrieval
-  - 多模态
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "speech translation"
+  - "terminology translation"
+  - "speech LLM"
+  - "sliding retrieval"
+  - "多模态"
 ---
 
 # Locate-and-Focus: Enhancing Terminology Translation in Speech Language Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Sparse Approximate Inverse Preconditioners for Conjugate Gradient Solvers on GPUs
 description: >-
-  [NeurIPS 2025][优化][预条件子] 提出一种基于图神经网络（GNN）的稀疏近似逆（SPAI）预条件子学习方法，利用 SPAI 的局部性与 GNN 消息传递的天然兼容性，并引入尺度不变损失函数（SAI loss），在 GPU 上实现 40%-53% 的求解时间缩减（68%-113% 加速）。
+  [NeurIPS 2025][优化/理论][预条件子] 提出一种基于图神经网络（GNN）的稀疏近似逆（SPAI）预条件子学习方法，利用 SPAI 的局部性与 GNN 消息传递的天然兼容性，并引入尺度不变损失函数（SAI loss），在 GPU 上实现 40%-53% 的求解时间缩减（68%-113% 加速）。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 预条件子
-  - 共轭梯度法
-  - 图神经网络
-  - GPU加速
-  - 稀疏近似逆
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "预条件子"
+  - "共轭梯度法"
+  - "图神经网络"
+  - "GPU加速"
+  - "稀疏近似逆"
 ---
 
 # Learning Sparse Approximate Inverse Preconditioners for Conjugate Gradient Solvers on GPUs

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models
 description: >-
-  [ACL 2025 (Long Paper)][Code Instruction Synthesis] 提出Tree-of-Evolution (ToE)——一种树结构代码指令合成框架，通过多路径进化和质量驱动优化克服Code Evol-Instruct和OSS-Instruct的单向合成与随机生成限制，仅用75K合成数据微调base model即可达到或超越Qwen2.5-Coder-Instruct（数百万样本微调）的性能。
+  [ACL 2025 (Long Paper)][代码智能][Code Instruction Synthesis] 提出Tree-of-Evolution (ToE)——一种树结构代码指令合成框架，通过多路径进化和质量驱动优化克服Code Evol-Instruct和OSS-Instruct的单向合成与随机生…
 tags:
-  - ACL 2025 (Long Paper)
-  - Code Instruction Synthesis
-  - Tree-Structured Evolution
-  - 代码智能
-  - Code LLM
-  - Data Quality
+  - "ACL 2025 (Long Paper)"
+  - "代码智能"
+  - "Code Instruction Synthesis"
+  - "Tree-Structured Evolution"
+  - "Optimization-Driven Generation"
+  - "Code LLM"
+  - "Data Quality"
 ---
 
 # Tree-of-Evolution: Tree-Structured Instruction Evolution for Code Generation in Large Language Models

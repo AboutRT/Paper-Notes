@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][对抗净化] 提出基于注意力掩码的异构噪声扩散净化策略，对分类器关注的关键像素施加高强度噪声以消除对抗扰动，对其余区域施加低强度噪声以保留语义信息，并通过单步重采样大幅降低计算开销。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 对抗净化
-  - 扩散模型
-  - 异构噪声
-  - 注意力掩码
-  - 对抗防御
+  - "CVPR 2025"
+  - "图像生成"
+  - "对抗净化"
+  - "扩散模型"
+  - "异构噪声"
+  - "注意力掩码"
+  - "对抗防御"
 ---
 
 # Divide and Conquer: Heterogeneous Noise Integration for Diffusion-based Adversarial Purification

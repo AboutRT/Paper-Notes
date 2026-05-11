@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][value system] 提出生成式心理词汇方法（GPLA），自动化构建面向LLM的五因素价值体系（社会责任、冒险性、规则遵循、自我效能、理性），在结构效度、安全预测和价值对齐上优于经典Schwartz人类价值体系。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - value system
-  - psycho-lexical approach
-  - LLM alignment
-  - safety prediction
-  - generative psychometrics
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "value system"
+  - "psycho-lexical approach"
+  - "LLM alignment"
+  - "safety prediction"
+  - "generative psychometrics"
 ---
 
 # Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][machine unlearning] 提出 PURGE 框架，通过教师-学生 constituent mapping 和增量式多教师蒸馏策略，将 SISA 的验证式遗忘扩展到知识蒸馏场景，在教师端遗忘时仅需部分重训学生模型，实现至少 $N\times$ 的加速。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - machine unlearning
-  - 知识蒸馏
-  - SISA
-  - data privacy
-  - ensemble learning
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "machine unlearning"
+  - "知识蒸馏"
+  - "SISA"
+  - "data privacy"
+  - "ensemble learning"
 ---
 
 # Efficient Verified Machine Unlearning for Distillation
@@ -103,7 +103,7 @@ $$\frac{t_{\text{sisa}}}{t_{\text{PURGE}}} = N \cdot \frac{6c^2r + 6c}{4c^2r + 3
 | SVHN | Single-teacher | 76.12% | ~76% |
 
 ### 关键发现
-- PURGE 在各种 $N$ 和 $M$ 配置下准确率与 SISA baseline 几乎持平，最大差异 <0.5%
+- PURGE 在各种 $N$ 和 $M$ 配置下准确率与 SISA baseline 几乎持平，最大差异 &lt;0.5%
 - Single-teacher ablation 在 $N$=1（$c$=32）时性能严重退化（SVHN 上掉 7.35%），验证了增量多教师策略的必要性
 - $r$ 的选择存在权衡：大 $r$ 加速学生端遗忘但减慢教师端遗忘，最优 $r$ 取决于两类遗忘请求的比例
 - 实际速度与理论预测高度吻合，$r$=4 时因 ceiling 函数略有偏差

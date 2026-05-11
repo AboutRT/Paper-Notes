@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations
 description: >-
-  [NeurIPS 2025][LLM评测] 提出LAGER框架，通过聚合LLM中间层到最终层的score token logits并计算期望分数，无需微调模型即可将LLM评判与人类评分的对齐度提升最高7.5%，且不需要思维链推理步骤就能匹配或超过推理类方法。
+  [NeurIPS 2025][LLM评测][LLM-as-a-Judge] 提出LAGER框架，通过聚合LLM中间层到最终层的score token logits并计算期望分数，无需微调模型即可将LLM评判与人类评分的对齐度提升最高7.5%，且不需要思维链推理步骤就能匹配或超过推理类方法。
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - 隐层表征
-  - 跨层聚合
-  - 评估对齐
-  - 即插即用
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "LLM-as-a-Judge"
+  - "隐层表征"
+  - "跨层聚合"
+  - "评估对齐"
+  - "即插即用"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

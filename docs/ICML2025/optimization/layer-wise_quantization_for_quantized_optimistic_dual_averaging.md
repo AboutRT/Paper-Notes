@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Layer-wise Quantization for Quantized Optimistic Dual Averaging
 description: >-
-  [ICML2025][优化][层级量化] 通过层级量化（为不同层分配不同量化方案）和乐观对偶平均算法(QODA)，在单调变分不等式上达到竞争性收敛率，在WGAN分布式训练中实现150%端到端加速。
+  [ICML2025][优化/理论][层级量化] 通过层级量化（为不同层分配不同量化方案）和乐观对偶平均算法(QODA)，在单调变分不等式上达到竞争性收敛率，在WGAN分布式训练中实现150%端到端加速。
 tags:
-  - ICML2025
-  - 优化
-  - 层级量化
-  - 变分不等式
-  - 乐观对偶平均
-  - GAN
-  - 通信效率
+  - "ICML2025"
+  - "优化/理论"
+  - "层级量化"
+  - "变分不等式"
+  - "乐观对偶平均"
+  - "GAN"
+  - "通信效率"
 ---
 
 # Layer-wise Quantization for Quantized Optimistic Dual Averaging

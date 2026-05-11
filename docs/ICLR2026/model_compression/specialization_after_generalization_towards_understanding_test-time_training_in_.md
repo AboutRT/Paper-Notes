@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models
 description: >-
-  [ICLR 2026][模型压缩][Test-Time Training] 本文从线性表示假说（LRH）出发，提出"泛化后特化"（specialization after generalization）理论框架，首次在 in-distribution 场景下系统解释了 TTT 为何有效——基础模型因全局欠参数化导致概念叠加干扰，TTT 通过临时遗忘无关概念来释放模型容量、局部特化到测试任务相关的少量概念上，理论保证即使特征空间指数级小于概念空间也能泛化。
+  [ICLR 2026][模型压缩][Test-Time Training] 本文从线性表示假说（LRH）出发，提出"泛化后特化"（specialization after generalization）理论框架…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - Test-Time Training
-  - 线性表示假说
-  - 稀疏自编码器
-  - 泛化后特化
-  - 基础模型
+  - "ICLR 2026"
+  - "模型压缩"
+  - "Test-Time Training"
+  - "线性表示假说"
+  - "稀疏自编码器"
+  - "泛化后特化"
+  - "基础模型"
 ---
 
 # Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models

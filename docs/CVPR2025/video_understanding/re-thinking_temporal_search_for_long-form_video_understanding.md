@@ -2,15 +2,15 @@
 title: >-
   [论文解读] T*: Re-thinking Temporal Search for Long-Form Video Understanding
 description: >-
-  [CVPR 2025][视频理解][关键帧搜索] 提出 T* 框架，将长视频时序搜索转化为空间搜索问题，引入自适应缩放机制在时间和空间维度上迭代定位相关帧，配合 LV-Haystack 基准，在 32 帧预算下将 GPT-4o 从 50.5% 提升到 53.1%，LLaVA-OV-72B 从 56.5% 提升到 62.4%。
+  [CVPR 2025][视频理解][长视频理解] 提出轻量级时序搜索框架 T*，将昂贵的时序搜索转化为空间搜索问题，通过自适应缩放机制在时间和空间维度上迭代定位关键帧，配合首个大规模长视频关键帧搜索基准 LV-Haystack，显著提升现有 VLM 在长视频理解上的表现。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 关键帧搜索
-  - 长视频
-  - 时序定位
-  - VLM
-  - 自适应缩放
+  - "CVPR 2025"
+  - "视频理解"
+  - "长视频理解"
+  - "关键帧搜索"
+  - "时序定位"
+  - "自适应缩放"
+  - "LV-Haystack"
 ---
 
 # T*: Re-thinking Temporal Search for Long-Form Video Understanding

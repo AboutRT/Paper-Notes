@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][时序图] 首次系统识别时序图交互中的异质性问题（交互间隔呈幂律分布），提出TAMI框架包含对数时间编码(LTE)和链接历史聚合(LHA)两个模块，可无缝集成到现有TGNN中，在16个数据集上持续提升链接预测性能，最高提升87.05%。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 时序图
-  - 链接预测
-  - 时间编码
-  - 异质性
-  - 交互频率
+  - "NeurIPS 2025"
+  - "图学习"
+  - "时序图"
+  - "链接预测"
+  - "时间编码"
+  - "异质性"
+  - "交互频率"
 ---
 
 # TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction
@@ -116,7 +116,7 @@ LHA对GraphMixer贡献更大（因GraphMixer邻居聚合较弱），LTE对DyGFor
 ### 按交互频率分组的性能
 
 UCI数据集上GraphMixer按平均交互间隔分组：
-- 间隔<100的节点对：原始AP高，TAMI提升小
+- 间隔&lt;100的节点对：原始AP高，TAMI提升小
 - 间隔>10000的节点对：原始AP极低，**LHA提升高达25%+**，LTE进一步提升
 
 ### 关键发现

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] AMS-IO-Bench and AMS-IO-Agent: Benchmarking and Structured Reasoning for Analog and Mixed-Signal Integrated Circuit Input/Output Design
 description: >-
-  [AAAI 2026][其他] 提出AMS-IO-Agent，一个基于LLM的领域专用智能体，通过结构化意图图(Intent Graph)和领域知识库将自然语言设计意图转化为可生产的模拟混合信号IC I/O环设计，配套提出首个AMS I/O环自动化基准AMS-IO-Bench，在28nm CMOS流片中验证了智能体生成的I/O环可直接用于实际芯片制造。
+  [AAAI 2026][LLM Agent] 提出AMS-IO-Agent，一个基于LLM的领域专用智能体，通过结构化意图图(Intent Graph)和领域知识库将自然语言设计意图转化为可生产的模拟混合信号IC I/O环设计，配套提出首个AMS I/O环自动化基准AMS-IO-Bench…
 tags:
-  - AAAI 2026
-  - 其他
-  - AMS IC
-  - I/O Ring
-  - EDA自动化
-  - 结构化推理
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "AMS IC"
+  - "I/O Ring"
+  - "EDA自动化"
+  - "结构化推理"
 ---
 
 # AMS-IO-Bench and AMS-IO-Agent: Benchmarking and Structured Reasoning for Analog and Mixed-Signal Integrated Circuit Input/Output Design

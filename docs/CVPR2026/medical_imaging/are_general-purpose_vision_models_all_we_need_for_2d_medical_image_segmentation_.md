@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][图像分割] 通过在三个异构医学数据集上对 11 种架构进行标准化对比实验，证明了通用视觉模型 (GP-VMs) 在 2D 医学图像分割中可以超越大多数专用医学分割架构 (SMAs)，且 XAI 分析表明 GP-VMs 无需特定领域设计也能捕获临床相关结构。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 图像分割
-  - general-purpose vision models
-  - empirical study
-  - benchmarking
-  - Grad-CAM
+  - "CVPR 2026"
+  - "医学图像"
+  - "图像分割"
+  - "general-purpose vision models"
+  - "empirical study"
+  - "benchmarking"
+  - "Grad-CAM"
 ---
 
 # Are General-Purpose Vision Models All We Need for 2D Medical Image Segmentation? A Cross-Dataset Empirical Study

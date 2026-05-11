@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Exploring the Limits of Strong Membership Inference Attacks on Large Language Models
 description: >-
-  [NeurIPS 2025][AI安全][成员推断攻击] 首次将强成员推断攻击（LiRA）扩展到10M~1B参数的GPT-2规模LLM，训练超过4000个参考模型，揭示四个关键发现：强MIA可以在LLM上成功但效果有限（AUC<0.7），且大量个体样本决策在训练随机性下**与抛硬币无法区分**。
+  [NeurIPS 2025][LLM安全][成员推断攻击] 首次将强成员推断攻击（LiRA）扩展到10M~1B参数的GPT-2规模LLM，训练超过4000个参考模型，揭示四个关键发现：强MIA可以在LLM上成功但效果有限（AUC&lt;0.7），且大量个体样本决策在训练随机性下**与抛硬币无法区分**。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 成员推断攻击
-  - LLM隐私
-  - LiRA
-  - 差分隐私
-  - 预训练语言模型
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "成员推断攻击"
+  - "LLM隐私"
+  - "LiRA"
+  - "差分隐私"
+  - "预训练语言模型"
 ---
 
 # Exploring the Limits of Strong Membership Inference Attacks on Large Language Models
@@ -23,7 +23,7 @@ tags:
 
 ## 一句话总结
 
-首次将强成员推断攻击（LiRA）扩展到10M~1B参数的GPT-2规模LLM，训练超过4000个参考模型，揭示四个关键发现：强MIA可以在LLM上成功但效果有限（AUC<0.7），且大量个体样本决策在训练随机性下**与抛硬币无法区分**。
+首次将强成员推断攻击（LiRA）扩展到10M~1B参数的GPT-2规模LLM，训练超过4000个参考模型，揭示四个关键发现：强MIA可以在LLM上成功但效果有限（AUC&lt;0.7），且大量个体样本决策在训练随机性下**与抛硬币无法区分**。
 
 ## 研究背景与动机
 

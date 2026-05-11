@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][指纹合成] 本文系统评估了扩散模型合成指纹的同指变异性，通过构建包含40种表面和15种处理技术的潜指纹风格库提升生成多样性，并量化了生成过程中引入的局部/全局身份不一致性。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 指纹合成
-  - 扩散模型
-  - 潜指纹
-  - 身份一致性
-  - 风格多样性
+  - "CVPR 2026"
+  - "图像生成"
+  - "指纹合成"
+  - "扩散模型"
+  - "潜指纹"
+  - "身份一致性"
+  - "风格多样性"
 ---
 
 # Intra-finger Variability of Diffusion-based Latent Fingerprint Generation

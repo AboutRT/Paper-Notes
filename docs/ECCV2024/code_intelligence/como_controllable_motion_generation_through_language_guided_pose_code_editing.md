@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV2024][代码智能][human motion synthesis] 提出 CoMo，通过将动作序列分解为语义明确的 pose code（如"左膝微弯"），实现基于文本的可控动作生成与基于 LLM 的零样本动作编辑。
 tags:
-  - ECCV2024
-  - 代码智能
-  - human motion synthesis
-  - motion editing
-  - pose code
-  - LLM
-  - text-to-motion
+  - "ECCV2024"
+  - "代码智能"
+  - "human motion synthesis"
+  - "motion editing"
+  - "pose code"
+  - "LLM"
+  - "text-to-motion"
 ---
 
 # CoMo: Controllable Motion Generation Through Language Guided Pose Code Editing

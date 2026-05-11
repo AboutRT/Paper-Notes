@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][医学VQA] 本文提出DiN框架，首次将扩散模型应用于医学VQA的噪声标签场景（NM-VQA），通过扩散式答案分类器从生成视角进行粗到细的答案筛选，配合噪声标签精炼模块动态修正标签，在10%语义噪声下VQA-RAD准确率达74.24%，超越SNLC的69.65%。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 医学VQA
-  - 扩散模型
-  - 语义噪声标签
-  - 标签去噪
-  - 多模态融合
+  - "CVPR 2025"
+  - "医学图像"
+  - "医学VQA"
+  - "扩散模型"
+  - "语义噪声标签"
+  - "标签去噪"
+  - "多模态融合"
 ---
 
 # DiN: Diffusion Model for Robust Medical VQA with Semantic Noisy Labels

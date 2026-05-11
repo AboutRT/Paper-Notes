@@ -2,14 +2,15 @@
 title: >-
   [论文解读] StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation
 description: >-
-  [ACL 2026][叙事重构] 本文提出 StoryCoder，一种将代码生成问题重构为连贯自然语言叙事的提示框架，通过任务概述、约束条件和示例三个叙事组件引导 LLM 进行结构化推理，在 11 个模型上平均提升零样本 pass@10 达 18.7%。
+  [ACL 2026][代码智能][叙事重构] 本文提出 StoryCoder，一种将代码生成问题重构为连贯自然语言叙事的提示框架，通过任务概述、约束条件和示例三个叙事组件引导 LLM 进行结构化推理，在 11 个模型上平均提升零样本 pass@10 达 18.7%。
 tags:
-  - ACL 2026
-  - 叙事重构
-  - 代码生成
-  - 提示工程
-  - 代码智能
-  - 算法选择
+  - "ACL 2026"
+  - "代码智能"
+  - "叙事重构"
+  - "代码生成"
+  - "提示工程"
+  - "结构化推理"
+  - "算法选择"
 ---
 
 # StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation

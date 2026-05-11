@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Is Retain Set All You Need in Machine Unlearning? Restoring Performance of Unlearned Models with Out-Of-Distribution Images
 description: >-
-  [ECCV 2024][LLM安全][机器遗忘] 提出 SCAR（Selective-distillation for Class and Architecture-agnostic unleaRning），一种无需保留集的近似遗忘算法，通过 Mahalanobis 距离引导遗忘样本特征向量向最近错误类分布迁移，并利用 OOD 图像蒸馏保持模型性能。
+  [ECCV 2024][LLM安全][机器遗忘] 提出 SCAR（Selective-distillation for Class and Architecture-agnostic unleaRning），一种无需保留集的近似遗忘算法…
 tags:
-  - ECCV 2024
-  - LLM安全
-  - 机器遗忘
-  - 知识蒸馏
-  - Mahalanobis距离
-  - 无保留集
-  - OOD数据
+  - "ECCV 2024"
+  - "LLM安全"
+  - "机器遗忘"
+  - "知识蒸馏"
+  - "Mahalanobis距离"
+  - "无保留集"
+  - "OOD数据"
 ---
 
 # Is Retain Set All You Need in Machine Unlearning? Restoring Performance of Unlearned Models with Out-Of-Distribution Images

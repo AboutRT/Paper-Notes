@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][PSF estimation] 提出基于物理的 PSF 学习框架，设计新型波前基（每个基仅影响单一 SFR 方向）消除梯度冲突，结合课程学习（中心→边缘），无需镜头参数即可精确估计成像系统的空间变化 PSF。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - PSF estimation
-  - wavefront aberration
-  - curriculum learning
-  - SFR
-  - deblurring
-  - imaging systems
+  - "CVPR 2025"
+  - "图像恢复"
+  - "PSF estimation"
+  - "wavefront aberration"
+  - "curriculum learning"
+  - "SFR"
+  - "deblurring"
+  - "imaging systems"
 ---
 
 # A Physics-Informed Blur Learning Framework for Imaging Systems

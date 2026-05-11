@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PromptHMR: Promptable Human Mesh Recovery
 description: >-
-  [CVPR 2025][3D视觉][人体网格恢复] PromptHMR 提出了一种基于 Transformer 的可提示式人体姿态与形状估计方法，通过空间提示（边界框、分割掩码）和语义提示（语言描述、交互标签）灵活引导全图 3D 人体重建，在多个基准上达到 SOTA 并支持视频版的世界坐标运动估计。
+  [CVPR 2025][人体理解][人体网格恢复] PromptHMR 提出了一种基于 Transformer 的可提示式人体姿态与形状估计方法，通过空间提示（边界框、分割掩码）和语义提示（语言描述、交互标签）灵活引导全图 3D 人体重建，在多个基准上达到 SOTA 并支持视频版的世界坐标运动估计。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 人体网格恢复
-  - 可提示式估计
-  - 多模态提示
-  - SMPL-X
-  - 人体交互
+  - "CVPR 2025"
+  - "人体理解"
+  - "人体网格恢复"
+  - "可提示式估计"
+  - "多模态提示"
+  - "SMPL-X"
+  - "人体交互"
 ---
 
 # PromptHMR: Promptable Human Mesh Recovery

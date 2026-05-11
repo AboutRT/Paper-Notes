@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Symbolic Regression Is All You Need: From Simulations to Scaling Laws in Binary Neutron Star Mergers
 description: >-
-  [NeurIPS 2025 (AI for Science Workshop)][科学计算][Symbolic Regression] 利用符号回归（Symbolic Regression）从数值相对论模拟数据中自动发现双中子星并合后吸积盘质量的解析标定关系，所得紧凑表达式在预测精度、泛化能力和可解释性上全面超越文献中已有的经验拟合公式。
+  [NeurIPS 2025 (AI for Science Workshop)][科学计算][Symbolic Regression] 利用符号回归（Symbolic Regression）从数值相对论模拟数据中自动发现双中子星并合后吸积盘质量的解析标定关系…
 tags:
-  - NeurIPS 2025 (AI for Science Workshop)
-  - 科学计算
-  - Symbolic Regression
-  - Binary Neutron Stars
-  - Gravitational Waves
-  - Kilonova
-  - Equation of State
+  - "NeurIPS 2025 (AI for Science Workshop)"
+  - "科学计算"
+  - "Symbolic Regression"
+  - "Binary Neutron Stars"
+  - "Gravitational Waves"
+  - "Kilonova"
+  - "Equation of State"
 ---
 
 # Symbolic Regression Is All You Need: From Simulations to Scaling Laws in Binary Neutron Star Mergers

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][自监督学习] 提出Token Bottleneck（ToBo），一种自监督视觉表征学习流水线，通过将参考场景压缩为单个瓶颈token、并利用该token与极少量目标场景patch来预测后续场景，使视觉骨干网络同时学会保守编码场景信息和捕获时间动态变化。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 自监督学习
-  - 视觉表征
-  - 机器人操控
-  - token瓶颈
-  - 连续场景理解
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "自监督学习"
+  - "视觉表征"
+  - "机器人操控"
+  - "token瓶颈"
+  - "连续场景理解"
 ---
 
 # Token Bottleneck: One Token to Remember Dynamics

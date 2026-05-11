@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning MLLMs and RL
 description: >-
-  [ICLR 2026][多模态VLM][AI生成视频检测] VidGuard-R1 是首个采用 GRPO（Group Relative Policy Optimization）强化学习微调 MLLM 的视频真伪检测器，通过构建 14 万无快捷方式的真/假视频对数据集，并设计时序伪影奖励和扩散步数质量奖励两种专用奖励机制，在自建数据集上达到 86.17% 准确率，在 GenVidBench 和 GenVideo 基准上实现 95%+ 的 SOTA 零样本检测性能，同时生成可解释的思维链推理。
+  [ICLR 2026][多模态VLM][AI生成视频检测] VidGuard-R1 是首个采用 GRPO（Group Relative Policy Optimization）强化学习微调 MLLM 的视频真伪检测器，通过构建 14 万无快捷方式的真/假视频对数据集…
 tags:
-  - ICLR 2026
-  - 多模态VLM
-  - AI生成视频检测
-  - MLLM推理
-  - GRPO
-  - 时序伪影
-  - 可解释取证
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "AI生成视频检测"
+  - "MLLM推理"
+  - "GRPO"
+  - "时序伪影"
+  - "可解释取证"
 ---
 
 # VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning MLLMs and RL
@@ -48,7 +48,7 @@ VidGuard-R1 采用两阶段训练：**阶段一** SFT 初始化（在 30K 视频
 
 ### 关键设计一：无快捷方式的训练数据构建
 
-现有基准的致命缺陷是真假视频在低级特征上存在系统性差异（真实视频 >10 秒、假视频 <4 秒等），导致模型走捷径。本文构建 140K 视频数据集消除这些偏差：
+现有基准的致命缺陷是真假视频在低级特征上存在系统性差异（真实视频 >10 秒、假视频 &lt;4 秒等），导致模型走捷径。本文构建 140K 视频数据集消除这些偏差：
 
 - **真实视频来源**：InternVid（55K）+ ActivityNet（15K）
 - **生成视频**：用 HunyuanVideo-I2V（50K）+ CogVideoX-5B（20K）从真实视频的首帧+文本描述生成对应假视频

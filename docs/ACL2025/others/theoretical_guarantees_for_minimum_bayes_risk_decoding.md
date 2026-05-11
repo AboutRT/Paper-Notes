@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][最小贝叶斯风险解码] 本文首次为最小贝叶斯风险（MBR）解码提供了严格的理论收敛性保证，证明了在参考假设集大小为 $n$ 时，MBR 解码以 $O(n^{-1/2})$ 的速率逼近最优解，并与 MAP 解码进行了理论比较，表明 MBR 在多种场景下收敛更快。
 tags:
-  - ACL 2025
-  - 最小贝叶斯风险解码
-  - MBR解码
-  - 收敛性保证
-  - MAP解码比较
-  - 理论分析
+  - "ACL 2025"
+  - "最小贝叶斯风险解码"
+  - "MBR解码"
+  - "收敛性保证"
+  - "MAP解码比较"
+  - "理论分析"
 ---
 
 # Theoretical Guarantees for Minimum Bayes Risk Decoding

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model
 description: >-
-  [ICLR 2026][图像生成][扩散模型加速] 提出 ECAD（Evolutionary Caching to Accelerate Diffusion models），利用遗传算法在速度-质量 Pareto 前沿上自动搜索最优缓存调度策略，无需修改模型参数，仅用 100 条校准提示即可实现扩散模型 2-3 倍推理加速并保持甚至提升生成质量。
+  [ICLR 2026][图像生成][扩散模型加速] 提出 ECAD（Evolutionary Caching to Accelerate Diffusion models），利用遗传算法在速度-质量 Pareto 前沿上自动搜索最优缓存调度策略，无需修改模型参数…
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 扩散模型加速
-  - 缓存调度
-  - 遗传算法
-  - Pareto优化
-  - 训练-free
+  - "ICLR 2026"
+  - "图像生成"
+  - "扩散模型加速"
+  - "缓存调度"
+  - "遗传算法"
+  - "Pareto优化"
+  - "训练-free"
 ---
 
 # Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model

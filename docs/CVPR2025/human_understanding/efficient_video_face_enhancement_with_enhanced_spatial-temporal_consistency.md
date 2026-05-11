@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][盲人脸视频修复] 本文提出一种基于 3D-VQGAN 的高效盲人脸视频增强框架，通过设计空间-时间双码本记录高质量肖像特征和运动残差信息，配合边际先验正则化缓解码本崩溃问题，在 BFVR 和去闪烁任务上实现了 SOTA 效果且推理速度提升 2-140 倍。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 盲人脸视频修复
-  - 时空码本
-  - GAN
-  - 去闪烁
-  - 视频增强
+  - "CVPR 2025"
+  - "人体理解"
+  - "盲人脸视频修复"
+  - "时空码本"
+  - "GAN"
+  - "去闪烁"
+  - "视频增强"
 ---
 
 # Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency

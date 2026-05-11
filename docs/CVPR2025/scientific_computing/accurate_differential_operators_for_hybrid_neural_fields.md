@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Accurate Differential Operators for Hybrid Neural Fields
 description: >-
-  [CVPR 2025][科学计算] 解决混合神经场中因高频噪声导致微分算子不精确的问题，提出基于局部多项式拟合的后处理算子和自监督微调方法，在渲染、碰撞模拟和PDE求解中显著减少伪影。
+  [CVPR 2025][科学计算][混合神经场] 揭示混合神经场（如 Instant NGP）中自动微分产生的梯度和曲率存在严重高频噪声问题，提出基于局部多项式拟合的后处理微分算子和自监督微调方法，将梯度误差降低 4 倍、曲率误差降低 4 倍，在渲染和物理模拟中显著消除伪影。
 tags:
-  - CVPR 2025
-  - 科学计算
-  - 混合神经场
-  - 微分算子
-  - Instant NGP
-  - 多项式拟合
+  - "CVPR 2025"
+  - "科学计算"
+  - "混合神经场"
+  - "微分算子"
+  - "局部多项式拟合"
+  - "高频噪声"
+  - "SDF"
 ---
 
 # Accurate Differential Operators for Hybrid Neural Fields

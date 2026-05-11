@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Semantic Surgery: Zero-Shot Concept Erasure in Diffusion Models
 description: >-
-  [NeurIPS 2025][图像生成][概念擦除] 提出Semantic Surgery，一种无需重训练的零样本推理时概念擦除框架，通过在扩散过程之前对文本嵌入进行校准向量减法，结合Co-Occurrence Encoding处理多概念擦除和视觉反馈环路解决潜在概念持久性问题，在物体/NSFW/风格/名人擦除任务上全面超越SOTA。
+  [NeurIPS 2025][图像生成][概念擦除] 提出Semantic Surgery，一种无需重训练的零样本推理时概念擦除框架，通过在扩散过程之前对文本嵌入进行校准向量减法，结合Co-Occurrence Encoding处理多概念擦除和视觉反馈环路解决潜在概念持久性问题…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 概念擦除
-  - 扩散模型
-  - 文本嵌入操作
-  - 零样本
-  - 推理时方法
-  - 安全生成
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "概念擦除"
+  - "扩散模型"
+  - "文本嵌入操作"
+  - "零样本"
+  - "推理时方法"
+  - "安全生成"
 ---
 
 # Semantic Surgery: Zero-Shot Concept Erasure in Diffusion Models

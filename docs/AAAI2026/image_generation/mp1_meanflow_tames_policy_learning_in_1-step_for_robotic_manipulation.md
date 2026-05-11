@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][机器人操作] 首次将 MeanFlow 范式引入机器人学习领域，结合 3D 点云输入和 Dispersive Loss，实现仅需一次网络前向传播（1-NFE）即可生成动作轨迹，在机器人操作任务中以 6.8ms 推理延迟达到 SOTA 成功率。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 机器人操作
-  - MeanFlow
-  - 单步推理
-  - 流匹配
-  - 分散损失
+  - "AAAI 2026"
+  - "图像生成"
+  - "机器人操作"
+  - "MeanFlow"
+  - "单步推理"
+  - "流匹配"
+  - "分散损失"
 ---
 
 # MP1: MeanFlow Tames Policy Learning in 1-step for Robotic Manipulation

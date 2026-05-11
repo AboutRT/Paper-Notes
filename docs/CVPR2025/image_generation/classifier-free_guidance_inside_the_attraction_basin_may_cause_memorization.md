@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型记忆化] 从动力系统视角提出"吸引盆地"概念解释扩散模型记忆化现象——CFG 在吸引盆地内施加会导致轨迹收敛到记忆化训练图像，通过检测转折点延迟 CFG 启动（配合反向引导 OG）可零额外开销地缓解记忆化。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型记忆化
-  - 吸引盆地
-  - 分类器无关引导
-  - 隐私泄露
-  - 缓解策略
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型记忆化"
+  - "吸引盆地"
+  - "分类器无关引导"
+  - "隐私泄露"
+  - "缓解策略"
 ---
 
 # Classifier-Free Guidance inside the Attraction Basin May Cause Memorization

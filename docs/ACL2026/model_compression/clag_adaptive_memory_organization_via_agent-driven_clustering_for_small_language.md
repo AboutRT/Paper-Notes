@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][小语言模型] 本文提出 CLAG，一种基于聚类的 Agent 记忆框架，通过 SLM 驱动的路由将记忆组织到语义一致的聚类中，在聚类内部进行局部进化更新，并通过两阶段检索过滤噪声，在多个 QA 数据集上显著优于全局记忆池基线。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 小语言模型
-  - 聚类记忆
-  - Agent记忆管理
-  - 局部进化
-  - 两阶段检索
+  - "ACL 2026"
+  - "模型压缩"
+  - "小语言模型"
+  - "聚类记忆"
+  - "Agent记忆管理"
+  - "局部进化"
+  - "两阶段检索"
 ---
 
 # CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型] DiG将门控线性注意力(GLA)引入扩散模型骨干网络，通过空间重定向增强模块(SREM)解决GLA的单向建模和缺乏局部感知问题，在ImageNet 256×256生成任务上超越DiT性能的同时，在1792分辨率下速度提升2.5倍、GPU显存节省75.7%。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型
-  - 门控线性注意力
-  - 亚二次复杂度
-  - 高效生成
-  - ImageNet
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "门控线性注意力"
+  - "亚二次复杂度"
+  - "高效生成"
+  - "ImageNet"
 ---
 
 # DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention

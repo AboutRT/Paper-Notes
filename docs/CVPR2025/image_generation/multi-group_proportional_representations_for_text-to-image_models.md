@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][文本到图像] 本文提出Multi-Group Proportional Representation (MPR)指标，用于系统化度量文本到图像模型中交叉人口群体的代表性偏差，并开发了基于该指标的优化算法，在保持生成质量的前提下引导T2I模型向更均衡的群体代表性方向调整。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 文本到图像
-  - 公平性
-  - 比例代表性
-  - 交叉群体
-  - 偏见缓解
+  - "CVPR 2025"
+  - "图像生成"
+  - "文本到图像"
+  - "公平性"
+  - "比例代表性"
+  - "交叉群体"
+  - "偏见缓解"
 ---
 
 # Multi-Group Proportional Representation for Text-to-Image Models

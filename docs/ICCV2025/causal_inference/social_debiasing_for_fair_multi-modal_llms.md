@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Social Debiasing for Fair Multi-modal LLMs
 description: >-
-  [ICCV 2025][社会偏见] 本文构建了包含 18 种社会概念的大规模反事实数据集 CMSC，并提出反刻板印象去偏策略 ASD（含偏差感知数据重采样 + Social Fairness Loss），在四种 MLLM 架构上有效降低了社会偏见，同时几乎不损害通用多模态能力。
+  [ICCV 2025][因果推理][社会偏见] 本文构建了包含 18 种社会概念的大规模反事实数据集 CMSC，并提出反刻板印象去偏策略 ASD（含偏差感知数据重采样 + Social Fairness Loss），在四种 MLLM 架构上有效降低了社会偏见，同时几乎不损害通用多模态能力。
 tags:
-  - ICCV 2025
-  - 社会偏见
-  - 因果推理
-  - 反刻板印象
-  - 公平性
-  - 数据去偏
+  - "ICCV 2025"
+  - "因果推理"
+  - "社会偏见"
+  - "多模态大模型"
+  - "反刻板印象"
+  - "公平性"
+  - "数据去偏"
 ---
 
 # Social Debiasing for Fair Multi-modal LLMs

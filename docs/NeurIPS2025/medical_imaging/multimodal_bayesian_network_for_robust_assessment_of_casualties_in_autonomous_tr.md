@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][贝叶斯网络] 提出基于专家知识驱动的贝叶斯网络决策支持框架，融合多个计算机视觉模型的输出来评估伤亡人员状况，无需训练数据且支持不完整信息推断，在DARPA Triage Challenge中将分诊准确率从14%提升至53%，诊断覆盖率从31%提升至95%。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 贝叶斯网络
-  - 大规模伤亡事件
-  - 多模态融合
-  - 自主分诊
-  - DARPA Triage Challenge
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "贝叶斯网络"
+  - "大规模伤亡事件"
+  - "多模态融合"
+  - "自主分诊"
+  - "DARPA Triage Challenge"
 ---
 
 # Multimodal Bayesian Network for Robust Assessment of Casualties in Autonomous Triage
@@ -167,7 +167,7 @@ tags:
 - **极其实用的方法论**：不需要训练数据，仅靠专家知识和概率推理即可大幅提升系统性能
 - **优雅退降设计**：单个传感器/算法失败不会导致全系统崩溃，对野外部署至关重要
 - **双向推理能力**：不仅从原因推果，也能从观察到的症状反推病因
-- **超轻量级**：模型<100MB，推理时间<1ms（甚至在Raspberry Pi 3上）
+- **超轻量级**：模型&lt;100MB，推理时间&lt;1ms（甚至在Raspberry Pi 3上）
 - **模块化架构**：可即插即用新的感知算法，无需修改核心架构
 
 ## 局限与展望

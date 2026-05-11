@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][主体驱动生成] 提出 HybridBooth，一种两阶段混合 prompt inversion 框架，通过先用回归器生成初始词嵌入（Probe），再用残差微调（Refinement）仅需 3-5 步迭代即可高效完成主体驱动的个性化图像生成。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 主体驱动生成
-  - 提示学习
-  - 文本嵌入
-  - 扩散模型
-  - 个性化生成
+  - "ECCV 2024"
+  - "图像生成"
+  - "主体驱动生成"
+  - "提示学习"
+  - "文本嵌入"
+  - "扩散模型"
+  - "个性化生成"
 ---
 
 # HybridBooth: Hybrid Prompt Inversion for Efficient Subject-Driven Generation

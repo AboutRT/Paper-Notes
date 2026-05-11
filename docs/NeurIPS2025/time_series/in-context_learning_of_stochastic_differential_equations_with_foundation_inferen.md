@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][随机微分方程] 提出FIM-SDE（基础推断模型），一个预训练的识别模型，能够从噪声时间序列数据中进行零样本(in-context)估计低维SDE的漂移和扩散函数，并通过快速微调进一步超越所有基线方法。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 随机微分方程
-  - 上下文学习
-  - 基础推断模型
-  - 漂移函数估计
-  - 扩散函数估计
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "随机微分方程"
+  - "上下文学习"
+  - "基础推断模型"
+  - "漂移函数估计"
+  - "扩散函数估计"
 ---
 
 # In-Context Learning of Stochastic Differential Equations with Foundation Inference Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing Outcome Reward-Based RL Training of MLLMs with Self-Consistency Sampling
 description: >-
-  [NeurIPS 2025][多模态][强化学习] 针对多模态多选题中"结果奖励 RL 训练导致不忠实推理轨迹"的问题，提出 Self-Consistency Sampling (SCS)，通过截断-重采样和视觉扰动获得一致性奖励来惩罚虚假推理，搭载 RLOO 后在六个基准上平均提升 7.7 个百分点。
+  [NeurIPS 2025][多模态VLM][强化学习] 针对多模态多选题中"结果奖励 RL 训练导致不忠实推理轨迹"的问题，提出 Self-Consistency Sampling (SCS)，通过截断-重采样和视觉扰动获得一致性奖励来惩罚虚假推理，搭载 RLOO 后在六个基准上平均提升 7.7 个百分点。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 自一致性采样
-  - 推理忠实性
-  - 多模态推理
-  - 结果奖励
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "强化学习"
+  - "自一致性采样"
+  - "推理忠实性"
+  - "多模态推理"
+  - "结果奖励"
 ---
 
 # Enhancing Outcome Reward-Based RL Training of MLLMs with Self-Consistency Sampling

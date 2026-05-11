@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][关系学习] 本文是一篇 position paper，深入分析了关系学习（relational learning）未能在 AI 领域占据主导地位的原因——包括数据集不够真实、评估方法存在根本缺陷、缺少负例、聚合操作的理论困境等——并指出了让关系学习发挥应有潜力所需的关键改进方向。
 tags:
-  - AAAI 2026
-  - 关系学习
-  - 其他
-  - 统计关系AI
-  - 评估方法
-  - 实体预测
+  - "AAAI 2026"
+  - "关系学习"
+  - "知识图谱"
+  - "统计关系AI"
+  - "评估方法"
+  - "实体预测"
 ---
 
 # Why Isn't Relational Learning Taking Over the World?

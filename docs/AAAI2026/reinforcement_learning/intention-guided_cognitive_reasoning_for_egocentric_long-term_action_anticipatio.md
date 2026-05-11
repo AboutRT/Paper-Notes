@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation
 description: >-
-  [AAAI 2026][长期动作预测] 提出INSIGHT框架，一个面向第一人称长期动作预测的两阶段统一框架：第一阶段通过手-物交互区域特征提取和动词-名词共现矩阵增强动作表示；第二阶段引入基于GRPO的强化学习认知推理模块，模拟"感知→推理→回答"的结构化认知过程进行意图推断和动作预测。
+  [AAAI 2026][强化学习][长期动作预测] 提出INSIGHT框架，一个面向第一人称长期动作预测的两阶段统一框架：第一阶段通过手-物交互区域特征提取和动词-名词共现矩阵增强动作表示；第二阶段引入基于GRPO的强化学习认知推理模块，模拟"感知→推理→回答"的结构化认知过程进行意图推断和动作预测。
 tags:
-  - AAAI 2026
-  - 长期动作预测
-  - 第一人称视频
-  - 手-物交互
-  - 强化学习
-  - GRPO
+  - "AAAI 2026"
+  - "强化学习"
+  - "长期动作预测"
+  - "第一人称视频"
+  - "手-物交互"
+  - "认知推理"
+  - "GRPO"
 ---
 
 # Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Double Entendre: Robust Audio-Based AI-Generated Lyrics Detection via Multi-View Fusion
 description: >-
-  [ACL 2025][语音][AI生成歌词检测] 提出 DE-detect，一个仅以音频为输入的多视角晚期融合管线，通过结合自动转录歌词的文本特征和语音模型提取的歌词相关音频特征，实现了对 AI 生成歌词的鲁棒检测，在域内外均优于单模态方法。
+  [ACL 2025][音频/语音][AI生成歌词检测] 提出 DE-detect，一个仅以音频为输入的多视角晚期融合管线，通过结合自动转录歌词的文本特征和语音模型提取的歌词相关音频特征，实现了对 AI 生成歌词的鲁棒检测，在域内外均优于单模态方法。
 tags:
-  - ACL 2025
-  - 语音
-  - 音频语音
-  - 多模态融合
-  - 语音嵌入
-  - 鲁棒检测
-  - 多视角融合
+  - "ACL 2025"
+  - "音频/语音"
+  - "AI生成歌词检测"
+  - "多模态融合"
+  - "语音嵌入"
+  - "鲁棒检测"
+  - "多视角融合"
 ---
 
 # Double Entendre: Robust Audio-Based AI-Generated Lyrics Detection via Multi-View Fusion

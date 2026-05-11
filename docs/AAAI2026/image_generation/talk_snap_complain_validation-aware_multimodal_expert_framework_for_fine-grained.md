@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Talk, Snap, Complain: Validation-Aware Multimodal Expert Framework for Fine-Grained Customer Grievances
 description: >-
-  [AAAI2026][图像生成][多模态投诉分析] 提出VALOR框架，结合Chain-of-Thought推理的多专家路由架构与语义对齐验证机制，在多轮多模态客服对话中实现细粒度投诉方面(Aspect)和严重度(Severity)的联合分类，较最强baseline Gemma-3绝对提升12.94%/6.51%。
+  [AAAI2026][图像生成][多模态投诉分析] 提出VALOR框架，结合Chain-of-Thought推理的多专家路由架构与语义对齐验证机制，在多轮多模态客服对话中实现细粒度投诉方面(Aspect)和严重度(Severity)的联合分类…
 tags:
-  - AAAI2026
-  - 图像生成
-  - 多模态投诉分析
-  - Mixture-of-Experts
-  - Chain-of-Thought
-  - 语义对齐
-  - 细粒度分类
+  - "AAAI2026"
+  - "图像生成"
+  - "多模态投诉分析"
+  - "Mixture-of-Experts"
+  - "Chain-of-Thought"
+  - "语义对齐"
+  - "细粒度分类"
 ---
 
 # Talk, Snap, Complain: Validation-Aware Multimodal Expert Framework for Fine-Grained Customer Grievances

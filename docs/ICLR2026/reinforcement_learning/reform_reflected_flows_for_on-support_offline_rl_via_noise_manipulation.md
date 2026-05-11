@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation
 description: >-
-  [ICLR 2026][离线强化学习] 提出ReFORM方法，通过学习一个反射流噪声生成器来操纵行为克隆流策略的源分布，以**构造性方式**实现支撑约束，避免OOD问题的同时保持策略表达力，无需超参数调节。
+  [ICLR 2026][强化学习][离线强化学习] 提出ReFORM方法，通过学习一个反射流噪声生成器来操纵行为克隆流策略的源分布，以**构造性方式**实现支撑约束，避免OOD问题的同时保持策略表达力，无需超参数调节。
 tags:
-  - ICLR 2026
-  - 离线强化学习
-  - Flow Matching
-  - 支撑约束
-  - 反射流
-  - OOD问题
+  - "ICLR 2026"
+  - "强化学习"
+  - "离线强化学习"
+  - "Flow Matching"
+  - "支撑约束"
+  - "反射流"
+  - "OOD问题"
 ---
 
 # ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation

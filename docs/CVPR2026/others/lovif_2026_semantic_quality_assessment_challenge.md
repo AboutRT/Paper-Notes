@@ -2,14 +2,14 @@
 title: >-
   [论文解读] LoViF 2026 Challenge on Human-oriented Semantic Image Quality Assessment
 description: >-
-  [CVPR 2026 (Workshop)][语义质量评估] LoViF 2026首届人类导向语义图像质量评估挑战赛：提出SeIQA基准数据集（510/80/160训练/验证/测试对），衡量图像退化是否改变了人类关注的语义信息而非传统感知保真度；冠军RedpanQA Alliance基于Qwen3-VL多模态大模型+LoRA微调+PLCC损失达到0.8724最终得分。
+  [CVPR 2026 (Workshop)][语义质量评估] LoViF 2026首届人类导向语义图像质量评估挑战赛：提出SeIQA基准数据集（510/80/160训练/验证/测试对），衡量图像退化是否改变了人类关注的语义信息而非传统感知保真度…
 tags:
-  - CVPR 2026 (Workshop)
-  - 其他
-  - 人类导向
-  - 图像质量评估
-  - MLLM
-  - 基准测试
+  - "CVPR 2026 (Workshop)"
+  - "语义质量评估"
+  - "人类导向"
+  - "图像质量评估"
+  - "MLLM"
+  - "基准测试"
 ---
 
 # LoViF 2026 Challenge on Human-oriented Semantic Image Quality Assessment

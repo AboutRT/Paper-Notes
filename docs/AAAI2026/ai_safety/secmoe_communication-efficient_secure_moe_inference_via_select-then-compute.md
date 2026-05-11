@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][MoE] 提出 SecMoE 框架，通过 Select-Then-Compute 范式在两方安全计算中高效实现稀疏 MoE 推理，避免冗余专家计算，通信量降低最高 29.8 倍，端到端加速最高 16.1 倍。
 tags:
-  - AAAI 2026
-  - AI安全
-  - MoE
-  - 隐私推理
-  - 安全多方计算
-  - 同态加密
-  - Select-Then-Compute
+  - "AAAI 2026"
+  - "AI安全"
+  - "MoE"
+  - "隐私推理"
+  - "安全多方计算"
+  - "同态加密"
+  - "Select-Then-Compute"
 ---
 
 # SecMoE: Communication-Efficient Secure MoE Inference via Select-Then-Compute

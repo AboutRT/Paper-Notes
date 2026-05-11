@@ -2,14 +2,15 @@
 title: >-
   [论文解读] HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation
 description: >-
-  [CVPR 2025][肖像动画] HunyuanPortrait提出了首个基于Stable Video Diffusion的隐式条件肖像动画框架，通过强度感知运动编码器和ID感知多尺度适配器实现了对精细面部动态的高保真控制和强身份一致性。
+  [CVPR 2025][视频生成][肖像动画] HunyuanPortrait提出了首个基于Stable Video Diffusion的隐式条件肖像动画框架，通过强度感知运动编码器和ID感知多尺度适配器实现了对精细面部动态的高保真控制和强身份一致性。
 tags:
-  - CVPR 2025
-  - 肖像动画
-  - 隐式运动表征
-  - 视频扩散模型
-  - 身份保持
-  - 面部动态
+  - "CVPR 2025"
+  - "视频生成"
+  - "肖像动画"
+  - "隐式运动表征"
+  - "视频扩散模型"
+  - "身份保持"
+  - "面部动态"
 ---
 
 # HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation

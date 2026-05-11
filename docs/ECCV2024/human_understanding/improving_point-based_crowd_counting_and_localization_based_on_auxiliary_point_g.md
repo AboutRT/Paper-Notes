@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][人群计数] 提出辅助点引导 (APG) 策略和隐式特征插值 (IFI) 模块，通过在真值点附近显式生成辅助正负样本来稳定 point-based 人群计数方法中 proposal-target 匹配过程的不稳定性，在多个数据集上取得 SOTA。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 人群计数
-  - 人群定位
-  - 点监督
-  - 匹配不稳定性
-  - 隐式特征插值
+  - "ECCV 2024"
+  - "人体理解"
+  - "人群计数"
+  - "人群定位"
+  - "点监督"
+  - "匹配不稳定性"
+  - "隐式特征插值"
 ---
 
 # Improving Point-based Crowd Counting and Localization Based on Auxiliary Point Guidance

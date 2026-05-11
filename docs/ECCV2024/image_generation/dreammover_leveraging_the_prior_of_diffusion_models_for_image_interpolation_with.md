@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][图像插值] 提出 DreamMover，基于预训练文本到图像扩散模型实现大运动图像对之间的插值，通过扩散感知光流估计、两级潜空间融合和自注意力拼接替换三个核心组件，生成语义一致的中间帧。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 图像插值
-  - 扩散模型先验
-  - 光流估计
-  - 语义一致性
-  - 大运动
+  - "ECCV 2024"
+  - "图像生成"
+  - "图像插值"
+  - "扩散模型先验"
+  - "光流估计"
+  - "语义一致性"
+  - "大运动"
 ---
 
 # DreamMover: Leveraging the Prior of Diffusion Models for Image Interpolation with Large Motion

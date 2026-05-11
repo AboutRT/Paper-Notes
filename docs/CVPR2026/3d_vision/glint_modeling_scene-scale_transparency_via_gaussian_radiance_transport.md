@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][高斯溅射] GLINT 通过将高斯表征分解为界面、透射、反射三个组件，结合光栅化+光线追踪的混合渲染管线，在场景级透明表面（如玻璃墙、展示柜）的几何和外观重建上取得了 SOTA 效果。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 高斯溅射
-  - 透明表面重建
-  - 辐射传输分解
-  - 混合渲染
-  - 场景重建
+  - "CVPR 2026"
+  - "3D视觉"
+  - "高斯溅射"
+  - "透明表面重建"
+  - "辐射传输分解"
+  - "混合渲染"
+  - "场景重建"
 ---
 
 # GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport

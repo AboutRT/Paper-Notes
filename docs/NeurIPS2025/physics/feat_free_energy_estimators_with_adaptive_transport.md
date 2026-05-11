@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FEAT: Free Energy Estimators with Adaptive Transport
 description: >-
-  [NeurIPS 2025][自由能估计] 提出 FEAT 框架，利用随机插值学习两个热力学系统之间的传输映射，基于 escorted Jarzynski 等式和 controlled Crooks 定理提供一致、最小方差的自由能差估计器及变分上下界，统一了平衡与非平衡方法。
+  [NeurIPS 2025][物理学][自由能估计] 提出 FEAT 框架，利用随机插值学习两个热力学系统之间的传输映射，基于 escorted Jarzynski 等式和 controlled Crooks 定理提供一致、最小方差的自由能差估计器及变分上下界，统一了平衡与非平衡方法。
 tags:
-  - NeurIPS 2025
-  - 自由能估计
-  - 随机插值
-  - Jarzynski 等式
-  - Crooks 定理
-  - 变分界
+  - "NeurIPS 2025"
+  - "物理学"
+  - "自由能估计"
+  - "随机插值"
+  - "Jarzynski 等式"
+  - "Crooks 定理"
+  - "变分界"
 ---
 
 # FEAT: Free Energy Estimators with Adaptive Transport

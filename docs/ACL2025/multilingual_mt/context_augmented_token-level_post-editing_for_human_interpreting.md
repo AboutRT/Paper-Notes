@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Context Augmented Token-Level Post-Editing for Human Interpreting
 description: >-
-  [ACL 2025][口译后编辑] 本文提出一种上下文增强的 token 级后编辑方法，利用对话上下文信息对人工口译的 ASR 转录进行细粒度纠错，在保持口译流畅性的同时显著提升转录质量。
+  [ACL 2025][多语言/翻译][口译后编辑] 本文提出一种上下文增强的 token 级后编辑方法，利用对话上下文信息对人工口译的 ASR 转录进行细粒度纠错，在保持口译流畅性的同时显著提升转录质量。
 tags:
-  - ACL 2025
-  - 口译后编辑
-  - 上下文增强
-  - token级编辑
-  - 同声传译
-  - 自动纠错
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "口译后编辑"
+  - "上下文增强"
+  - "token级编辑"
+  - "同声传译"
+  - "自动纠错"
 ---
 
 # Context Augmented Token-Level Post-Editing for Human Interpreting

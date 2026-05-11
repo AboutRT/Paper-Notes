@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Explaining and Mitigating Crosslingual Tokenizer Inequities
 description: >-
-  [NeurIPS 2025][机器人][Token Premium] 系统训练约 7000 个单语分词器覆盖 97 种语言，首次证明即使控制训练数据量、词表大小和算法后，不同语言间仍存在显著的 token premium 差异；进一步识别出词表大小和预分词策略是关键因素，并提出"最优词表大小"和 SuperBPE 两种缓解方案。
+  [NeurIPS 2025][机器人][Token Premium] 系统训练约 7000 个单语分词器覆盖 97 种语言，首次证明即使控制训练数据量、词表大小和算法后，不同语言间仍存在显著的 token premium 差异；进一步识别出词表大小和预分词策略是关键因素…
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - Token Premium
-  - 跨语言分词
-  - BPE
-  - 词表大小
-  - 预分词
-  - 压缩率
+  - "NeurIPS 2025"
+  - "机器人"
+  - "Token Premium"
+  - "跨语言分词"
+  - "BPE"
+  - "词表大小"
+  - "预分词"
+  - "压缩率"
 ---
 
 # Explaining and Mitigating Crosslingual Tokenizer Inequities

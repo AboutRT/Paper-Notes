@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 (main)][LLM Agent][鉴别诊断] 提出 MEDDxAgent 框架，通过中央编排器 DDxDriver 协调病史采集模拟器、知识检索智能体和诊断策略智能体三个模块进行迭代式鉴别诊断（DDx），在交互式诊断场景下实现超过 10% 的准确率提升，同时提供完整的推理可解释性。
 tags:
-  - ACL 2025 (main)
-  - LLM Agent
-  - 鉴别诊断
-  - 多模块智能体
-  - 迭代学习
-  - 可解释推理
-  - 医学LLM
+  - "ACL 2025 (main)"
+  - "LLM Agent"
+  - "鉴别诊断"
+  - "多模块智能体"
+  - "迭代学习"
+  - "可解释推理"
+  - "医学LLM"
 ---
 
 # MEDDxAgent: A Unified Modular Agent Framework for Explainable Automatic Differential Diagnosis

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][描述逻辑] 本文研究描述逻辑概念在面对以 pointed interpretation 表示的新模型时的修改问题，定义了驱逐(eviction)、接纳(reception)和修正(revision)三种操作，并为 EL 和 ALC 描述逻辑提供了兼容性的正面和负面理论结果。
 tags:
-  - AAAI 2026
-  - 描述逻辑
-  - 模型变更
-  - 信念修正
-  - EL/ALC
-  - 可满足性
+  - "AAAI 2026"
+  - "描述逻辑"
+  - "模型变更"
+  - "信念修正"
+  - "EL/ALC"
+  - "可满足性"
 ---
 
 # Model Change for Description Logic Concepts

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][在线高清地图] MapGCLR 提出地理空间对比学习方法，通过强制多次行驶中地理空间重叠区域的 BEV 特征一致性来改善在线矢量化 HD 地图构建的 BEV 编码器，在仅 5% 标注数据下实现 42% 的相对 mAP 提升。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 在线高清地图
-  - 对比学习
-  - 半监督学习
-  - BEV特征
-  - 地理空间一致性
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "在线高清地图"
+  - "对比学习"
+  - "半监督学习"
+  - "BEV特征"
+  - "地理空间一致性"
 ---
 
 # MapGCLR: Geospatial Contrastive Learning of Representations for Online Vectorized HD Map Construction

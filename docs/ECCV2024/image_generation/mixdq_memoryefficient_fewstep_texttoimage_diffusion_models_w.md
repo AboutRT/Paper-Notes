@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][扩散模型量化] 针对少步扩散模型（如SDXL-turbo 1-step）比多步模型更难量化的问题，提出MixDQ混合精度量化方法，包含BOS-aware文本嵌入量化、指标解耦敏感度分析和整数规划比特分配，在W4A8下仅增加0.5 FID，实现3倍模型压缩和1.5倍加速。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 扩散模型量化
-  - 混合精度
-  - 文本到图像生成
-  - BOS-aware量化
-  - 指标解耦
+  - "ECCV 2024"
+  - "图像生成"
+  - "扩散模型量化"
+  - "混合精度"
+  - "文本到图像生成"
+  - "BOS-aware量化"
+  - "指标解耦"
 ---
 
 # MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed-Precision Quantization

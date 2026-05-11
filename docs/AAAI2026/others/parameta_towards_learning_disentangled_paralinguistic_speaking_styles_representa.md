@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][Speaking Style Representation] 提出 ParaMETA，一种统一的副语言说话风格表示学习框架，通过 META 空间正则化和任务特定子空间投影实现情感、年龄、性别、语言等说话风格的解耦表示，同时支持下游的多任务分类和风格可控语音合成。
 tags:
-  - AAAI 2026
-  - Speaking Style Representation
-  - 其他
-  - 对比学习
-  - Prototype Learning
-  - text-to-speech
+  - "AAAI 2026"
+  - "Speaking Style Representation"
+  - "Disentangled Embedding"
+  - "对比学习"
+  - "Prototype Learning"
+  - "text-to-speech"
 ---
 
 # ParaMETA: Towards Learning Disentangled Paralinguistic Speaking Styles Representations

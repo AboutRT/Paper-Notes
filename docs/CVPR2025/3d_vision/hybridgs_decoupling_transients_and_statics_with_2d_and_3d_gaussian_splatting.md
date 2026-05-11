@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯溅射] HybridGS首次提出混合2D+3D高斯表示，用多视角一致的3D高斯建模静态场景、用单视图独立的2D高斯建模瞬态物体，配合多视角监督和多阶段训练实现了含干扰元素场景下SOTA的新视角合成质量。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 瞬态物体分离
-  - 混合表示
-  - 新视角合成
-  - 2D高斯
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "瞬态物体分离"
+  - "混合表示"
+  - "新视角合成"
+  - "2D高斯"
 ---
 
 # HybridGS: Decoupling Transients and Statics with 2D and 3D Gaussian Splatting

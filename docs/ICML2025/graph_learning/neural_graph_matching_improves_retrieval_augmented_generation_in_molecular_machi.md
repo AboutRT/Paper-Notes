@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Neural Graph Matching Improves Retrieval Augmented Generation in Molecular Machine Learning
 description: >-
-  [ICML2025][图学习][神经图匹配] 提出 MARASON，将**神经图匹配（Neural Graph Matching）**引入分子机器学习的检索增强生成（RAG）框架，通过可微分的碎片级对齐机制，把检索到的参考分子谱图信息有效融入目标分子的质谱预测中，在 NIST 数据集上将 top-1 检索准确率从 19% 提升到 28%。
+  [ICML2025][图学习][神经图匹配] 提出 MARASON，将**神经图匹配（Neural Graph Matching）**引入分子机器学习的检索增强生成（RAG）框架，通过可微分的碎片级对齐机制，把检索到的参考分子谱图信息有效融入目标分子的质谱预测中…
 tags:
-  - ICML2025
-  - 图学习
-  - 神经图匹配
-  - RAG
-  - 质谱模拟
-  - 分子碎片DAG
-  - 图神经网络
-  - MARASON
+  - "ICML2025"
+  - "图学习"
+  - "神经图匹配"
+  - "RAG"
+  - "质谱模拟"
+  - "分子碎片DAG"
+  - "图神经网络"
+  - "MARASON"
 ---
 
 # Neural Graph Matching Improves Retrieval Augmented Generation in Molecular Machine Learning
@@ -148,7 +148,7 @@ Top-1 准确率相比无 RAG 的 ICEBERG 提升 **47%**（0.189→0.278），相
 1. **单参考分子检索**：当前仅检索 1 个最相似的参考分子，多参考融合策略可能进一步提升性能
 2. **依赖 ICEBERG-Generate**：碎裂 DAG 的质量受限于预训练的 ICEBERG-Generate 模型，碎片生成错误会传播到匹配环节
 3. **计算开销**：嵌套 GNN + 图匹配的计算成本高于简单的前馈模型，论文未详细报告推理延迟
-4. **数据集局限**：主要在 NIST 2020 上验证，该数据集以小分子（<1500 Da）为主，对大分子和生物大分子的适用性未知
+4. **数据集局限**：主要在 NIST 2020 上验证，该数据集以小分子（&lt;1500 Da）为主，对大分子和生物大分子的适用性未知
 5. **Scaffold 划分性能下降明显**：在 Murcko scaffold 划分下所有方法性能均显著下降，说明对分布外骨架的泛化仍是挑战
 6. **负加合物实验不充分**：论文主要展示正加合物结果，负加合物类型的全面评估缺失
 

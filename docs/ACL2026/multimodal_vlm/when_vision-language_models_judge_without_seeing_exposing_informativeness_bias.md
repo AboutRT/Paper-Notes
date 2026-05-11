@@ -2,8 +2,15 @@
 title: >-
   [论文解读] When Vision-Language Models Judge Without Seeing: Exposing Informativeness Bias
 description: >-
-  [ACL2026][多模态VLM] 揭示VLM评判器的"信息量偏见"问题——偏好更详细的回答而忽视图像内容，提出BIRCH范式通过先校正再比较减少偏见最高17%
-tags: [VLM评估, 评判器偏见, 信息量偏见, 多模态, BIRCH]
+  [ACL 2026][多模态VLM][VLM评判器] 揭示 VLM-as-a-Judge 系统存在严重的"信息量偏见"（informativeness bias）——评判器倾向于选择更详细丰富的回答，即使该回答与图像内容矛盾，提出 BIRCH 范式通过先校正候选答案再进行比较，将偏见减少最高 17%…
+tags:
+  - "ACL 2026"
+  - "多模态VLM"
+  - "VLM评判器"
+  - "信息量偏见"
+  - "图像锚定"
+  - "评估可靠性"
+  - "多模态评估"
 ---
 
 # When Vision-Language Models Judge Without Seeing: Exposing Informativeness Bias

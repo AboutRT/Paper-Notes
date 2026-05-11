@@ -2,15 +2,15 @@
 title: >-
   [论文解读] On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors
 description: >-
-  [CVPR 2026][模型压缩][扩散模型] 首次系统研究了扩散模型图像压缩在比特翻转错误下的鲁棒性，发现基于反向信道编码（RCC）的扩散压缩方法天然比传统和学习型编解码器更耐错，并提出 Robust Turbo-DDCM 变体通过独立编码原子索引进一步提升鲁棒性，在 BER 达 $10^{-3}$ 时仍保持良好重建质量。
+  [CVPR 2026][模型压缩][扩散模型] 首次系统研究了扩散模型图像压缩在比特翻转错误下的鲁棒性，发现基于反向信道编码（RCC）的扩散压缩方法天然比传统和学习型编解码器更耐错，并提出 Robust Turbo-DDCM 变体通过独立编码原子索引进一步提升鲁棒性…
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 扩散模型
-  - 图像压缩
-  - 比特翻转
-  - 信道鲁棒性
-  - 反向信道编码
+  - "CVPR 2026"
+  - "模型压缩"
+  - "扩散模型"
+  - "图像压缩"
+  - "比特翻转"
+  - "信道鲁棒性"
+  - "反向信道编码"
 ---
 
 # On the Robustness of Diffusion-Based Image Compression to Bit-Flip Errors

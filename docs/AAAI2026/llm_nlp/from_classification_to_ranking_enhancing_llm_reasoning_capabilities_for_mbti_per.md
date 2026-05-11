@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM/NLP][MBTI] 将MBTI人格检测从传统的四维二分类重构为listwise排序任务，通过SFT冷启动+GRPO强化学习（NDCG+维度相似度双奖励），在Kaggle和PANDORA数据集上以7B模型达到SOTA。
 tags:
-  - AAAI 2026
-  - LLM/NLP
-  - MBTI
-  - 排序学习
-  - GRPO
-  - NDCG
-  - 人格检测
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "MBTI"
+  - "排序学习"
+  - "GRPO"
+  - "NDCG"
+  - "人格检测"
 ---
 
 # From Classification to Ranking: Enhancing LLM Reasoning for MBTI Personality Detection

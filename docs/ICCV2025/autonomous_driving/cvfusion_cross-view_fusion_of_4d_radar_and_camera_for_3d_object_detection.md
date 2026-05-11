@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CVFusion: Cross-View Fusion of 4D Radar and Camera for 3D Object Detection
 description: >-
-  [ICCV 2025][自动驾驶][4D毫米波雷达] 提出CVFusion——首个4D雷达-相机两阶段融合网络，第一阶段通过雷达引导迭代（RGIter）BEV融合生成高召回率提案框，第二阶段利用点引导融合（PGF）和网格引导融合（GGF）聚合多视角异构特征进行提案精化，在VoD和TJ4DRadSet上分别取得9.10%和3.68%的mAP提升。
+  [ICCV 2025][自动驾驶][4D毫米波雷达] 提出CVFusion——首个4D雷达-相机两阶段融合网络，第一阶段通过雷达引导迭代（RGIter）BEV融合生成高召回率提案框，第二阶段利用点引导融合（PGF）和网格引导融合（GGF）聚合多视角异构特征进行提案精化…
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 4D毫米波雷达
-  - 相机融合
-  - 3D目标检测
-  - 两阶段检测
-  - BEV融合
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "4D毫米波雷达"
+  - "相机融合"
+  - "3D目标检测"
+  - "两阶段检测"
+  - "BEV融合"
 ---
 
 # CVFusion: Cross-View Fusion of 4D Radar and Camera for 3D Object Detection

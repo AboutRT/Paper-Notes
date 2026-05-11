@@ -2,16 +2,16 @@
 title: >-
   [论文解读] The Ouroboros of Benchmarking: Reasoning Evaluation in an Era of Saturation
 description: >-
-  [NeurIPS 2025][视频理解][基准饱和] 本文通过对OpenAI、Anthropic和Google三大模型家族在52个推理基准上的系统分析，揭示了一种"衔尾蛇"循环模式——旧基准被快速饱和→新基准被创建以维持区分度→新基准又被迅速饱和，由此质疑基准分数的提升是否真正代表了推理能力的泛化进步，还是仅仅反映了对特定评测集的过拟合。
+  [NeurIPS 2025][视频理解][基准饱和] 本文通过对OpenAI、Anthropic和Google三大模型家族在52个推理基准上的系统分析，揭示了一种"衔尾蛇"循环模式——旧基准被快速饱和→新基准被创建以维持区分度→新基准又被迅速饱和，由此质疑基准分数的提升是否真正代表了推理能力的泛化进步…
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 基准饱和
-  - 推理评估
-  - 大语言模型
-  - 排行榜
-  - 衔尾蛇循环
-  - benchmark saturation
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "基准饱和"
+  - "推理评估"
+  - "大语言模型"
+  - "排行榜"
+  - "衔尾蛇循环"
+  - "benchmark saturation"
 ---
 
 # The Ouroboros of Benchmarking: Reasoning Evaluation in an Era of Saturation
@@ -83,7 +83,7 @@ tags:
 
 ### 未饱和基准的时间分布与推理类型分析
 
-| 分析维度 | 已饱和基准（≥80%） | 未饱和基准（<80%） |
+| 分析维度 | 已饱和基准（≥80%） | 未饱和基准（&lt;80%） |
 |----------|-------------------|-------------------|
 | 2023年前发布占比 | 高（大部分旧基准已解决） | 极低（仅ActivityNet 2015和EgoSchema 2023） |
 | 2024年发布占比 | 中 | 32% |

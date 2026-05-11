@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment
 description: >-
-  [ICLR 2026][机器人][激活操纵] 提出基于常微分方程(ODE)的统一激活操纵理论框架，将传统激活加法解释为ODE的Euler离散化，操纵方向识别等价于定义障碍函数；据此设计ODESteer方法，通过多步自适应求解ODE实现精细操纵，在TruthfulQA上提升5.7%、UltraFeedback上提升2.5%、RealToxicityPrompts上提升2.4%。
+  [ICLR 2026][机器人][激活操纵] 提出基于常微分方程(ODE)的统一激活操纵理论框架，将传统激活加法解释为ODE的Euler离散化，操纵方向识别等价于定义障碍函数；据此设计ODESteer方法，通过多步自适应求解ODE实现精细操纵…
 tags:
-  - ICLR 2026
-  - 机器人
-  - 激活操纵
-  - ODE
-  - 障碍函数
-  - 控制论
-  - 推理时对齐
+  - "ICLR 2026"
+  - "机器人"
+  - "激活操纵"
+  - "ODE"
+  - "障碍函数"
+  - "控制论"
+  - "推理时对齐"
 ---
 
 # ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment
 description: >-
-  [NeurIPS 2025][多模态][多模态] 提出 BACL（Boundary-Aware Curriculum with Local Attention），通过可学习的边界感知负样本采样器（由易到难课程学习）+ 对比局部注意力损失（定位 token 级 mismatch），在 LAION-400M 上为 CLIP 带来 +32% R@1 提升，并在四个大规模基准上取得 SOTA。
+  [NeurIPS 2025][多模态VLM][多模态] 提出 BACL（Boundary-Aware Curriculum with Local Attention），通过可学习的边界感知负样本采样器（由易到难课程学习）+ 对比局部注意力损失（定位 token 级 mismatch）…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 课程学习
-  - 困难负样本
-  - boundary-aware sampling
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "多模态"
+  - "对比学习"
+  - "课程学习"
+  - "困难负样本"
+  - "boundary-aware sampling"
 ---
 
 # Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment

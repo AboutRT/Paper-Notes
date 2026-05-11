@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ViReS: Video Instance Repainting via Sketch and Text Guided Generation
 description: >-
-  [CVPR 2025][视频实例重绘] 提出ViReS框架，通过草图和文本双重引导实现视频中特定实例的重绘，利用时序注意力和实例掩码保持背景不变和时间一致性，在多种视频编辑场景下生成高质量结果。
+  [CVPR 2025][视频生成][视频实例重绘] 提出ViReS框架，通过草图和文本双重引导实现视频中特定实例的重绘，利用时序注意力和实例掩码保持背景不变和时间一致性，在多种视频编辑场景下生成高质量结果。
 tags:
-  - CVPR 2025
-  - 视频实例重绘
-  - 草图引导
-  - 文本引导
-  - 时序一致性
-  - 扩散模型
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频实例重绘"
+  - "草图引导"
+  - "文本引导"
+  - "时序一致性"
+  - "扩散模型"
 ---
 
 # ViReS: Video Instance Repainting via Sketch and Text Guided Generation

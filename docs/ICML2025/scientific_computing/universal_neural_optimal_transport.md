@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][科学计算][最优传输] 提出 UNOT（Universal Neural Optimal Transport），利用 Fourier Neural Operator 学习跨数据集、跨分辨率的熵正则化最优传输对偶势函数，实现对 Sinkhorn 算法最高 7.4× 的加速初始化。
 tags:
-  - ICML2025
-  - 科学计算
-  - 最优传输
-  - 神经算子
-  - Sinkhorn Algorithm
-  - 对偶势函数
-  - 对抗训练
-  - 自举损失
+  - "ICML2025"
+  - "科学计算"
+  - "最优传输"
+  - "神经算子"
+  - "Sinkhorn Algorithm"
+  - "对偶势函数"
+  - "对抗训练"
+  - "自举损失"
 ---
 
 # Universal Neural Optimal Transport

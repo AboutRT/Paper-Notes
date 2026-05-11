@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Reinforcement Learning Teachers of Test Time Scaling
 description: >-
-  [NeurIPS 2025][强化学习] 提出强化学习教师（RLT）框架，将问题和答案同时提供给教师模型，训练其生成有效的解释性推理链条，而非从零解题，从而用7B参数的小教师模型产出比数量级更大模型更优的蒸馏数据。
+  [NeurIPS 2025][强化学习][推理语言模型] 提出强化学习教师（RLT）框架，将问题和答案同时提供给教师模型，训练其生成有效的解释性推理链条，而非从零解题，从而用7B参数的小教师模型产出比数量级更大模型更优的蒸馏数据。
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 知识蒸馏
-  - 强化学习
-  - 测试时推理
-  - 教师-学生框架
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "推理语言模型"
+  - "知识蒸馏"
+  - "测试时推理"
+  - "教师-学生框架"
 ---
 
 # Reinforcement Learning Teachers of Test Time Scaling

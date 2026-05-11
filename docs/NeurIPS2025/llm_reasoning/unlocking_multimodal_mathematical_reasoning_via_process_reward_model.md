@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unlocking Multimodal Mathematical Reasoning via Process Reward Model
 description: >-
-  [NeurIPS 2025][LLM推理][process reward model] 提出URSA三阶段框架，依次构建百万级多模态CoT数据(MMathCoT-1M)训练基座、双视角过程监督数据(DualMath-1.1M)训练PRM、以及PS-GRPO算法将PRM融入在线RL，8B模型在6个数学基准上平均超越GPT-4o 2.7%。
+  [NeurIPS 2025][LLM推理][process reward model] 提出URSA三阶段框架，依次构建百万级多模态CoT数据(MMathCoT-1M)训练基座、双视角过程监督数据(DualMath-1.1M)训练PRM、以及PS-GRPO算法将PRM融入在线RL…
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - process reward model
-  - 多模态
-  - GRPO
-  - test-time scaling
-  - chain-of-thought
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "process reward model"
+  - "多模态"
+  - "GRPO"
+  - "test-time scaling"
+  - "chain-of-thought"
 ---
 
 # Unlocking Multimodal Mathematical Reasoning via Process Reward Model

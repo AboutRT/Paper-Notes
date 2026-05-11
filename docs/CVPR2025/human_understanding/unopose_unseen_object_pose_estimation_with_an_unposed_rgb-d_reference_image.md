@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][未知物体位姿估计] 提出 UNOPose 方法和基准，仅使用单张无位姿的 RGB-D 参考图像即可估计未知物体的 6DoF 相对位姿，通过 $SE(3)$ 不变参考坐标系和重叠感知匹配实现了与依赖 CAD 模型方法相当的性能。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 未知物体位姿估计
-  - 单参考图像
-  - SE(3)不变性
-  - 点云配准
-  - 重叠预测
+  - "CVPR 2025"
+  - "人体理解"
+  - "未知物体位姿估计"
+  - "单参考图像"
+  - "SE(3)不变性"
+  - "点云配准"
+  - "重叠预测"
 ---
 
 # UNOPose: Unseen Object Pose Estimation with an Unposed RGB-D Reference Image

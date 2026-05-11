@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] 提出 ToSFiT，通过微调大语言模型直接参数化最大概率（Probability of Maximality），将 Thompson Sampling 扩展到大规模非结构化离散空间，避免了获取函数最大化的难题。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # Thompson Sampling via Fine-Tuning of LLMs

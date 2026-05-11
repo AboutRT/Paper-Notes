@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][灾难性AI风险] 本文系统分析了前沿安全政策（FSPs）如何嵌入中国四阶段应急响应框架（预防-预警-响应-恢复）的前两个阶段，通过危险能力评估、分级阈值和预设安全措施来应对AI灾难性风险，并与欧盟AI法案、加州SB53等国际实践进行了对比。
 tags:
-  - NeurIPS 2025
-  - 灾难性AI风险
-  - 应急响应
-  - 前沿安全政策
-  - AI治理
-  - 其他
+  - "NeurIPS 2025"
+  - "灾难性AI风险"
+  - "应急响应"
+  - "前沿安全政策"
+  - "AI治理"
+  - "危险能力评估"
 ---
 
 # Emergency Response Measures for Catastrophic AI Risk

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][细粒度动作识别] 提出 FinePseudo 框架，利用基于时序对齐性（temporal alignability）的度量学习来改善伪标签质量，首次系统性地解决半监督细粒度动作识别问题，在四个细粒度数据集上显著超越现有方法。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 细粒度动作识别
-  - 伪标签
-  - 时序对齐
-  - 半监督学习
-  - 度量学习
+  - "ECCV 2024"
+  - "视频理解"
+  - "细粒度动作识别"
+  - "伪标签"
+  - "时序对齐"
+  - "半监督学习"
+  - "度量学习"
 ---
 
 # FinePseudo: Improving Pseudo-Labelling through Temporal-Alignability for Semi-Supervised Fine-Grained Action Recognition

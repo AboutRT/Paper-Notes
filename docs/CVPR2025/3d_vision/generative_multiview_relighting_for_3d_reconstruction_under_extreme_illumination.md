@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][多视图重光照] 本文提出先用多视图重光照扩散模型将不同光照下拍摄的图像统一到参考光照条件，再用带有"shading embedding"的鲁棒 NeRF 模型重建 3D 表示，在极端光照变化下实现了远超现有方法的高保真外观重建，尤其擅长恢复镜面/高光效果。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 多视图重光照
-  - 3D重建
-  - 扩散模型
-  - 极端光照变化
-  - NeRF
+  - "CVPR 2025"
+  - "3D视觉"
+  - "多视图重光照"
+  - "3D重建"
+  - "扩散模型"
+  - "极端光照变化"
+  - "NeRF"
 ---
 
 # Generative Multiview Relighting for 3D Reconstruction under Extreme Illumination Variation

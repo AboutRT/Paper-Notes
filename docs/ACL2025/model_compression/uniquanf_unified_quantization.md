@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][量化] UniQuanF 统一了均匀量化（UQ,表现力弱但优化性强）和二进制编码量化（BCQ,表现力强但优化性差）的优势，通过统一初始化、局部周期映射和统一定理，实现无额外部署开销的高精度 LLM 量化，在 GSM8K 上提升最高 4.60%。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 量化
-  - binary-coding
-  - LLM compression
-  - non-uniform levels
+  - "ACL 2025"
+  - "模型压缩"
+  - "量化"
+  - "binary-coding"
+  - "LLM compression"
+  - "non-uniform levels"
 ---
 
 # UniQuanF: Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models

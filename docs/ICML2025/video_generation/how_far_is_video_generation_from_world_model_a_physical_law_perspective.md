@@ -2,14 +2,14 @@
 title: >-
   [论文解读] How Far is Video Generation from World Model: A Physical Law Perspective
 description: >-
-  [ICML 2025][视频生成] 通过构建严格遵循经典力学定律的2D物理模拟视频数据集，系统性评估视频生成模型是否能从纯视觉数据中发现物理规律，揭示当前模型仅能记忆训练分布内的模式而无法泛化到新的物理条件。
+  [ICML 2025][视频生成][世界模型] 通过构建严格遵循经典力学定律的2D物理模拟视频数据集，系统性评估视频生成模型是否能从纯视觉数据中发现物理规律，揭示当前模型仅能记忆训练分布内的模式而无法泛化到新的物理条件。
 tags:
-  - ICML 2025
-  - 视频生成
-  - 世界模型
-  - 物理定律
-  - 泛化能力
-  - 扩散模型
+  - "ICML 2025"
+  - "视频生成"
+  - "世界模型"
+  - "物理定律"
+  - "泛化能力"
+  - "扩散模型"
 ---
 
 # How Far is Video Generation from World Model: A Physical Law Perspective

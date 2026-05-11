@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][分布外检测] 本文发现 ID 样本的局部梯度方向一致而 OOD 样本梯度方向混乱，据此提出在推理阶段"短路"被虚假梯度利用的特征坐标来降低 OOD 置信度，并通过一阶近似避免二次前向传播，实现轻量高效的 OOD 检测。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 分布外检测
-  - 梯度分析
-  - 特征干预
-  - 推理阶段
-  - 一阶近似
+  - "ICCV 2025"
+  - "模型压缩"
+  - "分布外检测"
+  - "梯度分析"
+  - "特征干预"
+  - "推理阶段"
+  - "一阶近似"
 ---
 
 # Gradient Short-Circuit: Efficient Out-of-Distribution Detection via Feature Intervention

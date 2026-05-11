@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][目标检测][域泛化] 本文首次将扩散模型引入域泛化目标检测，通过提取扩散过程的多时间步中间特征构建域不变的检测器，并设计特征级+目标级对齐的知识迁移框架将泛化能力蒸馏到轻量检测器中，在6个DG基准上平均提升14.0% mAP，甚至超越大多数域适应方法。
 tags:
-  - CVPR 2025
-  - 目标检测
-  - 域泛化
-  - 扩散模型
-  - 知识蒸馏
-  - 域不变特征
+  - "CVPR 2025"
+  - "目标检测"
+  - "域泛化"
+  - "扩散模型"
+  - "知识蒸馏"
+  - "域不变特征"
 ---
 
 # Generalized Diffusion Detector: Mining Robust Features from Diffusion Models for Domain-Generalized Detection

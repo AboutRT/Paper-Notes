@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ConfTuner: Training Large Language Models to Express Their Confidence Verbally
 description: >-
-  [NeurIPS 2025][置信度校准] ConfTuner 提出 tokenized Brier score 损失函数（理论证明为 proper scoring rule），仅需 2000 个样本 + 4 分钟 LoRA 微调即可让 LLM 输出校准的语言化置信度（如"我80%确定"），ECE 最大降低 60.9%，支持自我纠错和模型级联等下游应用。
+  [NeurIPS 2025][LLM评测][置信度校准] ConfTuner 提出 tokenized Brier score 损失函数（理论证明为 proper scoring rule），仅需 2000 个样本 + 4 分钟 LoRA 微调即可让 LLM 输出校准的语言化置信度（如"我80%确定"）…
 tags:
-  - NeurIPS 2025
-  - 置信度校准
-  - 语言化置信度
-  - Brier分数
-  - proper scoring rule
-  - LLM评测
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "置信度校准"
+  - "语言化置信度"
+  - "Brier分数"
+  - "proper scoring rule"
+  - "LLM过度自信"
 ---
 
 # ConfTuner: Training Large Language Models to Express Their Confidence Verbally

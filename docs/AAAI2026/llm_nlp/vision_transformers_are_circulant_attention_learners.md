@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM/NLP][Transformer] 发现 ViT 的自注意力内禁学习了 BCCB 模式，据此提出 Circulant Attention，通过 2D FFT 实现 $O(N\log N)$ 复杂度，在 ImageNet 分类、COCO 检测、ADE20K 分割上一致提升。
 tags:
-  - AAAI 2026
-  - LLM/NLP
-  - Transformer
-  - 循环注意力
-  - BCCB
-  - FFT
-  - 高效注意力
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "Transformer"
+  - "循环注意力"
+  - "BCCB"
+  - "FFT"
+  - "高效注意力"
 ---
 
 # Vision Transformers are Circulant Attention Learners

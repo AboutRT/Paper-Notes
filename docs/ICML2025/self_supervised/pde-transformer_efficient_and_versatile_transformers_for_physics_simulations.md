@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][自监督学习][偏微分方程] 提出 PDE-Transformer，一种面向物理模拟的改进 Transformer 架构，通过分离通道嵌入、移位窗口注意力和多尺度 U 形结构，在 16 种 PDE 类型上超越现有 SOTA，并展现出强大的下游任务迁移能力。
 tags:
-  - ICML 2025
-  - 自监督学习
-  - 偏微分方程
-  - Transformer
-  - 自监督
-  - 基础模型预训练
-  - 多尺度注意力
+  - "ICML 2025"
+  - "自监督学习"
+  - "偏微分方程"
+  - "Transformer"
+  - "物理模拟代理模型"
+  - "基础模型预训练"
+  - "多尺度注意力"
 ---
 
 # PDE-Transformer: Efficient and Versatile Transformers for Physics Simulations

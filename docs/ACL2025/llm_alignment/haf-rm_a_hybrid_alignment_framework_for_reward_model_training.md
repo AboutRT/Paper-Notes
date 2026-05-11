@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][奖励模型训练] 提出混合对齐框架 HaF-RM，在奖励模型训练中保留策略层（policy layer），通过同时优化序列级奖励损失和 token 级策略损失来共同监督共享的内部偏好模型，在 5 个数据集上一致性超越标准 Baseline 和 DPO 方法。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 奖励模型训练
-  - 混合对齐框架
-  - 策略损失正则化
-  - DPO
-  - RLHF
-  - Bradley-Terry模型
+  - "ACL 2025"
+  - "LLM对齐"
+  - "奖励模型训练"
+  - "混合对齐框架"
+  - "策略损失正则化"
+  - "DPO"
+  - "RLHF"
+  - "Bradley-Terry模型"
 ---
 
 # HAF-RM: A Hybrid Alignment Framework for Reward Model Training

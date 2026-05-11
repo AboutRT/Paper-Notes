@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VMBench: A Benchmark for Perception-Aligned Video Motion Generation
 description: >-
-  [ICCV 2025][Video Motion Evaluation] 提出 VMBench——首个面向视频运动质量评估的综合基准，包含五维感知对齐运动指标（PMM）和元信息引导的运动提示生成框架（MMPG），覆盖 969 类运动类型，在 Spearman 相关系数上比现有方法平均提升 35.3%。
+  [ICCV 2025][视频生成][Video Motion Evaluation] 提出 VMBench——首个面向视频运动质量评估的综合基准，包含五维感知对齐运动指标（PMM）和元信息引导的运动提示生成框架（MMPG），覆盖 969 类运动类型…
 tags:
-  - ICCV 2025
-  - Video Motion Evaluation
-  - Human Perception Alignment
-  - text-to-video
-  - 视频生成
-  - Motion Quality
+  - "ICCV 2025"
+  - "视频生成"
+  - "Video Motion Evaluation"
+  - "Human Perception Alignment"
+  - "text-to-video"
+  - "benchmark"
+  - "Motion Quality"
 ---
 
 # VMBench: A Benchmark for Perception-Aligned Video Motion Generation

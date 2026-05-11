@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][对抗攻击] 提出Angular Gradient Sign Method (AGSM)，将双曲空间中的梯度分解为径向（层次深度）和角度（语义）分量，仅沿角度方向施加扰动来生成对抗样本，在图像分类和跨模态检索任务上比标准FGSM/PGD多降低5-13%的准确率。
 tags:
-  - AAAI 2026
-  - AI安全
-  - 对抗攻击
-  - 双曲网络
-  - 角度梯度
-  - Poincaré球
-  - 跨模态检索
+  - "AAAI 2026"
+  - "AI安全"
+  - "对抗攻击"
+  - "双曲网络"
+  - "角度梯度"
+  - "Poincaré球"
+  - "跨模态检索"
 ---
 
 # Angular Gradient Sign Method: Uncovering Vulnerabilities in Hyperbolic Networks

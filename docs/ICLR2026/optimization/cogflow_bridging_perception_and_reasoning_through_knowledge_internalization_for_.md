@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving
 description: >-
-  [ICLR 2026][优化][视觉数学推理] CogFlow 提出认知启发的三阶段视觉数学推理框架（感知→内化→推理），通过 Synergistic Visual Rewards 增强感知、Knowledge Internalization Reward 桥接感知与推理、Visual-Gated Policy Optimization 锚定视觉推理，解决了现有方法中"感知正确但推理漂移"的核心问题。
+  [ICLR 2026][优化/理论][视觉数学推理] CogFlow 提出认知启发的三阶段视觉数学推理框架（感知→内化→推理），通过 Synergistic Visual Rewards 增强感知、Knowledge Internalization Reward 桥接感知与推理、Visual-Gated Po…
 tags:
-  - ICLR 2026
-  - 优化
-  - 视觉数学推理
-  - 知识内化
-  - GRPO
-  - 感知-推理对齐
-  - 认知启发
+  - "ICLR 2026"
+  - "优化/理论"
+  - "视觉数学推理"
+  - "知识内化"
+  - "GRPO"
+  - "感知-推理对齐"
+  - "认知启发"
 ---
 
 # CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving

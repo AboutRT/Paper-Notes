@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Differentiable Model of Supply-Chain Shocks
 description: >-
-  [NeurIPS 2025 (Workshop: Differentiable Systems and Scientific ML)][supply chain] 用 JAX 实现可微分的供应链 Agent-Based Model（~1000 家企业），通过 GPU 并行化 + 自动微分实现比传统 ABC 快 3 个数量级的贝叶斯参数校准，为全球供应链网络的冲击传播建模铺平道路。
+  [NeurIPS 2025 (Workshop: Differentiable Systems and Scientific ML)][supply chain] 用 JAX 实现可微分的供应链 Agent-Based Model（~1000 家企业），通过 GPU 并行化 + 自动微分实现比传统 ABC 快 3 个数量级…
 tags:
   - "NeurIPS 2025 (Workshop: Differentiable Systems and Scientific ML)"
-  - supply chain
-  - differentiable simulation
-  - 其他
-  - JAX
-  - GPU acceleration
-  - variational inference
+  - "supply chain"
+  - "differentiable simulation"
+  - "agent-based model"
+  - "JAX"
+  - "GPU acceleration"
+  - "variational inference"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

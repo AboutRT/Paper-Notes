@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DiLQR: Differentiable Iterative Linear Quadratic Regulator via Implicit Differentiation
 description: >-
-  [ICML 2025][可微分控制] 本文提出 DiLQR 框架，通过在 iLQR 控制器的不动点上施加隐式微分，得到解析梯度解，将反向传播的计算复杂度从随迭代数线性增长降为 $O(1)$ 常数，实现最高 128× 加速，同时学习性能比传统神经网络策略提升 $10^6$ 倍。
+  [ICML 2025][LLM评测][可微分控制] 本文提出 DiLQR 框架，通过在 iLQR 控制器的不动点上施加隐式微分，得到解析梯度解，将反向传播的计算复杂度从随迭代数线性增长降为 $O(1)$ 常数，实现最高 128× 加速，同时学习性能比传统神经网络策略提升 $10^6$ 倍。
 tags:
-  - ICML 2025
-  - 可微分控制
-  - iLQR
-  - 隐式微分
-  - 不动点微分
-  - 模仿学习
+  - "ICML 2025"
+  - "LLM评测"
+  - "可微分控制"
+  - "iLQR"
+  - "隐式微分"
+  - "不动点微分"
+  - "模仿学习"
 ---
 
 # DiLQR: Differentiable Iterative Linear Quadratic Regulator via Implicit Differentiation

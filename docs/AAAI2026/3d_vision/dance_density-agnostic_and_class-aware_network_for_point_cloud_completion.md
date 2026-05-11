@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI2026][3D视觉][点云] 提出 DANCE 框架，通过基于射线的候选点采样和 opacity 预测机制实现密度无关的点云补全，并引入分类头提供语义先验，在 PCN 和 MVP 基准上取得 SOTA。
 tags:
-  - AAAI2026
-  - 3D视觉
-  - 点云
-  - density-agnostic
-  - class-aware
-  - Transformer
-  - ray-based sampling
-  - opacity prediction
+  - "AAAI2026"
+  - "3D视觉"
+  - "点云"
+  - "density-agnostic"
+  - "class-aware"
+  - "Transformer"
+  - "ray-based sampling"
+  - "opacity prediction"
 ---
 
 # DANCE: Density-Agnostic and Class-Aware Network for Point Cloud Completion

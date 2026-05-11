@@ -2,15 +2,15 @@
 title: >-
   [论文解读] XLinear: A Lightweight and Accurate MLP-Based Model for Long-Term Time Series Forecasting with Exogenous Inputs
 description: >-
-  [AAAI2026][时间序列][time series forecasting] 提出 XLinear，一个基于 MLP + sigmoid gating 的轻量时间序列预测模型，通过 global token 机制高效融合 endogenous 与 exogenous 变量信息，在 12 个数据集上实现精度与效率的最优平衡。
+  [AAAI2026][时间序列][time series forecasting] 提出 XLinear，一个基于 MLP + sigmoid gating 的轻量时间序列预测模型，通过 global token 机制高效融合 endogenous 与 exogenous 变量信息…
 tags:
-  - AAAI2026
-  - 时间序列
-  - time series forecasting
-  - MLP
-  - exogenous inputs
-  - gating mechanism
-  - lightweight model
+  - "AAAI2026"
+  - "时间序列"
+  - "time series forecasting"
+  - "MLP"
+  - "exogenous inputs"
+  - "gating mechanism"
+  - "lightweight model"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

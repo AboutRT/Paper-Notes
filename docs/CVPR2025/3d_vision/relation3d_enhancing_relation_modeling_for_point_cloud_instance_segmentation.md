@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation
 description: >-
-  [CVPR 2025][3D视觉][点云实例分割] Relation3D 通过自适应超点聚合模块（ASAM）、对比学习引导的超点精炼（CLSR）和关系感知自注意力（RSA）三个组件增强了 Transformer-based 3D 实例分割中场景特征内部关系和 query 间关系的建模，在 ScanNetV2/ScanNet++/ScanNet200/S3DIS 上取得 SOTA。
+  [CVPR 2025][3D视觉][点云实例分割] Relation3D 通过自适应超点聚合模块（ASAM）、对比学习引导的超点精炼（CLSR）和关系感知自注意力（RSA）三个组件增强了 Transformer-based 3D 实例分割中场景特征内部关系和 query 间关系的建模…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点云实例分割
-  - 关系建模
-  - 对比学习
-  - 自适应超点聚合
-  - Transformer
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点云实例分割"
+  - "关系建模"
+  - "对比学习"
+  - "自适应超点聚合"
+  - "Transformer"
 ---
 
 # Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation

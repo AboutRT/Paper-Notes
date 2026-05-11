@@ -2,14 +2,15 @@
 title: >-
   [论文解读] The Blind Spot of Adaptation: Quantifying and Mitigating Forgetting in Fine-tuned Driving Models
 description: >-
-  [CVPR 2026][catastrophic forgetting] 系统研究 VLM 微调到自动驾驶场景时的灾难性遗忘问题，构建 180K 场景大规模基准 FidelityDrivingBench，并提出 Drive Expert Adapter (DEA) 通过提示空间路由在不腐蚀基础参数的前提下增强驾驶任务性能。
+  [CVPR 2026][LLM安全][catastrophic forgetting] 系统研究 VLM 微调到自动驾驶场景时的灾难性遗忘问题，构建 180K 场景大规模基准 FidelityDrivingBench…
 tags:
-  - CVPR 2026
-  - catastrophic forgetting
-  - LLM安全
-  - 自动驾驶
-  - benchmark
-  - expert adapter
+  - "CVPR 2026"
+  - "LLM安全"
+  - "catastrophic forgetting"
+  - "VLM"
+  - "自动驾驶"
+  - "benchmark"
+  - "expert adapter"
 ---
 
 # The Blind Spot of Adaptation: Quantifying and Mitigating Forgetting in Fine-tuned Driving Models

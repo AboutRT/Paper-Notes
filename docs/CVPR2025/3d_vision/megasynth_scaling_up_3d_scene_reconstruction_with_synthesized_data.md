@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][合成数据] MegaSynth 提出通过消除语义信息依赖来实现可扩展的 3D 场景数据合成，生成了包含 70 万个场景的数据集（比真实数据集 DL3DV 大 50 倍），用于训练大规模重建模型（LRM），在多个基准上带来 1.2-1.8dB PSNR 的显著提升。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 合成数据
-  - 大规模重建模型
-  - 程序化生成
-  - 非语义数据
-  - 3D高斯
+  - "CVPR 2025"
+  - "3D视觉"
+  - "合成数据"
+  - "大规模重建模型"
+  - "程序化生成"
+  - "非语义数据"
+  - "3D高斯"
 ---
 
 # MegaSynth: Scaling Up 3D Scene Reconstruction with Synthesized Data

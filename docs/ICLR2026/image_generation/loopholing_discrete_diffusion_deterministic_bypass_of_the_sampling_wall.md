@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][离散扩散] 识别离散扩散模型中的"采样壁"问题（分类分布信息在采样后坍塌为 one-hot 向量），提出 Loopholing 机制引入确定性潜在路径传播丰富的分布信息，将生成困惑度降低最多 61%，大幅缩小与自回归模型的差距。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 离散扩散
-  - 采样壁
-  - 确定性旁路
-  - 自条件化
-  - 非自回归文本生成
+  - "ICLR 2026"
+  - "图像生成"
+  - "离散扩散"
+  - "采样壁"
+  - "确定性旁路"
+  - "自条件化"
+  - "非自回归文本生成"
 ---
 
 # Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall

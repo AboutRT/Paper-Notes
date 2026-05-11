@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][轻量LLM] 提出 DeBoP 范式，将轻量级 LLM（LwLLM）的行为优化转化为对离散执行序列的优化，通过无梯度蒙特卡洛树搜索（MCTS）自动寻找最优 demonstration，使 LLaMA3-8B 在多数任务上超越 GPT-3.5 并减少约 60% 计算时间。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 轻量LLM
-  - 行为优化
-  - 蒙特卡洛树搜索
-  - 提示优化
-  - CoT
+  - "ACL 2025"
+  - "模型压缩"
+  - "轻量LLM"
+  - "行为优化"
+  - "蒙特卡洛树搜索"
+  - "提示优化"
+  - "CoT"
 ---
 
 # Direct Behavior Optimization: Unlocking the Potential of Lightweight LLMs

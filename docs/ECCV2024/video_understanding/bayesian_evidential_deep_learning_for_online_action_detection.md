@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][在线动作检测] 本文提出 BEDL（Bayesian Evidential Deep Learning）框架，通过贝叶斯教师-证据学生架构，在在线动作检测任务中实现了准确高效的推理与可靠的不确定性量化，并设计了基于贝叶斯互信息的注意力模块用于主动特征选择。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 在线动作检测
-  - 贝叶斯神经网络
-  - 证据深度学习
-  - 不确定性量化
-  - 教师-学生架构
+  - "ECCV 2024"
+  - "视频理解"
+  - "在线动作检测"
+  - "贝叶斯神经网络"
+  - "证据深度学习"
+  - "不确定性量化"
+  - "教师-学生架构"
 ---
 
 # Bayesian Evidential Deep Learning for Online Action Detection

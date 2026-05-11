@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][articulated objects] 构建基于 3DGS 的层次化语义特征场，融合 CLIP/SAM/DINOv2 的语义信息，实现铰接物体的交互式 affordance 预测和跨状态运动参数恢复，支持任意类别、多可动部件的复杂室内场景。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - articulated objects
-  - affordance
-  - 3D Gaussian Splatting
-  - foundation models
-  - motion recovery
-  - 场景理解
+  - "CVPR 2025"
+  - "3D视觉"
+  - "articulated objects"
+  - "affordance"
+  - "3D Gaussian Splatting"
+  - "foundation models"
+  - "motion recovery"
+  - "场景理解"
 ---
 
 # IAAO: Interactive Affordance Learning for Articulated Objects in 3D Environments

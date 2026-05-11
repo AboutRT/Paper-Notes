@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][图像分割] 提出 SegPoint，首个利用多模态 LLM 推理能力在统一框架中完成 3D 指令分割、引用分割、语义分割和开放词汇分割四种任务的模型，并构建 Instruct3D 基准测试（2,565 对），mIoU 达 27.5%。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 图像分割
-  - LLM
-  - unified framework
-  - geometric feature
+  - "ECCV 2024"
+  - "3D视觉"
+  - "图像分割"
+  - "LLM"
+  - "unified framework"
+  - "geometric feature"
 ---
 
 # SegPoint: Segment Any Point Cloud via Large Language Model

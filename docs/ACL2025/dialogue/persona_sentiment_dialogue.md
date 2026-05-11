@@ -2,8 +2,9 @@
 title: >-
   [论文解读] Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation
 description: >-
-   大规模分析发现 LLM 生成的个性化对话质量对人物画像的情感极性高度敏感——负面画像导致过度强调人设引发矛盾，正面画像则选择性融入人设产生更高质量对话——基于此提出结合轮次生成、画像排序和情感感知提示的改进方法。
-
+  [对话系统] 大规模分析发现 LLM 生成的个性化对话质量对人物画像的情感极性高度敏感——负面画像导致过度强调人设引发矛盾，正面画像则选择性融入人设产生更高质量对话——基于此提出结合轮次生成、画像排序和情感感知提示的改进方法。
+tags:
+  - "对话系统"
 ---
 
 # Exploring Persona Sentiment Sensitivity in Personalized Dialogue Generation

@@ -1,3 +1,18 @@
+---
+title: >-
+  [论文解读] No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs
+description: >-
+  [ACL 2026][多语言/翻译][多语言LLM] 本文证明没有一种提示策略在所有语言和任务上普遍最优，提出将策略选择建模为学习决策问题，用轻量级分类器为每个实例预测最优策略，在四个基准上显著优于固定策略。
+tags:
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "多语言LLM"
+  - "提示策略选择"
+  - "翻译路由"
+  - "低资源语言"
+  - "学习型分类器"
+---
+
 # No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs
 
 **会议**: ACL 2026  

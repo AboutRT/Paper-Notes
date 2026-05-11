@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][次表面散射] 提出利用Spectral Sub-Surface Scattering（S4，光谱次表面散射）进行材质分类的方法，证明了次表面散射的强光谱依赖性可以提供高度判别性的特征，并设计了一种新型成像装置通过2D投影高效获取S4测量数据，无需耗时的高光谱扫描。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 次表面散射
-  - 光谱成像
-  - 材质分类
-  - 点扩散函数
-  - 计算摄影
+  - "ECCV 2024"
+  - "人体理解"
+  - "次表面散射"
+  - "光谱成像"
+  - "材质分类"
+  - "点扩散函数"
+  - "计算摄影"
 ---
 
 # Spectral Subsurface Scattering for Material Classification

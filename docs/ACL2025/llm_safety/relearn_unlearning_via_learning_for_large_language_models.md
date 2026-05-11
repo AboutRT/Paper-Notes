@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ReLearn: Unlearning via Learning for Large Language Models
 description: >-
-  [ACL 2025][知识遗忘] ReLearn提出用"正向学习"替代传统的"逆向优化"来实现LLM知识遗忘，通过数据增强和微调pipeline使模型在遗忘目标知识的同时保持语言生成质量和流畅性，并设计了包含KFR、KRR和LS三个指标的综合评估框架。
+  [ACL 2025][LLM安全][知识遗忘] ReLearn提出用"正向学习"替代传统的"逆向优化"来实现LLM知识遗忘，通过数据增强和微调pipeline使模型在遗忘目标知识的同时保持语言生成质量和流畅性，并设计了包含KFR、KRR和LS三个指标的综合评估框架。
 tags:
-  - ACL 2025
-  - 知识遗忘
-  - 机器遗忘
-  - 数据增强
-  - 语言质量保持
-  - LLM安全
+  - "ACL 2025"
+  - "LLM安全"
+  - "知识遗忘"
+  - "机器遗忘"
+  - "数据增强"
+  - "语言质量保持"
+  - "逆向优化"
 ---
 
 # ReLearn: Unlearning via Learning for Large Language Models

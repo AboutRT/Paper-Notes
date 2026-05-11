@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR2025][机器人][TinyML] 在 ESP32 微控制器上部署端到端量化 CNN，仅用 23k 参数和 ToF 深度相机实现 30ms 延迟的实时自主导航。
 tags:
-  - CVPR2025
-  - 机器人
-  - TinyML
-  - 自主导航
-  - 微控制器
-  - ESP32
-  - 端到端学习
-  - 模型量化
-  - 边缘推理
+  - "CVPR2025"
+  - "机器人"
+  - "TinyML"
+  - "自主导航"
+  - "微控制器"
+  - "ESP32"
+  - "端到端学习"
+  - "模型量化"
+  - "边缘推理"
 ---
 
 # TinyNav: End-to-End TinyML for Real-Time Autonomous Navigation on Microcontrollers

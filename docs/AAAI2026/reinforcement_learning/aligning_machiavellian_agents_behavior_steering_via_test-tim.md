@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping
 description: >-
-  [AAAI 2026][强化学习] 提出一种测试时策略塑形方法，通过轻量级伦理属性分类器在推理阶段插值修改预训练 RL 智能体的动作概率分布，无需重训练即可实现对多种伦理属性的细粒度行为引导。
+  [AAAI 2026][强化学习][测试时对齐] 提出一种测试时策略塑形方法，通过轻量级伦理属性分类器在推理阶段插值修改预训练 RL 智能体的动作概率分布，无需重训练即可实现对多种伦理属性的细粒度行为引导。
 tags:
-  - AAAI 2026
-  - 强化学习
-  - 策略塑形
-  - 伦理行为引导
-  - 马基雅维利智能体
-  - 强化学习
+  - "AAAI 2026"
+  - "强化学习"
+  - "测试时对齐"
+  - "策略塑形"
+  - "伦理行为引导"
+  - "马基雅维利智能体"
 ---
 
 # Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping

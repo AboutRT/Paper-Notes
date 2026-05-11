@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][视角选择] 本文提出 LangView，利用视角无关的文字叙述（narration）作为弱监督信号，通过比较各视角预测 caption 与真实叙述的匹配度来生成最佳视角伪标签，实现无需手动标注的多视角教学视频自动视角选择。
 tags:
-  - CVPR 2025
-  - 视角选择
-  - 弱监督
-  - 多视角教学视频
-  - 语言引导
-  - 伪标签
+  - "CVPR 2025"
+  - "视角选择"
+  - "弱监督"
+  - "多视角教学视频"
+  - "语言引导"
+  - "伪标签"
 ---
 
 # Which Viewpoint Shows it Best? Language for Weakly Supervising View Selection in Multi-view Instructional Videos

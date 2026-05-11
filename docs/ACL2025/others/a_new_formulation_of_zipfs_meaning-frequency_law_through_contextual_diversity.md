@@ -2,14 +2,14 @@
 title: >-
   [论文解读] A New Formulation of Zipf's Meaning-Frequency Law through Contextual Diversity
 description: >-
-  [ACL 2025 (Outstanding Paper)][Zipf定律] 本文提出将 Zipf 语义-频率定律重新形式化为词频与上下文多样性之间的幂律关系，通过语言模型生成的上下文化词向量方向来量化词义数量，发现该定律在小规模语言模型中不可观测，且自回归 LM 需要比掩码 LM 多得多的参数才能呈现该定律。
+  [ACL 2025 (Outstanding Paper)][Zipf定律] 本文提出将 Zipf 语义-频率定律重新形式化为词频与上下文多样性之间的幂律关系，通过语言模型生成的上下文化词向量方向来量化词义数量，发现该定律在小规模语言模型中不可观测，且自回归 LM 需要比掩码 LM 多得多的参数才能呈现该定律…
 tags:
-  - ACL 2025 (Outstanding Paper)
-  - Zipf定律
-  - 语义-频率关系
-  - 上下文多样性
-  - 其他
-  - 词义量化
+  - "ACL 2025 (Outstanding Paper)"
+  - "Zipf定律"
+  - "语义-频率关系"
+  - "上下文多样性"
+  - "语言模型"
+  - "词义量化"
 ---
 
 # A New Formulation of Zipf's Meaning-Frequency Law through Contextual Diversity

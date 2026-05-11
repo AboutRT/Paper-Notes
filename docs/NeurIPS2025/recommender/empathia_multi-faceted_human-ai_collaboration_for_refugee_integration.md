@@ -2,14 +2,15 @@
 title: >-
   [论文解读] EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration
 description: >-
-  [NeurIPS 2025][难民融合] 提出EMPATHIA多Agent框架，基于Kegan建构性发展理论，通过情感/文化/伦理三个专业化Agent的选择器-验证器协商评估难民安置建议，在6,359名难民的真实数据上达到87.4%收敛率和92.1%文化专家同意率。
+  [NeurIPS 2025][推荐系统][难民融合] 提出EMPATHIA多Agent框架，基于Kegan建构性发展理论，通过情感/文化/伦理三个专业化Agent的选择器-验证器协商评估难民安置建议，在6,359名难民的真实数据上达到87.4%收敛率和92.1%文化专家同意率。
 tags:
-  - NeurIPS 2025
-  - 难民融合
-  - 推荐系统
-  - 选择器-验证器
-  - 文化感知AI
-  - 伦理AI
+  - "NeurIPS 2025"
+  - "推荐系统"
+  - "难民融合"
+  - "多Agent框架"
+  - "选择器-验证器"
+  - "文化感知AI"
+  - "伦理AI"
 ---
 
 # EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration

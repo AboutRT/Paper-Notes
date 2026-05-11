@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Catastrophic Forgetting in Kolmogorov-Arnold Networks
 description: >-
-  [AAAI 2026][KAN] 首个系统性研究KAN（Kolmogorov-Arnold Networks）中灾难性遗忘行为的工作：建立了遗忘与激活支持重叠和数据内禀维度之间的理论框架，并提出KAN-LoRA用于语言模型的持续微调知识编辑。
+  [AAAI 2026][知识编辑][KAN] 首个系统性研究KAN（Kolmogorov-Arnold Networks）中灾难性遗忘行为的工作：建立了遗忘与激活支持重叠和数据内禀维度之间的理论框架，并提出KAN-LoRA用于语言模型的持续微调知识编辑。
 tags:
-  - AAAI 2026
-  - KAN
-  - 灾难性遗忘
-  - 持续学习
-  - 知识编辑
-  - 激活支持重叠
+  - "AAAI 2026"
+  - "知识编辑"
+  - "KAN"
+  - "灾难性遗忘"
+  - "持续学习"
+  - "KAN-LoRA"
+  - "激活支持重叠"
 ---
 
 # Catastrophic Forgetting in Kolmogorov-Arnold Networks

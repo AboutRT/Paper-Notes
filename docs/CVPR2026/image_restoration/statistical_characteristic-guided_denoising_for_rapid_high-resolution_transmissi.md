@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][HRTEM 去噪] 提出统计特征引导去噪网络 SCGN，利用空间域的窗口标准差加权和频域的频带引导加权，分别在空间和频率两个域自适应地增强信号、抑制噪声，结合 HRTEM 专用噪声标定方法生成含无序结构的真实噪声数据集，实现毫秒级高分辨率透射电子显微镜图像的高质量去噪。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - HRTEM 去噪
-  - 统计特征引导
-  - 频域去噪
-  - 空间偏差加权
-  - 噪声标定
+  - "CVPR 2026"
+  - "图像恢复"
+  - "HRTEM 去噪"
+  - "统计特征引导"
+  - "频域去噪"
+  - "空间偏差加权"
+  - "噪声标定"
 ---
 
 # Statistical Characteristic-Guided Denoising for Rapid High-Resolution Transmission Electron Microscopy Imaging

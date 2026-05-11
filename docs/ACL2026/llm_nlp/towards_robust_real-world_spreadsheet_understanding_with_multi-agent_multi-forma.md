@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][电子表格理解] 提出 SpreadsheetAgent，一种两阶段多智能体框架，通过代码执行、视觉和 LaTeX 三种格式的渐进式区域读取与交叉验证，在不超出 LLM 上下文限制的前提下实现鲁棒的真实世界电子表格理解。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 电子表格理解
-  - 多智能体框架
-  - 多格式推理
-  - 结构化信息提取
-  - 渐进式阅读
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "电子表格理解"
+  - "多智能体框架"
+  - "多格式推理"
+  - "结构化信息提取"
+  - "渐进式阅读"
 ---
 
 # Towards Robust Real-World Spreadsheet Understanding with Multi-Agent Multi-Format Collaboration

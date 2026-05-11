@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][客户模拟] 提出一种面向动机性访谈（MI）心理咨询的一致性客户模拟框架，通过状态转换、行动选择、信息选择和回复生成四个模块，确保模拟客户的行为与其预设的画像（动机、信念、改变计划、配合度）保持一致，在自动和专家评估中均优于基线方法。
 tags:
-  - ACL 2025
-  - 客户模拟
-  - 动机性访谈
-  - 一致性
-  - 状态跟踪
-  - 行为选择
-  - 其他
+  - "ACL 2025"
+  - "客户模拟"
+  - "动机性访谈"
+  - "一致性"
+  - "状态跟踪"
+  - "行为选择"
+  - "LLM Agent"
 ---
 
 # Consistent Client Simulation for Motivational Interviewing-based Counseling

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图形设计] LaDeCo 将平面设计的分层设计原则引入大型多模态模型（LMM），先用 GPT-4o 对多模态设计元素进行语义层规划，再按层逐步预测元素属性并渲染中间结果反馈给模型，将复杂的设计合成任务分解为可管理的子步骤，在设计合成质量上大幅超越基线方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图形设计
-  - 设计自动化
-  - 分层生成
-  - 大型多模态模型
-  - 布局生成
+  - "CVPR 2025"
+  - "图像生成"
+  - "图形设计"
+  - "设计自动化"
+  - "分层生成"
+  - "大型多模态模型"
+  - "布局生成"
 ---
 
 # From Elements to Design: A Layered Approach for Automatic Graphic Design Composition

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][AI安全][联邦学习] 提出FedRDN——一种极其简单的联邦学习数据增强方法，在训练时随机使用其他客户端的通道级均值/标准差做数据归一化（而非固定用本地统计），仅需几行代码即可显著缓解特征分布偏移问题，在多种FL方法上一致提升性能。
 tags:
-  - CVPR 2025
-  - AI安全
-  - 联邦学习
-  - 特征分布偏移
-  - 数据归一化增强
-  - 即插即用
-  - 非IID数据
+  - "CVPR 2025"
+  - "AI安全"
+  - "联邦学习"
+  - "特征分布偏移"
+  - "数据归一化增强"
+  - "即插即用"
+  - "非IID数据"
 ---
 
 # A Simple Data Augmentation for Feature Distribution Skewed Federated Learning

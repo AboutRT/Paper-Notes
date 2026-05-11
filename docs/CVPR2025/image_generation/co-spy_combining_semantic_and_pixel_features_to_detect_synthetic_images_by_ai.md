@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][AI生成图像检测] 提出 Co-Spy 融合 VAE 重建伪影特征和 CLIP 语义特征两条互补检测路径——VAE 伪影跨模型泛化但怕 JPEG 压缩，CLIP 语义抗 JPEG 但泛化差——自适应调节器根据输入动态分配两路权重，在 22 个生成模型上建立新 SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - AI生成图像检测
-  - 语义-伪影融合
-  - VAE伪影
-  - CLIP分类
-  - JPEG鲁棒性
+  - "CVPR 2025"
+  - "图像生成"
+  - "AI生成图像检测"
+  - "语义-伪影融合"
+  - "VAE伪影"
+  - "CLIP分类"
+  - "JPEG鲁棒性"
 ---
 
 # Co-Spy: Combining Semantic and Pixel Features to Detect Synthetic Images by AI

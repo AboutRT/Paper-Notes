@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding
 description: >-
-  [ICLR 2026][语言先验] 通过对比有/无视觉输入的逐层隐藏表征（chain-of-embedding），发现LVLM中存在一个"视觉整合点"(VIP)层，并据此提出Total Visual Integration (TVI)指标来量化语言先验的强度。
+  [ICLR 2026][对话系统][语言先验] 通过对比有/无视觉输入的逐层隐藏表征（chain-of-embedding），发现LVLM中存在一个"视觉整合点"(VIP)层，并据此提出Total Visual Integration (TVI)指标来量化语言先验的强度。
 tags:
-  - ICLR 2026
-  - 语言先验
-  - 视觉整合点
-  - 对话系统
-  - 表征分析
-  - 可解释性
+  - "ICLR 2026"
+  - "对话系统"
+  - "语言先验"
+  - "视觉整合点"
+  - "大视觉语言模型"
+  - "表征分析"
+  - "可解释性"
 ---
 
 # Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding
@@ -62,10 +63,10 @@ $$\mathcal{L}(x, y; \theta) = -\log F_\theta(y|x) - \lambda \cdot \text{TVI}(l^*
 
 | 模型 × 数据集 | TVI与正确率的Spearman相关 | p值 |
 |--------------|-------------------------|-----|
-| Qwen2.5-VL-7B (post-VIP) | 0.7241 | <0.001 |
-| Gemma3-4B (post-VIP) | 0.7174 | <0.001 |
+| Qwen2.5-VL-7B (post-VIP) | 0.7241 | &lt;0.001 |
+| Gemma3-4B (post-VIP) | 0.7174 | &lt;0.001 |
 | Qwen2.5-VL-7B (pre-VIP) | 0.1489 | 0.002 |
-| Gemma3-4B (pre-VIP) | 0.4659 | <0.001 |
+| Gemma3-4B (pre-VIP) | 0.4659 | &lt;0.001 |
 
 | 指标 | Qwen2.5-VL-7B VLind | Qwen2.5-VL-7B ViLP | InternVL-3-8B VLind | InternVL-3-8B ViLP |
 |------|---------------------|---------------------|---------------------|--------------------|

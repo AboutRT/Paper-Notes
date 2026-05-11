@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型] 提出 MixerMDM，首个可学习的运动扩散模型组合技术，通过 Transformer-based Mixer 模块预测动态混合权重，以对抗训练方式学习如何融合个体运动和交互运动扩散模型，实现细粒度可控的人-人交互运动生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型
-  - model composition
-  - adversarial training
-  - dynamic mixing
-  - human-human interaction
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "model composition"
+  - "adversarial training"
+  - "dynamic mixing"
+  - "human-human interaction"
 ---
 
 # MixerMDM: Learnable Composition of Human Motion Diffusion Models

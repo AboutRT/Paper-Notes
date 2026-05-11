@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases
 description: >-
-  [ACL 2026][法律关系抽取] 构建了首个中国民事法律关系的结构化分类体系（9 大领域、265 种关系类型），并基于此提出 LexRel 基准（1,140 个专家标注样本），评估了主流 LLM 在法律关系抽取任务上的能力，发现当前模型在该任务上存在显著局限，同时证明了法律关系信息对下游法律 AI 任务的增益效果。
+  [ACL 2026][LLM评测][法律关系抽取] 构建了首个中国民事法律关系的结构化分类体系（9 大领域、265 种关系类型），并基于此提出 LexRel 基准（1,140 个专家标注样本），评估了主流 LLM 在法律关系抽取任务上的能力，发现当前模型在该任务上存在显著局限…
 tags:
-  - ACL 2026
-  - 法律关系抽取
-  - 中国民事案件
-  - LLM评测
-  - 基准测试
-  - 关系分类体系
+  - "ACL 2026"
+  - "LLM评测"
+  - "法律关系抽取"
+  - "中国民事案件"
+  - "法律知识图谱"
+  - "基准测试"
+  - "关系分类体系"
 ---
 
 # LexRel: Benchmarking Legal Relation Extraction for Chinese Civil Cases

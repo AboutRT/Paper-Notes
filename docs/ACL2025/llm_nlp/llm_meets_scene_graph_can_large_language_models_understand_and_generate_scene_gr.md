@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][场景图] 提出 TSG Bench 基准，系统评估 11 个 LLM 在场景图理解和生成任务上的能力，揭示 LLM 在场景图生成（尤其是多动作分解）方面存在显著瓶颈。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 场景图
-  - 基准测试
-  - 大语言模型
-  - 结构化表示
-  - 多模态推理
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "场景图"
+  - "基准测试"
+  - "大语言模型"
+  - "结构化表示"
+  - "多模态推理"
 ---
 
 # LLM Meets Scene Graph: Can Large Language Models Understand and Generate Scene Graphs?

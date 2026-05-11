@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GeoTikzBridge: Advancing Multimodal Code Generation for Geometric Perception and Reasoning
 description: >-
-  [CVPR 2026][几何感知] GeoTikzBridge 通过构建最大的 2.5M 图像-TikZ 代码数据集和首个辅助线指令数据集，训练出能精准重建几何图形的代码生成模型，并可作为即插即用模块增强任意 MLLM/LLM 的几何推理能力。
+  [CVPR 2026][代码智能][几何感知] GeoTikzBridge 通过构建最大的 2.5M 图像-TikZ 代码数据集和首个辅助线指令数据集，训练出能精准重建几何图形的代码生成模型，并可作为即插即用模块增强任意 MLLM/LLM 的几何推理能力。
 tags:
-  - CVPR 2026
-  - 几何感知
-  - TikZ代码生成
-  - 代码智能
-  - 辅助线生成
-  - 图像到代码
+  - "CVPR 2026"
+  - "代码智能"
+  - "几何感知"
+  - "TikZ代码生成"
+  - "多模态推理"
+  - "辅助线生成"
+  - "图像到代码"
 ---
 
 # GeoTikzBridge: Advancing Multimodal Code Generation for Geometric Perception and Reasoning

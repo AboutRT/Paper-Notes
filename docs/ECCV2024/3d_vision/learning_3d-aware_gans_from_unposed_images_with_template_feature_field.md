@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][GAN] 提出模板特征场(TeFF)，通过联合学习生成辐射场和语义特征场，从无姿态标注的野外图像中自动提取3D模板并在线估计相机位姿，从而实现完整3D几何的生成对抗学习。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - GAN
-  - 无姿态图像
-  - 模板特征场
-  - 位姿估计
-  - NeRF
+  - "ECCV 2024"
+  - "3D视觉"
+  - "GAN"
+  - "无姿态图像"
+  - "模板特征场"
+  - "位姿估计"
+  - "NeRF"
 ---
 
 # Learning 3D-Aware GANs from Unposed Images with Template Feature Field

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Music Arena: Live Evaluation for Text-to-Music
 description: >-
-  [NeurIPS 2025][AI安全][文本到音乐] Music Arena是首个面向文本到音乐（TTM）生成的在线实时评估平台，通过LLM驱动的审核与路由系统解决TTM系统异构签名问题，收集包含细粒度聆听行为和自然语言反馈的多层次偏好数据，并通过月度滚动数据发布为社区提供可持续的开放偏好数据源。
+  [NeurIPS 2025][LLM安全][文本到音乐] Music Arena是首个面向文本到音乐（TTM）生成的在线实时评估平台，通过LLM驱动的审核与路由系统解决TTM系统异构签名问题，收集包含细粒度聆听行为和自然语言反馈的多层次偏好数据，并通过月度滚动数据发布为社区提供可持续的开放偏好数据源。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 文本到音乐
-  - 人类偏好评估
-  - live evaluation
-  - 排行榜
-  - 偏好数据
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "文本到音乐"
+  - "人类偏好评估"
+  - "live evaluation"
+  - "排行榜"
+  - "偏好数据"
 ---
 
 # Music Arena: Live Evaluation for Text-to-Music

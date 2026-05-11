@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][文生3D] 提出联合分数蒸馏（JSD），通过能量函数建模多视图去噪图像的联合分布，将 SDS 从单视图独立优化扩展为多视图联合优化，有效解决 3D 生成中的 Janus 问题，同时保持对复杂文本的生成保真度。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 文生3D
-  - Score Distillation
-  - Janus问题
-  - 多视图一致性
-  - 能量函数
+  - "ECCV 2024"
+  - "3D视觉"
+  - "文生3D"
+  - "Score Distillation"
+  - "Janus问题"
+  - "多视图一致性"
+  - "能量函数"
 ---
 
 # JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation

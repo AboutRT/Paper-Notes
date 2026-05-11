@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Token is Worth over 1,000 Tokens: Efficient Knowledge Distillation through Low-Rank Clone
 description: >-
-  [NeurIPS 2025][模型压缩][知识蒸馏] 提出 Low-Rank Clone (LRC)，通过可学习低秩投影矩阵将 teacher 权重压缩为 student 权重（软剪枝），同时对齐 attention 和 FFN 的中间激活（激活克隆），仅用 20B tokens 训练的 1.7B 模型即超过用 36T tokens 训练的 Qwen3-1.7B（64.98 vs 63.17），实现 **1000 倍训练效率提升**。
+  [NeurIPS 2025][模型压缩][知识蒸馏] 提出 Low-Rank Clone (LRC)，通过可学习低秩投影矩阵将 teacher 权重压缩为 student 权重（软剪枝），同时对齐 attention 和 FFN 的中间激活（激活克隆）…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 知识蒸馏
-  - 低秩投影
-  - 小语言模型
-  - 激活克隆
-  - 高效预训练
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "低秩投影"
+  - "小语言模型"
+  - "激活克隆"
+  - "高效预训练"
 ---
 
 # A Token is Worth over 1,000 Tokens: Efficient Knowledge Distillation through Low-Rank Clone
@@ -39,7 +39,7 @@ tags:
 ## 方法详解
 
 ### 整体框架
-给定 teacher 模型（如 Qwen2.5-3B-Instruct），LRC 训练一组低秩投影矩阵 $\mathbf{W}_m^p \in \mathbb{R}^{d^T \times d^S}$，每个前向传播：(1) 投影 teacher 权重得到 student 权重 → (2) 两个模型分别前向 → (3) 对齐中间激活 + KL 散度 + LM loss。仅训练投影矩阵和 RMSNorm 参数（<1% 总参数）。
+给定 teacher 模型（如 Qwen2.5-3B-Instruct），LRC 训练一组低秩投影矩阵 $\mathbf{W}_m^p \in \mathbb{R}^{d^T \times d^S}$，每个前向传播：(1) 投影 teacher 权重得到 student 权重 → (2) 两个模型分别前向 → (3) 对齐中间激活 + KL 散度 + LM loss。仅训练投影矩阵和 RMSNorm 参数（&lt;1% 总参数）。
 
 ### 关键设计
 

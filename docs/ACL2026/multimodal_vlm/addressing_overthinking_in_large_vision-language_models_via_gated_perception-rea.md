@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning Optimization
 description: >-
-  [ACL 2026][多模态][过度思考] 提出GPRO框架，通过元推理控制器在每个token生成步动态路由计算到三条路径（快速/感知重检/推理反思），解决LVLM的过度思考问题，同时提升精度和效率。
+  [ACL 2026][多模态VLM][过度思考] 提出GPRO框架，通过元推理控制器在每个token生成步动态路由计算到三条路径（快速/感知重检/推理反思），解决LVLM的过度思考问题，同时提升精度和效率。
 tags:
-  - ACL 2026
-  - 多模态
-  - 过度思考
-  - 多模态VLM
-  - 元推理控制器
-  - 自适应计算
-  - 多目标强化学习
+  - "ACL 2026"
+  - "多模态VLM"
+  - "过度思考"
+  - "感知-推理分离"
+  - "元推理控制器"
+  - "自适应计算"
+  - "多目标强化学习"
 ---
 
 # Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning Optimization

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][AI安全][人脸篡改检测] 提出 RecoverMark，一个将人脸内容本身作为水印嵌入背景的鲁棒水印框架，同时实现篡改区域定位、原始内容恢复和版权验证，在水印移除攻击下仍保持有效。
 tags:
-  - CVPR 2026
-  - AI安全
-  - 人脸篡改检测
-  - 鲁棒水印
-  - 篡改定位
-  - 内容恢复
-  - 版权验证
+  - "CVPR 2026"
+  - "AI安全"
+  - "人脸篡改检测"
+  - "鲁棒水印"
+  - "篡改定位"
+  - "内容恢复"
+  - "版权验证"
 ---
 
 # RecoverMark: Robust Watermarking for Localization and Recovery of Manipulated Faces

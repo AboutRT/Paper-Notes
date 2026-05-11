@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像恢复][Consistency Model] 提出ADCM——通过将一致性模型的离散化步长形式化为局部一致性（可训练性）与全局一致性（稳定性）的约束优化问题，并用Gauss-Newton法求闭式解，实现自适应离散化，在CIFAR-10上用不到25%训练预算超越所有先前CM。
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - Consistency Model
-  - 自适应离散化
-  - 训练效率
-  - 单步生成
-  - Lagrange乘子法
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "Consistency Model"
+  - "自适应离散化"
+  - "训练效率"
+  - "单步生成"
+  - "Lagrange乘子法"
 ---
 
 # Adaptive Discretization for Consistency Models

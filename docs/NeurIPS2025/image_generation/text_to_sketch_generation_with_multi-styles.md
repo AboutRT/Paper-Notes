@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][草图生成] 提出M3S（Multi-Style Sketch Synthesis），一个无训练框架，通过线性平滑的K/V特征注入、联合AdaIN风格倾向控制和风格-内容分离引导，实现基于文本提示和参考风格草图的单/多风格草图生成。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 草图生成
-  - 多风格合成
-  - 扩散模型
-  - K/V注入
-  - AdaIN
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "草图生成"
+  - "多风格合成"
+  - "扩散模型"
+  - "K/V注入"
+  - "AdaIN"
 ---
 
 # Text to Sketch Generation with Multi-Styles

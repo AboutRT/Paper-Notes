@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Gaze Target Detection Based on Head-Local-Global Coordination
 description: >-
-  [ECCV 2024][其他] 提出了一种基于头部-局部-全局三视图协调的注视目标检测方法，通过引入基于FOV（视野范围）的局部视图，并设计全局-局部位置与表示一致性机制，显著提升了注视目标预测的准确性。
+  [ECCV 2024][注视目标检测] 提出了一种基于头部-局部-全局三视图协调的注视目标检测方法，通过引入基于FOV（视野范围）的局部视图，并设计全局-局部位置与表示一致性机制，显著提升了注视目标预测的准确性。
 tags:
-  - ECCV 2024
-  - 其他
-  - 头部-局部-全局协调
-  - 视野范围
-  - 多视图融合
-  - 注视预测
+  - "ECCV 2024"
+  - "注视目标检测"
+  - "头部-局部-全局协调"
+  - "视野范围"
+  - "多视图融合"
+  - "注视预测"
 ---
 
 # Gaze Target Detection Based on Head-Local-Global Coordination

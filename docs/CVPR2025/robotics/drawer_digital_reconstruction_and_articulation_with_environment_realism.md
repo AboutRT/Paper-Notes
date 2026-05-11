@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR 2025][机器人][digital twin] 提出 DRAWER 框架，从静态场景视频自动构建可交互数字孪生，结合 SDF + 高斯泼溅双场景表示实现高保真渲染和精细几何，支持铰接体识别与仿真、Unreal Engine 游戏创建、以及 real-to-sim-to-real 机器人策略迁移。
 tags:
-  - CVPR 2025
-  - 机器人
-  - digital twin
-  - articulated objects
-  - Gaussian splatting
-  - SDF
-  - game engine
-  - real-to-sim-to-real
-  - robotic manipulation
+  - "CVPR 2025"
+  - "机器人"
+  - "digital twin"
+  - "articulated objects"
+  - "Gaussian splatting"
+  - "SDF"
+  - "game engine"
+  - "real-to-sim-to-real"
+  - "robotic manipulation"
 ---
 
 # DRAWER: Digital Reconstruction and Articulation with Environment Realism

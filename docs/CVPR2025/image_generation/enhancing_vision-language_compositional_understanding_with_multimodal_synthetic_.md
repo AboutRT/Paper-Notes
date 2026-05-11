@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][组合理解] 本文提出SPARCL，通过将真实图像特征注入快速T2I模型的padding嵌入来生成高保真微变化合成图像，并设计自适应margin损失过滤噪声合成样本聚焦难样本学习，将CLIP的组合理解准确率在四个基准上平均提升8%以上，在三个基准上超越SOTA 2%。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 组合理解
-  - CLIP微调
-  - 合成数据
-  - 自适应margin损失
-  - 图像特征注入
+  - "CVPR 2025"
+  - "图像生成"
+  - "组合理解"
+  - "CLIP微调"
+  - "合成数据"
+  - "自适应margin损失"
+  - "图像特征注入"
 ---
 
 # Enhancing Vision-Language Compositional Understanding with Multimodal Synthetic Data (SPARCL)

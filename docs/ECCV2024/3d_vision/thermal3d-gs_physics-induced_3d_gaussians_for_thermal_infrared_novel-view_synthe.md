@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][热红外成像] 提出Thermal3D-GS，通过神经网络建模大气传输效应和热传导物理过程，并引入温度一致性约束，实现热红外图像的高质量新视角合成，创建了首个大规模热红外新视角合成数据集TI-NSD。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 热红外成像
-  - 新视角合成
-  - 3D高斯溅射
-  - 物理建模
-  - 大气传输
+  - "ECCV 2024"
+  - "3D视觉"
+  - "热红外成像"
+  - "新视角合成"
+  - "3D高斯溅射"
+  - "物理建模"
+  - "大气传输"
 ---
 
 # Thermal3D-GS: Physics-induced 3D Gaussians for Thermal Infrared Novel-view Synthesis

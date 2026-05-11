@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Generalizing Linear Autoencoder Recommenders with Decoupled Expected Quadratic Loss
 description: >-
-  [ICLR 2026][图像恢复][线性自编码器] 将 EDLAE 推荐模型的目标函数推广为解耦期望二次损失（DEQL），在超参数 $b>0$ 的更广范围内推导出闭式解，并通过 Miller 矩阵逆定理将计算复杂度从 $O(n^4)$ 降至 $O(n^3)$，在多个基准数据集上超越 EDLAE 和深度学习模型。
+  [ICLR 2026][图像恢复][线性自编码器] 将 EDLAE 推荐模型的目标函数推广为解耦期望二次损失（DEQL），在超参数 $b>0$ 的更广范围内推导出闭式解，并通过 Miller 矩阵逆定理将计算复杂度从 $O(n^4)$ 降至 $O(n^3)$，在多个基准数据集上超越 EDLAE 和深度学习模型…
 tags:
-  - ICLR 2026
-  - 图像恢复
-  - 线性自编码器
-  - 图像复原
-  - 协同过滤
-  - 期望二次损失
-  - 闭式解
+  - "ICLR 2026"
+  - "图像恢复"
+  - "线性自编码器"
+  - "推荐系统"
+  - "协同过滤"
+  - "期望二次损失"
+  - "闭式解"
 ---
 
 # Generalizing Linear Autoencoder Recommenders with Decoupled Expected Quadratic Loss
@@ -116,7 +116,7 @@ $$f(W) = \mathbb{E}_\Delta[\|A \odot (R - (\Delta \odot R)W)\|_F^2]$$
 - 简单线性模型在推荐系统中依然有很大潜力，关键在于正确设计训练目标使其对齐测试场景。
 
 ## 局限与展望
-- 性能提升在大型数据集上较为有限（Netflix、MSD 提升 <0.5%），扩展解空间的收益递减
+- 性能提升在大型数据集上较为有限（Netflix、MSD 提升 &lt;0.5%），扩展解空间的收益递减
 - $b>0$ 引入了额外超参数（$a, b, p, \lambda$ 四个），网格搜索成本较高
 - 仅考虑隐式反馈（二值交互矩阵），未扩展到显式评分场景
 - 在 Yelp2018 和 Gowalla 的弱泛化设置下不如 SSM 等深度模型，说明简单线性模型在图结构信息建模上的不足

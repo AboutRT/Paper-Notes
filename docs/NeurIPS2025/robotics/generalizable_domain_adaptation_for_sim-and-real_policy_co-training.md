@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][仿真到现实] 提出基于不平衡最优运输（UOT）的模拟-真实策略联合训练框架，通过对观察-动作联合分布进行对齐（而非仅对齐观察边际分布），结合时间对齐采样策略处理数据不平衡，在机器人操纵任务上实现30%的OOD泛化提升。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 仿真到现实
-  - 最优传输
-  - 域适应
-  - behavior cloning
-  - 机器人操作
+  - "NeurIPS 2025"
+  - "机器人"
+  - "仿真到现实"
+  - "最优传输"
+  - "域适应"
+  - "behavior cloning"
+  - "机器人操作"
 ---
 
 # Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training

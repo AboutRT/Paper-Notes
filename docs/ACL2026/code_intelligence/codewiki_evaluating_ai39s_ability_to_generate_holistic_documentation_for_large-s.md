@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases
 description: >-
-  [ACL 2026][代码文档生成] 提出 CodeWiki，一个基于层次化分解和递归多智能体处理的开源框架，用于自动生成仓库级代码文档，并构建了 CodeWikiBench 基准，在七种编程语言上以 68.79% 的质量分数超越了闭源系统 DeepWiki（64.06%）。
+  [ACL 2026][代码智能][代码文档生成] 提出 CodeWiki，一个基于层次化分解和递归多智能体处理的开源框架，用于自动生成仓库级代码文档，并构建了 CodeWikiBench 基准，在七种编程语言上以 68.79% 的质量分数超越了闭源系统 DeepWiki（64.06%）。
 tags:
-  - ACL 2026
-  - 代码文档生成
-  - 仓库级理解
-  - 代码智能
-  - 层次化分解
-  - 代码基准
+  - "ACL 2026"
+  - "代码智能"
+  - "代码文档生成"
+  - "仓库级理解"
+  - "多智能体系统"
+  - "层次化分解"
+  - "代码基准"
 ---
 
 # CodeWiki: Evaluating AI's Ability to Generate Holistic Documentation for Large-Scale Codebases

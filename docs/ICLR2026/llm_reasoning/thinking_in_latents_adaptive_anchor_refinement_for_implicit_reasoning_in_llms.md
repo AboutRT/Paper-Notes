@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs
 description: >-
-  [ICLR 2026][LLM推理][潜空间推理] 提出 AdaAnchor 潜空间推理框架——将可学习的锚向量（anchor vectors）附加到输入嵌入中，通过迭代前向传播精炼锚状态实现"沉默思考"，配合基于锚稳定性的自适应停止机制按实例难度动态分配计算量，在数学推理任务上比固定步潜推理准确率提升最高 5%、平均步数减少 48–60%，输出 token 相比 CoT 减少 92–93%。
+  [ICLR 2026][LLM推理][潜空间推理] 提出 AdaAnchor 潜空间推理框架——将可学习的锚向量（anchor vectors）附加到输入嵌入中，通过迭代前向传播精炼锚状态实现"沉默思考"，配合基于锚稳定性的自适应停止机制按实例难度动态分配计算量…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 潜空间推理
-  - 自适应停止
-  - 锚向量
-  - CoT压缩
-  - 隐式计算
+  - "ICLR 2026"
+  - "LLM推理"
+  - "潜空间推理"
+  - "自适应停止"
+  - "锚向量"
+  - "CoT压缩"
+  - "隐式计算"
 ---
 
 # Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs

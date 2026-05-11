@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][multi-document summarization] 提出将多文档摘要解耦为关键点抽取→DPP多样性选择→重写三步流水线，通过行列式点过程（DPP）进行原则性内容选择，显著提升LLM多文档摘要的源文档覆盖率。
 tags:
-  - ACL 2025
-  - multi-document summarization
-  - DPP
-  - content selection
-  - 其他
-  - personalized summary
+  - "ACL 2025"
+  - "multi-document summarization"
+  - "DPP"
+  - "content selection"
+  - "source coverage"
+  - "personalized summary"
 ---
 
 # Principled Content Selection to Generate Diverse and Personalized Multi-Document Summaries

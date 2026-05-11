@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][知识蒸馏] 本文提出一种超越 logit 匹配的知识蒸馏方法，通过对齐教师和学生模型在训练过程中的特征变化动态（而非静态特征快照），实现更有效的知识转移，显著提升了 NLP 任务上的蒸馏效果。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 知识蒸馏
-  - 特征动态对齐
-  - logit蒸馏
-  - 中间层蒸馏
-  - NLP模型压缩
+  - "ACL 2025"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "特征动态对齐"
+  - "logit蒸馏"
+  - "中间层蒸馏"
+  - "NLP模型压缩"
 ---
 
 # Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation

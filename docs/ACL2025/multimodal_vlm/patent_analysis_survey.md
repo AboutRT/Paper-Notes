@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Survey on Patent Analysis: From NLP to Multimodal AI
 description: >-
-  [ACL 2025][多模态][patent analysis] 全面综述了 NLP 和多模态 AI 在专利分析中的应用，提出基于专利生命周期任务的新分类体系，涵盖专利分类、检索、质量分析和生成四大任务，揭示了现有方法从传统 NN 到 PLM/LLM 的演进趋势及未来方向。
+  [ACL 2025][多模态VLM][patent analysis] 全面综述了 NLP 和多模态 AI 在专利分析中的应用，提出基于专利生命周期任务的新分类体系，涵盖专利分类、检索、质量分析和生成四大任务，揭示了现有方法从传统 NN 到 PLM/LLM 的演进趋势及未来方向。
 tags:
-  - ACL 2025
-  - 多模态
-  - patent analysis
-  - 多模态VLM
-  - PLM
-  - LLM
+  - "ACL 2025"
+  - "多模态VLM"
+  - "patent analysis"
+  - "NLP"
+  - "多模态"
+  - "PLM"
+  - "LLM"
 ---
 
 # A Survey on Patent Analysis: From NLP to Multimodal AI

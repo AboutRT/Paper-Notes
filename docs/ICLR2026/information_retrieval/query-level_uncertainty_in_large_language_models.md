@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Query-Level Uncertainty in Large Language Models
 description: >-
-  [ICLR2026][uncertainty estimation] 提出Query-Level Uncertainty概念，通过Internal Confidence方法在生成前（单次前向传播）估计LLM能否回答给定查询，无需训练即可实现高效的自适应推理（RAG触发/模型级联/弃权）。
+  [ICLR2026][信息检索/RAG][uncertainty estimation] 提出Query-Level Uncertainty概念，通过Internal Confidence方法在生成前（单次前向传播）估计LLM能否回答给定查询，无需训练即可实现高效的自适应推理（RAG触发/模型级联/弃权）。
 tags:
-  - ICLR2026
-  - uncertainty estimation
-  - knowledge boundary
-  - adaptive inference
-  - training-free
-  - internal confidence
+  - "ICLR2026"
+  - "信息检索/RAG"
+  - "uncertainty estimation"
+  - "knowledge boundary"
+  - "adaptive inference"
+  - "training-free"
+  - "internal confidence"
 ---
 
 # Query-Level Uncertainty in Large Language Models

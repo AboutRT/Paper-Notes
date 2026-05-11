@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][第一人称运动捕捉] 提出Ego4o统一框架，从穿戴设备的多模态输入（1-3个IMU + 第一人称图像 + 运动描述）同时实现人体运动捕捉和运动描述生成，且两个任务可互相增强。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 第一人称运动捕捉
-  - 多模态融合
-  - IMU传感器
-  - 运动描述生成
-  - VQ-VAE
+  - "CVPR 2025"
+  - "视频理解"
+  - "第一人称运动捕捉"
+  - "多模态融合"
+  - "IMU传感器"
+  - "运动描述生成"
+  - "VQ-VAE"
 ---
 
 # Ego4o: Egocentric Human Motion Capture and Understanding from Multi-Modal Input

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][时间感知盲区] 揭示 LLM Agent 在多轮交互中的"时间盲区"(Temporal Blindness)——无法根据消息间流逝的真实时间来调整工具调用决策，并构建 TicToc 基准评估这一问题。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 时间感知盲区
-  - 工具调用决策
-  - 人类偏好对齐
-  - 多轮对话
-  - 时间敏感性
+  - "ACL 2026"
+  - "LLM Agent"
+  - "时间感知盲区"
+  - "工具调用决策"
+  - "人类偏好对齐"
+  - "多轮对话"
+  - "时间敏感性"
 ---
 
 # Your LLM Agents are Temporally Blind: The Misalignment Between Tool Use Decisions and Human Time Perception

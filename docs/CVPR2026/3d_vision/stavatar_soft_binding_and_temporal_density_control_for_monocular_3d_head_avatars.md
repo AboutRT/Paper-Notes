@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2026][3D视觉][3D Head Avatar] 提出 STAvatar，通过 UV 自适应软绑定框架和时序自适应密度控制策略，从单目视频重建高保真可驱动的 3D 头部化身，在遮挡区域（口腔内部、眼睑）和精细细节方面显著优于现有方法。
 tags:
-  - CVPR2026
-  - 3D视觉
-  - 3D Head Avatar
-  - 3D Gaussian Splatting
-  - Soft Binding
-  - Adaptive Density Control
-  - Monocular Reconstruction
+  - "CVPR2026"
+  - "3D视觉"
+  - "3D Head Avatar"
+  - "3D Gaussian Splatting"
+  - "Soft Binding"
+  - "Adaptive Density Control"
+  - "Monocular Reconstruction"
 ---
 
 # STAvatar: Soft Binding and Temporal Density Control for Monocular 3D Head Avatars Reconstruction

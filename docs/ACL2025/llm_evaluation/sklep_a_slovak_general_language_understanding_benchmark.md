@@ -2,14 +2,15 @@
 title: >-
   [论文解读] skLEP: A Slovak General Language Understanding Benchmark
 description: >-
-  [ACL 2025 (Findings)][斯洛伐克语] 本文提出 skLEP，首个面向斯洛伐克语的综合性自然语言理解基准，包含 9 个多层级任务（词级、句对级、文档级），并对斯洛伐克语专有模型、多语言模型和英语模型进行了系统评测，发现 mDeBERTaV3 在平均性能上超越了所有斯洛伐克专有模型。
+  [ACL 2025 (Findings)][LLM评测][斯洛伐克语] 本文提出 skLEP，首个面向斯洛伐克语的综合性自然语言理解基准，包含 9 个多层级任务（词级、句对级、文档级），并对斯洛伐克语专有模型、多语言模型和英语模型进行了系统评测…
 tags:
-  - ACL 2025 (Findings)
-  - 斯洛伐克语
-  - NLU基准
-  - 语言理解评测
-  - LLM评测
-  - 低资源语言
+  - "ACL 2025 (Findings)"
+  - "LLM评测"
+  - "斯洛伐克语"
+  - "NLU基准"
+  - "语言理解评测"
+  - "多语言模型"
+  - "低资源语言"
 ---
 
 # skLEP: A Slovak General Language Understanding Benchmark

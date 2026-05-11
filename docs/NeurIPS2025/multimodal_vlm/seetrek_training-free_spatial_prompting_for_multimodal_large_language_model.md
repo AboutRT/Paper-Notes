@@ -2,15 +2,15 @@
 title: >-
   [论文解读] See&Trek: Training-Free Spatial Prompting for Multimodal Large Language Model
 description: >-
-  [NeurIPS 2025][多模态][空间理解] 提出 See&Trek，一个无需训练和GPU的空间提示框架，通过最大语义丰富度采样和运动重建来增强 MLLM 的空间理解能力，在 VSI-Bench 上最高提升 3.5%。
+  [NeurIPS 2025][多模态VLM][空间理解] 提出 See&Trek，一个无需训练和GPU的空间提示框架，通过最大语义丰富度采样和运动重建来增强 MLLM 的空间理解能力，在 VSI-Bench 上最高提升 3.5%。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 空间理解
-  - 多模态大模型
-  - 视觉提示
-  - 视觉里程计
-  - 训练无关
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "空间理解"
+  - "多模态大模型"
+  - "视觉提示"
+  - "视觉里程计"
+  - "训练无关"
 ---
 
 # See&Trek: Training-Free Spatial Prompting for Multimodal Large Language Model

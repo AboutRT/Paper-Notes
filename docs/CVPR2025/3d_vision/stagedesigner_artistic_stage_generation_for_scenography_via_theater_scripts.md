@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][舞台设计生成] 提出首个 AI 驱动的艺术舞台生成框架 StageDesigner，利用 LLM 分析剧本提取场景与意象描述，通过多级碰撞图实现前景实体布局，结合前景投影模块和布局控制扩散模型生成与叙事氛围一致的背景。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 舞台设计生成
-  - 剧本分析
-  - 3D场景合成
-  - 布局控制
-  - LLM驱动
+  - "CVPR 2025"
+  - "3D视觉"
+  - "舞台设计生成"
+  - "剧本分析"
+  - "3D场景合成"
+  - "布局控制"
+  - "LLM驱动"
 ---
 
 # StageDesigner: Artistic Stage Generation for Scenography via Theater Scripts

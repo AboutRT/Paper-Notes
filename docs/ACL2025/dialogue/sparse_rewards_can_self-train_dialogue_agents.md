@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sparse Rewards Can Self-Train Dialogue Agents
 description: >-
-  [ACL 2025 (Findings)][自我训练] 提出 JOSH（Juxtaposed Outcomes for Simulation Harvesting）自对齐算法，让 LLM 对话 Agent 通过稀疏奖励的模拟环境自主提升性能，无需外部人类反馈，并构建了 ToolWOZ 稀疏奖励工具调用模拟环境加以验证。
+  [ACL 2025 (Findings)][对话系统][自我训练] 提出 JOSH（Juxtaposed Outcomes for Simulation Harvesting）自对齐算法，让 LLM 对话 Agent 通过稀疏奖励的模拟环境自主提升性能，无需外部人类反馈…
 tags:
-  - ACL 2025 (Findings)
-  - 自我训练
-  - 稀疏奖励
-  - 其他
-  - 工具调用
-  - 模拟环境
+  - "ACL 2025 (Findings)"
+  - "对话系统"
+  - "自我训练"
+  - "稀疏奖励"
+  - "对话Agent"
+  - "工具调用"
+  - "模拟环境"
 ---
 
 # Sparse Rewards Can Self-Train Dialogue Agents

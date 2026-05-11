@@ -2,14 +2,15 @@
 title: >-
   [论文解读] iTAG: Inverse Design for Natural Text Generation with Accurate Causal Graph Annotations
 description: >-
-  [ACL 2026][因果图标注] 提出 iTAG 框架，通过逆向设计的三阶段流程（参数化因果图构建→基于 CoT 的概念赋值→结构保持的文本生成）生成同时具有极高因果图标注准确率和文本自然度的数据，可作为真实标注数据的实用替代品进行文本因果发现算法基准测试。
+  [ACL 2026][因果推理][因果图标注] 提出 iTAG 框架，通过逆向设计的三阶段流程（参数化因果图构建→基于 CoT 的概念赋值→结构保持的文本生成）生成同时具有极高因果图标注准确率和文本自然度的数据，可作为真实标注数据的实用替代品进行文本因果发现算法基准测试。
 tags:
-  - ACL 2026
-  - 因果图标注
-  - 逆向设计
-  - 因果推理
-  - 基准数据
-  - CoT推理
+  - "ACL 2026"
+  - "因果推理"
+  - "因果图标注"
+  - "逆向设计"
+  - "文本生成"
+  - "基准数据"
+  - "CoT推理"
 ---
 
 # iTAG: Inverse Design for Natural Text Generation with Accurate Causal Graph Annotations

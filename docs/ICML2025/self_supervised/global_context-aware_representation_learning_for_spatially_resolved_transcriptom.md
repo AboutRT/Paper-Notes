@@ -2,16 +2,15 @@
 title: >-
   [论文解读] Global Context-aware Representation Learning for Spatially Resolved Transcriptomics
 description: >-
-  [ICML2025][自监督][空间转录组学] 提出 Spotscape 框架，通过 Similarity Telescope 模块捕获 spot 间的全局相似关系（而非仅依赖空间局部邻居），并引入原型对比学习和相似度尺度匹配策略处理多切片批次效应，在空间域识别、轨迹推断、多切片整合与对齐等任务上全面超越现有方法。
+  [ICML2025][自监督学习][空间转录组学] 提出 Spotscape 框架，通过 Similarity Telescope 模块捕获 spot 间的全局相似关系（而非仅依赖空间局部邻居），并引入原型对比学习和相似度尺度匹配策略处理多切片批次效应…
 tags:
-  - ICML2025
-  - 自监督
-  - 空间转录组学
-  - 图神经网络
-  - 自监督学习
-  - 全局相似度
-  - 批次效应校正
-  - 多切片整合
+  - "ICML2025"
+  - "自监督学习"
+  - "空间转录组学"
+  - "图神经网络"
+  - "全局相似度"
+  - "批次效应校正"
+  - "多切片整合"
 ---
 
 # Global Context-aware Representation Learning for Spatially Resolved Transcriptomics

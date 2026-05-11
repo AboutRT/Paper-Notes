@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ICLR2026][图像生成][扩散模型] 本文提出S²-Guidance，通过在去噪过程中**随机丢弃transformer block激活子网络**作为弱模型进行自引导，无需额外训练即可修正CFG的次优预测，在文生图和文生视频任务上一致超越CFG及其他高级引导策略。
 tags:
-  - ICLR2026
-  - 图像生成
-  - 扩散模型
-  - Classifier-Free Guidance
-  - 子网络
-  - 随机block-dropping
-  - 自引导
-  - 文生图
-  - 文生视频
+  - "ICLR2026"
+  - "图像生成"
+  - "扩散模型"
+  - "Classifier-Free Guidance"
+  - "子网络"
+  - "随机block-dropping"
+  - "自引导"
+  - "文生图"
+  - "文生视频"
 ---
 
 # Stochastic Self-Guidance for Training-Free Enhancement of Diffusion Models

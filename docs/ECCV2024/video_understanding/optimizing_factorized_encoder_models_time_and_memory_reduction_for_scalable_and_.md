@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Optimizing Factorized Encoder Models: Time and Memory Reduction for Scalable and Efficient Action Recognition
 description: >-
-  [ECCV 2024][视频理解][Transformer] 本文通过冻结 ViViT 因子化编码器中的空间 Transformer 并引入合理的时间 Transformer 初始化策略和紧凑的适配器模块，在保持甚至略微提升精度的同时大幅降低了训练成本和内存消耗，为资源受限的研究者提供了更高效的动作识别训练方案。
+  [ECCV 2024][视频理解][Transformer] 本文通过冻结 ViViT 因子化编码器中的空间 Transformer 并引入合理的时间 Transformer 初始化策略和紧凑的适配器模块，在保持甚至略微提升精度的同时大幅降低了训练成本和内存消耗…
 tags:
-  - ECCV 2024
-  - 视频理解
-  - Transformer
-  - ViViT
-  - 因子化编码器
-  - 训练效率
-  - 动作识别
+  - "ECCV 2024"
+  - "视频理解"
+  - "Transformer"
+  - "ViViT"
+  - "因子化编码器"
+  - "训练效率"
+  - "动作识别"
 ---
 
 # Optimizing Factorized Encoder Models: Time and Memory Reduction for Scalable and Efficient Action Recognition

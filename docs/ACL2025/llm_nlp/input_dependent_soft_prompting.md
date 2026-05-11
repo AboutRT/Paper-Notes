@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][软提示] 提出 ID-SPAM，通过在输入 token 嵌入上施加可学习自注意力层并经瓶颈 MLP 生成**输入依赖**的软提示，仅在单层 Transformer 输入端拼接即可超越多种 Soft Prompt 基线，且具备优秀的零样本跨任务/跨领域迁移能力。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 软提示
-  - 参数高效微调
-  - 自注意力
-  - 输入依赖
-  - PEFT
-  - 提示学习
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "软提示"
+  - "参数高效微调"
+  - "自注意力"
+  - "输入依赖"
+  - "PEFT"
+  - "提示学习"
 ---
 
 # Leveraging Self-Attention for Input-Dependent Soft Prompting in LLMs

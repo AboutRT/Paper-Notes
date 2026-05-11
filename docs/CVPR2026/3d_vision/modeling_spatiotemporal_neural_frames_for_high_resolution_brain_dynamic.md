@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][EEG转fMRI] 提出基于扩散 Transformer 的 EEG 条件 fMRI 重建框架，将脑活动建模为时空神经帧序列而非独立快照，在皮层顶点级分辨率下实现时空一致的 fMRI 重建，并通过零空间采样支持中间帧插值，下游视觉解码任务验证了功能信息的保留。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - EEG转fMRI
-  - 扩散模型
-  - 时空建模
-  - 中间帧重建
-  - 视觉解码
+  - "CVPR 2026"
+  - "3D视觉"
+  - "EEG转fMRI"
+  - "扩散模型"
+  - "时空建模"
+  - "中间帧重建"
+  - "视觉解码"
 ---
 
 # Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamics

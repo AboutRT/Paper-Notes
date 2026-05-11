@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Effective Extraction and Evaluation of Factual Claims
 description: >-
-  [ACL 2025][事实声明抽取] 提出了一个用于评估事实声明抽取质量的标准化框架（包含覆盖率和去语境化等指标），并开发了Claimify——一个能在高置信度下处理歧义并抽取声明的LLM方法，在该框架下显著优于已有方法。
+  [ACL 2025][LLM安全][事实声明抽取] 提出了一个用于评估事实声明抽取质量的标准化框架（包含覆盖率和去语境化等指标），并开发了Claimify——一个能在高置信度下处理歧义并抽取声明的LLM方法，在该框架下显著优于已有方法。
 tags:
-  - ACL 2025
-  - 事实声明抽取
-  - LLM安全
-  - 评估框架
-  - 去语境化
-  - LLM生成内容验证
+  - "ACL 2025"
+  - "LLM安全"
+  - "事实声明抽取"
+  - "事实核查"
+  - "评估框架"
+  - "去语境化"
+  - "LLM生成内容验证"
 ---
 
 # Towards Effective Extraction and Evaluation of Factual Claims

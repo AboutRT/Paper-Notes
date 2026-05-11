@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AutoOpt: A Dataset and a Unified Framework for Automating Optimization Problem Solving
 description: >-
-  [NeurIPS 2025][优化][OCR] AutoOpt 构建了首个优化问题图像到代码的端到端框架——11554 张优化公式图像（手写+印刷）的 AutoOpt-11k 数据集 + M1 混合编码器（ResNet+Swin→mBART）图像转 LaTeX（BLEU 96.70）+ M2 DeepSeek-Coder LaTeX 转 PYOMO + M3 双层分解求解器，框架级成功率 94.20%。
+  [NeurIPS 2025][优化/理论][OCR] AutoOpt 构建了首个优化问题图像到代码的端到端框架——11554 张优化公式图像（手写+印刷）的 AutoOpt-11k 数据集 + M1 混合编码器（ResNet+Swin→mBART）图像转 LaTeX（BLEU 96.70）+ M2 DeepS…
 tags:
-  - NeurIPS 2025
-  - 优化
-  - OCR
-  - LaTeX转PYOMO
-  - 双层优化求解
-  - 数学规划
-  - 手写识别
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "OCR"
+  - "LaTeX转PYOMO"
+  - "双层优化求解"
+  - "数学规划"
+  - "手写识别"
 ---
 
 # AutoOpt: A Dataset and a Unified Framework for Automating Optimization Problem Solving

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][端到端训练] 本文提出 REPA-E，通过表示对齐（REPA）损失实现 VAE 和潜在扩散 Transformer 的端到端联合训练，训练速度分别比 REPA 和普通训练快 17× 和 45×，在 ImageNet 256×256 上达到 FID 1.12 的新SOTA。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 端到端训练
-  - VAE
-  - 潜在扩散模型
-  - 表示对齐
-  - 训练加速
+  - "ICCV 2025"
+  - "图像生成"
+  - "端到端训练"
+  - "VAE"
+  - "潜在扩散模型"
+  - "表示对齐"
+  - "训练加速"
 ---
 
 # REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers

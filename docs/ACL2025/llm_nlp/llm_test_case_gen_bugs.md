@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs
 description: >-
-  [ACL 2025][LLM/NLP][test case generation] 本文提出TrickCatcher，利用LLM生成程序变体和测试输入生成器，结合diversity-driven差分测试来检测通过现有测试套件但仍含隐蔽bug的"plausible programs"，在Recall/Precision/F1上分别达到SOTA的1.80×/2.65×/1.66×。
+  [ACL 2025][LLM/NLP][test case generation] 本文提出TrickCatcher，利用LLM生成程序变体和测试输入生成器，结合diversity-driven差分测试来检测通过现有测试套件但仍含隐蔽bug的"plausible programs"…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - test case generation
-  - bug detection
-  - plausible programs
-  - differential testing
-  - LLM
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "test case generation"
+  - "bug detection"
+  - "plausible programs"
+  - "differential testing"
+  - "LLM"
 ---
 
 # LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs

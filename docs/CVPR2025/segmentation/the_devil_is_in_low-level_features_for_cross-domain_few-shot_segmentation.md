@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Devil is in Low-Level Features for Cross-Domain Few-Shot Segmentation
 description: >-
-  [CVPR 2025][图像分割][跨域小样本分割] 本文深入分析了 CDFSS（跨域小样本分割）中"性能在训练早期即达峰值随后骤降"的现象，发现罪魁祸首是低级特征对域偏移的脆弱性导致损失景观变尖锐，据此提出两个即插即用模块：LEM（训练时通过随机卷积+FFT 实现面向低级特征的锐度感知最小化）和 LCM（测试时利用低级查询特征直接校准分割结果），在四个目标域上以平均 3.71%/5.34% 的 MIoU 提升超越 SOTA。
+  [CVPR 2025][语义分割][跨域小样本分割] 本文深入分析了 CDFSS（跨域小样本分割）中"性能在训练早期即达峰值随后骤降"的现象，发现罪魁祸首是低级特征对域偏移的脆弱性导致损失景观变尖锐…
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 跨域小样本分割
-  - 低级特征
-  - 损失景观平坦化
-  - 域泛化
-  - 锐度感知最小化
+  - "CVPR 2025"
+  - "语义分割"
+  - "跨域小样本分割"
+  - "低级特征"
+  - "损失景观平坦化"
+  - "域泛化"
+  - "锐度感知最小化"
 ---
 
 # The Devil is in Low-Level Features for Cross-Domain Few-Shot Segmentation

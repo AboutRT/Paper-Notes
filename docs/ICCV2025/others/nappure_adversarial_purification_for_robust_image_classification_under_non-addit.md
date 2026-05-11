@@ -2,16 +2,16 @@
 title: >-
   [论文解读] NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations
 description: >-
-  [ICCV 2025][其他] 提出 NAPPure 框架，通过联合优化底层干净图像和扰动参数（基于似然最大化），将对抗纯化从仅处理加性扰动扩展到模糊、遮挡、几何扭曲等非加性扰动，在GTSRB上实现73.93%的平均鲁棒准确率（传统方法仅43.2%）。
+  [ICCV 2025][对抗纯化] 提出 NAPPure 框架，通过联合优化底层干净图像和扰动参数（基于似然最大化），将对抗纯化从仅处理加性扰动扩展到模糊、遮挡、几何扭曲等非加性扰动，在GTSRB上实现73.93%的平均鲁棒准确率（传统方法仅43.2%）。
 tags:
-  - ICCV 2025
-  - 其他
-  - 非加性扰动
-  - 扩散模型
-  - 鲁棒分类
-  - 模糊攻击
-  - 遮挡攻击
-  - 几何扭曲
+  - "ICCV 2025"
+  - "对抗纯化"
+  - "非加性扰动"
+  - "扩散模型"
+  - "鲁棒分类"
+  - "模糊攻击"
+  - "遮挡攻击"
+  - "几何扭曲"
 ---
 
 # NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations

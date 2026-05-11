@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][计算像差校正] 本文构建了首个大规模通用计算像差校正(CAC)基准 UniCAC，提出光学退化评估器(ODE)量化像差难度，并对24种图像恢复/CAC算法进行了全面评估，揭示了先验利用、网络架构和训练策略三大关键因素对CAC性能的影响。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - 计算像差校正
-  - 图像复原
-  - 基准测试
-  - 自动光学设计
+  - "CVPR 2026"
+  - "图像恢复"
+  - "计算像差校正"
+  - "光学退化评估"
+  - "基准测试"
+  - "自动光学设计"
 ---
 
 # Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis

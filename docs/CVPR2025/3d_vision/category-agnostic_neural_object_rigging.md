@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][物体绑定] 提出 CANOR（Category-Agnostic Neural Object Rigging），通过将可变形4D物体编码为稀疏的空间定位 blob 集合和实例感知特征体，以完全类别无关、数据驱动的方式自动发现可变形物体的低维姿态空间，实现直观的姿态操控。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 物体绑定
-  - 姿态操控
-  - 类别无关
-  - 可变形物体
-  - 神经表示
+  - "CVPR 2025"
+  - "3D视觉"
+  - "物体绑定"
+  - "姿态操控"
+  - "类别无关"
+  - "可变形物体"
+  - "神经表示"
 ---
 
 # Category-Agnostic Neural Object Rigging

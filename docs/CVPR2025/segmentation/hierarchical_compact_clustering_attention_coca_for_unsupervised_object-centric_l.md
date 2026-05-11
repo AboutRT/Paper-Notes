@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Hierarchical Compact Clustering Attention (COCA) for Unsupervised Object-Centric Learning
 description: >-
-  [CVPR 2025][图像分割][无监督目标发现] COCA-Net 提出基于物理紧凑性（compactness）的层级聚类注意力层，通过自底向上的层级合并策略发现物体中心，解决了 Slot Attention 在初始化敏感性、slot 数量预设和背景分割等方面的固有缺陷，在六个无监督物体发现数据集上达到 SOTA。
+  [CVPR 2025][语义分割][无监督目标发现] COCA-Net 提出基于物理紧凑性（compactness）的层级聚类注意力层，通过自底向上的层级合并策略发现物体中心，解决了 Slot Attention 在初始化敏感性、slot 数量预设和背景分割等方面的固有缺陷…
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 无监督目标发现
-  - 目标中心学习
-  - 层级聚类
-  - 紧凑性
-  - 注意力机制
+  - "CVPR 2025"
+  - "语义分割"
+  - "无监督目标发现"
+  - "目标中心学习"
+  - "层级聚类"
+  - "紧凑性"
+  - "注意力机制"
 ---
 
 # Hierarchical Compact Clustering Attention (COCA) for Unsupervised Object-Centric Learning

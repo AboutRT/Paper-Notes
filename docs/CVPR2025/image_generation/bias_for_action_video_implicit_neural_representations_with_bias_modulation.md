@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][隐式神经表示] 提出 ActINR，通过在 INR 中跨帧共享权重、仅用偏置（bias）建模运动的方式实现连续视频表示，在 10× 慢动作、4× 空间超分+2× 时间超分、去噪和修复任务上大幅超越现有方法（平均 3-6dB 提升）。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 隐式神经表示
-  - 视频建模
-  - 偏置调制
-  - 慢动作生成
-  - 视频修复
+  - "CVPR 2025"
+  - "图像生成"
+  - "隐式神经表示"
+  - "视频建模"
+  - "偏置调制"
+  - "慢动作生成"
+  - "视频修复"
 ---
 
 # Bias for Action: Video Implicit Neural Representations with Bias Modulation

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][causal bridge] 在存在未观测混淆因子的因果推断中，提出将生成模型与自编码器耦合来提升因果桥函数 (causal bridge) 的估计质量——通过共享编码器在处理/控制/结果变量间传递统计强度，并将框架扩展到生存分析。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - causal bridge
-  - proxy variable
-  - unobserved confounder
-  - autoencoder
-  - treatment effect
-  - survival analysis
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "causal bridge"
+  - "proxy variable"
+  - "unobserved confounder"
+  - "autoencoder"
+  - "treatment effect"
+  - "survival analysis"
 ---
 
 # Coupling Generative Modeling and an Autoencoder with the Causal Bridge
@@ -108,10 +108,10 @@ $$\mathcal{L}_{\theta_Y} = \sum_{i: e_i=1} \rho_i - \log\left(\sum_{j: y_j > y_i
 |------|---------|--------|-------------|
 | CoxPH-Uniform | >1 (错误方向) | 包含1 | ✗ |
 | CoxPH-IPW | >1 (错误方向) | 包含1 | ✗ |
-| CoxPH-OW | <1 | 接近1 | 部分 |
-| CB | <1 | 较宽 | ✓ |
-| **CB + AE** | **<1** | **最紧，远离1** | **✓✓** |
-| RCT (参考) | <1 | - | 金标准 |
+| CoxPH-OW | &lt;1 | 接近1 | 部分 |
+| CB | &lt;1 | 较宽 | ✓ |
+| **CB + AE** | **&lt;1** | **最紧，远离1** | **✓✓** |
+| RCT (参考) | &lt;1 | - | 金标准 |
 
 - CoxPH-Uniform 和 CoxPH-IPW 给出 HR>1（他汀增加 CVD 风险），完全错误——因为高危患者更可能服用他汀（混淆效应）
 - CB + AE 给出与随机对照试验 (RCT) 最一致的结果，且 95% CI 最紧、远离 HR=1

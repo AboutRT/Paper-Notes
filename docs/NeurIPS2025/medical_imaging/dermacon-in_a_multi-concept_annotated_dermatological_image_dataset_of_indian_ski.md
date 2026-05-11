@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DermaCon-IN: A Multi-concept Annotated Dermatological Image Dataset of Indian Skin Disorders
 description: >-
-  [NeurIPS 2025][医学图像][皮肤病数据集] 构建了 DermaCon-IN——首个以印度肤色为主的密集标注皮肤病图像数据集（5,450 张 / 3,002 患者 / 245 种诊断），提供三级层次诊断标签、47 个病灶描述符和 49 个解剖位置标注，并用 CNN/ViT/概念瓶颈模型进行基准评测。
+  [NeurIPS 2025][医学图像][皮肤病数据集] 构建了 DermaCon-IN——首个以印度肤色为主的密集标注皮肤病图像数据集（5,450 张 / 3,002 患者 / 245 种诊断），提供三级层次诊断标签、47 个病灶描述符和 49 个解剖位置标注，并用 CNN/ViT/概念瓶颈模型进行基准评测…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 皮肤病数据集
-  - 印度肤色
-  - 概念瓶颈模型
-  - 层次分类
-  - 可解释AI
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "皮肤病数据集"
+  - "印度肤色"
+  - "概念瓶颈模型"
+  - "层次分类"
+  - "可解释AI"
 ---
 
 # DermaCon-IN: A Multi-concept Annotated Dermatological Image Dataset of Indian Skin Disorders
@@ -102,7 +102,7 @@ Swin Transformer 在所有指标上一致最优。
 - CBM 引入概念瓶颈后准确率略降（~2%），但 Macro AUC 显著提升（78.51→85.18），说明概念层提供了更好的类间判别能力
 - 单流概念（仅描述符或仅位置）性能相当，但合并两流时出现竞争效应——模型倾向只激活一组概念而抑制另一组
 - Grad-CAM 验证概念激活确实定位到语义正确的解剖区域
-- 色素障碍和角化障碍类的概念-权重对齐（Spearman 相关）良好（p<0.05），但肿瘤类对齐差，可能因样本量不足
+- 色素障碍和角化障碍类的概念-权重对齐（Spearman 相关）良好（p&lt;0.05），但肿瘤类对齐差，可能因样本量不足
 
 ## 亮点与洞察
 - **首个印度肤色密集标注数据集**：同时覆盖 Fitzpatrick IV-VI 和 MST 4-9 肤色，填补了全球皮肤病 AI 公平性的关键空白

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Intrinsic Interpretability of Large Language Models: A Survey of Design Principles and Architectures
 description: >-
-  [ACL 2026][内在可解释性] 系统综述了 LLM 内在可解释性的最新进展，将现有方法分为五大设计范式（功能透明性、概念对齐、表征可分解性、显式模块化、潜在稀疏归纳），并讨论了开放挑战和未来方向。
+  [ACL 2026][可解释性][内在可解释性] 系统综述了 LLM 内在可解释性的最新进展，将现有方法分为五大设计范式（功能透明性、概念对齐、表征可分解性、显式模块化、潜在稀疏归纳），并讨论了开放挑战和未来方向。
 tags:
-  - ACL 2026
-  - 内在可解释性
-  - 可解释性
-  - 设计范式分类
-  - 模块化架构
-  - 稀疏归纳
+  - "ACL 2026"
+  - "可解释性"
+  - "内在可解释性"
+  - "大语言模型"
+  - "设计范式分类"
+  - "模块化架构"
+  - "稀疏归纳"
 ---
 
 # Towards Intrinsic Interpretability of Large Language Models: A Survey of Design Principles and Architectures

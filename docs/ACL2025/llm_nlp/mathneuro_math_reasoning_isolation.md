@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][math reasoning] 提出 MathNeuro，一种仅需前向传播的计算高效方法，通过过滤掉对通用语言任务同样重要的参数来定位 LLM 中数学推理专属的参数，剪枝这些参数可删除数学能力，缩放这些参数可提升 4-35% 的数学性能。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - math reasoning
-  - parameter importance
-  - skill localization
-  - 剪枝
-  - neuron isolation
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "math reasoning"
+  - "parameter importance"
+  - "skill localization"
+  - "剪枝"
+  - "neuron isolation"
 ---
 
 # Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes

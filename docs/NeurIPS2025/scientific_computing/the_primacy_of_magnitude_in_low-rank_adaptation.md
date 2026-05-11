@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][科学计算][LoRA] 揭示 LoRA 中权重更新幅度（magnitude）是性能的根本驱动因素，统一了学习率、缩放因子和初始化策略对 LoRA 的影响机制，并提出 LoRAM——一种基于确定性正交基和幅度缩放的高效初始化方法，无需 SVD 即可匹敌甚至超越谱初始化方法。
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - LoRA
-  - 参数高效微调
-  - 初始化策略
-  - 权重更新幅度
-  - 低秩适配
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "LoRA"
+  - "参数高效微调"
+  - "初始化策略"
+  - "权重更新幅度"
+  - "低秩适配"
 ---
 
 # The Primacy of Magnitude in Low-Rank Adaptation
@@ -27,7 +27,7 @@ tags:
 
 ## 研究背景与动机
 
-**领域现状**：LoRA 是最流行的参数高效微调方法，通过注入可训练的低秩矩阵 $B \in \mathbb{R}^{n \times r}$、$A \in \mathbb{R}^{r \times m}$，仅需更新 <1% 参数就能微调大模型。近年来，PiSSA、MiLoRA、OLoRA 等基于谱分解（SVD）的初始化方法显著提升了收敛速度和性能。
+**领域现状**：LoRA 是最流行的参数高效微调方法，通过注入可训练的低秩矩阵 $B \in \mathbb{R}^{n \times r}$、$A \in \mathbb{R}^{r \times m}$，仅需更新 &lt;1% 参数就能微调大模型。近年来，PiSSA、MiLoRA、OLoRA 等基于谱分解（SVD）的初始化方法显著提升了收敛速度和性能。
 
 **现有痛点**：
    - **效率损失**：谱初始化需要对预训练权重做 SVD 分解，带来额外计算和存储开销，在资源受限场景下（如量化 LoRA、联邦学习）不实用

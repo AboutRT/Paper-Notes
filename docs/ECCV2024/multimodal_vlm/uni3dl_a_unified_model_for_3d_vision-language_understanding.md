@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Uni3DL: Unified Model for 3D and Language Understanding
 description: >-
-  [ECCV 2024][多模态][3D视觉-语言统一模型] 提出 Uni3DL，一个直接在点云上操作的统一 3D 视觉-语言模型，通过 Query Transformer 学习任务无关的语义/掩码输出，再由 Task Router 组合多个功能头实现语义分割、实例分割、目标检测、视觉定位、3D 描述生成、文本-3D 检索等六大任务，性能达到或超过各任务专用 SOTA。
+  [ECCV 2024][多模态VLM][3D视觉-语言统一模型] 提出 Uni3DL，一个直接在点云上操作的统一 3D 视觉-语言模型，通过 Query Transformer 学习任务无关的语义/掩码输出…
 tags:
-  - ECCV 2024
-  - 多模态
-  - 多模态VLM
-  - 点云理解
-  - Transformer
-  - 多任务学习
-  - 功能统一
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "3D视觉-语言统一模型"
+  - "点云理解"
+  - "Transformer"
+  - "多任务学习"
+  - "功能统一"
 ---
 
 # Uni3DL: Unified Model for 3D and Language Understanding

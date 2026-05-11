@@ -2,15 +2,14 @@
 title: >-
   [论文解读] MINE-JEPA: In-Domain Self-Supervised Learning for Mineral Exploration
 description: >-
-  [CVPR 2026][自监督][自监督学习] 提出 Mine-JEPA，首个面向侧扫声纳（SSS）水雷分类的域内自监督学习流水线——基于 SIGReg 正则化损失、声纳适配增强策略和 ImageNet 初始化，仅用 1,170 张未标注声纳图像预训练即超越了在 17 亿图像上预训练的 DINOv3 基础模型。
+  [CVPR 2026][自监督学习][侧扫声纳] 提出 Mine-JEPA，首个面向侧扫声纳（SSS）水雷分类的域内自监督学习流水线——基于 SIGReg 正则化损失、声纳适配增强策略和 ImageNet 初始化，仅用 1…
 tags:
-  - CVPR 2026
-  - 自监督
-  - 自监督学习
-  - 侧扫声纳
-  - 水雷分类
-  - 域内预训练
-  - SIGReg
+  - "CVPR 2026"
+  - "自监督学习"
+  - "侧扫声纳"
+  - "水雷分类"
+  - "域内预训练"
+  - "SIGReg"
 ---
 
 # MINE-JEPA: In-Domain Self-Supervised Learning for Mineral Exploration

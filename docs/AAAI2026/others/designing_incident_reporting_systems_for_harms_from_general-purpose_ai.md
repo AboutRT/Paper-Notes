@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][AI Incident Reporting] 通过文献综述和九个安全关键行业（核能、航空、医疗等）的案例研究，提出了 AI 事件报告系统制度设计的七维框架，为美国通用 AI 事件报告的政策设计提供系统性指导。
 tags:
-  - AAAI 2026
-  - AI Incident Reporting
-  - AI Governance
-  - Safety-Critical Systems
-  - Policy Design
-  - 其他
+  - "AAAI 2026"
+  - "AI Incident Reporting"
+  - "AI Governance"
+  - "Safety-Critical Systems"
+  - "Policy Design"
+  - "General-Purpose AI"
 ---
 
 # Designing Incident Reporting Systems for Harms from General-Purpose AI

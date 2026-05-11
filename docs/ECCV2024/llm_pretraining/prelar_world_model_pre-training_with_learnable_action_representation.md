@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PreLAR: World Model Pre-training with Learnable Action Representation
 description: >-
-  [ECCV 2024][世界模型预训练] 本文提出PreLAR，在无动作标签的视频上进行世界模型预训练时，通过从相邻帧编码隐式动作表示并设计动作-状态一致性损失来弥合无动作预训练与有动作微调之间的差距，显著提升了下游视觉控制任务的样本效率。
+  [ECCV 2024][预训练][世界模型预训练] 本文提出PreLAR，在无动作标签的视频上进行世界模型预训练时，通过从相邻帧编码隐式动作表示并设计动作-状态一致性损失来弥合无动作预训练与有动作微调之间的差距，显著提升了下游视觉控制任务的样本效率。
 tags:
-  - ECCV 2024
-  - 世界模型预训练
-  - 可学习动作表示
-  - LLM预训练
-  - 模型强化学习
-  - 样本效率
+  - "ECCV 2024"
+  - "预训练"
+  - "世界模型预训练"
+  - "可学习动作表示"
+  - "无监督预训练"
+  - "模型强化学习"
+  - "样本效率"
 ---
 
 # PreLAR: World Model Pre-training with Learnable Action Representation

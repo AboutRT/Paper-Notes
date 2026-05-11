@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][企业隐私] 基于上下文完整性（Contextual Integrity）理论构建企业场景基准 CI-Work，揭示前沿 LLM 智能体在企业工作流中普遍存在隐私泄漏问题，且模型规模扩大反而加剧泄漏。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 企业隐私
-  - 上下文完整性
-  - LLM智能体
-  - 信息泄漏
-  - 隐私-效用权衡
+  - "ACL 2026"
+  - "LLM Agent"
+  - "企业隐私"
+  - "上下文完整性"
+  - "LLM智能体"
+  - "信息泄漏"
+  - "隐私-效用权衡"
 ---
 
 # CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception
 description: >-
-  [CVPR 2026][多模态][视觉裁剪] 提出CropVLM——一个256M参数的轻量裁剪网络，通过GRPO强化学习训练（无需人工标注边界框），动态选择图像最有信息量的区域供VLM聚焦，可与开源和商用VLM即插即用地提升细粒度视觉理解性能。
+  [CVPR 2026][多模态VLM][视觉裁剪] 提出CropVLM——一个256M参数的轻量裁剪网络，通过GRPO强化学习训练（无需人工标注边界框），动态选择图像最有信息量的区域供VLM聚焦，可与开源和商用VLM即插即用地提升细粒度视觉理解性能。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 视觉裁剪
-  - 多模态VLM
-  - GRPO
-  - 细粒度感知
-  - 即插即用
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视觉裁剪"
+  - "强化学习"
+  - "GRPO"
+  - "细粒度感知"
+  - "即插即用"
 ---
 
 # CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception

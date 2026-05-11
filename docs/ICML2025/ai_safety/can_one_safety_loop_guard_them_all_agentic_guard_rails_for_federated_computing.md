@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Can One Safety Loop Guard Them All? Agentic Guard Rails for Federated Computing
 description: >-
-  [ICML 2025][AI安全][federated computing] 提出 Guardian-FC——首个后端无关的联邦计算统一安全框架，通过 Agentic-AI 控制平面的有限状态安全循环（Sense→Predict→Act→Prove）统一监管 FHE、DP、MPC 等异构隐私机制，实现一套 guard-rail 逻辑跨所有隐私后端的一致性安全执行。
+  [ICML 2025][AI安全][federated computing] 提出 Guardian-FC——首个后端无关的联邦计算统一安全框架，通过 Agentic-AI 控制平面的有限状态安全循环（Sense→Predict→Act→Prove）统一监管 FHE、DP、MPC 等异构隐私机制…
 tags:
-  - ICML 2025
-  - AI安全
-  - federated computing
-  - guard rails
-  - privacy-preserving
-  - FHE
-  - DP
-  - MPC
-  - finite-state machine
+  - "ICML 2025"
+  - "AI安全"
+  - "federated computing"
+  - "guard rails"
+  - "privacy-preserving"
+  - "FHE"
+  - "DP"
+  - "MPC"
+  - "finite-state machine"
 ---
 
 # Can One Safety Loop Guard Them All? Agentic Guard Rails for Federated Computing

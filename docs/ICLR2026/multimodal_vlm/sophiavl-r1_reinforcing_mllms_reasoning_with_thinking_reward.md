@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward
 description: >-
-  [ICLR 2026][多模态][思维奖励] 提出SophiaVL-R1——在规则基RL训练MLLM推理时引入整体级思维过程奖励：训练Thinking Reward Model从逻辑一致性/冗余度等五维度评估推理质量→提出Trust-GRPO基于正确/错误答案组的思维奖励对比计算可信度权重$\gamma$缓解reward hacking→退火策略$e^{-\text{steps}/T}$渐减思维奖励使后期更依赖准确的规则奖励→7B模型在MathVista(71.3%)和MMMU(61.3%)等多个基准全面超越LLaVA-OneVision-72B。
+  [ICLR 2026][多模态VLM][思维奖励] 提出SophiaVL-R1——在规则基RL训练MLLM推理时引入整体级思维过程奖励：训练Thinking Reward Model从逻辑一致性/冗余度等五维度评估推理质量→提出Trust-GRPO基于正确/错误答案组的思维奖励对比计算可信度权重$\gamma…
 tags:
-  - ICLR 2026
-  - 多模态
-  - 思维奖励
-  - 多模态VLM
-  - Trust-GRPO
-  - 退火策略
-  - 过程监督
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "思维奖励"
+  - "MLLM推理"
+  - "Trust-GRPO"
+  - "退火策略"
+  - "过程监督"
 ---
 
 # SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward

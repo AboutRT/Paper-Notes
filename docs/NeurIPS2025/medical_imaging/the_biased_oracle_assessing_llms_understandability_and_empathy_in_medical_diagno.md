@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Biased Oracle: Assessing LLMs' Understandability and Empathy in Medical Diagnoses
 description: >-
-  [NeurIPS 2025][医学图像][医疗沟通] 系统评估 GPT-4o 和 Claude-3.7 在医疗诊断沟通中的可读性和共情能力，发现两者均产生超标的阅读难度（9-13 年级 vs 推荐的 6-8 年级），情感共情随诊断类型和患者教育水平显著变化，且 LLM-as-Judge 存在严重自我偏见（GPT 对自身共情评分膨胀 ~0.3 分）。
+  [NeurIPS 2025][医学图像][医疗沟通] 系统评估 GPT-4o 和 Claude-3.7 在医疗诊断沟通中的可读性和共情能力，发现两者均产生超标的阅读难度（9-13 年级 vs 推荐的 6-8 年级），情感共情随诊断类型和患者教育水平显著变化…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 医疗沟通
-  - 可读性
-  - 共情评估
-  - 人口统计偏差
-  - LLM-as-Judge
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "医疗沟通"
+  - "可读性"
+  - "共情评估"
+  - "人口统计偏差"
+  - "LLM-as-Judge"
 ---
 
 # The Biased Oracle: Assessing LLMs' Understandability and Empathy in Medical Diagnoses
@@ -61,7 +61,7 @@ tags:
 
     - 功能：识别 LLM 自评的系统性偏差
     - 核心思路：GPT 评 GPT vs Claude 评 GPT，比较分数差异；同理 Claude 评 Claude vs GPT 评 Claude。配合人类评注做三方交叉验证
-    - 设计动机：发现 GPT 对自身情感共情评分膨胀 ~0.3 分（2.5→2.2 by Claude），评注者间一致性低（r<0.5），说明 LLM-as-Judge 在主观评估上不可靠
+    - 设计动机：发现 GPT 对自身情感共情评分膨胀 ~0.3 分（2.5→2.2 by Claude），评注者间一致性低（r&lt;0.5），说明 LLM-as-Judge 在主观评估上不可靠
 
 ### 损失函数 / 训练策略
 - 评估研究，无训练

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像恢复][真实世界超分辨率] 提出成对距离蒸馏框架，通过蒸馏专用模型和通用模型之间的内部和模型间距离关系，实现无监督真实世界图像超分辨率的退化自适应。
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 真实世界超分辨率
-  - 无监督学习
-  - 图像复原
-  - 成对距离
-  - 退化自适应
+  - "ECCV 2024"
+  - "图像恢复"
+  - "真实世界超分辨率"
+  - "无监督学习"
+  - "知识蒸馏"
+  - "成对距离"
+  - "退化自适应"
 ---
 
 # Pairwise Distance Distillation for Unsupervised Real-World Image Super-Resolution

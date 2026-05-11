@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model
 description: >-
-  [ICML2025][医学图像][DNA基础模型] 提出 SPACE（Species-Profile Adaptive Collaborative Experts），论证**监督式基因组图谱预测**比无监督序列预训练能学到更有效的 DNA 表征，并通过物种感知 MoE 编码器和双门控解码器在 18 项 NT 下游任务中 11 项 SOTA。
+  [ICML2025][医学图像][DNA基础模型] 提出 SPACE（Species-Profile Adaptive Collaborative Experts），论证**监督式基因组图谱预测**比无监督序列预训练能学到更有效的 DNA 表征…
 tags:
-  - ICML2025
-  - 医学图像
-  - DNA基础模型
-  - 基因组图谱预测
-  - Mixture of Experts
-  - 跨物种建模
-  - 监督预训练
+  - "ICML2025"
+  - "医学图像"
+  - "DNA基础模型"
+  - "基因组图谱预测"
+  - "Mixture of Experts"
+  - "跨物种建模"
+  - "监督预训练"
 ---
 
 # SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model

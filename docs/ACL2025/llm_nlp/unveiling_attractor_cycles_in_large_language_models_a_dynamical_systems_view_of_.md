@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unveiling Attractor Cycles in Large Language Models: A Dynamical Systems View of Successive Paraphrasing
 description: >-
-  [ACL 2025][文本生成][动力系统] 本文从动力系统理论出发，发现LLM在连续释义（successive paraphrasing）过程中输出会收敛至稳定的2-周期吸引子循环，而非探索广阔的释义空间，揭示了LLM生成能力的固有局限性。
+  [ACL 2025][LLM/NLP][动力系统] 本文从动力系统理论出发，发现LLM在连续释义（successive paraphrasing）过程中输出会收敛至稳定的2-周期吸引子循环，而非探索广阔的释义空间，揭示了LLM生成能力的固有局限性。
 tags:
-  - ACL 2025
-  - 文本生成
-  - 动力系统
-  - 吸引子循环
-  - 连续释义
-  - LLM生成多样性
-  - 2-周期性
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "动力系统"
+  - "吸引子循环"
+  - "连续释义"
+  - "LLM生成多样性"
+  - "2-周期性"
 ---
 
 # Unveiling Attractor Cycles in Large Language Models: A Dynamical Systems View of Successive Paraphrasing

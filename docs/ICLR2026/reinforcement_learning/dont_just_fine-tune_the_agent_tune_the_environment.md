@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Don't Just Fine-tune the Agent, Tune the Environment
 description: >-
-  [ICLR 2026][Environment Tuning] 提出 Environment Tuning 训练范式，通过结构化课程、可操作的环境增强反馈和细粒度进度奖励，使 LLM agent 仅用 400 个训练样本即可从零学会复杂的多轮工具使用，同时实现优异的分布外泛化能力。
+  [ICLR 2026][强化学习][Environment Tuning] 提出 Environment Tuning 训练范式，通过结构化课程、可操作的环境增强反馈和细粒度进度奖励，使 LLM agent 仅用 400 个训练样本即可从零学会复杂的多轮工具使用，同时实现优异的分布外泛化能力。
 tags:
-  - ICLR 2026
-  - Environment Tuning
-  - 强化学习
-  - 多轮工具使用
-  - 课程学习
-  - 强化学习
+  - "ICLR 2026"
+  - "强化学习"
+  - "Environment Tuning"
+  - "LLM Agent"
+  - "多轮工具使用"
+  - "课程学习"
 ---
 
 # Don't Just Fine-tune the Agent, Tune the Environment

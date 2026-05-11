@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][机器人][视觉推理] 提出DeepSketcher套件——包含31k高质量代码渲染的图文交错CoT数据集和一个自包含的Embedding Editor模型，使VLM无需外部工具即可在视觉嵌入空间直接生成"视觉思考"进行多模态推理。
 tags:
-  - CVPR 2026
-  - 机器人
-  - 视觉推理
-  - 图文交错推理
-  - 视觉思考
-  - 嵌入编辑器
-  - 代码渲染
+  - "CVPR 2026"
+  - "机器人"
+  - "视觉推理"
+  - "图文交错推理"
+  - "视觉思考"
+  - "嵌入编辑器"
+  - "代码渲染"
 ---
 
 # DeepSketcher: Internalizing Visual Manipulation for Multimodal Reasoning

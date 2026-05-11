@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][机器人][前摄干扰] 借鉴认知科学中的前摄干扰（Proactive Interference）范式，发现LLM的信息检索准确率随干扰信息量呈对数线性下降至零，揭示了一种独立于上下文长度的"工作记忆"容量瓶颈，且提示工程无法有效缓解。
 tags:
-  - ICML 2025
-  - 机器人
-  - 前摄干扰
-  - 工作记忆
-  - 信息检索
-  - 上下文长度
-  - LLM评测
+  - "ICML 2025"
+  - "机器人"
+  - "前摄干扰"
+  - "工作记忆"
+  - "信息检索"
+  - "上下文长度"
+  - "LLM评测"
 ---
 
 # Unable to Forget: Proactive Interference Reveals Working Memory Limits in LLMs Beyond Context Length
@@ -94,7 +94,7 @@ $$\text{IES} = \text{AUC}(\text{accuracy vs. log(update count)})$$
 | 策略 | 效果 | 说明 |
 |------|------|------|
 | Per-key forget | 无效/负效果 | 错误反而聚集在forget指令的位置 |
-| Forward focus | 边际改善 | <10百分点改善 |
+| Forward focus | 边际改善 | &lt;10百分点改善 |
 | Relevance meta-prompt | 无效 | 模型能正确说出答案位置但仍检索错误 |
 | Soft session reset | 无效 | 自然语言重置信号无法改变检索行为 |
 | Mock QA reset（hack） | **有效** | 模拟对话轮次边界，大幅改善准确率 |

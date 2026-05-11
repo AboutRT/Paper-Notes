@@ -2,14 +2,15 @@
 title: >-
   [论文解读] L-SWAG: Layer-Sample Wise Activation with Gradients information for Zero-Shot NAS on Vision Transformers
 description: >-
-  [CVPR 2025][神经架构搜索] 本文提出L-SWAG指标，通过分层梯度方差和激活模式基数的乘积来表征CNN和ViT网络的可训练性和表达性，并设计LIBRA-NAS算法组合互补代理指标，在ViT搜索空间和14个任务上实现了SOTA级别的零样本NAS性能。
+  [CVPR 2025][可解释性][神经架构搜索] 本文提出L-SWAG指标，通过分层梯度方差和激活模式基数的乘积来表征CNN和ViT网络的可训练性和表达性，并设计LIBRA-NAS算法组合互补代理指标，在ViT搜索空间和14个任务上实现了SOTA级别的零样本NAS性能。
 tags:
-  - CVPR 2025
-  - 神经架构搜索
-  - 零样本NAS
-  - Transformer
-  - 可解释性
-  - 指标组合
+  - "CVPR 2025"
+  - "可解释性"
+  - "神经架构搜索"
+  - "零样本NAS"
+  - "Transformer"
+  - "代理指标"
+  - "指标组合"
 ---
 
 # L-SWAG: Layer-Sample Wise Activation with Gradients information for Zero-Shot NAS on Vision Transformers

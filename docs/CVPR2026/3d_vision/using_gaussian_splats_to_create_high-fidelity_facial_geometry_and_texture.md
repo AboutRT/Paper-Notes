@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Using Gaussian Splats to Create High-Fidelity Facial Geometry and Texture
 description: >-
-  [CVPR2026][3D视觉][Gaussian Splatting] 提出一套基于改进 Gaussian Splatting 的人脸重建管线：通过软约束和语义分割监督将高斯与三角网格紧耦合，从仅 11 张未标定图像重建高精度三角面片几何，并利用 PCA 先验 + 可重光照高斯模型分离光照获取去光照 albedo 纹理，最终兼容标准图形管线（MetaHuman）。
+  [CVPR2026][3D视觉][Gaussian Splatting] 提出一套基于改进 Gaussian Splatting 的人脸重建管线：通过软约束和语义分割监督将高斯与三角网格紧耦合，从仅 11 张未标定图像重建高精度三角面片几何…
 tags:
-  - CVPR2026
-  - 3D视觉
-  - Gaussian Splatting
-  - 人脸几何重建
-  - 去光照纹理
-  - 语义分割约束
-  - 神经纹理
-  - MetaHuman
+  - "CVPR2026"
+  - "3D视觉"
+  - "Gaussian Splatting"
+  - "人脸几何重建"
+  - "去光照纹理"
+  - "语义分割约束"
+  - "神经纹理"
+  - "MetaHuman"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

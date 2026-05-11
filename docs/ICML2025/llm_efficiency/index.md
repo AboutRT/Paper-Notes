@@ -1,18 +1,23 @@
 ---
 title: >-
-  ICML2025 LLM 效率方向13篇论文解读
+  ICML2025 LLM 效率方向11篇论文解读
 description: >-
-  13篇ICML2025的 LLM 效率方向论文解读，涵盖 LLM、对齐/RLHF、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  11篇ICML2025的 LLM 效率方向论文解读，涵盖 LLM、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICML2025"
+  - "LLM 效率"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "对齐/RLHF"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # ⚡ LLM 效率
 
-**🧪 ICML2025** · **13** 篇论文解读
+**🧪 ICML2025** · **11** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (8)](../../ACL2026/llm_efficiency/index.md) · [📷 CVPR2026 (4)](../../CVPR2026/llm_efficiency/index.md) · [🔬 ICLR2026 (18)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (35)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
-
-🔥 **高频主题：** LLM ×2
+📌 **同领域跨会议浏览：** [💬 ACL2026 (8)](../../ACL2026/llm_efficiency/index.md) · [📷 CVPR2026 (4)](../../CVPR2026/llm_efficiency/index.md) · [🔬 ICLR2026 (18)](../../ICLR2026/llm_efficiency/index.md) · [🤖 AAAI2026 (9)](../../AAAI2026/llm_efficiency/index.md) · [🧠 NeurIPS2025 (34)](../../NeurIPS2025/llm_efficiency/index.md) · [📹 ICCV2025 (1)](../../ICCV2025/llm_efficiency/index.md)
 
 **[Autonomy-of-Experts Models (AoE)](autonomy-of-experts_models.md)**
 
@@ -33,10 +38,6 @@ description: >-
 **[Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling](efficient_length-generalizable_attention_via_causal_retrieval_for_long-context_l.md)**
 
 :   本文提出 Grouped Cross-Attention (GCA) 机制，将 chunk 级别的因果检索（causal retrieval）集成到注意力中实现端到端可学习的检索器，构建的 Differentiable Retrieval-based Transformer (DRT) 在 16M 上下文的 passkey 检索测试中达到近乎完美的准确率，实现了训练长度 1000 倍的长度泛化。
-
-**[Fourier Position Embedding: Enhancing Attention's Periodic Extension for Length Generalization](fourier_position_embedding_enhancing_attentions_periodic_extension_for_length_ge.md)**
-
-:   用离散信号处理 (DSP) 理论揭示 RoPE 隐式实现了非均匀 DFT 以编码周期性注意力，但线性层导致的频谱泄漏、激活函数导致的频谱畸变以及训练长度截断导致的欠训练频率分量会破坏这一周期性，据此提出 FoPE——将每个维度建模为傅里叶级数（而非单一频率）并裁剪破坏性低频分量为零频，在多个模型规模和任务上显著改善长度泛化。
 
 **[Ladder Residual: Parallelism-Aware Architecture for Accelerating Large Model Inference](ladder-residual_parallelism-aware_architecture_for_accelerating_large_model_infe.md)**
 
@@ -61,7 +62,3 @@ description: >-
 **[Retraining-Free Merging of Sparse MoE via Hierarchical Clustering](retraining-free_merging_of_sparse_moe_via_hierarchical_clustering.md)**
 
 :   提出 HC-SMoE，一种基于专家输出层次聚类的无需重训练专家合并框架，通过输出相似度度量和层次聚类实现 SMoE 模型的高效压缩，在 Qwen 和 Mixtral 上分别实现 25%-50% 的专家参数缩减并保持优越性能。
-
-**[SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator](sepllm_accelerate_large_language_models_by_compressing_one_segment_into_one_sepa.md)**
-
-:   SepLLM 发现分隔符 token（标点等）在注意力中占据主导地位，提出将文本段信息压缩到分隔符 token 中，通过数据依赖的稀疏注意力掩码仅保留 Initial + Separator + Neighboring tokens 的 KV cache，实现 50%+ 的 KV cache 压缩且性能几乎无损。

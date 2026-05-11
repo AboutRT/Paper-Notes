@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][点云补全] 提出 PCDreamer，利用大规模多视图扩散模型为部分点云"梦想"出缺失区域的多视图图像，通过多模态形状融合模块和置信度引导的形状巩固模块实现高保真点云补全，尤其擅长恢复精细局部细节。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 点云补全
-  - 多视图扩散先验
-  - 多模态融合
-  - 形状巩固
-  - 置信度过滤
+  - "CVPR 2025"
+  - "3D视觉"
+  - "点云补全"
+  - "多视图扩散先验"
+  - "多模态融合"
+  - "形状巩固"
+  - "置信度过滤"
 ---
 
 # PCDreamer: Point Cloud Completion Through Multi-view Diffusion Priors

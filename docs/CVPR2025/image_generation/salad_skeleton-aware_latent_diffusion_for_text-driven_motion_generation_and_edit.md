@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][文本驱动动作生成] 提出 SALAD，一种骨骼感知的潜在扩散模型，通过骨骼-时间结构化的 VAE 和去噪器显式建模关节、帧与文本的细粒度交互，并利用交叉注意力图实现零样本文本驱动动作编辑。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 文本驱动动作生成
-  - 骨骼感知扩散
-  - 潜在空间
-  - 注意力调制
-  - 零样本编辑
+  - "CVPR 2025"
+  - "图像生成"
+  - "文本驱动动作生成"
+  - "骨骼感知扩散"
+  - "潜在空间"
+  - "注意力调制"
+  - "零样本编辑"
 ---
 
 # SALAD: Skeleton-aware Latent Diffusion for Text-driven Motion Generation and Editing

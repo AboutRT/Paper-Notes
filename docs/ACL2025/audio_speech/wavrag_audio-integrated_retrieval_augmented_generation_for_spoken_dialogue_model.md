@@ -2,15 +2,15 @@
 title: >-
   [论文解读] WavRAG: Audio-Integrated Retrieval Augmented Generation for Spoken Dialogue Models
 description: >-
-  [ACL 2025][语音][检索增强生成] 提出 WavRAG，首个端到端原生支持音频的检索增强生成框架，通过 WavRetriever 实现音频-文本混合知识库的统一检索，并结合 CoT 推理增强口语对话模型的上下文能力，在保持与 SOTA 文本 RAG 可比性能的同时实现约 10 倍加速。
+  [ACL 2025][音频/语音][检索增强生成] 提出 WavRAG，首个端到端原生支持音频的检索增强生成框架，通过 WavRetriever 实现音频-文本混合知识库的统一检索，并结合 CoT 推理增强口语对话模型的上下文能力，在保持与 SOTA 文本 RAG 可比性能的同时实现约 10 倍加速。
 tags:
-  - ACL 2025
-  - 语音
-  - 音频语音
-  - 语音对话
-  - 多模态检索
-  - 端到端音频
-  - 链式推理
+  - "ACL 2025"
+  - "音频/语音"
+  - "检索增强生成"
+  - "语音对话"
+  - "多模态检索"
+  - "端到端音频"
+  - "链式推理"
 ---
 
 # WavRAG: Audio-Integrated Retrieval Augmented Generation for Spoken Dialogue Models

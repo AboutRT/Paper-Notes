@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][链式思维压缩] 提出 Render-of-Thought（RoT），首次将文本 CoT 推理步骤渲染为图像，利用预训练视觉编码器作为语义锚点将 LLM 隐状态对齐到视觉嵌入空间，实现 3-4 倍 token 压缩和显著推理加速，同时保持推理链的可分析性。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 链式思维压缩
-  - 视觉潜空间推理
-  - 文本渲染为图像
-  - CoT token压缩
-  - 自蒸馏
+  - "ACL 2026"
+  - "LLM推理"
+  - "链式思维压缩"
+  - "视觉潜空间推理"
+  - "文本渲染为图像"
+  - "CoT token压缩"
+  - "自蒸馏"
 ---
 
 # Render-of-Thought: Rendering Textual Chain-of-Thought as Images for Visual Latent Reasoning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][3D视觉][3D Gaussian Splatting] 提出LaGa方法，通过3D场景分解建立跨视角语义连接、用自适应聚类+双因子重加权构建视角聚合语义表示，解决3D语言高斯中被忽视的视角依赖语义问题，在LERF-OVS上3D mIoU达64.0%（+18.7%）。
 tags:
-  - ICML 2025
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 图像分割
-  - view-dependent semantics
-  - scene decomposition
-  - CLIP
+  - "ICML 2025"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "图像分割"
+  - "view-dependent semantics"
+  - "scene decomposition"
+  - "CLIP"
 ---
 
 # LaGa: Tackling View-Dependent Semantics in 3D Language Gaussian Splatting

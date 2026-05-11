@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][CLIP偏差分析] 系统揭示 CLIP 在多目标场景中的两类偏差——文本编码器偏向先提到的物体、图像编码器偏向大物体，并追溯偏差根源至对比训练过程中训练数据里大物体被先提到的统计规律。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - CLIP偏差分析
-  - 多目标表征
-  - 文本编码器偏差
-  - 对比学习
-  - ComCO数据集
+  - "CVPR 2025"
+  - "图像生成"
+  - "CLIP偏差分析"
+  - "多目标表征"
+  - "文本编码器偏差"
+  - "对比学习"
+  - "ComCO数据集"
 ---
 
 # CLIP Under the Microscope: A Fine-Grained Analysis of Multi-Object Representation

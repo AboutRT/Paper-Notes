@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][科学计算][神经算子] 提出基于 Neural Operator 的「子网格黑洞」模型，学习小尺度 (GR)MHD 时间演化算子，替代手工闭合规则嵌入多层级直接数值模拟框架，首次实现吸积驱动反馈的内禀变异性捕获，加速比达 $\sim 10^5$ 倍。
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - 神经算子
-  - 黑洞吸积
-  - 多尺度模拟
-  - 子网格模型
-  - GRMHD
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "神经算子"
+  - "黑洞吸积"
+  - "多尺度模拟"
+  - "子网格模型"
+  - "GRMHD"
 ---
 
 # From Black Hole to Galaxy: Neural Operator Framework for Accretion and Feedback Dynamics

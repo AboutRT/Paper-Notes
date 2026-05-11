@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TreeTeaming: Autonomous Red-Teaming of Vision-Language Models via Hierarchical Strategy Exploration
 description: >-
-  [CVPR 2026][多模态][红队测试] TreeTeaming 提出了一个基于层次策略树的自动化红队测试框架，通过 LLM 驱动的 Orchestrator 动态地探索和进化攻击策略，在12个主流 VLM 上实现了 SOTA 的攻击成功率（GPT-4o 达 87.60%），并发现了超越已知策略集的多样化新攻击手段。
+  [CVPR 2026][多模态VLM][红队测试] TreeTeaming 提出了一个基于层次策略树的自动化红队测试框架，通过 LLM 驱动的 Orchestrator 动态地探索和进化攻击策略，在12个主流 VLM 上实现了 SOTA 的攻击成功率（GPT-4o 达 87.60%）…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 红队测试
-  - 多模态VLM
-  - 自动化攻击
-  - 策略树
-  - 越狱攻击
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "红队测试"
+  - "视觉语言模型安全"
+  - "自动化攻击"
+  - "策略树"
+  - "越狱攻击"
 ---
 
 # TreeTeaming: Autonomous Red-Teaming of Vision-Language Models via Hierarchical Strategy Exploration

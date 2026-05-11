@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Near-Optimal Second-Order Guarantees for Model-Based Adversarial Imitation Learning
 description: >-
-  [ICLR 2026][强化学习] 提出 MB-AIL（基于模型的对抗模仿学习）算法，在一般函数逼近下建立了无视域（horizon-free）的二阶样本复杂度上界，结合新构建的困难实例上的信息论下界，证明 MB-AIL 在在线交互的样本复杂度上达到极小极大最优（相差对数因子）。
+  [ICLR 2026][强化学习][对抗模仿学习] 提出 MB-AIL（基于模型的对抗模仿学习）算法，在一般函数逼近下建立了无视域（horizon-free）的二阶样本复杂度上界，结合新构建的困难实例上的信息论下界，证明 MB-AIL 在在线交互的样本复杂度上达到极小极大最优（相差对数因子）。
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 基于模型的方法
-  - 二阶界
-  - 样本复杂度
-  - 信息论下界
+  - "ICLR 2026"
+  - "强化学习"
+  - "对抗模仿学习"
+  - "基于模型的方法"
+  - "二阶界"
+  - "样本复杂度"
+  - "信息论下界"
 ---
 
 # Near-Optimal Second-Order Guarantees for Model-Based Adversarial Imitation Learning

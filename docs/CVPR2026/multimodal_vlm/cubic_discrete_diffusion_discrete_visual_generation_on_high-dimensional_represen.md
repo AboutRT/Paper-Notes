@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens
 description: >-
-  [CVPR 2026][多模态][离散扩散模型] 提出 CubiD，首个在高维表征 token（768维）上做离散扩散生成的模型，通过在 $h \times w \times d$ 三维张量上进行细粒度 mask 预测实现高质量图像生成，同时保留理解能力。
+  [CVPR 2026][多模态VLM][离散扩散模型] 提出 CubiD，首个在高维表征 token（768维）上做离散扩散生成的模型，通过在 $h \times w \times d$ 三维张量上进行细粒度 mask 预测实现高质量图像生成，同时保留理解能力。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 离散扩散模型
-  - 高维表征token
-  - 视觉生成
-  - 多模态VLM
-  - 统一多模态
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "离散扩散模型"
+  - "高维表征token"
+  - "视觉生成"
+  - "维度级量化"
+  - "统一多模态"
 ---
 
 # Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens

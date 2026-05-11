@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][机器人][推理劫持] 本文提出"推理劫持"(Reasoning Hijacking) 这一新型攻击范式，通过在数据通道注入虚假决策标准来操纵 LLM 的推理逻辑而非改变任务目标，实现高攻击成功率且能绕过基于意图检测的防御方法。
 tags:
-  - ACL 2026
-  - 机器人
-  - 推理劫持
-  - 间接提示注入
-  - 标准攻击
-  - LLM安全
-  - 对齐脆弱性
+  - "ACL 2026"
+  - "机器人"
+  - "推理劫持"
+  - "间接提示注入"
+  - "标准攻击"
+  - "LLM安全"
+  - "对齐脆弱性"
 ---
 
 # Reasoning Hijacking: The Fragility of Reasoning Alignment in Large Language Models

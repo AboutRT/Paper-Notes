@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][差分离焦深度] 受跳蛛视觉启发，构建首个无线（电池供电）的快照式差分离焦深度相机 Focal Split，用分光镜将光路分给两个不同焦距的传感器，仅需 500 FLOPs/像素和 4.9W 功率即可在树莓派上实时估计深度。
 tags:
-  - CVPR 2025
-  - 差分离焦深度
-  - 跳蛛仿生
-  - 分光镜
-  - 被动测距
-  - 低功耗边缘设备
+  - "CVPR 2025"
+  - "差分离焦深度"
+  - "跳蛛仿生"
+  - "分光镜"
+  - "被动测距"
+  - "低功耗边缘设备"
 ---
 
 # Focal Split: Untethered Snapshot Depth from Differential Defocus

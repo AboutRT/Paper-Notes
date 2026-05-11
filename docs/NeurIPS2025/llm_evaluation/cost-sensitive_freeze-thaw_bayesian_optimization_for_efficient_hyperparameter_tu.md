@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning
 description: >-
-  [NeurIPS 2025][LLM评测] CFBO 将用户定义的效用函数（成本 vs 性能的权衡）引入冻结-解冻贝叶斯优化框架，结合自适应停止准则和基于 LC mixup 的迁移学习，在多保真度 HPO 基准上实现了成本-性能最优权衡。
+  [NeurIPS 2025][LLM评测][超参优化] CFBO 将用户定义的效用函数（成本 vs 性能的权衡）引入冻结-解冻贝叶斯优化框架，结合自适应停止准则和基于 LC mixup 的迁移学习，在多保真度 HPO 基准上实现了成本-性能最优权衡。
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - 贝叶斯优化
-  - 冻结-解冻
-  - 成本敏感
-  - 学习曲线外推
-  - 迁移学习
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "超参优化"
+  - "贝叶斯优化"
+  - "冻结-解冻"
+  - "成本敏感"
+  - "学习曲线外推"
+  - "迁移学习"
 ---
 
 # Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning

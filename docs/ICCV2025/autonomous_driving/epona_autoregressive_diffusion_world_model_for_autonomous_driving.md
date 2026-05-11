@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][世界模型] 提出 Epona，一种自回归扩散世界模型，通过解耦时空建模和异步多模态生成，实现高分辨率长时程驾驶视频生成与实时轨迹规划的统一框架。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 世界模型
-  - 扩散模型
-  - trajectory planning
-  - 视频生成
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "世界模型"
+  - "扩散模型"
+  - "trajectory planning"
+  - "视频生成"
 ---
 
 # Epona: Autoregressive Diffusion World Model for Autonomous Driving

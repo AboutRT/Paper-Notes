@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation
 description: >-
-  [ACL 2025][代码生成] ReflectionCoder通过构建整合编译器反馈的"反思序列"（reflection sequence）数据，结合反思自蒸馏和动态掩码蒸馏两种训练策略，使模型在一次性代码生成中达到SOTA性能，无需运行时的多轮调试。
+  [ACL 2025][代码智能][代码生成] ReflectionCoder通过构建整合编译器反馈的"反思序列"（reflection sequence）数据，结合反思自蒸馏和动态掩码蒸馏两种训练策略，使模型在一次性代码生成中达到SOTA性能，无需运行时的多轮调试。
 tags:
-  - ACL 2025
-  - 代码生成
-  - 反思序列
-  - 代码智能
-  - 编译反馈
-  - 一次性生成
+  - "ACL 2025"
+  - "代码智能"
+  - "代码生成"
+  - "反思序列"
+  - "知识蒸馏"
+  - "编译反馈"
+  - "一次性生成"
 ---
 
 # ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation

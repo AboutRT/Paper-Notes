@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][3D动物运动] 本文提出一种从无标注互联网视频中学习关节式3D动物运动生成模型的方法，通过视频Photo-Geometric自编码框架将视频分解为静态形状、外观和运动隐编码，无需任何姿态标注或参数化形状模型即可在推理时从单张图像生成多样的4D动画。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 3D动物运动
-  - 无标注学习
-  - 视频自编码
-  - 运动VAE
-  - 可微渲染
+  - "ECCV 2024"
+  - "图像生成"
+  - "3D动物运动"
+  - "无标注学习"
+  - "视频自编码"
+  - "运动VAE"
+  - "可微渲染"
 ---
 
 # Ponymation: Learning Articulated 3D Animal Motions from Unlabeled Online Videos

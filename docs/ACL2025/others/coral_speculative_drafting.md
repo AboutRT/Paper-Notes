@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][推测解码] CORAL 通过跨步表示对齐（CSRA）改进多步训练中 draft 模型的特征一致性，并用权重分组机制压缩大词表 LM head 的推理延迟，在 LLaMA3/Qwen2.5 上实现 2.50-4.07× 加速，超越 EAGLE-2 和 HASS。
 tags:
-  - ACL 2025
-  - 推测解码
-  - 草稿模型
-  - 其他
-  - LM head compression
-  - vocabulary
+  - "ACL 2025"
+  - "推测解码"
+  - "草稿模型"
+  - "表示对齐"
+  - "LM head compression"
+  - "vocabulary"
 ---
 
 # CORAL: Learning Consistent Representations across Multi-step Training with Lighter Speculative Drafter

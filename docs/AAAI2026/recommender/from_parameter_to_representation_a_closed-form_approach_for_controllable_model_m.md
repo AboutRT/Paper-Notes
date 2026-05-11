@@ -2,14 +2,15 @@
 title: >-
   [论文解读] From Parameter to Representation: A Closed-Form Approach for Controllable Model Merging
 description: >-
-  [AAAI 2026][model merging] 提出 ReACT，将可控模型合并从参数空间优化转移到表征空间校正，通过闭式解实现任意用户偏好下的 Pareto 最优模型即时生成，比现有方法快 36-208 倍且性能更优。
+  [AAAI 2026][推荐系统][model merging] 提出 ReACT，将可控模型合并从参数空间优化转移到表征空间校正，通过闭式解实现任意用户偏好下的 Pareto 最优模型即时生成，比现有方法快 36-208 倍且性能更优。
 tags:
-  - AAAI 2026
-  - model merging
-  - controllable merging
-  - Pareto front
-  - representation correction
-  - 推荐系统
+  - "AAAI 2026"
+  - "推荐系统"
+  - "model merging"
+  - "controllable merging"
+  - "Pareto front"
+  - "representation correction"
+  - "multi-objective optimization"
 ---
 
 # From Parameter to Representation: A Closed-Form Approach for Controllable Model Merging

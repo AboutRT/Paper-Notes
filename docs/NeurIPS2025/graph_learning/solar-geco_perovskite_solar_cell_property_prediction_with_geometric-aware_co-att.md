@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][钙钛矿太阳能电池] 提出Solar-GECO多模态框架，将钙钛矿吸收层的3D晶体结构通过几何GNN编码、器件其他层通过LLM文本嵌入编码，经共注意力融合后预测光电转换效率(PCE)及其不确定性，MAE从3.066降至2.936。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 钙钛矿太阳能电池
-  - 几何图神经网络
-  - 多模态融合
-  - 共注意力机制
-  - 不确定性量化
+  - "NeurIPS 2025"
+  - "图学习"
+  - "钙钛矿太阳能电池"
+  - "几何图神经网络"
+  - "多模态融合"
+  - "共注意力机制"
+  - "不确定性量化"
 ---
 
 # Solar-GECO: Perovskite Solar Cell Property Prediction with Geometric-Aware Co-Attention
@@ -88,7 +88,7 @@ $$\mathcal{L} = \frac{1}{2B} \sum_{i=1}^{B} \left(\log(\sigma_i^2) + \frac{(y_i 
 | LLM Co-attention | 0.4048 | 2.9812 | 0.6120 |
 | **Solar-GECO** | **0.4179** | **2.9361** | **0.6192** |
 
-所有与Solar-GECO的差异均通过t检验达到统计显著(p<0.05)。
+所有与Solar-GECO的差异均通过t检验达到统计显著(p&lt;0.05)。
 
 ### 消融实验
 

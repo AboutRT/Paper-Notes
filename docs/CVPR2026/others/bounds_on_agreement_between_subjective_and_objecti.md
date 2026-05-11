@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][quality assessment] 从MOS的数学性质出发推导出主观测试结果与任何客观估计器之间PCC上界和MSE下界的理论公式，并提出BinoVotes/BinoMOS投票模型，在18项主观测试数据上验证了界的有效性和模型的准确性。
 tags:
-  - CVPR 2026
-  - quality assessment
-  - MOS
-  - subjective test
-  - PCC bound
-  - MSE bound
-  - BinoVotes
+  - "CVPR 2026"
+  - "quality assessment"
+  - "MOS"
+  - "subjective test"
+  - "PCC bound"
+  - "MSE bound"
+  - "BinoVotes"
 ---
 
 # Bounds on Agreement between Subjective and Objective Measurements

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Message Passing: Neural Graph Pattern Machine
 description: >-
-  [ICML2025][图学习][图模式] 提出 Neural Graph Pattern Machine (GPM)，用随机游走采样图模式，通过语义路径与匿名路径的双编码器捕捉节点特征和拓扑结构，再用 Transformer 识别任务相关的关键模式，彻底绕过消息传递范式，在节点/边/图级任务上全面超越 SOTA。
+  [ICML2025][图学习][图模式] 提出 Neural Graph Pattern Machine (GPM)，用随机游走采样图模式，通过语义路径与匿名路径的双编码器捕捉节点特征和拓扑结构，再用 Transformer 识别任务相关的关键模式，彻底绕过消息传递范式…
 tags:
-  - ICML2025
-  - 图学习
-  - 图模式
-  - 随机游走
-  - 消息传递
-  - 子结构编码
-  - Transformer
+  - "ICML2025"
+  - "图学习"
+  - "图模式"
+  - "随机游走"
+  - "消息传递"
+  - "子结构编码"
+  - "Transformer"
 ---
 
 # Beyond Message Passing: Neural Graph Pattern Machine

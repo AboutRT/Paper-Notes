@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Retrofitting Large Language Models with Dynamic Tokenization
 description: >-
-  [ACL 2025][动态分词] 本文提出对已有语言模型进行动态分词改造（dynamic tokenization），通过受 BPE 启发的子词合并算法动态决定 token 边界，结合预训练的嵌入预测超网络在线计算合并后 token 的嵌入向量，在 encoder 模型上实现平均 >20% 的序列长度缩减且性能仅下降不到 2%，在 decoder 模型上也实现了最高 17% 的序列缩减。
+  [ACL 2025][预训练][动态分词] 本文提出对已有语言模型进行动态分词改造（dynamic tokenization），通过受 BPE 启发的子词合并算法动态决定 token 边界，结合预训练的嵌入预测超网络在线计算合并后 token 的嵌入向量…
 tags:
-  - ACL 2025
-  - 动态分词
-  - 子词合并
-  - 嵌入预测超网络
-  - LLM预训练
-  - 跨语言公平
+  - "ACL 2025"
+  - "预训练"
+  - "动态分词"
+  - "子词合并"
+  - "嵌入预测超网络"
+  - "推理加速"
+  - "跨语言公平"
 ---
 
 # Retrofitting Large Language Models with Dynamic Tokenization

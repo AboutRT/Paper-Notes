@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AGRI-CM3: A Chinese Massive Multi-Modal Multi-Level Benchmark for Agricultural Understanding
 description: >-
-  [ACL 2025][多模态][农业多模态基准] 本文提出AGRI-CM3，一个面向农业领域的中文大规模多模态多层次评测基准，涵盖作物识别、病虫害诊断、农事操作理解等多个农业子任务，用于系统评估VLM在农业垂直领域的能力。
+  [ACL 2025][多模态VLM][农业多模态基准] 本文提出AGRI-CM3，一个面向农业领域的中文大规模多模态多层次评测基准，涵盖作物识别、病虫害诊断、农事操作理解等多个农业子任务，用于系统评估VLM在农业垂直领域的能力。
 tags:
-  - ACL 2025
-  - 多模态
-  - 农业多模态基准
-  - 中文农业理解
-  - 多模态VLM
-  - 视觉语言模型
-  - 领域特定评测
+  - "ACL 2025"
+  - "多模态VLM"
+  - "农业多模态基准"
+  - "中文农业理解"
+  - "多层次评测"
+  - "视觉语言模型"
+  - "领域特定评测"
 ---
 
 # AGRI-CM3: A Chinese Massive Multi-Modal Multi-Level Benchmark for Agricultural Understanding

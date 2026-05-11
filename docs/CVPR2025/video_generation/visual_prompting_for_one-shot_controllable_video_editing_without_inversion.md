@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Visual Prompting for One-Shot Controllable Video Editing Without Inversion
 description: >-
-  [CVPR 2025][视频编辑] 本文从视觉提示（Visual Prompting）的全新视角解决一次性可控视频编辑（OCVE）问题，通过图像修复扩散模型完成编辑传播，并提出内容一致性采样（CCS）和时序-内容一致性采样（TCS）两种采样策略，无需 DDIM 反演即可实现高质量可控视频编辑。
+  [CVPR 2025][视频生成][视频编辑] 本文从视觉提示（Visual Prompting）的全新视角解决一次性可控视频编辑（OCVE）问题，通过图像修复扩散模型完成编辑传播，并提出内容一致性采样（CCS）和时序-内容一致性采样（TCS）两种采样策略，无需 DDIM 反演即可实现高质量可控视频编辑。
 tags:
-  - CVPR 2025
-  - 视频编辑
-  - 视觉提示
-  - DDIM反演
-  - 一致性模型
-  - 视频生成
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频编辑"
+  - "视觉提示"
+  - "DDIM反演"
+  - "一致性模型"
+  - "Stein变分梯度下降"
 ---
 
 # Visual Prompting for One-Shot Controllable Video Editing Without Inversion

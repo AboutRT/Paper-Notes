@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][点云理解] 提出SADG框架，首次将Mamba引入多任务点云域泛化的上下文学习，通过结构感知序列化（质心距离谱+测地曲率谱）、分层域感知建模和谱图对齐三个模块，在重建、去噪、配准三个任务上全面超越SOTA。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 点云理解
-  - 域泛化
-  - Mamba
-  - 上下文学习
-  - 结构感知序列化
+  - "CVPR 2026"
+  - "3D视觉"
+  - "点云理解"
+  - "域泛化"
+  - "Mamba"
+  - "上下文学习"
+  - "结构感知序列化"
 ---
 
 # Mamba Learns in Context: Structure-Aware Domain Generalization for Multi-Task Point Cloud Understanding

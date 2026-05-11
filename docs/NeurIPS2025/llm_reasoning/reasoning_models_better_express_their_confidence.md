@@ -4,15 +4,15 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM推理][confidence calibration] 系统性证明推理模型（extended CoT）比非推理模型具有显著更优的置信度校准能力，并揭示"慢思考"行为（探索替代方案、回溯、验证）是校准提升的根本来源。
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - confidence calibration
-  - reasoning models
-  - chain-of-thought
-  - slow thinking
-  - verbalized confidence
-  - ECE
-  - Brier Score
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "confidence calibration"
+  - "reasoning models"
+  - "chain-of-thought"
+  - "slow thinking"
+  - "verbalized confidence"
+  - "ECE"
+  - "Brier Score"
 ---
 
 # Reasoning Models Better Express Their Confidence
@@ -88,7 +88,7 @@ tags:
 | AUROC ↑ | 更高 | 更低 | 推理模型显著更优 |
 
 ### CoT 展开趋势
-- **推理模型**: 校准随 CoT 展开稳步改善 (p<0.05)，ECE 和 Brier Score 持续下降，AUROC 持续上升
+- **推理模型**: 校准随 CoT 展开稳步改善 (p&lt;0.05)，ECE 和 Brier Score 持续下降，AUROC 持续上升
 - **非推理模型**: CoT 展开过程中无此趋势，校准指标基本不变
 
 ### 慢思考消融

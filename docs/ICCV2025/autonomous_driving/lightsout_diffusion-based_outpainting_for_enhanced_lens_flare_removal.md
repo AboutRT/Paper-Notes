@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][镜头光斑去除] 提出 LightsOut，一个基于扩散模型的图像外推框架，通过预测和重建画面外的光源来增强现有单图光斑去除(SIFR)方法的性能，作为即插即用的预处理模块无需额外训练即可提升任意 SIFR 模型的效果。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 镜头光斑去除
-  - 扩散模型
-  - 图像外推
-  - LoRA微调
-  - 即插即用
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "镜头光斑去除"
+  - "扩散模型"
+  - "图像外推"
+  - "LoRA微调"
+  - "即插即用"
 ---
 
 # LightsOut: Diffusion-based Outpainting for Enhanced Lens Flare Removal

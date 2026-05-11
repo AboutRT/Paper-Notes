@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RAST: A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction
 description: >-
-  [AAAI2026][自动驾驶][traffic prediction] 将 RAG 思想引入时空预测，通过双维度 memory bank 存储历史时空 pattern 并在推理时检索融合，在 6 个交通数据集上取得 SOTA 且计算效率优异。
+  [AAAI2026][自动驾驶][traffic prediction] 将 Retrieval-Augmented Generation (RAG) 思想引入时空预测，通过维护双维度 memory bank 存储历史时空 pattern 并在推理时检索融合…
 tags:
-  - AAAI2026
-  - 自动驾驶
-  - traffic prediction
-  - retrieval-augmented
-  - spatio-temporal forecasting
-  - memory bank
-  - 图神经网络
+  - "AAAI2026"
+  - "自动驾驶"
+  - "traffic prediction"
+  - "retrieval-augmented"
+  - "spatio-temporal forecasting"
+  - "memory bank"
+  - "图神经网络"
 ---
 
 # RAST: A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction

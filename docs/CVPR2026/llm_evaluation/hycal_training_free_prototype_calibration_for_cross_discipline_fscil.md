@@ -2,14 +2,15 @@
 title: >-
   [论文解读] HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning
 description: >-
-  [CVPR 2026][持续学习] 本文识别了异质域持续学习中的"域引力"（Domain Gravity）偏差——数据丰富或低熵域在共享嵌入空间中产生不成比例的影响，并提出 HyCal，一种无训练方法，通过融合余弦相似度和马氏距离进行原型校准，在跨学科不平衡少样本增量学习中实现稳健分类。
+  [CVPR 2026][LLM评测][持续学习] 本文识别了异质域持续学习中的"域引力"（Domain Gravity）偏差——数据丰富或低熵域在共享嵌入空间中产生不成比例的影响，并提出 HyCal，一种无训练方法，通过融合余弦相似度和马氏距离进行原型校准，在跨学科不平衡少样本增量学习中实现稳健分类。
 tags:
-  - CVPR 2026
-  - 持续学习
-  - 少样本增量学习
-  - 跨域适应
-  - 原型校准
-  - 域引力
+  - "CVPR 2026"
+  - "LLM评测"
+  - "持续学习"
+  - "少样本增量学习"
+  - "跨域适应"
+  - "原型校准"
+  - "域引力"
 ---
 
 # HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning

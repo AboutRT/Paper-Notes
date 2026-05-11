@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][开放词汇3D场景理解] 提出 GGSD 框架，利用3D几何先验（超点语义一致性）引导从2D模型到3D模型的知识蒸馏，并通过自蒸馏机制进一步挖掘3D数据的表征优势，在室内外开放词汇3D场景理解任务上大幅超越现有方法。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 开放词汇3D场景理解
-  - 自蒸馏
-  - 几何先验
-  - 知识蒸馏
-  - 超点
+  - "ECCV 2024"
+  - "3D视觉"
+  - "开放词汇3D场景理解"
+  - "自蒸馏"
+  - "几何先验"
+  - "知识蒸馏"
+  - "超点"
 ---
 
 # Open Vocabulary 3D Scene Understanding via Geometry Guided Self-Distillation

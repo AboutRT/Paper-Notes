@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][表征学习] 提出 DynaRend，通过掩码重建和未来预测两个互补目标，利用可微体渲染在 triplane 表征上联合学习 3D 几何、语义和动态信息，预训练后可高效迁移到下游机器人操控任务。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 表征学习
-  - 机器人操控
-  - 可微渲染
-  - Triplane
-  - 动态预测
-  - 预训练
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "表征学习"
+  - "机器人操控"
+  - "可微渲染"
+  - "Triplane"
+  - "动态预测"
+  - "预训练"
 ---
 
 # DynaRend: Learning 3D Dynamics via Masked Future Rendering for Robotic Manipulation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Seeing Through the Tool: A Controlled Benchmark for Occlusion Robustness in Foundation Segmentation Models
 description: >-
-  [CVPR 2026][图像分割][遮挡鲁棒性] 提出 OccSAM-Bench 基准，通过合成手术器械遮挡系统评估 SAM 系列模型在内窥镜场景下的鲁棒性，并设计三区域评估协议揭示模型在遮挡下的两种行为模式：遮挡感知型和遮挡无关型。
+  [CVPR 2026][语义分割][遮挡鲁棒性] 提出 OccSAM-Bench 基准，通过合成手术器械遮挡系统评估 SAM 系列模型在内窥镜场景下的鲁棒性，并设计三区域评估协议揭示模型在遮挡下的两种行为模式：遮挡感知型和遮挡无关型。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 遮挡鲁棒性
-  - SAM
-  - 内窥镜
-  - 基准测试
-  - 分割
+  - "CVPR 2026"
+  - "语义分割"
+  - "遮挡鲁棒性"
+  - "SAM"
+  - "内窥镜"
+  - "基准测试"
+  - "分割"
 ---
 
 # Seeing Through the Tool: A Controlled Benchmark for Occlusion Robustness in Foundation Segmentation Models

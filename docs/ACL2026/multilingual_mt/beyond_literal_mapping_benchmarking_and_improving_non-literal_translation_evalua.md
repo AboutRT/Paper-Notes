@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Beyond Literal Mapping: Benchmarking and Improving Non-Literal Translation Evaluation
 description: >-
-  [ACL 2026][机器翻译评估] 构建非字面翻译元评估数据集 MENT（7,530 条人工标注），揭示传统指标和 LLM-as-Judge 在非字面翻译评估上的不可靠性，并提出 RATE 智能体评估框架，通过反思核心智能体动态调用子智能体，提升 3.2+ 点人类判断相关性。
+  [ACL 2026][多语言/翻译][机器翻译评估] 构建非字面翻译元评估数据集 MENT（7,530 条人工标注），揭示传统指标和 LLM-as-Judge 在非字面翻译评估上的不可靠性，并提出 RATE 智能体评估框架，通过反思核心智能体动态调用子智能体，提升 3.2+ 点人类判断相关性。
 tags:
-  - ACL 2026
-  - 机器翻译评估
-  - 非字面翻译
-  - 多语言翻译
-  - 智能体评估框架
-  - LLM-as-Judge
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "机器翻译评估"
+  - "非字面翻译"
+  - "元评估基准"
+  - "智能体评估框架"
+  - "LLM-as-Judge"
 ---
 
 # Beyond Literal Mapping: Benchmarking and Improving Non-Literal Translation Evaluation

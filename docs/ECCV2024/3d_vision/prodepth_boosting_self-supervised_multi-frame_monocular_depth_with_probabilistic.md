@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][自监督深度估计] 提出一种概率融合框架 ProDepth，通过辅助解码器推断动态区域不确定性，以加权几何均值自适应融合单帧和多帧深度概率分布来修正代价体中的错误匹配代价，并配合不确定性感知的损失重加权策略，在自监督多帧单目深度估计中取得 SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 自监督深度估计
-  - 多帧单目深度
-  - 概率融合
-  - 代价体调制
-  - 动态物体处理
+  - "ECCV 2024"
+  - "3D视觉"
+  - "自监督深度估计"
+  - "多帧单目深度"
+  - "概率融合"
+  - "代价体调制"
+  - "动态物体处理"
 ---
 
 # ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion

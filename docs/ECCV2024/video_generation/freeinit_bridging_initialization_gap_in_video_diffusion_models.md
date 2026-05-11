@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FreeInit: Bridging Initialization Gap in Video Diffusion Models
 description: >-
-  [ECCV 2024][视频扩散模型] 发现视频扩散模型存在训练-推理初始化差异（训练时低频信息泄露导致初始噪声具有时序相关性，而推理时使用无相关的高斯噪声），提出 FreeInit 通过迭代精炼初始噪声的时空低频成分来弥合该差异，显著提升视频生成的时序一致性。
+  [ECCV 2024][视频生成][视频扩散模型] 发现视频扩散模型存在训练-推理初始化差异（训练时低频信息泄露导致初始噪声具有时序相关性，而推理时使用无相关的高斯噪声），提出 FreeInit 通过迭代精炼初始噪声的时空低频成分来弥合该差异，显著提升视频生成的时序一致性。
 tags:
-  - ECCV 2024
-  - 视频扩散模型
-  - 噪声初始化
-  - 时序一致性
-  - 频率域
-  - 视频生成
+  - "ECCV 2024"
+  - "视频生成"
+  - "视频扩散模型"
+  - "噪声初始化"
+  - "时序一致性"
+  - "频率域"
+  - "推理策略"
 ---
 
 # FreeInit: Bridging Initialization Gap in Video Diffusion Models

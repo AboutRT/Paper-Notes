@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][图像去模糊] 本文提出 EVSSM，通过在单方向 SSM 扫描前施加交替的几何变换（转置/翻转）来高效捕获非局部信息，并设计高效判别性频域 FFN (EDFFN) 增强局部细节，在图像去模糊任务上以仅 1/4 的计算量超越了现有 SSM 方法并达到 SOTA。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 图像去模糊
-  - 状态空间模型
-  - Mamba
-  - 频域FFN
-  - 几何变换扫描
+  - "CVPR 2025"
+  - "图像恢复"
+  - "图像去模糊"
+  - "状态空间模型"
+  - "Mamba"
+  - "频域FFN"
+  - "几何变换扫描"
 ---
 
 # Efficient Visual State Space Model for Image Deblurring

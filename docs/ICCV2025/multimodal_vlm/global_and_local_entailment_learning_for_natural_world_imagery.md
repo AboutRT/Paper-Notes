@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Global and Local Entailment Learning for Natural World Imagery
 description: >-
-  [ICCV 2025][多模态][层次表示学习] 提出 Radial Cross-Modal Embeddings（RCME）框架，通过显式建模蕴含关系的传递性（transitivity），在视觉-语言模型中学习层次化表示，使模型能够在生命之树（Tree of Life）的任意分类等级上推理，在层次分类和检索任务上超越现有 SOTA。
+  [ICCV 2025][多模态VLM][层次表示学习] 提出 Radial Cross-Modal Embeddings（RCME）框架，通过显式建模蕴含关系的传递性（transitivity），在视觉-语言模型中学习层次化表示，使模型能够在生命之树（Tree of Life）的任意分类等级上推理…
 tags:
-  - ICCV 2025
-  - 多模态
-  - 层次表示学习
-  - 蕴含学习
-  - 多模态VLM
-  - 生物分类
-  - 偏序关系
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "层次表示学习"
+  - "蕴含学习"
+  - "视觉-语言模型"
+  - "生物分类"
+  - "偏序关系"
 ---
 
 # Global and Local Entailment Learning for Natural World Imagery

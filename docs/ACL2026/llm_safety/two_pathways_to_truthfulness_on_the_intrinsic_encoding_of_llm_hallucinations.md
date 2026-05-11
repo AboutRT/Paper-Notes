@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations
 description: >-
-  [ACL 2026][LLM安全][幻觉检测] 本文发现 LLM 内部编码真实性信号存在两条不同的信息通路：Question-Anchored（依赖问题到回答的信息流）和 Answer-Anchored（从生成答案本身提取自包含证据），两者与知识边界紧密关联，并据此提出 Mixture-of-Probes 和 Pathway Reweighting 两种通路感知的幻觉检测方法，AUC 提升达 10%。
+  [ACL 2026][LLM安全][幻觉检测] 本文发现 LLM 内部编码真实性信号存在两条不同的信息通路：Question-Anchored（依赖问题到回答的信息流）和 Answer-Anchored（从生成答案本身提取自包含证据），两者与知识边界紧密关联…
 tags:
-  - ACL 2026
-  - LLM安全
-  - 幻觉检测
-  - 真实性编码
-  - 注意力机制
-  - 信息通路
-  - 知识边界
+  - "ACL 2026"
+  - "LLM安全"
+  - "幻觉检测"
+  - "真实性编码"
+  - "注意力机制"
+  - "信息通路"
+  - "知识边界"
 ---
 
 # Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models
 description: >-
-  [ECCV 2024][多模态][visual grounding] Groma提出了将定位能力嵌入视觉tokenization过程的新范式——通过region proposer发现感兴趣区域并编码为region token，使MLLM无需依赖LLM输出坐标或外部模块即可实现高精度的referring和grounding，同时利用GPT-4V+visual prompting构建了首个视觉-文本双prompt的grounded chat数据集Groma Instruct。
+  [ECCV 2024][多模态VLM][visual grounding] Groma提出了将定位能力嵌入视觉tokenization过程的新范式——通过region proposer发现感兴趣区域并编码为region token…
 tags:
-  - ECCV 2024
-  - 多模态
-  - visual grounding
-  - Region Tokenization
-  - Grounding
-  - Referring
-  - 多模态大模型
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "visual grounding"
+  - "Region Tokenization"
+  - "Grounding"
+  - "Referring"
+  - "多模态大模型"
 ---
 
 # Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MergeBench: A Benchmark for Merging Domain-Specialized LLMs
 description: >-
-  [NeurIPS 2025][模型合并] MergeBench 是首个全面评估大规模领域特化 LLM 合并的基准套件，覆盖 Llama 和 Gemma 系列最大 9B 模型、五大任务领域和八种合并方法，从多任务性能、遗忘、运行效率三个维度提供系统化评估和实用指南。
+  [NeurIPS 2025][多语言/翻译][模型合并] MergeBench 是首个全面评估大规模领域特化 LLM 合并的基准套件，覆盖 Llama 和 Gemma 系列最大 9B 模型、五大任务领域和八种合并方法，从多任务性能、遗忘、运行效率三个维度提供系统化评估和实用指南。
 tags:
-  - NeurIPS 2025
-  - 模型合并
-  - 多语言翻译
-  - 任务向量
-  - LLM
-  - 多任务学习
+  - "NeurIPS 2025"
+  - "多语言/翻译"
+  - "模型合并"
+  - "benchmark"
+  - "任务向量"
+  - "LLM"
+  - "多任务学习"
 ---
 
 # MergeBench: A Benchmark for Merging Domain-Specialized LLMs

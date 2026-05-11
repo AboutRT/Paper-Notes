@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][reward modeling] 提出 LENS 框架，通过在 LLM 嵌入的潜在空间中利用 VAE 合成偏好数据对，绕过昂贵的文本生成过程，以极低计算成本（模型缩小 16000 倍、生成速度提升 18 倍）显著提升 reward model 性能。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - reward modeling
-  - latent space synthesis
-  - VAE
-  - 数据增强
-  - RLHF
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "reward modeling"
+  - "latent space synthesis"
+  - "VAE"
+  - "数据增强"
+  - "RLHF"
 ---
 
 # Limited Preference Data? Learning Better Reward Model with Latent Space Synthesis

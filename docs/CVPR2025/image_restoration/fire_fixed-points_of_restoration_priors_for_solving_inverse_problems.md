@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][逆问题] 本文提出 FiRe 框架，通过将通用图像恢复模型（去模糊、超分、修复等）与其训练时的退化算子复合，利用不动点理论推导出显式先验公式，扩展了传统 PnP 中仅限去噪先验的范围，并支持多恢复模型的集成，在多种逆问题上显著超越现有 PnP 和扩散方法。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 逆问题
-  - Plug-and-Play
-  - 图像先验
-  - 不动点
-  - 恢复模型集成
+  - "CVPR 2025"
+  - "图像恢复"
+  - "逆问题"
+  - "Plug-and-Play"
+  - "图像先验"
+  - "不动点"
+  - "恢复模型集成"
 ---
 
 # FiRe: Fixed-points of Restoration Priors for Solving Inverse Problems

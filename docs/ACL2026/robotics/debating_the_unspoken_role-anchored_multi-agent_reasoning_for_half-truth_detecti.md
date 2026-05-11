@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][机器人][半真半假检测] 提出RADAR框架，通过角色锚定（政客 vs 科学家）的多智能体辩论来检测基于遗漏上下文的半真半假信息，配合双阈值自适应早停机制，在噪声检索条件下一致超越单智能体和传统多智能体基线。
 tags:
-  - ACL 2026
-  - 机器人
-  - 半真半假检测
-  - 多智能体辩论
-  - 遗漏推理
-  - 角色锚定
-  - 自适应终止
+  - "ACL 2026"
+  - "机器人"
+  - "半真半假检测"
+  - "多智能体辩论"
+  - "遗漏推理"
+  - "角色锚定"
+  - "自适应终止"
 ---
 
 # Debating the Unspoken: Role-Anchored Multi-Agent Reasoning for Half-Truth Detection

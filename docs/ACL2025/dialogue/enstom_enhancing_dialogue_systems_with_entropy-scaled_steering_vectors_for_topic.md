@@ -2,14 +2,14 @@
 title: >-
   [论文解读] EnSToM: Enhancing Dialogue Systems with Entropy-Scaled Steering Vectors for Topic Maintenance
 description: >-
-  [ACL 2025][对话系统] 提出 EnSToM，一种基于熵缩放转向向量的轻量级方法，通过利用 LLM 内部层级熵分布差异来动态调整转向强度，在不修改模型参数的情况下提升任务导向对话系统的主题维持能力。
+  [ACL 2025][对话系统][主题一致性] 提出 EnSToM，一种基于熵缩放转向向量的轻量级方法，通过利用 LLM 内部层级熵分布差异来动态调整转向强度，在不修改模型参数的情况下提升任务导向对话系统的主题维持能力。
 tags:
-  - ACL 2025
-  - 对话系统
-  - 主题一致性
-  - 转向向量
-  - 熵缩放
-  - 激活工程
+  - "ACL 2025"
+  - "对话系统"
+  - "主题一致性"
+  - "转向向量"
+  - "熵缩放"
+  - "激活工程"
 ---
 
 # EnSToM: Enhancing Dialogue Systems with Entropy-Scaled Steering Vectors for Topic Maintenance

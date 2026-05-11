@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding
 description: >-
-  [CVPR 2025][多模态][长视频理解] 利用 LLM 内部的 KV 稀疏化能力实现长视频 token 压缩——引入视觉摘要 token（VST）将每段视频的视觉信息压缩到其 KV 中并卸载原始视觉 KV，配合动态压缩和课程学习，在单 A100 上处理 2048 帧，MLVU Dev 上超越 GPT-4o。
+  [CVPR 2025][多模态VLM][长视频理解] 利用 LLM 内部的 KV 稀疏化能力实现长视频 token 压缩——引入视觉摘要 token（VST）将每段视频的视觉信息压缩到其 KV 中并卸载原始视觉 KV，配合动态压缩和课程学习，在单 A100 上处理 2048 帧…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - KV缓存压缩
-  - 视觉摘要token
-  - 课程学习
-  - 小时级视频
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "长视频理解"
+  - "KV缓存压缩"
+  - "视觉摘要token"
+  - "课程学习"
+  - "小时级视频"
 ---
 
 # Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding

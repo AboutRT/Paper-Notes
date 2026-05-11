@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][科学计算][物理推理] 提出 Causal-PIK，通过将物理因果相似性编码为贝叶斯优化的核函数（Physics-Informed Kernel），使智能体在物理推理任务中仅需极少次尝试即可找到最优动作，在 Virtual Tools 和 PHYRE 基准上超越 SOTA。
 tags:
-  - ICML 2025
-  - 科学计算
-  - 物理推理
-  - 因果推理
-  - 贝叶斯优化
-  - 物理信息核函数
-  - 主动探索
+  - "ICML 2025"
+  - "科学计算"
+  - "物理推理"
+  - "因果推理"
+  - "贝叶斯优化"
+  - "物理信息核函数"
+  - "主动探索"
 ---
 
 # Causal-PIK: Causality-based Physical Reasoning with a Physics-Informed Kernel

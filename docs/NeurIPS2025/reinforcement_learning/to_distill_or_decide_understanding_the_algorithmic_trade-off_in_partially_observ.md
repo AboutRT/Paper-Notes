@@ -2,14 +2,15 @@
 title: >-
   [论文解读] To Distill or Decide? Understanding the Algorithmic Trade-off in Partially Observable Reinforcement Learning
 description: >-
-  [NeurIPS 2025][部分可观测] 通过一个理论模型（perturbed Block MDP）和模拟运动控制实验，系统研究了部分可观测 RL 中**特权专家蒸馏** (privileged expert distillation) 与**标准 RL**（无特权信息）之间的算法权衡，发现权衡关键取决于隐状态动力学的随机性。
+  [NeurIPS 2025][强化学习][部分可观测] 通过一个理论模型（perturbed Block MDP）和模拟运动控制实验，系统研究了部分可观测 RL 中**特权专家蒸馏** (privileged expert distillation) 与**标准 RL**（无特权信息）之间的算法权衡…
 tags:
-  - NeurIPS 2025
-  - 部分可观测
-  - 特权信息
-  - 强化学习
-  - Block MDP
-  - 算法权衡
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "部分可观测"
+  - "特权信息"
+  - "专家蒸馏"
+  - "Block MDP"
+  - "算法权衡"
 ---
 
 # To Distill or Decide? Understanding the Algorithmic Trade-off in Partially Observable Reinforcement Learning

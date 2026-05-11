@@ -1,14 +1,27 @@
 ---
 title: >-
-  ACL2026 640篇论文解读
+  ACL2026 639篇论文解读
 description: >-
-  640篇ACL2026论文解读，涵盖多模态 VLM(50篇)、信息检索/RAG(43篇)、模型压缩(42篇)、LLM Agent(41篇)、LLM 评测(40篇)、医学图像(40篇)、LLM 推理(37篇)、LLM / NLP(36篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  639篇ACL2026论文解读，涵盖多模态 VLM(50篇)、信息检索/RAG(43篇)、模型压缩(42篇)、LLM Agent(41篇)、LLM 评测(40篇)、医学图像(40篇)、LLM 推理(37篇)、LLM / NLP(35篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ACL2026"
+  - "AI顶会"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态 VLM"
+  - "信息检索/RAG"
+  - "模型压缩"
+  - "LLM Agent"
+  - "LLM 评测"
+  - "医学图像"
+  - "LLM 推理"
+  - "LLM / NLP"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 ACL2026 论文笔记
 
-640篇ACL2026论文解读，涵盖多模态 VLM(50篇)、信息检索/RAG(43篇)、模型压缩(42篇)、LLM Agent(41篇)、LLM 评测(40篇)、医学图像(40篇)、LLM 推理(37篇)、LLM / NLP(36篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+639篇ACL2026论文解读，涵盖多模态 VLM(50篇)、信息检索/RAG(43篇)、模型压缩(42篇)、LLM Agent(41篇)、LLM 评测(40篇)、医学图像(40篇)、LLM 推理(37篇)、LLM / NLP(35篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -1251,10 +1264,6 @@ description: >-
 **[Detoxification for LLM from Dataset Itself](llm_nlp/detoxification_for_llm_from_dataset_itself.md)**
 
 :   本文提出 HSPD（层次化语义保留去毒）流水线，通过 SoCD（软对比解码）引导 LLM 定位并重写原始语料中的有毒片段，同时保留语义，生成可直接替换原始数据用于微调的去毒语料——在 GPT2-XL 上将毒性概率从 0.42 降至 0.18，在 LLaMA2-7B、OPT-6.7B 和 Falcon-7B 上也取得了最优去毒效果。
-
-**[DiZiNER: Disagreement-guided Instruction Refinement via Pilot Annotation Simulation for Zero-shot NER](llm_nlp/diziner_disagreement-guided_instruction_refinement_via_pilot_annotation_simulati.md)**
-
-:   DiZiNER 模拟人类试标注流程：多个异构 LLM 独立标注同一文本，分析模型间分歧来迭代精炼任务指令，在 18 个 NER 基准中的 14 个上达到零样本 SOTA，平均 F1 提升 +8.0，且超越其监督模型 GPT-5 mini。
 
 **[Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models](llm_nlp/don39t_adapt_small_language_models_for_tools_adapt_tool_schemas_to_the_models.md)**
 

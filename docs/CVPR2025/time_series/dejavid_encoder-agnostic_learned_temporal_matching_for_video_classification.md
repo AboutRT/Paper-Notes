@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DejaVid: Encoder-Agnostic Learned Temporal Matching for Video Classification
 description: >-
-  [CVPR 2025][时间序列][视频分类] 提出 DejaVid，一种编码器无关的轻量级视频分类增强方法：将视频表示为变长时序嵌入序列 (TSE) 而非单个嵌入，通过学习每个时间步、每个特征维度的重要性权重，结合改进的可微分 DTW 算法做时序对齐分类，仅增加 <1.8% 参数就在 SSV2 达到 77.2%、K400 达到 89.1% 的 SOTA。
+  [CVPR 2025][时间序列][视频分类] 提出 DejaVid，一种编码器无关的轻量级视频分类增强方法：将视频表示为变长时序嵌入序列 (TSE) 而非单个嵌入，通过学习每个时间步、每个特征维度的重要性权重，结合改进的可微分 DTW 算法做时序对齐分类…
 tags:
-  - CVPR 2025
-  - 时间序列
-  - 视频分类
-  - Dynamic Time Warping
-  - 时序嵌入序列
-  - 编码器无关
-  - 轻量级后处理
+  - "CVPR 2025"
+  - "时间序列"
+  - "视频分类"
+  - "Dynamic Time Warping"
+  - "时序嵌入序列"
+  - "编码器无关"
+  - "轻量级后处理"
 ---
 
 # DejaVid: Encoder-Agnostic Learned Temporal Matching for Video Classification

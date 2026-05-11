@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][多模态VLM][零样本HOI检测] 提出 LAIN 框架，通过局部适配器（LA）和交互适配器（IA）增强 CLIP 表示的局部细粒度感知和交互推理能力，在多种零样本 HOI 检测设定下达到 SOTA。
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - 零样本HOI检测
-  - CLIP适配
-  - 局部感知
-  - 交互推理
-  - 视觉语言模型
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "零样本HOI检测"
+  - "CLIP适配"
+  - "局部感知"
+  - "交互推理"
+  - "视觉语言模型"
 ---
 
 # Locality-Aware Zero-Shot Human-Object Interaction Detection

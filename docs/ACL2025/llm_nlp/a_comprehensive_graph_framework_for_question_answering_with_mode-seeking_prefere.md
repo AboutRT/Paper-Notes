@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Comprehensive Graph Framework for Question Answering with Mode-Seeking Preference Alignment
 description: >-
-  [ACL 2025 Findings][NLP理解][RAG] 提出GraphMPA框架，通过构建基于通用相似度度量的层次化文档图实现全局文档理解，并引入mode-seeking偏好优化替代传统DPO实现更精准的人类偏好对齐，在6个QA数据集上全面超越现有RAG方法。
+  [ACL 2025 Findings][LLM/NLP][RAG] 提出GraphMPA框架，通过构建基于通用相似度度量的层次化文档图实现全局文档理解，并引入mode-seeking偏好优化替代传统DPO实现更精准的人类偏好对齐，在6个QA数据集上全面超越现有RAG方法。
 tags:
-  - ACL 2025 Findings
-  - NLP理解
-  - RAG
-  - 层次化文档图
-  - 偏好对齐
-  - Mode-Seeking
-  - 社区检测
+  - "ACL 2025 Findings"
+  - "LLM/NLP"
+  - "RAG"
+  - "层次化文档图"
+  - "偏好对齐"
+  - "Mode-Seeking"
+  - "社区检测"
 ---
 
 # A Comprehensive Graph Framework for Question Answering with Mode-Seeking Preference Alignment

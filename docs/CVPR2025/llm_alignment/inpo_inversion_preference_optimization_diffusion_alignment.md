@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM对齐][扩散模型] 本文提出 DDIM-InPO，通过将扩散模型视为单步生成模型并利用 DDIM 反演技术找到与偏好数据高度相关的潜变量，实现仅需 400 步微调即可达到 SOTA 的高效扩散模型偏好对齐。
 tags:
-  - CVPR 2025
-  - LLM对齐
-  - 扩散模型
-  - DPO
-  - DDIM反演
-  - 偏好优化
-  - 人类偏好对齐
+  - "CVPR 2025"
+  - "LLM对齐"
+  - "扩散模型"
+  - "DPO"
+  - "DDIM反演"
+  - "偏好优化"
+  - "人类偏好对齐"
 ---
 
 # InPO: Inversion Preference Optimization with Reparametrized DDIM for Efficient Diffusion Model Alignment

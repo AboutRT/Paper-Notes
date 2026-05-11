@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Exhaustive Correlation for Spectral Super-Resolution: Where Spatial-Spectral Attention Meets Linear Dependence
 description: >-
-  [ECCV 2024][图像恢复][光谱超分辨率] 本文提出 Exhaustive Correlation Transformer (ECT)，通过光谱方向非连续3D切分策略 (SD3D) 建模统一的空间-光谱相关性，并通过动态低秩映射模块 (DLRM) 捕获多token间的线性依赖关系，在光谱超分辨率任务上以最少的参数量和最低的推理延迟实现了 SOTA 性能。
+  [ECCV 2024][图像恢复][光谱超分辨率] 本文提出 Exhaustive Correlation Transformer (ECT)，通过光谱方向非连续3D切分策略 (SD3D) 建模统一的空间-光谱相关性，并通过动态低秩映射模块 (DLRM) 捕获多token间的线性依赖关系…
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 光谱超分辨率
-  - Transformer
-  - 空间-光谱注意力
-  - 低秩映射
-  - 高光谱图像
+  - "ECCV 2024"
+  - "图像恢复"
+  - "光谱超分辨率"
+  - "Transformer"
+  - "空间-光谱注意力"
+  - "低秩映射"
+  - "高光谱图像"
 ---
 
 # Learning Exhaustive Correlation for Spectral Super-Resolution: Where Spatial-Spectral Attention Meets Linear Dependence

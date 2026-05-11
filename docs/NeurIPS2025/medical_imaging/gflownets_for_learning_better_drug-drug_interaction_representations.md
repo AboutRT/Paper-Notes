@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][药物相互作用] 针对药物-药物相互作用（DDI）预测中严重的类别不平衡问题，本文提出将 GFlowNet 与变分图自编码器（VGAE）结合，通过奖励引导的生成采样为稀有交互类型生成合成样本，从而增强模型在罕见但临床关键的交互类型上的预测能力。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 药物相互作用
-  - GFlowNet
-  - 变分图自编码器
-  - 类别不平衡
-  - 图生成
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "药物相互作用"
+  - "GFlowNet"
+  - "变分图自编码器"
+  - "类别不平衡"
+  - "图生成"
 ---
 
 # GFlowNets for Learning Better Drug-Drug Interaction Representations

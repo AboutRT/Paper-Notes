@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning
 description: >-
-  [CVPR 2026][多模态][声源定位] 本文提出了一个无需训练的声源定位框架 GAR-SSL，通过将声源定位重新建模为"生成-分析-精炼"的三阶段元认知推理过程，直接利用多模态大语言模型 (MLLM) 的内在推理能力进行音视频定位，在单源和多源定位基准上取得了与训练方法可比甚至更优的性能。
+  [CVPR 2026][多模态VLM][声源定位] 本文提出了一个无需训练的声源定位框架 GAR-SSL，通过将声源定位重新建模为"生成-分析-精炼"的三阶段元认知推理过程，直接利用多模态大语言模型 (MLLM) 的内在推理能力进行音视频定位，在单源和多源定位基准上取得了与训练方法可比甚至更优的性能。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 声源定位
-  - 多模态VLM
-  - 训练免微调
-  - 元推理
-  - 音视频一致性
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "声源定位"
+  - "多模态大语言模型"
+  - "训练免微调"
+  - "元推理"
+  - "音视频一致性"
 ---
 
 # Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning

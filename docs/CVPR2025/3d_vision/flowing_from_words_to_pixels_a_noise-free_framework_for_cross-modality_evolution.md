@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution
 description: >-
-  [CVPR 2025][3D视觉][跨模态生成] 提出 CrossFlow，一个通用的跨模态 Flow Matching 框架，直接从一种模态的数据分布演化到另一种模态的分布（而非从噪声出发），无需交叉注意力条件机制，在文本到图像生成上略优于标准 Flow Matching 基线，并展现出更好的模型规模和训练步数的缩放特性。
+  [CVPR 2025][3D视觉][跨模态生成] 提出 CrossFlow，一个通用的跨模态 Flow Matching 框架，直接从一种模态的数据分布演化到另一种模态的分布（而非从噪声出发），无需交叉注意力条件机制，在文本到图像生成上略优于标准 Flow Matching 基线…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 跨模态生成
-  - Flow Matching
-  - 文本到图像
-  - 无噪声源分布
-  - 变分编码器
+  - "CVPR 2025"
+  - "3D视觉"
+  - "跨模态生成"
+  - "Flow Matching"
+  - "文本到图像"
+  - "无噪声源分布"
+  - "变分编码器"
 ---
 
 # Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution

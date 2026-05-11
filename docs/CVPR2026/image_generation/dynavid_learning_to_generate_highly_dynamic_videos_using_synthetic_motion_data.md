@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][视频扩散模型] DynaVid 提出利用计算机图形学渲染的合成光流（而非合成视频）来训练视频扩散模型，通过运动生成器+运动引导视频生成器的两阶段框架，实现了高度动态运动的逼真视频合成和精细相机控制。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 视频扩散模型
-  - 合成运动数据
-  - 光流
-  - 动态运动生成
-  - 相机控制
+  - "CVPR 2026"
+  - "图像生成"
+  - "视频扩散模型"
+  - "合成运动数据"
+  - "光流"
+  - "动态运动生成"
+  - "相机控制"
 ---
 
 # DynaVid: Learning to Generate Highly Dynamic Videos using Synthetic Motion Data

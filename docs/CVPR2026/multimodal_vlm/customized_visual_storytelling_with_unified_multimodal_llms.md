@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Customized Visual Storytelling with Unified Multimodal LLMs
 description: >-
-  [CVPR 2026][多模态][视觉故事生成] 提出 VstoryGen 框架和核心组件 CustFilmer，基于统一多模态大语言模型（UMLLM）实现多模态故事定制生成，支持文本描述、角色/场景参考图像和镜头类型的联合条件控制，并构建了 MSB 和 M2SB 两个新 benchmark。
+  [CVPR 2026][多模态VLM][视觉故事生成] 提出 VstoryGen 框架和核心组件 CustFilmer，基于统一多模态大语言模型（UMLLM）实现多模态故事定制生成，支持文本描述、角色/场景参考图像和镜头类型的联合条件控制，并构建了 MSB 和 M2SB 两个新 benchmark。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 视觉故事生成
-  - 多模态定制
-  - 多模态VLM
-  - 镜头类型控制
-  - 关键帧生成
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视觉故事生成"
+  - "多模态定制"
+  - "统一多模态LLM"
+  - "镜头类型控制"
+  - "关键帧生成"
 ---
 
 # Customized Visual Storytelling with Unified Multimodal LLMs

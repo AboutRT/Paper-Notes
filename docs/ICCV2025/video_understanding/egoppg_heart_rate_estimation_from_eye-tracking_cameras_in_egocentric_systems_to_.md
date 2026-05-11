@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][视频理解][egocentric vision] 提出egoPPG这一新的自中心视觉任务，通过PulseFormer方法从未修改的自中心头戴设备的眼部追踪摄像头估计心率（MAE=7.67 bpm），并证明心率估计在EgoExo4D的技能水平评估下游任务中可提升14.1%的准确率。
 tags:
-  - ICCV 2025
-  - 视频理解
-  - egocentric vision
-  - heart rate estimation
-  - rPPG
-  - eye tracking
-  - physiological sensing
+  - "ICCV 2025"
+  - "视频理解"
+  - "egocentric vision"
+  - "heart rate estimation"
+  - "rPPG"
+  - "eye tracking"
+  - "physiological sensing"
 ---
 
 # egoPPG: Heart Rate Estimation from Eye-Tracking Cameras in Egocentric Systems to Benefit Downstream Vision Tasks

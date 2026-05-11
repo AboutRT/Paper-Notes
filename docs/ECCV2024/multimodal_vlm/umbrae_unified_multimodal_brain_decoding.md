@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UMBRAE: Unified Multimodal Brain Decoding
 description: >-
-  [ECCV 2024][多模态][脑信号解码] 提出UMBRAE，通过通用脑编码器将fMRI信号与图像特征对齐后送入冻结的MLLM，实现多模态脑解码（描述、定位、检索、视觉重建），并创新性地引入跨被试训练策略，使单一模型服务多个被试且优于单被试模型。
+  [ECCV 2024][多模态VLM][脑信号解码] 提出UMBRAE，通过通用脑编码器将fMRI信号与图像特征对齐后送入冻结的MLLM，实现多模态脑解码（描述、定位、检索、视觉重建），并创新性地引入跨被试训练策略，使单一模型服务多个被试且优于单被试模型。
 tags:
-  - ECCV 2024
-  - 多模态
-  - 脑信号解码
-  - fMRI
-  - 跨被试训练
-  - 多模态VLM
-  - 脑-视觉对齐
+  - "ECCV 2024"
+  - "多模态VLM"
+  - "脑信号解码"
+  - "fMRI"
+  - "跨被试训练"
+  - "多模态LLM"
+  - "脑-视觉对齐"
 ---
 
 # UMBRAE: Unified Multimodal Brain Decoding

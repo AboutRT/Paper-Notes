@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][hyperspectral imaging] 首次将 3DGS 成功扩展到高光谱新视角合成（HNVS），通过在学习的潜在空间中进行高光谱渲染，配合自适应密度控制与像素级光谱剪枝，实现高维光谱数据的高效准确重建。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - hyperspectral imaging
-  - 3D Gaussian Splatting
-  - novel view synthesis
-  - latent space
-  - spectral reconstruction
+  - "CVPR 2025"
+  - "3D视觉"
+  - "hyperspectral imaging"
+  - "3D Gaussian Splatting"
+  - "novel view synthesis"
+  - "latent space"
+  - "spectral reconstruction"
 ---
 
 # HyperGS: Hyperspectral 3D Gaussian Splatting

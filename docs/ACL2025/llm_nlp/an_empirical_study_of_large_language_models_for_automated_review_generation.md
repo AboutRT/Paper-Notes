@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][自动评审生成] 本文是一项系统性实证研究，评估了多种大语言模型在自动生成学术论文同行评审方面的能力，分析了生成评审的质量、一致性和实用性，并揭示了当前LLM在评审生成任务上的优势、不足和改进方向。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 自动评审生成
-  - 大语言模型
-  - 学术同行评审
-  - 文本生成质量
-  - 评审自动化
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "自动评审生成"
+  - "大语言模型"
+  - "学术同行评审"
+  - "文本生成质量"
+  - "评审自动化"
 ---
 
 # An Empirical Study of Large Language Models for Automated Review Generation

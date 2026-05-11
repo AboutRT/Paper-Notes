@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][lightweight network] 提出 MobileMamba 轻量级视觉网络，通过三阶段粗粒度架构设计和 MRFFI 细粒度模块（融合 Mamba 全局建模、多核卷积多尺度感知和 Identity 冗余消除），在分类和下游高分辨率任务上实现速度与精度的最优平衡。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - lightweight network
-  - Mamba
-  - SSM
-  - multi-receptive field
-  - wavelet transform
-  - efficient inference
+  - "CVPR 2025"
+  - "模型压缩"
+  - "lightweight network"
+  - "Mamba"
+  - "SSM"
+  - "multi-receptive field"
+  - "wavelet transform"
+  - "efficient inference"
 ---
 
 # MobileMamba: Lightweight Multi-Receptive Visual Mamba Network

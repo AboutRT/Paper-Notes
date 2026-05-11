@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs
 description: >-
-  [ACL 2025][文本生成][media bias mitigation] 构建多文档事件关系图（包含四类文档内事件关系、跨文档事件共指、事件级道德观点），通过图文本化和图提示微调两种策略将偏见信息注入 LLM，生成去偏见的中立化摘要，在内容保留和偏见消除上均优于基线。
+  [ACL 2025][LLM/NLP][media bias mitigation] 构建多文档事件关系图（包含四类文档内事件关系、跨文档事件共指、事件级道德观点），通过图文本化和图提示微调两种策略将偏见信息注入 LLM，生成去偏见的中立化摘要，在内容保留和偏见消除上均优于基线。
 tags:
-  - ACL 2025
-  - 文本生成
-  - media bias mitigation
-  - neutralized summarization
-  - event relation graph
-  - multi-document summarization
-  - 提示学习
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "media bias mitigation"
+  - "neutralized summarization"
+  - "event relation graph"
+  - "multi-document summarization"
+  - "提示学习"
 ---
 
 # Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs

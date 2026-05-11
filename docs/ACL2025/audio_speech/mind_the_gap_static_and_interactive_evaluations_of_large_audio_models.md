@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Mind the Gap! Static and Interactive Evaluations of Large Audio Models
 description: >-
-  [ACL2025][语音][大型音频模型] 本文通过收集 484 名参与者的 7,500 次交互评估数据，首次系统比较了大型音频模型（LAM）的静态基准和交互式评估表现，发现两者之间存在显著差距（$R^2=0.30$），并揭示了用户对 LAM 的真实使用场景和偏好。
+  [ACL2025][音频/语音][大型音频模型] 本文通过收集 484 名参与者的 7,500 次交互评估数据，首次系统比较了大型音频模型（LAM）的静态基准和交互式评估表现，发现两者之间存在显著差距（$R^2=0.30$），并揭示了用户对 LAM 的真实使用场景和偏好。
 tags:
-  - ACL2025
-  - 语音
-  - 大型音频模型
-  - 音频语音
-  - 用户偏好
-  - 语音基准
-  - LAM
+  - "ACL2025"
+  - "音频/语音"
+  - "大型音频模型"
+  - "交互式评估"
+  - "用户偏好"
+  - "语音基准"
+  - "LAM"
 ---
 
 # Mind the Gap! Static and Interactive Evaluations of Large Audio Models

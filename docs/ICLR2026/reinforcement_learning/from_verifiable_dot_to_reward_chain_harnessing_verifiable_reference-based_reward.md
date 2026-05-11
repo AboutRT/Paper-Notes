@@ -2,14 +2,15 @@
 title: >-
   [论文解读] From Verifiable Dot to Reward Chain: Harnessing Verifiable Reference-based Rewards for RL of Open-ended Generation
 description: >-
-  [ICLR 2026][RLVR] 提出 RLVRR 框架，将 RLVR（强化学习+可验证奖励）从数学/代码推理扩展到开放式文本生成：从高质量参考答案中提取关键词序列（内容奖励）和可执行 Python 检查函数（风格奖励），构成"奖励链"替代单点验证信号，在 10+ 个 benchmark 上以 10K 数据超越 100K SFT 和高级奖励模型。
+  [ICLR 2026][强化学习][RLVR] 提出 RLVRR 框架，将 RLVR（强化学习+可验证奖励）从数学/代码推理扩展到开放式文本生成：从高质量参考答案中提取关键词序列（内容奖励）和可执行 Python 检查函数（风格奖励），构成"奖励链"替代单点验证信号…
 tags:
-  - ICLR 2026
-  - RLVR
-  - 开放式生成
-  - 奖励链
-  - 可验证奖励
-  - GRPO
+  - "ICLR 2026"
+  - "强化学习"
+  - "RLVR"
+  - "开放式生成"
+  - "奖励链"
+  - "可验证奖励"
+  - "GRPO"
 ---
 
 # From Verifiable Dot to Reward Chain: Harnessing Verifiable Reference-based Rewards for RL of Open-ended Generation
@@ -52,7 +53,7 @@ RLVRR 两阶段：
 1. **两级层次关键词提取（内容奖励）**:
 
     - 功能：从参考答案中提取核心内容的可验证关键词
-    - 核心思路：LLM 先提取 M 个 key points（如"解释风险"、"拒绝有害请求"），每个 key point 下再提取具体关键词（<3 词）。内容奖励用 LCS（最长公共子序列）计算 rollout 与参考关键词的对齐度：$r_c = \frac{1}{M}\sum_{m=1}^{M}\frac{\text{len}(\text{LCS}(K_z^m, K_y^m))}{\max(\text{len}(K_z^m), \text{len}(K_y^m))}$
+    - 核心思路：LLM 先提取 M 个 key points（如"解释风险"、"拒绝有害请求"），每个 key point 下再提取具体关键词（&lt;3 词）。内容奖励用 LCS（最长公共子序列）计算 rollout 与参考关键词的对齐度：$r_c = \frac{1}{M}\sum_{m=1}^{M}\frac{\text{len}(\text{LCS}(K_z^m, K_y^m))}{\max(\text{len}(K_z^m), \text{len}(K_y^m))}$
     - 设计动机：两级提取比直接提关键词覆盖更广更系统；LCS 保留了关键词顺序和重复，比 bag-of-words 更精细；关键词仅占参考的约 15%，保持灵活的表达空间
 
 2. **Python 验证函数（风格奖励）**:

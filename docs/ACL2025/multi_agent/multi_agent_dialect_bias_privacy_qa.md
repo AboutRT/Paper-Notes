@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Multi-Agent Framework for Mitigating Dialect Biases in Privacy Policy Question-Answering Systems
 description: >-
-  [ACL 2025][LLM Agent][多智能体] 提出一个双 Agent 框架（Dialect Agent + Privacy Policy Agent），通过方言感知翻译和迭代协作来消除隐私政策QA系统在不同英语方言间的性能差距，无需重训练或方言特定微调，在 PrivacyQA 和 PolicyQA 上将方言间最大性能差距降低最高 82%。
+  [ACL 2025][LLM Agent][多智能体] 提出一个双 Agent 框架（Dialect Agent + Privacy Policy Agent），通过方言感知翻译和迭代协作来消除隐私政策QA系统在不同英语方言间的性能差距，无需重训练或方言特定微调…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - 多智能体
-  - 方言偏差
-  - 隐私政策QA
-  - 公平性
-  - LLM协作
+  - "ACL 2025"
+  - "LLM Agent"
+  - "多智能体"
+  - "方言偏差"
+  - "隐私政策QA"
+  - "公平性"
+  - "LLM协作"
 ---
 
 # A Multi-Agent Framework for Mitigating Dialect Biases in Privacy Policy Question-Answering Systems

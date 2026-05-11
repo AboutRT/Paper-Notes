@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型聚类] 在高斯混合模型的聚类框架中，统一解决变量选择（区分信号变量、冗余变量和噪声变量）与MNAR缺失数据建模，通过两阶段策略（LASSO惩罚排序加BIC角色分配）和谱距离自适应惩罚权重实现高维场景下的高效推理，并证明了可辨识性和渐近选择一致性。
 tags:
-  - NeurIPS 2025
-  - 模型聚类
-  - 变量选择
-  - MNAR缺失
-  - 高斯混合模型
-  - LASSO惩罚
-  - BIC一致性
+  - "NeurIPS 2025"
+  - "模型聚类"
+  - "变量选择"
+  - "MNAR缺失"
+  - "高斯混合模型"
+  - "LASSO惩罚"
+  - "BIC一致性"
 ---
 
 # A Unified Framework for Variable Selection in Model-Based Clustering with Missing Not at Random
@@ -73,9 +73,9 @@ Stage A使用惩罚对数似然（含ℓ1均值惩罚和adaptive glasso精度矩
 | 模型 | 平均ARI | 标准差 | vs SelvarMNARz | p值 |
 |------|---------|--------|---------------|-----|
 | **SelvarMNARz** | **0.511** | 0.052 | — | — |
-| Clustvarsel | 0.363 | 0.088 | 显著差于 | <0.001 |
-| Selvar | 0.348 | 0.108 | 显著差于 | <0.001 |
-| VarSelLCM | 0.344 | 0.101 | 显著差于 | <0.001 |
+| Clustvarsel | 0.363 | 0.088 | 显著差于 | &lt;0.001 |
+| Selvar | 0.348 | 0.108 | 显著差于 | &lt;0.001 |
+| VarSelLCM | 0.344 | 0.101 | 显著差于 | &lt;0.001 |
 
 ### 消融实验
 

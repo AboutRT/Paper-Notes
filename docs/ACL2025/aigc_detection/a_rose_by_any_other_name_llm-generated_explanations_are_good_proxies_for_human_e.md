@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI
 description: >-
-  [ACL 2025][人工判断分布] 提出用 LLM 生成的 NLI 解释替代昂贵的人工解释来近似人工判断分布（HJD），实验表明在提供人工标签引导的条件下，LLM 生成的解释与人工解释在 KL 散度、JSD 等指标上效果相当，并可推广到无人工解释的数据集（MNLI）和域外测试集（ANLI）。
+  [ACL 2025][AIGC检测][人工判断分布] 提出用 LLM 生成的 NLI 解释替代昂贵的人工解释来近似人工判断分布（HJD），实验表明在提供人工标签引导的条件下，LLM 生成的解释与人工解释在 KL 散度、JSD 等指标上效果相当，并可推广到无人工解释的数据集（MNLI）和域外测试集（ANLI）。
 tags:
-  - ACL 2025
-  - 人工判断分布
-  - NLI
-  - AIGC检测
-  - 标签变异
-  - 标注分歧
+  - "ACL 2025"
+  - "AIGC检测"
+  - "人工判断分布"
+  - "NLI"
+  - "LLM解释生成"
+  - "标签变异"
+  - "标注分歧"
 ---
 
 # A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI

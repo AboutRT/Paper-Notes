@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ICML2025][模型压缩][核方法] 提出 Joker 框架，通过对偶块坐标下降 + 信赖域 (DBCD-TR) 和随机傅里叶特征近似，以 ~2GB 内存实现多种大规模核模型（KRR / KLR / SVM 等）的统一高效训练，内存节省高达 90% 且性能不降。
 tags:
-  - ICML2025
-  - 模型压缩
-  - 核方法
-  - 大规模学习
-  - 对偶优化
-  - 块坐标下降
-  - 信赖域方法
-  - 随机傅里叶特征
-  - 低内存
+  - "ICML2025"
+  - "模型压缩"
+  - "核方法"
+  - "大规模学习"
+  - "对偶优化"
+  - "块坐标下降"
+  - "信赖域方法"
+  - "随机傅里叶特征"
+  - "低内存"
 ---
 
 # Joker: Joint Optimization Framework for Lightweight Kernel Machines
@@ -98,10 +98,10 @@ $$\boldsymbol{K}_{\mathcal{B},:}\boldsymbol{\alpha} = \boldsymbol{\psi}(\boldsym
 
 | 方法 | 类型 | 内存 | 时间 | 支持模型 |
 |------|------|------|------|---------|
-| Falkon | 近似核 | >50GB | <1h | KRR |
-| LogFalkon | 近似核 | >50GB | <1h | KLR |
+| Falkon | 近似核 | >50GB | &lt;1h | KRR |
+| LogFalkon | 近似核 | >50GB | &lt;1h | KLR |
 | EigenPro3 | 近似核 | ~7GB | >15h | KRR |
-| LIBSVM | 精确核 | <2GB | >1周 | SVC/SVR |
+| LIBSVM | 精确核 | &lt;2GB | >1周 | SVC/SVR |
 | ThunderSVM | 精确核 | ~8GB | >1周 | SVC/SVR |
 | **Joker** | **混合** | **~2GB** | **~1h** | **KRR/KLR/SVM 等** |
 

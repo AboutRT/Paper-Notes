@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM/NLP][Transformer] 将空间-时间注意力机制融入脉冲Transformer架构，通过时空解耦的注意力设计和脉冲驱动的自注意机制，在保持SNN能效优势的同时缩小与ANN的性能差距，在多个视觉基准上达到SNN SOTA。
 tags:
-  - CVPR 2025
-  - LLM/NLP
-  - Transformer
-  - 时空注意力
-  - SNN
-  - 能效推理
-  - 代理梯度
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "Transformer"
+  - "时空注意力"
+  - "SNN"
+  - "能效推理"
+  - "代理梯度"
 ---
 
 # Spiking Transformer with Spatial-Temporal Attention

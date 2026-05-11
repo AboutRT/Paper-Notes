@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification
 description: >-
-  [CVPR 2025][自动驾驶][文本到图像行人重识别] 提出 Human Annotator Modeling (HAM) 方法，通过对人类标注描述进行风格特征提取和聚类，用可学习提示让 MLLM 模拟数千种人类标注风格，再结合 Uniform Prototype Sampling (UPS) 进一步增加风格多样性，自动构建大规模高质量文本-图像行人 ReID 数据集，在多个基准上大幅提升了 ReID 模型的泛化能力。
+  [CVPR 2025][自动驾驶][文本到图像行人重识别] 提出 Human Annotator Modeling (HAM) 方法，通过对人类标注描述进行风格特征提取和聚类，用可学习提示让 MLLM 模拟数千种人类标注风格…
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 文本到图像行人重识别
-  - 人类标注者建模
-  - 描述风格多样性
-  - 提示学习
-  - 大规模数据集构建
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "文本到图像行人重识别"
+  - "人类标注者建模"
+  - "描述风格多样性"
+  - "提示学习"
+  - "大规模数据集构建"
 ---
 
 # Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification

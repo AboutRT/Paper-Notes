@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Debiasing Diffusion Priors via 3D Attention for Consistent Gaussian Splatting
 description: >-
-  [AAAI 2026][3D视觉][3D Gaussian Splatting] 提出 TD-Attn 框架，通过 3D 感知注意力引导（3D-AAG）和层级注意力调制（HAM）两个模块，解决 T2I 扩散模型中先验视角偏差导致的 3D 生成/编辑多视图不一致问题（Janus problem），可作为通用插件集成到现有 3DGS 框架。
+  [AAAI 2026][3D视觉][3D Gaussian Splatting] 提出 TD-Attn 框架，通过 3D 感知注意力引导（3D-AAG）和层级注意力调制（HAM）两个模块，解决 T2I 扩散模型中先验视角偏差导致的 3D 生成/编辑多视图不一致问题（Janus problem）…
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 扩散模型
-  - 多视图一致性
-  - Janus问题
-  - 注意力调制
+  - "AAAI 2026"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "扩散模型"
+  - "多视图一致性"
+  - "Janus问题"
+  - "注意力调制"
 ---
 
 # Debiasing Diffusion Priors via 3D Attention for Consistent Gaussian Splatting

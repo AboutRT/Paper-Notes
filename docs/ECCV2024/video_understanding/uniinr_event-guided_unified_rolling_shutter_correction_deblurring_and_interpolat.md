@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][事件相机] 提出 UniINR 框架，利用统一的时空隐式神经表征（INR）从单张卷帘快门模糊帧和配对事件流中，一次性同时完成卷帘快门校正、去模糊和任意帧率的视频帧插值。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 事件相机
-  - 卷帘快门校正
-  - 去模糊
-  - 视频帧插值
-  - 隐式神经表征
+  - "ECCV 2024"
+  - "视频理解"
+  - "事件相机"
+  - "卷帘快门校正"
+  - "去模糊"
+  - "视频帧插值"
+  - "隐式神经表征"
 ---
 
 # UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation

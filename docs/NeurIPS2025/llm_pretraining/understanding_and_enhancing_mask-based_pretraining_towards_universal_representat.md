@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Understanding and Enhancing Mask-Based Pretraining towards Universal Representations
 description: >-
-  [NEURIPS2025][masked autoencoder] 用高维线性回归理论精确刻画了 mask-based pretraining 中掩码率对测试风险的影响（偏差-方差分解），揭示了最优掩码率依赖于任务和模型大小，并据此提出 R2MAE（随机随机掩码），在视觉、语言、DNA、单细胞模型上一致超越固定掩码率。
+  [NEURIPS2025][预训练][masked autoencoder] 用高维线性回归理论精确刻画了 mask-based pretraining 中掩码率对测试风险的影响（偏差-方差分解），揭示了最优掩码率依赖于任务和模型大小，并据此提出 R2MAE（随机随机掩码）…
 tags:
-  - NEURIPS2025
-  - masked autoencoder
-  - pretraining theory
-  - random matrix theory
-  - bias-variance tradeoff
-  - LLM预训练
+  - "NEURIPS2025"
+  - "预训练"
+  - "masked autoencoder"
+  - "pretraining theory"
+  - "random matrix theory"
+  - "bias-variance tradeoff"
+  - "R2MAE"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

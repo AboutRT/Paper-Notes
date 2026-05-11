@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary Lookup
 description: >-
-  [ICCV 2025][医学图像][异常检测] 受人类检查员"查字典"直觉启发，提出 DictAS 框架，将少样本异常分割重新定义为字典查询任务——若查询特征无法从正常样本字典中检索到则判定为异常——通过自监督训练获得类别无关的字典查询能力，在 7 个工业和医学数据集上的 FSAS 性能和推理速度均达到 SOTA。
+  [ICCV 2025][医学图像][异常检测] 受人类检查员"查字典"直觉启发，提出 DictAS 框架，将少样本异常分割重新定义为字典查询任务——若查询特征无法从正常样本字典中检索到则判定为异常——通过自监督训练获得类别无关的字典查询能力…
 tags:
-  - ICCV 2025
-  - 医学图像
-  - 异常检测
-  - 少样本异常分割
-  - 字典查询
-  - CLIP
-  - 自监督学习
+  - "ICCV 2025"
+  - "医学图像"
+  - "异常检测"
+  - "少样本异常分割"
+  - "字典查询"
+  - "CLIP"
+  - "自监督学习"
 ---
 
 # DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary Lookup

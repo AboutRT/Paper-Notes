@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Temporal Leakage in Search-Engine Date-Filtered Web Retrieval: A Retrospective Forecasting Case Study
 description: >-
-  [ACL 2026][时间序列][时间泄漏] 本文对 Google 和 DuckDuckGo 的日期过滤器进行系统审计，发现搜索引擎日期过滤在回顾性预测评估中严重失效——71%（Google）和 81%（DuckDuckGo）的问题至少有一个页面包含重大截止日期后信息泄漏，导致预测 Brier 分数从 0.24 虚降至 0.10。
+  [ACL 2026][时间序列][时间泄漏] 本文对 Google 和 DuckDuckGo 的日期过滤器进行系统审计，发现搜索引擎日期过滤在回顾性预测评估中严重失效——71%（Google）和 81%（DuckDuckGo）的问题至少有一个页面包含重大截止日期后信息泄漏…
 tags:
-  - ACL 2026
-  - 时间序列
-  - 时间泄漏
-  - 日期过滤
-  - 回顾性预测
-  - 搜索引擎审计
-  - 评估可靠性
+  - "ACL 2026"
+  - "时间序列"
+  - "时间泄漏"
+  - "日期过滤"
+  - "回顾性预测"
+  - "搜索引擎审计"
+  - "评估可靠性"
 ---
 
 # Temporal Leakage in Search-Engine Date-Filtered Web Retrieval: A Retrospective Forecasting Case Study

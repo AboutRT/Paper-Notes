@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Global-Aware Monocular Semantic Scene Completion with State Space Models
 description: >-
-  [ICCV 2025][3D视觉][语义场景补全] 提出GA-MonoSSC，一种结合Transformer（2D全局上下文）和Mamba（3D长程依赖）的混合架构用于室内单目语义场景补全，创新引入Frustum Mamba Layer解决体素序列化中的特征不连续性问题，在Occ-ScanNet和NYUv2上达到SOTA。
+  [ICCV 2025][3D视觉][语义场景补全] 提出GA-MonoSSC，一种结合Transformer（2D全局上下文）和Mamba（3D长程依赖）的混合架构用于室内单目语义场景补全，创新引入Frustum Mamba Layer解决体素序列化中的特征不连续性问题…
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 语义场景补全
-  - 室内场景
-  - 状态空间模型
-  - Mamba
-  - 单目
-  - Transformer
+  - "ICCV 2025"
+  - "3D视觉"
+  - "语义场景补全"
+  - "室内场景"
+  - "状态空间模型"
+  - "Mamba"
+  - "单目"
+  - "Transformer"
 ---
 
 # Global-Aware Monocular Semantic Scene Completion with State Space Models

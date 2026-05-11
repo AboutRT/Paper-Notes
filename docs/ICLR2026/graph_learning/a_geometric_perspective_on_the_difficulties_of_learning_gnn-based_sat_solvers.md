@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图学习][图神经网络] 从图 Ricci 曲率的几何视角证明随机 k-SAT 问题的二部图表示具有固有的负曲率，且曲率随问题难度增加而下降，建立了 GNN 过压缩 (oversquashing) 与 SAT 求解困难之间的理论联系，并通过测试时图重布线验证了该理论。
 tags:
-  - ICLR 2026
-  - 图学习
-  - 图神经网络
-  - SAT求解器
-  - Ricci曲率
-  - 过压缩
-  - 图几何
+  - "ICLR 2026"
+  - "图学习"
+  - "图神经网络"
+  - "SAT求解器"
+  - "Ricci曲率"
+  - "过压缩"
+  - "图几何"
 ---
 
 # A Geometric Perspective on the Difficulties of Learning GNN-based SAT Solvers

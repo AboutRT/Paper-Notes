@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth
 description: >-
-  [CVPR 2026][图像分割][RGB-D语义分割] GeomPrompt 为冻结的 RGB-D 分割模型学习轻量的几何提示模块，从 RGB 合成任务驱动的深度代理信号（无深度监督），在深度缺失时提升 6.1 mIoU，在深度退化时提升最高 3.6 mIoU。
+  [CVPR 2026][语义分割][RGB-D语义分割] GeomPrompt 为冻结的 RGB-D 分割模型学习轻量的几何提示模块，从 RGB 合成任务驱动的深度代理信号（无深度监督），在深度缺失时提升 6.1 mIoU，在深度退化时提升最高 3.6 mIoU。
 tags:
-  - CVPR 2026
-  - 图像分割
-  - RGB-D语义分割
-  - 深度缺失
-  - 模态鲁棒性
-  - 几何提示
-  - 轻量适配
+  - "CVPR 2026"
+  - "语义分割"
+  - "RGB-D语义分割"
+  - "深度缺失"
+  - "模态鲁棒性"
+  - "几何提示"
+  - "轻量适配"
 ---
 
 # GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth

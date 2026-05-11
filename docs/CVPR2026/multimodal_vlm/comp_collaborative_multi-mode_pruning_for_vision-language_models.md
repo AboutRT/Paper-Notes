@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CoMP: Collaborative Multi-Mode Pruning for Vision-Language Models
 description: >-
-  [CVPR 2026][多模态][模型剪枝] CoMP 提出协同多模式剪枝框架，通过协同重要性度量（CIM）消除参数和 token 剪枝指标间的不一致性，通过多模式剪枝策略（MPS）自适应选择每阶段的最优剪枝模式，在高剪枝比例下显著优于单模式和简单联合剪枝方案。
+  [CVPR 2026][多模态VLM][模型剪枝] CoMP 提出协同多模式剪枝框架，通过协同重要性度量（CIM）消除参数和 token 剪枝指标间的不一致性，通过多模式剪枝策略（MPS）自适应选择每阶段的最优剪枝模式，在高剪枝比例下显著优于单模式和简单联合剪枝方案。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - 视觉语言模型
-  - 参数剪枝
-  - Token剪枝
-  - 协同压缩
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "模型剪枝"
+  - "视觉语言模型"
+  - "参数剪枝"
+  - "Token剪枝"
+  - "协同压缩"
 ---
 
 # CoMP: Collaborative Multi-Mode Pruning for Vision-Language Models

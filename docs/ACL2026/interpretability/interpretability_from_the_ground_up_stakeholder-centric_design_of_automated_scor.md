@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Interpretability from the Ground Up
 description: >-
-  [ACL 2026][可解释自动评分] 本文从教育评估利益相关者需求出发提出 FGTI 四原则（忠实、扎根、可追溯、可互换），开发 AnalyticScore 三阶段框架实现可解释自动评分，在 ASAP-SAS 上平均 QWK 仅比不可解释 SOTA 低 0.06。
+  [ACL 2026][可解释性][可解释自动评分] 本文从教育评估利益相关者需求出发提出 FGTI 四原则（忠实、扎根、可追溯、可互换），开发 AnalyticScore 三阶段框架实现可解释自动评分，在 ASAP-SAS 上平均 QWK 仅比不可解释 SOTA 低 0.06。
 tags:
-  - ACL 2026
-  - 可解释自动评分
-  - 可解释性
-  - FGTI原则
-  - 分析性评分
-  - 利益相关者设计
+  - "ACL 2026"
+  - "可解释性"
+  - "可解释自动评分"
+  - "教育评估"
+  - "FGTI原则"
+  - "分析性评分"
+  - "利益相关者设计"
 ---
 
 # Interpretability from the Ground Up

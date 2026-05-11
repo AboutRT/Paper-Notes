@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Spectral Bellman Method: Unifying Representation and Exploration in RL
 description: >-
-  [ICLR 2026][表示学习] 提出 Spectral Bellman Method (SBM)，从零内在 Bellman 误差 (IBE) 条件出发发现 Bellman 算子与特征协方差的谱结构联系，推导出新的表示学习目标，并自然地统一了表示学习和 Thompson Sampling 探索。
+  [ICLR 2026][强化学习][表示学习] 提出 Spectral Bellman Method (SBM)，从零内在 Bellman 误差 (IBE) 条件出发发现 Bellman 算子与特征协方差的谱结构联系，推导出新的表示学习目标，并自然地统一了表示学习和 Thompson Sampling 探索。
 tags:
-  - ICLR 2026
-  - 表示学习
-  - 探索
-  - 强化学习
-  - 谱分解
-  - Thompson 采样
+  - "ICLR 2026"
+  - "强化学习"
+  - "表示学习"
+  - "探索"
+  - "Bellman 误差"
+  - "谱分解"
+  - "Thompson 采样"
 ---
 
 # Spectral Bellman Method: Unifying Representation and Exploration in RL

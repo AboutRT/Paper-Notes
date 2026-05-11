@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Battling against Tough Resister: Strategy Planning with Adversarial Game for Non-collaborative Dialogues
 description: >-
-  [ACL 2025][其他] 本文提出一种基于对抗博弈的策略规划框架，用于处理非合作对话（如说服、谈判）中面对顽固对手时的策略选择问题，通过建模对话双方的对抗动态来生成更有效的说服策略。
+  [ACL 2025][非合作对话] 本文提出一种基于对抗博弈的策略规划框架，用于处理非合作对话（如说服、谈判）中面对顽固对手时的策略选择问题，通过建模对话双方的对抗动态来生成更有效的说服策略。
 tags:
-  - ACL 2025
-  - 其他
-  - 对抗博弈
-  - 策略规划
-  - 说服对话
-  - 谈判
+  - "ACL 2025"
+  - "非合作对话"
+  - "对抗博弈"
+  - "策略规划"
+  - "说服对话"
+  - "谈判"
 ---
 
 # Battling against Tough Resister: Strategy Planning with Adversarial Game for Non-collaborative Dialogues

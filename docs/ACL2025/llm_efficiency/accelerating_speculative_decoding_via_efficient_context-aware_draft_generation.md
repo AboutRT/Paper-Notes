@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][推测解码] 本文提出了一种上下文感知的高效草稿生成策略来加速推测解码（Speculative Decoding），通过让草稿模型根据当前上下文动态调整生成质量，在保持输出一致性的前提下显著提升 LLM 推理吞吐量。
 tags:
-  - ACL 2025
-  - LLM效率
-  - 推测解码
-  - 上下文感知
-  - 草稿生成
-  - LLM推理加速
-  - 自回归解码
+  - "ACL 2025"
+  - "LLM效率"
+  - "推测解码"
+  - "上下文感知"
+  - "草稿生成"
+  - "LLM推理加速"
+  - "自回归解码"
 ---
 
 # Accelerating Speculative Decoding via Efficient Context-Aware Draft Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation
 description: >-
-  [CVPR 2025][多模态][图文交错生成] 本文提出 OpenING 基准（5,400 条人工标注实例、56 个真实场景任务）和 IntJudge 评判模型（与人类判断一致率 82.42%），填补了开放式图文交错生成评估的真空，发现当前集成管线（如 Gemini+Flux）大幅领先端到端模型，但所有方法仍远不及人类标注质量。
+  [CVPR 2025][多模态VLM][图文交错生成] 本文提出 OpenING 基准（5,400 条人工标注实例、56 个真实场景任务）和 IntJudge 评判模型（与人类判断一致率 82.42%），填补了开放式图文交错生成评估的真空，发现当前集成管线（如 Gemini+Flux）大幅领先端到端模型…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 图文交错生成
-  - 多模态VLM
-  - 评判模型
-  - 多模态生成
-  - 人类对齐
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "图文交错生成"
+  - "基准评估"
+  - "评判模型"
+  - "多模态生成"
+  - "人类对齐"
 ---
 
 # OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Adaptive Cooperative Transmission Design for URLLC via Deep RL
 description: >-
-  [NeurIPS 2025][URLLC] 提出 DRL-CoLA 算法，用双 Agent DQN 分别在源节点和中继节点上自适应配置 5G NR 传输参数（numerology、mini-slot、MCS），在两跳中继系统中仅用本地 CSI 即可达到接近全局 CSI 最优的 URLLC 可靠性。
+  [NeurIPS 2025][强化学习][URLLC] 提出 DRL-CoLA 算法，用双 Agent DQN 分别在源节点和中继节点上自适应配置 5G NR 传输参数（numerology、mini-slot、MCS），在两跳中继系统中仅用本地 CSI 即可达到接近全局 CSI 最优的 URLLC 可靠性。
 tags:
-  - NeurIPS 2025
-  - URLLC
-  - cooperative transmission
-  - 强化学习
-  - 5G NR
-  - dual-agent DQN
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "URLLC"
+  - "cooperative transmission"
+  - "5G NR"
+  - "dual-agent DQN"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][多模态VLM][image safety] 提出 CLUE 框架，通过规则客观化、CLIP 相关性扫描、前置条件链分解和去偏 token 概率分析，实现无需人工标注的零样本图像安全判定，在多个 MLLM 上大幅超越基线。
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - image safety
-  - MLLM
-  - zero-shot judgment
-  - safety constitution
-  - debiased token probability
-  - content moderation
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "image safety"
+  - "MLLM"
+  - "zero-shot judgment"
+  - "safety constitution"
+  - "debiased token probability"
+  - "content moderation"
 ---
 
 # MLLM-as-a-Judge for Image Safety without Human Labeling

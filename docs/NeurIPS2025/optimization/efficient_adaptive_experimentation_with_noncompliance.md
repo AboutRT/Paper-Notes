@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Efficient Adaptive Experimentation with Noncompliance
 description: >-
-  [NeurIPS 2025][优化][自适应实验] 提出 AMRIV——首个面向带非依从性（noncompliance）的自适应实验的半参数高效、多重鲁棒的ATE估计器，结合方差最优的工具变量分配策略和序贯推断保证。
+  [NeurIPS 2025][优化/理论][自适应实验] 提出 AMRIV——首个面向带非依从性（noncompliance）的自适应实验的半参数高效、多重鲁棒的ATE估计器，结合方差最优的工具变量分配策略和序贯推断保证。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 自适应实验
-  - 工具变量
-  - 非依从性
-  - 半参数效率
-  - 因果推断
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "自适应实验"
+  - "工具变量"
+  - "非依从性"
+  - "半参数效率"
+  - "因果推断"
 ---
 
 # Efficient Adaptive Experimentation with Noncompliance

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems
 description: >-
-  [ICML 2025][科学计算][Transformer] 提出 Erwin，一种基于 ball tree 分层结构的 Transformer 架构，通过将注意力计算限制在固定大小的局部球区域内，实现线性时间复杂度，同时通过渐进式粗化/细化和跨球交互机制捕获多尺度特征，在宇宙学、分子动力学、PDE 求解和粒子流体动力学多个领域达到 SOTA。
+  [ICML 2025][科学计算][Transformer] 提出 Erwin，一种基于 ball tree 分层结构的 Transformer 架构，通过将注意力计算限制在固定大小的局部球区域内，实现线性时间复杂度，同时通过渐进式粗化/细化和跨球交互机制捕获多尺度特征…
 tags:
-  - ICML 2025
-  - 科学计算
-  - Transformer
-  - Ball Tree
-  - 线性注意力
-  - 大规模物理系统
-  - 多尺度建模
+  - "ICML 2025"
+  - "科学计算"
+  - "Transformer"
+  - "Ball Tree"
+  - "线性注意力"
+  - "大规模物理系统"
+  - "多尺度建模"
 ---
 
 # Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems

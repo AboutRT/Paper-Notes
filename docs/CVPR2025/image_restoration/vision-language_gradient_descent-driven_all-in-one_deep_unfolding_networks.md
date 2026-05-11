@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][深度展开网络] 提出 VLU-Net，首个全合一(All-in-One)深度展开网络(DUN)框架，利用微调 CLIP 模型自动检测退化类型并引导梯度下降模块，结合层次化特征展开结构，在去雾上超越最佳端到端方法 3.74dB。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 深度展开网络
-  - 图像复原
-  - 全合一图像复原
-  - CLIP
-  - 退化感知
+  - "CVPR 2025"
+  - "图像恢复"
+  - "深度展开网络"
+  - "视觉语言模型"
+  - "全合一图像复原"
+  - "CLIP"
+  - "退化感知"
 ---
 
 # Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks

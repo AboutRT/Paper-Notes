@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BASIC: Boosting Visual Alignment with Intrinsic Refined Embeddings in Multimodal Large Language Models
 description: >-
-  [ICCV 2025][多模态][MLLM] 通过分析 LLM 浅层对视觉嵌入的语义精炼过程，提出 BASIC 方法，利用 LLM 内部精炼后的视觉嵌入作为监督信号，从方向对齐和语义分布两个维度直接指导视觉投射器生成更好的初始视觉嵌入。
+  [ICCV 2025][多模态VLM][MLLM] 通过分析 LLM 浅层对视觉嵌入的语义精炼过程，提出 BASIC 方法，利用 LLM 内部精炼后的视觉嵌入作为监督信号，从方向对齐和语义分布两个维度直接指导视觉投射器生成更好的初始视觉嵌入。
 tags:
-  - ICCV 2025
-  - 多模态
-  - MLLM
-  - 多模态VLM
-  - Self-Distillation
-  - Modality Alignment
-  - LLM Interpretability
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "MLLM"
+  - "Visual Embedding"
+  - "Self-Distillation"
+  - "Modality Alignment"
+  - "LLM Interpretability"
 ---
 
 # BASIC: Boosting Visual Alignment with Intrinsic Refined Embeddings in Multimodal Large Language Models

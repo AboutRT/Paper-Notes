@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][稀有图像检索] SearchAD 构建了首个面向自动驾驶的大规模稀有图像检索数据集，包含42万+帧图像、51万+标注框、90个稀有类别，支持文本到图像和图像到图像检索，并通过全面评估揭示当前多模态检索模型在稀有物体检索上的不足。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 稀有图像检索
-  - 长尾分布
-  - 语义检索
-  - 数据集基准
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "稀有图像检索"
+  - "长尾分布"
+  - "语义检索"
+  - "数据集基准"
 ---
 
 # SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving

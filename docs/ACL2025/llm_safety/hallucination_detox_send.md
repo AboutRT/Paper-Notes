@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training
 description: >-
-  [hallucination] 提出Sensitivity Dropout (SenD)训练协议，通过识别并确定性丢弃训练过程中波动最大的嵌入索引（Sensitive Embedding Indices），减少LLM训练中幻觉的振荡行为，同时提出高效EigenScore近似方法(EES)实现2倍加速。
+  [LLM安全][hallucination] 提出Sensitivity Dropout (SenD)训练协议，通过识别并确定性丢弃训练过程中波动最大的嵌入索引（Sensitive Embedding Indices），减少LLM训练中幻觉的振荡行为…
 tags:
-  - hallucination
-  - dropout
-  - training dynamics
-  - EigenScore
-  - LLM安全
+  - "LLM安全"
+  - "hallucination"
+  - "dropout"
+  - "training dynamics"
+  - "EigenScore"
+  - "sensitive embedding indices"
 ---
 
 # Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][图像生成][语音对话] 提出 Next-Token-Pair Prediction (NTPP) 范式，首次用 decoder-only 架构对双通道语音对话进行 speaker-independent 联合分布建模，实现更自然的轮次转换、更低的推理延迟和更强的说话人无关性。
 tags:
-  - ICML2025
-  - 图像生成
-  - 语音对话
-  - 双通道语音
-  - Next-Token-Pair Prediction
-  - decoder-only
-  - 轮次转换
-  - 全双工对话
+  - "ICML2025"
+  - "图像生成"
+  - "语音对话"
+  - "双通道语音"
+  - "Next-Token-Pair Prediction"
+  - "decoder-only"
+  - "轮次转换"
+  - "全双工对话"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

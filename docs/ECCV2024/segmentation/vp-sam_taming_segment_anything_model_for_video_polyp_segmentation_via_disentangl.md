@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VP-SAM: Taming Segment Anything Model for Video Polyp Segmentation via Disentanglement and Spatio-Temporal Side Network
 description: >-
-  [ECCV 2024][图像分割][视频息肉分割] 本文提出 VP-SAM，通过语义解耦适配器（SDA）利用傅里叶频谱的幅度信息帮助 SAM 区分低对比度的息肉与背景，同时设计时空侧网络（STSN）为 SAM 注入视频帧间时序信息，在 SUN-SEG、CVC-612 和 CVC-300 等数据集上达到 SOTA。
+  [ECCV 2024][语义分割][视频息肉分割] 本文提出 VP-SAM，通过语义解耦适配器（SDA）利用傅里叶频谱的幅度信息帮助 SAM 区分低对比度的息肉与背景，同时设计时空侧网络（STSN）为 SAM 注入视频帧间时序信息…
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 视频息肉分割
-  - SAM适配
-  - 语义解耦
-  - 时空建模
-  - 频域分析
+  - "ECCV 2024"
+  - "语义分割"
+  - "视频息肉分割"
+  - "SAM适配"
+  - "语义解耦"
+  - "时空建模"
+  - "频域分析"
 ---
 
 # VP-SAM: Taming Segment Anything Model for Video Polyp Segmentation via Disentanglement and Spatio-Temporal Side Network

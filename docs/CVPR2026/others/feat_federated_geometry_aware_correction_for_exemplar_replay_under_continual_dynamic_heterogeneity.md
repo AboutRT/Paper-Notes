@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][federated continual learning] 提出 FEAT 方法解决联邦持续学习中回放样本利用不足的问题，通过几何结构对齐（基于 ETF 原型的角度蒸馏）和能量基几何校正（推理时去偏）缓解跨客户端异构和任务级数据不平衡。
 tags:
-  - CVPR 2026
-  - federated continual learning
-  - exemplar replay
-  - equiangular tight frame
-  - geometric correction
-  - class imbalance
+  - "CVPR 2026"
+  - "federated continual learning"
+  - "exemplar replay"
+  - "equiangular tight frame"
+  - "geometric correction"
+  - "class imbalance"
 ---
 
 # FEAT: Federated Geometry-Aware Correction for Exemplar Replay under Continual Dynamic Heterogeneity

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism
 description: >-
-  [ACL 2025 (Long Paper)][多模态][MCTS] 提出VReST，首次将蒙特卡洛树搜索（MCTS）应用于多模态CoT推理：每个节点是一个推理步骤，通过多模态自奖励机制（sub-question有用性+答案正确性+视觉-语言线索相关性）评估推理质量，无需训练即在MathVista上达到64.50%（超越CoT的54.60%和ToT的60.20%），并展示出多模态测试时缩放定律。
+  [ACL 2025 (Long Paper)][多模态VLM][MCTS] 提出VReST，首次将蒙特卡洛树搜索（MCTS）应用于多模态CoT推理：每个节点是一个推理步骤，通过多模态自奖励机制（sub-question有用性+答案正确性+视觉-语言线索相关性）评估推理质量…
 tags:
-  - ACL 2025 (Long Paper)
-  - 多模态
-  - MCTS
-  - 多模态VLM
-  - 自奖励
-  - 测试时缩放
-  - 多模态CoT
+  - "ACL 2025 (Long Paper)"
+  - "多模态VLM"
+  - "MCTS"
+  - "视觉推理"
+  - "自奖励"
+  - "测试时缩放"
+  - "多模态CoT"
 ---
 
 # VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism

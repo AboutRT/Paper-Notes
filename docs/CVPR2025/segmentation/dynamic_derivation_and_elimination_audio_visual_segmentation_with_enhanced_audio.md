@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dynamic Derivation and Elimination: Audio Visual Segmentation with Enhanced Audio Semantics
 description: >-
-  [CVPR 2025][图像分割][音频视觉分割] DDESeg 从音频的本质特性出发，针对混合音频的特征混淆和同物体不同声音的类内变异两大问题，提出动态推导模块从混合信号中衍生独立声源表征并增强判别性，再通过动态消除模块过滤掉画外音等无关音频语义，在 AVS 所有基准上取得 SOTA。
+  [CVPR 2025][语义分割][音频视觉分割] DDESeg 从音频的本质特性出发，针对混合音频的特征混淆和同物体不同声音的类内变异两大问题，提出动态推导模块从混合信号中衍生独立声源表征并增强判别性，再通过动态消除模块过滤掉画外音等无关音频语义，在 AVS 所有基准上取得 SOTA。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 音频视觉分割
-  - 声源语义推导
-  - 动态消除
-  - 类内判别增强
-  - 多模态对齐
+  - "CVPR 2025"
+  - "语义分割"
+  - "音频视觉分割"
+  - "声源语义推导"
+  - "动态消除"
+  - "类内判别增强"
+  - "多模态对齐"
 ---
 
 # Dynamic Derivation and Elimination: Audio Visual Segmentation with Enhanced Audio Semantics

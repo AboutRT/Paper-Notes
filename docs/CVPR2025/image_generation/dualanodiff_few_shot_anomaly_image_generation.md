@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][异常图像生成] 提出 DualAnoDiff，利用双关联扩散模型同时生成整体异常图像和对应异常部分，解决了少样本场景下异常图像生成中多样性不足、融合不自然和掩码不对齐的问题，在下游异常检测任务中达到 SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 异常图像生成
-  - 少样本生成
-  - 双扩散模型
-  - 工业缺陷检测
-  - 图像-掩码对
+  - "CVPR 2025"
+  - "图像生成"
+  - "异常图像生成"
+  - "少样本生成"
+  - "双扩散模型"
+  - "工业缺陷检测"
+  - "图像-掩码对"
 ---
 
 # DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation

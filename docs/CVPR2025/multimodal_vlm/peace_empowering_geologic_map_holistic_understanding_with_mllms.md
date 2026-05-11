@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PEACE: Empowering Geologic Map Holistic Understanding with MLLMs
 description: >-
-  [CVPR 2025][多模态VLM][地质图理解] 本文构建了首个地质图理解基准 GeoMap-Bench（5 种能力、25 个任务、3864 个问题），并提出 GeoMap-Agent（层级信息提取 + 领域知识注入 + 增强问答），在地质图理解上以 0.811 的整体得分大幅超越 GPT-4o 的 0.369。
+  [CVPR 2025][多模态VLM][地质图理解] 本文构建了首个地质图理解基准 GeoMap-Bench（5 种能力、25 个任务、3864 个问题），并提出 GeoMap-Agent（层级信息提取 + 领域知识注入 + 增强问答）…
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - 地质图理解
-  - 多模态大模型
-  - AI智能体
-  - 领域知识注入
-  - 基准测试
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "地质图理解"
+  - "多模态大模型"
+  - "AI智能体"
+  - "领域知识注入"
+  - "基准测试"
 ---
 
 # PEACE: Empowering Geologic Map Holistic Understanding with MLLMs

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cross-Lingual Generalization and Compression: From Language-Specific to Shared Neurons
 description: >-
-  [ACL 2025][多语言翻译] 本文通过追踪多语言语言模型预训练过程中的检查点，发现模型从语言特定表示逐渐压缩为跨语言共享表示：中间层的语言识别能力下降、语义概念的"专家神经元"跨语言对齐，操控从西班牙语数据提取的概念神经元后模型反而生成语义相关的英语文本。
+  [ACL 2025][多语言/翻译][多语言模型] 本文通过追踪多语言语言模型预训练过程中的检查点，发现模型从语言特定表示逐渐压缩为跨语言共享表示：中间层的语言识别能力下降、语义概念的"专家神经元"跨语言对齐，操控从西班牙语数据提取的概念神经元后模型反而生成语义相关的英语文本。
 tags:
-  - ACL 2025
-  - 多语言翻译
-  - 跨语言泛化
-  - 压缩假说
-  - 神经元分析
-  - 机制可解释性
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "多语言模型"
+  - "跨语言泛化"
+  - "压缩假说"
+  - "神经元分析"
+  - "机制可解释性"
 ---
 
 # Cross-Lingual Generalization and Compression: From Language-Specific to Shared Neurons

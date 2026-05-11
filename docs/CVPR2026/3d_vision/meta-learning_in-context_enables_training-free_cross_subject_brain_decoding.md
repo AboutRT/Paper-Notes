@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][脑解码] 提出 BrainCoDec 框架，通过两阶段层级式上下文学习（先为每个体素估计编码器参数，再跨体素聚合做功能反演），实现了无需微调即可泛化到新被试的 fMRI 视觉解码，Top-1 检索准确率从 MindEye2 的 3.9% 提升到 22.7%。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 脑解码
-  - 元学习
-  - 上下文学习
-  - fMRI
-  - 跨被试泛化
+  - "CVPR 2026"
+  - "3D视觉"
+  - "脑解码"
+  - "元学习"
+  - "上下文学习"
+  - "fMRI"
+  - "跨被试泛化"
 ---
 
 # Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding

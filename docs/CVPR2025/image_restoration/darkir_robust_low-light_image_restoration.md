@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][低光照恢复] DarkIR 提出一种高效 CNN 多任务低光照图像恢复方法，编码器用 SpAM+FreMLP（频域幅值增强）处理光照，解码器用 Di-SpAM（空洞空间注意力）处理模糊，不对称设计仅 3.31M 参数在 LOLBlur 上达 27.30dB PSNR。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 低光照恢复
-  - 多任务
-  - 频域MLP
-  - 空洞注意力
-  - 高效CNN
+  - "CVPR 2025"
+  - "图像恢复"
+  - "低光照恢复"
+  - "多任务"
+  - "频域MLP"
+  - "空洞注意力"
+  - "高效CNN"
 ---
 
 # DarkIR: Robust Low-Light Image Restoration

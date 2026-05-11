@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Heterogeneous Swarms: Jointly Optimizing Model Roles and Weights for Multi-LLM Systems
 description: >-
-  [NeurIPS 2025][图学习][多LLM协作] 提出 Heterogeneous Swarms 算法，将多 LLM 系统建模为有向无环图（DAG），通过粒子群优化（PSO）交替执行 role-step（优化 LLM 之间的拓扑连接结构）和 weight-step（通过 JFK-score 量化个体贡献后优化模型权重），在 12 个任务上平均超过 17 种基线方法 18.5%。
+  [NeurIPS 2025][图学习][多LLM协作] 提出 Heterogeneous Swarms 算法，将多 LLM 系统建模为有向无环图（DAG），通过粒子群优化（PSO）交替执行 role-step（优化 LLM 之间的拓扑连接结构）和 weight-step（通过 JFK-score 量化个体贡献…
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 多LLM协作
-  - 粒子群优化
-  - DAG结构学习
-  - 模型角色优化
-  - 模型权重优化
+  - "NeurIPS 2025"
+  - "图学习"
+  - "多LLM协作"
+  - "粒子群优化"
+  - "DAG结构学习"
+  - "模型角色优化"
+  - "模型权重优化"
 ---
 
 # Heterogeneous Swarms: Jointly Optimizing Model Roles and Weights for Multi-LLM Systems
@@ -207,7 +207,7 @@ tags:
 - **协作增益显著**: LLM 群体能解决 18.1% 的"无单个模型能解决"的问题（$B_0$ bucket），平均协作增益 C-Gain = 0.213
 - **角色异构化**: 不同拓扑位置的 LLM 自然形成分工——分支节点偏"分治"，汇聚节点偏"精炼+反馈"
 - **多样性至关重要**: 从最低到最高多样性，性能平均提升 89%
-- **稀疏化可行**: 阈值剪枝或 $\ell_1$ 正则可在牺牲少量精度（<5%）的同时减少 3-36% 的推理成本
+- **稀疏化可行**: 阈值剪枝或 $\ell_1$ 正则可在牺牲少量精度（&lt;5%）的同时减少 3-36% 的推理成本
 
 ## 亮点与洞察
 - 将"角色"从抽象的 prompt 概念转化为可优化的图结构，非常elegant

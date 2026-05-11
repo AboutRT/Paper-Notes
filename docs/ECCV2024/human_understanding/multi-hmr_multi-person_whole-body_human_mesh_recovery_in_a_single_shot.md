@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot
 description: >-
-  [ECCV 2024][3D视觉][人体网格恢复] Multi-HMR是首个单阶段多人全身（含手部和面部表情）3D人体网格恢复方法，使用ViT骨干网络和交叉注意力预测头（HPH），结合新的CUFFS合成数据集解决手部姿态学习困难，在多人和全身两类基准上同时达到SOTA。
+  [ECCV 2024][人体理解][人体网格恢复] Multi-HMR是首个单阶段多人全身（含手部和面部表情）3D人体网格恢复方法，使用ViT骨干网络和交叉注意力预测头（HPH），结合新的CUFFS合成数据集解决手部姿态学习困难，在多人和全身两类基准上同时达到SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 人体网格恢复
-  - 多人全身姿态估计
-  - 单阶段检测
-  - SMPL-X
-  - 合成数据集
+  - "ECCV 2024"
+  - "人体理解"
+  - "人体网格恢复"
+  - "多人全身姿态估计"
+  - "单阶段检测"
+  - "SMPL-X"
+  - "合成数据集"
 ---
 
 # Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FACTS: Table Summarization via Offline Template Generation with Agentic Workflows
 description: >-
-  [ACL 2026][AI安全][表格摘要] 本文提出 FACTS（Fast, Accurate, and Privacy-Compliant Table Summarization），通过三阶段 Agentic 工作流自动生成可复用的离线模板（SQL 查询 + Jinja2 模板），实现快速、准确、隐私合规的查询聚焦表格摘要，在 FeTaQA、QTSumm 和 QFMTS 三个基准上全面超越基线。
+  [ACL 2026][LLM安全][表格摘要] 本文提出 FACTS（Fast, Accurate, and Privacy-Compliant Table Summarization），通过三阶段 Agentic 工作流自动生成可复用的离线模板（SQL 查询 + Jinja2 模板）…
 tags:
-  - ACL 2026
-  - AI安全
-  - 表格摘要
-  - 离线模板
-  - Agentic工作流
-  - SQL生成
-  - 隐私合规
+  - "ACL 2026"
+  - "LLM安全"
+  - "表格摘要"
+  - "离线模板"
+  - "Agentic工作流"
+  - "SQL生成"
+  - "隐私合规"
 ---
 
 # FACTS: Table Summarization via Offline Template Generation with Agentic Workflows

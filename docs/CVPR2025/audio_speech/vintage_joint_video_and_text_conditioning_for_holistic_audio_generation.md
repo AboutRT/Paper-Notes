@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VinTAGe: Joint Video and Text Conditioning for Holistic Audio Generation
 description: >-
-  [CVPR 2025][语音][视频文本联合音频生成] 提出 VinTAGe，首个联合视频+文本条件的音频生成模型，通过可学习层权重平衡视觉/文本引导，用教师-学生框架缓解模态偏置，在画内音和画外音生成上实现全面最优（FAD 3.05，MOS 3.36）。
+  [CVPR 2025][音频/语音][视频文本联合音频生成] 提出 VinTAGe，首个联合视频+文本条件的音频生成模型，通过可学习层权重平衡视觉/文本引导，用教师-学生框架缓解模态偏置，在画内音和画外音生成上实现全面最优（FAD 3.05，MOS 3.36）。
 tags:
-  - CVPR 2025
-  - 语音
-  - 视频文本联合音频生成
-  - Transformer
-  - 模态偏置
-  - 教师引导
-  - 画外音
+  - "CVPR 2025"
+  - "音频/语音"
+  - "视频文本联合音频生成"
+  - "Transformer"
+  - "模态偏置"
+  - "教师引导"
+  - "画外音"
 ---
 
 # VinTAGe: Joint Video and Text Conditioning for Holistic Audio Generation

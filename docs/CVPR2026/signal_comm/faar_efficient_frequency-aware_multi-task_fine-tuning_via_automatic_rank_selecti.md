@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection
 description: >-
-  [CVPR 2026][信号通信] 提出 FAAR，一种频率感知的多任务参数高效微调方法，通过 Performance-Driven Rank Shrinking (PDRS) 为每个任务和层动态选择最优秩，并设计 Task-Spectral Pyramidal Decoder (TS-PD) 利用 FFT 频率信息增强空间感知和跨任务一致性，以传统微调 1/9 的参数量实现更优性能。
+  [CVPR 2026][信号/通信][LoRA] 提出 FAAR，一种频率感知的多任务参数高效微调方法，通过 Performance-Driven Rank Shrinking (PDRS) 为每个任务和层动态选择最优秩…
 tags:
-  - CVPR 2026
-  - 信号通信
-  - 自动秩选择
-  - FFT
-  - multi-task learning
-  - PEFT
+  - "CVPR 2026"
+  - "信号/通信"
+  - "LoRA"
+  - "自动秩选择"
+  - "FFT"
+  - "multi-task learning"
+  - "PEFT"
 ---
 
 # FAAR: Efficient Frequency-Aware Multi-Task Fine-Tuning via Automatic Rank Selection

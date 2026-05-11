@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Quantifying Task-Relevant Representational Similarity Using Decision Variable Correlation
 description: >-
-  [NeurIPS 2025][决策变量相关] 本文提出基于决策变量相关（DVC）的新方法来衡量两个神经表征在分类任务上的逐试次一致性，发现深度网络在 ImageNet 上准确率越高反而与猴脑 V4/IT 的 DVC 越低，对抗训练和大规模数据集预训练也无法缩小这一差距。
+  [NeurIPS 2025][预训练][决策变量相关] 本文提出基于决策变量相关（DVC）的新方法来衡量两个神经表征在分类任务上的逐试次一致性，发现深度网络在 ImageNet 上准确率越高反而与猴脑 V4/IT 的 DVC 越低，对抗训练和大规模数据集预训练也无法缩小这一差距。
 tags:
-  - NeurIPS 2025
-  - 决策变量相关
-  - LLM预训练
-  - 表征相似性
-  - 信号检测理论
-  - 视觉皮层
+  - "NeurIPS 2025"
+  - "预训练"
+  - "决策变量相关"
+  - "脑-模型对齐"
+  - "表征相似性"
+  - "信号检测理论"
+  - "视觉皮层"
 ---
 
 # Quantifying Task-Relevant Representational Similarity Using Decision Variable Correlation

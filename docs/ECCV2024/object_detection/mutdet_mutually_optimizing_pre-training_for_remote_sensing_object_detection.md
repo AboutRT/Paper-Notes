@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MutDet: Mutually Optimizing Pre-training for Remote Sensing Object Detection
 description: >-
-  [ECCV 2024][目标检测][检测预训练] 提出 MutDet，一种面向遥感旋转目标检测的互优化预训练框架，通过双向交叉注意力融合 object embeddings 与 encoder 特征、对比对齐损失、以及辅助孪生头，系统性地缓解了检测预训练中 object embeddings 与 detector features 之间的特征差异问题。
+  [ECCV 2024][目标检测][检测预训练] 提出 MutDet，一种面向遥感旋转目标检测的互优化预训练框架，通过双向交叉注意力融合 object embeddings 与 encoder 特征、对比对齐损失、以及辅助孪生头…
 tags:
-  - ECCV 2024
-  - 目标检测
-  - 检测预训练
-  - 旋转目标检测
-  - 遥感
-  - DETR
-  - 对比学习
+  - "ECCV 2024"
+  - "目标检测"
+  - "检测预训练"
+  - "旋转目标检测"
+  - "遥感"
+  - "DETR"
+  - "对比学习"
 ---
 
 # MutDet: Mutually Optimizing Pre-training for Remote Sensing Object Detection

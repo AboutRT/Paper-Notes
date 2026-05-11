@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][多跳推理] 提出 MARCH 基准（2,209 个多跳歧义问题）和 CLARION 框架，首次系统研究歧义解析与多步推理交叉场景下的 QA 挑战，揭示现有 SOTA 模型在此类问题上的严重不足。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 多跳推理
-  - 歧义解析
-  - 基准构建
-  - 分层不确定性
-  - 智能体框架
+  - "ACL 2026"
+  - "LLM推理"
+  - "多跳推理"
+  - "歧义解析"
+  - "基准构建"
+  - "分层不确定性"
+  - "智能体框架"
 ---
 
 # MARCH: Evaluating the Intersection of Ambiguity Interpretation and Multi-hop Inference

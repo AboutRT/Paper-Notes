@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][视觉-空间理解] 提出 SpatialMind 结构化提示策略与 ScanForgeQA 合成QA数据集的双管齐下方案，在不修改VLM架构的前提下显著增强其从扫描视频进行3D空间推理的能力。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 视觉-空间理解
-  - 链式思维提示
-  - 合成数据
-  - 视觉语言模型
-  - 3D推理
+  - "NeurIPS 2025"
+  - "机器人"
+  - "视觉-空间理解"
+  - "链式思维提示"
+  - "合成数据"
+  - "视觉语言模型"
+  - "3D推理"
 ---
 
 # Spatial Understanding from Videos: Structured Prompts Meet Simulation Data

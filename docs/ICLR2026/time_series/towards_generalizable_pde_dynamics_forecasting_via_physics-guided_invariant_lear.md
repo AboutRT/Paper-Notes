@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][时间序列][偏微分方程] 提出 iMOOE 框架，通过显式定义 PDE 系统中的"算子不变性 + 组合不变性"两层物理不变性原理，设计与之对齐的混合算子专家网络和频率增强的风险等式目标，在不需要任何测试时适应的条件下实现多种 OOD 情景下的 SOTA 零样本 PDE 动力学预测。
 tags:
-  - ICLR 2026
-  - 时间序列
-  - 偏微分方程
-  - 零样本OOD泛化
-  - 混合算子专家
-  - 频率增强
-  - 神经算子
+  - "ICLR 2026"
+  - "时间序列"
+  - "偏微分方程"
+  - "零样本OOD泛化"
+  - "混合算子专家"
+  - "频率增强"
+  - "神经算子"
 ---
 
 # Towards Generalizable PDE Dynamics Forecasting via Physics-Guided Invariant Learning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] L-SWAG: Layer-Sample Wise Activation with Gradients Information for Zero-Shot NAS on Vision Transformers
 description: >-
-  [CVPR 2025][可解释性][零代价代理] 本文提出L-SWAG（Layer-Sample Wise Activation with Gradients），一种新型通用零代价代理，通过结合层级和样本级的激活值与梯度信息来评估网络架构质量，首次将零代价NAS系统性地扩展到Vision Transformer搜索空间，并在Autoformer搜索空间的6个任务上建立了新的benchmark。
+  [CVPR 2025][可解释性][零代价代理] 本文提出L-SWAG（Layer-Sample Wise Activation with Gradients），一种新型通用零代价代理，通过结合层级和样本级的激活值与梯度信息来评估网络架构质量…
 tags:
-  - CVPR 2025
-  - 可解释性
-  - 零代价代理
-  - 神经架构搜索
-  - ViT
-  - 激活值
-  - 梯度信息
+  - "CVPR 2025"
+  - "可解释性"
+  - "零代价代理"
+  - "神经架构搜索"
+  - "ViT"
+  - "激活值"
+  - "梯度信息"
 ---
 
 # L-SWAG: Layer-Sample Wise Activation with Gradients Information for Zero-Shot NAS on Vision Transformers

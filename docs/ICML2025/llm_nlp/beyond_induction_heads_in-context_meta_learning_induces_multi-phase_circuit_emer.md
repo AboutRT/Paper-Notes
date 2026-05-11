@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Induction Heads: In-Context Meta Learning Induces Multi-Phase Circuit Emergence
 description: >-
-  [ICML 2025][LLM/NLP][In-Context Learning] 本文通过设计 In-Context Meta-Learning (ICML) 实验环境，揭示了 Transformer 在获得上下文元学习能力的训练过程中，内部电路经历了三个截然不同的阶段性涌现（Bigram → Label Attention → Chunk Example），而非 induction head 研究中观察到的单阶段跃变，从而为理解 ICL 的深层机制提供了新视角。
+  [ICML 2025][LLM/NLP][In-Context Learning] 本文通过设计 In-Context Meta-Learning (ICML) 实验环境，揭示了 Transformer 在获得上下文元学习能力的训练过程中…
 tags:
-  - ICML 2025
-  - LLM/NLP
-  - In-Context Learning
-  - Induction Head
-  - Multi-Phase Circuit
-  - Meta-Learning
-  - Mechanistic Interpretability
+  - "ICML 2025"
+  - "LLM/NLP"
+  - "In-Context Learning"
+  - "Induction Head"
+  - "Multi-Phase Circuit"
+  - "Meta-Learning"
+  - "Mechanistic Interpretability"
 ---
 
 # Beyond Induction Heads: In-Context Meta Learning Induces Multi-Phase Circuit Emergence

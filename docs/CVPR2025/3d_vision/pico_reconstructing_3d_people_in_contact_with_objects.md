@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][人物交互重建] PICO 提出了一个包含数据集 (PICO-db) 和拟合方法 (PICO-fit) 的完整框架，通过建立人体与物体之间的稠密双射接触对应关系，从单张自然图像中恢复逼真的 3D 人-物交互场景，支持任意物体类别。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 人物交互重建
-  - 接触估计
-  - 3D物体检索
-  - 人体姿态
-  - 优化拟合
+  - "CVPR 2025"
+  - "3D视觉"
+  - "人物交互重建"
+  - "接触估计"
+  - "3D物体检索"
+  - "人体姿态"
+  - "优化拟合"
 ---
 
 # PICO: Reconstructing 3D People In Contact with Objects

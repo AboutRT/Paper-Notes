@@ -2,15 +2,15 @@
 title: >-
   [论文解读] QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture
 description: >-
-  [ICLR 2026][人体理解][四元数运动学] QuaMo 提出基于四元数微分方程（QDE）的 3D 人体运动学捕捉方法，通过在四元数单位球面约束下求解运动学方程，并引入二阶加速度增强的 meta-PD 控制器，实现了无不连续性、低抖动的在线实时人体运动估计，在 Human3.6M 等多个数据集上超越 SOTA。
+  [ICLR 2026][人体理解][四元数运动学] QuaMo 提出基于四元数微分方程（QDE）的 3D 人体运动学捕捉方法，通过在四元数单位球面约束下求解运动学方程，并引入二阶加速度增强的 meta-PD 控制器，实现了无不连续性、低抖动的在线实时人体运动估计…
 tags:
-  - ICLR 2026
-  - 人体理解
-  - 四元数运动学
-  - 3D人体运动捕捉
-  - 状态空间模型
-  - PD控制器
-  - 加速度增强
+  - "ICLR 2026"
+  - "人体理解"
+  - "四元数运动学"
+  - "3D人体运动捕捉"
+  - "状态空间模型"
+  - "PD控制器"
+  - "加速度增强"
 ---
 
 # QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Argumentative Debates for Transparent Bias Detection
 description: >-
-  [AAAI 2026][社会计算][偏见检测] 提出 ABIDE（Argumentative BIas Detection by DEbate），通过基于邻域属性的论证方案（argument schemes）构建量化双极论证框架（QBAF），将偏见检测过程建模为结构化辩论，实现从单邻域到全局的透明偏见推理，并形式化证明 QBAF 语义与偏见检测期望行为之间的对应关系。
+  [AAAI 2026][社会计算][偏见检测] 提出 ABIDE（Argumentative BIas Detection by DEbate），通过基于邻域属性的论证方案（argument schemes）构建量化双极论证框架（QBAF），将偏见检测过程建模为结构化辩论，实现从单邻域到全局的透明偏见推理…
 tags:
-  - AAAI 2026
-  - 社会计算
-  - 偏见检测
-  - 论证框架
-  - QBAF
-  - 透明度
-  - 公平性
-  - 辩论
+  - "AAAI 2026"
+  - "社会计算"
+  - "偏见检测"
+  - "论证框架"
+  - "QBAF"
+  - "透明度"
+  - "公平性"
+  - "辩论"
 ---
 
 # Argumentative Debates for Transparent Bias Detection

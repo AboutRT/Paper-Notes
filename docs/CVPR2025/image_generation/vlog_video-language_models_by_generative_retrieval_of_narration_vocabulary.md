@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][视频理解] 提出 VLog，将视频叙事（narration）定义为词汇表单元，通过生成式检索架构（GPT-2 推理 + SigLIP 检索）实现比生成式 VideoLLM 快 10-20 倍的高效视频理解。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 视频理解
-  - 生成式检索
-  - 叙事词汇表
-  - 视频语言模型
-  - 高效推理
+  - "CVPR 2025"
+  - "图像生成"
+  - "视频理解"
+  - "生成式检索"
+  - "叙事词汇表"
+  - "视频语言模型"
+  - "高效推理"
 ---
 
 # VLog: Video-Language Models by Generative Retrieval of Narration Vocabulary

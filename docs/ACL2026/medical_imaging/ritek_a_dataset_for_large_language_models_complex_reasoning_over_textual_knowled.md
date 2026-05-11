@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][医学图像][文本知识图谱] RiTeK 构建了两个大规模医学文本知识图谱（TKG）和对应的复杂推理 QA 数据集，涵盖 6 种拓扑结构和丰富的文本描述，评估了 11 种检索方法并揭示了现有 LLM 驱动检索系统在医学 TKG 推理上的严重不足。
 tags:
-  - ACL 2026
-  - 医学图像
-  - 文本知识图谱
-  - 医学问答
-  - 复杂推理
-  - 检索系统
-  - 拓扑结构
+  - "ACL 2026"
+  - "医学图像"
+  - "文本知识图谱"
+  - "医学问答"
+  - "复杂推理"
+  - "检索系统"
+  - "拓扑结构"
 ---
 
 # RiTeK: A Dataset for Large Language Models Complex Reasoning over Textual Knowledge Graphs in Medicine

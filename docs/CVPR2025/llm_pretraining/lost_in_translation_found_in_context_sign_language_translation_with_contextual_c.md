@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues
 description: >-
-  [CVPR 2025][LLM预训练][手语翻译] 通过引入背景视频描述、历史翻译和伪词汇表三种上下文线索，结合Llama3-8B的LoRA微调，实现了连续手语到文本的精确翻译，在BOBSL数据集上相比SOTA提升40%以上。
+  [CVPR 2025][预训练][手语翻译] 通过引入背景视频描述、历史翻译和伪词汇表三种上下文线索，结合Llama3-8B的LoRA微调，实现了连续手语到文本的精确翻译，在BOBSL数据集上相比SOTA提升40%以上。
 tags:
-  - CVPR 2025
-  - LLM预训练
-  - 手语翻译
-  - 上下文学习
-  - LLM微调
-  - 多模态融合
-  - 伪词汇表
+  - "CVPR 2025"
+  - "预训练"
+  - "手语翻译"
+  - "上下文学习"
+  - "LLM微调"
+  - "多模态融合"
+  - "伪词汇表"
 ---
 
 # Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues

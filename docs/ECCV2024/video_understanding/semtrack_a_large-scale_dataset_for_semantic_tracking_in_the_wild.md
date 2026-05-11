@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][语义跟踪] 提出 SemTrack 数据集和 SemTracker 方法，将传统目标跟踪从"定位目标在哪里"扩展到"理解目标在做什么"——跟踪目标的同时捕获其语义轨迹（与谁/什么交互、何时何地如何交互），并引入元学习策略应对长尾交互类别的挑战。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 语义跟踪
-  - 数据集
-  - 目标跟踪
-  - 交互识别
-  - 语义轨迹
+  - "ECCV 2024"
+  - "视频理解"
+  - "语义跟踪"
+  - "数据集"
+  - "目标跟踪"
+  - "交互识别"
+  - "语义轨迹"
 ---
 
 # SemTrack: A Large-Scale Dataset for Semantic Tracking in the Wild

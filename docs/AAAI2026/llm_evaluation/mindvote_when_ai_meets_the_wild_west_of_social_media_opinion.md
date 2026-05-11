@@ -2,12 +2,13 @@
 title: >-
   [论文解读] MindVote: When AI Meets the Wild West of Social Media Opinion
 description: >-
-  [AAAI 2026][社交媒体民意] 构建MindVote双语基准（3918个Reddit/微博真实投票×23主题），评估15个LLM民意预测能力，发现专门调查微调模型反而不如通用模型（"专门化陷阱"）。
+  [AAAI 2026][LLM评测][社交媒体民意] 构建MindVote双语基准（3918个Reddit/微博真实投票×23主题），评估15个LLM民意预测能力，发现专门调查微调模型反而不如通用模型（"专门化陷阱"）。
 tags:
-  - AAAI 2026
-  - 社交媒体民意
-  - 双语投票
-  - LLM评测
+  - "AAAI 2026"
+  - "LLM评测"
+  - "社交媒体民意"
+  - "双语投票"
+  - "LLM评估"
 ---
 
 # MindVote: When AI Meets the Wild West of Social Media Opinion

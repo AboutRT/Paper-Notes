@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond End-to-End: Dynamic Chain Optimization for Private LLM Adaptation on the Edge
 description: >-
-  [ACL 2026][AI安全][联邦微调] 提出 ChainFed，一种打破内存墙的链式联邦微调范式，通过逐层顺序训练-冻结适配器使资源受限边缘设备也能参与 LLM 微调，结合动态层协调、全局感知优化和功能导向自适应三项技术，平均准确率提升最高 46.46%。
+  [ACL 2026][LLM安全][联邦微调] 提出 ChainFed，一种打破内存墙的链式联邦微调范式，通过逐层顺序训练-冻结适配器使资源受限边缘设备也能参与 LLM 微调，结合动态层协调、全局感知优化和功能导向自适应三项技术，平均准确率提升最高 46.46%。
 tags:
-  - ACL 2026
-  - AI安全
-  - 联邦微调
-  - 边缘设备
-  - 内存墙
-  - 链式优化
-  - 适配器
+  - "ACL 2026"
+  - "LLM安全"
+  - "联邦微调"
+  - "边缘设备"
+  - "内存墙"
+  - "链式优化"
+  - "适配器"
 ---
 
 # Beyond End-to-End: Dynamic Chain Optimization for Private LLM Adaptation on the Edge

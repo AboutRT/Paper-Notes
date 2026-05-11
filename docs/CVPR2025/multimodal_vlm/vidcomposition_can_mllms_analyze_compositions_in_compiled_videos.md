@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VidComposition: Can MLLMs Analyze Compositions in Compiled Videos?
 description: >-
-  [CVPR 2025][多模态][视频理解] 提出VidComposition基准，专门评估MLLM对**编辑合成视频**（影视、动画等）的构图理解能力，涵盖**5大类15个子任务**（镜头运动、叙事结构、角色理解等），对33个MLLM的评测揭示了模型与人类在电影级视频理解上的巨大差距（最佳模型63.3% vs 人类86.3%）。
+  [CVPR 2025][多模态VLM][视频理解] 提出VidComposition基准，专门评估MLLM对**编辑合成视频**（影视、动画等）的构图理解能力，涵盖**5大类15个子任务**（镜头运动、叙事结构、角色理解等）…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 视频组成分析
-  - MLLM基准
-  - 电影分析
-  - 镜头语言
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视频理解"
+  - "视频组成分析"
+  - "MLLM基准"
+  - "电影分析"
+  - "镜头语言"
 ---
 
 # VidComposition: Can MLLMs Analyze Compositions in Compiled Videos?

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Different Speech Translation Models Encode and Translate Speaker Gender Differently
 description: >-
-  [ACL 2025][语音][语音翻译] 通过注意力探针分析不同架构的语音翻译模型如何编码说话人性别信息，发现传统编码器-解码器模型能较好保留性别信息，而新型 speech+MT 架构的适配器会显著擦除性别信息，导致翻译中出现更严重的阳性默认偏差。
+  [ACL 2025][音频/语音][语音翻译] 通过注意力探针分析不同架构的语音翻译模型如何编码说话人性别信息，发现传统编码器-解码器模型能较好保留性别信息，而新型 speech+MT 架构的适配器会显著擦除性别信息，导致翻译中出现更严重的阳性默认偏差。
 tags:
-  - ACL 2025
-  - 语音
-  - 语音翻译
-  - 性别编码
-  - 音频语音
-  - 探针分析
-  - 翻译偏差
+  - "ACL 2025"
+  - "音频/语音"
+  - "语音翻译"
+  - "性别编码"
+  - "可解释性"
+  - "探针分析"
+  - "翻译偏差"
 ---
 
 # Different Speech Translation Models Encode and Translate Speaker Gender Differently

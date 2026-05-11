@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][LLM/NLP][模型合并] 将模型合并形式化为约束优化问题，引入Frank-Wolfe优化启发的FW-Merging方法，通过迭代选择最相关模型并局部合并，实现在大规模黑盒模型池中的可扩展、鲁棒合并，合并20个ViT模型时超越数据感知方法Adamerging 8.39%。
 tags:
-  - ICCV 2025
-  - LLM/NLP
-  - 模型合并
-  - Frank-Wolfe优化
-  - 多任务学习
-  - 可扩展性
-  - 大语言模型
+  - "ICCV 2025"
+  - "LLM/NLP"
+  - "模型合并"
+  - "Frank-Wolfe优化"
+  - "多任务学习"
+  - "可扩展性"
+  - "大语言模型"
 ---
 
 # FW-Merging: Scaling Model Merging with Frank-Wolfe Optimization

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][3D头部建模] 本文提出 HairCUP，一种将头部建模分解为面部和头发两个独立潜空间的组合式通用先验模型，通过合成无发数据创建管线实现有效解耦，支持灵活的面部/发型交换和少样本单目适配。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 3D头部建模
-  - 头发解耦
-  - 组合式先验
-  - 3D高斯
-  - 虚拟人头
+  - "ICCV 2025"
+  - "3D视觉"
+  - "3D头部建模"
+  - "头发解耦"
+  - "组合式先验"
+  - "3D高斯"
+  - "虚拟人头"
 ---
 
 # HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars

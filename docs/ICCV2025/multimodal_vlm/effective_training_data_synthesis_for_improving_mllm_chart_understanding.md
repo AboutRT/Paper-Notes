@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Effective Training Data Synthesis for Improving MLLM Chart Understanding
 description: >-
-  [ICCV 2025][多模态][图表理解] 提出模块化的五步图表数据合成流水线，生成包含10k+图表图像和300k+ QA对的高质量训练集ECD（Effective Chart Dataset），在多种开源MLLM上一致提升图表理解能力。
+  [ICCV 2025][多模态VLM][图表理解] 提出模块化的五步图表数据合成流水线，生成包含10k+图表图像和300k+ QA对的高质量训练集ECD（Effective Chart Dataset），在多种开源MLLM上一致提升图表理解能力。
 tags:
-  - ICCV 2025
-  - 多模态
-  - 图表理解
-  - 数据合成
-  - 多模态VLM
-  - 训练数据
-  - 数据质量
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "图表理解"
+  - "数据合成"
+  - "多模态大语言模型"
+  - "训练数据"
+  - "数据质量"
 ---
 
 # Effective Training Data Synthesis for Improving MLLM Chart Understanding

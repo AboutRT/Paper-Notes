@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][可逆生成] PRG 通过**反转预训练连续生成模型**（扩散/流模型）的生成过程来提取无监督视觉表示，实现模型无关的判别任务适配，在 ImageNet 64×64 上达到 78% top-1 准确率，为基于生成模型的方法中 SOTA。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 可逆生成
-  - 流匹配
-  - 无监督表示学习
-  - 预训练微调
-  - 互信息
+  - "ICCV 2025"
+  - "图像生成"
+  - "可逆生成"
+  - "流匹配"
+  - "无监督表示学习"
+  - "预训练微调"
+  - "互信息"
 ---
 
 # Pretrained Reversible Generation as Unsupervised Visual Representation Learning

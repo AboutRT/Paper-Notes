@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Principled Algorithms for Optimizing Generalized Metrics in Binary Classification
 description: >-
-  [ICML 2025][其他] 本文提出了优化广义分类指标（如 $F_\beta$、Jaccard、加权准确率等）的有原则算法 METRO，基于 $H$-一致性界和代理损失理论，将指标优化重新表述为广义代价敏感学习问题，具有有限样本泛化保证。
+  [ICML 2025][generalized metrics] 本文提出了优化广义分类指标（如 $F_\beta$、Jaccard、加权准确率等）的有原则算法 METRO，基于 $H$-一致性界和代理损失理论，将指标优化重新表述为广义代价敏感学习问题，具有有限样本泛化保证。
 tags:
-  - ICML 2025
-  - 其他
-  - F-measure
-  - H-consistency
-  - surrogate loss
-  - cost-sensitive learning
+  - "ICML 2025"
+  - "generalized metrics"
+  - "F-measure"
+  - "H-consistency"
+  - "surrogate loss"
+  - "cost-sensitive learning"
 ---
 
 # Principled Algorithms for Optimizing Generalized Metrics in Binary Classification

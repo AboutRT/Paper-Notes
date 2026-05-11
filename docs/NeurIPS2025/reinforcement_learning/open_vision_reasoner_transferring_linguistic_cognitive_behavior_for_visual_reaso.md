@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning
 description: >-
-  [NeurIPS 2025][强化学习] Open Vision Reasoner（OVR）通过"语言冷启动 + 大规模多模态 RL"两阶段训练范式，将语言模型中的认知行为（如回溯、验证）有效迁移到视觉推理中，基于 Qwen2.5-VL-7B 在 MathVision 上首次突破 50%（51.8%），成为同规模 SOTA。
+  [NeurIPS 2025][强化学习][多模态推理] Open Vision Reasoner（OVR）通过"语言冷启动 + 大规模多模态 RL"两阶段训练范式，将语言模型中的认知行为（如回溯、验证）有效迁移到视觉推理中…
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 认知行为迁移
-  - 强化学习
-  - 视觉推理
-  - 冷启动微调
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "多模态推理"
+  - "认知行为迁移"
+  - "视觉推理"
+  - "冷启动微调"
 ---
 
 # Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning

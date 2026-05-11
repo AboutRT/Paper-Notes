@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][LoRA] 提出 GoRA，利用**预计算梯度信息**在训练前同时完成自适应秩分配和权重初始化——基于参数敏感度分配各层 rank，用梯度伪逆初始化 $B$ 矩阵使初始输出近似一步梯度下降，统一解决 LoRA 的两大瓶颈。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - LoRA
-  - 自适应秩分配
-  - 梯度驱动初始化
-  - 参数高效微调
-  - LLM
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "LoRA"
+  - "自适应秩分配"
+  - "梯度驱动初始化"
+  - "参数高效微调"
+  - "LLM"
 ---
 
 # GoRA: Gradient-Driven Adaptive Low Rank Adaptation

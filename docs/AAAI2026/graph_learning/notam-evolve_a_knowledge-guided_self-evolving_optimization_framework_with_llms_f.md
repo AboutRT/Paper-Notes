@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图学习][NOTAM解析] 提出 NOTAM-Evolve，一个自进化框架，通过知识图谱增强的表格检索（KG-TableRAG）进行动态知识接地，结合迭代SFT+DPO偏好优化及多视角投票推理机制，使7B参数LLM自主掌握复杂航空NOTAM的深层解析，准确率较基础LLM提升30.4%。
 tags:
-  - AAAI 2026
-  - 图学习
-  - NOTAM解析
-  - 知识图谱增强检索
-  - 大语言模型
-  - 自进化优化
-  - 航空安全
+  - "AAAI 2026"
+  - "图学习"
+  - "NOTAM解析"
+  - "知识图谱增强检索"
+  - "大语言模型"
+  - "自进化优化"
+  - "航空安全"
 ---
 
 # NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation

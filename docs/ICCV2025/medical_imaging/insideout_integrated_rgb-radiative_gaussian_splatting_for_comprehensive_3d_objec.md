@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][医学图像][3D高斯溅射] InsideOut 将 3D Gaussian Splatting 从仅建模 RGB 表面扩展到同时建模 X 射线内部结构，通过层次化拟合和 X 射线参考损失实现了 RGB 外观与内部辐射结构的联合表示。
 tags:
-  - ICCV 2025
-  - 医学图像
-  - 3D高斯溅射
-  - X射线成像
-  - 多模态融合
-  - 三维重建
-  - 无损检测
+  - "ICCV 2025"
+  - "医学图像"
+  - "3D高斯溅射"
+  - "X射线成像"
+  - "多模态融合"
+  - "三维重建"
+  - "无损检测"
 ---
 
 # InsideOut: Integrated RGB-Radiative Gaussian Splatting for Comprehensive 3D Object Representation

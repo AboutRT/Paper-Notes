@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像恢复][质谱分析] 提出 MS-Bart，通过统一词表将分子指纹和分子结构（SELFIES）映射到共享的 token 空间，在 400 万指纹-分子对上进行多任务预训练，再通过实验谱微调和化学反馈对齐，实现从质谱到分子结构的高效生成。
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 质谱分析
-  - 分子指纹
-  - 图像复原
-  - BART
-  - 结构解析
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "质谱分析"
+  - "分子指纹"
+  - "预训练-微调-对齐"
+  - "BART"
+  - "结构解析"
 ---
 
 # MS-BART: Unified Modeling of Mass Spectra and Molecules for Structure Elucidation
@@ -137,7 +137,7 @@ MS-Bart 在 NPLIB1 上相似度指标全面领先：MCES 改善 19.16%，Tanimot
 
 - 当前瓶颈在于 MIST 指纹预测的质量，MS-Bart 本身的分子生成能力已经很强
 - 在 MassSpecGym 上未过滤 [M+Na]+ 测试数据导致部分性能下降
-- 预训练数据中过滤了与测试集 MCES 距离 <2 的分子（比 DiffMS 更严格），导致精确匹配指标偏低
+- 预训练数据中过滤了与测试集 MCES 距离 &lt;2 的分子（比 DiffMS 更严格），导致精确匹配指标偏低
 - SELFIES 词表仅 185 个 token，可能限制了复杂分子的表达能力
 
 ## 相关工作与启发

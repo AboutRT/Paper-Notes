@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][遥感][逆向建模] 提出融合正向预测模型和扩散逆向生成模型的框架，在指定温度变化目标下生成多样且物理合理的城市植被空间配置（NDVI 模式），多样性提升 3.4 倍同时温度控制误差降低 37%。
 tags:
-  - CVPR 2026
-  - 遥感
-  - 逆向建模
-  - 扩散模型
-  - 城市植被
-  - 地表温度
-  - NDVI
+  - "CVPR 2026"
+  - "遥感"
+  - "逆向建模"
+  - "扩散模型"
+  - "城市植被"
+  - "地表温度"
+  - "NDVI"
 ---
 
 # Conflated Inverse Modeling for Urban Vegetation Patterns

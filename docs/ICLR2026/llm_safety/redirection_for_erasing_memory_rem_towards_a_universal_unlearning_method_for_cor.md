@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Redirection for Erasing Memory (REM): Towards a Universal Unlearning Method for Corrupted Data
 description: >-
-  [ICLR 2026][机器遗忘] 本文提出损坏数据遗忘任务的二维分类框架（发现率 × 统计规律性），揭示了现有遗忘方法各自仅在特定区域有效的局限，并提出 REM（重定向以擦除记忆）方法，通过将损坏数据重定向到新增的专用网络容量再丢弃，首次在整个二维任务空间中实现强劲且一致的遗忘性能。
+  [ICLR 2026][LLM安全][机器遗忘] 本文提出损坏数据遗忘任务的二维分类框架（发现率 × 统计规律性），揭示了现有遗忘方法各自仅在特定区域有效的局限，并提出 REM（重定向以擦除记忆）方法，通过将损坏数据重定向到新增的专用网络容量再丢弃，首次在整个二维任务空间中实现强劲且一致的遗忘性能。
 tags:
-  - ICLR 2026
-  - 机器遗忘
-  - 数据修复
-  - 投毒防御
-  - 分类器鲁棒性
-  - 记忆化
+  - "ICLR 2026"
+  - "LLM安全"
+  - "机器遗忘"
+  - "数据修复"
+  - "投毒防御"
+  - "分类器鲁棒性"
+  - "记忆化"
 ---
 
 # Redirection for Erasing Memory (REM): Towards a Universal Unlearning Method for Corrupted Data

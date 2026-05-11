@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer
 description: >-
-  [ICLR 2026][语音][视频到音频] 提出 AC-Foley，一种参考音频引导的视频到音频合成框架，通过两阶段训练（声学特征学习+时序适应）和多模态条件流匹配实现了细粒度音色控制、音色迁移和零样本音效生成，在音频质量和声学保真度上显著优于现有方法。
+  [ICLR 2026][音频/语音][视频到音频] 提出 AC-Foley，一种参考音频引导的视频到音频合成框架，通过两阶段训练（声学特征学习+时序适应）和多模态条件流匹配实现了细粒度音色控制、音色迁移和零样本音效生成，在音频质量和声学保真度上显著优于现有方法。
 tags:
-  - ICLR 2026
-  - 语音
-  - 视频到音频
-  - Foley合成
-  - 参考音频控制
-  - 音色迁移
-  - 流匹配
+  - "ICLR 2026"
+  - "音频/语音"
+  - "视频到音频"
+  - "Foley合成"
+  - "参考音频控制"
+  - "音色迁移"
+  - "流匹配"
 ---
 
 # AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer

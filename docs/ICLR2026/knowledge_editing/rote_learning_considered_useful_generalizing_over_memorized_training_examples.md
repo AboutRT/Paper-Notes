@@ -2,13 +2,14 @@
 title: >-
   [论文解读] Rote Learning Considered Useful: Generalizing over Memorized Training Examples
 description: >-
-  [ICLR 2026][memorization] 本文提出"先记忆再泛化"两阶段框架，证明 LLM 可以在死记硬背合成关键 token 后，通过极少量语义微调实现泛化，挑战了"记忆阻碍泛化"的传统观点。
+  [ICLR 2026][知识编辑][memorization] 本文提出"先记忆再泛化"两阶段框架，证明 LLM 可以在死记硬背合成关键 token 后，通过极少量语义微调实现泛化，挑战了"记忆阻碍泛化"的传统观点。
 tags:
-  - ICLR 2026
-  - memorization
-  - 知识编辑
-  - knowledge_injection
-  - LLM_learning_dynamics
+  - "ICLR 2026"
+  - "知识编辑"
+  - "memorization"
+  - "generalization"
+  - "knowledge_injection"
+  - "LLM_learning_dynamics"
 ---
 
 # Rote Learning Considered Useful: Generalizing over Memorized Training Examples

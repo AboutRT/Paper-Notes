@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RepoShapley: Shapley-Enhanced Context Filtering for Repository-Level Code Completion
 description: >-
-  [ACL 2026][Shapley 值] 提出 RepoShapley，一种基于 Shapley 值的联盟感知上下文过滤框架，通过估计检索代码片段在组合中的交互贡献来决定保留/丢弃，显著提升仓库级代码补全质量。
+  [ACL 2026][信息检索/RAG][Shapley 值] 提出 RepoShapley，一种基于 Shapley 值的联盟感知上下文过滤框架，通过估计检索代码片段在组合中的交互贡献来决定保留/丢弃，显著提升仓库级代码补全质量。
 tags:
-  - ACL 2026
-  - Shapley 值
-  - 上下文过滤
-  - 信息检索
-  - 检索增强生成
-  - 联盟博弈
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "Shapley 值"
+  - "上下文过滤"
+  - "仓库级代码补全"
+  - "检索增强生成"
+  - "联盟博弈"
 ---
 
 # RepoShapley: Shapley-Enhanced Context Filtering for Repository-Level Code Completion

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision
 description: >-
-  [ICLR2026][LLM推理][多模态思维链] 提出 Uni-CoT 分层宏-微推理框架，将多模态 CoT 分解为宏观任务规划（将复杂任务分解为子目标）和微观子任务执行（MDP 式自反思迭代优化），通过注意力掩码设计将 $O(T^2)$ 复杂度降至 $O(T)$，在 GenEval 上超越 BAGEL 基线 +0.02，实现了文本-图像交织的统一推理。
+  [ICLR2026][LLM推理][多模态思维链] 提出 Uni-CoT 分层宏-微推理框架，将多模态 CoT 分解为宏观任务规划（将复杂任务分解为子目标）和微观子任务执行（MDP 式自反思迭代优化），通过注意力掩码设计将 $O(T^2)$ 复杂度降至 $O(T)$…
 tags:
-  - ICLR2026
-  - LLM推理
-  - 多模态思维链
-  - 文图交织推理
-  - 宏微分层
-  - MDP自反思
-  - 统一生成
+  - "ICLR2026"
+  - "LLM推理"
+  - "多模态思维链"
+  - "文图交织推理"
+  - "宏微分层"
+  - "MDP自反思"
+  - "统一生成"
 ---
 
 # Uni-CoT: Towards Unified Chain-of-Thought Reasoning Across Text and Vision

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][多模态VLM][技能评估] 提出CrossTrainer方法，通过发现跨运动通用的技能属性（如平衡、控制、手部定位）作为中间表示，训练多模态语言模型从视频中生成可操作反馈和水平评估，在跨运动零样本迁移中相对SOTA提升高达60%。
 tags:
-  - NeurIPS 2025
-  - 多模态VLM
-  - 技能评估
-  - 跨运动迁移
-  - 视频理解
-  - 多模态LLM
-  - 可操作反馈
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "技能评估"
+  - "跨运动迁移"
+  - "视频理解"
+  - "多模态LLM"
+  - "可操作反馈"
 ---
 
 # Learning Skill-Attributes for Transferable Assessment in Video

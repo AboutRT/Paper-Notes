@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025 (Short Paper)][时间序列][大语言模型] 本文系统评估了 LLM 作为零样本时间序列预测器的有效性，发现 LLM 对输入噪声极度敏感——即使少量噪声也会使性能大幅下降，甚至不如简单的领域专用模型（如 DLinear），建议未来应聚焦于对 LLM 进行微调以更好地处理数值序列。
 tags:
-  - ACL 2025 (Short Paper)
-  - 时间序列
-  - 大语言模型
-  - 零样本预测
-  - 噪声敏感性
-  - 鲁棒性
+  - "ACL 2025 (Short Paper)"
+  - "时间序列"
+  - "大语言模型"
+  - "零样本预测"
+  - "噪声敏感性"
+  - "鲁棒性"
 ---
 
 # Revisiting LLMs as Zero-Shot Time-Series Forecasters: Small Noise Can Break Large Models

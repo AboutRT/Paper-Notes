@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][机器人][人形机器人] 提出 LEGO-H 框架，通过 TC-ViT（时序条件 ViT）统一导航感知和低层运动控制，结合层次潜空间匹配（HLM）从 oracle 策略高效蒸馏，使 Unitree H1 人形机器人在复杂户外山径上达到 68.4% 成功率。
 tags:
-  - CVPR 2025
-  - 机器人
-  - 人形机器人
-  - 户外导航
-  - 运动技能
-  - 层次潜空间匹配
-  - 时序ViT
+  - "CVPR 2025"
+  - "机器人"
+  - "人形机器人"
+  - "户外导航"
+  - "运动技能"
+  - "层次潜空间匹配"
+  - "时序ViT"
 ---
 
 # Let Humanoids Hike! Integrative Skill Development on Complex Trails

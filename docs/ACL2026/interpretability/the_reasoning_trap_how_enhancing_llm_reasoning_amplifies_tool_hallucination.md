@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][可解释性][工具幻觉] 系统性揭示了"推理陷阱"悖论：增强LLM推理能力（无论通过RL、蒸馏还是可切换推理模式）会系统性地放大工具幻觉，且这一效应与推理本身而非RL训练相关联，现有缓解策略（提示工程、DPO）面临不可避免的可靠性-能力权衡。
 tags:
-  - ACL 2026
-  - 可解释性
-  - 工具幻觉
-  - 推理增强
-  - 强化学习
-  - 可靠性-能力权衡
-  - LLM智能体
+  - "ACL 2026"
+  - "可解释性"
+  - "工具幻觉"
+  - "推理增强"
+  - "强化学习"
+  - "可靠性-能力权衡"
+  - "LLM智能体"
 ---
 
 # The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination

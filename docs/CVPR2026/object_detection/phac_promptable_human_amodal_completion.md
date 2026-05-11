@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][人体非模态补全] 提出可提示人体非模态补全（PHAC）新任务，通过基于点的用户提示（姿态/边界框）配合 ControlNet 注入条件信号，并设计基于修复的精炼模块保留可见区域外观，实现高质量、可控的遮挡人体图像补全。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 人体非模态补全
-  - 扩散模型
-  - ControlNet
-  - 姿态引导生成
-  - 图像修复
+  - "CVPR 2026"
+  - "目标检测"
+  - "人体非模态补全"
+  - "扩散模型"
+  - "ControlNet"
+  - "姿态引导生成"
+  - "图像修复"
 ---
 
 # PHAC: Promptable Human Amodal Completion

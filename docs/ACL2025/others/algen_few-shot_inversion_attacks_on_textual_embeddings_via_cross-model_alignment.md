@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][文本嵌入反转攻击] 本文提出ALGEN，一种少样本文本嵌入反转攻击方法，通过将受害者的嵌入空间与攻击者的嵌入空间进行线性对齐，再利用训练好的嵌入到文本生成器重建原始文本，仅需1个泄露样本即可发起部分成功的攻击，1000个样本时Rouge-L达45.75。
 tags:
-  - ACL 2025
-  - 文本嵌入反转攻击
-  - 少样本攻击
-  - 其他
-  - 向量数据库安全
-  - 隐私泄露
+  - "ACL 2025"
+  - "文本嵌入反转攻击"
+  - "少样本攻击"
+  - "跨模型对齐"
+  - "向量数据库安全"
+  - "隐私泄露"
 ---
 
 # ALGEN: Few-Shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment

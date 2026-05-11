@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][OOD检测] NDP提出了可学习的神经分布先验模块来建模网络预测的分布结构，结合Perlin噪声生成的伪OOD样本和软异常暴露策略，在STU基准上实现61.31% AP，超越之前最佳结果10倍以上。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - OOD检测
-  - LiDAR感知
-  - 类别不平衡
-  - Perlin噪声
-  - 分布先验
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "OOD检测"
+  - "LiDAR感知"
+  - "类别不平衡"
+  - "Perlin噪声"
+  - "分布先验"
 ---
 
 # Neural Distribution Prior for LiDAR Out-of-Distribution Detection

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][层剪枝] LinearPatch 通过在层剪枝界面插入一个融合了 Hadamard 变换和通道缩放的轻量对称矩阵，修复了剪枝造成的激活幅度失配问题，在 LLaMA-3-8B 上无训练保留 94.15% 性能，30 分钟蒸馏后达 95.16%。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 层剪枝
-  - 激活幅度对齐
-  - Hadamard变换
-  - 通道缩放
-  - 知识蒸馏
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "层剪枝"
+  - "激活幅度对齐"
+  - "Hadamard变换"
+  - "通道缩放"
+  - "知识蒸馏"
 ---
 
 # A Simple Linear Patch Revives Layer-Pruned Large Language Models

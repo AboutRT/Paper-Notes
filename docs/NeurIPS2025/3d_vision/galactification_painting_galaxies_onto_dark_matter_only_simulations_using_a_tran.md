@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][宇宙学模拟] 提出一个多模态 Transformer 编解码框架，以廉价的暗物质 N-body 模拟的密度场和速度场为输入，自回归生成星系目录（位置 + 物理属性），在多种统计指标上忠实再现流体动力学模拟结果，计算加速约 100 倍。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 宇宙学模拟
-  - Transformer
-  - 暗物质
-  - 星系生成
-  - 条件生成模型
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "宇宙学模拟"
+  - "Transformer"
+  - "暗物质"
+  - "星系生成"
+  - "条件生成模型"
 ---
 
 # Galactification: Painting Galaxies onto Dark Matter Only Simulations Using a Transformer-Based Model

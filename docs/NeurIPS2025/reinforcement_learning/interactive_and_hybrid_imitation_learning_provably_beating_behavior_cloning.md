@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Interactive and Hybrid Imitation Learning: Provably Beating Behavior Cloning
 description: >-
-  [NeurIPS 2025][imitation learning] 当标注成本按**状态**而非轨迹计量时，证明交互式方法 Stagger 在 $\mu$-可恢复条件下可证明地超越 Behavior Cloning（次优性 $O(\mu H \log B / N)$ vs $O(RH \log B / CN)$，$\mu \ll R$ 时优势显著）；进一步提出混合 IL 算法 Warm-Stagger，结合离线数据和交互标注，在特定 MDP 上实现两种数据源的严格互补优势。
+  [NeurIPS 2025][强化学习][imitation learning] 当标注成本按**状态**而非轨迹计量时，证明交互式方法 Stagger 在 $\mu$-可恢复条件下可证明地超越 Behavior Cloning（次优性 $O(\mu H \log B / N)$ vs $O(RH \log…
 tags:
-  - NeurIPS 2025
-  - imitation learning
-  - interactive learning
-  - behavior cloning
-  - DAgger
-  - hybrid IL
-  - sample complexity
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "imitation learning"
+  - "interactive learning"
+  - "behavior cloning"
+  - "DAgger"
+  - "hybrid IL"
+  - "sample complexity"
 ---
 
 # Interactive and Hybrid Imitation Learning: Provably Beating Behavior Cloning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SAMWise: Infusing Wisdom in SAM2 for Text-Driven Video Segmentation
 description: >-
-  [CVPR 2025][图像分割][参考视频目标分割] SAMWISE 通过设计跨模态时序适配器（CMT）和条件记忆编码器（CME），在不微调 SAM2 权重的前提下为其注入自然语言理解和显式时序建模能力，以流式处理方式在参考视频目标分割（RVOS）任务上取得了 SOTA 性能，仅增加不到 5M 参数。
+  [CVPR 2025][语义分割][参考视频目标分割] SAMWISE 通过设计跨模态时序适配器（CMT）和条件记忆编码器（CME），在不微调 SAM2 权重的前提下为其注入自然语言理解和显式时序建模能力，以流式处理方式在参考视频目标分割（RVOS）任务上取得了 SOTA 性能，仅增加不到 5M 参数。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 参考视频目标分割
-  - SAM2
-  - 跨模态时序适配器
-  - 追踪偏差
-  - 流式处理
+  - "CVPR 2025"
+  - "语义分割"
+  - "参考视频目标分割"
+  - "SAM2"
+  - "跨模态时序适配器"
+  - "追踪偏差"
+  - "流式处理"
 ---
 
 # SAMWise: Infusing Wisdom in SAM2 for Text-Driven Video Segmentation

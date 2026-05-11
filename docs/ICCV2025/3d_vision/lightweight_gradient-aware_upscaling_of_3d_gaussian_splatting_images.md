@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][3D高斯泼溅] 提出专门为3DGS设计的轻量图像上采样技术，利用高斯原语的解析图像梯度进行梯度感知双三次样条插值，无需深度学习推理即可实现3-4倍渲染加速，且重建质量优于标准双三次插值和DL-based上采样。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 3D高斯泼溅
-  - 图像上采样
-  - 解析梯度
-  - 样条插值
-  - 轻量渲染
+  - "ICCV 2025"
+  - "3D视觉"
+  - "3D高斯泼溅"
+  - "图像上采样"
+  - "解析梯度"
+  - "样条插值"
+  - "轻量渲染"
 ---
 
 # Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images

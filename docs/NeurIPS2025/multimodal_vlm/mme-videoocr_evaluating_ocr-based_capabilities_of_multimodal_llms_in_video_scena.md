@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios
 description: >-
-  [NeurIPS 2025][多模态][OCR] 提出 MME-VideoOCR，一个包含 25 个任务、44 个场景、1464 个视频和 2000 个人工标注 QA 对的视频 OCR 综合评估基准，涵盖文本识别、理解和推理三个层次。评估 18 个 SOTA MLLM 揭示最强模型（Gemini-2.5 Pro）仅达 73.7%，跨帧理解任务低至 25% 以下。
+  [NeurIPS 2025][多模态VLM][OCR] 提出 MME-VideoOCR，一个包含 25 个任务、44 个场景、1464 个视频和 2000 个人工标注 QA 对的视频 OCR 综合评估基准，涵盖文本识别、理解和推理三个层次…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - OCR
-  - 多模态VLM
-  - cross-frame understanding
-  - language prior bias
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "OCR"
+  - "benchmark"
+  - "cross-frame understanding"
+  - "language prior bias"
+  - "多模态"
 ---
 
 # MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios
@@ -96,11 +97,11 @@ tags:
 
 ### 关键发现
 
-1. **跨帧理解是最大短板**：Cross-Frame Text Understanding 大多数模型 <25%，所有 Top-5 模型在**轨迹识别**上均为 **0%**
+1. **跨帧理解是最大短板**：Cross-Frame Text Understanding 大多数模型 &lt;25%，所有 Top-5 模型在**轨迹识别**上均为 **0%**
 2. **分辨率和帧数至关重要**：提高分辨率和帧数持续提升性能，但帧数从 32→64 时部分模型反而下降（注意力分散）
 3. **Token 压缩不适合 OCR**：VideoChat-Flash、Slow-fast MLLM 等压缩方法在 OCR 任务上表现劣势
 4. **语言先验偏差严重**：模型倾向将拼写错误"修正"为语义合理的词（如 "throuh" → "through"），而非忠实识别视觉内容
-5. **单帧 vs 跨帧差距悬殊**：字幕理解（单帧信息）90%+ vs 多跳大海捞针（跨帧聚合）<30%，说明模型依赖少量帧而非真正整合时序信息
+5. **单帧 vs 跨帧差距悬殊**：字幕理解（单帧信息）90%+ vs 多跳大海捞针（跨帧聚合）&lt;30%，说明模型依赖少量帧而非真正整合时序信息
 6. **显著的 scaling 效应**：Qwen2.5-VL 7B→72B 提升 10%+，InternVL3 8B→78B 提升 7%+
 
 ## 亮点

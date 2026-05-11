@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Subspace Optimization for Large Language Models with Convergence Guarantees
 description: >-
-  [ICML 2025][优化][subspace optimization] 本文揭示了 GaLore（子空间优化算法）在随机设定下不总是收敛，并提出了 GoLore（梯度随机低秩投影）——一种可证明收敛的变体，即使在标准 batch 大小下也能保证收敛。
+  [ICML 2025][优化/理论][subspace optimization] 本文揭示了 GaLore（子空间优化算法）在随机设定下不总是收敛，并提出了 GoLore（梯度随机低秩投影）——一种可证明收敛的变体，即使在标准 batch 大小下也能保证收敛。
 tags:
-  - ICML 2025
-  - 优化
-  - subspace optimization
-  - LLM training
-  - GaLore
-  - low-rank projection
-  - convergence guarantee
+  - "ICML 2025"
+  - "优化/理论"
+  - "subspace optimization"
+  - "LLM training"
+  - "GaLore"
+  - "low-rank projection"
+  - "convergence guarantee"
 ---
 
 # Subspace Optimization for Large Language Models with Convergence Guarantees

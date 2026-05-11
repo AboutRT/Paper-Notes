@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][Flow Matching] 提出 COT-FM，一个即插即用的 Flow Matching 增强框架：通过聚类目标样本、反转预训练模型获取簇级源分布、在簇内近似最优传输，显著拉直传输路径，在不改变模型架构的前提下同时加速采样和提升生成质量。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - Flow Matching
-  - 最优传输
-  - 聚类
-  - 向量场拉直
-  - 加速采样
+  - "CVPR 2026"
+  - "图像生成"
+  - "Flow Matching"
+  - "最优传输"
+  - "聚类"
+  - "向量场拉直"
+  - "加速采样"
 ---
 
 # COT-FM: Cluster-wise Optimal Transport Flow Matching

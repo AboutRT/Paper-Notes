@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Sample Selection Against Label Noise by Cutting Mislabeled Easy Examples
 description: >-
-  [NeurIPS 2025][噪声标签] 发现并定义了误标注易学样本（Mislabeled Easy Examples, MEEs）——被模型早期训练即正确预测为错误标签的样本对泛化伤害最大，并提出 Early Cutting 方法利用模型后期状态重新校准早期置信子集来过滤MEEs。
+  [NeurIPS 2025][LLM安全][噪声标签] 发现并定义了误标注易学样本（Mislabeled Easy Examples, MEEs）——被模型早期训练即正确预测为错误标签的样本对泛化伤害最大，并提出 Early Cutting 方法利用模型后期状态重新校准早期置信子集来过滤MEEs。
 tags:
-  - NeurIPS 2025
-  - 噪声标签
-  - 样本选择
-  - 误标注易学样本
-  - LLM安全
-  - 鲁棒训练
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "噪声标签"
+  - "样本选择"
+  - "误标注易学样本"
+  - "Early Cutting"
+  - "鲁棒训练"
 ---
 
 # Enhancing Sample Selection Against Label Noise by Cutting Mislabeled Easy Examples

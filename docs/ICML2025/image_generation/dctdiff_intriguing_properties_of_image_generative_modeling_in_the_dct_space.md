@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML2025][图像生成][扩散模型] 提出 DCTdiff，首次在离散余弦变换（DCT）频域空间中进行端到端扩散图像生成，无需 VAE 即可无缝扩展至 512×512 分辨率，并在生成质量和训练效率上均优于像素空间扩散模型。
 tags:
-  - ICML2025
-  - 图像生成
-  - 扩散模型
-  - DCT
-  - 频域建模
-  - 频谱自回归
+  - "ICML2025"
+  - "图像生成"
+  - "扩散模型"
+  - "DCT"
+  - "频域建模"
+  - "频谱自回归"
 ---
 
 # DCTdiff: Intriguing Properties of Image Generative Modeling in the DCT Space

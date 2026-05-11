@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos
 description: >-
-  [ECCV 2024][视频到音频生成] 提出 AV-LDM，通过在训练时引入同一视频不同时间段的音频作为环境音条件，隐式解耦前景动作声和背景环境音，结合检索增强生成(RAG)在推理时选择合适的环境音条件，在 Ego4D 和 EPIC-KITCHENS 上大幅超越已有方法。
+  [ECCV 2024][音频/语音][视频到音频生成] 提出 AV-LDM，通过在训练时引入同一视频不同时间段的音频作为环境音条件，隐式解耦前景动作声和背景环境音，结合检索增强生成(RAG)在推理时选择合适的环境音条件，在 Ego4D 和 EPIC-KITCHENS 上大幅超越已有方法。
 tags:
-  - ECCV 2024
-  - 视频到音频生成
-  - 环境音解耦
-  - 第一人称视频
-  - 潜在扩散模型
-  - 音频语音
+  - "ECCV 2024"
+  - "音频/语音"
+  - "视频到音频生成"
+  - "环境音解耦"
+  - "第一人称视频"
+  - "潜在扩散模型"
+  - "检索增强生成"
 ---
 
 # Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos

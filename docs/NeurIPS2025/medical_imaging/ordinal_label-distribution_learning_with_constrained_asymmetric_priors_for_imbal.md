@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Ordinal Label-Distribution Learning with Constrained Asymmetric Priors for Imbalanced Retinal Grading
 description: >-
-  [NeurIPS 2025 Workshop (GenAI for Health)][医学图像][diabetic retinopathy] 提出 CAP-WAE（Constrained Asymmetric Prior Wasserstein Autoencoder），通过非对称先验、序数边距正交紧凑损失和方向感知序数损失三重创新，解决糖尿病视网膜病变分级中长尾分布和序数结构的挑战，在多个 DR 基准上达到 SOTA。
+  [NeurIPS 2025 Workshop (GenAI for Health)][医学图像][diabetic retinopathy] 提出 CAP-WAE（Constrained Asymmetric Prior Wasserstein Autoencoder）…
 tags:
-  - NeurIPS 2025 Workshop (GenAI for Health)
-  - 医学图像
-  - diabetic retinopathy
-  - ordinal classification
-  - Wasserstein autoencoder
-  - label distribution
-  - imbalanced learning
+  - "NeurIPS 2025 Workshop (GenAI for Health)"
+  - "医学图像"
+  - "diabetic retinopathy"
+  - "ordinal classification"
+  - "Wasserstein autoencoder"
+  - "label distribution"
+  - "imbalanced learning"
 ---
 
 # Ordinal Label-Distribution Learning with Constrained Asymmetric Priors for Imbalanced Retinal Grading

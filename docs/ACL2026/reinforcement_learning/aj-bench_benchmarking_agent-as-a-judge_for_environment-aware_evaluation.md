@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation
 description: >-
-  [ACL 2026][强化学习] 提出 AJ-Bench，首个系统评估 Agent-as-a-Judge 能力的基准，覆盖搜索、数据系统和 GUI 三个领域共 155 个任务和 516 条标注轨迹，实验表明 Agent-as-a-Judge 比 LLM-as-a-Judge 平均 F1 提升约 13 个百分点。
+  [ACL 2026][强化学习][Agent评估] 提出 AJ-Bench，首个系统评估 Agent-as-a-Judge 能力的基准，覆盖搜索、数据系统和 GUI 三个领域共 155 个任务和 516 条标注轨迹…
 tags:
-  - ACL 2026
-  - 强化学习
-  - Agent-as-a-Judge
-  - 环境交互验证
-  - 轨迹评估
-  - 基准测试
+  - "ACL 2026"
+  - "强化学习"
+  - "Agent评估"
+  - "Agent-as-a-Judge"
+  - "环境交互验证"
+  - "轨迹评估"
+  - "基准测试"
 ---
 
 # AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation

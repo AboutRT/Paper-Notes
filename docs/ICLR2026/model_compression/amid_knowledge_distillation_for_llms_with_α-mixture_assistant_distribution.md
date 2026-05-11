@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AMiD: Knowledge Distillation for LLMs with α-mixture Assistant Distribution
 description: >-
-  [ICLR 2026][模型压缩][知识蒸馏] 提出α-mixture assistant distribution及统一蒸馏框架AMiD，通过引入新设计变量α（控制教师-学生分布插值路径的几何形状）泛化了现有辅助分布方法（m-mixture和e-mixture为α=±1的特例），并证明了在任意散度和α下的最优性保证，在多个LLM蒸馏基准上取得SOTA性能。
+  [ICLR 2026][模型压缩][知识蒸馏] 提出α-mixture assistant distribution及统一蒸馏框架AMiD，通过引入新设计变量α（控制教师-学生分布插值路径的几何形状）泛化了现有辅助分布方法（m-mixture和e-mixture为α=±1的特例）…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 知识蒸馏
-  - 辅助分布
-  - α-混合
-  - f-散度
-  - LLM压缩
+  - "ICLR 2026"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "辅助分布"
+  - "α-混合"
+  - "f-散度"
+  - "LLM压缩"
 ---
 
 # AMiD: Knowledge Distillation for LLMs with α-mixture Assistant Distribution
@@ -49,7 +49,7 @@ AMiD引入两个控制变量：α（控制插值路径几何）和λ（控制插
 
     - 功能：用参数α控制教师-学生分布插值路径的几何形状
     - 核心思路：α=-1时为算术均值（m-mixture，直线路径）；α=1时为几何均值（e-mixture，对数空间直线）；α=3时为调和均值；其他α值给出新的插值路径。Theorem 3.2证明 $r^{(\alpha,\lambda)}$ 是在α-散度意义下p和q的内分点（测地线上的点）
-    - 设计动机：α<1时support为并集（mode-covering），α≥1时support为交集（mode-seeking）——这直接影响蒸馏行为
+    - 设计动机：α&lt;1时support为并集（mode-covering），α≥1时support为交集（mode-seeking）——这直接影响蒸馏行为
 
 2. **最优性保证（Theorem 3.4）**
 
@@ -65,7 +65,7 @@ AMiD引入两个控制变量：α（控制插值路径几何）和λ（控制插
 
 ### 训练策略
 - 兼容任意散度和数据策略，推荐α-β散度+λ=0.1
-- α<1用于模式覆盖，α≥1用于模式聚焦
+- α&lt;1用于模式覆盖，α≥1用于模式聚焦
 - 支持自适应α调度
 
 ## 实验关键数据

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][全景分割提升] 提出 PCF-Lift，通过概率特征嵌入（多元高斯分布）替代确定性特征，结合概率乘积核（PP Kernel）的对比损失和跨视图约束，有效应对2D分割中的不一致分割和不一致ID问题，在 ScanNet 和 Messy Room 数据集上显著超越前沿方法。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 全景分割提升
-  - 概率特征嵌入
-  - 对比学习
-  - 多视图融合
-  - NeRF
+  - "ECCV 2024"
+  - "3D视觉"
+  - "全景分割提升"
+  - "概率特征嵌入"
+  - "对比学习"
+  - "多视图融合"
+  - "NeRF"
 ---
 
 # PCF-Lift: Panoptic Lifting by Probabilistic Contrastive Fusion

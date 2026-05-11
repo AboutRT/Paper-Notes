@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][模型压缩][向量量化] RDVQ 通过对码本分布的可微松弛，首次实现了 VQ-based 图像压缩的端到端率失真联合优化，在极低码率下以不到 20% 的参数量取得了优于或竞争性的感知质量。
 tags:
-  - CVPR 2026
-  - 模型压缩
-  - 向量量化
-  - 率失真优化
-  - 生成式图像压缩
-  - 熵模型
-  - 可微松弛
+  - "CVPR 2026"
+  - "模型压缩"
+  - "向量量化"
+  - "率失真优化"
+  - "生成式图像压缩"
+  - "熵模型"
+  - "可微松弛"
 ---
 
 # RDVQ: Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression

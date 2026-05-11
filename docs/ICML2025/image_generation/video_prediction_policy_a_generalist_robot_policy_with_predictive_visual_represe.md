@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025 (Spotlight)][图像生成][扩散模型] 利用视频扩散模型（VDM）内部的"预测性视觉表征"（同时编码当前帧和未来帧信息）来隐式学习逆动力学模型，从而以高频闭环方式生成机器人动作，在仿真和真实世界操作任务上大幅超越已有方法。
 tags:
-  - ICML 2025 (Spotlight)
-  - 图像生成
-  - 扩散模型
-  - Predictive Visual Representation
-  - Inverse Dynamics
-  - Robot Manipulation
-  - Generalist Policy
+  - "ICML 2025 (Spotlight)"
+  - "图像生成"
+  - "扩散模型"
+  - "Predictive Visual Representation"
+  - "Inverse Dynamics"
+  - "Robot Manipulation"
+  - "Generalist Policy"
 ---
 
 # Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations
@@ -82,7 +82,7 @@ $Q''$ 通过交叉注意力注入 Diffusion Transformer 块，用扩散策略生
 
 $$\mathcal{L}_{diff}(\psi; A) = \mathbb{E}_{a_0, \epsilon, k} \| D_\psi(a_k, l_{emb}, Q'') - a_0 \|^2$$
 
-采用 action chunking（10步），整体推理仅需 TVP 单次前向（<160ms），在 RTX 4090 上达到 **7-10 Hz** 控制频率。
+采用 action chunking（10步），整体推理仅需 TVP 单次前向（&lt;160ms），在 RTX 4090 上达到 **7-10 Hz** 控制频率。
 
 ## 实验关键数据
 

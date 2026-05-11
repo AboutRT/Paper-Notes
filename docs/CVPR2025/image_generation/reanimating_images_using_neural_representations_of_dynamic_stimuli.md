@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][fMRI脑活动解码] 提出 BrainNRDS 框架，将静态图像表征与运动生成解耦，利用 fMRI 脑活动解码光流信息，结合运动条件扩散模型从初始帧生成视频，同时发现视频编码器（VideoMAE）在预测脑活动方面优于图像编码器。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - fMRI脑活动解码
-  - 光流预测
-  - 视频扩散模型
-  - 动态视觉刺激
-  - 神经表征
+  - "CVPR 2025"
+  - "图像生成"
+  - "fMRI脑活动解码"
+  - "光流预测"
+  - "视频扩散模型"
+  - "动态视觉刺激"
+  - "神经表征"
 ---
 
 # Reanimating Images using Neural Representations of Dynamic Stimuli

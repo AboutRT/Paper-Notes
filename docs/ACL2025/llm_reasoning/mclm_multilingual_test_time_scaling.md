@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning
 description: >-
-  [ACL 2025][LLM推理][Test-Time Scaling] 提出 MCLM（55 语言的竞赛级数学基准），发现三种 test-time scaling 方法（ORM/PRM/Budget Forcing）在英语上提升显著（如 AIME +20 分），但在其他语言上平均仅提升 1.94 分，表明 test-time scaling 的多语言泛化能力严重不足。
+  [ACL 2025][LLM推理][Test-Time Scaling] 提出 MCLM（55 语言的竞赛级数学基准），发现三种 test-time scaling 方法（ORM/PRM/Budget Forcing）在英语上提升显著（如 AIME +20 分），但在其他语言上平均仅提升 1.94 分…
 tags:
-  - ACL 2025
-  - LLM推理
-  - Test-Time Scaling
-  - 多语言推理
-  - 数学推理
-  - Budget Forcing
-  - 奖励模型
+  - "ACL 2025"
+  - "LLM推理"
+  - "Test-Time Scaling"
+  - "多语言推理"
+  - "数学推理"
+  - "Budget Forcing"
+  - "奖励模型"
 ---
 
 # Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning

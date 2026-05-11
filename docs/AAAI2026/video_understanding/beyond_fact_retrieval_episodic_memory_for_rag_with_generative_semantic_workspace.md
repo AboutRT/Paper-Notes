@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][情景记忆] 提出 Generative Semantic Workspace (GSW)，一种神经科学启发的生成式记忆框架，为 LLM 构建结构化的情景记忆表示，在 EpBench 上 F1 达到 0.85，同时减少 51% 的查询时上下文 token。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 情景记忆
-  - RAG
-  - 长文本推理
-  - 结构化表示
-  - 世界模型
+  - "AAAI 2026"
+  - "视频理解"
+  - "情景记忆"
+  - "RAG"
+  - "长文本推理"
+  - "结构化表示"
+  - "世界模型"
 ---
 
 # Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Function-Space Learning Rates
 description: >-
-  [ICML2025][模型压缩][function-space learning rate] 提出**逐层函数空间学习率**的高效蒙特卡洛估计方法，并基于此设计 **FLeRM**（Function-space Learning Rate Matching），在小模型上记录函数空间学习率，自动调整大模型的参数空间学习率，实现跨宽度、深度、初始化尺度和 LoRA rank 的超参数迁移。
+  [ICML2025][模型压缩][function-space learning rate] 提出**逐层函数空间学习率**的高效蒙特卡洛估计方法，并基于此设计 **FLeRM**（Function-space Learning Rate Matching），在小模型上记录函数空间学习率…
 tags:
-  - ICML2025
-  - 模型压缩
-  - function-space learning rate
-  - hyperparameter transfer
-  - FLeRM
-  - model scaling
-  - LoRA
+  - "ICML2025"
+  - "模型压缩"
+  - "function-space learning rate"
+  - "hyperparameter transfer"
+  - "FLeRM"
+  - "model scaling"
+  - "LoRA"
 ---
 
 # Function-Space Learning Rates

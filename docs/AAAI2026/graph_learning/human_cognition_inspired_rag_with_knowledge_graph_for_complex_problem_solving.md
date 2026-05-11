@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图学习][RAG] 提出 CogGRAG，一个受人类认知启发的基于知识图谱的 RAG 框架，通过自顶向下的思维导图分解问题、分层级结构化检索、以及双 LLM 自验证推理三个阶段，显著提升 LLM 在复杂知识图谱问答 (KGQA) 任务中的准确性和可靠性。
 tags:
-  - AAAI 2026
-  - 图学习
-  - RAG
-  - 知识图谱
-  - 问答系统
-  - 思维导图
-  - 自我验证
+  - "AAAI 2026"
+  - "图学习"
+  - "RAG"
+  - "知识图谱"
+  - "问答系统"
+  - "思维导图"
+  - "自我验证"
 ---
 
 # Human Cognition Inspired RAG with Knowledge Graph for Complex Problem Solving

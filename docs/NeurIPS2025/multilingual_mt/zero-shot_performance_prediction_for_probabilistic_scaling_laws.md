@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Zero-Shot Performance Prediction for Probabilistic Scaling Laws
 description: >-
-  [NeurIPS 2025][多语言翻译] 将 NLP 学习曲线预测建模为多任务学习问题，利用潜变量多输出高斯过程（MaGP）捕捉数据集中的双层层次结构和任务间相关性，实现学习曲线的零样本预测，并通过蒙特卡洛模拟推导概率化的 Scaling Laws。
+  [NeurIPS 2025][多语言/翻译][scaling laws] 将 NLP 学习曲线预测建模为多任务学习问题，利用潜变量多输出高斯过程（MaGP）捕捉数据集中的双层层次结构和任务间相关性，实现学习曲线的零样本预测，并通过蒙特卡洛模拟推导概率化的 Scaling Laws。
 tags:
-  - NeurIPS 2025
-  - 多语言翻译
-  - learning curves
-  - Gaussian processes
-  - zero-shot prediction
-  - hierarchical modeling
-  - active learning
-  - multi-task learning
+  - "NeurIPS 2025"
+  - "多语言/翻译"
+  - "scaling laws"
+  - "learning curves"
+  - "Gaussian processes"
+  - "zero-shot prediction"
+  - "hierarchical modeling"
+  - "active learning"
+  - "multi-task learning"
 ---
 
 # Zero-Shot Performance Prediction for Probabilistic Scaling Laws
@@ -202,7 +203,7 @@ Ground truth: $-0.056c + 3.51$。
 ## 相关工作与启发
 
 - **与 Hoffmann et al. (2022, Chinchilla) 的关系**：Chinchilla 通过穷举训练推导 Scaling Law，本文用零样本预测大幅降低成本
-- **与 Klein et al. (2016, BNN) 的对比**：BNN 需 256+ 配置，本文仅需 <30 条曲线
+- **与 Klein et al. (2016, BNN) 的对比**：BNN 需 256+ 配置，本文仅需 &lt;30 条曲线
 - **与 Hägele et al. 提出的替代训练技术互补**：前者从训练端降低成本，本文从预测端降低成本
 - **Hensman et al. (2013, DHGP)**：层次 GP 用于基因表达数据，本文首次将类似思想引入 NLP 学习曲线
 - **Ma et al. (2023, MaGP)**：提供了底层模型，本文的贡献在于将其应用于 Scaling Law 推导场景 + 发现 NLP 数据集的层次特性

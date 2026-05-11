@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][推测解码] CSD 提出一种训练免的推测解码增强框架，通过在线校正记忆（OCM）记录高频拒绝模式提供救援候选，再用语义一致性门控（SCG）基于概率比验证候选可靠性，将推测解码的吞吐量提升至最高 2.33×，同时在 HumanEval 和 MATH500 上甚至提升了准确率。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 推测解码
-  - 虚假拒绝
-  - 在线校正记忆
-  - 语义一致性门控
-  - 训练免
+  - "ACL 2026"
+  - "模型压缩"
+  - "推测解码"
+  - "虚假拒绝"
+  - "在线校正记忆"
+  - "语义一致性门控"
+  - "训练免"
 ---
 
 # Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference

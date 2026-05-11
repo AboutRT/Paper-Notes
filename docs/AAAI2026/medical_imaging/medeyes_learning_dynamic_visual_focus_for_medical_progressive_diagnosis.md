@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MedEyes: Learning Dynamic Visual Focus for Medical Progressive Diagnosis
 description: >-
-  [AAAI 2026][医学图像][医学VQA] 提出 MedEyes，一个混合策略强化学习框架，通过注视引导推理导航器（GRN）模拟临床医生"扫描-钻探"的诊断视觉搜索模式，结合置信度值采样器（CVS）和双流 GRPO 优化，实现动态视觉聚焦的医学渐进式诊断推理，在五个医学 VQA 基准上平均提升 8.5pp。
+  [AAAI 2026][医学图像][医学VQA] 提出 MedEyes，一个混合策略强化学习框架，通过注视引导推理导航器（GRN）模拟临床医生"扫描-钻探"的诊断视觉搜索模式，结合置信度值采样器（CVS）和双流 GRPO 优化，实现动态视觉聚焦的医学渐进式诊断推理…
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 医学VQA
-  - 强化学习
-  - 视觉思维链
-  - 动态注意力
-  - GRPO
+  - "AAAI 2026"
+  - "医学图像"
+  - "医学VQA"
+  - "强化学习"
+  - "视觉思维链"
+  - "动态注意力"
+  - "GRPO"
 ---
 
 # MedEyes: Learning Dynamic Visual Focus for Medical Progressive Diagnosis

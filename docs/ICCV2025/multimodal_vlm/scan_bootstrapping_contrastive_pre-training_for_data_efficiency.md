@@ -2,9 +2,9 @@
 title: >-
   [论文解读] SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency
 description: >-
-  [多模态] 提出SCAN，一种动态自举数据集剪枝方法，通过迭代的剪枝候选识别和数据集突变操作，在CLIP和MoCo对比预训练中以30-35%的数据剪枝率实现平均不到1%的性能下降。
+  [多模态VLM] 提出SCAN，一种动态自举数据集剪枝方法，通过迭代的剪枝候选识别和数据集突变操作，在CLIP和MoCo对比预训练中以30-35%的数据剪枝率实现平均不到1%的性能下降。
 tags:
-  - 多模态
+  - "多模态VLM"
 ---
 
 # SCAN: Bootstrapping Contrastive Pre-training for Data Efficiency

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning
 description: >-
-  [NeurIPS 2025][多模态][分子表示学习] 提出 MuMo 框架，通过结构化融合管线（SFP）将 2D 拓扑和 3D 几何统一为稳定的结构先验，并通过渐进注入（PI）机制非对称地将该先验整合到序列流中，在 29 个分子性质预测任务中平均超过最佳基线 2.7%，在 22 个任务上排名第一。
+  [NeurIPS 2025][多模态VLM][分子表示学习] 提出 MuMo 框架，通过结构化融合管线（SFP）将 2D 拓扑和 3D 几何统一为稳定的结构先验，并通过渐进注入（PI）机制非对称地将该先验整合到序列流中，在 29 个分子性质预测任务中平均超过最佳基线 2.7%，在 22 个任务上排名第一。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 分子表示学习
-  - 多模态融合
-  - 状态空间模型
-  - 3D构象
-  - 渐进注入
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "分子表示学习"
+  - "多模态融合"
+  - "状态空间模型"
+  - "3D构象"
+  - "渐进注入"
 ---
 
 # Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning

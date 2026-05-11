@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SDPO: Segment-Level Direct Preference Optimization for Social Agents
 description: >-
-  [ACL 2025][LLM对齐][偏好优化] SDPO 提出在多轮社交对话中以"片段"（segment）为粒度进行偏好优化，通过动态定位错误轮次、从错误点前的历史重新采样正样本、选取等长的关键片段对进行训练，既降低了会话级 DPO 的训练噪声，又通过等长约束严格消除了分区函数 $Z$，在 SOTOPIA 基准上超越了 GPT-4o 和所有 DPO 变体。
+  [ACL 2025][LLM对齐][偏好优化] SDPO 提出在多轮社交对话中以"片段"（segment）为粒度进行偏好优化，通过动态定位错误轮次、从错误点前的历史重新采样正样本、选取等长的关键片段对进行训练，既降低了会话级 DPO 的训练噪声，又通过等长约束严格消除了分区函数 $Z$…
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 偏好优化
-  - 多轮对话对齐
-  - 社交智能体
-  - 片段级优化
-  - DPO
+  - "ACL 2025"
+  - "LLM对齐"
+  - "偏好优化"
+  - "多轮对话对齐"
+  - "社交智能体"
+  - "片段级优化"
+  - "DPO"
 ---
 
 # SDPO: Segment-Level Direct Preference Optimization for Social Agents

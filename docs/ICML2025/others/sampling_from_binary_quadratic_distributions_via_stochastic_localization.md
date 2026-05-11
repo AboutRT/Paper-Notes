@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Sampling from Binary Quadratic Distributions via Stochastic Localization
 description: >-
-  [ICML2025][随机局部化] 首次将随机局部化 (Stochastic Localization, SL) 框架应用于一般二元二次分布 (BQD) 采样，证明经过足够SL迭代后后验分布几乎处处满足 Poincaré 不等式，从而保证离散 MCMC 采样器多项式时间混合，并在 QUBO 组合优化问题上验证了一致的采样效率提升。
+  [ICML2025][随机局部化] 首次将随机局部化 (Stochastic Localization, SL) 框架应用于一般二元二次分布 (BQD) 采样，证明经过足够SL迭代后后验分布几乎处处满足 Poincaré 不等式，从而保证离散 MCMC 采样器多项式时间混合…
 tags:
-  - ICML2025
-  - 随机局部化
-  - 二元二次分布
-  - 离散MCMC
-  - Poincaré不等式
-  - 其他
-  - Gibbs采样
+  - "ICML2025"
+  - "随机局部化"
+  - "二元二次分布"
+  - "离散MCMC"
+  - "Poincaré不等式"
+  - "组合优化"
+  - "Gibbs采样"
 ---
 
 # Sampling from Binary Quadratic Distributions via Stochastic Localization
@@ -121,7 +121,7 @@ $$P_q\left[\left|\frac{1}{n}\sum_{i=1}^n X_i - \mathbb{E}_{\nu_{\beta,h}}[X]\rig
 1. **仅限二元变量**：当前框架限于 $x \in \{-1,1\}^N$，未推广到多值离散变量
 2. **仅限二次分布**：无法处理未知形式分布（如深度能量模型），需高效二阶 Taylor 近似
 3. **整体收敛理论缺失**：仅保证每步后验采样的混合，未建立 SL 整体收敛速率理论
-4. **实验提升幅度有限**：基线采样器已接近最优，SL 提升通常 <1%，实际价值需权衡额外计算成本
+4. **实验提升幅度有限**：基线采样器已接近最优，SL 提升通常 &lt;1%，实际价值需权衡额外计算成本
 5. **强外场条件的实际可达性**：Condition 4.1 在实践中何时准确满足，依赖于问题结构
 
 ## 相关工作与启发

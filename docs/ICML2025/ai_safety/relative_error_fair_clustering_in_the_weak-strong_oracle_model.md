@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Relative Error Fair Clustering in the Weak-Strong Oracle Model
 description: >-
-  [ICML 2025][AI安全][公平聚类] 提出首个在弱强预言机模型下实现 $(1+\varepsilon)$ 逼近的公平 $k$-median 聚类算法，仅需 $\text{poly}(k \log n / \varepsilon)$ 次昂贵的强预言机查询，相比此前大于 10 的常数因子逼近有根本性提升。
+  [ICML 2025][AI安全][公平聚类] 提出首个在弱强预言机模型下实现 $(1+\varepsilon)$ 逼近的公平 $k$-median 聚类算法，仅需 $\text{poly}(k \log n / \varepsilon)$ 次昂贵的强预言机查询，相比此前大于 10 的常数因子逼近有根本性提升…
 tags:
-  - ICML 2025
-  - AI安全
-  - 公平聚类
-  - 弱强预言机
-  - Coreset
-  - 查询复杂度
-  - 算法公平性
+  - "ICML 2025"
+  - "AI安全"
+  - "公平聚类"
+  - "弱强预言机"
+  - "Coreset"
+  - "查询复杂度"
+  - "算法公平性"
 ---
 
 # Relative Error Fair Clustering in the Weak-Strong Oracle Model

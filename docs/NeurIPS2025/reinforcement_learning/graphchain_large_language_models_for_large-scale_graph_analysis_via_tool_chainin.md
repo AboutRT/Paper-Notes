@@ -2,16 +2,15 @@
 title: >-
   [论文解读] GraphChain: Large Language Models for Large-scale Graph Analysis via Tool Chaining
 description: >-
-  [NeurIPS 2025][强化学习][大规模图分析] 提出 GraphChain 框架，通过渐进式图蒸馏（RL驱动的工具链序列生成）和结构感知测试时自适应（基于图拓扑指纹的轻量适配器），使 LLM 能像人类探索未知环境一样，通过动态工具链序列逐步分析大规模图数据，平均准确率 84.7% 超越最优基线 20.7%，可扩展至 20 万节点。
+  [NeurIPS 2025][强化学习][大规模图分析] 提出 GraphChain 框架，通过渐进式图蒸馏（RL驱动的工具链序列生成）和结构感知测试时自适应（基于图拓扑指纹的轻量适配器），使 LLM 能像人类探索未知环境一样，通过动态工具链序列逐步分析大规模图数据…
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 大规模图分析
-  - 工具链
-  - 强化学习
-  - 信息瓶颈
-  - 测试时自适应
-  - 图谱分析
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "大规模图分析"
+  - "工具链"
+  - "信息瓶颈"
+  - "测试时自适应"
+  - "图谱分析"
 ---
 
 # GraphChain: Large Language Models for Large-scale Graph Analysis via Tool Chaining
@@ -144,7 +143,7 @@ $$L_{\text{STTA}}(\psi) = \mathbb{E}\left[w_L N_{\tau_i} + w_{KL} \sum_{t=0}^{N_
 ## 局限与展望
 - 仅处理静态图，不支持动态/时序图
 - 工具库固定为 45 个 NetworkX 函数，领域特定操作可能缺失
-- 子图划分为 <100 节点用于公平比较基线，但实际大图的子图策略未详述
+- 子图划分为 &lt;100 节点用于公平比较基线，但实际大图的子图策略未详述
 - RL 训练需专家标注的 3000 条 (query, answer) 对，标注成本不低
 - 辅助查询生成依赖 LLM，引入循环依赖
 - 未评估在异构图、超图等更复杂图结构上的表现

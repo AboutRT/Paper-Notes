@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][微引力透镜] 本文将Transformer编码器与神经后验估计（NPE）结合，直接从稀疏、噪声、不等间隔的微引力透镜光变曲线中进行快速且校准良好的参数推断，速度比传统MCMC快10⁴倍以上。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 微引力透镜
-  - 模拟推断
-  - Transformer
-  - 后验估计
-  - 自由漂浮行星
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "微引力透镜"
+  - "模拟推断"
+  - "Transformer"
+  - "后验估计"
+  - "自由漂浮行星"
 ---
 
 # Transformer Embeddings for Fast Microlensing Inference

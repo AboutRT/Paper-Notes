@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][模型压缩][ODRL生成] 提出AgentODRL，一个基于Orchestrator-Workers架构的LLM多智能体系统，通过任务分解、语法验证循环和LoRA驱动的语义反思机制，将自然语言数据权限规则高质量地转换为ODRL格式。
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - ODRL生成
-  - 多智能体系统
-  - LLM
-  - 数据权限策略
-  - Orchestrator-Workers
+  - "AAAI 2026"
+  - "模型压缩"
+  - "ODRL生成"
+  - "多智能体系统"
+  - "LLM"
+  - "数据权限策略"
+  - "Orchestrator-Workers"
 ---
 
 # AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation

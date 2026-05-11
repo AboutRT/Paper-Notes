@@ -2,10 +2,11 @@
 title: >-
   [论文解读] APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI
 description: >-
-  [ACL 2026][待补充] 待深读论文后补充
+  [ACL 2026][对话系统][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 待补充
+  - "ACL 2026"
+  - "对话系统"
+  - "待补充"
 ---
 
 # APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment
 description: >-
-  [ICLR 2026][LLM对齐][Wasserstein距离] 指出 RLHF 中标准 KL 散度正则化仅比较相同索引处的 token 概率而忽略语义相似性，提出基于熵正则化 Wasserstein 距离的语义感知策略正则化（WPR），通过对偶公式将正则化转化为 token 级惩罚项，在对话生成和摘要任务上一致优于 KL 及各类 f-散度基线。
+  [ICLR 2026][LLM对齐][Wasserstein距离] 指出 RLHF 中标准 KL 散度正则化仅比较相同索引处的 token 概率而忽略语义相似性，提出基于熵正则化 Wasserstein 距离的语义感知策略正则化（WPR），通过对偶公式将正则化转化为 token 级惩罚项…
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - Wasserstein距离
-  - RLHF正则化
-  - 语义感知
-  - 最优传输
-  - Sinkhorn算法
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "Wasserstein距离"
+  - "RLHF正则化"
+  - "语义感知"
+  - "最优传输"
+  - "Sinkhorn算法"
 ---
 
 # Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment
@@ -91,7 +91,7 @@ WPR 将标准 RLHF 目标中的 KL 正则化项替换为熵正则化 Wasserstein
 - FKL 和 TV 在 TL;DR 上训练不稳定（概率比爆炸），WPR 即使在 support 不匹配时也良定义
 - MT-Bench 评估中 WPR 也取得最高分（4.272 vs RKL 4.000）
 - 在代码生成（APPS + CodeGemma-7B）上同样有效
-- Wasserstein 惩罚与 KL 惩罚呈强正相关（r=0.917），但斜率<1说明 WPR 更宽容
+- Wasserstein 惩罚与 KL 惩罚呈强正相关（r=0.917），但斜率&lt;1说明 WPR 更宽容
 - WPR 训练的模型 top-10 候选 token 语义一致性显著更高
 - 计算开销仅增加 2.5%（每千步），内存增加约 15GB（A100）
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 (COLING 2025)][模型压缩][结构化剪枝] 本文提出CFSP框架，利用粗粒度（block间）和细粒度（block内）的激活信息作为重要性准则指导LLM的结构化剪枝，仅需一次前向传播即可完成剪枝，在多个模型和稀疏度预算上优于现有方法。
 tags:
-  - ACL 2025 (COLING 2025)
-  - 模型压缩
-  - 结构化剪枝
-  - LLM加速
-  - 激活信息
-  - 粗粒度-细粒度
-  - 稀疏性分配
+  - "ACL 2025 (COLING 2025)"
+  - "模型压缩"
+  - "结构化剪枝"
+  - "LLM加速"
+  - "激活信息"
+  - "粗粒度-细粒度"
+  - "稀疏性分配"
 ---
 
 # CFSP: An Efficient Structured Pruning Framework for LLMs with Coarse-to-Fine Activation Information

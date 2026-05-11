@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][等变算子] 在潜空间中学习/预定义等变移位算子来处理旋转和平移等群变换，推理时通过KNN搜索推断变换参数并恢复到标准pose后分类，在MNIST上展示了训练范围外变换的成功外推能力，相比传统网络和等变网络更灵活，但向复杂数据集扩展仍面临挑战。
 tags:
-  - ICLR 2026
-  - 等变算子
-  - OOD泛化
-  - 群变换
-  - 潜空间
-  - 其他
+  - "ICLR 2026"
+  - "等变算子"
+  - "OOD泛化"
+  - "群变换"
+  - "潜空间"
+  - "KNN推理"
 ---
 
 # Latent Equivariant Operators for Robust Object Recognition: Promises and Challenges

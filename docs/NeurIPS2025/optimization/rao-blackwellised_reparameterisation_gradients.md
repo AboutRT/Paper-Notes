@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Rao-Blackwellised Reparameterisation Gradients
 description: >-
-  [NeurIPS 2025][优化][Rao-Blackwell] 提出 R2-G2 估计器作为重参数化梯度的 Rao-Blackwell 化版本，证明 Bayesian MLP 的局部重参数化是其特例，并将低方差梯度的优势推广到一系列概率模型。
+  [NeurIPS 2025][优化/理论][Rao-Blackwell] 提出 R2-G2 估计器作为重参数化梯度的 Rao-Blackwell 化版本，证明 Bayesian MLP 的局部重参数化是其特例，并将低方差梯度的优势推广到一系列概率模型。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - Rao-Blackwell
-  - 重参数化
-  - 梯度估计
-  - 变分推断
-  - 贝叶斯MLP
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "Rao-Blackwell"
+  - "重参数化"
+  - "梯度估计"
+  - "变分推断"
+  - "贝叶斯MLP"
 ---
 
 # Rao-Blackwellised Reparameterisation Gradients

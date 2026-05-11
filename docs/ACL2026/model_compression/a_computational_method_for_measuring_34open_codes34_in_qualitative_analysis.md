@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][归纳编码] 提出一种基于理论的计算方法，通过LLM增强的代码合并算法和四个无需ground truth的指标（Coverage, Overlap, Novelty, Divergence），系统评估人类和AI在归纳定性编码中的表现。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 归纳编码
-  - 定性分析
-  - LLM辅助评估
-  - 代码空间聚合
-  - 团队协作评估
+  - "ACL 2026"
+  - "模型压缩"
+  - "归纳编码"
+  - "定性分析"
+  - "LLM辅助评估"
+  - "代码空间聚合"
+  - "团队协作评估"
 ---
 
 # A Computational Method for Measuring "Open Codes" in Qualitative Analysis

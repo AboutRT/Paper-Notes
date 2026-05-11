@@ -2,14 +2,14 @@
 title: >-
   [论文解读] AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning
 description: >-
-  [ACL 2026][图学习][图学习] 提出 AgentGL，首个基于强化学习的智能体图学习（AGL）框架，让 LLM 智能体通过图原生搜索工具自主导航文本属性图（TAG），在节点分类和链接预测任务上分别实现最高 17.5% 和 28.4% 的绝对准确率提升。
+  [ACL 2026][图学习][强化学习] 提出 AgentGL，首个基于强化学习的智能体图学习（AGL）框架，让 LLM 智能体通过图原生搜索工具自主导航文本属性图（TAG），在节点分类和链接预测任务上分别实现最高 17.5% 和 28.4% 的绝对准确率提升。
 tags:
-  - ACL 2026
-  - 图学习
-  - 强化学习
-  - 智能体导航
-  - 文本属性图
-  - 工具使用
+  - "ACL 2026"
+  - "图学习"
+  - "强化学习"
+  - "智能体导航"
+  - "文本属性图"
+  - "工具使用"
 ---
 
 # AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning

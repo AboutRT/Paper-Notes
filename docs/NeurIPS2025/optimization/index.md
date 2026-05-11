@@ -1,16 +1,27 @@
 ---
 title: >-
-  NeurIPS2025 优化/理论方向116篇论文解读
+  NeurIPS2025 优化/理论方向114篇论文解读
 description: >-
-  116篇NeurIPS2025的优化/理论方向论文解读，涵盖联邦学习、LLM、对抗鲁棒、推理、对齐/RLHF、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  114篇NeurIPS2025的优化/理论方向论文解读，涵盖联邦学习、LLM、对抗鲁棒、推理、对齐/RLHF、布局/合成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "优化/理论"
+  - "论文解读"
+  - "论文笔记"
+  - "联邦学习"
+  - "LLM"
+  - "对抗鲁棒"
+  - "推理"
+  - "对齐/RLHF"
+  - "布局/合成"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧠 NeurIPS2025** · **116** 篇论文解读
+**🧠 NeurIPS2025** · **114** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/optimization/index.md) · [📷 CVPR2026 (8)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (23)](../../AAAI2026/optimization/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (58)](../../ICML2025/optimization/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/optimization/index.md) · [📷 CVPR2026 (8)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (23)](../../AAAI2026/optimization/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (57)](../../ICML2025/optimization/index.md)
 
 🔥 **高频主题：** 联邦学习 ×12 · LLM ×11 · 对抗鲁棒 ×9 · 推理 ×6 · 对齐/RLHF ×3
 
@@ -129,10 +140,6 @@ description: >-
 **[Escaping Saddle Points without Lipschitz Smoothness: The Power of Nonlinear Preconditioning](escaping_saddle_points_without_lipschitz_smoothness_the_power_of_nonlinear_preco.md)**
 
 :   本文提出统一的充分条件连接 $(L_0,L_1)$-光滑性与各向异性光滑性两种广义光滑框架，证明非线性预条件梯度法（含梯度裁剪）在此放松条件下保持鞍点规避性质，并给出扰动变体以多项对数维数依赖达到二阶稳定点。
-
-**[Estimation of Stochastic Optimal Transport Maps](estimation_of_stochastic_optimal_transport_maps.md)**
-
-:   提出适用于随机OT映射的传输误差指标 $\mathcal{E}_p$（由优化间隙与可行性间隙组成），在无需Brenier映射存在或唯一性的最小假设下，构造了计算高效的rounding估计器达到近最优收敛率 $\tilde{O}(n^{-1/(d+2p)})$，并推广至Hölder连续核与对抗污染场景，建立了首个通用OT映射估计理论。
 
 **[Evaluating LLMs for Combinatorial Optimization: One-Phase and Two-Phase Heuristics for 2D Bin-Packing](evaluating_llms_for_combinatorial_optimization_one-phase_and_two-phase_heuristic.md)**
 
@@ -353,10 +360,6 @@ description: >-
 **[Personalized Subgraph Federated Learning with Differentiable Auxiliary Projections](personalized_subgraph_federated_learning_with_differentiable_auxiliary_projectio.md)**
 
 :   提出FedAux框架，通过可微分的辅助投影向量（APV）将节点嵌入映射到一维空间并用高斯核进行软排序聚合，APV既作为局部子图的紧凑隐私保护摘要用于服务器端相似度计算，又参与客户端的联合优化，实现了个性化的子图联邦学习。
-
-**[Perturbation Bounds for Low-Rank Inverse Approximations under Noise](perturbation_bounds_for_low-rank_inverse_approximations_under_noise.md)**
-
-:   首次给出在加性噪声下低秩逆近似 $\|(\tilde{A}^{-1})_p - A_p^{-1}\|$ 的非渐近谱范数扰动界，利用轮廓积分技术得到依赖特征间隙、谱衰减和噪声对齐的锐界，比经典全逆界改进高达 $\sqrt{n}$ 倍。
 
 **[Preference Learning with Response Time: Robust Losses and Guarantees](preference_learning_with_response_time_robust_losses_and_guarantees.md)**
 

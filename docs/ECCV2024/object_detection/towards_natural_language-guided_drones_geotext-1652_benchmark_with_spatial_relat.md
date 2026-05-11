@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching
 description: >-
-  [ECCV 2024][目标检测][drone navigation] 构建了首个自然语言引导的无人机地理定位基准 GeoText-1652（276K bbox-text 对，316K 描述），并提出 blending spatial matching 方法通过 grounding loss + spatial relation loss 实现区域级空间关系匹配，文本检索 Recall@10 达到 31.2%。
+  [ECCV 2024][目标检测][drone navigation] 构建了首个自然语言引导的无人机地理定位基准 GeoText-1652（276K bbox-text 对，316K 描述）…
 tags:
-  - ECCV 2024
-  - 目标检测
-  - drone navigation
-  - geolocalization
-  - spatial relation matching
-  - 视觉语言
-  - benchmark
+  - "ECCV 2024"
+  - "目标检测"
+  - "drone navigation"
+  - "geolocalization"
+  - "spatial relation matching"
+  - "视觉语言"
+  - "benchmark"
 ---
 
 # Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching

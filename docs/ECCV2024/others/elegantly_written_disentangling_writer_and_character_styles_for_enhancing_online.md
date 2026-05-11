@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][中文手写体美化] 本文提出了一种基于序列模型的在线中文手写轨迹美化方法，通过交叉注意力机制解耦书写者风格和字符结构风格，将用户潦草的手写轨迹转化为保持个人风格的美观书写，同时通过笛卡尔积分解有效去除冗余风格特征。
 tags:
-  - ECCV 2024
-  - 中文手写体美化
-  - 书写风格解耦
-  - 在线手写轨迹
-  - 交叉注意力
-  - 风格迁移
+  - "ECCV 2024"
+  - "中文手写体美化"
+  - "书写风格解耦"
+  - "在线手写轨迹"
+  - "交叉注意力"
+  - "风格迁移"
 ---
 
 # Elegantly Written: Disentangling Writer and Character Styles for Enhancing Online Chinese Handwriting

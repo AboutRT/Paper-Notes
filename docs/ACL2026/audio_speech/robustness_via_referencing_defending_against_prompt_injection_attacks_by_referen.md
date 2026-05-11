@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Robustness via Referencing: Defending against Prompt Injection Attacks by Referencing the Executed Instruction
 description: >-
-  [ACL 2026][音频语音][提示注入攻击] 本文提出一种基于指令引用的提示注入防御方法，不压制 LLM 的指令遵循能力，而是让模型在响应中引用正在执行的指令，然后通过标签过滤移除与原始指令不相关的响应，在部分场景下将攻击成功率降至接近 0%。
+  [ACL 2026][音频/语音][提示注入攻击] 本文提出一种基于指令引用的提示注入防御方法，不压制 LLM 的指令遵循能力，而是让模型在响应中引用正在执行的指令，然后通过标签过滤移除与原始指令不相关的响应，在部分场景下将攻击成功率降至接近 0%。
 tags:
-  - ACL 2026
-  - 音频语音
-  - 提示注入攻击
-  - 指令引用
-  - 防御方法
-  - 黑盒防御
-  - LLM安全
+  - "ACL 2026"
+  - "音频/语音"
+  - "提示注入攻击"
+  - "指令引用"
+  - "防御方法"
+  - "黑盒防御"
+  - "LLM安全"
 ---
 
 # Robustness via Referencing: Defending against Prompt Injection Attacks by Referencing the Executed Instruction

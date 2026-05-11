@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM/NLP][好奇心] 本文提出首个系统评估 LLM 好奇心行为的心理学启发框架，结合问卷自评和行为实验发现 LLM 展现出好奇心般的行为模式但并非内在特质，并设计好奇心驱动的提问管道证明模拟好奇行为可提升下游推理性能。
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 好奇心
-  - LLM行为评估
-  - 心理学量表
-  - 行为实验
-  - 推理增强
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "好奇心"
+  - "LLM行为评估"
+  - "心理学量表"
+  - "行为实验"
+  - "推理增强"
 ---
 
 # Why Did Apple Fall: Evaluating Curiosity in Large Language Models

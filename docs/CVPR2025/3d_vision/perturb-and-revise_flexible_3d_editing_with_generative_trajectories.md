@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Perturb-and-Revise: Flexible 3D Editing with Generative Trajectories
 description: >-
-  [CVPR 2025][3D视觉][3D编辑] Perturb-and-Revise 通过在 NeRF 参数空间中进行自适应扰动使参数跳出局部最小值，然后利用多视图扩散模型的 Score Distillation 沿生成轨迹优化，配合身份保持梯度实现灵活的 3D 编辑，首次支持包括姿态变化和添加新物体在内的大幅几何/外观修改。
+  [CVPR 2025][3D视觉][3D编辑] Perturb-and-Revise 通过在 NeRF 参数空间中进行自适应扰动使参数跳出局部最小值，然后利用多视图扩散模型的 Score Distillation 沿生成轨迹优化，配合身份保持梯度实现灵活的 3D 编辑…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D编辑
-  - NeRF编辑
-  - Score Distillation
-  - 参数扰动
-  - 多视图一致性
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D编辑"
+  - "NeRF编辑"
+  - "Score Distillation"
+  - "参数扰动"
+  - "多视图一致性"
 ---
 
 # Perturb-and-Revise: Flexible 3D Editing with Generative Trajectories

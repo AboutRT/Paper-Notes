@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Generalizing Analogical Inference from Boolean to Continuous Domains
 description: >-
-  [AAAI 2026][语音][类比推理] 从基础理论层面重新审视类比推理：首先构造反例证明布尔域上经典泛化界失效，然后提出基于参数化广义均值的统一类比推理框架，将离散分类扩展到连续回归域。
+  [AAAI 2026][音频/语音][类比推理] 从基础理论层面重新审视类比推理：首先构造反例证明布尔域上经典泛化界失效，然后提出基于参数化广义均值的统一类比推理框架，将离散分类扩展到连续回归域。
 tags:
-  - AAAI 2026
-  - 语音
-  - 音频语音
-  - 布尔域推广
-  - 连续域回归
-  - 广义均值
-  - 误差界
+  - "AAAI 2026"
+  - "音频/语音"
+  - "类比推理"
+  - "布尔域推广"
+  - "连续域回归"
+  - "广义均值"
+  - "误差界"
 ---
 
 # Generalizing Analogical Inference from Boolean to Continuous Domains

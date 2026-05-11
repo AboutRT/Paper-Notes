@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TRoVe: Discovering Error-Inducing Static Feature Biases in Temporal Vision-Language Models
 description: >-
-  [NeurIPS 2025][多模态][时序VLM] TRoVe提出自动化方法发现时序VLM中导致系统性预测错误的静态特征偏差，通过结合"错误贡献分数"和"静态偏差分数"的双评分机制，在101个合成模型上以28.6%优势超越基线，并成功应用于7个真实VLM揭示新偏差。
+  [NeurIPS 2025][多模态VLM][时序VLM] TRoVe提出自动化方法发现时序VLM中导致系统性预测错误的静态特征偏差，通过结合"错误贡献分数"和"静态偏差分数"的双评分机制，在101个合成模型上以28.6%优势超越基线，并成功应用于7个真实VLM揭示新偏差。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 时序VLM
-  - 静态特征偏差
-  - 模型鲁棒性
-  - 偏差发现
-  - 多模态VLM
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "时序VLM"
+  - "静态特征偏差"
+  - "模型鲁棒性"
+  - "偏差发现"
+  - "视频理解"
 ---
 
 # TRoVe: Discovering Error-Inducing Static Feature Biases in Temporal Vision-Language Models

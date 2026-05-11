@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Ensemble Watermarks for Large Language Models
 description: >-
-  [ACL 2025][AI安全][watermarking] 提出集成水印方法，将文体特征（藏头词 acrostic + 感觉运动词 sensorimotor norms）与已有红绿水印组合，在 paraphrasing 攻击后三特征集成检测率达 95%，而单独红绿水印仅 49%。
+  [ACL 2025][LLM安全][watermarking] 提出集成水印方法，将文体特征（藏头词 acrostic + 感觉运动词 sensorimotor norms）与已有红绿水印组合，在 paraphrasing 攻击后三特征集成检测率达 95%，而单独红绿水印仅 49%。
 tags:
-  - ACL 2025
-  - AI安全
-  - watermarking
-  - LLM
-  - stylometry
-  - paraphrasing attack
-  - acrostic
+  - "ACL 2025"
+  - "LLM安全"
+  - "watermarking"
+  - "LLM"
+  - "stylometry"
+  - "paraphrasing attack"
+  - "acrostic"
 ---
 
 # Ensemble Watermarks for Large Language Models

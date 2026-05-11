@@ -2,16 +2,16 @@
 title: >-
   [论文解读] An Overall Real-Time Mechanism for Classification and Quality Evaluation of Rice
 description: >-
-  [AAAI2026][目标检测][rice quality evaluation] 提出一个实时大米品质评估整体机制，整合改进的 YOLO-v5（品种检测）、改进的 ConvNeXt-Tiny（完整度分级）和 K-means（垩白区域量化）三个模块，在自建的六品种两万张图像数据集上实现了 99.14% mAP 和 97.89% 检测准确率。
+  [AAAI2026][目标检测][rice quality evaluation] 提出一个实时大米品质评估整体机制，整合改进的 YOLO-v5（品种检测）、改进的 ConvNeXt-Tiny（完整度分级）和 K-means（垩白区域量化）三个模块…
 tags:
-  - AAAI2026
-  - 目标检测
-  - rice quality evaluation
-  - YOLO-v5
-  - ConvNeXt-Tiny
-  - K-means
-  - SimAM
-  - ECA
+  - "AAAI2026"
+  - "目标检测"
+  - "rice quality evaluation"
+  - "YOLO-v5"
+  - "ConvNeXt-Tiny"
+  - "K-means"
+  - "SimAM"
+  - "ECA"
 ---
 
 # An Overall Real-Time Mechanism for Classification and Quality Evaluation of Rice

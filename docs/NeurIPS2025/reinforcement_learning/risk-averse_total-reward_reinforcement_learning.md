@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Risk-Averse Total-Reward Reinforcement Learning
 description: >-
-  [NeurIPS 2025][风险规避RL] 提出了面向无折扣总奖励准则(TRC)的风险规避Q-learning算法（ERM-TRC和EVaR-TRC），利用ERM的可引出性(elicitability)将Bellman算子转化为随机梯度下降形式，并证明了算法的收敛保证。
+  [NeurIPS 2025][强化学习][风险规避RL] 提出了面向无折扣总奖励准则(TRC)的风险规避Q-learning算法（ERM-TRC和EVaR-TRC），利用ERM的可引出性(elicitability)将Bellman算子转化为随机梯度下降形式，并证明了算法的收敛保证。
 tags:
-  - NeurIPS 2025
-  - 风险规避RL
-  - 总奖励准则
-  - Q-learning
-  - 熵风险度量(ERM)
-  - 熵风险值(EVaR)
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "风险规避RL"
+  - "总奖励准则"
+  - "Q-learning"
+  - "熵风险度量(ERM)"
+  - "熵风险值(EVaR)"
 ---
 
 # Risk-Averse Total-Reward Reinforcement Learning

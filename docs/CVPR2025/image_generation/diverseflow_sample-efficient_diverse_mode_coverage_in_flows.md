@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][Flow Matching] 本文提出DiverseFlow，一种无需训练的推理时方法，通过行列式点过程（DPP）在flow模型的ODE求解过程中引入样本间耦合梯度约束，在固定采样预算下显著提高生成样本的多样性和模式覆盖率。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - Flow Matching
-  - 多样性采样
-  - 行列式点过程
-  - 多义词生成
-  - 模式覆盖
+  - "CVPR 2025"
+  - "图像生成"
+  - "Flow Matching"
+  - "多样性采样"
+  - "行列式点过程"
+  - "多义词生成"
+  - "模式覆盖"
 ---
 
 # DiverseFlow: Sample-Efficient Diverse Mode Coverage in Flows

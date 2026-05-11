@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][层归一化] 将不同归一化方案（Post-LN、Pre-LN、Mix-LN、Peri-LN、nGPT、sqrt-scaling）统一建模为球面上交互粒子系统的速度调节机制，从理论上揭示了各方案对 token 聚类动力学和表示坍缩的不同影响，识别 Peri-LN 为理想选择。
 tags:
-  - NeurIPS 2025
-  - 层归一化
-  - 注意力动力学
-  - 表示坍缩
-  - 交互粒子系统
-  - 速度调节
+  - "NeurIPS 2025"
+  - "层归一化"
+  - "注意力动力学"
+  - "表示坍缩"
+  - "交互粒子系统"
+  - "速度调节"
 ---
 
 # Normalization in Attention Dynamics

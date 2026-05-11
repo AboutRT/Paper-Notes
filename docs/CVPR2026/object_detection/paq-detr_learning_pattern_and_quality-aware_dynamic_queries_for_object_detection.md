@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][DETR] PaQ-DETR 提出基于共享模式的动态查询生成（内容感知权重组合共享基模式）+ 质量感知一对多分配（基于定位-分类一致性自适应选择正样本），统一解决DETR中的查询表示和监督不均衡问题，在多个backbone上稳定提升1.5%-4.2% mAP。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - DETR
-  - 动态查询
-  - 模式学习
-  - 质量感知分配
+  - "CVPR 2026"
+  - "目标检测"
+  - "DETR"
+  - "动态查询"
+  - "模式学习"
+  - "质量感知分配"
 ---
 
 # PaQ-DETR: Learning Pattern and Quality-Aware Dynamic Queries for Object Detection

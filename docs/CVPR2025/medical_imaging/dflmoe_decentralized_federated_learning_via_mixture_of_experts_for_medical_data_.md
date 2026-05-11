@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][联邦学习] 提出 DFLMoE 在去中心化联邦学习中使用混合专家（MoE）机制处理医疗数据异质性，无需中心服务器即可在保护隐私的前提下协同训练
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 联邦学习
-  - mixture of experts
-  - decentralized
-  - medical data
-  - privacy
+  - "CVPR 2025"
+  - "医学图像"
+  - "联邦学习"
+  - "mixture of experts"
+  - "decentralized"
+  - "medical data"
+  - "privacy"
 ---
 
 # DFLMoE: Decentralized Federated Learning via Mixture of Experts for Medical Data

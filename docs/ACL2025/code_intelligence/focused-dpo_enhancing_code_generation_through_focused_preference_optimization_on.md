@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Focused-DPO: Enhancing Code Generation Through Focused Preference Optimization on Error-Prone Points
 description: >-
-  [ACL 2025][LLM对齐][DPO] 发现代码生成模型的错误高度集中在特定"错误易发点"（error-prone points），前缀/后缀几乎不变而中间段决定正确性，提出 Focused-DPO：通过 PageRank 在代码-测试二部图上排序定位关键中间段，并在 DPO 损失中对该段加权放大（$w_{focused}=2$），仅用 5000 样本即可在 HumanEval+ 上提升 4.41%、LiveCodeBench-Hard 上相对提升 42.86%。
+  [ACL 2025][代码智能][DPO] 发现代码生成模型的错误高度集中在特定"错误易发点"（error-prone points），前缀/后缀几乎不变而中间段决定正确性，提出 Focused-DPO：通过 PageRank 在代码-测试二部图上排序定位关键中间段…
 tags:
-  - ACL 2025
-  - LLM对齐
-  - DPO
-  - 代码生成
-  - 错误易发点
-  - PageRank
-  - 偏好优化加权
-  - 前缀后缀匹配
+  - "ACL 2025"
+  - "代码智能"
+  - "DPO"
+  - "代码生成"
+  - "错误易发点"
+  - "PageRank"
+  - "偏好优化加权"
+  - "前缀后缀匹配"
 ---
 
 # Focused-DPO: Enhancing Code Generation Through Focused Preference Optimization on Error-Prone Points

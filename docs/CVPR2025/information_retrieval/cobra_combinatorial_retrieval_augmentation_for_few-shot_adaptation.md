@@ -2,14 +2,15 @@
 title: >-
   [论文解读] COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation
 description: >-
-  [CVPR 2025][检索增强] 提出 COBRA——基于组合互信息（CMI）的检索增强少样本适配方法，通过同时考虑检索样本与目标任务的相似性和样本间的多样性，从 LAION-2B 中检索高质量辅助数据，在多个图像分类基准上一致性超越传统最近邻检索方法，且计算开销可忽略。
+  [CVPR 2025][信息检索/RAG][检索增强] 提出 COBRA——基于组合互信息（CMI）的检索增强少样本适配方法，通过同时考虑检索样本与目标任务的相似性和样本间的多样性，从 LAION-2B 中检索高质量辅助数据，在多个图像分类基准上一致性超越传统最近邻检索方法，且计算开销可忽略。
 tags:
-  - CVPR 2025
-  - 检索增强
-  - 少样本学习
-  - 组合互信息
-  - 数据选择
-  - 多样性
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "检索增强"
+  - "少样本学习"
+  - "组合互信息"
+  - "数据选择"
+  - "多样性"
 ---
 
 # COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation

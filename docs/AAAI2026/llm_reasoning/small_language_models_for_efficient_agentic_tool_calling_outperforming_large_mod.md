@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning
 description: >-
-  [AAAI 2026][LLM推理][小语言模型] 通过对OPT-350M模型进行单epoch的SFT微调，在ToolBench评估中取得77.55%的通过率，大幅超越ChatGPT-CoT（26%）、ToolLLaMA-DFS（30.18%）等大模型基线，证明了针对性微调的小模型在特定任务上可显著超越通用大模型。
+  [AAAI 2026][LLM推理][小语言模型] 通过对OPT-350M模型进行单epoch的SFT微调，在ToolBench评估中取得77.55%的通过率，大幅超越ChatGPT-CoT（26%）、ToolLLaMA-DFS（30.18%）等大模型基线…
 tags:
-  - AAAI 2026
-  - LLM推理
-  - 小语言模型
-  - 工具调用
-  - SFT微调
-  - OPT-350M
-  - ToolBench
+  - "AAAI 2026"
+  - "LLM推理"
+  - "小语言模型"
+  - "工具调用"
+  - "SFT微调"
+  - "OPT-350M"
+  - "ToolBench"
 ---
 
 # Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning

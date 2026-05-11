@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Flatness is Necessary, Neural Collapse is Not: Rethinking Generalization via Grokking
 description: >-
-  [NeurIPS 2025][neural collapse] 利用 grokking（延迟泛化）作为因果探针，证明 **relative flatness 是泛化的（潜在）必要条件**，而 neural collapse 虽常伴随泛化出现，但并非必要——它只是通往 flatness 的一条路径。
+  [NeurIPS 2025][预训练][neural collapse] 利用 grokking（延迟泛化）作为因果探针，证明 **relative flatness 是泛化的（潜在）必要条件**，而 neural collapse 虽常伴随泛化出现，但并非必要——它只是通往 flatness 的一条路径。
 tags:
-  - NeurIPS 2025
-  - neural collapse
-  - relative flatness
-  - LLM预训练
-  - grokking
-  - loss landscape
+  - "NeurIPS 2025"
+  - "预训练"
+  - "neural collapse"
+  - "relative flatness"
+  - "generalization"
+  - "grokking"
+  - "loss landscape"
 ---
 
 # Flatness is Necessary, Neural Collapse is Not: Rethinking Generalization via Grokking
@@ -143,7 +144,7 @@ flatness 的理论保证还依赖于 **representativeness**（训练特征对真
 
 | NCC 正则 λ | NCC 行为 | 验证精度影响 | Relative Flatness 影响 | 训练稳定性 |
 |-----------|---------|------------|---------------------|-----------|
-| 1×10⁻² | NCC 增大 | 严重下降 (<60%) | 不稳定 | 训练崩溃 (~epoch 70) |
+| 1×10⁻² | NCC 增大 | 严重下降 (&lt;60%) | 不稳定 | 训练崩溃 (~epoch 70) |
 | 1×10⁻³ | NCC 持续增大 | **不受影响** (~78%) | **不受影响** | 稳定 |
 | 1×10⁻⁴ | 几乎无变化 | 不受影响 | 不受影响 | 稳定 |
 | 1×10⁻⁵ | 无变化 | 不受影响 | 不受影响 | 稳定 |

@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][LLM/NLP] TextDiffuser-2 利用两个语言模型分别进行布局规划和布局编码，实现了更灵活、更自动化、更多样化的视觉文本渲染，在保持文本准确性的同时大幅提升了字体风格多样性。
 tags:
-  - ECCV 2024
-  - LLM/NLP
+  - "ECCV 2024"
+  - "LLM/NLP"
 ---
 
 # TextDiffuser-2: Unleashing the Power of Language Models for Text Rendering

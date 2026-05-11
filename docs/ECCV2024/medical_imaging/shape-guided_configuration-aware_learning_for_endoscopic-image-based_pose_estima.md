@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][柔性机器人] 利用柔性机器人的3D形状先验引导图像特征学习，通过部件级几何表示提取和动态形状变形机制，实现了高精度的内窥镜图像柔性机器人位姿估计，在外部朝向和内部弯曲角度估计上显著超越了关键点、骨架和直接回归等基线方法。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 柔性机器人
-  - 位姿估计
-  - 3D形状先验
-  - 内窥镜手术
-  - 形状引导学习
+  - "ECCV 2024"
+  - "医学图像"
+  - "柔性机器人"
+  - "位姿估计"
+  - "3D形状先验"
+  - "内窥镜手术"
+  - "形状引导学习"
 ---
 
 # Shape-Guided Configuration-Aware Learning for Endoscopic-Image-Based Pose Estimation of Flexible Robotic Instruments

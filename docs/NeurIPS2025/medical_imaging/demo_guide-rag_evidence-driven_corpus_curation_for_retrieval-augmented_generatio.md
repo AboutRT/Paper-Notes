@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Demo: Guide-RAG: Evidence-Driven Corpus Curation for Retrieval-Augmented Generation in Long COVID
 description: >-
-  [NeurIPS 2025 (GenAI for Health Workshop)][医学图像][RAG] 系统评估了六种 RAG 语料库配置用于长新冠（Long COVID）临床问答，发现将临床指南与高质量系统综述结合的 GS-4 配置在 faithfulness、relevance 和 comprehensiveness 三维度上一致优于单指南和大规模文献库方案，并提出 Guide-RAG 框架和 LongCOVID-CQ 评估数据集。
+  [NeurIPS 2025 (GenAI for Health Workshop)][医学图像][RAG] 系统评估了六种 RAG 语料库配置用于长新冠（Long COVID）临床问答，发现将临床指南与高质量系统综述结合的 GS-4 配置在 faithfulness、relevance 和 comprehen…
 tags:
-  - NeurIPS 2025 (GenAI for Health Workshop)
-  - 医学图像
-  - RAG
-  - 长新冠
-  - 语料库策展
-  - LLM-as-a-judge
-  - 临床问答
+  - "NeurIPS 2025 (GenAI for Health Workshop)"
+  - "医学图像"
+  - "RAG"
+  - "长新冠"
+  - "语料库策展"
+  - "LLM-as-a-judge"
+  - "临床问答"
 ---
 
 # Demo: Guide-RAG: Evidence-Driven Corpus Curation for Retrieval-Augmented Generation in Long COVID

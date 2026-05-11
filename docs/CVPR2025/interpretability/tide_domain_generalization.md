@@ -2,14 +2,14 @@
 title: >-
   [论文解读] TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction
 description: >-
-  [CVPR 2025][域泛化] 本文提出TIDE方法，通过利用扩散模型和LLM自动生成概念级显著图标注，训练可局部解释的域泛化模型，并在测试时利用概念签名进行预测矫正，在四个标准DG基准上平均超越SOTA 12%。
+  [CVPR 2025][可解释性][域泛化] 本文提出TIDE方法，通过利用扩散模型和LLM自动生成概念级显著图标注，训练可局部解释的域泛化模型，并在测试时利用概念签名进行预测矫正，在四个标准DG基准上平均超越SOTA 12%。
 tags:
-  - CVPR 2025
-  - 域泛化
-  - 可解释性
-  - 概念显著图
-  - 测试时矫正
-  - 单源域
+  - "CVPR 2025"
+  - "可解释性"
+  - "域泛化"
+  - "概念显著图"
+  - "测试时矫正"
+  - "单源域"
 ---
 
 # TIDE: Training Locally Interpretable Domain Generalization Models Enables Test-time Correction

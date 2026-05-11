@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][目标检测][模型合并] 提出 AdaRank，用可学习二值掩码自适应选择 task vector 的奇异分量（取代启发式 top-k），结合测试时熵最小化优化，大幅缓解多任务模型合并中的任务间干扰，在 ViT-B/32 上达到 89.4% 准确率。
 tags:
-  - ICLR 2026
-  - 目标检测
-  - 模型合并
-  - SVD
-  - 任务向量
-  - 测试时自适应
-  - 多任务学习
+  - "ICLR 2026"
+  - "目标检测"
+  - "模型合并"
+  - "SVD"
+  - "任务向量"
+  - "测试时自适应"
+  - "多任务学习"
 ---
 
 # AdaRank: Adaptive Rank Pruning for Enhanced Model Merging

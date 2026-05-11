@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][AI安全][自回归图像生成] 提出基于视觉 token 聚类的水印方案 ClusterMark，将 KGW 风格的 LLM 水印适配到自回归图像生成器，通过将相似 token 分到同一绿/红集合来显著提升水印在图像扰动下的鲁棒性，同时保持图像质量。
 tags:
-  - CVPR 2026
-  - AI安全
-  - 自回归图像生成
-  - 水印检测
-  - 视觉token聚类
-  - 鲁棒水印
-  - VQ-VAE
+  - "CVPR 2026"
+  - "AI安全"
+  - "自回归图像生成"
+  - "水印检测"
+  - "视觉token聚类"
+  - "鲁棒水印"
+  - "VQ-VAE"
 ---
 
 # ClusterMark: Towards Robust Watermarking for Autoregressive Image Generators with Visual Token Clustering

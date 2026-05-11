@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICLR 2026][时间序列][等变学习] 本文给出了关于正交群 $O(d)$、不定正交群（含 Lorentz 群）和辛群 $Sp(d)$ 对张量对角作用下的等变多项式函数的完整参数化刻画，并将其应用于设计可学习的稀疏向量恢复算法，在多种数据生成假设下超越了已有的 sum-of-squares 谱方法。
 tags:
-  - ICLR 2026
-  - 时间序列
-  - 等变学习
-  - 张量函数
-  - 正交群
-  - Lorentz群
-  - 辛群
-  - 稀疏向量恢复
+  - "ICLR 2026"
+  - "时间序列"
+  - "等变学习"
+  - "张量函数"
+  - "正交群"
+  - "Lorentz群"
+  - "辛群"
+  - "稀疏向量恢复"
 ---
 
 # Tensor learning with orthogonal, Lorentz, and symplectic symmetries

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FUEL: Unveiling Environmental Impacts of Large Language Model Serving: A Functional Unit View
 description: >-
-  [ACL 2025][LLM效率][碳排放] 提出 FUEL 框架，首次引入生命周期评估中的"功能单元"（Functional Unit）概念作为标准化比较基准，在统一的质量、性能和工作负载约束下评估不同 LLM 服务配置的碳排放，通过模型大小、量化策略和硬件选择三个案例研究揭示了多个反直觉的绿色 AI 洞察。
+  [ACL 2025][LLM效率][碳排放] 提出 FUEL 框架，首次引入生命周期评估中的"功能单元"（Functional Unit）概念作为标准化比较基准，在统一的质量、性能和工作负载约束下评估不同 LLM 服务配置的碳排放，通过模型大小、量化策略和硬件选择三个案例研究揭示了多个反直觉的绿色 AI 洞察…
 tags:
-  - ACL 2025
-  - LLM效率
-  - 碳排放
-  - LLM服务
-  - 功能单元
-  - 量化
-  - 硬件选择
+  - "ACL 2025"
+  - "LLM效率"
+  - "碳排放"
+  - "LLM服务"
+  - "功能单元"
+  - "量化"
+  - "硬件选择"
 ---
 
 # FUEL: Unveiling Environmental Impacts of Large Language Model Serving: A Functional Unit View

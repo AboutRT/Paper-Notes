@@ -2,16 +2,16 @@
 title: >-
   [论文解读] EW-DETR: Evolving World Object Detection via Incremental Low-Rank DEtection TRansformer
 description: >-
-  [CVPR2026][目标检测][开放世界目标检测] 提出 Evolving World Object Detection (EWOD) 范式及 EW-DETR 框架，通过增量 LoRA 适配器、查询范数物体性适配器和熵感知未知混合三个协同模块，在无样本回放条件下同时解决类别增量学习、域迁移适应和未知目标检测问题，FOGS 指标提升 57.24%。
+  [CVPR2026][目标检测][开放世界目标检测] 提出 Evolving World Object Detection (EWOD) 范式及 EW-DETR 框架，通过增量 LoRA 适配器、查询范数物体性适配器和熵感知未知混合三个协同模块…
 tags:
-  - CVPR2026
-  - 目标检测
-  - 开放世界目标检测
-  - 增量学习
-  - 域适应
-  - 未知目标检测
-  - LoRA
-  - DETR
+  - "CVPR2026"
+  - "目标检测"
+  - "开放世界目标检测"
+  - "增量学习"
+  - "域适应"
+  - "未知目标检测"
+  - "LoRA"
+  - "DETR"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

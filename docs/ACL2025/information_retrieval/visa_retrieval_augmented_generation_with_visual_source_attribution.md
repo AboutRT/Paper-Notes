@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VISA: Retrieval Augmented Generation with Visual Source Attribution
 description: >-
-  [ACL 2025][视觉来源归因] VISA 提出了一种基于视觉来源归因的 RAG 方法，利用大型视觉语言模型（VLM）在检索到的文档截图中用 bounding box 高亮支持生成答案的精确区域，并构建了 Wiki-VISA 和 Paper-VISA 两个数据集验证其有效性。
+  [ACL 2025][信息检索/RAG][视觉来源归因] VISA 提出了一种基于视觉来源归因的 RAG 方法，利用大型视觉语言模型（VLM）在检索到的文档截图中用 bounding box 高亮支持生成答案的精确区域，并构建了 Wiki-VISA 和 Paper-VISA 两个数据集验证其有效性。
 tags:
-  - ACL 2025
-  - 视觉来源归因
-  - 检索增强生成
-  - 信息检索
-  - 文档截图
-  - 边界框定位
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "视觉来源归因"
+  - "检索增强生成"
+  - "视觉语言模型"
+  - "文档截图"
+  - "边界框定位"
 ---
 
 # VISA: Retrieval Augmented Generation with Visual Source Attribution

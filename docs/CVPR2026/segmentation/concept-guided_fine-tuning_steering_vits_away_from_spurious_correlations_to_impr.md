@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Concept-Guided Fine-Tuning: Steering ViTs away from Spurious Correlations to Improve Robustness
 description: >-
-  [CVPR2026][图像分割][虚假相关] 提出 CFT（Concept-Guided Fine-Tuning），利用 LLM 生成类别级语义概念并通过 GroundedSAM 零样本分割获取概念掩码，再以 AttnLRP 的 relevance map 与概念区域对齐为目标微调 ViT，仅用 1500 张图即可显著提升 5 个 OOD 基准上的鲁棒性。
+  [CVPR2026][语义分割][虚假相关] 提出 CFT（Concept-Guided Fine-Tuning），利用 LLM 生成类别级语义概念并通过 GroundedSAM 零样本分割获取概念掩码，再以 AttnLRP 的 relevance map 与概念区域对齐为目标微调 ViT…
 tags:
-  - CVPR2026
-  - 图像分割
-  - 虚假相关
-  - ViT鲁棒性
-  - 概念引导微调
-  - AttnLRP
-  - 零样本分割
-  - OOD泛化
+  - "CVPR2026"
+  - "语义分割"
+  - "虚假相关"
+  - "ViT鲁棒性"
+  - "概念引导微调"
+  - "AttnLRP"
+  - "零样本分割"
+  - "OOD泛化"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

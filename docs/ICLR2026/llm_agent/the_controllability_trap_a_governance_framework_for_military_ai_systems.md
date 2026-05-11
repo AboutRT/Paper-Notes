@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM Agent][AI governance] 提出 Agentic Military AI Governance Framework (AMAGF)，一个围绕可测量的控制质量分数 (CQS) 构建的军事 AI 代理治理框架，通过预防-检测-纠正三个支柱应对六类代理治理失败。
 tags:
-  - ICLR 2026
-  - LLM Agent
-  - AI governance
-  - military AI
-  - agentic AI
-  - human control
-  - safety framework
+  - "ICLR 2026"
+  - "LLM Agent"
+  - "AI governance"
+  - "military AI"
+  - "agentic AI"
+  - "human control"
+  - "safety framework"
 ---
 
 # The Controllability Trap: A Governance Framework for Military AI Agents

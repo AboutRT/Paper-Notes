@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][视觉幻觉] 本文提出 PhD，一个 ChatGPT 辅助构建的大规模视觉幻觉评估数据集，包含 14K+ 日常图片、750 张反常识图片和 102K VQA 三元组，通过 4 种评估模式×5 种视觉任务系统化评估多模态大语言模型的幻觉问题，在规模和挑战性上远超现有基准。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 视觉幻觉
-  - 多模态大语言模型
-  - 评估基准
-  - ChatGPT辅助构建
-  - 二值VQA
+  - "CVPR 2025"
+  - "图像生成"
+  - "视觉幻觉"
+  - "多模态大语言模型"
+  - "评估基准"
+  - "ChatGPT辅助构建"
+  - "二值VQA"
 ---
 
 # PhD: A ChatGPT-Prompted Visual Hallucination Evaluation Dataset

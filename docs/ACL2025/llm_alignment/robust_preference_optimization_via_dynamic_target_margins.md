@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 (Findings)][LLM对齐][偏好优化] 本文提出 γ-PO，一种通过在偏好对级别动态调整目标奖励边际的方式来增强 DPO 鲁棒性的即插即用方法，在 AlpacaEval2 和 Arena-Hard 上平均提升 4.4%。
 tags:
-  - ACL 2025 (Findings)
-  - LLM对齐
-  - 偏好优化
-  - 动态边际
-  - 噪声鲁棒性
-  - DPO改进
-  - 奖励边际
+  - "ACL 2025 (Findings)"
+  - "LLM对齐"
+  - "偏好优化"
+  - "动态边际"
+  - "噪声鲁棒性"
+  - "DPO改进"
+  - "奖励边际"
 ---
 
 # Robust Preference Optimization via Dynamic Target Margins

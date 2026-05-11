@@ -2,15 +2,15 @@
 title: >-
   [论文解读] QMamba: On First Exploration of Vision Mamba for Image Quality Assessment
 description: >-
-  [ICML2025][图像分割][State Space Model] 首次将 Vision Mamba（状态空间模型）引入图像质量评估（IQA），提出 QMamba 框架和 StylePrompt 轻量微调策略，在合成/真实/AIGC 多种 IQA 任务上以更低计算成本超越 CNN 和 Transformer 基线。
+  [ICML2025][语义分割][State Space Model] 首次将 Vision Mamba（状态空间模型）引入图像质量评估（IQA），提出 QMamba 框架和 StylePrompt 轻量微调策略…
 tags:
-  - ICML2025
-  - 图像分割
-  - State Space Model
-  - Mamba
-  - 图像质量评估
-  - 迁移学习
-  - 提示学习
+  - "ICML2025"
+  - "语义分割"
+  - "State Space Model"
+  - "Mamba"
+  - "图像质量评估"
+  - "迁移学习"
+  - "提示学习"
 ---
 
 # QMamba: On First Exploration of Vision Mamba for Image Quality Assessment

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Stop Walking in Circles! Bailing Out Early in Projected Gradient Descent
 description: >-
-  [CVPR 2025][优化][PGD攻击] 发现 PGD 攻击在 L∞ 球上对鲁棒样本会产生循环行为，通过哈希检测循环实现提前终止（PGD_CD），在保持完全相同鲁棒性评估结果的前提下实现最高 96% 的迭代次数减少。
+  [CVPR 2025][优化/理论][PGD攻击] 发现 PGD 攻击在 L∞ 球上对鲁棒样本会产生循环行为，通过哈希检测循环实现提前终止（PGD_CD），在保持完全相同鲁棒性评估结果的前提下实现最高 96% 的迭代次数减少。
 tags:
-  - CVPR 2025
-  - 优化
-  - PGD攻击
-  - 循环检测
-  - 对抗鲁棒性评估
-  - 提前终止
-  - L∞约束
+  - "CVPR 2025"
+  - "优化/理论"
+  - "PGD攻击"
+  - "循环检测"
+  - "对抗鲁棒性评估"
+  - "提前终止"
+  - "L∞约束"
 ---
 
 # Stop Walking in Circles! Bailing Out Early in Projected Gradient Descent

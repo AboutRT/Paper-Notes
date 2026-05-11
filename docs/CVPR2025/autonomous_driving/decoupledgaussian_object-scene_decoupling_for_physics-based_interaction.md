@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][Gaussian Splatting] 将 3DGS 场景中的物体与背景解耦，使物体支持物理仿真（碰撞、抓取等），同时保持场景的高质量渲染
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - Gaussian Splatting
-  - object decoupling
-  - physics simulation
-  - scene editing
-  - interaction
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "Gaussian Splatting"
+  - "object decoupling"
+  - "physics simulation"
+  - "scene editing"
+  - "interaction"
 ---
 
 # DecoupledGaussian: Object-Scene Decoupling for Physics-Based Interaction

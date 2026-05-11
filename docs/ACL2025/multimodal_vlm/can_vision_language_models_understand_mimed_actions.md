@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Can Vision Language Models Understand Mimed Actions?
 description: >-
-  [多模态] 提出 Mime 基准（86 个哑剧动作 × 10 种变体 = 860 个样本），通过动作捕捉 + 3D 渲染构建可控评测，发现人类在各种扰动下保持近 100% 准确率而最强 VLM 仅 52.3%（多选）/ 19.8%（自由回答），揭示 VLM 严重依赖场景上下文线索而非动作本身。
+  [多模态VLM] 提出 Mime 基准（86 个哑剧动作 × 10 种变体 = 860 个样本），通过动作捕捉 + 3D 渲染构建可控评测，发现人类在各种扰动下保持近 100% 准确率而最强 VLM 仅 52.3%（多选）/ 19.8%（自由回答），揭示 VLM 严重依赖场景上下文线索而非动作本身。
 tags:
-  - 多模态
+  - "多模态VLM"
 ---
 
 # Can Vision Language Models Understand Mimed Actions?

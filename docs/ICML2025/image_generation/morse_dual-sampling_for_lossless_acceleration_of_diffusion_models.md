@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][图像生成][扩散模型加速] 提出 Morse 双采样框架，通过快速 Dot 模型学习残差反馈来补偿 Dash（原扩散模型）跳步采样的信息损失，实现 1.78×–3.31× 的无损加速。
 tags:
-  - ICML2025
-  - 图像生成
-  - 扩散模型加速
-  - 双采样框架
-  - 残差反馈
-  - 跳步采样
-  - 无损加速
+  - "ICML2025"
+  - "图像生成"
+  - "扩散模型加速"
+  - "双采样框架"
+  - "残差反馈"
+  - "跳步采样"
+  - "无损加速"
 ---
 
 # Morse: Dual-Sampling for Lossless Acceleration of Diffusion Models

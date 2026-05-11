@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][3D布局生成] 提出LayoutVLM，利用VLM的语义知识生成包含数值位姿估计和空间关系约束的双重场景布局表示，通过可微分优化联合优化语义目标和物理合理性约束，在11种房间类型上显著超越现有方法。
+  [CVPR 2025][多模态VLM][3D布局生成] 提出LayoutVLM，利用VLM的语义知识生成包含数值位姿估计和空间关系约束的双重场景布局表示，通过可微分优化联合优化语义目标和物理合理性约束，在11种房间类型上显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 3D布局生成
-  - 多模态VLM
-  - 空间关系
-  - VLM空间推理
-  - 开放语义场景合成
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "3D布局生成"
+  - "可微分优化"
+  - "空间关系"
+  - "VLM空间推理"
+  - "开放语义场景合成"
 ---
 
 # LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models

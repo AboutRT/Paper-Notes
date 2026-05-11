@@ -2,15 +2,16 @@
 title: >-
   [论文解读] BEAVER: Building Environments with Assessable Variation for Evaluating Multi-Objective Reinforcement Learning
 description: >-
-  [ICML 2025][多目标RL] 提出 BEAVER 基准——首个面向建筑能源管理的多目标上下文强化学习评估框架，通过参数化热动力学和气候区域构建可控环境变化，系统评估现有 MORL 算法的跨环境泛化能力。
+  [ICML 2025][强化学习][多目标RL] 提出 BEAVER 基准——首个面向建筑能源管理的多目标上下文强化学习评估框架，通过参数化热动力学和气候区域构建可控环境变化，系统评估现有 MORL 算法的跨环境泛化能力。
 tags:
-  - ICML 2025
-  - 多目标RL
-  - 建筑能源管理
-  - MOC-MDP
-  - 强化学习
-  - 上下文MDP
-  - Pareto前沿
+  - "ICML 2025"
+  - "强化学习"
+  - "多目标RL"
+  - "建筑能源管理"
+  - "MOC-MDP"
+  - "泛化评估"
+  - "上下文MDP"
+  - "Pareto前沿"
 ---
 
 # BEAVER: Building Environments with Assessable Variation for Evaluating Multi-Objective Reinforcement Learning

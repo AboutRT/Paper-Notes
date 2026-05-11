@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SCAPE: A Simple and Strong Category-Agnostic Pose Estimator
 description: >-
-  [ECCV 2024][人体理解][类别无关姿态估计] 通过将类别无关姿态估计(CAPE)简化为纯自注意力特征匹配问题，抛弃显式相似度匹配和两阶段框架，引入全局关键点特征感知器(GKP)和关键点注意力精炼器(KAR)以提升注意力质量，在MP-100数据集上1-shot/5-shot设置下分别超越SOTA 2.2/1.3 PCK，同时减少参数量和提升推理速度。
+  [ECCV 2024][人体理解][类别无关姿态估计] 通过将类别无关姿态估计(CAPE)简化为纯自注意力特征匹配问题，抛弃显式相似度匹配和两阶段框架，引入全局关键点特征感知器(GKP)和关键点注意力精炼器(KAR)以提升注意力质量…
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 类别无关姿态估计
-  - 少样本学习
-  - Transformer
-  - 注意力机制
-  - 关键点关联
+  - "ECCV 2024"
+  - "人体理解"
+  - "类别无关姿态估计"
+  - "少样本学习"
+  - "Transformer"
+  - "注意力机制"
+  - "关键点关联"
 ---
 
 # SCAPE: A Simple and Strong Category-Agnostic Pose Estimator

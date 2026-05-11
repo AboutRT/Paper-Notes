@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM对齐][偏好优化] 提出 Dual-IPO 框架，通过在奖励模型和视频生成模型之间进行多轮双向迭代优化，无需大量人工标注即可持续提升文本到视频生成的质量和人类偏好对齐，甚至让 2B 模型超越 5B 模型。
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - 偏好优化
-  - 视频生成
-  - 奖励模型
-  - DPO
-  - 迭代训练
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "偏好优化"
+  - "视频生成"
+  - "奖励模型"
+  - "DPO"
+  - "迭代训练"
 ---
 
 # Dual-IPO: Dual-Iterative Preference Optimization for Text-to-Video Generation

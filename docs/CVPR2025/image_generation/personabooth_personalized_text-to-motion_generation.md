@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PersonaBooth: Personalized Text-to-Motion Generation
 description: >-
-  [CVPR 2025][图像生成][动作个性化] 定义 Motion Personalization 新任务，提出 PersonaBooth 多模态微调方法和 PerMo 大规模动作个性数据集，通过 persona token、对比学习和上下文感知融合，从几个基础动作中捕捉个人独特运动风格并生成文本驱动的个性化动作。
+  [CVPR 2025][图像生成][动作个性化] 定义 Motion Personalization 新任务，提出 PersonaBooth 多模态微调方法和 PerMo 大规模动作个性数据集，通过 persona token、对比学习和上下文感知融合…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 动作个性化
-  - 运动扩散模型
-  - 多模态微调
-  - 对比学习
-  - 上下文感知融合
+  - "CVPR 2025"
+  - "图像生成"
+  - "动作个性化"
+  - "运动扩散模型"
+  - "多模态微调"
+  - "对比学习"
+  - "上下文感知融合"
 ---
 
 # PersonaBooth: Personalized Text-to-Motion Generation

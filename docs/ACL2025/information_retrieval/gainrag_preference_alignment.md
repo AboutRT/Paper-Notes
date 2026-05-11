@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GainRAG: Preference Alignment in Retrieval-Augmented Generation through Gain Signal Synthesis
 description: >-
-  [ACL 2025][RAG] 发现 RAG 中检索器优化的"相关性"与 LLM 实际需要的"增益"存在系统性偏差——含正确答案的段落仍有近 50% 概率导致错误生成，而间接相关段落反而更有效。提出 GainRAG，通过对比解码困惑度定义"增益"信号，训练轻量选择器在检索器和 LLM 之间做增益导向的段落筛选，在 6 个 QA 数据集上全面超越 Standard RAG 和 Rerank 基线。
+  [ACL 2025][信息检索/RAG][RAG] 发现 RAG 中检索器优化的"相关性"与 LLM 实际需要的"增益"存在系统性偏差——含正确答案的段落仍有近 50% 概率导致错误生成，而间接相关段落反而更有效。提出 GainRAG，通过对比解码困惑度定义"增益"信号…
 tags:
-  - ACL 2025
-  - RAG
-  - 信息检索
-  - 对比解码
-  - 增益信号
-  - 段落选择
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "RAG"
+  - "偏好对齐"
+  - "对比解码"
+  - "增益信号"
+  - "段落选择"
 ---
 
 # GainRAG: Preference Alignment in Retrieval-Augmented Generation through Gain Signal Synthesis

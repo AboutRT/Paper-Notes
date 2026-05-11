@@ -3,6 +3,17 @@ title: >-
   ICCV2025 多模态 VLM方向151篇论文解读
 description: >-
   151篇ICCV2025的多模态 VLM 方向论文解读，涵盖多模态、LLM、推理、少样本学习、对齐/RLHF、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICCV2025"
+  - "多模态 VLM"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态"
+  - "LLM"
+  - "推理"
+  - "少样本学习"
+  - "对齐/RLHF"
+  - "压缩/编码"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **📹 ICCV2025** · **151** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [📷 CVPR2026 (241)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [📷 CVPR2026 (240)](../../CVPR2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
 
 🔥 **高频主题：** 多模态 ×77 · LLM ×16 · 推理 ×14 · 少样本学习 ×5 · 对齐/RLHF ×4
 

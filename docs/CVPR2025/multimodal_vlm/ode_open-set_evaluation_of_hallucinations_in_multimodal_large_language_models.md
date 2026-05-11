@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models
 description: >-
-  [CVPR 2025][多模态][幻觉评估] 本文提出 ODE（Open-set Dynamic Evaluation）协议，通过图结构建模现实世界物体概念及其分布关联，从中动态提取概念组合并生成合成测试图像，实现了开放集、持续更新的多模态幻觉评估，有效避免了现有静态基准可能存在的数据污染问题。
+  [CVPR 2025][多模态VLM][幻觉评估] 本文提出 ODE（Open-set Dynamic Evaluation）协议，通过图结构建模现实世界物体概念及其分布关联，从中动态提取概念组合并生成合成测试图像，实现了开放集、持续更新的多模态幻觉评估，有效避免了现有静态基准可能存在的数据污染问题。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 开放集评估
-  - 数据污染
-  - 动态测试
-  - 图文生成
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "幻觉评估"
+  - "开放集评估"
+  - "数据污染"
+  - "动态测试"
+  - "图文生成"
 ---
 
 # ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Asymmetric Cross-Modal Knowledge Distillation: Bridging Modalities with Weak Semantic Consistency
 description: >-
-  [AAAI2026][遥感][知识蒸馏] 提出 Asymmetric Cross-modal Knowledge Distillation (ACKD) 新范式，通过 SemBridge 框架（包含自监督语义匹配 + 最优传输对齐两个即插即用模块）实现弱语义一致性条件下的跨模态知识蒸馏，使不同地理位置采集的多光谱（MS）图像能有效指导 RGB 图像的遥感场景分类。
+  [AAAI2026][遥感][知识蒸馏] 提出 Asymmetric Cross-modal Knowledge Distillation (ACKD) 新范式，通过 SemBridge 框架（包含自监督语义匹配 + 最优传输对齐两个即插即用模块）实现弱语义一致性条件下的跨模态知识蒸馏…
 tags:
-  - AAAI2026
-  - 遥感
-  - 知识蒸馏
-  - optimal transport
-  - remote sensing
-  - scene classification
-  - weak semantic consistency
+  - "AAAI2026"
+  - "遥感"
+  - "知识蒸馏"
+  - "optimal transport"
+  - "remote sensing"
+  - "scene classification"
+  - "weak semantic consistency"
 ---
 
 # Asymmetric Cross-Modal Knowledge Distillation: Bridging Modalities with Weak Semantic Consistency

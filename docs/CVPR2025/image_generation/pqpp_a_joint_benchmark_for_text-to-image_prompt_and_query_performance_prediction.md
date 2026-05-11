@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][提示学习] 提出 PQPP，首个联合文本到图像生成和检索的 Prompt/Query 性能预测基准，包含超过 10K 查询和 160 万条人工标注，发现生成与检索的查询难度几乎不相关（Pearson 仅 0.135）。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 提示学习
-  - 查询性能预测
-  - 文生图
-  - 人工标注基准
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "提示学习"
+  - "查询性能预测"
+  - "文生图"
+  - "人工标注基准"
+  - "扩散模型"
 ---
 
 # PQPP: A Joint Benchmark for Text-to-Image Prompt and Query Performance Prediction

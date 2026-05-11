@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Parameter-Free Algorithms for the Stochastically Extended Adversarial Model
 description: >-
-  [NeurIPS 2025][强化学习] 针对桥接对抗性和随机在线凸优化的 SEA 模型，首次开发无参数算法：在未知域直径 $D$ 和/或 Lipschitz 常数 $G$ 条件下，基于 Optimistic Online Newton Step (OONS) 实现与已知参数情况相当的 regret 界。
+  [NeurIPS 2025][强化学习][在线凸优化] 针对桥接对抗性和随机在线凸优化的 SEA 模型，首次开发无参数算法：在未知域直径 $D$ 和/或 Lipschitz 常数 $G$ 条件下…
 tags:
-  - NeurIPS 2025
-  - 强化学习
-  - 无参数算法
-  - SEA模型
-  - 比较器自适应
-  - Lipschitz自适应
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "在线凸优化"
+  - "无参数算法"
+  - "SEA模型"
+  - "比较器自适应"
+  - "Lipschitz自适应"
 ---
 
 # Parameter-Free Algorithms for the Stochastically Extended Adversarial Model

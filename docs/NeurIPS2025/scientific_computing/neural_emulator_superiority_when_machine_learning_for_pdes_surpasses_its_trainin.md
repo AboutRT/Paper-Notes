@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][科学计算][偏微分方程] 挑战了"神经 PDE 模拟器精度受限于训练数据（数值求解器）精度"的传统认知，发现并严格定义了 **emulator superiority** 现象——仅在低精度求解器数据上训练的神经网络，在以高精度参考解评估时竟能超越其训练求解器本身。
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - 偏微分方程
-  - numerical solver
-  - emulator superiority
-  - Fourier analysis
-  - autoregressive rollout
-  - inductive bias
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "偏微分方程"
+  - "numerical solver"
+  - "emulator superiority"
+  - "Fourier analysis"
+  - "autoregressive rollout"
+  - "inductive bias"
 ---
 
 # Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data

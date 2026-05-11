@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CoLA: Conditional Dropout and Language-Driven Robust Dual-Modal Salient Object Detection
 description: >-
-  [ECCV2024][图像分割][目标检测] 提出 CoLA 框架，通过语言驱动的质量评估（LQA）和条件性 Dropout（CD）两个核心模块，首次在双模态显著性目标检测中同时解决噪声输入和模态缺失两大鲁棒性问题。
+  [ECCV2024][语义分割][目标检测] 提出 CoLA 框架，通过语言驱动的质量评估（LQA）和条件性 Dropout（CD）两个核心模块，首次在双模态显著性目标检测中同时解决噪声输入和模态缺失两大鲁棒性问题。
 tags:
-  - ECCV2024
-  - 图像分割
-  - 目标检测
-  - Modality Robustness
-  - CLIP
-  - Conditional Dropout
-  - Quality Assessment
+  - "ECCV2024"
+  - "语义分割"
+  - "目标检测"
+  - "Modality Robustness"
+  - "CLIP"
+  - "Conditional Dropout"
+  - "Quality Assessment"
 ---
 
 # CoLA: Conditional Dropout and Language-Driven Robust Dual-Modal Salient Object Detection

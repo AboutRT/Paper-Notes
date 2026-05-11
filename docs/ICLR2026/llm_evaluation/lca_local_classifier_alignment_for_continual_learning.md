@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LCA: Local Classifier Alignment for Continual Learning
 description: >-
-  [ICLR 2026][类增量学习] 提出 Local Classifier Alignment (LCA) 损失函数，通过在类原型高斯分布的局部区域内同时最小化分类损失和损失灵敏度，解决持续学习中 backbone 增量合并后分类器不匹配的问题，配合增量 PEFT 合并策略 (IM)，在 7 个基准数据集上达到整体 85.6% 的平均精度，大幅超越 SOTA。
+  [ICLR 2026][LLM评测][类增量学习] 提出 Local Classifier Alignment (LCA) 损失函数，通过在类原型高斯分布的局部区域内同时最小化分类损失和损失灵敏度，解决持续学习中 backbone 增量合并后分类器不匹配的问题，配合增量 PEFT 合并策略 (IM)…
 tags:
-  - ICLR 2026
-  - 类增量学习
-  - LLM评测
-  - 模型合并
-  - 鲁棒性
-  - 预训练模型
+  - "ICLR 2026"
+  - "LLM评测"
+  - "类增量学习"
+  - "分类器对齐"
+  - "模型合并"
+  - "鲁棒性"
+  - "预训练模型"
 ---
 
 # LCA: Local Classifier Alignment for Continual Learning

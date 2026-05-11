@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Configurable Preference Tuning with Rubric-Guided Synthetic Data
 description: >-
-  [ICML 2025][可配置偏好调优] 提出Configurable Preference Tuning (CPT)框架，通过基于细粒度rubric生成的合成偏好数据训练LLM，使模型能在推理时仅通过修改system prompt就动态调整行为风格，无需重新训练，在多个基座模型上准确率从0.52-0.68提升至0.76-0.83。
+  [ICML 2025][可解释性][可配置偏好调优] 提出Configurable Preference Tuning (CPT)框架，通过基于细粒度rubric生成的合成偏好数据训练LLM，使模型能在推理时仅通过修改system prompt就动态调整行为风格，无需重新训练…
 tags:
-  - ICML 2025
-  - 可配置偏好调优
-  - 可解释性
-  - 合成数据
-  - 评分标准引导
-  - 系统提示控制
+  - "ICML 2025"
+  - "可解释性"
+  - "可配置偏好调优"
+  - "DPO"
+  - "合成数据"
+  - "评分标准引导"
+  - "系统提示控制"
 ---
 
 # Configurable Preference Tuning with Rubric-Guided Synthetic Data

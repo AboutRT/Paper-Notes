@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Are Large Language Models Sensitive to the Motives Behind Communication?
 description: >-
-  [NeurIPS 2025][LLM Agent][motivational vigilance] 通过三个递进实验系统评估LLM是否具备"动机警觉性"——识别信息源的意图和激励并相应调整信任度的能力：在控制实验中前沿非推理LLM表现接近理性模型(Pearson's $r>0.9$)且比理性模型更像人类，但在真实YouTube赞助广告场景中警觉性大幅下降($r<0.2$)，简单的prompt steering可部分恢复($r$提升至0.31)。
+  [NeurIPS 2025][LLM Agent][motivational vigilance] 通过三个递进实验系统评估LLM是否具备"动机警觉性"——识别信息源的意图和激励并相应调整信任度的能力：在控制实验中前沿非推理LLM表现接近理性模型(Pearson's $r>0.9$)且比理性模型更像人类…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - motivational vigilance
-  - 动机警觉
-  - 策略沟通
-  - 信息可信度
-  - 理性模型
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "motivational vigilance"
+  - "动机警觉"
+  - "策略沟通"
+  - "信息可信度"
+  - "理性模型"
 ---
 
 # Are Large Language Models Sensitive to the Motives Behind Communication?
@@ -82,7 +82,7 @@ tags:
 | 直接输出vs CoT | 影响倍率 | CoT使LLM更容易被Player 1影响(>60%) |
 | Agent角色vs助手角色 | DeepSeek $r$ | Agent: 0.793 → 助手: -0.141 (完全丧失警觉) |
 | 小模型(3B/8B) | Bayesian $r$ | 0.29~0.61——规模决定警觉能力 |
-| 默认prompt vs 警觉steering | 真实场景 $r$ | Steering平均提升0.1-0.2，多数显著(p<.05) |
+| 默认prompt vs 警觉steering | 真实场景 $r$ | Steering平均提升0.1-0.2，多数显著(p&lt;.05) |
 
 ### 关键发现
 - 前沿非推理LLM在控制场景中比理性模型更像人类($r_{LLM-Human} > r_{Bayesian-Human}$)——暗示LLM捕获了人类警觉中超理性的启发式偏差

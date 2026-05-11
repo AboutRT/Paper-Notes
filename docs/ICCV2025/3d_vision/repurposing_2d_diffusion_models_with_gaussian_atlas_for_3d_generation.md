@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出 Gaussian Atlas 表示法，将无序3D高斯通过最优传输映射到球面再展平为规整2D网格，从而直接微调预训练2D Latent Diffusion模型实现高质量文本到3D生成。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # Repurposing 2D Diffusion Models with Gaussian Atlas for 3D Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM对齐][data-centric alignment] 本文是一篇 position paper，倡导将 AI 对齐的研究重心从算法设计转向数据质量，通过对 Anthropic-HH 数据集的定性分析揭示了人类反馈中的六大不可靠来源，并提出了改进数据收集、清洗和验证的未来方向。
 tags:
-  - ICML 2025
-  - LLM对齐
-  - data-centric alignment
-  - human feedback
-  - RLHF
-  - preference data
-  - feedback reliability
+  - "ICML 2025"
+  - "LLM对齐"
+  - "data-centric alignment"
+  - "human feedback"
+  - "RLHF"
+  - "preference data"
+  - "feedback reliability"
 ---
 
 # Challenges and Future Directions of Data-Centric AI Alignment

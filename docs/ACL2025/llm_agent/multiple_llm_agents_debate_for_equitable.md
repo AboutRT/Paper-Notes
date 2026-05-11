@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multiple LLM Agents Debate for Equitable Cultural Alignment
 description: >-
-  [ACL 2025][LLM Agent][multi-agent debate] 提出 Multi-Agent Debate 框架，让两个 LLM agent 围绕文化场景进行辩论并由 judge LLM 仲裁，在 NormAd-eti 基准上显著提升文化适应准确率和跨文化群体公平性，使 7-9B 小模型达到 27B 模型的性能水平。
+  [ACL 2025][LLM Agent][multi-agent debate] 提出 Multi-Agent Debate 框架，让两个 LLM agent 围绕文化场景进行辩论并由 judge LLM 仲裁，在 NormAd-eti 基准上显著提升文化适应准确率和跨文化群体公平性…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - multi-agent debate
-  - cultural alignment
-  - social norms
-  - LLM collaboration
-  - parity
+  - "ACL 2025"
+  - "LLM Agent"
+  - "multi-agent debate"
+  - "cultural alignment"
+  - "social norms"
+  - "LLM collaboration"
+  - "parity"
 ---
 
 # Multiple LLM Agents Debate for Equitable Cultural Alignment

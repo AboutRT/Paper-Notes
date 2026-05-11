@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Cropper: Vision-Language Model for Image Cropping through In-Context Learning
 description: >-
-  [CVPR 2025][多模态][图像裁剪] 本文提出Cropper框架，首次利用大型视觉-语言模型（VLM）的上下文学习（ICL）能力来解决图像裁剪任务，通过高效的prompt检索和基于反馈的迭代裁剪优化策略，无需任何训练即可在自由裁剪、主体感知裁剪和宽高比裁剪三种任务上大幅超越有监督SOTA方法。
+  [CVPR 2025][多模态VLM][图像裁剪] 本文提出Cropper框架，首次利用大型视觉-语言模型（VLM）的上下文学习（ICL）能力来解决图像裁剪任务，通过高效的prompt检索和基于反馈的迭代裁剪优化策略，无需任何训练即可在自由裁剪、主体感知裁剪和宽高比裁剪三种任务上大幅超越有监督SOTA方法。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 图像裁剪
-  - 视觉上下文学习
-  - VLM
-  - 提示学习
-  - 多模态VLM
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "图像裁剪"
+  - "视觉上下文学习"
+  - "VLM"
+  - "提示学习"
+  - "迭代优化"
 ---
 
 # Cropper: Vision-Language Model for Image Cropping through In-Context Learning

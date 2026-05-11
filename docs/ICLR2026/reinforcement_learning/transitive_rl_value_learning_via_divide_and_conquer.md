@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Transitive RL: Value Learning via Divide and Conquer
 description: >-
-  [ICLR 2026][分治算法] 本文提出 Transitive Reinforcement Learning（TRL），一种基于分治范式的新型值函数学习算法，利用目标条件RL中固有的三角不等式结构，将值函数更新递归分解为子问题，在长时间跨度任务上实现了优于TD学习和蒙特卡洛方法的性能。
+  [ICLR 2026][强化学习][分治算法] 本文提出 Transitive Reinforcement Learning（TRL），一种基于分治范式的新型值函数学习算法，利用目标条件RL中固有的三角不等式结构，将值函数更新递归分解为子问题，在长时间跨度任务上实现了优于TD学习和蒙特卡洛方法的性能。
 tags:
-  - ICLR 2026
-  - 分治算法
-  - 值函数学习
-  - 离线RL
-  - 目标条件强化学习
-  - 三角不等式
+  - "ICLR 2026"
+  - "强化学习"
+  - "分治算法"
+  - "值函数学习"
+  - "离线RL"
+  - "目标条件强化学习"
+  - "三角不等式"
 ---
 
 # Transitive RL: Value Learning via Divide and Conquer

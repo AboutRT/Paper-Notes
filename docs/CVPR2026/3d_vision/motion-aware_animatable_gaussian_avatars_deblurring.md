@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D人体重建] 提出首个从模糊视频直接重建清晰可动画3D人体高斯Avatar的方法，通过3D感知的物理模糊形成模型和基于SMPL的人体运动模型，联合优化Avatar表示和运动参数。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D人体重建
-  - 运动模糊
-  - 3D高斯溅射
-  - SMPL
-  - 去模糊
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D人体重建"
+  - "运动模糊"
+  - "3D高斯溅射"
+  - "SMPL"
+  - "去模糊"
 ---
 
 # Motion-Aware Animatable Gaussian Avatars Deblurring

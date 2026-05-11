@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][CT报告生成] 提出 AbSteering 两阶段框架，利用异常中心的 CoT 推理和 DPO 硬负样本对比学习，将通用 VideoLM 高效适配到 HRCT 报告生成，在临床效能指标上大幅超越专用 CT 基础模型。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - CT报告生成
-  - 视频语言模型
-  - Chain-of-Thought
-  - DPO
-  - 异常检测
+  - "CVPR 2026"
+  - "医学图像"
+  - "CT报告生成"
+  - "视频语言模型"
+  - "Chain-of-Thought"
+  - "DPO"
+  - "异常检测"
 ---
 
 # Unleashing Video Language Models for Fine-grained HRCT Report Generation

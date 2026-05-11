@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence
 description: >-
-  [ECCV 2024][LLM评测][无源域适应] 提出 LFTL（Learn from the Learnt）框架，通过对比主动采样（CAS）和视觉持久性引导适应（VPA）两个核心模块，在无源数据、极少量目标标注（≤5%）的条件下实现高效域适应，在 VisDA-C 上仅用 1% 标注即达到 87.4% 准确率。
+  [ECCV 2024][LLM评测][无源域适应] 提出 LFTL（Learn from the Learnt）框架，通过对比主动采样（CAS）和视觉持久性引导适应（VPA）两个核心模块，在无源数据、极少量目标标注（≤5%）的条件下实现高效域适应…
 tags:
-  - ECCV 2024
-  - LLM评测
-  - 无源域适应
-  - 主动学习
-  - 对比采样
-  - 视觉持久性
-  - 域迁移
+  - "ECCV 2024"
+  - "LLM评测"
+  - "无源域适应"
+  - "主动学习"
+  - "对比采样"
+  - "视觉持久性"
+  - "域迁移"
 ---
 
 # Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence

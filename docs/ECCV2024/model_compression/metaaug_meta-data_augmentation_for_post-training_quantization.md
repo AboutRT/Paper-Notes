@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][训练后量化] 提出 MetaAug，一种基于元学习的训练后量化（PTQ）方法，通过可学习的变换网络对校准数据进行增强，并以双层优化框架同时优化变换网络和量化模型，有效缓解 PTQ 在小校准集上的过拟合问题。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 训练后量化
-  - 元学习
-  - 双层优化
-  - 数据增强
-  - 过拟合缓解
+  - "ECCV 2024"
+  - "模型压缩"
+  - "训练后量化"
+  - "元学习"
+  - "双层优化"
+  - "数据增强"
+  - "过拟合缓解"
 ---
 
 # MetaAug: Meta-Data Augmentation for Post-Training Quantization

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MAVIS: A Benchmark for Multimodal Source Attribution in Long-form Visual Question Answering
 description: >-
-  [AAAI 2026][源归因] MAVIS是首个评估多模态源归因系统的benchmark，包含157K视觉QA实例（每个答案带有多模态文档的事实级引用），并提出了信息性、可靠性和流畅性三维度的自动评估指标。
+  [AAAI 2026][信息检索/RAG][源归因] MAVIS是首个评估多模态源归因系统的benchmark，包含157K视觉QA实例（每个答案带有多模态文档的事实级引用），并提出了信息性、可靠性和流畅性三维度的自动评估指标。
 tags:
-  - AAAI 2026
-  - 源归因
-  - 多模态RAG
-  - 信息检索
-  - 引用生成
-  - 可靠性评估
+  - "AAAI 2026"
+  - "信息检索/RAG"
+  - "源归因"
+  - "多模态RAG"
+  - "视觉问答"
+  - "引用生成"
+  - "可靠性评估"
 ---
 
 # MAVIS: A Benchmark for Multimodal Source Attribution in Long-form Visual Question Answering

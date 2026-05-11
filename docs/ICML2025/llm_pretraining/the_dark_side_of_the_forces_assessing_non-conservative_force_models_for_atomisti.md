@@ -2,14 +2,15 @@
 title: >-
   [论文解读] The Dark Side of the Forces: Assessing Non-Conservative Force Models for Atomistic Machine Learning
 description: >-
-  [ICML 2025][能量守恒] 系统评估非保守力（直接预测而非从势能求导）机器学习原子间势在几何优化和分子动力学中的灾难性后果，并提出保守+非保守混合模型通过多时间步方案兼顾效率与物理正确性。
+  [ICML 2025][预训练][能量守恒] 系统评估非保守力（直接预测而非从势能求导）机器学习原子间势在几何优化和分子动力学中的灾难性后果，并提出保守+非保守混合模型通过多时间步方案兼顾效率与物理正确性。
 tags:
-  - ICML 2025
-  - 能量守恒
-  - 非保守力
-  - 分子动力学
-  - 机器学习势函数
-  - 多时间步
+  - "ICML 2025"
+  - "预训练"
+  - "能量守恒"
+  - "非保守力"
+  - "分子动力学"
+  - "机器学习势函数"
+  - "多时间步"
 ---
 
 # The Dark Side of the Forces: Assessing Non-Conservative Force Models for Atomistic Machine Learning

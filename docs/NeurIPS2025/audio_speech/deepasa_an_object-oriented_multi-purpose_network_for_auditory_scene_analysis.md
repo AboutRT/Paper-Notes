@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DeepASA: An Object-Oriented Multi-Purpose Network for Auditory Scene Analysis
 description: >-
-  [NeurIPS 2025][语音][auditory scene analysis] 提出 DeepASA，一个面向对象的多任务统一架构，通过 object-oriented processing 和 chain-of-inference 机制在单一模型中同时完成多通道声源分离（MIMO）、去混响、声事件检测（SED）、音频分类和到达方向估计（DoAE），在多个空间音频基准上达到 SOTA。
+  [NeurIPS 2025][音频/语音][auditory scene analysis] 提出 DeepASA，一个面向对象的多任务统一架构，通过 object-oriented processing 和 chain-of-inference 机制在单一模型中同时完成多通道声源分离（MIMO）、去混响、声…
 tags:
-  - NeurIPS 2025
-  - 语音
-  - auditory scene analysis
-  - source separation
-  - sound event detection
-  - direction-of-arrival estimation
-  - multi-task learning
+  - "NeurIPS 2025"
+  - "音频/语音"
+  - "auditory scene analysis"
+  - "source separation"
+  - "sound event detection"
+  - "direction-of-arrival estimation"
+  - "multi-task learning"
 ---
 
 # DeepASA: An Object-Oriented Multi-Purpose Network for Auditory Scene Analysis
@@ -108,7 +108,7 @@ DeepASA + CoI 达到 SELD 分数 **0.253**，优于 DCASE 2023 挑战赛冠军 N
 
 - ATST 预训练模型参数量巨大（96.8M），占总参数量的绝大部分，需要探索更轻量的分类特征提取方案
 - 训练数据的混响时间限于 0.2–0.6 秒，在长混响环境下性能可能退化
-- 背景噪声 SNR 范围为 6–30 dB，在极低 SNR（<0 dB）场景下预计表现下降
+- 背景噪声 SNR 范围为 6–30 dB，在极低 SNR（&lt;0 dB）场景下预计表现下降
 - CoI 目前仅融合 SED 和 DoA 两类线索，未来可探索融合音频分离结果作为第三类线索
 - 潜在的隐私滥用风险：模型能分离个体说话人语音并分析方向，可能被用于窃听
 

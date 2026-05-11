@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Prompt Tuning Decision Transformers with Structured and Scalable Bandits
 description: >-
-  [NeurIPS 2025][Transformer] 提出一种基于多臂老虎机的结构化prompt调优方法，通过将prompt分解为独立segment并利用预训练PDT作为特征提取器，将prompt搜索复杂度从组合爆炸降为线性，在多任务离线RL中显著提升冻结PDT骨干网络的推理性能。
+  [NeurIPS 2025][强化学习][Transformer] 提出一种基于多臂老虎机的结构化prompt调优方法，通过将prompt分解为独立segment并利用预训练PDT作为特征提取器，将prompt搜索复杂度从组合爆炸降为线性，在多任务离线RL中显著提升冻结PDT骨干网络的推理性能。
 tags:
-  - NeurIPS 2025
-  - Transformer
-  - 提示学习
-  - Multi-Armed Bandit
-  - 离线多任务RL
-  - 少样本泛化
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "Transformer"
+  - "提示学习"
+  - "Multi-Armed Bandit"
+  - "离线多任务RL"
+  - "少样本泛化"
 ---
 
 # Prompt Tuning Decision Transformers with Structured and Scalable Bandits

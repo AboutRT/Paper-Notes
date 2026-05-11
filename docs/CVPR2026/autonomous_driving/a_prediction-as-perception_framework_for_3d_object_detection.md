@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][3D感知] 受人脑"预测性感知"机制启发，提出 PAP 框架——将历史帧的轨迹预测结果作为 query 注入当前帧的感知模块，在 UniAD 上实现跟踪精度提升 10%、推理速度提升 15%。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 3D感知
-  - 目标检测
-  - 预测式感知
-  - nuScenes
-  - 端到端
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "3D感知"
+  - "目标检测"
+  - "预测式感知"
+  - "nuScenes"
+  - "端到端"
 ---
 
 # A Prediction-as-Perception Framework for 3D Object Detection

@@ -4,7 +4,7 @@ title: >-
 description: >-
   [机器人] 提出 DICE 数据集（2066 句，402 个习语），通过严格控制习语形式一致的对比评测，揭示 LLM 在需要上下文理解才能消歧习语（字面 vs 比喻义）时存在系统性缺陷。
 tags:
-  - 机器人
+  - "机器人"
 ---
 
 # Rolling the DICE on Idiomaticity: How LLMs Fail to Grasp Context

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Joint RGB-Spectral Decomposition Model Guided Image Enhancement in Mobile Photography
 description: >-
-  [ECCV 2024][图像恢复][图像增强] 提出 JDM-HDRNet，通过联合 RGB-光谱分解模型从低分辨率多光谱图像（Lr-MSI）中提取 shading、reflectance 和材质语义三种先验，将它们分别融入 HDRNet 以增强动态范围、色彩映射和语义网格专家学习，并构建了首个 RGB-高光谱配对的 Mobile-Spec 数据集。
+  [ECCV 2024][图像恢复][图像增强] 提出 JDM-HDRNet，通过联合 RGB-光谱分解模型从低分辨率多光谱图像（Lr-MSI）中提取 shading、reflectance 和材质语义三种先验，将它们分别融入 HDRNet 以增强动态范围、色彩映射和语义网格专家学习…
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - 图像增强
-  - RGB-光谱融合
-  - 光谱内禀分解
-  - HDRNet
-  - 移动摄影
+  - "ECCV 2024"
+  - "图像恢复"
+  - "图像增强"
+  - "RGB-光谱融合"
+  - "光谱内禀分解"
+  - "HDRNet"
+  - "移动摄影"
 ---
 
 # Joint RGB-Spectral Decomposition Model Guided Image Enhancement in Mobile Photography

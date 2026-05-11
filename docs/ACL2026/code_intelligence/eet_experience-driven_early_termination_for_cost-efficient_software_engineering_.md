@@ -2,14 +2,15 @@
 title: >-
   [论文解读] EET: Experience-Driven Early Termination for Cost-Efficient Software Engineering Agents
 description: >-
-  [ACL 2026][代码智能] 提出 EET——一种基于历史经验驱动的早停方法，在补丁生成和补丁选择阶段识别无效迭代并提前终止，将 SE Agent 总成本降低 19%-55%（平均 32%），同时几乎不损失任务性能（最多 0.2%）。
+  [ACL 2026][代码智能][软件工程Agent] 提出 EET——一种基于历史经验驱动的早停方法，在补丁生成和补丁选择阶段识别无效迭代并提前终止，将 SE Agent 总成本降低 19%-55%（平均 32%），同时几乎不损失任务性能（最多 0.2%）。
 tags:
-  - ACL 2026
-  - 代码智能
-  - 成本优化
-  - 经验驱动
-  - 早停策略
-  - SWE-bench
+  - "ACL 2026"
+  - "代码智能"
+  - "软件工程Agent"
+  - "成本优化"
+  - "经验驱动"
+  - "早停策略"
+  - "SWE-bench"
 ---
 
 # EET: Experience-Driven Early Termination for Cost-Efficient Software Engineering Agents

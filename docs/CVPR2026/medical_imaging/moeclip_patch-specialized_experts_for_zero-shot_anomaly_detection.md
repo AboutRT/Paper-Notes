@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][零样本异常检测] 提出 MoECLIP，将 Mixture-of-Experts 引入零样本异常检测（ZSAD），通过冻结正交特征分离（FOFS）和等角紧框架（ETF）损失实现 patch 级别的动态专家路由与特化，在14个工业/医学基准上达到 SOTA。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 零样本异常检测
-  - 混合专家
-  - CLIP
-  - LoRA
-  - 专家特化
+  - "CVPR 2026"
+  - "医学图像"
+  - "零样本异常检测"
+  - "混合专家"
+  - "CLIP"
+  - "LoRA"
+  - "专家特化"
 ---
 
 # MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection

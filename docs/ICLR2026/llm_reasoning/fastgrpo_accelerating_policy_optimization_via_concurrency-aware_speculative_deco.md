@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning
 description: >-
-  [ICLR 2026][LLM推理][GRPO加速] 针对GRPO训练中生成阶段占91%-98%时间的严重瓶颈，提出并发感知的投机解码策略（动态调整draft树参数以适配从高到低的实时并发度变化）和在线draft模型学习（利用目标模型生成的hidden states持续适配分布漂移），整体实现2.35x-2.72x端到端训练加速，且不损害推理质量。
+  [ICLR 2026][LLM推理][GRPO加速] 针对GRPO训练中生成阶段占91%-98%时间的严重瓶颈，提出并发感知的投机解码策略（动态调整draft树参数以适配从高到低的实时并发度变化）和在线draft模型学习（利用目标模型生成的hidden states持续适配分布漂移）…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - GRPO加速
-  - 投机解码
-  - 并发感知
-  - 在线Draft学习
-  - 强化学习训练
+  - "ICLR 2026"
+  - "LLM推理"
+  - "GRPO加速"
+  - "投机解码"
+  - "并发感知"
+  - "在线Draft学习"
+  - "强化学习训练"
 ---
 
 # FastGRPO: Accelerating Policy Optimization via Concurrency-aware Speculative Decoding and Online Draft Learning
@@ -29,7 +29,7 @@ tags:
 
 - **领域现状**: GRPO是提升LLM推理能力的主流RL框架(DeepSeek-R1/DAPO等)，但相比SFT训练吞吐量极低，严重阻碍了实验迭代速度
 - **瓶颈量化分析**: 生成阶段(rollout采样)占GRPO总训练时间的91%-98%。更关键的是，随着模型能力增长输出变长，生成与更新的时间比从6x增长到20x以上，问题持续恶化
-- **投机解码的高并发困境**: 标准投机解码在低并发(B=1)下有效，但在GRPO的高并发(大batch)场景下几乎无加速甚至减速(speedup<1.0x)。原因是额外的计算开销使系统从memory-bound跨越到compute-bound
+- **投机解码的高并发困境**: 标准投机解码在低并发(B=1)下有效，但在GRPO的高并发(大batch)场景下几乎无加速甚至减速(speedup&lt;1.0x)。原因是额外的计算开销使系统从memory-bound跨越到compute-bound
 - **GRPO独有的动态并发特性**: 生成过程中有效并发度动态变化——初始为高batch，但不同序列在不同时间结束(长度差异达3-5倍)，导致有效并发度逐渐从高降至接近1
 - **分布漂移问题**: 训练过程中目标模型持续更新，与固定draft模型的分布差距逐渐增大，导致投机接受率下降、加速效果随训练步数递减
 - **已有方法不足**: EAGLE-2/HASS/EAGLE-3在GRPO框架中仅获得1.1x-1.3x加速，远低于标准推理场景

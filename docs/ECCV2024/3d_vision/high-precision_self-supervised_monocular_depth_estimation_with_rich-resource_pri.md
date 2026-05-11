@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][自监督深度估计] 提出RPrDepth，在训练阶段利用多帧/高分辨率等"富资源"模型的特征和预测作为先验，通过先验深度融合模块和富资源引导损失，使仅用**低分辨率单张图像**推理的模型达到甚至超过多帧高分辨率模型的深度估计精度。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 自监督深度估计
-  - 单目深度估计
-  - 知识蒸馏
-  - 先验融合
-  - 注意力特征选择
+  - "ECCV 2024"
+  - "3D视觉"
+  - "自监督深度估计"
+  - "单目深度估计"
+  - "知识蒸馏"
+  - "先验融合"
+  - "注意力特征选择"
 ---
 
 # High-Precision Self-Supervised Monocular Depth Estimation with Rich-Resource Prior

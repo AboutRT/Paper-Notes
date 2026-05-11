@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][草图动画] 提出 FlipSketch，首个从单张静态草图和文本描述生成无约束光栅草图动画的系统，通过微调文本-视频扩散模型、参考帧迭代对齐和双注意力组合三项创新实现流畅动画。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 草图动画
-  - 文本引导
-  - 视频扩散模型
-  - 翻页动画
-  - DDIM反转
+  - "CVPR 2025"
+  - "图像生成"
+  - "草图动画"
+  - "文本引导"
+  - "视频扩散模型"
+  - "翻页动画"
+  - "DDIM反转"
 ---
 
 # FlipSketch: Flipping Static Drawings to Text-Guided Sketch Animations

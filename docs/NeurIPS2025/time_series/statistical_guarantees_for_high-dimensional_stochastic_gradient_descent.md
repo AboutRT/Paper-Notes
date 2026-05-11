@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][随机梯度下降] 将高维非线性时间序列的耦合技术引入在线学习，首次为常数学习率 SGD 及其 Ruppert-Polyak 平均变体在高维（$\ell^s$ 和 $\ell^\infty$ 范数下）提供了严格的矩收敛界和高概率集中界。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 随机梯度下降
-  - 高维统计
-  - 常数学习率
-  - 几何矩收缩
-  - 集中不等式
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "随机梯度下降"
+  - "高维统计"
+  - "常数学习率"
+  - "几何矩收缩"
+  - "集中不等式"
 ---
 
 # Statistical Guarantees for High-Dimensional Stochastic Gradient Descent

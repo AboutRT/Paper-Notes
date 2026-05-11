@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][隐式神经表示] 发现INR权重空间呈高斯分布这一关键性质，基于压缩感知理论用随机感知矩阵将权重向量转换为高维稀疏编码，实现了不依赖量化方案的基础性INR压缩，可与任何现有INR压缩方法叠加使用。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 隐式神经表示
-  - 信号压缩
-  - 稀疏编码
-  - 压缩感知
-  - INR
+  - "CVPR 2025"
+  - "3D视觉"
+  - "隐式神经表示"
+  - "信号压缩"
+  - "稀疏编码"
+  - "压缩感知"
+  - "INR"
 ---
 
 # SiNR: Sparsity Driven Compressed Implicit Neural Representations

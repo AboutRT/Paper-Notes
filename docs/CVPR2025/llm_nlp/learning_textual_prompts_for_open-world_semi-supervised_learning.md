@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM/NLP][开放世界半监督学习] 本文提出了一种针对开放世界半监督学习（OWSSL）的新方法，通过全局-局部文本提示学习策略增强图文对齐效果，并设计前向-反向策略降低无标签样本中图文匹配的噪声，在多个细粒度数据集上显著超越SOTA。
 tags:
-  - CVPR 2025
-  - LLM/NLP
-  - 开放世界半监督学习
-  - 文本提示学习
-  - 图文对齐
-  - 细粒度识别
-  - 噪声抑制
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "开放世界半监督学习"
+  - "文本提示学习"
+  - "图文对齐"
+  - "细粒度识别"
+  - "噪声抑制"
 ---
 
 # Learning Textual Prompts for Open-World Semi-Supervised Learning

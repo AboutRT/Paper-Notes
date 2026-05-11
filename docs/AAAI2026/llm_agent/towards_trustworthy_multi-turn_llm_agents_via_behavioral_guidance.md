@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][LLM Agent][多轮交互] 提出任务完成框架，通过任务分析器（Task Profiler）、推理模块（Reasoning Module）和生成模块（Generation Module）三组件协同进化，使 LLM Agent 在多轮交互环境中实现可验证和可靠的行为引导。
 tags:
-  - AAAI 2026
-  - LLM Agent
-  - 多轮交互
-  - 行为引导
-  - 可信Agent
-  - 任务分析器
-  - 推理模块
-  - 生成模块
+  - "AAAI 2026"
+  - "LLM Agent"
+  - "多轮交互"
+  - "行为引导"
+  - "可信Agent"
+  - "任务分析器"
+  - "推理模块"
+  - "生成模块"
 ---
 
 # Towards Trustworthy Multi-Turn LLM Agents via Behavioral Guidance

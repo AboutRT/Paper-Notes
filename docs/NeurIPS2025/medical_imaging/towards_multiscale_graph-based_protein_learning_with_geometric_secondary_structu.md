@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Multiscale Graph-based Protein Learning with Geometric Secondary Structural Motifs
 description: >-
-  [NeurIPS 2025][医学图像][蛋白质表示学习] 提出SSHG（Secondary Structure-based Hierarchical Graph）框架，基于蛋白质二级结构motif构建两级层次化图表示（残基级内部图+motif级全局图），用两阶段GNN分别学习局部和全局特征，理论证明保持最大表达力的同时在酶分类和配体亲和力预测上同时提升精度和降低计算成本。
+  [NeurIPS 2025][医学图像][蛋白质表示学习] 提出SSHG（Secondary Structure-based Hierarchical Graph）框架，基于蛋白质二级结构motif构建两级层次化图表示（残基级内部图+motif级全局图），用两阶段GNN分别学习局部和全局特征…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 蛋白质表示学习
-  - 图神经网络
-  - 多尺度
-  - 二级结构
-  - 层次化图
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "蛋白质表示学习"
+  - "图神经网络"
+  - "多尺度"
+  - "二级结构"
+  - "层次化图"
 ---
 
 # Towards Multiscale Graph-based Protein Learning with Geometric Secondary Structural Motifs
@@ -32,7 +32,7 @@ tags:
 
 **长程依赖建模效率低。** 为捕获全局上下文，现有方法通常使用大半径截断（如16Å），这会生成极其稠密的图（边数可达~15K），带来巨大的计算和内存开销。多尺度方法如HoloProt使用表面建模，但计算成本同样高昂。
 
-本文的核心idea是利用领域知识——蛋白质二级结构——作为天然的多尺度层次化节点：每个二级结构motif(如一段α-螺旋)就是一个高级节点。这种设计同时利用了生物学先验知识和几何信息，能以极少的边数（总边数<3N，其中N为残基数）实现高效的多尺度蛋白质建模，并具有理论保证的最大表达力。
+本文的核心idea是利用领域知识——蛋白质二级结构——作为天然的多尺度层次化节点：每个二级结构motif(如一段α-螺旋)就是一个高级节点。这种设计同时利用了生物学先验知识和几何信息，能以极少的边数（总边数&lt;3N，其中N为残基数）实现高效的多尺度蛋白质建模，并具有理论保证的最大表达力。
 
 ## 方法详解
 

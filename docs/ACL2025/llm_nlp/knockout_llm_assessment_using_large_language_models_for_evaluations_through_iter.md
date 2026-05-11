@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Knockout LLM Assessment: Using Large Language Models for Evaluations through Iterative Pairwise Comparisons
 description: >-
-  [ACL 2025][LLM/NLP][LLM-as-a-Judge] 提出 Knockout Assessment——基于淘汰赛制的迭代成对比较 LLM-as-a-Judge 方法，通过多轮锦标赛让回答之间反复对比以建立全局排名视角，在科学考试评分和机器翻译评估上比个体评估方法平均提升 0.07 Pearson 相关系数。
+  [ACL 2025][LLM/NLP][LLM-as-a-Judge] 提出 Knockout Assessment——基于淘汰赛制的迭代成对比较 LLM-as-a-Judge 方法，通过多轮锦标赛让回答之间反复对比以建立全局排名视角…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - LLM-as-a-Judge
-  - pairwise comparison
-  - knockout tournament
-  - evaluation
-  - scoring accuracy
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "LLM-as-a-Judge"
+  - "pairwise comparison"
+  - "knockout tournament"
+  - "evaluation"
+  - "scoring accuracy"
 ---
 
 # Knockout LLM Assessment: Using Large Language Models for Evaluations through Iterative Pairwise Comparisons

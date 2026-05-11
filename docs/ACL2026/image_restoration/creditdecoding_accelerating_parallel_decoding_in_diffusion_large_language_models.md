@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像恢复][扩散语言模型] 本文提出 CreditDecoding，一种无需训练的并行解码加速方法，通过累积 token 级历史证据（轨迹信用）来增强正确但置信度不足的 token，在 LLaDA-8B-Instruct 上实现最高 5.48 倍加速且准确率提升 0.48。
 tags:
-  - ACL 2026
-  - 图像恢复
-  - 图像复原
-  - 并行解码
-  - 轨迹信用
-  - 推理加速
-  - 置信度增强
+  - "ACL 2026"
+  - "图像恢复"
+  - "扩散语言模型"
+  - "并行解码"
+  - "轨迹信用"
+  - "推理加速"
+  - "置信度增强"
 ---
 
 # CreditDecoding: Accelerating Parallel Decoding in Diffusion Large Language Models with Trace Credit

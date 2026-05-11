@@ -2,16 +2,17 @@
 title: >-
   [论文解读] FineRS: Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning
 description: >-
-  [NeurIPS 2025][图像分割][图像分割] 提出 FineRS 两阶段 MLLM 强化学习框架（全局语义探索 GSE → 局部感知精化 LPR），通过 locate-informed retrospective reward 耦合两阶段，在自建 FineRS-4k UAV 高分辨率数据集上实现超小目标的推理与分割，gIoU 达 55.1%（超 Seg-Zero† 8.5%），同时支持 VQA（MVQA 83.3%）。
+  [NeurIPS 2025][语义分割][图像分割] 提出 FineRS 两阶段 MLLM 强化学习框架（全局语义探索 GSE → 局部感知精化 LPR），通过 locate-informed retrospective reward 耦合两阶段…
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - MLLM
-  - reinforcement-learning
-  - GRPO
-  - coarse-to-fine
-  - high-resolution
-  - UAV
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "图像分割"
+  - "MLLM"
+  - "reinforcement-learning"
+  - "GRPO"
+  - "coarse-to-fine"
+  - "high-resolution"
+  - "UAV"
 ---
 
 # FineRS: Fine-grained Reasoning and Segmentation of Small Objects with Reinforcement Learning
@@ -28,7 +29,7 @@ tags:
 
 ## 研究背景与动机
 
-**MLLM 分割的现状**：LISA 等方法将 MLLM 与 SAM 结合实现了推理分割，但它们针对标准分辨率和大尺度目标设计，对高分辨率图像中的超小目标（面积占比 <0.1%）严重失效——LISA 7B 在 FineRS-4k 上 gIoU 仅 9.0%。
+**MLLM 分割的现状**：LISA 等方法将 MLLM 与 SAM 结合实现了推理分割，但它们针对标准分辨率和大尺度目标设计，对高分辨率图像中的超小目标（面积占比 &lt;0.1%）严重失效——LISA 7B 在 FineRS-4k 上 gIoU 仅 9.0%。
 
 **高分辨率理解的局限**：现有高分辨率方法（SEAL、DC2、MLLMs-Know）通过分块或注意力操作来感知细节，但多数为 training-free 流程，缺乏精确定位能力，无法输出 pixel-level mask。
 
@@ -80,7 +81,7 @@ FineRS 基于 Qwen2.5-VL-7B 构建，采用两阶段流水线：
 - **来源**：YouTube 和自采无人机视频，3840×2060 分辨率
 - **规模**：4,563 张高分辨率图像，8,411 个小目标实体，12,132 个 text-mask 标注对
 - **划分**：训练 8,956 / 验证 749 / 测试 2,427
-- **目标尺度**：Small (>0.055%)、Extra Small (0.017%–0.055%)、Extra-Extra Small (<0.017%)
+- **目标尺度**：Small (>0.055%)、Extra Small (0.017%–0.055%)、Extra-Extra Small (&lt;0.017%)
 - **任务类型**：指令引导分割 39%、选择题 VQA 30.5%、开放式 VQA 30.5%
 - **属性维度**：颜色、形状、位置、其他
 - **标注流程**：14 名志愿者两两交叉检查 + 4 名高级审核员最终质检

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][对抗鲁棒性] 本文提出了一种基于特征分布统计对齐的对抗鲁棒知识蒸馏方法，通过减小 student 和 teacher 模型在对抗样本和干净样本之间的特征方差差距(variance gap)来提升 student 模型的对抗鲁棒性，发现鲁棒精度与方差差距存在强负相关线性关系。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 对抗鲁棒性
-  - 知识蒸馏
-  - 特征方差
-  - 协方差对齐
+  - "ECCV 2024"
+  - "模型压缩"
+  - "对抗鲁棒性"
+  - "知识蒸馏"
+  - "特征方差"
+  - "协方差对齐"
 ---
 
 # Adversarially Robust Distillation by Reducing the Student-Teacher Variance Gap

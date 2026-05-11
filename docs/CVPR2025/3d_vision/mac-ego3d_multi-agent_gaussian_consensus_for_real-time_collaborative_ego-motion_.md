@@ -2,16 +2,16 @@
 title: >-
   [论文解读] MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction
 description: >-
-  [CVPR 2025][3D视觉][3D 高斯泼溅] 提出 MAC-Ego3D 框架，通过统一的 3D 高斯泼溅（Gaussian Splatting）表示让多个智能体独立构建、对齐和迭代优化局部地图，利用智能体内和智能体间高斯共识机制实现实时协作位姿估计和逼真 3D 重建，达到 15 倍推理加速、位姿误差降低一个数量级、RGB PSNR 提升 4-10 dB。
+  [CVPR 2025][3D视觉][3D 高斯泼溅] 提出 MAC-Ego3D 框架，通过统一的 3D 高斯泼溅（Gaussian Splatting）表示让多个智能体独立构建、对齐和迭代优化局部地图，利用智能体内和智能体间高斯共识机制实现实时协作位姿估计和逼真 3D 重建…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D 高斯泼溅
-  - 多智能体协作
-  - 位姿估计
-  - 实时重建
-  - 高斯共识
-  - SLAM
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D 高斯泼溅"
+  - "多智能体协作"
+  - "位姿估计"
+  - "实时重建"
+  - "高斯共识"
+  - "SLAM"
 ---
 
 # MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction

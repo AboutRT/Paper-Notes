@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][AI生成图像检测] 提出 Dual Data Alignment (DDA)，通过像素域和频域双重对齐生成训练用合成图像，消除数据集偏置导致的虚假相关性，使检测器仅学习伪造相关特征，在11个基准上平均准确率达到90.7%，大幅超越现有方法。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - AI生成图像检测
-  - 数据对齐
-  - 频域对齐
-  - 泛化性
-  - VAE重建
-  - 数据偏置
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "AI生成图像检测"
+  - "数据对齐"
+  - "频域对齐"
+  - "泛化性"
+  - "VAE重建"
+  - "数据偏置"
 ---
 
 # Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable

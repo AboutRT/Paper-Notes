@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization
 description: >-
-  [CVPR 2026][语音][时序伪造定位] 提出 GEM-TFL，通过两阶段分类-回归框架弥合弱监督与全监督之间的差距，用 EM 分解二元标签为多维潜在属性、训练无关的时序一致性精化、图扩散提案精化三大模块，在弱监督时序伪造定位上平均 mAP 提升 4-8%。
+  [CVPR 2026][音频/语音][时序伪造定位] 提出 GEM-TFL，通过两阶段分类-回归框架弥合弱监督与全监督之间的差距，用 EM 分解二元标签为多维潜在属性、训练无关的时序一致性精化、图扩散提案精化三大模块，在弱监督时序伪造定位上平均 mAP 提升 4-8%。
 tags:
-  - CVPR 2026
-  - 语音
-  - 时序伪造定位
-  - 弱监督
-  - EM算法
-  - 图扩散
-  - 时序一致性
+  - "CVPR 2026"
+  - "音频/语音"
+  - "时序伪造定位"
+  - "弱监督"
+  - "EM算法"
+  - "图扩散"
+  - "时序一致性"
 ---
 
 # GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization

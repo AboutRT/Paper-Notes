@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][组合泛化] 本文通过信息论泛化界和可解释性分析证明，CoT 训练的核心机制是**组合泛化**——模型学会系统性地组合已学的简单技能来解决新颖复杂问题，并内化为两阶段组合推理电路，使中间结果在更浅层提取，释放深层专注于后续推理步骤。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 组合泛化
-  - 思维链训练
-  - 信息论泛化界
-  - 推理电路
-  - OOD泛化
+  - "ICLR 2026"
+  - "LLM推理"
+  - "组合泛化"
+  - "思维链训练"
+  - "信息论泛化界"
+  - "推理电路"
+  - "OOD泛化"
 ---
 
 # Compositional Generalization from Learned Skills via CoT Training: A Theoretical and Structural Analysis for Reasoning

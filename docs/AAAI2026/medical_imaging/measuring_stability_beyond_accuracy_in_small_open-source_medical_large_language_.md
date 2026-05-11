@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Measuring Stability Beyond Accuracy in Small Open-Source Medical Large Language Models for Pediatric Endocrinology
 description: >-
-  [AAAI 2026][医学图像][医学LLM] 系统评估了6个小型开源医学LLM（<10B参数）在儿科内分泌领域的表现，揭示仅靠准确率不足以衡量模型可靠性：语义无关的提示微调导致模型输出显著变化（Stuart-Maxwell p<10⁻⁴），高一致性不等于正确，甚至CUDA版本差异也能引发统计显著的输出偏移。
+  [AAAI 2026][医学图像][医学LLM] 系统评估了6个小型开源医学LLM（<10B参数）在儿科内分泌领域的表现，揭示仅靠准确率不足以衡量模型可靠性：语义无关的提示微调导致模型输出显著变化（Stuart-Maxwell p<10⁻⁴），高一致性不等于正确，甚至CUDA版本差异也能引发统计显著的输出偏移…
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 医学LLM
-  - 小模型评估
-  - 稳定性
-  - 可复现性
-  - 提示敏感性
-  - 儿科内分泌
-  - 自我评估偏差
+  - "AAAI 2026"
+  - "医学图像"
+  - "医学LLM"
+  - "小模型评估"
+  - "稳定性"
+  - "可复现性"
+  - "提示敏感性"
+  - "儿科内分泌"
+  - "自我评估偏差"
 ---
 
 # Measuring Stability Beyond Accuracy in Small Open-Source Medical Large Language Models for Pediatric Endocrinology

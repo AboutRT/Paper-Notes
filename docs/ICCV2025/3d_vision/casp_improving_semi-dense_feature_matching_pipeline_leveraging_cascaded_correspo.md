@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][Feature Matching] 提出 CasP，一种级联匹配流水线，将匹配阶段分解为 1/16 尺度的一对多先验匹配和 1/8 尺度的一对一精细匹配，在保持精度的同时实现最高 2.2× 加速，并显著提升跨域泛化能力。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - Feature Matching
-  - Cascaded Matching
-  - Semi-Dense
-  - Efficiency
-  - Cross-Domain Generalization
+  - "ICCV 2025"
+  - "3D视觉"
+  - "Feature Matching"
+  - "Cascaded Matching"
+  - "Semi-Dense"
+  - "Efficiency"
+  - "Cross-Domain Generalization"
 ---
 
 # CasP: Improving Semi-Dense Feature Matching Pipeline Leveraging Cascaded Correspondence Priors for Guidance

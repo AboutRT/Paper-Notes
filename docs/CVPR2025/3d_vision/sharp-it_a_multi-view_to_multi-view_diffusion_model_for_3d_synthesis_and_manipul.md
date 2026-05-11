@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D增强] 提出Sharp-It，一个多视角到多视角的扩散模型，将Shap-E等3D生成模型输出的低质量物体通过2D扩散增强为高质量多视角图像，FID降至6.60且支持外观编辑，仅需10秒。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D增强
-  - 多视角扩散
-  - Shap-E
-  - 几何细化
-  - 3D编辑
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D增强"
+  - "多视角扩散"
+  - "Shap-E"
+  - "几何细化"
+  - "3D编辑"
 ---
 
 # Sharp-It: A Multi-view to Multi-view Diffusion Model for 3D Synthesis and Manipulation

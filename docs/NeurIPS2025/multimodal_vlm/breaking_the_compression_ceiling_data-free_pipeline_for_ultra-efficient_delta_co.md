@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Breaking the Compression Ceiling: Data-Free Pipeline for Ultra-Efficient Delta Compression
 description: >-
-  [NeurIPS 2025][多模态][delta compression] 提出 UltraDelta——首个无数据 delta 权重压缩流水线，通过方差引导的混合稀疏分配、分布感知压缩和迹范数引导缩放三个组件，在 LLM/NLP/视觉/多模态模型上实现最高 224× 的超高压缩比且性能不降甚至超越微调模型。
+  [NeurIPS 2025][多模态VLM][delta compression] 提出 UltraDelta——首个无数据 delta 权重压缩流水线，通过方差引导的混合稀疏分配、分布感知压缩和迹范数引导缩放三个组件…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - delta compression
-  - 多模态VLM
-  - 量化
-  - 无数据压缩
-  - 多任务部署
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "delta compression"
+  - "模型剪枝"
+  - "量化"
+  - "无数据压缩"
+  - "多任务部署"
 ---
 
 # Breaking the Compression Ceiling: Data-Free Pipeline for Ultra-Efficient Delta Compression

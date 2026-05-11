@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders
 description: >-
-  [CVPR 2025][LLM评测][3D shape reconstruction] 提出 Dora-VAE，通过 Sharp Edge Sampling (SES) 关注几何锐边区域、Dual Cross-Attention 分别处理均匀和显著采样点，以仅 1,280 个 latent codes（8× 小于 XCube-VAE 的 10,000+）实现更优的 3D 形状重建质量，同时建立了新的 Dora-Bench 评测基准。
+  [CVPR 2025][LLM评测][3D shape reconstruction] 提出 Dora-VAE，通过 Sharp Edge Sampling (SES) 关注几何锐边区域、Dual Cross-Attention 分别处理均匀和显著采样点，以仅 1…
 tags:
-  - CVPR 2025
-  - LLM评测
-  - 3D shape reconstruction
-  - VAE
-  - sharp edge sampling
-  - 注意力机制
-  - benchmark
+  - "CVPR 2025"
+  - "LLM评测"
+  - "3D shape reconstruction"
+  - "VAE"
+  - "sharp edge sampling"
+  - "注意力机制"
+  - "benchmark"
 ---
 
 # Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders

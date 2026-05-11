@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Proactive Information Probing: Customer Service Chatbots Harvesting Value from Conversation
 description: >-
-  [ACL 2026][主动信息探测] 本文提出 ProChatIP 框架，将客服聊天机器人从被动应答工具转变为主动信息采集引擎，通过专门的对话策略模块学习"何时探测"用户以获取预设的目标信息，同时最小化对话轮数和用户摩擦。
+  [ACL 2026][对话系统][主动信息探测] 本文提出 ProChatIP 框架，将客服聊天机器人从被动应答工具转变为主动信息采集引擎，通过专门的对话策略模块学习"何时探测"用户以获取预设的目标信息，同时最小化对话轮数和用户摩擦。
 tags:
-  - ACL 2026
-  - 主动信息探测
-  - 客服聊天机器人
-  - 对话策略
-  - 对话系统
-  - 商业智能
+  - "ACL 2026"
+  - "对话系统"
+  - "主动信息探测"
+  - "客服聊天机器人"
+  - "对话策略"
+  - "强化学习"
+  - "商业智能"
 ---
 
 # Towards Proactive Information Probing: Customer Service Chatbots Harvesting Value from Conversation

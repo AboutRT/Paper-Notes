@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][多人姿态估计] 利用2022年FIFA世界杯体育场部署的多视角静态摄像机基础设施，构建了首个大规模多人全局3D姿态估计数据集WorldPose，包含约250万个3D姿态和超过120公里的全局轨迹，并揭示了现有全局姿态估计方法在多人场景下面临的严峻挑战。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 多人姿态估计
-  - 全局轨迹
-  - SMPL
-  - 数据集
-  - 体育分析
+  - "ECCV 2024"
+  - "人体理解"
+  - "多人姿态估计"
+  - "全局轨迹"
+  - "SMPL"
+  - "数据集"
+  - "体育分析"
 ---
 
 # WorldPose: A World Cup Dataset for Global 3D Human Pose Estimation

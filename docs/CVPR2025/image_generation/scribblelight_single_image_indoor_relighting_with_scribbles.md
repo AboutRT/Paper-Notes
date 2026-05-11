@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ScribbleLight: Single Image Indoor Relighting with Scribbles
 description: >-
-  [CVPR 2025][图像生成][室内重光照] ScribbleLight 提出一个基于涂鸦引导的单张室内图像重光照生成模型，通过 Albedo-conditioned Stable Image Diffusion 保持原图纹理颜色，并设计编码器-解码器 ControlNet 架构实现几何保持的精细光照控制，用户只需简单涂鸦即可实现开关灯、投射阴影等多种光照效果。
+  [CVPR 2025][图像生成][室内重光照] ScribbleLight 提出一个基于涂鸦引导的单张室内图像重光照生成模型，通过 Albedo-conditioned Stable Image Diffusion 保持原图纹理颜色，并设计编码器-解码器 ControlNet 架构实现几何保持的精细光照控制…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 室内重光照
-  - 涂鸦控制
-  - 扩散模型
-  - ControlNet
-  - 内在图像分解
+  - "CVPR 2025"
+  - "图像生成"
+  - "室内重光照"
+  - "涂鸦控制"
+  - "扩散模型"
+  - "ControlNet"
+  - "内在图像分解"
 ---
 
 # ScribbleLight: Single Image Indoor Relighting with Scribbles

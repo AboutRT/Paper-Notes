@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast
 description: >-
-  [AAAI 2026][其他][雷达心跳感知] 提出首个雷达心跳感知的无监督学习框架 Radar-APLANC，通过噪声对比三元组损失（NCT loss）和增强伪标签生成器实现两阶段无监督训练，无需昂贵的生理信号标注即可达到接近监督方法的性能。
+  [AAAI 2026][雷达心跳感知] 提出首个雷达心跳感知的无监督学习框架 Radar-APLANC，通过噪声对比三元组损失（NCT loss）和增强伪标签生成器实现两阶段无监督训练，无需昂贵的生理信号标注即可达到接近监督方法的性能。
 tags:
-  - AAAI 2026
-  - 其他
-  - 雷达心跳感知
-  - 无监督学习
-  - 伪标签
-  - 噪声对比学习
-  - FMCW 雷达
+  - "AAAI 2026"
+  - "雷达心跳感知"
+  - "无监督学习"
+  - "伪标签"
+  - "噪声对比学习"
+  - "FMCW 雷达"
 ---
 
 # Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast

@@ -3,6 +3,15 @@ title: >-
   AAAI2026 优化/理论方向23篇论文解读
 description: >-
   23篇AAAI2026的优化/理论方向论文解读，涵盖联邦学习、LLM、对抗鲁棒、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "AAAI2026"
+  - "优化/理论"
+  - "论文解读"
+  - "论文笔记"
+  - "联邦学习"
+  - "LLM"
+  - "对抗鲁棒"
+  - "个性化生成"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +19,7 @@ description: >-
 
 **🤖 AAAI2026** · **23** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/optimization/index.md) · [📷 CVPR2026 (8)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/optimization/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (58)](../../ICML2025/optimization/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/optimization/index.md) · [📷 CVPR2026 (8)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/optimization/index.md) · [🧠 NeurIPS2025 (114)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/optimization/index.md) · [🧪 ICML2025 (57)](../../ICML2025/optimization/index.md)
 
 🔥 **高频主题：** 联邦学习 ×5 · LLM ×4 · 对抗鲁棒 ×2 · 个性化生成 ×2
 

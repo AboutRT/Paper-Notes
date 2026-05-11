@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图像恢复][知识边界感知] 本文提出 GeoDe 框架，通过在 LLM 隐空间中训练线性探针构建真值超平面，利用样本到超平面的几何距离作为置信度信号来筛选高质量弃权微调数据，有效消除决策边界附近的"灰色地带"噪声，显著提升模型的真实性和可靠性。
 tags:
-  - ACL 2026
-  - 图像恢复
-  - 知识边界感知
-  - 弃权微调
-  - 隐空间探针
-  - 几何去噪
-  - 图像复原
+  - "ACL 2026"
+  - "图像恢复"
+  - "知识边界感知"
+  - "弃权微调"
+  - "隐空间探针"
+  - "几何去噪"
+  - "幻觉缓解"
 ---
 
 # Purging the Gray Zone: Latent-Geometric Denoising for Precise Knowledge Boundary Awareness

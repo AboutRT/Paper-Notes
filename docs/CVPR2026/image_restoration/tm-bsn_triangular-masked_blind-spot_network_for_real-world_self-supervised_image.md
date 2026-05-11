@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][盲点网络] 提出三角掩码盲点网络 TM-BSN，通过将盲点区域设计为与真实 sRGB 噪声的菱形空间相关模式精确对齐的形状，在原始分辨率上实现无需下采样的自监督图像去噪，并通过知识蒸馏进一步提升性能，在 SIDD 和 DND 基准上达到自监督去噪 SOTA。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - 盲点网络
-  - 图像复原
-  - 三角掩码卷积
-  - 空间相关噪声
-  - 知识蒸馏
+  - "CVPR 2026"
+  - "图像恢复"
+  - "盲点网络"
+  - "自监督去噪"
+  - "三角掩码卷积"
+  - "空间相关噪声"
+  - "知识蒸馏"
 ---
 
 # TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising

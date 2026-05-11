@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data
 description: >-
-  [NeurIPS 2025][遥感][遥感基础模型] GeoLink将OpenStreetMap矢量数据直接融入遥感基础模型预训练，通过异构GNN编码OSM数据并设计多粒度跨模态学习目标（区域-图像级对比 + 对象-patch级融合），在127万样本对上高效预训练后，7个分类和4个分割/变化检测benchmark全面超越现有RS FM。
+  [NeurIPS 2025][遥感][遥感基础模型] GeoLink将OpenStreetMap矢量数据直接融入遥感基础模型预训练，通过异构GNN编码OSM数据并设计多粒度跨模态学习目标（区域-图像级对比 + 对象-patch级融合），在127万样本对上高效预训练后…
 tags:
-  - NeurIPS 2025
-  - 遥感
-  - 遥感基础模型
-  - OpenStreetMap
-  - 多模态预训练
-  - 异构图神经网络
-  - 跨模态对齐
+  - "NeurIPS 2025"
+  - "遥感"
+  - "遥感基础模型"
+  - "OpenStreetMap"
+  - "多模态预训练"
+  - "异构图神经网络"
+  - "跨模态对齐"
 ---
 
 # GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data

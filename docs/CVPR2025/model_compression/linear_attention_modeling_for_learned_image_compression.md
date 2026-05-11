@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][learned image compression] 首次将 RWKV 线性注意力机制引入学习图像压缩，设计 Bi-RWKV 变换块实现线性复杂度的全局感受野特征提取，配合 RWKV 时空通道上下文熵模型，以较低复杂度超越 VTM-9.1 达 15.26% BD-rate。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - learned image compression
-  - 注意力机制
-  - RWKV
-  - Bi-RWKV
-  - entropy modeling
-  - rate-distortion
+  - "CVPR 2025"
+  - "模型压缩"
+  - "learned image compression"
+  - "注意力机制"
+  - "RWKV"
+  - "Bi-RWKV"
+  - "entropy modeling"
+  - "rate-distortion"
 ---
 
 # LALIC: Linear Attention Modeling for Learned Image Compression

@@ -2,8 +2,15 @@
 title: >-
   [论文解读] TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale
 description: >-
-  [ACL2026][LLM评测] 面向企业级大规模客户投诉的实时风险事件发现系统，融合LSH、LLM和多维降噪
-tags: [风险检测, 事件聚类, LLM, 企业级系统, 实时流处理]
+  [ACL 2026][LLM评测][风险事件发现] TingIS是一个部署在金融科技平台的端到端风险事件发现系统，通过五模块架构（语义蒸馏、级联路由、事件链接引擎、状态管理、多维降噪）从海量嘈杂客户投诉中实时提取可操作的风险事件，实现了P90告警延迟3.5分钟和95%的高优先级事件发现率。
+tags:
+  - "ACL 2026"
+  - "LLM评测"
+  - "风险事件发现"
+  - "客户投诉挖掘"
+  - "事件链接"
+  - "流式处理"
+  - "信噪比优化"
 ---
 
 # TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale

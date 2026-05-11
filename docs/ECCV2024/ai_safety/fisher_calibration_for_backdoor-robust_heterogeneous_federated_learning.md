@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][AI安全][联邦学习] 本文提出Self-Driven Fisher Calibration（SDFC），利用Fisher信息度量参数对不同分布的重要程度差异，在异质联邦学习场景中有效区分恶意后门客户端并进行参数校准，突破了现有防御方法依赖数据同质性和恶意节点少数假设的局限。
 tags:
-  - ECCV 2024
-  - AI安全
-  - 联邦学习
-  - 后门攻击
-  - Fisher信息
-  - 异质性
-  - 参数校准
+  - "ECCV 2024"
+  - "AI安全"
+  - "联邦学习"
+  - "后门攻击"
+  - "Fisher信息"
+  - "异质性"
+  - "参数校准"
 ---
 
 # Fisher Calibration for Backdoor-Robust Heterogeneous Federated Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][目标检测][LoRA合并] 提出 ENMP 方法，通过进化搜索策略发现并剪除 LoRA 合并中降低性能的"负面模块"，作为即插即用的增强手段，在 NLP 和视觉领域全面提升现有合并算法的效果。
 tags:
-  - ACL 2026
-  - 目标检测
-  - LoRA合并
-  - 负面模块剪枝
-  - 进化搜索
-  - 多任务部署
-  - CMA-ES
+  - "ACL 2026"
+  - "目标检测"
+  - "LoRA合并"
+  - "负面模块剪枝"
+  - "进化搜索"
+  - "多任务部署"
+  - "CMA-ES"
 ---
 
 # Evolutionary Negative Module Pruning for Better LoRA Merging

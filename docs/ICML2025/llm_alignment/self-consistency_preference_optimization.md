@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM对齐][自一致性] 将推理时的自一致性(self-consistency)概念引入训练阶段，通过投票机制构建偏好对并使用加权DPO损失进行迭代训练，在无需金标签的情况下大幅提升LLM的数学和逻辑推理能力。
 tags:
-  - ICML 2025
-  - LLM对齐
-  - 自一致性
-  - 偏好优化
-  - 自训练
-  - 无监督推理对齐
-  - DPO
+  - "ICML 2025"
+  - "LLM对齐"
+  - "自一致性"
+  - "偏好优化"
+  - "自训练"
+  - "无监督推理对齐"
+  - "DPO"
 ---
 
 # Self-Consistency Preference Optimization
@@ -132,7 +132,7 @@ $$\mathcal{L}_{\text{ScPO}}(y^+, y^- | x) = \underbrace{-w(x) \log \sigma\left(\
 
 ### 关键发现
 
-1. **无监督ScPO与有金标签的IRPO差距<1%**：在GSM8K上greedy准确率仅差0.38%，证明自一致性可以有效替代金标签
+1. **无监督ScPO与有金标签的IRPO差距&lt;1%**：在GSM8K上greedy准确率仅差0.38%，证明自一致性可以有效替代金标签
 2. **8B模型通过ScPO训练后超越70B模型**：ZebraLogic上ScPO训练的8B模型超越Llama-3 70B (+0.9%)、Gemma-2 27B (+1.8%)、Claude-3 Haiku (+3.8%)
 3. **自一致性比外部RM更可靠**：分析显示ArmoRM在分类偏好对时比自一致性产生了更多错误排序（尤其在OOD场景ZebraLogic上多12.3%错误排序）
 4. **模型一致性随迭代递增**：投票份额在每轮训练后显著提升，说明ScPO有效地将self-consistency分布蒸馏进了模型的单样本分布

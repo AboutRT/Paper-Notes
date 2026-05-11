@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can Vision-Language Models Count? A Synthetic Benchmark and Analysis of Attention-Based Interventions
 description: >-
-  [CVPR 2026][多模态][VLM] 构建了一个合成计数基准数据集，系统评估了开源 VLM 在不同图像/提示条件下的计数能力，并通过解码器层面的视觉注意力重加权实验探索改善计数行为的机制。
+  [CVPR 2026][多模态VLM][VLM] 构建了一个合成计数基准数据集，系统评估了开源 VLM 在不同图像/提示条件下的计数能力，并通过解码器层面的视觉注意力重加权实验探索改善计数行为的机制。
 tags:
-  - CVPR 2026
-  - 多模态
-  - VLM
-  - 计数能力
-  - 注意力机制
-  - 合成基准
-  - 视觉注意力干预
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "VLM"
+  - "计数能力"
+  - "注意力机制"
+  - "合成基准"
+  - "视觉注意力干预"
 ---
 
 # Can Vision-Language Models Count? A Synthetic Benchmark and Analysis of Attention-Based Interventions

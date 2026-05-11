@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM/NLP][可互换 token 嵌入] 提出双部分 token 嵌入策略（共享可学习部分 + 随机区分部分），使语言模型能在训练后泛化到更大词表，并对 alpha-等价变换具有天然鲁棒性。
 tags:
-  - ICML 2025
-  - LLM/NLP
-  - 可互换 token 嵌入
-  - 词表扩展
-  - Alpha-equivalence
-  - 形式推理
-  - Transformer
+  - "ICML 2025"
+  - "LLM/NLP"
+  - "可互换 token 嵌入"
+  - "词表扩展"
+  - "Alpha-equivalence"
+  - "形式推理"
+  - "Transformer"
 ---
 
 # Interchangeable Token Embeddings for Extendable Vocabulary and Alpha-Equivalence

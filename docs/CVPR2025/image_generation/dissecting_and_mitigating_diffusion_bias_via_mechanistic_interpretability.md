@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型偏见] 本文提出DiffLens框架，通过稀疏自编码器（k-SAE）将扩散模型内部神经元解缠为单语义特征空间，再用基于梯度的归因方法定位驱动偏见生成的特定特征，从而实现对性别、种族等社会偏见的精细控制和缓解，同时保持图像质量。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型偏见
-  - 机制可解释性
-  - 稀疏自编码器
-  - 偏见特征
-  - 偏见缓解
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型偏见"
+  - "机制可解释性"
+  - "稀疏自编码器"
+  - "偏见特征"
+  - "偏见缓解"
 ---
 
 # Dissecting and Mitigating Diffusion Bias via Mechanistic Interpretability

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FastVLM: Efficient Vision Encoding for Vision Language Models
 description: >-
-  [CVPR 2025][多模态][视觉编码器] 提出混合卷积-Transformer视觉编码器 FastViTHD，通过 5 阶段架构实现 32× 空间下采样，在同等精度下比 ViT-L/14 生成 16× 更少的视觉 token 且编码速度提升 3.7×，TTFT 降低高达 85×。
+  [CVPR 2025][多模态VLM][视觉编码器] 提出混合卷积-Transformer视觉编码器 FastViTHD，通过 5 阶段架构实现 32× 空间下采样，在同等精度下比 ViT-L/14 生成 16× 更少的视觉 token 且编码速度提升 3.7×，TTFT 降低高达 85×。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 视觉编码器
-  - Transformer
-  - 高效VLM
-  - token压缩
-  - 多模态VLM
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视觉编码器"
+  - "Transformer"
+  - "高效VLM"
+  - "token压缩"
+  - "TTFT优化"
 ---
 
 # FastVLM: Efficient Vision Encoding for Vision Language Models

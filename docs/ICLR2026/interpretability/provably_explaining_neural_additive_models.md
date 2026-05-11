@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Provably Explaining Neural Additive Models
 description: >-
-  [ICLR 2026][Neural Additive Models] 针对 Neural Additive Models (NAMs) 设计了专用的高效解释算法，仅需对数级别的验证查询即可生成可证明的基数最小解释（cardinally-minimal explanations），在速度和解释质量上均超越了现有的通用子集最小解释算法。
+  [ICLR 2026][可解释性][Neural Additive Models] 针对 Neural Additive Models (NAMs) 设计了专用的高效解释算法，仅需对数级别的验证查询即可生成可证明的基数最小解释（cardinally-minimal explanations）…
 tags:
-  - ICLR 2026
-  - Neural Additive Models
-  - 可证明解释
-  - 基数最小解释
-  - 形式化验证
-  - 可解释AI
+  - "ICLR 2026"
+  - "可解释性"
+  - "Neural Additive Models"
+  - "可证明解释"
+  - "基数最小解释"
+  - "形式化验证"
+  - "可解释AI"
 ---
 
 # Provably Explaining Neural Additive Models

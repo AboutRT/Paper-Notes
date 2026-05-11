@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICCV2025][3D视觉][3D生成] 提出TAR3D框架——首次将三平面表示量化为离散几何部件并用GPT自回归生成，通过3D VQ-VAE编码任意面数网格为固定长度序列+TriPE位置编码保留3D空间信息，在文本/图像→3D任务上全面超越现有方法。
 tags:
-  - ICCV2025
-  - 3D视觉
-  - 3D生成
-  - 自回归
-  - VQ-VAE
-  - 三平面表示
-  - 下一部件预测
-  - GPT
+  - "ICCV2025"
+  - "3D视觉"
+  - "3D生成"
+  - "自回归"
+  - "VQ-VAE"
+  - "三平面表示"
+  - "下一部件预测"
+  - "GPT"
 ---
 
 # TAR3D: Creating High-Quality 3D Assets via Next-Part Prediction

@@ -2,15 +2,16 @@
 title: >-
   [论文解读] ExploraCoder: Advancing Code Generation for Multiple Unseen APIs via Planning and Chained Exploration
 description: >-
-  [ACL 2025][未知API代码生成] 提出无需额外训练的 ExploraCoder 框架，通过任务规划将复杂多 API 编程问题分解为子任务，再通过链式 API 探索（CoAE）逐步实验并积累正确的 API 用法经验，在多 API 不可见库基准上 pass@10 绝对提升最高 17.28%。
+  [ACL 2025][代码智能][未知API代码生成] 提出无需额外训练的 ExploraCoder 框架，通过任务规划将复杂多 API 编程问题分解为子任务，再通过链式 API 探索（CoAE）逐步实验并积累正确的 API 用法经验，在多 API 不可见库基准上 pass@10 绝对提升最高 17.28%。
 tags:
-  - ACL 2025
-  - 未知API代码生成
-  - 探索式编程
-  - 链式API探索
-  - 任务规划
-  - RAG增强代码生成
-  - Torchdata
+  - "ACL 2025"
+  - "代码智能"
+  - "未知API代码生成"
+  - "探索式编程"
+  - "链式API探索"
+  - "任务规划"
+  - "RAG增强代码生成"
+  - "Torchdata"
 ---
 
 # ExploraCoder: Advancing Code Generation for Multiple Unseen APIs via Planning and Chained Exploration

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][医学图像][表格-图像多模态] 提出 TIP 框架，通过掩码表格重建、图像-表格匹配和对比学习三种自监督任务，对表格数据和图像进行联合预训练，学习对不完整表格数据鲁棒的多模态表征，用于下游分类任务。
 tags:
-  - ECCV 2024
-  - 医学图像
-  - 表格-图像多模态
-  - 自监督预训练
-  - 缺失数据
-  - 对比学习
-  - 掩码重建
+  - "ECCV 2024"
+  - "医学图像"
+  - "表格-图像多模态"
+  - "自监督预训练"
+  - "缺失数据"
+  - "对比学习"
+  - "掩码重建"
 ---
 
 # TIP: Tabular-Image Pre-training for Multimodal Classification with Incomplete Data

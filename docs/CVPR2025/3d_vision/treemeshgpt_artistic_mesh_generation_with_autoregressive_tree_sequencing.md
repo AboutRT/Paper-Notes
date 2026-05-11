@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][网格生成] 提出 TreeMeshGPT，通过基于三角形邻接关系的动态树结构遍历来序列化网格，实现每面仅需 2 个 token 的高效表示（压缩率约 22%），将艺术网格生成能力扩展到 5500 面，同时显著减少法线翻转问题。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 网格生成
-  - Transformer
-  - 树结构序列化
-  - 点云条件
-  - 艺术网格
+  - "CVPR 2025"
+  - "3D视觉"
+  - "网格生成"
+  - "Transformer"
+  - "树结构序列化"
+  - "点云条件"
+  - "艺术网格"
 ---
 
 # TreeMeshGPT: Artistic Mesh Generation with Autoregressive Tree Sequencing

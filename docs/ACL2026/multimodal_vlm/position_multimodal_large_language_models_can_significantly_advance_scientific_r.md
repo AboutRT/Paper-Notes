@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Position: Multimodal Large Language Models Can Significantly Advance Scientific Reasoning
 description: >-
-  [ACL 2026][多模态][多模态大模型] 本文是一篇立场论文（position paper），主张多模态大语言模型（MLLM）可以显著推进跨学科科学推理，提出了四阶段研究路线图（广泛知识识别→类比推理泛化→洞察性推理→创造性假设生成），系统综述了 MLLM 在数学、物理、化学和生物四个领域的应用现状、五大挑战和八个未来方向。
+  [ACL 2026][多模态VLM][多模态大模型] 本文是一篇立场论文（position paper），主张多模态大语言模型（MLLM）可以显著推进跨学科科学推理，提出了四阶段研究路线图（广泛知识识别→类比推理泛化→洞察性推理→创造性假设生成）…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态大模型
-  - 多模态VLM
-  - 研究路线图
-  - 数学物理化学生物
-  - AGI
+  - "ACL 2026"
+  - "多模态VLM"
+  - "多模态大模型"
+  - "科学推理"
+  - "研究路线图"
+  - "数学物理化学生物"
+  - "AGI"
 ---
 
 # Position: Multimodal Large Language Models Can Significantly Advance Scientific Reasoning

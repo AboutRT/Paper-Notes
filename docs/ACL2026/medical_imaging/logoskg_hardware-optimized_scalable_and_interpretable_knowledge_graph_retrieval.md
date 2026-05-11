@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval
 description: >-
-  [ACL 2026][医学图像][知识图谱检索] 本文提出 LogosKG，一个硬件对齐的知识图谱检索框架，通过将图遍历转化为三元稀疏矩阵（SUB/OBJ/REL）的乘法运算，配合度感知图分区、跨图路由和按需缓存，在单设备上实现了对十亿边规模 KG 的可扩展、可解释高跳检索，并通过下游 KG-LLM 交互实验揭示了图拓扑结构对 LLM 诊断推理的影响。
+  [ACL 2026][医学图像][知识图谱检索] 本文提出 LogosKG，一个硬件对齐的知识图谱检索框架，通过将图遍历转化为三元稀疏矩阵（SUB/OBJ/REL）的乘法运算，配合度感知图分区、跨图路由和按需缓存，在单设备上实现了对十亿边规模 KG 的可扩展、可解释高跳检索…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 知识图谱检索
-  - 硬件对齐优化
-  - 多跳遍历
-  - 稀疏矩阵运算
-  - KG-LLM交互
+  - "ACL 2026"
+  - "医学图像"
+  - "知识图谱检索"
+  - "硬件对齐优化"
+  - "多跳遍历"
+  - "稀疏矩阵运算"
+  - "KG-LLM交互"
 ---
 
 # LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval

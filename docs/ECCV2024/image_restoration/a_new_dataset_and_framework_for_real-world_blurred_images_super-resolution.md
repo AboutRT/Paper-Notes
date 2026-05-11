@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A New Dataset and Framework for Real-World Blurred Images Super-Resolution
 description: >-
-  [ECCV 2024][图像复原][盲超分辨率] 针对现有盲超分方法在处理含模糊（散焦/运动模糊）图像时过度纹理化、破坏模糊区域感知质量的问题，构建了包含近3000张模糊图像的ReBlurSR数据集，并提出PBaSR框架，通过双分支解耦训练（CDM）和基于权重插值的跨分支融合（CFM），在不增加任何推理开销的前提下，同时提升模糊图像和普通图像的超分效果，LPIPS提升0.02~0.10。
+  [ECCV 2024][图像恢复][盲超分辨率] 针对现有盲超分方法在处理含模糊（散焦/运动模糊）图像时过度纹理化、破坏模糊区域感知质量的问题，构建了包含近3000张模糊图像的ReBlurSR数据集，并提出PBaSR框架，通过双分支解耦训练（CDM）和基于权重插值的跨分支融合（CFM）…
 tags:
-  - ECCV 2024
-  - 图像复原
-  - 盲超分辨率
-  - 模糊图像
-  - 数据集
-  - 双分支解耦
-  - 权重插值融合
+  - "ECCV 2024"
+  - "图像恢复"
+  - "盲超分辨率"
+  - "模糊图像"
+  - "数据集"
+  - "双分支解耦"
+  - "权重插值融合"
 ---
 
 # A New Dataset and Framework for Real-World Blurred Images Super-Resolution

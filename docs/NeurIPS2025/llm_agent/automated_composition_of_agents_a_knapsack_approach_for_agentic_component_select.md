@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection
 description: >-
-  [NeurIPS 2025][LLM Agent][agent composition] 将 Agent 组件选择问题形式化为在线背包问题，提出 Composer Agent 框架：通过沙盒实测（而非静态语义检索）评估组件真实能力，结合 ZCL 在线算法在预算约束下动态选取最优组件组合，单 Agent 工具选择成功率提升最高 31.6%，多 Agent 子代理选择成功率从 37% 跃升至 87%。
+  [NeurIPS 2025][LLM Agent][agent composition] 将 Agent 组件选择问题形式化为在线背包问题，提出 Composer Agent 框架：通过沙盒实测（而非静态语义检索）评估组件真实能力，结合 ZCL 在线算法在预算约束下动态选取最优组件组合…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - agent composition
-  - knapsack problem
-  - component selection
-  - online optimization
-  - sandbox testing
-  - multi-agent
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "agent composition"
+  - "knapsack problem"
+  - "component selection"
+  - "online optimization"
+  - "sandbox testing"
+  - "multi-agent"
 ---
 
 # Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection

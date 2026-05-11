@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][免训练高分辨率生成] 首个让免训练高分辨率生成进入实用化阶段的方法——通过部分反转策略使少步扩散模型在patch精炼中可行，20秒生成4K图像，比现有方法快10-35倍且质量更优。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 免训练高分辨率生成
-  - patch-based推理
-  - 部分反转
-  - 少步扩散
-  - 高斯混合
+  - "CVPR 2026"
+  - "图像生成"
+  - "免训练高分辨率生成"
+  - "patch-based推理"
+  - "部分反转"
+  - "少步扩散"
+  - "高斯混合"
 ---
 
 # PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion

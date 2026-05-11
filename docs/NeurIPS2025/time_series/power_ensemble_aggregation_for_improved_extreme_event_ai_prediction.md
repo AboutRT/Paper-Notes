@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][极端事件预测] 提出基于幂均值的自适应集成聚合方法，通过对生成式天气预测模型的集成成员得分施加非线性聚合（幂指数$p>1$），显著提升极端高温事件的分类性能，尤其在高分位数阈值下效果更佳。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 极端事件预测
-  - 集成聚合
-  - 幂均值
-  - 热浪分类
-  - 气候预测
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "极端事件预测"
+  - "集成聚合"
+  - "幂均值"
+  - "热浪分类"
+  - "气候预测"
 ---
 
 # Power Ensemble Aggregation for Improved Extreme Event AI Prediction

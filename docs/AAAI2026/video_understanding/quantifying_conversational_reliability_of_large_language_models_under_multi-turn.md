@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][LLM评估] 通过三个可确定性评估的代表性任务（指令遵循、工具选择、实体抽取），系统量化 LLM 在多轮对话中的可靠性退化程度，揭示模型在扩展对话中出现指令漂移、意图混淆和上下文覆写等失败模式。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - LLM评估
-  - 多轮对话
-  - 可靠性
-  - 指令遵循
-  - 工具选择
+  - "AAAI 2026"
+  - "视频理解"
+  - "LLM评估"
+  - "多轮对话"
+  - "可靠性"
+  - "指令遵循"
+  - "工具选择"
 ---
 
 # Quantifying Conversational Reliability of Large Language Models under Multi-Turn Interaction

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][医学图像][LLM-as-Judge] 本文首次系统研究了 LLM-as-Judge 在生物医学关系抽取评估中的表现，发现其准确率通常低于 50%，并提出结构化输出格式（JSON）和域适应技术来提升约 15% 的评估准确率。
 tags:
-  - ACL 2025
-  - 医学图像
-  - LLM-as-Judge
-  - biomedical relation extraction
-  - structured output
-  - 域适应
-  - evaluation
+  - "ACL 2025"
+  - "医学图像"
+  - "LLM-as-Judge"
+  - "biomedical relation extraction"
+  - "structured output"
+  - "域适应"
+  - "evaluation"
 ---
 
 # Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge

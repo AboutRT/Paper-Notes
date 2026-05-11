@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis
 description: >-
-  [CVPR 2025][3D视觉][地空联合重建] 本文提出AerialMegaDepth数据集生成框架，通过将Google Earth的伪合成航空渲染与MegaDepth的真实地面图像联合配准到统一坐标系中，构建了13.2万张混合高度图像的大规模训练数据，微调DUSt3R后将地空配对的相机旋转估计准确率从5%提升到56%，同时显著改善了新视角合成质量。
+  [CVPR 2025][3D视觉][地空联合重建] 本文提出AerialMegaDepth数据集生成框架，通过将Google Earth的伪合成航空渲染与MegaDepth的真实地面图像联合配准到统一坐标系中，构建了13.2万张混合高度图像的大规模训练数据…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 地空联合重建
-  - 跨视角匹配
-  - 伪合成数据
-  - 多视图几何
-  - 新视角合成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "地空联合重建"
+  - "跨视角匹配"
+  - "伪合成数据"
+  - "多视图几何"
+  - "新视角合成"
 ---
 
 # AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis

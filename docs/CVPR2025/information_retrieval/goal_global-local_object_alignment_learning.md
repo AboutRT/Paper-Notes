@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GOAL: Global-Local Object Alignment Learning
 description: >-
-  [CVPR 2025][信息检索] 提出GOAL方法，通过局部图-句匹配（LISM）和Token相似性学习（TSL）两个模块增强CLIP对长文本描述的理解能力，在全局对齐的基础上引入局部语义对齐，大幅提升图文检索性能。
+  [CVPR 2025][信息检索/RAG][全局-局部对齐] 提出GOAL方法，通过局部图-句匹配（LISM）和Token相似性学习（TSL）两个模块增强CLIP对长文本描述的理解能力，在全局对齐的基础上引入局部语义对齐，大幅提升图文检索性能。
 tags:
-  - CVPR 2025
-  - 信息检索
-  - CLIP微调
-  - 长文本图文检索
-  - SAM分割
-  - Token相似性学习
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "全局-局部对齐"
+  - "CLIP微调"
+  - "长文本图文检索"
+  - "SAM分割"
+  - "Token相似性学习"
 ---
 
 # GOAL: Global-Local Object Alignment Learning

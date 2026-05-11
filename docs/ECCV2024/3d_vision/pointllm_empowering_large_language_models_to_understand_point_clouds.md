@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PointLLM: Empowering Large Language Models to Understand Point Clouds
 description: >-
-  [ECCV2024][3D视觉][点云理解] 将点云编码器（Point-BERT）通过 MLP 投影层对接 LLaMA 大语言模型，构建 PointLLM；利用 730K 指令数据（660K 简述 + 70K 复杂指令）两阶段训练后，在 3D 物体分类上达到 53.4% 生成式准确率（超越 LLaVA-13B 的 44.2%），在物体描述任务上人类评估胜率 55%（超越人工标注）。
+  [ECCV2024][3D视觉][点云理解] 将点云编码器（Point-BERT）通过 MLP 投影层对接 LLaMA 大语言模型，构建 PointLLM；利用 730K 指令数据（660K 简述 + 70K 复杂指令）两阶段训练后…
 tags:
-  - ECCV2024
-  - 3D视觉
-  - 点云理解
-  - 多模态LLM
-  - 3D物体描述
-  - 指令微调
-  - LLaMA
+  - "ECCV2024"
+  - "3D视觉"
+  - "点云理解"
+  - "多模态LLM"
+  - "3D物体描述"
+  - "指令微调"
+  - "LLaMA"
 ---
 
 # PointLLM: Empowering Large Language Models to Understand Point Clouds

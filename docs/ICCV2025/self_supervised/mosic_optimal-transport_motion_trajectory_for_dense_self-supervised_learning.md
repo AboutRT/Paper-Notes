@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][自监督学习][稠密自监督学习] MoSiC 利用离线点跟踪器提取长程运动轨迹，通过基于最优传输（Sinkhorn-Knopp）的聚类机制在时间维度上传播聚类分配，从而在视频数据上学习空间-时间一致的稠密表征，仅用视频训练即可将 DINOv2 在多个图像/视频基准上提升 1%–6%。
 tags:
-  - ICCV 2025
-  - 自监督学习
-  - 稠密自监督学习
-  - 最优传输
-  - 运动轨迹
-  - 时空一致性
-  - 自监督
+  - "ICCV 2025"
+  - "自监督学习"
+  - "稠密自监督学习"
+  - "最优传输"
+  - "运动轨迹"
+  - "时空一致性"
+  - "视频分割"
 ---
 
 # MoSiC: Optimal-Transport Motion Trajectory for Dense Self-Supervised Learning

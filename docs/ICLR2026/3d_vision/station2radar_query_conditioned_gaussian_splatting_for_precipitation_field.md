@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][3D视觉][高斯溅射] 提出 Query-Conditioned Gaussian Splatting (QCGS)，首次将 2D 高斯溅射引入降水场生成任务，融合卫星图像与自动气象站稀疏观测，实现无雷达条件下分辨率灵活的降水场重建，RMSE 较传统网格化产品提升超 50%。
 tags:
-  - ICLR 2026
-  - 3D视觉
-  - 高斯溅射
-  - 降水场重建
-  - 隐式神经表示
-  - 卫星-站点融合
-  - 分辨率无关渲染
+  - "ICLR 2026"
+  - "3D视觉"
+  - "高斯溅射"
+  - "降水场重建"
+  - "隐式神经表示"
+  - "卫星-站点融合"
+  - "分辨率无关渲染"
 ---
 
 # Station2Radar: Query-Conditioned Gaussian Splatting for Precipitation Field

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Graph-of-Mark: Promote Spatial Reasoning in Multimodal Language Models with Graph-Based Visual Prompting
 description: >-
-  [AAAI 2026 (Main Track)][多模态][提示学习] 提出 Graph-of-Mark (GoM)，一种无需训练的像素级视觉提示方法，通过在输入图像上直接叠加深度感知的场景图（包含节点和有向边），显式编码物体间的空间关系，使多模态语言模型在 VQA 和定位任务中的零样本空间推理准确率最高提升 11 个百分点。
+  [AAAI 2026 (Main Track)][多模态VLM][提示学习] 提出 Graph-of-Mark (GoM)，一种无需训练的像素级视觉提示方法，通过在输入图像上直接叠加深度感知的场景图（包含节点和有向边），显式编码物体间的空间关系…
 tags:
-  - AAAI 2026 (Main Track)
-  - 多模态
-  - 提示学习
-  - 多模态VLM
-  - 场景图(Scene Graph)
-  - 多模态语言模型
-  - 零样本推理
+  - "AAAI 2026 (Main Track)"
+  - "多模态VLM"
+  - "提示学习"
+  - "空间推理(Spatial Reasoning)"
+  - "场景图(Scene Graph)"
+  - "多模态语言模型"
+  - "零样本推理"
 ---
 
 # Graph-of-Mark: Promote Spatial Reasoning in Multimodal Language Models with Graph-Based Visual Prompting

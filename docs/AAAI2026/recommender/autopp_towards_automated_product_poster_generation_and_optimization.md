@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AutoPP: Towards Automated Product Poster Generation and Optimization
 description: >-
-  [AAAI2026][product poster generation] 提出 AutoPP，首个将商品海报自动生成与基于 CTR 反馈的自动优化统一到一个框架中的流水线，通过 unified design module 联合设计背景/文字/排版，element rendering module 高效可控地生成海报，并利用 Isolated DPO (IDPO) 实现元素级别的点击率优化。
+  [AAAI2026][推荐系统][product poster generation] 提出 AutoPP，首个将商品海报自动生成与基于 CTR 反馈的自动优化统一到一个框架中的流水线，通过 unified design module 联合设计背景/文字/排版…
 tags:
-  - AAAI2026
-  - 推荐系统
-  - CTR optimization
-  - 扩散模型
-  - DPO
-  - 多模态
+  - "AAAI2026"
+  - "推荐系统"
+  - "product poster generation"
+  - "CTR optimization"
+  - "扩散模型"
+  - "DPO"
+  - "多模态"
 ---
 
 # AutoPP: Towards Automated Product Poster Generation and Optimization

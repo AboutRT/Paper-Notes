@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][参数生成] 探索用扩散模型学习任务特定参数（LoRA adapter）的分布并直接生成新参数，在野生动物分类场景中验证了其在已知任务上可匹配微调性能，但在跨任务泛化上仍面临挑战。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 参数生成
-  - 扩散模型
-  - LoRA
-  - 任务特定适配
-  - 相机陷阱
+  - "ICML 2025"
+  - "图像生成"
+  - "参数生成"
+  - "扩散模型"
+  - "LoRA"
+  - "任务特定适配"
+  - "相机陷阱"
 ---
 
 # Reimagining Parameter Space Exploration with Diffusion Models

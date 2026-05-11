@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][test-time optimization] 提出测试时约束优化（TCO）框架，无需重训练或修改预训练多视图 Transformer 架构，通过在推理时将先验（相机位姿、内参、深度）作为预测约束进行优化，大幅提升 3D 重建精度。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - test-time optimization
-  - 3D重建
-  - Transformer
-  - camera pose
-  - LoRA
+  - "CVPR 2026"
+  - "3D视觉"
+  - "test-time optimization"
+  - "3D重建"
+  - "Transformer"
+  - "camera pose"
+  - "LoRA"
 ---
 
 # Learning 3D Reconstruction with Priors in Test Time

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders
 description: >-
-  [NeurIPS 2025][Sparse Autoencoder] 发现并系统研究了 SAE 中的"特征吸收"现象：看似单义的 SAE latent 会在特定 token 上不激活，其特征方向被更具体的子 latent "吸收"，这是层级特征+稀疏性损失的必然结果，对 SAE 用于可靠解释 LLM 构成根本挑战。
+  [NeurIPS 2025][可解释性][Sparse Autoencoder] 发现并系统研究了 SAE 中的"特征吸收"现象：看似单义的 SAE latent 会在特定 token 上不激活，其特征方向被更具体的子 latent "吸收"，这是层级特征+稀疏性损失的必然结果…
 tags:
-  - NeurIPS 2025
-  - Sparse Autoencoder
-  - Feature Absorption
-  - Feature Splitting
-  - 机械可解释性
-  - 可解释性
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "Sparse Autoencoder"
+  - "Feature Absorption"
+  - "Feature Splitting"
+  - "机械可解释性"
+  - "LLM内部表征"
 ---
 
 # A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Interpretable Visual Decoding with Attention to Brain Representations
 description: >-
-  [ICLR 2026][图像生成][fMRI 视觉解码] 提出 NeuroAdapter，将 fMRI 信号按脑区分割为独立 token 并通过交叉注意力直接条件化 Stable Diffusion，跳过传统的 CLIP/DINO 中间嵌入空间，在 NSD 等数据集上高层语义指标超越或持平现有方法，同时引入 IBBI 双向可解释性框架，首次动态揭示不同皮层区域在去噪轨迹中如何驱动图像生成。
+  [ICLR 2026][图像生成][fMRI 视觉解码] 提出 NeuroAdapter，将 fMRI 信号按脑区分割为独立 token 并通过交叉注意力直接条件化 Stable Diffusion，跳过传统的 CLIP/DINO 中间嵌入空间，在 NSD 等数据集上高层语义指标超越或持平现有方法…
 tags:
-  - ICLR 2026
-  - 图像生成
-  - fMRI 视觉解码
-  - 端到端脑-图像重建
-  - 交叉注意力条件化
-  - 双向可解释性
-  - 脑区 token
+  - "ICLR 2026"
+  - "图像生成"
+  - "fMRI 视觉解码"
+  - "端到端脑-图像重建"
+  - "交叉注意力条件化"
+  - "双向可解释性"
+  - "脑区 token"
 ---
 
 # Towards Interpretable Visual Decoding with Attention to Brain Representations

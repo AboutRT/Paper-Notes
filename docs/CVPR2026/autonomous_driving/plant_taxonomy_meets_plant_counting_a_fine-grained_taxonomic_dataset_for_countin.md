@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][植物计数] 本文构建了首个融合植物分类学的大规模计数数据集 TPC-268，包含 10,000 张图、678,050 个点标注和 268 个可计数类别（覆盖 242 个物种），按林奈分类体系标注完整层级信息，并在类无关计数（CAC）范式下进行了全面基准测试。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 植物计数
-  - 类无关计数
-  - 分类学层次结构
-  - 细粒度数据集
-  - 密度估计
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "植物计数"
+  - "类无关计数"
+  - "分类学层次结构"
+  - "细粒度数据集"
+  - "密度估计"
 ---
 
 # Plant Taxonomy Meets Plant Counting: A Fine-Grained, Taxonomic Dataset for Counting Hundreds of Plant Species

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][医学图像][radiology report generation] 提出 Radar 框架，通过区分 LLM 已掌握的可信内部知识和需要外部补充的知识，系统性地融合两种知识源以生成更准确的放射学报告。
 tags:
-  - ACL 2025
-  - 医学图像
-  - radiology report generation
-  - knowledge injection
-  - supplementary knowledge
-  - LLM
-  - chest X-ray
+  - "ACL 2025"
+  - "医学图像"
+  - "radiology report generation"
+  - "knowledge injection"
+  - "supplementary knowledge"
+  - "LLM"
+  - "chest X-ray"
 ---
 
 # Radar: Enhancing Radiology Report Generation with Supplementary Knowledge Injection

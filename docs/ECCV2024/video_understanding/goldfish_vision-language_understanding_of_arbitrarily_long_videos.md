@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][长视频理解] 提出 Goldfish 框架，通过将长视频分割为短 clip 并利用基于文本相似度的检索机制选取与问题最相关的 top-k 片段，实现对任意长度视频的高效理解，同时提出 MiniGPT4-Video 短视频模型和 TVQA-long 长视频评测基准。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 长视频理解
-  - 检索增强生成
-  - 视觉语言模型
-  - 视频问答
-  - MiniGPT4-Video
+  - "ECCV 2024"
+  - "视频理解"
+  - "长视频理解"
+  - "检索增强生成"
+  - "视觉语言模型"
+  - "视频问答"
+  - "MiniGPT4-Video"
 ---
 
 # Goldfish: Vision-Language Understanding of Arbitrarily Long Videos

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference
 description: >-
-  [ICLR 2026][AI安全][LLM后门] 提出一种无需先验知识或干净参考模型的LLM后门净化方法：通过机制分析发现后门关联冗余地分布在MLP层中，利用免疫类比从多个后门变体中提取"签名"，定位并抑制可疑神经元+轻量微调恢复，在5种攻击×3种任务上ASR降低80%+同时保持utility。
+  [ICLR 2026][LLM安全][LLM后门] 提出一种无需先验知识或干净参考模型的LLM后门净化方法：通过机制分析发现后门关联冗余地分布在MLP层中，利用免疫类比从多个后门变体中提取"签名"，定位并抑制可疑神经元+轻量微调恢复，在5种攻击×3种任务上ASR降低80%+同时保持utility。
 tags:
-  - ICLR 2026
-  - AI安全
-  - LLM后门
-  - 后门净化
-  - 机制分析
-  - MLP编码
-  - 免疫类比签名提取
+  - "ICLR 2026"
+  - "LLM安全"
+  - "LLM后门"
+  - "后门净化"
+  - "机制分析"
+  - "MLP编码"
+  - "免疫类比签名提取"
 ---
 
 # Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference
@@ -126,7 +126,7 @@ tags:
 - **改进思路**：可结合SSAH的SCU/RU分类——先用SSAH识别安全关键单元，再用本方法检查这些单元是否被后门污染
 
 ## 相关工作与启发
-- **vs CROW**：CROW是此前SOTA后门防御，但ASR仍较高（8-24%）且utility损失更大；本方法ASR降至<11%，utility更优
+- **vs CROW**：CROW是此前SOTA后门防御，但ASR仍较高（8-24%）且utility损失更大；本方法ASR降至&lt;11%，utility更优
 - **vs Fine-Pruning**：Fine-Pruning基于Wanda的权重剪枝，对生成式LLM效果有限（65-82% ASR）；本方法的免疫签名策略远更精确
 - **vs 标准微调**：标准微调对后门几乎无效（ASR不变甚至升高），说明后门关联在常规训练中极其稳定
 

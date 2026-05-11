@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Cycle Consistency as Reward: Learning Image-Text Alignment without Human Preferences
 description: >-
-  [ICCV 2025][图像生成][cycle consistency] 提出CycleReward，利用cycle consistency作为自监督信号替代人工偏好标注——将caption用T2I模型重建为图像再比较相似度来排序，构建866K偏好对数据集CyclePrefDB，训练的奖励模型在detailed captioning上比HPSv2/PickScore/ImageReward高6%+，且DPO训练后提升VLM在多个VL任务上的性能，无需任何人工标注。
+  [ICCV 2025][图像生成][cycle consistency] 提出CycleReward，利用cycle consistency作为自监督信号替代人工偏好标注——将caption用T2I模型重建为图像再比较相似度来排序，构建866K偏好对数据集CyclePrefDB…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - cycle consistency
-  - 奖励模型
-  - image-text alignment
-  - 偏好学习
-  - DPO
-  - 自监督
+  - "ICCV 2025"
+  - "图像生成"
+  - "cycle consistency"
+  - "奖励模型"
+  - "image-text alignment"
+  - "偏好学习"
+  - "DPO"
+  - "自监督"
 ---
 
 # Cycle Consistency as Reward: Learning Image-Text Alignment without Human Preferences

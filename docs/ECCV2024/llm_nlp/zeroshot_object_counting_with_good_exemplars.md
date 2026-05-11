@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][LLM/NLP][零样本计数] 提出 VA-Count，一种基于视觉关联的零样本物体计数框架，通过 Grounding DINO 驱动的样例增强模块和对比学习噪声抑制模块，为任意类别建立高质量样例与图像间的鲁棒视觉关联。
 tags:
-  - ECCV 2024
-  - LLM/NLP
-  - 零样本计数
-  - 视觉-语言预训练
-  - 样例增强
-  - 噪声抑制
-  - Grounding DINO
+  - "ECCV 2024"
+  - "LLM/NLP"
+  - "零样本计数"
+  - "视觉-语言预训练"
+  - "样例增强"
+  - "噪声抑制"
+  - "Grounding DINO"
 ---
 
 # Zero-Shot Object Counting with Good Exemplars (VA-Count)

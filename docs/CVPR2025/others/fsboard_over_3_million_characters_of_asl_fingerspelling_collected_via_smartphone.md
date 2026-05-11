@@ -2,15 +2,14 @@
 title: >-
   [论文解读] FSboard: Over 3 Million Characters of ASL Fingerspelling Collected via Smartphones
 description: >-
-  [CVPR 2025][其他][手语指拼] 发布 FSboard——迄今最大的 ASL 指拼（fingerspelling）识别数据集（320万字符、266小时视频、147位聋人签名者用智能手机自拍录制），聚焦手机文字输入场景，基线模型用 MediaPipe + ByT5 达到 11.1% CER，为指拼作为手机输入方式提供了坚实的数据基础。
+  [CVPR 2025][手语指拼] 发布 FSboard——迄今最大的 ASL 指拼（fingerspelling）识别数据集（320万字符、266小时视频、147位聋人签名者用智能手机自拍录制），聚焦手机文字输入场景，基线模型用 MediaPipe + ByT5 达到 11.1% CER…
 tags:
-  - CVPR 2025
-  - 其他
-  - 手语指拼
-  - ASL识别
-  - 大规模数据集
-  - 移动端手势输入
-  - 聋人社区
+  - "CVPR 2025"
+  - "手语指拼"
+  - "ASL识别"
+  - "大规模数据集"
+  - "移动端手势输入"
+  - "聋人社区"
 ---
 
 # FSboard: Over 3 Million Characters of ASL Fingerspelling Collected via Smartphones

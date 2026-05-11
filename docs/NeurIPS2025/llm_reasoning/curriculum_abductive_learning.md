@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Curriculum Abductive Learning
 description: >-
-  [NeurIPS 2025][LLM推理][Abductive Learning] 提出 Curriculum Abductive Learning (C-ABL)，通过将知识库按依赖结构分割为子知识库并渐进式引入训练，大幅缩小 ABL 的 abduction 搜索空间，显著提升训练稳定性、收敛速度和最终精度。
+  [NeurIPS 2025][LLM推理][Abductive Learning] 提出 Curriculum Abductive Learning (C-ABL)，通过将知识库按依赖结构分割为子知识库并渐进式引入训练，大幅缩小 ABL 的 abduction 搜索空间，显著提升训练稳定性、收敛速度和最终精度…
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - Abductive Learning
-  - 课程学习
-  - 知识库分区
-  - 神经符号推理
-  - 训练稳定性
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "Abductive Learning"
+  - "课程学习"
+  - "知识库分区"
+  - "神经符号推理"
+  - "训练稳定性"
 ---
 
 # Curriculum Abductive Learning

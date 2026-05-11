@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CNNSum: Exploring Long-Context Summarization with Large Language Models in Chinese Novels
 description: >-
-  [ACL 2025][LLM效率][long-context summarization] 构建了 CNNSum——基于中文小说的多尺度长文本摘要基准（695 样本，16k-128k tokens），通过人工标注确保质量，系统测评了 20+ 个 LLM，发现高级 LLM 倾向生成主观评述导致摘要模糊、小模型性价比更高、Base 版微调效果优于 Chat 版，且用短文本数据微调即可显著提升长文本摘要能力。
+  [ACL 2025][LLM效率][long-context summarization] 构建了 CNNSum——基于中文小说的多尺度长文本摘要基准（695 样本，16k-128k tokens），通过人工标注确保质量，系统测评了 20+ 个 LLM…
 tags:
-  - ACL 2025
-  - LLM效率
-  - long-context summarization
-  - Chinese novels
-  - benchmark
-  - LLM evaluation
-  - RoPE extrapolation
+  - "ACL 2025"
+  - "LLM效率"
+  - "long-context summarization"
+  - "Chinese novels"
+  - "benchmark"
+  - "LLM evaluation"
+  - "RoPE extrapolation"
 ---
 
 # CNNSum: Exploring Long-Context Summarization with Large Language Models in Chinese Novels

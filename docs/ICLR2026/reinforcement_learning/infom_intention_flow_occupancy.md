@@ -2,14 +2,15 @@
 title: >-
   [论文解读] InFOM: Intention-Conditioned Flow Occupancy Models
 description: >-
-  [ICLR 2026][占据度量] InFOM 通过变分推断学习潜在意图编码器、用 flow matching 建模意图条件化的折扣状态占据度量，实现了 RL 中的高效预训练与微调，在 36 个状态任务和 4 个图像任务上比基线提升 1.8 倍中位回报和 36% 成功率。
+  [ICLR 2026][强化学习][占据度量] InFOM 通过变分推断学习潜在意图编码器、用 flow matching 建模意图条件化的折扣状态占据度量，实现了 RL 中的高效预训练与微调，在 36 个状态任务和 4 个图像任务上比基线提升 1.8 倍中位回报和 36% 成功率。
 tags:
-  - ICLR 2026
-  - 占据度量
-  - flow matching
-  - 意图推断
-  - 强化学习
-  - 广义策略改进
+  - "ICLR 2026"
+  - "强化学习"
+  - "占据度量"
+  - "flow matching"
+  - "意图推断"
+  - "预训练微调"
+  - "广义策略改进"
 ---
 
 # InFOM: Intention-Conditioned Flow Occupancy Models

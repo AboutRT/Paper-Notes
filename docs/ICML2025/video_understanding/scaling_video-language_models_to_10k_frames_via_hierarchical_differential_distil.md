@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaling Video-Language Models to 10K Frames via Hierarchical Differential Distillation
 description: >-
-  [ICML 2025][视频理解][长视频理解] ViLaMP 提出差分蒸馏 (Differential Distillation) 原则，通过层次化的帧级差分关键帧选择 (DKS) 和 patch 级差分特征融合 (DFM) 两种机制实现"混合精度"视频处理——关键帧保留全部视觉 token，非关键帧压缩为单个 token，成功在单张 A100 GPU 上处理长达 10K 帧（约 2.7 小时）的超长视频。
+  [ICML 2025][视频理解][长视频理解] ViLaMP 提出差分蒸馏 (Differential Distillation) 原则，通过层次化的帧级差分关键帧选择 (DKS) 和 patch 级差分特征融合 (DFM) 两种机制实现"混合精度"视频处理——关键帧保留全部视觉 token…
 tags:
-  - ICML 2025
-  - 视频理解
-  - 长视频理解
-  - 视觉token压缩
-  - 关键帧选择
-  - 特征融合
-  - 混合精度
+  - "ICML 2025"
+  - "视频理解"
+  - "长视频理解"
+  - "视觉token压缩"
+  - "关键帧选择"
+  - "特征融合"
+  - "混合精度"
 ---
 
 # Scaling Video-Language Models to 10K Frames via Hierarchical Differential Distillation
@@ -92,7 +92,7 @@ $$\mathcal{L} = -\log P(A | \{\boldsymbol{h}_k^m | f_k \in \mathcal{K}\} \cup \{
 
 ### 关键发现
 
-1. **注意力高度集中**: 跨 4 个 VLM 分析发现 ~90% query 注意力集中在 <5% 的帧上
+1. **注意力高度集中**: 跨 4 个 VLM 分析发现 ~90% query 注意力集中在 &lt;5% 的帧上
 2. **冗余注意力普遍**: 高注意力帧间余弦相似度 >0.8，远超随机基线 (0.54-0.61)
 3. **非关键帧信息互补**: 非关键帧中 ~50% 的 patch 贡献 80% 注意力，且与关键帧高度相似
 4. **混合精度有效**: 关键帧保留全 token + 非关键帧单 token 压缩的策略在效率和性能间取得最佳平衡

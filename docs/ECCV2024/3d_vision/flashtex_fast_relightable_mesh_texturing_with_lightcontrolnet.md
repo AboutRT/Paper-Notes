@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][纹理生成] 提出LightControlNet——一种光照感知的ControlNet变体，结合两阶段纹理优化pipeline，能在约4分钟内为3D网格生成高质量、可重光照的PBR纹理，速度比现有方法快3-10倍。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 纹理生成
-  - 可重光照
-  - ControlNet
-  - Score Distillation Sampling
-  - 材质解耦
+  - "ECCV 2024"
+  - "3D视觉"
+  - "纹理生成"
+  - "可重光照"
+  - "ControlNet"
+  - "Score Distillation Sampling"
+  - "材质解耦"
 ---
 
 # FlashTex: Fast Relightable Mesh Texturing with LightControlNet

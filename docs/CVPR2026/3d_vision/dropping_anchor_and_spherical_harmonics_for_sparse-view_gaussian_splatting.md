@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DropAnSH-GS: Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting
 description: >-
-  [CVPR 2026][3D视觉][3D Gaussian Splatting] 针对 3DGS 在稀疏视角下的过拟合问题，提出 DropAnSH-GS：用 Anchor-based Dropout（丢弃锚点及其邻域的 Gaussian 簇）替代独立随机 Dropout 来破坏局部冗余补偿效应，同时引入球谐函数（SH）Dropout 抑制高阶 SH 过拟合并支持训练后无损压缩。
+  [CVPR 2026][3D视觉][3D Gaussian Splatting] 针对 3DGS 在稀疏视角下的过拟合问题，提出 DropAnSH-GS：用 Anchor-based Dropout（丢弃锚点及其邻域的 Gaussian 簇）替代独立随机 Dropout 来破坏局部冗余补偿效应…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 稀疏视角
-  - Dropout正则化
-  - 球谐函数
-  - 新视角合成
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "稀疏视角"
+  - "Dropout正则化"
+  - "球谐函数"
+  - "新视角合成"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

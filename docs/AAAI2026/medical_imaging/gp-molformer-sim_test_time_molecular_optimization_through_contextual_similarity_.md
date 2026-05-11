@@ -2,16 +2,16 @@
 title: >-
   [论文解读] GP-MoLFormer-Sim: Test Time Molecular Optimization through Contextual Similarity Guidance
 description: >-
-  [AAAI 2026][医学图像][分子优化] 提出 GP-MoLFormer-Sim，一种无需训练的测试时分子生成引导方法：利用化学语言模型（GP-MoLFormer）自身的上下文嵌入计算与目标分子的相似度，在自回归解码时动态调整logits来引导生成，结合遗传算法（GP-MoLFormer-Sim+GA）后在PMO基准的23个任务上平均排名第2，且在黑盒oracle设定下优于依赖GPT-4的MOLLEO。
+  [AAAI 2026][医学图像][分子优化] 提出 GP-MoLFormer-Sim，一种无需训练的测试时分子生成引导方法：利用化学语言模型（GP-MoLFormer）自身的上下文嵌入计算与目标分子的相似度，在自回归解码时动态调整logits来引导生成…
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 分子优化
-  - 化学语言模型
-  - 测试时引导
-  - 遗传算法
-  - SMILES
-  - 相似性引导生成
+  - "AAAI 2026"
+  - "医学图像"
+  - "分子优化"
+  - "化学语言模型"
+  - "测试时引导"
+  - "遗传算法"
+  - "SMILES"
+  - "相似性引导生成"
 ---
 
 # GP-MoLFormer-Sim: Test Time Molecular Optimization through Contextual Similarity Guidance

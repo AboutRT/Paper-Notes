@@ -2,14 +2,15 @@
 title: >-
   [论文解读] An Empirical Investigation of Neural ODEs and Symbolic Regression for Dynamical Systems
 description: >-
-  [NeurIPS 2025][Neural ODE] 系统实证研究 Neural ODE (NODE) 在动力系统中的外推能力和 Symbolic Regression (SR) 的方程恢复能力，发现 NODE 在动态相似条件下可外推到新边界条件，并提出 NODE→SR 流水线：仅用 10% 原始数据训练 NODE 生成增强数据，SR 即可恢复 2/3 的控制方程和 1/3 的良好近似。
+  [NeurIPS 2025][预训练][Neural ODE] 系统实证研究 Neural ODE (NODE) 在动力系统中的外推能力和 Symbolic Regression (SR) 的方程恢复能力，发现 NODE 在动态相似条件下可外推到新边界条件…
 tags:
-  - NeurIPS 2025
-  - Neural ODE
-  - symbolic regression
-  - dynamical systems
-  - extrapolation
-  - scientific discovery
+  - "NeurIPS 2025"
+  - "预训练"
+  - "Neural ODE"
+  - "symbolic regression"
+  - "dynamical systems"
+  - "extrapolation"
+  - "scientific discovery"
 ---
 
 # An Empirical Investigation of Neural ODEs and Symbolic Regression for Dynamical Systems
@@ -80,7 +81,7 @@ NODE 使用标准的 MSE 损失训练，基于 JAX 的 Diffrax 库实现。cart-
 | 配置 | 关键指标 | 说明 |
 |------|---------|------|
 | NODE 训练采样频率 (5-100 Hz) | 8小时MSE无显著差异 | 长期预测对采样频率不敏感 |
-| NODE 训练采样频率 (5-100 Hz) | 1小时MSE在<10Hz时偏高 | 极稀疏数据(<6点/变量)影响内插精度 |
+| NODE 训练采样频率 (5-100 Hz) | 1小时MSE在&lt;10Hz时偏高 | 极稀疏数据(&lt;6点/变量)影响内插精度 |
 | SR 含中间变量λ | 3/3方程恢复(无噪声) | 正确的输入变量是关键 |
 | SR 仅主状态变量 | 1/3方程恢复 | 有理项被数据范围遮蔽 |
 | SR on NODE (无噪声) vs Ground Truth (5%噪声) | NODE: 2/3+近似 vs GT: 1/3 | NODE起到去噪作用 |

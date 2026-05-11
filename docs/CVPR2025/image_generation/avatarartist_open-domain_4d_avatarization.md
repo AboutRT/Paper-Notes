@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][4D头像生成] 提出 AvatarArtist，通过 GAN 和扩散模型协同构建多域 image-triplane 数据集，训练 DiT 生成参数化三平面 + 运动感知跨域渲染器，实现从任意风格单张肖像生成可驱动的 4D 头像。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 4D头像生成
-  - 参数化三平面
-  - GAN
-  - 跨域渲染
-  - 表情驱动
+  - "CVPR 2025"
+  - "图像生成"
+  - "4D头像生成"
+  - "参数化三平面"
+  - "GAN"
+  - "跨域渲染"
+  - "表情驱动"
 ---
 
 # AvatarArtist: Open-Domain 4D Avatarization

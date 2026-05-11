@@ -4,14 +4,14 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][DNN 知识产权保护] 提出 Authority Backdoor，将硬件指纹作为后门触发器嵌入 DNN，使模型仅在授权设备上正常工作，并通过随机平滑实现可认证鲁棒性，抵御自适应触发器逆向攻击。
 tags:
-  - AAAI 2026
-  - AI安全
-  - DNN 知识产权保护
-  - 主动防御
-  - 后门学习
-  - 认证鲁棒性
-  - 随机平滑
-  - 硬件指纹
+  - "AAAI 2026"
+  - "AI安全"
+  - "DNN 知识产权保护"
+  - "主动防御"
+  - "后门学习"
+  - "认证鲁棒性"
+  - "随机平滑"
+  - "硬件指纹"
 ---
 
 # Authority Backdoor: A Certifiable Backdoor Mechanism for Authoring DNNs

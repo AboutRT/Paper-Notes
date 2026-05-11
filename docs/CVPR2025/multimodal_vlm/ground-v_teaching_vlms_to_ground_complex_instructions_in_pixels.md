@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels
 description: >-
-  [CVPR 2025][多模态][视觉定位] 构建了Ground-V，一个包含50万指令-分割对的数据集，系统性解决真实世界指代分割中的五大挑战（幻觉引用、多对象、推理、多粒度、部件引用），训练后的VLM在gRefCOCO上N-Acc超越前SOTA 20%以上。
+  [CVPR 2025][多模态VLM][视觉定位] 构建了Ground-V，一个包含50万指令-分割对的数据集，系统性解决真实世界指代分割中的五大挑战（幻觉引用、多对象、推理、多粒度、部件引用），训练后的VLM在gRefCOCO上N-Acc超越前SOTA 20%以上。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 视觉定位
-  - 多模态VLM
-  - 数据集构建
-  - 复杂指令
-  - 像素级grounding
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视觉定位"
+  - "指代分割"
+  - "数据集构建"
+  - "复杂指令"
+  - "像素级grounding"
 ---
 
 # Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels

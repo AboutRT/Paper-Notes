@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Addressing Representation Collapse in Vector Quantized Models with One Linear Layer
 description: >-
-  [ICCV 2025][优化][向量量化] 提出SimVQ方法，通过一个可学习的线性变换层对码本向量进行重参数化（$\bm{C}\bm{W}$），将码本的不相交优化转化为联合空间优化，从根本上解决VQ模型中的表示崩塌问题，实现接近100%的码本利用率。
+  [ICCV 2025][优化/理论][向量量化] 提出SimVQ方法，通过一个可学习的线性变换层对码本向量进行重参数化（$\bm{C}\bm{W}$），将码本的不相交优化转化为联合空间优化，从根本上解决VQ模型中的表示崩塌问题，实现接近100%的码本利用率。
 tags:
-  - ICCV 2025
-  - 优化
-  - 向量量化
-  - 表示崩塌
-  - 码本利用率
-  - 线性变换
-  - 多模态
+  - "ICCV 2025"
+  - "优化/理论"
+  - "向量量化"
+  - "表示崩塌"
+  - "码本利用率"
+  - "线性变换"
+  - "多模态"
 ---
 
 # Addressing Representation Collapse in Vector Quantized Models with One Linear Layer

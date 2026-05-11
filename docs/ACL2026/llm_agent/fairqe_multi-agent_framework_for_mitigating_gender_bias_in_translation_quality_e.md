@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][翻译质量估计] 提出 FairQE 多智能体框架，通过性别线索检测、性别翻转变体生成和动态偏见感知分数聚合机制，在不牺牲翻译质量评估准确性的前提下有效缓解 QE 模型中的系统性性别偏见。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 翻译质量估计
-  - 性别偏见
-  - 多智能体
-  - 公平性
-  - 偏见缓解
+  - "ACL 2026"
+  - "LLM Agent"
+  - "翻译质量估计"
+  - "性别偏见"
+  - "多智能体"
+  - "公平性"
+  - "偏见缓解"
 ---
 
 # FairQE: Multi-Agent Framework for Mitigating Gender Bias in Translation Quality Estimation

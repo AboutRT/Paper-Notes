@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PanoAffordanceNet: Towards Holistic Affordance Grounding in 360° Indoor Environments
 description: >-
-  [CVPR2026][机器人][affordance grounding] 提出首个面向360°全景室内环境的整体affordance定位框架PanoAffordanceNet，通过畸变感知频谱调制器(DASM)和全球面稠密化头(OSDH)系统性解决ERP几何畸变、稀疏功能区域和语义漂移问题，并构建了首个全景affordance数据集360-AGD。
+  [CVPR2026][机器人][affordance grounding] 提出首个面向360°全景室内环境的整体affordance定位框架PanoAffordanceNet，通过畸变感知频谱调制器(DASM)和全球面稠密化头(OSDH)系统性解决ERP几何畸变、稀疏功能区域和语义漂移问题…
 tags:
-  - CVPR2026
-  - 机器人
-  - affordance grounding
-  - 360° panoramic
-  - equirectangular projection
-  - one-shot learning
-  - embodied intelligence
+  - "CVPR2026"
+  - "机器人"
+  - "affordance grounding"
+  - "360° panoramic"
+  - "equirectangular projection"
+  - "one-shot learning"
+  - "embodied intelligence"
 ---
 
 # PanoAffordanceNet: Towards Holistic Affordance Grounding in 360° Indoor Environments

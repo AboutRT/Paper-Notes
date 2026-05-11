@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Fabrication of Reality and Fantasy: Scene Generation with LLM-Assisted Prompt Interpretation
 description: >-
-  [ECCV 2024][图像生成][文本到图像生成] 提出 Realistic-Fantasy Benchmark (RFBench) 评估扩散模型在创意/知识密集型 prompt 上的表现，并设计 training-free 的 RFNet 框架，通过 LLM 辅助 prompt 解读和语义对齐评估模块来增强扩散模型对抽象和想象性概念的生成能力。
+  [ECCV 2024][图像生成][文本到图像生成] 提出 Realistic-Fantasy Benchmark (RFBench) 评估扩散模型在创意/知识密集型 prompt 上的表现，并设计 training-free 的 RFNet 框架…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 文本到图像生成
-  - 大语言模型
-  - benchmark
-  - 扩散模型
-  - 创意场景生成
+  - "ECCV 2024"
+  - "图像生成"
+  - "文本到图像生成"
+  - "大语言模型"
+  - "benchmark"
+  - "扩散模型"
+  - "创意场景生成"
 ---
 
 # The Fabrication of Reality and Fantasy: Scene Generation with LLM-Assisted Prompt Interpretation

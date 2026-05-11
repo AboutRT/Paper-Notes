@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FlexGuard: Continuous Risk Scoring for Strictness-Adaptive LLM Content Moderation
 description: >-
-  [ACL 2026][内容审核] FlexGuard 提出了一种输出连续风险评分（0-100）而非二元安全/不安全判断的 LLM 审核模型，通过基于评分准则的蒸馏和 GRPO 风险对齐训练，在不同严格度部署场景下实现了 SOTA 的鲁棒性和准确率。
+  [ACL 2026][AIGC检测][内容审核] FlexGuard 提出了一种输出连续风险评分（0-100）而非二元安全/不安全判断的 LLM 审核模型，通过基于评分准则的蒸馏和 GRPO 风险对齐训练，在不同严格度部署场景下实现了 SOTA 的鲁棒性和准确率。
 tags:
-  - ACL 2026
-  - 内容审核
-  - 连续风险评分
-  - 严格度自适应
-  - AIGC检测
-  - 强化学习
+  - "ACL 2026"
+  - "AIGC检测"
+  - "内容审核"
+  - "连续风险评分"
+  - "严格度自适应"
+  - "LLM 安全"
+  - "强化学习"
 ---
 
 # FlexGuard: Continuous Risk Scoring for Strictness-Adaptive LLM Content Moderation

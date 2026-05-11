@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Second-Order Optimization Under Heavy-Tailed Noise: Hessian Clipping and Sample Complexity
 description: >-
-  [NeurIPS 2025][优化][二阶优化] 首次系统研究重尾噪声条件下二阶随机优化的理论基础，建立了紧的样本复杂度下界，提出了基于梯度和 Hessian 裁剪的归一化SGD算法（Clip NSGDHess），并证明其近似达到信息论极限。
+  [NeurIPS 2025][优化/理论][二阶优化] 首次系统研究重尾噪声条件下二阶随机优化的理论基础，建立了紧的样本复杂度下界，提出了基于梯度和 Hessian 裁剪的归一化SGD算法（Clip NSGDHess），并证明其近似达到信息论极限。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 二阶优化
-  - 重尾噪声
-  - Hessian裁剪
-  - 样本复杂度
-  - 高概率收敛
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "二阶优化"
+  - "重尾噪声"
+  - "Hessian裁剪"
+  - "样本复杂度"
+  - "高概率收敛"
 ---
 
 # Second-Order Optimization Under Heavy-Tailed Noise: Hessian Clipping and Sample Complexity

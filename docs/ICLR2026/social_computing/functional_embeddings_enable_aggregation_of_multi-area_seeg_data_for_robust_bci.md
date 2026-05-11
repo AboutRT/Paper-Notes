@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI
 description: >-
-  [ICLR 2026][脑机接口] 提出 FunctionalMap 框架，通过对比学习从颅内局部场电位（LFP）中学习被试无关的功能嵌入作为"功能坐标系"，替代不可靠的 MNI 解剖坐标，结合 Transformer 实现跨被试、跨电极的神经数据聚合和信号重建，在 20 名被试的多脑区 SEEG 数据集上验证有效。
+  [ICLR 2026][社会计算][脑机接口] 提出 FunctionalMap 框架，通过对比学习从颅内局部场电位（LFP）中学习被试无关的功能嵌入作为"功能坐标系"，替代不可靠的 MNI 解剖坐标，结合 Transformer 实现跨被试、跨电极的神经数据聚合和信号重建…
 tags:
-  - ICLR 2026
-  - 脑机接口
-  - SEEG
-  - 功能嵌入
-  - 社会计算
-  - Transformer
-  - 跨被试建模
-  - 神经信号
+  - "ICLR 2026"
+  - "社会计算"
+  - "脑机接口"
+  - "SEEG"
+  - "功能嵌入"
+  - "对比学习"
+  - "Transformer"
+  - "跨被试建模"
+  - "神经信号"
 ---
 
 # Functional Embeddings Enable Aggregation of Multi-Area SEEG Data for Robust BCI

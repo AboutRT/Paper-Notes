@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Foundation Model Insights and a Multi-Model Approach for Superior Fine-Grained One-shot Subset Selection
 description: >-
-  [ICML 2025][自监督学习][子集选择] 本文系统研究了基础模型（FM）替代传统信息提取器（IE）用于子集选择的优劣，发现 FM 在细粒度数据集上显著优于传统 IE，并提出 RAM-APL 方法，利用多个 FM（DINOv2 + CLIP）从类内和类间两个维度联合衡量样本重要性，在三个细粒度数据集上达到 SOTA。
+  [ICML 2025][自监督学习][子集选择] 本文系统研究了基础模型（FM）替代传统信息提取器（IE）用于子集选择的优劣，发现 FM 在细粒度数据集上显著优于传统 IE，并提出 RAM-APL 方法，利用多个 FM（DINOv2 + CLIP）从类内和类间两个维度联合衡量样本重要性…
 tags:
-  - ICML 2025
-  - 自监督学习
-  - 子集选择
-  - 基础模型
-  - 细粒度分类
-  - 多模型融合
-  - 数据高效训练
+  - "ICML 2025"
+  - "自监督学习"
+  - "子集选择"
+  - "基础模型"
+  - "细粒度分类"
+  - "多模型融合"
+  - "数据高效训练"
 ---
 
 # Foundation Model Insights and a Multi-Model Approach for Superior Fine-Grained One-shot Subset Selection

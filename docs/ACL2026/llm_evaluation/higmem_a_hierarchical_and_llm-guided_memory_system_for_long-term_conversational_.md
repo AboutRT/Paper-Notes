@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM评测][长期对话记忆] 本文提出 HiGMem，一个两层事件-对话轮记忆系统，通过让 LLM 先浏览事件摘要再预测哪些细粒度对话轮值得读取，在 LoCoMo10 基准上以少一个数量级的检索量达到了五类问题中四类的最优 F1。
 tags:
-  - ACL 2026
-  - LLM评测
-  - 长期对话记忆
-  - 层级记忆系统
-  - LLM引导检索
-  - 证据精简
-  - 事件-对话轮架构
+  - "ACL 2026"
+  - "LLM评测"
+  - "长期对话记忆"
+  - "层级记忆系统"
+  - "LLM引导检索"
+  - "证据精简"
+  - "事件-对话轮架构"
 ---
 
 # HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents

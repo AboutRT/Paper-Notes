@@ -1,14 +1,15 @@
 ---
-title: "[论文解读] ASAG: Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance"
+title: >-
+  [论文解读] ASAG: Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance
 description: >-
-  [AAAI 2026][扩散模型] 提出对抗Sinkhorn注意力引导(ASAG)，从最优传输角度重新解读扩散模型注意力分数，通过Sinkhorn算法注入对抗性传输代价来破坏不可靠注意力对齐，即插即用地提升文本到图像生成的质量和可控性。
+  [AAAI 2026][注意力引导] 提出 ASAG（Adversarial Sinkhorn Attention Guidance），从最优传输理论角度重新解读扩散模型中的自注意力分数，通过 Sinkhorn 算法在注意力层中注入对抗性传输代价来故意降低 query-key 相似度…
 tags:
-  - AAAI 2026
-  - 扩散模型
-  - 注意力引导
-  - 最优传输
-  - Sinkhorn算法
-  - 即插即用
+  - "AAAI 2026"
+  - "注意力引导"
+  - "最优传输"
+  - "Sinkhorn算法"
+  - "扩散采样"
+  - "即插即用"
 ---
 
 # ASAG: Toward the Frontiers of Reliable Diffusion Sampling via Adversarial Sinkhorn Attention Guidance

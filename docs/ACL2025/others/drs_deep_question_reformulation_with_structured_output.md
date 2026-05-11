@@ -2,14 +2,14 @@
 title: >-
   [论文解读] DRS: Deep Question Reformulation With Structured Output
 description: >-
-  [ACL 2025][问题重构] 提出 DRS（Deep Question Reformulation with Structured Output），一种零样本方法，通过实体驱动的 DFS 搜索 + 结构化输出约束，将 GPT-3.5 的问题重构准确率从 23.03% 提升至 70.42%，使 LLM 能有效帮助用户将不可回答的问题转化为可回答的形式。
+  [ACL 2025][问题重构] 提出 DRS（Deep Question Reformulation with Structured Output），一种零样本方法，通过实体驱动的 DFS 搜索 + 结构化输出约束，将 GPT-3.5 的问题重构准确率从 23.03% 提升至 70.42%…
 tags:
-  - ACL 2025
-  - 问题重构
-  - 不可回答问题
-  - DFS搜索
-  - 结构化输出
-  - 零样本方法
+  - "ACL 2025"
+  - "问题重构"
+  - "不可回答问题"
+  - "DFS搜索"
+  - "结构化输出"
+  - "零样本方法"
 ---
 
 # DRS: Deep Question Reformulation With Structured Output

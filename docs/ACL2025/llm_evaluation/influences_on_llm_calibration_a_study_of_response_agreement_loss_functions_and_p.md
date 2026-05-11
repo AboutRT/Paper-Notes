@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Influences on LLM Calibration: A Study of Response Agreement, Loss Functions, and Prompt Styles
 description: >-
-  [ACL 2025][校准] 本文系统研究影响 LLM 校准（calibration）的三大因素——多模型响应一致性、损失函数选择和 prompt 风格，提出 Calib-n 框架通过训练辅助模型聚合多个 LLM 的响应来估计置信度，发现响应一致性和 focal loss 能显著改善校准性能。
+  [ACL 2025][LLM评测][校准] 本文系统研究影响 LLM 校准（calibration）的三大因素——多模型响应一致性、损失函数选择和 prompt 风格，提出 Calib-n 框架通过训练辅助模型聚合多个 LLM 的响应来估计置信度，发现响应一致性和 focal loss 能显著改善校准性能。
 tags:
-  - ACL 2025
-  - 校准
-  - 置信度估计
-  - 辅助模型
-  - 损失函数
-  - 提示学习
+  - "ACL 2025"
+  - "LLM评测"
+  - "校准"
+  - "置信度估计"
+  - "辅助模型"
+  - "损失函数"
+  - "提示学习"
 ---
 
 # Influences on LLM Calibration: A Study of Response Agreement, Loss Functions, and Prompt Styles

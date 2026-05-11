@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GRACE: Graph-Based Contextual Debiasing for Fair Visual Question Answering
 description: >-
-  [ECCV 2024][社会计算] 提出 GRACE（GRAph-based Contextual DEbiasing），一种基于图结构的上下文去偏方法，通过无监督上下文图学习和基于图的多样化 in-context example 选择，解决知识增强 VQA 系统中大语言模型继承的数据偏差问题。
+  [ECCV 2024][社会计算][视觉问答] 提出 GRACE（GRAph-based Contextual DEbiasing），一种基于图结构的上下文去偏方法，通过无监督上下文图学习和基于图的多样化 in-context example 选择，解决知识增强 VQA 系统中大语言模型继承的数据偏差问题。
 tags:
-  - ECCV 2024
-  - 社会计算
-  - 公平性去偏
-  - 图结构学习
-  - 上下文学习
-  - 知识增强VQA
+  - "ECCV 2024"
+  - "社会计算"
+  - "视觉问答"
+  - "公平性去偏"
+  - "图结构学习"
+  - "上下文学习"
+  - "知识增强VQA"
 ---
 
 # GRACE: Graph-Based Contextual Debiasing for Fair Visual Question Answering

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness
 description: >-
-  [ACL 2026][医学图像][多模态临床时序] 提出 OPL-MT-MNAR 框架，通过 MNAR 感知的多模态编码器 + 贝叶斯滤波隐状态 + 离线策略学习，从结构化数据和临床文本的"缺失模式本身携带的信息"中学习 ICU 患者动态表示，实现优于临床医生行为的脓毒症治疗策略（FQE 0.679 vs 0.528）。
+  [ACL 2026][医学图像][多模态临床时序] 提出 OPL-MT-MNAR 框架，通过 MNAR 感知的多模态编码器 + 贝叶斯滤波隐状态 + 离线策略学习，从结构化数据和临床文本的"缺失模式本身携带的信息"中学习 ICU 患者动态表示…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 多模态临床时序
-  - 信息性缺失
-  - 离线强化学习
-  - 贝叶斯滤波
-  - ICU治疗策略
+  - "ACL 2026"
+  - "医学图像"
+  - "多模态临床时序"
+  - "信息性缺失"
+  - "离线强化学习"
+  - "贝叶斯滤波"
+  - "ICU治疗策略"
 ---
 
 # Learning Dynamic Representations and Policies from Multimodal Clinical Time-Series with Informative Missingness

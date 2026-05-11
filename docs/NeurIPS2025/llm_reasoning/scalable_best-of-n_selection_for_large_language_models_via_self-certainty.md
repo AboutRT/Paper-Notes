@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM推理][Best-of-N] 提出Self-Certainty度量，利用LLM输出的token概率分布量化模型信心，在无需额外奖励模型的情况下实现可扩展的Best-of-N选择，性能媲美或超越基于奖励模型的方法。
 tags:
-  - NeurIPS 2025
-  - LLM推理
-  - Best-of-N
-  - 自信度
-  - 分布量化
-  - 无奖励模型
-  - 推理加速
+  - "NeurIPS 2025"
+  - "LLM推理"
+  - "Best-of-N"
+  - "自信度"
+  - "分布量化"
+  - "无奖励模型"
+  - "推理加速"
 ---
 
 # Scalable Best-of-N Selection for Large Language Models via Self-Certainty

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Combining Boundary Supervision and Segment-Level Regularization for Fine-Grained Action Segmentation
 description: >-
-  [CVPR 2026][图像分割][时序动作分割] 提出一种轻量级双损失训练框架用于时序动作分割（TAS），仅增加一个边界输出通道和两个辅助损失（边界回归损失 + CDF 段形状正则化损失），在 MS-TCN、C2F-TCN、FACT 三种架构上一致提升 F1 和 Edit 分数，证明精确分割可以通过简单的损失设计而非更重的架构实现。
+  [CVPR 2026][语义分割][时序动作分割] 提出一种轻量级双损失训练框架用于时序动作分割（TAS），仅增加一个边界输出通道和两个辅助损失（边界回归损失 + CDF 段形状正则化损失），在 MS-TCN、C2F-TCN、FACT 三种架构上一致提升 F1 和 Edit 分数…
 tags:
-  - CVPR 2026
-  - 图像分割
-  - 时序动作分割
-  - 边界监督
-  - 段级正则化
-  - CDF损失
-  - 即插即用
+  - "CVPR 2026"
+  - "语义分割"
+  - "时序动作分割"
+  - "边界监督"
+  - "段级正则化"
+  - "CDF损失"
+  - "即插即用"
 ---
 
 # Combining Boundary Supervision and Segment-Level Regularization for Fine-Grained Action Segmentation

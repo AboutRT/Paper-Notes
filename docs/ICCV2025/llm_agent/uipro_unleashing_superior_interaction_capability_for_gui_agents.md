@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][LLM Agent][GUI 智能体] 提出 UIPro，通过构建 2060 万 GUI 理解样本进行预训练并提出统一动作空间整合异构 GUI agent 任务数据，实现跨移动端、Web 端和桌面端的 SOTA GUI 交互性能。
 tags:
-  - ICCV 2025
-  - LLM Agent
-  - GUI 智能体
-  - 统一动作空间
-  - GUI grounding
-  - 视觉语言模型
-  - 多平台交互
+  - "ICCV 2025"
+  - "LLM Agent"
+  - "GUI 智能体"
+  - "统一动作空间"
+  - "GUI grounding"
+  - "视觉语言模型"
+  - "多平台交互"
 ---
 
 # UIPro: Unleashing Superior Interaction Capability for GUI Agents

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NEURIPS2025][视频理解][动作识别] 提出一种融合 V-JEPA 2 视觉上下文特征与 CoMotion 3D 骨骼姿态数据的 cross-attention 多模态架构，在标准及高遮挡动作识别基准上优于单模态基线。
 tags:
-  - NEURIPS2025
-  - 视频理解
-  - 动作识别
-  - 多模态
-  - 3D human pose
-  - 注意力机制
-  - V-JEPA 2
-  - CoMotion
+  - "NEURIPS2025"
+  - "视频理解"
+  - "动作识别"
+  - "多模态"
+  - "3D human pose"
+  - "注意力机制"
+  - "V-JEPA 2"
+  - "CoMotion"
 ---
 
 # Grounding Foundational Vision Models with 3D Human Poses for Robust Action Recognition

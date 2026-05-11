@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][点云补全] 提出AEDNet，通过自适应点云嵌入与多视角感知解耦（AED）模块，在编码器和解码器中分别对点云进行全局嵌入和局部解耦，利用从单位球面生成的3D视点从外部观察点云，实现了对3D对象几何的全面理解，在MVP和PCN数据集上达到SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 点云补全
-  - 注意力机制
-  - 多视角解耦
-  - 全局嵌入
-  - 几何理解
+  - "ECCV 2024"
+  - "3D视觉"
+  - "点云补全"
+  - "注意力机制"
+  - "多视角解耦"
+  - "全局嵌入"
+  - "几何理解"
 ---
 
 # AEDNet: Adaptive Embedding and Multiview-Aware Disentanglement for Point Cloud Completion

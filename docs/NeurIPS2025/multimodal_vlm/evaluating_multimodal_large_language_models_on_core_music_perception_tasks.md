@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Evaluating Multimodal Large Language Models on Core Music Perception Tasks
 description: >-
-  [NeurIPS 2025][多模态][多模态LLM] 本文通过三项核心音乐感知任务（切分节奏评分、移调检测、和弦辨识）系统性评估了多模态LLM在音频与MIDI两种输入下的表现，揭示了模型在符号推理上接近理想但在音频感知上存在显著缺陷的关键差距。
+  [NeurIPS 2025][多模态VLM][多模态LLM] 本文通过三项核心音乐感知任务（切分节奏评分、移调检测、和弦辨识）系统性评估了多模态LLM在音频与MIDI两种输入下的表现，揭示了模型在符号推理上接近理想但在音频感知上存在显著缺陷的关键差距。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 音乐感知
-  - 音频理解
-  - 符号推理
-  - LogicLM
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "多模态LLM"
+  - "音乐感知"
+  - "音频理解"
+  - "符号推理"
+  - "LogicLM"
 ---
 
 # Evaluating Multimodal Large Language Models on Core Music Perception Tasks
@@ -77,7 +77,7 @@ tags:
 | MIDI | ZS | CoT | 94.7 | **100** | 35.0 | 95.0 | **100** | 20.0 | **100** | **100** | 25.0 |
 | MIDI | ZS | LogicLM | 90.0 | 80.0 | 20.0 | **100** | **100** | 10.0 | 93.2 | **100** | **100** |
 
-**核心发现——模态差距巨大**：Gemini 模型在 MIDI 上远优于 Audio（p<0.001），切分和和弦任务差距最大（MIDI≈84-100% vs Audio≈6-65%）。
+**核心发现——模态差距巨大**：Gemini 模型在 MIDI 上远优于 Audio（p&lt;0.001），切分和和弦任务差距最大（MIDI≈84-100% vs Audio≈6-65%）。
 
 ### 消融实验
 

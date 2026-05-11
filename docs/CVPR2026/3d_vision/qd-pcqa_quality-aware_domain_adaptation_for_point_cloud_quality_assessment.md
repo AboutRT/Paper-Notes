@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][点云质量评估] 提出质量感知域适应框架 QD-PCQA，通过 Rank-weighted Conditional Alignment 和 Quality-guided Feature Augmentation 两大策略，将图像域的质量评估先验迁移到点云域。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 点云质量评估
-  - 无监督域适应
-  - 质量感知特征对齐
-  - 跨域迁移
+  - "CVPR 2026"
+  - "3D视觉"
+  - "点云质量评估"
+  - "无监督域适应"
+  - "质量感知特征对齐"
+  - "跨域迁移"
 ---
 
 # QD-PCQA: Quality-Aware Domain Adaptation for Point Cloud Quality Assessment

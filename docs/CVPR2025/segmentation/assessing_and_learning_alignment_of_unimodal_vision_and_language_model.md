@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Assessing and Learning Alignment of Unimodal Vision and Language Models (SAIL)
 description: >-
-  [CVPR 2025][图像分割][视觉语言对齐] 提出 SAIL 框架——先通过 alignment probing 评估单模态视觉和语言模型的对齐潜力（发现 k-NN 聚类质量比线性可分性更重要），再用轻量级 GLU 对齐层 + Sigmoid 损失 + 多正样本策略高效对齐 DINOv2 和预训练语言模型，仅用 6% 的 CLIP 训练数据即超越 CLIP。
+  [CVPR 2025][语义分割][视觉语言对齐] 提出 SAIL 框架——先通过 alignment probing 评估单模态视觉和语言模型的对齐潜力（发现 k-NN 聚类质量比线性可分性更重要）…
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 视觉语言对齐
-  - DINOv2
-  - CLIP
-  - 迁移学习
-  - 高效训练
+  - "CVPR 2025"
+  - "语义分割"
+  - "视觉语言对齐"
+  - "DINOv2"
+  - "CLIP"
+  - "迁移学习"
+  - "高效训练"
 ---
 
 # Assessing and Learning Alignment of Unimodal Vision and Language Models (SAIL)

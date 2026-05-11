@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][视频理解][视频检索] 提出 ViLL-E，首个同时支持文本生成和 embedding 生成的 Video LLM 统一架构，通过三阶段生成-对比联合训练和自适应 KV-Former embedding head，在视频检索和时序定位上逼近专家模型，同时保持 VideoQA 竞争力。
 tags:
-  - ACL 2026
-  - 视频理解
-  - 视频检索
-  - 视频LLM
-  - embedding生成
-  - 对比学习
-  - 时序定位
+  - "ACL 2026"
+  - "视频理解"
+  - "视频检索"
+  - "视频LLM"
+  - "embedding生成"
+  - "对比学习"
+  - "时序定位"
 ---
 
 # ViLL-E: Video LLM Embeddings for Retrieval

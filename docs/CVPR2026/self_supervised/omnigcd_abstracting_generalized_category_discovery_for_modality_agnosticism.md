@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自监督学习][generalized category discovery] 提出 OmniGCD，首个模态无关的广义类别发现方法，利用合成数据训练的 GCDformer 在测试时将任意模态的 GCD 潜空间变换为更适合聚类的表示，在 16 个跨四种模态的数据集上实现零样本 GCD。
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - 自监督
-  - modality-agnostic
-  - zero-shot
-  - Transformer
-  - synthetic training
+  - "CVPR 2026"
+  - "自监督学习"
+  - "generalized category discovery"
+  - "modality-agnostic"
+  - "zero-shot"
+  - "Transformer"
+  - "synthetic training"
 ---
 
 # OmniGCD: Abstracting Generalized Category Discovery for Modality Agnosticism

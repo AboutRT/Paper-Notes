@@ -2,17 +2,17 @@
 title: >-
   [论文解读] A Variational Manifold Embedding Framework for Nonlinear Dimensionality Reduction
 description: >-
-  [NeurIPS 2025][医学图像][降维] 提出一种变分流形嵌入框架，将降维问题形式化为最优嵌入映射的优化问题（最小化先验分布与数据分布pullback之间的KL散度），在理论上统一了PCA与非线性降维方法，并利用变分法（Euler-Lagrange方程）和Noether定理为最优嵌入提供了可解释性约束。
+  [NeurIPS 2025][医学图像][降维] 提出一种变分流形嵌入框架，将降维问题形式化为最优嵌入映射的优化问题（最小化先验分布与数据分布pullback之间的KL散度），在理论上统一了PCA与非线性降维方法，并利用变分法（Euler-Lagrange方程）和Noether定理为最优嵌入提供了可解释性约束…
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 降维
-  - 流形嵌入
-  - 变分框架
-  - PCA
-  - Euler-Lagrange
-  - Noether定理
-  - score vector
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "降维"
+  - "流形嵌入"
+  - "变分框架"
+  - "PCA"
+  - "Euler-Lagrange"
+  - "Noether定理"
+  - "score vector"
 ---
 
 # A Variational Manifold Embedding Framework for Nonlinear Dimensionality Reduction

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][轨迹预测] 本文提出 Tra-MoE，利用稀疏门控混合专家(MoE)架构训练轨迹预测模型，有效融合大规模域外无动作视频数据与小规模域内机器人演示数据，并设计自适应策略条件化技术将 2D 轨迹与视觉观测显式对齐，在仿真和真实场景均显著提升机器人操控成功率。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 轨迹预测
-  - 混合专家
-  - 跨域学习
-  - 策略条件化
-  - 机器人操控
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "轨迹预测"
+  - "混合专家"
+  - "跨域学习"
+  - "策略条件化"
+  - "机器人操控"
 ---
 
 # Tra-MoE: Learning Trajectory Prediction Model from Multiple Domains for Adaptive Policy Conditioning

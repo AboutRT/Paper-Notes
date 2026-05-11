@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM Agent][GUI agent] 本文首次系统研究了多模态 GUI Agent 对环境干扰（弹窗广告、推荐内容等）的脆弱性，在无恶意攻击的自然场景下，即使最强的 MLLM（包括GPT-4o）也有 20-40% 的概率被环境中的无关内容分散注意力而执行偏离用户目标的操作。
 tags:
-  - ACL 2025
-  - LLM Agent
-  - GUI agent
-  - environmental distraction
-  - faithfulness
-  - 多模态
-  - robustness
+  - "ACL 2025"
+  - "LLM Agent"
+  - "GUI agent"
+  - "environmental distraction"
+  - "faithfulness"
+  - "多模态"
+  - "robustness"
 ---
 
 # Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions

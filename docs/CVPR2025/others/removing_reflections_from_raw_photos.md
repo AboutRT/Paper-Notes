@@ -2,15 +2,14 @@
 title: >-
   [论文解读] Removing Reflections from RAW Photos
 description: >-
-  [CVPR 2025][其他][去反射] 提出首个基于 RAW 图像的端到端去反射系统：在 XYZ 色彩空间中模拟逼真的反射（含 Fresnel/双反射/WB/曝光），训练 EfficientNet+BiFPN 基础模型分离透射/反射层，再用高斯金字塔上采样器保留高分辨率细节，利用可选的自拍相机上下文图辅助判断，PSNR 30.62dB。
+  [CVPR 2025][去反射] 提出首个基于 RAW 图像的端到端去反射系统：在 XYZ 色彩空间中模拟逼真的反射（含 Fresnel/双反射/WB/曝光），训练 EfficientNet+BiFPN 基础模型分离透射/反射层，再用高斯金字塔上采样器保留高分辨率细节，利用可选的自拍相机上下文图辅助判断…
 tags:
-  - CVPR 2025
-  - 其他
-  - 去反射
-  - RAW图像
-  - 光度学仿真
-  - 上采样器
-  - 双摄像头
+  - "CVPR 2025"
+  - "去反射"
+  - "RAW图像"
+  - "光度学仿真"
+  - "上采样器"
+  - "双摄像头"
 ---
 
 # Removing Reflections from RAW Photos

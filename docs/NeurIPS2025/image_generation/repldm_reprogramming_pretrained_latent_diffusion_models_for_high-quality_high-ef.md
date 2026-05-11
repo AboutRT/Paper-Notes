@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025 (Spotlight)][图像生成][潜在扩散模型] 提出 RepLDM 重编程框架,通过注意力引导阶段和渐进上采样两个阶段,让预训练的潜在扩散模型无需重训练即可生成高质量高分辨率图像,同时大幅提升效率。
 tags:
-  - NeurIPS 2025 (Spotlight)
-  - 图像生成
-  - 潜在扩散模型
-  - 高分辨率生成
-  - 模型重编程
-  - 注意力引导
-  - 渐进上采样
+  - "NeurIPS 2025 (Spotlight)"
+  - "图像生成"
+  - "潜在扩散模型"
+  - "高分辨率生成"
+  - "模型重编程"
+  - "注意力引导"
+  - "渐进上采样"
 ---
 
 # RepLDM: Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation

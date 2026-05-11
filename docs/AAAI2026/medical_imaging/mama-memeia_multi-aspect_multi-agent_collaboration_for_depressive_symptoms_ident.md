@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes
 description: >-
-  [AAAI 2026][医学图像][抑郁症检测] 本文提出 MAMAMemeia，一个基于认知分析疗法（CAT）能力框架的多智能体多方面协作讨论框架，用于从社交媒体表情包中识别抑郁症状，同时引入 RESTOREx 资源（含 LLM 生成和人工标注的解释），在 macro-F1 上超越 30+ 种方法 7.55%。
+  [AAAI 2026][医学图像][抑郁症检测] 本文提出 MAMAMemeia，一个基于认知分析疗法（CAT）能力框架的多智能体多方面协作讨论框架，用于从社交媒体表情包中识别抑郁症状，同时引入 RESTOREx 资源（含 LLM 生成和人工标注的解释）…
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 抑郁症检测
-  - 表情包分析
-  - 多智能体协作
-  - 认知分析疗法
-  - 大语言模型
+  - "AAAI 2026"
+  - "医学图像"
+  - "抑郁症检测"
+  - "表情包分析"
+  - "多智能体协作"
+  - "认知分析疗法"
+  - "大语言模型"
 ---
 
 # MAMA-Memeia! Multi-Aspect Multi-Agent Collaboration for Depressive Symptoms Identification in Memes

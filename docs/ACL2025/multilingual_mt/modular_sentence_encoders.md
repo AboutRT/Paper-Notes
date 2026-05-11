@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment
 description: >-
-  [ACL 2025][multilingual sentence encoders] 本文提出模块化多语言句子编码器训练方案：先训练语言特定模块（embedding + 语言适配器 + 句子编码适配器）缓解多语言诅咒，再训练跨语言对齐适配器同时使用平行和释义数据解决不同跨语言任务间的性能权衡，在 4 个任务和 23 种语言上全面优于单体模型训练。
+  [ACL 2025][多语言/翻译][multilingual sentence encoders] 本文提出模块化多语言句子编码器训练方案：先训练语言特定模块（embedding + 语言适配器 + 句子编码适配器）缓解多语言诅咒，再训练跨语言对齐适配器同时使用平行和释义数据解决不同跨语言任务间的性能权衡…
 tags:
-  - ACL 2025
-  - multilingual sentence encoders
-  - modular training
-  - curse of multilinguality
-  - cross-lingual alignment
-  - 多语言翻译
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "multilingual sentence encoders"
+  - "modular training"
+  - "curse of multilinguality"
+  - "cross-lingual alignment"
+  - "adapters"
 ---
 
 # Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment

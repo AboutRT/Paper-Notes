@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Near-Optimal Single-Loop Stochastic Algorithm for Convex Finite-Sum Coupled Compositional Optimization
 description: >-
-  [ICML 2025][优化][compositional optimization] 本文提出 ALEXR 算法——一种高效的单循环原始-对偶块坐标随机算法，用于求解凸有限和耦合复合优化（cFCCO）问题，在光滑和非光滑条件下均达到近最优收敛速率，并通过推导下界证明了算法的最优性。
+  [ICML 2025][优化/理论][compositional optimization] 本文提出 ALEXR 算法——一种高效的单循环原始-对偶块坐标随机算法，用于求解凸有限和耦合复合优化（cFCCO）问题，在光滑和非光滑条件下均达到近最优收敛速率，并通过推导下界证明了算法的最优性。
 tags:
-  - ICML 2025
-  - 优化
-  - compositional optimization
-  - stochastic optimization
-  - distributionally robust optimization
-  - pAUC maximization
-  - primal-dual
+  - "ICML 2025"
+  - "优化/理论"
+  - "compositional optimization"
+  - "stochastic optimization"
+  - "distributionally robust optimization"
+  - "pAUC maximization"
+  - "primal-dual"
 ---
 
 # A Near-Optimal Single-Loop Stochastic Algorithm for Convex Finite-Sum Coupled Compositional Optimization

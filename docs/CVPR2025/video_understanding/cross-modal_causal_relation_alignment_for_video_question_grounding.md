@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频问答定位] 通过因果干预消除视频问答定位（VideoQG）中的虚假跨模态关联，引入高斯平滑定位、跨模态对齐和显式因果干预三个模块，在 NextGQA 上同时提升定位（+2.2 Acc@GQA）和问答（+0.9 Acc@VQA）性能。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频问答定位
-  - 因果推断
-  - 跨模态对齐
-  - 高斯平滑
-  - 前门干预
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频问答定位"
+  - "因果推断"
+  - "跨模态对齐"
+  - "高斯平滑"
+  - "前门干预"
 ---
 
 # Cross-modal Causal Relation Alignment for Video Question Grounding

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Interpretable Reward Model via Sparse Autoencoder
 description: >-
-  [AAAI 2026][奖励模型] 提出 SARM（Sparse Autoencoder-enhanced Reward Model），将预训练的稀疏自编码器集成到奖励模型中，将隐层激活映射到可解释的稀疏单义特征空间，实现特征级的奖励归因和动态偏好操控，同时在 RewardBench 2 上取得了所有模型中的最高分。
+  [AAAI 2026][推荐系统][奖励模型] 提出 SARM（Sparse Autoencoder-enhanced Reward Model），将预训练的稀疏自编码器集成到奖励模型中，将隐层激活映射到可解释的稀疏单义特征空间，实现特征级的奖励归因和动态偏好操控…
 tags:
-  - AAAI 2026
-  - 奖励模型
-  - 稀疏自编码器
-  - 推荐系统
-  - RLHF
-  - 偏好操控
+  - "AAAI 2026"
+  - "推荐系统"
+  - "奖励模型"
+  - "稀疏自编码器"
+  - "可解释性"
+  - "RLHF"
+  - "偏好操控"
 ---
 
 # Interpretable Reward Model via Sparse Autoencoder

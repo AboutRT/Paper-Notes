@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][GUI交互] 本文提出 Location Preference Optimization (LPO)，通过基于信息熵的窗口奖励和基于物理距离的动态位置奖励，结合 GRPO 框架优化 GUI 智能体的空间定位精度，在离线和在线评估中均达到 SOTA。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - GUI交互
-  - 位置偏好优化
-  - 强化学习
-  - 信息熵
-  - GRPO
+  - "ACL 2026"
+  - "LLM Agent"
+  - "GUI交互"
+  - "位置偏好优化"
+  - "强化学习"
+  - "信息熵"
+  - "GRPO"
 ---
 
 # LPO: Towards Accurate GUI Agent Interaction via Location Preference Optimization

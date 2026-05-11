@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models
 description: >-
-  [ACL 2025][LLM预训练] 本文提出LeanCode，一种基于上下文感知注意力分数的代码简化方法，利用CLS注意力（分类任务）和编码器-解码器注意力（生成任务）来衡量token重要性，在代码搜索和代码摘要任务上分别比SOTA方法DietCode/SlimCode提升最高60%和29%，同时减少高达40.9%的推理时间。
+  [ACL 2025][预训练][代码简化] 本文提出LeanCode，一种基于上下文感知注意力分数的代码简化方法，利用CLS注意力（分类任务）和编码器-解码器注意力（生成任务）来衡量token重要性，在代码搜索和代码摘要任务上分别比SOTA方法DietCode/SlimCode提升最高60%和29%…
 tags:
-  - ACL 2025
-  - LLM预训练
-  - 注意力分数
-  - 预训练模型
-  - 代码搜索
-  - 代码摘要
+  - "ACL 2025"
+  - "预训练"
+  - "代码简化"
+  - "注意力分数"
+  - "预训练模型"
+  - "代码搜索"
+  - "代码摘要"
 ---
 
 # LEANCODE: Understanding Models Better for Code Simplification of Pre-trained Large Language Models

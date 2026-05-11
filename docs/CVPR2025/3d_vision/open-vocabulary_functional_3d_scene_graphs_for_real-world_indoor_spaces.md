@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D场景图] 提出功能性3D场景图新任务，利用VLM和LLM通过渐进式检测-描述-推理pipeline从RGB-D图像中构建包含物体、交互元素及其功能关系的3D场景图，并建立了FunGraph3D真实世界数据集。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D场景图
-  - 功能关系
-  - 交互元素
-  - 基础模型
-  - 开放词汇
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D场景图"
+  - "功能关系"
+  - "交互元素"
+  - "基础模型"
+  - "开放词汇"
 ---
 
 # Open-Vocabulary Functional 3D Scene Graphs for Real-World Indoor Spaces

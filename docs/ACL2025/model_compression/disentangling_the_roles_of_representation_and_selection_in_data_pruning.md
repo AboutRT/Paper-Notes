@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][模型压缩][数据剪枝] 本文将数据剪枝（data pruning）系统性地拆解为"数据表示"和"选择算法"两个独立维度，通过理论分析和大规模实验发现：表示质量（尤其是训练梯度）对剪枝效果起决定性作用，而不同选择算法在不同场景下各有优劣，且常常偏离其设计目标。
 tags:
-  - ACL 2025
-  - 模型压缩
-  - 数据剪枝
-  - 数据表示
-  - 选择算法
-  - 训练梯度
-  - NLP高效训练
+  - "ACL 2025"
+  - "模型压缩"
+  - "数据剪枝"
+  - "数据表示"
+  - "选择算法"
+  - "训练梯度"
+  - "NLP高效训练"
 ---
 
 # Disentangling the Roles of Representation and Selection in Data Pruning

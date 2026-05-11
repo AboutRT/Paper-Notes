@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2026][标注分歧] 将LiTEx推理分类法从"标签一致下的解释变异"扩展到"标签不一致"场景，发现标注者可能标签不同但推理类似，推理类别的一致性比标签一致性更好地反映解释的语义相似度。
 tags:
-  - ACL 2026
-  - 标注分歧
-  - 其他
-  - LiTEx分类法
-  - 推理策略
-  - 人类标注变异
+  - "ACL 2026"
+  - "标注分歧"
+  - "自然语言推理"
+  - "LiTEx分类法"
+  - "推理策略"
+  - "人类标注变异"
 ---
 
 # Agree, Disagree, Explain: Decomposing Human Label Variation in NLI through the Lens of Explanations

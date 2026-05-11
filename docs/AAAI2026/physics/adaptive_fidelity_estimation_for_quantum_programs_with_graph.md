@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness
 description: >-
-  [AAAI 2026][量子保真度估计] 提出 QuFid 框架，将量子电路建模为有向无环图，通过控制流感知的随机游走刻画噪声传播，利用算子谱特征量化电路复杂度，实现自适应测量预算分配，在保持保真度精度的同时大幅减少测量次数。
+  [AAAI 2026][物理学][量子保真度估计] 提出 QuFid 框架，将量子电路建模为有向无环图，通过控制流感知的随机游走刻画噪声传播，利用算子谱特征量化电路复杂度，实现自适应测量预算分配，在保持保真度精度的同时大幅减少测量次数。
 tags:
-  - AAAI 2026
-  - 量子保真度估计
-  - 噪声感知
-  - 图结构分析
-  - 自适应测量
-  - 谱复杂度
+  - "AAAI 2026"
+  - "物理学"
+  - "量子保真度估计"
+  - "噪声感知"
+  - "图结构分析"
+  - "自适应测量"
+  - "谱复杂度"
 ---
 
 # Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness

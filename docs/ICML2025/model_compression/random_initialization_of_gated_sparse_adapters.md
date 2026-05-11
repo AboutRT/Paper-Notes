@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][模型压缩][sparse fine-tuning] 提出 RIGSA，一种基于随机初始化全秩适配器 + ReZero 门控 + 迭代幅度剪枝的稀疏微调方法，在学习新任务的同时比 QLoRA 更好地保留源任务性能。
 tags:
-  - ICML 2025
-  - 模型压缩
-  - sparse fine-tuning
-  - PEFT
-  - lottery ticket hypothesis
-  - catastrophic forgetting
-  - LoRA
+  - "ICML 2025"
+  - "模型压缩"
+  - "sparse fine-tuning"
+  - "PEFT"
+  - "lottery ticket hypothesis"
+  - "catastrophic forgetting"
+  - "LoRA"
 ---
 
 # Random Initialization of Gated Sparse Adapters (RIGSA)

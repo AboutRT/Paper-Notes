@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding
 description: >-
-  [AAAI 2026][视频理解][长视频理解] 将视频关键帧选择和语言生成建模为联合决策过程，通过基于GRPO的强化学习端到端优化轻量级时序智能体的采样策略，在四个长视频理解基准上取得SOTA（LLaVA-Video-7B上LongVideoBench +5.0%、MLVU +6.0%），且可零样本迁移到其他Video-MLLM。
+  [AAAI 2026][视频理解][长视频理解] 将视频关键帧选择和语言生成建模为联合决策过程，通过基于GRPO的强化学习端到端优化轻量级时序智能体的采样策略，在四个长视频理解基准上取得SOTA（LLaVA-Video-7B上LongVideoBench +5.0%、MLVU +6.0%）…
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 长视频理解
-  - 关键帧采样
-  - 强化学习
-  - 时序策略优化
-  - 视频多模态大模型
+  - "AAAI 2026"
+  - "视频理解"
+  - "长视频理解"
+  - "关键帧采样"
+  - "强化学习"
+  - "时序策略优化"
+  - "视频多模态大模型"
 ---
 
 # TSPO: Temporal Sampling Policy Optimization for Long-form Video Language Understanding

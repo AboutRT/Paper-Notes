@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][机器人][激活引导] 提出 Directer（Dynamic Rejection Steering），通过在每个解码步动态调节 KV 缓存引导强度并引入合理性约束，显著提升 LLM 指令遵循能力，同时避免过度引导导致的文本质量下降。
 tags:
-  - ICLR 2026
-  - 机器人
-  - 激活引导
-  - 指令遵循
-  - KV缓存缩放
-  - 动态拒绝
-  - 过度引导缓解
+  - "ICLR 2026"
+  - "机器人"
+  - "激活引导"
+  - "指令遵循"
+  - "KV缓存缩放"
+  - "动态拒绝"
+  - "过度引导缓解"
 ---
 
 # Enhancing Instruction Following of LLMs via Activation Steering with Dynamic Rejection

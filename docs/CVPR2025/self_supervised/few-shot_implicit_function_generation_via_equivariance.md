@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自监督学习][few-shot] 通过等变性约束从少量样本生成隐式函数（NeRF/SDF），利用对称性先验减少对数据的需求
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - few-shot
-  - implicit function
-  - equivariance
-  - 自监督
-  - SDF
+  - "CVPR 2025"
+  - "自监督学习"
+  - "few-shot"
+  - "implicit function"
+  - "equivariance"
+  - "NeRF"
+  - "SDF"
 ---
 
 # Few-Shot Implicit Function Generation via Equivariance

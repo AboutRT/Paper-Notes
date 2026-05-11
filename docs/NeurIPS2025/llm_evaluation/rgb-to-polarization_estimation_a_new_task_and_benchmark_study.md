@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RGB-to-Polarization Estimation: A New Task and Benchmark Study
 description: >-
-  [NeurIPS 2025][偏振估计] 本文首次定义从标准RGB图像估计偏振分量（S₁/S₂/S₃）的新任务，构建涵盖修复型与生成型方法的首个系统基准，发现预训练MAE在像素精度上综合最优（PSNR 24.74），修复型方法整体显著优于扩散生成型方法，且预训练权重迁移是关键优势。
+  [NeurIPS 2025][LLM评测][偏振估计] 本文首次定义从标准RGB图像估计偏振分量（S₁/S₂/S₃）的新任务，构建涵盖修复型与生成型方法的首个系统基准，发现预训练MAE在像素精度上综合最优（PSNR 24.74），修复型方法整体显著优于扩散生成型方法，且预训练权重迁移是关键优势。
 tags:
-  - NeurIPS 2025
-  - 偏振估计
-  - Stokes参数
-  - RGB图像
-  - benchmark
-  - 扩散模型
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "偏振估计"
+  - "Stokes参数"
+  - "RGB图像"
+  - "benchmark"
+  - "扩散模型"
 ---
 
 # RGB-to-Polarization Estimation: A New Task and Benchmark Study

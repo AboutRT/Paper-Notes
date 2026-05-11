@@ -2,16 +2,16 @@
 title: >-
   [论文解读] From Cradle to Cane: A Two-Pass Framework for High-Fidelity Lifespan Face Aging
 description: >-
-  [NeurIPS 2025][图像生成][人脸老化] 提出 Cradle2Cane 两阶段人脸老化框架：第一阶段通过自适应噪声注入（AdaNI）实现精准年龄控制，第二阶段通过 SVR-ArcFace 和 Rotate-CLIP 双身份嵌入（IDEmb）强化身份一致性，在全寿命跨度（0-80岁）人脸老化中实现年龄精度与身份保持的最优平衡。
+  [NeurIPS 2025][图像生成][人脸老化] 提出 Cradle2Cane 两阶段人脸老化框架：第一阶段通过自适应噪声注入（AdaNI）实现精准年龄控制，第二阶段通过 SVR-ArcFace 和 Rotate-CLIP 双身份嵌入（IDEmb）强化身份一致性…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 人脸老化
-  - 扩散模型
-  - 身份保持
-  - 自适应噪声注入
-  - SDXL-Turbo
-  - 年龄-身份权衡
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "人脸老化"
+  - "扩散模型"
+  - "身份保持"
+  - "自适应噪声注入"
+  - "SDXL-Turbo"
+  - "年龄-身份权衡"
 ---
 
 # From Cradle to Cane: A Two-Pass Framework for High-Fidelity Lifespan Face Aging

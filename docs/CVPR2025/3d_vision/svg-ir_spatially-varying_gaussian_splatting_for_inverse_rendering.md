@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][逆渲染] 本文提出 SVG-IR 框架，通过引入空间变化高斯（SVG）表示让单个高斯原语拥有空间变化的材质和法线参数，并结合基于物理的间接光照模型，在保持实时渲染速度的同时，重光照质量超越 NeRF 方法 2.5 dB、超越现有高斯方法 3.5 dB。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 逆渲染
-  - 3D高斯溅射
-  - 空间变化材质
-  - 物理间接光照
-  - 重光照
+  - "CVPR 2025"
+  - "3D视觉"
+  - "逆渲染"
+  - "3D高斯溅射"
+  - "空间变化材质"
+  - "物理间接光照"
+  - "重光照"
 ---
 
 # SVG-IR: Spatially-Varying Gaussian Splatting for Inverse Rendering

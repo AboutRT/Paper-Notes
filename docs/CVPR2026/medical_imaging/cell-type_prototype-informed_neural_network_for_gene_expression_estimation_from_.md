@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][基因表达估计] 提出 CPNN，利用公开单细胞 RNA-seq 数据构建细胞类型原型（cell-type prototype），将 slide/patch 级基因表达建模为原型的加权组合，在基因表达估计任务上取得 SOTA 并提供可解释性。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 基因表达估计
-  - 病理图像
-  - 单细胞RNA测序
-  - 细胞类型原型
-  - 多实例学习
+  - "CVPR 2026"
+  - "医学图像"
+  - "基因表达估计"
+  - "病理图像"
+  - "单细胞RNA测序"
+  - "细胞类型原型"
+  - "多实例学习"
 ---
 
 # Cell-Type Prototype-Informed Neural Network for Gene Expression Estimation from Pathology Images

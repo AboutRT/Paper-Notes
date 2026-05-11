@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models
 description: >-
-  [NeurIPS 2025][多模态][旋转位置编码] 首次从理论上分析多模态RoPE的频率分配策略对长上下文VLM的影响，提出HoPE，将最低频率设为零用于时间建模以保证语义偏好性质，配合动态时间缩放机制，在长视频理解任务上提升8.35%、检索任务上提升22.23%。
+  [NeurIPS 2025][多模态VLM][旋转位置编码] 首次从理论上分析多模态RoPE的频率分配策略对长上下文VLM的影响，提出HoPE，将最低频率设为零用于时间建模以保证语义偏好性质，配合动态时间缩放机制，在长视频理解任务上提升8.35%、检索任务上提升22.23%。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 旋转位置编码
-  - 多模态VLM
-  - 频率分配
-  - 视觉语言模型
-  - 视频理解
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "旋转位置编码"
+  - "长上下文"
+  - "频率分配"
+  - "视觉语言模型"
+  - "视频理解"
 ---
 
 # HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models

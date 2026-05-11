@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Improving Multimodal Sentiment Analysis via Modality Optimization and Dynamic Primary Modality Selection
 description: >-
-  [AAAI 2026][语音][多模态] 提出 MODS 框架，通过图卷积动态序列压缩（GDC）消除非语言模态冗余，并设计样本级动态主模态选择器（MSelector）和主模态中心交叉注意力（PCCA），实现 MSA 中按样本自适应选择主导模态。
+  [AAAI 2026][音频/语音][多模态] 提出 MODS 框架，通过图卷积动态序列压缩（GDC）消除非语言模态冗余，并设计样本级动态主模态选择器（MSelector）和主模态中心交叉注意力（PCCA），实现 MSA 中按样本自适应选择主导模态。
 tags:
-  - AAAI 2026
-  - 语音
-  - 音频语音
-  - dynamic modality selection
-  - graph convolutional network
-  - capsule network
-  - 注意力机制
-  - sequence compression
+  - "AAAI 2026"
+  - "音频/语音"
+  - "多模态"
+  - "dynamic modality selection"
+  - "graph convolutional network"
+  - "capsule network"
+  - "注意力机制"
+  - "sequence compression"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

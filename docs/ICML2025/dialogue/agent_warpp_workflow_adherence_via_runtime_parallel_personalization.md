@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Agent WARPP: Workflow Adherence via Runtime Parallel Personalization
 description: >-
-  [ICML 2025][工作流遵循] 提出 WARPP，一个无需训练的多智能体框架，在运行时根据用户属性动态剪枝条件分支工作流，并通过并行化的 Personalizer 智能体与模块化域特定智能体协同执行，在提升工具调用精度和参数保真度的同时减少 token 消耗。
+  [ICML 2025][对话系统][工作流遵循] 提出 WARPP，一个无需训练的多智能体框架，在运行时根据用户属性动态剪枝条件分支工作流，并通过并行化的 Personalizer 智能体与模块化域特定智能体协同执行，在提升工具调用精度和参数保真度的同时减少 token 消耗。
 tags:
-  - ICML 2025
-  - 工作流遵循
-  - 对话系统
-  - 运行时个性化
-  - 任务导向对话
-  - 条件分支剪枝
+  - "ICML 2025"
+  - "对话系统"
+  - "工作流遵循"
+  - "多智能体编排"
+  - "运行时个性化"
+  - "任务导向对话"
+  - "条件分支剪枝"
 ---
 
 # Agent WARPP: Workflow Adherence via Runtime Parallel Personalization

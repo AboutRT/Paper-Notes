@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening through Psychometric Practice
 description: >-
-  [ACL 2025][心理健康筛查] 本文提出了一种基于问卷引导的心理健康筛查框架，通过自适应RAG从用户Reddit帖子中检索相关内容，再用LLM代为填写标准化心理量表（如BDI-II），在无需训练数据的情况下匹配或超越有监督方法的性能，同时提供了临床可解释的评估结果。
+  [ACL 2025][医学图像][心理健康筛查] 本文提出了一种基于问卷引导的心理健康筛查框架，通过自适应RAG从用户Reddit帖子中检索相关内容，再用LLM代为填写标准化心理量表（如BDI-II），在无需训练数据的情况下匹配或超越有监督方法的性能，同时提供了临床可解释的评估结果。
 tags:
-  - ACL 2025
-  - 心理健康筛查
-  - 医学图像
-  - 心理量表
-  - 信息检索
-  - 可解释AI
+  - "ACL 2025"
+  - "医学图像"
+  - "心理健康筛查"
+  - "自适应RAG"
+  - "心理量表"
+  - "抑郁症检测"
+  - "可解释AI"
 ---
 
 # Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening through Psychometric Practice

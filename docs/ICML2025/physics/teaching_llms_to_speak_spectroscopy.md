@@ -2,17 +2,18 @@
 title: >-
   [论文解读] Teaching LLMs to Speak Spectroscopy
 description: >-
-  [ICML 2025 (ML4Astro Workshop)][LLM 微调] 仅使用 16 GPU 小时和 0.04% 的参数适配，通过 LoRA 将 **LLaMA-3.1-8B** 改造为可从光谱数据预测星系红移的模型，同时保留 85%+ 的语言能力，证明通用 LLM 可高效适配非文本科学模态。
+  [ICML 2025 (ML4Astro Workshop)][物理学][LLM 微调] 仅使用 16 GPU 小时和 0.04% 的参数适配，通过 LoRA 将 **LLaMA-3.1-8B** 改造为可从光谱数据预测星系红移的模型，同时保留 85%+ 的语言能力，证明通用 LLM 可高效适配非文本科学模态…
 tags:
-  - ICML 2025 (ML4Astro Workshop)
-  - 物理学
-  - LoRA
-  - 光谱分析
-  - 红移预测
-  - 星系
-  - LLaMA
-  - 跨模态学习
-  - 参数高效微调
+  - "ICML 2025 (ML4Astro Workshop)"
+  - "物理学"
+  - "LLM 微调"
+  - "LoRA"
+  - "光谱分析"
+  - "红移预测"
+  - "星系"
+  - "LLaMA"
+  - "跨模态学习"
+  - "参数高效微调"
 ---
 
 # Teaching LLMs to Speak Spectroscopy
@@ -120,7 +121,7 @@ $$W + \Delta W = W + BA, \quad B \in \mathbb{R}^{d \times r}, A \in \mathbb{R}^{
 
 ### 关键发现
 
-1. **学习率 $10^{-4}$ 为最优平衡点**：MAE=0.043，语言能力退化 <15%
+1. **学习率 $10^{-4}$ 为最优平衡点**：MAE=0.043，语言能力退化 &lt;15%
 2. **Rank 8 最优**：更低的 rank 容量不足，更高的 rank 收益递减且语言退化加剧
 3. **2 个 epoch 最佳**：1 个 epoch 适配不充分，3 个 epoch 过拟合且知识遗忘加重
 4. **模型保留多模态推理能力**：微调后仍可回答关于红移 $z=0.315$ 处星系类型的领域问题

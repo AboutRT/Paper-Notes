@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML 2025][自监督学习][tabular data] 首个系统性研究含文本特征的表格数据建模：设计定性反例暴露三类文本嵌入的失败模式，手动策划 13 个真实数据集，发现文本特征在 11/13 数据集上提升预测精度，但无单一最优嵌入方法，表明表格+文本仍是未解决问题。
 tags:
-  - ICML 2025
-  - 自监督学习
-  - tabular data
-  - text features
-  - foundation model
-  - 自监督
-  - TabPFNv2
-  - embedding
+  - "ICML 2025"
+  - "自监督学习"
+  - "tabular data"
+  - "text features"
+  - "foundation model"
+  - "benchmark"
+  - "TabPFNv2"
+  - "embedding"
 ---
 
 # Towards Benchmarking Foundation Models for Tabular Data With Text

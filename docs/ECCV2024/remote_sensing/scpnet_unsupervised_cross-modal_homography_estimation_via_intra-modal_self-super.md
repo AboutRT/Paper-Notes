@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SCPNet: Unsupervised Cross-modal Homography Estimation via Intra-modal Self-supervised Learning
 description: >-
-  [ECCV 2024][遥感][单应性估计] 提出 SCPNet，通过模内自监督学习（intra-modal self-supervised learning）、相关性网络和一致性特征图投影三个关键组件的协同，首次在卫星-地图等大模态差距数据集上实现了有效的无监督跨模态单应性估计，MACE 比监督方法 MHN 低 14%。
+  [ECCV 2024][遥感][单应性估计] 提出 SCPNet，通过模内自监督学习（intra-modal self-supervised learning）、相关性网络和一致性特征图投影三个关键组件的协同，首次在卫星-地图等大模态差距数据集上实现了有效的无监督跨模态单应性估计…
 tags:
-  - ECCV 2024
-  - 遥感
-  - 单应性估计
-  - 无监督学习
-  - 跨模态
-  - 多光谱图像
+  - "ECCV 2024"
+  - "遥感"
+  - "单应性估计"
+  - "无监督学习"
+  - "跨模态"
+  - "自监督学习"
+  - "多光谱图像"
 ---
 
 # SCPNet: Unsupervised Cross-modal Homography Estimation via Intra-modal Self-supervised Learning

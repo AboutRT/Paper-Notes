@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Practical do-Shapley Explanations with Estimand-Agnostic Causal Inference
 description: >-
-  [NeurIPS 2025][Shapley值] 提出 Estimand-Agnostic（EA）方法和 Frontier-Reducibility Algorithm（FRA）来高效计算因果 Shapley 值（do-SV），通过训练单个 SCM 学习观测分布即可回答任意可辨识的因果查询，并通过联盟约减将计算量降低约 90%。
+  [NeurIPS 2025][因果推理][Shapley值] 提出 Estimand-Agnostic（EA）方法和 Frontier-Reducibility Algorithm（FRA）来高效计算因果 Shapley 值（do-SV），通过训练单个 SCM 学习观测分布即可回答任意可辨识的因果查询…
 tags:
-  - NeurIPS 2025
-  - Shapley值
-  - 因果推断
-  - do-SHAP
-  - 结构因果模型
-  - 可辨识性
+  - "NeurIPS 2025"
+  - "因果推理"
+  - "Shapley值"
+  - "因果推断"
+  - "do-SHAP"
+  - "结构因果模型"
+  - "可辨识性"
 ---
 
 # Practical do-Shapley Explanations with Estimand-Agnostic Causal Inference

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction
 description: >-
-  [ICLR 2026][图灵测试] 对9个SOTA语音对话系统开展首次语音图灵测试（2968次人类判断），发现所有系统均未通过（成功率7%-31%），瓶颈不在语义理解而在副语言特征、情感表达和对话人格，并构建了18维细粒度评估框架和可解释AI评审模型。
+  [ICLR 2026][社会计算][图灵测试] 对9个SOTA语音对话系统开展首次语音图灵测试（2968次人类判断），发现所有系统均未通过（成功率7%-31%），瓶颈不在语义理解而在副语言特征、情感表达和对话人格，并构建了18维细粒度评估框架和可解释AI评审模型。
 tags:
-  - ICLR 2026
-  - 图灵测试
-  - 社会计算
-  - 人类相似度
-  - S2S系统
-  - 细粒度评估
+  - "ICLR 2026"
+  - "社会计算"
+  - "图灵测试"
+  - "语音对话"
+  - "人类相似度"
+  - "S2S系统"
+  - "细粒度评估"
 ---
 
 # Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction

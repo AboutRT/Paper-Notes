@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D人体重建] 从单张图像生成可动画 3D 人体——先用适配的 CogVideo 生成多视角标准姿态图像（含法线），再将多视角不一致性建模为 4DGS 中的时序变化来提取一致的 canonical 空间高斯模型，最后通过 SMPL-X 蒙皮驱动动画。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D人体重建
-  - 高斯溅射
-  - 单图生成
-  - 视频扩散
-  - 4DGS
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D人体重建"
+  - "高斯溅射"
+  - "单图生成"
+  - "视频扩散"
+  - "4DGS"
 ---
 
 # AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction

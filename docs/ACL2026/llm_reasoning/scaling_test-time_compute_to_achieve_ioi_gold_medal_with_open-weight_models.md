@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][测试时计算] 提出 GenCluster，一个可扩展的测试时计算框架，通过大规模并行生成→行为聚类→锦标赛排名→循环提交策略，首次使开源模型 gpt-oss-120b 在 IOI 2025 上达到金牌水平（446.75/600 分）。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 测试时计算
-  - 竞赛编程
-  - IOI
-  - 行为聚类
-  - 开源模型
+  - "ACL 2026"
+  - "LLM推理"
+  - "测试时计算"
+  - "竞赛编程"
+  - "IOI"
+  - "行为聚类"
+  - "开源模型"
 ---
 
 # Scaling Test-Time Compute to Achieve IOI Gold Medal with Open-Weight Models

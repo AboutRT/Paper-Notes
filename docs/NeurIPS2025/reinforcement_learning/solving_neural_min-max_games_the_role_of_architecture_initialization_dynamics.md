@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Solving Neural Min-Max Games: The Role of Architecture, Initialization & Dynamics
 description: >-
-  [NeurIPS 2025][神经网络博弈] 首次为两层神经网络参数化的零和博弈提供收敛保证，证明在适当过参数化、随机初始化和交替梯度下降上升（AltGDA）下，能以高概率收敛到 $\epsilon$-近似纳什均衡。
+  [NeurIPS 2025][强化学习][神经网络博弈] 首次为两层神经网络参数化的零和博弈提供收敛保证，证明在适当过参数化、随机初始化和交替梯度下降上升（AltGDA）下，能以高概率收敛到 $\epsilon$-近似纳什均衡。
 tags:
-  - NeurIPS 2025
-  - 神经网络博弈
-  - 强化学习
-  - 过参数化
-  - 隐凸性
-  - AltGDA
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "神经网络博弈"
+  - "Min-Max优化"
+  - "过参数化"
+  - "隐凸性"
+  - "AltGDA"
 ---
 
 # Solving Neural Min-Max Games: The Role of Architecture, Initialization & Dynamics

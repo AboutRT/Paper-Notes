@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型] RAD通过为每个像素分配不同的噪声调度实现区域异步生成，仅需对vanilla扩散模型进行最小的结构改动（将FC层改为1×1卷积），就能在推理速度提升100倍的同时达到SOTA修复质量。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型
-  - 图像修复
-  - 区域感知
-  - 像素级噪声调度
-  - LoRA微调
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "图像修复"
+  - "区域感知"
+  - "像素级噪声调度"
+  - "LoRA微调"
 ---
 
 # RAD: Region-Aware Diffusion Models for Image Inpainting

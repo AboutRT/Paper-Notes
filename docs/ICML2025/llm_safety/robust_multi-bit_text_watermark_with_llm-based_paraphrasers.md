@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Robust Multi-bit Text Watermark with LLM-based Paraphrasers
 description: >-
-  [ICML 2025][AI安全][text watermark] 提出基于LLM释义器（paraphraser）的多比特文本水印方法，通过共训练一对行为差异化的释义器和一个解码分类器，利用PPO强化学习优化编码-解码对，在1.1B小模型上实现>99.99% AUC的检测精度，同时保持文本语义不变。
+  [ICML 2025][LLM安全][text watermark] 提出基于LLM释义器（paraphraser）的多比特文本水印方法，通过共训练一对行为差异化的释义器和一个解码分类器，利用PPO强化学习优化编码-解码对，在1.1B小模型上实现>99.99% AUC的检测精度，同时保持文本语义不变。
 tags:
-  - ICML 2025
-  - AI安全
-  - text watermark
-  - multi-bit
-  - paraphrasing
-  - PPO
-  - co-training
+  - "ICML 2025"
+  - "LLM安全"
+  - "text watermark"
+  - "multi-bit"
+  - "paraphrasing"
+  - "PPO"
+  - "co-training"
 ---
 
 # Robust Multi-bit Text Watermark with LLM-based Paraphrasers

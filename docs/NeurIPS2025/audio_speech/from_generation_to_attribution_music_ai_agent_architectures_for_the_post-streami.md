@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era
 description: >-
-  [NeurIPS 2025 (AI4Music Workshop)][语音][音乐AI代理] 提出一种基于内容的 Music AI Agent 架构，通过 Block 级检索和代理编排将版权归因直接嵌入音乐创作工作流，构建面向后流媒体时代的公平 AI 媒体平台。
+  [NeurIPS 2025 (AI4Music Workshop)][音频/语音][音乐AI代理] 提出一种基于内容的 Music AI Agent 架构，通过 Block 级检索和代理编排将版权归因直接嵌入音乐创作工作流，构建面向后流媒体时代的公平 AI 媒体平台。
 tags:
-  - NeurIPS 2025 (AI4Music Workshop)
-  - 语音
-  - 音乐AI代理
-  - 版权归因
-  - 流媒体平台
-  - 公平补偿
-  - 音频语音
+  - "NeurIPS 2025 (AI4Music Workshop)"
+  - "音频/语音"
+  - "音乐AI代理"
+  - "版权归因"
+  - "流媒体平台"
+  - "公平补偿"
+  - "智能体架构"
 ---
 
 # From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era

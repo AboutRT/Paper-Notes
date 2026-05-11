@@ -2,15 +2,15 @@
 title: >-
   [论文解读] You Only Need One Step: Fast Super-Resolution with Stable Diffusion via Scale Distillation
 description: >-
-  [ECCV 2024][图像复原][单步超分辨率] 提出YONOS-SR方法，通过尺度蒸馏（Scale Distillation）策略训练基于Stable Diffusion的超分辨率模型，仅需一步DDIM即可获得SOTA结果，速度比传统方法快200倍。
+  [ECCV 2024][图像恢复][单步超分辨率] 提出YONOS-SR方法，通过尺度蒸馏（Scale Distillation）策略训练基于Stable Diffusion的超分辨率模型，仅需一步DDIM即可获得SOTA结果，速度比传统方法快200倍。
 tags:
-  - ECCV 2024
-  - 图像复原
-  - 单步超分辨率
-  - 扩散模型蒸馏
-  - 尺度蒸馏
-  - 扩散模型
-  - 快速推理
+  - "ECCV 2024"
+  - "图像恢复"
+  - "单步超分辨率"
+  - "扩散模型蒸馏"
+  - "尺度蒸馏"
+  - "扩散模型"
+  - "快速推理"
 ---
 
 # You Only Need One Step: Fast Super-Resolution with Stable Diffusion via Scale Distillation

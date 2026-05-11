@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing Facial Privacy Protection via Weakening Diffusion Purification
 description: >-
-  [CVPR 2025][图像生成][人脸隐私保护] 本文通过学习逐时间步的无条件嵌入（unconditional embeddings）来削弱 LDM 反向扩散过程中的净化效应，并利用自注意力图引导保持结构一致性，在 CelebA-HQ 和 LADN 上平均 PSR 达 79.17%，同时 FID 优于所有竞争方法。
+  [CVPR 2025][图像生成][人脸隐私保护] 本文通过学习逐时间步的无条件嵌入（unconditional embeddings）来削弱 LDM 反向扩散过程中的净化效应，并利用自注意力图引导保持结构一致性，在 CelebA-HQ 和 LADN 上平均 PSR 达 79.17%…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 人脸隐私保护
-  - 扩散模型
-  - 对抗样本
-  - 扩散净化
-  - 自注意力引导
+  - "CVPR 2025"
+  - "图像生成"
+  - "人脸隐私保护"
+  - "扩散模型"
+  - "对抗样本"
+  - "扩散净化"
+  - "自注意力引导"
 ---
 
 # Enhancing Facial Privacy Protection via Weakening Diffusion Purification

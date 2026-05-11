@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CALF: Communication-Aware Learning Framework for Distributed Reinforcement Learning
 description: >-
-  [CVPR 2025][分布式RL] 本文提出 CALF 框架，通过在 RL 训练中注入可配置的网络延迟、抖动和丢包模型，使策略在部署到真实分布式边缘设备时性能退化降低约 3-4 倍，揭示网络条件是 sim-to-real 转移中被忽视的重要维度。
+  [CVPR 2025][强化学习][分布式RL] 本文提出 CALF 框架，通过在 RL 训练中注入可配置的网络延迟、抖动和丢包模型，使策略在部署到真实分布式边缘设备时性能退化降低约 3-4 倍，揭示网络条件是 sim-to-real 转移中被忽视的重要维度。
 tags:
-  - CVPR 2025
-  - 分布式RL
-  - 网络感知训练
-  - sim-to-real
-  - 延迟鲁棒性
-  - 边缘部署
+  - "CVPR 2025"
+  - "强化学习"
+  - "分布式RL"
+  - "网络感知训练"
+  - "sim-to-real"
+  - "延迟鲁棒性"
+  - "边缘部署"
 ---
 
 # CALF: Communication-Aware Learning Framework for Distributed Reinforcement Learning

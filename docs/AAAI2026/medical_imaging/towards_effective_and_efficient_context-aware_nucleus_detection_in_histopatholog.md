@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][细胞核检测] 提出一种高效的上下文感知细胞核检测方法，通过聚合历史已访问滑窗的现成特征替代额外裁剪大视野图像块来提供组织上下文，同时利用跨标注策略挖掘周围未标注核样本以增强模型的上下文适应性。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 细胞核检测
-  - 上下文感知
-  - 全切片图像
-  - 病理图像分析
-  - 伪标签
+  - "AAAI 2026"
+  - "医学图像"
+  - "细胞核检测"
+  - "上下文感知"
+  - "全切片图像"
+  - "病理图像分析"
+  - "伪标签"
 ---
 
 # Towards Effective and Efficient Context-aware Nucleus Detection in Histopathology Whole Slide Images

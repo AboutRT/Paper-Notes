@@ -2,15 +2,15 @@
 title: >-
   [论文解读] L2RSI: Cross-View LiDAR-Based Place Recognition for Large-Scale Urban Scenes via Remote Sensing Imagery
 description: >-
-  [NeurIPS 2025][自动驾驶][位置识别] 提出 L2RSI，首个利用高分辨率遥感影像实现超大规模（100km²）城市场景 LiDAR 位置识别的框架，通过语义对比学习对齐 LiDAR BEV 与遥感语义空间，并引入时空粒子估计（STPE）聚合连续查询的时空信息，在 100km² 范围内 Top-1 精度达 83.27%。
+  [NeurIPS 2025][自动驾驶][位置识别] 提出 L2RSI，首个利用高分辨率遥感影像实现超大规模（100km²）城市场景 LiDAR 位置识别的框架，通过语义对比学习对齐 LiDAR BEV 与遥感语义空间，并引入时空粒子估计（STPE）聚合连续查询的时空信息…
 tags:
-  - NeurIPS 2025
-  - 自动驾驶
-  - 位置识别
-  - LiDAR
-  - 遥感影像
-  - 跨视角检索
-  - 粒子估计
+  - "NeurIPS 2025"
+  - "自动驾驶"
+  - "位置识别"
+  - "LiDAR"
+  - "遥感影像"
+  - "跨视角检索"
+  - "粒子估计"
 ---
 
 # L2RSI: Cross-View LiDAR-Based Place Recognition for Large-Scale Urban Scenes via Remote Sensing Imagery
@@ -33,7 +33,7 @@ tags:
 
 **单模态方法**（PointNetVLAD、MinkLoc3D等）需要可靠的先验3D地图
 
-**跨模态方法**（LIP-Loc、VXP等）将LiDAR与其他模态对齐，但检索范围局限于已知路线或极小区域（<2km²）
+**跨模态方法**（LIP-Loc、VXP等）将LiDAR与其他模态对齐，但检索范围局限于已知路线或极小区域（&lt;2km²）
 
 **基于地图的方法**（OSM方案）受限于地图信息的稀疏性
 
@@ -104,7 +104,7 @@ $$P(x,y) = \sum_{m=1}^{M} A_m \cdot \exp\left(-\frac{(x-\mu_{xm})^2}{2\sigma_{xm
 
 ### 主实验
 
-在 LiRSI-XA 不同规模数据库上的 Recall@1 (<30m)：
+在 LiRSI-XA 不同规模数据库上的 Recall@1 (&lt;30m)：
 
 | 方法 | 4km² | 9km² | 16km² | 100km² |
 |------|------|------|-------|--------|

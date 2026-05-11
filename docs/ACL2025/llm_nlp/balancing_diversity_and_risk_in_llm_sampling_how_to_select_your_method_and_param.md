@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Balancing Diversity and Risk in LLM Sampling: How to Select Your Method and Parameter for Open-Ended Text Generation
 description: >-
-  [ACL 2025][文本生成][采样解码策略] 本文提出了一种基于上下文保持前缀树（CP-Trie）的系统性评估框架，通过不依赖概率和参数调优的指标来评估截断采样方法在多样性与风险之间的内在适应能力，并为实际应用中的参数选择提供指导。
+  [ACL 2025][LLM/NLP][采样解码策略] 本文提出了一种基于上下文保持前缀树（CP-Trie）的系统性评估框架，通过不依赖概率和参数调优的指标来评估截断采样方法在多样性与风险之间的内在适应能力，并为实际应用中的参数选择提供指导。
 tags:
-  - ACL 2025
-  - 文本生成
-  - 采样解码策略
-  - 截断采样
-  - 多样性与风险权衡
-  - 前缀树
-  - 参数选择
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "采样解码策略"
+  - "截断采样"
+  - "多样性与风险权衡"
+  - "前缀树"
+  - "参数选择"
 ---
 
 # Balancing Diversity and Risk in LLM Sampling: How to Select Your Method and Parameter for Open-Ended Text Generation

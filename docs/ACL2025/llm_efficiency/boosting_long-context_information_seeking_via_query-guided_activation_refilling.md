@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025 Main][LLM效率][长上下文] 本文提出ACRE（Activation Refilling）方法，通过构建双层KV缓存架构——L1层紧凑捕获全局信息、L2层提供局部详细信息——并利用输入查询动态从L2向L1补充相关条目，实现长上下文信息检索任务的高效处理，在性能和效率上均有显著提升。
 tags:
-  - ACL 2025 Main
-  - LLM效率
-  - 长上下文
-  - KV缓存
-  - 信息检索
-  - 动态注意力
-  - 激活重填
+  - "ACL 2025 Main"
+  - "LLM效率"
+  - "长上下文"
+  - "KV缓存"
+  - "信息检索"
+  - "动态注意力"
+  - "激活重填"
 ---
 
 # Boosting Long-Context Information Seeking via Query-Guided Activation Refilling

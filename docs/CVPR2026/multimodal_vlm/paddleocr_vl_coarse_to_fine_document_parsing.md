@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PaddleOCR-VL: Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing
 description: >-
-  [CVPR 2026][多模态][文档解析] PaddleOCR-VL 提出粗到细的文档解析架构：粗阶段用轻量级有效区域聚焦模块(VRFM)定位文档中的有效视觉区域并预测阅读顺序，细阶段用紧凑的0.9B视觉语言模型对裁剪区域进行精细识别，在最少视觉token和参数下实现文档解析SOTA。
+  [CVPR 2026][多模态VLM][文档解析] PaddleOCR-VL 提出粗到细的文档解析架构：粗阶段用轻量级有效区域聚焦模块(VRFM)定位文档中的有效视觉区域并预测阅读顺序，细阶段用紧凑的0.9B视觉语言模型对裁剪区域进行精细识别，在最少视觉token和参数下实现文档解析SOTA。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 文档解析
-  - 多模态VLM
-  - 粗到细处理
-  - 视觉冗余消除
-  - OCR
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "文档解析"
+  - "视觉语言模型"
+  - "粗到细处理"
+  - "视觉冗余消除"
+  - "OCR"
 ---
 
 # PaddleOCR-VL: Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing

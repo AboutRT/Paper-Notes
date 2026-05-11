@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Connecting the Dots: A Machine Learning Ready Dataset for Ionospheric Forecasting Models
 description: >-
-  [NeurIPS 2025 (Workshop on ML for Physical Sciences)][遥感][电离层预测] 作为2025 NASA Heliolab的成果，本文构建了首个全面的ML-ready电离层预测数据集，将太阳动力学观测站（SDO）极紫外辐照度嵌入、太阳风参数、行星际磁场、地磁活动指数、JPL稠密TEC全球电离层图、Madrigal稀疏TEC、太阳通量指数以及轨道力学参数等7大类异构数据源统一对齐到一致的时间-空间结构中，并在此基础上训练了包括LSTM、球面神经算子（SFNO）和GraphCast在内的多种时空预测架构，实现了对全球垂直总电子含量（vTEC）在安静和地磁活跃条件下长达12小时的自回归预测，超越了持续性基线。
+  [NeurIPS 2025 (Workshop on ML for Physical Sciences)][遥感][电离层预测] 作为2025 NASA Heliolab的成果，本文构建了首个全面的ML-ready电离层预测数据集…
 tags:
-  - NeurIPS 2025 (Workshop on ML for Physical Sciences)
-  - 遥感
-  - 电离层预测
-  - TEC全球预报
-  - 多源异构数据对齐
-  - 空间天气ML数据集
-  - 时空预测
+  - "NeurIPS 2025 (Workshop on ML for Physical Sciences)"
+  - "遥感"
+  - "电离层预测"
+  - "TEC全球预报"
+  - "多源异构数据对齐"
+  - "空间天气ML数据集"
+  - "时空预测"
 ---
 
 # Connecting the Dots: A Machine Learning Ready Dataset for Ionospheric Forecasting Models
@@ -108,7 +108,7 @@ tags:
 | TEC + 地磁指数 | 性能提升 | 反映磁层-电离层耦合 |
 | TEC + SDO EUV嵌入 | 性能提升 | 捕捉太阳EUV辐射的直接电离效应 |
 | 全部数据源 | 最佳性能 | 完整因果链信息 |
-| 安静条件（Kp<5） | 较好预测 | 物理过程更规律 |
+| 安静条件（Kp&lt;5） | 较好预测 | 物理过程更规律 |
 | 活跃条件（Kp≥5） | 预测退化 | 非线性耦合增强，物理过程更复杂 |
 
 ### 关键发现

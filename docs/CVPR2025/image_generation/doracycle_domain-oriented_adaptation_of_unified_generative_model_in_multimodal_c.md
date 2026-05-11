@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][域适应] 提出 DoraCycle 使用两个多模态循环（文→图→文 和 图→文→图）对统一多模态生成模型做无配对域适应，仅用无配对目标域数据即可接近全配对训练效果（FID 27.44 vs 24.93），10% 配对+90% 无配对时几乎无损（FID 25.37）。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 域适应
-  - 统一生成模型
-  - 循环一致性
-  - 无配对训练
-  - 多模态循环
+  - "CVPR 2025"
+  - "图像生成"
+  - "域适应"
+  - "统一生成模型"
+  - "循环一致性"
+  - "无配对训练"
+  - "多模态循环"
 ---
 
 # DoraCycle: Domain-Oriented Adaptation of Unified Generative Model in Multimodal Cycles

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][AI安全][backdoor attack] 提出SOLEFLIP，首个在量化模型上仅翻转一个比特位即可注入后门的推理阶段攻击方法，通过高效算法识别可利用的权重和比特位，并生成对应触发器，在CIFAR-10/SVHN/ImageNet上实现平均98.9%的攻击成功率且对正常精度零影响。
 tags:
-  - ICCV 2025
-  - AI安全
-  - backdoor attack
-  - bit-flip attack
-  - Rowhammer
-  - quantized model
-  - one-bit flip
+  - "ICCV 2025"
+  - "AI安全"
+  - "backdoor attack"
+  - "bit-flip attack"
+  - "Rowhammer"
+  - "quantized model"
+  - "one-bit flip"
 ---
 
 # Backdoor Attacks on Neural Networks via One-Bit Flip

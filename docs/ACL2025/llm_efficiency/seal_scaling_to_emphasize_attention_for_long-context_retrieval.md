@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SEAL: Scaling to Emphasize Attention for Long-Context Retrieval
 description: >-
-  [ACL 2025][注意力头缩放] SEAL 通过发现特定注意力头/通道对长上下文检索有正/负影响的现象，设计了头级和通道级可学习缩放因子，仅用50个合成样本微调即可大幅提升LLM长上下文检索性能，且缩放因子可离线合并至模型权重实现零推理开销。
+  [ACL 2025][LLM效率][注意力头缩放] SEAL 通过发现特定注意力头/通道对长上下文检索有正/负影响的现象，设计了头级和通道级可学习缩放因子，仅用50个合成样本微调即可大幅提升LLM长上下文检索性能，且缩放因子可离线合并至模型权重实现零推理开销。
 tags:
-  - ACL 2025
-  - 注意力头缩放
-  - 长上下文检索
-  - 通道级调整
-  - 合成数据微调
-  - LLM效率
+  - "ACL 2025"
+  - "LLM效率"
+  - "注意力头缩放"
+  - "长上下文检索"
+  - "通道级调整"
+  - "合成数据微调"
+  - "零推理开销"
 ---
 
 # SEAL: Scaling to Emphasize Attention for Long-Context Retrieval

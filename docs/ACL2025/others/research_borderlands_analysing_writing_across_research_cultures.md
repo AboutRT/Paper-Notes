@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][research culture] 通过访谈跨学科研究者构建学术写作文化规范框架（结构/风格/修辞/引用四类），并用计算指标量化11个CS社区的写作差异，揭示LLM在跨社区写作改编时存在严重的"同质化"倾向。
 tags:
-  - ACL 2025
-  - research culture
-  - cultural norms
-  - scientific writing
-  - 其他
-  - interdisciplinary research
-  - cultural competence
+  - "ACL 2025"
+  - "research culture"
+  - "cultural norms"
+  - "scientific writing"
+  - "LLM evaluation"
+  - "interdisciplinary research"
+  - "cultural competence"
 ---
 
 # Research Borderlands: Analysing Writing Across Research Cultures

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OmniCompliance-100K: A Multi-Domain Rule-Grounded Real-World Safety Compliance Dataset
 description: >-
-  [ACL 2026][医学图像][安全合规] 本文构建了首个大规模、多领域、基于真实案例的 LLM 安全合规数据集 OmniCompliance-100K，包含 12,985 条人工整理的法规/政策规则和 106,009 条通过 Web 搜索智能体采集的真实合规案例，覆盖 AI 安全、数据隐私、金融、医疗等 9 个领域，并通过广泛的基准实验揭示了当前 LLM 在安全合规能力上的系统性短板。
+  [ACL 2026][医学图像][安全合规] 本文构建了首个大规模、多领域、基于真实案例的 LLM 安全合规数据集 OmniCompliance-100K，包含 12,985 条人工整理的法规/政策规则和 106,009 条通过 Web 搜索智能体采集的真实合规案例…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 安全合规
-  - 真实案例数据集
-  - 多领域法规
-  - Web搜索智能体
-  - LLM基准测试
+  - "ACL 2026"
+  - "医学图像"
+  - "安全合规"
+  - "真实案例数据集"
+  - "多领域法规"
+  - "Web搜索智能体"
+  - "LLM基准测试"
 ---
 
 # OmniCompliance-100K: A Multi-Domain Rule-Grounded Real-World Safety Compliance Dataset

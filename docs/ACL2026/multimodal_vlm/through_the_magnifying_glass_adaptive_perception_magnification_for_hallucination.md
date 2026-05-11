@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Through the Magnifying Glass: Adaptive Perception Magnification for Hallucination-Free VLM Decoding
 description: >-
-  [ACL 2026][多模态][视觉幻觉缓解] 本文提出 Perception Magnifier (PM)，一种视觉解码方法，在每个自回归解码步基于多层注意力迭代识别关键视觉区域并自适应放大，通过提升关键区域的有效分辨率来缓解 VLM 的视觉幻觉，同时保持空间结构完整性和推理能力。
+  [ACL 2026][多模态VLM][视觉幻觉缓解] 本文提出 Perception Magnifier (PM)，一种视觉解码方法，在每个自回归解码步基于多层注意力迭代识别关键视觉区域并自适应放大，通过提升关键区域的有效分辨率来缓解 VLM 的视觉幻觉，同时保持空间结构完整性和推理能力。
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - 感知放大
-  - 注意力引导解码
-  - 迭代精炼
-  - 视觉语言模型
+  - "ACL 2026"
+  - "多模态VLM"
+  - "视觉幻觉缓解"
+  - "感知放大"
+  - "注意力引导解码"
+  - "迭代精炼"
+  - "视觉语言模型"
 ---
 
 # Through the Magnifying Glass: Adaptive Perception Magnification for Hallucination-Free VLM Decoding

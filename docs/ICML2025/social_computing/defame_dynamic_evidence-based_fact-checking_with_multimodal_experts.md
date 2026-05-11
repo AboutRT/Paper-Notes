@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts
 description: >-
-  [ICML 2025][多模态事实核查] 提出 DEFAME，一个模块化零样本多模态 LLM 流水线，通过六阶段动态流程（规划→执行→摘要→推理→判决→解释）结合外部多模态工具检索证据，实现端到端的文本-图像联合事实核查，在 AVeriTeC、MOCHEG、VERITE 三个基准上均达到新 SOTA。
+  [ICML 2025][社会计算][多模态事实核查] 提出 DEFAME，一个模块化零样本多模态 LLM 流水线，通过六阶段动态流程（规划→执行→摘要→推理→判决→解释）结合外部多模态工具检索证据，实现端到端的文本-图像联合事实核查…
 tags:
-  - ICML 2025
-  - 多模态事实核查
-  - 社会计算
-  - 检索增强生成
-  - 零样本推理
-  - 可解释AI
+  - "ICML 2025"
+  - "社会计算"
+  - "多模态事实核查"
+  - "大语言模型Agent"
+  - "检索增强生成"
+  - "零样本推理"
+  - "可解释AI"
 ---
 
 # DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts

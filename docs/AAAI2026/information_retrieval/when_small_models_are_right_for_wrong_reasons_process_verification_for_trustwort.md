@@ -2,14 +2,15 @@
 title: >-
   [论文解读] When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents
 description: >-
-  [AAAI 2026][信息检索] 通过分析 10,734 条推理轨迹揭示小型语言模型（7-9B）存在严重的"答对但理由错"（RWR）现象——50-69% 的正确答案包含根本性推理缺陷；提出推理完整性评分（RIS）作为过程级指标，发现 RAG 能有效改善推理质量而元认知干预反而有害，并蒸馏出快速分类器（0.86 F1, 100× 加速）用于实时部署。
+  [AAAI 2026][信息检索/RAG][小模型推理] 通过分析 10,734 条推理轨迹揭示小型语言模型（7-9B）存在严重的"答对但理由错"（RWR）现象——50-69% 的正确答案包含根本性推理缺陷；提出推理完整性评分（RIS）作为过程级指标，发现 RAG 能有效改善推理质量而元认知干预反而有害…
 tags:
-  - AAAI 2026
-  - 信息检索
-  - 过程验证
-  - 推理完整性
-  - RAG
-  - 元认知
+  - "AAAI 2026"
+  - "信息检索/RAG"
+  - "小模型推理"
+  - "过程验证"
+  - "推理完整性"
+  - "RAG"
+  - "元认知"
 ---
 
 # When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents

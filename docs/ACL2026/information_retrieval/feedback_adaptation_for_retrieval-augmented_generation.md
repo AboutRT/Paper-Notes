@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Feedback Adaptation for Retrieval-Augmented Generation
 description: >-
-  [ACL 2026][RAG] 本文提出"反馈适应"作为RAG系统的新问题设定——研究纠正性反馈多快、多有效地传播到未来查询，定义了纠正延迟和反馈后性能两个评估轴，并提出PatchRAG作为免训练的推理时反馈整合方案，实现即时纠正和强泛化。
+  [ACL 2026][信息检索/RAG][RAG] 本文提出"反馈适应"作为RAG系统的新问题设定——研究纠正性反馈多快、多有效地传播到未来查询，定义了纠正延迟和反馈后性能两个评估轴，并提出PatchRAG作为免训练的推理时反馈整合方案，实现即时纠正和强泛化。
 tags:
-  - ACL 2026
-  - RAG
-  - 反馈适应
-  - 纠正延迟
-  - PatchRAG
-  - 在线学习
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "RAG"
+  - "反馈适应"
+  - "纠正延迟"
+  - "PatchRAG"
+  - "在线学习"
 ---
 
 # Feedback Adaptation for Retrieval-Augmented Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating
 description: >-
-  [ACL 2025][多模态][长文档理解] 提出 LongDocURL 基准，覆盖理解/数值推理/跨元素定位三大任务类别共 20 个子任务，包含 2325 个高质量 QA 对、覆盖 33000+ 页文档，系统评估 26 种模型配置暴露了当前 LVLM 在长文档理解上的关键性能差距。
+  [ACL 2025][多模态VLM][长文档理解] 提出 LongDocURL 基准，覆盖理解/数值推理/跨元素定位三大任务类别共 20 个子任务，包含 2325 个高质量 QA 对、覆盖 33000+ 页文档，系统评估 26 种模型配置暴露了当前 LVLM 在长文档理解上的关键性能差距。
 tags:
-  - ACL 2025
-  - 多模态
-  - 长文档理解
-  - 多模态基准
-  - LVLM
-  - 跨元素定位
-  - 多模态VLM
+  - "ACL 2025"
+  - "多模态VLM"
+  - "长文档理解"
+  - "多模态基准"
+  - "LVLM"
+  - "跨元素定位"
+  - "文档问答"
 ---
 
 # LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating

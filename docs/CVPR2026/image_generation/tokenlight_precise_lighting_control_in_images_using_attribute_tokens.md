@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][relighting] 提出 TokenLight，将图像重光照表述为以属性 token（强度、颜色、环境光、漫反射级别、3D 光源位置）为条件的端到端图像生成任务，在扩散 Transformer 框架中实现精确、连续、可解释的光照控制。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - relighting
-  - attribute tokens
-  - Transformer
-  - lighting control
-  - synthetic data
+  - "CVPR 2026"
+  - "图像生成"
+  - "relighting"
+  - "attribute tokens"
+  - "Transformer"
+  - "lighting control"
+  - "synthetic data"
 ---
 
 # TokenLight: Precise Lighting Control in Images using Attribute Tokens

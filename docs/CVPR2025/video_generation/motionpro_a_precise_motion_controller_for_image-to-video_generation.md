@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MotionPro: A Precise Motion Controller for Image-to-Video Generation
 description: >-
-  [CVPR 2025][图像到视频生成] 提出 MotionPro，利用区域级轨迹（region-wise trajectory）和运动掩码（motion mask）双重信号，实现细粒度、可区分物体/相机运动的精确可控图像到视频生成。
+  [CVPR 2025][视频生成][图像到视频生成] 提出 MotionPro，利用区域级轨迹（region-wise trajectory）和运动掩码（motion mask）双重信号，实现细粒度、可区分物体/相机运动的精确可控图像到视频生成。
 tags:
-  - CVPR 2025
-  - 图像到视频生成
-  - 运动控制
-  - 区域轨迹
-  - 运动掩码
-  - 扩散模型
+  - "CVPR 2025"
+  - "视频生成"
+  - "图像到视频生成"
+  - "运动控制"
+  - "区域轨迹"
+  - "运动掩码"
+  - "扩散模型"
 ---
 
 # MotionPro: A Precise Motion Controller for Image-to-Video Generation

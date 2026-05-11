@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][失败预测] 提出 FIPER 框架，通过结合观测空间的 OOD 检测（RND）和动作空间的不确定性量化（ACE），在生成式机器人策略运行时无需失败数据即可实现早期失败预测。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 失败预测
-  - 模仿学习
-  - 扩散模型
-  - 分布外检测
-  - 共形预测
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "失败预测"
+  - "模仿学习"
+  - "扩散模型"
+  - "分布外检测"
+  - "共形预测"
 ---
 
 # Failure Prediction at Runtime for Generative Robot Policies

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][自监督学习][LLM微调] 提出L2D微调方法，将预训练LLM视为单步扩散模型，引入并行扩散路径实现多步推理缩放，不修改原始权重即可随推理步数增加获得单调递增的准确率，在4个LLM上的数学/编码/推理任务上取得一致提升。
 tags:
-  - ICML 2025
-  - 自监督学习
-  - 自监督
-  - 扩散框架
-  - 测试时缩放
-  - LoRA
-  - Classifier-free Guidance
+  - "ICML 2025"
+  - "自监督学习"
+  - "LLM微调"
+  - "扩散框架"
+  - "测试时缩放"
+  - "LoRA"
+  - "Classifier-free Guidance"
 ---
 
 # L2D: Large Language Models to Diffusion Finetuning

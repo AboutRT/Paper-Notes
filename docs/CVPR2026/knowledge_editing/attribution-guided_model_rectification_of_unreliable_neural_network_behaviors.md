@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Attribution-Guided Model Rectification of Unreliable Neural Network Behaviors
 description: >-
-  [CVPR 2026][rank-one model editing] 提出归因引导的动态模型纠正框架，将rank-one model editing从领域适配重定位为行为纠正，通过Integrated Gradients量化各层可编辑性自动定位嫌疑层，仅需1个清洁样本即可修复后门攻击、虚假相关和特征泄漏三类不可靠行为。
+  [CVPR 2026][知识编辑][rank-one model editing] 提出归因引导的动态模型纠正框架，将rank-one model editing从领域适配重定位为行为纠正，通过Integrated Gradients量化各层可编辑性自动定位嫌疑层…
 tags:
-  - CVPR 2026
-  - rank-one model editing
-  - 归因分析
-  - 知识编辑
-  - 虚假相关
-  - 模型纠正
+  - "CVPR 2026"
+  - "知识编辑"
+  - "rank-one model editing"
+  - "归因分析"
+  - "后门防御"
+  - "虚假相关"
+  - "模型纠正"
 ---
 
 # Attribution-Guided Model Rectification of Unreliable Neural Network Behaviors

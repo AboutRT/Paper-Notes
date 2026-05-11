@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][开放词汇3D场景理解] LightSplat 提出了一种快速且内存高效的无训练框架，通过为3D高斯分配紧凑的2字节语义索引（而非高维CLIP特征），配合轻量级索引-特征映射和单步3D聚类，实现了比现有SOTA快50-400倍、内存降低64倍的开放词汇3D场景理解。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 开放词汇3D场景理解
-  - 3D高斯溅射
-  - 语义索引注入
-  - 无训练框架
-  - 聚类推理
+  - "CVPR 2026"
+  - "3D视觉"
+  - "开放词汇3D场景理解"
+  - "3D高斯溅射"
+  - "语义索引注入"
+  - "无训练框架"
+  - "聚类推理"
 ---
 
 # LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds

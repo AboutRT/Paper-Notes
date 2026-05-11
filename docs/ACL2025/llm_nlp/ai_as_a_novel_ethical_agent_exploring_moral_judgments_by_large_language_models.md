@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][AI伦理] 本文系统地探索了大语言模型作为新型伦理主体的道德判断能力，通过构建覆盖多种伦理框架的测试基准，揭示了LLM在道德推理中的偏好模式、一致性缺陷和文化偏差。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - AI伦理
-  - 道德判断
-  - 大语言模型
-  - 道德推理
-  - 价值对齐
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "AI伦理"
+  - "道德判断"
+  - "大语言模型"
+  - "道德推理"
+  - "价值对齐"
 ---
 
 # AI as a Novel Ethical Agent: Exploring Moral Judgments by Large Language Models

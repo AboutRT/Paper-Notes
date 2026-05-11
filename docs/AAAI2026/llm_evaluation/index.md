@@ -3,6 +3,16 @@ title: >-
   AAAI2026 LLM 评测方向39篇论文解读
 description: >-
   39篇AAAI2026的 LLM 评测方向论文解读，涵盖 LLM、推理、对齐/RLHF、Agent、压缩/编码等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "AAAI2026"
+  - "LLM 评测"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "推理"
+  - "对齐/RLHF"
+  - "Agent"
+  - "压缩/编码"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +20,7 @@ description: >-
 
 **🤖 AAAI2026** · **39** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/llm_evaluation/index.md) · [📷 CVPR2026 (26)](../../CVPR2026/llm_evaluation/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (79)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (49)](../../ICML2025/llm_evaluation/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/llm_evaluation/index.md) · [📷 CVPR2026 (26)](../../CVPR2026/llm_evaluation/index.md) · [🔬 ICLR2026 (56)](../../ICLR2026/llm_evaluation/index.md) · [🧠 NeurIPS2025 (78)](../../NeurIPS2025/llm_evaluation/index.md) · [📹 ICCV2025 (27)](../../ICCV2025/llm_evaluation/index.md) · [🧪 ICML2025 (49)](../../ICML2025/llm_evaluation/index.md)
 
 🔥 **高频主题：** LLM ×5 · 推理 ×4 · 对齐/RLHF ×3 · Agent ×2 · 压缩/编码 ×2
 

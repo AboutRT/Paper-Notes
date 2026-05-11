@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][模型压缩][KV缓存压缩] 提出ASL（Adaptive Selection Layer），通过监控token注意力分数排名的方差来自适应确定KV缓存剪枝的层位置，在困难任务上显著优于固定层选择方法，同时保持无需训练。
 tags:
-  - ACL 2026
-  - 模型压缩
-  - KV缓存压缩
-  - 自适应层选择
-  - 注意力剪枝
-  - 长上下文推理
-  - 无训练方法
+  - "ACL 2026"
+  - "模型压缩"
+  - "KV缓存压缩"
+  - "自适应层选择"
+  - "注意力剪枝"
+  - "长上下文推理"
+  - "无训练方法"
 ---
 
 # Adaptive Layer Selection for Layer-Wise Token Pruning in LLM Inference

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][RNN] 本文提出一个黎曼几何框架，通过将表示空间度量从 RNN 状态空间拉回（pullback）到输入流形上，证明 RNN 通过动态变形（warping）其对任务变量的表示来执行计算——压缩无关输入、拉伸决策边界附近的空间，且这种变形不是副产物而是计算本身。
 tags:
-  - NeurIPS 2025
-  - RNN
-  - 黎曼几何
-  - 表示几何
-  - 动态系统
-  - 流形变形
+  - "NeurIPS 2025"
+  - "RNN"
+  - "黎曼几何"
+  - "表示几何"
+  - "动态系统"
+  - "流形变形"
 ---
 
 # RNNs Perform Task Computations by Dynamically Warping Neural Representations
@@ -91,7 +91,7 @@ tags:
 
 - 在上下文决策任务中，RNN 不仅压缩无关刺激的表示（已知现象），还在决策边界附近拉伸相关刺激的空间——这是一个此前未被报告的新发现
 - 工作记忆任务中环面的弯曲（非零曲率）表明"正交编码"的经典观点不够准确
-- 变形在不同非线性函数（Tanh、ReLU、Softplus、GeLU）下高度一致，测地距离差异 <0.023
+- 变形在不同非线性函数（Tanh、ReLU、Softplus、GeLU）下高度一致，测地距离差异 &lt;0.023
 - 框架可推广到 SSM 等其他动态系统架构
 
 ## 亮点与洞察

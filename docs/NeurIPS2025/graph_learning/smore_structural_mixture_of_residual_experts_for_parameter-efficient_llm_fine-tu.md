@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图学习][参数高效微调] 提出S'MoRE框架，将低秩残差专家组织成多层树状结构，通过层次化路由为每个token构建定制化的"残差树"，在与LoRA相当的参数量下实现指数级增长的结构灵活性，显著提升LLM微调效果。
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 参数高效微调
-  - 混合专家
-  - LoRA
-  - 图神经网络
-  - 结构灵活性
+  - "NeurIPS 2025"
+  - "图学习"
+  - "参数高效微调"
+  - "混合专家"
+  - "LoRA"
+  - "图神经网络"
+  - "结构灵活性"
 ---
 
 # S'MoRE: Structural Mixture of Residual Experts for Parameter-Efficient LLM Fine-tuning

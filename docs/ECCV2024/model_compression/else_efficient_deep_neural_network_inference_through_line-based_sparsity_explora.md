@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][模型压缩][事件驱动推理] 提出基于行稀疏性探索的事件抑制方法ELSE，利用激活图中相邻行的空间相关性来减少非零激活（事件）数量，在目标检测和姿态估计任务上实现3.14~6.49倍的计算节省，且可与现有事件抑制方法互补。
 tags:
-  - ECCV 2024
-  - 模型压缩
-  - 事件驱动推理
-  - 行稀疏性
-  - 激活图压缩
-  - 嵌入式AI
-  - 神经形态计算
+  - "ECCV 2024"
+  - "模型压缩"
+  - "事件驱动推理"
+  - "行稀疏性"
+  - "激活图压缩"
+  - "嵌入式AI"
+  - "神经形态计算"
 ---
 
 # ELSE: Efficient Deep Neural Network Inference through Line-based Sparsity Exploration

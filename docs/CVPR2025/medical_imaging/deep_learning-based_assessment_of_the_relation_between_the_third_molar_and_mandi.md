@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][医学图像][第三磨牙] 本文比较了局部学习(LL)、联邦学习(FL)和集中式学习(CL)三种范式在全景X光片上自动分类第三磨牙与下颌管重叠关系的性能，使用预训练ResNet-34作为骨干网络，发现集中式训练性能最优(AUC 0.831)，而FL在隐私保护前提下显著优于纯局部训练。
 tags:
-  - CVPR 2025
-  - 医学图像
-  - 第三磨牙
-  - 下颌管
-  - 联邦学习
-  - 全景X光片
-  - 深度学习分类
+  - "CVPR 2025"
+  - "医学图像"
+  - "第三磨牙"
+  - "下颌管"
+  - "联邦学习"
+  - "全景X光片"
+  - "深度学习分类"
 ---
 
 # Deep Learning-based Assessment of the Relation Between the Third Molar and Mandibular Canal on Panoramic Radiographs using Local, Centralized, and Federated Learning

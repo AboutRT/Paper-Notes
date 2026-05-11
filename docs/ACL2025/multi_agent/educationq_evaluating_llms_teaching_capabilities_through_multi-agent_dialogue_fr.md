@@ -2,14 +2,15 @@
 title: >-
   [论文解读] EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework
 description: >-
-  [ACL 2025][教学能力评估] 提出 EducationQ 多智能体对话框架，通过模拟真实课堂中教师-学生的形成性评估交互来评估 LLM 的教学能力，发现教学效果与模型规模或通用推理能力不呈线性关系，Llama 3.1 70B 在教学中表现最优。
+  [ACL 2025][LLM评测][教学能力评估] 提出 EducationQ 多智能体对话框架，通过模拟真实课堂中教师-学生的形成性评估交互来评估 LLM 的教学能力，发现教学效果与模型规模或通用推理能力不呈线性关系，Llama 3.1 70B 在教学中表现最优。
 tags:
-  - ACL 2025
-  - 教学能力评估
-  - LLM评测
-  - 形成性评估
-  - 教育AI
-  - LLM-as-Teacher
+  - "ACL 2025"
+  - "LLM评测"
+  - "教学能力评估"
+  - "多智能体"
+  - "形成性评估"
+  - "教育AI"
+  - "LLM-as-Teacher"
 ---
 
 # EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework

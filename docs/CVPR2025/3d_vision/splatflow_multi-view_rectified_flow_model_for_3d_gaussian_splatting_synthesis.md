@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯溅射] 提出 SplatFlow 框架，由多视图整流流（RF）模型和高斯溅射解码器（GSDecoder）组成，在潜空间中联合生成多视图图像、深度和相机位姿，并通过免训练反演和修复技术实现统一的 3DGS 生成与编辑。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 整流流模型
-  - 文本到3D生成
-  - 3D编辑
-  - 多视图生成
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "整流流模型"
+  - "文本到3D生成"
+  - "3D编辑"
+  - "多视图生成"
 ---
 
 # SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis

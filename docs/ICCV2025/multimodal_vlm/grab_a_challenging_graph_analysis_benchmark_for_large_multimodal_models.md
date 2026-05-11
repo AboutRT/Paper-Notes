@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models
 description: >-
-  [ICCV 2025][多模态][图表分析] GRAB 是一个面向大型多模态模型（LMM）的图表分析基准测试，包含 3284 道合成题目覆盖 5 个任务和 23 个图形属性，当前最强模型 Claude 3.5 Sonnet 仅达到 21.0% 的准确率，揭示了 LMM 在视觉分析推理方面的严重不足。
+  [ICCV 2025][多模态VLM][图表分析] GRAB 是一个面向大型多模态模型（LMM）的图表分析基准测试，包含 3284 道合成题目覆盖 5 个任务和 23 个图形属性，当前最强模型 Claude 3.5 Sonnet 仅达到 21.0% 的准确率，揭示了 LMM 在视觉分析推理方面的严重不足。
 tags:
-  - ICCV 2025
-  - 多模态
-  - 图表分析
-  - 多模态VLM
-  - 大型多模态模型
-  - 合成数据
-  - 视觉推理
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "图表分析"
+  - "benchmark"
+  - "大型多模态模型"
+  - "合成数据"
+  - "视觉推理"
 ---
 
 # GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models

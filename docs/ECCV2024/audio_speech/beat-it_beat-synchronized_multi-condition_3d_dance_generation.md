@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beat-It: Beat-Synchronized Multi-Condition 3D Dance Generation
 description: >-
-  [ECCV 2024][语音][Dance Generation] 提出 Beat-It 框架，通过将节拍条件从音乐中解耦并设计层次化多条件融合机制，实现了节拍同步且关键帧可控的 3D 舞蹈生成，在 AIST++ 上大幅领先现有方法。
+  [ECCV 2024][音频/语音][Dance Generation] 提出 Beat-It 框架，通过将节拍条件从音乐中解耦并设计层次化多条件融合机制，实现了节拍同步且关键帧可控的 3D 舞蹈生成，在 AIST++ 上大幅领先现有方法。
 tags:
-  - ECCV 2024
-  - 语音
-  - 音频语音
-  - Beat Synchronization
-  - 扩散模型
-  - Keyframe Control
-  - 3D Motion
+  - "ECCV 2024"
+  - "音频/语音"
+  - "Dance Generation"
+  - "Beat Synchronization"
+  - "扩散模型"
+  - "Keyframe Control"
+  - "3D Motion"
 ---
 
 # Beat-It: Beat-Synchronized Multi-Condition 3D Dance Generation

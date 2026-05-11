@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EA-Agent: A Structured Multi-Step Reasoning Agent for Entity Alignment
 description: >-
-  [ACL 2026][LLM Agent][实体对齐] 提出 EA-Agent，将实体对齐（EA）分解为结构化多步推理过程，通过工具池（三元组选择器+对齐工具+反思器）的规划和执行实现可解释的对齐决策，配合奖励引导的离线策略优化持续改进规划能力，在 DBP15K 上 Hits@1 提升高达 3.17%，同时减少冗余三元组带来的效率问题。
+  [ACL 2026][LLM Agent][实体对齐] 提出 EA-Agent，将实体对齐（EA）分解为结构化多步推理过程，通过工具池（三元组选择器+对齐工具+反思器）的规划和执行实现可解释的对齐决策，配合奖励引导的离线策略优化持续改进规划能力，在 DBP15K 上 Hits@1 提升高达 3.17%…
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 实体对齐
-  - 知识图谱
-  - 多步推理
-  - 工具规划
-  - 奖励引导优化
+  - "ACL 2026"
+  - "LLM Agent"
+  - "实体对齐"
+  - "知识图谱"
+  - "多步推理"
+  - "工具规划"
+  - "奖励引导优化"
 ---
 
 # EA-Agent: A Structured Multi-Step Reasoning Agent for Entity Alignment

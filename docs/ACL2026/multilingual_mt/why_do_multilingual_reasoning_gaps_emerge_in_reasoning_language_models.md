@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Why Do Multilingual Reasoning Gaps Emerge in Reasoning Language Models?
 description: >-
-  [ACL 2026][多语言推理差距] 本文首次系统分析了推理语言模型(RLMs)中多语言推理差距的来源，发现**语言理解失败**是主要原因，并提出通过检测理解失败后进行选择性翻译(Selective Translation)来高效弥补差距。
+  [ACL 2026][多语言/翻译][多语言推理差距] 本文首次系统分析了推理语言模型(RLMs)中多语言推理差距的来源，发现**语言理解失败**是主要原因，并提出通过检测理解失败后进行选择性翻译(Selective Translation)来高效弥补差距。
 tags:
-  - ACL 2026
-  - 多语言推理差距
-  - 多语言翻译
-  - 选择性翻译
-  - 推理语言模型
-  - 阶段归因分析
+  - "ACL 2026"
+  - "多语言/翻译"
+  - "多语言推理差距"
+  - "理解失败检测"
+  - "选择性翻译"
+  - "推理语言模型"
+  - "阶段归因分析"
 ---
 
 # Why Do Multilingual Reasoning Gaps Emerge in Reasoning Language Models?

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Constant Stepsize Local GD for Logistic Regression: Acceleration by Instability
 description: >-
-  [ICML2025][优化][Local GD] 证明了 Local GD 在分布式逻辑回归问题上可以使用**任意正步长** $\eta > 0$ 收敛，且通过允许初始不稳定阶段的非单调目标下降，可实现比现有凸优化最坏情况下界更快的 $\widetilde{\mathcal{O}}(M/(\gamma^5 R^2))$ 收敛速率。
+  [ICML2025][优化/理论][Local GD] 证明了 Local GD 在分布式逻辑回归问题上可以使用**任意正步长** $\eta > 0$ 收敛，且通过允许初始不稳定阶段的非单调目标下降…
 tags:
-  - ICML2025
-  - 优化
-  - Local GD
-  - 逻辑回归
-  - 分布式优化
-  - 大步长
-  - 稳定性边缘
-  - 联邦学习
+  - "ICML2025"
+  - "优化/理论"
+  - "Local GD"
+  - "逻辑回归"
+  - "分布式优化"
+  - "大步长"
+  - "稳定性边缘"
+  - "联邦学习"
 ---
 
 # Constant Stepsize Local GD for Logistic Regression: Acceleration by Instability

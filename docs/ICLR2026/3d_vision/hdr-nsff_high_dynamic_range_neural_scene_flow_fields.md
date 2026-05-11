@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][3D视觉][HDR reconstruction] 提出 HDR-NSFF，将 HDR 视频重建从传统的 2D 像素级融合范式转变为 4D 时空建模，从交替曝光单目视频中联合重建 HDR 辐射场、3D 场景流、几何和色调映射，实现了时空一致的动态 HDR 新视角合成。
 tags:
-  - ICLR2026
-  - 3D视觉
-  - HDR reconstruction
-  - neural scene flow fields
-  - dynamic scene
-  - tone-mapping
-  - 4D radiance field
+  - "ICLR2026"
+  - "3D视觉"
+  - "HDR reconstruction"
+  - "neural scene flow fields"
+  - "dynamic scene"
+  - "tone-mapping"
+  - "4D radiance field"
 ---
 
 # HDR-NSFF: High Dynamic Range Neural Scene Flow Fields

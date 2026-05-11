@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][对话系统][LLM evaluation] 提出 Auto-PRE 框架，通过自动资格考试从一致性、相关性、自信度三个维度筛选合格的 LLM 评估者，在无需人工标注的前提下实现了 SOTA 评估性能并大幅降低成本。
 tags:
-  - AAAI 2026
-  - 对话系统
-  - LLM evaluation
-  - peer review
-  - evaluator selection
-  - automatic qualification exam
-  - LLM-as-judge
+  - "AAAI 2026"
+  - "对话系统"
+  - "LLM evaluation"
+  - "peer review"
+  - "evaluator selection"
+  - "automatic qualification exam"
+  - "LLM-as-judge"
 ---
 
 # Auto-PRE: An Automatic and Cost-Efficient Peer-Review Framework for Language Generation Evaluation

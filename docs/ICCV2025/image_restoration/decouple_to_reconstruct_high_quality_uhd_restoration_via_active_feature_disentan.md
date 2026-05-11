@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Decouple to Reconstruct: High Quality UHD Restoration via Active Feature Disentanglement and Reversible Fusion
 description: >-
-  [ICCV 2025][图像恢复][UHD图像复原] 提出 D²R-UHDNet 框架，通过 Controlled Differential Disentangled VAE（CD²-VAE）将退化图像主动解耦为退化主导潜空间和背景主导特征，并利用复数域可逆多尺度融合网络处理背景特征，在仅 1M 参数下实现六项 UHD 复原任务的 SOTA。
+  [ICCV 2025][图像恢复][UHD图像复原] 提出 D²R-UHDNet 框架，通过 Controlled Differential Disentangled VAE（CD²-VAE）将退化图像主动解耦为退化主导潜空间和背景主导特征，并利用复数域可逆多尺度融合网络处理背景特征…
 tags:
-  - ICCV 2025
-  - 图像恢复
-  - UHD图像复原
-  - VAE
-  - 特征解耦
-  - 可逆网络
-  - 复数域融合
+  - "ICCV 2025"
+  - "图像恢复"
+  - "UHD图像复原"
+  - "VAE"
+  - "特征解耦"
+  - "可逆网络"
+  - "复数域融合"
 ---
 
 # Decouple to Reconstruct: High Quality UHD Restoration via Active Feature Disentanglement and Reversible Fusion

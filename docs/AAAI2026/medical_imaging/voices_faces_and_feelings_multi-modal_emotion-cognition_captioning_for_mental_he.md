@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Voices, Faces, and Feelings: Multi-modal Emotion-Cognition Captioning for Mental Health Understanding
 description: >-
-  [AAAI 2026][情感认知描述] 提出情感-认知协同多模态描述（ECMC）任务和框架，通过双流BridgeNet从视频、音频、文本中提取情感和认知特征，利用LLaMA生成自然语言描述，为心理健康评估提供可解释的情感-认知画像，显著提升辅助诊断的准确性和可解释性。
+  [AAAI 2026][医学图像][情感认知描述] 提出情感-认知协同多模态描述（ECMC）任务和框架，通过双流BridgeNet从视频、音频、文本中提取情感和认知特征，利用LLaMA生成自然语言描述，为心理健康评估提供可解释的情感-认知画像，显著提升辅助诊断的准确性和可解释性。
 tags:
-  - AAAI 2026
-  - 情感认知描述
-  - 医学图像
-  - 心理健康
-  - 大语言模型
-  - 抑郁检测
+  - "AAAI 2026"
+  - "医学图像"
+  - "情感认知描述"
+  - "多模态"
+  - "心理健康"
+  - "大语言模型"
+  - "抑郁检测"
 ---
 
 # Voices, Faces, and Feelings: Multi-modal Emotion-Cognition Captioning for Mental Health Understanding

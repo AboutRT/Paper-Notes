@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning Temporally Consistent Video Depth from Video Diffusion Priors
 description: >-
-  [CVPR 2025][视频生成] 提出 ChronoDepth——基于 Stable Video Diffusion (SVD) 的视频深度估计方法，通过在训练时为每帧独立采样噪声水平并在推理时使用无噪声前序帧作为上下文（Consistent Context-Aware Strategy），在保持空间精度的同时实现了 SOTA 的时序一致性，MFC 指标平均排名第一。
+  [CVPR 2025][视频生成][视频深度估计] 提出 ChronoDepth——基于 Stable Video Diffusion (SVD) 的视频深度估计方法，通过在训练时为每帧独立采样噪声水平并在推理时使用无噪声前序帧作为上下文（Consistent Context-Aware Strategy）…
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 时序一致性
-  - 视频扩散模型
-  - 上下文感知推理
-  - SVD微调
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频深度估计"
+  - "时序一致性"
+  - "视频扩散模型"
+  - "上下文感知推理"
+  - "SVD微调"
 ---
 
 # Learning Temporally Consistent Video Depth from Video Diffusion Priors

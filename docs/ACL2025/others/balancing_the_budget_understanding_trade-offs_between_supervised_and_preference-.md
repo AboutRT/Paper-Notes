@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][监督微调] 系统研究了在固定数据标注预算下，如何在监督微调（SFT）和偏好微调（PFT/DPO）两个阶段之间最优分配资源，发现低数据量时纯 SFT 最优，高预算时组合使用效果最佳，且仅将 <10% 预算分配给 SFT 就能解决 DPO 的冷启动问题并带来 15-20% 的数学推理提升。
 tags:
-  - ACL 2025
-  - 监督微调
-  - 其他
-  - 数据预算分配
-  - 冷启动问题
-  - DPO
+  - "ACL 2025"
+  - "监督微调"
+  - "偏好优化"
+  - "数据预算分配"
+  - "冷启动问题"
+  - "DPO"
 ---
 
 # Balancing the Budget: Understanding Trade-offs Between Supervised and Preference-Based Finetuning

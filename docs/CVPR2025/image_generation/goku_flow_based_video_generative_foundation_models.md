@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Goku: Flow Based Video Generative Foundation Models
 description: >-
-  [CVPR 2025][图像生成][rectified flow] Goku 是字节跳动与港大提出的 rectified flow Transformer 系列模型（2B/8B），首次将 rectified flow 用于图像-视频联合生成，配合全面的数据管线和大规模训练基础设施优化，在 VBench（84.85）和 GenEval（0.76）等基准上达到 SOTA。
+  [CVPR 2025][图像生成][rectified flow] Goku 是字节跳动与港大提出的 rectified flow Transformer 系列模型（2B/8B），首次将 rectified flow 用于图像-视频联合生成，配合全面的数据管线和大规模训练基础设施优化…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - rectified flow
-  - video generation
-  - joint image-video
-  - 3D VAE
-  - Transformer
-  - data curation
+  - "CVPR 2025"
+  - "图像生成"
+  - "rectified flow"
+  - "video generation"
+  - "joint image-video"
+  - "3D VAE"
+  - "Transformer"
+  - "data curation"
 ---
 
 # Goku: Flow Based Video Generative Foundation Models

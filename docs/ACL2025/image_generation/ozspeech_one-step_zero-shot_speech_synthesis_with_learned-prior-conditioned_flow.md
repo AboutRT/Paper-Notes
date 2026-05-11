@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][图像生成][Flow Matching] 提出OZSpeech，首个将最优传输条件流匹配(OT-CFM)与学习先验分布相结合实现单步采样的零样本TTS系统，在内容准确性(WER)、推理速度和模型大小上均大幅领先现有方法。
 tags:
-  - ACL2025
-  - 图像生成
-  - Flow Matching
-  - Zero-Shot TTS
-  - One-Step Sampling
-  - Learned Prior
-  - Neural Codec
+  - "ACL2025"
+  - "图像生成"
+  - "Flow Matching"
+  - "Zero-Shot TTS"
+  - "One-Step Sampling"
+  - "Learned Prior"
+  - "Neural Codec"
 ---
 
 # OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching

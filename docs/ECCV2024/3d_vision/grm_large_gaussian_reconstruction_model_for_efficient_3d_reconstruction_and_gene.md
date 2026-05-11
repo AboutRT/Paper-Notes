@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D高斯] 提出GRM，一种基于纯Transformer架构的前馈式3D重建模型，将稀疏视图(4张图)的像素通过pixel-aligned Gaussians转化为稠密的3D高斯表示，约0.1秒完成重建，结合多视图扩散模型可实现文本/图像到3D生成。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D高斯
-  - 稀疏视图重建
-  - 3D生成
-  - Transformer
-  - 前馈式重建
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D高斯"
+  - "稀疏视图重建"
+  - "3D生成"
+  - "Transformer"
+  - "前馈式重建"
 ---
 
 # GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation

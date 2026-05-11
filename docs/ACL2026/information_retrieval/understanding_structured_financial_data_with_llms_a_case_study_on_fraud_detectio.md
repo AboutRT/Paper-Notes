@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Understanding Structured Financial Data with LLMs: A Case Study on Fraud Detection
 description: >-
-  [ACL 2026][信息检索] 本文提出 FinFRE-RAG，一种两阶段框架，通过重要性引导的特征降维将高维表格交易数据序列化为自然语言，并结合标签感知的检索增强上下文学习，使开源 LLM 在金融欺诈检测上的 F1/MCC 大幅提升，缩小了与专用表格分类器的性能差距。
+  [ACL 2026][信息检索/RAG][欺诈检测] 本文提出 FinFRE-RAG，一种两阶段框架，通过重要性引导的特征降维将高维表格交易数据序列化为自然语言，并结合标签感知的检索增强上下文学习，使开源 LLM 在金融欺诈检测上的 F1/MCC 大幅提升，缩小了与专用表格分类器的性能差距。
 tags:
-  - ACL 2026
-  - 信息检索
-  - 表格数据
-  - 检索增强生成
-  - 特征选择
-  - 上下文学习
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "欺诈检测"
+  - "表格数据"
+  - "检索增强生成"
+  - "特征选择"
+  - "上下文学习"
 ---
 
 # Understanding Structured Financial Data with LLMs: A Case Study on Fraud Detection

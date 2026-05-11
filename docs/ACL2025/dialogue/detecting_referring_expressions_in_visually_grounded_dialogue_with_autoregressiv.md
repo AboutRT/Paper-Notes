@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Detecting Referring Expressions in Visually Grounded Dialogue with Autoregressive Language Models
 description: >-
-  [ACL 2025][LLM/NLP][mention detection] 本文将视觉对话中的指称表达检测建模为自回归 token 预测任务，通过对 Llama 3.1-8B 进行参数高效微调 (QLoRA)，证明仅使用文本上下文即可有效检测视觉对话中的 mention span，在 AGOS 和 PhotoBook 数据集上 F1 达 0.90 和 0.94。
+  [ACL 2025][对话系统][mention detection] 本文将视觉对话中的指称表达检测建模为自回归 token 预测任务，通过对 Llama 3.1-8B 进行参数高效微调 (QLoRA)，证明仅使用文本上下文即可有效检测视觉对话中的 mention span…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - mention detection
-  - referring expressions
-  - visually grounded dialogue
-  - 自回归语言模型
-  - 参数高效微调
+  - "ACL 2025"
+  - "对话系统"
+  - "mention detection"
+  - "referring expressions"
+  - "visually grounded dialogue"
+  - "自回归语言模型"
+  - "参数高效微调"
 ---
 
 # Detecting Referring Expressions in Visually Grounded Dialogue with Autoregressive Language Models

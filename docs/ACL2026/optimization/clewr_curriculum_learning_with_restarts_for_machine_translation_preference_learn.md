@@ -2,15 +2,15 @@
 title: >-
   [论文解读] CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning
 description: >-
-  [ACL 2026][优化][课程学习] 本文提出 CLewR（Curriculum Learning with Restarts），一种在偏好优化训练中按易到难排序并在每个 epoch 重启课程的策略，有效缓解灾难性遗忘问题，在多个模型家族（Gemma2、Qwen2.5、Llama3.1）和多种偏好优化算法（DPO、CPO、ARPO）上持续提升机器翻译性能。
+  [ACL 2026][优化/理论][课程学习] 本文提出 CLewR（Curriculum Learning with Restarts），一种在偏好优化训练中按易到难排序并在每个 epoch 重启课程的策略，有效缓解灾难性遗忘问题…
 tags:
-  - ACL 2026
-  - 优化
-  - 课程学习
-  - 偏好优化
-  - 机器翻译
-  - 灾难性遗忘
-  - DPO
+  - "ACL 2026"
+  - "优化/理论"
+  - "课程学习"
+  - "偏好优化"
+  - "机器翻译"
+  - "灾难性遗忘"
+  - "DPO"
 ---
 
 # CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning

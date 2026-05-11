@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Perception Characteristics Distance: Measuring Stability and Robustness of Perception System in Dynamic Conditions under a Certain Decision Rule
 description: >-
-  [CVPR2026][自动驾驶][感知评估指标] 提出 Perception Characteristics Distance (PCD)，一种量化感知系统在不同距离下可靠检测能力的新指标，通过统计建模检测置信度随距离的均值和方差变化，定义感知系统的最大可靠检测距离，弥补传统 AP/IoU 等静态指标无法反映距离依赖性和随机性的不足。
+  [CVPR2026][自动驾驶][感知评估指标] 提出 Perception Characteristics Distance (PCD)，一种量化感知系统在不同距离下可靠检测能力的新指标，通过统计建模检测置信度随距离的均值和方差变化，定义感知系统的最大可靠检测距离…
 tags:
-  - CVPR2026
-  - 自动驾驶
-  - 感知评估指标
-  - 距离可靠性
-  - 不确定性建模
-  - 方差变化点检测
-  - 自动驾驶安全
+  - "CVPR2026"
+  - "自动驾驶"
+  - "感知评估指标"
+  - "距离可靠性"
+  - "不确定性建模"
+  - "方差变化点检测"
+  - "自动驾驶安全"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

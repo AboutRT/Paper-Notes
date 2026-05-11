@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Error Notebook-Guided, Training-Free Part Retrieval in 3D CAD Assemblies via Vision-Language Models
 description: >-
-  [ICLR 2026][多模态][CAD零件检索] 提出一种无训练的两阶段VLM框架，通过Error Notebook记录纠正后的推理轨迹并结合RAG进行推理时适应，在3D CAD装配体的规格驱动零件检索任务上，GPT-4o准确率从41.7%提升至65.1%（+23.4%），并通过语法约束验证器进一步提升4.5%。
+  [ICLR 2026][多模态VLM][CAD零件检索] 提出一种无训练的两阶段VLM框架，通过Error Notebook记录纠正后的推理轨迹并结合RAG进行推理时适应，在3D CAD装配体的规格驱动零件检索任务上，GPT-4o准确率从41.7%提升至65.1%（+23.4%）…
 tags:
-  - ICLR 2026
-  - 多模态
-  - CAD零件检索
-  - 多模态VLM
-  - Error Notebook
-  - RAG
-  - 无训练VLM推理
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "CAD零件检索"
+  - "推理时适应"
+  - "Error Notebook"
+  - "RAG"
+  - "无训练VLM推理"
 ---
 
 # Error Notebook-Guided, Training-Free Part Retrieval in 3D CAD Assemblies via Vision-Language Models
@@ -78,7 +78,7 @@ tags:
 
 **与其他无训练基线对比（GPT-4o, 人类偏好数据集）:**
 
-| 方法 | Overall↑ | <10零件 | 10-20零件 |
+| 方法 | Overall↑ | &lt;10零件 | 10-20零件 |
 |------|----------|---------|-----------|
 | Standard few-shot | 37.7% | 42.9% | 29.4% |
 | Self-consistency | 54.8% | 61.7% | 42.6% |
@@ -86,9 +86,9 @@ tags:
 
 ### 消融实验
 - **Exemplar数量**: 1到50个示例对最终准确率影响很小（~3%波动），说明关键因素是Error Notebook本身而非示例数量
-- **CoT vs Non-CoT**: 对简单装配体（<10零件），无CoT的直接答案反而更好；对复杂装配体（10-50零件），CoT推理一致性地优于无CoT
+- **CoT vs Non-CoT**: 对简单装配体（&lt;10零件），无CoT的直接答案反而更好；对复杂装配体（10-50零件），CoT推理一致性地优于无CoT
 - **开源模型验证**: Qwen2-VL-2B从0.8%提升到6.4%（+5.6%），跨模型设置（用GPT-4o构建Error Notebook）下进一步到8.4%（+7.6%）
-- **跨模型GC设置**: 2B模型配GPT-4o的Error Notebook后，在人类偏好数据集<10件组中仅落后GPT-4o mini约4个点
+- **跨模型GC设置**: 2B模型配GPT-4o的Error Notebook后，在人类偏好数据集&lt;10件组中仅落后GPT-4o mini约4个点
 
 ### 关键发现
 - Error Notebook的增益在所有模型和零件数量分组中一致存在，包括挑战性极高的>50零件组

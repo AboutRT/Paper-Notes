@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][long video QA] 提出 SVAgent，一个故事线引导的跨模态多智能体框架用于长视频问答，通过渐进式构建叙事表示、DPP 证据选择、跨模态一致性验证和迭代精炼实现超越基线 5.5%-11.5% 的性能提升。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - long video QA
-  - multi-agent
-  - storyline
-  - 跨模态
-  - DPP
+  - "CVPR 2026"
+  - "视频理解"
+  - "long video QA"
+  - "multi-agent"
+  - "storyline"
+  - "跨模态"
+  - "DPP"
 ---
 
 # SVAgent: Storyline-Guided Long Video Understanding via Cross-Modal Multi-Agent Collaboration

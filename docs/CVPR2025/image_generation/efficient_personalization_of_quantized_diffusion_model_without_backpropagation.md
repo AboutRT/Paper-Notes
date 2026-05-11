@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][扩散模型个性化] 本文提出 ZOODiP，通过零阶优化在量化后的扩散模型上进行个性化（Textual Inversion），利用子空间梯度投影去噪和部分时间步采样加速训练，仅用 2.37GB 显存和前向传播即可达到与梯度方法可比的个性化效果，内存节省最高 8.2 倍。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 扩散模型个性化
-  - 量化模型
-  - 零阶优化
-  - 内存高效微调
-  - 边缘设备
+  - "CVPR 2025"
+  - "图像生成"
+  - "扩散模型个性化"
+  - "量化模型"
+  - "零阶优化"
+  - "内存高效微调"
+  - "边缘设备"
 ---
 
 # Efficient Personalization of Quantized Diffusion Model without Backpropagation (ZOODiP)

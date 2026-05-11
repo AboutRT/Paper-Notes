@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][表征学习] 通过将2D基础模型特征提升到3D Gaussian表示中实现多视角融合，再用渲染的3D感知特征反向微调2D模型，以线性探测即可提升语义分割和深度估计性能。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 表征学习
-  - 3D Gaussian Splatting
-  - 基础模型微调
-  - 特征蒸馏
-  - 多视角一致性
+  - "ECCV 2024"
+  - "3D视觉"
+  - "表征学习"
+  - "3D Gaussian Splatting"
+  - "基础模型微调"
+  - "特征蒸馏"
+  - "多视角一致性"
 ---
 
 # Improving 2D Feature Representations by 3D-Aware Fine-Tuning

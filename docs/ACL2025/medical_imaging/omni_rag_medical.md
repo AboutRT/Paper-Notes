@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][医学图像][RAG] 本文提出了 MedOmniKB 医学多源知识库和 Source Planning Optimisation (SPO) 方法，通过让专家模型探索多源检索计划并训练小模型学习源对齐，显著提升了医学多源检索规划能力，使 7B 小模型超越 72B 大模型。
 tags:
-  - ACL 2025
-  - 医学图像
-  - RAG
-  - medical QA
-  - source planning
-  - multi-source retrieval
-  - knowledge base
+  - "ACL 2025"
+  - "医学图像"
+  - "RAG"
+  - "medical QA"
+  - "source planning"
+  - "multi-source retrieval"
+  - "knowledge base"
 ---
 
 # Towards Omni-RAG: Comprehensive Retrieval-Augmented Generation for Large Language Models in Medical Applications

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D功能可供性] 提出Affostruction，通过稀疏体素融合的生成式重建完成物体几何（包括未观测区域），并用Flow Matching建模功能可供性的多模态分布，在完整3D形状上实现功能区域定位，重建IoU提升54.8%、affordance aIoU提升40.4%。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D功能可供性
-  - 生成式重建
-  - 稀疏体素融合
-  - Flow Matching
-  - 主动视角选择
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D功能可供性"
+  - "生成式重建"
+  - "稀疏体素融合"
+  - "Flow Matching"
+  - "主动视角选择"
 ---
 
 # Affostruction: 3D Affordance Grounding with Generative Reconstruction

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on RAG Systems
 description: >-
-  [ACL 2025][共指消解] 本文系统研究了共指消解（coreference resolution）对 RAG 系统中文档检索和问答生成两阶段的影响，发现共指消解能一致性提升检索性能（尤其 mean pooling 模型受益最大），在 QA 任务中小模型的性能提升显著大于大模型，甚至使小模型达到大模型的基线水平。
+  [ACL 2025][信息检索/RAG][共指消解] 本文系统研究了共指消解（coreference resolution）对 RAG 系统中文档检索和问答生成两阶段的影响，发现共指消解能一致性提升检索性能（尤其 mean pooling 模型受益最大），在 QA 任务中小模型的性能提升显著大于大模型…
 tags:
-  - ACL 2025
-  - 共指消解
-  - RAG
-  - 检索增强生成
-  - 嵌入模型
-  - 信息检索
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "共指消解"
+  - "RAG"
+  - "检索增强生成"
+  - "嵌入模型"
+  - "问答系统"
 ---
 
 # From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on RAG Systems

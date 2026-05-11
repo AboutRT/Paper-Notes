@@ -3,6 +3,17 @@ title: >-
   ACL2026 LLM Agent方向41篇论文解读
 description: >-
   41篇ACL2026的 LLM Agent 方向论文解读，涵盖 Agent、LLM、对抗鲁棒、推理、代码智能、对齐/RLHF等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ACL2026"
+  - "LLM Agent"
+  - "论文解读"
+  - "论文笔记"
+  - "Agent"
+  - "LLM"
+  - "对抗鲁棒"
+  - "推理"
+  - "代码智能"
+  - "对齐/RLHF"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **💬 ACL2026** · **41** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (15)](../../CVPR2026/llm_agent/index.md) · [🔬 ICLR2026 (40)](../../ICLR2026/llm_agent/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (50)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md) · [🧪 ICML2025 (15)](../../ICML2025/llm_agent/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (15)](../../CVPR2026/llm_agent/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_agent/index.md) · [🤖 AAAI2026 (44)](../../AAAI2026/llm_agent/index.md) · [🧠 NeurIPS2025 (50)](../../NeurIPS2025/llm_agent/index.md) · [📹 ICCV2025 (4)](../../ICCV2025/llm_agent/index.md) · [🧪 ICML2025 (15)](../../ICML2025/llm_agent/index.md)
 
 🔥 **高频主题：** Agent ×19 · LLM ×16 · 对抗鲁棒 ×3 · 推理 ×3 · 代码智能 ×2
 

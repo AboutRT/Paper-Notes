@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][Flow Matching] 提出 Surf2CT，一种级联式 3D Flow Matching 框架，首次实现仅从外部体表扫描和人口学数据（年龄、性别、身高、体重）合成完整的高分辨率 3D CT 体积，无需任何内部成像输入。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - Flow Matching
-  - CT 合成
-  - 体表扫描
-  - 3D 生成
-  - 非侵入式成像
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "Flow Matching"
+  - "CT 合成"
+  - "体表扫描"
+  - "3D 生成"
+  - "非侵入式成像"
 ---
 
 # Surf2CT: Cascaded 3D Flow Matching Models for Torso 3D CT Synthesis from Skin Surface

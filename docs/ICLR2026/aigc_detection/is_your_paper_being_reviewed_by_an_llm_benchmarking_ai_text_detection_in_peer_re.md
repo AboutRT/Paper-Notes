@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR2026][AIGC检测][文本检测] 构建了迄今最大的 AI 生成同行评审数据集（788,984 篇评审），系统评估了 18 种 AI 文本检测方法在同行评审场景下的表现，并提出了利用论文原文作为上下文的 Anchor 检测方法，在低误报率下大幅超越所有基线。
 tags:
-  - ICLR2026
-  - AIGC检测
-  - 文本检测
-  - peer review
-  - LLM-generated text
-  - benchmark
-  - scientific integrity
+  - "ICLR2026"
+  - "AIGC检测"
+  - "文本检测"
+  - "peer review"
+  - "LLM-generated text"
+  - "benchmark"
+  - "scientific integrity"
 ---
 
 # Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review

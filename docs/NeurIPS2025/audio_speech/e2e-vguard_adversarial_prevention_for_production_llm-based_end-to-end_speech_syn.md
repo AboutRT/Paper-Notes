@@ -2,15 +2,15 @@
 title: >-
   [论文解读] E2E-VGuard: Adversarial Prevention for Production LLM-based End-To-End Speech Synthesis
 description: >-
-  [NEURIPS2025][语音][voice cloning defense] 针对基于 LLM 的端到端语音合成中的声音克隆威胁，提出 E2E-VGuard 主动防御框架，通过编码器集成扰动音色、对抗样本干扰 ASR 发音识别、以及心理声学模型保证不可感知性，在 19 个 TTS 模型和 7 个 ASR 系统上验证了有效性。
+  [NEURIPS2025][音频/语音][voice cloning defense] 针对基于 LLM 的端到端语音合成中的声音克隆威胁，提出 E2E-VGuard 主动防御框架，通过编码器集成扰动音色、对抗样本干扰 ASR 发音识别、以及心理声学模型保证不可感知性…
 tags:
-  - NEURIPS2025
-  - 语音
-  - voice cloning defense
-  - adversarial examples
-  - speech synthesis
-  - psychoacoustic model
-  - 音频语音
+  - "NEURIPS2025"
+  - "音频/语音"
+  - "voice cloning defense"
+  - "adversarial examples"
+  - "speech synthesis"
+  - "psychoacoustic model"
+  - "LLM-based TTS"
 ---
 
 # E2E-VGuard: Adversarial Prevention for Production LLM-based End-To-End Speech Synthesis

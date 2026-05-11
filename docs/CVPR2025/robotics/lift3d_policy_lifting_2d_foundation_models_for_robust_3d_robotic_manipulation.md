@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation
 description: >-
-  [CVPR 2025][机器人][3D机器人操控] Lift3D提出了一个两阶段框架，先通过任务感知MAE重建深度信息增强2D基础模型的隐式3D感知能力，再通过将3D点云投影到虚拟平面建立与2D位置嵌入的映射关系来直接让2D模型编码点云数据，在MetaWorld上平均成功率达83.9%（超越前SOTA DP3的65.3%达18.6个百分点）。
+  [CVPR 2025][机器人][3D机器人操控] Lift3D提出了一个两阶段框架，先通过任务感知MAE重建深度信息增强2D基础模型的隐式3D感知能力，再通过将3D点云投影到虚拟平面建立与2D位置嵌入的映射关系来直接让2D模型编码点云数据…
 tags:
-  - CVPR 2025
-  - 机器人
-  - 3D机器人操控
-  - 2D基础模型
-  - 点云编码
-  - 位置嵌入提升
-  - 隐式3D表示
+  - "CVPR 2025"
+  - "机器人"
+  - "3D机器人操控"
+  - "2D基础模型"
+  - "点云编码"
+  - "位置嵌入提升"
+  - "隐式3D表示"
 ---
 
 # Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation

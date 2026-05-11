@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SP3D: Boosting Sparsely-Supervised 3D Object Detection via Accurate Cross-Modal Semantic Prompts
 description: >-
-  [CVPR 2025][3D视觉][稀疏监督] 提出 SP3D 两阶段训练策略，利用大多模态模型 (LMMs) 生成精确跨模态语义提示，通过动态聚类伪标签生成和分布形状评分，在极低标注率（2%）下大幅提升稀疏监督 3D 目标检测性能。
+  [CVPR 2025][目标检测][稀疏监督] 提出 SP3D 两阶段训练策略，利用大多模态模型 (LMMs) 生成精确跨模态语义提示，通过动态聚类伪标签生成和分布形状评分，在极低标注率（2%）下大幅提升稀疏监督 3D 目标检测性能。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 稀疏监督
-  - 3D目标检测
-  - 跨模态语义提示
-  - 伪标签生成
-  - 大多模态模型
+  - "CVPR 2025"
+  - "目标检测"
+  - "稀疏监督"
+  - "3D目标检测"
+  - "跨模态语义提示"
+  - "伪标签生成"
+  - "大多模态模型"
 ---
 
 # SP3D: Boosting Sparsely-Supervised 3D Object Detection via Accurate Cross-Modal Semantic Prompts

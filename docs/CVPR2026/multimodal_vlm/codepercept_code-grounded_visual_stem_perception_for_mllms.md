@@ -2,15 +2,16 @@
 title: >-
   [论文解读] CodePercept: Code-Grounded Visual STEM Perception for MLLMs
 description: >-
-  [CVPR 2026][STEM视觉感知] 通过系统性缩放分析发现感知（perception）而非推理（reasoning）是 MLLM 在 STEM 领域的真正瓶颈，提出以可执行 Python 代码为锚定媒介的 CodePercept 范式——构建 100 万级 ICC-1M 数据集和 STEM2Code-Eval 基准，在 SFT+RL 两阶段训练后显著提升 MLLM 的 STEM 视觉感知和下游推理能力。
+  [CVPR 2026][多模态VLM][STEM视觉感知] 通过系统性缩放分析发现感知（perception）而非推理（reasoning）是 MLLM 在 STEM 领域的真正瓶颈，提出以可执行 Python 代码为锚定媒介的 CodePercept 范式——构建 100 万级 ICC-1M 数据集和 ST…
 tags:
-  - CVPR 2026
-  - STEM视觉感知
-  - 多模态VLM
-  - 图像重建
-  - 代码锚定字幕
-  - 多模态大模型
-  - 感知增强
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "STEM视觉感知"
+  - "可执行代码"
+  - "图像重建"
+  - "代码锚定字幕"
+  - "多模态大模型"
+  - "感知增强"
 ---
 
 # CodePercept: Code-Grounded Visual STEM Perception for MLLMs

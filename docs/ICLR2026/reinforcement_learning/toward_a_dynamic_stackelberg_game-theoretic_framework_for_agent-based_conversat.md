@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Toward a Dynamic Stackelberg Game-Theoretic Framework for Agent-Based Conversational AI Defense Against LLM Jailbreaking
 description: >-
-  [ICLR 2026][game theory] 将 LLM 越狱攻防形式化为动态 Stackelberg 扩展形式博弈，结合快速扩展随机树 (RRT) 搜索提示空间，提出 Purple Agent 防御架构实现"红队思维，蓝队行动"的预见性防御。
+  [ICLR 2026][强化学习][game theory] 将 LLM 越狱攻防形式化为动态 Stackelberg 扩展形式博弈，结合快速扩展随机树 (RRT) 搜索提示空间，提出 Purple Agent 防御架构实现"红队思维，蓝队行动"的预见性防御。
 tags:
-  - ICLR 2026
-  - game theory
-  - Stackelberg game
-  - 强化学习
-  - Purple Agent
-  - RRT
-  - LLM safety
+  - "ICLR 2026"
+  - "强化学习"
+  - "game theory"
+  - "Stackelberg game"
+  - "jailbreaking defense"
+  - "Purple Agent"
+  - "RRT"
+  - "LLM safety"
 ---
 
 # Toward a Dynamic Stackelberg Game-Theoretic Framework for Agent-Based Conversational AI Defense Against LLM Jailbreaking

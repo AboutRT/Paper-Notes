@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][人体重光照] 提出基于预训练扩散模型的人体重光照和背景协调统一框架，通过粗到精策略（球谐函数 ControlNet 提供粗光照 + 扩散模型学习精细残差）和无监督运动 ControlNet 实现静态和视频场景的光照一致重光照。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 人体重光照
-  - 背景协调
-  - 粗到精扩散
-  - 时间一致性
-  - 视频重光照
+  - "CVPR 2025"
+  - "图像生成"
+  - "人体重光照"
+  - "背景协调"
+  - "粗到精扩散"
+  - "时间一致性"
+  - "视频重光照"
 ---
 
 # Comprehensive Relighting: Generalizable and Consistent Monocular Human Relighting and Harmonization

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] When Backdoors Speak: Understanding LLM Backdoor Attacks Through Model-Generated Explanations
 description: >-
-  [ACL 2025][AI安全][后门攻击] 本文首次从自然语言解释的角度研究 LLM 后门攻击，发现后门模型对干净输入生成逻辑连贯的解释，但对中毒输入生成多样且逻辑有缺陷的解释；进一步通过 token 级和句子级分析揭示中毒样本的预测语义仅在最后几层才出现，且注意力从输入上下文转移到新生成的 token。
+  [ACL 2025][LLM安全][后门攻击] 本文首次从自然语言解释的角度研究 LLM 后门攻击，发现后门模型对干净输入生成逻辑连贯的解释，但对中毒输入生成多样且逻辑有缺陷的解释；进一步通过 token 级和句子级分析揭示中毒样本的预测语义仅在最后几层才出现，且注意力从输入上下文转移到新生成的 token。
 tags:
-  - ACL 2025
-  - AI安全
-  - 后门攻击
-  - 自然语言解释
-  - 可解释性
-  - Tuned Lens
-  - 注意力分析
+  - "ACL 2025"
+  - "LLM安全"
+  - "后门攻击"
+  - "自然语言解释"
+  - "可解释性"
+  - "Tuned Lens"
+  - "注意力分析"
 ---
 
 # When Backdoors Speak: Understanding LLM Backdoor Attacks Through Model-Generated Explanations

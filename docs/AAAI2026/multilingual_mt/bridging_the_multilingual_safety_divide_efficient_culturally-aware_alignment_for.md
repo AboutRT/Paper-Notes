@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages
 description: >-
-  [AAAI 2026][多语言安全] 本文综合多项实证研究，揭示LLM安全机制在低资源语言和代码混合场景下的严重失效，并提出基于参数高效安全引导、文化驱动偏好数据和社区参与式对齐的资源感知蓝图。
+  [AAAI 2026][多语言/翻译][多语言安全] 本文综合多项实证研究，揭示LLM安全机制在低资源语言和代码混合场景下的严重失效，并提出基于参数高效安全引导、文化驱动偏好数据和社区参与式对齐的资源感知蓝图。
 tags:
-  - AAAI 2026
-  - 多语言安全
-  - 多语言翻译
-  - 文化敏感性
-  - 低资源语言
-  - 代码混合
+  - "AAAI 2026"
+  - "多语言/翻译"
+  - "多语言安全"
+  - "参数高效对齐"
+  - "文化敏感性"
+  - "低资源语言"
+  - "代码混合"
 ---
 
 # Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages

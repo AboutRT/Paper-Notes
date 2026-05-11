@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][二次变换] 提出一种轻量级的二次增强器（QuadEnhancer），通过在每个线性层引入稀疏化的二次交互项，以极少的额外参数和计算开销显著提升现有神经网络架构的性能。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 二次变换
-  - 非线性增强
-  - 轻量级模块
-  - LoRA微调
-  - 权重共享
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "二次变换"
+  - "非线性增强"
+  - "轻量级模块"
+  - "LoRA微调"
+  - "权重共享"
 ---
 
 # QuadEnhancer: Leveraging Quadratic Transformations to Enhance Deep Neural Networks

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Single-to-mix Modality Alignment with Multimodal Large Language Model for Document Image Machine Translation
 description: >-
-  [ACL 2025 (Main)][多模态][文档图像翻译] 本文提出 M4Doc，一种基于"单模态到混合模态对齐"的文档图像机器翻译框架，在训练阶段利用多模态大语言模型（MLLM）的视觉-文本联合表示来增强轻量级图像编码器，推理时丢弃 MLLM 以保持高效，在跨域泛化和复杂文档场景中取得了显著的翻译质量提升。
+  [ACL 2025 (Main)][多模态VLM][文档图像翻译] 本文提出 M4Doc，一种基于"单模态到混合模态对齐"的文档图像机器翻译框架，在训练阶段利用多模态大语言模型（MLLM）的视觉-文本联合表示来增强轻量级图像编码器，推理时丢弃 MLLM 以保持高效…
 tags:
-  - ACL 2025 (Main)
-  - 多模态
-  - 多模态VLM
-  - 模态对齐
-  - 多模态大语言模型
-  - 知识蒸馏
-  - 跨域泛化
+  - "ACL 2025 (Main)"
+  - "多模态VLM"
+  - "文档图像翻译"
+  - "模态对齐"
+  - "多模态大语言模型"
+  - "知识蒸馏"
+  - "跨域泛化"
 ---
 
 # Single-to-mix Modality Alignment with Multimodal Large Language Model for Document Image Machine Translation

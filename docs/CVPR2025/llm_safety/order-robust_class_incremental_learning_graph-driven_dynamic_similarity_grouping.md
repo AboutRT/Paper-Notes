@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping
 description: >-
-  [CVPR 2025][类增量学习] 提出 GDDSG，用图着色理论将类按相似度分组——同组内类别尽量不相似（减少干扰），每组独立用 NCM 分类器+LoRA 适配器学习，在 CIFAR-100 10-step 上达到 94.00% 准确率和仅 0.78% 遗忘率（前 SOTA RanPAC 90.50%/3.49%）。
+  [CVPR 2025][LLM安全][类增量学习] 提出 GDDSG，用图着色理论将类按相似度分组——同组内类别尽量不相似（减少干扰），每组独立用 NCM 分类器+LoRA 适配器学习…
 tags:
-  - CVPR 2025
-  - 类增量学习
-  - 图着色
-  - 顺序鲁棒
-  - 相似度分组
-  - NCM分类器
+  - "CVPR 2025"
+  - "LLM安全"
+  - "类增量学习"
+  - "图着色"
+  - "顺序鲁棒"
+  - "相似度分组"
+  - "NCM分类器"
 ---
 
 # Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multi-Modal Image Fusion via Intervention-Stable Feature Learning
 description: >-
-  [CVPR 2026][多模态][多模态图像融合] 提出一个受因果推理启发的多模态图像融合框架，通过三种结构化干预策略（互补掩码、随机掩码、模态丢弃）探测模态间的真实依赖关系，并设计因果特征整合器 (CFI) 学习干预稳定特征，在 MSRS 上 PSNR 达到 66.02、AG 达到 4.129，目标检测 mAP 达到 0.821。
+  [CVPR 2026][多模态VLM][多模态图像融合] 提出一个受因果推理启发的多模态图像融合框架，通过三种结构化干预策略（互补掩码、随机掩码、模态丢弃）探测模态间的真实依赖关系，并设计因果特征整合器 (CFI) 学习干预稳定特征，在 MSRS 上 PSNR 达到 66.02、AG 达到 4.129…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态图像融合
-  - 多模态VLM
-  - 干预学习
-  - 红外可见光融合
-  - 特征稳定性
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "多模态图像融合"
+  - "因果推理"
+  - "干预学习"
+  - "红外可见光融合"
+  - "特征稳定性"
 ---
 
 # Multi-Modal Image Fusion via Intervention-Stable Feature Learning

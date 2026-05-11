@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][AI安全][联邦学习] 提出 SecEmb，一种利用嵌入更新稀疏性的无损安全联邦推荐协议，通过函数秘密共享（FSS）在保护用户评分物品索引和梯度隐私的同时，将上传/下载通信开销降低最高 90 倍、用户端计算时间降低最高 70 倍。
 tags:
-  - ICML2025
-  - AI安全
-  - 联邦学习
-  - 推荐系统
-  - 安全聚合
-  - 稀疏嵌入
-  - 函数秘密共享
-  - 隐私保护
+  - "ICML2025"
+  - "AI安全"
+  - "联邦学习"
+  - "推荐系统"
+  - "安全聚合"
+  - "稀疏嵌入"
+  - "函数秘密共享"
+  - "隐私保护"
 ---
 
 # SecEmb: Sparsity-Aware Secure Federated Learning of On-Device Recommender System with Large Embedding

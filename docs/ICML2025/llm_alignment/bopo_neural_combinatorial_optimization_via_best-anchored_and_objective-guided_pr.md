@@ -2,17 +2,17 @@
 title: >-
   [论文解读] BOPO: Neural Combinatorial Optimization via Best-anchored and Objective-guided Preference Optimization
 description: >-
-  [ICML 2025][LLM对齐][preference optimization] 将 preference optimization（偏好优化）引入神经组合优化（NCO），提出 BOPO：通过 (1) best-anchored 偏好对构建（hybrid rollout + uniform filtering + best-anchored pairing）和 (2) objective-guided 自适应缩放损失函数（$\beta = g(y_l)/g(y_w)$），在 JSP/TSP/FJSP 三类经典组合优化问题上全面超越 SOTA，无需 reward model 或参考策略。
+  [ICML 2025][LLM对齐][preference optimization] 将 preference optimization（偏好优化）引入神经组合优化（NCO），提出 BOPO：通过 (1) best-anchored 偏好对构建（hybrid rollout + uniform filter…
 tags:
-  - ICML 2025
-  - LLM对齐
-  - preference optimization
-  - neural combinatorial optimization
-  - job-shop scheduling
-  - TSP
-  - DPO
-  - SimPO
-  - sample efficiency
+  - "ICML 2025"
+  - "LLM对齐"
+  - "preference optimization"
+  - "neural combinatorial optimization"
+  - "job-shop scheduling"
+  - "TSP"
+  - "DPO"
+  - "SimPO"
+  - "sample efficiency"
 ---
 
 # BOPO: Neural Combinatorial Optimization via Best-anchored and Objective-guided Preference Optimization

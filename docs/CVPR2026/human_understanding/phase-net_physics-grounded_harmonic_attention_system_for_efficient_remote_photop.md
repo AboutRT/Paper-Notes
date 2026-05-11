@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2026][人体理解][rPPG] 从Navier-Stokes方程出发，通过严格数学推导揭示rPPG脉搏信号遵循二阶阻尼谐振子模型，其离散解形式等价于因果卷积算子，从而为TCN架构的选择提供了第一性原理依据，设计出仅0.29M参数的PHASE-Net在多个数据集上达到SOTA。
 tags:
-  - CVPR 2026
-  - 人体理解
-  - rPPG
-  - 物理信息网络
-  - 时间卷积网络
-  - 血流动力学
-  - Navier-Stokes
-  - 轻量模型
+  - "CVPR 2026"
+  - "人体理解"
+  - "rPPG"
+  - "物理信息网络"
+  - "时间卷积网络"
+  - "血流动力学"
+  - "Navier-Stokes"
+  - "轻量模型"
 ---
 
 # PHASE-Net: Physics-Grounded Harmonic Attention System for Efficient Remote Photoplethysmography Measurement

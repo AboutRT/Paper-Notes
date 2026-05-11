@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][人机协作] 首次系统综述人-模型合作（Human-Model Cooperation）的原则、形式化分类和开放挑战，提出基于"谁做最终决策"的三类合作范式分类法（序列/分诊/联合合作），为每种范式梳理角色框架和方法路线。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 人机协作
-  - 合作范式分类
-  - 序列合作
-  - 分诊合作
-  - 联合合作
-  - 合作原则
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "人机协作"
+  - "合作范式分类"
+  - "序列合作"
+  - "分诊合作"
+  - "联合合作"
+  - "合作原则"
 ---
 
 # How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond

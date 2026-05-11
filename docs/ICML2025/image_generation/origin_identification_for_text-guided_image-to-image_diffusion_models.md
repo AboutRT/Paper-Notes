@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][图像溯源] 本文提出 ID2 任务（文本引导图像到图像扩散模型的原始图像识别），构建了首个数据集 OriPID，并证明了通过对 VAE 嵌入进行线性变换可以泛化地找到生成图像的原始来源，在 mAP 上超越相似度方法 31.6%。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 图像溯源
-  - 扩散模型安全
-  - VAE 嵌入
-  - 线性变换
-  - 泛化性
+  - "ICML 2025"
+  - "图像生成"
+  - "图像溯源"
+  - "扩散模型安全"
+  - "VAE 嵌入"
+  - "线性变换"
+  - "泛化性"
 ---
 
 # Origin Identification for Text-Guided Image-to-Image Diffusion Models

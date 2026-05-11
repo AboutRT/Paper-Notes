@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][3D生成] 本文提出了一种基于稀疏编码模块和对抗解码模块的 3D 纹理形状生成框架，通过对 StableDiffusion 的最小适配扩展到 3D 领域，在 ShapeNet 和 G-Objaverse（200K 样本）上实现了开放词汇的高保真 3D 生成，超越了现有 SOTA 方法。
 tags:
-  - ECCV 2024
-  - 3D生成
-  - 纹理形状生成
-  - 稀疏编码
-  - 其他
-  - 开放词汇
+  - "ECCV 2024"
+  - "3D生成"
+  - "纹理形状生成"
+  - "稀疏编码"
+  - "对抗解码"
+  - "开放词汇"
 ---
 
 # High-Fidelity 3D Textured Shapes Generation by Sparse Encoding and Adversarial Decoding

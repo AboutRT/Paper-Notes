@@ -2,15 +2,16 @@
 title: >-
   [论文解读] DiVE-k: Differential Visual Reasoning for Fine-grained Image Recognition
 description: >-
-  [ICLR2026][fine-grained recognition] 提出 DiVE-k 框架，利用大视觉语言模型自身的 top-k 生成结果构造选择题，通过 GRPO 强化学习训练模型进行差异化视觉推理，在细粒度图像识别的 base-to-novel 泛化上大幅超越现有方法。
+  [ICLR2026][强化学习][fine-grained recognition] 提出 DiVE-k 框架，利用大视觉语言模型自身的 top-k 生成结果构造选择题，通过 GRPO 强化学习训练模型进行差异化视觉推理，在细粒度图像识别的 base-to-novel 泛化上大幅超越现有方法。
 tags:
-  - ICLR2026
-  - fine-grained recognition
-  - reinforcement-learning
-  - GRPO
-  - 强化学习
-  - multiple-choice question
-  - LVLM
+  - "ICLR2026"
+  - "强化学习"
+  - "fine-grained recognition"
+  - "reinforcement-learning"
+  - "GRPO"
+  - "visual reasoning"
+  - "multiple-choice question"
+  - "LVLM"
 ---
 
 # DiVE-k: Differential Visual Reasoning for Fine-grained Image Recognition

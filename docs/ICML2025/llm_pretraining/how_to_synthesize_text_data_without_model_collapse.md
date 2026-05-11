@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How to Synthesize Text Data without Model Collapse?
 description: >-
-  [ICML 2025][模型崩溃] 提出 Token-level Editing (ToEdit)，通过对人类数据进行 token 级别的局部重采样（而非完全生成合成数据），在理论上证明测试误差存在有限上界，从而避免 model collapse，并在预训练、持续预训练和微调三个阶段验证了有效性。
+  [ICML 2025][预训练][模型崩溃] 提出 Token-level Editing (ToEdit)，通过对人类数据进行 token 级别的局部重采样（而非完全生成合成数据），在理论上证明测试误差存在有限上界，从而避免 model collapse，并在预训练、持续预训练和微调三个阶段验证了有效性。
 tags:
-  - ICML 2025
-  - 模型崩溃
-  - 合成数据
-  - token编辑
-  - 数据分布
-  - 半合成数据
+  - "ICML 2025"
+  - "预训练"
+  - "模型崩溃"
+  - "合成数据"
+  - "token编辑"
+  - "数据分布"
+  - "半合成数据"
 ---
 
 # How to Synthesize Text Data without Model Collapse?

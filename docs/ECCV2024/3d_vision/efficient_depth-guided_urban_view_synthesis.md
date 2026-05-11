@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][城市街景合成] 提出EDUS方法，利用噪声几何先验（单目/双目深度）引导可泛化NeRF，通过前景3D CNN + 背景/天空图像渲染的三部分分解，实现稀疏街景视角下的快速前馈推理和高效逐场景微调。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 城市街景合成
-  - 可泛化NeRF
-  - 稀疏视角
-  - 深度引导
-  - 自动驾驶
+  - "ECCV 2024"
+  - "3D视觉"
+  - "城市街景合成"
+  - "可泛化NeRF"
+  - "稀疏视角"
+  - "深度引导"
+  - "自动驾驶"
 ---
 
 # Efficient Depth-Guided Urban View Synthesis (EDUS)

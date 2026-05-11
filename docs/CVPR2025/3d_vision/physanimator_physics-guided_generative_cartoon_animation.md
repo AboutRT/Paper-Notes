@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][物理仿真] PhysAnimator将物理仿真（2D变形体模拟）与数据驱动的视频扩散模型结合，从静态动漫插画生成物理合理且具有动漫风格的动态动画，支持用户通过能量笔触和绑定点进行交互控制。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 物理仿真
-  - 动画生成
-  - 变形体模拟
-  - 视频扩散模型
-  - 草图引导
+  - "CVPR 2025"
+  - "3D视觉"
+  - "物理仿真"
+  - "动画生成"
+  - "变形体模拟"
+  - "视频扩散模型"
+  - "草图引导"
 ---
 
 # PhysAnimator: Physics-Guided Generative Cartoon Animation

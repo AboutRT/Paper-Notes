@@ -2,15 +2,15 @@
 title: >-
   [论文解读] NeuroCircuitry-Inspired Hierarchical Graph Causal Attention Networks for Explainable Depression Identification
 description: >-
-  [ICLR 2026][医学图像][脑网络图神经网络] 提出 NH-GCAT 框架，将神经科学中的抑郁症神经环路先验知识显式融入 GNN，在区域、环路和网络三个空间尺度上建模，在 REST-meta-MDD 数据集上取得 SOTA 分类效果（AUC 78.5%、ACC 73.8%），并提供与神经科学相符的可解释性分析。
+  [ICLR 2026][医学图像][脑网络图神经网络] 提出 NH-GCAT 框架，将神经科学中的抑郁症神经环路先验知识显式融入 GNN，在区域、环路和网络三个空间尺度上建模，在 REST-meta-MDD 数据集上取得 SOTA 分类效果（AUC 78.5%、ACC 73.8%）…
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 脑网络图神经网络
-  - 抑郁症识别
-  - 因果注意力
-  - 层次化回路编码
-  - 可解释AI
+  - "ICLR 2026"
+  - "医学图像"
+  - "脑网络图神经网络"
+  - "抑郁症识别"
+  - "因果注意力"
+  - "层次化回路编码"
+  - "可解释AI"
 ---
 
 # NeuroCircuitry-Inspired Hierarchical Graph Causal Attention Networks for Explainable Depression Identification
@@ -123,7 +123,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{cls}} + \lambda_{\text{kl}} \mathcal{L}_{\tex
 | + VLCA | 75.9 (+1.1) | 72.0 (+1.8) | 68.2 | 73.6 (+3.1) |
 | + HC-Pooling (完整) | **78.5 (+7.0)** | **73.8 (+6.1)** | **71.0 (+13.8)** | **75.0 (+3.8)** |
 
-三个模块逐步叠加，AUC 累计提升 7.0%，特异性提升 13.8%（p<0.05 统计显著）。
+三个模块逐步叠加，AUC 累计提升 7.0%，特异性提升 13.8%（p&lt;0.05 统计显著）。
 
 ### 关键发现
 

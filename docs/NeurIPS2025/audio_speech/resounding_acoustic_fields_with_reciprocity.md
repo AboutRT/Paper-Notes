@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Resounding Acoustic Fields with Reciprocity
 description: >-
-  [NeurIPS 2025][语音][声场学习] 利用声波传播的互易性原理，提出Versa方法（ELE数据增强+SSL自监督学习），通过交换发射器和接收器角色来生成物理有效的虚拟训练样本，在稀疏发射器配置下大幅提升声场估计性能。
+  [NeurIPS 2025][音频/语音][声场学习] 利用声波传播的互易性原理，提出Versa方法（ELE数据增强+SSL自监督学习），通过交换发射器和接收器角色来生成物理有效的虚拟训练样本，在稀疏发射器配置下大幅提升声场估计性能。
 tags:
-  - NeurIPS 2025
-  - 语音
-  - 声场学习
-  - 互易性
-  - 脉冲响应
-  - 数据增强
-  - 音频语音
+  - "NeurIPS 2025"
+  - "音频/语音"
+  - "声场学习"
+  - "互易性"
+  - "脉冲响应"
+  - "数据增强"
+  - "自监督学习"
 ---
 
 # Resounding Acoustic Fields with Reciprocity

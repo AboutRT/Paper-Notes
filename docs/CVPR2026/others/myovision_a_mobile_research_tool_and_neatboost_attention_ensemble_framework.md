@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][neuroevolution] 提出 MyoVision 智能手机透射成像框架和 NEATBoost-Attention 神经进化优化集成模型，用于低成本实时鸡胸肉肌病（木质胸、意面肉）三分类检测。
 tags:
-  - CVPR 2026
-  - neuroevolution
-  - ensemble learning
-  - mobile imaging
-  - food quality inspection
-  - transillumination
+  - "CVPR 2026"
+  - "neuroevolution"
+  - "ensemble learning"
+  - "mobile imaging"
+  - "food quality inspection"
+  - "transillumination"
 ---
 
 # MyoVision: A Mobile Research Tool and NEATBoost-Attention Ensemble Framework for Real Time Chicken Breast Myopathy Detection

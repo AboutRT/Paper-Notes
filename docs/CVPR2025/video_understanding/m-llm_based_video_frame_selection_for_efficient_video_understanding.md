@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频帧选择] 提出一个轻量级 M-LLM 帧选择器，通过空间和时序伪标签训练，自适应地为下游视频 LLM 选取与问题最相关的帧，无需微调下游模型即可提升多个视频 QA 基准性能。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频帧选择
-  - 多模态大语言模型
-  - 视频问答
-  - 伪标签
-  - 即插即用
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频帧选择"
+  - "多模态大语言模型"
+  - "视频问答"
+  - "伪标签"
+  - "即插即用"
 ---
 
 # M-LLM Based Video Frame Selection for Efficient Video Understanding

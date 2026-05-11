@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][人脸反欺骗] 本文提出TF-FAS框架，通过双重语义元素（内容元素和类别元素）的细粒度引导来增强人脸反欺骗的跨域泛化能力，其中CEDM模块探索并解耦内容相关特征，FCEM模块挖掘类别内的细粒度差异，在多个跨域FAS基准上达到SOTA。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 人脸反欺骗
-  - 视觉语言模型
-  - 细粒度语义引导
-  - 泛化能力
-  - CLIP
+  - "ECCV 2024"
+  - "人体理解"
+  - "人脸反欺骗"
+  - "视觉语言模型"
+  - "细粒度语义引导"
+  - "泛化能力"
+  - "CLIP"
 ---
 
 # TF-FAS: Twofold-Element Fine-Grained Semantic Guidance for Generalizable Face Anti-Spoofing

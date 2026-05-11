@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Decisive: Guiding User Decisions with Optimal Preference Elicitation from Unstructured Documents
 description: >-
-  [ACL2026][推荐系统] 提出交互式决策框架DECISIVE，结合文档锚定的选项评分矩阵与贝叶斯偏好推断，通过自适应成对比较问题高效学习用户偏好，决策准确率提升20%
-tags: [决策支持, 偏好获取, 贝叶斯推断, 交互式推荐, LLM]
+  [ACL 2026][推荐系统][决策支持] 提出 DECISIVE 交互式决策框架，通过从非结构化文档中提取客观选项评分矩阵，结合贝叶斯偏好推断自适应选择成对比较问题高效学习用户潜在偏好向量，在最小化用户交互负担的同时实现透明个性化推荐，决策准确率比强基线提升最高 20%。
+tags:
+  - "ACL 2026"
+  - "推荐系统"
+  - "决策支持"
+  - "偏好获取"
+  - "贝叶斯推断"
+  - "文档锚定"
+  - "交互式系统"
 ---
 
 # Decisive: Guiding User Decisions with Optimal Preference Elicitation from Unstructured Documents

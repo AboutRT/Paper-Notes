@@ -2,14 +2,15 @@
 title: >-
   [论文解读] BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection
 description: >-
-  [CVPR2026][多模态][场景图异常检测] 提出 BUSSARD，首个基于学习的场景特定异常关系检测方法，利用预训练语言模型嵌入场景图三元组 + 自编码器降维 + 标准化流进行似然估计，在 SARD 数据集上 AUROC 提升约 10%，且对同义词变化鲁棒。
+  [CVPR2026][多模态VLM][场景图异常检测] 提出 BUSSARD，首个基于学习的场景特定异常关系检测方法，利用预训练语言模型嵌入场景图三元组 + 自编码器降维 + 标准化流进行似然估计，在 SARD 数据集上 AUROC 提升约 10%，且对同义词变化鲁棒。
 tags:
-  - CVPR2026
-  - 多模态
-  - 多模态VLM
-  - 标准化流
-  - 语义嵌入
-  - 关系异常
+  - "CVPR2026"
+  - "多模态VLM"
+  - "场景图异常检测"
+  - "标准化流"
+  - "语义嵌入"
+  - "关系异常"
+  - "多模态"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

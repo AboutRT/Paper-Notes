@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Hyperbolic Busemann Neural Networks
 description: >-
-  [CVPR 2026][图学习][双曲神经网络] 利用 Busemann 函数将多类逻辑回归（MLR）和全连接层（FC）内蕴地提升到双曲空间，提出 BMLR 和 BFC 两个统一组件，在 Poincaré 球和 Lorentz 模型上同时适用，且在图像分类、基因组序列、节点分类、链接预测四类任务上均优于已有双曲层。
+  [CVPR 2026][图学习][双曲神经网络] 利用 Busemann 函数将多类逻辑回归（MLR）和全连接层（FC）内蕴地提升到双曲空间，提出 BMLR 和 BFC 两个统一组件，在 Poincaré 球和 Lorentz 模型上同时适用…
 tags:
-  - CVPR 2026
-  - 图学习
-  - 双曲神经网络
-  - Busemann函数
-  - 双曲分类
-  - 全连接层
-  - 流形学习
+  - "CVPR 2026"
+  - "图学习"
+  - "双曲神经网络"
+  - "Busemann函数"
+  - "双曲分类"
+  - "全连接层"
+  - "流形学习"
 ---
 
 # Hyperbolic Busemann Neural Networks

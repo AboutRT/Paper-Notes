@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][人体理解][知识迁移] 提出 OSKT（One-Shot Knowledge Transfer），通过将教师模型知识精炼为"权重链"（weight chain）作为中间载体，实现一次计算即可生成任意尺寸学生模型的行人重识别模型压缩方案。
 tags:
-  - ICCV 2025
-  - 人体理解
-  - 知识迁移
-  - 权重链
-  - 行人重识别
-  - 模型压缩
-  - 一次性计算
+  - "ICCV 2025"
+  - "人体理解"
+  - "知识迁移"
+  - "权重链"
+  - "行人重识别"
+  - "模型压缩"
+  - "一次性计算"
 ---
 
 # One-Shot Knowledge Transfer for Scalable Person Re-Identification

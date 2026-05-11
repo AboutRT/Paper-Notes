@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaling Spatial Intelligence with Multimodal Foundation Models
 description: >-
-  [CVPR 2026][多模态][空间智能] SenseNova-SI 通过系统化构建800万级多样化空间数据（SenseNova-SI-8M），在 Qwen3-VL、InternVL3 和 Bagel 等多模态基础模型上培养空间智能能力，在 VSI-Bench、MMSI 等多个空间基准上取得前所未有的性能，同时保持通用多模态理解能力。
+  [CVPR 2026][多模态VLM][空间智能] SenseNova-SI 通过系统化构建800万级多样化空间数据（SenseNova-SI-8M），在 Qwen3-VL、InternVL3 和 Bagel 等多模态基础模型上培养空间智能能力…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 空间智能
-  - 多模态基础模型
-  - 数据扩展
-  - 多模态VLM
-  - 基准测试
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "空间智能"
+  - "多模态基础模型"
+  - "数据扩展"
+  - "空间推理"
+  - "基准测试"
 ---
 
 # Scaling Spatial Intelligence with Multimodal Foundation Models

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection
 description: >-
-  [CVPR 2025][其他] 提出DPDL方法，通过学习多高斯分布原型并用Schrödinger桥将正常样本扩散映射到原型空间（同时推开异常样本），结合超球空间上的离散特征学习增强泛化性，在9个公开异常检测数据集上取得SOTA（如AITEX上超越AHL 5.0%、ELPV上超越8.7%）。
+  [CVPR 2025][异常检测] 提出DPDL方法，通过学习多高斯分布原型并用Schrödinger桥将正常样本扩散映射到原型空间（同时推开异常样本），结合超球空间上的离散特征学习增强泛化性，在9个公开异常检测数据集上取得SOTA（如AITEX上超越AHL 5.0%、ELPV上超越8.7%）。
 tags:
-  - CVPR 2025
-  - 其他
-  - 开放集
-  - Schrödinger桥
-  - 分布原型
-  - 超球空间
+  - "CVPR 2025"
+  - "异常检测"
+  - "开放集"
+  - "Schrödinger桥"
+  - "分布原型"
+  - "超球空间"
 ---
 
 # Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection

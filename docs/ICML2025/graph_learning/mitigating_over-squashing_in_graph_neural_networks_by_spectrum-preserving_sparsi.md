@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][图学习][过挤压] 提出 GOKU（稠密化-稀疏化重连范式），通过将输入图视为未知稠密潜在图的谱稀疏器并求解逆稀疏化问题，在增强图连通性的同时显式保留拉普拉斯谱，有效缓解 GNN 的 over-squashing 问题。
 tags:
-  - ICML2025
-  - 图学习
-  - 过挤压
-  - 图重连
-  - 谱稀疏化
-  - 有效电阻
-  - 图分类
-  - 节点分类
+  - "ICML2025"
+  - "图学习"
+  - "过挤压"
+  - "图重连"
+  - "谱稀疏化"
+  - "有效电阻"
+  - "图分类"
+  - "节点分类"
 ---
 
 # Mitigating Over-Squashing in Graph Neural Networks by Spectrum-Preserving Sparsification

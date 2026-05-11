@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is also a GAN Discriminator
 description: >-
-  [ICML 2025][图像生成][生成模型微调] DDO 提出将似然模型本身参数化为 GAN 判别器（通过似然比），无需额外判别器网络即可用 GAN 目标微调预训练的扩散/自回归模型，在 CIFAR-10 和 ImageNet 上大幅刷新 FID 记录（EDM: 1.97→1.38, EDM2-S: 1.58→0.97）。
+  [ICML 2025][图像生成][生成模型微调] DDO 提出将似然模型本身参数化为 GAN 判别器（通过似然比），无需额外判别器网络即可用 GAN 目标微调预训练的扩散/自回归模型，在 CIFAR-10 和 ImageNet 上大幅刷新 FID 记录（EDM: 1.97→1.38…
 tags:
-  - ICML 2025
-  - 图像生成
-  - 生成模型微调
-  - GAN
-  - 似然比参数化
-  - 扩散模型
-  - 自回归模型
+  - "ICML 2025"
+  - "图像生成"
+  - "生成模型微调"
+  - "GAN"
+  - "似然比参数化"
+  - "扩散模型"
+  - "自回归模型"
 ---
 
 # Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is also a GAN Discriminator
@@ -128,7 +128,7 @@ DDO 的 pipeline 非常简洁：
 ### 关键发现
 
 - **记录性 FID**：CIFAR-10 1.30, ImageNet-64 0.97，均为新 SOTA
-- **效率惊人**：每轮微调仅需预训练 <1% 的迭代量，EDM 每轮约 3 小时
+- **效率惊人**：每轮微调仅需预训练 &lt;1% 的迭代量，EDM 每轮约 3 小时
 - **消除采样技巧**：DDO 微调后的 VAR 无需 top-k/top-p 即可获得更好的 FID
 - **消除 CFG 依赖**：VAR-d30 + DDO 无引导 FID=1.79，优于原始 CFG 增强的 1.90
 - **参数效率**：EDM2-S (280M) + DDO 超越 4 倍大的 EDM2-XL (1119M)

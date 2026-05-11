@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D表示学习] UniSplat 通过双掩码策略、粗到细高斯溅射和位姿条件重校准三个组件，从无位姿多视角图像中学习统一的几何-外观-语义 3D 表示，为空间智能奠定感知基础。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D表示学习
-  - 空间智能
-  - 高斯溅射
-  - 自监督学习
-  - 无位姿多视角
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D表示学习"
+  - "空间智能"
+  - "高斯溅射"
+  - "自监督学习"
+  - "无位姿多视角"
 ---
 
 # UniSplat: Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images

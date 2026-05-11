@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][图推理] 首次系统研究了图描述顺序（BFS、DFS、PageRank、PPR）对LLM解决图推理问题的影响，发现有序描述显著优于随机描述，且不同任务偏好不同的排列策略。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 图推理
-  - 图描述顺序
-  - 提示学习
-  - BFS/DFS
-  - PageRank
-  - 图问题
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "图推理"
+  - "图描述顺序"
+  - "提示学习"
+  - "BFS/DFS"
+  - "PageRank"
+  - "图问题"
 ---
 
 # Can Graph Descriptive Order Affect Solving Graph Problems with LLMs?

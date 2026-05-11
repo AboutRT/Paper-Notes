@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM/NLP][synthetic data] 提出基于广义矩估计（GMM）的无超参数框架，将 LLM 生成的不完美合成数据与真实数据结合进行统计有效推断，当合成数据残差与真实数据残差相关时可显著降低估计方差，且在最坏情况下（合成数据完全无信息）也不会损害估计质量。
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - synthetic data
-  - statistical inference
-  - GMM
-  - prediction-powered inference
-  - computational social science
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "synthetic data"
+  - "statistical inference"
+  - "GMM"
+  - "prediction-powered inference"
+  - "computational social science"
 ---
 
 # Valid Inference with Imperfect Synthetic Data

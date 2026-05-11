@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Grounding Language Models for Visual Entity Recognition
 description: >-
-  [ECCV 2024][视觉实体识别] 提出 AutoVER——首个将多模态大语言模型（MLLM）应用于大规模视觉实体识别的方法，通过将检索能力集成到 MLLM 内部，结合对比训练和前缀树约束解码，在 Oven-Wiki 基准上大幅超越 PaLI-17B 等先前方法。
+  [ECCV 2024][信息检索/RAG][视觉实体识别] 提出 AutoVER——首个将多模态大语言模型（MLLM）应用于大规模视觉实体识别的方法，通过将检索能力集成到 MLLM 内部，结合对比训练和前缀树约束解码，在 Oven-Wiki 基准上大幅超越 PaLI-17B 等先前方法。
 tags:
-  - ECCV 2024
-  - 视觉实体识别
-  - 信息检索
-  - 检索增强生成
-  - 约束解码
-  - 知识接地
+  - "ECCV 2024"
+  - "信息检索/RAG"
+  - "视觉实体识别"
+  - "多模态大语言模型"
+  - "检索增强生成"
+  - "约束解码"
+  - "知识接地"
 ---
 
 # Grounding Language Models for Visual Entity Recognition

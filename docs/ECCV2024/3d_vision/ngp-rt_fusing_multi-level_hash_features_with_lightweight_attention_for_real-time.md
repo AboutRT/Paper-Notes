@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][NeRF] 提出NGP-RT，通过轻量注意力机制聚合多级显式哈希特征替代per-point MLP，并引入占用距离网格减少光线行进中的内存访问，在Mip-NeRF 360数据集上实现1080p 108fps的实时NeRF渲染。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - NeRF
-  - 实时渲染
-  - 哈希特征
-  - 注意力机制
-  - 占用距离网格
+  - "ECCV 2024"
+  - "3D视觉"
+  - "NeRF"
+  - "实时渲染"
+  - "哈希特征"
+  - "注意力机制"
+  - "占用距离网格"
 ---
 
 # NGP-RT: Fusing Multi-Level Hash Features with Lightweight Attention for Real-Time Novel View Synthesis

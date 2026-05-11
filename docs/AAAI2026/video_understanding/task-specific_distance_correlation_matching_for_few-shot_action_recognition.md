@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][少样本动作识别] 提出 TS-FSAR 框架，通过 α-距离相关性捕获帧间非线性依赖关系并结合任务特定匹配矩阵进行 query-support 匹配，同时用适配后的冻结 CLIP 引导侧网络训练，在 SSv2-Full 等时序敏感数据集上大幅超越先前方法。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 少样本动作识别
-  - 距离相关性
-  - CLIP微调
-  - 任务特定匹配
-  - 侧网络调优
+  - "AAAI 2026"
+  - "视频理解"
+  - "少样本动作识别"
+  - "距离相关性"
+  - "CLIP微调"
+  - "任务特定匹配"
+  - "侧网络调优"
 ---
 
 # Task-Specific Distance Correlation Matching for Few-Shot Action Recognition

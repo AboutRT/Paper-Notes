@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][Flow Matching] 提出渐进式 Reflow（逐步从多窗口到少窗口拉直扩散轨迹）和对齐 v-prediction（在速度匹配中优先匹配方向而非幅度），使 SDv1.5 在 4 步采样下达到接近 32 步 DDIM 的生成质量。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - Flow Matching
-  - 渐进式Reflow
-  - 速度分解
-  - 少步生成
-  - 扩散加速
+  - "CVPR 2025"
+  - "图像生成"
+  - "Flow Matching"
+  - "渐进式Reflow"
+  - "速度分解"
+  - "少步生成"
+  - "扩散加速"
 ---
 
 # ProReflow: Progressive Reflow with Decomposed Velocity

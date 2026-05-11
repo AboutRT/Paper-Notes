@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MTADiffusion: Mask Text Alignment Diffusion Model for Object Inpainting
 description: >-
-  [CVPR 2025][图像生成][图像修复] MTADiffusion通过构建500万张图像的Mask-Text对齐数据集、联合训练修复与边缘预测任务、以及基于VGG Gram矩阵的风格一致性损失，同时解决了对象修复中的语义错位、结构扭曲和风格不一致三大问题，在BrushBench和EditBench上达到SOTA。
+  [CVPR 2025][图像生成][图像修复] MTADiffusion通过构建500万张图像的Mask-Text对齐数据集、联合训练修复与边缘预测任务、以及基于VGG Gram矩阵的风格一致性损失，同时解决了对象修复中的语义错位、结构扭曲和风格不一致三大问题…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像修复
-  - Mask-Text对齐
-  - 风格一致性
-  - 边缘预测
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像修复"
+  - "Mask-Text对齐"
+  - "风格一致性"
+  - "边缘预测"
+  - "扩散模型"
 ---
 
 # MTADiffusion: Mask Text Alignment Diffusion Model for Object Inpainting

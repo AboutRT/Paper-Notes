@@ -2,14 +2,15 @@
 title: >-
   [论文解读] HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning
 description: >-
-  [ACL 2025][commonsense reasoning] 构建首个大规模双语（中英）LLM 常识推理鲁棒性评估基准 HellaSwag-Pro，通过 7 种推理形式变体对 1,600 道原始题生成 11,200 道变体题，在 41 个 LLM 上的系统评估表明所有模型在常识推理鲁棒性上远未达标——否定变换平均准确率仅 9.01%，人机差距显著。
+  [ACL 2025][LLM评测][commonsense reasoning] 构建首个大规模双语（中英）LLM 常识推理鲁棒性评估基准 HellaSwag-Pro，通过 7 种推理形式变体对 1,600 道原始题生成 11,200 道变体题…
 tags:
-  - ACL 2025
-  - LLM评测
-  - robustness evaluation
-  - bilingual benchmark
-  - question variants
-  - HellaSwag
+  - "ACL 2025"
+  - "LLM评测"
+  - "commonsense reasoning"
+  - "robustness evaluation"
+  - "bilingual benchmark"
+  - "question variants"
+  - "HellaSwag"
 ---
 
 # HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning

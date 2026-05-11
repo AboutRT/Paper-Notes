@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Binary Classifier Optimization for Large Language Model Alignment
 description: >-
-  [ACL 2025][LLM/NLP][LLM alignment] 提出 BCO（Binary Classifier Optimization），从数学上证明二元交叉熵损失是 DPO 损失的上界，使 LLM 对齐仅需"点赞/踩"二元反馈而非成对偏好数据，并通过新颖的 reward shift 技术收紧上界，在配对偏好数据集上与 DPO 持平，在真实 Likert-5 标注数据上优于 DPO 和 KTO。
+  [ACL 2025][LLM/NLP][LLM alignment] 提出 BCO（Binary Classifier Optimization），从数学上证明二元交叉熵损失是 DPO 损失的上界，使 LLM 对齐仅需"点赞/踩"二元反馈而非成对偏好数据，并通过新颖的 reward shift 技术收紧上界…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - LLM alignment
-  - binary feedback
-  - DPO
-  - binary classifier
-  - reward shift
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "LLM alignment"
+  - "binary feedback"
+  - "DPO"
+  - "binary classifier"
+  - "reward shift"
 ---
 
 # Binary Classifier Optimization for Large Language Model Alignment

@@ -3,6 +3,14 @@ title: >-
   ACL2026 自监督/表示学习方向2篇论文解读
 description: >-
   2篇ACL2026的自监督/表示学习方向论文解读，涵盖自监督学习、语音、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ACL2026"
+  - "自监督/表示学习"
+  - "论文解读"
+  - "论文笔记"
+  - "自监督学习"
+  - "语音"
+  - "LLM"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +18,7 @@ description: >-
 
 **💬 ACL2026** · **2** 篇论文解读
 
-📌 **同领域跨会议浏览：** [📷 CVPR2026 (31)](../../CVPR2026/self_supervised/index.md) · [🔬 ICLR2026 (15)](../../ICLR2026/self_supervised/index.md) · [🤖 AAAI2026 (14)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (35)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/self_supervised/index.md) · [🧪 ICML2025 (24)](../../ICML2025/self_supervised/index.md)
+📌 **同领域跨会议浏览：** [📷 CVPR2026 (30)](../../CVPR2026/self_supervised/index.md) · [🔬 ICLR2026 (14)](../../ICLR2026/self_supervised/index.md) · [🤖 AAAI2026 (14)](../../AAAI2026/self_supervised/index.md) · [🧠 NeurIPS2025 (33)](../../NeurIPS2025/self_supervised/index.md) · [📹 ICCV2025 (11)](../../ICCV2025/self_supervised/index.md) · [🧪 ICML2025 (24)](../../ICML2025/self_supervised/index.md)
 
 **[[b] = [d] − [t] + [p]: Self-supervised Speech Models Discover Phonological Vector Arithmetic](bd-tp_self-supervised_speech_models_discover_phonological_vector_arithmetic.md)**
 

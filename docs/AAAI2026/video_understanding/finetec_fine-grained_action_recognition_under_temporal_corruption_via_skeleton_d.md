@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][细粒度动作识别] 提出 FineTec 框架，通过上下文感知序列补全、基于生物先验的骨架空间分解、物理驱动的加速度建模三个模块，在时序损坏条件下实现鲁棒的细粒度骨架动作识别。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 细粒度动作识别
-  - 时序损坏
-  - 骨架分解
-  - 拉格朗日动力学
-  - 序列补全
+  - "AAAI 2026"
+  - "视频理解"
+  - "细粒度动作识别"
+  - "时序损坏"
+  - "骨架分解"
+  - "拉格朗日动力学"
+  - "序列补全"
 ---
 
 # FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion

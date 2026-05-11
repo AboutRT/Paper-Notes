@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics
 description: >-
-  [CVPR 2026][物理一致视频生成] 提出Phantom框架，在预训练视频扩散模型（Wan2.2-TI2V）之上增加一个物理动力学分支，利用V-JEPA2提取的物理感知嵌入作为潜在物理状态，通过双向交叉注意力联合建模视觉内容和物理动力学演化，在物理一致性基准上大幅超越基线（VideoPhy PC提升50.4%），同时保持视觉质量。
+  [CVPR 2026][视频生成][物理一致视频生成] 提出Phantom框架，在预训练视频扩散模型（Wan2.2-TI2V）之上增加一个物理动力学分支，利用V-JEPA2提取的物理感知嵌入作为潜在物理状态，通过双向交叉注意力联合建模视觉内容和物理动力学演化…
 tags:
-  - CVPR 2026
-  - 物理一致视频生成
-  - 流匹配
-  - 双分支架构
-  - V-JEPA2
-  - 潜在物理动力学
+  - "CVPR 2026"
+  - "视频生成"
+  - "物理一致视频生成"
+  - "流匹配"
+  - "双分支架构"
+  - "V-JEPA2"
+  - "潜在物理动力学"
 ---
 
 # Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics

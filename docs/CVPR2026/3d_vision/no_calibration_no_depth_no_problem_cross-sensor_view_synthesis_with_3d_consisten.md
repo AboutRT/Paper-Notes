@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] 提出首个无需标定和深度的跨传感器视图合成框架，通过匹配-稠密化-3D整合 (match-densify-consolidate) 流程，将稀疏跨模态关键点扩展为稠密的、与 RGB 视角对齐的 X 模态图像（热成像/NIR/SAR），并通过置信度感知融合与自匹配过滤提升合成质量。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency

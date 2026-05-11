@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation
 description: >-
-  [ACL 2026][推荐系统] SiPeR 通过场景转换估计（"Where"）和贝叶斯逆推理（"What"）两个机制，解决情景对话推荐中用户偏好随环境动态变化且常常隐式表达的挑战，在 SIMMC 2.1 和 SCREEN 上分别提升 10.9% 和 10.6%。
+  [ACL 2026][推荐系统][情景对话推荐] SiPeR 通过场景转换估计（"Where"）和贝叶斯逆推理（"What"）两个机制，解决情景对话推荐中用户偏好随环境动态变化且常常隐式表达的挑战，在 SIMMC 2.1 和 SCREEN 上分别提升 10.9% 和 10.6%。
 tags:
-  - ACL 2026
-  - 推荐系统
-  - 场景转换
-  - 贝叶斯逆推理
-  - 隐式偏好
-  - 多模态
+  - "ACL 2026"
+  - "推荐系统"
+  - "情景对话推荐"
+  - "场景转换"
+  - "贝叶斯逆推理"
+  - "隐式偏好"
+  - "多模态"
 ---
 
 # Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation

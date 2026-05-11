@@ -2,15 +2,15 @@
 title: >-
   [论文解读] KV-Latent: Dimensional-level KV Cache Reduction with Frequency-aware Rotary Positional Embedding
 description: >-
-  [ACL 2025][LLM效率][KV Cache压缩] KV-Latent 通过直接缩减预训练模型中 Key/Value 注意力头的维度（将 KV 向量映射到低维隐空间），配合两阶段微调策略和频率感知的 RoPE 修改，仅用不到 1% 预训练量的额外训练就实现 KV Cache 50-87% 的压缩，同时基本保持模型性能。
+  [ACL 2025][LLM效率][KV Cache压缩] KV-Latent 通过直接缩减预训练模型中 Key/Value 注意力头的维度（将 KV 向量映射到低维隐空间），配合两阶段微调策略和频率感知的 RoPE 修改，仅用不到 1% 预训练量的额外训练就实现 KV Cache 50-87% 的压缩…
 tags:
-  - ACL 2025
-  - LLM效率
-  - KV Cache压缩
-  - 注意力头维度缩减
-  - RoPE频率感知
-  - 知识蒸馏
-  - 推理加速
+  - "ACL 2025"
+  - "LLM效率"
+  - "KV Cache压缩"
+  - "注意力头维度缩减"
+  - "RoPE频率感知"
+  - "知识蒸馏"
+  - "推理加速"
 ---
 
 # KV-Latent: Dimensional-level KV Cache Reduction with Frequency-aware Rotary Positional Embedding

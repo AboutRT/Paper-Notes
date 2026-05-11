@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery
 description: >-
-  [CVPR2026][模型压缩][On-the-Fly Category Discovery] 提出首个面向 on-the-fly 类别发现（OCD）的测试时自适应框架 TALON，通过语义感知原型更新 + 稳定编码器适应 + 边距感知 logit 校准，摒弃哈希编码在连续特征空间直接建模，大幅缓解类别爆炸并显著提升新类发现精度。
+  [CVPR2026][模型压缩][On-the-Fly Category Discovery] 提出首个面向 on-the-fly 类别发现（OCD）的测试时自适应框架 TALON，通过语义感知原型更新 + 稳定编码器适应 + 边距感知 logit 校准，摒弃哈希编码在连续特征空间直接建模…
 tags:
-  - CVPR2026
-  - 模型压缩
-  - On-the-Fly Category Discovery
-  - 测试时自适应
-  - 原型学习
-  - 类别爆炸
-  - 语义偏移
+  - "CVPR2026"
+  - "模型压缩"
+  - "On-the-Fly Category Discovery"
+  - "测试时自适应"
+  - "原型学习"
+  - "类别爆炸"
+  - "语义偏移"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] In Search of Adam's Secret Sauce
 description: >-
-  [NeurIPS 2025][优化][Adam] 本文通过训练 1500+ 语言模型的大规模实验发现：(1) Signum 虽能缩小 96% 的 SGD-Adam 差距，但仍比 Adam 慢 25%；(2) 设 $\beta_1 = \beta_2$ 是 Adam 的近最优简化；(3) 在 $\beta_1 = \beta_2 = \beta$ 下 Adam 可被重新解读为基于在线高斯变分推断估计梯度均值和方差的信噪比自适应 Signum。
+  [NeurIPS 2025][优化/理论][Adam] 本文通过训练 1500+ 语言模型的大规模实验发现：(1) Signum 虽能缩小 96% 的 SGD-Adam 差距，但仍比 Adam 慢 25%；(2) 设 $\beta_1 = \beta_2$ 是 Adam 的近最优简化…
 tags:
-  - NeurIPS 2025
-  - 优化
-  - Adam
-  - Signum
-  - implicit bias
-  - variational inference
-  - signal-to-noise ratio
-  - language modeling
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "Adam"
+  - "Signum"
+  - "implicit bias"
+  - "variational inference"
+  - "signal-to-noise ratio"
+  - "language modeling"
 ---
 
 # In Search of Adam's Secret Sauce

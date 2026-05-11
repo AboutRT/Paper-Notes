@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][因果推断] 提出DoFlow，一种基于连续正则化流（CNF）的因果生成模型，在因果DAG上统一实现观测、干预和反事实时间序列预测，并可通过显式似然进行异常检测，在合成和真实医疗数据上验证了有效性。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 因果推断
-  - 连续正则化流
-  - 时间序列预测
-  - 反事实推理
-  - 异常检测
+  - "ICLR 2026"
+  - "图像生成"
+  - "因果推断"
+  - "连续正则化流"
+  - "时间序列预测"
+  - "反事实推理"
+  - "异常检测"
 ---
 
 # DoFlow: Flow-based Generative Models for Interventional and Counterfactual Forecasting

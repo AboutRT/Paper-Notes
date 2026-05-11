@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding
 description: >-
-  [CVPR 2025][多模态大模型] 提出 FarSight，一种即插即用的无训练解码策略，通过在因果掩码的上三角矩阵中引入注意力寄存器来吸收异常 token 的过度注意力，并设计递减掩蔽率的位置感知编码增强远距离视觉 token 的信息传播，有效缓解多模态大模型中的初始幻觉和雪球幻觉。
+  [CVPR 2025][多模态VLM][多模态大模型] 提出 FarSight，一种即插即用的无训练解码策略，通过在因果掩码的上三角矩阵中引入注意力寄存器来吸收异常 token 的过度注意力，并设计递减掩蔽率的位置感知编码增强远距离视觉 token 的信息传播，有效缓解多模态大模型中的初始幻觉和雪球幻觉。
 tags:
-  - CVPR 2025
-  - 多模态大模型
-  - 多模态VLM
-  - 注意力机制
-  - 因果解码
-  - 位置编码
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "多模态大模型"
+  - "幻觉缓解"
+  - "注意力机制"
+  - "因果解码"
+  - "位置编码"
 ---
 
 # Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding

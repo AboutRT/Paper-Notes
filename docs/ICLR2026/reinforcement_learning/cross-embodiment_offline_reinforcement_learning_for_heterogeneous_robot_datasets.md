@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets
 description: >-
-  [ICLR 2026][cross-embodiment learning] 系统研究跨形态离线 RL 预训练范式，发现次优数据比例和机器人多样性增加时梯度冲突导致负迁移，提出基于形态图距离的 Embodiment Grouping（EG）策略将机器人按形态聚类后分组更新 actor，在 16 种机器人平台的 locomotion benchmark 上显著缓解负迁移（70% 次优数据集上 IQL+EG 比 IQL 提升 34%）。
+  [ICLR 2026][强化学习][cross-embodiment learning] 系统研究跨形态离线 RL 预训练范式，发现次优数据比例和机器人多样性增加时梯度冲突导致负迁移，提出基于形态图距离的 Embodiment Grouping（EG）策略将机器人按形态聚类后分组更新 actor…
 tags:
-  - ICLR 2026
-  - cross-embodiment learning
-  - offline RL
-  - gradient conflict
-  - robot foundation model
-  - morphology grouping
+  - "ICLR 2026"
+  - "强化学习"
+  - "cross-embodiment learning"
+  - "offline RL"
+  - "gradient conflict"
+  - "robot foundation model"
+  - "morphology grouping"
 ---
 
 # Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets
@@ -53,7 +54,7 @@ tags:
 2. **梯度冲突分析**:
 
     - 功能：量化不同形态机器人间的策略梯度方向冲突
-    - 核心思路：计算每对机器人的 actor 梯度余弦相似度 $C[\tau_i, \tau_j] = \frac{\langle g_{\tau_i}, g_{\tau_j} \rangle}{\|g_{\tau_i}\| \|g_{\tau_j}\|}$，统计 C<0 的比例
+    - 核心思路：计算每对机器人的 actor 梯度余弦相似度 $C[\tau_i, \tau_j] = \frac{\langle g_{\tau_i}, g_{\tau_j} \rangle}{\|g_{\tau_i}\| \|g_{\tau_j}\|}$，统计 C&lt;0 的比例
     - 关键发现：次优数据比例↑ → 负余弦比例↑；机器人种类↑ → 负余弦比例↑；迁移增益与平均梯度余弦高度相关（r=0.815）
     - 设计动机：当形态差异大的机器人梯度方向相反时，联合更新会相互抵消甚至破坏有用的更新
 

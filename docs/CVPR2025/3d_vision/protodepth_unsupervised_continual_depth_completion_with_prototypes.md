@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][持续学习] ProtoDepth提出基于原型（Prototype）的持续学习方法，通过冻结预训练模型并为每个新域学习轻量原型集来调制隐层特征，在室内和室外场景中将遗忘率降低超过50%。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 持续学习
-  - 深度补全
-  - 原型学习
-  - 灾难性遗忘
-  - 无监督
+  - "CVPR 2025"
+  - "3D视觉"
+  - "持续学习"
+  - "深度补全"
+  - "原型学习"
+  - "灾难性遗忘"
+  - "无监督"
 ---
 
 # ProtoDepth: Unsupervised Continual Depth Completion with Prototypes

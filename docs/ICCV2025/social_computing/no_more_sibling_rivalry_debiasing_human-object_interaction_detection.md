@@ -2,15 +2,15 @@
 title: >-
   [论文解读] No More Sibling Rivalry: Debiasing Human-Object Interaction Detection
 description: >-
-  [ICCV 2025][社会计算][人-物交互检测] 发现并系统分析了 HOI 检测中的"有毒兄弟"偏差问题——高度相似的 HOI 三元组在输入端和输出端相互干扰竞争，提出"对比后校准"（C2C）和"合并后拆分"（M2S）两种去偏学习目标，在 HICO-DET 上超越 baseline +9.18% mAP、超越前 SOTA +3.59%。
+  [ICCV 2025][社会计算][人-物交互检测] 发现并系统分析了 HOI 检测中的"有毒兄弟"偏差问题——高度相似的 HOI 三元组在输入端和输出端相互干扰竞争，提出"对比后校准"（C2C）和"合并后拆分"（M2S）两种去偏学习目标…
 tags:
-  - ICCV 2025
-  - 社会计算
-  - 人-物交互检测
-  - 有毒兄弟偏差
-  - 对比-校准学习
-  - 合并-拆分策略
-  - 去偏
+  - "ICCV 2025"
+  - "社会计算"
+  - "人-物交互检测"
+  - "有毒兄弟偏差"
+  - "对比-校准学习"
+  - "合并-拆分策略"
+  - "去偏"
 ---
 
 # No More Sibling Rivalry: Debiasing Human-Object Interaction Detection

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Semantic Class Distribution Learning for Debiasing Semi-Supervised Medical Image Segmentation
 description: >-
-  [CVPR 2026][医学图像][半监督分割] 本文提出 SCDL（Semantic Class Distribution Learning），一个即插即用模块，通过类别分布双向对齐（CDBA）学习结构化的类条件特征分布并与可学习类代理双向对齐，结合语义锚点约束（SAC）利用标注数据引导代理学习正确语义，缓解了半监督医学图像分割中的监督偏差和特征表示偏差，在尾类器官上取得了显著提升。
+  [CVPR 2026][医学图像][半监督分割] 本文提出 SCDL（Semantic Class Distribution Learning），一个即插即用模块，通过类别分布双向对齐（CDBA）学习结构化的类条件特征分布并与可学习类代理双向对齐，结合语义锚点约束（SAC）利用标注数据引导代理学习正确语义…
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 半监督分割
-  - 类别不平衡
-  - 分布学习
-  - 代理分布
-  - 语义锚点
+  - "CVPR 2026"
+  - "医学图像"
+  - "半监督分割"
+  - "类别不平衡"
+  - "分布学习"
+  - "代理分布"
+  - "语义锚点"
 ---
 
 # Semantic Class Distribution Learning for Debiasing Semi-Supervised Medical Image Segmentation

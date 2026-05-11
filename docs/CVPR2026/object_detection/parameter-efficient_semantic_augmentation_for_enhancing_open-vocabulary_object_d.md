@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][目标检测][开放词汇目标检测] HSA-DINO 提出多尺度 prompt bank 从图像特征金字塔中学习层次化语义 prompt 增强文本表示，并通过语义感知路由器在推理时动态决定是否使用领域特定增强，实现了领域适配与开放词汇泛化的优越平衡（H 值在三个垂直领域数据集上均为最优）。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 开放词汇目标检测
-  - 参数高效微调
-  - 语义增强
-  - 提示学习
-  - 领域适配
+  - "CVPR 2026"
+  - "目标检测"
+  - "开放词汇目标检测"
+  - "参数高效微调"
+  - "语义增强"
+  - "提示学习"
+  - "领域适配"
 ---
 
 # Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][联合扩散] 提出 JointDiff，一个联合连续-离散扩散框架，首次将高斯扩散（用于轨迹）和多项式扩散（用于控球事件）统一建模，同时引入 CrossGuid 模块支持弱控球引导和文本引导的语义可控生成，在体育多智能体轨迹生成上达到 SOTA。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 联合扩散
-  - 连续-离散统一
-  - 多智能体
-  - 轨迹生成
-  - 可控生成
+  - "ICLR 2026"
+  - "图像生成"
+  - "联合扩散"
+  - "连续-离散统一"
+  - "多智能体"
+  - "轨迹生成"
+  - "可控生成"
 ---
 
 # JointDiff: Bridging Continuous and Discrete in Multi-Agent Trajectory Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs
 description: >-
-  [ACL 2025][多模态][layer dropping] 提出TrimLLM，基于层级专业化（layer-wise specialization）现象，在领域微调过程中渐进式丢弃对目标领域不重要的层，在50-60%压缩率下无精度损失且获得2.1-5.7倍推理加速，且不依赖专用硬件。
+  [ACL 2025][多模态VLM][layer dropping] 提出TrimLLM，基于层级专业化（layer-wise specialization）现象，在领域微调过程中渐进式丢弃对目标领域不重要的层，在50-60%压缩率下无精度损失且获得2.1-5.7倍推理加速，且不依赖专用硬件。
 tags:
-  - ACL 2025
-  - 多模态
-  - layer dropping
-  - 多模态VLM
-  - domain-specific LLM
-  - layer-wise specialization
-  - inference speedup
+  - "ACL 2025"
+  - "多模态VLM"
+  - "layer dropping"
+  - "模型压缩"
+  - "domain-specific LLM"
+  - "layer-wise specialization"
+  - "inference speedup"
 ---
 
 # TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs

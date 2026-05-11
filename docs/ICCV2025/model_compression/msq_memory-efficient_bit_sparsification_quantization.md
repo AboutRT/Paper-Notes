@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][量化] 提出MSQ，通过RoundClamp量化器从权重直接计算最低有效位(LSB)并施加L1正则化诱导稀疏性，无需显式创建bit-level可训练参数即可实现混合精度量化发现，训练参数减少8倍、训练时间减少86%，同时保持竞争性的精度-压缩权衡。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 量化
-  - bit-level sparsity
-  - memory-efficient
-  - Hessian
+  - "ICCV 2025"
+  - "模型压缩"
+  - "量化"
+  - "bit-level sparsity"
+  - "memory-efficient"
+  - "Hessian"
 ---
 
 # MSQ: Memory-Efficient Bit Sparsification Quantization

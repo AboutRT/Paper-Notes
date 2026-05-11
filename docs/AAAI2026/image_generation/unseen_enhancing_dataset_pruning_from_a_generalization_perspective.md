@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][数据集剪枝] 本文提出 UNSEEN，从泛化角度改进数据集剪枝方法——不仅考虑保留样本对训练损失的贡献，还考虑其对测试泛化的贡献，通过优化训练集与未见测试分布的对齐来选择更有利于泛化的核心子集。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - 数据集剪枝
-  - 泛化性
-  - 训练效率
-  - 样本选择
-  - 核心集
+  - "AAAI 2026"
+  - "图像生成"
+  - "数据集剪枝"
+  - "泛化性"
+  - "训练效率"
+  - "样本选择"
+  - "核心集"
 ---
 
 # UNSEEN: Enhancing Dataset Pruning from a Generalization Perspective

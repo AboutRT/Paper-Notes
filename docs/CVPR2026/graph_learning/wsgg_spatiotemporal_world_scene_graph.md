@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos
 description: >-
-  [CVPR 2026][图学习][world scene graph] 提出世界场景图生成（WSGG）任务——从单目视频生成以世界坐标系为锚定的时空场景图（包含被遮挡/不可见物体），构建 ActionGenome4D 数据集，并设计 PWG/MWAE/4DST 三种互补方法探索不同归纳偏置，4DST 用时间 Transformer 取得最佳 R@10 66.40%。
+  [CVPR 2026][图学习][world scene graph] 提出世界场景图生成（WSGG）任务——从单目视频生成以世界坐标系为锚定的时空场景图（包含被遮挡/不可见物体），构建 ActionGenome4D 数据集，并设计 PWG/MWAE/4DST 三种互补方法探索不同归纳偏置…
 tags:
-  - CVPR 2026
-  - 图学习
-  - world scene graph
-  - spatio-temporal
-  - object permanence
-  - 4D reconstruction
-  - 视频理解
+  - "CVPR 2026"
+  - "图学习"
+  - "world scene graph"
+  - "spatio-temporal"
+  - "object permanence"
+  - "4D reconstruction"
+  - "视频理解"
 ---
 
 # WSGG: Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos

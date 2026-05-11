@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces
 description: >-
-  [CVPR 2025][多模态][视觉空间智能] 本文提出 VSI-Bench，一个基于视频的视觉空间智能基准（5000+ QA对），系统评估了 MLLM 的空间推理能力，发现空间推理是主要瓶颈，传统语言推理技术（CoT等）无法提升性能，但显式生成认知地图可改善空间距离推理。
+  [CVPR 2025][多模态VLM][视觉空间智能] 本文提出 VSI-Bench，一个基于视频的视觉空间智能基准（5000+ QA对），系统评估了 MLLM 的空间推理能力，发现空间推理是主要瓶颈，传统语言推理技术（CoT等）无法提升性能，但显式生成认知地图可改善空间距离推理。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 视觉空间智能
-  - 认知地图
-  - 多模态VLM
-  - 空间推理
-  - 基准测试
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视觉空间智能"
+  - "认知地图"
+  - "视频理解"
+  - "空间推理"
+  - "基准测试"
 ---
 
 # Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces

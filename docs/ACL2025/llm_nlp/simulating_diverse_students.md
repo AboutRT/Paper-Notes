@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents
 description: >-
-  [ACL 2025][LLM/NLP][student simulation] 针对 LLM 难以模拟低水平学生犯错行为的问题，提出基于知识图谱认知原型的 training-free 框架，通过认知状态建模 → 行为预测 → beam search 自精炼三阶段生成逼真的学生解答，在 Student_100 数据集上模拟准确率提升 100%。
+  [ACL 2025][LLM/NLP][student simulation] 针对 LLM 难以模拟低水平学生犯错行为的问题，提出基于知识图谱认知原型的 training-free 框架，通过认知状态建模 → 行为预测 → beam search 自精炼三阶段生成逼真的学生解答…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - student simulation
-  - cognitive prototype
-  - knowledge graph
-  - beam search refinement
-  - LLM agent
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "student simulation"
+  - "cognitive prototype"
+  - "knowledge graph"
+  - "beam search refinement"
+  - "LLM agent"
 ---
 
 # Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][部分相关视频检索] 针对部分相关视频检索（PRVR）中的语义坍塌问题，提出文本相关性保持学习和跨分支视频对齐（CBVA）方法，在文本和视频嵌入空间中分别解决坍塌现象，显著提升检索准确率。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 部分相关视频检索
-  - 语义坍塌
-  - 跨模态对齐
-  - 对比学习
-  - token合并
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "部分相关视频检索"
+  - "语义坍塌"
+  - "跨模态对齐"
+  - "对比学习"
+  - "token合并"
 ---
 
 # Mitigating Semantic Collapse in Partially Relevant Video Retrieval

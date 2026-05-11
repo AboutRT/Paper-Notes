@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][speech compression] 提出 FastLongSpeech，通过迭代融合策略压缩冗余语音表征和动态压缩训练转移短语音能力到长语音场景，使 LSLM 无需长语音训练数据即可高效处理长语音，在长语音 QA 上实现最优性能且推理效率提升 70%。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - speech compression
-  - long-speech processing
-  - iterative fusion
-  - CTC
-  - dynamic compression training
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "speech compression"
+  - "long-speech processing"
+  - "iterative fusion"
+  - "CTC"
+  - "dynamic compression training"
 ---
 
 # FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing
@@ -99,7 +99,7 @@ $$L_{dct} = -\sum_{L \sim \mathcal{U}(\mathbf{L})} \log p(\mathbf{y} \mid \mathb
 
 **Stage 2 - 动态压缩训练**：
 - 使用 LoRA 微调 Qwen2-Audio 的 LLM 部分
-- 训练数据：OpenASQA（5.9kh）+ LibriSQA（360h）+ Common Voice（1.7kh），全部 <30s 短语音
+- 训练数据：OpenASQA（5.9kh）+ LibriSQA（360h）+ Common Voice（1.7kh），全部 &lt;30s 短语音
 - CTC 解码器冻结
 - 语音窗口 L=750（Qwen2-Audio 原始设置）
 
@@ -159,7 +159,7 @@ $$L_{dct} = -\sum_{L \sim \mathcal{U}(\mathbf{L})} \log p(\mathbf{y} \mid \mathb
 
 ## 亮点与洞察
 
-- **零长语音数据训练**：仅用 <30s 短语音数据，通过动态压缩训练实现长语音处理能力迁移
+- **零长语音数据训练**：仅用 &lt;30s 短语音数据，通过动态压缩训练实现长语音处理能力迁移
 - **信息感知压缩**：CTC 输出分布自然提供帧级信息密度，比简单相似度或随机采样更有效
 - **灵活的效率-性能权衡**：通过调节目标长度 L 可自由平衡推理效率和生成质量
 - **LongSpeech-Eval 基准**：构建了首个长语音理解评测集，填补了领域空白

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][交通拓扑推理] 定义了统一的交通拓扑场景图（T²SG），显式建模车道、交通信号控制关系及车道间拓扑连接，并提出 TopoFormer 通过车道聚合层和反事实干预层实现精确的拓扑推理，在 OpenLane-V2 上达到 46.3 OLS SOTA。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 交通拓扑推理
-  - 场景图
-  - 车道检测
-  - 反事实干预
-  - HD地图
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "交通拓扑推理"
+  - "场景图"
+  - "车道检测"
+  - "反事实干预"
+  - "HD地图"
 ---
 
 # T²SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving

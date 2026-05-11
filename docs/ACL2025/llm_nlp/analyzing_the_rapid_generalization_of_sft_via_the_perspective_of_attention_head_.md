@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][监督微调] 本文通过基于梯度的注意力头激活模式分析，揭示了SFT使LLM快速适应下游任务的三个关键机制：选择性激活任务特定的注意力头、复杂任务的激活模式是基础任务的线性组合、少量样本即可显著改变激活模式，并据此提出了利用基础任务数据促进复杂任务学习的实用策略。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 监督微调
-  - 注意力头激活模式
-  - 快速泛化
-  - 复杂任务分解
-  - 参数高效
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "监督微调"
+  - "注意力头激活模式"
+  - "快速泛化"
+  - "复杂任务分解"
+  - "参数高效"
 ---
 
 # Analyzing the Rapid Generalization of SFT via the Perspective of Attention Head Activation Patterns

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning
 description: >-
-  [ACL 2026][多模态][GUI推理] 本文提出 UILoop（UI-in-the-Loop）范式，将 GUI 推理从传统的"屏幕→动作"重构为"屏幕→UI 元素→动作"的循环过程，通过 UI 元素驱动的强化微调教模型显式地定位、理解和利用关键 UI 元素，在 GUI 推理任务上达到 SOTA 性能。
+  [ACL 2026][多模态VLM][GUI推理] 本文提出 UILoop（UI-in-the-Loop）范式，将 GUI 推理从传统的"屏幕→动作"重构为"屏幕→UI 元素→动作"的循环过程，通过 UI 元素驱动的强化微调教模型显式地定位、理解和利用关键 UI 元素…
 tags:
-  - ACL 2026
-  - 多模态
-  - 多模态VLM
-  - UI理解
-  - 强化学习微调
-  - 多模态Agent
-  - UI元素定位
+  - "ACL 2026"
+  - "多模态VLM"
+  - "GUI推理"
+  - "UI理解"
+  - "强化学习微调"
+  - "多模态Agent"
+  - "UI元素定位"
 ---
 
 # What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LLaVA-CoT: Let Vision Language Models Reason Step-by-Step
 description: >-
-  [ICCV 2025][多模态][视觉语言模型] LLaVA-CoT 提出了一种让视觉语言模型自主进行多阶段结构化推理的方法——通过构建 LLaVA-CoT-100k 结构化推理标注数据集训练模型依次执行"总结→视觉解读→逻辑推理→结论生成"四个阶段，并提出阶段级回溯搜索（SWIRES）实现测试时缩放，使 11B 模型超越 Gemini-1.5-pro 和 GPT-4o-mini。
+  [ICCV 2025][多模态VLM][视觉语言模型] LLaVA-CoT 提出了一种让视觉语言模型自主进行多阶段结构化推理的方法——通过构建 LLaVA-CoT-100k 结构化推理标注数据集训练模型依次执行"总结→视觉解读→逻辑推理→结论生成"四个阶段，并提出阶段级回溯搜索（SWIRES）实现测试时缩放…
 tags:
-  - ICCV 2025
-  - 多模态
-  - 多模态VLM
-  - 分阶段推理
-  - 思维链
-  - 测试时缩放
-  - 结构化推理
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "分阶段推理"
+  - "思维链"
+  - "测试时缩放"
+  - "结构化推理"
 ---
 
 # LLaVA-CoT: Let Vision Language Models Reason Step-by-Step

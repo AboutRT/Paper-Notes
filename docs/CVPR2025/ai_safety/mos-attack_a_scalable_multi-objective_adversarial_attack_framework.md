@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][AI安全][对抗攻击] 提出MOS Attack框架，将对抗攻击建模为多目标集合优化问题，结合smooth max/min近似实现多损失函数联合优化，并自动发现损失函数间的协同模式，在CIFAR-10和ImageNet上超越现有SOTA单目标攻击和集成攻击。
 tags:
-  - CVPR 2025
-  - AI安全
-  - 对抗攻击
-  - 多目标优化
-  - 损失函数协同
-  - 集合优化
-  - 鲁棒性评估
+  - "CVPR 2025"
+  - "AI安全"
+  - "对抗攻击"
+  - "多目标优化"
+  - "损失函数协同"
+  - "集合优化"
+  - "鲁棒性评估"
 ---
 
 # MOS-Attack: A Scalable Multi-Objective Adversarial Attack Framework

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Cycle-Sync: Robust Global Camera Pose Estimation through Enhanced Cycle-Consistent Synchronization
 description: >-
-  [NeurIPS 2025][人体理解][Structure-from-Motion] 提出 Cycle-Sync 全局相机位姿估计框架，通过将消息传递最小二乘 (MPLS) 扩展到相机位置估计、引入 Welsch 型鲁棒损失和环一致性加权，在无需 bundle adjustment 的情况下超越了包括完整 SfM pipeline（含 BA）在内的所有基线方法。
+  [NeurIPS 2025][人体理解][Structure-from-Motion] 提出 Cycle-Sync 全局相机位姿估计框架，通过将消息传递最小二乘 (MPLS) 扩展到相机位置估计、引入 Welsch 型鲁棒损失和环一致性加权…
 tags:
-  - NeurIPS 2025
-  - 人体理解
-  - Structure-from-Motion
-  - 相机位置估计
-  - 环一致性
-  - 鲁棒优化
-  - 消息传递
+  - "NeurIPS 2025"
+  - "人体理解"
+  - "Structure-from-Motion"
+  - "相机位置估计"
+  - "环一致性"
+  - "鲁棒优化"
+  - "消息传递"
 ---
 
 # Cycle-Sync: Robust Global Camera Pose Estimation through Enhanced Cycle-Consistent Synchronization
@@ -80,7 +80,7 @@ tags:
 |------|-------------|----------|
 | ShapeFit | 0.4 | 差 |
 | LUD / BATA | 0.3 | 差 |
-| **Cycle-Sync** | **0.8** | **鲁棒至 q<0.5** |
+| **Cycle-Sync** | **0.8** | **鲁棒至 q&lt;0.5** |
 
 ### ETH3D 真实数据（13 场景，中位平移误差）
 
@@ -89,7 +89,7 @@ tags:
 | LUD | >0.2 | 否 |
 | Theia | ~0.15 | 是 |
 | GLOMAP | ~0.18 | 是 |
-| **Cycle-Sync** | **<0.05** | **否** |
+| **Cycle-Sync** | **&lt;0.05** | **否** |
 
 ### 消融实验
 
@@ -101,7 +101,7 @@ tags:
 | +STE 方向估计 | -70.5% |
 
 ### 关键发现
-- 无 BA 的 Cycle-Sync 平均误差 (<0.05) 远低于带 BA 的 Theia 和 GLOMAP
+- 无 BA 的 Cycle-Sync 平均误差 (&lt;0.05) 远低于带 BA 的 Theia 和 GLOMAP
 - 合成对抗腐蚀下恢复阈值从 0.3 提升到 0.8
 - 每个组件贡献均可量化，STE 方向过滤贡献最大
 

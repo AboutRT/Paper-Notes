@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Breaking the Low-Rank Dilemma of Linear Attention
 description: >-
-  [CVPR 2025][信号通信][线性注意力] 从理论上揭示线性注意力性能不及 Softmax 注意力的根本原因是输出特征的低秩问题，提出秩增强线性注意力（RALA），通过增强 KV 缓存秩和输出特征秩两种互补策略，在保持线性复杂度的同时追平甚至超越 Softmax 注意力的表现。
+  [CVPR 2025][信号/通信][线性注意力] 从理论上揭示线性注意力性能不及 Softmax 注意力的根本原因是输出特征的低秩问题，提出秩增强线性注意力（RALA），通过增强 KV 缓存秩和输出特征秩两种互补策略，在保持线性复杂度的同时追平甚至超越 Softmax 注意力的表现。
 tags:
-  - CVPR 2025
-  - 信号通信
-  - 线性注意力
-  - 秩增强
-  - Transformer
-  - 高效注意力
-  - RALA
+  - "CVPR 2025"
+  - "信号/通信"
+  - "线性注意力"
+  - "秩增强"
+  - "Transformer"
+  - "高效注意力"
+  - "RALA"
 ---
 
 # Breaking the Low-Rank Dilemma of Linear Attention

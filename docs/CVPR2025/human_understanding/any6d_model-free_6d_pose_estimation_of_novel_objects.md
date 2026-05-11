@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][位姿估计] 提出 Any6D 框架，仅从单张 RGB-D 锚点图像即可估计未知物体的 6D 位姿和尺寸，通过 InstantMesh 3D 重建 + 朝向包围盒粗对齐 + 联合尺寸-位姿精细化，在 HO3D 上 ADD-S 达 98.7% 远超 GEDI 的 71.9%。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 位姿估计
-  - model-free
-  - single anchor
-  - InstantMesh
-  - FoundationPose
-  - render-and-compare
+  - "CVPR 2025"
+  - "人体理解"
+  - "位姿估计"
+  - "model-free"
+  - "single anchor"
+  - "InstantMesh"
+  - "FoundationPose"
+  - "render-and-compare"
 ---
 
 # Any6D: Model-free 6D Pose Estimation of Novel Objects

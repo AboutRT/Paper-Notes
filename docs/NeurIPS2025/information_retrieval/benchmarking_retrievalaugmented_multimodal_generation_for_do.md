@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering
 description: >-
-  [NeurIPS 2025][OCR] 提出 MMDocRAG 基准（4055 个专家标注的 QA 对），系统评估了 60 个 VLM/LLM 和 14 个检索器在多模态文档检索增强生成中的引用选择和交错图文回答能力，揭示当前最强模型 GPT-4.1 的 Quote Selection F1 仅 70.2%，微调可显著提升性能。
+  [NeurIPS 2025][信息检索/RAG][OCR] 提出 MMDocRAG 基准（4055 个专家标注的 QA 对），系统评估了 60 个 VLM/LLM 和 14 个检索器在多模态文档检索增强生成中的引用选择和交错图文回答能力…
 tags:
-  - NeurIPS 2025
-  - OCR
-  - 信息检索
-  - Quote Selection
-  - 交错图文生成
-  - benchmark
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "OCR"
+  - "多模态问答"
+  - "Quote Selection"
+  - "交错图文生成"
+  - "benchmark"
 ---
 
 # Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering

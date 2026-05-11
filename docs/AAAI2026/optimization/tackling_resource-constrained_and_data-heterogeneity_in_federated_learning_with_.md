@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning with Double-Weight Sparse Pack
 description: >-
-  [AAAI 2026][优化][联邦学习] 提出FedCSPACK，一种基于余弦稀疏化参数打包和双权重聚合的个性化联邦学习方法，通过在包级别进行参数选择和共享，同时平衡了数据异质性和客户端资源约束，训练速度提升2-5倍、通信量压缩高达96%，同时模型精度提升3.34%。
+  [AAAI 2026][优化/理论][联邦学习] 提出FedCSPACK，一种基于余弦稀疏化参数打包和双权重聚合的个性化联邦学习方法，通过在包级别进行参数选择和共享，同时平衡了数据异质性和客户端资源约束，训练速度提升2-5倍、通信量压缩高达96%，同时模型精度提升3.34%。
 tags:
-  - AAAI 2026
-  - 优化
-  - 联邦学习
-  - 数据异质性
-  - 资源受限
-  - 稀疏通信
-  - 个性化联邦学习
+  - "AAAI 2026"
+  - "优化/理论"
+  - "联邦学习"
+  - "数据异质性"
+  - "资源受限"
+  - "稀疏通信"
+  - "个性化联邦学习"
 ---
 
 # Tackling Resource-Constrained and Data-Heterogeneity in Federated Learning with Double-Weight Sparse Pack

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sequential Monte Carlo for Policy Optimization in Continuous POMDPs
 description: >-
-  [NeurIPS 2025][POMDP] 提出基于非马尔可夫 Feynman-Kac 模型的嵌套 SMC（Sequential Monte Carlo）算法，在连续 POMDP 中实现策略优化，天然捕获信息收集价值而无需手工启发式。
+  [NeurIPS 2025][强化学习][POMDP] 提出基于非马尔可夫 Feynman-Kac 模型的嵌套 SMC（Sequential Monte Carlo）算法，在连续 POMDP 中实现策略优化，天然捕获信息收集价值而无需手工启发式。
 tags:
-  - NeurIPS 2025
-  - POMDP
-  - sequential Monte Carlo
-  - policy gradient
-  - partial observability
-  - Feynman-Kac
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "POMDP"
+  - "sequential Monte Carlo"
+  - "policy gradient"
+  - "partial observability"
+  - "Feynman-Kac"
 ---
 
 # Sequential Monte Carlo for Policy Optimization in Continuous POMDPs

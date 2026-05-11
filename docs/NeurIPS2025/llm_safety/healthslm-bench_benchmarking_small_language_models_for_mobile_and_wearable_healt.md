@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring
 description: >-
-  [NeurIPS 2025][AI安全][小语言模型] 首个系统评估小语言模型 (SLMs, 1-4B参数) 在移动与可穿戴健康监测任务上表现的基准，覆盖zero-shot/few-shot/指令微调三种范式，并在iPhone上验证了端侧部署的可行性。
+  [NeurIPS 2025][LLM安全][小语言模型] 首个系统评估小语言模型 (SLMs, 1-4B参数) 在移动与可穿戴健康监测任务上表现的基准，覆盖zero-shot/few-shot/指令微调三种范式，并在iPhone上验证了端侧部署的可行性。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 小语言模型
-  - 移动健康监测
-  - 可穿戴设备
-  - 隐私保护
-  - 端侧部署
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "小语言模型"
+  - "移动健康监测"
+  - "可穿戴设备"
+  - "隐私保护"
+  - "端侧部署"
 ---
 
 # HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring

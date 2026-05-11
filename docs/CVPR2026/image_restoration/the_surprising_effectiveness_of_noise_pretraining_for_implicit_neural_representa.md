@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations
 description: >-
-  [CVPR 2026][图像恢复][隐式神经表示] 本文通过系统的实验分析发现：用非结构化噪声（均匀/高斯分布）预训练 INR 可在图像拟合中达到惊人的 ~80dB PSNR，远超所有数据驱动初始化方法；而具有自然图像 $1/|f^\alpha|$ 频谱结构的噪声则在信号拟合和去噪之间实现最佳平衡，无需任何真实数据即可匹配 SOTA 数据驱动初始化性能。
+  [CVPR 2026][图像恢复][隐式神经表示] 本文通过系统的实验分析发现：用非结构化噪声（均匀/高斯分布）预训练 INR 可在图像拟合中达到惊人的 ~80dB PSNR，远超所有数据驱动初始化方法；而具有自然图像 $1/|f^\alpha|$ 频谱结构的噪声则在信号拟合和去噪之间实现最佳平衡…
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - 隐式神经表示
-  - 图像复原
-  - 参数初始化
-  - 信号拟合
-  - 去噪
+  - "CVPR 2026"
+  - "图像恢复"
+  - "隐式神经表示"
+  - "噪声预训练"
+  - "参数初始化"
+  - "信号拟合"
+  - "去噪"
 ---
 
 # The Surprising Effectiveness of Noise Pretraining for Implicit Neural Representations

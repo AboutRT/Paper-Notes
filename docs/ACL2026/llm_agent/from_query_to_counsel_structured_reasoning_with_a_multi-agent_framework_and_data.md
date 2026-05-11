@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Query to Counsel: Structured Reasoning with a Multi-Agent Framework and Dataset for Legal Consultation
 description: >-
-  [ACL 2026][LLM Agent][法律咨询问答] 本文构建了JurisCQAD——一个包含43000+真实中文法律咨询的大规模数据集，并提出JurisMA多智能体框架，通过法律元素图进行结构化任务分解和动态多Agent协作（管理Agent+格式检查+法条检索），在LawBench上显著优于通用和法律专用LLM。
+  [ACL 2026][LLM Agent][法律咨询问答] 本文构建了JurisCQAD——一个包含43000+真实中文法律咨询的大规模数据集，并提出JurisMA多智能体框架，通过法律元素图进行结构化任务分解和动态多Agent协作（管理Agent+格式检查+法条检索）…
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 法律咨询问答
-  - 多智能体
-  - 法律元素图
-  - 任务分解
-  - 中文法律
+  - "ACL 2026"
+  - "LLM Agent"
+  - "法律咨询问答"
+  - "多智能体"
+  - "法律元素图"
+  - "任务分解"
+  - "中文法律"
 ---
 
 # From Query to Counsel: Structured Reasoning with a Multi-Agent Framework and Dataset for Legal Consultation

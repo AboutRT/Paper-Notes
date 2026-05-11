@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][自主武器系统] 本文针对 AI 驱动的致命性自主武器系统 (AI-LAWS) 提出了基于系统行为（而非标签或意图）的监管标准，论证了 AI 研究者必须参与军事 AI 监管的全生命周期，并提出了五项具体的政策建议。
 tags:
-  - NeurIPS 2025
-  - 自主武器系统
-  - AI-LAWS
-  - 军事 AI 监管
-  - 技术知情政策
-  - AI 研究自由
+  - "NeurIPS 2025"
+  - "自主武器系统"
+  - "AI-LAWS"
+  - "军事 AI 监管"
+  - "技术知情政策"
+  - "AI 研究自由"
 ---
 
 # Military AI Needs Technically-Informed Regulation to Safeguard AI Research and its Applications

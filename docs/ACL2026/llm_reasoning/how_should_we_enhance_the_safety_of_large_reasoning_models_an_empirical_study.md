@@ -2,15 +2,15 @@
 title: >-
   [论文解读] How Should We Enhance the Safety of Large Reasoning Models: An Empirical Study
 description: >-
-  [ACL 2026][LLM推理][推理模型安全] 本文系统研究如何通过 SFT 增强大型推理模型（LRM）的安全性，发现直接蒸馏安全响应效果有限的根因是五种风险推理模式（尤其是"弱犹豫"），提出针对性的蒸馏策略将 PAIR 攻击成功率从 63% 降至 13%，并发现短推理链和模板推理在安全性上与长推理链表现相当。
+  [ACL 2026][LLM推理][推理模型安全] 本文系统研究如何通过 SFT 增强大型推理模型（LRM）的安全性，发现直接蒸馏安全响应效果有限的根因是五种风险推理模式（尤其是"弱犹豫"），提出针对性的蒸馏策略将 PAIR 攻击成功率从 63% 降至 13%…
 tags:
-  - ACL 2026
-  - LLM推理
-  - 推理模型安全
-  - 风险推理模式
-  - 弱犹豫
-  - 安全蒸馏
-  - 短推理链
+  - "ACL 2026"
+  - "LLM推理"
+  - "推理模型安全"
+  - "风险推理模式"
+  - "弱犹豫"
+  - "安全蒸馏"
+  - "短推理链"
 ---
 
 # How Should We Enhance the Safety of Large Reasoning Models: An Empirical Study

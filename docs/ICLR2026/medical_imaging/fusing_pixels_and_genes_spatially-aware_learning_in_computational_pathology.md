@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][Spatial Transcriptomics] 本文提出 Stamp 框架，利用空间转录组学基因表达数据作为监督信号，通过空间感知基因编码器预训练和层次化多尺度对比对齐，实现病理图像与空间转录组数据的联合表示学习，在 6 个数据集 4 个下游任务上取得 SOTA。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - Spatial Transcriptomics
-  - Computational Pathology
-  - 多模态
-  - Gene Expression
-  - 对比学习
+  - "ICLR 2026"
+  - "医学图像"
+  - "Spatial Transcriptomics"
+  - "Computational Pathology"
+  - "多模态"
+  - "Gene Expression"
+  - "对比学习"
 ---
 
 # Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology

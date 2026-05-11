@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][遥感][自监督学习] 提出 MA3E，在 MAE 预训练中显式引入角度变化（通过 scaling center crop 构建旋转裁剪），并用最优传输损失自动分配重建目标，使模型感知遥感目标的多样角度，学习旋转不变表示。
 tags:
-  - ECCV 2024
-  - 遥感
-  - 自监督学习
-  - 掩码图像建模
-  - 旋转不变性
-  - 最优传输
-  - 遥感图像
+  - "ECCV 2024"
+  - "遥感"
+  - "自监督学习"
+  - "掩码图像建模"
+  - "旋转不变性"
+  - "最优传输"
+  - "遥感图像"
 ---
 
 # Masked Angle-Aware Autoencoder for Remote Sensing Images

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][图学习][答案中心检索] 提出ARK框架，通过三维答案充分性评分（Forward+Backward+Retriever对齐）筛选正样本，利用LLM构建的知识图谱生成渐进难度的困难负样本进行课程对比学习，在10个数据集上平均提升14.5% F1。
 tags:
-  - ACL 2026
-  - 图学习
-  - 答案中心检索
-  - 知识图谱增强
-  - 课程学习
-  - 对比学习
-  - 长上下文RAG
+  - "ACL 2026"
+  - "图学习"
+  - "答案中心检索"
+  - "知识图谱增强"
+  - "课程学习"
+  - "对比学习"
+  - "长上下文RAG"
 ---
 
 # ARK: Answer-Centric Retriever Tuning via KG-augmented Curriculum Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][点云法向量估计] 本文提出首个大规模合成LiDAR点云表面法向量数据集LiSu，并设计时空正则化方法增强法向量估计精度，在自训练中有效抑制伪标签噪声，实现从合成到真实数据的鲁棒域自适应。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 点云法向量估计
-  - LiDAR
-  - 合成数据集
-  - 时空正则化
-  - 域自适应
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "点云法向量估计"
+  - "LiDAR"
+  - "合成数据集"
+  - "时空正则化"
+  - "域自适应"
 ---
 
 # LiSu: A Dataset and Method for LiDAR Surface Normal Estimation

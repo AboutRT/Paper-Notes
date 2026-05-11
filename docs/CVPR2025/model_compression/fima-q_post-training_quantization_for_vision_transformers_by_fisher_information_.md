@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][模型压缩][后训练量化] 提出 FIMA-Q，通过对角+低秩（DPLR）的 Fisher 信息矩阵近似替代传统对角近似，更准确地捕捉量化误差对输出分布的影响，在 3-bit 极低比特 ViT 量化中大幅超越现有方法（ViT-B 77.63% vs QDrop 74.75%）。
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - 后训练量化
-  - Transformer
-  - Fisher信息矩阵
-  - 对角低秩近似
-  - 低比特量化
+  - "CVPR 2025"
+  - "模型压缩"
+  - "后训练量化"
+  - "Transformer"
+  - "Fisher信息矩阵"
+  - "对角低秩近似"
+  - "低比特量化"
 ---
 
 # FIMA-Q: Post-Training Quantization for Vision Transformers by Fisher Information Matrix Approximation

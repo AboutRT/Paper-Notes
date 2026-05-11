@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues
 description: >-
-  [CVPR 2026][视频理解][视频问答] 本文提出 VRR-QA 基准，包含 1K 精心标注的视频问答对，专门测试模型对视频中隐式视觉关系的推理能力（如屏幕外事件、跨帧因果、空间关系推断），揭示当前最强 VideoQA 模型（包括 GPT-O3）在隐式推理上的显著不足——最优模型仅达 64% 准确率，远低于人类的 83%。
+  [CVPR 2026][视频理解][视频问答] 本文提出 VRR-QA 基准，包含 1K 精心标注的视频问答对，专门测试模型对视频中隐式视觉关系的推理能力（如屏幕外事件、跨帧因果、空间关系推断），揭示当前最强 VideoQA 模型（包括 GPT-O3）在隐式推理上的显著不足——最优模型仅达 64% 准确率…
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频问答
-  - 隐式推理
-  - 视觉关系推理
-  - 基准测试
-  - 多模态理解
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频问答"
+  - "隐式推理"
+  - "视觉关系推理"
+  - "基准测试"
+  - "多模态理解"
 ---
 
 # VRR-QA: Visual Relational Reasoning in Videos Beyond Explicit Cues

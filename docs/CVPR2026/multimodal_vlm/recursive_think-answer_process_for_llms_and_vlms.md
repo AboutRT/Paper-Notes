@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Recursive Think-Answer Process for LLMs and VLMs
 description: >-
-  [CVPR 2026 (Findings)][递归推理] R-TAP 提出一种递归思考-回答过程，通过置信度生成器评估模型回答确定性并引导迭代推理修正，配合递归置信度增长奖励和最终答案置信度奖励的双重强化信号，在 LLM 和 VLM 上均一致超越单次推理方法，同时显著减少推理中的"Oops!"式自我反思表达。
+  [CVPR 2026 (Findings)][多模态VLM][递归推理] R-TAP 提出一种递归思考-回答过程，通过置信度生成器评估模型回答确定性并引导迭代推理修正，配合递归置信度增长奖励和最终答案置信度奖励的双重强化信号，在 LLM 和 VLM 上均一致超越单次推理方法…
 tags:
-  - CVPR 2026 (Findings)
-  - 多模态VLM
-  - Think-Answer
-  - confidence generator
-  - reasoning refinement
-  - test-time scaling
+  - "CVPR 2026 (Findings)"
+  - "多模态VLM"
+  - "递归推理"
+  - "Think-Answer"
+  - "confidence generator"
+  - "reasoning refinement"
+  - "test-time scaling"
 ---
 
 # Recursive Think-Answer Process for LLMs and VLMs

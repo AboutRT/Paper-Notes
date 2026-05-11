@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Vista: Scene-Aware Optimization for Streaming Video Question Answering Under Post-Hoc Queries
 description: >-
-  [AAAI 2026][图像分割][流式视频问答] Vista 提出了一种场景感知的流式视频问答框架，通过将流式视频动态分割为语义连贯的场景单元，对每个场景进行时空压缩并卸载到 CPU，在用户提问时选择性召回最相关的场景，实现了在低 GPU 内存占用和低延迟下的高精度视频问答。
+  [AAAI 2026][语义分割][流式视频问答] Vista 提出了一种场景感知的流式视频问答框架，通过将流式视频动态分割为语义连贯的场景单元，对每个场景进行时空压缩并卸载到 CPU，在用户提问时选择性召回最相关的场景，实现了在低 GPU 内存占用和低延迟下的高精度视频问答。
 tags:
-  - AAAI 2026
-  - 图像分割
-  - 流式视频问答
-  - 场景感知压缩
-  - 多模态大模型
-  - 视频记忆检索
-  - 实时推理
+  - "AAAI 2026"
+  - "语义分割"
+  - "流式视频问答"
+  - "场景感知压缩"
+  - "多模态大模型"
+  - "视频记忆检索"
+  - "实时推理"
 ---
 
 # Vista: Scene-Aware Optimization for Streaming Video Question Answering Under Post-Hoc Queries

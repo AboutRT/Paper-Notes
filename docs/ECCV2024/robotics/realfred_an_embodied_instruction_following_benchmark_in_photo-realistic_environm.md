@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][机器人][具身智能] 提出 ReALFRED 基准，使用 150 个真实世界 3D 扫描的多房间可交互环境替代 ALFRED 的合成单房间场景，提供 30,696 条自由格式语言指令，揭示了现有具身指令跟随方法在真实环境中性能显著下降的问题。
 tags:
-  - ECCV 2024
-  - 机器人
-  - 具身智能
-  - 指令跟随
-  - 3D 扫描环境
-  - 多房间导航
-  - 基准数据集
+  - "ECCV 2024"
+  - "机器人"
+  - "具身智能"
+  - "指令跟随"
+  - "3D 扫描环境"
+  - "多房间导航"
+  - "基准数据集"
 ---
 
 # ReALFRED: An Embodied Instruction Following Benchmark in Photo-Realistic Environments

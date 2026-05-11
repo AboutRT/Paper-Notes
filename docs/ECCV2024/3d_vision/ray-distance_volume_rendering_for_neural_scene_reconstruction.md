@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][室内场景重建] 提出 RS-Recon 方法，用射线方向相关的有符号射线距离函数（SRDF）替代传统 SDF 来参数化体渲染中的密度函数，结合 SRDF-SDF 一致性损失和自监督可见性任务，在多物体室内场景重建中取得更准确的表面和视图合成。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 室内场景重建
-  - 神经隐式表面
-  - SRDF
-  - 体渲染
-  - 可见性预测
+  - "ECCV 2024"
+  - "3D视觉"
+  - "室内场景重建"
+  - "神经隐式表面"
+  - "SRDF"
+  - "体渲染"
+  - "可见性预测"
 ---
 
 # Ray-Distance Volume Rendering for Neural Scene Reconstruction

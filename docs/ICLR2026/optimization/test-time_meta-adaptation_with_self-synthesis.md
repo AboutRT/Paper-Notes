@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Test-Time Meta-Adaptation with Self-Synthesis
 description: >-
-  [ICLR 2026][优化][元学习] 提出 MASS（Meta-Adaptation with Self-Synthesis）框架，通过双层优化元学习让 LLM 在推理时生成问题特定的合成训练数据（Generator）+ 评分筛选（Scorer）+ 加权 SFT 自更新（LoRA），meta-gradient 反向传播穿过内更新以优化数据质量，在 MATH-500 上将 Llama-3.1-8B 从 43.6% 提升至 59.0%。
+  [ICLR 2026][优化/理论][元学习] 提出 MASS（Meta-Adaptation with Self-Synthesis）框架，通过双层优化元学习让 LLM 在推理时生成问题特定的合成训练数据（Generator）+ 评分筛选（Scorer）+ 加权 SFT 自更新（LoRA）…
 tags:
-  - ICLR 2026
-  - 优化
-  - 元学习
-  - test-time training
-  - 双层优化
-  - 合成数据
-  - self-adaptation
+  - "ICLR 2026"
+  - "优化/理论"
+  - "元学习"
+  - "test-time training"
+  - "双层优化"
+  - "合成数据"
+  - "self-adaptation"
 ---
 
 # Test-Time Meta-Adaptation with Self-Synthesis

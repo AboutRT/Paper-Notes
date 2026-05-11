@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Improving Transferable Targeted Attacks with Feature Tuning Mixup
 description: >-
-  [CVPR 2025][其他] 提出 FTM（Feature Tuning Mixup）通过在代理模型的特征空间中混合优化的攻击专用扰动和随机干净扰动来提升有目标对抗攻击的迁移性，使用动量式随机更新策略保持计算效率，14 个黑盒模型上平均成功率从 74.6% 提升到 77.4%。
+  [CVPR 2025][对抗攻击] 提出 FTM（Feature Tuning Mixup）通过在代理模型的特征空间中混合优化的攻击专用扰动和随机干净扰动来提升有目标对抗攻击的迁移性，使用动量式随机更新策略保持计算效率，14 个黑盒模型上平均成功率从 74.6% 提升到 77.4%。
 tags:
-  - CVPR 2025
-  - 其他
-  - 迁移攻击
-  - 特征扰动
-  - Mixup
-  - 黑盒攻击
+  - "CVPR 2025"
+  - "对抗攻击"
+  - "迁移攻击"
+  - "特征扰动"
+  - "Mixup"
+  - "黑盒攻击"
 ---
 
 # Improving Transferable Targeted Attacks with Feature Tuning Mixup

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][类别无关姿态估计] 提出 FMMP 框架，通过基于可变形注意力的循环挖掘细粒度结构感知（FGSA）特征 + 关键点 Mixup 填充策略，在类别无关姿态估计（CAPE）上大幅超越 SOTA（+3.2% PCK@0.05）。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 类别无关姿态估计
-  - 可变形注意力
-  - 关键点混合填充
-  - 少样本学习
-  - 结构感知特征
+  - "CVPR 2025"
+  - "人体理解"
+  - "类别无关姿态估计"
+  - "可变形注意力"
+  - "关键点混合填充"
+  - "少样本学习"
+  - "结构感知特征"
 ---
 
 # Recurrent Feature Mining and Keypoint Mixup Padding for Category-Agnostic Pose Estimation

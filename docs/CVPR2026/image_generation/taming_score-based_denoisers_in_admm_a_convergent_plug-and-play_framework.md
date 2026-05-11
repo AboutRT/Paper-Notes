@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][即插即用] 提出 AC-DC 三阶段去噪器（自动校正 + 方向校正 + Score 去噪），解决 ADMM 迭代与 score 训练流形不匹配的问题，并首次为 ADMM-PnP + score denoiser 建立了收敛性保证，在多种逆问题上取得 SOTA。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 即插即用
-  - ADMM
-  - 扩散模型
-  - Score-based Denoiser
-  - 逆问题求解
+  - "CVPR 2026"
+  - "图像生成"
+  - "即插即用"
+  - "ADMM"
+  - "扩散模型"
+  - "Score-based Denoiser"
+  - "逆问题求解"
 ---
 
 # Taming Score-Based Denoisers in ADMM: A Convergent Plug-and-Play Framework

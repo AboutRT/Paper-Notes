@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images
 description: >-
-  [ECCV 2024][图像分割][可运动部件分割] 提出首个面向真实室内场景RGB图像中可运动部件实例分割的主动学习框架，通过姿态感知masked attention网络实现由粗到细的分割，仅需人工标注11.45%的图像即可获得全量验证的高质量分割结果，相比最优非AL方法节省60%人工时间。
+  [ECCV 2024][语义分割][可运动部件分割] 提出首个面向真实室内场景RGB图像中可运动部件实例分割的主动学习框架，通过姿态感知masked attention网络实现由粗到细的分割，仅需人工标注11.45%的图像即可获得全量验证的高质量分割结果，相比最优非AL方法节省60%人工时间。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 可运动部件分割
-  - 主动学习
-  - 由粗到细
-  - 姿态感知注意力
-  - 实景标注
+  - "ECCV 2024"
+  - "语义分割"
+  - "可运动部件分割"
+  - "主动学习"
+  - "由粗到细"
+  - "姿态感知注意力"
+  - "实景标注"
 ---
 
 # Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images

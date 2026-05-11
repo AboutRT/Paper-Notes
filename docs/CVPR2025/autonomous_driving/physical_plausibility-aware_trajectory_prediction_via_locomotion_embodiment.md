@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][轨迹预测] 提出 Locomotion Embodiment 框架，利用物理模拟器中的人形运动生成评估轨迹的物理合理性，通过可微的 LocoVal 函数替代不可微的物理模拟器来训练轨迹预测网络，并在推理时过滤不合理轨迹。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 轨迹预测
-  - 物理合理性
-  - 运动生成
-  - 物理模拟器
-  - 可微代理
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "轨迹预测"
+  - "物理合理性"
+  - "运动生成"
+  - "物理模拟器"
+  - "可微代理"
 ---
 
 # Physical Plausibility-aware Trajectory Prediction via Locomotion Embodiment

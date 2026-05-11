@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][长上下文推理] 提出 InftyThink，一种将整体式长推理转化为迭代式短推理+中间摘要的新范式，在不修改模型架构的前提下实现理论上无界的推理深度、显著降低计算成本，Qwen2.5-Math-7B 在 AIME24 上提升11%。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 长上下文推理
-  - 迭代推理
-  - 摘要压缩
-  - 计算效率
-  - 推理范式
+  - "ICLR 2026"
+  - "模型压缩"
+  - "长上下文推理"
+  - "迭代推理"
+  - "摘要压缩"
+  - "计算效率"
+  - "推理范式"
 ---
 
 # InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models

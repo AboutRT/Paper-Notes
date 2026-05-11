@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][越狱防御] 提出 EDDF，一种基于"攻击本质"而非表面模式的越狱防御框架：离线提取已知攻击的本质策略存入向量数据库，在线时对新查询做本质抽象+检索+细粒度判断，将攻击成功率降低至少 20% 且误报率仅 2.18%。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 越狱防御
-  - 攻击本质
-  - 向量检索
-  - 输入过滤
-  - 即插即用
+  - "ACL 2025"
+  - "LLM对齐"
+  - "越狱防御"
+  - "攻击本质"
+  - "向量检索"
+  - "输入过滤"
+  - "即插即用"
 ---
 
 # Beyond Surface-Level Patterns: An Essence-Driven Defense Framework Against Jailbreak Attacks in LLMs

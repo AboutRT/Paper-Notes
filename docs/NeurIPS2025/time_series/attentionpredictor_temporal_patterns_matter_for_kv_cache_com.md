@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][KV缓存压缩] AttentionPredictor是首个学习型方法直接预测注意力模式以实现KV缓存压缩和关键token识别，通过轻量CNN捕捉注意力分数的时空模式，实现13倍KV缓存压缩和5.6倍推理加速，统一预测模型仅21KB可跨所有Transformer层共享。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - KV缓存压缩
-  - 注意力预测
-  - 时序模式
-  - LLM推理加速
-  - 缓存预取
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "KV缓存压缩"
+  - "注意力预测"
+  - "时序模式"
+  - "LLM推理加速"
+  - "缓存预取"
 ---
 
 # AttentionPredictor: Temporal Patterns Matter for KV Cache Compression

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Temporal Unlearnable Examples: Preventing Personal Video Data from Unauthorized Exploitation
 description: >-
-  [ICCV 2025][LLM安全] 本文首次研究防止视频数据被深度跟踪器未授权使用的问题，提出基于 DiT 的生成式框架生成时序不可学习样本（TUE），通过时间对比损失使跟踪器依赖扰动噪声进行时序匹配而非学习真实数据结构，实现了跨模型、跨数据集和跨任务的强可迁移性。
+  [ICCV 2025][LLM安全][视频数据隐私] 本文首次研究防止视频数据被深度跟踪器未授权使用的问题，提出基于 DiT 的生成式框架生成时序不可学习样本（TUE），通过时间对比损失使跟踪器依赖扰动噪声进行时序匹配而非学习真实数据结构，实现了跨模型、跨数据集和跨任务的强可迁移性。
 tags:
-  - ICCV 2025
-  - LLM安全
-  - 不可学习样本
-  - 视觉目标跟踪
-  - 生成式扰动
-  - 对比学习
+  - "ICCV 2025"
+  - "LLM安全"
+  - "视频数据隐私"
+  - "不可学习样本"
+  - "视觉目标跟踪"
+  - "生成式扰动"
+  - "对比学习"
 ---
 
 # Temporal Unlearnable Examples: Preventing Personal Video Data from Unauthorized Exploitation

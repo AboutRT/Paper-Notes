@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][医学图像][OOD检测] 本文系统论证了当前主流OOD检测方法（基于特征和基于logit）在根本上回答了错误的问题——它们检测的是"特征是否异常"或"模型是否不确定"，而非"输入是否来自不同分布"，并证明了各种常见改进策略也无法解决这一根本性错位。
 tags:
-  - ICML2025
-  - 医学图像
-  - OOD检测
-  - 分布偏移
-  - 特征空间
-  - 不确定性
-  - 模型误设定
+  - "ICML2025"
+  - "医学图像"
+  - "OOD检测"
+  - "分布偏移"
+  - "特征空间"
+  - "不确定性"
+  - "模型误设定"
 ---
 
 # Out-of-Distribution Detection Methods Answer the Wrong Questions

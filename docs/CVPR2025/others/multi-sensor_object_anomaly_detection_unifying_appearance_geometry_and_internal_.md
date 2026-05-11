@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Multi-Sensor Object Anomaly Detection: Unifying Appearance, Geometry, and Internal Properties
 description: >-
-  [人体理解] 提出 MulSen-AD，首个融合 RGB 相机、激光扫描仪和红外热成像三种传感器的工业物体异常检测数据集（15 类产品、14 种异常），并设计 MulSen-TripleAD 决策级融合基线方法，实现 96.1% AUROC，证明多传感器融合显著优于单传感器方法。
+  提出 MulSen-AD，首个融合 RGB 相机、激光扫描仪和红外热成像三种传感器的工业物体异常检测数据集（15 类产品、14 种异常），并设计 MulSen-TripleAD 决策级融合基线方法，实现 96.1% AUROC，证明多传感器融合显著优于单传感器方法。
 tags:
-  - 其他
+
 ---
 
 # Multi-Sensor Object Anomaly Detection: Unifying Appearance, Geometry, and Internal Properties

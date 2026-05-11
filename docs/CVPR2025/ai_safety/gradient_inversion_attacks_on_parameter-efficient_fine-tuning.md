@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Gradient Inversion Attacks on Parameter-Efficient Fine-Tuning
 description: >-
-  [CVPR 2025][AI安全][隐私攻击] 首次证明 Adapter-based PEFT 在联邦学习中不是隐私安全的——恶意服务器可以将预训练模型设计为恒等映射使 patch embedding 原样传播到 adapter 层，从 adapter 梯度中解析式恢复训练图像（CIFAR-100 SSIM 0.88）。
+  [CVPR 2025][AI安全][隐私攻击] 首次证明 Adapter-based PEFT 在联邦学习中不是隐私安全的——恶意服务器可以将预训练模型设计为恒等映射使 patch embedding 原样传播到 adapter 层…
 tags:
-  - CVPR 2025
-  - AI安全
-  - 隐私攻击
-  - 梯度反演
-  - PEFT安全
-  - 联邦学习
-  - Adapter漏洞
+  - "CVPR 2025"
+  - "AI安全"
+  - "隐私攻击"
+  - "梯度反演"
+  - "PEFT安全"
+  - "联邦学习"
+  - "Adapter漏洞"
 ---
 
 # Gradient Inversion Attacks on Parameter-Efficient Fine-Tuning

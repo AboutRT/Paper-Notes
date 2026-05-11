@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Auto-TA: Towards Scalable Automated Thematic Analysis (TA) via Multi-Agent Large Language Models with Reinforcement Learning
 description: >-
-  [ACL 2025 (SRW)][LLM Agent][主题分析] 提出一个基于多智能体 LLM 的全自动主题分析（Thematic Analysis）流水线，通过专业角色分工和可选的 RLHF 微调，实现对临床叙事的端到端主题提取，消除了人工编码和全文审阅的需求。
+  [ACL 2025 (SRW)][LLM Agent / NLP 应用][主题分析] 提出一个基于多智能体 LLM 的全自动主题分析（Thematic Analysis）流水线，通过专业角色分工和可选的 RLHF 微调，实现对临床叙事的端到端主题提取，消除了人工编码和全文审阅的需求。
 tags:
-  - ACL 2025 (SRW)
-  - LLM Agent
-  - 主题分析
-  - 多智能体
-  - 强化学习
-  - 临床叙事
-  - 先天性心脏病
+  - "ACL 2025 (SRW)"
+  - "LLM Agent / NLP 应用"
+  - "主题分析"
+  - "多智能体"
+  - "强化学习"
+  - "临床叙事"
+  - "先天性心脏病"
 ---
 
 # Auto-TA: Towards Scalable Automated Thematic Analysis (TA) via Multi-Agent Large Language Models with Reinforcement Learning

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Revisiting 3D LLM Benchmarks: Are We Really Testing 3D Capabilities?
 description: >-
-  [ACL 2025][LLM评测] 揭示了 3D LLM 评测中的"2D-Cheating"问题——将点云渲染为图像后，2D VLM 在部分基准上超越 3D SOTA，说明这些基准未能有效评估真正的 3D 理解能力，并据此提出了有效 3D 评测的设计原则。
+  [ACL 2025][LLM评测][3D LLM] 揭示了 3D LLM 评测中的"2D-Cheating"问题——将点云渲染为图像后，2D VLM 在部分基准上超越 3D SOTA，说明这些基准未能有效评估真正的 3D 理解能力，并据此提出了有效 3D 评测的设计原则。
 tags:
-  - ACL 2025
-  - LLM评测
-  - 2D-Cheating
-  - Benchmark Evaluation
-  - 点云
-  - 视觉语言
+  - "ACL 2025"
+  - "LLM评测"
+  - "3D LLM"
+  - "2D-Cheating"
+  - "Benchmark Evaluation"
+  - "点云"
+  - "视觉语言"
 ---
 
 # Revisiting 3D LLM Benchmarks: Are We Really Testing 3D Capabilities?

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][位姿估计] 构建了 **Omni6D**——首个大规模类别级 6DoF 姿态估计 RGBD 数据集，覆盖 **166 个类别、4688 个实例、80 万张图像**，远超现有 NOCS 等数据集（仅 6 类），并提出对称感知评估指标和渐进式微调策略。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 位姿估计
-  - Category-Level
-  - Large-Vocabulary Dataset
-  - Symmetry-Aware Metric
-  - benchmark
+  - "ECCV 2024"
+  - "3D视觉"
+  - "位姿估计"
+  - "Category-Level"
+  - "Large-Vocabulary Dataset"
+  - "Symmetry-Aware Metric"
+  - "benchmark"
 ---
 
 # Omni6D: Large-Vocabulary 3D Object Dataset for Category-Level 6D Object Pose Estimation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning
 description: >-
-  [NeurIPS 2025][图学习][不确定知识图谱] ssCDL 通过将三元组置信度从标量转换为高斯分布形式的置信度分布以捕获邻近置信度的监督信号，并利用元自训练（meta self-training）为负采样三元组生成高质量伪置信度标签来重平衡训练数据，在不确定知识图谱补全的置信度预测和链接预测上显著超过所有基线方法。
+  [NeurIPS 2025][图学习][不确定知识图谱] ssCDL 通过将三元组置信度从标量转换为高斯分布形式的置信度分布以捕获邻近置信度的监督信号，并利用元自训练（meta self-training）为负采样三元组生成高质量伪置信度标签来重平衡训练数据…
 tags:
-  - NeurIPS 2025
-  - 图学习
-  - 不确定知识图谱
-  - 置信度分布学习
-  - 半监督学习
-  - 元自训练
-  - 知识图谱补全
+  - "NeurIPS 2025"
+  - "图学习"
+  - "不确定知识图谱"
+  - "置信度分布学习"
+  - "半监督学习"
+  - "元自训练"
+  - "知识图谱补全"
 ---
 
 # Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning
@@ -94,7 +94,7 @@ CDL-RL 总损失：$\mathcal{L} = \frac{1}{2\lambda_{CP}^2}\mathcal{L}_{CP} + \f
 ### 关键发现
 
 - CDL 贡献远大于元自训练：去除 CDL 后 NL27k MSE 从 0.009 升至 0.015（+67%），去除元自训练仅升至 0.010（+11%），说明标注数据的监督信号增强比引入未标注数据更重要
-- 在低置信度三元组（<0.5）的预测上，ssCDL 显著优于所有基线（低置信度 MAE 最低），验证了分布学习有效缓解不均衡
+- 在低置信度三元组（&lt;0.5）的预测上，ssCDL 显著优于所有基线（低置信度 MAE 最低），验证了分布学习有效缓解不均衡
 - 所有方法在 NL27k 上表现优于 CN15k，因为 ConceptNet 置信度定义基于数据源频率，区分度不足
 - 链接预测提升不如置信度预测显著（间接受益 vs 直接优化），但仍全面超越基线
 

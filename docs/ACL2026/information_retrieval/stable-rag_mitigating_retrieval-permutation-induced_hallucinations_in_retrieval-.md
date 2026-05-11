@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation
 description: >-
-  [ACL 2026][检索增强生成] 揭示 RAG 系统对检索文档排列顺序高度敏感的问题，提出 Stable-RAG：通过对文档排列产生的隐状态做谱聚类识别主导推理模式，再用 DPO 对齐将幻觉输出引导向正确答案，在三个 QA 数据集上实现准确率和推理一致性的双重提升。
+  [ACL 2026][信息检索/RAG][检索增强生成] 揭示 RAG 系统对检索文档排列顺序高度敏感的问题，提出 Stable-RAG：通过对文档排列产生的隐状态做谱聚类识别主导推理模式，再用 DPO 对齐将幻觉输出引导向正确答案，在三个 QA 数据集上实现准确率和推理一致性的双重提升。
 tags:
-  - ACL 2026
-  - 检索增强生成
-  - 排列敏感性
-  - 信息检索
-  - 隐状态聚类
-  - 偏好对齐
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "检索增强生成"
+  - "排列敏感性"
+  - "幻觉"
+  - "隐状态聚类"
+  - "偏好对齐"
 ---
 
 # Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation

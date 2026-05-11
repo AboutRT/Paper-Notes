@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频提示学习] 提出 STOP，一种面向视频理解的集成时空动态提示方法，通过帧内空间提示自适应突出判别性区域，通过帧间时序提示在高时序变化的帧之间动态插入提示 token，引导冻结 CLIP 模型聚焦关键时空位置。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频提示学习
-  - 视觉语言模型
-  - 动态提示
-  - 时空建模
-  - CLIP适配
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频提示学习"
+  - "视觉语言模型"
+  - "动态提示"
+  - "时空建模"
+  - "CLIP适配"
 ---
 
 # STOP: Integrated Spatial-Temporal Dynamic Prompting for Video Understanding

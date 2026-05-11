@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][ℓp 正则化] 证明了对于单隐层 ReLU 网络，最小化 $\ell^p$（$0 < p < 1$）路径范数的全局最优解恰好对应于**最稀疏**的数据插值网络，从而将组合优化的稀疏插值问题重新表述为连续可微的优化任务。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - ℓp 正则化
-  - ReLU 网络
-  - 稀疏性
-  - 全局最小值
-  - 网络剪枝
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "ℓp 正则化"
+  - "ReLU 网络"
+  - "稀疏性"
+  - "全局最小值"
+  - "网络剪枝"
 ---
 
 # Global Minimizers of ℓp-Regularized Objectives Yield the Sparsest ReLU Neural Networks

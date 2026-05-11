@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][多参考图像生成] 提出MultiBanana——首个系统评估多参考图像生成能力的大规模基准，包含3769个评测样本、最多8张参考图、5个难度维度（跨域/尺度/稀有概念/多语言），揭示了闭源模型"过拟合参考细节"和开源模型"忽略参考主体"的互补失败模式。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 多参考图像生成
-  - 基准评测
-  - 跨域混合
-  - 稀有概念
-  - 多语言
+  - "CVPR 2026"
+  - "图像生成"
+  - "多参考图像生成"
+  - "基准评测"
+  - "跨域混合"
+  - "稀有概念"
+  - "多语言"
 ---
 
 # MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation

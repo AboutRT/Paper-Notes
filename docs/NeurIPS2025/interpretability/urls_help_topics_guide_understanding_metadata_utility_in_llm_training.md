@@ -2,15 +2,16 @@
 title: >-
   [论文解读] URLs Help, Topics Guide: Understanding Metadata Utility in LLM Training
 description: >-
-  [NeurIPS 2025][metadata conditioning] 系统评估了三类元数据（URL、质量分数、主题/格式域信息）作为预训练上下文的效果：发现只有 URL 能加速训练（100B token 用 60B 即达到相同下游性能），且仅在长 prompt（5-shot）下有效；质量分数和主题域信息不加速训练但可用于 classifier-free guidance 实现可控生成。
+  [NeurIPS 2025][可解释性][metadata conditioning] 系统评估了三类元数据（URL、质量分数、主题/格式域信息）作为预训练上下文的效果：发现只有 URL 能加速训练（100B token 用 60B 即达到相同下游性能），且仅在长 prompt（5-shot）下有效…
 tags:
-  - NeurIPS 2025
-  - metadata conditioning
-  - 可解释性
-  - context-aware pretraining
-  - classifier-free guidance
-  - controllable generation
-  - LLM training efficiency
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "metadata conditioning"
+  - "URL context"
+  - "context-aware pretraining"
+  - "classifier-free guidance"
+  - "controllable generation"
+  - "LLM training efficiency"
 ---
 
 # URLs Help, Topics Guide: Understanding Metadata Utility in LLM Training

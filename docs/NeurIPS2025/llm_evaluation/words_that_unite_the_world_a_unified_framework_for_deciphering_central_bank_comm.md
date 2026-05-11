@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Words That Unite The World: A Unified Framework for Deciphering Central Bank Communications Globally
 description: >-
-  [NeurIPS 2025 (Main Conference)][人体理解][央行通讯] 本文构建了迄今最全面的央行货币政策语料库 WCB（38万+句子、25家央行、跨28年），定义三个NLP任务（立场检测、时间分类、不确定性估计），通过15,075次基准实验发现聚合多银行数据训练的模型显著优于单银行训练，证实了"整体大于部分之和"的原则。
+  [NeurIPS 2025 (Main Conference)][LLM评测][央行通讯] 本文构建了迄今最全面的央行货币政策语料库 WCB（38万+句子、25家央行、跨28年），定义三个NLP任务（立场检测、时间分类、不确定性估计），通过15,075次基准实验发现聚合多银行数据训练的模型显著优于单银行训练…
 tags:
-  - NeurIPS 2025 (Main Conference)
-  - LLM评测
-  - 央行通讯
-  - 货币政策
-  - 立场检测
-  - 大语言模型
-  - 数据集基准
+  - "NeurIPS 2025 (Main Conference)"
+  - "LLM评测"
+  - "央行通讯"
+  - "货币政策"
+  - "立场检测"
+  - "大语言模型"
+  - "数据集基准"
 ---
 
 # Words That Unite The World: A Unified Framework for Deciphering Central Bank Communications Globally

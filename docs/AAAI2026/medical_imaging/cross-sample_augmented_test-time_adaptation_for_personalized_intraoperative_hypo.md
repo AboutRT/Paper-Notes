@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][术中低血压预测] 提出 CSA-TTA 框架，通过跨样本库构建、粗到细检索和多任务优化，在测试时从其他患者数据中检索低血压事件信号来增强个性化术中低血压预测。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 术中低血压预测
-  - 测试时自适应
-  - 跨样本检索
-  - 时间序列预测
-  - 个性化医疗
+  - "AAAI 2026"
+  - "医学图像"
+  - "术中低血压预测"
+  - "测试时自适应"
+  - "跨样本检索"
+  - "时间序列预测"
+  - "个性化医疗"
 ---
 
 # Cross-Sample Augmented Test-Time Adaptation for Personalized Intraoperative Hypotension Prediction

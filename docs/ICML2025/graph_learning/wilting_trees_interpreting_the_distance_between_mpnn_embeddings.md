@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML 2025][图学习][MPNN] 本文发现MPNN学到的嵌入距离与任务相关的functional distance对齐（而非结构距离），并提出基于加权Weisfeiler-Leman标记树（WILT）的最优传输距离来蒸馏和解释MPNN距离，边权揭示了少量关键子图主导了嵌入空间的度量结构。
 tags:
-  - ICML 2025
-  - 图学习
-  - MPNN
-  - 图距离
-  - 可解释性
-  - 最优传输
-  - Weisfeiler-Leman
-  - 图核
+  - "ICML 2025"
+  - "图学习"
+  - "MPNN"
+  - "图距离"
+  - "可解释性"
+  - "最优传输"
+  - "Weisfeiler-Leman"
+  - "图核"
 ---
 
 # WILTing Trees: Interpreting the Distance Between MPNN Embeddings

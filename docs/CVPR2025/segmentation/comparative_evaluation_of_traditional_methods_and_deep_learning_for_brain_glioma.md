@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Comparative Evaluation of Traditional Methods and Deep Learning for Brain Glioma Imaging
 description: >-
-  [CVPR 2025][图像分割][脑胶质瘤] 本文系统综述了脑胶质瘤 MRI 图像分割与分类中传统方法与深度学习方法的表现，通过全面对比评估得出 CNN 架构在分割精度和鲁棒性上显著优于传统技术的结论。
+  [CVPR 2025][语义分割][脑胶质瘤] 本文系统综述了脑胶质瘤 MRI 图像分割与分类中传统方法与深度学习方法的表现，通过全面对比评估得出 CNN 架构在分割精度和鲁棒性上显著优于传统技术的结论。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 脑胶质瘤
-  - 深度学习
-  - 传统方法
-  - MRI
+  - "CVPR 2025"
+  - "语义分割"
+  - "脑胶质瘤"
+  - "图像分割"
+  - "深度学习"
+  - "传统方法"
+  - "MRI"
 ---
 
 # Comparative Evaluation of Traditional Methods and Deep Learning for Brain Glioma Imaging

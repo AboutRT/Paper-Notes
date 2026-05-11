@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像恢复] 提出 Latent Harmony 两阶段框架，通过潜在空间正则化构建退化鲁棒的 LH-VAE，再用高频引导的 LoRA 微调分别优化编码器（保真度）和解码器（感知质量），实现 UHD 全能图像复原中泛化-重建-感知三重权衡的统一解决方案。
 tags:
-  - 图像恢复
+  - "图像恢复"
 ---
 
 # Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement

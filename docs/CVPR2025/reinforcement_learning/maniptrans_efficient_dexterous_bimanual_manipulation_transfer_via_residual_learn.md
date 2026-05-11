@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
 description: >-
-  [CVPR 2025][强化学习][双手灵巧操作] 提出 ManipTrans，两阶段残差学习框架将人手动捕数据迁移到灵巧机器手的双手操作：Stage-1 在纯手轨迹上预训练模仿模型（手腕+手指跟踪+平滑奖励），Stage-2 通过残差模块+课程学习加入物体交互约束（物体跟踪+接触力），在 OakInk-V2 上物体旋转误差仅 8.60°、双手成功率 39.5%。
+  [CVPR 2025][强化学习][双手灵巧操作] 提出 ManipTrans，两阶段残差学习框架将人手动捕数据迁移到灵巧机器手的双手操作：Stage-1 在纯手轨迹上预训练模仿模型（手腕+手指跟踪+平滑奖励），Stage-2 通过残差模块+课程学习加入物体交互约束（物体跟踪+接触力）…
 tags:
-  - CVPR 2025
-  - 强化学习
-  - 双手灵巧操作
-  - 残差学习
-  - 动捕迁移
-  - 课程学习
-  - 接触力
+  - "CVPR 2025"
+  - "强化学习"
+  - "双手灵巧操作"
+  - "残差学习"
+  - "动捕迁移"
+  - "课程学习"
+  - "接触力"
 ---
 
 # ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning

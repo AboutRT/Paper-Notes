@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][TFCE] 将 eTFCE 的并查集数据结构（精确聚类大小查询）与 pTFCE 的 GRF 解析推断相结合，首次在单一框架中同时实现精确聚类大小提取和无置换检验的解析 $p$ 值，全脑 VBM 分析比 R pTFCE 快 4.6–75 倍、比置换 TFCE 快三个数量级。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - TFCE
-  - 高斯随机场
-  - 并查集
-  - 体素形态学
-  - 无置换推断
+  - "CVPR 2026"
+  - "3D视觉"
+  - "TFCE"
+  - "高斯随机场"
+  - "并查集"
+  - "体素形态学"
+  - "无置换推断"
 ---
 
 # Hybrid eTFCE–GRF: Exact Cluster-Size Retrieval with Analytical p-Values for Voxel-Based Morphometry

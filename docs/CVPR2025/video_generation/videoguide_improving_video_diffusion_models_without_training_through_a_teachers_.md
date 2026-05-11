@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide
 description: >-
-  [CVPR 2025][视频扩散模型] VideoGuide 提出了一种无需额外训练的视频扩散模型增强框架，通过在反向扩散采样的早期阶段利用任意预训练视频扩散模型（或自身）作为教师，将教师模型的去噪样本与采样模型进行插值融合，显著提升视频的时序一致性而不损害图像质量。
+  [CVPR 2025][视频生成][视频扩散模型] VideoGuide 提出了一种无需额外训练的视频扩散模型增强框架，通过在反向扩散采样的早期阶段利用任意预训练视频扩散模型（或自身）作为教师，将教师模型的去噪样本与采样模型进行插值融合，显著提升视频的时序一致性而不损害图像质量。
 tags:
-  - CVPR 2025
-  - 视频扩散模型
-  - 时序一致性
-  - 无训练引导
-  - 视频生成
-  - 低通滤波
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频扩散模型"
+  - "时序一致性"
+  - "无训练引导"
+  - "教师-学生蒸馏"
+  - "低通滤波"
 ---
 
 # VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide

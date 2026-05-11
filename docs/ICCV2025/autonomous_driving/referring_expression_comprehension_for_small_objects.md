@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][指称表达理解] 提出 SOREC 数据集（10万对小目标指称表达和 bounding box）和 PIZA 适配器模块（渐进式迭代缩放），使 GroundingDINO 等预训练模型能以自回归方式逐步放大定位极小目标，在自动驾驶场景中大幅提升小目标 REC 精度。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 指称表达理解
-  - 小目标检测
-  - 参数高效微调
-  - 渐进缩放
-  - GroundingDINO
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "指称表达理解"
+  - "小目标检测"
+  - "参数高效微调"
+  - "渐进缩放"
+  - "GroundingDINO"
 ---
 
 # Referring Expression Comprehension for Small Objects

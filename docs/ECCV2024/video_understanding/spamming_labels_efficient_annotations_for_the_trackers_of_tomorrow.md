@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][多目标跟踪] 提出 SPAM 视频标注引擎，将合成数据预训练、伪标签自训练和基于图层级的主动学习相结合，仅需 3-20% 的人工标注量即可产生接近 GT 质量的多目标跟踪标注。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 多目标跟踪
-  - 视频标注引擎
-  - 伪标签
-  - 主动学习
-  - 图神经网络
+  - "ECCV 2024"
+  - "视频理解"
+  - "多目标跟踪"
+  - "视频标注引擎"
+  - "伪标签"
+  - "主动学习"
+  - "图神经网络"
 ---
 
 # SPAMming Labels: Efficient Annotations for the Trackers of Tomorrow

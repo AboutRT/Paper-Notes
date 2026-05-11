@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出OctMAE，一种融合Octree U-Net和隐空间3D MAE的混合架构，从单张RGB-D图像实现高质量近实时的多物体场景形状补全，通过遮挡掩码策略和3D旋转位置编码显著提升效率和泛化能力。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # Zero-Shot Multi-Object Scene Completion

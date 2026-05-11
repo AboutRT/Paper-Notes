@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaling Reasoning Hop Exposes Weaknesses: Demystifying and Improving Hop Generalization in Large Language Models
 description: >-
-  [ICLR 2026][模型压缩][推理跳步泛化] 系统性揭示了 LLM 在推理跳步泛化（reasoning hop generalization）中失败的内部机制——正确与错误推理轨迹间的注意力头竞争，并提出 TCR（Test-time Correction of Reasoning），通过动态识别和停用错误处理头（ep heads）在测试时纠正推理错误，平均提升 5-7% 准确率。
+  [ICLR 2026][模型压缩][推理跳步泛化] 系统性揭示了 LLM 在推理跳步泛化（reasoning hop generalization）中失败的内部机制——正确与错误推理轨迹间的注意力头竞争，并提出 TCR（Test-time Correction of Reasoning）…
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 推理跳步泛化
-  - Chain-of-Thought
-  - 注意力头竞争机制
-  - 错误处理头
-  - 测试时干预
+  - "ICLR 2026"
+  - "模型压缩"
+  - "推理跳步泛化"
+  - "Chain-of-Thought"
+  - "注意力头竞争机制"
+  - "错误处理头"
+  - "测试时干预"
 ---
 
 # Scaling Reasoning Hop Exposes Weaknesses: Demystifying and Improving Hop Generalization in Large Language Models

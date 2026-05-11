@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Compositional amortized inference for large-scale hierarchical Bayesian models
 description: >-
-  [ICLR2026][图像生成][amortized Bayesian inference] 将组合分数匹配（CSM）扩展到层次贝叶斯模型，通过新的误差衰减估计器和 mini-batch 策略解决大量数据组下的数值不稳定问题，首次实现超过 75 万参数（25 万+ 数据组）的大规模层次模型的摊销推断，并在荧光寿命成像的真实科学应用中验证有效性。
+  [ICLR2026][图像生成][amortized Bayesian inference] 将组合分数匹配（CSM）扩展到层次贝叶斯模型，通过新的误差衰减估计器和 mini-batch 策略解决大量数据组下的数值不稳定问题，首次实现超过 75 万参数（25 万+ 数据组）的大规模层次模型的摊销推断…
 tags:
-  - ICLR2026
-  - 图像生成
-  - amortized Bayesian inference
-  - hierarchical model
-  - compositional score matching
-  - 扩散模型
-  - scalability
+  - "ICLR2026"
+  - "图像生成"
+  - "amortized Bayesian inference"
+  - "hierarchical model"
+  - "compositional score matching"
+  - "扩散模型"
+  - "scalability"
 ---
 
 # Compositional amortized inference for large-scale hierarchical Bayesian models
@@ -93,7 +93,7 @@ tags:
 |------|-------------|-------------|------|
 | 直接 ABI（小规模） | 最优 | 最优 | 需要完整模拟 |
 | CSM（无衰减） | 发散 | - | $J > 100$ 失败 |
-| CSM + 衰减 | 接近直接 ABI | 接近直接 ABI | 模拟效率 <<1 次完整模拟 |
+| CSM + 衰减 | 接近直接 ABI | 接近直接 ABI | 模拟效率 <&lt;1 次完整模拟 |
 
 ### 关键发现
 - **现有 CSM 方法全部在 $N > 100$ 时失败**：Langevin、Euler-Maruyama、ODE、GAUSS 无一能处理超过 10K 数据点

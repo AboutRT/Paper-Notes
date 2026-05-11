@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][不规则物体装箱] RASP 从 3D 变形艺术（Anamorphic Art）中获取灵感，利用可微渲染框架，以多视角影子/轮廓图像为引导来优化不规则 3D 物体在容器中的排列，同时提出了基于 SDF 的碰撞与溢出处理方案，实现了高占用率的装箱、零件组装以及多视角艺术创作。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 不规则物体装箱
-  - 3D变形艺术
-  - 可微渲染
-  - 影子引导优化
-  - SDF碰撞检测
+  - "CVPR 2025"
+  - "3D视觉"
+  - "不规则物体装箱"
+  - "3D变形艺术"
+  - "可微渲染"
+  - "影子引导优化"
+  - "SDF碰撞检测"
 ---
 
 # RASP: Revisiting 3D Anamorphic Art for Shadow-Guided Packing of Irregular Objects

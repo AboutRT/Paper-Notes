@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][Many-shot ICL] 深入研究 many-shot ICL 用于长上下文语言模型评估，提出 Sample Learning Ratio 指标区分 SSL 和 ASL 任务，构建 ManyICLBench 基准全面评测 12 个 LCLM。
 tags:
-  - ACL 2025
-  - LLM效率
-  - Many-shot ICL
-  - Long-context Evaluation
-  - ManyICLBench
-  - Similar-Sample Learning
-  - All-Sample Learning
+  - "ACL 2025"
+  - "LLM效率"
+  - "Many-shot ICL"
+  - "Long-context Evaluation"
+  - "ManyICLBench"
+  - "Similar-Sample Learning"
+  - "All-Sample Learning"
 ---
 
 # On Many-Shot In-Context Learning for Long-Context Evaluation

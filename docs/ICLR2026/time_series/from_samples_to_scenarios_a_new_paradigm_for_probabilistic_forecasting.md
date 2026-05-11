@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][时间序列][probabilistic forecasting] 提出 Probabilistic Scenarios 范式，用模型直接输出有限个 {场景, 概率} 对取代采样，并用仅含三层平行线性层的 TimePrism 在5个基准数据集上取得9/10 SOTA。
 tags:
-  - ICLR 2026
-  - 时间序列
-  - probabilistic forecasting
-  - time series
-  - scenario generation
-  - discrete probability
-  - linear model
+  - "ICLR 2026"
+  - "时间序列"
+  - "probabilistic forecasting"
+  - "time series"
+  - "scenario generation"
+  - "discrete probability"
+  - "linear model"
 ---
 
 # From Samples to Scenarios: A New Paradigm for Probabilistic Forecasting

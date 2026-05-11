@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models
 description: >-
-  [CVPR 2026][3D视觉][视觉基础模型评估] 提出 AVA-Bench，首个将视觉基础模型（VFM）的能力解耦为 14 种原子视觉能力（AVA）的系统性评测基准，通过训练-测试分布对齐和单一能力隔离测试，精准定位 VFM 的强项与短板，并发现 0.5B 小模型即可保持与 7B 模型相当的 VFM 排名一致性。
+  [CVPR 2026][3D视觉][视觉基础模型评估] 提出 AVA-Bench，首个将视觉基础模型（VFM）的能力解耦为 14 种原子视觉能力（AVA）的系统性评测基准，通过训练-测试分布对齐和单一能力隔离测试，精准定位 VFM 的强项与短板…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 视觉基础模型评估
-  - 原子视觉能力
-  - benchmark
-  - VFM
-  - 多模态评测
+  - "CVPR 2026"
+  - "3D视觉"
+  - "视觉基础模型评估"
+  - "原子视觉能力"
+  - "benchmark"
+  - "VFM"
+  - "多模态评测"
 ---
 
 # AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models

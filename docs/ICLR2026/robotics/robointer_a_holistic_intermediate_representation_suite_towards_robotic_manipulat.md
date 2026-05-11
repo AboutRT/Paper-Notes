@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation
 description: >-
-  [ICLR 2026][机器人][中间表示] 提出 RoboInter 操作套件——统一的中间表示数据/基准/模型资源：RoboInter-Tool（半自动标注 GUI）+ RoboInter-Data（23 万 episode × 571 场景 × 10+ 类中间表示的密集逐帧标注）+ RoboInter-VQA（29 类具身 VQA 基准）+ RoboInter-VLA（支持模块化和端到端的 plan-then-execute 框架），为通过中间表示提升 VLA 泛化提供完整基础设施。
+  [ICLR 2026][机器人][中间表示] 提出 RoboInter 操作套件——统一的中间表示数据/基准/模型资源：RoboInter-Tool（半自动标注 GUI）+ RoboInter-Data（23 万 episode × 571 场景 × 10+ 类中间表示的密集逐帧标注）+ RoboInter-…
 tags:
-  - ICLR 2026
-  - 机器人
-  - 中间表示
-  - VLA
-  - 操作数据集
-  - 具身VQA
-  - plan-then-execute
+  - "ICLR 2026"
+  - "机器人"
+  - "中间表示"
+  - "VLA"
+  - "操作数据集"
+  - "具身VQA"
+  - "plan-then-execute"
 ---
 
 # RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation

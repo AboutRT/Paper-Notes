@@ -2,14 +2,15 @@
 title: >-
   [论文解读] When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations
 description: >-
-  [ICLR 2026][知识编辑] 提出 EVOKE 基准测试，系统评估大型多模态模型 (LMM) 对演化知识的注入能力，揭示两大挑战（现有方法表现差、微调导致灾难性遗忘），并提出知识增强和持续学习两条应对路径。
+  [ICLR 2026][知识编辑][大型多模态模型] 提出 EVOKE 基准测试，系统评估大型多模态模型 (LMM) 对演化知识的注入能力，揭示两大挑战（现有方法表现差、微调导致灾难性遗忘），并提出知识增强和持续学习两条应对路径。
 tags:
-  - ICLR 2026
-  - 知识编辑
-  - 知识注入
-  - 演化知识
-  - 灾难性遗忘
-  - 持续学习
+  - "ICLR 2026"
+  - "知识编辑"
+  - "大型多模态模型"
+  - "知识注入"
+  - "演化知识"
+  - "灾难性遗忘"
+  - "持续学习"
 ---
 
 # When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations

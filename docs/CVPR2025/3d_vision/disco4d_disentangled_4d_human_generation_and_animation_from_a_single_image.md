@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][4D人体生成] Disco4D 提出将服装（用 Gaussian 模型表示）与人体（用 SMPL-X 模型表示）解耦的 4D 人体生成框架，从单张图像生成可动画、可编辑、分层的3D穿衣人体模型，并支持逼真的4D服装动力学。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 4D人体生成
-  - 服装解耦
-  - 高斯溅射
-  - 人体动画
-  - 单图重建
+  - "CVPR 2025"
+  - "3D视觉"
+  - "4D人体生成"
+  - "服装解耦"
+  - "高斯溅射"
+  - "人体动画"
+  - "单图重建"
 ---
 
 # Disco4D: Disentangled 4D Human Generation and Animation from a Single Image

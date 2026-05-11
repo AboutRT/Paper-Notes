@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Magnet: Augmenting Generative Decoders with Representation Learning and Infilling Capabilities
 description: >-
-  [ACL 2025][自监督学习][解码器增强] 提出 Magnet 方法，通过混合注意力机制（双向+因果）和三个自监督目标（掩码预测+对比学习+缺失片段生成），将纯解码器 LLM 同时增强为文本编码器和填充模型，在 token 级和句子级表示学习任务上超越 LLM2Vec 等专用方法，同时避免了双向化带来的严重文本重复问题。
+  [ACL 2025][自监督学习][解码器增强] 提出 Magnet 方法，通过混合注意力机制（双向+因果）和三个自监督目标（掩码预测+对比学习+缺失片段生成），将纯解码器 LLM 同时增强为文本编码器和填充模型，在 token 级和句子级表示学习任务上超越 LLM2Vec 等专用方法…
 tags:
-  - ACL 2025
-  - 自监督学习
-  - 解码器增强
-  - 双向注意力
-  - 表示学习
-  - 文本填充
-  - 联合训练
-  - 重复问题
+  - "ACL 2025"
+  - "自监督学习"
+  - "解码器增强"
+  - "双向注意力"
+  - "表示学习"
+  - "文本填充"
+  - "联合训练"
+  - "重复问题"
 ---
 
 # Magnet: Augmenting Generative Decoders with Representation Learning and Infilling Capabilities

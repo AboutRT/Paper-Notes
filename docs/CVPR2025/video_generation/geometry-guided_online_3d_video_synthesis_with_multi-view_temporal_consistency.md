@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Geometry-guided Online 3D Video Synthesis with Multi-View Temporal Consistency
 description: >-
-  [CVPR 2025][在线视频合成] 本文提出了一种几何引导的在线视频视角合成方法，通过渐进式深度图优化和截断有符号距离场（TSDF）累积来构建视角和时序一致的深度表示，再用该深度引导预训练的图像融合网络，实现了高效且一致的新视角视频合成。
+  [CVPR 2025][视频生成][在线视频合成] 本文提出了一种几何引导的在线视频视角合成方法，通过渐进式深度图优化和截断有符号距离场（TSDF）累积来构建视角和时序一致的深度表示，再用该深度引导预训练的图像融合网络，实现了高效且一致的新视角视频合成。
 tags:
-  - CVPR 2025
-  - 在线视频合成
-  - 多视角一致性
-  - 时序一致性
-  - 深度引导
-  - TSDF
+  - "CVPR 2025"
+  - "视频生成"
+  - "在线视频合成"
+  - "多视角一致性"
+  - "时序一致性"
+  - "深度引导"
+  - "TSDF"
 ---
 
 # Geometry-guided Online 3D Video Synthesis with Multi-View Temporal Consistency

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][图像合成] ORIDa 构建了首个大规模、真实拍摄、公开可用的物体合成数据集，包含200个独特物体的30000+图像（含事实-反事实对和多位置变体），并通过在 StableDiffusion-Inpaint 上微调验证了该数据集在物体移除和插入任务中的有效性。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 图像合成
-  - 物体插入
-  - 数据集
-  - 真实数据
-  - 扩散模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "图像合成"
+  - "物体插入"
+  - "数据集"
+  - "真实数据"
+  - "扩散模型"
 ---
 
 # ORIDa: Object-Centric Real-World Image Composition Dataset

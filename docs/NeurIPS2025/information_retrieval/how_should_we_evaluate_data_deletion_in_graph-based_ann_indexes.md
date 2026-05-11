@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How Should We Evaluate Data Deletion in Graph-Based ANN Indexes?
 description: >-
-  [NeurIPS 2025 (Workshop on ML for Systems)][ANNS] 针对图基ANN索引缺乏统一数据删除评估方法的问题，形式化定义了逻辑删除、物理删除和重建三种基准方法，提出面向实际部署的评估框架和指标体系，并基于实验分析提出Deletion Control算法在精度约束下动态切换删除策略。
+  [NeurIPS 2025 (Workshop on ML for Systems)][信息检索/RAG][ANNS] 针对图基ANN索引缺乏统一数据删除评估方法的问题，形式化定义了逻辑删除、物理删除和重建三种基准方法，提出面向实际部署的评估框架和指标体系…
 tags:
-  - NeurIPS 2025 (Workshop on ML for Systems)
-  - ANNS
-  - HNSW
-  - 数据删除
-  - 向量数据库
-  - 信息检索
+  - "NeurIPS 2025 (Workshop on ML for Systems)"
+  - "信息检索/RAG"
+  - "ANNS"
+  - "HNSW"
+  - "数据删除"
+  - "向量数据库"
+  - "评估框架"
 ---
 
 # How Should We Evaluate Data Deletion in Graph-Based ANN Indexes?

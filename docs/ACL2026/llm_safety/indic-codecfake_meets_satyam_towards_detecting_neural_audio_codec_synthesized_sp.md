@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Indic-CodecFake meets SATYAM: Towards Detecting Neural Audio Codec Synthesized Speech Deepfakes in Indic Languages
 description: >-
-  [ACL 2026][AI安全][语音深伪检测] 本文构建了首个多印度语言的 CodecFake 检测基准 ICF，并提出 SATYAM——一个双曲音频大语言模型，通过在双曲空间中用 Bhattacharyya 距离对齐语义和副语言表示再与提示对齐，仅训练 3.75M 参数即达到 98.32% 的检测准确率。
+  [ACL 2026][LLM安全][语音深伪检测] 本文构建了首个多印度语言的 CodecFake 检测基准 ICF，并提出 SATYAM——一个双曲音频大语言模型，通过在双曲空间中用 Bhattacharyya 距离对齐语义和副语言表示再与提示对齐，仅训练 3.75M 参数即达到 98.32% 的检测准确率…
 tags:
-  - ACL 2026
-  - AI安全
-  - 语音深伪检测
-  - 神经音频编解码器
-  - 印度语言
-  - 双曲ALM
-  - CodecFake
+  - "ACL 2026"
+  - "LLM安全"
+  - "语音深伪检测"
+  - "神经音频编解码器"
+  - "印度语言"
+  - "双曲ALM"
+  - "CodecFake"
 ---
 
 # Indic-CodecFake meets SATYAM: Towards Detecting Neural Audio Codec Synthesized Speech Deepfakes in Indic Languages

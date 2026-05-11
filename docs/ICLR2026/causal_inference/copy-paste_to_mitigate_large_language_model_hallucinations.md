@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Copy-Paste to Mitigate Large Language Model Hallucinations
 description: >-
-  [ICLR 2026][因果推理] 提出 Copy-Paste 生成范式，通过训练 LLM 优先直接复制检索上下文中的片段来生成回答，而非自由改写，配合高复制偏好的 DPO 训练，在反事实 RAG 基准上将忠实度从 80.2% 提升到 92.8%。
+  [ICLR 2026][因果推理][幻觉缓解] 提出 Copy-Paste 生成范式，通过训练 LLM 优先直接复制检索上下文中的片段来生成回答，而非自由改写，配合高复制偏好的 DPO 训练，在反事实 RAG 基准上将忠实度从 80.2% 提升到 92.8%。
 tags:
-  - ICLR 2026
-  - 因果推理
-  - RAG
-  - 复制粘贴
-  - DPO
-  - 忠实性
+  - "ICLR 2026"
+  - "因果推理"
+  - "幻觉缓解"
+  - "RAG"
+  - "复制粘贴"
+  - "DPO"
+  - "忠实性"
 ---
 
 # Copy-Paste to Mitigate Large Language Model Hallucinations

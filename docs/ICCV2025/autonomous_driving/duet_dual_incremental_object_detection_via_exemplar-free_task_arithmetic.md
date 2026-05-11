@@ -2,18 +2,18 @@
 title: >-
   [论文解读] DuET: Dual Incremental Object Detection via Exemplar-Free Task Arithmetic
 description: >-
-  [ICCV 2025][自动驾驶][增量目标检测] 提出 DuET 框架，首次以无样本（exemplar-free）的任务算术（Task Arithmetic）模型合并方式，同时解决目标检测中的类别增量和域增量问题（Dual Incremental Object Detection, DuIOD），并引入方向一致性损失（Directional Consistency Loss）缓解符号冲突，在 Pascal Series 和 Diverse Weather Series 上大幅超越现有方法。
+  [ICCV 2025][自动驾驶][增量目标检测] 提出 DuET 框架，首次以无样本（exemplar-free）的任务算术（Task Arithmetic）模型合并方式，同时解决目标检测中的类别增量和域增量问题（Dual Incremental Object Detection, DuIOD）…
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 增量目标检测
-  - 类别增量
-  - 域增量
-  - 任务算术
-  - 模型合并
-  - 灾难性遗忘
-  - YOLO11
-  - RT-DETR
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "增量目标检测"
+  - "类别增量"
+  - "域增量"
+  - "任务算术"
+  - "模型合并"
+  - "灾难性遗忘"
+  - "YOLO11"
+  - "RT-DETR"
 ---
 
 # DuET: Dual Incremental Object Detection via Exemplar-Free Task Arithmetic

@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][LoRA] 提出 K-LoRA，在每个 attention 层通过 Top-K 元素绝对值累加来比较主题 LoRA 和风格 LoRA 的重要性，自适应选择整层 LoRA 权重，配合时间步缩放因子，实现免训练的主题-风格高质量融合。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - LoRA
-  - style transfer
-  - subject-style fusion
-  - Top-K selection
-  - training-free
-  - FLUX
-  - SDXL
+  - "CVPR 2025"
+  - "图像生成"
+  - "LoRA"
+  - "style transfer"
+  - "subject-style fusion"
+  - "Top-K selection"
+  - "training-free"
+  - "FLUX"
+  - "SDXL"
 ---
 
 # K-LoRA: Unlocking Training-Free Fusion of Any Subject and Style LoRAs

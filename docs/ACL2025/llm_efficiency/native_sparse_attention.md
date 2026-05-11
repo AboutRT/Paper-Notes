@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][稀疏注意力] DeepSeek提出NSA——一种可原生训练的分层稀疏注意力机制，通过压缩token、选择token和滑动窗口三条并行注意力路径实现高效长上下文建模，在27B参数模型上预训练后性能全面匹配甚至超越Full Attention，同时在64k序列上实现显著加速。
 tags:
-  - ACL 2025
-  - LLM效率
-  - 稀疏注意力
-  - 长上下文建模
-  - 硬件对齐
-  - 端到端训练
-  - KV缓存压缩
+  - "ACL 2025"
+  - "LLM效率"
+  - "稀疏注意力"
+  - "长上下文建模"
+  - "硬件对齐"
+  - "端到端训练"
+  - "KV缓存压缩"
 ---
 
 # Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention

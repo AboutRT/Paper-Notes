@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TransPixeler: Advancing Text-to-Video Generation with Transparency
 description: >-
-  [CVPR 2025][RGBA视频生成] TransPixeler 提出在预训练的 DiT 视频生成模型中引入 alpha 通道 token，通过位置编码共享、域嵌入、部分 LoRA 微调和注意力掩码设计，在极少 RGBA 训练数据下实现高质量的 RGB 与 alpha 通道联合生成。
+  [CVPR 2025][视频生成][RGBA视频生成] TransPixeler 提出在预训练的 DiT 视频生成模型中引入 alpha 通道 token，通过位置编码共享、域嵌入、部分 LoRA 微调和注意力掩码设计，在极少 RGBA 训练数据下实现高质量的 RGB 与 alpha 通道联合生成。
 tags:
-  - CVPR 2025
-  - RGBA视频生成
-  - 透明通道
-  - Transformer
-  - 视频生成
-  - 注意力机制
+  - "CVPR 2025"
+  - "视频生成"
+  - "RGBA视频生成"
+  - "透明通道"
+  - "Transformer"
+  - "LoRA微调"
+  - "注意力机制"
 ---
 
 # TransPixeler: Advancing Text-to-Video Generation with Transparency

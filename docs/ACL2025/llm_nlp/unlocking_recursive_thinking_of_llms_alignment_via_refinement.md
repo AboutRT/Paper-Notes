@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Unlocking Recursive Thinking of LLMs: Alignment via Refinement
 description: >-
-  [ACL2025][LLM/NLP][递归思维] 提出 AvR（Alignment via Refinement）两阶段框架，通过细化感知奖励（refinement-aware reward）和差分学习，让 LLM 学会"批评→改进"的递归思维能力，仅用 10k 数据即在 AlpacaEval 2 上将 LLaMA-3-8B-Instruct 的胜率提升超 26 个百分点。
+  [ACL2025][LLM/NLP][递归思维] 提出 AvR（Alignment via Refinement）两阶段框架，通过细化感知奖励（refinement-aware reward）和差分学习，让 LLM 学会"批评→改进"的递归思维能力…
 tags:
-  - ACL2025
-  - LLM/NLP
-  - 递归思维
-  - 对齐
-  - 细化
-  - 长链思维
-  - 测试时缩放
-  - DPO
+  - "ACL2025"
+  - "LLM/NLP"
+  - "递归思维"
+  - "对齐"
+  - "细化"
+  - "长链思维"
+  - "测试时缩放"
+  - "DPO"
 ---
 
 # Unlocking Recursive Thinking of LLMs: Alignment via Refinement

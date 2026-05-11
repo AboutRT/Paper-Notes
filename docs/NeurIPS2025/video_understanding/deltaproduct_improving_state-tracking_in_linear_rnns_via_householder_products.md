@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products
 description: >-
-  [NeurIPS 2025][视频理解][Linear RNN] 提出 DeltaProduct，通过将 DeltaNet 的单步梯度下降扩展至每个 token 的多步梯度下降，使状态转移矩阵成为 $n_h$ 个广义 Householder 变换的乘积，实现了表达力与效率之间的可调平衡，显著提升了状态跟踪能力和长度外推性能。
+  [NeurIPS 2025][视频理解][Linear RNN] 提出 DeltaProduct，通过将 DeltaNet 的单步梯度下降扩展至每个 token 的多步梯度下降，使状态转移矩阵成为 $n_h$ 个广义 Householder 变换的乘积，实现了表达力与效率之间的可调平衡…
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - Linear RNN
-  - Householder Product
-  - State-Tracking
-  - DeltaNet
-  - Length Extrapolation
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "Linear RNN"
+  - "Householder Product"
+  - "State-Tracking"
+  - "DeltaNet"
+  - "Length Extrapolation"
 ---
 
 # DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products

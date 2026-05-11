@@ -2,15 +2,15 @@
 title: >-
   [论文解读] When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models
 description: >-
-  [CVPR 2026][视频生成][数量对齐] NUMINA 的核心思想是，不去重训视频扩散模型，而是在推理时先从 DiT 的注意力中提取一个“可计数的实例布局”，判断数量词和当前布局是否不一致，再对布局做保守的增删修改，并用该布局回头引导重生成，从而显著提升文本到视频模型对“两个苹果、八只鸭子”这类数量约束的遵从能力。
+  [CVPR 2026][视频生成][数量对齐] NUMINA 的核心思想是，不去重训视频扩散模型，而是在推理时先从 DiT 的注意力中提取一个“可计数的实例布局”，判断数量词和当前布局是否不一致，再对布局做保守的增删修改，并用该布局回头引导重生成…
 tags:
-  - CVPR 2026
-  - 视频生成
-  - 数量对齐
-  - 文本到视频
-  - 训练免费
-  - 注意力头选择
-  - 布局引导生成
+  - "CVPR 2026"
+  - "视频生成"
+  - "数量对齐"
+  - "文本到视频"
+  - "训练免费"
+  - "注意力头选择"
+  - "布局引导生成"
 ---
 
 # When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data
 description: >-
-  [NeurIPS 2025][优化][联邦学习] 提出 PEPSY 框架，通过学习客户端侧的嵌入控制来编码数据缺失模式，将全局聚合表示重新配置为适应各客户端本地上下文的数据完整特征，在多模态联邦学习中处理模态缺失和特征缺失两类问题。
+  [NeurIPS 2025][优化/理论][联邦学习] 提出 PEPSY 框架，通过学习客户端侧的嵌入控制来编码数据缺失模式，将全局聚合表示重新配置为适应各客户端本地上下文的数据完整特征，在多模态联邦学习中处理模态缺失和特征缺失两类问题。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 联邦学习
-  - 多模态学习
-  - 缺失数据
-  - 可重配置表示
-  - 嵌入控制
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "联邦学习"
+  - "多模态学习"
+  - "缺失数据"
+  - "可重配置表示"
+  - "嵌入控制"
 ---
 
 # Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data

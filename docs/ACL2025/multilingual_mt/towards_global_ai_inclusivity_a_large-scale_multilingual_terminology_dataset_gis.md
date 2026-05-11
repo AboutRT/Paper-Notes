@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Global AI Inclusivity: A Large-Scale Multilingual Terminology Dataset (GIST)
 description: >-
-  [ACL 2025][多语言术语] 构建首个大规模多语言 AI 术语数据集 GIST（约 5K 术语、5 种语言），采用 LLM 抽取 + 人工众包翻译 + LLM 选择的混合框架，并通过 prompting 后翻译优化方法在 BLEU/COMET 等指标上一致提升机器翻译中 AI 术语的翻译质量。
+  [ACL 2025][多语言/翻译][多语言术语] 构建首个大规模多语言 AI 术语数据集 GIST（约 5K 术语、5 种语言），采用 LLM 抽取 + 人工众包翻译 + LLM 选择的混合框架…
 tags:
-  - ACL 2025
-  - 多语言术语
-  - AI术语翻译
-  - 众包翻译
-  - 多语言翻译
-  - LLM-Human混合框架
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "多语言术语"
+  - "AI术语翻译"
+  - "众包翻译"
+  - "后翻译优化"
+  - "LLM-Human混合框架"
 ---
 
 # Towards Global AI Inclusivity: A Large-Scale Multilingual Terminology Dataset (GIST)

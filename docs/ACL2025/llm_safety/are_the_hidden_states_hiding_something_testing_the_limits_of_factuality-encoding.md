@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs
 description: >-
-  [ACL 2025][事实幻觉] 本文挑战了"LLM隐藏状态能编码事实真假信息"这一先前结论，通过构建更真实、更具挑战性的数据集（基于困惑度的负样本采样和基于QA的LLM生成数据集），发现先前方法在更贴近实际场景的数据上泛化能力有限，为LLM事实性评估研究提供了更严格的评估基准和实践指导。
+  [ACL 2025][LLM安全][事实幻觉] 本文挑战了"LLM隐藏状态能编码事实真假信息"这一先前结论，通过构建更真实、更具挑战性的数据集（基于困惑度的负样本采样和基于QA的LLM生成数据集），发现先前方法在更贴近实际场景的数据上泛化能力有限，为LLM事实性评估研究提供了更严格的评估基准和实践指导。
 tags:
-  - ACL 2025
-  - 事实幻觉
-  - 隐藏状态
-  - 真实性编码
-  - 探针分类器
-  - 数据集构建
+  - "ACL 2025"
+  - "LLM安全"
+  - "事实幻觉"
+  - "隐藏状态"
+  - "真实性编码"
+  - "探针分类器"
+  - "数据集构建"
 ---
 
 # Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs

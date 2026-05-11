@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM Agent][AI agent polling] 提出基于LLM的AI agent民意调研框架，通过人口统计合成虚拟居民agent对数据中心项目进行大规模低成本民调，跨模型跨地区实验表明agent意见与真实民调在主题上高度一致。
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - AI agent polling
-  - public opinion
-  - data center
-  - LLM simulation
-  - community engagement
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "AI agent polling"
+  - "public opinion"
+  - "data center"
+  - "LLM simulation"
+  - "community engagement"
 ---
 
 # What AI Speaks for Your Community: Polling AI Agents for Public Opinion on Data Center Projects

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][文本到动作生成] 提出FreeMotion框架，通过条件概率分解将多人运动联合分布递归拆解为单人条件运动生成，首次实现任意人数的文本驱动运动合成，并支持多人空间控制。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 文本到动作生成
-  - 多人运动合成
-  - 扩散模型
-  - 条件运动建模
-  - 空间控制
+  - "ECCV 2024"
+  - "人体理解"
+  - "文本到动作生成"
+  - "多人运动合成"
+  - "扩散模型"
+  - "条件运动建模"
+  - "空间控制"
 ---
 
 # FreeMotion: A Unified Framework for Number-free Text-to-Motion Synthesis

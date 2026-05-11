@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization
 description: >-
-  [NeurIPS 2025][语音][音乐编排] 提出一个统一的符号音乐编排框架，通过段级自监督重建目标（解耦内容和乐器风格）和新的多轨token化方案REMI-z，使单个预训练模型能够处理乐队编排、钢琴缩编和鼓编排等多种编排任务，并在三个典型任务上超越了任务特定的SOTA。
+  [NeurIPS 2025][音频/语音][音乐编排] 提出一个统一的符号音乐编排框架，通过段级自监督重建目标（解耦内容和乐器风格）和新的多轨token化方案REMI-z，使单个预训练模型能够处理乐队编排、钢琴缩编和鼓编排等多种编排任务，并在三个典型任务上超越了任务特定的SOTA。
 tags:
-  - NeurIPS 2025
-  - 语音
-  - 音乐编排
-  - 符号音乐
-  - 多轨音乐生成
-  - 音乐token化
-  - 音频语音
+  - "NeurIPS 2025"
+  - "音频/语音"
+  - "音乐编排"
+  - "符号音乐"
+  - "多轨音乐生成"
+  - "音乐token化"
+  - "自监督学习"
 ---
 
 # Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization
@@ -45,7 +45,7 @@ tags:
 
 ### 整体框架
 
-采用80M参数的Decoder-only Transformer。先在大规模MIDI数据集(Los Angeles MIDI, 405K文件)上进行标准next-token预训练，然后通过统一的重建目标在Slakh2100数据集上微调，实现多种编排任务。输入序列格式为 `[condition]<SEP>[target]`，仅在target子序列上计算交叉熵损失。
+采用80M参数的Decoder-only Transformer。先在大规模MIDI数据集(Los Angeles MIDI, 405K文件)上进行标准next-token预训练，然后通过统一的重建目标在Slakh2100数据集上微调，实现多种编排任务。输入序列格式为 <code>[condition]&lt;SEP&gt;[target]</code>，仅在target子序列上计算交叉熵损失。
 
 ### 关键设计
 
@@ -118,7 +118,7 @@ tags:
 | REMI-z | 151.68 | 2.77 | **84.11** |
 
 ### 关键发现
-- REMI-z相对REMI+在所有客观指标上统计显著(p<0.001)，验证了结构化token化的优势
+- REMI-z相对REMI+在所有客观指标上统计显著(p&lt;0.001)，验证了结构化token化的优势
 - 预训练知识迁移主要提升了乐器级别建模(Notei F1 +9.5%)和旋律保持(Mel F1 +6.7%)
 - 在鼓编排中，模型接近Ground Truth的音乐性评分(3.57 vs 3.78)
 - REMI-z不仅在编排任务中更好，在无条件生成中也有更低的音符级困惑度

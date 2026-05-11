@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UnZipLoRA: Separating Content and Style from a Single Image
 description: >-
-  [ICCV 2025][机器人][LoRA] 提出 UnZipLoRA 方法，从单张图像中同时训练两个解耦且兼容的 LoRA（内容 LoRA 和风格 LoRA），通过 prompt 分离、列分离和块分离三种策略实现内容与风格的有效解耦，支持独立操控和自由重组，用户偏好率全面超越 DreamBooth-LoRA、Inspiration Tree 和 B-LoRA。
+  [ICCV 2025][机器人][LoRA] 提出 UnZipLoRA 方法，从单张图像中同时训练两个解耦且兼容的 LoRA（内容 LoRA 和风格 LoRA），通过 prompt 分离、列分离和块分离三种策略实现内容与风格的有效解耦，支持独立操控和自由重组…
 tags:
-  - ICCV 2025
-  - 机器人
-  - LoRA
-  - 内容风格分离
-  - 扩散模型
-  - 图像生成
-  - 概念解耦
+  - "ICCV 2025"
+  - "机器人"
+  - "LoRA"
+  - "内容风格分离"
+  - "扩散模型"
+  - "图像生成"
+  - "概念解耦"
 ---
 
 # UnZipLoRA: Separating Content and Style from a Single Image

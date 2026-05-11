@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Improving Fairness of Large Language Models in Multi-document Summarization
 description: >-
-  [ACL 2025][AI安全][公平性] 提出 FairPO（Fair Preference Optimization），通过扰动式偏好对生成和公平感知偏好调优，同时优化多文档摘要中的摘要级和语料级公平性。
+  [ACL 2025][LLM安全][公平性] 提出 FairPO（Fair Preference Optimization），通过扰动式偏好对生成和公平感知偏好调优，同时优化多文档摘要中的摘要级和语料级公平性。
 tags:
-  - ACL 2025
-  - AI安全
-  - 公平性
-  - 多文档摘要
-  - 偏好优化
-  - DPO
-  - 覆盖率均等
+  - "ACL 2025"
+  - "LLM安全"
+  - "公平性"
+  - "多文档摘要"
+  - "偏好优化"
+  - "DPO"
+  - "覆盖率均等"
 ---
 
 # Improving Fairness of Large Language Models in Multi-document Summarization

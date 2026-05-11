@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Split Adaptation for Pre-trained Vision Transformers
 description: >-
-  [CVPR 2025][AI安全][隐私保护] 提出 Split Adaptation (SA)，通过模型分割+量化保护和双层噪声注入实现隐私保护的预训练ViT下游适配，在少样本场景下超越SOTA。
+  [CVPR 2025][AI安全][隐私保护] 本文提出 Split Adaptation (SA)，将预训练 ViT 分割为前端（量化后发送给客户端）和后端（留在服务器），通过双层噪声注入保护数据隐私，配合OOD增强和patch检索增强缓解噪声影响和过拟合，在保护模型和数据的前提下实现高效少样本下游适配。
 tags:
-  - CVPR 2025
-  - AI安全
-  - 隐私保护
-  - Vision Transformer
-  - 分割学习
-  - 少样本适配
+  - "CVPR 2025"
+  - "AI安全"
+  - "隐私保护"
+  - "Transformer"
+  - "分割学习"
+  - "少样本适配"
+  - "模型知识产权"
 ---
 
 # Split Adaptation for Pre-trained Vision Transformers

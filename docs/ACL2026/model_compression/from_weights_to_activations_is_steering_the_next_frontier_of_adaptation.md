@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Weights to Activations: Is Steering the Next Frontier of Adaptation?
 description: >-
-  [ACL 2026][模型压缩][激活空间干预] 本文系统性地论证 steering（推理时激活空间干预）应被视为一种独立的模型适配范式，提出八项功能性评估标准对比 steering 与微调、PEFT、提示工程等传统方法，将 steering 定位为基于激活空间的局部可逆行为修改方法，具有计算高效、数据高效和可逆性等独特优势。
+  [ACL 2026][模型压缩][激活空间干预] 本文系统性地论证 steering（推理时激活空间干预）应被视为一种独立的模型适配范式，提出八项功能性评估标准对比 steering 与微调、PEFT、提示工程等传统方法，将 steering 定位为基于激活空间的局部可逆行为修改方法…
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 激活空间干预
-  - 模型适配分类
-  - steering
-  - 参数高效
-  - 推理时行为修改
+  - "ACL 2026"
+  - "模型压缩"
+  - "激活空间干预"
+  - "模型适配分类"
+  - "steering"
+  - "参数高效"
+  - "推理时行为修改"
 ---
 
 # From Weights to Activations: Is Steering the Next Frontier of Adaptation?

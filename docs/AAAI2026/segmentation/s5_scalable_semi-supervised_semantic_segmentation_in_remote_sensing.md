@@ -2,15 +2,15 @@
 title: >-
   [论文解读] S5: Scalable Semi-Supervised Semantic Segmentation in Remote Sensing
 description: >-
-  [AAAI 2026][图像分割][半监督学习] 提出 S5 框架，首次将半监督语义分割扩展为遥感基础模型（RSFM）的预训练范式，通过构建百万级 RS4P-1M 数据集和 MoE 多数据集微调策略，在多个遥感分割与检测基准上达到 SOTA。
+  [AAAI 2026][语义分割][半监督学习] 提出 S5 框架，首次将半监督语义分割扩展为遥感基础模型（RSFM）的预训练范式，通过构建百万级 RS4P-1M 数据集和 MoE 多数据集微调策略，在多个遥感分割与检测基准上达到 SOTA。
 tags:
-  - AAAI 2026
-  - 图像分割
-  - 半监督学习
-  - remote sensing
-  - foundation model
-  - 图像分割
-  - mixture of experts
+  - "AAAI 2026"
+  - "语义分割"
+  - "半监督学习"
+  - "remote sensing"
+  - "foundation model"
+  - "图像分割"
+  - "mixture of experts"
 ---
 
 # S5: Scalable Semi-Supervised Semantic Segmentation in Remote Sensing

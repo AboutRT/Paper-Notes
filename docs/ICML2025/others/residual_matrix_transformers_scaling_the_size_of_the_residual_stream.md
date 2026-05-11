@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML2025][Residual Stream] 用外积记忆矩阵替换 Transformer 的残差流向量，使残差流大小可独立于模型参数量和 FLOPS 扩展，在相同 loss 下节省 58% FLOPS、25% 参数和 41% 训练 token。
 tags:
-  - ICML2025
-  - Residual Stream
-  - Outer Product Memory
-  - 参数效率
-  - 计算效率
-  - 方差传播
+  - "ICML2025"
+  - "Residual Stream"
+  - "Outer Product Memory"
+  - "参数效率"
+  - "计算效率"
+  - "方差传播"
 ---
 
 # Residual Matrix Transformers: Scaling the Size of the Residual Stream

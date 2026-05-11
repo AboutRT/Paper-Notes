@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Towards Smart Point-and-Shoot Photography
 description: >-
-  [CVPR 2025][智能构图] 提出智能"傻瓜相机"摄影系统：先用 CLIP 文本嵌入的构图质量评估器（CCQA）判断当前构图质量，再用专家混合（MoE）相机姿态调整模型（CPAM）预测偏航/俯仰调整角度，在 PCARD 数据集（320K 图像，从 4K 全景图生成）上实现 79.3% AUC 的调整建议和 0.613 IoU 的调整精度。
+  [CVPR 2025][信息检索/RAG][智能构图] 提出智能"傻瓜相机"摄影系统：先用 CLIP 文本嵌入的构图质量评估器（CCQA）判断当前构图质量，再用专家混合（MoE）相机姿态调整模型（CPAM）预测偏航/俯仰调整角度，在 PCARD 数据集（320K 图像…
 tags:
-  - CVPR 2025
-  - 智能构图
-  - 相机姿态调整
-  - 信息检索
-  - CLIP
-  - 专家混合
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "智能构图"
+  - "相机姿态调整"
+  - "构图质量评估"
+  - "CLIP"
+  - "专家混合"
 ---
 
 # Towards Smart Point-and-Shoot Photography

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity
 description: >-
-  [ICML2025][代码智能] 提出 SparseLoRA，通过**上下文稀疏性 (contextual sparsity)** 动态选择权重子集进行前向/梯度计算，首次将推理时的稀疏加速思路迁移到 LLM 微调阶段，实现最高 2.2× FLOPs 降低和 1.6× 实测加速，同时保持精度。
+  [ICML2025][代码智能][LoRA] 提出 SparseLoRA，通过**上下文稀疏性 (contextual sparsity)** 动态选择权重子集进行前向/梯度计算，首次将推理时的稀疏加速思路迁移到 LLM 微调阶段，实现最高 2.2× FLOPs 降低和 1.6× 实测加速，同时保持精度。
 tags:
-  - ICML2025
-  - 代码智能
-  - 上下文稀疏性
-  - SVD稀疏估计器
-  - 微调加速
-  - 参数高效微调
+  - "ICML2025"
+  - "代码智能"
+  - "LoRA"
+  - "上下文稀疏性"
+  - "SVD稀疏估计器"
+  - "微调加速"
+  - "参数高效微调"
 ---
 
 # SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity
@@ -109,7 +110,7 @@ $$\mathbf{s} = \mathbf{q} \odot \mathbf{k}$$
 ## 亮点与洞察
 
 1. **首次将上下文稀疏性从推理迁移到微调**，验证了微调阶段同样存在可利用的输入相关稀疏模式
-2. **SVD 估计器免训练**，避免了学习式预测器在数据集间泛化不佳的问题，且开销极低（<1%）
+2. **SVD 估计器免训练**，避免了学习式预测器在数据集间泛化不佳的问题，且开销极低（&lt;1%）
 3. **三维敏感性分析**（层/token/步骤）系统性地解决了稀疏微调的精度坍塌问题
 4. **与现有 PEFT 正交**：SparseLoRA 减少计算量，LoRA/QLoRA 减少内存，可组合使用
 5. 在 LLaMA2-13B 上 SparseLoRA 甚至**超过 LoRA 精度**（85.0 vs 84.7），说明适度稀疏有正则化效果

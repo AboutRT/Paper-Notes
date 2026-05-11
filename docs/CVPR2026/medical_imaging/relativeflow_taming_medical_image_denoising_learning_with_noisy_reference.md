@@ -4,11 +4,11 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][去噪] 提出 RelativeFlow，基于 flow matching 的框架，通过将绝对噪声到干净映射分解为相对更噪到噪声映射，结合一致传输约束和基于模拟的速度场，从异质噪声参考中学习统一的去噪流，突破参考偏差限制。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 去噪
-  - flow matching
-  - noisy reference
+  - "CVPR 2026"
+  - "医学图像"
+  - "去噪"
+  - "flow matching"
+  - "noisy reference"
 ---
 
 # RelativeFlow: Taming Medical Image Denoising Learning with Noisy Reference

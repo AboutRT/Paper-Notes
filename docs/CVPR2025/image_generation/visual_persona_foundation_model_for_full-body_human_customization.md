@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][全身人体定制] 提出 Visual Persona，首个面向全身人体定制的基础模型，通过大规模配对数据集策展（580K图像/100K身份）和身体部位分区 Transformer 解码器架构，实现高保真的全身外观保持与文本引导的多样化生成。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 全身人体定制
-  - 文本到图像生成
-  - 扩散模型
-  - 身份保持
-  - 数据策展
+  - "CVPR 2025"
+  - "图像生成"
+  - "全身人体定制"
+  - "文本到图像生成"
+  - "扩散模型"
+  - "身份保持"
+  - "数据策展"
 ---
 
 # Visual Persona: Foundation Model for Full-Body Human Customization

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Bayesian Social Deduction with Graph-Informed Language Models
 description: >-
-  [ACL 2026][LLM Agent][社会推理] 提出 GRAIL（Graph Reasoning Agent Informed through Language），一个混合推理框架，将概率推理外化到因子图模型、用 LLM 处理语言理解和交互，在社交推理游戏 Avalon 中首次击败人类玩家（67% 胜率），且资源消耗远低于大规模推理模型。
+  [ACL 2026][LLM Agent][社会推理] 提出 GRAIL（Graph Reasoning Agent Informed through Language），一个混合推理框架，将概率推理外化到因子图模型、用 LLM 处理语言理解和交互…
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 社会推理
-  - 概率图模型
-  - 心智理论
-  - 博弈智能体
-  - 人机交互
+  - "ACL 2026"
+  - "LLM Agent"
+  - "社会推理"
+  - "概率图模型"
+  - "心智理论"
+  - "博弈智能体"
+  - "人机交互"
 ---
 
 # Bayesian Social Deduction with Graph-Informed Language Models

@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Robust Message Embedding via Attention Flow-Based Steganography
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：Image steganography can hide information in a host image and obtain a stego image that is perceptually indistinguishable from the original one. This technique has tremendous potential in scenarios like copyright protection and information retrospection. Some previous studies have proposed to enhance
+  [CVPR 2025][预训练][待补充] > 基于摘要：Image steganography can hide information in a host image and obtain a stego image that is perceptually indistinguishable from…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "预训练"
+  - "待补充"
 ---
 
 # Robust Message Embedding via Attention Flow-Based Steganography

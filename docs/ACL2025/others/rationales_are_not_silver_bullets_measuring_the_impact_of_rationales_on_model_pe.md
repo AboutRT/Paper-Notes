@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025 Findings][理由增强] 本文通过对 18 个数据集、7 类任务的系统实验，发现在训练数据中加入 rationale（推理过程）并非总是有益——rationale 有时会削弱模型性能，但可以提升模型可靠性（校准度），且性能和可靠性的改善呈线性相关，两者都受任务固有难度驱动。
 tags:
-  - ACL 2025 Findings
-  - 理由增强
-  - 模型可靠性
-  - 校准
-  - 其他
-  - 任务难度
+  - "ACL 2025 Findings"
+  - "理由增强"
+  - "模型可靠性"
+  - "校准"
+  - "训练数据质量"
+  - "任务难度"
 ---
 
 # Rationales Are Not Silver Bullets: Measuring the Impact of Rationales on Model Performance and Reliability

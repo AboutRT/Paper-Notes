@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][HDR新视角合成] 提出 SeHDR，首个从单曝光多视角 LDR 图像合成 HDR 新视角的框架，通过在 3D 高斯空间中生成包围曝光（Bracketed 3D Gaussians）并用可微神经曝光融合（NeEF）合并为 HDR 场景表示。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - HDR新视角合成
-  - 3D高斯
-  - 曝光包围
-  - 单曝光
-  - 可微渲染
+  - "ICCV 2025"
+  - "3D视觉"
+  - "HDR新视角合成"
+  - "3D高斯"
+  - "曝光包围"
+  - "单曝光"
+  - "可微渲染"
 ---
 
 # SeHDR: Single-Exposure HDR Novel View Synthesis via 3D Gaussian Bracketing

@@ -1,14 +1,24 @@
 ---
 title: >-
-  ECCV2024 自动驾驶方向53篇论文解读
+  ECCV2024 自动驾驶方向52篇论文解读
 description: >-
-  53篇ECCV2024的自动驾驶方向论文解读，涵盖自动驾驶、语义分割、3D 目标检测、对抗鲁棒、扩散模型、目标检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  52篇ECCV2024的自动驾驶方向论文解读，涵盖自动驾驶、语义分割、3D 目标检测、对抗鲁棒、扩散模型、目标检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ECCV2024"
+  - "自动驾驶"
+  - "论文解读"
+  - "论文笔记"
+  - "语义分割"
+  - "3D 目标检测"
+  - "对抗鲁棒"
+  - "扩散模型"
+  - "目标检测"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🚗 自动驾驶
 
-**🎞️ ECCV2024** · **53** 篇论文解读
+**🎞️ ECCV2024** · **52** 篇论文解读
 
 📌 **同领域跨会议浏览：** [📷 CVPR2026 (88)](../../CVPR2026/autonomous_driving/index.md) · [🔬 ICLR2026 (18)](../../ICLR2026/autonomous_driving/index.md) · [🤖 AAAI2026 (58)](../../AAAI2026/autonomous_driving/index.md) · [🧠 NeurIPS2025 (50)](../../NeurIPS2025/autonomous_driving/index.md) · [📹 ICCV2025 (93)](../../ICCV2025/autonomous_driving/index.md) · [🧪 ICML2025 (11)](../../ICML2025/autonomous_driving/index.md)
 
@@ -21,10 +31,6 @@ description: >-
 **[Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention](accelerating_online_mapping_and_behavior_prediction_via_dire.md)**
 
 :   提出直接将在线地图估计模型内部的BEV特征暴露给下游轨迹预测模型（而非仅传递解码后的矢量化地图），通过三种BEV特征注入策略实现推理加速最高73%、预测精度提升最高29%。
-
-**[Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction](adaptive_bounding_box_uncertainties_via_twostep_conformal_pr.md)**
-
-:   提出两步共形预测框架为多类目标检测的边界框生成带理论覆盖率保证的自适应不确定性区间——第一步用共形分类集处理类别误判风险，第二步用集成/分位数回归等方法构建自适应于目标尺寸的边界框预测区间，在COCO/Cityscapes/BDD100k上达到约90%目标覆盖率且区间实际可用。
 
 **[Adaptive Human Trajectory Prediction via Latent Corridors](adaptive_human_trajectory_prediction_via_latent_corridors.md)**
 

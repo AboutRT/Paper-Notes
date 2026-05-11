@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space
 description: >-
-  [CVPR 2026][条件图像检索] CLAY 提出免训练的条件视觉相似度计算方法，通过在 VLM 嵌入空间中构建文本条件子空间来调制相似度，无需重新计算数据库特征即可适应不同检索条件，并支持多条件检索。
+  [CVPR 2026][信号/通信][条件图像检索] CLAY 提出免训练的条件视觉相似度计算方法，通过在 VLM 嵌入空间中构建文本条件子空间来调制相似度，无需重新计算数据库特征即可适应不同检索条件，并支持多条件检索。
 tags:
-  - CVPR 2026
-  - 条件图像检索
-  - 信号通信
-  - 相似度调制
-  - 免训练
-  - 超球面几何
+  - "CVPR 2026"
+  - "信号/通信"
+  - "条件图像检索"
+  - "视觉语言模型"
+  - "相似度调制"
+  - "免训练"
+  - "超球面几何"
 ---
 
 # CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EddyFormer: Accelerated Neural Simulations of Three-Dimensional Turbulence at Scale
 description: >-
-  [NeurIPS 2025][科学计算][Turbulence Simulation] 提出 EddyFormer，一种基于谱元法 (SEM) 的 Transformer 架构，将流场分解为 LES（大尺度）和 SGS（小尺度）两路并行流，在 256³ 分辨率 3D 湍流上达到 DNS 级精度且加速 30 倍，并在未见的 4× 更大域上泛化良好。
+  [NeurIPS 2025][科学计算][Turbulence Simulation] 提出 EddyFormer，一种基于谱元法 (SEM) 的 Transformer 架构，将流场分解为 LES（大尺度）和 SGS（小尺度）两路并行流，在 256³ 分辨率 3D 湍流上达到 DNS 级精度且加速 30 倍…
 tags:
-  - NeurIPS 2025
-  - 科学计算
-  - Turbulence Simulation
-  - Spectral Element Method
-  - Transformer
-  - LES
-  - 偏微分方程
+  - "NeurIPS 2025"
+  - "科学计算"
+  - "Turbulence Simulation"
+  - "Spectral Element Method"
+  - "Transformer"
+  - "LES"
+  - "偏微分方程"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

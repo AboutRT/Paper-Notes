@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][多视图匹配] 提出 MV-RoMa，首个多视图稠密匹配模型，通过 Track-Guided 多视图编码器和像素对齐多视图精炼器从一张源图同时估计到多个目标图的稠密对应关系，产生几何一致的轨迹用于 SfM，在 HPatches/ETH3D/IMC 等基准上全面超越现有方法。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 多视图匹配
-  - 稠密对应
-  - 轨迹重建
-  - SfM
-  - 特征融合
+  - "CVPR 2026"
+  - "3D视觉"
+  - "多视图匹配"
+  - "稠密对应"
+  - "轨迹重建"
+  - "SfM"
+  - "特征融合"
 ---
 
 # MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction

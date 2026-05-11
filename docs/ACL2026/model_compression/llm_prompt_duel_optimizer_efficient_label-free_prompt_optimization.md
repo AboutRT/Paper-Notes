@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LLM Prompt Duel Optimizer: Efficient Label-Free Prompt Optimization
 description: >-
-  [ACL 2026][模型压缩][自动提示优化] 将无标签提示优化形式化为决斗老虎机（dueling bandit）问题，提出 Prompt Duel Optimizer (PDO)，通过 Double Thompson Sampling 高效选择信息量最大的提示对进行比较，结合 top-performer 变异策略扩展搜索空间，在 BBH 和 MS MARCO 上以更少的 judge 调用次数找到更强提示。
+  [ACL 2026][模型压缩][自动提示优化] 将无标签提示优化形式化为决斗老虎机（dueling bandit）问题，提出 Prompt Duel Optimizer (PDO)，通过 Double Thompson Sampling 高效选择信息量最大的提示对进行比较…
 tags:
-  - ACL 2026
-  - 模型压缩
-  - 自动提示优化
-  - 无标签优化
-  - 决斗老虎机
-  - LLM评判
-  - Thompson采样
+  - "ACL 2026"
+  - "模型压缩"
+  - "自动提示优化"
+  - "无标签优化"
+  - "决斗老虎机"
+  - "LLM评判"
+  - "Thompson采样"
 ---
 
 # LLM Prompt Duel Optimizer: Efficient Label-Free Prompt Optimization

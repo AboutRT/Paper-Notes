@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation
 description: >-
-  [CVPR2026][多模态VLM][GUI自动化] 提出 CES（Coordinator-Executor-State Tracker）多智能体框架和分阶段执行反馈强化学习算法，将高层任务规划与低层执行解耦，通过专门训练的 Coordinator 和 State Tracker 显著提升 GUI Agent 在长时序任务上的规划和状态管理能力。
+  [CVPR2026][多模态VLM][GUI自动化] 提出 CES（Coordinator-Executor-State Tracker）多智能体框架和分阶段执行反馈强化学习算法，将高层任务规划与低层执行解耦…
 tags:
-  - CVPR2026
-  - 多模态VLM
-  - GUI自动化
-  - 长时序任务
-  - 多智能体框架
-  - 强化学习
-  - 状态追踪
-  - 任务调度
+  - "CVPR2026"
+  - "多模态VLM"
+  - "GUI自动化"
+  - "长时序任务"
+  - "多智能体框架"
+  - "强化学习"
+  - "状态追踪"
+  - "任务调度"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

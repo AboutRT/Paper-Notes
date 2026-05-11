@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][多Agent系统] 本文提出 AgentDropout，通过在多轮讨论中动态消除冗余 Agent（节点剪枝）和冗余通信边（边剪枝），在降低 21.6% prompt token 消耗的同时提升了 1.14 分的任务性能。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 多Agent系统
-  - 通信拓扑优化
-  - 节点剪枝
-  - 边剪枝
-  - Token效率
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "多Agent系统"
+  - "通信拓扑优化"
+  - "节点剪枝"
+  - "边剪枝"
+  - "Token效率"
 ---
 
 # AgentDropout: Dynamic Agent Elimination for Token-Efficient and High-Performance LLM-Based Multi-Agent Collaboration

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][物体中心学习] 提出 RandSF.Q，通过利用下一帧特征进行信息性查询预测，以及从随机采样的 slot-feature 对学习过渡动力学，显著提升视频物体中心学习（OCL）的查询预测质量，在目标发现任务上超越 SOTA 最多 10 个点。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 物体中心学习
-  - 视频目标发现
-  - 注意力机制
-  - 时序建模
-  - 自监督
+  - "AAAI 2026"
+  - "视频理解"
+  - "物体中心学习"
+  - "视频目标发现"
+  - "注意力机制"
+  - "时序建模"
+  - "自监督"
 ---
 
 # Predicting Video Slot Attention Queries from Random Slot-Feature Pairs

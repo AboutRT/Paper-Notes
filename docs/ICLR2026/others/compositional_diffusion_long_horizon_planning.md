@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][扩散模型] 提出 CDGS（Compositional Diffusion with Guided Search），通过在扩散去噪过程中嵌入基于种群的搜索机制（迭代重采样 + 似然剪枝），解决组合式扩散模型在多模态局部分布合成时的模式平均问题，从短时域模型采样出全局一致的长时域规划。
 tags:
-  - ICLR 2026
-  - 扩散模型
-  - long-horizon planning
-  - 其他
-  - guided search
-  - inference-time compute
+  - "ICLR 2026"
+  - "扩散模型"
+  - "long-horizon planning"
+  - "mode averaging"
+  - "guided search"
+  - "inference-time compute"
 ---
 
 # Compositional Diffusion with Guided Search for Long-Horizon Planning

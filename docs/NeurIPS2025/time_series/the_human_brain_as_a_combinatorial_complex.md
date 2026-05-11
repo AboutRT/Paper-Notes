@@ -2,16 +2,16 @@
 title: >-
   [论文解读] The Human Brain as a Combinatorial Complex
 description: >-
-  [NeurIPS 2025 (Workshop: NeurReps)][医学图像][组合复形] 提出一种数据驱动的框架，利用 S-信息和 O-信息等信息论度量从 fMRI 时间序列中直接构建组合复形（Combinatorial Complexes），将脑区间的高阶协同交互编码到拓扑结构中，为拓扑深度学习应用于脑网络分析奠定基础。
+  [NeurIPS 2025 (Workshop: NeurReps)][时间序列][组合复形] 提出一种数据驱动的框架，利用 S-信息和 O-信息等信息论度量从 fMRI 时间序列中直接构建组合复形（Combinatorial Complexes），将脑区间的高阶协同交互编码到拓扑结构中…
 tags:
   - "NeurIPS 2025 (Workshop: NeurReps)"
-  - 时间序列
-  - 组合复形
-  - 高阶网络
-  - 信息论
-  - S-信息
-  - O-信息
-  - fMRI
+  - "时间序列"
+  - "组合复形"
+  - "高阶网络"
+  - "信息论"
+  - "S-信息"
+  - "O-信息"
+  - "fMRI"
 ---
 
 # The Human Brain as a Combinatorial Complex

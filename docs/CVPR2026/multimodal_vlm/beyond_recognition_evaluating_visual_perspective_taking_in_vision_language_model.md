@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Beyond Recognition: Evaluating Visual Perspective Taking in Vision Language Models
 description: >-
-  [CVPR 2026][多模态][视觉透视能力] 通过心理学启发的受控LEGO场景构建Isle-Brick-V2基准，系统揭示当前VLM在视觉透视能力(VPT)上的显著不足——即使场景理解近乎完美，空间推理和透视能力仍大幅退化，且存在顽固的方向偏置。
+  [CVPR 2026][多模态VLM][视觉透视能力] 通过心理学启发的受控LEGO场景构建Isle-Brick-V2基准，系统揭示当前VLM在视觉透视能力(VPT)上的显著不足——即使场景理解近乎完美，空间推理和透视能力仍大幅退化，且存在顽固的方向偏置。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 视觉透视能力
-  - 心智理论
-  - 多模态VLM
-  - VLM评估
-  - 认知科学
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "视觉透视能力"
+  - "心智理论"
+  - "空间推理"
+  - "VLM评估"
+  - "认知科学"
 ---
 
 # Beyond Recognition: Evaluating Visual Perspective Taking in Vision Language Models

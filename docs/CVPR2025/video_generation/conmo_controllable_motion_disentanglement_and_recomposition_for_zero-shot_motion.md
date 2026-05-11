@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ConMo: Controllable Motion Disentanglement and Recomposition for Zero-Shot Motion Transfer
 description: >-
-  [CVPR 2025][运动迁移] ConMo提出了一种零样本运动迁移框架，通过将参考视频中的复合运动解耦为独立的主体运动和背景（相机）运动，再在目标视频生成时可控地重组这些运动，实现了多主体运动迁移、语义/形状变换、主体去除、相机运动模拟等多种应用，在运动保真度和文本对齐上显著超越现有方法。
+  [CVPR 2025][视频生成][运动迁移] ConMo提出了一种零样本运动迁移框架，通过将参考视频中的复合运动解耦为独立的主体运动和背景（相机）运动，再在目标视频生成时可控地重组这些运动，实现了多主体运动迁移、语义/形状变换、主体去除、相机运动模拟等多种应用，在运动保真度和文本对齐上显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 运动迁移
-  - 视频扩散模型
-  - 运动解耦
-  - 零样本生成
-  - 多主体运动
+  - "CVPR 2025"
+  - "视频生成"
+  - "运动迁移"
+  - "视频扩散模型"
+  - "运动解耦"
+  - "零样本生成"
+  - "多主体运动"
 ---
 
 # ConMo: Controllable Motion Disentanglement and Recomposition for Zero-Shot Motion Transfer

@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][图像生成] 提出一种基于掩码扩散训练策略的3D网格局部编辑方法ShapeFusion，通过在顶点空间直接操作实现完全局部化、可解释的3D形状编辑，无需潜在空间优化。
 tags:
-  - ECCV 2024
-  - 图像生成
+  - "ECCV 2024"
+  - "图像生成"
 ---
 
 # ShapeFusion: A 3D Diffusion Model for Localized Shape Editing

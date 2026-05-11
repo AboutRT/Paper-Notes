@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Isolated Causal Effects of Natural Language
 description: >-
-  [ICML2025][孤立因果效应] 提出"孤立因果效应"（Isolated Causal Effect）的形式化估计框架，通过双重稳健估计器和遗漏变量偏差（OVB）敏感性分析，将焦点语言属性的因果效应从相关的非焦点语言中隔离出来。
+  [ICML2025][因果推理][孤立因果效应] 提出"孤立因果效应"（Isolated Causal Effect）的形式化估计框架，通过双重稳健估计器和遗漏变量偏差（OVB）敏感性分析，将焦点语言属性的因果效应从相关的非焦点语言中隔离出来。
 tags:
-  - ICML2025
-  - 孤立因果效应
-  - 遗漏变量偏差
-  - 双重稳健估计
-  - 文本因果推断
-  - 非焦点语言近似
+  - "ICML2025"
+  - "因果推理"
+  - "孤立因果效应"
+  - "遗漏变量偏差"
+  - "双重稳健估计"
+  - "文本因果推断"
+  - "非焦点语言近似"
 ---
 
 # Isolated Causal Effects of Natural Language

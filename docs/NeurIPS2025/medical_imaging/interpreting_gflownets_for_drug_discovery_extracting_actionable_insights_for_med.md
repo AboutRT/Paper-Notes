@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][GFlowNet] 为 SynFlowNet（基于合成反应模板的 GFlowNet）构建了一套多层次可解释性工具包，整合梯度显著性、反事实扰动、稀疏自编码器（SAE）和基序探针，揭示模型内部表征如何编码药物化学相关的理化性质和官能团信息。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - GFlowNet
-  - 可解释性
-  - 药物发现
-  - 稀疏自编码器
-  - 反事实分析
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "GFlowNet"
+  - "可解释性"
+  - "药物发现"
+  - "稀疏自编码器"
+  - "反事实分析"
 ---
 
 # Interpreting GFlowNets for Drug Discovery: Extracting Actionable Insights for Medicinal Chemistry
@@ -118,7 +118,7 @@ tags:
 ### 消融/关键发现
 
 - 反事实显著性：高显著性基序的修改产生最大的 QED 变化，验证了归因的可靠性
-- SAE 稀疏度：均值激活稀疏度 0.105，多数因子仅在 <10% 分子中激活
+- SAE 稀疏度：均值激活稀疏度 0.105，多数因子仅在 &lt;10% 分子中激活
 - 地面真值验证：SynFlowNet 提取的基序相关矩阵与 RDKit 计算的理化相关矩阵一致
 
 ## 亮点与洞察

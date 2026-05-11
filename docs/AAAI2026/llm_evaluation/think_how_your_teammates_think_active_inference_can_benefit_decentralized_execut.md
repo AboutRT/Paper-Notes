@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution
 description: >-
-  [AAAI 2026][LLM评测][多智能体协作] 提出 AIM（Active Inference Modeling）框架，在去中心化多智能体强化学习中，不依赖通信机制，仅基于局部观测建模队友的主动推理过程（感知-信念-动作三重肖像），并通过准确性-相关性双重过滤机制选择性融合队友信念，在 SMAC、SMACv2、MPE 和 GRF 四大基准上取得最优或接近最优表现。
+  [AAAI 2026][LLM评测][多智能体协作] 提出 AIM（Active Inference Modeling）框架，在去中心化多智能体强化学习中，不依赖通信机制，仅基于局部观测建模队友的主动推理过程（感知-信念-动作三重肖像），并通过准确性-相关性双重过滤机制选择性融合队友信念…
 tags:
-  - AAAI 2026
-  - LLM评测
-  - 多智能体协作
-  - 主动推理
-  - 队友建模
-  - 无通信框架
-  - 去中心化执行
+  - "AAAI 2026"
+  - "LLM评测"
+  - "多智能体协作"
+  - "主动推理"
+  - "队友建模"
+  - "无通信框架"
+  - "去中心化执行"
 ---
 
 # Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution

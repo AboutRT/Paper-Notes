@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multi-Label Cluster Discrimination for Visual Representation Learning
 description: >-
-  [ECCV 2024][视觉表征学习] 提出多标签聚类判别方法 MLCD，通过为每张图像分配多个聚类伪标签并设计消歧多标签分类损失，在 LAION-400M 上预训练的 ViT 在 linear probe、zero-shot 分类和检索任务上全面超越 OpenCLIP、FLIP 和 UNICOM。
+  [ECCV 2024][社会计算][视觉表征学习] 提出多标签聚类判别方法 MLCD，通过为每张图像分配多个聚类伪标签并设计消歧多标签分类损失，在 LAION-400M 上预训练的 ViT 在 linear probe、zero-shot 分类和检索任务上全面超越 OpenCLIP、FLIP 和 UNICOM…
 tags:
-  - ECCV 2024
-  - 视觉表征学习
-  - 聚类判别
-  - 多标签分类
-  - CLIP
-  - 社会计算
+  - "ECCV 2024"
+  - "社会计算"
+  - "视觉表征学习"
+  - "聚类判别"
+  - "多标签分类"
+  - "CLIP"
+  - "大规模预训练"
 ---
 
 # Multi-Label Cluster Discrimination for Visual Representation Learning

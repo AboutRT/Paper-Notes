@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Equivariance by Contrast: Identifiable Equivariant Embeddings from Unlabeled Finite Group Actions
 description: >-
-  [NeurIPS 2025][等变表示] 提出 Equivariance by Contrast (EbC)，一种仅用编码器的方法，从观测对 $(\mathbf{y}, g \cdot \mathbf{y})$ 中联合学习等变嵌入空间和隐式群表示，使有限群作用在潜空间中对应可逆线性映射，并提供可辨识性理论保证。
+  [NeurIPS 2025][等变表示] 提出 Equivariance by Contrast (EbC)，一种仅用编码器的方法，从观测对 $(\mathbf{y}, g \cdot \mathbf{y})$ 中联合学习等变嵌入空间和隐式群表示，使有限群作用在潜空间中对应可逆线性映射，并提供可辨识性理论保证…
 tags:
-  - NeurIPS 2025
-  - 等变表示
-  - 其他
-  - 非线性ICA
-  - 群表示
-  - 可辨识性
+  - "NeurIPS 2025"
+  - "等变表示"
+  - "对比学习"
+  - "非线性ICA"
+  - "群表示"
+  - "可辨识性"
 ---
 
 # Equivariance by Contrast: Identifiable Equivariant Embeddings from Unlabeled Finite Group Actions

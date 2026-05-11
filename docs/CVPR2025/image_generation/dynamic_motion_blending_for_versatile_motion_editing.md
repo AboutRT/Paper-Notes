@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] MotionReFit 提出了首个通用文本引导运动编辑框架，通过 MotionCutMix 数据增强技术动态生成训练三元组，配合自回归扩散模型和运动协调器，实现涵盖身体部位替换、风格迁移和细粒度调整的空间与时序编辑。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # Dynamic Motion Blending for Versatile Motion Editing (MotionReFit)

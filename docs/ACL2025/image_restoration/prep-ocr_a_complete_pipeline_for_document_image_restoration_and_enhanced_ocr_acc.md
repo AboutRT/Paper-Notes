@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][图像恢复][文档图像修复] 提出 PreP-OCR 两阶段流水线：先用合成退化数据训练的 ResShift 模型修复历史文档图像（多方向 patch 提取+中值融合），再用 ByT5 做 OCR 后语义纠错，在 13,831 页真实历史文档上降低 CER 63.9-70.3%。
 tags:
-  - ACL 2025
-  - 图像恢复
-  - 文档图像修复
-  - OCR
-  - 合成数据
-  - 历史文档数字化
-  - ByT5
+  - "ACL 2025"
+  - "图像恢复"
+  - "文档图像修复"
+  - "OCR"
+  - "合成数据"
+  - "历史文档数字化"
+  - "ByT5"
 ---
 
 # PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy

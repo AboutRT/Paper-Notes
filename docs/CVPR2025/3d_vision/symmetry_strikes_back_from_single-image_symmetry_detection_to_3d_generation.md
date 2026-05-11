@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][对称性检测] Reflect3D 提出一个可扩展的零样本 3D 反射对称检测器，通过 Transformer 架构和多视图扩散模型生成的多角度聚合来解决单视图歧义，并将检测到的对称性集成到单图 3D 生成流水线中显著提升结构精度和纹理质量。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 对称性检测
-  - 单图3D生成
-  - 零样本泛化
-  - 多视图扩散
-  - DINOv2
+  - "CVPR 2025"
+  - "3D视觉"
+  - "对称性检测"
+  - "单图3D生成"
+  - "零样本泛化"
+  - "多视图扩散"
+  - "DINOv2"
 ---
 
 # Symmetry Strikes Back: From Single-Image Symmetry Detection to 3D Generation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][KV缓存压缩] 提出 LookaheadKV，通过可学习的前瞻token和选择性激活的LoRA模块预测真实响应的注意力重要性分数，实现无需生成草稿的快速精确KV缓存淘汰，在多个长上下文基准上超越现有方法，驱逐开销降低最高14.5倍。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - KV缓存压缩
-  - 注意力重要性预测
-  - LoRA
-  - 前瞻token
-  - 长上下文推理
+  - "ICLR 2026"
+  - "模型压缩"
+  - "KV缓存压缩"
+  - "注意力重要性预测"
+  - "LoRA"
+  - "前瞻token"
+  - "长上下文推理"
 ---
 
 # LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation
@@ -82,8 +82,8 @@ LookaheadKV 在预填充阶段追加可学习的前瞻token，它们的注意力
 
 | 配置 | LongBench平均 | TTFT开销 | 说明 |
 |------|-------------|---------|------|
-| 有LoRA + 前瞻token | 最佳 | <2.16% | 完整LookaheadKV |
-| 无LoRA，仅前瞻token | 明显降低 | <2% | LoRA贡献显著 |
+| 有LoRA + 前瞻token | 最佳 | &lt;2.16% | 完整LookaheadKV |
+| 无LoRA，仅前瞻token | 明显降低 | &lt;2% | LoRA贡献显著 |
 | 有LoRA，无前瞻token | 降低 | - | 前瞻token是核心 |
 | SnapKV（基线） | 较低 | ~0% | 最轻量但不准确 |
 | LAQ（草稿生成） | 接近 | 14.5倍于LKV | 生成开销大 |
@@ -97,7 +97,7 @@ LookaheadKV 在预填充阶段追加可学习的前瞻token，它们的注意力
 ## 亮点与洞察
 - "glimpsing without generation"的思路优雅：训练implicit的未来表示代替explicit的草稿生成
 - 选择性LoRA激活设计精巧：保证推理时的兼容性和可选择性
-- 额外参数极少（<0.5%），几乎不影响模型大小
+- 额外参数极少（&lt;0.5%），几乎不影响模型大小
 - 得益于与FlashAttention兼容的实现，实际部署友好
 
 ## 局限与展望

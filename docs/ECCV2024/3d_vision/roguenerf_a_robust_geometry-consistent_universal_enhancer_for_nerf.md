@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][NeRF增强] 本文提出RoGUENeRF，一种结合3D重投影对齐、非刚性光流精炼和几何感知注意力的NeRF后处理增强器，能在保持视角一致性的同时显著提升多种NeRF方法的图像渲染质量，且对相机标定误差具有鲁棒性。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - NeRF增强
-  - 几何一致
-  - 3D对齐
-  - 光流精炼
-  - 通用增强器
+  - "ECCV 2024"
+  - "3D视觉"
+  - "NeRF增强"
+  - "几何一致"
+  - "3D对齐"
+  - "光流精炼"
+  - "通用增强器"
 ---
 
 # RoGUENeRF: A Robust Geometry-Consistent Universal Enhancer for NeRF

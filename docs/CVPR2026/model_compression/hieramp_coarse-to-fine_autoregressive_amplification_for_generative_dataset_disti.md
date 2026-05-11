@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HierAmp: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation
 description: >-
-  [CVPR2026][模型压缩][数据集蒸馏] 提出 HierAmp，在视觉自回归（VAR）模型的粗到细生成过程中，向每个尺度注入可学习的类别 token 识别语义显著区域，并通过正 logit 偏置放大这些区域的注意力，使蒸馏数据在粗尺度获得更丰富多样的布局、在细尺度聚焦于类别相关细节，在多个数据集蒸馏基准上达到 SOTA。
+  [CVPR2026][模型压缩][数据集蒸馏] 提出 HierAmp，在视觉自回归（VAR）模型的粗到细生成过程中，向每个尺度注入可学习的类别 token 识别语义显著区域，并通过正 logit 偏置放大这些区域的注意力，使蒸馏数据在粗尺度获得更丰富多样的布局、在细尺度聚焦于类别相关细节…
 tags:
-  - CVPR2026
-  - 模型压缩
-  - 数据集蒸馏
-  - 视觉自回归模型
-  - 层次语义放大
-  - 粗到细生成
-  - codebook token 多样性
+  - "CVPR2026"
+  - "模型压缩"
+  - "数据集蒸馏"
+  - "视觉自回归模型"
+  - "层次语义放大"
+  - "粗到细生成"
+  - "codebook token 多样性"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

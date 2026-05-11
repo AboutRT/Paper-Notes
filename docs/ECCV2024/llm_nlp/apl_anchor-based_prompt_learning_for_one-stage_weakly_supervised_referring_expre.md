@@ -2,15 +2,15 @@
 title: >-
   [论文解读] APL: Anchor-based Prompt Learning for One-stage Weakly Supervised Referring Expression Comprehension
 description: >-
-  [ECCV 2024][LLM/NLP][弱监督指代表达理解] 本文提出锚框提示学习方法 APL，通过设计锚框提示编码器（APE）生成位置、颜色、类别三类判别性提示，动态融入锚框特征以丰富视觉语义，再配合文本重构损失和视觉对齐损失实现精确的视觉-语言对齐，在四个 REC 基准上超越现有弱监督方法（如 RefCOCO 上比 RefCLIP 高 6.44%）。
+  [ECCV 2024][LLM/NLP][弱监督指代表达理解] 本文提出锚框提示学习方法 APL，通过设计锚框提示编码器（APE）生成位置、颜色、类别三类判别性提示，动态融入锚框特征以丰富视觉语义，再配合文本重构损失和视觉对齐损失实现精确的视觉-语言对齐…
 tags:
-  - ECCV 2024
-  - LLM/NLP
-  - 弱监督指代表达理解
-  - 提示学习
-  - 锚框特征
-  - 视觉语言对齐
-  - 单阶段检测
+  - "ECCV 2024"
+  - "LLM/NLP"
+  - "弱监督指代表达理解"
+  - "提示学习"
+  - "锚框特征"
+  - "视觉语言对齐"
+  - "单阶段检测"
 ---
 
 # APL: Anchor-based Prompt Learning for One-stage Weakly Supervised Referring Expression Comprehension

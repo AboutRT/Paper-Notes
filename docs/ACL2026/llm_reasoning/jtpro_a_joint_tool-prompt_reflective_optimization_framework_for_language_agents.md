@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][工具调用优化] JTPRO 提出了一种无需模型微调的联合优化框架，通过反思驱动的迭代编辑同时优化全局指令和逐工具的 schema/参数描述，在大规模工具库场景下显著提升工具选择和参数填充的端到端成功率，相比 GEPA 等基线在 OSR 上提升 5%–20%。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 工具调用优化
-  - 提示词优化
-  - 反思学习
-  - 大工具库
-  - 联合优化
+  - "ACL 2026"
+  - "LLM推理"
+  - "工具调用优化"
+  - "提示词优化"
+  - "反思学习"
+  - "大工具库"
+  - "联合优化"
 ---
 
 # JTPRO: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents

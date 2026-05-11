@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024 (Oral)][光度立体] 提出一种无需物理模型约束的光谱复用光度立体方法（SpectraM-PS），在光源光谱组成完全未知的条件下，通过数据驱动的方式从单张RGB图像中恢复表面法线，实现了传统多次拍摄光度立体到单次拍摄的突破。
 tags:
-  - ECCV 2024 (Oral)
-  - 光度立体
-  - 光谱复用
-  - 法线估计
-  - 未知光谱
-  - 单次拍摄
+  - "ECCV 2024 (Oral)"
+  - "光度立体"
+  - "光谱复用"
+  - "法线估计"
+  - "未知光谱"
+  - "单次拍摄"
 ---
 
 # SpectraM-PS: Spectrally Multiplexed Photometric Stereo Under Unknown Spectral Composition

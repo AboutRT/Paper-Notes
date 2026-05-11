@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][目标检测][Object Counting] 利用 Stable Diffusion 生成合成排序/计数数据，通过先学排序再学计数的两阶段策略 + 密度引导的图像分块，实现了首个适用于任意类别物体的无标注计数方法，在人群计数上超越已有无监督方法。
 tags:
-  - ECCV 2024
-  - 目标检测
-  - Object Counting
-  - Unsupervised
-  - 扩散模型
-  - synthetic data
-  - Density Estimation
+  - "ECCV 2024"
+  - "目标检测"
+  - "Object Counting"
+  - "Unsupervised"
+  - "扩散模型"
+  - "synthetic data"
+  - "Density Estimation"
 ---
 
 # AFreeCA: Annotation-Free Counting for All

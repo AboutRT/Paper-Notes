@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][synthetic image detection] 提出 PolyJuice，首个面向合成图像检测器（SID）的黑盒、图像无关的红队方法，通过在 T2I 模型潜空间中发现并利用"真实感方向"，以通用方式引导生成图像欺骗检测器，成功率高达 84%。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - synthetic image detection
-  - 红队测试
-  - 对抗攻击
-  - 文生图
-  - black-box attack
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "synthetic image detection"
+  - "红队测试"
+  - "对抗攻击"
+  - "文生图"
+  - "black-box attack"
 ---
 
 # PolyJuice Makes It Real: Black-Box, Universal Red Teaming for Synthetic Image Detectors

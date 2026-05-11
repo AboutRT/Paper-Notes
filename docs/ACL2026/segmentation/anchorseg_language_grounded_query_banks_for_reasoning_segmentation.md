@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation
 description: >-
-  [ACL 2026][图像分割][推理分割] 提出AnchorSeg，将推理分割重构为基于语言引导查询库的结构化条件生成过程，通过锚点查询显式解耦空间定位与语义推理，配合Token-Mask循环一致性训练目标，在ReasonSeg上达到SOTA（67.7% gIoU, 68.1% cIoU）。
+  [ACL 2026][语义分割][推理分割] 提出AnchorSeg，将推理分割重构为基于语言引导查询库的结构化条件生成过程，通过锚点查询显式解耦空间定位与语义推理，配合Token-Mask循环一致性训练目标，在ReasonSeg上达到SOTA（67.7% gIoU, 68.1% cIoU）。
 tags:
-  - ACL 2026
-  - 图像分割
-  - 推理分割
-  - 语言引导查询库
-  - 空间先验
-  - Token-Mask一致性
-  - SAM
+  - "ACL 2026"
+  - "语义分割"
+  - "推理分割"
+  - "语言引导查询库"
+  - "空间先验"
+  - "Token-Mask一致性"
+  - "SAM"
 ---
 
 # AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM评测][VideoQA] 本文提出RoadSocial，一个来源于社交媒体的大规模多样化VideoQA数据集（13.2K视频、260K问答对），覆盖全球多地域多视角的道路事件场景，通过半自动标注框架和12类QA任务系统性评测了18种Video LLM的道路事件理解能力。
 tags:
-  - CVPR 2025
-  - LLM评测
-  - VideoQA
-  - 道路事件
-  - 社交媒体
-  - 数据集
-  - Video LLM
+  - "CVPR 2025"
+  - "LLM评测"
+  - "VideoQA"
+  - "道路事件"
+  - "社交媒体"
+  - "数据集"
+  - "Video LLM"
 ---
 
 # RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives

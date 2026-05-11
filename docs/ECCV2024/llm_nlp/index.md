@@ -1,16 +1,26 @@
 ---
 title: >-
-  ECCV2024 LLM / NLP方向18篇论文解读
+  ECCV2024 LLM / NLP方向17篇论文解读
 description: >-
-  18篇ECCV2024的 LLM / NLP 方向论文解读，涵盖少样本学习、人脸/视线、持续学习、Agent、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  17篇ECCV2024的 LLM / NLP 方向论文解读，涵盖少样本学习、人脸/视线、持续学习、Agent、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ECCV2024"
+  - "LLM / NLP"
+  - "论文解读"
+  - "论文笔记"
+  - "少样本学习"
+  - "人脸/视线"
+  - "持续学习"
+  - "Agent"
+  - "LLM"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 💬 LLM / NLP
 
-**🎞️ ECCV2024** · **18** 篇论文解读
+**🎞️ ECCV2024** · **17** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (36)](../../ACL2026/llm_nlp/index.md) · [📷 CVPR2026 (9)](../../CVPR2026/llm_nlp/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (38)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (53)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (35)](../../ACL2026/llm_nlp/index.md) · [📷 CVPR2026 (9)](../../CVPR2026/llm_nlp/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_nlp/index.md) · [🤖 AAAI2026 (38)](../../AAAI2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (53)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_nlp/index.md)
 
 🔥 **高频主题：** 少样本学习 ×3
 
@@ -29,10 +39,6 @@ description: >-
 **[DreamStruct: Understanding Slides and User Interfaces via Synthetic Data Generation](dreamstruct_understanding_slides_and_user_interfaces_via_synthetic_data_generati.md)**
 
 :   提出利用代码生成合成结构化视觉数据（幻灯片和UI），用于训练理解模型，减少人工标注需求。
-
-**[Evaluating Text-to-Visual Generation with Image-to-Text Generation](evaluating_text-to-visual_generation_with_image-to-text_generation.md)**
-
-:   提出VQAScore，利用VQA模型替代CLIP来评估文本-视觉生成质量，在复杂组合性提示上大幅超越CLIPScore，并发布GenAI-Bench基准。
 
 **[FunQA: Towards Surprising Video Comprehension](funqa_towards_surprising_video_comprehension.md)**
 

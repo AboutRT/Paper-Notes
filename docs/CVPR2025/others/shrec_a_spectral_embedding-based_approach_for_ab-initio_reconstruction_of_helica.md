@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR2025][cryo-EM] 提出 SHREC 算法，利用图拉普拉斯算子的谱嵌入技术，从冷冻电镜二维投影图像中直接恢复螺旋分子的投影角度，无需预知螺旋对称参数（rise/twist），仅需已知轴对称群 $C_n$，在多个公开数据集上实现了接近原子分辨率的从头螺旋结构重建。
 tags:
-  - CVPR2025
-  - cryo-EM
-  - helical reconstruction
-  - 其他
-  - graph Laplacian
-  - ab-initio
+  - "CVPR2025"
+  - "cryo-EM"
+  - "helical reconstruction"
+  - "spectral embedding"
+  - "graph Laplacian"
+  - "ab-initio"
 ---
 
 # SHREC: A Spectral Embedding-Based Approach for Ab-Initio Reconstruction of Helical Molecules

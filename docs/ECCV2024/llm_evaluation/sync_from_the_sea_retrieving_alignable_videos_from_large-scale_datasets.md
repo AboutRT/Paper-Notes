@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sync from the Sea: Retrieving Alignable Videos from Large-Scale Datasets
 description: >-
-  [ECCV 2024][LLM评测] 提出可对齐视频检索（Alignable Video Retrieval, AVR）任务，通过 DRAQ 对齐质量指标从大规模视频数据库中识别并检索出最适合与查询视频进行时序对齐的视频，同时提出特征上下文化方法提升对齐性能。
+  [ECCV 2024][LLM评测][视频对齐] 提出可对齐视频检索（Alignable Video Retrieval, AVR）任务，通过 DRAQ 对齐质量指标从大规模视频数据库中识别并检索出最适合与查询视频进行时序对齐的视频，同时提出特征上下文化方法提升对齐性能。
 tags:
-  - ECCV 2024
-  - LLM评测
-  - 视频检索
-  - 时序对齐
-  - Dynamic Time Warping
-  - 自监督特征
+  - "ECCV 2024"
+  - "LLM评测"
+  - "视频对齐"
+  - "视频检索"
+  - "时序对齐"
+  - "Dynamic Time Warping"
+  - "自监督特征"
 ---
 
 # Sync from the Sea: Retrieving Alignable Videos from Large-Scale Datasets

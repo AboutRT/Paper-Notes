@@ -1,18 +1,27 @@
 ---
 title: >-
-  ICML2025 优化/理论方向58篇论文解读
+  ICML2025 优化/理论方向57篇论文解读
 description: >-
-  58篇ICML2025的优化/理论方向论文解读，涵盖联邦学习、布局/合成、对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  57篇ICML2025的优化/理论方向论文解读，涵盖联邦学习、布局/合成、对抗鲁棒、LLM等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ICML2025"
+  - "优化/理论"
+  - "论文解读"
+  - "论文笔记"
+  - "联邦学习"
+  - "布局/合成"
+  - "对抗鲁棒"
+  - "LLM"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📐 优化/理论
 
-**🧪 ICML2025** · **58** 篇论文解读
+**🧪 ICML2025** · **57** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/optimization/index.md) · [📷 CVPR2026 (8)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (23)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (116)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/optimization/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (1)](../../ACL2026/optimization/index.md) · [📷 CVPR2026 (8)](../../CVPR2026/optimization/index.md) · [🔬 ICLR2026 (45)](../../ICLR2026/optimization/index.md) · [🤖 AAAI2026 (23)](../../AAAI2026/optimization/index.md) · [🧠 NeurIPS2025 (114)](../../NeurIPS2025/optimization/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/optimization/index.md)
 
-🔥 **高频主题：** 联邦学习 ×6 · 布局/合成 ×2 · 对抗鲁棒 ×2 · LLM ×2
+🔥 **高频主题：** 联邦学习 ×5 · 布局/合成 ×2 · 对抗鲁棒 ×2 · LLM ×2
 
 **[A Generalization Result for Convergence in Learning-to-Optimize](a_generalization_result_for_convergence_in_learning-to-optimize.md)**
 
@@ -93,10 +102,6 @@ description: >-
 **[Generalization and Robustness of the Tilted Empirical Risk](generalization_and_robustness_of_the_tilted_empirical_risk.md)**
 
 :   本文为负倾斜参数(γ<0)下的 Tilted Empirical Risk (TER) 提供了系统性的泛化误差上下界和鲁棒性保证，在损失函数无界但具有有界 (1+ε) 阶矩条件下，通过均匀方法和信息论方法建立了 $O(n^{-\epsilon/(1+\epsilon)})$ 的收敛速率，并给出了数据驱动的倾斜参数选择方案。
-
-**[Generalization in Federated Learning: A Conditional Mutual Information Framework](generalization_in_federated_learning_a_conditional_mutual_information_framework.md)**
-
-:   首次将条件互信息（CMI）框架引入联邦学习的两层泛化分析，通过构造"超级客户端"和"超级样本"，推导出有界的 CMI 泛化界，证明隐私约束蕴含泛化保证，并给出在低经验风险区间恢复最优收敛率的快速率界。
 
 **[Global Convergence and Rich Feature Learning in $L$-Layer Infinite-Width Neural Networks under $\mu$P Parametrization](global_convergence_and_rich_feature_learning_in_l-layer_infinite-width_neural_ne.md)**
 

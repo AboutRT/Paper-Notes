@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ChatHLS: Towards Systematic Design Automation and Optimization for High-Level Synthesis
 description: >-
-  [ACL 2026][LLM/NLP][高层综合] ChatHLS 提出了一个多智能体 HLS 设计框架，通过 HLSTuner（QoR 感知推理优化指令选择）和 HLSFixer（分层反馈增强的调试框架）两个核心组件，结合自进化错误用例扩展机制（VODA），在 HLS-C 生成成功率和硬件性能优化上显著超越基线。
+  [ACL 2026][LLM/NLP][高层综合] ChatHLS 提出了一个多智能体 HLS 设计框架，通过 HLSTuner（QoR 感知推理优化指令选择）和 HLSFixer（分层反馈增强的调试框架）两个核心组件，结合自进化错误用例扩展机制（VODA）…
 tags:
-  - ACL 2026
-  - LLM/NLP
-  - 高层综合
-  - LLM辅助设计
-  - 多智能体
-  - 指令优化
-  - 自动调试
+  - "ACL 2026"
+  - "LLM/NLP"
+  - "高层综合"
+  - "LLM辅助设计"
+  - "多智能体"
+  - "指令优化"
+  - "自动调试"
 ---
 
 # ChatHLS: Towards Systematic Design Automation and Optimization for High-Level Synthesis

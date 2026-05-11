@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL2025][Spoken Language Understanding] 提出ENDow框架，首次系统化地分析ASR转录噪声对下游NLU任务的影响，通过可配置的pipeline评估不同噪声强度和类型下任务模型的行为，发现命名实体是最关键的词类型，且模型能容忍一定程度的噪声。
 tags:
-  - ACL2025
-  - Spoken Language Understanding
-  - ASR Noise
-  - Transcript Cleaning
-  - WER
-  - Framework
+  - "ACL2025"
+  - "Spoken Language Understanding"
+  - "ASR Noise"
+  - "Transcript Cleaning"
+  - "WER"
+  - "Framework"
 ---
 
 # Measuring the Effect of Transcription Noise on Downstream Language Understanding Tasks

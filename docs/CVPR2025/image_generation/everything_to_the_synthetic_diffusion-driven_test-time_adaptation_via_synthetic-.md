@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Everything to the Synthetic: Diffusion-driven Test-time Adaptation via Synthetic-Domain Alignment
 description: >-
-  [CVPR 2025][图像生成][测试时自适应] 本文揭示了扩散驱动TTA方法中源域与合成域之间存在隐性不对齐问题，提出Synthetic-Domain Alignment (SDA)框架，通过Mix of Diffusion (MoD)技术将源模型和目标数据同时对齐到同一个合成域，在分类、分割和多模态大语言模型上均取得了一致的性能提升。
+  [CVPR 2025][图像生成][测试时自适应] 本文揭示了扩散驱动TTA方法中源域与合成域之间存在隐性不对齐问题，提出Synthetic-Domain Alignment (SDA)框架，通过Mix of Diffusion (MoD)技术将源模型和目标数据同时对齐到同一个合成域…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 测试时自适应
-  - 扩散模型
-  - 域对齐
-  - 合成域
-  - 数据适配
+  - "CVPR 2025"
+  - "图像生成"
+  - "测试时自适应"
+  - "扩散模型"
+  - "域对齐"
+  - "合成域"
+  - "数据适配"
 ---
 
 # Everything to the Synthetic: Diffusion-driven Test-time Adaptation via Synthetic-Domain Alignment

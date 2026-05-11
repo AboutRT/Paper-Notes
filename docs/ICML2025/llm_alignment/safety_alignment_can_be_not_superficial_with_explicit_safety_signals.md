@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM对齐][Safety Alignment] 通过在LLM中引入显式的安全二分类任务（[CLS] token），并设计策略性注意力机制和解码策略，在推理过程中动态评估安全性，以不到0.2x的额外开销将对抗攻击成功率从90%+降至接近0%。
 tags:
-  - ICML 2025
-  - LLM对齐
-  - Safety Alignment
-  - Jailbreak Defense
-  - Binary Classification
-  - Strategic Decoding
-  - Adversarial Robustness
+  - "ICML 2025"
+  - "LLM对齐"
+  - "Safety Alignment"
+  - "Jailbreak Defense"
+  - "Binary Classification"
+  - "Strategic Decoding"
+  - "Adversarial Robustness"
 ---
 
 # Safety Alignment Can Be Not Superficial With Explicit Safety Signals
@@ -125,7 +125,7 @@ tags:
 | 去除策略性解码 | 明显下降 | 解码策略保证模型能及时有效响应安全变化 |
 | FirstOnly重分类 | 最差 | 仅初始分类不足以应对后续攻击 |
 | Periodic(每10步) | 接近最优 | 定期评估已有不错效果 |
-| Annealing退火 | ≈Every | <0.2x开销达到每步评估相当性能 |
+| Annealing退火 | ≈Every | &lt;0.2x开销达到每步评估相当性能 |
 | Every(每步) | 最优 | 计算开销最高 |
 
 ### 关键发现
@@ -139,7 +139,7 @@ tags:
 
 1. **从隐式到显式的范式转换**：将安全判断从隐藏在生成过程中的隐式推理，转变为明确的二分类任务，思路清晰且效果显著
 2. **动态重评估**: 不是一次性判断安全，而是在整个生成过程中持续监控，能应对嵌套攻击和中途出现的有害内容
-3. **计算效率优秀**：Annealing策略使额外开销<0.2x，训练阶段仅多1个token，实际可部署
+3. **计算效率优秀**：Annealing策略使额外开销&lt;0.2x，训练阶段仅多1个token，实际可部署
 4. **GCG防御机理深刻**：动态重分类从根本上破坏了梯度优化攻击的前提——静态对抗信号
 5. **与现有方法兼容**：可作为SFT/DPO/RLHF的**后增强阶段**叠加使用，而非替代
 

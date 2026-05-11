@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating
 description: >-
-  [ICCV 2025][光谱灵敏度] 提出一种使用未标定衍射光栅片估计相机光谱灵敏度的实用方法，通过联合估计光谱灵敏度和光栅效率，仅需一次已知光谱光源拍摄即可获得准确的闭式解，性能显著优于传统色卡方法且设备成本不到5美元。
+  [ICCV 2025][LLM评测][光谱灵敏度] 提出一种使用未标定衍射光栅片估计相机光谱灵敏度的实用方法，通过联合估计光谱灵敏度和光栅效率，仅需一次已知光谱光源拍摄即可获得准确的闭式解，性能显著优于传统色卡方法且设备成本不到5美元。
 tags:
-  - ICCV 2025
-  - 光谱灵敏度
-  - 衍射光栅
-  - 相机标定
-  - 闭式解
-  - 像素-波长映射
+  - "ICCV 2025"
+  - "LLM评测"
+  - "光谱灵敏度"
+  - "衍射光栅"
+  - "相机标定"
+  - "闭式解"
+  - "像素-波长映射"
 ---
 
 # Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating

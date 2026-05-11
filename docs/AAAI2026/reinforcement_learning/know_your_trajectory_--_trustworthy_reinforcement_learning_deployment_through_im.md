@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Know your Trajectory -- Trustworthy Reinforcement Learning Deployment through Importance-Based Trajectory Analysis
 description: >-
-  [AAAI 2026][可解释RL] 提出一种基于状态重要性指标的轨迹级解释框架，通过结合Q值差异和目标亲和度（radical term）对轨迹进行排序，并通过反事实推演验证所选最优轨迹的鲁棒优越性，为RL策略提供"为什么选这条路而非那条路？"的可信解释。
+  [AAAI 2026][强化学习][可解释RL] 提出一种基于状态重要性指标的轨迹级解释框架，通过结合Q值差异和目标亲和度（radical term）对轨迹进行排序，并通过反事实推演验证所选最优轨迹的鲁棒优越性，为RL策略提供"为什么选这条路而非那条路？"的可信解释。
 tags:
-  - AAAI 2026
-  - 可解释RL
-  - 轨迹分析
-  - 状态重要性
-  - 强化学习
-  - 可信AI
+  - "AAAI 2026"
+  - "强化学习"
+  - "可解释RL"
+  - "轨迹分析"
+  - "状态重要性"
+  - "反事实解释"
+  - "可信AI"
 ---
 
 # Know your Trajectory -- Trustworthy Reinforcement Learning Deployment through Importance-Based Trajectory Analysis

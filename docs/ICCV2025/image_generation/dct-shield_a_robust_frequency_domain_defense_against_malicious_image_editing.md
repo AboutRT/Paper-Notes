@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][图像免疫] 提出 DCT-Shield，在离散余弦变换（DCT）域中引入对抗扰动而非像素空间，使免疫噪声高度不可感知，并天然具备JPEG压缩鲁棒性，有效抵御基于扩散模型的恶意图像编辑。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 图像免疫
-  - 对抗扰动
-  - DCT频域
-  - JPEG鲁棒性
-  - 扩散模型防御
+  - "ICCV 2025"
+  - "图像生成"
+  - "图像免疫"
+  - "对抗扰动"
+  - "DCT频域"
+  - "JPEG鲁棒性"
+  - "扩散模型防御"
 ---
 
 # DCT-Shield: A Robust Frequency Domain Defense against Malicious Image Editing

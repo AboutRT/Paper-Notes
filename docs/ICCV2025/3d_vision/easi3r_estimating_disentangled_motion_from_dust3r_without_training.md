@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][4D重建] 提出 Easi3R，一种免训练的即插即用方法，通过分析和操控 DUSt3R 交叉注意力层中隐含的运动信息，实现动态物体分割、相机位姿估计和 4D 密集点云重建。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 4D重建
-  - DUSt3R
-  - 注意力解耦
-  - 动态分割
-  - 免训练
+  - "ICCV 2025"
+  - "3D视觉"
+  - "4D重建"
+  - "DUSt3R"
+  - "注意力解耦"
+  - "动态分割"
+  - "免训练"
 ---
 
 # Easi3R: Estimating Disentangled Motion from DUSt3R Without Training

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][单目3D检测] 提出SPAN即插即用几何协同约束框架，通过3D角点空间对齐和3D-2D投影对齐两个可微损失，强制解耦预测的各属性满足全局几何一致性，配合层级任务学习策略稳定训练，在KITTI上将MonoDGP的Car Moderate AP3D提升0.92%达到新SOTA。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 单目3D检测
-  - 几何约束
-  - 空间对齐
-  - 投影一致性
-  - 层级任务学习
+  - "CVPR 2026"
+  - "3D视觉"
+  - "单目3D检测"
+  - "几何约束"
+  - "空间对齐"
+  - "投影一致性"
+  - "层级任务学习"
 ---
 
 # SPAN: Spatial-Projection Alignment for Monocular 3D Object Detection

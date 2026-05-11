@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][PEFT] 提出首个基于重参数化的3D PEFT方法MoST，设计Point Monarch结构化矩阵（在Monarch基础上加入KNN局部特征平滑），仅调3.6%参数在多个3D benchmark上超越全量微调。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - PEFT
-  - 点云
-  - Monarch matrix
-  - reparameterization
-  - 3D representation learning
-  - K-Rectify
+  - "CVPR 2025"
+  - "3D视觉"
+  - "PEFT"
+  - "点云"
+  - "Monarch matrix"
+  - "reparameterization"
+  - "3D representation learning"
+  - "K-Rectify"
 ---
 
 # MoST: Efficient Monarch Sparse Tuning for 3D Representation Learning

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery
 description: >-
-  [AAAI 2026][continual generalized category discovery] 基于 Neural Collapse 理论，使用固定等角紧框架（ETF）分类器替代动态分类器，通过监督对齐和置信度引导的无监督对齐实现持续泛化类别发现，在四个基准上遗忘率降低 16.1%、新类发现提升 3.2%。
+  [AAAI 2026][LLM评测][continual generalized category discovery] 基于 Neural Collapse 理论，使用固定等角紧框架（ETF）分类器替代动态分类器，通过监督对齐和置信度引导的无监督对齐实现持续泛化类别发现…
 tags:
-  - AAAI 2026
-  - LLM评测
-  - Neural Collapse
-  - ETF classifier
-  - forgetting mitigation
-  - confidence-guided alignment
+  - "AAAI 2026"
+  - "LLM评测"
+  - "continual generalized category discovery"
+  - "Neural Collapse"
+  - "ETF classifier"
+  - "forgetting mitigation"
+  - "confidence-guided alignment"
 ---
 
 # GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery

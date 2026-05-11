@@ -2,15 +2,15 @@
 title: >-
   [论文解读] The Change You Want To Detect: Semantic Change Detection In Earth Observation With Hybrid Data Generation
 description: >-
-  [CVPR 2025][LLM/NLP][语义变化检测] 本文提出HySCDG（Hybrid Semantic Change Detection Data Generation），一种混合数据生成流水线，结合真实超高分辨率（VHR）遥感影像和图像inpainting技术生成大规模语义变化检测训练数据，在简洁的架构设计下实现了强大的时间和空间泛化能力。
+  [CVPR 2025][LLM/NLP][语义变化检测] 本文提出HySCDG（Hybrid Semantic Change Detection Data Generation），一种混合数据生成流水线，结合真实超高分辨率（VHR）遥感影像和图像inpainting技术生成大规模语义变化检测训练数据…
 tags:
-  - CVPR 2025
-  - LLM/NLP
-  - 语义变化检测
-  - VHR影像
-  - 混合数据生成
-  - 图像修复
-  - 地表覆盖
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "语义变化检测"
+  - "VHR影像"
+  - "混合数据生成"
+  - "图像修复"
+  - "地表覆盖"
 ---
 
 # The Change You Want To Detect: Semantic Change Detection In Earth Observation With Hybrid Data Generation

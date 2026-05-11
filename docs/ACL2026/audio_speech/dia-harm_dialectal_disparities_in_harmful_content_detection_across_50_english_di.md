@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects
 description: >-
-  [ACL 2026][方言偏差] 本文构建 DIA-HARM，首个跨 50 种英语方言评估虚假信息检测鲁棒性的基准，揭示人类撰写的方言内容导致检测性能下降 1.4-3.6% F1，微调 Transformer 大幅优于零样本 LLM（96.6% vs 78.3%），且部分模型在混合内容上出现超过 33% 的灾难性退化。
+  [ACL 2026][音频/语音][方言偏差] 本文构建 DIA-HARM，首个跨 50 种英语方言评估虚假信息检测鲁棒性的基准，揭示人类撰写的方言内容导致检测性能下降 1.4-3.6% F1，微调 Transformer 大幅优于零样本 LLM（96.6% vs 78.3%）…
 tags:
-  - ACL 2026
-  - 方言偏差
-  - 音频语音
-  - 鲁棒性评估
-  - 英语方言
-  - 检测公平性
+  - "ACL 2026"
+  - "音频/语音"
+  - "方言偏差"
+  - "虚假信息检测"
+  - "鲁棒性评估"
+  - "英语方言"
+  - "检测公平性"
 ---
 
 # DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects

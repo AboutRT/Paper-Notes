@@ -1,14 +1,27 @@
 ---
 title: >-
-  ICCV2025 1322篇论文解读
+  ICCV2025 1321篇论文解读
 description: >-
-  1322篇ICCV2025论文解读，涵盖 3D 视觉(254篇)、图像生成(213篇)、多模态 VLM(151篇)、自动驾驶(93篇)、语义分割(74篇)、视频理解(57篇)、视频生成(49篇)、模型压缩(48篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  1321篇ICCV2025论文解读，涵盖 3D 视觉(254篇)、图像生成(213篇)、多模态 VLM(151篇)、自动驾驶(93篇)、语义分割(74篇)、视频理解(57篇)、视频生成(49篇)、模型压缩(48篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICCV2025"
+  - "AI顶会"
+  - "论文解读"
+  - "论文笔记"
+  - "3D 视觉"
+  - "图像生成"
+  - "多模态 VLM"
+  - "自动驾驶"
+  - "语义分割"
+  - "视频理解"
+  - "视频生成"
+  - "模型压缩"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 📹 ICCV2025 论文笔记
 
-1322篇ICCV2025论文解读，涵盖 3D 视觉(254篇)、图像生成(213篇)、多模态 VLM(151篇)、自动驾驶(93篇)、语义分割(74篇)、视频理解(57篇)、视频生成(49篇)、模型压缩(48篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+1321篇ICCV2025论文解读，涵盖 3D 视觉(254篇)、图像生成(213篇)、多模态 VLM(151篇)、自动驾驶(93篇)、语义分割(74篇)、视频理解(57篇)、视频生成(49篇)、模型压缩(48篇)等 39个方向。每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
 
 <div class="conf-index" markdown>
 
@@ -3919,10 +3932,6 @@ description: >-
 **[MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation](human_understanding/mdd_a_dataset_for_text-and-music_conditioned_duet_dance_generation.md)**
 
 :   介绍 Multimodal DuetDance (MDD)，首个同时整合动作、音乐和文本描述的大规模专业级双人舞蹈数据集，包含 620 分钟动捕数据、15 种舞蹈类型和超过 10K 条细粒度文本标注，并提出 Text-to-Duet 和 Text-to-Dance Accompaniment 两个新任务。
-
-**[Mitigating Object Hallucinations via Sentence-Level Early Intervention](human_understanding/mitigating_object_hallucinations_via_sentence-level_early_intervention.md)**
-
-:   提出 SENTINEL 框架，通过句子级早期干预和域内偏好学习有效缓解 MLLM 的物体幻觉，在 Object HalBench 上将幻觉率降低超过 90%，同时保持甚至提升通用能力。
 
 **[MixRI: Mixing Features of Reference Images for Novel Object Pose Estimation](human_understanding/mixri_mixing_features_of_reference_images_for_novel_object_pose_estimation.md)**
 

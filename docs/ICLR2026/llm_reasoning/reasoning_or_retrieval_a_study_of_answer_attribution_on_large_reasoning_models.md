@@ -4,15 +4,15 @@ title: >-
 description: >-
   [ICLR 2026][LLM推理][large reasoning models] 首次系统研究大型推理模型（LRM）的答案来源归因问题，揭示推理（CoT）和检索（记忆）两种机制同时竞争影响最终答案，并提出 Farl（遗忘增强强化学习）通过抑制检索捷径来提升模型的真实推理能力。
 tags:
-  - ICLR 2026
-  - LLM推理
-  - large reasoning models
-  - CoT reasoning
-  - memory retrieval
-  - answer attribution
-  - reinforcement-learning
-  - unlearning
-  - GRPO
+  - "ICLR 2026"
+  - "LLM推理"
+  - "large reasoning models"
+  - "CoT reasoning"
+  - "memory retrieval"
+  - "answer attribution"
+  - "reinforcement-learning"
+  - "unlearning"
+  - "GRPO"
 ---
 
 # Reasoning or Retrieval? A Study of Answer Attribution on Large Reasoning Models

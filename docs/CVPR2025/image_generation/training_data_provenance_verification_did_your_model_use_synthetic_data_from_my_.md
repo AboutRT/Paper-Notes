@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][数据溯源] 提出 TrainProVe 方法，基于泛化误差上界理论，通过影子模型训练和假设检验来验证可疑模型是否使用了特定生成模型的合成数据进行训练，准确率超过 99%。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 数据溯源
-  - 知识产权保护
-  - 扩散模型
-  - 假设检验
-  - 合成数据
+  - "CVPR 2025"
+  - "图像生成"
+  - "数据溯源"
+  - "知识产权保护"
+  - "扩散模型"
+  - "假设检验"
+  - "合成数据"
 ---
 
 # Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ViDia2Std: A Parallel Corpus and Methods for Low-Resource Vietnamese Dialect-to-Standard Translation
 description: >-
-  [AAAI 2026][越南语方言] ViDia2Std 构建了首个覆盖越南全部 63 个省份的手工标注越南语方言-标准语平行语料库（13,000+ 句对），并评估了多种 seq2seq 模型在方言归一化任务上的表现，证明方言归一化作为预处理步骤能显著提升机器翻译和情感分析等下游任务的性能。
+  [AAAI 2026][多语言/翻译][越南语方言] ViDia2Std 构建了首个覆盖越南全部 63 个省份的手工标注越南语方言-标准语平行语料库（13,000+ 句对），并评估了多种 seq2seq 模型在方言归一化任务上的表现，证明方言归一化作为预处理步骤能显著提升机器翻译和情感分析等下游任务的性能。
 tags:
-  - AAAI 2026
-  - 越南语方言
-  - 方言归一化
-  - 低资源语言
-  - 平行语料库
-  - 序列到序列模型
+  - "AAAI 2026"
+  - "多语言/翻译"
+  - "越南语方言"
+  - "方言归一化"
+  - "低资源语言"
+  - "平行语料库"
+  - "序列到序列模型"
 ---
 
 # ViDia2Std: A Parallel Corpus and Methods for Low-Resource Vietnamese Dialect-to-Standard Translation

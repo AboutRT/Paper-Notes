@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Do Different Prompting Methods Yield a Common Task Representation?
 description: >-
-  [NeurIPS 2025][任务表征] 通过将函数向量（Function Vectors）方法从 few-shot 示例推广到文本指令，发现不同提示方式（demonstrations vs. instructions）并不会在 LLM 中诱导出统一的任务表征，而是激活部分重叠但主要不同的注意力头机制。
+  [NeurIPS 2025][可解释性][任务表征] 通过将函数向量（Function Vectors）方法从 few-shot 示例推广到文本指令，发现不同提示方式（demonstrations vs. instructions）并不会在 LLM 中诱导出统一的任务表征…
 tags:
-  - NeurIPS 2025
-  - 任务表征
-  - 函数向量
-  - 提示方法
-  - 注意力头
-  - 可解释性
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "任务表征"
+  - "函数向量"
+  - "提示方法"
+  - "注意力头"
 ---
 
 # Do Different Prompting Methods Yield a Common Task Representation?
@@ -83,7 +83,7 @@ tags:
 | OLMo-2-7B | 0.729 | 0.171 | 0.857 | 0.169 |
 | OLMo-2-7B-Instruct | 0.774 | 0.164 | 0.870 | 0.147 |
 
-**Finding 1 - 指令 FV 有效**：指令 FV 将零样本准确率从 <20% 提升到最佳模型的 >50%，但未达到示例 FV 在打乱 10-shot 中的精度
+**Finding 1 - 指令 FV 有效**：指令 FV 将零样本准确率从 &lt;20% 提升到最佳模型的 >50%，但未达到示例 FV 在打乱 10-shot 中的精度
 
 **Finding 2 - 两种 FV 联合更优**：同时在 $\lfloor L/3 \rfloor$ 层注入两种 FV，效果一致优于单独使用（base Llama-3.1-8B 例外）
 

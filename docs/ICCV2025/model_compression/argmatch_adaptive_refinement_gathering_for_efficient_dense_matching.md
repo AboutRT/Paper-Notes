@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ARGMatch: Adaptive Refinement Gathering for Efficient Dense Matching
 description: >-
-  [ICCV 2025][模型压缩][稠密匹配] 提出自适应精炼聚合（Adaptive Refinement Gathering）管线，包含内容感知偏移估计器、局部一致匹配校正器和局部一致上采样器三个模块，配合自适应门控机制，大幅减少了稠密匹配对重量级特征提取器和全局匹配器的依赖，以轻量级模型实现与SOTA可比的性能。
+  [ICCV 2025][模型压缩][稠密匹配] 提出自适应精炼聚合（Adaptive Refinement Gathering）管线，包含内容感知偏移估计器、局部一致匹配校正器和局部一致上采样器三个模块，配合自适应门控机制，大幅减少了稠密匹配对重量级特征提取器和全局匹配器的依赖…
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 稠密匹配
-  - 由粗到细
-  - 内容感知精炼
-  - 局部一致性
-  - 高效特征匹配
+  - "ICCV 2025"
+  - "模型压缩"
+  - "稠密匹配"
+  - "由粗到细"
+  - "内容感知精炼"
+  - "局部一致性"
+  - "高效特征匹配"
 ---
 
 # ARGMatch: Adaptive Refinement Gathering for Efficient Dense Matching

@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Subliminal Signals in Preference Labels
 description: >-
-  [ICLR 2026][preference learning] 证明偏好标签可以作为隐蔽通信通道：即使学生模型生成的是语义无关的数字序列，有偏见的裁判模型仅通过二值偏好标签就能向学生模型传递潜意识行为特征，且这种传递在迭代对齐中会增强。
+  [ICLR 2026][LLM评测][preference learning] 证明偏好标签可以作为隐蔽通信通道：即使学生模型生成的是语义无关的数字序列，有偏见的裁判模型仅通过二值偏好标签就能向学生模型传递潜意识行为特征，且这种传递在迭代对齐中会增强。
 tags:
-  - ICLR 2026
-  - preference learning
-  - subliminal signals
-  - LLM评测
-  - alignment safety
-  - covert communication
-  - superalignment
+  - "ICLR 2026"
+  - "LLM评测"
+  - "preference learning"
+  - "subliminal signals"
+  - "LLM-as-a-judge"
+  - "alignment safety"
+  - "covert communication"
+  - "superalignment"
 ---
 
 # Subliminal Signals in Preference Labels

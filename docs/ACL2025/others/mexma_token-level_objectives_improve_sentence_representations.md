@@ -2,14 +2,14 @@
 title: >-
   [论文解读] MEXMA: Token-level Objectives Improve Sentence Representations
 description: >-
-  [ACL 2025][其他] 提出 MEXMA，一种结合句子级和 token 级目标的跨语言句子编码器训练方法：用一种语言的句子表示去预测另一种语言的被掩码 token，同时让句子和 token 的梯度都直接更新编码器，在双文本挖掘和多项下游任务上超越 SONAR 和 LaBSE。
+  [ACL 2025][跨语言句子编码器] 提出 MEXMA，一种结合句子级和 token 级目标的跨语言句子编码器训练方法：用一种语言的句子表示去预测另一种语言的被掩码 token，同时让句子和 token 的梯度都直接更新编码器，在双文本挖掘和多项下游任务上超越 SONAR 和 LaBSE。
 tags:
-  - ACL 2025
-  - 其他
-  - token级目标
-  - 句子表示
-  - 多语言对齐
-  - 掩码语言模型
+  - "ACL 2025"
+  - "跨语言句子编码器"
+  - "token级目标"
+  - "句子表示"
+  - "多语言对齐"
+  - "掩码语言模型"
 ---
 
 # MEXMA: Token-level Objectives Improve Sentence Representations

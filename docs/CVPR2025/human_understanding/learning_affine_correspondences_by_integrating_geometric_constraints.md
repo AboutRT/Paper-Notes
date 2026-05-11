@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning Affine Correspondences by Integrating Geometric Constraints
 description: >-
-  [CVPR 2025][人体理解][affine correspondence] 提出一种融合稠密匹配与几何约束的仿射对应估计新框架（DenseAffine），采用两阶段解耦训练：先用 Sampson 距离损失训练稠密点匹配器，再冻结匹配器、用仿射 Sampson 距离损失训练局部仿射变换提取器，在 HPatches 匹配和 MegaDepth 位姿估计上均取得 SOTA。
+  [CVPR 2025][人体理解][affine correspondence] 提出一种融合稠密匹配与几何约束的仿射对应估计新框架（DenseAffine），采用两阶段解耦训练：先用 Sampson 距离损失训练稠密点匹配器，再冻结匹配器、用仿射 Sampson 距离损失训练局部仿射变换提取器…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - affine correspondence
-  - dense matching
-  - epipolar geometry
-  - Sampson distance
-  - 位姿估计
+  - "CVPR 2025"
+  - "人体理解"
+  - "affine correspondence"
+  - "dense matching"
+  - "epipolar geometry"
+  - "Sampson distance"
+  - "位姿估计"
 ---
 
 # Learning Affine Correspondences by Integrating Geometric Constraints

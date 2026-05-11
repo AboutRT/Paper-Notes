@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][语言模型偏见] 通过对比标准偏见基准（"trick tests"）与基于真实使用场景的 RUTEd 评估，发现标准偏见基准与真实场景中的偏见表现无显著相关性，主张偏见评估应面向具体应用场景。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 语言模型偏见
-  - 公平性基准
-  - 性别-职业偏见
-  - RUTEd评估
-  - 去语境化评估
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "语言模型偏见"
+  - "公平性基准"
+  - "性别-职业偏见"
+  - "RUTEd评估"
+  - "去语境化评估"
 ---
 
 # Bias in Language Models: Beyond Trick Tests and Towards RUTEd Evaluation

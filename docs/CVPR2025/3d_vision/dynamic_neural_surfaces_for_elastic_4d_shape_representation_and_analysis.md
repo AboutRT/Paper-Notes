@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dynamic Neural Surfaces for Elastic 4D Shape Representation and Analysis
 description: >-
-  [CVPR 2025][3D视觉][4D形状分析] 本文提出 Dynamic Spherical Neural Surfaces (D-SNS)，用 MLP 将 genus-0 的 4D 表面建模为时空连续函数，然后在 SRNF/SRVF 空间中直接完成时空配准、测地线计算和均值估计，无需离散化，在 4D 人体和面部数据集上超越了 4D Atlas。
+  [CVPR 2025][3D视觉][4D形状分析] 本文提出 Dynamic Spherical Neural Surfaces (D-SNS)，用 MLP 将 genus-0 的 4D 表面建模为时空连续函数，然后在 SRNF/SRVF 空间中直接完成时空配准、测地线计算和均值估计，无需离散化…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 4D形状分析
-  - 神经表面表示
-  - 时空配准
-  - 黎曼几何
-  - 弹性度量
+  - "CVPR 2025"
+  - "3D视觉"
+  - "4D形状分析"
+  - "神经表面表示"
+  - "时空配准"
+  - "黎曼几何"
+  - "弹性度量"
 ---
 
 # Dynamic Neural Surfaces for Elastic 4D Shape Representation and Analysis

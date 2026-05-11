@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?
 description: >-
-  [CVPR 2025][多模态][VLM] 系统研究了VLM在语义定位任务中的自我纠错能力，发现内在自我纠错（无外部反馈）反而损害性能（-7至-17点），但通过同一VLM作为二值验证器提供反馈的迭代纠错最多可提升8.4个百分点，揭示了反馈质量是自我纠错的关键瓶颈。
+  [CVPR 2025][多模态VLM][VLM] 系统研究了VLM在语义定位任务中的自我纠错能力，发现内在自我纠错（无外部反馈）反而损害性能（-7至-17点），但通过同一VLM作为二值验证器提供反馈的迭代纠错最多可提升8.4个百分点，揭示了反馈质量是自我纠错的关键瓶颈。
 tags:
-  - CVPR 2025
-  - 多模态
-  - VLM
-  - semantic grounding
-  - self-correction
-  - 提示学习
-  - iterative refinement
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "VLM"
+  - "semantic grounding"
+  - "self-correction"
+  - "提示学习"
+  - "iterative refinement"
 ---
 
 # Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?

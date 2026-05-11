@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DeFine: Decision-Making with Analogical Reasoning over Factor Profiles
 description: >-
-  [ACL 2025][LLM推理][类比推理] 提出 DeFine 框架，从财报电话会议等复杂场景的语音转录文本中构建概率因子画像(factor profile)，结合 Bradley-Terry 模型识别关键因子并通过因子画像间的 KL 散度做类比推理，用于辅助 LLM 在不确定性下做投资决策，准确率和 F1 均超越基线。
+  [ACL 2025][LLM推理][类比推理] 提出 DeFine 框架，从财报电话会议等复杂场景的语音转录文本中构建概率因子画像(factor profile)，结合 Bradley-Terry 模型识别关键因子并通过因子画像间的 KL 散度做类比推理，用于辅助 LLM 在不确定性下做投资决策…
 tags:
-  - ACL 2025
-  - LLM推理
-  - 类比推理
-  - 决策
-  - 因子画像
-  - Bradley-Terry模型
-  - 财报电话会议
+  - "ACL 2025"
+  - "LLM推理"
+  - "类比推理"
+  - "决策"
+  - "因子画像"
+  - "Bradley-Terry模型"
+  - "财报电话会议"
 ---
 
 # DeFine: Decision-Making with Analogical Reasoning over Factor Profiles

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2025][医学图像][HR-pQCT] 首次将 SegFormer 用于 HR-pQCT 影像的多区域（骨+软组织）自动分割与放射组学分析，发现肌腱组织特征在骨质疏松分类中优于传统骨指标。
 tags:
-  - CVPR2025
-  - 医学图像
-  - HR-pQCT
-  - SegFormer
-  - radiomics
-  - osteoporosis
-  - 图像分割
+  - "CVPR2025"
+  - "医学图像"
+  - "HR-pQCT"
+  - "SegFormer"
+  - "radiomics"
+  - "osteoporosis"
+  - "图像分割"
 ---
 
 # Transformer-Based Multi-Region Segmentation and Radiomic Analysis of HR-pQCT Imaging for Osteoporosis Classification

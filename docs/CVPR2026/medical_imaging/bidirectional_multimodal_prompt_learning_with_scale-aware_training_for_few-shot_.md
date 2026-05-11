@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][少样本异常检测] 提出AnoPLe——一个轻量级多模态双向提示学习框架，无需手工异常描述或外部辅助模块，通过文本-视觉提示双向交互和尺度感知前缀实现少样本多类别异常检测，在MVTec-AD/VisA/Real-IAD上取得强竞争力的同时保持高效推理（~28 FPS）。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 少样本异常检测
-  - 多类别统一模型
-  - 双向提示学习
-  - 尺度感知
-  - CLIP
+  - "CVPR 2026"
+  - "医学图像"
+  - "少样本异常检测"
+  - "多类别统一模型"
+  - "双向提示学习"
+  - "尺度感知"
+  - "CLIP"
 ---
 
 # Bidirectional Multimodal Prompt Learning with Scale-Aware Training for Few-Shot Multi-Class Anomaly Detection

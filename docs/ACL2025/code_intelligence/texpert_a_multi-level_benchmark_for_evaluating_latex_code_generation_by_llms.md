@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs
 description: >-
-  [ACL 2025][LaTeX生成] 提出TeXpert——首个系统评估LLM从自然语言指令生成科学文档LaTeX代码能力的多难度级别基准，包含440个高质量样本（Simple/Average/Hard三级），在9个开闭源LLM上的评估揭示了LaTeX生成是LLM的显著短板（Hard任务准确率普遍低于17.5%），逻辑错误和格式错误是主要瓶颈。
+  [ACL 2025][代码智能][LaTeX生成] 提出TeXpert——首个系统评估LLM从自然语言指令生成科学文档LaTeX代码能力的多难度级别基准，包含440个高质量样本（Simple/Average/Hard三级）…
 tags:
-  - ACL 2025
-  - LaTeX生成
-  - 代码智能
-  - benchmark
-  - 代码生成
-  - 科学文档
+  - "ACL 2025"
+  - "代码智能"
+  - "LaTeX生成"
+  - "LLM评估"
+  - "benchmark"
+  - "代码生成"
+  - "科学文档"
 ---
 
 # TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs

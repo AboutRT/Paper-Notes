@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][多智能体协调] 提出显式特质推理（ETI）方法，基于心理学中温暖和能力两个维度让LLM智能体推理并追踪合作伙伴的行为特征，在经济博弈中减少45-77%收益损失，在MultiAgentBench上提升3-29%任务表现。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 多智能体协调
-  - 特质推理
-  - 温暖-能力维度
-  - 社会认知
-  - 博弈论
+  - "ACL 2026"
+  - "LLM推理"
+  - "多智能体协调"
+  - "特质推理"
+  - "温暖-能力维度"
+  - "社会认知"
+  - "博弈论"
 ---
 
 # Explicit Trait Inference for Multi-Agent Coordination

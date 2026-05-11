@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][cultural adaptation] 提出 CLCA 框架，借鉴文化学习理论，通过模拟社会交互生成文化适配对话数据，结合意图理解进行多任务训练，在 World Values Survey 上显著提升多种 LLM 的文化价值观对齐。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - cultural adaptation
-  - cultural learning
-  - role-playing
-  - social interaction
-  - value alignment
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "cultural adaptation"
+  - "cultural learning"
+  - "role-playing"
+  - "social interaction"
+  - "value alignment"
 ---
 
 # Cultural Learning-Based Culture Adaptation of Language Models

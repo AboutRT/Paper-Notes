@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][交互式戏剧] 提出沉浸感-代理感（Immersion-Agency）范式来理解LLM交互式戏剧，并设计Playwriting-guided Generation和Plot-based Reflection两种方法分别增强故事生成质量和玩家对故事的影响力。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 交互式戏剧
-  - 沉浸感
-  - 代理感
-  - 剧本生成
-  - 角色扮演Agent
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "交互式戏剧"
+  - "沉浸感"
+  - "代理感"
+  - "剧本生成"
+  - "角色扮演Agent"
 ---
 
 # Towards Enhanced Immersion and Agency for LLM-based Interactive Drama

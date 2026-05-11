@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][3D高斯溅射] 提出"先分割再重建"的新范式，在3D高斯溅射重建之前就将高斯分配到不同目标集合，从而消除几何和语义歧义，实现静态和动态场景的统一3D开放词汇分割。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - 开放词汇分割
-  - 动态场景
-  - CLIP嵌入
-  - 目标跟踪
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "开放词汇分割"
+  - "动态场景"
+  - "CLIP嵌入"
+  - "目标跟踪"
 ---
 
 # Segment then Splat: Unified 3D Open-Vocabulary Segmentation via Gaussian Splatting

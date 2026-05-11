@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][LLM/NLP][交互运动生成] 提出 VIM，首个能在统一框架内同时理解和生成双人交互运动与文本的多模态大模型，配合82.7K多轮交互运动指令数据集 Inter-MT²，支持文本到运动、运动到文本、反应生成、运动编辑和运动推理等多种任务。
 tags:
-  - ICCV 2025
-  - LLM/NLP
-  - 交互运动生成
-  - 运动-语言模型
-  - 多轮对话
-  - RQ-VAE
-  - 双人交互
+  - "ICCV 2025"
+  - "LLM/NLP"
+  - "交互运动生成"
+  - "运动-语言模型"
+  - "多轮对话"
+  - "RQ-VAE"
+  - "双人交互"
 ---
 
 # VIM: Versatile Interactive Motion-Language Model

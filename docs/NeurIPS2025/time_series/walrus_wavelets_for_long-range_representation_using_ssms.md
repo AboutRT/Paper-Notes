@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][状态空间模型] 提出 WaLRUS，基于 Daubechies 小波构建状态空间模型 (SSM)，作为 SaFARi 框架的新实现，扩展了 SSM 家族的多样性，在长程依赖建模中展现独特优势。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 状态空间模型
-  - Daubechies小波
-  - 长程依赖
-  - HiPPO
-  - SaFARi
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "状态空间模型"
+  - "Daubechies小波"
+  - "长程依赖"
+  - "HiPPO"
+  - "SaFARi"
 ---
 
 # WaLRUS: Wavelets for Long-range Representation Using SSMs

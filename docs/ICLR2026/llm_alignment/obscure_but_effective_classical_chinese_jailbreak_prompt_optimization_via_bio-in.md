@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][LLM对齐][LLM安全] 提出 CC-BOS 框架，利用文言文的语义压缩和模糊性特征，结合果蝇优化算法在八维策略空间中搜索最优越狱提示，在六个主流 LLM 上实现近 100% 的攻击成功率。
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - LLM安全
-  - 越狱攻击
-  - 文言文
-  - 生物启发优化
-  - 黑盒攻击
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "LLM安全"
+  - "越狱攻击"
+  - "文言文"
+  - "生物启发优化"
+  - "黑盒攻击"
 ---
 
 # Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search

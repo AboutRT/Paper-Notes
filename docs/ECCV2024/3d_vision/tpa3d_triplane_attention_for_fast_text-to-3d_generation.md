@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出TPA3D，一个基于GAN的文本引导3D生成框架，通过三平面注意力（TPA）模块对句子级和词级文本特征进行逐层细化，实现快速且细粒度的文本到3D纹理网格生成。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # TPA3D: Triplane Attention for Fast Text-to-3D Generation

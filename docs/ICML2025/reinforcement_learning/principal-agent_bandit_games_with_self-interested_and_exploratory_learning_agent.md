@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Principal-Agent Bandit Games with Self-Interested and Exploratory Learning Agents
 description: >-
-  [ICML 2025][强化学习] 本文研究重复委托-代理赌臂博弈中，代理基于经验均值做决策（而非已知真实均值）且可能随机探索时，如何设计委托人的激励算法使后悔界达到 $\tilde{O}(\sqrt{T})$ 或 $\tilde{O}(T^{2/3})$，显著优于先前 $\tilde{O}(T^{11/12})$ 的结果。
+  [ICML 2025][强化学习][principal-agent] 本文研究重复委托-代理赌臂博弈中，代理基于经验均值做决策（而非已知真实均值）且可能随机探索时，如何设计委托人的激励算法使后悔界达到 $\tilde{O}(\sqrt{T})$ 或 $\tilde{O}(T^{2/3})$…
 tags:
-  - ICML 2025
-  - 强化学习
-  - multi-armed bandits
-  - incentive design
-  - regret bound
-  - exploration
+  - "ICML 2025"
+  - "强化学习"
+  - "principal-agent"
+  - "multi-armed bandits"
+  - "incentive design"
+  - "regret bound"
+  - "exploration"
 ---
 
 # Principal-Agent Bandit Games with Self-Interested and Exploratory Learning Agents

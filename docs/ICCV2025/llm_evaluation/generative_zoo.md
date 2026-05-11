@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Generative Zoo
 description: >-
-  [ICCV 2025][合成数据生成] 提出一种利用条件图像生成模型（FLUX + ControlNet）合成动物 3D 姿态和形状训练数据的可扩展流水线，生成百万级 GenZoo 数据集，仅用合成数据训练即在真实世界基准上达到 SOTA。
+  [ICCV 2025][LLM评测][合成数据生成] 提出一种利用条件图像生成模型（FLUX + ControlNet）合成动物 3D 姿态和形状训练数据的可扩展流水线，生成百万级 GenZoo 数据集，仅用合成数据训练即在真实世界基准上达到 SOTA。
 tags:
-  - ICCV 2025
-  - 合成数据生成
-  - LLM评测
-  - SMAL
-  - 条件图像生成
-  - ControlNet
+  - "ICCV 2025"
+  - "LLM评测"
+  - "合成数据生成"
+  - "动物姿态估计"
+  - "SMAL"
+  - "条件图像生成"
+  - "ControlNet"
 ---
 
 # Generative Zoo

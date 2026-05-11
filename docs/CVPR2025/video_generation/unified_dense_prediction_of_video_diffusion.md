@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Unified Dense Prediction of Video Diffusion
 description: >-
-  [CVPR 2025][视频生成] 提出 UDPDiff，首次在视频扩散模型中实现 RGB 视频生成与实体分割、深度估计的联合生成，通过 Pixelplanes 统一表示和可学习任务嵌入提升视频质量和一致性。
+  [CVPR 2025][视频生成][密集预测] 提出 UDPDiff，首次在视频扩散模型中实现 RGB 视频生成与实体分割、深度估计的联合生成，通过 Pixelplanes 统一表示和可学习任务嵌入提升视频质量和一致性。
 tags:
-  - CVPR 2025
-  - 视频生成
-  - 密集预测
-  - 实体分割
-  - 深度估计
-  - 统一表示
+  - "CVPR 2025"
+  - "视频生成"
+  - "密集预测"
+  - "实体分割"
+  - "深度估计"
+  - "统一表示"
 ---
 
 # Unified Dense Prediction of Video Diffusion

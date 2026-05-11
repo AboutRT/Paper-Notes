@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ReFeed: Retrieval Feedback-Guided Dataset Construction for Style-Aware Query Rewriting
 description: >-
-  [AAAI 2026][query rewriting] 提出一个检索反馈驱动的数据集生成框架，通过识别检索失败case、LLM风格化改写、重检索验证三步闭环，自动构建高质量的风格感知查询改写数据集，为训练检索对齐的改写模型提供数据基础。
+  [AAAI 2026][信息检索/RAG][query rewriting] 提出一个检索反馈驱动的数据集生成框架，通过识别检索失败case、LLM风格化改写、重检索验证三步闭环，自动构建高质量的风格感知查询改写数据集，为训练检索对齐的改写模型提供数据基础。
 tags:
-  - AAAI 2026
-  - query rewriting
-  - retrieval feedback
-  - style-aware
-  - data-centric IR
-  - RAG
+  - "AAAI 2026"
+  - "信息检索/RAG"
+  - "query rewriting"
+  - "retrieval feedback"
+  - "style-aware"
+  - "data-centric IR"
+  - "RAG"
 ---
 
 # ReFeed: Retrieval Feedback-Guided Dataset Construction for Style-Aware Query Rewriting

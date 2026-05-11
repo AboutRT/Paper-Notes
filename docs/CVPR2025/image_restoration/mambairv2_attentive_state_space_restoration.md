@@ -2,17 +2,17 @@
 title: >-
   [论文解读] MambaIRv2: Attentive State Space Restoration
 description: >-
-  [CVPR 2025][图像恢复][Mamba] 提出 MambaIRv2，通过 Attentive State-space Equation（ASE）在 Mamba 的输出矩阵 $\mathbf{C}$ 中注入可学习 prompt 实现类似注意力的非因果全局查询，并用 Semantic Guided Neighboring（SGN）按语义标签重排序列缓解长距离衰减，仅需单方向扫描即超越多方向方法，轻量 SR 上以 9.3% 更少参数超 SRFormer 0.35dB。
+  [CVPR 2025][图像恢复][Mamba] 提出 MambaIRv2，通过 Attentive State-space Equation（ASE）在 Mamba 的输出矩阵 $\mathbf{C}$ 中注入可学习 prompt 实现类似注意力的非因果全局查询…
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - Mamba
-  - state space model
-  - attentive state-space equation
-  - semantic guided neighboring
-  - non-causal modeling
-  - 超分辨率
-  - 去噪
+  - "CVPR 2025"
+  - "图像恢复"
+  - "Mamba"
+  - "state space model"
+  - "attentive state-space equation"
+  - "semantic guided neighboring"
+  - "non-causal modeling"
+  - "超分辨率"
+  - "去噪"
 ---
 
 # MambaIRv2: Attentive State Space Restoration

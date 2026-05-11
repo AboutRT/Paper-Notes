@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][单目深度估计] 本文提出PTC-Depth，一个结合光流三角化和轮式里程计的单目深度估计框架，通过递归贝叶斯更新追踪深度基础模型的度量尺度，实现时间一致的度量深度预测，在KITTI、TartanAir和热红外等多个数据集上展现强泛化能力。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 单目深度估计
-  - 时间一致性
-  - 贝叶斯尺度融合
-  - 光流三角化
-  - 轮式里程计
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "单目深度估计"
+  - "时间一致性"
+  - "贝叶斯尺度融合"
+  - "光流三角化"
+  - "轮式里程计"
 ---
 
 # PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency

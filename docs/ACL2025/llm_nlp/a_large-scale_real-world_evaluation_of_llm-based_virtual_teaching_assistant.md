@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][虚拟助教] 在韩国KAIST一门477人研究生AI编程课中部署基于RAG的LLM虚拟助教(VTA)，通过三轮问卷(472人)和3869条交互日志的纵向分析，发现VTA显著降低了学生提问心理门槛，高频用户的满意度随使用持续提升，但信任度仍低于人类助教。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 虚拟助教
-  - RAG
-  - 教育技术
-  - 用户研究
-  - LLM部署
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "虚拟助教"
+  - "RAG"
+  - "教育技术"
+  - "用户研究"
+  - "LLM部署"
 ---
 
 # A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant

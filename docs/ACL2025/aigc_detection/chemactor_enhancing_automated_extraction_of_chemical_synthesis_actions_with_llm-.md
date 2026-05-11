@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ChemActor: Enhancing Automated Extraction of Chemical Synthesis Actions with LLM-Generated Data
 description: >-
-  [ACL 2025][化学合成动作提取] 本文提出 ChemActor，一个经过完全微调的 LLM 化学执行器，通过序列化 LLM 生成数据框架和分布散度数据筛选模块来解决化学合成动作提取中的数据稀缺问题，在 R2D 和 D2A 任务上超越基线模型 10%。
+  [ACL 2025][AIGC检测][化学合成动作提取] 本文提出 ChemActor，一个经过完全微调的 LLM 化学执行器，通过序列化 LLM 生成数据框架和分布散度数据筛选模块来解决化学合成动作提取中的数据稀缺问题，在 R2D 和 D2A 任务上超越基线模型 10%。
 tags:
-  - ACL 2025
-  - 化学合成动作提取
-  - AIGC检测
-  - 分布散度数据筛选
-  - 循环审查指标
-  - 反应-描述转换
+  - "ACL 2025"
+  - "AIGC检测"
+  - "化学合成动作提取"
+  - "LLM数据生成"
+  - "分布散度数据筛选"
+  - "循环审查指标"
+  - "反应-描述转换"
 ---
 
 # ChemActor: Enhancing Automated Extraction of Chemical Synthesis Actions with LLM-Generated Data

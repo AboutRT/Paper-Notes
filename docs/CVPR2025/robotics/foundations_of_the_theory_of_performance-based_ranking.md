@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Foundations of the Theory of Performance-Based Ranking
 description: >-
-  [CVPR 2025][机器人][性能排名理论] 本文基于概率论和序理论建立了性能排名的严格数学基础，提出了包含6大支柱的通用框架和3条公理，定义了参数化的"排名分数"族，并在二分类任务中证明了 accuracy、TPR、TNR、PPV、F-score 等满足公理，而 MCC、几何均值等常用指标不适合用于排名。
+  [CVPR 2025][机器人][性能排名理论] 本文基于概率论和序理论建立了性能排名的严格数学基础，提出了包含6大支柱的通用框架和3条公理，定义了参数化的"排名分数"族，并在二分类任务中证明了 accuracy、TPR、TNR、PPV、F-score 等满足公理，而 MCC、几何均值等常用指标不适合用于排名…
 tags:
-  - CVPR 2025
-  - 机器人
-  - 性能排名理论
-  - 公理化定义
-  - 排名分数
-  - 二分类
-  - 序理论
+  - "CVPR 2025"
+  - "机器人"
+  - "性能排名理论"
+  - "公理化定义"
+  - "排名分数"
+  - "二分类"
+  - "序理论"
 ---
 
 # Foundations of the Theory of Performance-Based Ranking

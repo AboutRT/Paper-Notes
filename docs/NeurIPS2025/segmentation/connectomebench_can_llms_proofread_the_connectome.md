@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ConnectomeBench: Can LLMs Proofread the Connectome?
 description: >-
-  [NeurIPS 2025][图像分割][connectomics proofreading] 提出 ConnectomeBench，首个评估多模态 LLM 在连接组校对（片段识别、分裂错误修正、合并错误检测）三项关键任务上能力的标准化基准；o4-mini 在分裂修正多选任务达 85%，但合并错误检测仍显著落后于人类专家。
+  [NeurIPS 2025][语义分割][connectomics proofreading] 提出 ConnectomeBench，首个评估多模态 LLM 在连接组校对（片段识别、分裂错误修正、合并错误检测）三项关键任务上能力的标准化基准；o4-mini 在分裂修正多选任务达 85%…
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - connectomics proofreading
-  - 多模态
-  - 3D neuron mesh
-  - benchmark
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "connectomics proofreading"
+  - "多模态"
+  - "3D neuron mesh"
+  - "图像分割"
+  - "benchmark"
 ---
 
 # ConnectomeBench: Can LLMs Proofread the Connectome?

@@ -4,16 +4,16 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][relighting] 提出 LumiNet，将源图像的潜在内在特征（128 维 albedo-like 表征）和目标图像的潜在外在光照码（16 维）注入改造后的 ControlNet，实现仅用图像输入的室内场景级光照迁移，包含镜面高光、阴影和间接照明等复杂效果。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - relighting
-  - latent intrinsics
-  - 扩散模型
-  - ControlNet
-  - GAN
-  - indoor scene
-  - light transfer
-  - 注意力机制
+  - "CVPR 2025"
+  - "图像生成"
+  - "relighting"
+  - "latent intrinsics"
+  - "扩散模型"
+  - "ControlNet"
+  - "GAN"
+  - "indoor scene"
+  - "light transfer"
+  - "注意力机制"
 ---
 
 # LumiNet: Latent Intrinsics Meets Diffusion Models for Indoor Scene Relighting

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] An Iterative Utility Judgment Framework Inspired by Philosophical Relevance via LLMs
 description: >-
-  [ACL 2026][效用判断] 受Schutz哲学相关性理论启发，提出ITEM迭代效用判断框架，通过让RAG中的三个组件（相关性排序、效用判断、答案生成）动态交互增强，在检索、效用判断和QA任务上均优于基线。
+  [ACL 2026][信息检索/RAG][效用判断] 受Schutz哲学相关性理论启发，提出ITEM迭代效用判断框架，通过让RAG中的三个组件（相关性排序、效用判断、答案生成）动态交互增强，在检索、效用判断和QA任务上均优于基线。
 tags:
-  - ACL 2026
-  - 效用判断
-  - 哲学相关性理论
-  - 迭代框架
-  - RAG优化
-  - 信息检索
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "效用判断"
+  - "哲学相关性理论"
+  - "迭代框架"
+  - "RAG优化"
+  - "LLM推理"
 ---
 
 # An Iterative Utility Judgment Framework Inspired by Philosophical Relevance via LLMs

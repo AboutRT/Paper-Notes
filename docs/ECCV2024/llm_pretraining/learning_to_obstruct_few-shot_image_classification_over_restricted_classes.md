@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning to Obstruct Few-Shot Image Classification over Restricted Classes
 description: >-
-  [ECCV 2024][少样本学习] 提出 Learning to Obstruct (LTO) 算法，通过类似 MAML 的元学习方式修改预训练 backbone 参数，使其成为特定受限类别的"差初始化"，从而阻碍少样本分类方法在受限类上的微调效果，同时保持其他类别的正常性能。
+  [ECCV 2024][预训练][少样本学习] 提出 Learning to Obstruct (LTO) 算法，通过类似 MAML 的元学习方式修改预训练 backbone 参数，使其成为特定受限类别的"差初始化"，从而阻碍少样本分类方法在受限类上的微调效果，同时保持其他类别的正常性能。
 tags:
-  - ECCV 2024
-  - 少样本学习
-  - 模型安全
-  - 元学习
-  - 预训练模型保护
-  - 类别限制
+  - "ECCV 2024"
+  - "预训练"
+  - "少样本学习"
+  - "模型安全"
+  - "元学习"
+  - "预训练模型保护"
+  - "类别限制"
 ---
 
 # Learning to Obstruct Few-Shot Image Classification over Restricted Classes

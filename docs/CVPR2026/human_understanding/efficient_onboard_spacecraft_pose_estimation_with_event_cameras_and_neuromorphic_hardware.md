@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][人体理解][event camera] 首次在 BrainChip Akida 神经形态硬件上实现端到端航天器 6-DoF 位姿估计，探索事件相机表示和量化感知训练在低功耗星载部署中的精度-效率权衡。
 tags:
-  - CVPR 2026
-  - 人体理解
-  - event camera
-  - 位姿估计
-  - neuromorphic hardware
-  - Akida
-  - SNN
+  - "CVPR 2026"
+  - "人体理解"
+  - "event camera"
+  - "位姿估计"
+  - "neuromorphic hardware"
+  - "Akida"
+  - "SNN"
 ---
 
 # Efficient Onboard Spacecraft Pose Estimation with Event Cameras and Neuromorphic Hardware

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Learning to Steer: Input-dependent Steering for Multimodal LLMs
 description: >-
-  [NeurIPS 2025][多模态][steering] 针对现有模型引导(steering)方法使用固定方向向量无法适配不同输入的局限，提出 L2S (Learn-to-Steer)：先通过输入特定的对比提示生成理想的引导向量（P2S），再训练一个轻量 2 层 MLP 从输入上下文预测该向量，以极低开销实现了输入依赖的行为引导，在安全执行和幻觉缓解两个应用上显著优于静态 steering 基线。
+  [NeurIPS 2025][多模态VLM][steering] 针对现有模型引导(steering)方法使用固定方向向量无法适配不同输入的局限，提出 L2S (Learn-to-Steer)：先通过输入特定的对比提示生成理想的引导向量（P2S），再训练一个轻量 2 层 MLP 从输入上下文预测该向量…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - steering
-  - input-dependent
-  - 多模态VLM
-  - safety enforcement
-  - 提示学习
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "steering"
+  - "input-dependent"
+  - "hallucination mitigation"
+  - "safety enforcement"
+  - "提示学习"
 ---
 
 # Learning to Steer: Input-dependent Steering for Multimodal LLMs
@@ -67,7 +67,7 @@ tags:
 - 辅助网络：2 层 MLP，hidden size 100
 - 训练 100 epochs，Adam 优化器，学习率 $10^{-4}$ 或 $5\times10^{-5}$
 - Cosine 学习率调度 + plateau 自适应
-- 引导强度 $\alpha \in [1, 3.0)$（LLaVA），保证响应质量下降 <10%
+- 引导强度 $\alpha \in [1, 3.0)$（LLaVA），保证响应质量下降 &lt;10%
 - 安全任务：$L^*=15$（引导层），$L'=30$（上下文提取层）
 - 幻觉任务：$L^*=14, L'=14$
 - 实验模型：LLaVA-v1.5-7B 和 Qwen2-VL-7B，单张 RTX5000 (24GB) 即可运行

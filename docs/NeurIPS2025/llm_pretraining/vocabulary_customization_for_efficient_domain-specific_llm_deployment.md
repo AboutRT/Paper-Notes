@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Vocabulary Customization for Efficient Domain-Specific LLM Deployment
 description: >-
-  [NeurIPS 2025][LLM预训练][词表扩展] 提出一种保证编码效率单调不降的BPE tokenizer扩展算法，将领域高频token追加到Llama 3.1词表中（+30K token），在电商场景实现输入序列缩短20%、推理吞吐量提升20-30%，经10K步继续训练后模型质量不降，且约98%情况下模型主动生成新token。
+  [NeurIPS 2025][预训练][词表扩展] 提出一种保证编码效率单调不降的BPE tokenizer扩展算法，将领域高频token追加到Llama 3.1词表中（+30K token），在电商场景实现输入序列缩短20%、推理吞吐量提升20-30%，经10K步继续训练后模型质量不降…
 tags:
-  - NeurIPS 2025
-  - LLM预训练
-  - 词表扩展
-  - tokenizer适配
-  - 域适应
-  - BPE
-  - 推理加速
+  - "NeurIPS 2025"
+  - "预训练"
+  - "词表扩展"
+  - "tokenizer适配"
+  - "域适应"
+  - "BPE"
+  - "推理加速"
 ---
 
 # Vocabulary Customization for Efficient Domain-Specific LLM Deployment
@@ -95,7 +95,7 @@ tags:
 | 追加式 vs 前置式 | 追加在通用文本上不增加token数；前置在加>20K后通用文本反增 |
 | 30K新token | forward pass慢1%，编码缩短8% |
 | 新token采用率(>15词) | 约98%情况下模型生成新token |
-| 新token采用率(<15词) | 约95.3%，短序列偶尔回退旧分词 |
+| 新token采用率(&lt;15词) | 约95.3%，短序列偶尔回退旧分词 |
 
 ### 关键发现
 

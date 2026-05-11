@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FedQS: Optimizing Gradient and Model Aggregation for Semi-Asynchronous Federated Learning
 description: >-
-  [NeurIPS 2025][优化][联邦学习] 提出 FedQS，首个同时优化半异步联邦学习（SAFL）中梯度聚合和模型聚合策略的框架，通过将客户端分为四类并自适应调整训练策略，在准确率、收敛速度和稳定性上全面超越基线。
+  [NeurIPS 2025][优化/理论][联邦学习] 提出 FedQS，首个同时优化半异步联邦学习（SAFL）中梯度聚合和模型聚合策略的框架，通过将客户端分为四类并自适应调整训练策略，在准确率、收敛速度和稳定性上全面超越基线。
 tags:
-  - NeurIPS 2025
-  - 优化
-  - 联邦学习
-  - 半异步
-  - 梯度聚合
-  - 模型聚合
-  - 分治策略
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "联邦学习"
+  - "半异步"
+  - "梯度聚合"
+  - "模型聚合"
+  - "分治策略"
 ---
 
 # FedQS: Optimizing Gradient and Model Aggregation for Semi-Asynchronous Federated Learning

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Tokenizing Single-Channel EEG with Time-Frequency Motif Learning
 description: >-
-  [ICLR 2026][EEG 信号分析] 提出 TFM-Tokenizer，首个从单通道 EEG 学习时频 motif 词表并编码为离散 token 的框架，在事件分类、癫痫检测等任务上一致提升性能，且可作为即插即用组件增强现有 EEG 基础模型。
+  [ICLR 2026][可解释性][EEG 信号分析] 提出 TFM-Tokenizer，首个从单通道 EEG 学习时频 motif 词表并编码为离散 token 的框架，在事件分类、癫痫检测等任务上一致提升性能，且可作为即插即用组件增强现有 EEG 基础模型。
 tags:
-  - ICLR 2026
-  - EEG 信号分析
-  - 离散化 tokenization
-  - 时频 motif
-  - 可解释性
-  - 基础模型
+  - "ICLR 2026"
+  - "可解释性"
+  - "EEG 信号分析"
+  - "离散化 tokenization"
+  - "时频 motif"
+  - "向量量化"
+  - "基础模型"
 ---
 
 # Tokenizing Single-Channel EEG with Time-Frequency Motif Learning

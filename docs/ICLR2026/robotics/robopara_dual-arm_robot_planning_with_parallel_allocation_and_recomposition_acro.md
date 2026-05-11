@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][机器人][双臂机器人] 提出 RoboPARA 框架，通过依赖图构建和图重遍历两阶段优化双臂机器人的任务并行性，在多场景基准上实现相比现有方法 30-50% 的执行时间缩减和 34% 的成功率提升。
 tags:
-  - ICLR 2026
-  - 机器人
-  - 双臂机器人
-  - 并行任务规划
-  - DAG依赖图
-  - LLM规划
-  - 多任务调度
+  - "ICLR 2026"
+  - "机器人"
+  - "双臂机器人"
+  - "并行任务规划"
+  - "DAG依赖图"
+  - "LLM规划"
+  - "多任务调度"
 ---
 
 # RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks

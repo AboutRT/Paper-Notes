@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Learning to Reason Over Time: Timeline Self-Reflection for Temporal Reasoning
 description: >-
-  [ACL 2025][其他] 提出 TISER 框架，通过"推理→时间线构建→自反思→答案生成"四阶段管道实现LLM时间推理的test-time scaling，配合合成推理轨迹数据微调，让 7B 开源模型在多个时间推理基准上超越 GPT-4，在TGQA等任务上达到 SOTA。
+  [ACL 2025][时间推理] 提出 TISER 框架，通过"推理→时间线构建→自反思→答案生成"四阶段管道实现LLM时间推理的test-time scaling，配合合成推理轨迹数据微调，让 7B 开源模型在多个时间推理基准上超越 GPT-4，在TGQA等任务上达到 SOTA。
 tags:
-  - ACL 2025
-  - 其他
-  - 自反思
-  - 时间线构建
-  - Test-Time Scaling
-  - 合成数据
+  - "ACL 2025"
+  - "时间推理"
+  - "自反思"
+  - "时间线构建"
+  - "Test-Time Scaling"
+  - "合成数据"
 ---
 
 # Learning to Reason Over Time: Timeline Self-Reflection for Temporal Reasoning

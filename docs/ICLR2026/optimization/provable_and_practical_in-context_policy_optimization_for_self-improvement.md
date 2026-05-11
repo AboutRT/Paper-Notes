@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Provable and Practical In-Context Policy Optimization for Self-Improvement
 description: >-
-  [ICLR 2026][优化][上下文学习] 提出 In-Context Policy Optimization (ICPO) 框架，理论证明单层线性自注意力 Transformer 经充分预训练后可在上下文中模拟策略优化算法，并设计实用的 ME-ICPO 算法通过最小熵选择和自评估奖励实现测试时多轮自反思，在数学推理任务上取得显著提升（AIME 2024 上 Qwen2.5-Math-7B 从 11% 提升到 30%）。
+  [ICLR 2026][优化/理论][上下文学习] 提出 In-Context Policy Optimization (ICPO) 框架，理论证明单层线性自注意力 Transformer 经充分预训练后可在上下文中模拟策略优化算法…
 tags:
-  - ICLR 2026
-  - 优化
-  - 上下文学习
-  - policy optimization
-  - 测试时缩放
-  - 自我反思
-  - mathematical reasoning
+  - "ICLR 2026"
+  - "优化/理论"
+  - "上下文学习"
+  - "policy optimization"
+  - "测试时缩放"
+  - "自我反思"
+  - "mathematical reasoning"
 ---
 
 # Provable and Practical In-Context Policy Optimization for Self-Improvement

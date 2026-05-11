@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][神经符号推理] NeSyPr提出了一种神经符号程序化框架，通过将符号规划器生成的任务计划转化为可组合的程序化表示，使紧凑的语言模型在无需外部符号引导的情况下实现高效的单步推理，类似人类的知识编译过程。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - 神经符号推理
-  - 知识编译
-  - 具身智能
-  - 程序化知识
-  - 语言模型
+  - "NeurIPS 2025"
+  - "机器人"
+  - "神经符号推理"
+  - "知识编译"
+  - "具身智能"
+  - "程序化知识"
+  - "语言模型"
 ---
 
 # NeSyPr: Neurosymbolic Proceduralization For Efficient Embodied Reasoning

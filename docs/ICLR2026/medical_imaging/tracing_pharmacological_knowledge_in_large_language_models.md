@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] 首次系统性地对生物医学 LLM 中药物分组语义的编码机制进行因果分析，发现药物组知识存储在早期层、分布在多个 token 上（非最后一个 token），线性可分的语义信息在嵌入层即已存在。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # Tracing Pharmacological Knowledge in Large Language Models

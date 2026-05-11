@@ -2,10 +2,11 @@
 title: >-
   [论文解读] HEALing Entropy Collapse: Enhancing Exploration in Few-Shot RLVR via Hybrid-Domain Entropy Dynamics Alignment
 description: >-
-  [ACL 2026][待补充] 待深读论文后补充
+  [ACL 2026][强化学习][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 待补充
+  - "ACL 2026"
+  - "强化学习"
+  - "待补充"
 ---
 
 # HEALing Entropy Collapse: Enhancing Exploration in Few-Shot RLVR via Hybrid-Domain Entropy Dynamics Alignment

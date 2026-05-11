@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自监督学习][主动学习] 提出BoSS——一种可扩展的主动学习oracle策略，通过集成多种选择策略生成候选批次、冻结backbone仅重训最后一层来评估性能增益，选择最优批次；在ImageNet等大规模数据集上首次展示了oracle性能，揭示SOTA主动学习策略仍有显著提升空间。
 tags:
-  - CVPR 2025
-  - 自监督学习
-  - 主动学习
-  - Oracle策略
-  - 策略集成
-  - 批量选择
-  - 深度学习
+  - "CVPR 2025"
+  - "自监督学习"
+  - "主动学习"
+  - "Oracle策略"
+  - "策略集成"
+  - "批量选择"
+  - "深度学习"
 ---
 
 # BoSS: A Best-of-Strategies Selector as an Oracle for Deep Active Learning

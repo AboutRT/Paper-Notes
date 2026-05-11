@@ -3,6 +3,17 @@ title: >-
   AAAI2026 医学图像方向105篇论文解读
 description: >-
   105篇AAAI2026的医学图像方向论文解读，涵盖医学影像、语义分割、对齐/RLHF、多模态、LLM、对抗鲁棒等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "AAAI2026"
+  - "医学图像"
+  - "论文解读"
+  - "论文笔记"
+  - "医学影像"
+  - "语义分割"
+  - "对齐/RLHF"
+  - "多模态"
+  - "LLM"
+  - "对抗鲁棒"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **🤖 AAAI2026** · **105** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (141)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (62)](../../ICML2025/medical_imaging/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (140)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md) · [🧪 ICML2025 (62)](../../ICML2025/medical_imaging/index.md)
 
 🔥 **高频主题：** 医学影像 ×43 · 语义分割 ×11 · 对齐/RLHF ×9 · 多模态 ×8 · LLM ×7
 

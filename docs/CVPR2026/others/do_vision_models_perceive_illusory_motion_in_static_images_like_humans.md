@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][运动错觉] 本文系统评估了多种光流模型在旋转蛇等静态图像运动错觉上的表现，发现仅人类启发的Dual-Channel模型在模拟眼跳条件下能再现人类感知的旋转运动。
 tags:
-  - CVPR 2026
-  - 运动错觉
-  - 光流模型
-  - 人类视觉
-  - 旋转蛇错觉
-  - 生物启发模型
+  - "CVPR 2026"
+  - "运动错觉"
+  - "光流模型"
+  - "人类视觉"
+  - "旋转蛇错觉"
+  - "生物启发模型"
 ---
 
 # Do Vision Models Perceive Illusory Motion in Static Images Like Humans?

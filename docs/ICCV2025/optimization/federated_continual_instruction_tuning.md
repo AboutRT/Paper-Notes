@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Federated Continual Instruction Tuning
 description: >-
-  [优化] 首次提出联邦持续指令微调（FCIT）基准，涵盖 2 种场景、4 种设置和 12 个数据集，并设计 DISCO 框架通过动态知识组织（DKO）和子空间选择性激活（SSA）有效解决数据异构性和灾难性遗忘。
+  [优化/理论] 首次提出联邦持续指令微调（FCIT）基准，涵盖 2 种场景、4 种设置和 12 个数据集，并设计 DISCO 框架通过动态知识组织（DKO）和子空间选择性激活（SSA）有效解决数据异构性和灾难性遗忘。
 tags:
-  - 优化
+  - "优化/理论"
 ---
 
 # Federated Continual Instruction Tuning

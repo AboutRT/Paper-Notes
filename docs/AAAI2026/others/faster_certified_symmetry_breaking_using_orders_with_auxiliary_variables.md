@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][symmetry breaking] 通过引入辅助变量编码字典序来替代大整数编码，对 VeriPB 证明系统进行本质重设计，使 SAT 对称性破坏的证明生成和验证在理论和实践上均获得数量级加速。
 tags:
-  - AAAI 2026
-  - symmetry breaking
-  - proof logging
-  - SAT solving
-  - pseudo-Boolean
-  - VeriPB
-  - certified solving
+  - "AAAI 2026"
+  - "symmetry breaking"
+  - "proof logging"
+  - "SAT solving"
+  - "pseudo-Boolean"
+  - "VeriPB"
+  - "certified solving"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

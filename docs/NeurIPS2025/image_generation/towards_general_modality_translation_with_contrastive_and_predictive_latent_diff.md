@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][扩散桥模型] 提出 LDDBM（Latent Denoising Diffusion Bridge Model），将去噪扩散桥模型扩展到共享潜空间中，结合对比对齐损失和预测损失，实现任意模态之间的通用翻译框架。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散桥模型
-  - 跨模态翻译
-  - 对比学习
-  - 潜空间
-  - Transformer
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "扩散桥模型"
+  - "跨模态翻译"
+  - "对比学习"
+  - "潜空间"
+  - "Transformer"
 ---
 
 # Towards General Modality Translation with Contrastive and Predictive Latent Diffusion Bridge

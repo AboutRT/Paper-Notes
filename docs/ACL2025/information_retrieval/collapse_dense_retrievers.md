@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Collapse of Dense Retrievers: Short, Early, and Literal Biases Outranking Factual Evidence
 description: >-
-  [ACL 2025][稠密检索器] 本文首次系统研究稠密检索器中多种启发式偏见（简短偏见、前置偏见、字面偏见、重复偏见）的个体和组合效应，发现当多种偏见叠加时，检索器选择包含答案的文档的概率低于10%，且这些偏见可被利用来操纵RAG系统，导致34%的性能下降。
+  [ACL 2025][信息检索/RAG][稠密检索器] 本文首次系统研究稠密检索器中多种启发式偏见（简短偏见、前置偏见、字面偏见、重复偏见）的个体和组合效应，发现当多种偏见叠加时，检索器选择包含答案的文档的概率低于10%，且这些偏见可被利用来操纵RAG系统，导致34%的性能下降。
 tags:
-  - ACL 2025
-  - 稠密检索器
-  - 检索偏见
-  - RAG鲁棒性
-  - 信息检索
-  - 检索增强生成
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "稠密检索器"
+  - "检索偏见"
+  - "RAG鲁棒性"
+  - "对抗攻击"
+  - "检索增强生成"
 ---
 
 # Collapse of Dense Retrievers: Short, Early, and Literal Biases Outranking Factual Evidence

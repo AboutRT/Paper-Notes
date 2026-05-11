@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][动态NeRF] 提出 $D^2RF$，首个从散焦单目视频中恢复清晰动态NeRF的方法，通过将景深(DoF)渲染与体积渲染统一，引入分层DoF体积渲染来建模散焦模糊并恢复清晰新视角。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 动态NeRF
-  - 散焦模糊
-  - 景深渲染
-  - 体积渲染
-  - 新视角合成
+  - "ECCV 2024"
+  - "3D视觉"
+  - "动态NeRF"
+  - "散焦模糊"
+  - "景深渲染"
+  - "体积渲染"
+  - "新视角合成"
 ---
 
 # Dynamic Neural Radiance Field from Defocused Monocular Video

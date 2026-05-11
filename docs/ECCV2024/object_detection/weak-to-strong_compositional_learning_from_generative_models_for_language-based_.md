@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection
 description: >-
-  [ECCV 2024][目标检测][compositional understanding] 提出 WSCL 框架：利用 LLM 生成多样文本描述 + 扩散模型生成对应图像 + 弱检测器分解短语生成伪标框，构建密集合成三元组（image, description, bbox），配合组合对比学习显著提升语言引导目标检测性能，OmniLabel 上 GLIP-T 提升 +5.0AP。
+  [ECCV 2024][目标检测][compositional understanding] 提出 WSCL 框架：利用 LLM 生成多样文本描述 + 扩散模型生成对应图像 + 弱检测器分解短语生成伪标框，构建密集合成三元组（image, description, bbox）…
 tags:
-  - ECCV 2024
-  - 目标检测
-  - compositional understanding
-  - language-based detection
-  - synthetic data generation
-  - 对比学习
-  - weak-to-strong
+  - "ECCV 2024"
+  - "目标检测"
+  - "compositional understanding"
+  - "language-based detection"
+  - "synthetic data generation"
+  - "对比学习"
+  - "weak-to-strong"
 ---
 
 # Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection

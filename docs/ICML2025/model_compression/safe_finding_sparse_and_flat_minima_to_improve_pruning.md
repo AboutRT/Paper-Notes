@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][模型压缩][网络剪枝] 将剪枝问题建模为稀疏约束下的锐度感知优化问题，通过增广拉格朗日对偶法（ADMM）求解，同时实现稀疏性和平坦极小值，提升剪枝后网络的泛化性能和鲁棒性。
 tags:
-  - ICML2025
-  - 模型压缩
-  - 网络剪枝
-  - 稀疏优化
-  - 平坦极小值
-  - SAM
-  - ADMM
-  - LLM剪枝
+  - "ICML2025"
+  - "模型压缩"
+  - "网络剪枝"
+  - "稀疏优化"
+  - "平坦极小值"
+  - "SAM"
+  - "ADMM"
+  - "LLM剪枝"
 ---
 
 # SAFE: Finding Sparse and Flat Minima to Improve Pruning

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][数据高效训练] 本文提出首个系统性的"数据高效 LLM 后训练"综述框架，将方法分为数据选择、数据质量增强、合成数据生成、数据蒸馏与压缩、自演化数据生态五大类，构建了完整的"数据价值飞轮"体系。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 数据高效训练
-  - 后训练
-  - 数据选择
-  - 合成数据
-  - 知识蒸馏
-  - 自演化数据
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "数据高效训练"
+  - "后训练"
+  - "数据选择"
+  - "合成数据"
+  - "知识蒸馏"
+  - "自演化数据"
 ---
 
 # A Survey on Efficient Large Language Model Training: From Data-centric Perspectives

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR2026][图像生成][machine unlearning] 提出 RAZOR，一种基于比率感知的多层/多头选择性编辑框架，可在 CLIP、Stable Diffusion 和 VLM 等 Transformer 视觉模型中高效精准地完成目标遗忘，同时保持模型整体性能与量化鲁棒性。
 tags:
-  - CVPR2026
-  - 图像生成
-  - machine unlearning
-  - Transformer
-  - 扩散模型
-  - CLIP
-  - model editing
-  - ratio-aware saliency
+  - "CVPR2026"
+  - "图像生成"
+  - "machine unlearning"
+  - "Transformer"
+  - "扩散模型"
+  - "CLIP"
+  - "model editing"
+  - "ratio-aware saliency"
 ---
 
 # RAZOR: Ratio-Aware Layer Editing for Targeted Unlearning in Vision Transformers and Diffusion Models

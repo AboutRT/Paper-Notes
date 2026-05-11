@@ -2,16 +2,17 @@
 title: >-
   [论文解读] From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents
 description: >-
-  [ACL 2026][长期记忆基准] 本文提出Memora基准和FAMA指标，将长期记忆评估从浅层事实检索扩展到跨越数周至数月的记忆整合与突变处理，揭示现有LLM和记忆agent在处理频繁知识更新时的系统性失败。
+  [ACL 2026][推荐系统][长期记忆基准] 本文提出Memora基准和FAMA指标，将长期记忆评估从浅层事实检索扩展到跨越数周至数月的记忆整合与突变处理，揭示现有LLM和记忆agent在处理频繁知识更新时的系统性失败。
 tags:
-  - ACL 2026
-  - 长期记忆基准
-  - 记忆整合
-  - 记忆突变
-  - 推荐系统
-  - 个性化agent
-  - Memora
-  - FAMA
+  - "ACL 2026"
+  - "推荐系统"
+  - "长期记忆基准"
+  - "记忆整合"
+  - "记忆突变"
+  - "遗忘感知评估"
+  - "个性化agent"
+  - "Memora"
+  - "FAMA"
 ---
 
 # From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents

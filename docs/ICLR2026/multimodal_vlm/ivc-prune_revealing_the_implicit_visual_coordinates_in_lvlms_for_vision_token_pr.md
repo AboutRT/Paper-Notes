@@ -2,15 +2,15 @@
 title: >-
   [论文解读] IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning
 description: >-
-  [ICLR 2026][多模态][视觉token剪枝] 揭示了LVLM中RoPE位置编码隐式建立的视觉坐标系统（IVC tokens），提出一种训练免的、提示感知的视觉token剪枝策略，在保留IVC tokens和语义前景token的同时，削减约50%视觉token并维持≥99%原始性能。
+  [ICLR 2026][多模态VLM][视觉token剪枝] 揭示了LVLM中RoPE位置编码隐式建立的视觉坐标系统（IVC tokens），提出一种训练免的、提示感知的视觉token剪枝策略，在保留IVC tokens和语义前景token的同时，削减约50%视觉token并维持≥99%原始性能。
 tags:
-  - ICLR 2026
-  - 多模态
-  - 多模态VLM
-  - RoPE位置编码
-  - 隐式视觉坐标
-  - 空间推理
-  - 训练免微调
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "视觉token剪枝"
+  - "RoPE位置编码"
+  - "隐式视觉坐标"
+  - "空间推理"
+  - "训练免微调"
 ---
 
 # IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning

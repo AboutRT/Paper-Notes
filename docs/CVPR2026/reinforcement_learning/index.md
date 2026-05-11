@@ -3,6 +3,15 @@ title: >-
   CVPR2026 强化学习方向19篇论文解读
 description: >-
   19篇CVPR2026的强化学习方向论文解读，涵盖多模态、强化学习、推理、Agent、机器人等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "CVPR2026"
+  - "强化学习"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态"
+  - "推理"
+  - "Agent"
+  - "机器人"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +19,7 @@ description: >-
 
 **📷 CVPR2026** · **19** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (34)](../../ACL2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (139)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (172)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (81)](../../ICML2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (34)](../../ACL2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (138)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [🧠 NeurIPS2025 (171)](../../NeurIPS2025/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (80)](../../ICML2025/reinforcement_learning/index.md)
 
 🔥 **高频主题：** 多模态 ×5 · 强化学习 ×4 · 推理 ×4 · Agent ×3 · 机器人 ×3
 

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Context-Enhanced Memory-Refined Transformer for Online Action Detection
 description: >-
-  [CVPR 2025][视频理解][在线动作检测] 本文揭示了现有在线动作检测（OAD）方法中的训练-推理不一致问题——短时记忆帧的不均衡上下文暴露和伪未来引入的非因果信息泄漏导致学习偏向中间帧——并提出CMeRT通过近过去上下文增强编码器和基于近未来的记忆精炼解码器来解决该问题，在THUMOS'14、CrossTask和EK100上实现SOTA。
+  [CVPR 2025][视频理解][在线动作检测] 本文揭示了现有在线动作检测（OAD）方法中的训练-推理不一致问题——短时记忆帧的不均衡上下文暴露和伪未来引入的非因果信息泄漏导致学习偏向中间帧——并提出CMeRT通过近过去上下文增强编码器和基于近未来的记忆精炼解码器来解决该问题…
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 在线动作检测
-  - 动作预测
-  - Transformer
-  - 记忆机制
-  - 训练-推理差异
+  - "CVPR 2025"
+  - "视频理解"
+  - "在线动作检测"
+  - "动作预测"
+  - "Transformer"
+  - "记忆机制"
+  - "训练-推理差异"
 ---
 
 # Context-Enhanced Memory-Refined Transformer for Online Action Detection

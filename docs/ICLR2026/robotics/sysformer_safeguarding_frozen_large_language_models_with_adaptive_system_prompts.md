@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICLR 2026][机器人][提示学习] 提出Sysformer，一个可插拔到任意冻结LLM前端的轻量Transformer模块，根据用户输入自适应地在嵌入空间中变换系统提示，使模型拒绝有害请求同时正常回应安全请求，无需修改LLM参数或过滤用户输入。
 tags:
-  - ICLR 2026
-  - 机器人
-  - 提示学习
-  - LLM safety
-  - jailbreak defense
-  - frozen model
+  - "ICLR 2026"
+  - "机器人"
+  - "提示学习"
+  - "LLM safety"
+  - "jailbreak defense"
+  - "frozen model"
 ---
 
 # Sysformer: Safeguarding Frozen Large Language Models with Adaptive System Prompts

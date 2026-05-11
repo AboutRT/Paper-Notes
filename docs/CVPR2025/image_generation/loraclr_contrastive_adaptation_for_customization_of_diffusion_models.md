@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][LoRA合并] LoRACLR 提出一种基于对比学习目标的 LoRA 模型合并方法，通过学习一个 delta 权重将多个独立训练的单概念 LoRA 模型融合为一个统一模型，无需重训练或访问原始训练数据，即可实现高保真的多概念图像生成，合并 12 个概念仅需 5 分钟。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - LoRA合并
-  - 对比学习
-  - 多概念生成
-  - 模型融合
-  - 扩散模型定制
+  - "CVPR 2025"
+  - "图像生成"
+  - "LoRA合并"
+  - "对比学习"
+  - "多概念生成"
+  - "模型融合"
+  - "扩散模型定制"
 ---
 
 # LoRACLR: Contrastive Adaptation for Customization of Diffusion Models

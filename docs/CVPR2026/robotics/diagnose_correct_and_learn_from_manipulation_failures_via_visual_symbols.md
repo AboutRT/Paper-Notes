@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols
 description: >-
-  [CVPR 2026][机器人][机器人操作失败] 提出 ViFailback 框架，利用可视化符号（箭头、准星、标签等）高效标注真实世界机器人操作失败，构建 58,128 个 VQA 对的数据集，并训练 ViFailback-8B VLM 实现失败诊断和视觉+文本纠正指导，集成到 VLA 后实现 22.2% 的任务成功率提升。
+  [CVPR 2026][机器人][机器人操作失败] 提出 ViFailback 框架，利用可视化符号（箭头、准星、标签等）高效标注真实世界机器人操作失败，构建 58,128 个 VQA 对的数据集，并训练 ViFailback-8B VLM 实现失败诊断和视觉+文本纠正指导…
 tags:
-  - CVPR 2026
-  - 机器人
-  - 机器人操作失败
-  - 视觉符号
-  - VLM失败诊断
-  - VLA恢复
-  - 真实世界数据集
+  - "CVPR 2026"
+  - "机器人"
+  - "机器人操作失败"
+  - "视觉符号"
+  - "VLM失败诊断"
+  - "VLA恢复"
+  - "真实世界数据集"
 ---
 
 # Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][人物-物体交互] 本文提出 InterAct 基准，整合并标准化了 21.81 小时的 3D 人物-物体交互数据（扩展到 30.70 小时），通过统一优化框架校正运动捕捉伪影并增强数据，定义六项生成任务和统一建模方法，在多个 HOI 生成任务上取得 SOTA 表现。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 人物-物体交互
-  - 动作生成
-  - 数据集
-  - 交互校正增强
-  - 多任务学习
+  - "CVPR 2025"
+  - "图像生成"
+  - "人物-物体交互"
+  - "动作生成"
+  - "数据集"
+  - "交互校正增强"
+  - "多任务学习"
 ---
 
 # InterAct: Advancing Large-Scale Versatile 3D Human-Object Interaction Generation

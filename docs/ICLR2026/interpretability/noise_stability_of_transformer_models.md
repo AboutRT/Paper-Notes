@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Noise Stability of Transformer Models
 description: >-
-  [ICLR 2026][noise stability] 提出噪声稳定性（noise stability）替代平均敏感度（average sensitivity）作为衡量 Transformer 简单性偏差的更优指标，并基于此设计正则化方法，在合成任务和语言建模上分别加速训练约 35% 和 75%。
+  [ICLR 2026][可解释性][noise stability] 提出噪声稳定性（noise stability）替代平均敏感度（average sensitivity）作为衡量 Transformer 简单性偏差的更优指标，并基于此设计正则化方法，在合成任务和语言建模上分别加速训练约 35% 和 75%…
 tags:
-  - ICLR 2026
-  - noise stability
-  - simplicity bias
-  - Transformer
-  - grokking
-  - Fourier analysis
-  - regularization
-  - Boolean function analysis
+  - "ICLR 2026"
+  - "可解释性"
+  - "noise stability"
+  - "simplicity bias"
+  - "Transformer"
+  - "grokking"
+  - "Fourier analysis"
+  - "regularization"
+  - "Boolean function analysis"
 ---
 
 # Noise Stability of Transformer Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][NeRF版权保护] 提出GeometrySticker，将二进制版权信息"贴"在NeRF的**几何组件**（而非颜色组件）上，使得即使NeRF被重着色（recolorization），原始创建者仍能从渲染图像中提取水印来主张所有权。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - NeRF版权保护
-  - 数字水印
-  - 几何嵌入
-  - 重着色鲁棒
-  - 隐式表示安全
+  - "ECCV 2024"
+  - "3D视觉"
+  - "NeRF版权保护"
+  - "数字水印"
+  - "几何嵌入"
+  - "重着色鲁棒"
+  - "隐式表示安全"
 ---
 
 # GeometrySticker: Enabling Ownership Claim of Recolorized Neural Radiance Fields

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ScanTalk: 3D Talking Heads from Unregistered Scans
 description: >-
-  [ECCV 2024][3D Talking Heads] 提出 ScanTalk，首个能够对**任意拓扑**（包括未配准的3D扫描数据）的3D人脸进行语音驱动动画生成的深度学习框架，核心依赖于 DiffusionNet 的离散化无关特性来突破固定拓扑约束。
+  [ECCV 2024][人体理解][3D Talking Heads] 提出 ScanTalk，首个能够对**任意拓扑**（包括未配准的3D扫描数据）的3D人脸进行语音驱动动画生成的深度学习框架，核心依赖于 DiffusionNet 的离散化无关特性来突破固定拓扑约束。
 tags:
-  - ECCV 2024
-  - 3D Talking Heads
-  - 扩散模型
-  - 人体理解
-  - 拓扑无关
-  - 3D 人脸动画
+  - "ECCV 2024"
+  - "人体理解"
+  - "3D Talking Heads"
+  - "扩散模型"
+  - "语音驱动动画"
+  - "拓扑无关"
+  - "3D 人脸动画"
 ---
 
 # ScanTalk: 3D Talking Heads from Unregistered Scans

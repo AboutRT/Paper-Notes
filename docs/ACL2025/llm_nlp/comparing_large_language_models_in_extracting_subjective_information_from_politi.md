@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][主观信息提取] 本文系统比较了多种大语言模型在政治新闻中提取主观信息（情感倾向、立场、偏见、框架效应等）的能力，发现不同LLM在不同维度的主观信息提取上表现差异显著，并揭示了LLM自身的政治偏见对提取结果的影响。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 主观信息提取
-  - 政治新闻分析
-  - LLM评估
-  - 情感分析
-  - 立场检测
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "主观信息提取"
+  - "政治新闻分析"
+  - "LLM评估"
+  - "情感分析"
+  - "立场检测"
 ---
 
 # Comparing Large Language Models in Extracting Subjective Information from Political News

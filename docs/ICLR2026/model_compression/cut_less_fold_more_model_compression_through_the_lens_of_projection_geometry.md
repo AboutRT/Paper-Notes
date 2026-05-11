@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][模型折叠] 将结构化剪枝和模型折叠(model folding)统一为正交投影框架——剪枝是坐标轴对齐投影，折叠是聚类子空间投影——并证明在秩差为1的条件下折叠的参数重建误差严格更小，在1000+个 checkpoint 上验证折叠在中-高压缩率下通常优于剪枝。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - 模型折叠
-  - 结构化剪枝
-  - 正交投影
-  - 免校准压缩
-  - 投影几何
+  - "ICLR 2026"
+  - "模型压缩"
+  - "模型折叠"
+  - "结构化剪枝"
+  - "正交投影"
+  - "免校准压缩"
+  - "投影几何"
 ---
 
 # Cut Less, Fold More: Model Compression through the Lens of Projection Geometry

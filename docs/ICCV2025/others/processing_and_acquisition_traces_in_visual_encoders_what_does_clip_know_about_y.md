@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025 (Highlight)][CLIP] 揭示了 CLIP 等视觉编码器在学习的表征中系统性地编码了图像采集和处理参数（如相机型号、ISO、JPEG 质量等肉眼不可见的信息），且这些隐含信息会通过与语义标签的统计相关性显著影响（正面或负面）语义预测准确性。
 tags:
-  - ICCV 2025 (Highlight)
-  - CLIP
-  - 图像采集参数
-  - 视觉表征分析
-  - 分布偏移
-  - 语义预测偏差
+  - "ICCV 2025 (Highlight)"
+  - "CLIP"
+  - "图像采集参数"
+  - "视觉表征分析"
+  - "分布偏移"
+  - "语义预测偏差"
 ---
 
 # Processing and Acquisition Traces in Visual Encoders: What Does CLIP Know About Your Camera?

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Radar: Benchmarking Language Models on Imperfect Tabular Data
 description: >-
-  [NeurIPS 2025][其他] 提出 Radar 基准，通过对真实表格数据注入五类数据工件（缺失值、错误值、异常值、格式不一致、逻辑不一致），系统评估语言模型在不完美表格数据上的数据感知推理能力，揭示即使是前沿模型在引入数据工件后性能也大幅下降。
+  [NeurIPS 2025][表格推理] 提出 Radar 基准，通过对真实表格数据注入五类数据工件（缺失值、错误值、异常值、格式不一致、逻辑不一致），系统评估语言模型在不完美表格数据上的数据感知推理能力，揭示即使是前沿模型在引入数据工件后性能也大幅下降。
 tags:
-  - NeurIPS 2025
-  - 其他
-  - 数据感知
-  - 数据工件
-  - 语言模型基准
-  - 鲁棒性评估
+  - "NeurIPS 2025"
+  - "表格推理"
+  - "数据感知"
+  - "数据工件"
+  - "语言模型基准"
+  - "鲁棒性评估"
 ---
 
 # Radar: Benchmarking Language Models on Imperfect Tabular Data

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][多模态VLM][VLA加速] 提出VLA-Cache，一种免训练的VLA推理加速方法，通过跨帧识别并缓存静态视觉token的KV表示、过滤任务相关token并按层自适应调整复用比例，实现1.7倍加速且几乎不损失任务成功率。
 tags:
-  - NeurIPS 2025
-  - 多模态VLM
-  - VLA加速
-  - Token缓存
-  - 推理加速
-  - 免训练
-  - 机器人操作
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "VLA加速"
+  - "Token缓存"
+  - "推理加速"
+  - "免训练"
+  - "机器人操作"
 ---
 
 # VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching

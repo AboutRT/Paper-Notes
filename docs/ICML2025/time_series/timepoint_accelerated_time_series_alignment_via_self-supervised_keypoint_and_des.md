@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML 2025][时间序列][时间序列对齐] 提出 TimePoint——受 2D 关键点检测启发但针对 1D 信号重新设计的自监督方法，通过学习时间序列的关键点和描述子实现稀疏表示，将 DTW 应用于稀疏关键点而非完整信号，在大幅加速对齐的同时通常提升对齐精度。
 tags:
-  - ICML 2025
-  - 时间序列
-  - 时间序列对齐
-  - DTW加速
-  - 关键点检测
-  - 自监督学习
-  - 微分同胚
-  - 小波卷积
+  - "ICML 2025"
+  - "时间序列"
+  - "时间序列对齐"
+  - "DTW加速"
+  - "关键点检测"
+  - "自监督学习"
+  - "微分同胚"
+  - "小波卷积"
 ---
 
 # TimePoint: Accelerated Time Series Alignment via Self-Supervised Keypoint and Descriptor Learning

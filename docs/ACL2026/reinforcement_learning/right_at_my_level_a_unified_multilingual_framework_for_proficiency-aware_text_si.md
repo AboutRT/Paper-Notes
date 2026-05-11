@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Right at My Level: A Unified Multilingual Framework for Proficiency-Aware Text Simplification
 description: >-
-  [ACL 2026][文本简化] 提出 Re-RIGHT 框架，通过三模块奖励（词汇覆盖率+语义保持+连贯性）的 GRPO 训练，用 4B 策略模型在英日韩中四种语言上实现按学习者熟练度等级（CEFR/JLPT/TOPIK/HSK）精确简化文本，超越 GPT-5.2 和 Gemini 2.5 等大模型。
+  [ACL 2026][强化学习][文本简化] 提出 Re-RIGHT 框架，通过三模块奖励（词汇覆盖率+语义保持+连贯性）的 GRPO 训练，用 4B 策略模型在英日韩中四种语言上实现按学习者熟练度等级（CEFR/JLPT/TOPIK/HSK）精确简化文本…
 tags:
-  - ACL 2026
-  - 文本简化
-  - 词汇等级控制
-  - 多语言强化学习
-  - GRPO
-  - 语言学习
+  - "ACL 2026"
+  - "强化学习"
+  - "文本简化"
+  - "词汇等级控制"
+  - "多语言强化学习"
+  - "GRPO"
+  - "语言学习"
 ---
 
 # Right at My Level: A Unified Multilingual Framework for Proficiency-Aware Text Simplification

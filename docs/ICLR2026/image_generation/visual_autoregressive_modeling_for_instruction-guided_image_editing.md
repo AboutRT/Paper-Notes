@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][图像编辑] 提出VAREdit，将指令引导的图像编辑重新定义为多尺度预测问题，通过Scale-Aligned Reference模块解决最细尺度条件化的尺度失配问题，在编辑遵循度和效率上大幅超越扩散模型方法。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 图像编辑
-  - 视觉自回归
-  - 多尺度预测
-  - 指令引导
-  - 尺度对齐
+  - "ICLR 2026"
+  - "图像生成"
+  - "图像编辑"
+  - "视觉自回归"
+  - "多尺度预测"
+  - "指令引导"
+  - "尺度对齐"
 ---
 
 # Visual Autoregressive Modeling for Instruction-Guided Image Editing

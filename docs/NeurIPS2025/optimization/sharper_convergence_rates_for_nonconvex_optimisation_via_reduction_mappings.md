@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Sharper Convergence Rates for Nonconvex Optimisation via Reduction Mappings
 description: >-
-  [NeurIPS 2025 (**Spotlight**)][优化][nonconvex optimization] 提出 Reduction Mapping 框架，利用最优解集的流形结构（由过参数化或对称性产生）重参数化优化问题，证明这能改善曲率性质并理论上加速基于梯度方法的收敛。
+  [NeurIPS 2025 (**Spotlight**)][优化/理论][nonconvex optimization] 提出 Reduction Mapping 框架，利用最优解集的流形结构（由过参数化或对称性产生）重参数化优化问题，证明这能改善曲率性质并理论上加速基于梯度方法的收敛。
 tags:
   - "NeurIPS 2025 (**Spotlight**)"
-  - 优化
-  - nonconvex optimization
-  - reduction mapping
-  - convergence rate
-  - manifold structure
-  - over-parameterization
+  - "优化/理论"
+  - "nonconvex optimization"
+  - "reduction mapping"
+  - "convergence rate"
+  - "manifold structure"
+  - "over-parameterization"
 ---
 
 # Sharper Convergence Rates for Nonconvex Optimisation via Reduction Mappings

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][3D视觉][多模态ReID] STMI提出一个三组件的多模态目标重识别框架，通过SAM分割引导的特征调制（SFM）抑制背景噪声、语义Token重新分配（STR）提取紧凑表示、以及跨模态超图交互（CHI）捕获高阶语义关系，在RGBNT201等benchmark上取得了显著提升。
 tags:
-  - AAAI 2026
-  - 3D视觉
-  - 多模态ReID
-  - 跨模态融合
-  - 超图交互
-  - 分割引导
-  - token调制
+  - "AAAI 2026"
+  - "3D视觉"
+  - "多模态ReID"
+  - "跨模态融合"
+  - "超图交互"
+  - "分割引导"
+  - "token调制"
 ---
 
 # STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification

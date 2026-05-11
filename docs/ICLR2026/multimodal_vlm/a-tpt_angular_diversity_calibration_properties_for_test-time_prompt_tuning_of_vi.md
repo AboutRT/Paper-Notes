@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models
 description: >-
-  [ICLR 2026][多模态][测试时提示调优] 提出 A-TPT 框架，通过最大化归一化文本特征在单位超球面上的最小成对角距离来促进角度多样性，解决测试时提示调优 (TPT) 中 VLM 预测过度自信导致的校准不良问题，在自然分布偏移和医学数据集上均优于现有 TPT 校准方法。
+  [ICLR 2026][多模态VLM][测试时提示调优] 提出 A-TPT 框架，通过最大化归一化文本特征在单位超球面上的最小成对角距离来促进角度多样性，解决测试时提示调优 (TPT) 中 VLM 预测过度自信导致的校准不良问题，在自然分布偏移和医学数据集上均优于现有 TPT 校准方法。
 tags:
-  - ICLR 2026
-  - 多模态
-  - 测试时提示调优
-  - CLIP
-  - 校准
-  - 角度多样性
-  - 超球面均匀分布
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "测试时提示调优"
+  - "CLIP"
+  - "校准"
+  - "角度多样性"
+  - "超球面均匀分布"
 ---
 
 # A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] As Language Models Scale, Low-order Linear Depth Dynamics Emerge
 description: >-
-  [CVPR 2026][激活干预] 这篇论文把 Transformer 的层深看成离散时间系统，证明在给定上下文附近可以用一个 32 维的低阶线性状态空间代理去近似 GPT-2 的层间传播与干预响应，而且模型越大，这个低阶代理越准确，还能据此算出比启发式注入更省能量的多层干预策略。
+  [CVPR 2026][社会计算][激活干预] 这篇论文把 Transformer 的层深看成离散时间系统，证明在给定上下文附近可以用一个 32 维的低阶线性状态空间代理去近似 GPT-2 的层间传播与干预响应，而且模型越大，这个低阶代理越准确，还能据此算出比启发式注入更省能量的多层干预策略。
 tags:
-  - CVPR 2026
-  - 激活干预
-  - 局部线性化
-  - 深度动力学
-  - 系统辨识
-  - 模型缩放
+  - "CVPR 2026"
+  - "社会计算"
+  - "激活干预"
+  - "局部线性化"
+  - "深度动力学"
+  - "系统辨识"
+  - "模型缩放"
 ---
 
 # As Language Models Scale, Low-order Linear Depth Dynamics Emerge

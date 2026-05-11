@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][语义场景补全] 提出 C3DFusion 模块，通过在 3D 空间中显式对齐历史帧和当前帧的点特征，首次系统解决相机基 SSC 中视野外（out-of-frame）区域的时序补全问题，在 SemanticKITTI 和 SSCBench-KITTI-360 上取得 SOTA。
 tags:
-  - AAAI 2026
-  - 语义场景补全
-  - 时序融合
-  - 视野外补全
-  - 3D感知
-  - 体素特征
+  - "AAAI 2026"
+  - "语义场景补全"
+  - "时序融合"
+  - "视野外补全"
+  - "3D感知"
+  - "体素特征"
 ---
 
 # Towards Temporal Fusion Beyond the Field of View for Camera-based Semantic Scene Completion

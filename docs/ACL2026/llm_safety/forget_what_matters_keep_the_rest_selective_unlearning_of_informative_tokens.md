@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM安全][机器遗忘] 提出 Entropy-guided Token Weighting (ETW)，利用预测分布的熵值作为 token 信息量的代理指标，选择性地对信息性 token 施加更强的遗忘惩罚，在有效遗忘目标知识的同时更好地保持模型通用能力。
 tags:
-  - ACL 2026
-  - LLM安全
-  - 机器遗忘
-  - 信息性token
-  - 熵引导
-  - token加权
-  - 选择性遗忘
+  - "ACL 2026"
+  - "LLM安全"
+  - "机器遗忘"
+  - "信息性token"
+  - "熵引导"
+  - "token加权"
+  - "选择性遗忘"
 ---
 
 # Forget What Matters, Keep the Rest: Selective Unlearning of Informative Tokens

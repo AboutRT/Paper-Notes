@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Rolling Ball Optimizer: Learning by Ironing Out Loss Landscape Wrinkles
 description: >-
-  [ICLR 2026][优化][优化器] 提出 Rolling Ball Optimizer (RBO)，通过模拟有限半径刚性球在损失景观上的滚动运动来打破传统优化器的空间局部性，实现对损失函数的平滑效应（ironing property），在 MNIST 和 CIFAR-10/100 上展示了更好的收敛速度和泛化性能。
+  [ICLR 2026][优化/理论][优化器] 提出 Rolling Ball Optimizer (RBO)，通过模拟有限半径刚性球在损失景观上的滚动运动来打破传统优化器的空间局部性，实现对损失函数的平滑效应（ironing property）…
 tags:
-  - ICLR 2026
-  - 优化
-  - 优化器
-  - 损失景观
-  - 滚球
-  - 平滑效应
-  - 泛化
+  - "ICLR 2026"
+  - "优化/理论"
+  - "优化器"
+  - "损失景观"
+  - "滚球"
+  - "平滑效应"
+  - "泛化"
 ---
 
 # Rolling Ball Optimizer: Learning by Ironing Out Loss Landscape Wrinkles

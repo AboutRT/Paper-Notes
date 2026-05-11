@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Training-Free Reward-Guided Image Editing via Trajectory Optimal Control
 description: >-
-  [ICLR 2026][图像生成][Optimal Control] 将 reward-guided 图像编辑重新建模为轨迹最优控制问题，将扩散/Flow模型的反向过程视为可控轨迹，通过基于 Pontryagin 最大值原理（PMP）的伴随状态迭代优化整条轨迹，在无需训练的情况下实现有效的奖励引导编辑且不发生 reward hacking。
+  [ICLR 2026][图像生成][Optimal Control] 将 reward-guided 图像编辑重新建模为轨迹最优控制问题，将扩散/Flow模型的反向过程视为可控轨迹，通过基于 Pontryagin 最大值原理（PMP）的伴随状态迭代优化整条轨迹…
 tags:
-  - ICLR 2026
-  - 图像生成
-  - Optimal Control
-  - Reward-Guided
-  - training-free
-  - Adjoint State
-  - Pontryagin's Maximum Principle
+  - "ICLR 2026"
+  - "图像生成"
+  - "Optimal Control"
+  - "Reward-Guided"
+  - "training-free"
+  - "Adjoint State"
+  - "Pontryagin's Maximum Principle"
 ---
 
 # Training-Free Reward-Guided Image Editing via Trajectory Optimal Control

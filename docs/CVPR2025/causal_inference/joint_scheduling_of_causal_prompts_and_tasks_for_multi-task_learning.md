@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning
 description: >-
-  [CVPR 2025][因果提示] 提出JSCPT框架，通过因果干预消除提示中的虚假相关，并结合自适应任务调度优化多任务VLM提示学习性能。
+  [CVPR 2025][因果推理][因果提示] 提出 JSCPT（Joint Scheduling of Causal Prompts and Tasks）框架，首先设计多任务视觉语言提示（MTVLP）并通过因果干预消除提示中的虚假相关特征…
 tags:
-  - CVPR 2025
-  - 因果提示
-  - 任务调度
-  - 多任务学习
-  - 因果推理
-  - 虚假相关
-  - 提示学习
+  - "CVPR 2025"
+  - "因果推理"
+  - "因果提示"
+  - "任务调度"
+  - "多任务学习"
+  - "VLM提示学习"
+  - "虚假相关消除"
 ---
 
 # Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning

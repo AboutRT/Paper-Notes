@@ -2,16 +2,17 @@
 title: >-
   [论文解读] How Reliable is Language Model Micro-Benchmarking?
 description: >-
-  [ICLR2026][micro-benchmarking] 提出 Minimum Detectable Ability Difference (MDAD) 元评估指标，系统揭示了 micro-benchmark 在极小规模下无法可靠区分性能差距小的模型对，且当样本量达到 ~250 时随机采样与精心设计的 micro-benchmark 方法表现相当。
+  [ICLR2026][LLM评测][micro-benchmarking] 提出 Minimum Detectable Ability Difference (MDAD) 元评估指标，系统揭示了 micro-benchmark 在极小规模下无法可靠区分性能差距小的模型对…
 tags:
-  - ICLR2026
-  - micro-benchmarking
-  - evaluation reliability
-  - MDAD
-  - pairwise ranking
-  - random sampling
-  - MMLU-Pro
-  - BIG-bench Hard
+  - "ICLR2026"
+  - "LLM评测"
+  - "micro-benchmarking"
+  - "evaluation reliability"
+  - "MDAD"
+  - "pairwise ranking"
+  - "random sampling"
+  - "MMLU-Pro"
+  - "BIG-bench Hard"
 ---
 
 # How Reliable is Language Model Micro-Benchmarking?

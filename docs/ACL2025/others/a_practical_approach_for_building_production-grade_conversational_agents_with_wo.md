@@ -2,14 +2,14 @@
 title: >-
   [论文解读] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs
 description: >-
-  [ACL 2025][其他] 提出基于有向无环图(DAG)的工作流框架，通过将LLM agent的复杂业务约束分解到图中不同状态节点，并结合响应掩码微调策略，构建满足生产级要求的电商对话代理，在任务准确率和格式遵循方面均大幅超越GPT-4o基线。
+  [ACL 2025][对话代理] 提出基于有向无环图(DAG)的工作流框架，通过将LLM agent的复杂业务约束分解到图中不同状态节点，并结合响应掩码微调策略，构建满足生产级要求的电商对话代理，在任务准确率和格式遵循方面均大幅超越GPT-4o基线。
 tags:
-  - ACL 2025
-  - 其他
-  - 工作流图
-  - DAG框架
-  - 电商agent
-  - 微调策略
+  - "ACL 2025"
+  - "对话代理"
+  - "工作流图"
+  - "DAG框架"
+  - "电商agent"
+  - "微调策略"
 ---
 
 # A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs

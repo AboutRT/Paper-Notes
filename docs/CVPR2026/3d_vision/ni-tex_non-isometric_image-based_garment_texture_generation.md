@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][服装纹理生成] 提出NI-Tex框架，通过构建3D Garment Videos数据集、基于图像编辑的跨拓扑增强以及不确定性引导的迭代烘焙算法，首次以前馈架构实现了非等距条件下从单图到3D服装PBR纹理的高质量生成。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 服装纹理生成
-  - PBR材质
-  - 非等距变形
-  - 不确定性引导烘焙
-  - 跨拓扑增强
+  - "CVPR 2026"
+  - "3D视觉"
+  - "服装纹理生成"
+  - "PBR材质"
+  - "非等距变形"
+  - "不确定性引导烘焙"
+  - "跨拓扑增强"
 ---
 
 # NI-Tex: Non-isometric Image-based Garment Texture Generation

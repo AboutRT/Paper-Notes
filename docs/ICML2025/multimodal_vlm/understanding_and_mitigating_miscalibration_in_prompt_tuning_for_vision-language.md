@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models
 description: >-
-  [ICML 2025][多模态][视觉语言模型] 通过分析提示调优导致VLM校准失败的根因（文本特征偏移），提出动态异常值正则化（DOR）方法，利用WordNet中高语义相似度名词作为文本异常值来约束微调过程中的特征漂移，显著降低校准误差。
+  [ICML 2025][多模态VLM][视觉语言模型] 通过分析提示调优导致VLM校准失败的根因（文本特征偏移），提出动态异常值正则化（DOR）方法，利用WordNet中高语义相似度名词作为文本异常值来约束微调过程中的特征漂移，显著降低校准误差。
 tags:
-  - ICML 2025
-  - 多模态
-  - 多模态VLM
-  - 提示调优
-  - 校准
-  - CLIP
-  - 异常值正则化
+  - "ICML 2025"
+  - "多模态VLM"
+  - "视觉语言模型"
+  - "提示调优"
+  - "校准"
+  - "CLIP"
+  - "异常值正则化"
 ---
 
 # Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models

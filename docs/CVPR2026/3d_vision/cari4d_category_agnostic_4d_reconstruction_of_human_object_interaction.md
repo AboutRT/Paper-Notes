@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][人物交互重建] 提出CARI4D，首个类别无关的方法，从单目RGB视频中重建度量尺度的4D人物交互——包括物体形状重建、位姿跟踪、手部接触推理和物理约束优化，零样本泛化到未见类别。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 人物交互重建
-  - 类别无关
-  - 单目视频
-  - 4D跟踪
-  - 接触推理
+  - "CVPR 2026"
+  - "3D视觉"
+  - "人物交互重建"
+  - "类别无关"
+  - "单目视频"
+  - "4D跟踪"
+  - "接触推理"
 ---
 
 # CARI4D: Category Agnostic 4D Reconstruction of Human-Object Interaction

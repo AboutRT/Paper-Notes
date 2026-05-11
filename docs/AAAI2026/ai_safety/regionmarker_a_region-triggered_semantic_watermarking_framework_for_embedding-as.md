@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][EaaS版权保护] 提出基于语义区域触发的水印框架 RegionMarker，在低维空间中定义触发区域并注入语义水印，是首个能同时抵御 CSE 攻击、改写攻击和维度扰动攻击的 EaaS 版权保护方法。
 tags:
-  - AAAI 2026
-  - AI安全
-  - EaaS版权保护
-  - 嵌入水印
-  - 语义区域触发
-  - 模型提取攻击防御
-  - 局部敏感哈希
+  - "AAAI 2026"
+  - "AI安全"
+  - "EaaS版权保护"
+  - "嵌入水印"
+  - "语义区域触发"
+  - "模型提取攻击防御"
+  - "局部敏感哈希"
 ---
 
 # RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service

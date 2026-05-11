@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization
 description: >-
-  [CVPR 2026][图像到视频] 本文提出 IPRO，通过强化学习和可微分人脸身份评分器直接优化视频扩散模型，在不修改模型架构的情况下显著提升图像到视频生成中的人脸身份一致性，在 Wan 2.2 上实现了 20%-45% 的 FaceSim 提升。
+  [CVPR 2026][视频生成][图像到视频] 本文提出 IPRO，通过强化学习和可微分人脸身份评分器直接优化视频扩散模型，在不修改模型架构的情况下显著提升图像到视频生成中的人脸身份一致性，在 Wan 2.2 上实现了 20%-45% 的 FaceSim 提升。
 tags:
-  - CVPR 2026
-  - 图像到视频
-  - 身份保持
-  - 视频生成
-  - 人脸奖励
-  - 扩散模型微调
+  - "CVPR 2026"
+  - "视频生成"
+  - "图像到视频"
+  - "身份保持"
+  - "强化学习"
+  - "人脸奖励"
+  - "扩散模型微调"
 ---
 
 # Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM效率][MoE] 提出 Mozart 算法-硬件协同设计框架，通过专家聚类分配、细粒度流式调度和 3.5D 晶粒架构（NoP-Tree + 分层存储），在三个 MoE-LLM 上实现 1.9× 以上的训练加速。
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - MoE
-  - chiplet architecture
-  - expert parallelism
-  - wafer-scale
-  - algorithm-hardware co-design
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "MoE"
+  - "chiplet architecture"
+  - "expert parallelism"
+  - "wafer-scale"
+  - "algorithm-hardware co-design"
 ---
 
 # Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures

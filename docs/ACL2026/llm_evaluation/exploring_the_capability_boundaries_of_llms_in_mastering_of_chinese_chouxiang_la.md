@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language
 description: >-
-  [ACL 2026][抽象话] 本文将中文互联网亚文化语言"抽象话"引入 NLP 社区，构建首个评估基准 Mouse（含翻译、表征分类、意图识别、毒性检测、含义选择、完形填空六个任务），发现 SOTA LLM 在上下文语义理解上表现尚可但在其他任务上存在明显局限。
+  [ACL 2026][LLM评测][抽象话] 本文将中文互联网亚文化语言"抽象话"引入 NLP 社区，构建首个评估基准 Mouse（含翻译、表征分类、意图识别、毒性检测、含义选择、完形填空六个任务），发现 SOTA LLM 在上下文语义理解上表现尚可但在其他任务上存在明显局限。
 tags:
-  - ACL 2026
-  - 抽象话
-  - 互联网亚文化语言
-  - LLM评测
-  - 中文网络用语
-  - 跨文化理解
+  - "ACL 2026"
+  - "LLM评测"
+  - "抽象话"
+  - "互联网亚文化语言"
+  - "LLM基准测试"
+  - "中文网络用语"
+  - "跨文化理解"
 ---
 
 # Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language

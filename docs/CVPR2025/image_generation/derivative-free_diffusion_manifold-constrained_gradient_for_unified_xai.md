@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][无梯度梯度估计] 本文提出 FreeMCG，利用扩散模型生成流形上的粒子集合并结合集成卡尔曼滤波近似模型梯度在数据流形上的投影，首次统一了特征归因和反事实解释两大 XAI 任务，且仅需黑盒模型访问。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 无梯度梯度估计
-  - 扩散模型
-  - 集成卡尔曼滤波
-  - 反事实解释
-  - 特征归因
+  - "CVPR 2025"
+  - "图像生成"
+  - "无梯度梯度估计"
+  - "扩散模型"
+  - "集成卡尔曼滤波"
+  - "反事实解释"
+  - "特征归因"
 ---
 
 # Derivative-Free Diffusion Manifold-Constrained Gradient for Unified XAI

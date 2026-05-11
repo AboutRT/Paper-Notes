@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FALCON: Resolving Visual Redundancy and Fragmentation in High-resolution Multimodal Large Language Models via Visual Registers
 description: >-
-  [ICCV 2025][多模态][视觉寄存器] 提出 FALCON，通过在 ViT 中引入可学习的视觉寄存器（Visual Register），利用 ReCompact 机制在编码阶段直接消除视觉冗余（9 倍 token 压缩），并用 ReAtten 模块通过寄存器间交互解决裁切导致的视觉碎片化问题。
+  [ICCV 2025][多模态VLM][视觉寄存器] 提出 FALCON，通过在 ViT 中引入可学习的视觉寄存器（Visual Register），利用 ReCompact 机制在编码阶段直接消除视觉冗余（9 倍 token 压缩），并用 ReAtten 模块通过寄存器间交互解决裁切导致的视觉碎片化问题。
 tags:
-  - ICCV 2025
-  - 多模态
-  - 视觉寄存器
-  - Token压缩
-  - 视觉冗余
-  - 视觉碎片化
-  - 高分辨率MLLM
+  - "ICCV 2025"
+  - "多模态VLM"
+  - "视觉寄存器"
+  - "Token压缩"
+  - "视觉冗余"
+  - "视觉碎片化"
+  - "高分辨率MLLM"
 ---
 
 # FALCON: Resolving Visual Redundancy and Fragmentation in High-resolution Multimodal Large Language Models via Visual Registers

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][LLM/NLP][过参数化集成] 在过参数化条件下，无限集成模型与单个无穷宽模型逐点等价，集成方差不再反映传统贝叶斯不确定性而是衡量增加模型容量的预期效果，从理论上解释了深度集成相比大模型无本质泛化优势的经验观察。
 tags:
-  - ICML2025
-  - LLM/NLP
-  - 过参数化集成
-  - 随机特征模型
-  - 不确定性量化
-  - 核回归
-  - 泛化理论
+  - "ICML2025"
+  - "LLM/NLP"
+  - "过参数化集成"
+  - "随机特征模型"
+  - "不确定性量化"
+  - "核回归"
+  - "泛化理论"
 ---
 
 # Theoretical Limitations of Ensembles in the Age of Overparameterization

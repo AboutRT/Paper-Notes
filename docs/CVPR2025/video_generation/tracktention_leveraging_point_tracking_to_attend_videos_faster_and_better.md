@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better
 description: >-
-  [CVPR 2025][点追踪] Tracktention 提出了一种基于点追踪的新型注意力层，通过将预提取的点轨迹信息注入 Vision Transformer，实现运动感知的时序特征聚合，能将纯图像模型升级为 SOTA 视频模型，在视频深度预测和视频着色任务上显著提升时序一致性。
+  [CVPR 2025][视频生成][点追踪] Tracktention 提出了一种基于点追踪的新型注意力层，通过将预提取的点轨迹信息注入 Vision Transformer，实现运动感知的时序特征聚合，能将纯图像模型升级为 SOTA 视频模型，在视频深度预测和视频着色任务上显著提升时序一致性。
 tags:
-  - CVPR 2025
-  - 点追踪
-  - 时序一致性
-  - 视频生成
-  - 注意力机制
-  - 即插即用
+  - "CVPR 2025"
+  - "视频生成"
+  - "点追踪"
+  - "时序一致性"
+  - "视频深度估计"
+  - "注意力机制"
+  - "即插即用"
 ---
 
 # Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][蛋白质构象集合] 提出 BBFlow，一种基于蛋白质骨架几何信息的流匹配生成模型，用于蛋白质构象集合采样，无需进化序列信息或预训练折叠模型，推理速度比 AlphaFlow 快一个数量级以上，且可扩展到多链蛋白质。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - 蛋白质构象集合
-  - 流匹配
-  - 骨架几何
-  - 分子动力学模拟
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "蛋白质构象集合"
+  - "流匹配"
+  - "骨架几何"
+  - "分子动力学模拟"
 ---
 
 # Learning Conformational Ensembles of Proteins Based on Backbone Geometry

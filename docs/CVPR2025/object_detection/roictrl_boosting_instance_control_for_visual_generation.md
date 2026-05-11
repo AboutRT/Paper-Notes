@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][目标检测][实例控制] ROICtrl 受目标检测中 ROI-Align 启发，提出互补操作 ROI-Unpool 实现高效精确的 ROI 特征还原，构建了一个与社区微调模型和现有空间/嵌入式插件兼容的扩散模型适配器，在多实例区域控制生成中取得 SOTA 性能并大幅降低计算成本。
 tags:
-  - CVPR 2025
-  - 目标检测
-  - 实例控制
-  - 区域生成
-  - ROI操作
-  - ControlNet兼容
-  - 多实例图像生成
+  - "CVPR 2025"
+  - "目标检测"
+  - "实例控制"
+  - "区域生成"
+  - "ROI操作"
+  - "ControlNet兼容"
+  - "多实例图像生成"
 ---
 
 # ROICtrl: Boosting Instance Control for Visual Generation

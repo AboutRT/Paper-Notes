@@ -2,14 +2,15 @@
 title: >-
   [论文解读] HalluLens: LLM Hallucination Benchmark
 description: >-
-  [ACL 2025][LLM评测] 提出了 HalluLens 幻觉基准，明确区分幻觉与事实性，建立了外在幻觉（与训练数据不一致）和内在幻觉（与输入上下文不一致）的清晰分类体系，引入三个动态可重生成的外在幻觉评估任务，并全面分析了现有基准的局限性。
+  [ACL 2025][LLM评测][幻觉评估] 提出了 HalluLens 幻觉基准，明确区分幻觉与事实性，建立了外在幻觉（与训练数据不一致）和内在幻觉（与输入上下文不一致）的清晰分类体系，引入三个动态可重生成的外在幻觉评估任务，并全面分析了现有基准的局限性。
 tags:
-  - ACL 2025
-  - LLM评测
-  - 外在幻觉
-  - 内在幻觉
-  - 动态测试集
-  - benchmark
+  - "ACL 2025"
+  - "LLM评测"
+  - "幻觉评估"
+  - "外在幻觉"
+  - "内在幻觉"
+  - "动态测试集"
+  - "benchmark"
 ---
 
 # HalluLens: LLM Hallucination Benchmark

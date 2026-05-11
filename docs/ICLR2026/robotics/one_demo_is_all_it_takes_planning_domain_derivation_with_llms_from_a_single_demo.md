@@ -2,16 +2,16 @@
 title: >-
   [论文解读] One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration
 description: >-
-  [ICLR 2026][机器人][PDDL] 提出 PDDLLM 框架，仅需**一个演示轨迹**即可自动推导完整的 PDDL 规划域（谓词+动作），通过 LLM 推理与物理仿真的交叉验证生成可解释的符号表示，并借助逻辑约束适配器 (LoCA) 自动对接运动规划器，在 9 个环境 1200+ 任务中成功率领先 6 个 LLM 基线至少 20%，且成功部署于 3 个物理机器人平台。
+  [ICLR 2026][机器人][PDDL] 提出 PDDLLM 框架，仅需**一个演示轨迹**即可自动推导完整的 PDDL 规划域（谓词+动作），通过 LLM 推理与物理仿真的交叉验证生成可解释的符号表示，并借助逻辑约束适配器 (LoCA) 自动对接运动规划器…
 tags:
-  - ICLR 2026
-  - 机器人
-  - PDDL
-  - 任务与运动规划
-  - LLM推理
-  - 物理仿真
-  - 谓词生成
-  - 运动规划接口
+  - "ICLR 2026"
+  - "机器人"
+  - "PDDL"
+  - "任务与运动规划"
+  - "LLM推理"
+  - "物理仿真"
+  - "谓词生成"
+  - "运动规划接口"
 ---
 
 # One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration

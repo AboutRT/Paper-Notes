@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AsyncLM: Efficient and Adaptive Async Pre-training of Language Models
 description: >-
-  [ACL 2025][异步预训练] 本文提出AsyncLM，一种高效的异步预训练框架，通过自适应梯度补偿和动态批量调度策略解决异步分布式训练中的梯度过期问题，在保持与同步训练相当的模型质量的同时，将大规模语言模型预训练的吞吐量提升了1.4-1.8倍。
+  [ACL 2025][预训练][异步预训练] 本文提出AsyncLM，一种高效的异步预训练框架，通过自适应梯度补偿和动态批量调度策略解决异步分布式训练中的梯度过期问题，在保持与同步训练相当的模型质量的同时，将大规模语言模型预训练的吞吐量提升了1.4-1.8倍。
 tags:
-  - ACL 2025
-  - 异步预训练
-  - LLM预训练
-  - 分布式训练
-  - 梯度延迟
-  - 自适应学习率
+  - "ACL 2025"
+  - "预训练"
+  - "异步预训练"
+  - "语言模型"
+  - "分布式训练"
+  - "梯度延迟"
+  - "自适应学习率"
 ---
 
 # AsyncLM: Efficient and Adaptive Async Pre-training of Language Models

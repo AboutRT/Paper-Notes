@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Efficient Multi-modal Large Language Models via Progressive Consistency Distillation
 description: >-
-  [NeurIPS 2025][多模态][多模态LLM] 提出EPIC框架，通过渐进式一致性蒸馏（Token和Layer两个维度）解决视觉token压缩训练中特征空间扰动导致的学习困难，在不修改模型架构的前提下实现高效多模态LLM。
+  [NeurIPS 2025][多模态VLM][多模态LLM] 提出EPIC框架，通过渐进式一致性蒸馏（Token和Layer两个维度）解决视觉token压缩训练中特征空间扰动导致的学习困难，在不修改模型架构的前提下实现高效多模态LLM。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 视觉token压缩
-  - 渐进式蒸馏
-  - 一致性蒸馏
-  - 推理效率
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "多模态LLM"
+  - "视觉token压缩"
+  - "渐进式蒸馏"
+  - "一致性蒸馏"
+  - "推理效率"
 ---
 
 # Efficient Multi-modal Large Language Models via Progressive Consistency Distillation
@@ -147,7 +147,7 @@ KV缓存减少 **88.9%**，FLOPs减少 **83.9%**，实际加速约 **1.6×**。
 
 ### 关键发现
 
-1. **极端压缩不划算**：从576到128个token的FLOPs急剧下降，但从64到36→18的FLOPs减少极小，且性能急剧下降。作者定义了"高ROI区域"（≥64 tokens）和"低ROI区域"（<64 tokens）
+1. **极端压缩不划算**：从576到128个token的FLOPs急剧下降，但从64到36→18的FLOPs减少极小，且性能急剧下降。作者定义了"高ROI区域"（≥64 tokens）和"低ROI区域"（&lt;64 tokens）
 2. **跨压缩策略泛化良好**：用DART训练的模型在FastV和Random推理时也表现良好
 3. **训练成本低**：仅需一阶段微调（12小时 vs 30-48小时用于架构修改方法）
 4. **暗示大量视觉token冗余**：128个token即可匹配576个token的性能

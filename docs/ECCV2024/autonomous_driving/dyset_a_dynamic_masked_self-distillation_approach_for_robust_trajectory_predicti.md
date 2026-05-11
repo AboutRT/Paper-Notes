@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][轨迹预测] DySeT 提出了一种动态掩码自蒸馏方法，通过强化学习驱动的信息性 token 优先采样和从完整到掩码表示的知识蒸馏，显著提升了自动驾驶场景下轨迹预测模型的泛化能力和鲁棒性。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 轨迹预测
-  - 自蒸馏
-  - 掩码预训练
-  - 动态采样
-  - 鲁棒性
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "轨迹预测"
+  - "自蒸馏"
+  - "掩码预训练"
+  - "动态采样"
+  - "鲁棒性"
 ---
 
 # DySeT: A Dynamic Masked Self-distillation Approach for Robust Trajectory Prediction

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks
 description: >-
-  [ACL 2025][LLM Agent][多智能体安全] 本文首次系统研究了在带宽约束、延迟和安全机制的现实多智能体LLM系统中的对抗攻击问题，提出基于最大流最小费用的拓扑优化和排列不变蒙骗损失（PIEL）的攻击方法，在多个LLM架构上实现了高达7倍于传统攻击的成功率。
+  [ACL 2025][LLM Agent / LLM安全][多智能体安全] 本文首次系统研究了在带宽约束、延迟和安全机制的现实多智能体LLM系统中的对抗攻击问题，提出基于最大流最小费用的拓扑优化和排列不变蒙骗损失（PIEL）的攻击方法，在多个LLM架构上实现了高达7倍于传统攻击的成功率。
 tags:
-  - ACL 2025
-  - LLM Agent
-  - 多智能体安全
-  - 越狱攻击
-  - 排列不变性
-  - 最大流最小费用
-  - 对抗提示传播
+  - "ACL 2025"
+  - "LLM Agent / LLM安全"
+  - "多智能体安全"
+  - "越狱攻击"
+  - "排列不变性"
+  - "最大流最小费用"
+  - "对抗提示传播"
 ---
 
 # Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks

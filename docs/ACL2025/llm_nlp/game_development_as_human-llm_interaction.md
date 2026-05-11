@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][游戏开发] 本文提出 Chat Game Engine（ChatGE），一个基于 LLM 的对话式游戏引擎，通过自然语言交互让用户无需编程知识即可开发定制游戏，并设计了数据合成流水线和三阶段渐进式训练策略将对话模型转化为游戏引擎。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 游戏开发
-  - 人机交互
-  - 代码生成
-  - 对话系统
-  - 渐进式训练
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "游戏开发"
+  - "人机交互"
+  - "代码生成"
+  - "对话系统"
+  - "渐进式训练"
 ---
 
 # Game Development as Human-LLM Interaction

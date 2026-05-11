@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM/NLP][human-AI coevolution] 通过对 5 万+文档的纵向语料分析，提出"双轨演化"假说——LLM 时代人类写作在主题上趋同、风格上结构性分化，并发现三种作者适应策略原型（Adopters/Resistors/Pragmatists）。
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - human-AI coevolution
-  - creative writing
-  - stylometric analysis
-  - authorial archetypes
-  - LLM influence detection
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "human-AI coevolution"
+  - "creative writing"
+  - "stylometric analysis"
+  - "authorial archetypes"
+  - "LLM influence detection"
 ---
 
 # Writing in Symbiosis: Mapping Human Creative Agency in the AI Era
@@ -154,9 +154,9 @@ $$y_{it} = \beta \cdot PostLLM_t + \gamma \cdot len_{it} + \delta_c + \alpha_i +
 
 - 交叉验证准确率: 89.3% (95% CI: 87.1-91.5)
 - Held-out arXiv 数据: 89.1% (86.8-91.4)
-- 空模型对比: silhouette 0.31 vs 0.43（p<0.001）
+- 空模型对比: silhouette 0.31 vs 0.43（p&lt;0.001）
 - 时间边界鲁棒性: 84% 原型分配一致性（极端变化 91%）
-- AI-likeness 在控制 FKGL/TTR/句长后仍显著: 偏相关 r=0.34, p<0.001
+- AI-likeness 在控制 FKGL/TTR/句长后仍显著: 偏相关 r=0.34, p&lt;0.001
 
 ## 亮点与洞察
 

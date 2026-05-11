@@ -2,14 +2,15 @@
 title: >-
   [论文解读] NOSE: Neural Olfactory-Semantic Embedding with Tri-Modal Orthogonal Contrastive Learning
 description: >-
-  [ACL 2026][嗅觉表示学习] 提出 NOSE 三模态嗅觉表示学习框架，以分子为枢纽通过正交注入机制对齐分子结构、受体序列和自然语言描述三个模态，配合 LLM 驱动的弱正样本策略缓解描述稀疏问题，在 11 个下游任务上达到 SOTA 并展现优秀的零样本泛化能力。
+  [ACL 2026][可解释性][嗅觉表示学习] 提出 NOSE 三模态嗅觉表示学习框架，以分子为枢纽通过正交注入机制对齐分子结构、受体序列和自然语言描述三个模态，配合 LLM 驱动的弱正样本策略缓解描述稀疏问题，在 11 个下游任务上达到 SOTA 并展现优秀的零样本泛化能力。
 tags:
-  - ACL 2026
-  - 嗅觉表示学习
-  - 可解释性
-  - 正交解耦
-  - 对比学习
-  - 弱正样本
+  - "ACL 2026"
+  - "可解释性"
+  - "嗅觉表示学习"
+  - "三模态对齐"
+  - "正交解耦"
+  - "对比学习"
+  - "弱正样本"
 ---
 
 # NOSE: Neural Olfactory-Semantic Embedding with Tri-Modal Orthogonal Contrastive Learning

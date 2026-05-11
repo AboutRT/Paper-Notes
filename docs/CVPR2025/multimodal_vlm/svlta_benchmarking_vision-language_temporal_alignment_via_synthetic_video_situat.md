@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SVLTA: Benchmarking Vision-Language Temporal Alignment via Synthetic Video Situation
 description: >-
-  [CVPR 2025][多模态][视觉-语言时序对齐] 提出**SVLTA**，一个通过合成模拟环境生成的视觉-语言时序对齐基准，包含25.3K动态场景、96种组合动作和77.1K高质量时序标注，具备**可控、组合、无偏**的时序分布，从时序问答、分布偏移敏感性和时序适应三个维度揭示当前VidLLM严重缺乏时序对齐能力（最强GPT-4o在IoU=0.5时R@1仅11.69%）。
+  [CVPR 2025][多模态VLM][视觉-语言时序对齐] 提出**SVLTA**，一个通过合成模拟环境生成的视觉-语言时序对齐基准，包含25.3K动态场景、96种组合动作和77.1K高质量时序标注，具备**可控、组合、无偏**的时序分布…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 合成视频
-  - 时序偏差
-  - 基准测试
-  - 视频大模型
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视觉-语言时序对齐"
+  - "合成视频"
+  - "时序偏差"
+  - "基准测试"
+  - "视频大模型"
 ---
 
 # SVLTA: Benchmarking Vision-Language Temporal Alignment via Synthetic Video Situation

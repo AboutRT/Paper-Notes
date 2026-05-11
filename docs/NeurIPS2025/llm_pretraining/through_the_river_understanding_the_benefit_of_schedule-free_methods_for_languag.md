@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training
 description: >-
-  [NeurIPS 2025][LLM预训练] 从 river-valley 损失景观的几何视角，分析了 Schedule-Free (SF) 优化器在语言模型预训练中不需要学习率衰减和权重平均就能持续追踪最优解的原因，并揭示 SF 隐式执行了权重平均，进而提出解耦动量和平均窗口的改进版 SF-AdamW。
+  [NeurIPS 2025][预训练][Schedule-Free优化器] 从 river-valley 损失景观的几何视角，分析了 Schedule-Free (SF) 优化器在语言模型预训练中不需要学习率衰减和权重平均就能持续追踪最优解的原因，并揭示 SF 隐式执行了权重平均…
 tags:
-  - NeurIPS 2025
-  - LLM预训练
-  - 学习率调度
-  - River-Valley损失景观
-  - 权重平均
-  - 大规模预训练
+  - "NeurIPS 2025"
+  - "预训练"
+  - "Schedule-Free优化器"
+  - "学习率调度"
+  - "River-Valley损失景观"
+  - "权重平均"
+  - "大规模预训练"
 ---
 
 # Through the River: Understanding the Benefit of Schedule-Free Methods for Language Model Training

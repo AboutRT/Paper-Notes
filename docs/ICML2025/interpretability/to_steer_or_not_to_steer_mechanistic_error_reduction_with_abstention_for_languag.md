@@ -2,16 +2,17 @@
 title: >-
   [论文解读] To Steer or Not to Steer? Mechanistic Error Reduction with Abstention for Language Models
 description: >-
-  [ICML2025][activation steering] 提出 MERA（Mechanistic Error Reduction with Abstention），一个基于线性error estimator的原则性activation steering框架，通过约束优化推导闭式最优steering强度，并引入校准步骤确保仅在可证明有效时才进行干预，解决了传统固定steering强度导致的过度/不足steering问题。
+  [ICML2025][可解释性][activation steering] 提出 MERA（Mechanistic Error Reduction with Abstention），一个基于线性error estimator的原则性activation steering框架…
 tags:
-  - ICML2025
-  - activation steering
-  - mechanistic intervention
-  - error mitigation
-  - 可解释性
-  - language models
-  - abstention
-  - probe-based steering
+  - "ICML2025"
+  - "可解释性"
+  - "activation steering"
+  - "mechanistic intervention"
+  - "error mitigation"
+  - "hallucination"
+  - "language models"
+  - "abstention"
+  - "probe-based steering"
 ---
 
 # To Steer or Not to Steer? Mechanistic Error Reduction with Abstention for Language Models

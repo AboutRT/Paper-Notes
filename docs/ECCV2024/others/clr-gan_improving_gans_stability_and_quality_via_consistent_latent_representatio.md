@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][GAN] 本文提出了CLR-GAN训练范式，通过让判别器恢复生成器的预定义隐码、让生成器重建真实输入，建立了G和D隐空间之间的一致性约束，使GAN训练更公平稳定，在CIFAR10上FID提升31.22%，在AFHQ-Cat上提升39.5%。
 tags:
-  - ECCV 2024
-  - GAN
-  - 隐空间一致性
-  - 其他
-  - 图像生成质量
-  - 判别器重建
+  - "ECCV 2024"
+  - "GAN"
+  - "隐空间一致性"
+  - "生成对抗网络"
+  - "图像生成质量"
+  - "判别器重建"
 ---
 
 # CLR-GAN: Improving GANs Stability and Quality via Consistent Latent Representation and Reconstruction

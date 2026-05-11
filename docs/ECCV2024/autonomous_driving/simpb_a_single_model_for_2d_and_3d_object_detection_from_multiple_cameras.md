@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][自动驾驶][多视角检测] 提出 SimPB 统一模型，通过混合解码器（multi-view 2D decoder + 3D decoder）以循环 3D→2D→3D 的方式同时完成多相机 2D 检测和 BEV 空间 3D 检测，在 nuScenes 上两项任务均取得优秀结果。
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 多视角检测
-  - 2D-3D联合检测
-  - 混合解码器
-  - Query分配聚合
-  - Transformer
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "多视角检测"
+  - "2D-3D联合检测"
+  - "混合解码器"
+  - "Query分配聚合"
+  - "Transformer"
 ---
 
 # SimPB: A Single Model for 2D and 3D Object Detection from Multiple Cameras

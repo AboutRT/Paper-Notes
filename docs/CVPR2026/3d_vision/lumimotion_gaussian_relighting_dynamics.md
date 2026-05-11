@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][逆渲染] LumiMotion 是首个利用场景动态（运动区域）作为监督信号来改善逆渲染的 Gaussian-based 方法，通过动静分离和运动揭示的材质变化来更好地分离光照与材质，albedo 估计 LPIPS 提升 23%，重光照提升 15%。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 逆渲染
-  - 2D高斯溅射
-  - 动态场景
-  - 材质估计
-  - 重光照
+  - "CVPR 2026"
+  - "3D视觉"
+  - "逆渲染"
+  - "2D高斯溅射"
+  - "动态场景"
+  - "材质估计"
+  - "重光照"
 ---
 
 # LumiMotion: Improving Gaussian Relighting with Scene Dynamics

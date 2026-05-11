@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Benchmarking Agentic Systems in Automated Scientific Information Extraction with ChemX
 description: >-
-  [NeurIPS 2025][LLM Agent][化学信息提取] 构建 ChemX——10 个由领域专家手工标注和验证的多模态化学数据提取基准数据集，涵盖纳米材料和小分子两大领域，系统评估了 ChatGPT Agent、SLM-Matrix、FutureHouse、nanoMINER 等 SOTA Agent 系统以及 GPT-5/GPT-5 Thinking 等前沿 LLM；提出的单 Agent 方法通过结构化文档预处理（marker-pdf → Markdown → LLM 提取）在纳米酶数据集上达到 F1=0.61，超越所有通用多 Agent 系统，同时揭示了化学信息提取仍存在 SMILES 解析失败、术语歧义等系统性挑战。
+  [NeurIPS 2025][LLM Agent][化学信息提取] 构建 ChemX——10 个由领域专家手工标注和验证的多模态化学数据提取基准数据集，涵盖纳米材料和小分子两大领域，系统评估了 ChatGPT Agent、SLM-Matrix、FutureHouse、nanoMINER 等 SOTA Agen…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - 化学信息提取
-  - 多模态Benchmark
-  - Agent评估
-  - 纳米材料
-  - 小分子
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "化学信息提取"
+  - "多模态Benchmark"
+  - "Agent评估"
+  - "纳米材料"
+  - "小分子"
 ---
 
 # Benchmarking Agentic Systems in Automated Scientific Information Extraction with ChemX
@@ -54,7 +54,7 @@ ChemX 包含两个层面：(1) **基准数据集层**——10 个手工标注数
 2. **单 Agent 方法（本文提出）**：
 
     - 功能：在 LLM 提取之前先做结构化文档预处理，解决 OpenAI 黑盒 PDF 处理不可控的问题
-    - 核心思路：使用 marker-pdf SDK 将论文 PDF 拆解为文本块、表格和图片三类元素，保持文档结构语义完整性。文本和表格转为 Markdown，图片替换为本地路径后由 GPT-4o 生成描述性文本，插入 `<DESCRIPTION_FROM_IMAGE>` 标签。最终的结构化 Markdown 文件交由 GPT-4.1/GPT-5/GPT-OSS-20b 进行提取，结果汇总为 CSV
+    - 核心思路：使用 marker-pdf SDK 将论文 PDF 拆解为文本块、表格和图片三类元素，保持文档结构语义完整性。文本和表格转为 Markdown，图片替换为本地路径后由 GPT-4o 生成描述性文本，插入 <code>&lt;DESCRIPTION_FROM_IMAGE&gt;</code> 标签。最终的结构化 Markdown 文件交由 GPT-4.1/GPT-5/GPT-OSS-20b 进行提取，结果汇总为 CSV
     - 设计动机：ChatGPT Agent 等系统直接处理 PDF/截图，但预处理过程不透明、不可重复——论文图表被截图后 OCR 质量不稳定，导致提取结果波动。通过显式控制预处理流程，可以确保可复现性和语义完整性
 
 3. **系统化评估体系**：

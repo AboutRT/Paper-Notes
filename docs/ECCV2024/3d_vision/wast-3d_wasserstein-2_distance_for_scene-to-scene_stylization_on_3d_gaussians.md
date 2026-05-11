@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出WaSt-3D，利用3D高斯溅射表示将风格迁移重新定义为两个高斯分布之间的最优传输问题，通过Sinkhorn散度匹配内容场景和风格场景的3D分布，首次实现了3D场景到场景的几何风格迁移。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians

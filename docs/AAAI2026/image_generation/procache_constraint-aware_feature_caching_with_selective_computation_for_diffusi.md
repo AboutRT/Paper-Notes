@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][图像生成][Transformer] 提出 ProCache，一个免训练的动态特征缓存框架：通过约束感知的非均匀缓存模式搜索和选择性计算策略，在 DiT-XL/2 上实现 2.90 倍加速、PixArt-α 上实现 1.96 倍加速，且图像质量几乎无损，显著优于现有缓存方法。
 tags:
-  - AAAI 2026
-  - 图像生成
-  - Transformer
-  - 特征缓存
-  - 免训练推理
-  - 动态调度
-  - Token选择
+  - "AAAI 2026"
+  - "图像生成"
+  - "Transformer"
+  - "特征缓存"
+  - "免训练推理"
+  - "动态调度"
+  - "Token选择"
 ---
 
 # ProCache: Constraint-Aware Feature Caching with Selective Computation for Diffusion Transformer Acceleration

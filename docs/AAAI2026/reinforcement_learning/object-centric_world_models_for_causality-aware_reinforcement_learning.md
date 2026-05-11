@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Object-Centric World Models for Causality-Aware Reinforcement Learning
 description: >-
-  [AAAI 2026][以物体为中心的世界模型] 提出 STICA 框架，通过统一的以物体为中心的 Transformer 架构实现世界模型、策略网络和价值网络，其中世界模型将观测分解为独立物体的隐状态进行 token 级动力学预测，策略和价值网络通过因果注意力机制估计 token 级因果关系实现因果感知决策，在 Safety Gym 和 OCVRL 基准上显著超越 DreamerV3 等 SOTA 方法。
+  [AAAI 2026][强化学习][以物体为中心的世界模型] 提出 STICA 框架，通过统一的以物体为中心的 Transformer 架构实现世界模型、策略网络和价值网络，其中世界模型将观测分解为独立物体的隐状态进行 token 级动力学预测…
 tags:
-  - AAAI 2026
-  - 以物体为中心的世界模型
-  - 强化学习
-  - 基于模型的强化学习
-  - 注意力机制
-  - Transformer
+  - "AAAI 2026"
+  - "强化学习"
+  - "以物体为中心的世界模型"
+  - "因果注意力"
+  - "基于模型的强化学习"
+  - "注意力机制"
+  - "Transformer"
 ---
 
 # Object-Centric World Models for Causality-Aware Reinforcement Learning

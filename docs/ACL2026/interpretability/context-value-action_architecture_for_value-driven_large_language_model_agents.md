@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Context-Value-Action Architecture for Value-Driven Large Language Model Agents
 description: >-
-  [ACL 2026 (Findings)][价值驱动智能体] 提出 CVA（Context-Value-Action）架构，基于 S-O-R 心理学模型和 Schwartz 价值理论，通过训练在真实人类数据上的 Value Verifier 解耦行为生成与认知推理，有效缓解 LLM 智能体的行为极化问题，在超过 110 万真实交互轨迹的 CVABench 上显著优于基线。
+  [ACL 2026 (Findings)][可解释性][价值驱动智能体] 提出 CVA（Context-Value-Action）架构，基于 S-O-R 心理学模型和 Schwartz 价值理论，通过训练在真实人类数据上的 Value Verifier 解耦行为生成与认知推理…
 tags:
-  - ACL 2026 (Findings)
-  - 可解释性
-  - 行为模拟
-  - Schwartz价值理论
-  - 行为极化
-  - 验证器
+  - "ACL 2026 (Findings)"
+  - "可解释性"
+  - "价值驱动智能体"
+  - "行为模拟"
+  - "Schwartz价值理论"
+  - "行为极化"
+  - "验证器"
 ---
 
 # Context-Value-Action Architecture for Value-Driven Large Language Model Agents

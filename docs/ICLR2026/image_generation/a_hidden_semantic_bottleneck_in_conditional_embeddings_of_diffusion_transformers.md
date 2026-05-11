@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][Transformer] 对扩散 Transformer 的条件嵌入进行首次系统分析，发现极端的角度相似性（类间余弦相似度>99%）和维度稀疏性（仅 1-2% 的维度携带语义信息），裁剪掉 2/3 的低幅维度后生成质量基本不变，揭示了条件嵌入中隐藏的语义瓶颈。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - Transformer
-  - conditioning
-  - embedding sparsity
-  - cosine similarity
-  - AdaLN
+  - "ICLR 2026"
+  - "图像生成"
+  - "Transformer"
+  - "conditioning"
+  - "embedding sparsity"
+  - "cosine similarity"
+  - "AdaLN"
 ---
 
 # A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers
@@ -96,7 +96,7 @@ N/A（分析论文，不训练模型）
 - 在晚期去噪步骤执行裁剪比早期效果更好，因为晚期条件信号更精细
 
 ## 亮点与洞察
-- **反直觉的发现**：1000 个完全不同的类别的条件嵌入竟然 99%+ 相似，模型靠 <2% 的维度差异就能生成完全不同的图像——挑战了对条件编码的常识理解
+- **反直觉的发现**：1000 个完全不同的类别的条件嵌入竟然 99%+ 相似，模型靠 &lt;2% 的维度差异就能生成完全不同的图像——挑战了对条件编码的常识理解
 - **对高效条件设计的启示**：既然只需 ~20 个有效维度，未来的条件注入机制可以大幅简化——降低维度、减少参数、加速推理
 - **与对比学习坍塌的区别**：虽然现象类似（嵌入高度相似），但这里并非有害坍塌——因为扩散过程的迭代精炼可以放大微小差异
 

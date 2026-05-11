@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation
 description: >-
-  [NeurIPS 2025][序列推荐] 提出 TV-Rec，基于图信号处理的时变卷积滤波器替代传统固定卷积和自注意力机制，实现更高表达力的序列推荐，在 6 个基准数据集上平均提升 7.49%。
+  [NeurIPS 2025][推荐系统][序列推荐] 提出 TV-Rec，基于图信号处理的时变卷积滤波器替代传统固定卷积和自注意力机制，实现更高表达力的序列推荐，在 6 个基准数据集上平均提升 7.49%。
 tags:
-  - NeurIPS 2025
-  - 序列推荐
-  - 时变卷积滤波器
-  - 图信号处理
-  - 注意力替代
-  - 用户行为建模
+  - "NeurIPS 2025"
+  - "推荐系统"
+  - "序列推荐"
+  - "时变卷积滤波器"
+  - "图信号处理"
+  - "注意力替代"
+  - "用户行为建模"
 ---
 
 # TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation

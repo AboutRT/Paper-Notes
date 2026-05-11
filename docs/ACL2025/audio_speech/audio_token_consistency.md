@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Analyzing and Mitigating Inconsistency in Discrete Audio Tokens for Neural Codec Language Models
 description: >-
-  [ACL 2025][语音][音频编解码] 本文揭示并量化分析了神经音频编解码器中的离散表示不一致性（DRI）问题——相同音频片段因上下文不同被编码为不同离散token序列，提出切片一致性和扰动一致性两种约束方法，将一致性平均提升21-36%，并在VALL-E语音生成中将WER降低3.72%。
+  [ACL 2025][音频/语音][音频编解码] 本文揭示并量化分析了神经音频编解码器中的离散表示不一致性（DRI）问题——相同音频片段因上下文不同被编码为不同离散token序列，提出切片一致性和扰动一致性两种约束方法，将一致性平均提升21-36%，并在VALL-E语音生成中将WER降低3.72%。
 tags:
-  - ACL 2025
-  - 语音
-  - 音频编解码
-  - 离散表示一致性
-  - 语音生成
-  - VALL-E
-  - 音频语音
+  - "ACL 2025"
+  - "音频/语音"
+  - "音频编解码"
+  - "离散表示一致性"
+  - "语音生成"
+  - "VALL-E"
+  - "神经编解码语言模型"
 ---
 
 # Analyzing and Mitigating Inconsistency in Discrete Audio Tokens for Neural Codec Language Models

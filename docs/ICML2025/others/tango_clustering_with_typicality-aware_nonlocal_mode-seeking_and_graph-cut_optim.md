@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICML2025][密度聚类] 提出"典型性(typicality)"概念，从全局视角量化数据点作为模式(聚类中心)的置信度，结合改进的路径相似度与图割优化，实现无需人工阈值设定的自动模式检测与聚类。
 tags:
-  - ICML2025
-  - 密度聚类
-  - 模式搜索
-  - 典型性
-  - 其他
-  - 谱聚类
+  - "ICML2025"
+  - "密度聚类"
+  - "模式搜索"
+  - "典型性"
+  - "图割优化"
+  - "谱聚类"
 ---
 
 # TANGO: Clustering with Typicality-Aware Nonlocal Mode-Seeking and Graph-Cut Optimization

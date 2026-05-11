@@ -2,15 +2,15 @@
 title: >-
   [论文解读] FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation
 description: >-
-  [ACL 2025][多模态][多模态评估] 构建了一个包含 11,000+ 高质量金融多模态样本的评估基准 FinMME，涵盖 18 个金融领域和 10 种图表类型，提出了融合幻觉惩罚和领域归一化的 FinScore 评估体系，实验表明即使 GPT-4o 也仅得 47 分，揭示了 MLLM 在金融领域的显著不足。
+  [ACL 2025][多模态VLM][多模态评估] 构建了一个包含 11,000+ 高质量金融多模态样本的评估基准 FinMME，涵盖 18 个金融领域和 10 种图表类型，提出了融合幻觉惩罚和领域归一化的 FinScore 评估体系，实验表明即使 GPT-4o 也仅得 47 分…
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态评估
-  - 金融基准
-  - 多模态VLM
-  - 图表理解
-  - MLLM
+  - "ACL 2025"
+  - "多模态VLM"
+  - "多模态评估"
+  - "金融基准"
+  - "幻觉惩罚"
+  - "图表理解"
+  - "MLLM"
 ---
 
 # FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation

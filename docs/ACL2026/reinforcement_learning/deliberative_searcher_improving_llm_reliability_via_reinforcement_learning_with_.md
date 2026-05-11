@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with Constraints
 description: >-
-  [ACL 2026][置信度校准] 本文提出 Deliberative Searcher，一个推理优先的框架，将搜索操作集成到 CoT 生成中并保持显式置信度校准，使用自适应拉格朗日乘子的约束 RL 联合优化正确性和可靠性，将 7B 模型的平均"错误-确定"率从基线的 54% 降至 2%。
+  [ACL 2026][强化学习][置信度校准] 本文提出 Deliberative Searcher，一个推理优先的框架，将搜索操作集成到 CoT 生成中并保持显式置信度校准，使用自适应拉格朗日乘子的约束 RL 联合优化正确性和可靠性，将 7B 模型的平均"错误-确定"率从基线的 54% 降至 2%。
 tags:
-  - ACL 2026
-  - 置信度校准
-  - 强化学习
-  - 约束强化学习
-  - 可靠性
-  - 推理效率
+  - "ACL 2026"
+  - "强化学习"
+  - "置信度校准"
+  - "搜索增强LLM"
+  - "约束强化学习"
+  - "可靠性"
+  - "推理效率"
 ---
 
 # Deliberative Searcher: Improving LLM Reliability via Reinforcement Learning with Constraints

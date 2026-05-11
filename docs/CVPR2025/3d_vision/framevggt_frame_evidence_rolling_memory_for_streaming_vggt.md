@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][流式3D重建] 提出 FrameVGGT，将流式 VGGT 的 KV 缓存从 token 级保留重组为帧级证据块保留，通过中期记忆库+稀疏锚点的双层有界内存结构，在固定内存预算下保持更连贯的几何支撑，实现长序列3D重建/深度/位姿估计的精度-内存最优权衡。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 流式3D重建
-  - KV缓存管理
-  - 有界内存
-  - VGGT
-  - 在线几何推理
+  - "CVPR 2025"
+  - "3D视觉"
+  - "流式3D重建"
+  - "KV缓存管理"
+  - "有界内存"
+  - "VGGT"
+  - "在线几何推理"
 ---
 
 # FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT

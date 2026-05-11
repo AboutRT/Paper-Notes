@@ -2,15 +2,15 @@
 title: >-
   [论文解读] STEP: A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking
 description: >-
-  [NeurIPS 2025][图像分割][Transformer] STEP 是首个统一的脉冲 Transformer (Spiking Transformer) 评估平台，支持分类/分割/检测多任务、多后端（SpikingJelly/BrainCog/BrainPy），通过系统消融揭示了当前脉冲 Transformer 严重依赖卷积前端、注意力贡献有限、时序建模能力不足的关键发现，并提出了考虑位宽稀疏性和内存访问的统一能耗分析框架。
+  [NeurIPS 2025][语义分割][Transformer] STEP 是首个统一的脉冲 Transformer (Spiking Transformer) 评估平台，支持分类/分割/检测多任务、多后端（SpikingJelly/BrainCog/BrainPy）…
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - Transformer
-  - 统一基准
-  - 能耗建模
-  - 脉冲神经网络
-  - 可复现评估
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "Transformer"
+  - "统一基准"
+  - "能耗建模"
+  - "脉冲神经网络"
+  - "可复现评估"
 ---
 
 # STEP: A Unified Spiking Transformer Evaluation Platform for Fair and Reproducible Benchmarking
@@ -76,7 +76,7 @@ STEP 是一个模块化的基准测试框架，而非一种新模型。其架构
 
 | 实验维度 | 关键结果 | 说明 |
 |---------|---------|------|
-| 随机化注意力 (Spikformer) | 精度下降 <0.35% | ST 不依赖注意力做特征提取 |
+| 随机化注意力 (Spikformer) | 精度下降 &lt;0.35% | ST 不依赖注意力做特征提取 |
 | 随机化注意力 (ANN ViT) | 精度下降 ~2.4% | ANN 强烈依赖注意力 |
 | SPS 从 4 层→1 层卷积 (Spikformer) | 95.12→78.21 | 卷积前端是性能核心 |
 | 序列建模 (Spikformer vs ViT+SPS) | 98.84 vs 99.19 (sMNIST) | SNN 时序建模弱于 ANN |
@@ -85,7 +85,7 @@ STEP 是一个模块化的基准测试框架，而非一种新模型。其架构
 
 ### 关键发现
 
-- **注意力贡献极有限**：随机化 Q、K 后 STs 性能几乎不变（<0.35% 下降），而 ANN ViT 下降显著（~2.4%），说明当前脉冲注意力机制只是"装饰品"
+- **注意力贡献极有限**：随机化 Q、K 后 STs 性能几乎不变（&lt;0.35% 下降），而 ANN ViT 下降显著（~2.4%），说明当前脉冲注意力机制只是"装饰品"
 - **卷积前端才是核心**：将 SPS 从 4 层减至 1 层卷积后性能急剧下降（Spikformer: 95.12→78.21），证明大部分表示能力来自卷积前端而非注意力
 - **时序建模能力不足**：在序列化任务上 STs 落后于同架构 ANN，归因于有限训练步数和稀疏神经元激活
 - **能效优势可能被高估**：考虑内存访问后，脉冲 Transformer 的总能耗可能高于量化 Transformer——这是对 SNN 社区的重要警示

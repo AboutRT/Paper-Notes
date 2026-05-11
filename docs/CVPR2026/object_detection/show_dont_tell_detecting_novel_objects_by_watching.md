@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Show, Don't Tell: Detecting Novel Objects by Watching Human Videos
 description: >-
-  [CVPR 2026][目标检测][目标检测] 提出 "Show, Don't Tell" 范式——通过观看人类演示视频自动创建训练数据集并训练定制化物体检测器，完全绕过语言描述和提示工程，在真实机器人场景中显著超越 SOTA 开集/闭集检测器的新物体识别能力。
+  [CVPR 2026][目标检测][自监督学习] 提出 "Show, Don't Tell" 范式——通过观看人类演示视频自动创建训练数据集并训练定制化物体检测器，完全绕过语言描述和提示工程，在真实机器人场景中显著超越 SOTA 开集/闭集检测器的新物体识别能力。
 tags:
-  - CVPR 2026
-  - 目标检测
-  - 自监督学习
-  - human demonstration
-  - bespoke detector
-  - robot manipulation
+  - "CVPR 2026"
+  - "目标检测"
+  - "自监督学习"
+  - "human demonstration"
+  - "bespoke detector"
+  - "robot manipulation"
 ---
 
 # Show, Don't Tell: Detecting Novel Objects by Watching Human Videos

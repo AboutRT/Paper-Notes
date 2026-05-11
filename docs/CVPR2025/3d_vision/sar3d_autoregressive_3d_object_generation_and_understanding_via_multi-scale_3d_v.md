@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE
 description: >-
-  [CVPR 2025][3D视觉][3D生成] SAR3D 提出了一个基于多尺度 3D VQVAE 的自回归框架，通过"next-scale prediction"（而非 next-token prediction）在 0.82 秒内完成高质量 3D 物体生成，并且同一套 VQVAE token 可以微调 LLM 实现详细的 3D 物体理解与描述。
+  [CVPR 2025][3D视觉][3D生成] SAR3D 提出了一个基于多尺度 3D VQVAE 的自回归框架，通过"next-scale prediction"（而非 next-token prediction）在 0.82 秒内完成高质量 3D 物体生成…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D生成
-  - 自回归模型
-  - VQVAE
-  - 3D理解
-  - 多尺度表示
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D生成"
+  - "自回归模型"
+  - "VQVAE"
+  - "3D理解"
+  - "多尺度表示"
 ---
 
 # SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE

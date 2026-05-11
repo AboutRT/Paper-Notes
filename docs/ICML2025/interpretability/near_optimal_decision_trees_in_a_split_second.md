@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Near-Optimal Decision Trees in a SPLIT Second
 description: >-
-  [ICML2025][可解释性] 提出 SPLIT 算法族，通过在决策树根部附近做全局最优搜索、叶节点附近用贪心策略的混合方案，实现比全局最优方法快 100 倍以上且精度几乎无损的决策树构建。
+  [ICML2025][可解释性][决策树优化] 提出 SPLIT 算法族，通过在决策树根部附近做全局最优搜索、叶节点附近用贪心策略的混合方案，实现比全局最优方法快 100 倍以上且精度几乎无损的决策树构建。
 tags:
-  - ICML2025
-  - 可解释性
-  - 分支定界
-  - 动态规划
-  - 贪心搜索
-  - Rashomon集
-  - 可解释性
-  - 稀疏性
+  - "ICML2025"
+  - "可解释性"
+  - "决策树优化"
+  - "分支定界"
+  - "动态规划"
+  - "贪心搜索"
+  - "Rashomon集"
+  - "稀疏性"
 ---
 
 # Near-Optimal Decision Trees in a SPLIT Second

@@ -1,16 +1,26 @@
 ---
 title: >-
-  NeurIPS2025 强化学习方向172篇论文解读
+  NeurIPS2025 强化学习方向171篇论文解读
 description: >-
-  172篇NeurIPS2025的强化学习方向论文解读，涵盖强化学习、Agent、推理、对抗鲁棒、LLM、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  171篇NeurIPS2025的强化学习方向论文解读，涵盖强化学习、Agent、推理、对抗鲁棒、LLM、多模态等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "强化学习"
+  - "论文解读"
+  - "论文笔记"
+  - "Agent"
+  - "推理"
+  - "对抗鲁棒"
+  - "LLM"
+  - "多模态"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🎮 强化学习
 
-**🧠 NeurIPS2025** · **172** 篇论文解读
+**🧠 NeurIPS2025** · **171** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (34)](../../ACL2026/reinforcement_learning/index.md) · [📷 CVPR2026 (19)](../../CVPR2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (139)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (81)](../../ICML2025/reinforcement_learning/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (34)](../../ACL2026/reinforcement_learning/index.md) · [📷 CVPR2026 (19)](../../CVPR2026/reinforcement_learning/index.md) · [🔬 ICLR2026 (138)](../../ICLR2026/reinforcement_learning/index.md) · [🤖 AAAI2026 (71)](../../AAAI2026/reinforcement_learning/index.md) · [📹 ICCV2025 (7)](../../ICCV2025/reinforcement_learning/index.md) · [🧪 ICML2025 (80)](../../ICML2025/reinforcement_learning/index.md)
 
 🔥 **高频主题：** 强化学习 ×63 · Agent ×16 · 推理 ×12 · 对抗鲁棒 ×11 · LLM ×5
 
@@ -233,10 +243,6 @@ description: >-
 **[Foundation Models as World Models: A Foundational Study in Text-Based GridWorlds](foundation_models_as_world_models_a_foundational_study_in_text-based_gridworlds.md)**
 
 :   系统性评估了基础模型（LLM）作为零样本世界模型（FWM）和直接决策智能体（FA）在文本网格世界中的表现，揭示了两种策略在确定性/随机性环境中的互补优势。
-
-**[Gaussian Process Upper Confidence Bound Achieves Nearly-Optimal Regret in Noise-Free Gaussian Process Bandits](gaussian_process_upper_confidence_bound_achieves_nearly-optimal_regret_in_noise-.md)**
-
-:   本文证明 GP-UCB 在 noise-free GP bandit 问题中可达到 nearly-optimal regret，首次在 SE 核下实现 $O(1)$ 常数累积遗憾、在 Matérn 核（$d < \nu$）下实现 $O(1)$ 累积遗憾，弥合了 GP-UCB 理论与实践之间的长期差距。
 
 **[Generalized Linear Bandits: Almost Optimal Regret with One-Pass Update](generalized_linear_bandits_almost_optimal_regret_with_one-pass_update.md)**
 

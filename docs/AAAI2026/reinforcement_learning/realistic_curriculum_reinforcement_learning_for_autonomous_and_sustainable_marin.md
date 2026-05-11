@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Realistic Curriculum Reinforcement Learning for Autonomous and Sustainable Marine Vessel Navigation
 description: >-
-  [AAAI 2026][课程强化学习] 提出一个课程强化学习（CRL）框架用于自主且可持续的海洋船舶航行，集成了基于真实AIS数据的仿真环境、扩散模型增强的动态海上交通模拟、以及机器学习燃油消耗预测模块，通过多目标奖励函数同时优化航行安全性、排放减少、时效性和目标完成。
+  [AAAI 2026][强化学习][课程强化学习] 提出一个课程强化学习（CRL）框架用于自主且可持续的海洋船舶航行，集成了基于真实AIS数据的仿真环境、扩散模型增强的动态海上交通模拟、以及机器学习燃油消耗预测模块，通过多目标奖励函数同时优化航行安全性、排放减少、时效性和目标完成。
 tags:
-  - AAAI 2026
-  - 课程强化学习
-  - 自主航行
-  - 海上可持续性
-  - 扩散模型
-  - 燃油消耗预测
+  - "AAAI 2026"
+  - "强化学习"
+  - "课程强化学习"
+  - "自主航行"
+  - "海上可持续性"
+  - "扩散模型"
+  - "燃油消耗预测"
 ---
 
 # Realistic Curriculum Reinforcement Learning for Autonomous and Sustainable Marine Vessel Navigation

@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][闭环仿真] 构建基于 4D 占用网格的高保真闭环驾驶仿真框架——用 OccDreamer 从 BEV 生成静态场景占用、用 Actor Bank 组合动态物体、用 VideoDreamer 从占用条件生成多视角视频，FVD 降低 44%，物体检测 mAP 提升 33%。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 闭环仿真
-  - 4D世界模型
-  - 占用网格扩散
-  - 视频生成
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "闭环仿真"
+  - "4D世界模型"
+  - "占用网格扩散"
+  - "视频生成"
 ---
 
 # DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation

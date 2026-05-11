@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement
 description: >-
-  [ACL 2025][LLM对齐][多智能体辩论] 提出 D&R 框架，让小模型（student）与多个大模型（teacher）进行多轮辩论并收集自我反思和教师反馈，然后将辩论日志组织为偏好树做 Tree-structured DPO (T-DPO) 蒸馏，在 MMLU Pro 和 MATH 上平均提升 14.18 分，且推理效率优于基线。
+  [ACL 2025][LLM对齐][多智能体辩论] 提出 D&R 框架，让小模型（student）与多个大模型（teacher）进行多轮辩论并收集自我反思和教师反馈，然后将辩论日志组织为偏好树做 Tree-structured DPO (T-DPO) 蒸馏…
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 多智能体辩论
-  - 知识蒸馏
-  - 偏好优化
-  - 自我反思
-  - 树结构DPO
+  - "ACL 2025"
+  - "LLM对齐"
+  - "多智能体辩论"
+  - "知识蒸馏"
+  - "偏好优化"
+  - "自我反思"
+  - "树结构DPO"
 ---
 
 # Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement

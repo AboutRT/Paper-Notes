@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Enhancing Training Data Attribution with Representational Optimization
 description: >-
-  [NeurIPS 2025][training data attribution] 提出 AirRep（Attentive Influence Ranking Representation），一种基于表示学习的训练数据归因方法，通过可训练编码器和注意力池化机制，在推理效率比梯度方法快约 80 倍的同时，达到甚至超越 SOTA 梯度方法的归因精度。
+  [NeurIPS 2025][预训练][training data attribution] 提出 AirRep（Attentive Influence Ranking Representation），一种基于表示学习的训练数据归因方法，通过可训练编码器和注意力池化机制…
 tags:
-  - NeurIPS 2025
-  - training data attribution
-  - 表示学习
-  - 影响函数
-  - 注意力机制
-  - 数据选择
+  - "NeurIPS 2025"
+  - "预训练"
+  - "training data attribution"
+  - "表示学习"
+  - "影响函数"
+  - "注意力机制"
+  - "数据选择"
 ---
 
 # Enhancing Training Data Attribution with Representational Optimization

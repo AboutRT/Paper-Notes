@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dual-branch Spatial-Temporal Self-supervised Representation for Enhanced Road Network Learning
 description: >-
-  [AAAI 2026][自动驾驶][路网表示学习] 提出 DST（Dual-branch Spatial-Temporal）路网表示学习框架，通过空间分支（mix-hop 转移矩阵 + 图-超图对比学习）和时间分支（Transformer 编码器 + 下一 token 预测 + 工作日/周末分类）两条支路联合建模路网的空间异质性和时间动态性，在三个城市的三项下游任务上取得 SOTA。
+  [AAAI 2026][自动驾驶][路网表示学习] 提出 DST（Dual-branch Spatial-Temporal）路网表示学习框架，通过空间分支（mix-hop 转移矩阵 + 图-超图对比学习）和时间分支（Transformer 编码器 + 下一 token 预测 + 工作日/周末分类）两条支路联合…
 tags:
-  - AAAI 2026
-  - 自动驾驶
-  - 路网表示学习
-  - 自监督学习
-  - 图神经网络
-  - 超图
-  - 时空建模
+  - "AAAI 2026"
+  - "自动驾驶"
+  - "路网表示学习"
+  - "自监督学习"
+  - "图神经网络"
+  - "超图"
+  - "时空建模"
 ---
 
 # Dual-branch Spatial-Temporal Self-supervised Representation for Enhanced Road Network Learning

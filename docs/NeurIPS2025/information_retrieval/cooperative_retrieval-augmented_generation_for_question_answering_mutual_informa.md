@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cooperative Retrieval-Augmented Generation for Question Answering: Mutual Information Exchange and Ranking by Contrasting Layers
 description: >-
-  [NeurIPS 2025][RAG] 提出CoopRAG框架，通过问题展开、基于检索器层对比的重排、以及推理链补全，实现检索器与LLM的双向合作，在多跳QA上超越HippoRAG2 5.3%，单跳QA上提升35.2%。
+  [NeurIPS 2025][信息检索/RAG][RAG] 提出CoopRAG框架，通过问题展开、基于检索器层对比的重排、以及推理链补全，实现检索器与LLM的双向合作，在多跳QA上超越HippoRAG2 5.3%，单跳QA上提升35.2%。
 tags:
-  - NeurIPS 2025
-  - RAG
-  - 问题展开
-  - 层对比排名
-  - 信息检索
-  - 合作机制
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "RAG"
+  - "问题展开"
+  - "层对比排名"
+  - "多跳QA"
+  - "合作机制"
 ---
 
 # Cooperative Retrieval-Augmented Generation for Question Answering: Mutual Information Exchange and Ranking by Contrasting Layers
@@ -49,9 +50,9 @@ CoopRAG分为五个阶段：
 
 LLM生成：
 - 子问题集 S = {s_1, s_2, ..., s_|S|}
-- 不确定推理链 R = {(e_1, r_1, e_1'), ...,(e_|R|, r_t, <FILL>)}
+- 不确定推理链 R = {(e_1, r_1, e_1'), ...,(e_|R|, r_t, &lt;FILL>)}
 
-关键创新：使用<UNCERTAIN>掩码代替不确定实体，避免hallucination：
+关键创新：使用&lt;UNCERTAIN>掩码代替不确定实体，避免hallucination：
 
 U = Q || S || R
 
@@ -72,7 +73,7 @@ score_o(U, D) = ω_{U,D} · avg_i max_j <q_i, d_j^(L)>
 
 **推理链补全 (Section 3.5)**:
 
-LLM利用top-k文档，填充<UNCERTAIN>和<FILL>占位符，重构推理链
+LLM利用top-k文档，填充&lt;UNCERTAIN>和&lt;FILL>占位符，重构推理链
 
 **难度感知训练 (Section 3.6)**:
 

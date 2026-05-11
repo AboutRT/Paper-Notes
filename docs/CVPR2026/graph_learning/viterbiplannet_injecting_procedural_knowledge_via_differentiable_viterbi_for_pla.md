@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图学习][过程规划] 将过程知识图（PKG）通过可微Viterbi层端到端嵌入规划模型，使神经网络只需学习发射概率而非记忆完整过程结构，在CrossTask/COIN/NIV上以仅5-7M参数（比扩散/LLM方法少1-3个数量级）达到SOTA成功率，并建立了统一的评估基准。
 tags:
-  - CVPR 2026
-  - 图学习
-  - 过程规划
-  - 可微Viterbi
-  - 过程知识图
-  - 教学视频
-  - 结构感知训练
+  - "CVPR 2026"
+  - "图学习"
+  - "过程规划"
+  - "可微Viterbi"
+  - "过程知识图"
+  - "教学视频"
+  - "结构感知训练"
 ---
 
 # ViterbiPlanNet: Injecting Procedural Knowledge via Differentiable Viterbi for Planning

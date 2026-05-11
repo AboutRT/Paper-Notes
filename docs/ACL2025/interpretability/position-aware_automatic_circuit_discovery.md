@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Position-aware Automatic Circuit Discovery
 description: >-
-  [ACL 2025][电路发现] 提出位置感知的边归因修补方法（PEAP）和数据集 Schema 机制，解决了自动电路发现中忽略位置信息导致的抵消效应和重要性高估问题，实现了更小且更忠实的电路发现。
+  [ACL 2025][可解释性][电路发现] 提出位置感知的边归因修补方法（PEAP）和数据集 Schema 机制，解决了自动电路发现中忽略位置信息导致的抵消效应和重要性高估问题，实现了更小且更忠实的电路发现。
 tags:
-  - ACL 2025
-  - 电路发现
-  - 位置感知
-  - 机械可解释性
-  - 归因修补
-  - Schema
+  - "ACL 2025"
+  - "可解释性"
+  - "电路发现"
+  - "位置感知"
+  - "机械可解释性"
+  - "归因修补"
+  - "Schema"
 ---
 
 # Position-aware Automatic Circuit Discovery

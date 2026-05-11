@@ -1,18 +1,27 @@
 ---
 title: >-
-  ECCV2024 医学图像方向27篇论文解读
+  ECCV2024 医学图像方向26篇论文解读
 description: >-
-  27篇ECCV2024的医学图像方向论文解读，涵盖医学影像、扩散模型、语义分割、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+  26篇ECCV2024的医学图像方向论文解读，涵盖医学影像、语义分割、少样本学习、扩散模型等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想，助你快速跟进AI领域最新研究动态、学术前沿趋势与核心技术突破。
+tags:
+  - "ECCV2024"
+  - "医学图像"
+  - "论文解读"
+  - "论文笔记"
+  - "医学影像"
+  - "语义分割"
+  - "少样本学习"
+  - "扩散模型"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🏥 医学图像
 
-**🎞️ ECCV2024** · **27** 篇论文解读
+**🎞️ ECCV2024** · **26** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (105)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (141)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (40)](../../ACL2026/medical_imaging/index.md) · [📷 CVPR2026 (114)](../../CVPR2026/medical_imaging/index.md) · [🔬 ICLR2026 (72)](../../ICLR2026/medical_imaging/index.md) · [🤖 AAAI2026 (105)](../../AAAI2026/medical_imaging/index.md) · [🧠 NeurIPS2025 (140)](../../NeurIPS2025/medical_imaging/index.md) · [📹 ICCV2025 (38)](../../ICCV2025/medical_imaging/index.md)
 
-🔥 **高频主题：** 医学影像 ×14 · 扩散模型 ×3 · 语义分割 ×3 · 少样本学习 ×2
+🔥 **高频主题：** 医学影像 ×14 · 语义分割 ×3 · 少样本学习 ×2 · 扩散模型 ×2
 
 **[A Cephalometric Landmark Regression Method Based on Dual-Encoder for High-Resolution X-Ray Image](a_cephalometric_landmark_regression_method_based_on_dual-encoder_for_high-resolu.md)**
 
@@ -25,10 +34,6 @@ description: >-
 **[AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection](adaclip_adapting_clip_with_hybrid_learnable_prompts_for_zero.md)**
 
 :   在CLIP中同时引入静态（全局共享）和动态（逐图生成）两种可学习提示，用辅助异常检测数据训练后，在14个工业+医学异常检测数据集上实现零样本SOTA，核心在于"任务级+实例级"双层自适应的混合提示设计。
-
-**[Adaptive Compressed Sensing with Diffusion-Based Posterior Sampling](adaptive_compressed_sensing_with_diffusionbased_posterior_sa.md)**
-
-:   提出AdaSense，利用预训练扩散模型的零样本后验采样来量化重建不确定性，从而自适应地选择最优测量矩阵，无需额外训练即可在人脸图像、MRI和CT等多领域实现优于非自适应方法的压缩感知重建。
 
 **[Adaptive Correspondence Scoring for Unsupervised Medical Image Registration](adaptive_correspondence_scoring_for_unsupervised_medical_ima.md)**
 

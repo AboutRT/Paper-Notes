@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Conformal Prediction as Bayesian Quadrature
 description: >-
-  [ICML 2025][共形预测] 从贝叶斯视角重新审视共形预测——证明分裂共形预测和共形风险控制都是贝叶斯求积（Bayesian Quadrature）框架的特例，提出实用的贝叶斯替代方案，提供可解释的保证和对未来损失范围的更丰富表示。
+  [ICML 2025][可解释性][共形预测] 从贝叶斯视角重新审视共形预测——证明分裂共形预测和共形风险控制都是贝叶斯求积（Bayesian Quadrature）框架的特例，提出实用的贝叶斯替代方案，提供可解释的保证和对未来损失范围的更丰富表示。
 tags:
-  - ICML 2025
-  - 共形预测
-  - 贝叶斯求积
-  - 可解释性
-  - 概率数值方法
-  - 分布无关
+  - "ICML 2025"
+  - "可解释性"
+  - "共形预测"
+  - "贝叶斯求积"
+  - "不确定性量化"
+  - "概率数值方法"
+  - "分布无关"
 ---
 
 # Conformal Prediction as Bayesian Quadrature

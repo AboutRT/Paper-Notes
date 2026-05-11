@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Graph Neural Network Approach for Localized and High-Resolution Temperature Forecasting
 description: >-
-  [NeurIPS 2025][时间序列][图神经网络] 提出一种 GCN-GRU 混合框架用于社区尺度（2.5km）高分辨率温度预报（1-48小时），在加拿大西南安大略三个区域上验证，最大区域平均 MAE 1.93°C、48h MAE 2.93°C，探索了 ClimateBERT 语言模型嵌入作为标准化输入的方案，为数据稀缺的全球南方地区提供可迁移的轻量级预报框架。
+  [NeurIPS 2025][时间序列][图神经网络] 提出一种 GCN-GRU 混合框架用于社区尺度（2.5km）高分辨率温度预报（1-48小时），在加拿大西南安大略三个区域上验证，最大区域平均 MAE 1.93°C、48h MAE 2.93°C…
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 图神经网络
-  - 温度预报
-  - 高分辨率
-  - 热浪预警
-  - 气候公平
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "图神经网络"
+  - "温度预报"
+  - "高分辨率"
+  - "热浪预警"
+  - "气候公平"
 ---
 
 # A Graph Neural Network Approach for Localized and High-Resolution Temperature Forecasting

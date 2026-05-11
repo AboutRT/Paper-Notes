@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL2026][模型压缩][待补充] 待深读论文后补充
 tags:
-  - ACL2026
-  - 模型压缩
-  - 待补充
+  - "ACL2026"
+  - "模型压缩"
+  - "待补充"
 ---
 
 # Latent-Condensed Transformer for Efficient Long Context Modeling

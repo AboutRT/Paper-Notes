@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][主体驱动定制] 本文提出 FreeCus，一个完全免训练的主体驱动定制框架，通过关键注意力共享机制、改进的动态偏移特征提取和多模态大语言模型语义增强三大创新，激活扩散 Transformer（DiT）的内在零样本主体定制能力，达到与需要额外训练的方法相当甚至更优的效果。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 主体驱动定制
-  - Transformer
-  - 免训练
-  - 注意力共享
-  - 零样本生成
+  - "ICCV 2025"
+  - "图像生成"
+  - "主体驱动定制"
+  - "Transformer"
+  - "免训练"
+  - "注意力共享"
+  - "零样本生成"
 ---
 
 # FreeCus: Free Lunch Subject-driven Customization in Diffusion Transformers

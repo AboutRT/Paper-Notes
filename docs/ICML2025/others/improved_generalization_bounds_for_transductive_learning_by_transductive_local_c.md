@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML2025][转导学习] 提出转导局部复杂度（TLC）框架，将经典的局部 Rademacher 复杂度扩展到转导学习设定，获得了与归纳学习几乎一致的超额风险界（仅差对数因子），并解决了十年未决的开放问题。
 tags:
-  - ICML2025
-  - 转导学习
-  - 泛化界
-  - 局部Rademacher复杂度
-  - VC维
-  - 核学习
-  - 集中不等式
-  - 无放回抽样
+  - "ICML2025"
+  - "转导学习"
+  - "泛化界"
+  - "局部Rademacher复杂度"
+  - "VC维"
+  - "核学习"
+  - "集中不等式"
+  - "无放回抽样"
 ---
 
 # Improved Generalization Bounds for Transductive Learning by Transductive Local Complexity and Its Applications

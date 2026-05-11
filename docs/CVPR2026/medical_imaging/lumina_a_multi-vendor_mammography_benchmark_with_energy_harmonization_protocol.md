@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][乳腺X线摄影] 提出 LUMINA 多厂商乳腺 FFDM 数据集（468 例患者、1824 张图像），附带前景像素直方图匹配的能量协调预处理方法，在诊断/BI-RADS/密度三任务上系统评估了 CNN 与 Transformer 模型。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 乳腺X线摄影
-  - 多厂商数据集
-  - 能量协调
-  - 直方图匹配
-  - benchmark
+  - "CVPR 2026"
+  - "医学图像"
+  - "乳腺X线摄影"
+  - "多厂商数据集"
+  - "能量协调"
+  - "直方图匹配"
+  - "benchmark"
 ---
 
 # LUMINA: A Multi-Vendor Mammography Benchmark with Energy Harmonization Protocol

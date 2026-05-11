@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][时间序列][LLM evaluation] 提出 Daily Oracle——一个每日自动从新闻生成预测性 QA 对的持续评估基准，系统性揭示了 LLM 预测能力随预训练数据过时而平滑退化的规律，TF 题平均降 21.55%、MC 题降 11.33%，且 RAG 也无法完全挽救。
 tags:
-  - ICML 2025
-  - 时间序列
-  - LLM evaluation
-  - continuous benchmark
-  - news forecasting
-  - temporal generalization
-  - knowledge cutoff
+  - "ICML 2025"
+  - "时间序列"
+  - "LLM evaluation"
+  - "continuous benchmark"
+  - "news forecasting"
+  - "temporal generalization"
+  - "knowledge cutoff"
 ---
 
 # Are LLMs Prescient? A Continuous Evaluation using Daily News as the Oracle

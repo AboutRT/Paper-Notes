@@ -2,14 +2,14 @@
 title: >-
   [论文解读] UniShape: A Unified Shape-Aware Foundation Model for Time Series Classification
 description: >-
-  [AAAI 2026][其他] 提出UniShape——首个面向时间序列分类(TSC)的形状感知基础模型：通过多尺度子序列(shape)自适应聚合的shape-aware adapter捕获类别判别性时序模式，结合原型预训练模块在实例级和shape级联合学习可迁移的shapelet表示；在189万样本上预训练后，128个UCR数据集上达到0.8708平均准确率，超越所有基线。
+  [AAAI 2026][时间序列分类] 提出UniShape——首个面向时间序列分类(TSC)的形状感知基础模型：通过多尺度子序列(shape)自适应聚合的shape-aware adapter捕获类别判别性时序模式，结合原型预训练模块在实例级和shape级联合学习可迁移的shapelet表示…
 tags:
-  - AAAI 2026
-  - 其他
-  - 基础模型
-  - Shapelet
-  - 多尺度
-  - 原型学习
+  - "AAAI 2026"
+  - "时间序列分类"
+  - "基础模型"
+  - "Shapelet"
+  - "多尺度"
+  - "原型学习"
 ---
 
 # UniShape: A Unified Shape-Aware Foundation Model for Time Series Classification

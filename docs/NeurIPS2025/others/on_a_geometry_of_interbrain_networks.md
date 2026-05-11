@@ -2,14 +2,14 @@
 title: >-
   [论文解读] On a Geometry of Interbrain Networks
 description: >-
-  [NeurIPS 2025 (Symmetry and Geometry in Neural Representations Workshop)][离散曲率] 本文是一篇观点论文（opinion piece），提出将离散图曲率（Forman-Ricci 和 Ollivier-Ricci 曲率）引入超扫描（hyperscanning）研究中的脑间网络分析，利用曲率分布的熵来检测网络相变，并通过曲率值推断脑间信息路由策略，突破传统相关性指标的描述性局限。
+  [NeurIPS 2025 (Symmetry and Geometry in Neural Representations Workshop)][离散曲率] 本文是一篇观点论文（opinion piece），提出将离散图曲率（Forman-Ricci 和 Ollivier-Ricci 曲率）引入超扫描（hypersc…
 tags:
-  - NeurIPS 2025 (Symmetry and Geometry in Neural Representations Workshop)
-  - 离散曲率
-  - Forman-Ricci曲率
-  - Ollivier-Ricci曲率
-  - 超扫描
-  - 脑间同步性
+  - "NeurIPS 2025 (Symmetry and Geometry in Neural Representations Workshop)"
+  - "离散曲率"
+  - "Forman-Ricci曲率"
+  - "Ollivier-Ricci曲率"
+  - "超扫描"
+  - "脑间同步性"
 ---
 
 # On a Geometry of Interbrain Networks

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark
 description: >-
-  [CVPR 2026][语音][多模态基准] 提出首个统一的任意到任意交错多模态基准 UniM（31K 样本、7 种模态、30 个领域），配套三维评估体系和基于可追溯推理的智能体基线 UniMA，揭示现有 MLLM 在交错多模态范式下的严重不足。
+  [CVPR 2026][音频/语音][多模态基准] 提出首个统一的任意到任意交错多模态基准 UniM（31K 样本、7 种模态、30 个领域），配套三维评估体系和基于可追溯推理的智能体基线 UniMA，揭示现有 MLLM 在交错多模态范式下的严重不足。
 tags:
-  - CVPR 2026
-  - 语音
-  - 音频语音
-  - 任意到任意
-  - 交错多模态
-  - 评估套件
-  - 智能体模型
+  - "CVPR 2026"
+  - "音频/语音"
+  - "多模态基准"
+  - "任意到任意"
+  - "交错多模态"
+  - "评估套件"
+  - "智能体模型"
 ---
 
 # UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark

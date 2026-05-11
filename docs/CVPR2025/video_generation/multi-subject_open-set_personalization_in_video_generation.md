@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Multi-subject Open-set Personalization in Video Generation
 description: >-
-  [CVPR 2025][视频个性化生成] 提出 Video Alchemist，在 Diffusion Transformer 架构中内置多主体、开放集的视频个性化生成能力，支持前景物体和背景的定制，无需测试时优化。
+  [CVPR 2025][视频生成][视频个性化生成] 提出 Video Alchemist，在 Diffusion Transformer 架构中内置多主体、开放集的视频个性化生成能力，支持前景物体和背景的定制，无需测试时优化。
 tags:
-  - CVPR 2025
-  - 视频个性化生成
-  - 多主体定制
-  - 开放集实体
-  - Transformer
-  - 数据增强
+  - "CVPR 2025"
+  - "视频生成"
+  - "视频个性化生成"
+  - "多主体定制"
+  - "开放集实体"
+  - "Transformer"
+  - "数据增强"
 ---
 
 # Multi-subject Open-set Personalization in Video Generation

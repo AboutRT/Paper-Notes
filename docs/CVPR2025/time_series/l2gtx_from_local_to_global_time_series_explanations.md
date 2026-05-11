@@ -2,15 +2,15 @@
 title: >-
   [论文解读] L2GTX: From Local to Global Time Series Explanations
 description: >-
-  [CVPR2025 (xAI-2026 / Springer proceedings)][人体理解][explainable AI] L2GTX 提出一种完全模型无关的时间序列分类全局解释方法，通过聚合 LOMATCE 产生的参数化时间事件原语（PEPs）构建类级全局解释，在六个基准数据集上保持稳定的全局忠实度（R²）。
+  [CVPR2025 (xAI-2026 / Springer proceedings)][时间序列][explainable AI] L2GTX 提出一种完全模型无关的时间序列分类全局解释方法，通过聚合 LOMATCE 产生的参数化时间事件原语（PEPs）构建类级全局解释…
 tags:
-  - CVPR2025 (xAI-2026 / Springer proceedings)
-  - 时间序列
-  - explainable AI
-  - time series classification
-  - global explanations
-  - model-agnostic
-  - event-based explanations
+  - "CVPR2025 (xAI-2026 / Springer proceedings)"
+  - "时间序列"
+  - "explainable AI"
+  - "time series classification"
+  - "global explanations"
+  - "model-agnostic"
+  - "event-based explanations"
 ---
 
 # L2GTX: From Local to Global Time Series Explanations

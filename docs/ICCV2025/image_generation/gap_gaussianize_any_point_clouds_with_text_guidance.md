@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][点云转Gaussian] 提出GAP框架,利用深度感知图像扩散模型将无色点云转化为高保真3D Gaussian表示,通过表面锚定机制确保几何精度,并设计基于扩散的inpainting策略补全难以观测区域。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 点云转Gaussian
-  - 文本引导
-  - 扩散模型
-  - 表面锚定
-  - 外观生成
+  - "ICCV 2025"
+  - "图像生成"
+  - "点云转Gaussian"
+  - "文本引导"
+  - "扩散模型"
+  - "表面锚定"
+  - "外观生成"
 ---
 
 # GAP: Gaussianize Any Point Clouds with Text Guidance

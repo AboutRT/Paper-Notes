@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D编辑] 本文提出 PrEditor3D，一种免训练的 3D 编辑方法，通过同步多视图扩散编辑+前馈 3D 重建的管线，结合基于颜色编码的 3D 分割和体素特征融合，实现了快速（数分钟内）、精确（仅修改目标区域）的高质量 3D 形状编辑。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D编辑
-  - 免训练
-  - 多视图扩散
-  - 3D分割
-  - Mesh编辑
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D编辑"
+  - "免训练"
+  - "多视图扩散"
+  - "3D分割"
+  - "Mesh编辑"
 ---
 
 # PrEditor3D: Fast and Precise 3D Shape Editing

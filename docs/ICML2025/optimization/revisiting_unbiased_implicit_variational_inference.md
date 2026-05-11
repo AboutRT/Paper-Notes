@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Revisiting Unbiased Implicit Variational Inference
 description: >-
-  [ICML2025][优化][半隐式变分推断] 重新审视被认为"不实用"的无偏隐式变分推断（UIVI），用重要性采样替代其内部 MCMC 循环，并通过最小化期望前向 KL 散度无偏地学习最优提议分布，在标准 SIVI 基准上达到或超越 SOTA。
+  [ICML2025][优化/理论][半隐式变分推断] 重新审视被认为"不实用"的无偏隐式变分推断（UIVI），用重要性采样替代其内部 MCMC 循环，并通过最小化期望前向 KL 散度无偏地学习最优提议分布，在标准 SIVI 基准上达到或超越 SOTA。
 tags:
-  - ICML2025
-  - 优化
-  - 半隐式变分推断
-  - 重要性采样
-  - 条件归一化流
-  - 路径梯度估计器
-  - score gradient
+  - "ICML2025"
+  - "优化/理论"
+  - "半隐式变分推断"
+  - "重要性采样"
+  - "条件归一化流"
+  - "路径梯度估计器"
+  - "score gradient"
 ---
 
 # Revisiting Unbiased Implicit Variational Inference

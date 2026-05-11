@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL2025][LLM/NLP][数学符号分类] 提出 STEM-PoM 基准数据集（2K+ 数学符号实例），将 Part-of-Math Tagging 与文档解析结合，系统评估 LLM 对数学符号上下文多义性的分类能力，并证明符号分类能力的提升可迁移增强下游数学推理表现。
 tags:
-  - ACL2025
-  - LLM/NLP
-  - 数学符号分类
-  - Part-of-Math Tagging
-  - benchmark
-  - 文档解析
-  - 数学推理
+  - "ACL2025"
+  - "LLM/NLP"
+  - "数学符号分类"
+  - "Part-of-Math Tagging"
+  - "benchmark"
+  - "文档解析"
+  - "数学推理"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][越狱攻击防御] 本文提出AGD（Adversarial Game Defense），一种基于对抗博弈的LLM越狱攻击防御方法，通过动态调整模型内部表示在有用性和无害性之间取得平衡，利用IQR异常检测、双层优化博弈和专家模型采样三个阶段显著提升LLM安全性。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 越狱攻击防御
-  - 对抗博弈
-  - 注意力权重矫正
-  - 纳什均衡
-  - 内部表示调控
+  - "ACL 2025"
+  - "LLM对齐"
+  - "越狱攻击防御"
+  - "对抗博弈"
+  - "注意力权重矫正"
+  - "纳什均衡"
+  - "内部表示调控"
 ---
 
 # AGD: Adversarial Game Defense Against Jailbreak Attacks in Large Language Models

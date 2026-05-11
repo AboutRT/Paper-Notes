@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Improve Representation for Imbalanced Regression through Geometric Constraints
 description: >-
-  [CVPR 2025][科学计算][不平衡回归] 本文首次研究深度不平衡回归（DIR）中的表征空间均匀性问题，提出包络损失（enveloping loss）和同质性损失（homogeneity loss）两种几何约束来确保回归表征在超球面上均匀分布，并设计代理驱动表征学习（SRL）框架将全局几何约束整合到mini-batch训练中，在年龄估计等多个DIR任务上达到SOTA。
+  [CVPR 2025][科学计算][不平衡回归] 本文首次研究深度不平衡回归（DIR）中的表征空间均匀性问题，提出包络损失（enveloping loss）和同质性损失（homogeneity loss）两种几何约束来确保回归表征在超球面上均匀分布…
 tags:
-  - CVPR 2025
-  - 科学计算
-  - 不平衡回归
-  - 几何约束
-  - 表征均匀性
-  - 包络损失
-  - 代理驱动学习
+  - "CVPR 2025"
+  - "科学计算"
+  - "不平衡回归"
+  - "几何约束"
+  - "表征均匀性"
+  - "包络损失"
+  - "代理驱动学习"
 ---
 
 # Improve Representation for Imbalanced Regression through Geometric Constraints

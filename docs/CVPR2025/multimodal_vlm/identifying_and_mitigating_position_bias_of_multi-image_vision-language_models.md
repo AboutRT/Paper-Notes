@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Identifying and Mitigating Position Bias of Multi-image Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][多图推理] 本文发现多图大视觉语言模型（LVLM）存在严重的位置偏差——开源模型偏重后置图片、闭源模型忽视中间图片——并提出了一种无需训练的SoFt Attention（SoFA）方法，通过在图像间因果注意力与双向注意力之间做线性插值来缓解该偏差，在多个基准上提升了2~3%的平均准确率。
+  [CVPR 2025][多模态VLM][多图推理] 本文发现多图大视觉语言模型（LVLM）存在严重的位置偏差——开源模型偏重后置图片、闭源模型忽视中间图片——并提出了一种无需训练的SoFt Attention（SoFA）方法，通过在图像间因果注意力与双向注意力之间做线性插值来缓解该偏差…
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 位置偏差
-  - 注意力机制
-  - 大视觉语言模型
-  - 无训练方法
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "多图推理"
+  - "位置偏差"
+  - "注意力机制"
+  - "大视觉语言模型"
+  - "无训练方法"
 ---
 
 # Identifying and Mitigating Position Bias of Multi-image Vision-Language Models

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][UAV跟踪] 发现轻量级 ViT 跟踪器中深层存在显著冗余（特征饱和），提出相似度引导的层自适应方法 SGLATrack，动态禁用冗余层并仅保留一个最优层，在 GPU 上实现 225 FPS 的实时 UAV 跟踪。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - UAV跟踪
-  - ViT加速
-  - 层冗余
-  - 动态层选择
-  - 实时推理
+  - "CVPR 2025"
+  - "视频理解"
+  - "UAV跟踪"
+  - "ViT加速"
+  - "层冗余"
+  - "动态层选择"
+  - "实时推理"
 ---
 
 # Similarity-Guided Layer-Adaptive Vision Transformer for UAV Tracking

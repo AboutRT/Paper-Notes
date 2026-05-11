@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][motion generation] 提出 SMGDiff，一个两阶段扩散模型框架，能够根据用户控制信号实时生成高质量、多样化的足球运动动画，同时通过接触引导模块优化球-脚交互细节。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - motion generation
-  - 扩散模型
-  - soccer animation
-  - human-object interaction
-  - character control
+  - "ICCV 2025"
+  - "图像生成"
+  - "motion generation"
+  - "扩散模型"
+  - "soccer animation"
+  - "human-object interaction"
+  - "character control"
 ---
 
 # SMGDiff: Soccer Motion Generation using Diffusion Probabilistic Models

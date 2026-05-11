@@ -4,7 +4,7 @@ title: >-
 description: >-
   [3D视觉] FLARE 提出级联学习范式（cascade learning），以相机位姿为桥梁将 3D 重建分解为位姿估计→局部几何→全局几何→高斯外观四个渐进阶段，在 0.5 秒内从 2-8 张未标定稀疏图像实现高质量的相机位姿、几何重建和新视角合成。
 tags:
-  - 3D视觉
+  - "3D视觉"
 ---
 
 # FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views

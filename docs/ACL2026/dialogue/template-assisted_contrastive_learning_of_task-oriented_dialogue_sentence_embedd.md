@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Template-assisted Contrastive Learning of Task-oriented Dialogue Sentence Embeddings
 description: >-
-  [ACL 2026][对话句嵌入] 提出 TaDSE 框架，利用对话中现有的模板（template）信息作为辅助锚点，通过模板感知的数据增强、配对对比训练和语义压缩推理三个阶段，在无监督设置下显著提升任务型对话的句子嵌入质量，在五个基准上超越此前 SOTA 甚至优于有监督的商业嵌入模型。
+  [ACL 2026][对话系统][对话句嵌入] 提出 TaDSE 框架，利用对话中现有的模板（template）信息作为辅助锚点，通过模板感知的数据增强、配对对比训练和语义压缩推理三个阶段，在无监督设置下显著提升任务型对话的句子嵌入质量，在五个基准上超越此前 SOTA 甚至优于有监督的商业嵌入模型。
 tags:
-  - ACL 2026
-  - 对话句嵌入
-  - 对话系统
-  - 模板增强
-  - 意图分类
-  - 无监督表示学习
+  - "ACL 2026"
+  - "对话系统"
+  - "对话句嵌入"
+  - "对比学习"
+  - "模板增强"
+  - "意图分类"
+  - "无监督表示学习"
 ---
 
 # Template-assisted Contrastive Learning of Task-oriented Dialogue Sentence Embeddings

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations
 description: >-
-  [ICLR 2026][音频语音][科学插图生成] 提出AutoFigure——第一个基于"推理渲染"范式的Agent框架，通过解耦结构布局规划和美学渲染两阶段自动从长科学文本生成达到出版质量的科学插图，配合首个大规模基准FigureBench（3,300对）进行系统评估，66.7%的生成结果被原作者认为可用于camera-ready版本。
+  [ICLR 2026][音频/语音][科学插图生成] 提出AutoFigure——第一个基于"推理渲染"范式的Agent框架，通过解耦结构布局规划和美学渲染两阶段自动从长科学文本生成达到出版质量的科学插图，配合首个大规模基准FigureBench（3,300对）进行系统评估…
 tags:
-  - ICLR 2026
-  - 音频语音
-  - 科学插图生成
-  - 多智能体框架
-  - 长文本理解
-  - FigureBench
-  - VLM评估
+  - "ICLR 2026"
+  - "音频/语音"
+  - "科学插图生成"
+  - "多智能体框架"
+  - "长文本理解"
+  - "FigureBench"
+  - "VLM评估"
 ---
 
 # AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations

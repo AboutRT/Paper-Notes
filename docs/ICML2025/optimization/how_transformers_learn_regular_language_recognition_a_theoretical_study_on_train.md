@@ -2,16 +2,16 @@
 title: >-
   [论文解读] How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias
 description: >-
-  [ICML2025][优化][Transformer] 从理论上刻画了一层 Transformer 学习 "even pairs" 和 "parity check" 两类正则语言识别任务时的两阶段训练动力学，证明了线性层在梯度下降下隐式收敛到最大间隔超平面，并揭示了 CoT 在解决 parity 问题中的关键作用。
+  [ICML2025][优化/理论][Transformer] 从理论上刻画了一层 Transformer 学习 "even pairs" 和 "parity check" 两类正则语言识别任务时的两阶段训练动力学，证明了线性层在梯度下降下隐式收敛到最大间隔超平面…
 tags:
-  - ICML2025
-  - 优化
-  - Transformer
-  - 训练动力学
-  - 隐式偏置
-  - 正则语言识别
-  - Chain-of-Thought
-  - 最大间隔
+  - "ICML2025"
+  - "优化/理论"
+  - "Transformer"
+  - "训练动力学"
+  - "隐式偏置"
+  - "正则语言识别"
+  - "Chain-of-Thought"
+  - "最大间隔"
 ---
 
 # How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias

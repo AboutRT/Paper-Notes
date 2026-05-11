@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes
 description: >-
-  [NeurIPS 2025][3D视觉][camera parameter estimation] ROS-Cam 提出仅用单个RGB视频作为监督的动态场景相机参数（焦距+位姿）优化方法，通过Patch-wise跟踪过滤器建立稀疏鲁棒对应关系、Cauchy分布异常值感知联合优化自适应降权运动物体、以及基于Softplus/凸极小分析的两阶段优化策略，在5个数据集上以最少监督实现最优精度和最快速度。
+  [NeurIPS 2025][3D视觉][camera parameter estimation] ROS-Cam 提出仅用单个RGB视频作为监督的动态场景相机参数（焦距+位姿）优化方法，通过Patch-wise跟踪过滤器建立稀疏鲁棒对应关系、Cauchy分布异常值感知联合优化自适应降权运动物体、以及基于So…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - camera parameter estimation
-  - dynamic scene
-  - RGB-only supervision
-  - outlier-aware optimization
-  - visual odometry
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "camera parameter estimation"
+  - "dynamic scene"
+  - "RGB-only supervision"
+  - "outlier-aware optimization"
+  - "visual odometry"
 ---
 
 # RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes

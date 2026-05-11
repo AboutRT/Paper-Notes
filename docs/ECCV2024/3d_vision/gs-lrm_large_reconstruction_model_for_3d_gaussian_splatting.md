@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting
 description: >-
-  [ECCV 2024][3D视觉][大规模重建模型] 本文提出GS-LRM，一个极其简洁的基于Transformer的大规模重建模型，将多视角图像patch化后通过自注意力直接回归逐像素3D高斯参数，在物体级（超Triplane-LRM 4dB PSNR）和场景级（超pixelSplat 2.2dB PSNR）重建中均大幅超越SOTA，单张A100上0.23秒完成推理。
+  [ECCV 2024][3D视觉][大规模重建模型] 本文提出GS-LRM，一个极其简洁的基于Transformer的大规模重建模型，将多视角图像patch化后通过自注意力直接回归逐像素3D高斯参数…
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 大规模重建模型
-  - 3D高斯溅射
-  - Transformer
-  - 稀疏视角重建
-  - 前馈3D重建
+  - "ECCV 2024"
+  - "3D视觉"
+  - "大规模重建模型"
+  - "3D高斯溅射"
+  - "Transformer"
+  - "稀疏视角重建"
+  - "前馈3D重建"
 ---
 
 # GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting

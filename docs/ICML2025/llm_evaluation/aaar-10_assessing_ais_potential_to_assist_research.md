@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM评测][LLM评测基准] 提出 AAAR-1.0 基准，通过公式推断、实验设计、论文弱点发现、审稿质量鉴别四个专家级任务，系统评估 LLM 辅助科研的真实能力，揭示当前模型在深度研究任务上仍有显著不足。
 tags:
-  - ICML 2025
-  - LLM评测
-  - LLM评测基准
-  - AI辅助科研
-  - 论文审稿
-  - 实验设计
-  - 研究能力评估
+  - "ICML 2025"
+  - "LLM评测"
+  - "LLM评测基准"
+  - "AI辅助科研"
+  - "论文审稿"
+  - "实验设计"
+  - "研究能力评估"
 ---
 
 # AAAR-1.0: Assessing AI's Potential to Assist Research

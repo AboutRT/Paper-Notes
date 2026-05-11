@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM Agent][多摄像头搜索] 本文提出 ARGOS，首个将多摄像头行人搜索重新定义为交互式推理问题的基准和框架，智能体通过与目击者进行多轮对话、调用时空工具并在信息不对称下推理排除候选人，包含 2,691 个任务、3 个渐进式赛道。
 tags:
-  - CVPR 2026
-  - LLM Agent
-  - 多摄像头搜索
-  - 智能体推理
-  - 时空拓扑图
-  - 交互式对话
-  - 行人搜索
+  - "CVPR 2026"
+  - "LLM Agent"
+  - "多摄像头搜索"
+  - "智能体推理"
+  - "时空拓扑图"
+  - "交互式对话"
+  - "行人搜索"
 ---
 
 # ARGOS: Who, Where, and When in Agentic Multi-Camera Person Search

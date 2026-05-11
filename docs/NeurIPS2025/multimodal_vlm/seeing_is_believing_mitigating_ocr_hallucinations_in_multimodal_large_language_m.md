@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models
 description: >-
-  [NeurIPS 2025][多模态][OCR] 针对多模态大模型在退化文档场景下的OCR幻觉问题，提出首个退化文档幻觉评测基准KIE-HVQA，并设计基于GRPO的多目标奖励强化学习框架，在7B参数模型上实现比GPT-4o高约28%的幻觉抑制准确率提升。
+  [NeurIPS 2025][多模态VLM][OCR] 针对多模态大模型在退化文档场景下的OCR幻觉问题，提出首个退化文档幻觉评测基准KIE-HVQA，并设计基于GRPO的多目标奖励强化学习框架，在7B参数模型上实现比GPT-4o高约28%的幻觉抑制准确率提升。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - OCR
-  - 文档理解
-  - 多模态VLM
-  - GRPO
-  - 视觉退化
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "OCR"
+  - "文档理解"
+  - "强化学习"
+  - "GRPO"
+  - "视觉退化"
 ---
 
 # Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models

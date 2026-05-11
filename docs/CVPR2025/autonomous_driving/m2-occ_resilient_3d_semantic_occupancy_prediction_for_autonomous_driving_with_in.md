@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][语义占用预测] M²-Occ 针对多相机输入不完整时的语义占用预测问题，提出多视角掩码重建（MMR）模块利用相邻相机重叠区域恢复缺失视角特征，以及特征记忆模块（FMM）通过类级语义原型精炼不确定体素特征，在缺失后视角设置下 IoU 提升 4.93%。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 语义占用预测
-  - 缺失视角鲁棒性
-  - 掩码重建
-  - 语义原型记忆
-  - 传感器故障
-  - 环视相机
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "语义占用预测"
+  - "缺失视角鲁棒性"
+  - "掩码重建"
+  - "语义原型记忆"
+  - "传感器故障"
+  - "环视相机"
 ---
 
 # M²-Occ: Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs

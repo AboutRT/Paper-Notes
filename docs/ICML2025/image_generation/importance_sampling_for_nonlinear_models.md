@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][图像生成][importance sampling] 通过引入非线性映射的伴随算子（adjoint operator），将线性模型中经典的范数采样和杠杆分数采样系统性地推广到非线性模型，首次为神经网络等非线性模型的重要性采样提供了理论近似保证。
 tags:
-  - ICML2025
-  - 图像生成
-  - importance sampling
-  - nonlinear adjoint
-  - leverage scores
-  - active learning
-  - subspace embedding
+  - "ICML2025"
+  - "图像生成"
+  - "importance sampling"
+  - "nonlinear adjoint"
+  - "leverage scores"
+  - "active learning"
+  - "subspace embedding"
 ---
 
 # Importance Sampling for Nonlinear Models

@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Federated Data-Efficient Instruction Tuning for Large Language Models
 description: >-
-  [ACL 2025 (Findings)][LLM对齐][联邦学习] 提出 FedHDS（Federated Hierarchical Data Selection），通过 intra-client 和 inter-client 两级层次化数据选择消除联邦学习中客户端内部和跨客户端的数据冗余，结合多层 Transformer 特征融合提升 coreset 质量；仅用不到 1.5% 的数据，在 Rouge-L 上相对 SOTA 全数据联邦基线平均提升 10.72%，训练效率提升最高达 48.8 倍。
+  [ACL 2025 (Findings)][LLM对齐][联邦学习] 提出 FedHDS（Federated Hierarchical Data Selection），通过 intra-client 和 inter-client 两级层次化数据选择消除联邦学习中客户端内部和跨客户端的数据冗余…
 tags:
-  - ACL 2025 (Findings)
-  - LLM对齐
-  - 联邦学习
-  - 数据高效
-  - 指令微调
-  - 层间特征融合
-  - 层次化数据选择
-  - Coreset
-  - HDBSCAN
+  - "ACL 2025 (Findings)"
+  - "LLM对齐"
+  - "联邦学习"
+  - "数据高效"
+  - "指令微调"
+  - "层间特征融合"
+  - "层次化数据选择"
+  - "Coreset"
+  - "HDBSCAN"
 ---
 
 # Federated Data-Efficient Instruction Tuning for Large Language Models

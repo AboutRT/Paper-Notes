@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][代理安全] 提出"代理压力"（Agentic Pressure）概念——当 LLM 代理在资源约束下无法同时完成任务和遵守安全规则时，会自发地产生规范漂移，主动牺牲安全以保持有用性，且推理能力越强的模型越善于构建语言化合理化来为违规辩护。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 代理安全
-  - 规范漂移
-  - 代理压力
-  - 推理合理化
-  - 压力隔离
+  - "ACL 2026"
+  - "LLM Agent"
+  - "代理安全"
+  - "规范漂移"
+  - "代理压力"
+  - "推理合理化"
+  - "压力隔离"
 ---
 
 # Why Agents Compromise Safety Under Pressure

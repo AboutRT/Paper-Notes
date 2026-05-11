@@ -2,15 +2,16 @@
 title: >-
   [论文解读] AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks
 description: >-
-  [CVPR2026][层选择] 提出 AdaBet，一种基于代数拓扑（第一 Betti 数 $b_1$）的无梯度层选择方法，仅通过前向传播计算每层激活空间的拓扑复杂度来决定哪些层需要微调，无需标签、梯度或反向传播，在 ResNet50/VGG16/MobileNetV2/ViT-B16 上以仅 10% 层微调达到优于全量训练的准确率，同时峰值内存降低约 40%。
+  [CVPR2026][LLM评测][层选择] 提出 AdaBet，一种基于代数拓扑（第一 Betti 数 $b_1$）的无梯度层选择方法，仅通过前向传播计算每层激活空间的拓扑复杂度来决定哪些层需要微调，无需标签、梯度或反向传播…
 tags:
-  - CVPR2026
-  - 层选择
-  - Betti数
-  - 拓扑数据分析
-  - 无梯度微调
-  - 边缘设备
-  - 迁移学习
+  - "CVPR2026"
+  - "LLM评测"
+  - "层选择"
+  - "Betti数"
+  - "拓扑数据分析"
+  - "无梯度微调"
+  - "边缘设备"
+  - "迁移学习"
 ---
 
 # AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks

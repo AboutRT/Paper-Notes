@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning to Flow from Generative Pretext Tasks for Neural Architecture Encoding
 description: >-
-  [NeurIPS 2025][神经架构编码] 提出 FGP（Flow-based Generative Pre-training），通过让编码器重建"流代理"（flow surrogate）这一架构信息流的简化表征，使任意结构的编码器无需专用的异步消息传递设计即可捕获信息流，在性能预测中 Precision@1% 最高提升 106%。
+  [NeurIPS 2025][预训练][神经架构编码] 提出 FGP（Flow-based Generative Pre-training），通过让编码器重建"流代理"（flow surrogate）这一架构信息流的简化表征，使任意结构的编码器无需专用的异步消息传递设计即可捕获信息流…
 tags:
-  - NeurIPS 2025
-  - 神经架构编码
-  - 信息流
-  - 生成式预训练
-  - NAS
-  - LLM预训练
+  - "NeurIPS 2025"
+  - "预训练"
+  - "神经架构编码"
+  - "信息流"
+  - "生成式预训练"
+  - "NAS"
+  - "图神经网络"
 ---
 
 # Learning to Flow from Generative Pretext Tasks for Neural Architecture Encoding

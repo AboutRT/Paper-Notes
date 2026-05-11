@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][逻辑推理] 发现 LLM 内部存在一个共享的逻辑子空间，可同时对齐自然语言和符号逻辑两种推理表示，通过在推理时沿该子空间引导激活可无训练提升逻辑推理准确率最高达 11 个百分点。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 逻辑推理
-  - 多视图子空间
-  - 激活引导
-  - CCA对齐
-  - 免训练推理
+  - "ACL 2026"
+  - "LLM推理"
+  - "逻辑推理"
+  - "多视图子空间"
+  - "激活引导"
+  - "CCA对齐"
+  - "免训练推理"
 ---
 
 # Discovering a Shared Logical Subspace: Steering LLM Logical Reasoning via Alignment of Natural-Language and Symbolic Views

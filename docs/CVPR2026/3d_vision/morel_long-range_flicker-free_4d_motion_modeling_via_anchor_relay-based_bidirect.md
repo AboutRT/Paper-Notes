@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][4D高斯泼溅] 针对4D高斯泼溅在长视频动态场景建模中面临的内存爆炸、时序闪烁和遮挡处理等挑战，提出了基于锚点接力双向混合 (ARBB) 的MoRel框架，通过关键帧锚点的渐进式构建和可学习时序不透明度控制实现了无闪烁、内存有界的长程4D运动重建。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 4D高斯泼溅
-  - 动态场景重建
-  - 长视频建模
-  - 时序一致性
-  - 内存高效
+  - "CVPR 2026"
+  - "3D视觉"
+  - "4D高斯泼溅"
+  - "动态场景重建"
+  - "长视频建模"
+  - "时序一致性"
+  - "内存高效"
 ---
 
 # MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification

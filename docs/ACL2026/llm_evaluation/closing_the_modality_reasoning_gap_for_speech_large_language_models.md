@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Closing the Modality Reasoning Gap for Speech Large Language Models
 description: >-
-  [ACL 2026][LLM评测] 本文提出 TARS（Trajectory Alignment for Reasoning in Speech），一个基于强化学习的框架，通过表示对齐和行为对齐两种密集奖励信号，将语音条件下的推理轨迹与文本条件下的推理轨迹对齐，在 7B 规模模型中达到 SOTA，MRR（模态恢复率）接近甚至超过 100%。
+  [ACL 2026][LLM评测][Speech LLM] 本文提出 TARS（Trajectory Alignment for Reasoning in Speech），一个基于强化学习的框架，通过表示对齐和行为对齐两种密集奖励信号，将语音条件下的推理轨迹与文本条件下的推理轨迹对齐…
 tags:
-  - ACL 2026
-  - LLM评测
-  - 模态推理差距
-  - 强化学习
-  - 表示对齐
-  - 轨迹对齐
+  - "ACL 2026"
+  - "LLM评测"
+  - "Speech LLM"
+  - "模态推理差距"
+  - "强化学习"
+  - "表示对齐"
+  - "轨迹对齐"
 ---
 
 # Closing the Modality Reasoning Gap for Speech Large Language Models

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents
 description: >-
-  [ICCV 2025][图像生成][视频生成] 提出 Reducio-VAE，一种以内容帧为条件的 3D 视频自编码器，将视频压缩至比标准 2D VAE 小 64 倍的运动潜空间，配合 Reducio-DiT 在单张 A100 上 15.5 秒内生成 16 帧 1024x1024 视频，训练仅需 3200 A100 GPU 小时。
+  [ICCV 2025][图像生成][视频生成] 提出 Reducio-VAE，一种以内容帧为条件的 3D 视频自编码器，将视频压缩至比标准 2D VAE 小 64 倍的运动潜空间，配合 Reducio-DiT 在单张 A100 上 15.5 秒内生成 16 帧 1024x1024 视频…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 视频生成
-  - 运动潜变量
-  - 视频VAE
-  - 极端压缩
-  - DiT
-  - 高效推理
+  - "ICCV 2025"
+  - "图像生成"
+  - "视频生成"
+  - "运动潜变量"
+  - "视频VAE"
+  - "极端压缩"
+  - "DiT"
+  - "高效推理"
 ---
 
 # REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents

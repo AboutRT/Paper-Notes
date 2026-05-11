@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][机器人][CLIP] 提出 CLIP-IN 框架，利用指令编辑数据集作为硬负样本和长描述增强 CLIP 的细粒度视觉理解能力，在 MMVP 等基准上显著提升且不损害零样本性能，集成到 MLLM 中可减少视觉幻觉。
 tags:
-  - NeurIPS 2025
-  - 机器人
-  - CLIP
-  - 细粒度视觉理解
-  - 指令编辑数据
-  - 硬负样本
-  - 长描述
+  - "NeurIPS 2025"
+  - "机器人"
+  - "CLIP"
+  - "细粒度视觉理解"
+  - "指令编辑数据"
+  - "硬负样本"
+  - "长描述"
 ---
 
 # VITRIX-CLIPIN: Enhancing Fine-Grained Visual Understanding in CLIP via Instruction Editing Data and Long Captions

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][遥感][海雾检测] MFogHub 构建了首个多区域（15个沿海区域）多卫星（6颗地球同步卫星）的全球海雾检测与预测数据集，包含超过68000个高分辨率样本和11600+像素级标注，通过16个基线模型的大规模实验揭示了区域差异和卫星变化对模型泛化能力的影响。
 tags:
-  - CVPR 2025
-  - 遥感
-  - 海雾检测
-  - 海雾预测
-  - 多区域多卫星
-  - 遥感数据集
-  - 泛化评估
+  - "CVPR 2025"
+  - "遥感"
+  - "海雾检测"
+  - "海雾预测"
+  - "多区域多卫星"
+  - "遥感数据集"
+  - "泛化评估"
 ---
 
 # MFogHub: Bridging Multi-Regional and Multi-Satellite Data for Global Marine Fog Detection and Forecasting

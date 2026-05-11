@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Imperfectly Cooperative Human-AI Interactions: Comparing the Impacts of Human and AI Attributes in Simulated and User Studies
 description: >-
-  [ACL 2026][人机交互] 通过 2000 次 LLM 模拟和 290 人用户研究的双框架实验，比较了人类个性特质和 AI 设计属性在不完全合作场景（招聘谈判、部分诚实交易）中的影响，发现模拟中个性特质主导而真人实验中 AI 透明度才是关键驱动因素。
+  [ACL 2026][因果推理][人机交互] 通过 2000 次 LLM 模拟和 290 人用户研究的双框架实验，比较了人类个性特质和 AI 设计属性在不完全合作场景（招聘谈判、部分诚实交易）中的影响，发现模拟中个性特质主导而真人实验中 AI 透明度才是关键驱动因素。
 tags:
-  - ACL 2026
-  - 人机交互
-  - 不完全合作
-  - 个性特质
-  - AI透明度
-  - 模拟vs用户研究
+  - "ACL 2026"
+  - "因果推理"
+  - "人机交互"
+  - "不完全合作"
+  - "个性特质"
+  - "AI透明度"
+  - "模拟vs用户研究"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

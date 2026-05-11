@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][统一生成编辑] 构建统一文生图+多种编辑任务（指令编辑/修补/拖拽/参考生成）的 2.5B DIT 模型，用 Qwen2-VL 替换文本编码器实现统一视觉-语言 prompt 理解，通过合成贴纸数据管线高效创建编辑训练数据，在生成和编辑上同时达到 SOTA。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 统一生成编辑
-  - DIT架构
-  - 合成数据
-  - VLM编码器
-  - 多任务模型
+  - "CVPR 2025"
+  - "图像生成"
+  - "统一生成编辑"
+  - "DIT架构"
+  - "合成数据"
+  - "VLM编码器"
+  - "多任务模型"
 ---
 
 # DreamOmni: Unified Image Generation and Editing

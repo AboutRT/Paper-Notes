@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][低秩近似] 建立了对称矩阵低秩近似在谱范数下的新型高概率扰动界，改进了经典 Eckart-Young-Mirsky 定理，并解决了差分隐私 PCA 中的一个公开问题。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 低秩近似
-  - 谱范数扰动界
-  - 差分隐私PCA
-  - 轮廓自举
-  - 矩阵扰动理论
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "低秩近似"
+  - "谱范数扰动界"
+  - "差分隐私PCA"
+  - "轮廓自举"
+  - "矩阵扰动理论"
 ---
 
 # Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy
@@ -95,7 +95,7 @@ tags:
 - 特征值间距条件 $4\|E\| \leq \delta_p$ 虽然温和但仍是必要假设
 - Theorem 2.3 不适用于非整函数如 $f(z) = z^c$（非整数 $c$），有奇点问题
 - 未分析量化高斯或拉普拉斯噪声等具体隐私机制
-- 常数未优化（<7），理论上可进一步收紧
+- 常数未优化（&lt;7），理论上可进一步收紧
 
 ## 相关工作与启发
 

@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][医学图像][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - 医学图像
-  - 待补充
+  - "ACL 2026"
+  - "医学图像"
+  - "待补充"
 ---
 
 # DART: Mitigating Harm Drift in Difference-Aware LLMs via Distill-Audit-Repair Training

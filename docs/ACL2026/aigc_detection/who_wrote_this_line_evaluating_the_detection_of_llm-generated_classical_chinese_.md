@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry
 description: >-
-  [ACL 2026][AIGC检测] 本文构建了首个面向LLM生成古典中文诗词的检测基准ChangAn（含30,664首诗），系统评估了12种AI检测方法在不同文本粒度和生成策略下的表现，揭示了当前中文文本检测器在古典诗词领域的严重局限性。
+  [ACL 2026][AIGC检测][古典诗词检测] 本文构建了首个面向LLM生成古典中文诗词的检测基准ChangAn（含30,664首诗），系统评估了12种AI检测方法在不同文本粒度和生成策略下的表现，揭示了当前中文文本检测器在古典诗词领域的严重局限性。
 tags:
-  - ACL 2026
-  - AIGC检测
-  - AI生成文本
-  - 中文NLP
-  - 基准测试
-  - 文学创作
+  - "ACL 2026"
+  - "AIGC检测"
+  - "古典诗词检测"
+  - "AI生成文本"
+  - "中文NLP"
+  - "基准测试"
+  - "文学创作"
 ---
 
 # Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry

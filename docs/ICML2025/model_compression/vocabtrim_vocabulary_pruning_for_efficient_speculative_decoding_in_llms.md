@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][模型压缩][speculative decoding] 提出 VocabTrim，一种免训练方法，通过剪枝 draft 模型的 LM head 词汇表来减少推测解码中的 draft 延迟，在 Llama-3 上实现 16% 的内存受限加速提升。
 tags:
-  - ICML 2025
-  - 模型压缩
-  - speculative decoding
-  - 剪枝
-  - LM head
-  - EAGLE
-  - inference acceleration
+  - "ICML 2025"
+  - "模型压缩"
+  - "speculative decoding"
+  - "剪枝"
+  - "LM head"
+  - "EAGLE"
+  - "inference acceleration"
 ---
 
 # VocabTrim: Vocabulary Pruning for Efficient Speculative Decoding in LLMs

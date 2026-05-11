@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][逆问题求解] 本文提出解耦退火后验采样（DAPS），通过在扩散采样过程中解耦相邻步骤的样本依赖关系，允许大幅度的非局部跳跃来修正早期采样错误，在非线性逆问题（如相位恢复）上大幅超越现有方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 逆问题求解
-  - 后验采样
-  - 噪声退火
-  - 扩散模型
-  - 图像恢复
+  - "CVPR 2025"
+  - "图像生成"
+  - "逆问题求解"
+  - "后验采样"
+  - "噪声退火"
+  - "扩散模型"
+  - "图像恢复"
 ---
 
 # Improving Diffusion Inverse Problem Solving with Decoupled Noise Annealing

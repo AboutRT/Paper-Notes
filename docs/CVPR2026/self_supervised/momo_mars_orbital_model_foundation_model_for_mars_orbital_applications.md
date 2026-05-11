@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MOMO: Mars Orbital Model — Foundation Model for Mars Orbital Applications
 description: >-
-  [CVPR 2026][自监督学习][火星遥感] MOMO 是首个火星遥感基础模型，通过在三种火星传感器（HiRISE/CTX/THEMIS）上分别预训练 MAE 并提出 Equal Validation Loss（EVL）检查点选择策略进行模型融合，在 Mars-Bench 的 9 个下游任务上超越 ImageNet 预训练和地球观测基础模型。
+  [CVPR 2026][自监督学习][火星遥感] MOMO 是首个火星遥感基础模型，通过在三种火星传感器（HiRISE/CTX/THEMIS）上分别预训练 MAE 并提出 Equal Validation Loss（EVL）检查点选择策略进行模型融合…
 tags:
-  - CVPR 2026
-  - 自监督学习
-  - 自监督
-  - 基础模型
-  - 模型融合
-  - 检查点选择策略
-  - 多传感器
+  - "CVPR 2026"
+  - "自监督学习"
+  - "火星遥感"
+  - "基础模型"
+  - "模型融合"
+  - "检查点选择策略"
+  - "多传感器"
 ---
 
 # MOMO: Mars Orbital Model — Foundation Model for Mars Orbital Applications

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] NeuroBridge: Bio-Inspired Self-Supervised EEG-to-Image Decoding via Cognitive Priors and Bidirectional Semantic Alignment
 description: >-
-  [AAAI 2026][自监督学习][EEG解码] 提出NeuroBridge框架，通过认知先验增强（CPA，非对称增广模拟感知变异性）和共享语义投影器（SSP，双向对齐到统一语义空间），在THINGS-EEG数据集200类零样本EEG-图像检索任务上达到63.2% Top-1（+12.3%）和89.9% Top-5（+10.2%），大幅超越现有SOTA。
+  [AAAI 2026][自监督学习][EEG解码] 提出NeuroBridge框架，通过认知先验增强（CPA，非对称增广模拟感知变异性）和共享语义投影器（SSP，双向对齐到统一语义空间）…
 tags:
-  - AAAI 2026
-  - 自监督学习
-  - EEG解码
-  - 跨模态对比学习
-  - 认知先验增强
-  - 共享语义投影
-  - 零样本检索
-  - 脑机接口
+  - "AAAI 2026"
+  - "自监督学习"
+  - "EEG解码"
+  - "跨模态对比学习"
+  - "认知先验增强"
+  - "共享语义投影"
+  - "零样本检索"
+  - "脑机接口"
 ---
 
 # NeuroBridge: Bio-Inspired Self-Supervised EEG-to-Image Decoding via Cognitive Priors and Bidirectional Semantic Alignment

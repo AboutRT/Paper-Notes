@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Adversarial Tokenization
 description: >-
-  [ACL 2025][adversarial tokenization] 本文发现 LLM 管线中 BPE tokenizer 只使用唯一一种分词方式，但同一字符串存在指数级多种合法分词；通过对抗性地选择非标准分词方案，可以在不改变原始文本的情况下绕过安全对齐，攻击成功率与现有 SOTA 文本级攻击方法相当。
+  [ACL 2025][预训练][adversarial tokenization] 本文发现 LLM 管线中 BPE tokenizer 只使用唯一一种分词方式，但同一字符串存在指数级多种合法分词；通过对抗性地选择非标准分词方案，可以在不改变原始文本的情况下绕过安全对齐…
 tags:
-  - ACL 2025
-  - adversarial tokenization
-  - BPE
-  - LLM预训练
-  - LLM safety
-  - subword models
+  - "ACL 2025"
+  - "预训练"
+  - "adversarial tokenization"
+  - "BPE"
+  - "jailbreak"
+  - "LLM safety"
+  - "subword models"
 ---
 
 # Adversarial Tokenization

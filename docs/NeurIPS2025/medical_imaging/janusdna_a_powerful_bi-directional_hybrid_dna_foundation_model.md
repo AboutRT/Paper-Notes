@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][医学图像][DNA基础模型] 提出JanusDNA，首个双向DNA基础模型，结合Mamba-Attention-MoE混合架构和Janus Modeling训练范式，以自回归的训练效率实现双向理解，在多个基因组基准上达到SOTA。
 tags:
-  - NeurIPS 2025
-  - 医学图像
-  - DNA基础模型
-  - 双向建模
-  - 注意力机制
-  - Mixture-of-Experts
-  - 基因组学
+  - "NeurIPS 2025"
+  - "医学图像"
+  - "DNA基础模型"
+  - "双向建模"
+  - "注意力机制"
+  - "Mixture-of-Experts"
+  - "基因组学"
 ---
 
 # JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model

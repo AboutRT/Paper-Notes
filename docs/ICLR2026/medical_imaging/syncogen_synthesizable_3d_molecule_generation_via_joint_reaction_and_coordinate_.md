@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][医学图像][可合成分子生成] SynCoGen 提出了一种结合掩码图扩散和流匹配的多模态生成框架，能够同时采样分子构建块反应图和3D原子坐标，在保证合成可行性的同时实现高质量的3D分子生成。
 tags:
-  - ICLR 2026
-  - 医学图像
-  - 可合成分子生成
-  - 3D构象生成
-  - 掩码图扩散
-  - 流匹配
-  - 药物发现
+  - "ICLR 2026"
+  - "医学图像"
+  - "可合成分子生成"
+  - "3D构象生成"
+  - "掩码图扩散"
+  - "流匹配"
+  - "药物发现"
 ---
 
 # SynCoGen: Synthesizable 3D Molecule Generation via Joint Reaction and Coordinate Modeling

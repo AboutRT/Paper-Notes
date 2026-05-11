@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Robust Multi-Source Covid-19 Detection in CT Images
 description: >-
-  [CVPR 2026][医学图像][COVID-19检测] 提出一种多任务学习框架，在共享 EfficientNet-B7 骨干上同时训练 COVID-19 诊断头和来源医院识别头（使用 logit-adjusted 损失），推动特征提取器学习跨机构不变的表示，在多源 CT 数据集上 F1 达到 0.9098。
+  [CVPR 2026][医学图像][COVID-19检测] 提出一种多任务学习框架，在共享 EfficientNet-B7 骨干上同时训练 COVID-19 诊断头和来源医院识别头（使用 logit-adjusted 损失），推动特征提取器学习跨机构不变的表示，在多源 CT 数据集上 F1 达到 0.9098…
 tags:
-  - CVPR 2026
-  - 医学图像
-  - COVID-19检测
-  - 多源域
-  - 多任务学习
-  - 对数调整损失
-  - CT图像
+  - "CVPR 2026"
+  - "医学图像"
+  - "COVID-19检测"
+  - "多源域"
+  - "多任务学习"
+  - "对数调整损失"
+  - "CT图像"
 ---
 
 # Robust Multi-Source Covid-19 Detection in CT Images

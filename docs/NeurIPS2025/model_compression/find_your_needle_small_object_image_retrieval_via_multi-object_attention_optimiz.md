@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][模型压缩][小目标检索] MaO 提出了一种针对小目标图像检索（SoIR）的新方法，通过多目标预训练和基于注意力的特征优化，将多个目标的表示融合为单一全局描述符，在多个基准上大幅超越现有检索方法。
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 小目标检索
-  - 多目标注意力优化
-  - 图像检索
-  - 注意力可解释性
-  - 全局描述符
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "小目标检索"
+  - "多目标注意力优化"
+  - "图像检索"
+  - "注意力可解释性"
+  - "全局描述符"
 ---
 
 # Find your Needle: Small Object Image Retrieval via Multi-Object Attention Optimization

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][文本到动作生成] 提出 Event-T2M 框架，将文本提示分解为事件级别的原子动作，结合 TMR 编码器和事件级交叉注意力（ECA）模块注入 Conformer 扩散模型，显著提升多事件复杂动作生成的质量和语义对齐。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 文本到动作生成
-  - 事件级条件
-  - 扩散模型
-  - 组合动作
-  - Conformer
+  - "ICLR 2026"
+  - "图像生成"
+  - "文本到动作生成"
+  - "事件级条件"
+  - "扩散模型"
+  - "组合动作"
+  - "Conformer"
 ---
 
 # Event-T2M: Event-level Conditioning for Complex Text-to-Motion Synthesis

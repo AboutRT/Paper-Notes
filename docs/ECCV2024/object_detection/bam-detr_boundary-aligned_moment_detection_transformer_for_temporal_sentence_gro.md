@@ -2,15 +2,15 @@
 title: >-
   [论文解读] BAM-DETR: Boundary-Aligned Moment Detection Transformer for Temporal Sentence Grounding in Videos
 description: >-
-  [ECCV2024][目标检测][Temporal Sentence Grounding] 提出边界对齐的时刻检测 Transformer（BAM-DETR），用 anchor-boundary 三元组 $(p, d_s, d_e)$ 替代传统的 center-length 二元组 $(c, l)$ 来建模时刻，配合双路径解码器和基于质量的排序机制，有效解决了中心模糊导致的定位不精确问题。
+  [ECCV2024][目标检测][Temporal Sentence Grounding] 提出边界对齐的时刻检测 Transformer（BAM-DETR），用 anchor-boundary 三元组 $(p, d_s, d_e)$ 替代传统的 center-length 二元组 $(c…
 tags:
-  - ECCV2024
-  - 目标检测
-  - Temporal Sentence Grounding
-  - Transformer
-  - Boundary Alignment
-  - 视频理解
-  - Moment Retrieval
+  - "ECCV2024"
+  - "目标检测"
+  - "Temporal Sentence Grounding"
+  - "Transformer"
+  - "Boundary Alignment"
+  - "视频理解"
+  - "Moment Retrieval"
 ---
 
 # BAM-DETR: Boundary-Aligned Moment Detection Transformer for Temporal Sentence Grounding in Videos

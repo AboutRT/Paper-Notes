@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][连拍超分辨率] 提出 QMambaBSR，通过 Query State Space Model（QSSM）实现帧间查询和帧内扫描的联合子像素提取与噪声抑制，结合自适应上采样模块，在合成和真实连拍超分辨率任务上达到 SOTA。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 连拍超分辨率
-  - 状态空间模型
-  - 子像素提取
-  - 自适应上采样
-  - 多帧去噪
+  - "CVPR 2025"
+  - "图像恢复"
+  - "连拍超分辨率"
+  - "状态空间模型"
+  - "子像素提取"
+  - "自适应上采样"
+  - "多帧去噪"
 ---
 
 # QMambaBSR: Burst Image Super-Resolution with Query State Space Model

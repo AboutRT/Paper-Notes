@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][医学图像][微动脉瘤检测] 提出 WDT-MD 框架，通过噪声编码图像条件化、伪正常模式合成和小波扩散 Transformer 架构，解决眼底图像中微动脉瘤（MA）检测的三大难题：identity mapping、高假阳性和正常特征重建质量差。
 tags:
-  - AAAI 2026
-  - 医学图像
-  - 微动脉瘤检测
-  - 扩散模型
-  - 小波变换
-  - 异常检测
-  - 糖尿病视网膜病变
+  - "AAAI 2026"
+  - "医学图像"
+  - "微动脉瘤检测"
+  - "扩散模型"
+  - "小波变换"
+  - "异常检测"
+  - "糖尿病视网膜病变"
 ---
 
 # WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images

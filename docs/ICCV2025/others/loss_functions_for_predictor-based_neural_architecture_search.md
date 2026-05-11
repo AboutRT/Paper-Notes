@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][神经架构搜索] 首次对性能预测器中8种损失函数进行全面系统性研究，涵盖回归、排序和加权三大类，在5个搜索空间的13个任务上揭示了各类损失函数的特性与互补性，并提出分段损失（PW loss）组合方法PWLNAS，在多个基准上超越现有SOTA。
 tags:
-  - ICCV 2025
-  - 神经架构搜索
-  - 性能预测器
-  - 损失函数
-  - 排序学习
-  - 加权损失
+  - "ICCV 2025"
+  - "神经架构搜索"
+  - "性能预测器"
+  - "损失函数"
+  - "排序学习"
+  - "加权损失"
 ---
 
 # Loss Functions for Predictor-based Neural Architecture Search

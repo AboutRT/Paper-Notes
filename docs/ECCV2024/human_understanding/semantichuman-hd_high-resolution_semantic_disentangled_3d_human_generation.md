@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SemanticHuman-HD: High-Resolution Semantic Disentangled 3D Human Generation
 description: >-
-  [ECCV 2024][3D视觉][3D人体生成] 提出SemanticHuman-HD，首个实现语义解耦的3D人体图像合成方法，通过K个独立局部生成器和3D感知超分模块，实现1024²分辨率的语义可控人体生成。
+  [ECCV 2024][人体理解][3D人体生成] 提出SemanticHuman-HD，首个实现语义解耦的3D人体图像合成方法，通过K个独立局部生成器和3D感知超分模块，实现1024²分辨率的语义可控人体生成。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D人体生成
-  - 语义解耦
-  - 神经辐射场
-  - 超分辨率
-  - GAN
+  - "ECCV 2024"
+  - "人体理解"
+  - "3D人体生成"
+  - "语义解耦"
+  - "神经辐射场"
+  - "超分辨率"
+  - "GAN"
 ---
 
 # SemanticHuman-HD: High-Resolution Semantic Disentangled 3D Human Generation

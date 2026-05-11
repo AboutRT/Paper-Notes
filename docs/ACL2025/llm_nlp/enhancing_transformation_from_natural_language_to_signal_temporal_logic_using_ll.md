@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing Transformation from Natural Language to Signal Temporal Logic Using LLMs with Diverse External Knowledge
 description: >-
-  [ACL 2025][LLM/NLP][signal temporal logic] 提出 STL-DivEn 数据集（16K样本）和 KGST（知识引导的 STL 转换）框架，通过"生成-精炼"两阶段流程将自然语言转换为信号时序逻辑（STL），在 STL Formula Accuracy 上达到 0.5587，显著超过 GPT-4（0.4733）和 DeepSeek（0.4790）。
+  [ACL 2025][LLM/NLP][signal temporal logic] 提出 STL-DivEn 数据集（16K样本）和 KGST（知识引导的 STL 转换）框架，通过"生成-精炼"两阶段流程将自然语言转换为信号时序逻辑（STL）…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - signal temporal logic
-  - NL-to-STL
-  - formal specification
-  - knowledge-guided refinement
-  - dataset construction
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "signal temporal logic"
+  - "NL-to-STL"
+  - "formal specification"
+  - "knowledge-guided refinement"
+  - "dataset construction"
 ---
 
 # Enhancing Transformation from Natural Language to Signal Temporal Logic Using LLMs with Diverse External Knowledge

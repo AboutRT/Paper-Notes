@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Group Representational Position Encoding (GRAPE)
 description: >-
-  [ICLR 2026][位置编码] 提出 GRAPE 框架，基于群作用（group actions）统一了 Transformer 中乘法型（RoPE）和加法型（ALiBi/FoX）两大位置编码家族，证明 RoPE 和 ALiBi 是其精确特例，并提出路径积分加法变体 GRAPE-AP 在下游任务上超越现有方法。
+  [ICLR 2026][信号/通信][位置编码] 提出 GRAPE 框架，基于群作用（group actions）统一了 Transformer 中乘法型（RoPE）和加法型（ALiBi/FoX）两大位置编码家族，证明 RoPE 和 ALiBi 是其精确特例…
 tags:
-  - ICLR 2026
-  - 位置编码
-  - 群论
-  - RoPE
-  - ALiBi
-  - Lie群
-  - 旋转编码
-  - 信号通信
+  - "ICLR 2026"
+  - "信号/通信"
+  - "位置编码"
+  - "群论"
+  - "RoPE"
+  - "ALiBi"
+  - "Lie群"
+  - "旋转编码"
+  - "长上下文"
 ---
 
 # Group Representational Position Encoding (GRAPE)

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][曲面重建] 提出 OffsetOPT，一种无需法线的显式曲面重建方法，通过在均匀分布点云上训练三角形预测网络，再通过逐点偏移优化将其推广到任意点云，在整体质量和尖锐细节保持上均达到 SOTA。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 曲面重建
-  - 点云处理
-  - 显式曲面
-  - 三角网格
-  - 偏移优化
+  - "CVPR 2025"
+  - "3D视觉"
+  - "曲面重建"
+  - "点云处理"
+  - "显式曲面"
+  - "三角网格"
+  - "偏移优化"
 ---
 
 # OffsetOPT: Explicit Surface Reconstruction without Normals

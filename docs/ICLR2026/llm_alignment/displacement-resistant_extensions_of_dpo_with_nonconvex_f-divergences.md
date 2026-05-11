@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences
 description: >-
-  [ICLR 2026][LLM对齐][DPO] 发现 f-DPO 的可解性不需要 f 凸（仅需 $\lim_{t\to 0^+} f'(t) = -\infty$），进一步证明 $\arg\min f(t) \geq 1$ 是抵抗概率位移的必要条件，由此提出 SquaredPO（$f(t) = \frac{1}{2}(\log t)^2$，非凸），在保持性能的同时显著缓解 winner 概率下降问题。
+  [ICLR 2026][LLM对齐][DPO] 发现 f-DPO 的可解性不需要 f 凸（仅需 $\lim_{t\to 0^+} f'(t) = -\infty$），进一步证明 $\arg\min f(t) \geq 1$ 是抵抗概率位移的必要条件…
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - DPO
-  - f-divergence
-  - likelihood displacement
-  - preference optimization
-  - SquaredPO
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "DPO"
+  - "f-divergence"
+  - "likelihood displacement"
+  - "preference optimization"
+  - "SquaredPO"
 ---
 
 # Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences

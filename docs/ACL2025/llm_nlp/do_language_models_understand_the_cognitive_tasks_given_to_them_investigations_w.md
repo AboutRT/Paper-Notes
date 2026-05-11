@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][cognitive evaluation] 用 N-back 任务系统分析 LLM 认知任务理解能力，发现性能低下的主因是任务理解不足而非工作记忆限制，挑战了 LLM 工作记忆容量约 3 的结论。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - cognitive evaluation
-  - N-back
-  - working memory
-  - task understanding
-  - LLM
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "cognitive evaluation"
+  - "N-back"
+  - "working memory"
+  - "task understanding"
+  - "LLM"
 ---
 
 # Do Language Models Understand the Cognitive Tasks Given to Them? Investigations with the N-Back Paradigm

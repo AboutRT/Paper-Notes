@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Eigenspectrum Analysis of Neural Networks without Aspect Ratio Bias
 description: >-
-  [ICML2025][ESD] 论文提出 FARMS（Fixed-Aspect-Ratio Matrix Subsampling），通过固定长宽比子矩阵采样来消除权重特征谱分析中的长宽比偏差，从而显著提升基于 HT-SR 的分层学习率分配与模型剪枝效果。
+  [ICML2025][模型压缩][ESD] 论文提出 FARMS（Fixed-Aspect-Ratio Matrix Subsampling），通过固定长宽比子矩阵采样来消除权重特征谱分析中的长宽比偏差，从而显著提升基于 HT-SR 的分层学习率分配与模型剪枝效果。
 tags:
-  - ICML2025
-  - ESD
-  - 重尾自正则化
-  - 随机矩阵理论
-  - 长宽比偏差
-  - 层级超参数分配
+  - "ICML2025"
+  - "模型压缩"
+  - "ESD"
+  - "重尾自正则化"
+  - "随机矩阵理论"
+  - "长宽比偏差"
+  - "层级超参数分配"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

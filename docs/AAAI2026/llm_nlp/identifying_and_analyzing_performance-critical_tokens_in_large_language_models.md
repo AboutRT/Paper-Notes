@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Identifying and Analyzing Performance-Critical Tokens in Large Language Models
 description: >-
-  [AAAI 2026][LLM/NLP][上下文学习] 通过representation-level和token-level两种消融实验，发现LLM在ICL中直接依赖的"性能关键token"是模板和停用词token（如"Answer:"），而非人类会关注的内容token（如实际文本），并揭示了LLM通过将内容信息聚合到这些关键token的表示中来间接利用内容。
+  [AAAI 2026][LLM/NLP][上下文学习] 通过representation-level和token-level两种消融实验，发现LLM在ICL中直接依赖的"性能关键token"是模板和停用词token（如"Answer:"），而非人类会关注的内容token（如实际文本）…
 tags:
-  - AAAI 2026
-  - LLM/NLP
-  - 上下文学习
-  - 性能关键token
-  - 注意力消融
-  - 模板token
-  - 信息聚合
+  - "AAAI 2026"
+  - "LLM/NLP"
+  - "上下文学习"
+  - "性能关键token"
+  - "注意力消融"
+  - "模板token"
+  - "信息聚合"
 ---
 
 # Identifying and Analyzing Performance-Critical Tokens in Large Language Models

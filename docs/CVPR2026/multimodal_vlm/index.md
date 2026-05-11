@@ -1,18 +1,29 @@
 ---
 title: >-
-  CVPR2026 多模态 VLM方向241篇论文解读
+  CVPR2026 多模态 VLM方向240篇论文解读
 description: >-
-  241篇CVPR2026的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对抗鲁棒、对齐/RLHF、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  240篇CVPR2026的多模态 VLM 方向论文解读，涵盖多模态、推理、LLM、对齐/RLHF、对抗鲁棒、模型压缩等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "CVPR2026"
+  - "多模态 VLM"
+  - "论文解读"
+  - "论文笔记"
+  - "多模态"
+  - "推理"
+  - "LLM"
+  - "对齐/RLHF"
+  - "对抗鲁棒"
+  - "模型压缩"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # 🧩 多模态 VLM
 
-**📷 CVPR2026** · **241** 篇论文解读
+**📷 CVPR2026** · **240** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (91)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (50)](../../ACL2026/multimodal_vlm/index.md) · [🔬 ICLR2026 (90)](../../ICLR2026/multimodal_vlm/index.md) · [🤖 AAAI2026 (91)](../../AAAI2026/multimodal_vlm/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/multimodal_vlm/index.md) · [📹 ICCV2025 (151)](../../ICCV2025/multimodal_vlm/index.md) · [🧪 ICML2025 (52)](../../ICML2025/multimodal_vlm/index.md)
 
-🔥 **高频主题：** 多模态 ×135 · 推理 ×25 · LLM ×21 · 对抗鲁棒 ×13 · 对齐/RLHF ×12
+🔥 **高频主题：** 多模态 ×134 · 推理 ×25 · LLM ×21 · 对齐/RLHF ×12 · 对抗鲁棒 ×12
 
 **[A3: Towards Advertising Aesthetic Assessment](a3_towards_advertising_aesthetic_assessment.md)**
 
@@ -101,10 +112,6 @@ description: >-
 **[CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment](capt_confusion-aware_prompt_tuning_for_reducing_vision-language_misalignment.md)**
 
 :   提出 CAPT 混淆感知 prompt tuning 框架，通过语义混淆挖掘器（SEM）和样本混淆挖掘器（SAM）显式建模 VLM 的系统性误对齐模式，配合多粒度差异专家（MGDE）融合不同层次的混淆信息，在 11 个基准上取得 HM 83.90% 的最优表现。
-
-**[ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding](chartnet_a_million-scale_high-quality_multimodal_dataset_for_robust_chart_unders.md)**
-
-:   发布 ChartNet——150 万规模的高质量多模态图表数据集，通过代码引导合成管线生成包含图像-代码-数据表-文本-推理QA 的对齐五元组，在图表理解和推理任务上显著提升 VLM 性能，小模型微调后超越 GPT-4o。
 
 **[Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking](circuit_tracing_in_vision-language_models_understanding_the_internal_mechanisms_.md)**
 

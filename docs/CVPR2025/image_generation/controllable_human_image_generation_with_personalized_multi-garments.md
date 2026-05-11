@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多服装人物生成] 本文提出 BootComp，通过训练分解网络从人物图像中提取产品视图服装图来构建大规模合成配对数据集，再训练双路径扩散模型实现以多件参考服装为条件的可控人物图像生成，在 MP-LPIPS 上比 SOTA 提升 30%。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多服装人物生成
-  - 合成数据流水线
-  - 分解网络
-  - 扩散模型组合
-  - 虚拟试穿
+  - "CVPR 2025"
+  - "图像生成"
+  - "多服装人物生成"
+  - "合成数据流水线"
+  - "分解网络"
+  - "扩散模型组合"
+  - "虚拟试穿"
 ---
 
 # BootComp: Controllable Human Image Generation with Personalized Multi-Garments

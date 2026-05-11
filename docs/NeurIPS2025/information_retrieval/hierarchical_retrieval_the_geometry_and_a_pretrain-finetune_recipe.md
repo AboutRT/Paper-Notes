@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Hierarchical Retrieval: The Geometry and a Pretrain-Finetune Recipe
 description: >-
-  [NeurIPS 2025][层次检索] 研究双编码器（Dual Encoder）在层次化检索（Hierarchical Retrieval）中的可行性，理论证明嵌入维度只需与层次深度线性、文档数对数增长即可求解，并发现"远距离丢失"现象后提出预训练-微调策略，在 WordNet 上将远距离召回率从 19% 提升至 76%。
+  [NeurIPS 2025][信息检索/RAG][层次检索] 研究双编码器（Dual Encoder）在层次化检索（Hierarchical Retrieval）中的可行性，理论证明嵌入维度只需与层次深度线性、文档数对数增长即可求解，并发现"远距离丢失"现象后提出预训练-微调策略…
 tags:
-  - NeurIPS 2025
-  - 层次检索
-  - 双编码器
-  - 嵌入几何
-  - 信息检索
-  - 远距离检索
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "层次检索"
+  - "双编码器"
+  - "嵌入几何"
+  - "预训练微调"
+  - "远距离检索"
 ---
 
 # Hierarchical Retrieval: The Geometry and a Pretrain-Finetune Recipe

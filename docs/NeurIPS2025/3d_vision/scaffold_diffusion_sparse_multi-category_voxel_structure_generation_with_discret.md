@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Scaffold Diffusion: Sparse Multi-Category Voxel Structure Generation with Discrete Diffusion
 description: >-
-  [NeurIPS 2025][3D视觉][离散扩散模型] 提出Scaffold Diffusion，将稀疏多类别3D体素视为token序列，使用Masked Diffusion Language Model（MDLM）配合3D正弦位置编码，在条件占用图上生成空间连贯的多类别体素结构，在极端稀疏（>98%背景）的Minecraft房屋数据集上显著优于自回归和传统离散扩散baseline。
+  [NeurIPS 2025][3D视觉][离散扩散模型] 提出Scaffold Diffusion，将稀疏多类别3D体素视为token序列，使用Masked Diffusion Language Model（MDLM）配合3D正弦位置编码，在条件占用图上生成空间连贯的多类别体素结构…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 离散扩散模型
-  - 体素生成
-  - 稀疏结构
-  - 3D生成
-  - Minecraft
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "离散扩散模型"
+  - "体素生成"
+  - "稀疏结构"
+  - "3D生成"
+  - "Minecraft"
 ---
 
 # Scaffold Diffusion: Sparse Multi-Category Voxel Structure Generation with Discrete Diffusion

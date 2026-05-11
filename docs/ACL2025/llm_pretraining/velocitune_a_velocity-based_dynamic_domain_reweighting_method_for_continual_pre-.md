@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Velocitune: A Velocity-based Dynamic Domain Reweighting Method for Continual Pre-training
 description: >-
-  [ACL 2025][持续预训练] 提出 Velocitune 框架，通过学习速度（learning velocity）动态调整持续预训练中各数据域的采样权重——优先加大学习较慢的域的权重，并利用 scaling law 低成本估计目标损失，在数学/代码推理和系统命令生成任务上显著优于静态混合基线。
+  [ACL 2025][预训练][持续预训练] 提出 Velocitune 框架，通过学习速度（learning velocity）动态调整持续预训练中各数据域的采样权重——优先加大学习较慢的域的权重，并利用 scaling law 低成本估计目标损失，在数学/代码推理和系统命令生成任务上显著优于静态混合基线。
 tags:
-  - ACL 2025
-  - 持续预训练
-  - 域权重调整
-  - 学习速度
-  - Scaling Law
-  - 数据混合
+  - "ACL 2025"
+  - "预训练"
+  - "持续预训练"
+  - "域权重调整"
+  - "学习速度"
+  - "Scaling Law"
+  - "数据混合"
 ---
 
 # Velocitune: A Velocity-based Dynamic Domain Reweighting Method for Continual Pre-training

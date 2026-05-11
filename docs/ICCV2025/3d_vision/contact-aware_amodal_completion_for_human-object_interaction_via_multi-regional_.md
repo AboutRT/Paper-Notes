@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][非模态补全] 提出首个面向人物交互（HOI）场景的非模态补全框架，利用人体拓扑和接触信息通过凸包操作识别遮挡区域，结合多区域修复策略在预训练扩散模型上无需额外训练即可完成高质量的遮挡物体补全。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 非模态补全
-  - 人物交互
-  - 多区域修复
-  - 扩散模型
-  - 接触估计
+  - "ICCV 2025"
+  - "3D视觉"
+  - "非模态补全"
+  - "人物交互"
+  - "多区域修复"
+  - "扩散模型"
+  - "接触估计"
 ---
 
 # Contact-Aware Amodal Completion for Human-Object Interaction via Multi-Regional Inpainting

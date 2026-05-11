@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][LLM/NLP][event camera] 提出 Bi-CMPStereo，一种双向跨模态提示框架，交替将事件和帧设为目标域进行立体规范化约束和跨域嵌入适配，同时利用两个方向的代价体实现鲁棒的事件-帧非对称立体匹配。
 tags:
-  - CVPR 2026
-  - LLM/NLP
-  - event camera
-  - stereo matching
-  - 跨模态
-  - asymmetric stereo
-  - 深度估计
+  - "CVPR 2026"
+  - "LLM/NLP"
+  - "event camera"
+  - "stereo matching"
+  - "跨模态"
+  - "asymmetric stereo"
+  - "深度估计"
 ---
 
 # Bi-CMPStereo: Bidirectional Cross-Modal Prompting for Event-Frame Asymmetric Stereo

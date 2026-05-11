@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks
 description: >-
-  [ICML 2025 (Workshop on ML4Wireless)][自动驾驶][多无人机控制] 提出一种基于 LLM 的层次化协作控制框架，通过 HAPS 端部署的元控制器 LLM 和 UAV 端部署的边缘控制器 LLM 的双层协同，实现多 UAV 在 3D 空中高速公路场景下的运动规划与通信接入联合优化。
+  [ICML 2025 (Workshop on ML4Wireless)][自动驾驶][多无人机控制] 提出一种基于 LLM 的层次化协作控制框架，通过 HAPS 端部署的元控制器 LLM 和 UAV 端部署的边缘控制器 LLM 的双层协同…
 tags:
-  - ICML 2025 (Workshop on ML4Wireless)
-  - 自动驾驶
-  - 多无人机控制
-  - 大语言模型
-  - 层次化协作
-  - 空地一体网络
-  - 运动与通信联合优化
+  - "ICML 2025 (Workshop on ML4Wireless)"
+  - "自动驾驶"
+  - "多无人机控制"
+  - "大语言模型"
+  - "层次化协作"
+  - "空地一体网络"
+  - "运动与通信联合优化"
 ---
 
 # Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks
@@ -132,17 +132,17 @@ $$r_t^{j, tele} = w_4 \cdot WR_{i^*, j, t} \cdot (1 - \min(1, \xi_t^j))$$
 | 方法 | 总奖励 | 通信奖励优势 | 碰撞率 | 说明 |
 |------|--------|-------------|--------|------|
 | DDQN | ~23 | 基线 | 较高 | 传统 DRL |
-| Envelope-MORL | <20 | 中等 | 中等 | 多目标 RL |
+| Envelope-MORL | &lt;20 | 中等 | 中等 | 多目标 RL |
 | Llama 3.1 8B + DDQN | 中等 | 中等 | 中等 | 混合 LLM+RL |
 | Llama 3.1 70B + DDQN | 较高 | 较高 | 较低 | 更大模型混合 |
-| **LLM-LLM Dual Agent** | **~30** | **+2~3 units** | **<0.08** | **本文方法** |
+| **LLM-LLM Dual Agent** | **~30** | **+2~3 units** | **&lt;0.08** | **本文方法** |
 
 ### 消融实验
 
 | 配置 | 关键指标 | 说明 |
 |------|----------|------|
 | UAV=5 → UAV=40 | 总奖励先降后升（U 型） | 低密度有编队效应，高密度拥堵主导 |
-| 碰撞率 vs 密度 | <0.12（低密度），M>30 急升 | Dual Agent 始终低于 0.08 |
+| 碰撞率 vs 密度 | &lt;0.12（低密度），M>30 急升 | Dual Agent 始终低于 0.08 |
 | BS 数量 5/10/15/20 | 网络可扩展性验证 | BS 增多提升通信性能 |
 | 收敛速度 | Dual Agent ~1.5k episodes | 比 DDQN 快约一个数量级 |
 

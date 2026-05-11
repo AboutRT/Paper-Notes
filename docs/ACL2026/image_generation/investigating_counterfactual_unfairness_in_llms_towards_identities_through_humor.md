@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Investigating Counterfactual Unfairness in LLMs towards Identities through Humor
 description: >-
-  [ACL 2026][图像生成][反事实公平性] 本文通过幽默场景系统调查 LLM 的反事实不公平性——交换说话者/听众身份后观察模型行为变化，发现特权群体说的笑话被拒绝率高达 67.5%，被判定为恶意的概率高 64.7%，且社会危害评分高达 1.5 分（5分制），揭示了模型内化了固定的社会特权层级而非进行真正的社会推理。
+  [ACL 2026][图像生成][反事实公平性] 本文通过幽默场景系统调查 LLM 的反事实不公平性——交换说话者/听众身份后观察模型行为变化，发现特权群体说的笑话被拒绝率高达 67.5%，被判定为恶意的概率高 64.7%，且社会危害评分高达 1.5 分（5分制）…
 tags:
-  - ACL 2026
-  - 图像生成
-  - 反事实公平性
-  - 幽默偏见
-  - 身份偏见
-  - LLM拒绝行为
-  - 社会特权层级
+  - "ACL 2026"
+  - "图像生成"
+  - "反事实公平性"
+  - "幽默偏见"
+  - "身份偏见"
+  - "LLM拒绝行为"
+  - "社会特权层级"
 ---
 
 # Investigating Counterfactual Unfairness in LLMs towards Identities through Humor

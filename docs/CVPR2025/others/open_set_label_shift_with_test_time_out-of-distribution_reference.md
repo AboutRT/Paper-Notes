@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][开集标签偏移] 本文针对开集标签偏移（OSLS）问题——目标分布包含源分布中没有的OOD类且标签分布变化——提出无需重训练的三阶段估计方法：利用已有的ID分类器和OOD检测器，通过EM算法估计目标域的标签分布和OOD比例，并校正分类器以适应目标分布。
 tags:
-  - CVPR 2025
-  - 开集标签偏移
-  - 其他
-  - EM算法
-  - 最大似然估计
-  - 分类器校正
+  - "CVPR 2025"
+  - "开集标签偏移"
+  - "分布外检测"
+  - "EM算法"
+  - "最大似然估计"
+  - "分类器校正"
 ---
 
 # Open Set Label Shift with Test Time Out-of-Distribution Reference

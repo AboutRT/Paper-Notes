@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Agentic Knowledgeable Self-Awareness
 description: >-
-  [ACL 2025][LLM Agent][agent planning] 本文提出 KnowSelf，一种数据驱动方法，通过在 agent 自探索轨迹上标注特殊 token 来标识不同思维情境（快速思考/慢速思考/知识思考），经两阶段训练（SFT + RPO）使 agent 模型学会自主判断何时需要调用外部知识，以最小知识消耗代价达到最优规划效果。
+  [ACL 2025][LLM Agent][agent planning] 本文提出 KnowSelf，一种数据驱动方法，通过在 agent 自探索轨迹上标注特殊 token 来标识不同思维情境（快速思考/慢速思考/知识思考）…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - agent planning
-  - self-awareness
-  - special tokens
-  - knowledge utilization
-  - two-stage training
+  - "ACL 2025"
+  - "LLM Agent"
+  - "agent planning"
+  - "self-awareness"
+  - "special tokens"
+  - "knowledge utilization"
+  - "two-stage training"
 ---
 
 # Agentic Knowledgeable Self-Awareness

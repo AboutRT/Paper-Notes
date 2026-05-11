@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Joint Vision-Language Social Bias Removal for CLIP
 description: >-
-  [CVPR 2025][CLIP去偏] 本文揭示了CLIP模型中图像和文本偏见分布不一致导致的"过度去偏"问题，提出一种双模态偏见对齐+反事实去偏的联合框架，在有效减少性别/年龄/种族偏见的同时保持视觉-语言对齐能力，并设计了ABLE指标综合评估去偏效果与下游性能。
+  [CVPR 2025][信息检索/RAG][CLIP去偏] 本文揭示了CLIP模型中图像和文本偏见分布不一致导致的"过度去偏"问题，提出一种双模态偏见对齐+反事实去偏的联合框架，在有效减少性别/年龄/种族偏见的同时保持视觉-语言对齐能力，并设计了ABLE指标综合评估去偏效果与下游性能。
 tags:
-  - CVPR 2025
-  - CLIP去偏
-  - 社会偏见消除
-  - 信息检索
-  - 反事实去偏
-  - 公平性
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "CLIP去偏"
+  - "社会偏见消除"
+  - "视觉语言对齐"
+  - "反事实去偏"
+  - "公平性"
 ---
 
 # Joint Vision-Language Social Bias Removal for CLIP

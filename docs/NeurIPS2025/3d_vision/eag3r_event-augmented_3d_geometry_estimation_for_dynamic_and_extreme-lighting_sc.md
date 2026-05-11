@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EAG3R: Event-Augmented 3D Geometry Estimation for Dynamic and Extreme-Lighting Scenes
 description: >-
-  [NeurIPS 2025][3D视觉][事件相机] EAG3R 将事件相机的异步事件流融入 MonST3R 点图重建框架，通过 Retinex 增强模块 + SNR 感知融合机制 + 事件光度一致性损失，在极端低光动态场景下实现鲁棒的深度估计、位姿跟踪和 4D 重建，零样本迁移夜间场景即可大幅超越 RGB-only 方法。
+  [NeurIPS 2025][3D视觉][事件相机] EAG3R 将事件相机的异步事件流融入 MonST3R 点图重建框架，通过 Retinex 增强模块 + SNR 感知融合机制 + 事件光度一致性损失，在极端低光动态场景下实现鲁棒的深度估计、位姿跟踪和 4D 重建…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 事件相机
-  - 3D几何估计
-  - 低光照
-  - 点图重建
-  - 动态场景重建
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "事件相机"
+  - "3D几何估计"
+  - "低光照"
+  - "点图重建"
+  - "动态场景重建"
 ---
 
 # EAG3R: Event-Augmented 3D Geometry Estimation for Dynamic and Extreme-Lighting Scenes
@@ -94,7 +94,7 @@ $$X_{\text{global}}^* = \arg\min \left(\mathcal{L}_{\text{align}} + w_{\text{smo
 
 ### 主实验——单目深度估计（MVSEC Night1-3）
 
-| 方法 | Night1 Abs Rel↓ | Night1 δ<1.25↑ | Night2 Abs Rel↓ | Night2 δ<1.25↑ | Night3 Abs Rel↓ | Night3 δ<1.25↑ |
+| 方法 | Night1 Abs Rel↓ | Night1 δ&lt;1.25↑ | Night2 Abs Rel↓ | Night2 δ&lt;1.25↑ | Night3 Abs Rel↓ | Night3 δ&lt;1.25↑ |
 |------|:---:|:---:|:---:|:---:|:---:|:---:|
 | DUSt3R | 0.407 | 0.393 | 0.415 | 0.384 | 0.463 | 0.335 |
 | MonST3R | 0.370 | 0.373 | 0.309 | 0.469 | 0.317 | 0.453 |
@@ -114,7 +114,7 @@ $$X_{\text{global}}^* = \arg\min \left(\mathcal{L}_{\text{align}} + w_{\text{smo
 
 ### 消融实验（Night3 深度估计）
 
-| 方法 | Abs Rel↓ | δ<1.25↑ | RMSE log↓ |
+| 方法 | Abs Rel↓ | δ&lt;1.25↑ | RMSE log↓ |
 |------|:---:|:---:|:---:|
 | MonST3R (Baseline) | 0.317 | 0.453 | 0.418 |
 | MonST3R (Finetune) | 0.302 | 0.509 | 0.401 |

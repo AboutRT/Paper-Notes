@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation
 description: >-
-  [ACL 2025][多语言翻译] > 本文系统揭示了机器翻译质量评估 (QE) 指标中的性别偏差：在源语言性别模糊时阳性形式得分高于阴性形式，在有上下文线索时阴性形式的错误率更高，且偏差会通过数据过滤和质量感知解码传播到下游 MT 系统。
+  [ACL 2025][多语言/翻译][质量评估] > 本文系统揭示了机器翻译质量评估 (QE) 指标中的性别偏差：在源语言性别模糊时阳性形式得分高于阴性形式，在有上下文线索时阴性形式的错误率更高，且偏差会通过数据过滤和质量感知解码传播到下游 MT 系统。
 tags:
-  - ACL 2025
-  - 多语言翻译
-  - 性别偏差
-  - 机器翻译
-  - 公平性
-  - QE指标
+  - "ACL 2025"
+  - "多语言/翻译"
+  - "质量评估"
+  - "性别偏差"
+  - "机器翻译"
+  - "公平性"
+  - "QE指标"
 ---
 
 # Watching the Watchers: Exposing Gender Disparities in Machine Translation Quality Estimation

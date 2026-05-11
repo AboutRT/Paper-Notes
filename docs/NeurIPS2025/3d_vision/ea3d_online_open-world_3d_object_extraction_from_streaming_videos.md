@@ -4,14 +4,14 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][在线 3D 重建] 提出 EA3D（ExtractAnything3D），一个在线开放世界 3D 物体提取框架，通过知识集成特征图、在线视觉里程计和循环联合优化，从流式视频中同时进行几何重建和全面场景理解。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 在线 3D 重建
-  - 开放世界场景理解
-  - Gaussian Splatting
-  - VLM
-  - 特征高斯
-  - 语义分割
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "在线 3D 重建"
+  - "开放世界场景理解"
+  - "Gaussian Splatting"
+  - "VLM"
+  - "特征高斯"
+  - "语义分割"
 ---
 
 # EA3D: Online Open-World 3D Object Extraction from Streaming Videos

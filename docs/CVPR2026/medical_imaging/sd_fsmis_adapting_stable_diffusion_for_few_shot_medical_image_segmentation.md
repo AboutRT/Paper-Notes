@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][图像分割] 提出 SD-FSMIS，一个将预训练 Stable Diffusion 适配到少样本医学图像分割的框架，通过支持-查询交互模块和视觉到文本条件转换器实现高效适配，在跨域场景中表现尤为突出。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 图像分割
-  - 扩散模型
-  - cross-domain
-  - foundation model
+  - "CVPR 2026"
+  - "医学图像"
+  - "图像分割"
+  - "扩散模型"
+  - "cross-domain"
+  - "foundation model"
 ---
 
 # SD-FSMIS: Adapting Stable Diffusion for Few-Shot Medical Image Segmentation

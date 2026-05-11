@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Task-Informed Anti-Curriculum by Masking Improves Downstream Performance on Text
 description: >-
-  [ACL 2025][其他] TIACBM 提出了一种任务感知的反课程掩码微调策略：利用下游任务知识（如情感极性、词性标签）决定哪些 token 被掩码，并采用周期衰减的掩码率，在情感分析、文本分类和作者归属三个任务上均取得统计显著的性能提升。
+  [ACL 2025][掩码语言模型] TIACBM 提出了一种任务感知的反课程掩码微调策略：利用下游任务知识（如情感极性、词性标签）决定哪些 token 被掩码，并采用周期衰减的掩码率，在情感分析、文本分类和作者归属三个任务上均取得统计显著的性能提升。
 tags:
-  - ACL 2025
-  - 其他
-  - 反课程学习
-  - 任务感知掩码
-  - 微调策略
-  - 情感分析
+  - "ACL 2025"
+  - "掩码语言模型"
+  - "反课程学习"
+  - "任务感知掩码"
+  - "微调策略"
+  - "情感分析"
 ---
 
 # Task-Informed Anti-Curriculum by Masking Improves Downstream Performance on Text

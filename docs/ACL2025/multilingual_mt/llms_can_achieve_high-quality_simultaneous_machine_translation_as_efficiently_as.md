@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LLMs Can Achieve High-quality Simultaneous Machine Translation as Efficiently as Offline
 description: >-
-  [ACL 2025 (Findings)][同声传译] 本文提出了一种新范式，通过将源语言和目标语言 token 按延迟要求重排为交错序列来构造 SFT 数据，使 LLM 能够像离线翻译一样高效地完成高质量同声传译（SiMT），在多个基准上达到 SOTA 性能，同时保持离线翻译的原有能力。
+  [ACL 2025 (Findings)][多语言/翻译][同声传译] 本文提出了一种新范式，通过将源语言和目标语言 token 按延迟要求重排为交错序列来构造 SFT 数据，使 LLM 能够像离线翻译一样高效地完成高质量同声传译（SiMT），在多个基准上达到 SOTA 性能，同时保持离线翻译的原有能力。
 tags:
-  - ACL 2025 (Findings)
-  - 同声传译
-  - 多语言翻译
-  - 流式翻译
-  - 交错序列
-  - 延迟控制
+  - "ACL 2025 (Findings)"
+  - "多语言/翻译"
+  - "同声传译"
+  - "大语言模型"
+  - "流式翻译"
+  - "交错序列"
+  - "延迟控制"
 ---
 
 # LLMs Can Achieve High-quality Simultaneous Machine Translation as Efficiently as Offline

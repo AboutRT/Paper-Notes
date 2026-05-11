@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][点云处理] 提出 SuperPC，首个将点云补全、上采样、去噪和着色四个任务统一在单一条件扩散模型中的框架，通过三级条件（raw/local/global）和空间混合融合策略（SMF）有效融合图像与点云模态。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 点云处理
-  - 扩散模型
-  - 多任务学习
-  - 多模态融合
-  - 三维重建
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "点云处理"
+  - "扩散模型"
+  - "多任务学习"
+  - "多模态融合"
+  - "三维重建"
 ---
 
 # SuperPC: A Single Diffusion Model for Point Cloud Completion, Upsampling, Denoising, and Colorization

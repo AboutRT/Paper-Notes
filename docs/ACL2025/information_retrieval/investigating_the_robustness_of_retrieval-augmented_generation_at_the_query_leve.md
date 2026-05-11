@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level
 description: >-
-  [ACL 2025][RAG] 提出首个查询级 RAG 鲁棒性模块化分析框架，通过 5 种扰动类型 × 4 种检索器 × 3 种 LLM × 3 个数据集共 1092+ 实验，揭示 dense 与 sparse 检索器对不同扰动类型的互补鲁棒性，并给出可操作的工程建议。
+  [ACL 2025][信息检索/RAG][RAG] 提出首个查询级 RAG 鲁棒性模块化分析框架，通过 5 种扰动类型 × 4 种检索器 × 3 种 LLM × 3 个数据集共 1092+ 实验，揭示 dense 与 sparse 检索器对不同扰动类型的互补鲁棒性，并给出可操作的工程建议。
 tags:
-  - ACL 2025
-  - RAG
-  - 查询扰动
-  - 信息检索
-  - dense/sparse 检索器
-  - 模块解耦分析
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "RAG"
+  - "查询扰动"
+  - "鲁棒性评估框架"
+  - "dense/sparse 检索器"
+  - "模块解耦分析"
 ---
 
 # Investigating the Robustness of Retrieval-Augmented Generation at the Query Level

@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Agent-GWO: Collaborative Agents for Dynamic Prompt Optimization in Large Language Models
 description: >-
-  [ACL2026][LLM Agent] 将灰狼优化器引入多智能体提示优化，联合优化prompt模板和解码超参数以提升LLM推理能力
-tags: [提示优化, 灰狼优化器, 多智能体协作, LLM推理, 元启发式搜索]
+  [ACL 2026][LLM Agent][提示优化] 本文提出 Agent-GWO，将灰狼优化器的领导者-追随者机制引入多智能体框架，联合优化 prompt 模板和解码超参数（温度、top-p 等），在 11 个数学和混合推理基准上持续超越现有提示优化方法。
+tags:
+  - "ACL 2026"
+  - "LLM Agent"
+  - "提示优化"
+  - "灰狼优化器"
+  - "多智能体"
+  - "推理增强"
+  - "解码超参数"
 ---
 
 # Agent-GWO: Collaborative Agents for Dynamic Prompt Optimization in Large Language Models

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation
 description: >-
-  [CVPR 2026][3D视觉][Incremental Few-Shot] SCOPE 提出一种即插即用的背景引导原型增强框架，利用基础训练场景中背景区域的伪实例构建原型库，在增量阶段通过检索+注意力融合增强少样本原型，无需重训骨干或增加参数即可在 ScanNet/S3DIS 上显著提升新类 IoU（最高 +6.98%）并保持低遗忘。
+  [CVPR 2026][语义分割][Incremental Few-Shot] SCOPE 提出一种即插即用的背景引导原型增强框架，利用基础训练场景中背景区域的伪实例构建原型库，在增量阶段通过检索+注意力融合增强少样本原型…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - Incremental Few-Shot
-  - 图像分割
-  - Prototype Enrichment
-  - Background Mining
+  - "CVPR 2026"
+  - "语义分割"
+  - "Incremental Few-Shot"
+  - "图像分割"
+  - "Prototype Enrichment"
+  - "Background Mining"
 ---
 
 # SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VI3NR: Variance Informed Initialization for Implicit Neural Representations
 description: >-
-  [CVPR 2025][人体理解][INR初始化] 推导了适用于任意激活函数的隐式神经表示（INR）初始化方法 VI3NR，将 Xavier/Kaiming 初始化推广到 Gaussian/Sinc 等非标准激活——通过控制前向和反向传播的方差一致性，用一个自由度 $\sigma_p^2$ 同时满足两个方向的稳定性，显著改善 INR 的收敛速度和重建质量。
+  [CVPR 2025][人体理解][INR初始化] 推导了适用于任意激活函数的隐式神经表示（INR）初始化方法 VI3NR，将 Xavier/Kaiming 初始化推广到 Gaussian/Sinc 等非标准激活——通过控制前向和反向传播的方差一致性…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - INR初始化
-  - 方差传播
-  - 激活函数通用
-  - Xavier推广
-  - 蒙特卡罗
+  - "CVPR 2025"
+  - "人体理解"
+  - "INR初始化"
+  - "方差传播"
+  - "激活函数通用"
+  - "Xavier推广"
+  - "蒙特卡罗"
 ---
 
 # VI3NR: Variance Informed Initialization for Implicit Neural Representations

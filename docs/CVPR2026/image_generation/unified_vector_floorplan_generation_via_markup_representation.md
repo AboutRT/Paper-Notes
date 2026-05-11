@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Unified Vector Floorplan Generation via Markup Representation
 description: >-
-  [CVPR 2026][图像生成][户型图生成] 本文提出 Floorplan Markup Language (FML) 标记语言，将房间、门等户型元素编码为结构化 token 序列，用一个 LLaMA 风格的 Transformer 模型（FMLM）统一解决无条件/边界条件/图条件/补全等多种户型图生成任务，FID 指标比 HouseDiffusion 低 80%+。
+  [CVPR 2026][图像生成][户型图生成] 本文提出 Floorplan Markup Language (FML) 标记语言，将房间、门等户型元素编码为结构化 token 序列…
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 户型图生成
-  - 标记语言
-  - 自回归序列模型
-  - 约束解码
-  - 向量化表示
+  - "CVPR 2026"
+  - "图像生成"
+  - "户型图生成"
+  - "标记语言"
+  - "自回归序列模型"
+  - "约束解码"
+  - "向量化表示"
 ---
 
 # Unified Vector Floorplan Generation via Markup Representation

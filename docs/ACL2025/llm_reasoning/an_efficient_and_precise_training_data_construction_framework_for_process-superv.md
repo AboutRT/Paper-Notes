@@ -2,15 +2,15 @@
 title: >-
   [论文解读] An Efficient and Precise Training Data Construction Framework for Process-Supervised Reward Model in Mathematical Reasoning
 description: >-
-  [ACL 2025][LLM推理][过程监督奖励模型] 本文提出EpicPRM框架，通过基于困惑度（perplexity）的Monte Carlo估计量化每个推理步骤的贡献度，并使用自适应二分搜索高效定位首个错误步骤，构建了高质量的过程监督数据集Epic50k（仅50k标注步骤），训练出的PRM性能可媲美甚至超越在PRM800k上训练的模型。
+  [ACL 2025][LLM推理][过程监督奖励模型] 本文提出EpicPRM框架，通过基于困惑度（perplexity）的Monte Carlo估计量化每个推理步骤的贡献度，并使用自适应二分搜索高效定位首个错误步骤，构建了高质量的过程监督数据集Epic50k（仅50k标注步骤）…
 tags:
-  - ACL 2025
-  - LLM推理
-  - 过程监督奖励模型
-  - 数据构建
-  - Monte Carlo估计
-  - 二分搜索
-  - EpicPRM
+  - "ACL 2025"
+  - "LLM推理"
+  - "过程监督奖励模型"
+  - "数据构建"
+  - "Monte Carlo估计"
+  - "二分搜索"
+  - "EpicPRM"
 ---
 
 # An Efficient and Precise Training Data Construction Framework for Process-Supervised Reward Model in Mathematical Reasoning

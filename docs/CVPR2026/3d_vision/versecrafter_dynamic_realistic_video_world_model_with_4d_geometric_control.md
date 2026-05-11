@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control
 description: >-
-  [CVPR 2026][3D视觉][视频世界模型] 提出 VerseCrafter，一个基于4D几何控制表示（静态背景点云 + 逐物体3D高斯轨迹）的视频世界模型，通过轻量 GeoAdapter 将4D控制信号注入冻结的 Wan2.1-14B 视频扩散模型，实现了对相机和多物体运动的精确、解耦控制，同时构建了包含 35K 样本的真实世界数据集 VerseControl4D。
+  [CVPR 2026][3D视觉][视频世界模型] 提出 VerseCrafter，一个基于4D几何控制表示（静态背景点云 + 逐物体3D高斯轨迹）的视频世界模型，通过轻量 GeoAdapter 将4D控制信号注入冻结的 Wan2.1-14B 视频扩散模型，实现了对相机和多物体运动的精确、解耦控制…
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 视频世界模型
-  - 4D几何控制
-  - 3D高斯轨迹
-  - 相机与物体运动
-  - 视频扩散模型
+  - "CVPR 2026"
+  - "3D视觉"
+  - "视频世界模型"
+  - "4D几何控制"
+  - "3D高斯轨迹"
+  - "相机与物体运动"
+  - "视频扩散模型"
 ---
 
 # VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control

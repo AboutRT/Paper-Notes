@@ -2,14 +2,15 @@
 title: >-
   [论文解读] STRIDE-ED: A Strategy-Grounded Stepwise Reasoning Framework for Empathetic Dialogue Systems
 description: >-
-  [ACL 2026][强化学习] 本文提出 STRIDE-ED 框架，通过构建覆盖正/中/负情绪的全面共情策略体系，设计任务对齐的多阶段认知CoT推理，结合策略感知数据精炼和SFT+PPO两阶段训练，在多个开源LLM上实现共情对话SOTA，情感准确率达57.25%，BLEU-4达4.67。
+  [ACL 2026][强化学习][共情对话] 本文提出 STRIDE-ED 框架，通过构建覆盖正/中/负情绪的全面共情策略体系，设计任务对齐的多阶段认知CoT推理，结合策略感知数据精炼和SFT+PPO两阶段训练，在多个开源LLM上实现共情对话SOTA，情感准确率达57.25%，BLEU-4达4.67。
 tags:
-  - ACL 2026
-  - 强化学习
-  - 策略引导推理
-  - 链式思考
-  - 多目标强化学习
-  - 数据精炼
+  - "ACL 2026"
+  - "强化学习"
+  - "共情对话"
+  - "策略引导推理"
+  - "链式思考"
+  - "多目标强化学习"
+  - "数据精炼"
 ---
 
 # STRIDE-ED: A Strategy-Grounded Stepwise Reasoning Framework for Empathetic Dialogue Systems

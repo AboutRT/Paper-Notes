@@ -2,15 +2,14 @@
 title: >-
   [论文解读] ParaRevSNN: A Parallel Reversible Spiking Neural Network for Efficient Training and Inference
 description: >-
-  [AAAI 2026][其他][脉冲神经网络] 提出ParaRevSNN，一种并行可逆脉冲神经网络架构，通过重新设计可逆块间的数据依赖关系解耦顺序计算约束，在保持可逆性（内存高效）的同时实现块间并行，训练时间减少最多35.2%，推理时间降至18.15%。
+  [AAAI 2026][脉冲神经网络] 提出ParaRevSNN，一种并行可逆脉冲神经网络架构，通过重新设计可逆块间的数据依赖关系解耦顺序计算约束，在保持可逆性（内存高效）的同时实现块间并行，训练时间减少最多35.2%，推理时间降至18.15%。
 tags:
-  - AAAI 2026
-  - 其他
-  - 脉冲神经网络
-  - 可逆计算
-  - 并行训练
-  - 内存效率
-  - 边缘部署
+  - "AAAI 2026"
+  - "脉冲神经网络"
+  - "可逆计算"
+  - "并行训练"
+  - "内存效率"
+  - "边缘部署"
 ---
 
 # ParaRevSNN: A Parallel Reversible Spiking Neural Network for Efficient Training and Inference

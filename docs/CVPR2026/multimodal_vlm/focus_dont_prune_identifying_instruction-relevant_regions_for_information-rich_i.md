@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PinPoint: Focus, Don't Prune — Identifying Instruction-Relevant Regions for Information-Rich Image Understanding
 description: >-
-  [CVPR 2026][多模态][大视觉语言模型] 提出 PinPoint，一个两阶段框架：先通过 Instruction-Region Alignment 定位与指令相关的图像区域，再对选中区域精细化编码，以更少的 visual token 实现更高的 VQA 精度。
+  [CVPR 2026][多模态VLM][大视觉语言模型] 提出 PinPoint，一个两阶段框架：先通过 Instruction-Region Alignment 定位与指令相关的图像区域，再对选中区域精细化编码，以更少的 visual token 实现更高的 VQA 精度。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - Token 效率
-  - 区域选择
-  - 对比学习
-  - 文档理解
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "大视觉语言模型"
+  - "Token 效率"
+  - "区域选择"
+  - "对比学习"
+  - "文档理解"
 ---
 
 # PinPoint: Focus, Don't Prune — Identifying Instruction-Relevant Regions for Information-Rich Image Understanding

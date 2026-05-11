@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][多模态VLM][Underwater Image Enhancement] 利用 VLM 生成空间语义引导图，通过 cross-attention 注入和语义对齐损失的双重引导机制，赋予水下图像增强网络语义感知能力，使增强结果同时有利于人类感知和下游检测/分割任务。
 tags:
-  - AAAI2026
-  - 多模态VLM
-  - Underwater Image Enhancement
-  - 视觉语言
-  - Semantic Guidance
-  - 注意力机制
-  - Downstream Tasks
+  - "AAAI2026"
+  - "多模态VLM"
+  - "Underwater Image Enhancement"
+  - "视觉语言"
+  - "Semantic Guidance"
+  - "注意力机制"
+  - "Downstream Tasks"
 ---
 
 # Empowering Semantic-Sensitive Underwater Image Enhancement with VLM

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI2026][机器人][dexterous manipulation] 提出 PKDA 框架，通过渐进式运动学-动力学对齐，将人手操作视频自动转化为多指灵巧手的高质量操作轨迹，平均迁移成功率达 73%。
 tags:
-  - AAAI2026
-  - 机器人
-  - dexterous manipulation
-  - motion retargeting
-  - reinforcement-learning
-  - hand-object interaction
-  - sim-to-real transfer
+  - "AAAI2026"
+  - "机器人"
+  - "dexterous manipulation"
+  - "motion retargeting"
+  - "reinforcement-learning"
+  - "hand-object interaction"
+  - "sim-to-real transfer"
 ---
 
 # Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment

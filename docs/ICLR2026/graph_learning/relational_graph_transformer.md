@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Relational Graph Transformer
 description: >-
-  [ICLR 2026][图学习][Transformer] 提出 RelGT，首个专为关系型数据库设计的图 Transformer，通过多元素 Token 化（特征/类型/跳距/时间/局部结构 5 元组）和局部-全局混合注意力机制，在 RelBench 基准的 21 个任务上一致超越 GNN 基线，最高提升 18%。
+  [ICLR 2026][图学习][Transformer] 提出 RelGT，首个专为关系型数据库设计的图 Transformer，通过多元素 Token 化（特征/类型/跳距/时间/局部结构 5 元组）和局部-全局混合注意力机制，在 RelBench 基准的 21 个任务上一致超越 GNN 基线…
 tags:
-  - ICLR 2026
-  - 图学习
-  - Transformer
-  - 关系型深度学习
-  - 多元素Token化
-  - 异构时序图
-  - 位置编码
+  - "ICLR 2026"
+  - "图学习"
+  - "Transformer"
+  - "关系型深度学习"
+  - "多元素Token化"
+  - "异构时序图"
+  - "位置编码"
 ---
 
 # Relational Graph Transformer
@@ -89,8 +89,8 @@ $$h_{\text{output}}(v_i) = \text{FFN}([h_{\text{local}}(v_i) \| h_{\text{global}
 - **端到端训练**：在 RDL pipeline（Robinson et al., 2024）中替换 GNN 组件
 - **模型规模**：10-20M 参数，学习率 1e-4
 - **采样参数**：$K=300$ 局部邻居，$B=4096$ 全局质心
-- **层数**：<1M 训练节点时搜索 $L \in \{1,4,8\}$，>1M 时固定 $L=4$
-- **Batch size**：<1M 节点用 256，>1M 用 1024
+- **层数**：&lt;1M 训练节点时搜索 $L \in \{1,4,8\}$，>1M 时固定 $L=4$
+- **Batch size**：&lt;1M 节点用 256，>1M 用 1024
 - **Dropout**：$\{0.3, 0.4, 0.5\}$
 - 时序感知采样确保 $\tau(v_j) \leq \tau(v_i)$，防止数据泄露
 

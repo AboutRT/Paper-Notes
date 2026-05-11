@@ -2,15 +2,16 @@
 title: >-
   [论文解读] The Double-Ellipsoid Geometry of CLIP
 description: >-
-  [ICML 2025][CLIP] 通过数据驱动分析发现CLIP的L2归一化前primary embedding呈现双椭球壳几何——图像和文本分别在偏离原点的可线性分离椭球壳上，引入conformity概念解释该结构如何帮助缓解false negatives并解释modality gap的成因。
+  [ICML 2025][预训练][CLIP] 通过数据驱动分析发现CLIP的L2归一化前primary embedding呈现双椭球壳几何——图像和文本分别在偏离原点的可线性分离椭球壳上，引入conformity概念解释该结构如何帮助缓解false negatives并解释modality gap的成因。
 tags:
-  - ICML 2025
-  - CLIP
-  - modality gap
-  - ellipsoid
-  - LLM预训练
-  - conformity
-  - thin-shell
+  - "ICML 2025"
+  - "预训练"
+  - "CLIP"
+  - "modality gap"
+  - "ellipsoid"
+  - "对比学习"
+  - "conformity"
+  - "thin-shell"
 ---
 
 # The Double-Ellipsoid Geometry of CLIP

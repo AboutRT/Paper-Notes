@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][输入归因] 设计受控的合成归纳推理任务评估 4 种输入归因方法解释 ICL 的能力，发现最简单的梯度范数常常最好，但所有方法在不同任务和模型规模上表现不一致且不稳定——ICL 的可解释性比预期更难。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 输入归因
-  - 上下文学习
-  - 归纳推理
-  - 梯度方法
-  - aha example
-  - LLM可解释性
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "输入归因"
+  - "上下文学习"
+  - "归纳推理"
+  - "梯度方法"
+  - "aha example"
+  - "LLM可解释性"
 ---
 
 # Can Input Attributions Explain Inductive Reasoning in In-Context Learning?

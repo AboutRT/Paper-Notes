@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MMINA: Benchmarking Multihop Multimodal Internet Agents
 description: >-
-  [ACL 2025][多模态][Web Agent] 提出MMInA基准，包含1,050个人工编写的多跳多模态网页任务（覆盖14个真实动态网站，平均2.85跳），并设计逐跳评估协议和记忆增强方法，揭示当前最强Agent（GPT-4V仅21.8%任务成功率）在多跳网页导航上与人类（96.3%）的巨大差距。
+  [ACL 2025][多模态VLM][Web Agent] 提出MMInA基准，包含1,050个人工编写的多跳多模态网页任务（覆盖14个真实动态网站，平均2.85跳），并设计逐跳评估协议和记忆增强方法，揭示当前最强Agent（GPT-4V仅21.8%任务成功率）在多跳网页导航上与人类（96.3%）的巨大差距。
 tags:
-  - ACL 2025
-  - 多模态
-  - 多模态VLM
-  - 多跳推理
-  - 多模态基准
-  - 网页浏览
-  - 记忆增强
+  - "ACL 2025"
+  - "多模态VLM"
+  - "Web Agent"
+  - "多跳推理"
+  - "多模态基准"
+  - "网页浏览"
+  - "记忆增强"
 ---
 
 # MMINA: Benchmarking Multihop Multimodal Internet Agents

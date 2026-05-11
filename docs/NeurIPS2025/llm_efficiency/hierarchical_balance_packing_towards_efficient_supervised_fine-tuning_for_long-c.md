@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM效率][数据打包] 提出层次均衡打包（HBP）方法，通过多级打包分组、均衡批处理、自适应序列并行和稳定损失归一化，解决长短上下文混合 SFT 中的注意力计算不均衡和通信浪费问题，在 DeepSeek-V2 (236B) 上实现 2.4× 训练加速且性能无损。
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - 数据打包
-  - 长上下文微调
-  - 序列并行
-  - 注意力均衡
-  - 课程学习
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "数据打包"
+  - "长上下文微调"
+  - "序列并行"
+  - "注意力均衡"
+  - "课程学习"
 ---
 
 # Hierarchical Balance Packing: Towards Efficient Supervised Fine-tuning for Long-Context LLM

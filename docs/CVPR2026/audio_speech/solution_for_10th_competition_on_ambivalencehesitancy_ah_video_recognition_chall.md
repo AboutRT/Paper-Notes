@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Solution for 10th Competition on Ambivalence/Hesitancy (AH) Video Recognition Challenge using Divergence-Based Multimodal Fusion
 description: >-
-  [CVPR2026][语音][多模态融合] 针对第10届 ABAW 竞赛的矛盾/犹豫 (A/H) 视频识别任务，提出基于散度的多模态融合策略，通过计算视觉（AU）、音频（Wav2Vec 2.0）和文本（BERT）三个模态嵌入的逐对绝对差来显式建模跨模态冲突，在 BAH 数据集上以 Macro F1 0.6808 大幅超越基线 0.2827。
+  [CVPR2026][音频/语音][多模态融合] 针对第10届 ABAW 竞赛的矛盾/犹豫 (A/H) 视频识别任务，提出基于散度的多模态融合策略，通过计算视觉（AU）、音频（Wav2Vec 2.0）和文本（BERT）三个模态嵌入的逐对绝对差来显式建模跨模态冲突…
 tags:
-  - CVPR2026
-  - 语音
-  - 音频语音
-  - 矛盾/犹豫识别
-  - Action Units
-  - 跨模态冲突
-  - 情感计算
+  - "CVPR2026"
+  - "音频/语音"
+  - "多模态融合"
+  - "矛盾/犹豫识别"
+  - "Action Units"
+  - "跨模态冲突"
+  - "情感计算"
 ---
 
 # Solution for 10th Competition on Ambivalence/Hesitancy (AH) Video Recognition Challenge using Divergence-Based Multimodal Fusion

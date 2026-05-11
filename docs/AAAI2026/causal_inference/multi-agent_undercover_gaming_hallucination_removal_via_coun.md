@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MUG: Multi-agent Undercover Gaming — Hallucination Removal via Counterfactual Test for Multimodal Reasoning
 description: >-
-  [AAAI 2026][因果推理] MUG 将多 Agent 辩论（MAD）重新定义为"谁是卧底"社交推理游戏——通过图像反事实编辑（修改参考图片）引入信息不对称，让一个 Agent 持有修改后的图片作为"卧底"，其他 Agent 通过推理和投票识别卧底（幻觉来源），在 HallusionBench 上 Qwen2.5VL-7B 从 46.4% 提升到 53.8%。
+  [AAAI 2026][因果推理][多Agent博弈] MUG 将多 Agent 辩论（MAD）重新定义为"谁是卧底"社交推理游戏——通过图像反事实编辑（修改参考图片）引入信息不对称，让一个 Agent 持有修改后的图片作为"卧底"，其他 Agent 通过推理和投票识别卧底（幻觉来源）…
 tags:
-  - AAAI 2026
-  - 因果推理
-  - 反事实测试
-  - 幻觉检测
-  - 卧底游戏
-  - 主动推理
+  - "AAAI 2026"
+  - "因果推理"
+  - "多Agent博弈"
+  - "反事实测试"
+  - "幻觉检测"
+  - "卧底游戏"
+  - "主动推理"
 ---
 
 # MUG: Multi-agent Undercover Gaming — Hallucination Removal via Counterfactual Test for Multimodal Reasoning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][多模态大语言模型] 系统性对比分析了 MLLM（多模态大语言模型）与扩散模型在安全风险上的差异，发现 MLLM 因更强的语义理解能力而更容易生成不安全图像（抽象/非英语提示也能理解），且其生成的图像更难被现有假图检测器识别，即便针对性微调检测器也可通过丰富提示细节来规避。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 多模态大语言模型
-  - 图像安全
-  - 不安全内容生成
-  - 虚假图像检测
-  - 扩散模型对比
+  - "CVPR 2026"
+  - "图像生成"
+  - "多模态大语言模型"
+  - "图像安全"
+  - "不安全内容生成"
+  - "虚假图像检测"
+  - "扩散模型对比"
 ---
 
 # When Understanding Becomes a Risk: Authenticity and Safety Risks in the Emerging Image Generation Paradigm

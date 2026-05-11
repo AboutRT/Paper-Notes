@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][全局鲁棒性] 提出基于 ε-net 采样的概率近似全局鲁棒性（PAG）认证框架，所需样本量与输入维度、类别数和模型架构无关，可高效认证大规模神经网络的全局鲁棒性。
 tags:
-  - ICML2025
-  - 全局鲁棒性
-  - ε-net
-  - 概率认证
-  - 其他
-  - VC维
-  - 采样认证
+  - "ICML2025"
+  - "全局鲁棒性"
+  - "ε-net"
+  - "概率认证"
+  - "对抗鲁棒性"
+  - "VC维"
+  - "采样认证"
 ---
 
 # Probably Approximately Global Robustness Certification

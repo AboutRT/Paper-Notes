@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Connecting Jensen-Shannon and Kullback-Leibler Divergences: A New Bound for Representation Learning
 description: >-
-  [NeurIPS 2025][自监督学习][mutual information] 推导了一般情况下KL散度关于JS散度的最优紧致下界$\Xi(D_{\text{JS}}) \leq D_{\text{KL}}$，证明训练判别器最小化交叉熵损失等价于最大化互信息的一个保证下界，为JSD基于的判别式表示学习方法提供了缺失的理论基础，并在MI估计和Information Bottleneck框架中验证了紧致性与实用性。
+  [NeurIPS 2025][自监督学习][mutual information] 推导了一般情况下KL散度关于JS散度的最优紧致下界$\Xi(D_{\text{JS}}) \leq D_{\text{KL}}$，证明训练判别器最小化交叉熵损失等价于最大化互信息的一个保证下界…
 tags:
-  - NeurIPS 2025
-  - 自监督学习
-  - mutual information
-  - Jensen-Shannon divergence
-  - KL divergence
-  - variational bound
-  - representation learning
+  - "NeurIPS 2025"
+  - "自监督学习"
+  - "mutual information"
+  - "Jensen-Shannon divergence"
+  - "KL divergence"
+  - "variational bound"
+  - "representation learning"
 ---
 
 # Connecting Jensen-Shannon and Kullback-Leibler Divergences: A New Bound for Representation Learning

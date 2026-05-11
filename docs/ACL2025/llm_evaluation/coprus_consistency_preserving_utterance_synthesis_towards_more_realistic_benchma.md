@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM评测][对话合成] 本文提出 CoPrUS 框架，一种面向对话基准构建的一致性保持话语合成方法，通过在生成对话数据时显式维护人设、知识和对话历史的一致性约束，生成比现有方法更真实的对话基准数据。
 tags:
-  - ACL 2025
-  - LLM评测
-  - 对话合成
-  - 一致性保持
-  - 基准构建
-  - 数据增强
-  - 对话基准测试
+  - "ACL 2025"
+  - "LLM评测"
+  - "对话合成"
+  - "一致性保持"
+  - "基准构建"
+  - "数据增强"
+  - "对话基准测试"
 ---
 
 # CoPrUS: Consistency Preserving Utterance Synthesis Towards More Realistic Benchmark

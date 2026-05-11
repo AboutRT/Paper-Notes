@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SmartEraser: Remove Anything from Images using Masked-Region Guidance
 description: >-
-  [CVPR 2025][图像分割][目标移除] SmartEraser 提出 Masked-Region Guidance 新范式，保留掩码区域作为引导而非丢弃，配合百万级合成 Syn4Removal 数据集，在目标移除任务上大幅超越现有 mask-and-inpaint 方法。
+  [CVPR 2025][语义分割][目标移除] SmartEraser 提出 Masked-Region Guidance 新范式，保留掩码区域作为引导而非丢弃，配合百万级合成 Syn4Removal 数据集，在目标移除任务上大幅超越现有 mask-and-inpaint 方法。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 目标移除
-  - 掩码区域引导
-  - 图像修复
-  - 扩散模型
-  - 合成数据集
+  - "CVPR 2025"
+  - "语义分割"
+  - "目标移除"
+  - "掩码区域引导"
+  - "图像修复"
+  - "扩散模型"
+  - "合成数据集"
 ---
 
 # SmartEraser: Remove Anything from Images using Masked-Region Guidance

@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Evolution of Concepts in Language Model Pre-Training
 description: >-
-  [ICLR 2026][机制可解释性] 首次将 crosscoders（跨快照稀疏字典学习）应用于追踪语言模型预训练过程中特征的涌现和演化，发现预训练存在"统计学习→特征学习"两阶段相变，并通过归因分析将微观特征演化与宏观下游任务指标因果关联。
+  [ICLR 2026][可解释性][机制可解释性] 首次将 crosscoders（跨快照稀疏字典学习）应用于追踪语言模型预训练过程中特征的涌现和演化，发现预训练存在"统计学习→特征学习"两阶段相变，并通过归因分析将微观特征演化与宏观下游任务指标因果关联。
 tags:
-  - ICLR 2026
-  - 机制可解释性
-  - crosscoders
-  - sparse autoencoders
-  - 训练动态
-  - feature evolution
-  - 可解释性
-  - Pythia
+  - "ICLR 2026"
+  - "可解释性"
+  - "机制可解释性"
+  - "crosscoders"
+  - "sparse autoencoders"
+  - "训练动态"
+  - "feature evolution"
+  - "预训练"
+  - "Pythia"
 ---
 
 # Evolution of Concepts in Language Model Pre-Training

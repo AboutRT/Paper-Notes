@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Scaling Value Iteration Networks to 5000 Layers for Extreme Long-Term Planning
 description: >-
-  [ICML2025][Value Iteration Network] 提出 Dynamic Transition VIN (DT-VIN)，通过引入动态转移核增强隐式 MDP 的表征能力，并设计自适应 highway loss 缓解梯度消失，将 VIN 成功扩展至 5000 层，在 $100 \times 100$ 迷宫中实现 1800 步长期规划（原版 VIN 仅支持 $25 \times 25$ 迷宫中 120 步规划）。
+  [ICML2025][强化学习][Value Iteration Network] 提出 Dynamic Transition VIN (DT-VIN)，通过引入动态转移核增强隐式 MDP 的表征能力，并设计自适应 highway loss 缓解梯度消失，将 VIN 成功扩展至 5000 层…
 tags:
-  - ICML2025
-  - Value Iteration Network
-  - 长期规划
-  - 动态转移核
-  - 自适应Highway Loss
-  - 深度网络训练
+  - "ICML2025"
+  - "强化学习"
+  - "Value Iteration Network"
+  - "长期规划"
+  - "动态转移核"
+  - "自适应Highway Loss"
+  - "深度网络训练"
 ---
 
 # Scaling Value Iteration Networks to 5000 Layers for Extreme Long-Term Planning
@@ -86,7 +87,7 @@ DT-VIN 在原始 VIN 基础上做了两个核心改进，整体流程如下：
 
 | 方法 | $15 \times 15$ | $25 \times 25$ | $35 \times 35$ | $50 \times 50$ | $100 \times 100$ |
 |------|:---:|:---:|:---:|:---:|:---:|
-| VIN (Tamar et al., 2016) | ~99% | ~75% | ~50% | <40% | <40% |
+| VIN (Tamar et al., 2016) | ~99% | ~75% | ~50% | &lt;40% | &lt;40% |
 | GPPN (Lee et al., 2018) | ~99% | ~85% | ~60% | — | — |
 | Highway VIN (Wang et al., 2024a) | ~99% | ~90% | ~70% | — | — |
 | **DT-VIN (本文)** | **~99%** | **~98%** | **~95%** | **~90%** | **~85%** |

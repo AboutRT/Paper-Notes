@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][变分图自编码器] 系统评估了四种变分图自编码器（VGAE）解码器架构在生成合成配电网拓扑任务上的表现，发现 Iterative-GCN 解码器在小型同质数据集上能较好复现真实电网的结构和频谱特征，但在大型异质数据集上所有方法均存在断连组件和重复模式等严重问题。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 变分图自编码器
-  - 配电网生成
-  - 合成图数据
-  - 图神经网络
-  - 能源AI
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "变分图自编码器"
+  - "配电网生成"
+  - "合成图数据"
+  - "图神经网络"
+  - "能源AI"
 ---
 
 # Exploring Variational Graph Autoencoders for Distribution Grid Data Generation

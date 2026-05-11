@@ -2,14 +2,10 @@
 title: >-
   [论文解读] Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature
 description: >-
-  [ICLR 2026][任务算术] 提出 TAK，一种无需外部数据的曲率正则化方法，通过 Kronecker 分解近似广义 Gauss-Newton 矩阵来促进权重解缠，在 8 Vision 基准上实现 SOTA 的任务加法和去学习性能，同时对缩放系数 α 具有鲁棒性。
+  [ICLR 2026][AI安全] 该工作将曲率近似的经典理论（KFAC）与任务算术的实际需求巧妙结合，提出了一种无需外部数据的权重解缠正则化方法。理论推导清晰，从表征漂移正则化 → Jacobian Gramian → GGN → KFAC 的逻辑链条流畅。实验覆盖视觉和语言两个领域的多种模型规模…
 tags:
-  - ICLR 2026
-  - 任务算术
-  - 模型合并
-  - KFAC
-  - 权重解缠
-  - 无数据正则化
+  - "ICLR 2026"
+  - "AI安全"
 ---
 
 # Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored Approximate Curvature

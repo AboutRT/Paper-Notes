@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][Many-Shot ICL] 提出 Dynamic Block-Sparse Attention (DBSA)，一种无需训练的推理框架，通过结构化块稀疏注意力编码和动态检索 KV 缓存，在多示例上下文学习中实现接近微调的推理延迟，同时保持 >95% 的最佳方法准确率。
 tags:
-  - ACL 2025
-  - LLM效率
-  - Many-Shot ICL
-  - 注意力机制
-  - KV Cache
-  - Retrieval ICL
-  - Inference Efficiency
+  - "ACL 2025"
+  - "LLM效率"
+  - "Many-Shot ICL"
+  - "注意力机制"
+  - "KV Cache"
+  - "Retrieval ICL"
+  - "Inference Efficiency"
 ---
 
 # Efficient Many-Shot In-Context Learning with Dynamic Block-Sparse Attention

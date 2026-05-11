@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Aggregation Hides OOD Generalization Failures from Spurious Correlations
 description: >-
-  [NeurIPS 2025][OOD泛化] 揭示 OOD 泛化 benchmark 中"聚合掩蔽"现象——aggregate 评估显示 accuracy-on-the-line（ID 与 OOD 准确率正相关），但 OODSelect 方法可从同一 OOD 数据中找到大规模语义连贯子集（最高达 75%），这些子集上 ID 越高 OOD 反而越低（Pearson R 低至 -0.92），证明虚假相关的危害被聚合评估系统性隐藏。
+  [NeurIPS 2025][LLM评测][OOD泛化] 揭示 OOD 泛化 benchmark 中"聚合掩蔽"现象——aggregate 评估显示 accuracy-on-the-line（ID 与 OOD 准确率正相关）…
 tags:
-  - NeurIPS 2025
-  - OOD泛化
-  - 虚假相关
-  - 聚合偏差
-  - accuracy-on-the-line
-  - 子集分析
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "OOD泛化"
+  - "虚假相关"
+  - "聚合偏差"
+  - "accuracy-on-the-line"
+  - "子集分析"
 ---
 
 # Aggregation Hides OOD Generalization Failures from Spurious Correlations
@@ -91,7 +92,7 @@ tags:
 
 ### 关键发现
 - **CXR 中 75% OOD 数据受虚假相关影响**——聚合后 R 从 -0.60 变成 +0.86 完全因为 25% 干净样本的稀释
-- **虚假相关不等于样本困难**：最难样本 R~0，OODSelect 样本 R<0——两者本质不同
+- **虚假相关不等于样本困难**：最难样本 R~0，OODSelect 样本 R&lt;0——两者本质不同
 - **CXR 语义连贯**：OODSelect 子集富含 Pleural Other 和 Support Devices——已知虚假预测因子
 - **跨架构一致**：ResNet 选出子集在 ViT 上仍显示负相关
 - **VLM 不一定鲁棒**：VLM 零样本的 ID-OODSelect 仍正相关（两侧对 VLM 都是 OOD）

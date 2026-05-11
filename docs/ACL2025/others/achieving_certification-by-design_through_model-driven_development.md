@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][认证驱动设计] 本文提出了一种"认证驱动设计"（Certification-by-Design）的模型驱动开发方法，通过在 NLP 系统的设计阶段就嵌入安全认证要求，使得最终系统能够自动满足相关行业标准和法规，减少事后认证的高昂成本。
 tags:
-  - ACL 2025
-  - 认证驱动设计
-  - 模型驱动开发
-  - 其他
-  - 安全认证
-  - 软件工程与NLP
+  - "ACL 2025"
+  - "认证驱动设计"
+  - "模型驱动开发"
+  - "NLP系统合规"
+  - "安全认证"
+  - "软件工程与NLP"
 ---
 
 # Achieving Certification-by-Design Through Model-Driven Development

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models
 description: >-
-  [AAAI 2026][LLM评测] 提出 NeSTR 神经符号提示策略，通过将自然语言时间事实转化为结构化符号谓词，结合一致性验证和溯因反思修正，在零样本设置下让 LLM 实现高质量时间推理，GPT-4o-mini 上平均 F1 达 89.7（相比 vanilla 64.9 和 TISER 85.8）。
+  [AAAI 2026][LLM评测][Temporal QA] 提出 NeSTR 神经符号提示策略，通过将自然语言时间事实转化为结构化符号谓词，结合一致性验证和溯因反思修正，在零样本设置下让 LLM 实现高质量时间推理…
 tags:
-  - AAAI 2026
-  - LLM评测
-  - Neuro-Symbolic Reasoning
-  - Abductive Reasoning
-  - 提示学习
-  - Consistency Verification
+  - "AAAI 2026"
+  - "LLM评测"
+  - "Temporal QA"
+  - "Neuro-Symbolic Reasoning"
+  - "Abductive Reasoning"
+  - "提示学习"
+  - "Consistency Verification"
 ---
 
 # NeSTR: A Neuro-Symbolic Abductive Framework for Temporal Reasoning in Large Language Models

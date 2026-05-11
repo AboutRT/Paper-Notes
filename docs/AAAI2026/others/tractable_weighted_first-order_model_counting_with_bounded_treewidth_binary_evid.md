@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][加权一阶模型计数] 提出一种在域大小上多项式时间的算法，计算带有有界树宽二元证据的 $\text{FO}^2$ 和 $\text{C}^2$ 片段的加权一阶模型计数（WFOMC），并解决了有界树宽有界度图上的稳定座位安排开放问题。
 tags:
-  - AAAI 2026
-  - 加权一阶模型计数
-  - 二元证据
-  - 树宽
-  - 其他
-  - 组合计数
+  - "AAAI 2026"
+  - "加权一阶模型计数"
+  - "二元证据"
+  - "树宽"
+  - "提升推理"
+  - "组合计数"
 ---
 
 # Tractable Weighted First-Order Model Counting with Bounded Treewidth Binary Evidence

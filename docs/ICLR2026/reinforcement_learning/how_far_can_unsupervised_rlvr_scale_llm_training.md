@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How Far Can Unsupervised RLVR Scale LLM Training?
 description: >-
-  [ICLR 2026][unsupervised RLVR] 对无监督可验证奖励强化学习（URLVR）进行全面分析，揭示所有内在奖励方法本质上都是在"锐化"模型初始分布，导致先升后降的不可避免崩溃模式；提出Model Collapse Step作为模型先验指标，并指出外部奖励方法是突破可扩展性瓶颈的方向。
+  [ICLR 2026][强化学习][unsupervised RLVR] 对无监督可验证奖励强化学习（URLVR）进行全面分析，揭示所有内在奖励方法本质上都是在"锐化"模型初始分布，导致先升后降的不可避免崩溃模式；提出Model Collapse Step作为模型先验指标…
 tags:
-  - ICLR 2026
-  - unsupervised RLVR
-  - model collapse
-  - intrinsic rewards
-  - sharpening mechanism
-  - test-time training
+  - "ICLR 2026"
+  - "强化学习"
+  - "unsupervised RLVR"
+  - "model collapse"
+  - "intrinsic rewards"
+  - "sharpening mechanism"
+  - "test-time training"
 ---
 
 # How Far Can Unsupervised RLVR Scale LLM Training?

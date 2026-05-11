@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Light3R-SfM: Towards Feed-forward Structure-from-Motion
 description: >-
-  [CVPR 2025][3D视觉][前馈SfM] Light3R-SfM提出了首个前馈式端到端SfM框架，通过可学习的潜在全局对齐模块替代传统的优化式全局对齐，结合基于检索分数的最短路径树构建场景图，在Tanks&Temples 200图设置下仅需33秒完成重建（比MASt3R-SfM快49倍），同时保持相当的精度。
+  [CVPR 2025][3D视觉][前馈SfM] Light3R-SfM提出了首个前馈式端到端SfM框架，通过可学习的潜在全局对齐模块替代传统的优化式全局对齐，结合基于检索分数的最短路径树构建场景图，在Tanks&Temples 200图设置下仅需33秒完成重建（比MASt3R-SfM快49倍）…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 前馈SfM
-  - 全局对齐
-  - 注意力机制
-  - 最短路径树
-  - 点图回归
+  - "CVPR 2025"
+  - "3D视觉"
+  - "前馈SfM"
+  - "全局对齐"
+  - "注意力机制"
+  - "最短路径树"
+  - "点图回归"
 ---
 
 # Light3R-SfM: Towards Feed-forward Structure-from-Motion

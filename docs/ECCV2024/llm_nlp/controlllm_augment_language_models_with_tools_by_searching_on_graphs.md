@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV2024][LLM/NLP][tool-augmented LLM] 提出 ControlLLM 框架，通过在预构建的工具图（Tool Graph）上进行图搜索（Thoughts-on-Graph）来规划多模态工具调用，显著提升了复杂任务中工具选择和参数赋值的准确性。
 tags:
-  - ECCV2024
-  - LLM/NLP
-  - tool-augmented LLM
-  - 多模态
-  - graph search
-  - task planning
-  - Thoughts-on-Graph
+  - "ECCV2024"
+  - "LLM/NLP"
+  - "tool-augmented LLM"
+  - "多模态"
+  - "graph search"
+  - "task planning"
+  - "Thoughts-on-Graph"
 ---
 
 # ControlLLM: Augment Language Models with Tools by Searching on Graphs

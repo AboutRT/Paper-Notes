@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Connection Between Score Matching and Local Intrinsic Dimension
 description: >-
-  [NeurIPS 2025][图像生成][score matching] 证明去噪得分匹配损失（denoising score matching loss）的下界恰好是数据流形的局部固有维度（LID），从而将 DSM loss 本身作为一个高效的 LID 估计器——无需梯度计算或多次前向传播，在 Stable Diffusion 3.5 上内存占用仅为 FLIPD 的 60%，且量化后估计更稳定。
+  [NeurIPS 2025][图像生成][score matching] 证明去噪得分匹配损失（denoising score matching loss）的下界恰好是数据流形的局部固有维度（LID），从而将 DSM loss 本身作为一个高效的 LID 估计器——无需梯度计算或多次前向传播…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - score matching
-  - local intrinsic dimension
-  - 扩散模型
-  - LID estimation
-  - 去噪
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "score matching"
+  - "local intrinsic dimension"
+  - "扩散模型"
+  - "LID estimation"
+  - "去噪"
 ---
 
 # A Connection Between Score Matching and Local Intrinsic Dimension

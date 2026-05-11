@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding
 description: >-
-  [ICLR 2026][Transformer] 通过对训练梯度的前导项近似分析，推导出Transformer在训练早期阶段各权重矩阵的闭式表达——均可分解为三种基函数（bigram、token-interchangeability、context mapping）的简单组合——从而揭示Transformer如何从自然语言数据中学习"bird"↔"flew"这类语义关联，且理论预测与真实LLM的学到权重高度吻合。
+  [ICLR 2026][可解释性][Transformer] 通过对训练梯度的前导项近似分析，推导出Transformer在训练早期阶段各权重矩阵的闭式表达——均可分解为三种基函数（bigram、token-interchangeability、context mapping）的简单组合——从而揭示Trans…
 tags:
-  - ICLR 2026
-  - Transformer
-  - 训练动态
-  - 梯度前导项
-  - 语义关联
-  - 闭式权重表达
+  - "ICLR 2026"
+  - "可解释性"
+  - "Transformer"
+  - "训练动态"
+  - "梯度前导项"
+  - "语义关联"
+  - "闭式权重表达"
 ---
 
 # How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Understanding

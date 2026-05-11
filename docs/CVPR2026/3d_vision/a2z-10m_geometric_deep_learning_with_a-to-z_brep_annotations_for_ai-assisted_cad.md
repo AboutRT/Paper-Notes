@@ -2,15 +2,16 @@
 title: >-
   [论文解读] A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering
 description: >-
-  [CVPR2026][BRep学习] 构建了包含 1000 万+ 多模态标注（高分辨率3D扫描、手绘3D草图、文本描述、BRep拓扑标签）的 100 万+ CAD 模型数据集 A2Z，为 Scan-to-BRep 逆向工程和多模态 BRep 学习提供了前所未有的数据基础，并训练基础模型在边界/角点检测上大幅超越现有方法。
+  [CVPR2026][3D视觉][BRep学习] 构建了包含 1000 万+ 多模态标注（高分辨率3D扫描、手绘3D草图、文本描述、BRep拓扑标签）的 100 万+ CAD 模型数据集 A2Z，为 Scan-to-BRep 逆向工程和多模态 BRep 学习提供了前所未有的数据基础…
 tags:
-  - CVPR2026
-  - BRep学习
-  - CAD逆向工程
-  - 3D视觉
-  - 3D扫描
-  - 几何深度学习
-  - 基础模型
+  - "CVPR2026"
+  - "3D视觉"
+  - "BRep学习"
+  - "CAD逆向工程"
+  - "多模态标注"
+  - "3D扫描"
+  - "几何深度学习"
+  - "基础模型"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

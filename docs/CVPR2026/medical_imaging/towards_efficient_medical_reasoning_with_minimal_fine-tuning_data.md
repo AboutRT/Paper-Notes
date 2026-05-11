@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][数据选择] 提出 Difficulty-Influence Quadrant (DIQ) 数据选择策略，联合考量样本难度和梯度影响力，使 VLM 语言骨干仅用 1% 精选数据即可匹配全量 SFT 性能，10% 数据则可超越全量训练。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - 数据选择
-  - 医学推理
-  - 大语言模型
-  - SFT
-  - 梯度影响力
+  - "CVPR 2026"
+  - "医学图像"
+  - "数据选择"
+  - "医学推理"
+  - "大语言模型"
+  - "SFT"
+  - "梯度影响力"
 ---
 
 # Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data

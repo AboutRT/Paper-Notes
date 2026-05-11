@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Language-guided Open-world Video Anomaly Detection under Weak Supervision
 description: >-
-  [ICLR 2026][视频生成] 提出语言引导的开放世界视频异常检测范式LaGoVAD，通过将异常定义建模为随机变量并以自然语言形式输入，结合动态视频合成和对比学习正则化策略，在七个数据集上实现零样本SOTA性能。
+  [ICLR 2026][视频生成][视频异常检测] 提出语言引导的开放世界视频异常检测范式LaGoVAD，通过将异常定义建模为随机变量并以自然语言形式输入，结合动态视频合成和对比学习正则化策略，在七个数据集上实现零样本SOTA性能。
 tags:
-  - ICLR 2026
-  - 视频生成
-  - 开放世界
-  - 语言引导
-  - 概念漂移
-  - 弱监督
+  - "ICLR 2026"
+  - "视频生成"
+  - "视频异常检测"
+  - "开放世界"
+  - "语言引导"
+  - "概念漂移"
+  - "弱监督"
 ---
 
 # Language-guided Open-world Video Anomaly Detection under Weak Supervision

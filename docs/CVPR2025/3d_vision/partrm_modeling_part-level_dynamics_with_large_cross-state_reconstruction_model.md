@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][部件级动力学] PartRM 提出了一个基于大规模3D高斯重建模型的4D重建框架，能够从多视图图像同时建模物体的外观、几何和部件级运动，通过构建 PartDrag-4D 数据集、多尺度拖拽嵌入模块和两阶段训练策略，在部件级运动学习上达到 SOTA，并可应用于机器人操作任务。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 部件级动力学
-  - 4D重建
-  - 3D高斯
-  - 拖拽交互
-  - 机器人操作
+  - "CVPR 2025"
+  - "3D视觉"
+  - "部件级动力学"
+  - "4D重建"
+  - "3D高斯"
+  - "拖拽交互"
+  - "机器人操作"
 ---
 
 # PartRM: Modeling Part-Level Dynamics with Large Cross-State Reconstruction Model

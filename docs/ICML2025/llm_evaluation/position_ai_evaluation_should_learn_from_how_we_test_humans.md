@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Position: AI Evaluation Should Learn from How We Test Humans
 description: >-
-  [ICML 2025][自适应测试] 提出将人类心理测量学中的自适应测试范式系统性引入AI评估，通过估计题目特征（难度/区分度/猜测因子）实现高效、可靠的模型能力评估，仅需3%的题目即可准确重建完整benchmark分数。
+  [ICML 2025][LLM评测][自适应测试] 提出将人类心理测量学中的自适应测试范式系统性引入AI评估，通过估计题目特征（难度/区分度/猜测因子）实现高效、可靠的模型能力评估，仅需3%的题目即可准确重建完整benchmark分数。
 tags:
-  - ICML 2025
-  - 自适应测试
-  - IRT
-  - 心理测量学
-  - AI评估
-  - benchmark效率
+  - "ICML 2025"
+  - "LLM评测"
+  - "自适应测试"
+  - "IRT"
+  - "心理测量学"
+  - "AI评估"
+  - "benchmark效率"
 ---
 
 # Position: AI Evaluation Should Learn from How We Test Humans

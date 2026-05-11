@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2026][部署经济性] 提出Edge-Eval框架，通过5个部署指标（经济盈亏平衡、智能功耗比、系统密度、冷启动税、量化保真度）在传统T4 GPU上全生命周期评估LLM，揭示<2B小模型在经济和生态维度全面优于7B模型，并发现QLoRA虽降低内存但能耗增加最高7倍的反常现象。
 tags:
-  - ACL 2026
-  - 部署经济性
-  - 生命周期基准
-  - 其他
-  - 量化保真度
-  - 边缘推理
+  - "ACL 2026"
+  - "部署经济性"
+  - "生命周期基准"
+  - "能效评估"
+  - "量化保真度"
+  - "边缘推理"
 ---
 
 # Are Large Language Models Economically Viable for Industry Deployment?

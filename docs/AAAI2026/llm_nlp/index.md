@@ -3,6 +3,16 @@ title: >-
   AAAI2026 LLM / NLP方向38篇论文解读
 description: >-
   38篇AAAI2026的 LLM / NLP 方向论文解读，涵盖 LLM、推理、对抗鲁棒、对齐/RLHF、少样本学习等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "AAAI2026"
+  - "LLM / NLP"
+  - "论文解读"
+  - "论文笔记"
+  - "LLM"
+  - "推理"
+  - "对抗鲁棒"
+  - "对齐/RLHF"
+  - "少样本学习"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +20,7 @@ description: >-
 
 **🤖 AAAI2026** · **38** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (36)](../../ACL2026/llm_nlp/index.md) · [📷 CVPR2026 (9)](../../CVPR2026/llm_nlp/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (53)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_nlp/index.md) · [🧪 ICML2025 (28)](../../ICML2025/llm_nlp/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (35)](../../ACL2026/llm_nlp/index.md) · [📷 CVPR2026 (9)](../../CVPR2026/llm_nlp/index.md) · [🔬 ICLR2026 (39)](../../ICLR2026/llm_nlp/index.md) · [🧠 NeurIPS2025 (53)](../../NeurIPS2025/llm_nlp/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_nlp/index.md) · [🧪 ICML2025 (28)](../../ICML2025/llm_nlp/index.md)
 
 🔥 **高频主题：** LLM ×17 · 推理 ×7 · 对抗鲁棒 ×2 · 对齐/RLHF ×2 · 少样本学习 ×2
 

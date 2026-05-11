@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][自动驾驶][3D语义占用预测] 提出ALOcc框架，通过遮挡感知自适应提升机制、语义原型占用头和BEV代价体积流预测三项创新，在多个3D语义占用和占用流预测基准上取得SOTA，同时提供实时到高精度的多种模型变体。
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 3D语义占用预测
-  - 占用流预测
-  - 视图变换
-  - BEV感知
-  - 语义原型
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "3D语义占用预测"
+  - "占用流预测"
+  - "视图变换"
+  - "BEV感知"
+  - "语义原型"
 ---
 
 # ALOcc: Adaptive Lifting-Based 3D Semantic Occupancy and Cost Volume-Based Flow Predictions

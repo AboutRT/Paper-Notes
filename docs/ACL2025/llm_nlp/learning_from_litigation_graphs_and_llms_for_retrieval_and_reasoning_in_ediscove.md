@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][电子取证] 本文提出DISCOG（DISCOvery Graph）系统，将知识图谱与LLM驱动推理相结合用于法律电子取证（eDiscovery）中的文档检索和分类，在平衡和不平衡数据集上均超越强基线，实际部署中将诉讼文档审查成本降低约98%。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 电子取证
-  - 知识图谱
-  - 文档检索
-  - 法律推理
-  - LLM增强
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "电子取证"
+  - "知识图谱"
+  - "文档检索"
+  - "法律推理"
+  - "LLM增强"
 ---
 
 # Learning from Litigation: Graphs and LLMs for Retrieval and Reasoning in eDiscovery

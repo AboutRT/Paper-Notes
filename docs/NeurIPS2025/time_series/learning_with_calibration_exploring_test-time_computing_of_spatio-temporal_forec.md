@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025 (Spotlight)][时间序列][时空预测] 提出 ST-TTC，一种轻量级测试时计算范式，通过频域相位-幅值校准器和闪电梯度更新机制，在推理阶段实时修正时空预测中的周期性偏差，无需修改骨干网络即可一致性提升多种模型性能。
 tags:
-  - NeurIPS 2025 (Spotlight)
-  - 时间序列
-  - 时空预测
-  - 测试时计算
-  - 频域校准
-  - 非平稳性
-  - 在线适应
+  - "NeurIPS 2025 (Spotlight)"
+  - "时间序列"
+  - "时空预测"
+  - "测试时计算"
+  - "频域校准"
+  - "非平稳性"
+  - "在线适应"
 ---
 
 # Learning with Calibration: Exploring Test-Time Computing of Spatio-Temporal Forecasting

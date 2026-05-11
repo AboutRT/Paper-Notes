@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Faithful Group Shapley Value
 description: >-
-  [NeurIPS 2025][Data Shapley] 提出 Faithful Group Shapley Value (FGSV)，唯一满足含"忠实性"在内五条公理的组级数据估值方法，有效防御"空壳公司攻击"（通过拆分子组不当膨胀估值），并设计了 $O(n \cdot \text{Poly}(\log n))$ 复杂度的高效近似算法。
+  [NeurIPS 2025][Data Shapley] 提出 Faithful Group Shapley Value (FGSV)，唯一满足含"忠实性"在内五条公理的组级数据估值方法，有效防御"空壳公司攻击"（通过拆分子组不当膨胀估值）…
 tags:
-  - NeurIPS 2025
-  - Data Shapley
-  - 组级数据估值
-  - 忠实性公理
-  - Shell Company Attack
-  - 版权归属
-  - 可解释AI
+  - "NeurIPS 2025"
+  - "Data Shapley"
+  - "组级数据估值"
+  - "忠实性公理"
+  - "Shell Company Attack"
+  - "版权归属"
+  - "可解释AI"
 ---
 
 # Faithful Group Shapley Value

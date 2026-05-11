@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][户外场景分类] 本文利用3D LiDAR获取的全景深度图和反射率图作为CNN的输入，构建了一个大规模户外场景分类数据集MPO，并提出了水平循环卷积(HCC)和行最大池化(RWMP)两种改进策略，实现了对六类户外场景的高精度分类（最高97.87%），显著优于传统手工特征方法。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 户外场景分类
-  - LiDAR全景图
-  - 多模态融合
-  - CNN
-  - 深度与反射率
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "户外场景分类"
+  - "LiDAR全景图"
+  - "多模态融合"
+  - "CNN"
+  - "深度与反射率"
 ---
 
 # Learning Geometric and Photometric Features from Panoramic LiDAR Scans for Outdoor Place Categorization

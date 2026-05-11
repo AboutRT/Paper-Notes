@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][模型压缩][weight sharing] 受字典学习启发，提出 MASA 框架，将 Transformer 各层注意力投影矩阵（Q/K/V/O）分解为共享矩阵原子的线性组合，以 66.7% 的注意力参数压缩率实现与原始 Transformer 持平甚至更优的性能。
 tags:
-  - AAAI 2026
-  - 模型压缩
-  - weight sharing
-  - dictionary learning
-  - Transformer
-  - 注意力机制
-  - parameter efficiency
+  - "AAAI 2026"
+  - "模型压缩"
+  - "weight sharing"
+  - "dictionary learning"
+  - "Transformer"
+  - "注意力机制"
+  - "parameter efficiency"
 ---
 
 # Share Your Attention: Transformer Weight Sharing via Matrix-Based Dictionary Learning

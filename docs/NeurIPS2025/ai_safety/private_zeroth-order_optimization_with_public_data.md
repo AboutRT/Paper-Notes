@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][AI安全][差分隐私] 提出 PAZO 框架，利用公共数据引导私有零阶优化算法的梯度近似，在视觉和文本任务上实现了优于 DP-SGD 的隐私-效用权衡，同时获得最高 16 倍的速度提升。
 tags:
-  - NeurIPS 2025
-  - AI安全
-  - 差分隐私
-  - 零阶优化
-  - 公共数据
-  - DP-SGD
-  - 隐私-效用权衡
+  - "NeurIPS 2025"
+  - "AI安全"
+  - "差分隐私"
+  - "零阶优化"
+  - "公共数据"
+  - "DP-SGD"
+  - "隐私-效用权衡"
 ---
 
 # Private Zeroth-Order Optimization with Public Data

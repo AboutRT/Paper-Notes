@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM/NLP][创意生成] 提出Cultural Alien Sampler (CAS)——用两个GPT-2模型分别建模"概念一致性"和"文化典型性"，通过选择高一致性但低文化典型性的概念组合来生成原创且和谐的艺术创意，在人类评估中接近艺术专业学生水平并远超GPT-4o。
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - 创意生成
-  - 概念组合
-  - 文化去偏
-  - 开放式艺术
-  - GPT-2微调
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "创意生成"
+  - "概念组合"
+  - "文化去偏"
+  - "开放式艺术"
+  - "GPT-2微调"
 ---
 
 # Cultural Alien Sampler: Open-ended Art Generation Balancing Originality and Coherence

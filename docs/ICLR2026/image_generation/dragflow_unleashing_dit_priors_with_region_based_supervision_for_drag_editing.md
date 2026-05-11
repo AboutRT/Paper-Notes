@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][Drag Editing] 首个将 FLUX (DiT) 的强生成先验引入拖拽编辑的框架，通过区域级仿射监督替代传统点级监督，配合梯度掩码硬约束和 adapter 增强反演，大幅提升拖拽编辑质量。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - Drag Editing
-  - DiT
-  - Region-Based Supervision
-  - FLUX
-  - Affine Transformation
+  - "ICLR 2026"
+  - "图像生成"
+  - "Drag Editing"
+  - "DiT"
+  - "Region-Based Supervision"
+  - "FLUX"
+  - "Affine Transformation"
 ---
 
 # DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag Editing

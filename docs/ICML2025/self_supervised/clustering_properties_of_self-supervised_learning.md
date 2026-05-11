@@ -2,14 +2,14 @@
 title: >-
   [论文解读] ReSA: Clustering Properties of Self-Supervised Learning
 description: >-
-  [ICML 2025][自监督学习] 发现 SSL 中编码器输出（encoding）比 projector 输出（embedding）具有更优且更稳定的聚类性质，据此提出 ReSA 利用在线自聚类机制构建正反馈 SSL 框架，在 ImageNet 线性评估和下游任务上显著超越 SOTA。
+  [ICML 2025][自监督学习][聚类性质] 系统分析了 JEA-based SSL 中各组件的聚类性质，发现 encoding 比 embedding 和 projector 隐层具有更优更稳定的聚类能力…
 tags:
-  - ICML 2025
-  - 自监督学习
-  - 聚类
-  - ReSA
-  - positive feedback
-  - Sinkhorn-Knopp
+  - "ICML 2025"
+  - "自监督学习"
+  - "聚类性质"
+  - "ReSA"
+  - "positive feedback"
+  - "Sinkhorn-Knopp"
 ---
 
 # ReSA: Clustering Properties of Self-Supervised Learning

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration
 description: >-
-  [ACL 2025 (Findings)][LLM Agent][多智能体协作] 提出模块化多智能体框架 MAM，将医学诊断过程分解为全科医生、专科团队、放射科医生、医学助手和主任医师五个角色，通过角色专业化协作实现多模态（文本/图像/音频/视频）医学诊断，在多个公开数据集上比基线模型提升 18%~365%。
+  [ACL 2025 (Findings)][LLM Agent / 医学AI][多智能体协作] 提出模块化多智能体框架 MAM，将医学诊断过程分解为全科医生、专科团队、放射科医生、医学助手和主任医师五个角色，通过角色专业化协作实现多模态（文本/图像/音频/视频）医学诊断…
 tags:
-  - ACL 2025 (Findings)
-  - LLM Agent
-  - 多智能体协作
-  - 多模态医学诊断
-  - 角色分工
-  - 知识检索
-  - 大模型
+  - "ACL 2025 (Findings)"
+  - "LLM Agent / 医学AI"
+  - "多智能体协作"
+  - "多模态医学诊断"
+  - "角色分工"
+  - "知识检索"
+  - "大模型"
 ---
 
 # MAM: Modular Multi-Agent Framework for Multi-Modal Medical Diagnosis via Role-Specialized Collaboration

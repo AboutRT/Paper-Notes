@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][层次化任务分析] 提出首个将高层任务自动分解为场景锚定(grounded)子任务层级的框架ASHiTA，通过交替执行LLM辅助的层次化任务分析和基于信息瓶颈原理的任务驱动3D场景图构建，实现了任务层级与场景表示的联合推理。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 层次化任务分析
-  - 3D场景图
-  - 信息瓶颈
-  - LLM任务分解
-  - 场景理解
+  - "CVPR 2025"
+  - "3D视觉"
+  - "层次化任务分析"
+  - "3D场景图"
+  - "信息瓶颈"
+  - "LLM任务分解"
+  - "场景理解"
 ---
 
 # ASHiTA: Automatic Scene-grounded Hierarchical Task Analysis

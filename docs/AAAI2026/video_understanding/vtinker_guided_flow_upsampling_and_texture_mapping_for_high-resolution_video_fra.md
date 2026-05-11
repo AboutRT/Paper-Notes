@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][视频帧插值] 提出 VTinker 流水线，通过引导式光流上采样（GFU）解决光流边界模糊问题，并采用纹理映射替代传统逐像素融合策略来消除鬼影和不连续，在高分辨率视频帧插值上取得 SOTA。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 视频帧插值
-  - 光流上采样
-  - 纹理映射
-  - 高分辨率视频
-  - 运动估计
+  - "AAAI 2026"
+  - "视频理解"
+  - "视频帧插值"
+  - "光流上采样"
+  - "纹理映射"
+  - "高分辨率视频"
+  - "运动估计"
 ---
 
 # VTinker: Guided Flow Upsampling and Texture Mapping for High-Resolution Video Frame Interpolation

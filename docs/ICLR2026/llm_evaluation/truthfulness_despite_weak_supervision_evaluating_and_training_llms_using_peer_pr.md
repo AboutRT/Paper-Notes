@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction
 description: >-
-  [ICLR 2026][Peer Prediction] 提出将博弈论中的 Peer Prediction 机制应用于 LLM 评估和训练，通过衡量参与者答案的互预测性来区分诚实与欺骗回答，无需真值标签即可实现诚实性激励，展现出惊人的"逆向缩放"特性——专家越弱反而越能抵抗强模型的欺骗。
+  [ICLR 2026][LLM评测][Peer Prediction] 提出将博弈论中的 Peer Prediction 机制应用于 LLM 评估和训练，通过衡量参与者答案的互预测性来区分诚实与欺骗回答，无需真值标签即可实现诚实性激励，展现出惊人的"逆向缩放"特性——专家越弱反而越能抵抗强模型的欺骗。
 tags:
-  - ICLR 2026
-  - Peer Prediction
-  - LLM评测
-  - 诚实性训练
-  - 欺骗抵抗
-  - 弱监督
+  - "ICLR 2026"
+  - "LLM评测"
+  - "Peer Prediction"
+  - "LLM评估"
+  - "诚实性训练"
+  - "欺骗抵抗"
+  - "弱监督"
 ---
 
 # Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction

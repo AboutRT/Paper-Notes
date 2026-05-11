@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering
 description: >-
-  [NeurIPS 2025][交错图文生成] 提出 RAG-IGBench，一个专门评估基于检索增强生成的交错图文内容质量的 benchmark，设计了覆盖文本质量、图像质量和图文一致性三个维度的创新自动评估指标，并验证了与人类评估的高度相关性。
+  [NeurIPS 2025][信息检索/RAG][交错图文生成] 提出 RAG-IGBench，一个专门评估基于检索增强生成的交错图文内容质量的 benchmark，设计了覆盖文本质量、图像质量和图文一致性三个维度的创新自动评估指标，并验证了与人类评估的高度相关性。
 tags:
-  - NeurIPS 2025
-  - 交错图文生成
-  - 检索增强生成
-  - 信息检索
-  - 开放域问答
-  - benchmark
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "交错图文生成"
+  - "检索增强生成"
+  - "多模态评估"
+  - "开放域问答"
+  - "benchmark"
 ---
 
 # RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering

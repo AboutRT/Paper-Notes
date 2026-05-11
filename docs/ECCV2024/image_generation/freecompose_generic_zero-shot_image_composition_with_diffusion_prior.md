@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][图像合成] 提出 FreeCompose，利用预训练扩散模型的生成先验实现通用零样本图像合成，统一覆盖图像和谐化（外观编辑）和语义图像合成（语义编辑），无需额外训练。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 图像合成
-  - 扩散先验
-  - 零样本
-  - 图像和谐化
-  - 语义图像合成
+  - "ECCV 2024"
+  - "图像生成"
+  - "图像合成"
+  - "扩散先验"
+  - "零样本"
+  - "图像和谐化"
+  - "语义图像合成"
 ---
 
 # FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior

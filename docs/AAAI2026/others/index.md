@@ -3,6 +3,17 @@ title: >-
   AAAI2026 其他方向126篇论文解读
 description: >-
   126篇AAAI2026的其他方向论文解读，涵盖 Agent、对抗鲁棒、扩散模型、对齐/RLHF、推理、异常检测等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "AAAI2026"
+  - "其他"
+  - "论文解读"
+  - "论文笔记"
+  - "Agent"
+  - "对抗鲁棒"
+  - "扩散模型"
+  - "对齐/RLHF"
+  - "推理"
+  - "异常检测"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **🤖 AAAI2026** · **126** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [📷 CVPR2026 (44)](../../CVPR2026/others/index.md) · [🔬 ICLR2026 (76)](../../ICLR2026/others/index.md) · [🧠 NeurIPS2025 (154)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md) · [🧪 ICML2025 (93)](../../ICML2025/others/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (5)](../../ACL2026/others/index.md) · [📷 CVPR2026 (44)](../../CVPR2026/others/index.md) · [🔬 ICLR2026 (76)](../../ICLR2026/others/index.md) · [🧠 NeurIPS2025 (153)](../../NeurIPS2025/others/index.md) · [📹 ICCV2025 (48)](../../ICCV2025/others/index.md) · [🧪 ICML2025 (93)](../../ICML2025/others/index.md)
 
 🔥 **高频主题：** Agent ×10 · 对抗鲁棒 ×5 · 扩散模型 ×5 · 对齐/RLHF ×3 · 推理 ×2
 

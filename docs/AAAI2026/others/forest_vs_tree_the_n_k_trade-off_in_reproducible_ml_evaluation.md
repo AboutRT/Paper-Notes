@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Forest vs Tree: The (N, K) Trade-off in Reproducible ML Evaluation
 description: >-
-  [AAAI 2026][可复现性] 本文研究机器学习评估中样本数量 $N$ 和每个样本标注者数量 $K$ 之间的最优权衡：在固定预算 $N \times K$ 下，通过分析多类别标注数据集和模拟分布，发现考虑标注者分歧时 $K > 10$ 通常是最优的，且所需的总预算 $N \times K$ 往往不超过 1000。
+  [AAAI 2026][可复现性] 本文研究机器学习评估中样本数量 $N$ 和每个样本标注者数量 $K$ 之间的最优权衡：在固定预算 $N \times K$ 下，通过分析多类别标注数据集和模拟分布，发现考虑标注者分歧时 $K > 10$ 通常是最优的…
 tags:
-  - AAAI 2026
-  - 可复现性
-  - 人工标注
-  - 标注者分歧
-  - 其他
-  - 最优预算分配
+  - "AAAI 2026"
+  - "可复现性"
+  - "人工标注"
+  - "标注者分歧"
+  - "评估可靠性"
+  - "最优预算分配"
 ---
 
 # Forest vs Tree: The (N, K) Trade-off in Reproducible ML Evaluation

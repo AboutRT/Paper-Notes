@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DEMO: Reframing Dialogue Interaction with Fine-grained Element Modeling
 description: >-
-  [ACL 2025][其他] 本文提出对话元素建模（Dialogue Element Modeling）这一新任务，系统定义了对话生命周期中从"前奏"到"尾声"的全面元素体系，构建了包含元素感知和对话智能体交互两大能力的DEMO benchmark，并通过模仿学习训练DEMO agent在域内外任务上均表现优异。
+  [ACL 2025][对话系统][对话元素建模] 本文提出对话元素建模（Dialogue Element Modeling）这一新任务，系统定义了对话生命周期中从"前奏"到"尾声"的全面元素体系，构建了包含元素感知和对话智能体交互两大能力的DEMO benchmark…
 tags:
-  - ACL 2025
-  - 其他
-  - 元素感知
-  - 对话交互
-  - benchmark
-  - 模仿学习
+  - "ACL 2025"
+  - "对话系统"
+  - "对话元素建模"
+  - "元素感知"
+  - "对话交互"
+  - "benchmark"
+  - "模仿学习"
 ---
 
 # DEMO: Reframing Dialogue Interaction with Fine-grained Element Modeling

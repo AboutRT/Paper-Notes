@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][身份保持生成] 提出 Infinite-ID，通过 ID-语义解耦范式将身份信息和文本语义信息分离处理——训练阶段停用文本交叉注意力以专注学习身份嵌入，推理阶段通过混合注意力机制和 AdaIN-mean 操作融合两路信息，在单张参考图下同时实现高保真身份保持和语义一致性。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 身份保持生成
-  - 个性化文生图
-  - 风格控制
-  - 注意力机制
-  - SDXL
+  - "ECCV 2024"
+  - "图像生成"
+  - "身份保持生成"
+  - "个性化文生图"
+  - "风格控制"
+  - "注意力机制"
+  - "SDXL"
 ---
 
 # Infinite-ID: Identity-preserved Personalization via ID-semantics Decoupling Paradigm

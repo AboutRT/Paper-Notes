@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ViSpec: Accelerating Vision-Language Models with Vision-Aware Speculative Decoding
 description: >-
-  [NeurIPS 2025][多模态][推测解码] 针对VLM推测解码（speculative decoding）中草稿模型难以处理冗余视觉token的问题，提出ViSpec框架，通过视觉适配器压缩图像token+全局视觉特征注入+合成训练数据，首次在VLM推测解码中实现了显著加速（最高3.22×）。
+  [NeurIPS 2025][多模态VLM][推测解码] 针对VLM推测解码（speculative decoding）中草稿模型难以处理冗余视觉token的问题，提出ViSpec框架，通过视觉适配器压缩图像token+全局视觉特征注入+合成训练数据，首次在VLM推测解码中实现了显著加速（最高3.22×）。
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 推测解码
-  - VLM加速
-  - 图像token压缩
-  - 草稿模型
-  - 多模态VLM
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "推测解码"
+  - "VLM加速"
+  - "图像token压缩"
+  - "草稿模型"
+  - "推理加速"
 ---
 
 # ViSpec: Accelerating Vision-Language Models with Vision-Aware Speculative Decoding
@@ -27,7 +27,7 @@ tags:
 
 ## 研究背景与动机
 
-推测解码在纯文本LLM中已取得3-4×加速，但在VLM中仅实现<1.5×的微弱加速（如SpecLLaVA仅1.5×）。作者深入分析了这一差距的根本原因：
+推测解码在纯文本LLM中已取得3-4×加速，但在VLM中仅实现&lt;1.5×的微弱加速（如SpecLLaVA仅1.5×）。作者深入分析了这一差距的根本原因：
 
 **文本 vs. 视觉数据的本质差异**：文本经过千年进化，信息密度高且抽象；而图像虽然视觉丰富，但包含大量冗余（如相同颜色的色块）。这导致浅层草稿模型难以从大量冗余中提取关键信息。
 

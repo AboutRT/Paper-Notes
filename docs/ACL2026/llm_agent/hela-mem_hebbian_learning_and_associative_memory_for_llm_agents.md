@@ -4,9 +4,9 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][待补充] 待深读论文后补充
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 待补充
+  - "ACL 2026"
+  - "LLM Agent"
+  - "待补充"
 ---
 
 # HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM
 description: >-
-  [CVPR 2025][多模态][测试时适应] FreeTTA 提出一种无需训练、无需存储历史数据的测试时适应方法，通过在线 EM 算法显式建模目标域分布，利用 CLIP 零样本预测作为先验迭代估计每个类别的高斯分布参数，在 15 个数据集上稳定超越现有 TTA 方法。
+  [CVPR 2025][多模态VLM][测试时适应] FreeTTA 提出一种无需训练、无需存储历史数据的测试时适应方法，通过在线 EM 算法显式建模目标域分布，利用 CLIP 零样本预测作为先验迭代估计每个类别的高斯分布参数，在 15 个数据集上稳定超越现有 TTA 方法。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 测试时适应
-  - 多模态VLM
-  - 在线EM算法
-  - 高斯混合模型
-  - 无需训练
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "测试时适应"
+  - "视觉语言模型"
+  - "在线EM算法"
+  - "高斯混合模型"
+  - "无需训练"
 ---
 
 # Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM

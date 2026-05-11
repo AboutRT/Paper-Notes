@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D功能可供性] GEAL 提出双分支架构，用 3D 高斯溅射将点云渲染为逼真 2D 图像从而利用预训练 2D 基础模型的泛化能力，通过粒度自适应融合和 2D-3D 一致性对齐实现跨模态知识迁移，在标准和腐败数据基准上全面超越现有 3D 功能可供性方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D功能可供性
-  - 跨模态对齐
-  - 高斯溅射
-  - 鲁棒性基准
-  - 2D-3D知识迁移
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D功能可供性"
+  - "跨模态对齐"
+  - "高斯溅射"
+  - "鲁棒性基准"
+  - "2D-3D知识迁移"
 ---
 
 # GEAL: Generalizable 3D Affordance Learning with Cross-Modal Consistency

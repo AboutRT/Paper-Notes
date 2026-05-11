@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ManiVideo: Generating Hand-Object Manipulation Video with Dexterous and Generalizable Grasping
 description: >-
-  [CVPR 2025][3D视觉][hand-object interaction] 提出多层遮挡（MLO）表示学习 3D 手-物遮挡关系，并将 Objaverse 大规模 3D 物体数据整合进训练，实现首个支持灵巧双手操作 + 可泛化物体外观的手-物操作视频生成框架。
+  [CVPR 2025][视频生成][hand-object interaction] 提出多层遮挡（MLO）表示学习 3D 手-物遮挡关系，并将 Objaverse 大规模 3D 物体数据整合进训练，实现首个支持灵巧双手操作 + 可泛化物体外观的手-物操作视频生成框架。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - hand-object interaction
-  - video generation
-  - multi-layer occlusion
-  - 扩散模型
-  - Objaverse
+  - "CVPR 2025"
+  - "视频生成"
+  - "hand-object interaction"
+  - "video generation"
+  - "multi-layer occlusion"
+  - "扩散模型"
+  - "Objaverse"
 ---
 
 # ManiVideo: Generating Hand-Object Manipulation Video with Dexterous and Generalizable Grasping

@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control
 description: >-
-  [ICLR 2026][视频生成] 提出RoboMaster框架，通过协作轨迹（collaborative trajectory）将机器人-物体交互过程分解为前交互、交互中、后交互三阶段，结合外观和形状感知的物体嵌入，实现高质量的机器人操作视频生成。
+  [ICLR 2026][视频生成][机器人操作] 提出RoboMaster框架，通过协作轨迹（collaborative trajectory）将机器人-物体交互过程分解为前交互、交互中、后交互三阶段，结合外观和形状感知的物体嵌入，实现高质量的机器人操作视频生成。
 tags:
-  - ICLR 2026
-  - 视频生成
-  - 机器人操作
-  - 协作轨迹
-  - 扩散模型
-  - 交互建模
+  - "ICLR 2026"
+  - "视频生成"
+  - "机器人操作"
+  - "协作轨迹"
+  - "扩散模型"
+  - "交互建模"
 ---
 
 # Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM推理][推理效率] 提出 DTSR 框架，通过检测推理过程中的"反思信号"（如 Wait、Alternatively）并在该位置让模型自我评估当前推理的"充分性"来决定是否提前终止推理，在 Qwen3 系列模型上实现 28.9%–34.9% 的推理长度缩减且几乎不损失精度。
 tags:
-  - ACL 2026
-  - LLM推理
-  - 推理效率
-  - 早退策略
-  - 过度思考
-  - 元认知
-  - 链式思维
+  - "ACL 2026"
+  - "LLM推理"
+  - "推理效率"
+  - "早退策略"
+  - "过度思考"
+  - "元认知"
+  - "链式思维"
 ---
 
 # When Is Thinking Enough? Early Exit via Sufficiency Assessment for Efficient Reasoning

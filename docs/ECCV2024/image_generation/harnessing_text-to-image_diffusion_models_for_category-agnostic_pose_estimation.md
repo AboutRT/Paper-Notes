@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][类别无关姿态估计] 提出 Prompt Pose Matching（PPM）框架，利用预训练文本到图像扩散模型中的丰富知识来解决类别无关姿态估计（CAPE），通过学习与关键点对应的伪提示（pseudo prompts）实现零训练基础类别的少样本关键点检测。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 类别无关姿态估计
-  - 文本到图像扩散模型
-  - 伪提示学习
-  - 少样本关键点检测
-  - 提示姿态匹配
+  - "ECCV 2024"
+  - "图像生成"
+  - "类别无关姿态估计"
+  - "文本到图像扩散模型"
+  - "伪提示学习"
+  - "少样本关键点检测"
+  - "提示姿态匹配"
 ---
 
 # Harnessing Text-to-Image Diffusion Models for Category-Agnostic Pose Estimation

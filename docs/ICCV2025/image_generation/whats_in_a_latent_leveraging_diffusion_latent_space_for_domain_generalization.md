@@ -2,15 +2,15 @@
 title: >-
   [论文解读] What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization
 description: >-
-  [ICCV 2025][图像生成][域泛化] 深入分析了不同预训练模型（CLIP、DiT、SD、MAE、DINOv2、ResNet）隐空间的域分离能力，发现扩散模型特征在无监督情况下最擅长分离域信息，并提出 GUIDE 框架——用扩散特征发现伪域表征并增广分类器特征，在 5 个 DomainBed 数据集上无需域标签即取得 66.3% 平均准确率（超越 ERM 基线 +2.6%，在 TerraIncognita 上 +4.3%），且优于大多数需要域标签的方法。
+  [ICCV 2025][图像生成][域泛化] 深入分析了不同预训练模型（CLIP、DiT、SD、MAE、DINOv2、ResNet）隐空间的域分离能力，发现扩散模型特征在无监督情况下最擅长分离域信息，并提出 GUIDE 框架——用扩散特征发现伪域表征并增广分类器特征…
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 域泛化
-  - 扩散特征
-  - 伪域发现
-  - 潜在空间分析
-  - 无域标签
+  - "ICCV 2025"
+  - "图像生成"
+  - "域泛化"
+  - "扩散特征"
+  - "伪域发现"
+  - "潜在空间分析"
+  - "无域标签"
 ---
 
 # What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization

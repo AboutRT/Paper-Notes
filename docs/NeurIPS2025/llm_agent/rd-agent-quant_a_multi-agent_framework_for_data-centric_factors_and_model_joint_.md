@@ -2,15 +2,15 @@
 title: >-
   [论文解读] R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization
 description: >-
-  [NeurIPS 2025][LLM Agent][多智能体框架] 提出 R&D-Agent(Q)，一个数据驱动的多智能体框架，通过五个协作模块（Specification、Synthesis、Implementation、Validation、Analysis）自动化量化策略的因子挖掘与模型创新联合优化，在真实股票市场上以不到 $10 的成本实现约 2× 于传统因子库的年化收益。
+  [NeurIPS 2025][LLM Agent][多智能体框架] 提出 R&D-Agent(Q)，一个数据驱动的多智能体框架，通过五个协作模块（Specification、Synthesis、Implementation、Validation、Analysis）自动化量化策略的因子挖掘与模型创新联合优化…
 tags:
-  - NeurIPS 2025
-  - LLM Agent
-  - 多智能体框架
-  - 量化因子挖掘
-  - 模型优化
-  - 数据驱动
-  - 自动化研发
+  - "NeurIPS 2025"
+  - "LLM Agent"
+  - "多智能体框架"
+  - "量化因子挖掘"
+  - "模型优化"
+  - "数据驱动"
+  - "自动化研发"
 ---
 
 # R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization

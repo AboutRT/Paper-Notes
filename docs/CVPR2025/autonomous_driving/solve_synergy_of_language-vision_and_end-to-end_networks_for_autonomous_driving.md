@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SOLVE: Synergy of Language-Vision and End-to-End Networks for Autonomous Driving
 description: >-
-  [CVPR 2025][自动驾驶][VLM协同] 提出 SOLVE，通过共享 SQ-Former 视觉编码器实现 VLM 和端到端驾驶模型的特征级协同，用 Trajectory Chain-of-Thought（T-CoT）将 VLM 的长程轨迹作为 E2E 模型的初始化先验，在 nuScenes 上达到 0.28m 平均 L2 误差 SOTA。
+  [CVPR 2025][自动驾驶][VLM协同] 提出 SOLVE，通过共享 SQ-Former 视觉编码器实现 VLM 和端到端驾驶模型的特征级协同，用 Trajectory Chain-of-Thought（T-CoT）将 VLM 的长程轨迹作为 E2E 模型的初始化先验…
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - VLM协同
-  - 端到端驾驶
-  - 轨迹思维链
-  - 时序解耦
-  - 共享编码器
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "VLM协同"
+  - "端到端驾驶"
+  - "轨迹思维链"
+  - "时序解耦"
+  - "共享编码器"
 ---
 
 # SOLVE: Synergy of Language-Vision and End-to-End Networks for Autonomous Driving

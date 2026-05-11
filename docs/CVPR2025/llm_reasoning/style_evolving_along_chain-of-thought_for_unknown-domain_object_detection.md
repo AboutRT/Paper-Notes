@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM推理][域泛化] 提出 Chain-of-Thought 引导的风格演化方法（CGSE），通过词→短语→句子三级渐进式风格描述生成，结合特征解耦和类别原型聚类，在五种恶劣天气场景和 Real-to-Art 基准上实现了显著的域泛化检测性能提升。
 tags:
-  - CVPR 2025
-  - LLM推理
-  - 域泛化
-  - 目标检测
-  - Chain-of-Thought
-  - 风格迁移
-  - CLIP
+  - "CVPR 2025"
+  - "LLM推理"
+  - "域泛化"
+  - "目标检测"
+  - "Chain-of-Thought"
+  - "风格迁移"
+  - "CLIP"
 ---
 
 # Style Evolving along Chain-of-Thought for Unknown-Domain Object Detection

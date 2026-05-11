@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视频语言预训练] 提出 ClusterSTM，通过帧内语义聚类和逐簇时空掩码策略，在高掩码率下保留语义完整的视觉 token，同时引入视频-文本相关性重建目标，以极低的计算代价实现视频语言模型的高效预训练，在检索、VQA、字幕等任务上达到高效模型的新 SOTA。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视频语言预训练
-  - 掩码视觉建模
-  - 时空聚类
-  - 高效预训练
-  - 视频文本对齐
+  - "CVPR 2026"
+  - "视频理解"
+  - "视频语言预训练"
+  - "掩码视觉建模"
+  - "时空聚类"
+  - "高效预训练"
+  - "视频文本对齐"
 ---
 
 # Cluster-Wise Spatio-Temporal Masking for Efficient Video-Language Pretraining

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM效率][长上下文推理] 提出 Squeezed Attention，通过离线 K-means 聚类压缩固定上下文的 Key 向量，在推理时用质心匹配预测重要 Key 并仅对其计算精确注意力，实现 3.1 倍 KV 预算削减且无精度损失，预填充和生成阶段均获得超过 4 倍加速。
 tags:
-  - ACL 2025
-  - LLM效率
-  - 长上下文推理
-  - 注意力加速
-  - KV缓存压缩
-  - K-means聚类
-  - 稀疏注意力
+  - "ACL 2025"
+  - "LLM效率"
+  - "长上下文推理"
+  - "注意力加速"
+  - "KV缓存压缩"
+  - "K-means聚类"
+  - "稀疏注意力"
 ---
 
 # Squeezed Attention: Accelerating Long Context Length LLM Inference

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][高斯溅射] 本文提出 EOGS，首个基于 3D 高斯溅射的地球观测框架，通过仿射相机近似、阴影映射和三种正则化策略，在卫星图像三维重建任务上达到与 EO-NeRF 相当的精度，同时训练速度快 300 倍（3 分钟 vs 15 小时）。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 高斯溅射
-  - 卫星摄影测量
-  - 数字高程模型
-  - 阴影建模
-  - 遥感
+  - "CVPR 2025"
+  - "3D视觉"
+  - "高斯溅射"
+  - "卫星摄影测量"
+  - "数字高程模型"
+  - "阴影建模"
+  - "遥感"
 ---
 
 # Gaussian Splatting for Efficient Satellite Image Photogrammetry (EOGS)

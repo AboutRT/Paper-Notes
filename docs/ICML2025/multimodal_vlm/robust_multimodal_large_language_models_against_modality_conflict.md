@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Robust Multimodal Large Language Models Against Modality Conflict
 description: >-
-  [ICML 2025][多模态][多模态幻觉] 揭示 MLLM 幻觉的一个被忽视来源——模态冲突（视觉输入与文本输入之间的固有矛盾），从对象/属性/关系三个层面形式化定义模态冲突，构建 20K 样例的 MMMC 数据集，并提出 prompt engineering、SFT 和 RL 三种缓解方法，其中 RL 效果最佳。
+  [ICML 2025][多模态VLM][多模态幻觉] 揭示 MLLM 幻觉的一个被忽视来源——模态冲突（视觉输入与文本输入之间的固有矛盾），从对象/属性/关系三个层面形式化定义模态冲突，构建 20K 样例的 MMMC 数据集，并提出 prompt engineering、SFT 和 RL 三种缓解方法…
 tags:
-  - ICML 2025
-  - 多模态
-  - 多模态幻觉
-  - 模态冲突
-  - 鲁棒性
-  - 多模态VLM
-  - SFT
+  - "ICML 2025"
+  - "多模态VLM"
+  - "多模态幻觉"
+  - "模态冲突"
+  - "鲁棒性"
+  - "强化学习"
+  - "SFT"
 ---
 
 # Robust Multimodal Large Language Models Against Modality Conflict
@@ -107,7 +107,7 @@ $$\pi_\theta^* = \arg\min_\theta \mathbb{E}[-\log \pi_\theta(\mathcal{A}|\mathca
 | Qwen-VL-Chat | 38.2 | 33.6 | 30.1 | 34.0 |
 | GPT-4o | 62.5 | 55.3 | 48.7 | 55.5 |
 
-大多数 MLLM 在模态冲突场景下准确率极低（<40%），即使 GPT-4o 也仅 ~55%。
+大多数 MLLM 在模态冲突场景下准确率极低（&lt;40%），即使 GPT-4o 也仅 ~55%。
 
 ### 三种方法对比（以 LLaVA-1.5 为例）
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][人脸聚类] VideoClusterNet 提出了一种全自监督视频人脸聚类方法：通过自蒸馏机制自适应微调通用人脸识别模型，并设计了一种基于学习损失度量的无参数聚类算法，在电影/电视剧场景中达到 SOTA。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 人脸聚类
-  - 自监督学习
-  - 自蒸馏
-  - 视频理解
-  - 无参数聚类
+  - "ECCV 2024"
+  - "人体理解"
+  - "人脸聚类"
+  - "自监督学习"
+  - "自蒸馏"
+  - "视频理解"
+  - "无参数聚类"
 ---
 
 # VideoClusterNet: Self-Supervised and Adaptive Face Clustering for Videos

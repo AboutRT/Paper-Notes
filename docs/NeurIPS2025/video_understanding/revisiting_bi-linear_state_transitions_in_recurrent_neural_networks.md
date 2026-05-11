@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][Bilinear RNN] 系统性地重新审视 RNN 中的双线性状态转移（隐状态与输入的乘法交互），理论证明双线性 RNN 可模拟任意有限状态机，并展示其在去除加性项后形成了一个从对角到全结构的自然表达力层次，揭示了 Mamba 等流行线性 RNN 处于该层次最低端。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - Bilinear RNN
-  - State Tracking
-  - Finite Automata
-  - Multiplicative Interaction
-  - Parity
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "Bilinear RNN"
+  - "State Tracking"
+  - "Finite Automata"
+  - "Multiplicative Interaction"
+  - "Parity"
 ---
 
 # Revisiting Bi-Linear State Transitions in Recurrent Neural Networks

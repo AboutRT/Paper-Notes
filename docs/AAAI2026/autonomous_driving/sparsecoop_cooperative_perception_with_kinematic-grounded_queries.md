@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SparseCoop: Cooperative Perception with Kinematic-Grounded Queries
 description: >-
-  [AAAI 2026][自动驾驶][协同感知] 提出 SparseCoop——首个完全稀疏的协同感知框架，通过运动学锚定查询（KGQ）、粗到精聚合模块和协同实例去噪策略，完全抛弃密集 BEV 表示，在 V2X-Seq 和 Griffin 数据集上以最低通信开销和最高计算效率达到 SOTA 性能（AP 0.530，传输仅 3.17×10⁴ BPS）。
+  [AAAI 2026][自动驾驶][协同感知] 提出 SparseCoop——首个完全稀疏的协同感知框架，通过运动学锚定查询（KGQ）、粗到精聚合模块和协同实例去噪策略，完全抛弃密集 BEV 表示…
 tags:
-  - AAAI 2026
-  - 自动驾驶
-  - 协同感知
-  - 稀疏查询
-  - 3D目标检测与跟踪
-  - V2X通信
-  - 车路协同
+  - "AAAI 2026"
+  - "自动驾驶"
+  - "协同感知"
+  - "稀疏查询"
+  - "3D目标检测与跟踪"
+  - "V2X通信"
+  - "车路协同"
 ---
 
 # SparseCoop: Cooperative Perception with Kinematic-Grounded Queries

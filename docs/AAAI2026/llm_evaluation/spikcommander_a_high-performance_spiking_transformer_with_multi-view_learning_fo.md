@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SpikCommander: A High-Performance Spiking Transformer with Multi-View Learning for Efficient Speech Command Recognition
 description: >-
-  [AAAI 2026][脉冲神经网络] 提出 SpikCommander，一种全脉冲驱动的 Transformer 架构，通过**多视图脉冲时序感知自注意力（MSTASA）**和**脉冲上下文精炼 MLP（SCR-MLP）**联合增强时序与通道特征建模，在 SHD/SSC/GSC 三个基准上以更少参数超越 SOTA SNN 方法。
+  [AAAI 2026][LLM评测][脉冲神经网络] 提出 SpikCommander，一种全脉冲驱动的 Transformer 架构，通过**多视图脉冲时序感知自注意力（MSTASA）**和**脉冲上下文精炼 MLP（SCR-MLP）**联合增强时序与通道特征建模…
 tags:
-  - AAAI 2026
-  - 脉冲神经网络
-  - LLM评测
-  - Transformer
-  - 多视图学习
-  - 能效
+  - "AAAI 2026"
+  - "LLM评测"
+  - "脉冲神经网络"
+  - "语音命令识别"
+  - "Transformer"
+  - "多视图学习"
+  - "能效"
 ---
 
 # SpikCommander: A High-Performance Spiking Transformer with Multi-View Learning for Efficient Speech Command Recognition

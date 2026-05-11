@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Universal Retrieval for Multimodal Trajectory Modeling
 description: >-
-  [ICML 2025][多模态][trajectory retrieval] 首次系统定义多模态轨迹检索任务，构建统一代理轨迹数据集 UATD（7,747 个演示、82,793 个状态）和 GAE-Bench 基准（714,628 正样本对），提出基于 VLM2Vec 的 GAE-Retriever 框架，在 5 个 GUI 环境上相比最强基线 VLM2Vec-V2.2 平均提升 10.22 个百分点。
+  [ICML 2025][多模态VLM][trajectory retrieval] 首次系统定义多模态轨迹检索任务，构建统一代理轨迹数据集 UATD（7,747 个演示、82,793 个状态）和 GAE-Bench 基准（714,628 正样本对）…
 tags:
-  - ICML 2025
-  - 多模态
-  - trajectory retrieval
-  - 多模态VLM
-  - 对比学习
-  - VLM
+  - "ICML 2025"
+  - "多模态VLM"
+  - "trajectory retrieval"
+  - "GUI agents"
+  - "多模态"
+  - "对比学习"
+  - "VLM"
 ---
 
 # Universal Retrieval for Multimodal Trajectory Modeling
@@ -89,7 +90,7 @@ tags:
 ### 关键发现
 
 - GAE-Retriever 在全部 5 个数据源的 R@1/5/10 上均最优，最大提升在 GUIAct（R@1 +13.5, R@10 +27.3）
-- 多模态 backbone 模型（Qwen2-VL/Qwen2.5-VL）的检索能力极弱（R@1<4.0），说明检索需要专门训练
+- 多模态 backbone 模型（Qwen2-VL/Qwen2.5-VL）的检索能力极弱（R@1&lt;4.0），说明检索需要专门训练
 - Qwen2.5-VL-3B 反而弱于更小的 Qwen2-VL-2B，表明模型规模不等于检索能力
 - 轨迹规划模型（ShowUI、UI-TARS、TongUI）的检索能力与 backbone 无显著差异，planning 能力不迁移到 retrieval
 - VLM2Vec 系列一致优于其他检索模型，说明融合模态数据+交叉 batch 训练对检索至关重要

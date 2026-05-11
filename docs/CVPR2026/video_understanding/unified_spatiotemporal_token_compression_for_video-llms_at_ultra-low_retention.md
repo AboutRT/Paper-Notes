@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][视觉token压缩] 提出统一时空token压缩方法，通过全局保留池联合评估token的贡献度和语义冗余度，并在LLM内部引入文本感知合并机制，在仅保留约2%视觉token的极端压缩下仍保留90.1%的基线性能，同时将FLOPs降至约2.6%。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 视觉token压缩
-  - 视频大语言模型
-  - 时空统一压缩
-  - 推理加速
-  - 无训练
+  - "CVPR 2026"
+  - "视频理解"
+  - "视觉token压缩"
+  - "视频大语言模型"
+  - "时空统一压缩"
+  - "推理加速"
+  - "无训练"
 ---
 
 # Unified Spatiotemporal Token Compression for Video-LLMs at Ultra-Low Retention

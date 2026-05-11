@@ -2,15 +2,15 @@
 title: >-
   [论文解读] x²-Fusion: Cross-Modality and Cross-Dimension Flow Estimation in Event Edge Space
 description: >-
-  [ICLR 2026][自动驾驶][光流估计] x²-Fusion 提出 Event Edge Space——首个基于边缘的同构潜空间，将图像、LiDAR 和事件相机特征统一到共享的边缘中心表示中，结合可靠性自适应融合和跨维度对比学习，在标准和退化场景下均实现 SOTA 的 2D 光流和 3D 场景流联合估计。
+  [ICLR 2026][自动驾驶][光流估计] x²-Fusion 提出 Event Edge Space——首个基于边缘的同构潜空间，将图像、LiDAR 和事件相机特征统一到共享的边缘中心表示中，结合可靠性自适应融合和跨维度对比学习，在标准和退化场景下均实现 SOTA 的 2D 光流和 3D 场景流联合估计…
 tags:
-  - ICLR 2026
-  - 自动驾驶
-  - 光流估计
-  - 场景流估计
-  - 事件相机
-  - 多模态融合
-  - 边缘空间
+  - "ICLR 2026"
+  - "自动驾驶"
+  - "光流估计"
+  - "场景流估计"
+  - "事件相机"
+  - "多模态融合"
+  - "边缘空间"
 ---
 
 # x²-Fusion: Cross-Modality and Cross-Dimension Flow Estimation in Event Edge Space

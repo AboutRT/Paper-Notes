@@ -4,7 +4,7 @@ title: >-
 description: >-
   [模型压缩] 在低秩持续学习中重新引入弹性权重巩固（EWC），通过在全维空间估计 Fisher 信息矩阵来正则化共享 LoRA 模块，实现恒定存储开销下的有效遗忘缓解。
 tags:
-  - 模型压缩
+  - "模型压缩"
 ---
 
 # Revisiting Weight Regularization for Low-Rank Continual Learning

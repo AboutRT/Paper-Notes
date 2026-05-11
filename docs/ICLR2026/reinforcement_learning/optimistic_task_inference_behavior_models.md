@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Optimistic Task Inference for Behavior Foundation Models
 description: >-
-  [ICLR 2026 Oral][behavior foundation models] 提出 OpTI-BFM——在 Behavior Foundation Model 测试时，不需要完整奖励函数或标注数据集，而是通过与环境交互仅 5 个 episode 即可推断任务并恢复 Oracle 性能，核心是利用 successor features 的线性结构将任务推断归约为线性 bandit 问题并用 UCB 策略乐观探索，提供正式的 regret bound。
+  [ICLR 2026 Oral][强化学习][behavior foundation models] 提出 OpTI-BFM——在 Behavior Foundation Model 测试时，不需要完整奖励函数或标注数据集，而是通过与环境交互仅 5 个 episode 即可推断任务并恢复 Oracle 性能…
 tags:
-  - ICLR 2026 Oral
-  - behavior foundation models
-  - task inference
-  - zero-shot RL
-  - successor features
-  - UCB
-  - linear bandits
+  - "ICLR 2026 Oral"
+  - "强化学习"
+  - "behavior foundation models"
+  - "task inference"
+  - "zero-shot RL"
+  - "successor features"
+  - "UCB"
+  - "linear bandits"
 ---
 
 # Optimistic Task Inference for Behavior Foundation Models

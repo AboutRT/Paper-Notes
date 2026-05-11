@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Cog-RAG: Cognitive-Inspired Dual-Hypergraph with Theme Alignment Retrieval-Augmented Generation
 description: >-
-  [AAAI 2026][超图] 提出 Cog-RAG，用主题超图和实体超图构建双超图索引，模拟人类"自顶向下"的认知过程进行两阶段检索（先主题后细节），实现从全局语义到局部信息的对齐生成。
+  [AAAI 2026][信息检索/RAG][超图] 提出 Cog-RAG，用主题超图和实体超图构建双超图索引，模拟人类"自顶向下"的认知过程进行两阶段检索（先主题后细节），实现从全局语义到局部信息的对齐生成。
 tags:
-  - AAAI 2026
-  - 超图
-  - 双超图索引
-  - 信息检索
-  - 认知启发检索
-  - RAG
+  - "AAAI 2026"
+  - "信息检索/RAG"
+  - "超图"
+  - "双超图索引"
+  - "主题对齐"
+  - "认知启发检索"
+  - "RAG"
 ---
 
 # Cog-RAG: Cognitive-Inspired Dual-Hypergraph with Theme Alignment Retrieval-Augmented Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning
 description: >-
-  [AAAI 2026][多模态][持续学习] 本文提出SECA框架，利用CLIP文本分支的稳定语义先验来指导骨干网络中语义相关的历史知识迁移（SG-AKT模块），并通过文本嵌入的类间语义关系精炼视觉原型构建混合分类器（SE-VPR模块），在ImageNetR/A和CIFAR100上超越现有SOTA。
+  [AAAI 2026][多模态VLM][持续学习] 本文提出SECA框架，利用CLIP文本分支的稳定语义先验来指导骨干网络中语义相关的历史知识迁移（SG-AKT模块），并通过文本嵌入的类间语义关系精炼视觉原型构建混合分类器（SE-VPR模块），在ImageNetR/A和CIFAR100上超越现有SOTA。
 tags:
-  - AAAI 2026
-  - 多模态
-  - 持续学习
-  - CLIP
-  - 文本语义先验
-  - 多模态VLM
-  - 模态差距
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "持续学习"
+  - "CLIP"
+  - "文本语义先验"
+  - "知识蒸馏"
+  - "模态差距"
 ---
 
 # Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning

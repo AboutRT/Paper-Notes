@@ -2,14 +2,14 @@
 title: >-
   [论文解读] FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning
 description: >-
-  [AAAI 2026][自动驾驶][VLA 模型加速] 提出 FastDriveVLA，通过 MAE 风格的前景像素重建训练轻量级 plug-and-play 的 ReconPruner 模块（仅 0.07B），利用对抗前景-背景重建策略优先保留驾驶决策所需的前景 token，在 nuScenes 开环规划基准上各剪枝率均达 SOTA，一次训练可迁移至同一视觉编码器的不同 VLA 模型。
+  [AAAI 2026][自动驾驶][VLA 模型加速] 提出 FastDriveVLA，通过 MAE 风格的前景像素重建训练轻量级 plug-and-play 的 ReconPruner 模块（仅 0.07B），利用对抗前景-背景重建策略优先保留驾驶决策所需的前景 token…
 tags:
-  - AAAI 2026
-  - 自动驾驶
-  - VLA 模型加速
-  - 视觉 token 剪枝
-  - 前景重建
-  - 即插即用
+  - "AAAI 2026"
+  - "自动驾驶"
+  - "VLA 模型加速"
+  - "视觉 token 剪枝"
+  - "前景重建"
+  - "即插即用"
 ---
 
 # FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning

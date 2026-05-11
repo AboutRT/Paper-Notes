@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][人体理解][类别级姿态估计] 提出GS-Pose方法，利用预训练视觉基础模型（DINOv2）的2D语义特征投影到3D空间，结合几何特征通过Transformer匹配网络进行类别级物体9D姿态估计，仅需10个合成3D模型训练即可在多个真实数据集上达到SOTA级别性能。
 tags:
-  - ECCV 2024
-  - 人体理解
-  - 类别级姿态估计
-  - 几何-语义特征
-  - DINOv2
-  - Transformer
-  - 合成数据训练
+  - "ECCV 2024"
+  - "人体理解"
+  - "类别级姿态估计"
+  - "几何-语义特征"
+  - "DINOv2"
+  - "Transformer"
+  - "合成数据训练"
 ---
 
 # GS-Pose: Category-Level Object Pose Estimation via Geometric and Semantic Correspondence

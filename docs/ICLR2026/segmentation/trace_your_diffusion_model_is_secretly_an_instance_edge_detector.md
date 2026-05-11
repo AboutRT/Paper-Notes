@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TRACE: Your Diffusion Model is Secretly an Instance Edge Detector
 description: >-
-  [ICLR 2026][图像分割][扩散模型] 发现文本到图像扩散模型的自注意力在去噪过程中存在一个"实例涌现点"（IEP），在该时刻自注意力在物体边界呈现剧烈散度变化。TRACE通过IEP定位+ABDiv边缘提取+单步蒸馏，以81×推理加速生成高质量实例边缘，无需任何实例标注即可将无监督实例分割提升+5.1 AP，tag监督全景分割超越点监督方法+1.7 PQ。
+  [ICLR 2026][语义分割][扩散模型] 发现文本到图像扩散模型的自注意力在去噪过程中存在一个"实例涌现点"（IEP），在该时刻自注意力在物体边界呈现剧烈散度变化。TRACE通过IEP定位+ABDiv边缘提取+单步蒸馏，以81×推理加速生成高质量实例边缘…
 tags:
-  - ICLR 2026
-  - 图像分割
-  - 扩散模型
-  - 实例边缘
-  - 自注意力
-  - IEP
-  - 无监督分割
+  - "ICLR 2026"
+  - "语义分割"
+  - "扩散模型"
+  - "实例边缘"
+  - "自注意力"
+  - "IEP"
+  - "无监督分割"
 ---
 
 # TRACE: Your Diffusion Model is Secretly an Instance Edge Detector

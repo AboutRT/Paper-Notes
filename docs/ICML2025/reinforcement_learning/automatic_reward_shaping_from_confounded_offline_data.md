@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Automatic Reward Shaping from Confounded Offline Data
 description: >-
-  [ICML 2025][reward shaping] 提出首个理论上有保障的数据驱动方法，从含未观测混淆因子的离线数据中自动学习基于势的奖励整形函数 (PBRS)，通过因果贝尔曼最优方程上界最优状态值作为势函数，并证明所得 Q-UCB Shaping 算法在伪次优状态-动作对上享有比 vanilla Q-UCB 更优的 gap-dependent regret bound。
+  [ICML 2025][强化学习][reward shaping] 提出首个理论上有保障的数据驱动方法，从含未观测混淆因子的离线数据中自动学习基于势的奖励整形函数 (PBRS)，通过因果贝尔曼最优方程上界最优状态值作为势函数…
 tags:
-  - ICML 2025
-  - reward shaping
-  - confounded MDP
-  - 强化学习
-  - PBRS
-  - offline RL
+  - "ICML 2025"
+  - "强化学习"
+  - "reward shaping"
+  - "confounded MDP"
+  - "causal inference"
+  - "PBRS"
+  - "offline RL"
 ---
 
 # Automatic Reward Shaping from Confounded Offline Data

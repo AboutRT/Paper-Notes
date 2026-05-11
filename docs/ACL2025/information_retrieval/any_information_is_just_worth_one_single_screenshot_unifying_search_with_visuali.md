@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Any Information Is Just Worth One Single Screenshot: Unifying Search With Visualized Information Retrieval
 description: >-
-  [ACL 2025][可视化信息检索] 本文正式定义了可视化信息检索（Vis-IR）范式——将多模态信息统一渲染为截图（Screenshot）进行检索，构建了包含1300万截图的VIRA数据集、UniSE检索模型家族和MVRB基准测试，为统一搜索引擎奠定基础。
+  [ACL 2025][信息检索/RAG][可视化信息检索] 本文正式定义了可视化信息检索（Vis-IR）范式——将多模态信息统一渲染为截图（Screenshot）进行检索，构建了包含1300万截图的VIRA数据集、UniSE检索模型家族和MVRB基准测试，为统一搜索引擎奠定基础。
 tags:
-  - ACL 2025
-  - 可视化信息检索
-  - 截图表示
-  - 信息检索
-  - 统一搜索
-  - 跨模态嵌入
+  - "ACL 2025"
+  - "信息检索/RAG"
+  - "可视化信息检索"
+  - "截图表示"
+  - "多模态检索"
+  - "统一搜索"
+  - "跨模态嵌入"
 ---
 
 # Any Information Is Just Worth One Single Screenshot: Unifying Search With Visualized Information Retrieval

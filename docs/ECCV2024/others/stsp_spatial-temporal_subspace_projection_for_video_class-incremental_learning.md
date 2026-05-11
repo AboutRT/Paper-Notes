@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ECCV 2024][视频类增量学习] 提出空间-时间子空间投影（STSP）方法解决视频类增量学习中的灾难性遗忘问题，通过时间子空间分类器（TSC）用正交子空间基表示每个类别，并通过空间梯度投影（SGP）将梯度约束在旧任务特征的零空间中，在HMDB51、UCF101和SSv2上达到SOTA。
 tags:
-  - ECCV 2024
-  - 视频类增量学习
-  - 子空间投影
-  - 正交约束
-  - 梯度投影
-  - 灾难性遗忘
+  - "ECCV 2024"
+  - "视频类增量学习"
+  - "子空间投影"
+  - "正交约束"
+  - "梯度投影"
+  - "灾难性遗忘"
 ---
 
 # STSP: Spatial-Temporal Subspace Projection for Video Class-Incremental Learning

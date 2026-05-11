@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Less is More: Local Intrinsic Dimensions of Contextual Language Models
 description: >-
-  [NeurIPS 2025][视频理解][intrinsic dimension] 提出利用上下文 token 嵌入的局部内在维度（Local Intrinsic Dimension, LID）来无监督监测 LLM 训练动态——维度下降预示泛化改善，维度上升预示过拟合——在对话状态跟踪、grokking、情感识别等任务上验证了这一几何信号的实用性。
+  [NeurIPS 2025][视频理解][intrinsic dimension] 提出利用上下文 token 嵌入的局部内在维度（Local Intrinsic Dimension, LID）来无监督监测 LLM 训练动态——维度下降预示泛化改善…
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - intrinsic dimension
-  - LLM
-  - fine-tuning
-  - grokking
-  - overfitting detection
-  - embedding geometry
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "intrinsic dimension"
+  - "LLM"
+  - "fine-tuning"
+  - "grokking"
+  - "overfitting detection"
+  - "embedding geometry"
 ---
 
 # Less is More: Local Intrinsic Dimensions of Contextual Language Models

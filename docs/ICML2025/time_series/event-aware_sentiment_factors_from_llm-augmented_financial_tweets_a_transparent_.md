@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][时间序列][金融情感分析] 利用大语言模型对金融推文进行多标签事件分类标注，将非结构化社交媒体文本转化为结构化、可解释的事件驱动量化因子，发现特定事件类别（如谣言/投机）具有显著的负Alpha信号（Sharpe ratio低至-0.38）。
 tags:
-  - ICML 2025
-  - 时间序列
-  - 金融情感分析
-  - 大语言模型
-  - 事件驱动因子
-  - Alpha信号发现
-  - 量化交易
+  - "ICML 2025"
+  - "时间序列"
+  - "金融情感分析"
+  - "大语言模型"
+  - "事件驱动因子"
+  - "Alpha信号发现"
+  - "量化交易"
 ---
 
 # Event-Aware Sentiment Factors from LLM-Augmented Financial Tweets: A Transparent Framework for Interpretable Quant Trading
@@ -116,7 +116,7 @@ tags:
 | 事件类别 | 指标 | 本文结果 | 基线(简单情感极性) | 说明 |
 |---------|------|---------|-------------------|------|
 | Rumor/Speculation | Sharpe Ratio | **-0.38** | ~0 | 最强负Alpha信号 |
-| Rumor/Speculation | IC | **>0.05** | <0.03 | 95%置信水平显著 |
+| Rumor/Speculation | IC | **>0.05** | &lt;0.03 | 95%置信水平显著 |
 | Retail Investor Buzz | Sharpe Ratio | 负值 | ~0 | 显著反向指标 |
 | Brand Boycott | Sharpe Ratio | 负值 | ~0 | 事件级信号更强 |
 | 整体事件因子 | 统计显著性 | 95%置信 | 不稳定 | 多周期验证 |

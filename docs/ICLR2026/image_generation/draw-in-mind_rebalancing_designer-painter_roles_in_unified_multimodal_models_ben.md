@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][多模态] 指出当前统一多模态模型中理解模块仅作翻译器而生成模块被迫同时充当"设计师"和"画家"的职责失衡问题，通过构建 DIM 数据集（14M 长上下文文图对 + 233K CoT 编辑蓝图）将设计责任转移给理解模块，4.6B 参数即超越 5 倍大的模型。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 多模态
-  - Chain-of-Thought
-  - image editing
-  - Designer-Painter
-  - Data-Centric
+  - "ICLR 2026"
+  - "图像生成"
+  - "多模态"
+  - "Chain-of-Thought"
+  - "image editing"
+  - "Designer-Painter"
+  - "Data-Centric"
 ---
 
 # Draw-In-Mind: Rebalancing Designer-Painter Roles in Unified Multimodal Models Benefits Image Editing
@@ -43,7 +43,7 @@ tags:
 采用 connector-based 架构：冻结的 Qwen2.5-VL-3B（理解模块）通过两层 MLP 连接可训练的 SANA1.5-1.6B（生成模块），总参数仅 4.6B。推理时，外部设计师（如 GPT-4o）生成 CoT 编辑蓝图，模型据此执行编辑。
 
 ### 关键设计
-1. **DIM-T2I 数据集（14M）**：从网络收集高分辨率（≥512²）图像，用内部模型从 21 个维度生成长上下文标注。平均 prompt 长度达 146.76 词（现有数据集通常 <40 词），为复杂 CoT 理解奠定基础。
+1. **DIM-T2I 数据集（14M）**：从网络收集高分辨率（≥512²）图像，用内部模型从 21 个维度生成长上下文标注。平均 prompt 长度达 146.76 词（现有数据集通常 &lt;40 词），为复杂 CoT 理解奠定基础。
 
 2. **DIM-Edit 数据集（233K）**：
 

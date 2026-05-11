@@ -2,17 +2,17 @@
 title: >-
   [论文解读] msf-CNN: Patch-based Multi-Stage Fusion with Convolutional Neural Networks for TinyML
 description: >-
-  [NeurIPS 2025][LLM/NLP][TinyML] 提出 msf-CNN，一种基于有向无环图（DAG）最短路径算法的多阶段 patch-based 融合优化技术，通过高效搜索 CNN 的最优融合配置，在各种微控制器（ARM Cortex-M、RISC-V、ESP32）上实现比现有方法（MCUNetV2、StreamNet）减少 50%–87% 的峰值 RAM 使用，同时保持可控的计算开销。
+  [NeurIPS 2025][LLM/NLP][TinyML] 提出 msf-CNN，一种基于有向无环图（DAG）最短路径算法的多阶段 patch-based 融合优化技术，通过高效搜索 CNN 的最优融合配置…
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - TinyML
-  - CNN fusion
-  - microcontroller
-  - patch-based inference
-  - memory optimization
-  - DAG shortest path
-  - IoT
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "TinyML"
+  - "CNN fusion"
+  - "microcontroller"
+  - "patch-based inference"
+  - "memory optimization"
+  - "DAG shortest path"
+  - "IoT"
 ---
 
 # msf-CNN: Patch-based Multi-Stage Fusion with Convolutional Neural Networks for TinyML

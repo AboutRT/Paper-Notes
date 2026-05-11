@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][工具学习] 本文提出 ToolOmni，一个统一的智能体框架，将主动工具检索和基于检索结果的工具执行整合在同一推理循环中，通过冷启动 SFT + 解耦多目标 GRPO 联合优化检索和执行能力，在 ToolBench 上端到端执行成功率超过强基线 +10.8%。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 工具学习
-  - 主动检索
-  - 开放世界
-  - GRPO
-  - 端到端
+  - "ACL 2026"
+  - "LLM Agent"
+  - "工具学习"
+  - "主动检索"
+  - "开放世界"
+  - "GRPO"
+  - "端到端"
 ---
 
 # ToolOmni: Enabling Open-World Tool Use via Agentic Learning with Proactive Retrieval and Grounded Execution

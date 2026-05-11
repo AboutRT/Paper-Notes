@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Frictional Agent Alignment Framework: Slow Down and Don't Break Things
 description: >-
-  [ACL 2025][friction alignment] 提出摩擦对齐框架 FAAF（Frictional Agent Alignment Framework），通过双策略（frictive state policy + intervention policy）目标函数，训练 LLM 在协作对话中识别信念冲突并生成促进反思与审议的"摩擦"干预，超越 DPO/IPO/PPO 等对齐方法。
+  [ACL 2025][friction alignment] 提出摩擦对齐框架 FAAF（Frictional Agent Alignment Framework），通过双策略（frictive state policy + intervention policy）目标函数…
 tags:
-  - ACL 2025
-  - friction alignment
-  - 其他
-  - belief misalignment
-  - preference optimization
-  - human-AI collaboration
+  - "ACL 2025"
+  - "friction alignment"
+  - "collaborative dialogue"
+  - "belief misalignment"
+  - "preference optimization"
+  - "human-AI collaboration"
 ---
 
 # Frictional Agent Alignment Framework: Slow Down and Don't Break Things

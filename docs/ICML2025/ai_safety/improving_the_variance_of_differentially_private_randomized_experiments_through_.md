@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ICML 2025][AI安全][差分隐私] 提出 Cluster-DP 机制，利用非敏感的聚类结构信息改善差分隐私随机实验中因果效应估计的隐私-方差权衡，在不牺牲隐私保证的前提下，通过更同质的聚类结构显著降低 ATE 估计的方差损失。
 tags:
-  - ICML 2025
-  - AI安全
-  - 差分隐私
-  - 因果推断
-  - 随机实验
-  - 聚类
-  - 方差缩减
-  - 标签差分隐私
+  - "ICML 2025"
+  - "AI安全"
+  - "差分隐私"
+  - "因果推断"
+  - "随机实验"
+  - "聚类"
+  - "方差缩减"
+  - "标签差分隐私"
 ---
 
 # Improving the Variance of Differentially Private Randomized Experiments through Clustering

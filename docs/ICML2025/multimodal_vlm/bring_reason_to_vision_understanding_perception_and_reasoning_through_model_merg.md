@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging
 description: >-
-  [ICML 2025][多模态][模型融合] 通过将数学推理 LLM 的参数与 VLM 的文本部分直接加权平均（模型融合），在无需训练的情况下将推理能力迁移到 VLM，并发现感知能力集中在前层、推理能力集中在中后层的层级分布规律。
+  [ICML 2025][多模态VLM][模型融合] 通过将数学推理 LLM 的参数与 VLM 的文本部分直接加权平均（模型融合），在无需训练的情况下将推理能力迁移到 VLM，并发现感知能力集中在前层、推理能力集中在中后层的层级分布规律。
 tags:
-  - ICML 2025
-  - 多模态
-  - 模型融合
-  - VLM推理
-  - 多模态VLM
-  - 跨模态迁移
-  - 层级分析
+  - "ICML 2025"
+  - "多模态VLM"
+  - "模型融合"
+  - "VLM推理"
+  - "感知与推理解耦"
+  - "跨模态迁移"
+  - "层级分析"
 ---
 
 # Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging

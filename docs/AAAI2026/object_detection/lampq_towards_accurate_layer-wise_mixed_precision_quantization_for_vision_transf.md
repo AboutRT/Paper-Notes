@@ -2,15 +2,15 @@
 title: >-
   [论文解读] LampQ: Towards Accurate Layer-wise Mixed Precision Quantization for Vision Transformers
 description: >-
-  [AAAI 2026][目标检测][混合精度量化] 本文提出 LampQ，一种基于度量（metric-based）的逐层混合精度量化方法，通过类型感知的 Fisher 信息度量衡量 ViT 各层对量化的敏感度，结合整数线性规划优化比特宽度分配并迭代更新，在图像分类、目标检测和零样本量化等多个任务上取得 SOTA 性能。
+  [AAAI 2026][目标检测][混合精度量化] 本文提出 LampQ，一种基于度量（metric-based）的逐层混合精度量化方法，通过类型感知的 Fisher 信息度量衡量 ViT 各层对量化的敏感度，结合整数线性规划优化比特宽度分配并迭代更新…
 tags:
-  - AAAI 2026
-  - 目标检测
-  - 混合精度量化
-  - Transformer
-  - 层自适应
-  - Fisher信息
-  - 整数线性规划
+  - "AAAI 2026"
+  - "目标检测"
+  - "混合精度量化"
+  - "Transformer"
+  - "层自适应"
+  - "Fisher信息"
+  - "整数线性规划"
 ---
 
 # LampQ: Towards Accurate Layer-wise Mixed Precision Quantization for Vision Transformers

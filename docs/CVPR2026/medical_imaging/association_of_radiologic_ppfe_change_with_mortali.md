@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][PPFE] 在 NLST（n=7980）和 SUMMIT（n=8561）两个大规模肺癌筛查队列中，利用深度学习自动分割量化低剂量 CT 上 PPFE 的纵向变化（dPPFE），验证其与全因死亡率（HR=1.25/3.14）和呼吸系统发病率的独立关联。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - PPFE
-  - 肺癌筛查
-  - 低剂量CT
-  - 纵向定量分析
-  - 影像生物标志物
+  - "CVPR 2026"
+  - "医学图像"
+  - "PPFE"
+  - "肺癌筛查"
+  - "低剂量CT"
+  - "纵向定量分析"
+  - "影像生物标志物"
 ---
 
 # Association of Radiologic PPFE Change with Mortality in Lung Cancer Screening Cohorts

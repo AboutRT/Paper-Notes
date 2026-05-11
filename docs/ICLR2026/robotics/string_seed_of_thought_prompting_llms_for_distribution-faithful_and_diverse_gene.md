@@ -2,15 +2,15 @@
 title: >-
   [论文解读] String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation
 description: >-
-  [ICLR 2026][机器人][提示学习] 本文提出 String Seed of Thought（SSoT），一种简洁的提示方法，通过指示 LLM 先生成随机字符串再从中提取随机性来选择答案，显著提升了概率指令跟随（PIF）的分布忠实度和开放式任务（DAG）的响应多样性，理论证明了 TV 距离随字符串长度指数衰减，实验表明推理型 LLM 的表现接近伪随机数生成器。
+  [ICLR 2026][机器人][提示学习] 本文提出 String Seed of Thought（SSoT），一种简洁的提示方法，通过指示 LLM 先生成随机字符串再从中提取随机性来选择答案，显著提升了概率指令跟随（PIF）的分布忠实度和开放式任务（DAG）的响应多样性…
 tags:
-  - ICLR 2026
-  - 机器人
-  - 提示学习
-  - probabilistic instruction following
-  - diversity
-  - LLM reasoning
-  - randomness
+  - "ICLR 2026"
+  - "机器人"
+  - "提示学习"
+  - "probabilistic instruction following"
+  - "diversity"
+  - "LLM reasoning"
+  - "randomness"
 ---
 
 # String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation

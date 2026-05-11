@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像恢复][过程奖励模型] 提出 SCAN 框架，通过分析 Monte Carlo 注释中的噪声分布，设计自去噪采样策略和鲁棒学习损失，仅用 1.5B 模型生成的 101K 样本训练的 PRM 即超越人工标注数据集 PRM800K 的效果。
 tags:
-  - NeurIPS 2025
-  - 图像恢复
-  - 过程奖励模型
-  - 图像复原
-  - 噪声标签
-  - 自去噪
-  - 数学推理
+  - "NeurIPS 2025"
+  - "图像恢复"
+  - "过程奖励模型"
+  - "Monte Carlo估计"
+  - "噪声标签"
+  - "自去噪"
+  - "数学推理"
 ---
 
 # SCAN: Self-Denoising Monte Carlo Annotation for Robust Process Reward Learning

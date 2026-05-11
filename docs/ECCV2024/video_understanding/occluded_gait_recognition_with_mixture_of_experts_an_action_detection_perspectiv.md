@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][视频理解][步态识别] 本文从动作检测的视角重新审视遮挡步态识别问题，提出GaitMoE方法通过时序专家混合(MTE)自适应构建动作锚点和动作专家混合(MAE)生成动作提议，仅使用ID标签进行端到端训练即可有效应对各种遮挡场景，并构建了首个统一的遮挡步态数据库OccGait。
 tags:
-  - ECCV 2024
-  - 视频理解
-  - 步态识别
-  - 遮挡处理
-  - 混合专家
-  - 动作检测
-  - 步态数据集
+  - "ECCV 2024"
+  - "视频理解"
+  - "步态识别"
+  - "遮挡处理"
+  - "混合专家"
+  - "动作检测"
+  - "步态数据集"
 ---
 
 # Occluded Gait Recognition with Mixture of Experts: An Action Detection Perspective

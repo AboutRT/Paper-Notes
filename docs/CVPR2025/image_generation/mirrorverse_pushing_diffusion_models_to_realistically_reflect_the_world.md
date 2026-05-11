@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][镜面反射生成] MirrorVerse 通过构建增强的合成数据集 SynMirrorV2（包含随机位姿、旋转和多物体场景），配合三阶段课程式训练策略，训练出 MirrorFusion 2.0 模型，首次使扩散模型能够生成逼真的镜面反射，在合成和真实场景中均显著超越前方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 镜面反射生成
-  - 合成数据集
-  - 扩散模型微调
-  - 课程式训练
-  - 物理感知
+  - "CVPR 2025"
+  - "图像生成"
+  - "镜面反射生成"
+  - "合成数据集"
+  - "扩散模型微调"
+  - "课程式训练"
+  - "物理感知"
 ---
 
 # MirrorVerse: Pushing Diffusion Models to Realistically Reflect the World

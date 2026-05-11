@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Real-Time Robot Execution with Masked Action Chunking
 description: >-
-  [ICLR 2026][机器人][实时执行] 提出REMAC，通过掩码动作分块训练策略和前缀保持采样管线，系统性解决异步推理下的段内不一致（intra-chunk inconsistency）和段间不连续（inter-chunk discontinuity）两大问题，在不引入额外推理延迟的前提下实现更可靠的实时机器人控制。
+  [ICLR 2026][机器人][实时执行] 提出REMAC，通过掩码动作分块训练策略和前缀保持采样管线，系统性解决异步推理下的段内不一致（intra-chunk inconsistency）和段间不连续（inter-chunk discontinuity）两大问题…
 tags:
-  - ICLR 2026
-  - 机器人
-  - 实时执行
-  - 动作分块
-  - 异步推理
-  - VLA
-  - 流匹配
-  - LoRA
+  - "ICLR 2026"
+  - "机器人"
+  - "实时执行"
+  - "动作分块"
+  - "异步推理"
+  - "VLA"
+  - "流匹配"
+  - "LoRA"
 ---
 
 # Real-Time Robot Execution with Masked Action Chunking
@@ -30,7 +30,7 @@ tags:
 
 **领域现状**：Vision-Language-Action (VLA) 模型通过动作分块（action chunking）预测一段动作序列用于机器人操作，已成为通用机器人策略的主流范式。实时性对机器人系统至关重要——延迟可能导致任务失败（如洒出液体），而非仅仅增加等待时间。
 
-**异步推理的必要性**：同步推理要求推理延迟 $\delta < \Delta t$（控制周期），以50Hz控制频率为例需<20ms，但 $\pi_0$ 模型在RTX 4090上仅动作生成就需76ms，加上预处理和网络传输远超阈值。异步推理通过在执行当前块的同时预测下一块，确保动作始终可用，是唯一可行的实时方案。
+**异步推理的必要性**：同步推理要求推理延迟 $\delta < \Delta t$（控制周期），以50Hz控制频率为例需&lt;20ms，但 $\pi_0$ 模型在RTX 4090上仅动作生成就需76ms，加上预处理和网络传输远超阈值。异步推理通过在执行当前块的同时预测下一块，确保动作始终可用，是唯一可行的实时方案。
 
 **现有痛点——段间不连续**：连续的两个动作块 $\mathbf{A}_t^1$ 和 $\mathbf{A}_{t+h}^2$ 可能来自不同的专家模式（latent expert modes），在块边界处产生跳跃性动作，导致机器人运动不连贯。已有方法如时序集成TE、BID、RTC尝试解决，但要么不可靠（TE在多任务上甚至不如Naive Async），要么引入额外延迟（RTC需55-64ms梯度修正）。
 

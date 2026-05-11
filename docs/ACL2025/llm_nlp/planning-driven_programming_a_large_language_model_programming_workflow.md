@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Planning-Driven Programming: A Large Language Model Programming Workflow
 description: >-
-  [ACL 2025][LLM/NLP][代码生成] 提出 LPW（LLM Programming Workflow），通过"方案生成→计划验证→代码实现→基于计划验证的精准调试"的两阶段工作流，显著提升 LLM 代码生成准确率，在 GPT-4o 上实现 HumanEval 98.2%、MBPP 84.8%、LiveCode 59.3% 的新 SOTA。
+  [ACL 2025][LLM/NLP][代码生成] 提出 LPW（LLM Programming Workflow），通过"方案生成→计划验证→代码实现→基于计划验证的精准调试"的两阶段工作流，显著提升 LLM 代码生成准确率…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 代码生成
-  - 计划验证
-  - LLM工作流
-  - 程序修复
-  - 测试驱动开发
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "代码生成"
+  - "计划验证"
+  - "LLM工作流"
+  - "程序修复"
+  - "测试驱动开发"
 ---
 
 # Planning-Driven Programming: A Large Language Model Programming Workflow

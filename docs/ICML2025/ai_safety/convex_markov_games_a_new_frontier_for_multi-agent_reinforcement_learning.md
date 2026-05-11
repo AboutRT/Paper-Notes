@@ -2,17 +2,17 @@
 title: >-
   [论文解读] Convex Markov Games: A New Frontier for Multi-Agent Reinforcement Learning
 description: >-
-  [ICML2025][AI安全][Convex Markov Game] 提出**凸 Markov 博弈 (cMG)** 框架，将单 agent 凸 MDP 推广到多 agent 设定，允许对占用度量 (occupancy measure) 施加一般凸偏好（如熵、KL 散度、公平性惩罚、安全约束），证明纯策略 Nash 均衡存在，并设计可微的投影梯度损失 (PGL) 算法逼近均衡。
+  [ICML2025][AI安全][Convex Markov Game] 提出**凸 Markov 博弈 (cMG)** 框架，将单 agent 凸 MDP 推广到多 agent 设定，允许对占用度量 (occupancy measure) 施加一般凸偏好（如熵、KL 散度、公平性惩罚、安全约束）…
 tags:
-  - ICML2025
-  - AI安全
-  - Convex Markov Game
-  - Nash Equilibrium
-  - Occupancy Measure
-  - Multi-Agent RL
-  - 凸优化
-  - 安全性
-  - 公平性
+  - "ICML2025"
+  - "AI安全"
+  - "Convex Markov Game"
+  - "Nash Equilibrium"
+  - "Occupancy Measure"
+  - "Multi-Agent RL"
+  - "凸优化"
+  - "安全性"
+  - "公平性"
 ---
 
 # Convex Markov Games: A New Frontier for Multi-Agent Reinforcement Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][图像生成][层缓存] 将扩散模型中的中间层缓存技术（DeepCache）扩展到实时渲染 pipeline 中的 U-Net/U-Net++ 网络，通过帧差自适应缓存策略实现平均 1.4× 推理加速，且画质损失微乎其微。
 tags:
-  - ICML 2025
-  - 图像生成
-  - 层缓存
-  - 实时渲染
-  - U-Net
-  - 帧间一致性
-  - 推理加速
+  - "ICML 2025"
+  - "图像生成"
+  - "层缓存"
+  - "实时渲染"
+  - "U-Net"
+  - "帧间一致性"
+  - "推理加速"
 ---
 
 # ReFrame: Layer Caching for Accelerated Inference in Real-Time Rendering

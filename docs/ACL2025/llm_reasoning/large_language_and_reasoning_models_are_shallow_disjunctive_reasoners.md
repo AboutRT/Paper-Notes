@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM推理][系统性推理] 本文利用合成的空间与时间推理基准（STaR）评估LLM和LRM在需要组合多条推理路径的析取规则推理任务上的系统性泛化能力，发现即使是o3-mini等推理模型也只能处理单路径推理，在多路径析取推理场景中性能急剧下降。
 tags:
-  - ACL 2025
-  - LLM推理
-  - 系统性推理
-  - 析取规则
-  - 空间时间推理
-  - 大推理模型
-  - OOD泛化
+  - "ACL 2025"
+  - "LLM推理"
+  - "系统性推理"
+  - "析取规则"
+  - "空间时间推理"
+  - "大推理模型"
+  - "OOD泛化"
 ---
 
 # Large Language and Reasoning Models are Shallow Disjunctive Reasoners

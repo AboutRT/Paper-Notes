@@ -2,14 +2,15 @@
 title: >-
   [论文解读] VideoStir: Understanding Long Videos via Spatio-Temporally Structured and Intent-Aware RAG
 description: >-
-  [ACL 2026][信息检索] VideoStir 提出了一种结构化且意图感知的长视频 RAG 框架，通过将视频建模为时空图进行多跳 clip 检索 + 训练意图相关性评分器进行帧级筛选，在不依赖辅助文本工具的前提下达到了与 SOTA 长视频 RAG 方法可比的性能。
+  [ACL 2026][信息检索/RAG][长视频理解] VideoStir 提出了一种结构化且意图感知的长视频 RAG 框架，通过将视频建模为时空图进行多跳 clip 检索 + 训练意图相关性评分器进行帧级筛选，在不依赖辅助文本工具的前提下达到了与 SOTA 长视频 RAG 方法可比的性能。
 tags:
-  - ACL 2026
-  - 信息检索
-  - 检索增强生成
-  - 时空图结构
-  - 意图感知检索
-  - 多跳推理
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "长视频理解"
+  - "检索增强生成"
+  - "时空图结构"
+  - "意图感知检索"
+  - "多跳推理"
 ---
 
 # VideoStir: Understanding Long Videos via Spatio-Temporally Structured and Intent-Aware RAG

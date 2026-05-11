@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Enhancing Parallelism in Decentralized Stochastic Convex Optimization
 description: >-
-  [ICML2025][优化][去中心化SGD] 提出 Decentralized Anytime SGD (DAT-SGD)，通过在渐变平均查询点上计算梯度来缓解共识距离偏差，将去中心化随机凸优化的并行度上界从 $\mathcal{O}(\rho^{1/2} N^{1/4})$ 提升至 $\mathcal{O}(\rho \sqrt{N})$，在高连通拓扑下首次匹配中心化学习的速率。
+  [ICML2025][优化/理论][去中心化SGD] 提出 Decentralized Anytime SGD (DAT-SGD)，通过在渐变平均查询点上计算梯度来缓解共识距离偏差，将去中心化随机凸优化的并行度上界从 $\mathcal{O}(\rho^{1/2} N^{1/4})$ 提升至 $\mathca…
 tags:
-  - ICML2025
-  - 优化
-  - 去中心化SGD
-  - 随机凸优化
-  - 并行度上界
-  - gossip通信
-  - Anytime SGD
+  - "ICML2025"
+  - "优化/理论"
+  - "去中心化SGD"
+  - "随机凸优化"
+  - "并行度上界"
+  - "gossip通信"
+  - "Anytime SGD"
 ---
 
 # Enhancing Parallelism in Decentralized Stochastic Convex Optimization

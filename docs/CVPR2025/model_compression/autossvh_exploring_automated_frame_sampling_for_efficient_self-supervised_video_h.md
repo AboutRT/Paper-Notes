@@ -2,14 +2,14 @@
 title: >-
   [论文解读] AutoSSVH: Exploring Automated Frame Sampling for Efficient Self-Supervised Video Hashing
 description: >-
-  [CVPR 2025][模型压缩][video hashing] 提出AutoSSVH方法，通过对抗式自动帧采样网络（Grade-Net）选择最具挑战性的帧子集作为训练信号，并设计P2Set（Point-to-Set）哈希对比学习范式，实现了高效的自监督视频哈希检索，在UCF101和HMDB51上大幅超越现有方法。
+  [CVPR 2025][模型压缩][video hashing] 提出AutoSSVH方法，通过对抗式自动帧采样网络（Grade-Net）选择最具挑战性的帧子集作为训练信号，并设计P2Set（Point-to-Set）哈希对比学习范式，实现了高效的自监督视频哈希检索…
 tags:
-  - CVPR 2025
-  - 模型压缩
-  - video hashing
-  - 自监督学习
-  - adversarial frame sampling
-  - 对比学习
+  - "CVPR 2025"
+  - "模型压缩"
+  - "video hashing"
+  - "自监督学习"
+  - "adversarial frame sampling"
+  - "对比学习"
 ---
 
 # AutoSSVH: Exploring Automated Frame Sampling for Efficient Self-Supervised Video Hashing

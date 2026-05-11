@@ -2,14 +2,15 @@
 title: >-
   [论文解读] InterDyn: Controllable Interactive Dynamics with Video Diffusion Models
 description: >-
-  [CVPR 2025][交互动力学] InterDyn 提出将视频扩散模型作为隐式物理引擎，通过在 Stable Video Diffusion 上引入交互控制分支（ControlNet-like），从单帧图像和驱动运动信号生成物理上合理的交互动力学视频，在 Something-Something-v2 数据集上 FVD 指标超过基线 CosHand 达 77%。
+  [CVPR 2025][视频生成][交互动力学] InterDyn 提出将视频扩散模型作为隐式物理引擎，通过在 Stable Video Diffusion 上引入交互控制分支（ControlNet-like），从单帧图像和驱动运动信号生成物理上合理的交互动力学视频…
 tags:
-  - CVPR 2025
-  - 交互动力学
-  - 视频扩散模型
-  - 可控生成
-  - 隐式物理模拟
-  - 人物交互
+  - "CVPR 2025"
+  - "视频生成"
+  - "交互动力学"
+  - "视频扩散模型"
+  - "可控生成"
+  - "隐式物理模拟"
+  - "人物交互"
 ---
 
 # InterDyn: Controllable Interactive Dynamics with Video Diffusion Models

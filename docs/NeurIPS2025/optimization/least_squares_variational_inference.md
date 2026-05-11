@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Least Squares Variational Inference
 description: >-
-  [NeurIPS 2025][优化][variational inference] 提出 LSVI（Least Squares Variational Inference），一种无梯度、基于普通最小二乘回归的变分推断方法，在指数族内通过对温控 log-target 做 OLS 回归来迭代求解最优变分近似，对高斯族有高效的 $O(d^3)$（全协方差）或 $O(d)$（平均场）实现。
+  [NeurIPS 2025][优化/理论][variational inference] 提出 LSVI（Least Squares Variational Inference），一种无梯度、基于普通最小二乘回归的变分推断方法，在指数族内通过对温控 log-target 做 OLS 回归来迭代求解最优变分近似…
 tags:
-  - NeurIPS 2025
-  - 优化
-  - variational inference
-  - natural gradient descent
-  - exponential family
-  - least squares
-  - gradient-free
+  - "NeurIPS 2025"
+  - "优化/理论"
+  - "variational inference"
+  - "natural gradient descent"
+  - "exponential family"
+  - "least squares"
+  - "gradient-free"
 ---
 
 # Least Squares Variational Inference
@@ -93,7 +93,7 @@ LSVI 的迭代流程：
 | 方法 | 收敛速度 | 特点 |
 |------|---------|------|
 | LSVI (Algorithm 1) | ~1 步 | 本质上一步收敛，但需要 Fisher 矩阵求逆 |
-| LSVI-FC (Algorithm 3) | <100 步 | 高效，$O(d^3)$ |
+| LSVI-FC (Algorithm 3) | &lt;100 步 | 高效，$O(d^3)$ |
 | NGD | ~100 步 | 需要自动微分 |
 | ADVI (pyMC3/Blackjax) | >100 步 | 需要步长调节 |
 | GMMVI | ~100 步 | 无梯度但仅适合低维 |

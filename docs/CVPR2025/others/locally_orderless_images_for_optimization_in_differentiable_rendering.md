@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][differentiable rendering] 提出利用局部无序图像（LOI）的三维尺度空间（内尺度 σ、色调尺度 β、范围尺度 α）进行直方图匹配的逆渲染优化方法，无需修改可微渲染器即可扩展稀疏梯度的支持范围，有效避免局部最优。
 tags:
-  - CVPR 2025
-  - differentiable rendering
-  - inverse rendering
-  - 其他
-  - histogram matching
-  - Wasserstein distance
-  - scale space
+  - "CVPR 2025"
+  - "differentiable rendering"
+  - "inverse rendering"
+  - "locally orderless images"
+  - "histogram matching"
+  - "Wasserstein distance"
+  - "scale space"
 ---
 
 # Locally Orderless Images for Optimization in Differentiable Rendering

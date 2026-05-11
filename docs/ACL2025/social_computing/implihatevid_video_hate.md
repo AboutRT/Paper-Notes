@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ImpliHateVid: Implicit Hate Speech Detection in Videos
 description: >-
-  [ACL 2025][隐性仇恨言论] 首次提出视频中隐性仇恨言论检测任务，构建2009个视频的ImpliHateVid数据集，并设计两阶段对比学习框架融合文本、图像、音频三模态特征。
+  [ACL 2025][社会计算][隐性仇恨言论] 首次提出视频中隐性仇恨言论检测任务，构建2009个视频的ImpliHateVid数据集，并设计两阶段对比学习框架融合文本、图像、音频三模态特征。
 tags:
-  - ACL 2025
-  - 隐性仇恨言论
-  - 视频内容审核
-  - 社会计算
-  - 对比学习
-  - 数据集
+  - "ACL 2025"
+  - "社会计算"
+  - "隐性仇恨言论"
+  - "视频内容审核"
+  - "多模态"
+  - "对比学习"
+  - "数据集"
 ---
 
 # ImpliHateVid: Implicit Hate Speech Detection in Videos

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models
 description: >-
-  [ACL 2025 (Long Paper)][多模态][LVLM幻觉] 提出Visual Evidence Prompting (VEP)，利用小型视觉专家模型（目标检测器、场景图生成器）的输出作为文本化"视觉证据"输入LVLM，无需训练即可在11个LVLM上显著降低幻觉——LLaVA-1.5在POPE上提升7.2%、Claude 3上提升12.1%。
+  [ACL 2025 (Long Paper)][多模态VLM][LVLM幻觉] 提出Visual Evidence Prompting (VEP)，利用小型视觉专家模型（目标检测器、场景图生成器）的输出作为文本化"视觉证据"输入LVLM…
 tags:
-  - ACL 2025 (Long Paper)
-  - 多模态
-  - LVLM幻觉
-  - 提示学习
-  - 多模态VLM
-  - 目标检测
-  - 场景图生成
+  - "ACL 2025 (Long Paper)"
+  - "多模态VLM"
+  - "LVLM幻觉"
+  - "提示学习"
+  - "小模型辅助大模型"
+  - "目标检测"
+  - "场景图生成"
 ---
 
 # Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models

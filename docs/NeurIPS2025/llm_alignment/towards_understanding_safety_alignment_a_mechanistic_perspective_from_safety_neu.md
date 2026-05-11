@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM对齐][safety alignment] 通过机制可解释性视角发现 LLM 中约 5% 的稀疏"安全神经元"，仅修补（patching）这些神经元的激活即可恢复 90% 以上的安全性能，并从神经元重叠角度解释了 alignment tax 现象。
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - safety alignment
-  - mechanistic interpretability
-  - safety neurons
-  - activation patching
-  - alignment tax
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "safety alignment"
+  - "mechanistic interpretability"
+  - "safety neurons"
+  - "activation patching"
+  - "alignment tax"
 ---
 
 # Towards Understanding Safety Alignment: A Mechanistic Perspective from Safety Neurons
@@ -116,7 +116,7 @@ $\mathcal{C} \approx 1$ 表示这些神经元完全解释了安全能力；$\mat
 1. **方法论创新**：提出从关联到因果的两阶段框架，特别是**动态激活修补**解决了开放式生成中的因果验证难题，这是对传统 activation patching 的重要扩展
 2. **稀疏性发现**：仅 5% 的神经元就承载了 90%+ 的安全机制，这一发现既有理论价值（安全对齐是稀疏的），也有实践价值（可用于高效安全增强）
 3. **Alignment Tax 解释**：首次从神经元层面给出机制性解释——安全和有用性共享同一组高度重叠的神经元，但需要不同的激活模式，这类似"资源竞争"
-4. **实际应用**：安全防护（safeguard）应用展示了在生成前预测有害输出的可能性，且分类器开销 <0.001 秒
+4. **实际应用**：安全防护（safeguard）应用展示了在生成前预测有害输出的可能性，且分类器开销 &lt;0.001 秒
 
 ## 局限与展望
 

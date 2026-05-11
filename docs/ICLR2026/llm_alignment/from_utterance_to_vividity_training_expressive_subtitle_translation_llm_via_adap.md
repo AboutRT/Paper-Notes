@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Utterance to Vividity: Training Expressive Subtitle Translation LLM via Adaptive Local Preference Optimization
 description: >-
-  [ICLR 2026][LLM对齐][字幕翻译] 提出ALPO(自适应局部偏好优化)用于训练表达力强的字幕翻译LLM：通过实证发现字幕翻译偏好意译且推理型LLM意译能力优于对话型LLM -> 验证LLM作为翻译评估器与人类高度一致 -> 提出逐句段的细粒度过程监督偏好对齐方法(自适应权重+动态beta+前缀混合) -> 14B模型在多方向字幕翻译的鲜活度上超越GPT-4o/DeepSeek-R1等SOTA。
+  [ICLR 2026][LLM对齐][字幕翻译] 提出ALPO(自适应局部偏好优化)用于训练表达力强的字幕翻译LLM：通过实证发现字幕翻译偏好意译且推理型LLM意译能力优于对话型LLM -> 验证LLM作为翻译评估器与人类高度一致 -> 提出逐句段的细粒度过程监督偏好对齐方法(自适应权重+动态beta+前缀混…
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - 字幕翻译
-  - 偏好优化
-  - LLM-as-Judge
-  - 意译
-  - 过程监督
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "字幕翻译"
+  - "偏好优化"
+  - "LLM-as-Judge"
+  - "意译"
+  - "过程监督"
 ---
 
 # From Utterance to Vividity: Training Expressive Subtitle Translation LLM via Adaptive Local Preference Optimization
@@ -62,7 +62,7 @@ tags:
 3. **ALPO自适应对齐损失**：
 
     - 功能：逐句段的细粒度偏好优化
-    - 核心思路：每行字幕 $s_i$ 分配自适应权重 $w(s_i) = \mathbf{1}(s_i) \cdot \delta(s_i)$。门控函数 $\mathbf{1}(s_i)$：候选不足(<=3)或评分差距<=5时设为0跳过。重要性分数 $\delta(s_i) = |\mathcal{T}_i| / \sum |\mathcal{T}_j|$：候选越多样的行权重越大。动态 $\beta_i$ 按reward gap归一化。前缀混合策略：以概率 $\lambda$(从0.2到0.6递增)使用chosen，否则随机采样，缓解exposure bias
+    - 核心思路：每行字幕 $s_i$ 分配自适应权重 $w(s_i) = \mathbf{1}(s_i) \cdot \delta(s_i)$。门控函数 $\mathbf{1}(s_i)$：候选不足(&lt;=3)或评分差距&lt;=5时设为0跳过。重要性分数 $\delta(s_i) = |\mathcal{T}_i| / \sum |\mathcal{T}_j|$：候选越多样的行权重越大。动态 $\beta_i$ 按reward gap归一化。前缀混合策略：以概率 $\lambda$(从0.2到0.6递增)使用chosen，否则随机采样，缓解exposure bias
     - 设计动机：DPO对完整输出优化会被"不需要对齐的简单行"稀释梯度。ALPO让每行独立优化，自适应权重集中在"有改进空间"的行上。$\beta_i$ 动态化避免reward gap差异大时的训练不稳定
 
 ### 损失函数 / 训练策略

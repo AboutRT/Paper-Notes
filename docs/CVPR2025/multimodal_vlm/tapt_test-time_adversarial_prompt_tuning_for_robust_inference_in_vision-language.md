@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][对抗鲁棒性] 首个 VLM 测试时对抗防御方法，通过最小化多视图增强的熵一致性 + 对抗-干净 embedding 统计对齐来学习每个测试样本的防御性 prompt，仅需一步优化即可将 CLIP 对 AutoAttack 的鲁棒性从 0.1% 提升到 48.9%。
+  [CVPR 2025][多模态VLM][对抗鲁棒性] 首个 VLM 测试时对抗防御方法，通过最小化多视图增强的熵一致性 + 对抗-干净 embedding 统计对齐来学习每个测试样本的防御性 prompt，仅需一步优化即可将 CLIP 对 AutoAttack 的鲁棒性从 0.1% 提升到 48.9%。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 测试时防御
-  - 提示学习
-  - VLM安全
-  - 零样本推理
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "对抗鲁棒性"
+  - "测试时防御"
+  - "提示学习"
+  - "VLM安全"
+  - "零样本推理"
 ---
 
 # TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models

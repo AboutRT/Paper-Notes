@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][离线强化学习] 提出生成轨迹策略（GTP），通过统一视角将扩散模型、流匹配、一致性模型视为ODE解映射的特例，学习完整的连续时间轨迹解映射，并引入分数近似和优势权重两个适配技术，在D4RL基准上实现SOTA。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 离线强化学习
-  - 生成式策略
-  - ODE轨迹
-  - 一致性模型
-  - 流匹配
+  - "ICLR 2026"
+  - "图像生成"
+  - "离线强化学习"
+  - "生成式策略"
+  - "ODE轨迹"
+  - "一致性模型"
+  - "流匹配"
 ---
 
 # Offline Reinforcement Learning with Generative Trajectory Policies

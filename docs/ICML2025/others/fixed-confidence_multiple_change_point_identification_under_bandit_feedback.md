@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML2025][change point detection] 提出了固定置信度下分段常数 bandit 中多变点识别问题，给出实例相关的采样复杂度下界，并设计了简单高效且渐近最优的 MCPI（Multiple Change Point Identification）算法。
 tags:
-  - ICML2025
-  - change point detection
-  - 其他
-  - pure exploration
-  - fixed-confidence
-  - Track-and-Stop
-  - sample complexity
+  - "ICML2025"
+  - "change point detection"
+  - "multi-armed bandits"
+  - "pure exploration"
+  - "fixed-confidence"
+  - "Track-and-Stop"
+  - "sample complexity"
 ---
 
 # Fixed-Confidence Multiple Change Point Identification under Bandit Feedback

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RANGE: Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings
 description: >-
-  [CVPR 2025][地理嵌入] 提出RANGE，通过检索增强策略将高分辨率视觉信息近似注入地理位置嵌入，解决了对比学习（如SatCLIP）丢弃模态特有信息的问题，在分类任务上提升高达13.1%，回归任务上提升0.145 $R^2$。
+  [CVPR 2025][信息检索/RAG][地理嵌入] 提出RANGE，通过检索增强策略将高分辨率视觉信息近似注入地理位置嵌入，解决了对比学习（如SatCLIP）丢弃模态特有信息的问题，在分类任务上提升高达13.1%，回归任务上提升0.145 $R^2$。
 tags:
-  - CVPR 2025
-  - 地理嵌入
-  - 检索增强
-  - 多分辨率表示
-  - 信息检索
-  - 地理空间任务
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "地理嵌入"
+  - "检索增强"
+  - "多分辨率表示"
+  - "对比学习"
+  - "地理空间任务"
 ---
 
 # RANGE: Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][步态分析] 提出基于 GVHMR（世界坐标系 3D 人体网格恢复）的步态分析管线，从单目视频中提取老年人定时起立行走测试的时空步态参数，验证了视频衍生指标与可穿戴传感器的相关性及与跌倒风险的关联。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 步态分析
-  - 跌倒风险
-  - 人体网格恢复
-  - 老年人
-  - 单目视频
+  - "CVPR 2026"
+  - "3D视觉"
+  - "步态分析"
+  - "跌倒风险"
+  - "人体网格恢复"
+  - "老年人"
+  - "单目视频"
 ---
 
 # Fall Risk and Gait Analysis using World-Spaced 3D Human Mesh Recovery

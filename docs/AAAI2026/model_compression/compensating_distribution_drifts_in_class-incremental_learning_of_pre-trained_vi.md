@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Compensating Distribution Drifts in Class-incremental Learning of Pre-trained Vision Transformers
 description: >-
-  [AAAI2026][模型压缩][class-incremental learning] 提出 Sequential Learning with Drift Compensation (SLDC)，通过学习潜在空间转换算子（线性/弱非线性）来补偿预训练 ViT 在类增量学习中因序列微调导致的分布漂移，结合知识蒸馏后性能接近联合训练上界。
+  [AAAI2026][模型压缩][class-incremental learning] 提出 Sequential Learning with Drift Compensation (SLDC)，通过学习潜在空间转换算子（线性/弱非线性）来补偿预训练 ViT 在类增量学习中因序列微调导致的分布漂移…
 tags:
-  - AAAI2026
-  - 模型压缩
-  - class-incremental learning
-  - distribution drift
-  - Transformer
-  - 知识蒸馏
-  - sequential fine-tuning
+  - "AAAI2026"
+  - "模型压缩"
+  - "class-incremental learning"
+  - "distribution drift"
+  - "Transformer"
+  - "知识蒸馏"
+  - "sequential fine-tuning"
 ---
 
 # Compensating Distribution Drifts in Class-incremental Learning of Pre-trained Vision Transformers

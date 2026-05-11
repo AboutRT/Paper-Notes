@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][图像生成][扩散模型] 提出 FouriScale，从频域分析视角出发，通过膨胀卷积+低通滤波替换预训练扩散模型中的卷积层，实现免训练的任意尺寸高分辨率图像生成，理论上证明了膨胀卷积保持结构一致性的有效性。
 tags:
-  - ECCV 2024
-  - 图像生成
-  - 扩散模型
-  - 高分辨率生成
-  - 免训练
-  - 频域分析
-  - 膨胀卷积
+  - "ECCV 2024"
+  - "图像生成"
+  - "扩散模型"
+  - "高分辨率生成"
+  - "免训练"
+  - "频域分析"
+  - "膨胀卷积"
 ---
 
 # FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis

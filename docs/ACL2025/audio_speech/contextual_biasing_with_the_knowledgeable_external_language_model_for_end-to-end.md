@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Contextual Biasing with the Knowledgeable External Language Model for End-to-End Speech Recognition
 description: >-
-  [ACL 2025][语音][上下文偏置] 本文提出利用知识增强的外部语言模型（KELM）进行上下文偏置，在端到端语音识别中通过动态融合外部领域知识和偏置词表，大幅提升稀有词和专有名词的识别准确率。
+  [ACL 2025][音频/语音][上下文偏置] 本文提出利用知识增强的外部语言模型（KELM）进行上下文偏置，在端到端语音识别中通过动态融合外部领域知识和偏置词表，大幅提升稀有词和专有名词的识别准确率。
 tags:
-  - ACL 2025
-  - 语音
-  - 上下文偏置
-  - 音频语音
-  - 端到端语音识别
-  - 热词识别
-  - 知识增强
+  - "ACL 2025"
+  - "音频/语音"
+  - "上下文偏置"
+  - "外部语言模型"
+  - "端到端语音识别"
+  - "热词识别"
+  - "知识增强"
 ---
 
 # Contextual Biasing with the Knowledgeable External Language Model for End-to-End Speech Recognition

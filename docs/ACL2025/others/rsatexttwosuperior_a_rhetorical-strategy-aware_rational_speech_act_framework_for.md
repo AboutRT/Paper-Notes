@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025 (Main)][比喻语言理解] 本文提出 (RSA)² 框架，通过在概率语用学的 RSA 框架中显式建模说话者的修辞策略（如反讽、夸张），使 LLM 能够在不建模说话者动机的情况下正确理解非字面义，在反讽理解数据集 PragMega+ 上达到 SOTA。
 tags:
-  - ACL 2025 (Main)
-  - 比喻语言理解
-  - 语用学
-  - 理性言语行为框架
-  - 反讽解释
-  - 修辞策略
+  - "ACL 2025 (Main)"
+  - "比喻语言理解"
+  - "语用学"
+  - "理性言语行为框架"
+  - "反讽解释"
+  - "修辞策略"
 ---
 
 # (RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding

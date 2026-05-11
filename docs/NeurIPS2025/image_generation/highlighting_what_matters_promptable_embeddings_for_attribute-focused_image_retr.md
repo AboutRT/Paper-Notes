@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][属性聚焦检索] 提出可提示图像嵌入(Promptable Embeddings)方法，通过在检索时高亮目标视觉属性来提升属性聚焦的文本到图像检索性能，同时构建了COCO-Facet基准数据集。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 属性聚焦检索
-  - 可提示图像嵌入
-  - CLIP
-  - 多模态大模型
-  - 文本到图像检索
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "属性聚焦检索"
+  - "可提示图像嵌入"
+  - "CLIP"
+  - "多模态大模型"
+  - "文本到图像检索"
 ---
 
 # Highlighting What Matters: Promptable Embeddings for Attribute-Focused Image Retrieval

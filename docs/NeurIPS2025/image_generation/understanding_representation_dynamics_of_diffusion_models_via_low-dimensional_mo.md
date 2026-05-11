@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][扩散模型] 在低秩高斯混合（MoLRG）数据模型下，理论证明了扩散模型表示质量随噪声水平呈单峰动态的现象源于去噪强度与类别区分度的权衡，并实证发现单峰动态的出现可作为模型泛化能力的可靠指标。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散模型
-  - 表示学习
-  - 单峰动态
-  - 低秩高斯混合
-  - 泛化-记忆
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "表示学习"
+  - "单峰动态"
+  - "低秩高斯混合"
+  - "泛化-记忆"
 ---
 
 # Understanding Representation Dynamics of Diffusion Models via Low-Dimensional Models

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MG-MotionLLM: A Unified Framework for Motion Comprehension and Generation across Multiple Granularities
 description: >-
-  [CVPR 2025][LLM/NLP][动作理解] MG-MotionLLM 提出了一个统一的多粒度动作-语言模型，通过 Motion VQ-VAE + T5 语言模型的架构和精心设计的多粒度协同预训练方案（含 28 种任务），同时支持粗粒度和细粒度的动作理解与生成，在经典任务上达到 SOTA 的同时开启了细粒度动作编辑等新应用。
+  [CVPR 2025][LLM/NLP][动作理解] MG-MotionLLM 提出了一个统一的多粒度动作-语言模型，通过 Motion VQ-VAE + T5 语言模型的架构和精心设计的多粒度协同预训练方案（含 28 种任务），同时支持粗粒度和细粒度的动作理解与生成…
 tags:
-  - CVPR 2025
-  - LLM/NLP
-  - 动作理解
-  - 多粒度
-  - 大语言模型
-  - 动作生成
-  - 细粒度编辑
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "动作理解"
+  - "多粒度"
+  - "大语言模型"
+  - "动作生成"
+  - "细粒度编辑"
 ---
 
 # MG-MotionLLM: A Unified Framework for Motion Comprehension and Generation across Multiple Granularities

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D高斯溅射] 针对3DGS在表面重建质量差的问题，提出利用单目法向/深度先验来增强高斯原语的几何组织性，并通过移动最小二乘（MLS）构建局部符号距离场，再联合学习神经隐式网络进行正则化，显著提升了3DGS的表面重建精度。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D高斯溅射
-  - 表面重建
-  - 移动最小二乘
-  - 神经隐式场
-  - 单目几何先验
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "表面重建"
+  - "移动最小二乘"
+  - "神经隐式场"
+  - "单目几何先验"
 ---
 
 # Surface Reconstruction from 3D Gaussian Splatting via Local Structural Hints

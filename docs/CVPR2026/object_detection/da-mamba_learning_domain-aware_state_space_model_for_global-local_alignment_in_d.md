@@ -2,16 +2,16 @@
 title: >-
   [论文解读] DA-Mamba: Learning Domain-Aware State Space Model for Global-Local Alignment in Domain Adaptive Object Detection
 description: >-
-  [CVPR2026][目标检测][域自适应目标检测] 提出 DA-Mamba，一种 CNN-SSM 混合架构，通过 Image-Aware SSM（IA-SSM）和 Object-Aware SSM（OA-SSM）两个模块，以线性复杂度实现图像级和实例级的全局-局部域不变特征对齐，在四个域自适应检测基准上达到 SOTA。
+  [CVPR2026][目标检测][域自适应目标检测] 提出 DA-Mamba，一种 CNN-SSM 混合架构，通过 Image-Aware SSM（IA-SSM）和 Object-Aware SSM（OA-SSM）两个模块，以线性复杂度实现图像级和实例级的全局-局部域不变特征对齐…
 tags:
-  - CVPR2026
-  - 目标检测
-  - 域自适应目标检测
-  - 状态空间模型
-  - Mamba
-  - 全局-局部对齐
-  - 特征对齐
-  - CNN-SSM混合架构
+  - "CVPR2026"
+  - "目标检测"
+  - "域自适应目标检测"
+  - "状态空间模型"
+  - "Mamba"
+  - "全局-局部对齐"
+  - "特征对齐"
+  - "CNN-SSM混合架构"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dense Match Summarization for Faster Two-view Estimation
 description: >-
-  [CVPR 2025][文本生成][稠密匹配] 本文提出一种稠密匹配摘要方案，通过聚类和代表性匹配选取将10000+稠密匹配压缩为约1%的代表匹配，并用9×9矩阵编码每个簇的几何约束，实现RANSAC鲁棒估计10-100倍加速且精度损失极小。
+  [CVPR 2025][LLM/NLP][稠密匹配] 本文提出一种稠密匹配摘要方案，通过聚类和代表性匹配选取将10000+稠密匹配压缩为约1%的代表匹配，并用9×9矩阵编码每个簇的几何约束，实现RANSAC鲁棒估计10-100倍加速且精度损失极小。
 tags:
-  - CVPR 2025
-  - 文本生成
-  - 稠密匹配
-  - 两视图姿态估计
-  - RANSAC加速
-  - 匹配稀疏化
-  - 几何约束摘要
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "稠密匹配"
+  - "两视图姿态估计"
+  - "RANSAC加速"
+  - "匹配稀疏化"
+  - "几何约束摘要"
 ---
 
 # Dense Match Summarization for Faster Two-view Estimation

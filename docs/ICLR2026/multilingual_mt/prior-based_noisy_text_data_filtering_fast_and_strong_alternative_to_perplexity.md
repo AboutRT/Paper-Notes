@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Prior-based Noisy Text Data Filtering: Fast and Strong Alternative for Perplexity
 description: >-
-  [ICLR 2026][数据过滤] 提出基于 token 先验（词频统计）的文本数据过滤方法，利用文档内 token 先验的均值和标准差作为 PPL 的近似替代，在 20 个下游基准上取得最高平均性能，同时比 PPL 过滤快 1000 倍以上。
+  [ICLR 2026][多语言/翻译][数据过滤] 提出基于 token 先验（词频统计）的文本数据过滤方法，利用文档内 token 先验的均值和标准差作为 PPL 的近似替代，在 20 个下游基准上取得最高平均性能，同时比 PPL 过滤快 1000 倍以上。
 tags:
-  - ICLR 2026
-  - 数据过滤
-  - 多语言翻译
-  - 困惑度
-  - 词频先验
-  - 数据质量
+  - "ICLR 2026"
+  - "多语言/翻译"
+  - "数据过滤"
+  - "预训练"
+  - "困惑度"
+  - "词频先验"
+  - "数据质量"
 ---
 
 # Prior-based Noisy Text Data Filtering: Fast and Strong Alternative for Perplexity
@@ -137,7 +138,7 @@ GPT-2 架构，1.5B 和 137M 模型，训练 40K 步（约 6B tokens），20 个
 1. **PPL 在符号推理上最差**：PPL 会过滤掉小但有意义的代码/数学片段
 2. **$\mu_{\texttt{d}}$ 异常值**多为极端高/低先验 token 的文档（换行符堆积、非英语文本）
 3. **$\sigma_{\texttt{d}}$ 异常值**多为无结构的名词列表——有内容词但缺乏句法
-4. **多语言自适应**：当中文数据占英文语料 <1% 时被自动过滤为噪声，>20% 时被识别为可学习语言
+4. **多语言自适应**：当中文数据占英文语料 &lt;1% 时被自动过滤为噪声，>20% 时被识别为可学习语言
 
 ## 亮点与洞察
 

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][手物交互] 提出 Glove2Hand 框架，将佩戴传感手套的第一人称视频翻译为逼真的裸手视频，同时保留触觉和 IMU 信号，并构建了首个多模态手物交互数据集 HandSense，显著提升下游裸手接触估计和遮挡手部追踪性能。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 手物交互
-  - 传感手套
-  - 视频翻译
-  - 3D高斯手模型
-  - 扩散模型
+  - "CVPR 2026"
+  - "3D视觉"
+  - "手物交互"
+  - "传感手套"
+  - "视频翻译"
+  - "3D高斯手模型"
+  - "扩散模型"
 ---
 
 # Glove2Hand: Synthesizing Natural Hand-Object Interaction from Multi-Modal Sensing Gloves

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][视频理解][全身运动追踪] 提出 KineST，一种运动学引导的状态空间模型，通过运动学树双向扫描策略和混合时空表征学习，从头显稀疏信号高效重建全身运动，在精度和时序一致性上均超越 SOTA。
 tags:
-  - AAAI 2026
-  - 视频理解
-  - 全身运动追踪
-  - 状态空间模型
-  - 运动学先验
-  - AR/VR
-  - 稀疏信号
+  - "AAAI 2026"
+  - "视频理解"
+  - "全身运动追踪"
+  - "状态空间模型"
+  - "运动学先验"
+  - "AR/VR"
+  - "稀疏信号"
 ---
 
 # KineST: A Kinematics-guided Spatiotemporal State Space Model for Human Motion Tracking from Sparse Signals

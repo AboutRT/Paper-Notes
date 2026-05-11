@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][手性特征] 提出无监督手性特征提取管线,从2D基础模型特征中蒸馏左右手性信息用于装饰3D形状顶点描述子,有效解决形状分析中的左右歧义问题。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 手性特征
-  - 对称性
-  - 形状匹配
-  - 左右消歧
-  - 2D基础模型蒸馏
+  - "ICCV 2025"
+  - "3D视觉"
+  - "手性特征"
+  - "对称性"
+  - "形状匹配"
+  - "左右消歧"
+  - "2D基础模型蒸馏"
 ---
 
 # χ: Symmetry Understanding of 3D Shapes via Chirality Disentanglement

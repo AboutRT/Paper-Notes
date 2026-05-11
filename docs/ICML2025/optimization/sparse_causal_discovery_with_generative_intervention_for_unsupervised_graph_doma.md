@@ -2,9 +2,9 @@
 title: >-
   [论文解读] Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation
 description: >-
-  [优化] 提出 SLOGAN 框架，通过稀疏因果图构建与信息瓶颈解耦因果/虚假特征，结合跨域虚假特征交换的生成式干预机制和类别自适应伪标签动态校准，实现无监督图域自适应中稳定的因果特征迁移。
+  [优化/理论] 提出 SLOGAN 框架，通过稀疏因果图构建与信息瓶颈解耦因果/虚假特征，结合跨域虚假特征交换的生成式干预机制和类别自适应伪标签动态校准，实现无监督图域自适应中稳定的因果特征迁移。
 tags:
-  - 优化
+  - "优化/理论"
 ---
 
 # Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation

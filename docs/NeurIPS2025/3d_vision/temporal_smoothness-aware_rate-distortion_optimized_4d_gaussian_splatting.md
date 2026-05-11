@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][4D高斯泼溅] 提出首个端到端率失真（RD）优化的 4D 高斯泼溅压缩框架，通过 Haar 小波变换利用动态点轨迹的时序平滑先验，在 Ex4DGS 基础上实现高达 91× 的压缩率（平均模型仅约原始 1.1%），同时保持合理的渲染质量和灵活的率-质量权衡控制。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 4D高斯泼溅
-  - 率失真优化
-  - 小波变换
-  - 时序压缩
-  - 动态场景
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "4D高斯泼溅"
+  - "率失真优化"
+  - "小波变换"
+  - "时序压缩"
+  - "动态场景"
 ---
 
 # Temporal Smoothness-Aware Rate-Distortion Optimized 4D Gaussian Splatting

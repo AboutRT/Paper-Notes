@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][逆渲染] 提出通道级噪声调度方法，让单一扩散模型架构通过不同噪声调度实现精度优先（SDM, T=4）和多样性优先（PDM, T=1000）两种逆渲染模式，同时引入 ILR 隐式光照表征支持逐像素环境图推理和真实物体插入。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 逆渲染
-  - 通道级噪声调度
-  - 扩散模型
-  - 逐像素光照
-  - 室内场景
+  - "CVPR 2025"
+  - "图像生成"
+  - "逆渲染"
+  - "通道级噪声调度"
+  - "扩散模型"
+  - "逐像素光照"
+  - "室内场景"
 ---
 
 # Channel-wise Noise Scheduled Diffusion for Inverse Rendering in Indoor Scenes

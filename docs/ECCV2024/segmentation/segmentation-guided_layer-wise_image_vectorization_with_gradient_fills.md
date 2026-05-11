@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Segmentation-Guided Layer-Wise Image Vectorization with Gradient Fills
 description: >-
-  [ECCV 2024][图像分割][图像矢量化] 提出分割引导的矢量化框架，通过梯度感知分割子程序引导 Bézier 路径的初始化和优化，首次在保持分层拓扑的逐层矢量化方法中支持径向渐变填充，使矢量图形在更少路径数下达到更高的视觉质量。
+  [ECCV 2024][语义分割][图像矢量化] 提出分割引导的矢量化框架，通过梯度感知分割子程序引导 Bézier 路径的初始化和优化，首次在保持分层拓扑的逐层矢量化方法中支持径向渐变填充，使矢量图形在更少路径数下达到更高的视觉质量。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 图像矢量化
-  - 分割引导
-  - 渐变填充
-  - 可微渲染
-  - 分层拓扑
+  - "ECCV 2024"
+  - "语义分割"
+  - "图像矢量化"
+  - "分割引导"
+  - "渐变填充"
+  - "可微渲染"
+  - "分层拓扑"
 ---
 
 # Segmentation-Guided Layer-Wise Image Vectorization with Gradient Fills

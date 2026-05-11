@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][对抗防御] APC 提出一种轻量级输入级净化模块，通过生成逐点反扰动来中和对抗攻击，同时在几何一致性和语义一致性双重约束下训练，实现了跨攻击和跨模型的强鲁棒性。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 对抗防御
-  - 3D点云
-  - 反扰动
-  - 跨模型迁移
-  - 输入级净化
+  - "CVPR 2026"
+  - "3D视觉"
+  - "对抗防御"
+  - "3D点云"
+  - "反扰动"
+  - "跨模型迁移"
+  - "输入级净化"
 ---
 
 # APC: Transferable and Efficient Adversarial Point Counterattack for Robust 3D Point Cloud Recognition

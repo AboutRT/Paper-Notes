@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Enhancing Interpretable Image Classification Through LLM Agents and Conditional Concept Bottleneck Models
 description: >-
-  [ACL 2025][LLM Agent][concept bottleneck model] 提出 Conditional Concept Bottleneck Models (CoCoBMs) 和 LLM-driven Concept Agent 框架，通过类别条件化的概念评分机制和基于环境反馈的动态概念库优化，在 6 个数据集上提升分类准确率 6% 的同时将可解释性提升约 30%。
+  [ACL 2025][LLM Agent][concept bottleneck model] 提出 Conditional Concept Bottleneck Models (CoCoBMs) 和 LLM-driven Concept Agent 框架…
 tags:
-  - ACL 2025
-  - LLM Agent
-  - concept bottleneck model
-  - Interpretable Classification
-  - Dynamic Concept Bank
-  - CLIP
+  - "ACL 2025"
+  - "LLM Agent"
+  - "concept bottleneck model"
+  - "Interpretable Classification"
+  - "Dynamic Concept Bank"
+  - "CLIP"
 ---
 
 # Enhancing Interpretable Image Classification Through LLM Agents and Conditional Concept Bottleneck Models

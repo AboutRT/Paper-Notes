@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Forecasting in Offline Reinforcement Learning for Non-stationary Environments
 description: >-
-  [NeurIPS 2025][离线强化学习] 提出 Forl 框架，将条件扩散模型生成的多模态候选状态与零样本时序基础模型的偏移预测通过维度最近匹配（DCM）融合，在测试时无需重训练即可应对观测函数随 episode 非平稳变化的离线 RL 部署场景，在 D4RL 标准基准上平均提升数十分。
+  [NeurIPS 2025][强化学习][离线强化学习] 提出 Forl 框架，将条件扩散模型生成的多模态候选状态与零样本时序基础模型的偏移预测通过维度最近匹配（DCM）融合，在测试时无需重训练即可应对观测函数随 episode 非平稳变化的离线 RL 部署场景，在 D4RL 标准基准上平均提升数十分。
 tags:
-  - NeurIPS 2025
-  - 离线强化学习
-  - 非平稳环境
-  - 扩散模型
-  - 强化学习
-  - 状态估计
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "离线强化学习"
+  - "非平稳环境"
+  - "扩散模型"
+  - "时序预测"
+  - "状态估计"
 ---
 
 # Forecasting in Offline Reinforcement Learning for Non-stationary Environments

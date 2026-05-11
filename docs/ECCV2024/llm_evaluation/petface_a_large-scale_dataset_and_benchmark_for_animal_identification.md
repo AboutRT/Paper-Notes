@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][LLM评测][动物识别] 构建了包含13个动物科、319个品种、257,484个个体（超100万张图像）的大规模动物面部识别数据集PetFace，并建立了已见个体重识别和未见个体验证两套基准测试，为动物非侵入式自动识别提供基础设施。
 tags:
-  - ECCV 2024
-  - LLM评测
-  - 动物识别
-  - 人脸识别
-  - 大规模数据集
-  - 重识别
-  - benchmark
+  - "ECCV 2024"
+  - "LLM评测"
+  - "动物识别"
+  - "人脸识别"
+  - "大规模数据集"
+  - "重识别"
+  - "benchmark"
 ---
 
 # PetFace: A Large-Scale Dataset and Benchmark for Animal Identification

@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][具身导航] 提出多模态3D场景图（M3DSG），用动态分配的图像边替代传统文本关系边来保留视觉信息，构建零样本导航系统MSGNav，并提出可见性视点决策模块解决导航"最后一公里"问题，在GOAT-Bench和HM3D-ObjNav上取得SOTA。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 具身导航
-  - 3D场景图
-  - 零样本导航
-  - 多模态场景图
-  - 视点决策
-  - VLM
+  - "CVPR 2026"
+  - "3D视觉"
+  - "具身导航"
+  - "3D场景图"
+  - "零样本导航"
+  - "多模态场景图"
+  - "视点决策"
+  - "VLM"
 ---
 
 # MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation

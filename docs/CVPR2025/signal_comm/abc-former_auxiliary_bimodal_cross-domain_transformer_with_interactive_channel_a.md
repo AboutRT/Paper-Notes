@@ -2,28 +2,15 @@
 title: >-
   [论文解读] ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention
 description: >-
-  [CVPR 2025][白平衡] 提出 ABC-Former，利用辅助双模态信息（全局色温和局部色彩）通过跨域 Transformer 和交互通道注意力实现高质量的 sRGB 图像白平衡矫正。
+  [CVPR 2025][信号/通信][白平衡] 提出 ABC-Former，利用辅助双模态信息（全局色温和局部色彩）通过跨域 Transformer 和交互通道注意力实现高质量的 sRGB 图像白平衡矫正。
 tags:
-  - CVPR 2025
-  - 白平衡
-  - 双模态
-  - Transformer
-  - 通道注意力
-  - 色彩矫正
----
-
-﻿---
-title: >-
-  [论文解读] ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention
-description: >-
-  [CVPR 2025][白平衡] 提出ABC-Former，利用CIELab和RGB直方图双模态辅助信息，通过跨域Transformer和交互通道注意力实现高质量sRGB白平衡矫正。
-tags:
-  - CVPR 2025
-  - 白平衡
-  - 跨域Transformer
-  - 通道注意力
-  - 色温矫正
-  - 双模态融合
+  - "CVPR 2025"
+  - "信号/通信"
+  - "白平衡"
+  - "双模态"
+  - "Transformer"
+  - "通道注意力"
+  - "色彩矫正"
 ---
 
 # ABC-Former: Auxiliary Bimodal Cross-domain Transformer with Interactive Channel Attention

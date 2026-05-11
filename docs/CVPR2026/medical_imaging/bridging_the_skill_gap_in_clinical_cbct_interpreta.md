@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][医学图像][CBCT] 构建覆盖55种口腔疾病的7,408例大规模CBCT-报告配对数据集，开发双语口腔颌面CBCT报告生成系统CBCTRepD，通过AI生成草稿+放射科医生编辑的协作模式，在多层级临床评估中证明其可帮助初级医生达到中级水平、中级医生接近高级水平、高级医生减少遗漏。
 tags:
-  - CVPR 2026
-  - 医学图像
-  - CBCT
-  - 口腔颌面报告生成
-  - 双语系统
-  - 人机协作
-  - 多层级评估
+  - "CVPR 2026"
+  - "医学图像"
+  - "CBCT"
+  - "口腔颌面报告生成"
+  - "双语系统"
+  - "人机协作"
+  - "多层级评估"
 ---
 
 # Bridging the Skill Gap in Clinical CBCT Interpretation with CBCTRepD

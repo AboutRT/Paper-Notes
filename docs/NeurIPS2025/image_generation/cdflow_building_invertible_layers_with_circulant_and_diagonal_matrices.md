@@ -2,16 +2,16 @@
 title: >-
   [论文解读] CDFlow: Building Invertible Layers with Circulant and Diagonal Matrices
 description: >-
-  [NeurIPS 2025][图像生成][归一化流] 提出 CDFlow，利用循环矩阵和对角矩阵的交替乘积构造可逆线性层，将参数复杂度从 $\mathcal{O}(n^2)$ 降至 $\mathcal{O}(mn)$，矩阵逆复杂度从 $\mathcal{O}(n^3)$ 降至 $\mathcal{O}(mn\log n)$，对数行列式从 $\mathcal{O}(n^3)$ 降至 $\mathcal{O}(mn)$，在密度估计和周期性数据建模上超越同类方法。
+  [NeurIPS 2025][图像生成][归一化流] 提出 CDFlow，利用循环矩阵和对角矩阵的交替乘积构造可逆线性层，将参数复杂度从 $\mathcal{O}(n^2)$ 降至 $\mathcal{O}(mn)$…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 归一化流
-  - 循环矩阵
-  - 对角矩阵
-  - 可逆线性层
-  - 快速傅里叶变换
-  - 密度估计
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "归一化流"
+  - "循环矩阵"
+  - "对角矩阵"
+  - "可逆线性层"
+  - "快速傅里叶变换"
+  - "密度估计"
 ---
 
 # CDFlow: Building Invertible Layers with Circulant and Diagonal Matrices

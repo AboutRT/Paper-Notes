@@ -2,14 +2,14 @@
 title: >-
   [论文解读] OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving
 description: >-
-  [ECCV 2024][自动驾驶][3D Occupancy] OccWorld 提出在 3D 占用空间中学习世界模型，用 VQ-VAE 对 3D occupancy 进行 token 化，再通过 GPT 风格的时空生成 Transformer 自回归预测未来场景演化和自车轨迹，在 nuScenes 上无需实例和地图标注即可实现有竞争力的规划性能。
+  [ECCV 2024][自动驾驶][3D Occupancy] OccWorld 提出在 3D 占用空间中学习世界模型，用 VQ-VAE 对 3D occupancy 进行 token 化，再通过 GPT 风格的时空生成 Transformer 自回归预测未来场景演化和自车轨迹…
 tags:
-  - ECCV 2024
-  - 自动驾驶
-  - 3D Occupancy
-  - 世界模型
-  - 4D预测
-  - 轨迹规划
+  - "ECCV 2024"
+  - "自动驾驶"
+  - "3D Occupancy"
+  - "世界模型"
+  - "4D预测"
+  - "轨迹规划"
 ---
 
 # OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving

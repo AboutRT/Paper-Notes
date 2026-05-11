@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Models That Prove Their Own Correctness
 description: >-
-  [NeurIPS 2025][自证模型] 本文提出 Self-Proving Models 框架，让模型通过交互式证明系统向验证算法证明其输出的正确性，并设计了 Transcript Learning (TL) 和 Reinforcement Learning from Verifier Feedback (RLVF) 两种学习方法，在 GCD 计算任务上实验验证 Annotated TL 可达 96% 的 Verifiability。
+  [NeurIPS 2025][强化学习][自证模型] 本文提出 Self-Proving Models 框架，让模型通过交互式证明系统向验证算法证明其输出的正确性，并设计了 Transcript Learning (TL) 和 Reinforcement Learning from Verifier Feed…
 tags:
-  - NeurIPS 2025
-  - 自证模型
-  - 交互式证明
-  - 验证器反馈强化学习
-  - 形式验证
-  - 强化学习
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "自证模型"
+  - "交互式证明"
+  - "验证器反馈强化学习"
+  - "形式验证"
+  - "LLM可靠性"
 ---
 
 # Models That Prove Their Own Correctness

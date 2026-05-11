@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][超分辨率] PFT 提出渐进聚焦注意力（PFA）机制，通过在相邻 Transformer 层之间传递注意力图的 Hadamard 乘积，实现逐层筛选不相关 token 并增强关键 token 的权重，在超分辨率任务上达到 SOTA 性能的同时显著降低计算开销。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - 超分辨率
-  - 稀疏注意力
-  - Transformer
-  - 渐进聚焦
-  - 注意力传递
+  - "CVPR 2025"
+  - "图像恢复"
+  - "超分辨率"
+  - "稀疏注意力"
+  - "Transformer"
+  - "渐进聚焦"
+  - "注意力传递"
 ---
 
 # Progressive Focused Transformer for Single Image Super-Resolution

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning
 description: >-
-  [NeurIPS 2025][LLM对齐][VLA safety] 首次系统性地将安全强化学习（SafeRL）的 CMDP 框架应用于视觉-语言-动作模型（VLA）的安全对齐，通过建模-激发-约束-保证四阶段集成安全方法（ISA），在移动操作任务上实现 83.58% 的安全违规成本下降同时保持任务性能（+3.85%）。
+  [NeurIPS 2025][LLM对齐][VLA safety] 首次系统性地将安全强化学习（SafeRL）的 CMDP 框架应用于视觉-语言-动作模型（VLA）的安全对齐，通过建模-激发-约束-保证四阶段集成安全方法（ISA）…
 tags:
-  - NeurIPS 2025
-  - LLM对齐
-  - VLA safety
-  - constrained MDP
-  - 强化学习
-  - embodied AI
-  - robot safety
+  - "NeurIPS 2025"
+  - "LLM对齐"
+  - "VLA safety"
+  - "constrained MDP"
+  - "强化学习"
+  - "embodied AI"
+  - "robot safety"
 ---
 
 # SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning

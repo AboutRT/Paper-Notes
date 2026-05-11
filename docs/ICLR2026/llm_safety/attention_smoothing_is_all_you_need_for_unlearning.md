@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Attention Smoothing Is All You Need For Unlearning
 description: >-
-  [ICLR 2026][AI安全][LLM遗忘] 提出Attention Smoothing Unlearning (ASU)，通过提高自注意力softmax温度构造forget-teacher，将遗忘问题转化为自蒸馏——平滑注意力分布以削弱词汇级和语义级关联，从而在擦除记忆知识的同时保持模型输出连贯性，在TOFU、MUSE、WMDP等多个基准上超越现有遗忘方法。
+  [ICLR 2026][LLM安全][LLM遗忘] 提出Attention Smoothing Unlearning (ASU)，通过提高自注意力softmax温度构造forget-teacher，将遗忘问题转化为自蒸馏——平滑注意力分布以削弱词汇级和语义级关联，从而在擦除记忆知识的同时保持模型输出连贯性…
 tags:
-  - ICLR 2026
-  - AI安全
-  - LLM遗忘
-  - 注意力平滑
-  - 自蒸馏
-  - 隐私保护
-  - 知识遗忘
+  - "ICLR 2026"
+  - "LLM安全"
+  - "LLM遗忘"
+  - "注意力平滑"
+  - "自蒸馏"
+  - "隐私保护"
+  - "知识遗忘"
 ---
 
 # Attention Smoothing Is All You Need For Unlearning

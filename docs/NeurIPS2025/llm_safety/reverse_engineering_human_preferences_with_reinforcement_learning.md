@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Reverse Engineering Human Preferences with Reinforcement Learning
 description: >-
-  [NeurIPS 2025 (Spotlight)][AI安全][LLM-as-a-Judge] 使用强化学习训练前导文本生成器来提升下游 LLM 的评分成绩,揭示了 LLM-as-a-Judge 评估框架的脆弱性,且该攻击方式几乎不可检测并具有跨模型迁移能力。
+  [NeurIPS 2025 (Spotlight)][LLM安全][LLM-as-a-Judge] 使用强化学习训练前导文本生成器来提升下游 LLM 的评分成绩,揭示了 LLM-as-a-Judge 评估框架的脆弱性,且该攻击方式几乎不可检测并具有跨模型迁移能力。
 tags:
-  - NeurIPS 2025 (Spotlight)
-  - AI安全
-  - LLM-as-a-Judge
-  - 对抗攻击
-  - 偏好逆向
-  - 强化学习
-  - 可检测性
+  - "NeurIPS 2025 (Spotlight)"
+  - "LLM安全"
+  - "LLM-as-a-Judge"
+  - "对抗攻击"
+  - "偏好逆向"
+  - "强化学习"
+  - "可检测性"
 ---
 
 # Reverse Engineering Human Preferences with Reinforcement Learning

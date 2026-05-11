@@ -2,14 +2,15 @@
 title: >-
   [论文解读] RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints
 description: >-
-  [ICCV 2025][强化学习] 提出组合约束（compositional constraints）概念来形式化多智能体具身协作中的安全与效率要求，基于此构建了首个多智能体操作基准 RoboFactory，并系统探索了多智能体模仿学习的架构和训练策略。
+  [ICCV 2025][强化学习][多智能体协作] 提出组合约束（compositional constraints）概念来形式化多智能体具身协作中的安全与效率要求，基于此构建了首个多智能体操作基准 RoboFactory，并系统探索了多智能体模仿学习的架构和训练策略。
 tags:
-  - ICCV 2025
-  - 强化学习
-  - 具身操作
-  - 组合约束
-  - 模仿学习
-  - 基准测试
+  - "ICCV 2025"
+  - "强化学习"
+  - "多智能体协作"
+  - "具身操作"
+  - "组合约束"
+  - "模仿学习"
+  - "基准测试"
 ---
 
 # RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints

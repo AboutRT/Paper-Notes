@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Training-Free Class Purification for Open-Vocabulary Semantic Segmentation
 description: >-
-  [ICCV 2025][图像分割][开放词汇语义分割] 提出 FreeCP，一种无需训练的类别净化框架，通过冗余净化和歧义净化两阶段策略，解决开放词汇语义分割中因过完备词汇表导致的类别冗余和视觉-语言歧义问题，作为即插即用模块在八个基准上显著提升现有方法性能。
+  [ICCV 2025][语义分割][开放词汇语义分割] 提出 FreeCP，一种无需训练的类别净化框架，通过冗余净化和歧义净化两阶段策略，解决开放词汇语义分割中因过完备词汇表导致的类别冗余和视觉-语言歧义问题，作为即插即用模块在八个基准上显著提升现有方法性能。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 开放词汇语义分割
-  - 训练免费
-  - 类别净化
-  - CLIP
-  - 类别冗余
-  - 视觉-语言歧义
+  - "ICCV 2025"
+  - "语义分割"
+  - "开放词汇语义分割"
+  - "训练免费"
+  - "类别净化"
+  - "CLIP"
+  - "类别冗余"
+  - "视觉-语言歧义"
 ---
 
 # Training-Free Class Purification for Open-Vocabulary Semantic Segmentation

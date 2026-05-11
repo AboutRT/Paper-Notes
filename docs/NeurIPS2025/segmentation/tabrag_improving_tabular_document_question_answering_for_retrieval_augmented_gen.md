@@ -2,15 +2,15 @@
 title: >-
   [论文解读] TabRAG: Improving Tabular Document Question Answering for Retrieval Augmented Generation via Structured Representations
 description: >-
-  [NeurIPS 2025 (AI4Tab Workshop)][图像分割][表格问答] 提出 TabRAG，一种基于解析的 RAG 框架，通过布局分割将文档分解为细粒度组件，使用视觉语言模型将表格提取为层次化结构表示，并集成自生成上下文学习模块来适配多种表格格式，在表格文档问答上全面优于现有解析技术。
+  [NeurIPS 2025 (AI4Tab Workshop)][语义分割][表格问答] 提出 TabRAG，一种基于解析的 RAG 框架，通过布局分割将文档分解为细粒度组件，使用视觉语言模型将表格提取为层次化结构表示，并集成自生成上下文学习模块来适配多种表格格式，在表格文档问答上全面优于现有解析技术。
 tags:
-  - NeurIPS 2025 (AI4Tab Workshop)
-  - 图像分割
-  - 表格问答
-  - RAG
-  - 结构化表示
-  - 视觉语言模型
-  - 文档解析
+  - "NeurIPS 2025 (AI4Tab Workshop)"
+  - "语义分割"
+  - "表格问答"
+  - "RAG"
+  - "结构化表示"
+  - "视觉语言模型"
+  - "文档解析"
 ---
 
 # TabRAG: Improving Tabular Document Question Answering for Retrieval Augmented Generation via Structured Representations

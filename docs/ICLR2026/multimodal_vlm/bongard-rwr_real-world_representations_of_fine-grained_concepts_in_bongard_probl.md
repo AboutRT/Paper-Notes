@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Bongard-RWR+: Real-World Representations of Fine-Grained Concepts in Bongard Problems
 description: >-
-  [ICLR 2026][多模态][Bongard problems] 构建 Bongard-RWR+，一个包含 5400 个 Bongard 问题的 benchmark，使用 VLM 流水线（Pixtral-12B + Flux.1-dev）自动生成真实感图像来表示抽象概念，系统评估揭示 SOTA VLM 在辨别细粒度视觉概念（如轮廓、旋转、角度）时表现挣扎，准确率低至 19%。
+  [ICLR 2026][多模态VLM][Bongard problems] 构建 Bongard-RWR+，一个包含 5400 个 Bongard 问题的 benchmark，使用 VLM 流水线（Pixtral-12B + Flux.1-dev）自动生成真实感图像来表示抽象概念…
 tags:
-  - ICLR 2026
-  - 多模态
-  - Bongard problems
-  - 多模态VLM
-  - few-shot learning
-  - VLM benchmark
-  - fine-grained concepts
+  - "ICLR 2026"
+  - "多模态VLM"
+  - "Bongard problems"
+  - "abstract visual reasoning"
+  - "few-shot learning"
+  - "VLM benchmark"
+  - "fine-grained concepts"
 ---
 
 # Bongard-RWR+: Real-World Representations of Fine-Grained Concepts in Bongard Problems
@@ -88,7 +88,7 @@ N/A（benchmark 论文，评估现有模型）
 ### 关键发现
 - **二分类接近随机**：所有 VLM 在 I1S/I2S 上准确率约 50%，等同随机猜测！说明 VLM 几乎无法从 few-shot 图像中推断细粒度抽象概念
 - **概念选择尚可但退化快**：InternVL2.5 在 K=2 时 91%（区分能力尚在），但 K=16 时降到 57%（干扰项增多后崩溃）
-- **语义组差异显著**：Shape/Size/Branching 易（~75%），Contour/Rotation/Angle 难（<50%）——后者依赖精确空间关系
+- **语义组差异显著**：Shape/Size/Branching 易（~75%），Contour/Rotation/Angle 难（&lt;50%）——后者依赖精确空间关系
 - DeepSeek-R1 在纯文本 D2S 上达 0.56，说明文本推理比视觉推理更有效——VLM 的瓶颈在视觉感知而非推理
 - 彩色 vs 灰度无显著差异，确认概念是结构性的不依赖颜色
 - 小模型（MiniCPM-8B）和大模型（LLaVA-110B）性能持平，模型大小不是决定因素

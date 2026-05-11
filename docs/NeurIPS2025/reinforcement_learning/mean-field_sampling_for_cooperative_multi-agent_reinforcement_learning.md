@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning
 description: >-
-  [NeurIPS 2025][MARL] 提出 SUBSAMPLE-MFQ 算法，通过从 $n$ 个智能体中随机采样 $k$ 个进行均场 Q 学习，将多智能体强化学习的样本复杂度从 $\text{poly}(n)$ 降低到 $\text{poly}(k)$，且性能差距仅为 $\tilde{O}(1/\sqrt{k})$（与 $n$ 无关），当 $k = O(\log n)$ 时实现相对均场 MARL 的指数加速。
+  [NeurIPS 2025][强化学习][MARL] 提出 SUBSAMPLE-MFQ 算法，通过从 $n$ 个智能体中随机采样 $k$ 个进行均场 Q 学习，将多智能体强化学习的样本复杂度从 $\text{poly}(n)$ 降低到 $\text{poly}(k)$…
 tags:
-  - NeurIPS 2025
-  - MARL
-  - mean-field
-  - subsampling
-  - Q-learning
-  - cooperative
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "MARL"
+  - "mean-field"
+  - "subsampling"
+  - "Q-learning"
+  - "cooperative"
 ---
 
 # Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning

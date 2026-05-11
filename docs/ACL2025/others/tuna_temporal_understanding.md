@@ -4,7 +4,7 @@ title: >-
 description: >-
   [ACL 2025] Tuna 构建了 1000 个时间密集短视频的细粒度多维标注数据集，配套字幕评测（事件拆分→匹配→关系分类）和时序问答两个任务，系统性地暴露了当前视频 LMM 在动态时序理解上的弱点。
 tags:
-  - ACL 2025
+  - "ACL 2025"
 ---
 
 # Tuna: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos

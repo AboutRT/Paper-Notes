@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D高斯拼接] 提出首个基于 3D 高斯表示的真实感示例建模方法，通过采样式克隆（S-phase）和聚类式调优（T-phase）实现多个 3D 高斯场的无缝拼接与和谐外观融合，支持交互式实时编辑。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D高斯拼接
-  - 示例建模
-  - 外观融合
-  - 交互式编辑
-  - 采样式克隆
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D高斯拼接"
+  - "示例建模"
+  - "外观融合"
+  - "交互式编辑"
+  - "采样式克隆"
 ---
 
 # Towards Realistic Example-Based Modeling via 3D Gaussian Stitching

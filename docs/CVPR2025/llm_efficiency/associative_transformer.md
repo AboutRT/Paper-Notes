@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][LLM效率][Transformer] 提出 Associative Transformer (AiT)，通过在 Transformer 中引入可学习的显式记忆模块和 Hopfield 网络进行 token 重建，以更少的参数实现优于 ViT 的分类和关系推理性能。
 tags:
-  - CVPR 2025
-  - LLM效率
-  - Transformer
-  - explicit memory
-  - Hopfield network
-  - sparse representation
-  - 注意力机制
+  - "CVPR 2025"
+  - "LLM效率"
+  - "Transformer"
+  - "explicit memory"
+  - "Hopfield network"
+  - "sparse representation"
+  - "注意力机制"
 ---
 
 # Associative Transformer

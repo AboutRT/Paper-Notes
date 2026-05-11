@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents
 description: >-
-  [ACL 2026][Text-to-SQL] 本文提出 PV-SQL，一个 Agent 式 Text-to-SQL 框架，通过 Probe（迭代生成探测查询发现数据库值格式/列语义/表关系）和 Verify（基于模式匹配提取可验证约束并构建检查清单）两个互补组件，在 BIRD 基准上比最佳基线高 5% 执行准确率和 20.8% 有效效率分。
+  [ACL 2026][可解释性][Text-to-SQL] 本文提出 PV-SQL，一个 Agent 式 Text-to-SQL 框架，通过 Probe（迭代生成探测查询发现数据库值格式/列语义/表关系）和 Verify（基于模式匹配提取可验证约束并构建检查清单）两个互补组件…
 tags:
-  - ACL 2026
-  - Text-to-SQL
-  - 数据库探测
-  - 规则验证
-  - 语义约束
-  - 可解释性
+  - "ACL 2026"
+  - "可解释性"
+  - "Text-to-SQL"
+  - "数据库探测"
+  - "规则验证"
+  - "语义约束"
+  - "Agent框架"
 ---
 
 # PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents

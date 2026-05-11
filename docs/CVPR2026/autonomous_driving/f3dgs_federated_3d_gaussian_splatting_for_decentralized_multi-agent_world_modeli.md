@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][自动驾驶][联邦学习] 提出F3DGS，首个将联邦学习框架应用于3DGS的方法，通过冻结几何+可见性感知聚合实现多智能体分布式3D重建，无需原始数据共享。
 tags:
-  - CVPR 2026
-  - 自动驾驶
-  - 联邦学习
-  - 3D Gaussian Splatting
-  - 多智能体
-  - 分布式重建
-  - 可见性加权聚合
+  - "CVPR 2026"
+  - "自动驾驶"
+  - "联邦学习"
+  - "3D Gaussian Splatting"
+  - "多智能体"
+  - "分布式重建"
+  - "可见性加权聚合"
 ---
 
 # F3DGS: Federated 3D Gaussian Splatting for Decentralized Multi-Agent World Modeling

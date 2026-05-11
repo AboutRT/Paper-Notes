@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Photography Perspective Composition: Towards Aesthetic Perspective Recommendation
 description: >-
-  [NeurIPS 2025][摄影构图] 提出"摄影透视构图"(PPC) 新范式，超越传统裁剪方法，通过 3D 重建构建透视变换数据集 + Image-to-Video 生成推荐视角 + RLHF 对齐人类偏好 + PQA 模型评估透视质量。
+  [NeurIPS 2025][视频生成][摄影构图] 提出"摄影透视构图"(PPC) 新范式，超越传统裁剪方法，通过 3D 重建构建透视变换数据集 + Image-to-Video 生成推荐视角 + RLHF 对齐人类偏好 + PQA 模型评估透视质量。
 tags:
-  - NeurIPS 2025
-  - 摄影构图
-  - 透视变换
-  - 视频生成
-  - 美学评估
-  - RLHF
+  - "NeurIPS 2025"
+  - "视频生成"
+  - "摄影构图"
+  - "透视变换"
+  - "美学评估"
+  - "RLHF"
 ---
 
 # Photography Perspective Composition: Towards Aesthetic Perspective Recommendation

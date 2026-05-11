@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D Gaussian Splatting] 提出 GScream 框架，通过单目深度引导训练和交叉注意力特征正则化，在 3D Gaussian Splatting 表示下实现高质量的物体移除，同时保持几何一致性和纹理连贯性。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D Gaussian Splatting
-  - 物体移除
-  - 深度引导
-  - 交叉注意力
-  - 辐射场编辑
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D Gaussian Splatting"
+  - "物体移除"
+  - "深度引导"
+  - "交叉注意力"
+  - "辐射场编辑"
 ---
 
 # Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal

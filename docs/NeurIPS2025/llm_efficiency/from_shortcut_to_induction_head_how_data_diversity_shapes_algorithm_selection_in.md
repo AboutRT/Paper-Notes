@@ -2,15 +2,15 @@
 title: >-
   [论文解读] From Shortcut to Induction Head: How Data Diversity Shapes Algorithm Selection in Transformers
 description: >-
-  [NeurIPS 2025][LLM效率][Induction Head] 通过严格的理论分析证明了预训练数据的多样性（由"max-sum ratio"刻画）决定了单层Transformer学到的是可泛化的induction head还是无法OOD泛化的位置捷径，并给出了使模型学会induction head的最优预训练分布。
+  [NeurIPS 2025][LLM效率][Induction Head] 通过严格的理论分析证明了预训练数据的多样性（由"max-sum ratio"刻画）决定了单层Transformer学到的是可泛化的induction head还是无法OOD泛化的位置捷径…
 tags:
-  - NeurIPS 2025
-  - LLM效率
-  - Induction Head
-  - 位置捷径
-  - 数据多样性
-  - 算法选择
-  - OOD泛化
+  - "NeurIPS 2025"
+  - "LLM效率"
+  - "Induction Head"
+  - "位置捷径"
+  - "数据多样性"
+  - "算法选择"
+  - "OOD泛化"
 ---
 
 # From Shortcut to Induction Head: How Data Diversity Shapes Algorithm Selection in Transformers

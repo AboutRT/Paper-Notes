@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] HSO 提出了一种层次化调度优化器，通过双层优化框架（上层全局搜索最优初始化策略 + 下层局部优化调度精炼），在仅 8 秒一次性优化代价下实现扩散模型极低 NFE 下的 SOTA 免训练采样质量。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # Hierarchical Schedule Optimization for Fast and Robust Diffusion Model Sampling

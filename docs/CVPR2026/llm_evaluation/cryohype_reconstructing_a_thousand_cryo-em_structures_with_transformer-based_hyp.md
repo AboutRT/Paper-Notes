@@ -2,14 +2,15 @@
 title: >-
   [论文解读] CryoHype: Reconstructing a Thousand Cryo-EM Structures with Transformer-Based Hypernetworks
 description: >-
-  [CVPR 2026][Cryo-EM] 提出 CryoHype，一种基于 Transformer 超网络的冷冻电镜重建方法，通过动态调整隐式神经表示（INR）的权重来减少参数共享，首次实现了从无标签冷冻电镜图像中同时重建 1000 种不同蛋白质结构。
+  [CVPR 2026][LLM评测][Cryo-EM] 提出 CryoHype，一种基于 Transformer 超网络的冷冻电镜重建方法，通过动态调整隐式神经表示（INR）的权重来减少参数共享，首次实现了从无标签冷冻电镜图像中同时重建 1000 种不同蛋白质结构。
 tags:
-  - CVPR 2026
-  - Cryo-EM
-  - 异构重建
-  - Hypernetwork
-  - Transformer
-  - 隐式神经表示
+  - "CVPR 2026"
+  - "LLM评测"
+  - "Cryo-EM"
+  - "异构重建"
+  - "Hypernetwork"
+  - "Transformer"
+  - "隐式神经表示"
 ---
 
 # CryoHype: Reconstructing a Thousand Cryo-EM Structures with Transformer-Based Hypernetworks

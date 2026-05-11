@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments
 description: >-
-  [ICLR 2026 (Oral)][LLM Agent][LLM Agent] 提出 Gaia2 基准，在动态异步环境中评估 LLM Agent 的能力，引入时间约束、噪声事件、歧义解析和多 Agent 协作等现实场景，配合可验证奖励的写操作验证器，使基准可直接用于 RLVR 训练，评估显示最强模型 GPT-5 (high) 仅达42% pass@1。
+  [ICLR 2026 (Oral)][LLM Agent][动态环境] 提出 Gaia2 基准，在动态异步环境中评估 LLM Agent 的能力，引入时间约束、噪声事件、歧义解析和多 Agent 协作等现实场景，配合可验证奖励的写操作验证器，使基准可直接用于 RLVR 训练…
 tags:
-  - ICLR 2026 (Oral)
-  - LLM Agent
-  - 动态环境
-  - 异步交互
-  - benchmark
-  - 强化学习
+  - "ICLR 2026 (Oral)"
+  - "LLM Agent"
+  - "动态环境"
+  - "异步交互"
+  - "benchmark"
+  - "强化学习"
 ---
 
 # Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments
@@ -100,7 +100,7 @@ Gaia2 构建在消费者环境（consumer environment）之上，基于开源的
 | GPT-5 (high) | 42% | 闭源 | 综合最强但时间敏感任务弱 |
 | Claude-4 Sonnet | ~35-38% | 闭源 | 准确性与速度平衡，成本更优 |
 | Kimi-K2 | 21% | 开源 | 开源模型中最佳 |
-| 其他开源模型 | <20% | 开源 | 显著落后于闭源 |
+| 其他开源模型 | &lt;20% | 开源 | 显著落后于闭源 |
 
 ### 能力维度分析
 

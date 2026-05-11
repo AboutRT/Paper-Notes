@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Geometric Priors for Generalizable World Models via Vector Symbolic Architecture
 description: >-
-  [NEURIPS2025][可解释性] 提出基于 Vector Symbolic Architecture (VSA) 的世界模型，利用 FHRR 将状态和动作编码为高维复数向量，用 element-wise 复数乘法建模转移，实现强泛化、长时域稳定和噪声鲁棒的动力学预测。
+  [NEURIPS2025][可解释性][World Models] 提出基于 Vector Symbolic Architecture (VSA) 的世界模型，利用 FHRR 将状态和动作编码为高维复数向量，用 element-wise 复数乘法建模转移，实现强泛化、长时域稳定和噪声鲁棒的动力学预测。
 tags:
-  - NEURIPS2025
-  - 可解释性
-  - Vector Symbolic Architecture
-  - Hyperdimensional Computing
-  - FHRR
-  - Geometric Deep Learning
-  - Neurosymbolic AI
+  - "NEURIPS2025"
+  - "可解释性"
+  - "World Models"
+  - "Vector Symbolic Architecture"
+  - "Hyperdimensional Computing"
+  - "FHRR"
+  - "Geometric Deep Learning"
+  - "Neurosymbolic AI"
 ---
 
 # Geometric Priors for Generalizable World Models via Vector Symbolic Architecture

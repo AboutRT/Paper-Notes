@@ -2,15 +2,14 @@
 title: >-
   [论文解读] OmniSegmentor: A Flexible Multi-Modal Learning Framework for Semantic Segmentation
 description: >-
-  [NeurIPS 2025][图像分割][多模态预训练] OmniSegmentor 构建了含 5 种视觉模态的大规模 ImageNeXt 数据集（1.2M 样本），提出随机选择补充模态与 RGB 对齐的高效预训练策略，首次实现灵活的多模态预训练-微调流水线，在 6 个多模态语义分割基准上刷新 SOTA。
+  [NeurIPS 2025][语义分割][多模态预训练] OmniSegmentor 构建了含 5 种视觉模态的大规模 ImageNeXt 数据集（1.2M 样本），提出随机选择补充模态与 RGB 对齐的高效预训练策略，首次实现灵活的多模态预训练-微调流水线，在 6 个多模态语义分割基准上刷新 SOTA。
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - 多模态预训练
-  - ImageNeXt
-  - 语义分割
-  - 模态对齐
-  - 预训练-微调
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "多模态预训练"
+  - "ImageNeXt"
+  - "模态对齐"
+  - "预训练-微调"
 ---
 
 # OmniSegmentor: A Flexible Multi-Modal Learning Framework for Semantic Segmentation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Language-Driven 6-DoF Grasp Detection Using Negative Prompt Guidance
 description: >-
-  [ECCV 2024][3D视觉][6-DoF抓取检测] 提出大规模语言驱动6-DoF抓取数据集Grasp-Anything-6D（1M场景、200M抓取姿态），以及基于扩散模型的LGrasp6D方法，核心创新是**负提示引导（Negative Prompt Guidance）**策略，在推理时引导抓取姿态远离非目标物体。
+  [ECCV 2024][3D视觉][6-DoF抓取检测] 提出大规模语言驱动6-DoF抓取数据集Grasp-Anything-6D（1M场景、200M抓取姿态），以及基于扩散模型的LGrasp6D方法，核心创新是**负提示引导（Negative Prompt Guidance）**策略…
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 6-DoF抓取检测
-  - 语言引导
-  - 扩散模型
-  - 负提示引导
-  - 机器人操控
+  - "ECCV 2024"
+  - "3D视觉"
+  - "6-DoF抓取检测"
+  - "语言引导"
+  - "扩散模型"
+  - "负提示引导"
+  - "机器人操控"
 ---
 
 # Language-Driven 6-DoF Grasp Detection Using Negative Prompt Guidance

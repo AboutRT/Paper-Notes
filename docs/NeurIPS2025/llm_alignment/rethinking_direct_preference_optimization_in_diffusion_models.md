@@ -4,13 +4,13 @@ title: >-
 description: >-
   [SPIGM@NeurIPS 2025 / AAAI 2026 (Oral)][LLM对齐][扩散模型] 针对扩散模型中 DPO 的两个核心问题——有限探索和奖励尺度不平衡,提出稳定参考模型更新策略和时间步感知训练策略,可集成到各种偏好优化算法中。
 tags:
-  - SPIGM@NeurIPS 2025 / AAAI 2026 (Oral)
-  - LLM对齐
-  - 扩散模型
-  - DPO
-  - 偏好优化
-  - 参考模型更新
-  - 时间步感知
+  - "SPIGM@NeurIPS 2025 / AAAI 2026 (Oral)"
+  - "LLM对齐"
+  - "扩散模型"
+  - "DPO"
+  - "偏好优化"
+  - "参考模型更新"
+  - "时间步感知"
 ---
 
 # Rethinking Direct Preference Optimization in Diffusion Models

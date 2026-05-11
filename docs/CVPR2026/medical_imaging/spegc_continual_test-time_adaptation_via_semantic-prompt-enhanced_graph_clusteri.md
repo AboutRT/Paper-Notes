@@ -4,14 +4,14 @@ title: >-
 description: >-
   [CVPR2026][医学图像][持续测试时自适应] 提出 SPEGC 框架，通过语义提示增强特征 + 可微分图聚类求解器，将原始相似度矩阵精炼为高阶结构表示，用于指导医学图像分割模型在持续变化的目标域上自适应，有效缓解误差累积与灾难性遗忘。
 tags:
-  - CVPR2026
-  - 医学图像
-  - 持续测试时自适应
-  - 图聚类
-  - 语义提示
-  - 最优传输
-  - 域偏移
-  - 视网膜/息肉分割
+  - "CVPR2026"
+  - "医学图像"
+  - "持续测试时自适应"
+  - "图聚类"
+  - "语义提示"
+  - "最优传输"
+  - "域偏移"
+  - "视网膜/息肉分割"
 ---
 
 # SPEGC: Continual Test-Time Adaptation via Semantic-Prompt-Enhanced Graph Clustering for Medical Image Segmentation

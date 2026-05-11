@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization
 description: >-
-  [CVPR 2026][混合专家模型] ERMoE 提出在正交特征基（eigenbasis）中重参数化MoE专家权重，并用特征基分数（cosine similarity）替代传统路由logits，无需辅助负载均衡损失即可实现稳定路由和可解释的专家特化。
+  [CVPR 2026][可解释性][混合专家模型] ERMoE 提出在正交特征基（eigenbasis）中重参数化MoE专家权重，并用特征基分数（cosine similarity）替代传统路由logits，无需辅助负载均衡损失即可实现稳定路由和可解释的专家特化。
 tags:
-  - CVPR 2026
-  - 混合专家模型
-  - 特征值重参数化
-  - 路由稳定性
-  - 专家特化
-  - Transformer
+  - "CVPR 2026"
+  - "可解释性"
+  - "混合专家模型"
+  - "特征值重参数化"
+  - "路由稳定性"
+  - "专家特化"
+  - "Transformer"
 ---
 
 # ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization

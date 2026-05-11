@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][点跟踪] TAPNext 将视频中任意点跟踪（TAP）问题重新建模为序列化的掩码 token 解码任务，去除了传统跟踪方法中的各种特定归纳偏置和启发式规则，实现了因果式在线跟踪，在 online 和 offline 跟踪器中均达到新的 SOTA，同时推理延迟极低。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 点跟踪
-  - 下一个token预测
-  - 在线跟踪
-  - 遮挡处理
-  - TAP
+  - "ICCV 2025"
+  - "3D视觉"
+  - "点跟踪"
+  - "下一个token预测"
+  - "在线跟踪"
+  - "遮挡处理"
+  - "TAP"
 ---
 
 # TAPNext: Tracking Any Point (TAP) as Next Token Prediction

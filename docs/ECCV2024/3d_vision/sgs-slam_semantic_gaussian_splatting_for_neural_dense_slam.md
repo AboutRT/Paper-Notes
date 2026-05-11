@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][SLAM] 提出SGS-SLAM，首个基于Gaussian Splatting的语义视觉SLAM系统，通过多通道优化融合外观、几何和语义特征，在相机姿态估计、地图重建和语义分割方面均达到SOTA。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - SLAM
-  - 3D高斯溅射
-  - 语义分割
-  - 稠密重建
-  - 实时渲染
+  - "ECCV 2024"
+  - "3D视觉"
+  - "SLAM"
+  - "3D高斯溅射"
+  - "语义分割"
+  - "稠密重建"
+  - "实时渲染"
 ---
 
 # SGS-SLAM: Semantic Gaussian Splatting for Neural Dense SLAM

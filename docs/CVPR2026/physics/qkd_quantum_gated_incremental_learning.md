@@ -2,14 +2,15 @@
 title: >-
   [论文解读] QKD: Quantum-Gated Task-interaction Knowledge Distillation for Class-Incremental Learning
 description: >-
-  [CVPR 2026][类增量学习] QKD 将量子门控引入类增量学习，通过参数化量子电路在高维 Hilbert 空间中建模样本-任务相关性，引导跨任务知识蒸馏和推理时适配器融合，在 5 个基准上达到 SOTA。
+  [CVPR 2026][物理学][类增量学习] QKD 将量子门控引入类增量学习，通过参数化量子电路在高维 Hilbert 空间中建模样本-任务相关性，引导跨任务知识蒸馏和推理时适配器融合，在 5 个基准上达到 SOTA。
 tags:
-  - CVPR 2026
-  - 类增量学习
-  - 量子计算
-  - 物理学
-  - 预训练模型
-  - 适配器
+  - "CVPR 2026"
+  - "物理学"
+  - "类增量学习"
+  - "量子计算"
+  - "知识蒸馏"
+  - "预训练模型"
+  - "适配器"
 ---
 
 # QKD: Quantum-Gated Task-interaction Knowledge Distillation for Class-Incremental Learning

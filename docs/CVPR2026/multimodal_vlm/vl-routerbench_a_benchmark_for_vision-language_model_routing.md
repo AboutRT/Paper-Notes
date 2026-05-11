@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VL-RouterBench: A Benchmark for Vision-Language Model Routing
 description: >-
-  [CVPR 2026][多模态][模型路由] 提出VL-RouterBench，首个面向视觉-语言模型的系统性路由基准，涵盖14个数据集、17个候选模型和519,180个样本-模型对，评估10种路由方法，并发现当前最优路由器与理想Oracle之间仍存在显著差距。
+  [CVPR 2026][多模态VLM][模型路由] 提出VL-RouterBench，首个面向视觉-语言模型的系统性路由基准，涵盖14个数据集、17个候选模型和519,180个样本-模型对，评估10种路由方法，并发现当前最优路由器与理想Oracle之间仍存在显著差距。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 模型路由
-  - VLM
-  - 多模态VLM
-  - 效率-质量权衡
-  - 多模型选择
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "模型路由"
+  - "VLM"
+  - "benchmark"
+  - "效率-质量权衡"
+  - "多模型选择"
 ---
 
 # VL-RouterBench: A Benchmark for Vision-Language Model Routing

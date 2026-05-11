@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][时间序列][因果发现] 提出 SDCI（State-Dependent Causal Inference）——处理条件平稳时间序列的因果发现方法，通过离散潜状态变量建模非平稳行为，实现状态依赖的因果结构恢复，在粒子交互、基因调控网络和 NBA 球员运动预测中验证有效性。
 tags:
-  - ICML 2025
-  - 时间序列
-  - 因果发现
-  - 非平稳时间序列
-  - 条件平稳
-  - 图神经网络
-  - 隐状态
+  - "ICML 2025"
+  - "时间序列"
+  - "因果发现"
+  - "非平稳时间序列"
+  - "条件平稳"
+  - "图神经网络"
+  - "隐状态"
 ---
 
 # Causal Discovery from Conditionally Stationary Time Series

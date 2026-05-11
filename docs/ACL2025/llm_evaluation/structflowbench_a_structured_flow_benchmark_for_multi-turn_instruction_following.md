@@ -2,14 +2,15 @@
 title: >-
   [论文解读] StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following
 description: >-
-  [ACL 2025][LLM评测] 提出 StructFlowBench，一个融入结构流建模的多轮指令遵循基准测试，定义了六种基本的轮间关系（跟进、精炼、回忆、总结、扩展、不相关），建立了双层约束评估体系（轮内约束 + 轮间结构约束），系统评估了 13 个主流 LLM 在多轮对话结构理解上的能力。
+  [ACL 2025][LLM评测][多轮对话] 提出 StructFlowBench，一个融入结构流建模的多轮指令遵循基准测试，定义了六种基本的轮间关系（跟进、精炼、回忆、总结、扩展、不相关），建立了双层约束评估体系（轮内约束 + 轮间结构约束），系统评估了 13 个主流 LLM 在多轮对话结构理解上的能力。
 tags:
-  - ACL 2025
-  - LLM评测
-  - 结构流
-  - 指令遵循
-  - benchmark
-  - 对话结构建模
+  - "ACL 2025"
+  - "LLM评测"
+  - "多轮对话"
+  - "结构流"
+  - "指令遵循"
+  - "benchmark"
+  - "对话结构建模"
 ---
 
 # StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following

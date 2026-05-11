@@ -2,8 +2,15 @@
 title: >-
   [论文解读] Still Between Us? Evaluating and Improving Voice Assistant Robustness to Third-Party Interruptions
 description: >-
-  [ACL 2026][语音对话] 提出TPI-Train(88K)和TPI-Bench框架解决语音助手第三方打断问题，通过说话人感知的困难负样本训练消除语义捷径学习
-tags: [语音助手, 第三方打断, 说话人识别, 困难负样本, 多方对话]
+  [ACL 2026][音频/语音][语音助手] 针对语音助手无法区分第三方打断（TPI）与主用户发言的问题，提出包含88K训练实例的TPI-Train数据集和TPI-Bench评测框架，通过说话人感知的困难负样本挖掘策略消除语义捷径学习，使模型真正依赖声学线索进行打断检测。
+tags:
+  - "ACL 2026"
+  - "音频/语音"
+  - "语音助手"
+  - "第三方打断"
+  - "说话人感知"
+  - "困难负样本挖掘"
+  - "语义捷径学习"
 ---
 
 # Still Between Us? Evaluating and Improving Voice Assistant Robustness to Third-Party Interruptions

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] GLGENN: 基于Clifford几何代数的轻参数等变神经网络架构
 description: >-
-  [ICML2025][等变神经网络] 提出广义Lipschitz群等变神经网络(GLGENN)，利用几何代数中grade involution和reversion定义的四个基本子空间实现权重共享，在保持伪正交群等变性的同时大幅减少可训练参数（约为CGENN的1/2至1/3），在多个基准任务上匹配或超越CGENN。
+  [ICML2025][等变神经网络] 提出广义Lipschitz群等变神经网络(GLGENN)，利用几何代数中grade involution和reversion定义的四个基本子空间实现权重共享，在保持伪正交群等变性的同时大幅减少可训练参数（约为CGENN的1/2至1/3）…
 tags:
-  - ICML2025
-  - 等变神经网络
-  - Clifford代数
-  - 几何代数
-  - Lipschitz群
-  - 伪正交群
-  - 权重共享
-  - 参数高效
+  - "ICML2025"
+  - "等变神经网络"
+  - "Clifford代数"
+  - "几何代数"
+  - "Lipschitz群"
+  - "伪正交群"
+  - "权重共享"
+  - "参数高效"
 ---
 
 # GLGENN: 基于Clifford几何代数的轻参数等变神经网络架构

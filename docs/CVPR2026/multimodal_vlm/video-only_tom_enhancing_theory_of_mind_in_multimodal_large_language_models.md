@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models
 description: >-
-  [CVPR 2026][多模态][心智理论] 提出VisionToM，一个基于视觉的轻量级干预框架，通过探测和干预MLLM中对视觉输入和ToM推理敏感的注意力头，在不微调模型的情况下显著增强多模态大语言模型的心智理论推理能力，在EgoToM基准上大幅提升表现。
+  [CVPR 2026][多模态VLM][心智理论] 提出VisionToM，一个基于视觉的轻量级干预框架，通过探测和干预MLLM中对视觉输入和ToM推理敏感的注意力头，在不微调模型的情况下显著增强多模态大语言模型的心智理论推理能力，在EgoToM基准上大幅提升表现。
 tags:
-  - CVPR 2026
-  - 多模态
-  - 心智理论
-  - 多模态VLM
-  - 注意力干预
-  - 视觉推理
-  - 幻觉缓解
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "心智理论"
+  - "多模态大语言模型"
+  - "注意力干预"
+  - "视觉推理"
+  - "幻觉缓解"
 ---
 
 # Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models

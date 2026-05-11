@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][3D高斯泼溅] 提出 EVolSplat，一个基于稀疏3D卷积的前馈城市场景3D高斯泼溅方法，通过全局统一体素预测高斯参数（而非像素对齐），结合遮挡感知的基于图像的渲染（IBR）着色，在 KITTI-360 上达到 23.26dB PSNR / 83.81 FPS。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 3D高斯泼溅
-  - 城市场景
-  - 前馈重建
-  - 稀疏3D卷积
-  - 实时渲染
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "3D高斯泼溅"
+  - "城市场景"
+  - "前馈重建"
+  - "稀疏3D卷积"
+  - "实时渲染"
 ---
 
 # EVolSplat: Efficient Volume-based Gaussian Splatting for Urban View Synthesis

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Conversational Quality Assessment: A Large-Scale Corpus and Comprehensive Study
 description: >-
-  [ACL 2025][NLP理解][对话质量评估] 本文构建了一个大规模多维度对话质量评估语料库，涵盖流畅性、一致性、信息量、参与度等多个质量维度，并基于此语料库对现有对话评估方法进行了全面的基准测试和分析。
+  [ACL 2025][LLM/NLP][对话质量评估] 本文构建了一个大规模多维度对话质量评估语料库，涵盖流畅性、一致性、信息量、参与度等多个质量维度，并基于此语料库对现有对话评估方法进行了全面的基准测试和分析。
 tags:
-  - ACL 2025
-  - NLP理解
-  - 对话质量评估
-  - 大规模语料库
-  - 多维度评估
-  - 对话系统评估
-  - 人工标注
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "对话质量评估"
+  - "大规模语料库"
+  - "多维度评估"
+  - "对话系统评估"
+  - "人工标注"
 ---
 
 # Conversational Quality Assessment: A Large-Scale Corpus and Comprehensive Study

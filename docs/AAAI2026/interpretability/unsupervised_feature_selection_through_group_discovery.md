@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Unsupervised Feature Selection Through Group Discovery
 description: >-
-  [AAAI 2026][无监督特征选择] 提出 GroupFS，首个端到端可微分的无监督特征选择框架，能同时发现潜在特征分组并选择信息量最大的组，无需预定义分组或标签监督。
+  [AAAI 2026][可解释性][无监督特征选择] 提出 GroupFS，首个端到端可微分的无监督特征选择框架，能同时发现潜在特征分组并选择信息量最大的组，无需预定义分组或标签监督。
 tags:
-  - AAAI 2026
-  - 无监督特征选择
-  - 特征分组
-  - 图拉普拉斯
-  - Gumbel-Softmax
-  - 稀疏正则化
+  - "AAAI 2026"
+  - "可解释性"
+  - "无监督特征选择"
+  - "特征分组"
+  - "图拉普拉斯"
+  - "Gumbel-Softmax"
+  - "稀疏正则化"
 ---
 
 # Unsupervised Feature Selection Through Group Discovery

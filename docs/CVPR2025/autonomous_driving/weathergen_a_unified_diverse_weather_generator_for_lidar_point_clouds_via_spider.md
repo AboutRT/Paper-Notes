@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][自动驾驶][恶劣天气LiDAR生成] 本文提出 WeatherGen，首个统一的多样恶劣天气 LiDAR 数据扩散生成框架，通过 Spider Mamba 生成器保持 LiDAR 物理结构、对比学习控制器实现天气可控生成，在数据保真度和下游检测性能上均显著超越基于物理模拟的方法。
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - 恶劣天气LiDAR生成
-  - 扩散模型
-  - Mamba
-  - 对比学习
-  - 数据增强
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "恶劣天气LiDAR生成"
+  - "扩散模型"
+  - "Mamba"
+  - "对比学习"
+  - "数据增强"
 ---
 
 # WeatherGen: A Unified Diverse Weather Generator for LiDAR Point Clouds via Spider Mamba Diffusion

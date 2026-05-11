@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Multi-Task Reinforcement Learning for Enhanced Multimodal LLM-as-a-Judge
 description: >-
-  [ACL 2026][多模态][MLLM-as-a-Judge] 本文提出 MT-RL-Judge，一个多任务强化学习框架，通过 GRPO 联合优化多个评估任务训练统一的 MLLM-as-a-Judge 模型，在文本-图像对齐、安全合规和视觉质量评估等六个基准上一致超越 SFT 基线，并在未见过的 MJ-Bench 配对比较格式上展现出强大的分布外泛化能力（Safety 任务 82.23% vs SFT-Unified 的 49.40%）。
+  [ACL 2026][多模态VLM][MLLM-as-a-Judge] 本文提出 MT-RL-Judge，一个多任务强化学习框架，通过 GRPO 联合优化多个评估任务训练统一的 MLLM-as-a-Judge 模型，在文本-图像对齐、安全合规和视觉质量评估等六个基准上一致超越 SFT 基线…
 tags:
-  - ACL 2026
-  - 多模态
-  - MLLM-as-a-Judge
-  - 多模态VLM
-  - GRPO
-  - 统一评估
-  - 分布外泛化
+  - "ACL 2026"
+  - "多模态VLM"
+  - "MLLM-as-a-Judge"
+  - "多任务强化学习"
+  - "GRPO"
+  - "统一评估"
+  - "分布外泛化"
 ---
 
 # Multi-Task Reinforcement Learning for Enhanced Multimodal LLM-as-a-Judge

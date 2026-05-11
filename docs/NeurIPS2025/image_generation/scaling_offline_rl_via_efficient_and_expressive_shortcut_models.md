@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][Offline RL] 提出 SORL，利用 shortcut models 的自一致性实现离线 RL 中高效一阶段训练与可变推理步数的策略优化，同时支持推理时的顺序和并行扩展。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - Offline RL
-  - Shortcut Models
-  - Flow Matching
-  - Self-Consistency
-  - Test-time Scaling
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "Offline RL"
+  - "Shortcut Models"
+  - "Flow Matching"
+  - "Self-Consistency"
+  - "Test-time Scaling"
 ---
 
 # Scaling Offline RL via Efficient and Expressive Shortcut Models

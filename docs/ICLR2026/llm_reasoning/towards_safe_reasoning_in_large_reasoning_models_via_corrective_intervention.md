@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Towards Safe Reasoning in Large Reasoning Models via Corrective Intervention
 description: >-
-  [ICLR 2026][LLM推理][推理安全] 揭示大推理模型（LRM）的推理链即使最终回答安全也常包含有害内容的问题，提出 Intervened Preference Optimization（IPO），通过用安全触发器替换合规线索来纠正不安全推理轨迹，构造偏好对进行对齐训练，在 3 个 LRM 上将推理有害率降低超过 30% 且不损害推理能力。
+  [ICLR 2026][LLM推理][推理安全] 揭示大推理模型（LRM）的推理链即使最终回答安全也常包含有害内容的问题，提出 Intervened Preference Optimization（IPO），通过用安全触发器替换合规线索来纠正不安全推理轨迹，构造偏好对进行对齐训练…
 tags:
-  - ICLR 2026
-  - LLM推理
-  - 推理安全
-  - 大推理模型
-  - 偏好优化
-  - 安全触发器
-  - 合规线索
+  - "ICLR 2026"
+  - "LLM推理"
+  - "推理安全"
+  - "大推理模型"
+  - "偏好优化"
+  - "安全触发器"
+  - "合规线索"
 ---
 
 # Towards Safe Reasoning in Large Reasoning Models via Corrective Intervention

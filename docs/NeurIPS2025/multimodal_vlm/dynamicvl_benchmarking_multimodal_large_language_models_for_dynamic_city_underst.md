@@ -2,15 +2,15 @@
 title: >-
   [论文解读] DynamicVL: Benchmarking MLLMs for Dynamic City Understanding
 description: >-
-  [NeurIPS 2025][多模态][遥感图像] 提出 DVL-Suite 框架，包含 DVL-Bench 基准和 DVL-Instruct 指令微调数据集，覆盖 42 座美国城市、14,871 张高分辨率多时相遥感影像，系统评估 18 个 MLLM 在长期城市动态理解上的能力，并开发了 DVLChat 基线模型。
+  [NeurIPS 2025][多模态VLM][遥感图像] 提出 DVL-Suite 框架，包含 DVL-Bench 基准和 DVL-Instruct 指令微调数据集，覆盖 42 座美国城市、14,871 张高分辨率多时相遥感影像，系统评估 18 个 MLLM 在长期城市动态理解上的能力…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - 城市动态理解
-  - 多时相分析
-  - 视觉语言基准
-  - 变化检测
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "遥感图像"
+  - "城市动态理解"
+  - "多时相分析"
+  - "视觉语言基准"
+  - "变化检测"
 ---
 
 # DynamicVL: Benchmarking MLLMs for Dynamic City Understanding
@@ -72,7 +72,7 @@ DVL-Suite 包含两部分：
 
 1. **双 LoRA 路由机制**：通过前缀 token 路由请求 — `[QA]` 激活 VQA LoRA，`[SE]` 激活变化检测 LoRA，避免任务间互相干扰
 2. **多时相图像交错处理**：将多个时相的图像特征交错后再解码，实现跨时间分析
-3. **分割能力**：解码 `<SEG>` token 嵌入，通过 SAM 的冻结视觉主干和解冻解码器生成精确分割掩码
+3. **分割能力**：解码 <code>&lt;SEG&gt;</code> token 嵌入，通过 SAM 的冻结视觉主干和解冻解码器生成精确分割掩码
 
 底层 MLLM 使用 Qwen2.5-VL，但架构是 MLLM 无关的。
 

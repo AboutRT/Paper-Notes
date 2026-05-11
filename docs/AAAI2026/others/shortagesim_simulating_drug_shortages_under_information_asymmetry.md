@@ -4,12 +4,12 @@ title: >-
 description: >-
   [AAAI 2026][药品短缺] 提出 ShortageSim，首个基于 **LLM 多智能体**的药品短缺模拟框架，建模 FDA 监管者、制造商和购买者在信息不对称下的战略决策，在历史短缺数据上实现对解决滞后时间 84% 的预测改善，为监管策略评估提供受控测试平台。
 tags:
-  - AAAI 2026
-  - 药品短缺
-  - 其他
-  - 大语言模型
-  - 信息不对称
-  - 监管政策
+  - "AAAI 2026"
+  - "药品短缺"
+  - "多智能体模拟"
+  - "大语言模型"
+  - "信息不对称"
+  - "监管政策"
 ---
 
 # ShortageSim: Simulating Drug Shortages under Information Asymmetry

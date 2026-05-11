@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][时间序列][神经活动预测] 首次系统评测 12 个概率时间序列预测模型在小鼠皮层钙成像数据上的表现，发现 PatchTST 一致最优（信息性预测窗口达 1.5 秒），零样本基础模型（Chronos）完全失败但微调后竞争力强，揭示神经活动的内在可预测性上限约 1.5 秒。
 tags:
-  - NeurIPS 2025
-  - 时间序列
-  - 神经活动预测
-  - 概率预测
-  - 钙成像
-  - 基准评测
-  - 基础模型
+  - "NeurIPS 2025"
+  - "时间序列"
+  - "神经活动预测"
+  - "概率预测"
+  - "钙成像"
+  - "基准评测"
+  - "基础模型"
 ---
 
 # Benchmarking Probabilistic Time Series Forecasting Models on Neural Activity

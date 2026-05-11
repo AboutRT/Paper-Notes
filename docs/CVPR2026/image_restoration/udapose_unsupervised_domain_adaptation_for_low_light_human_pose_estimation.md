@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][图像恢复][低光照姿态估计] UDAPose通过基于稳定扩散的低光照图像合成（保持高频低光特征）和动态注意力控制模块（自适应平衡视觉线索与姿态先验），在低光照硬集上实现56.4%的AP提升。
 tags:
-  - CVPR 2026
-  - 图像恢复
-  - 图像复原
-  - 域适应
-  - 稳定扩散
-  - 注意力控制
-  - 高频注入
+  - "CVPR 2026"
+  - "图像恢复"
+  - "低光照姿态估计"
+  - "域适应"
+  - "稳定扩散"
+  - "注意力控制"
+  - "高频注入"
 ---
 
 # UDAPose: Unsupervised Domain Adaptation for Low-Light Human Pose Estimation

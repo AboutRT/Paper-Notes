@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][图像生成][音效链估计] 提出 LLM2Fx-Tools，首个将 LLM 工具调用应用于音效模块的框架，通过多模态 LLM 理解音频输入，利用 CoT 推理选择音效类型、确定顺序并估计参数，实现可解释和可控的音乐后期制作。
 tags:
-  - ICLR 2026
-  - 图像生成
-  - 音效链估计
-  - 工具调用
-  - 思维链推理
-  - 音乐后期制作
-  - 多模态LLM
+  - "ICLR 2026"
+  - "图像生成"
+  - "音效链估计"
+  - "工具调用"
+  - "思维链推理"
+  - "音乐后期制作"
+  - "多模态LLM"
 ---
 
 # LLM2Fx-Tools: Tool Calling for Music Post-Production

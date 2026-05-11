@@ -2,10 +2,11 @@
 title: >-
   [论文解读] Language Guided Concept Bottleneck Models for Interpretable Continual Learning
 description: >-
-  [CVPR 2025][待补充] > 基于摘要：Continual learning (CL) aims to enable learning systems to acquire new knowledge constantly without forgetting previously learned information. CL faces the challenge of mitigating catastrophic forgetting while maintaining interpretability across tasks.Most existing CL methods focus primarily on pres
+  [CVPR 2025][可解释性][待补充] > 基于摘要：Continual learning (CL) aims to enable learning systems to acquire new knowledge constantly without forgetting previously lea…
 tags:
-  - CVPR 2025
-  - 待补充
+  - "CVPR 2025"
+  - "可解释性"
+  - "待补充"
 ---
 
 # Language Guided Concept Bottleneck Models for Interpretable Continual Learning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][多模态VLM][视频分割] 提出SPARROW框架，通过目标特定跟踪特征(TSF)和双提示(BOX+SEG)机制，解决视频MLLM中时序引用一致性差和首帧初始化不稳定的问题，在6个基准上对3个主流视频MLLM均取得一致提升。
 tags:
-  - CVPR 2025
-  - 多模态VLM
-  - 视频分割
-  - 视频MLLM
-  - 时序一致性
-  - 像素级grounding
-  - 双提示机制
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "视频分割"
+  - "视频MLLM"
+  - "时序一致性"
+  - "像素级grounding"
+  - "双提示机制"
 ---
 
 # SPARROW: Learning Spatial Precision and Temporal Referential Consistency in Pixel-Grounded Video MLLMs

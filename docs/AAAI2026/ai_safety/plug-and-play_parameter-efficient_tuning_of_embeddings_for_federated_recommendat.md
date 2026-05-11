@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][AI安全][联邦推荐] 提出一个即插即用的联邦推荐框架，通过将 PEFT（Parameter-Efficient Fine-Tuning）理念引入物品嵌入，冻结预训练的全量嵌入并仅传输轻量级压缩嵌入（LoRA / Hash / RQ-VAE），大幅降低通信开销的同时提升推荐精度。
 tags:
-  - AAAI 2026
-  - AI安全
-  - 联邦推荐
-  - 参数高效微调
-  - 嵌入压缩
-  - 通信效率
-  - 隐私保护
+  - "AAAI 2026"
+  - "AI安全"
+  - "联邦推荐"
+  - "参数高效微调"
+  - "嵌入压缩"
+  - "通信效率"
+  - "隐私保护"
 ---
 
 # Plug-and-Play Parameter-Efficient Tuning of Embeddings for Federated Recommendation

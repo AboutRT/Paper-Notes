@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Can Large Language Models Master Complex Card Games?
 description: >-
-  [NeurIPS 2025][LLM评测] 系统评估LLM在8种复杂卡牌游戏上的学习能力，发现通过高质量游戏数据的SFT，LLM可以接近强游戏AI的水平，并能同时掌握多个游戏，但通用能力会下降（可通过混入通用指令数据缓解）。
+  [NeurIPS 2025][LLM评测][LLM游戏能力] 系统评估LLM在8种复杂卡牌游戏上的学习能力，发现通过高质量游戏数据的SFT，LLM可以接近强游戏AI的水平，并能同时掌握多个游戏，但通用能力会下降（可通过混入通用指令数据缓解）。
 tags:
-  - NeurIPS 2025
-  - LLM评测
-  - 卡牌游戏
-  - 监督微调
-  - 多任务学习
-  - 通用能力保持
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "LLM游戏能力"
+  - "卡牌游戏"
+  - "监督微调"
+  - "多任务学习"
+  - "通用能力保持"
 ---
 
 # Can Large Language Models Master Complex Card Games?

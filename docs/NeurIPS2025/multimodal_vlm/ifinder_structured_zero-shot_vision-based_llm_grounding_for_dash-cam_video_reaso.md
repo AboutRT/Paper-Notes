@@ -2,15 +2,15 @@
 title: >-
   [论文解读] iFinder: Structured Zero-Shot VLM Grounding for Dash-Cam Video Reasoning
 description: >-
-  [NeurIPS 2025][多模态][行车记录仪视频分析] 提出 iFinder，一个模块化免训练框架，将行车记录仪视频解耦为感知（结构化场景表示）与推理（LLM），通过层级数据结构和三块式提示策略使 LLM 获得可解释的时空推理能力，在四个驾驶视频基准上零样本超越端到端 V-VLM，事故推理准确率提升高达 39%。
+  [NeurIPS 2025][多模态VLM][行车记录仪视频分析] 提出 iFinder，一个模块化免训练框架，将行车记录仪视频解耦为感知（结构化场景表示）与推理（LLM），通过层级数据结构和三块式提示策略使 LLM 获得可解释的时空推理能力，在四个驾驶视频基准上零样本超越端到端 V-VLM…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 多模态VLM
-  - LLM接地
-  - 结构化推理
-  - 零样本
-  - 视觉语言模型
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "行车记录仪视频分析"
+  - "LLM接地"
+  - "结构化推理"
+  - "零样本"
+  - "视觉语言模型"
 ---
 
 # iFinder: Structured Zero-Shot VLM Grounding for Dash-Cam Video Reasoning
@@ -133,7 +133,7 @@ CenterTrack 进行3D检测，提取 yaw 角 $\theta_{t,i} \in [-\pi, \pi]$，通
 
 1. **物体朝向和全局环境上下文是最关键的**——出乎意料地，它们比距离和车道信息更重要
 2. 在极端天气（雾/雨/雪）和夜间条件下，iFinder 仍保持最高准确率（Foggy: 75%, Rainy: 65.52%）
-3. 即使仅保留 <1% 的检测物体（高置信度阈值），准确率仍维持 58.27%，说明系统对错误传播具有鲁棒性
+3. 即使仅保留 &lt;1% 的检测物体（高置信度阈值），准确率仍维持 58.27%，说明系统对错误传播具有鲁棒性
 4. 提示策略中 Key Explanation 块最为关键，缺失会导致 LLM 生成无效格式输出
 
 ## 亮点与洞察

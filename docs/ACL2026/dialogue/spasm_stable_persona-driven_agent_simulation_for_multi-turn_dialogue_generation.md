@@ -2,14 +2,15 @@
 title: >-
   [论文解读] SPASM: Stable Persona-driven Agent Simulation for Multi-turn Dialogue Generation
 description: >-
-  [ACL 2026 Findings][人设对话] 本文提出 SPASM，一个以稳定性为核心的人设驱动多轮对话模拟框架，通过模块化人设生成、自我中心上下文投影（ECP）和终止检测三个组件，在 LLM-LLM 对话中大幅减少角色漂移和"回声"现象，构建了 45,000 段高质量多轮对话数据。
+  [ACL 2026 Findings][对话系统][人设对话] 本文提出 SPASM，一个以稳定性为核心的人设驱动多轮对话模拟框架，通过模块化人设生成、自我中心上下文投影（ECP）和终止检测三个组件，在 LLM-LLM 对话中大幅减少角色漂移和"回声"现象，构建了 45,000 段高质量多轮对话数据。
 tags:
-  - ACL 2026 Findings
-  - 人设对话
-  - 多轮模拟
-  - 角色漂移
-  - 自我中心投影
-  - 数据生成
+  - "ACL 2026 Findings"
+  - "对话系统"
+  - "人设对话"
+  - "多轮模拟"
+  - "角色漂移"
+  - "自我中心投影"
+  - "数据生成"
 ---
 
 # SPASM: Stable Persona-driven Agent Simulation for Multi-turn Dialogue Generation

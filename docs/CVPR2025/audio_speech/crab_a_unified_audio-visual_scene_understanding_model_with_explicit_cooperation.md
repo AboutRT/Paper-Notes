@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation
 description: >-
-  [CVPR 2025][语音][audio-visual understanding] 提出统一音视频场景理解模型 Crab，通过构建带显式推理过程的 AV-UIE 数据集（200K 样本）阐明跨任务协作关系，结合交互感知 LoRA（多头 LoRA）学习不同音视频交互模式，在多个任务上超越专用模型。
+  [CVPR 2025][音频/语音][audio-visual understanding] 提出统一音视频场景理解模型 Crab，通过构建带显式推理过程的 AV-UIE 数据集（200K 样本）阐明跨任务协作关系，结合交互感知 LoRA（多头 LoRA）学习不同音视频交互模式，在多个任务上超越专用模型。
 tags:
-  - CVPR 2025
-  - 语音
-  - audio-visual understanding
-  - 统一模型
-  - 音频语音
-  - 指令微调
-  - 多任务学习
+  - "CVPR 2025"
+  - "音频/语音"
+  - "audio-visual understanding"
+  - "统一模型"
+  - "interaction-aware LoRA"
+  - "指令微调"
+  - "多任务学习"
 ---
 
 # Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation

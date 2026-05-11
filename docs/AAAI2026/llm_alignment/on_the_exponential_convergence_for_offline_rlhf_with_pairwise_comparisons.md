@@ -4,13 +4,13 @@ title: >-
 description: >-
   [AAAI 2026][LLM对齐][离线RLHF] 在离线RLHF的成对比较设定下，提出RL-LOW算法实现了simple regret的指数收敛 $\exp(-\Omega(n/H))$，并首次导出实例依赖下界证明该速率在指数意义上是最优的。
 tags:
-  - AAAI 2026
-  - LLM对齐
-  - 离线RLHF
-  - 指数收敛
-  - 成对比较
-  - 实例依赖下界
-  - 差分隐私
+  - "AAAI 2026"
+  - "LLM对齐"
+  - "离线RLHF"
+  - "指数收敛"
+  - "成对比较"
+  - "实例依赖下界"
+  - "差分隐私"
 ---
 
 # On the Exponential Convergence for Offline RLHF with Pairwise Comparisons

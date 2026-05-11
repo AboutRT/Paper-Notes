@@ -2,14 +2,15 @@
 title: >-
   [论文解读] LottieGPT: Tokenizing Vector Animation for Autoregressive Generation
 description: >-
-  [CVPR 2026][矢量动画] 提出首个矢量动画自回归生成框架 LottieGPT，设计了 Lottie 分词器将层级几何体、变换和关键帧运动编码为紧凑 token 序列，构建 660K 动画数据集，基于 Qwen-VL 微调实现从文本/图像直接生成可编辑矢量动画。
+  [CVPR 2026][预训练][矢量动画] 提出首个矢量动画自回归生成框架 LottieGPT，设计了 Lottie 分词器将层级几何体、变换和关键帧运动编码为紧凑 token 序列，构建 660K 动画数据集，基于 Qwen-VL 微调实现从文本/图像直接生成可编辑矢量动画。
 tags:
-  - CVPR 2026
-  - 矢量动画
-  - Lottie
-  - 自回归生成
-  - 分词器
-  - LLM预训练
+  - "CVPR 2026"
+  - "预训练"
+  - "矢量动画"
+  - "Lottie"
+  - "自回归生成"
+  - "分词器"
+  - "多模态"
 ---
 
 # LottieGPT: Tokenizing Vector Animation for Autoregressive Generation

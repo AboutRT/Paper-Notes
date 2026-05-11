@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Co-op: Correspondence-based Novel Object Pose Estimation
 description: >-
-  [CVPR 2025][人体理解][6DoF位姿] 提出 Co-op，通过混合表示（patch分类+偏移回归）实现少量模板下的快速粗估计，配合概率流回归精细化，在 BOP Challenge 七个核心数据集上达到 SOTA。
+  [CVPR 2025][人体理解][6DoF位姿估计] 本文提出 Co-op，一个基于对应关系的新物体6DoF位姿估计框架，在粗估计阶段用混合表示（patch级分类+偏移回归）仅42个模板即可快速准确估计初始位姿，在精细化阶段用概率流回归+可微PnP端到端优化…
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 6DoF位姿估计
-  - 对应关系匹配
-  - PnP算法
-  - 新物体泛化
+  - "CVPR 2025"
+  - "人体理解"
+  - "6DoF位姿估计"
+  - "新物体泛化"
+  - "对应关系匹配"
+  - "混合表示"
+  - "概率流回归"
 ---
 
 # Co-op: Correspondence-based Novel Object Pose Estimation

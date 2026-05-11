@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Risk-Averse Constrained Reinforcement Learning with Optimized Certainty Equivalents
 description: >-
-  [NeurIPS 2025][约束强化学习] 提出一种基于奖励层面(reward-based)的风险感知约束RL框架，使用优化确定性等价(OCE)风险度量同时覆盖目标和约束，建立了参数化强对偶性，并给出模块化算法——可包装标准RL求解器（如PPO）作为黑盒使用。
+  [NeurIPS 2025][强化学习][约束强化学习] 提出一种基于奖励层面(reward-based)的风险感知约束RL框架，使用优化确定性等价(OCE)风险度量同时覆盖目标和约束，建立了参数化强对偶性，并给出模块化算法——可包装标准RL求解器（如PPO）作为黑盒使用。
 tags:
-  - NeurIPS 2025
-  - 约束强化学习
-  - 风险规避
-  - 强化学习
-  - CVaR
-  - 部分拉格朗日松弛
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "约束强化学习"
+  - "风险规避"
+  - "优化确定性等价(OCE)"
+  - "CVaR"
+  - "部分拉格朗日松弛"
 ---
 
 # Risk-Averse Constrained Reinforcement Learning with Optimized Certainty Equivalents

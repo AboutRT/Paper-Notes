@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][AI安全][错误预测] LogitDynamics 通过在 ViT 各层附加轻量分类头，提取层间 logit 轨迹和 top-K 竞争动态特征，训练线性探针来预测模型错误，在跨数据集泛化上优于现有方法。
 tags:
-  - CVPR 2026
-  - AI安全
-  - 错误预测
-  - 置信度估计
-  - Transformer
-  - 层间动态
-  - 幻觉检测
+  - "CVPR 2026"
+  - "AI安全"
+  - "错误预测"
+  - "置信度估计"
+  - "Transformer"
+  - "层间动态"
+  - "幻觉检测"
 ---
 
 # LogitDynamics: Reliable ViT Error Detection from Layerwise Logit Trajectories

@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Motion Prompting: Controlling Video Generation with Motion Trajectories
 description: >-
-  [CVPR 2025][提示学习] 将时空稀疏/稠密点轨迹作为"运动提示"训练ControlNet，用单一模型实现物体控制、相机控制、运动迁移、拖拽编辑等多种运动控制能力，并展现出逼真物理行为的涌现特性。
+  [CVPR 2025][视频生成][提示学习] 将时空稀疏/稠密点轨迹作为"运动提示"训练ControlNet，用单一模型实现物体控制、相机控制、运动迁移、拖拽编辑等多种运动控制能力，并展现出逼真物理行为的涌现特性。
 tags:
-  - CVPR 2025
-  - 提示学习
-  - 扩散模型
-  - point trajectories
-  - ControlNet
-  - camera control
-  - object control
-  - motion transfer
+  - "CVPR 2025"
+  - "视频生成"
+  - "提示学习"
+  - "扩散模型"
+  - "point trajectories"
+  - "ControlNet"
+  - "camera control"
+  - "object control"
+  - "motion transfer"
 ---
 
 # Motion Prompting: Controlling Video Generation with Motion Trajectories

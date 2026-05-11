@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3D高斯溅射] 提出 GaussianGrow，通过从易获取的 3D 点云"生长"3D 高斯来替代从零预测几何+外观的传统方案，利用多视图扩散模型生成一致的外观监督，并通过重叠区域检测+迭代补全机制解决视图融合伪影和不可见区域问题，在合成和真实扫描点云上大幅超越 SOTA。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3D高斯溅射
-  - 点云
-  - 文本引导
-  - 多视图扩散
-  - 外观生成
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "点云"
+  - "文本引导"
+  - "多视图扩散"
+  - "外观生成"
 ---
 
 # GaussianGrow: Geometry-aware Gaussian Growing from 3D Point Clouds with Text Guidance

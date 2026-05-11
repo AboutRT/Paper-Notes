@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][多模态对齐] CALM 提出了一种基于类锚点对齐的生成式多模态表示学习方法，通过引入独立数据集的类标签作为锚点来弥合视频和文本之间的模态鸠沟，利用跨模态概率变分自编码器建模不确定性，在四个 benchmark 上特别是在域外评估中显著超越现有方法。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 多模态对齐
-  - 类锚点概率分布
-  - 变分自编码器
-  - 视频文本检索
-  - 跨模态生成建模
+  - "CVPR 2025"
+  - "图像生成"
+  - "多模态对齐"
+  - "类锚点概率分布"
+  - "变分自编码器"
+  - "视频文本检索"
+  - "跨模态生成建模"
 ---
 
 # Generative Modeling of Class Probability for Multi-Modal Representation Learning

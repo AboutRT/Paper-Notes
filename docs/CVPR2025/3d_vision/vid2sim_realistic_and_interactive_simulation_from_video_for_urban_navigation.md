@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][Sim2Real] Vid2Sim 提出一个从单目视频到真实感+可交互仿真环境的 real2sim 框架，通过几何一致的高斯溅射重建和混合场景表示（GS+Mesh），支持城市导航智能体的强化学习训练，在数字孪生和真实世界中分别提升 31.2% 和 68.3% 的成功率。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - Sim2Real
-  - 3D高斯溅射
-  - 场景重建
-  - 视觉导航
-  - 混合场景表示
+  - "CVPR 2025"
+  - "3D视觉"
+  - "Sim2Real"
+  - "3D高斯溅射"
+  - "场景重建"
+  - "视觉导航"
+  - "混合场景表示"
 ---
 
 # Vid2Sim: Realistic and Interactive Simulation from Video for Urban Navigation

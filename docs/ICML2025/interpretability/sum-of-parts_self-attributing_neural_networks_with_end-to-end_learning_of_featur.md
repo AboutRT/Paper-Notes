@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ICML 2025][可解释性] SOP 提出了一种将任意可微分模型转换为基于分组的自归因神经网络（SANN）的框架，通过端到端学习特征分组实现了在 SANN 中的 SOTA 性能，并从理论上证明了逐特征 SANN 的误差下界和分组 SANN 的零误差可达性。
 tags:
-  - ICML 2025
-  - 可解释性
+  - "ICML 2025"
+  - "可解释性"
 ---
 
 # Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups

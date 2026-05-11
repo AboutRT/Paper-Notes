@@ -2,15 +2,15 @@
 title: >-
   [论文解读] RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness
 description: >-
-  [CVPR 2025][多模态][AI反馈] RLAIF-V 提出一套完全基于开源MLLM的反馈对齐框架，通过去混淆的候选回复生成策略和分治式反馈标注方法来产生高质量偏好数据，并结合DPO迭代训练与自反馈推理时扩展，使7B模型幻觉率降低80.7%，12B模型仅用自身反馈即超越GPT-4V的可信度。
+  [CVPR 2025][多模态VLM][AI反馈] RLAIF-V 提出一套完全基于开源MLLM的反馈对齐框架，通过去混淆的候选回复生成策略和分治式反馈标注方法来产生高质量偏好数据，并结合DPO迭代训练与自反馈推理时扩展，使7B模型幻觉率降低80.7%，12B模型仅用自身反馈即超越GPT-4V的可信度。
 tags:
-  - CVPR 2025
-  - 多模态
-  - AI反馈
-  - 多模态VLM
-  - 偏好学习
-  - 开源对齐
-  - 推理时扩展
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "AI反馈"
+  - "幻觉抑制"
+  - "偏好学习"
+  - "开源对齐"
+  - "推理时扩展"
 ---
 
 # RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness

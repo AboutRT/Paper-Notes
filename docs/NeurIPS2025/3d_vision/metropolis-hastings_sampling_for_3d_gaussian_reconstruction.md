@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][3D视觉][3D高斯溅射] 提出自适应Metropolis-Hastings框架替代3DGS中的启发式密度控制机制，通过多视角光度误差驱动的概率采样实现更高效的高斯分布推断，收敛速度快于3DGS-MCMC。
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - 3D高斯溅射
-  - Metropolis-Hastings
-  - 自适应密度控制
-  - 新视角合成
-  - MCMC
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "3D高斯溅射"
+  - "Metropolis-Hastings"
+  - "自适应密度控制"
+  - "新视角合成"
+  - "MCMC"
 ---
 
 # Metropolis-Hastings Sampling for 3D Gaussian Reconstruction

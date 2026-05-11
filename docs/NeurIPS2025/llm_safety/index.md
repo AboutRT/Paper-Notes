@@ -1,14 +1,25 @@
 ---
 title: >-
-  NeurIPS2025 LLM 安全方向60篇论文解读
+  NeurIPS2025 LLM 安全方向59篇论文解读
 description: >-
-  60篇NeurIPS2025的 LLM 安全方向论文解读，涵盖对抗鲁棒、LLM、联邦学习、推理、强化学习、水印/隐写等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+  59篇NeurIPS2025的 LLM 安全方向论文解读，涵盖对抗鲁棒、LLM、联邦学习、推理、强化学习、水印/隐写等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "NeurIPS2025"
+  - "LLM 安全"
+  - "论文解读"
+  - "论文笔记"
+  - "对抗鲁棒"
+  - "LLM"
+  - "联邦学习"
+  - "推理"
+  - "强化学习"
+  - "水印/隐写"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
 # � LLM 安全
 
-**🧠 NeurIPS2025** · **60** 篇论文解读
+**🧠 NeurIPS2025** · **59** 篇论文解读
 
 📌 **同领域跨会议浏览：** [💬 ACL2026 (21)](../../ACL2026/llm_safety/index.md) · [📷 CVPR2026 (16)](../../CVPR2026/llm_safety/index.md) · [🔬 ICLR2026 (36)](../../ICLR2026/llm_safety/index.md) · [🤖 AAAI2026 (29)](../../AAAI2026/llm_safety/index.md) · [📹 ICCV2025 (8)](../../ICCV2025/llm_safety/index.md) · [🧪 ICML2025 (32)](../../ICML2025/llm_safety/index.md)
 
@@ -37,10 +48,6 @@ description: >-
 **[ALMGuard: Safety Shortcuts and Where to Find Them as Guardrails for Audio-Language Models](almguard_safety_shortcuts_and_where_to_find_them_as_guardrails_for_audio-languag.md)**
 
 :   首个针对音频语言模型（ALM）越狱攻击的防御框架——发现对齐过的 ALM 存在可被激活的潜在安全快捷路径（safety shortcuts），通过 Mel 梯度稀疏掩码（M-GSM）定位关键频率段，施加快捷路径激活扰动（SAP），将平均攻击成功率从 41.6% 降至 4.6%，同时几乎不影响正常任务性能。
-
-**[Angular Steering: Behavior Control via Rotation in Activation Space](angular_steering_behavior_control_via_rotation_in_activation_space.md)**
-
-:   提出Angular Steering，将LLM激活引导统一建模为固定2D子空间中的旋转操作——通过旋转角度提供0°-360°的连续、细粒度、范数保持的行为控制旋钮，统一了激活加法和方向消融为旋转的特例，在Llama 3/Qwen 2.5/Gemma 2（3B-14B）上实现鲁棒的行为调控。
 
 **[Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks Against LLMs](bits_leaked_per_query_information-theoretic_bounds_on_adversarial_attacks_agains.md)**
 

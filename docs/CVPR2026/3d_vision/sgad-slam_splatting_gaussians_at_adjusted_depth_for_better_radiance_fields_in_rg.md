@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][3DGS] 提出SGAD-SLAM，采用像素对齐的简化高斯表示并允许高斯沿射线调整深度偏移以提升渲染质量和可扩展性，同时引入基于几何相似度的GICP跟踪策略加速相机位姿估计，在Replica、TUM、ScanNet和ScanNet++上全面超越最新方法。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 3DGS
-  - RGBD SLAM
-  - 像素对齐高斯
-  - 深度偏移
-  - 广义ICP
+  - "CVPR 2026"
+  - "3D视觉"
+  - "3DGS"
+  - "RGBD SLAM"
+  - "像素对齐高斯"
+  - "深度偏移"
+  - "广义ICP"
 ---
 
 # SGAD-SLAM: Splatting Gaussians at Adjusted Depth for Better Radiance Fields in RGBD SLAM

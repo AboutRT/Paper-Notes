@@ -4,14 +4,14 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][inverse scaling] 通过重新定义物理/数学常量和计量单位（如"令 π=500"），系统研究 LLM 在逆缩放任务中的表现，发现模型规模越大越倾向于锚定记忆中的原始值而拒绝遵循 prompt 的重新定义，且错误信心（拒绝弃权而给出错误答案）随规模上升。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - inverse scaling
-  - redefinition
-  - anchoring
-  - memorization
-  - reasoning flexibility
-  - physical constants
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "inverse scaling"
+  - "redefinition"
+  - "anchoring"
+  - "memorization"
+  - "reasoning flexibility"
+  - "physical constants"
 ---
 
 # Pitfalls of Scale: Investigating the Inverse Task of Redefinition in Large Language Models

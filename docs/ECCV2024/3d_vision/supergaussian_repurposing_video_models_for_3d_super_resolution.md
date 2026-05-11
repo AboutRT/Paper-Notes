@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][3D超分辨率] 提出SuperGaussian，通过复用预训练视频上采样模型实现3D超分辨率，无需类别特定训练，可处理多种3D输入格式（高斯、NeRF、网格等），输出高质量Gaussian Splat模型。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 3D超分辨率
-  - 视频上采样
-  - Gaussian Splatting
-  - 类别无关
-  - 3D生成
+  - "ECCV 2024"
+  - "3D视觉"
+  - "3D超分辨率"
+  - "视频上采样"
+  - "Gaussian Splatting"
+  - "类别无关"
+  - "3D生成"
 ---
 
 # SuperGaussian: Repurposing Video Models for 3D Super Resolution

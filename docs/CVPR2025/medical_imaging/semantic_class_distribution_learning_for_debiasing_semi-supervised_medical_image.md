@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR2025][医学图像][半监督学习] 提出 SCDL 即插即用模块，通过学习类条件代理分布并进行双向对齐（CDBA）+ 语义锚约束（SAC），在嵌入空间显式重塑类条件特征结构，缓解半监督医学影像分割中的监督偏差和表示不平衡。
 tags:
-  - CVPR2025
-  - 医学图像
-  - 半监督学习
-  - class imbalance
-  - class-conditional distribution
-  - proxy learning
-  - 图像分割
+  - "CVPR2025"
+  - "医学图像"
+  - "半监督学习"
+  - "class imbalance"
+  - "class-conditional distribution"
+  - "proxy learning"
+  - "图像分割"
 ---
 
 # Semantic Class Distribution Learning for Debiasing Semi-Supervised Medical Image Segmentation

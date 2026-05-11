@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][视频理解][视频异常理解] 提出VA-GPT，通过空间有效Token选择（SETS）和时间有效Token生成（TETG）两个模块，在MLLM中高效对齐与视频异常相关的关键Token，实现对异常事件的精准检测、描述和时间定位。
 tags:
-  - ICCV 2025
-  - 视频理解
-  - 视频异常理解
-  - 多模态大语言模型
-  - 有效Token选择
-  - 时空对齐
-  - 异常检测
+  - "ICCV 2025"
+  - "视频理解"
+  - "视频异常理解"
+  - "多模态大语言模型"
+  - "有效Token选择"
+  - "时空对齐"
+  - "异常检测"
 ---
 
 # Aligning Effective Tokens with Video Anomaly in Large Language Models

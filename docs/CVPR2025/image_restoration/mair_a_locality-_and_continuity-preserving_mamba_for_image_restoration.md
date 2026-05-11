@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR 2025][图像恢复][Mamba] 提出 MaIR，核心创新是嵌套 S 形扫描策略（NSS）通过条带划分保持局部性 + S 形路径保持连续性，以及序列洗牌注意力（SSA）通过通道级注意力智能聚合不同扫描方向的序列，在超分、去噪、去模糊、去雾 4 大任务 14 个数据集上达到 SOTA。
 tags:
-  - CVPR 2025
-  - 图像恢复
-  - Mamba
-  - state space model
-  - scanning strategy
-  - NSS
-  - SSA
-  - 超分辨率
-  - 去噪
+  - "CVPR 2025"
+  - "图像恢复"
+  - "Mamba"
+  - "state space model"
+  - "scanning strategy"
+  - "NSS"
+  - "SSA"
+  - "超分辨率"
+  - "去噪"
 ---
 
 # MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] BecomingLit: Relightable Gaussian Avatars with Hybrid Neural Shading
 description: >-
-  [NeurIPS 2025][3D视觉][relightable avatar] 提出 BecomingLit，基于 3D Gaussian 原语和混合神经着色（neural diffuse BRDF + 解析 Cook-Torrance specular）从低成本 light stage 多视角序列重建可重光照、实时渲染的高保真头部 avatar，并发布了新的公开 OLAT 人脸数据集。
+  [NeurIPS 2025][3D视觉][relightable avatar] 提出 BecomingLit，基于 3D Gaussian 原语和混合神经着色（neural diffuse BRDF + 解析 Cook-Torrance specular）从低成本 light stage 多视角序列重建可重…
 tags:
-  - NeurIPS 2025
-  - 3D视觉
-  - relightable avatar
-  - 3D Gaussian Splatting
-  - hybrid neural shading
-  - light stage
-  - BRDF
-  - face reconstruction
+  - "NeurIPS 2025"
+  - "3D视觉"
+  - "relightable avatar"
+  - "3D Gaussian Splatting"
+  - "hybrid neural shading"
+  - "light stage"
+  - "BRDF"
+  - "face reconstruction"
 ---
 
 # BecomingLit: Relightable Gaussian Avatars with Hybrid Neural Shading

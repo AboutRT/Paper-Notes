@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][模型压缩][LoRA 迁移] 提出 TiTok 框架，通过 token 级对比超额分数（contrastive excess）实现 LoRA 适配器跨模型高效迁移，无需额外判别器模型，在推理和个性化任务上一致超越 TransLoRA 和知识蒸馏基线。
 tags:
-  - ICLR 2026
-  - 模型压缩
-  - LoRA 迁移
-  - 知识蒸馏
-  - Token 级选择
-  - 参数高效微调
-  - 对比超额分数
+  - "ICLR 2026"
+  - "模型压缩"
+  - "LoRA 迁移"
+  - "知识蒸馏"
+  - "Token 级选择"
+  - "参数高效微调"
+  - "对比超额分数"
 ---
 
 # TiTok: Transfer Token-level Knowledge via Contrastive Excess to Transplant LoRA

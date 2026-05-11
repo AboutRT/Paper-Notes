@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score
 description: >-
-  [CVPR 2026][共形预测] 提出 SemiCP 框架，通过最近邻匹配（NNM）分数将无标签数据引入 conformal prediction 的校准流程，在标注数据极少时将平均覆盖率偏差降低最多 77%，同时缩小预测集。
+  [CVPR 2026][LLM评测][共形预测] 提出 SemiCP 框架，通过最近邻匹配（NNM）分数将无标签数据引入 conformal prediction 的校准流程，在标注数据极少时将平均覆盖率偏差降低最多 77%，同时缩小预测集。
 tags:
-  - CVPR 2026
-  - 共形预测
-  - 半监督学习
-  - LLM评测
-  - 预测集
-  - 最近邻匹配
+  - "CVPR 2026"
+  - "LLM评测"
+  - "共形预测"
+  - "半监督学习"
+  - "不确定性量化"
+  - "预测集"
+  - "最近邻匹配"
 ---
 
 # Semi-Supervised Conformal Prediction With Unlabeled Nonconformity Score

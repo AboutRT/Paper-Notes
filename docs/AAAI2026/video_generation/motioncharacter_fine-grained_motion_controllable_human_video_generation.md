@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MotionCharacter: Fine-Grained Motion Controllable Human Video Generation
 description: >-
-  [AAAI 2026][人体视频生成] 提出 MotionCharacter 框架，通过将运动解耦为动作类型和运动强度两个独立可控维度，实现高保真人体视频生成中的细粒度运动控制和身份一致性保持。
+  [AAAI 2026][视频生成][人体视频生成] 提出 MotionCharacter 框架，通过将运动解耦为动作类型和运动强度两个独立可控维度，实现高保真人体视频生成中的细粒度运动控制和身份一致性保持。
 tags:
-  - AAAI 2026
-  - 人体视频生成
-  - 运动控制
-  - 身份保持
-  - 光流
-  - 扩散模型
+  - "AAAI 2026"
+  - "视频生成"
+  - "人体视频生成"
+  - "运动控制"
+  - "身份保持"
+  - "光流"
+  - "扩散模型"
 ---
 
 # MotionCharacter: Fine-Grained Motion Controllable Human Video Generation

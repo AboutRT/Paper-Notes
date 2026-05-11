@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Good Teacher Adapts Their Knowledge for Distillation
 description: >-
-  [ICCV 2025][模型压缩][知识蒸馏] 本文揭示了知识蒸馏中教师-学生容量差距问题的本质原因在于**输出分布的类内分布不匹配**，并提出 AID（Adapted Intra-class Distribution）方法，在蒸馏前对教师模型进行微调以优化其类内分布使之更符合学生的学习能力，在多种架构组合上取得了SOTA性能。
+  [ICCV 2025][模型压缩][知识蒸馏] 本文揭示了知识蒸馏中教师-学生容量差距问题的本质原因在于**输出分布的类内分布不匹配**，并提出 AID（Adapted Intra-class Distribution）方法，在蒸馏前对教师模型进行微调以优化其类内分布使之更符合学生的学习能力…
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 知识蒸馏
-  - 容量差距
-  - 类内分布
-  - 教师适应
-  - 分布对齐
+  - "ICCV 2025"
+  - "模型压缩"
+  - "知识蒸馏"
+  - "容量差距"
+  - "类内分布"
+  - "教师适应"
+  - "分布对齐"
 ---
 
 # A Good Teacher Adapts Their Knowledge for Distillation

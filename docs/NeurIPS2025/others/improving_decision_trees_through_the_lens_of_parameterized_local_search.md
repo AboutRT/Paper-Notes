@@ -4,12 +4,12 @@ title: >-
 description: >-
   [NeurIPS 2025][决策树] 从参数化复杂度的视角分析决策树的局部搜索优化操作，揭示问题的难度来源，并证明特征数与值域大小的组合可实现固定参数可解(FPT)，同时提供了概念验证实现。
 tags:
-  - NeurIPS 2025
-  - 决策树
-  - 参数化复杂度
-  - 局部搜索
-  - NP完全性
-  - 固定参数可解性
+  - "NeurIPS 2025"
+  - "决策树"
+  - "参数化复杂度"
+  - "局部搜索"
+  - "NP完全性"
+  - "固定参数可解性"
 ---
 
 # Improving Decision Trees through the Lens of Parameterized Local Search

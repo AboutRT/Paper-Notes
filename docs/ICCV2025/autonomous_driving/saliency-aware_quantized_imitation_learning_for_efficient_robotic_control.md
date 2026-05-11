@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control
 description: >-
-  [ICCV 2025][自动驾驶][模型量化] 提出 SQIL（Saliency-Aware Quantized Imitation Learning），通过显著性评分识别任务关键状态并在量化感知训练中加权蒸馏，使 4-bit 量化的 VLA 策略模型在机器人操控和自动驾驶中恢复全精度性能，同时实现 2.5-3.7 倍加速。
+  [ICCV 2025][自动驾驶][模型量化] 提出 SQIL（Saliency-Aware Quantized Imitation Learning），通过显著性评分识别任务关键状态并在量化感知训练中加权蒸馏，使 4-bit 量化的 VLA 策略模型在机器人操控和自动驾驶中恢复全精度性能…
 tags:
-  - ICCV 2025
-  - 自动驾驶
-  - 模型量化
-  - 模仿学习
-  - 显著性感知
-  - 视觉语言动作模型
-  - 边缘部署
+  - "ICCV 2025"
+  - "自动驾驶"
+  - "模型量化"
+  - "模仿学习"
+  - "显著性感知"
+  - "视觉语言动作模型"
+  - "边缘部署"
 ---
 
 # Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control

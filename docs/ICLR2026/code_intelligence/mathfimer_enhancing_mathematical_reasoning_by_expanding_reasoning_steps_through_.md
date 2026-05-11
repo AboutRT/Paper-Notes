@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MathFimer: Enhancing Mathematical Reasoning by Expanding Reasoning Steps through Fill-in-the-Middle Task
 description: >-
-  [ICLR 2026][代码智能] 借鉴代码补全中的 Fill-in-the-Middle (FIM) 范式，训练一个专门的步骤扩展模型 MathFimer-7B，在已有数学解题链中插入更细粒度的中间推理步骤，从而系统性提升下游模型的数学推理能力。
+  [ICLR 2026][代码智能][数学推理] 借鉴代码补全中的 Fill-in-the-Middle (FIM) 范式，训练一个专门的步骤扩展模型 MathFimer-7B，在已有数学解题链中插入更细粒度的中间推理步骤，从而系统性提升下游模型的数学推理能力。
 tags:
-  - ICLR 2026
-  - 代码智能
-  - Fill-in-the-Middle
-  - 推理步骤扩展
-  - Chain-of-Thought
-  - 数据增强
+  - "ICLR 2026"
+  - "代码智能"
+  - "数学推理"
+  - "Fill-in-the-Middle"
+  - "推理步骤扩展"
+  - "Chain-of-Thought"
+  - "数据增强"
 ---
 
 # MathFimer: Enhancing Mathematical Reasoning by Expanding Reasoning Steps through Fill-in-the-Middle Task

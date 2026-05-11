@@ -2,14 +2,15 @@
 title: >-
   [论文解读] IceBreaker for Conversational Agents: Breaking the First-Message Barrier with Personalized Starters
 description: >-
-  [ACL 2026][推荐系统] 本文提出 IceBreaker，通过两步"握手"——共鸣感知兴趣蒸馏捕获触发兴趣 + 交互导向启动语生成配合个性化偏好对齐——解决对话智能体的"首条消息壁垒"，在全球最大对话产品之一的 A/B 测试中提升用户活跃天数 +1.84‰ 和点击率 +94.25‰。
+  [ACL 2026][推荐系统][主动对话发起] 本文提出 IceBreaker，通过两步"握手"——共鸣感知兴趣蒸馏捕获触发兴趣 + 交互导向启动语生成配合个性化偏好对齐——解决对话智能体的"首条消息壁垒"，在全球最大对话产品之一的 A/B 测试中提升用户活跃天数 +1.84‰ 和点击率 +94.25‰。
 tags:
-  - ACL 2026
-  - 推荐系统
-  - 个性化会话启动
-  - 兴趣蒸馏
-  - 偏好对齐
-  - 冷启动
+  - "ACL 2026"
+  - "推荐系统"
+  - "主动对话发起"
+  - "个性化会话启动"
+  - "兴趣蒸馏"
+  - "偏好对齐"
+  - "冷启动"
 ---
 
 # IceBreaker for Conversational Agents: Breaking the First-Message Barrier with Personalized Starters

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] PrinciplismQA: A Philosophy-Grounded Approach to Assessing LLM-Human Clinical Medical Ethics Alignment
 description: >-
-  [ACL 2026][医学图像][医学伦理] 本文基于国际医学伦理黄金标准——Principlism（自主、不伤害、有益、公正四原则），构建了 PrinciplismQA 基准（3,648 题，含知识 MCQA 和开放式临床伦理困境），并配套专家校准的评估流水线，发现 LLM 在知识基准上的高准确率并不等于具备临床伦理推理能力——最强模型 o3 总分也仅 77.5%。
+  [ACL 2026][医学图像][医学伦理] 本文基于国际医学伦理黄金标准——Principlism（自主、不伤害、有益、公正四原则），构建了 PrinciplismQA 基准（3,648 题，含知识 MCQA 和开放式临床伦理困境），并配套专家校准的评估流水线…
 tags:
-  - ACL 2026
-  - 医学图像
-  - 医学伦理
-  - Principlism原则主义
-  - 临床决策对齐
-  - LLM伦理推理
-  - 基准评估
+  - "ACL 2026"
+  - "医学图像"
+  - "医学伦理"
+  - "Principlism原则主义"
+  - "临床决策对齐"
+  - "LLM伦理推理"
+  - "基准评估"
 ---
 
 # PrinciplismQA: A Philosophy-Grounded Approach to Assessing LLM-Human Clinical Medical Ethics Alignment

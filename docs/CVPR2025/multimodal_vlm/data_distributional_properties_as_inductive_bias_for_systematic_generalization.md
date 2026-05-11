@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Data Distributional Properties as Inductive Bias for Systematic Generalization
 description: >-
-  [CVPR 2025][多模态][系统性泛化] 发现仅通过操纵训练数据的分布性质（多样性、突发性、潜在干预）就能诱导多模态遮蔽语言模型实现系统性泛化，其中增加属性多样性可将 OOD 形状预测准确率从 0.6% 提升到 90%，无需任何模型架构或训练策略修改。
+  [CVPR 2025][多模态VLM][系统性泛化] 发现仅通过操纵训练数据的分布性质（多样性、突发性、潜在干预）就能诱导多模态遮蔽语言模型实现系统性泛化，其中增加属性多样性可将 OOD 形状预测准确率从 0.6% 提升到 90%，无需任何模型架构或训练策略修改。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 系统性泛化
-  - 数据分布性质
-  - 归纳偏置
-  - 解纠缠表征
-  - 多模态MLM
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "系统性泛化"
+  - "数据分布性质"
+  - "归纳偏置"
+  - "解纠缠表征"
+  - "多模态MLM"
 ---
 
 # Data Distributional Properties as Inductive Bias for Systematic Generalization

@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Geometric Generative Modeling with Noise-Conditioned Graph Networks
 description: >-
-  [ICML2025][医学图像][Noise-Conditioned Graph Networks] 提出 Noise-Conditioned Graph Networks (NCGNs)，使 GNN 架构根据噪声级别动态调整消息传递的范围和图分辨率：高噪声时用远程连接+低分辨率，低噪声时用局部连接+高分辨率，在 3D 点云、空间转录组和图像生成中均超越固定架构基线。
+  [ICML2025][医学图像][Noise-Conditioned Graph Networks] 提出 Noise-Conditioned Graph Networks (NCGNs)，使 GNN 架构根据噪声级别动态调整消息传递的范围和图分辨率：高噪声时用远程连接+低分辨率，低噪声时用局部连接+高分辨率…
 tags:
-  - ICML2025
-  - 医学图像
-  - Noise-Conditioned Graph Networks
-  - 扩散模型
-  - Flow Matching
-  - 动态消息传递
-  - 图粗粒化
-  - 3D 点云生成
+  - "ICML2025"
+  - "医学图像"
+  - "Noise-Conditioned Graph Networks"
+  - "扩散模型"
+  - "Flow Matching"
+  - "动态消息传递"
+  - "图粗粒化"
+  - "3D 点云生成"
 ---
 
 # Geometric Generative Modeling with Noise-Conditioned Graph Networks

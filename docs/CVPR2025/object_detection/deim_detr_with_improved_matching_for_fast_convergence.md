@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][目标检测][DETR加速] 通过两个简单改进加速 DETR 训练收敛——Dense O2O（用数据增强增加每图目标数实现稠密一对一匹配）和 MAL（替代 VFL 更好地优化低质量匹配），训练 epoch 减半同时性能提升（COCO AP 56.5 with D-FINE-X）。
 tags:
-  - CVPR 2025
-  - 目标检测
-  - DETR加速
-  - 一对一匹配改进
-  - 稠密监督
-  - Matchability-Aware损失
+  - "CVPR 2025"
+  - "目标检测"
+  - "DETR加速"
+  - "一对一匹配改进"
+  - "稠密监督"
+  - "Matchability-Aware损失"
 ---
 
 # DEIM: DETR with Improved Matching for Fast Convergence

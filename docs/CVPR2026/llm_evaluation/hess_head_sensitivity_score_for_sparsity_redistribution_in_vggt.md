@@ -2,14 +2,15 @@
 title: >-
   [论文解读] HeSS: Head Sensitivity Score for Sparsity Redistribution in VGGT
 description: >-
-  [CVPR 2026][注意力稀疏化] HeSS 提出 Head Sensitivity Score 来量化 VGGT 全局注意力层中每个注意力头对稀疏化的敏感程度，并基于此将注意力预算从不敏感的头重新分配到敏感头，在高稀疏度下显著优于均匀稀疏化方法 SparseVGGT，几乎不增加运行时开销。
+  [CVPR 2026][LLM评测][注意力稀疏化] HeSS 提出 Head Sensitivity Score 来量化 VGGT 全局注意力层中每个注意力头对稀疏化的敏感程度，并基于此将注意力预算从不敏感的头重新分配到敏感头，在高稀疏度下显著优于均匀稀疏化方法 SparseVGGT，几乎不增加运行时开销。
 tags:
-  - CVPR 2026
-  - 注意力稀疏化
-  - VGGT
-  - 头部敏感性
-  - Fisher信息矩阵
-  - LLM评测
+  - "CVPR 2026"
+  - "LLM评测"
+  - "注意力稀疏化"
+  - "VGGT"
+  - "头部敏感性"
+  - "Fisher信息矩阵"
+  - "3D重建加速"
 ---
 
 # HeSS: Head Sensitivity Score for Sparsity Redistribution in VGGT

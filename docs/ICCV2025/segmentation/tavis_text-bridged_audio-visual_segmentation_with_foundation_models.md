@@ -2,17 +2,17 @@
 title: >-
   [论文解读] TAViS: Text-bridged Audio-Visual Segmentation with Foundation Models
 description: >-
-  [ICCV 2025][图像分割][音频-视觉分割] 提出 TAViS，一种文本桥接的音频-视觉分割框架，通过耦合 ImageBind 的跨模态对齐能力与 SAM2 的精确分割能力，引入文本桥接的混合提示机制和对齐监督策略，在单源、多源、语义及零样本分割场景上均取得 SOTA 性能。
+  [ICCV 2025][语义分割][音频-视觉分割] 提出 TAViS，一种文本桥接的音频-视觉分割框架，通过耦合 ImageBind 的跨模态对齐能力与 SAM2 的精确分割能力，引入文本桥接的混合提示机制和对齐监督策略，在单源、多源、语义及零样本分割场景上均取得 SOTA 性能。
 tags:
-  - ICCV 2025
-  - 图像分割
-  - 音频-视觉分割
-  - 基础模型
-  - SAM2
-  - ImageBind
-  - 文本桥接
-  - 跨模态对齐
-  - 零样本分割
+  - "ICCV 2025"
+  - "语义分割"
+  - "音频-视觉分割"
+  - "基础模型"
+  - "SAM2"
+  - "ImageBind"
+  - "文本桥接"
+  - "跨模态对齐"
+  - "零样本分割"
 ---
 
 # TAViS: Text-bridged Audio-Visual Segmentation with Foundation Models

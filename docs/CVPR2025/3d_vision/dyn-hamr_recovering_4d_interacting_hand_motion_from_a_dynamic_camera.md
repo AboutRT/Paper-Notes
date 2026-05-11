@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera
 description: >-
-  [CVPR 2025][3D视觉][手部运动恢复] Dyn-HaMR 是首个从动态相机单目视频中恢复 4D 全局手部运动的优化方法，通过三阶段流水线（分层初始化→SLAM 全局运动→交互精炼）将手部与相机运动解耦，在 H2O 上 G-MPJPE 从 96.9mm (HaMeR) 降至 45.6mm，加速度误差从 9.21 降至 4.2。
+  [CVPR 2025][3D视觉][手部运动恢复] Dyn-HaMR 是首个从动态相机单目视频中恢复 4D 全局手部运动的优化方法，通过三阶段流水线（分层初始化→SLAM 全局运动→交互精炼）将手部与相机运动解耦，在 H2O 上 G-MPJPE 从 96.9mm (HaMeR) 降至 45.6mm…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 手部运动恢复
-  - 动态相机
-  - SLAM
-  - 运动先验
-  - 生物力学约束
+  - "CVPR 2025"
+  - "3D视觉"
+  - "手部运动恢复"
+  - "动态相机"
+  - "SLAM"
+  - "运动先验"
+  - "生物力学约束"
 ---
 
 # Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera

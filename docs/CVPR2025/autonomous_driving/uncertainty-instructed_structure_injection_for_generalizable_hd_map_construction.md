@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Uncertainty-Instructed Structure Injection for Generalizable HD Map Construction
 description: >-
-  [CVPR 2025][自动驾驶][HD地图构建] 提出 UIGenMap，通过不确定性感知的透视图(PV)检测分支获取显式结构特征，并基于不确定性权重构建 PV prompt 注入 BEV 地图解码器，结合 Mimic Query 蒸馏实现实时推理，在地理不相交数据拆分上取得 +5.7 mAP 的泛化性能提升。
+  [CVPR 2025][自动驾驶][HD地图构建] 提出 UIGenMap，通过不确定性感知的透视图(PV)检测分支获取显式结构特征，并基于不确定性权重构建 PV prompt 注入 BEV 地图解码器，结合 Mimic Query 蒸馏实现实时推理…
 tags:
-  - CVPR 2025
-  - 自动驾驶
-  - HD地图构建
-  - 不确定性估计
-  - 透视图结构注入
-  - 泛化能力
-  - 蒸馏
+  - "CVPR 2025"
+  - "自动驾驶"
+  - "HD地图构建"
+  - "不确定性估计"
+  - "透视图结构注入"
+  - "泛化能力"
+  - "蒸馏"
 ---
 
 # Uncertainty-Instructed Structure Injection for Generalizable HD Map Construction

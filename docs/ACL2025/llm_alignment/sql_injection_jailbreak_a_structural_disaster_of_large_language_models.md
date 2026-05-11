@@ -2,15 +2,15 @@
 title: >-
   [论文解读] SQL Injection Jailbreak: A Structural Disaster of Large Language Models
 description: >-
-  [ACL 2025 (Findings)][LLM对齐][越狱攻击] 提出 SQL Injection Jailbreak（SIJ），一种利用 LLM 提示构造方式中的结构性漏洞进行越狱的新方法，在开源模型上实现近 100% 攻击成功率，在闭源模型上平均超过 85%，并提出 Self-Reminder-Key 防御方案。
+  [ACL 2025 (Findings)][LLM对齐][越狱攻击] 提出 SQL Injection Jailbreak（SIJ），一种利用 LLM 提示构造方式中的结构性漏洞进行越狱的新方法，在开源模型上实现近 100% 攻击成功率，在闭源模型上平均超过 85%…
 tags:
-  - ACL 2025 (Findings)
-  - LLM对齐
-  - 越狱攻击
-  - SQL注入
-  - 提示注入
-  - 结构性漏洞
-  - LLM安全
+  - "ACL 2025 (Findings)"
+  - "LLM对齐"
+  - "越狱攻击"
+  - "SQL注入"
+  - "提示注入"
+  - "结构性漏洞"
+  - "LLM安全"
 ---
 
 # SQL Injection Jailbreak: A Structural Disaster of Large Language Models

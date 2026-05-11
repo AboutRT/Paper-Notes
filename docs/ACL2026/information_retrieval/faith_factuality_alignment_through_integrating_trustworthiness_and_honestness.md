@@ -2,14 +2,15 @@
 title: >-
   [论文解读] FAITH: Factuality Alignment through Integrating Trustworthiness and Honestness
 description: >-
-  [ACL 2026][信息检索] 本文提出FAITH框架，通过将LLM的不确定性信号（一致性+语义熵）映射到自然语言描述的知识状态象限（可信度×诚实度），设计考虑不确定性的细粒度奖励函数进行PPO训练，再用RAG模块纠正潜在错误，系统性提升LLM的事实准确性。
+  [ACL 2026][信息检索/RAG][事实性对齐] 本文提出FAITH框架，通过将LLM的不确定性信号（一致性+语义熵）映射到自然语言描述的知识状态象限（可信度×诚实度），设计考虑不确定性的细粒度奖励函数进行PPO训练，再用RAG模块纠正潜在错误，系统性提升LLM的事实准确性。
 tags:
-  - ACL 2026
-  - 信息检索
-  - 知识状态象限
-  - 不确定性估计
-  - PPO
-  - 检索增强
+  - "ACL 2026"
+  - "信息检索/RAG"
+  - "事实性对齐"
+  - "知识状态象限"
+  - "不确定性估计"
+  - "PPO"
+  - "检索增强"
 ---
 
 # FAITH: Factuality Alignment through Integrating Trustworthiness and Honestness

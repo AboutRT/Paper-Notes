@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][自动提示优化] 系统综述 80+ 种基于启发式搜索算法的自动 Prompt 优化方法，提出五维分类体系（Where/What/What criteria/Which operators/Which algorithms）将碎片化研究统一到一个完整的分析框架下。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - 自动提示优化
-  - 启发式搜索
-  - 指令优化
-  - 进化算法
-  - 分类体系
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "自动提示优化"
+  - "启发式搜索"
+  - "指令优化"
+  - "进化算法"
+  - "分类体系"
 ---
 
 # A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm

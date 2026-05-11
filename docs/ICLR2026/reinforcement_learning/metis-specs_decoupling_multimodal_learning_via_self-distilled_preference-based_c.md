@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Metis-SPECS: Decoupling Multimodal Learning via Self-distilled Preference-based Cold Start
 description: >-
-  [ICLR 2026][Cold Start] 提出 SPECS 三阶段冷启动框架——先通过自蒸馏生成偏好数据（仅区分格式差异），再用 DPO 做格式预对齐作为冷启动，最后接 GRPO 微调——解耦了格式学习和推理学习，实现 MEGA-Bench +4.1%、MathVista +12.2% 的一致性能提升。
+  [ICLR 2026][强化学习][Cold Start] 提出 SPECS 三阶段冷启动框架——先通过自蒸馏生成偏好数据（仅区分格式差异），再用 DPO 做格式预对齐作为冷启动，最后接 GRPO 微调——解耦了格式学习和推理学习…
 tags:
-  - ICLR 2026
-  - Cold Start
-  - 强化学习
-  - 解耦学习
-  - 自蒸馏
-  - VLM推理
+  - "ICLR 2026"
+  - "强化学习"
+  - "Cold Start"
+  - "DPO"
+  - "解耦学习"
+  - "自蒸馏"
+  - "VLM推理"
 ---
 
 # Metis-SPECS: Decoupling Multimodal Learning via Self-distilled Preference-based Cold Start

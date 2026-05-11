@@ -2,15 +2,15 @@
 title: >-
   [论文解读] AnyControl: Create Your Artwork with Versatile Control on Text-to-Image Generation
 description: >-
-  [ECCV 2024][图像生成][Multi-Control] 提出 AnyControl，通过 Multi-Control Encoder（fusion + alignment 交替块结构）支持任意组合的多种空间控制信号（深度、边缘、分割、姿态），在 COCO 多控制基准上 FID 44.28 全面超越现有方法。
+  [ECCV 2024][图像生成][Multi-Control] 提出 AnyControl，通过 Multi-Control Encoder（fusion + alignment 交替块结构）支持任意组合的多种空间控制信号（深度、边缘、分割、姿态）…
 tags:
-  - ECCV 2024
-  - 图像生成
-  - Multi-Control
-  - text-to-image
-  - Controllable Generation
-  - Spatial Conditions
-  - ControlNet
+  - "ECCV 2024"
+  - "图像生成"
+  - "Multi-Control"
+  - "text-to-image"
+  - "Controllable Generation"
+  - "Spatial Conditions"
+  - "ControlNet"
 ---
 
 # AnyControl: Create Your Artwork with Versatile Control on Text-to-Image Generation

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] You Only Learn One Query: Learning Unified Human Query for Single-Stage Multi-Person Multi-Task Human-Centric Perception
 description: >-
-  [ECCV 2024][图像分割][人体感知] 提出 HQNet 框架，通过学习统一的 Human Query 表示，在单阶段单模型中同时完成行人检测、实例分割、2D 姿态估计、3D Mesh 恢复、属性识别等多种以人为中心的感知任务，并构建了首个全面的多任务人体感知基准 COCO-UniHuman。
+  [ECCV 2024][语义分割][人体感知] 提出 HQNet 框架，通过学习统一的 Human Query 表示，在单阶段单模型中同时完成行人检测、实例分割、2D 姿态估计、3D Mesh 恢复、属性识别等多种以人为中心的感知任务，并构建了首个全面的多任务人体感知基准 COCO-UniHuman。
 tags:
-  - ECCV 2024
-  - 图像分割
-  - 人体感知
-  - 统一查询
-  - 多任务学习
-  - DETR
-  - 实例分割
+  - "ECCV 2024"
+  - "语义分割"
+  - "人体感知"
+  - "统一查询"
+  - "多任务学习"
+  - "DETR"
+  - "实例分割"
 ---
 
 # You Only Learn One Query: Learning Unified Human Query for Single-Stage Multi-Person Multi-Task Human-Centric Perception

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability
 description: >-
-  [ICLR 2026][后训练] 提出Spectrum Tuning后训练方法，通过在90+任务的分布拟合数据集上训练，改善语言模型的上下文可操控性、输出空间覆盖度和分布对齐能力，揭示当前指令调优会损害模型的上下文可操控性。
+  [ICLR 2026][信号/通信][后训练] 提出Spectrum Tuning后训练方法，通过在90+任务的分布拟合数据集上训练，改善语言模型的上下文可操控性、输出空间覆盖度和分布对齐能力，揭示当前指令调优会损害模型的上下文可操控性。
 tags:
-  - ICLR 2026
-  - 后训练
-  - 分布覆盖
-  - 上下文可操控性
-  - 元学习
-  - 信号通信
+  - "ICLR 2026"
+  - "信号/通信"
+  - "后训练"
+  - "分布覆盖"
+  - "上下文可操控性"
+  - "元学习"
+  - "语言模型"
 ---
 
 # Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability

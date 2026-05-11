@@ -2,14 +2,15 @@
 title: >-
   [论文解读] How Language Models Conflate Logical Validity with Plausibility: A Representational Analysis of Content Effects
 description: >-
-  [ACL 2026][内容效应] 通过表示分析揭示 LLM 中"逻辑有效性"和"合理性"两个概念在隐层空间中高度对齐，导致模型将合理性与有效性混淆（内容效应），并构造去偏转向向量有效解耦这两个概念，减少内容效应同时提升推理准确率。
+  [ACL 2026][社会计算][内容效应] 通过表示分析揭示 LLM 中"逻辑有效性"和"合理性"两个概念在隐层空间中高度对齐，导致模型将合理性与有效性混淆（内容效应），并构造去偏转向向量有效解耦这两个概念，减少内容效应同时提升推理准确率。
 tags:
-  - ACL 2026
-  - 内容效应
-  - 逻辑有效性
-  - 合理性
-  - 线性表示
-  - 转向向量
+  - "ACL 2026"
+  - "社会计算"
+  - "内容效应"
+  - "逻辑有效性"
+  - "合理性"
+  - "线性表示"
+  - "转向向量"
 ---
 
 # How Language Models Conflate Logical Validity with Plausibility: A Representational Analysis of Content Effects

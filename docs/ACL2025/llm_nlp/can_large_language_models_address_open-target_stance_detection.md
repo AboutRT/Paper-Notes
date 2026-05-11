@@ -2,16 +2,16 @@
 title: >-
   [论文解读] Can Large Language Models Address Open-Target Stance Detection?
 description: >-
-  [ACL 2025][LLM/NLP][stance detection] 提出开放目标立场检测（OTSD）任务——目标在训练时未见且不作为输入提供，系统评估了 GPT、Gemini、LLaMA、Mistral 四个系列共 8 个 LLM 在目标生成和立场检测两阶段的表现，发现 LLM 整体优于现有 TSE 方法，但在目标未显式出现时表现明显下降。
+  [ACL 2025][LLM/NLP][stance detection] 提出开放目标立场检测（OTSD）任务——目标在训练时未见且不作为输入提供，系统评估了 GPT、Gemini、LLaMA、Mistral 四个系列共 8 个 LLM 在目标生成和立场检测两阶段的表现…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - stance detection
-  - open-target
-  - zero-shot
-  - LLM evaluation
-  - target generation
-  - NLP
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "stance detection"
+  - "open-target"
+  - "zero-shot"
+  - "LLM evaluation"
+  - "target generation"
+  - "NLP"
 ---
 
 # Can Large Language Models Address Open-Target Stance Detection?

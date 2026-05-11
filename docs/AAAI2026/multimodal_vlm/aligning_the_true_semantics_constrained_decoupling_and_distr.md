@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment
 description: >-
-  [AAAI 2026][多模态][跨模态对齐] 提出 CDDS 算法，通过双路径 UNet 将嵌入解耦为语义和模态分量，并利用分布采样方法间接实现跨模态语义对齐，避免直接调整嵌入导致的分布扭曲，在 Flickr30K 和 MS-COCO 上超越 SOTA 6.6%~14.2%。
+  [AAAI 2026][多模态VLM][跨模态对齐] 提出 CDDS 算法，通过双路径 UNet 将嵌入解耦为语义和模态分量，并利用分布采样方法间接实现跨模态语义对齐，避免直接调整嵌入导致的分布扭曲，在 Flickr30K 和 MS-COCO 上超越 SOTA 6.6%~14.2%。
 tags:
-  - AAAI 2026
-  - 多模态
-  - 多模态VLM
-  - 嵌入解耦
-  - 分布采样
-  - 图文检索
-  - 对比学习
+  - "AAAI 2026"
+  - "多模态VLM"
+  - "跨模态对齐"
+  - "嵌入解耦"
+  - "分布采样"
+  - "图文检索"
+  - "对比学习"
 ---
 
 # Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment

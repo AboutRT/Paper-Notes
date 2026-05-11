@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts
 description: >-
-  [ICML 2025][概念瓶颈模型] 揭示概念模型（CBM）中的"泄漏中毒"现象——绕过概念瓶颈的信息泄漏在分布偏移下反而损害预测准确率，使概念干预失效，提出 MixCEM 通过置信度门控动态决定何时使用/丢弃泄漏信息，在分布内外均保持高准确率和有效干预。
+  [ICML 2025][可解释性][概念瓶颈模型] 揭示概念模型（CBM）中的"泄漏中毒"现象——绕过概念瓶颈的信息泄漏在分布偏移下反而损害预测准确率，使概念干预失效，提出 MixCEM 通过置信度门控动态决定何时使用/丢弃泄漏信息，在分布内外均保持高准确率和有效干预。
 tags:
-  - ICML 2025
-  - 概念瓶颈模型
-  - 概念干预
-  - 分布偏移
-  - 泄漏中毒
-  - 可解释性
+  - "ICML 2025"
+  - "可解释性"
+  - "概念瓶颈模型"
+  - "概念干预"
+  - "分布偏移"
+  - "泄漏中毒"
 ---
 
 # Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts

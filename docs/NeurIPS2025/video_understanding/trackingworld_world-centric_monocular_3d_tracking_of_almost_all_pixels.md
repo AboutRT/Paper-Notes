@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][视频理解][3D跟踪] 提出TrackingWorld，一个从单目视频实现几乎所有像素的稠密3D跟踪的流水线，通过跟踪上采样器将稀疏2D轨迹提升为稠密轨迹、迭代跟踪所有帧中新出现的物体、以及基于优化的框架将2D轨迹提升到世界坐标系3D空间并显式分离相机运动和物体运动。
 tags:
-  - NeurIPS 2025
-  - 视频理解
-  - 3D跟踪
-  - 单目视频
-  - 世界坐标系
-  - 稠密跟踪
-  - 相机姿态估计
+  - "NeurIPS 2025"
+  - "视频理解"
+  - "3D跟踪"
+  - "单目视频"
+  - "世界坐标系"
+  - "稠密跟踪"
+  - "相机姿态估计"
 ---
 
 # TrackingWorld: World-centric Monocular 3D Tracking of Almost All Pixels
@@ -116,14 +116,14 @@ $$\mathcal{L}_{\text{dyn}} = \lambda_{\text{ba}} \mathcal{L}_{\text{ba}} + \lamb
 
 ### 稠密3D跟踪深度精度
 
-| 方法 | Sintel Abs Rel↓ | Sintel δ<1.25↑ | Bonn Abs Rel↓ | TUM-D Abs Rel↓ |
+| 方法 | Sintel Abs Rel↓ | Sintel δ&lt;1.25↑ | Bonn Abs Rel↓ | TUM-D Abs Rel↓ |
 |------|----------------|----------------|---------------|----------------|
 | DELTA+UniDepth（无优化） | 0.636 | 63.1 | 0.153 | 0.178 |
 | **Ours (DELTA)** | **0.218** | **73.3** | **0.058** | **0.084** |
 
 ### 消融实验
 
-| 配置 | ATE↓ | RTE↓ | RRE↓ | Abs Rel↓ | δ<1.25↑ |
+| 配置 | ATE↓ | RTE↓ | RRE↓ | Abs Rel↓ | δ&lt;1.25↑ |
 |------|------|------|------|----------|---------|
 | w/o 逐帧跟踪 | 0.171 | 0.047 | 0.748 | / | / |
 | w/o 初始姿态 | 0.659 | 0.153 | 1.382 | 0.230 | 72.4 |

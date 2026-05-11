@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Discounted Cuts: A Stackelberg Approach to Network Disruption
 description: >-
-  [AAAI 2026][Stackelberg博弈] 提出折扣切割（Discounted Cuts）数学模型，将经典 Most Vital Links 问题建模为 Stackelberg 博弈，系统研究8种折扣切割变体的计算复杂性分类，证明所有变体在有界亏格图上均可多项式时间求解。
+  [AAAI 2026][强化学习][Stackelberg博弈] 提出折扣切割（Discounted Cuts）数学模型，将经典 Most Vital Links 问题建模为 Stackelberg 博弈，系统研究8种折扣切割变体的计算复杂性分类，证明所有变体在有界亏格图上均可多项式时间求解。
 tags:
-  - AAAI 2026
-  - Stackelberg博弈
-  - 网络切割
-  - 折扣代价
-  - 有界亏格图
-  - Most Vital Links
+  - "AAAI 2026"
+  - "强化学习"
+  - "Stackelberg博弈"
+  - "网络切割"
+  - "折扣代价"
+  - "有界亏格图"
+  - "Most Vital Links"
 ---
 
 # Discounted Cuts: A Stackelberg Approach to Network Disruption

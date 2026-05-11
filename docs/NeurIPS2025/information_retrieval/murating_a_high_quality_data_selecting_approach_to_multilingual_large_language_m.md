@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining
 description: >-
-  [NeurIPS 2025][信息检索] 提出 MuRating，一个可扩展的多语言数据选择框架：先通过配对比较聚合多个英文数据质量评分器，再借助翻译将质量信号迁移到 17 种语言，训练出语言无关的多语言质量评估模型，在 1.2B 和 7B 规模 LLM 预训练中取得了持续的性能提升。
+  [NeurIPS 2025][信息检索/RAG][多语言数据选择] 提出 MuRating，一个可扩展的多语言数据选择框架：先通过配对比较聚合多个英文数据质量评分器，再借助翻译将质量信号迁移到 17 种语言，训练出语言无关的多语言质量评估模型，在 1.2B 和 7B 规模 LLM 预训练中取得了持续的性能提升…
 tags:
-  - NeurIPS 2025
-  - 信息检索
-  - 预训练数据质量
-  - Bradley-Terry模型
-  - 配对比较
-  - 跨语言对齐
+  - "NeurIPS 2025"
+  - "信息检索/RAG"
+  - "多语言数据选择"
+  - "预训练数据质量"
+  - "Bradley-Terry模型"
+  - "配对比较"
+  - "跨语言对齐"
 ---
 
 # MuRating: A High Quality Data Selecting Approach to Multilingual Large Language Model Pretraining

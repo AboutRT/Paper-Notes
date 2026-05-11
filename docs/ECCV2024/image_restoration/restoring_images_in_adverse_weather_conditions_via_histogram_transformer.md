@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Restoring Images in Adverse Weather Conditions via Histogram Transformer
 description: >-
-  [ECCV 2024][图像恢复][图像恢复] 提出 Histoformer，一种基于直方图自注意力机制的高效 Transformer，通过将空间特征按像素强度排序分箱（bin），在箱内和箱间执行自注意力，实现动态范围的空间注意力以高效处理天气退化像素，配合动态范围卷积和 Pearson 相关性损失，在去雪/去雨雾/去雨滴三大任务上统一建模并达到 SOTA。
+  [ECCV 2024][图像恢复][adverse weather removal] 提出 Histoformer，一种基于直方图自注意力机制的高效 Transformer，通过将空间特征按像素强度排序分箱（bin），在箱内和箱间执行自注意力，实现动态范围的空间注意力以高效处理天气退化像素…
 tags:
-  - ECCV 2024
-  - 图像恢复
-  - adverse weather removal
-  - 注意力机制
-  - dynamic-range convolution
-  - Pearson correlation loss
+  - "ECCV 2024"
+  - "图像恢复"
+  - "adverse weather removal"
+  - "注意力机制"
+  - "dynamic-range convolution"
+  - "Pearson correlation loss"
 ---
 
 # Restoring Images in Adverse Weather Conditions via Histogram Transformer

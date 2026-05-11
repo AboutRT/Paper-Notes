@@ -2,14 +2,15 @@
 title: >-
   [论文解读] DocoPilot: Improving Multimodal Models for Document-Level Understanding
 description: >-
-  [CVPR 2025][文档理解] 本文构建了 Doc-750K——一个包含 758K 问答对和 3.1M 图像的高质量文档级多模态数据集，并基于此训练原生文档理解模型 Docopilot，在 MM-NIAH 上超越 InternVL2-8B 达 19.9 个百分点，无需 RAG 即可高效处理多页文档。
+  [CVPR 2025][信息检索/RAG][文档理解] 本文构建了 Doc-750K——一个包含 758K 问答对和 3.1M 图像的高质量文档级多模态数据集，并基于此训练原生文档理解模型 Docopilot，在 MM-NIAH 上超越 InternVL2-8B 达 19.9 个百分点…
 tags:
-  - CVPR 2025
-  - 文档理解
-  - 信息检索
-  - 多模态数据集
-  - 原生文档模型
-  - 多页推理
+  - "CVPR 2025"
+  - "信息检索/RAG"
+  - "文档理解"
+  - "长上下文"
+  - "多模态数据集"
+  - "原生文档模型"
+  - "多页推理"
 ---
 
 # DocoPilot: Improving Multimodal Models for Document-Level Understanding

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] C3A: Parameter-Efficient Fine-Tuning via Circular Convolution
 description: >-
-  [ACL 2025][模型压缩][PEFT] 提出 Circular Convolution Adaptation (C3A)，用循环卷积算子替代低秩分解实现参数高效微调，通过 FFT 加速和块循环扩展，在参数量与矩阵秩解耦的同时保持与 LoRA 相当的计算效率，在 LLaMA-8B 等模型上全面超越 LoRA 及其变体。
+  [ACL 2025][模型压缩][circular convolution] 提出 C3A 方法用循环卷积算子替代 LoRA 的低秩矩阵分解实现参数高效微调，核心优势是矩阵秩与参数量解耦——可用少量参数实现高秩适配，同时通过 FFT 保持与 LoRA 相当的计算和内存效率…
 tags:
-  - ACL 2025
-  - 模型压缩
-  - PEFT
-  - circular convolution
-  - LoRA
-  - FFT
-  - 参数高效微调
+  - "ACL 2025"
+  - "模型压缩"
+  - "circular convolution"
+  - "LoRA"
+  - "PEFT"
+  - "FFT"
+  - "参数高效微调"
 ---
 
 # C3A: Parameter-Efficient Fine-Tuning via Circular Convolution

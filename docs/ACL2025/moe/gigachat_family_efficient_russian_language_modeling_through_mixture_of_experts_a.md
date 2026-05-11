@@ -2,15 +2,15 @@
 title: >-
   [论文解读] GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture
 description: >-
-  [ACL 2025][LLM效率][Mixture of Experts] 介绍 GigaChat 系列——首个从头为俄语设计并预训练的 MoE 架构 LLM 家族，包含 20B 总参数/3.3B 激活参数的基座和指令微调模型，在俄语 benchmark 上达到同规模 SOTA，训练速度是同量级 dense 模型的 2 倍，推理延迟降低 40%。
+  [ACL 2025][LLM效率][Mixture of Experts] 介绍 GigaChat 系列——首个从头为俄语设计并预训练的 MoE 架构 LLM 家族，包含 20B 总参数/3.3B 激活参数的基座和指令微调模型，在俄语 benchmark 上达到同规模 SOTA…
 tags:
-  - ACL 2025
-  - LLM效率
-  - Mixture of Experts
-  - 俄语LLM
-  - 预训练
-  - tokenizer优化
-  - DPO
+  - "ACL 2025"
+  - "LLM效率"
+  - "Mixture of Experts"
+  - "俄语LLM"
+  - "预训练"
+  - "tokenizer优化"
+  - "DPO"
 ---
 
 # GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture

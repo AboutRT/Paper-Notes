@@ -4,12 +4,12 @@ title: >-
 description: >-
   [CVPR 2025][类增量学习] 提出TagFex框架，通过持续自监督学习捕获任务无关(task-agnostic)特征，并利用merge attention将其与任务特定特征融合后蒸馏回推理模型，缓解扩展式类增量学习中的特征碰撞问题。
 tags:
-  - CVPR 2025
-  - 类增量学习
-  - 特征扩展
-  - 任务无关特征
-  - 其他
-  - 特征碰撞
+  - "CVPR 2025"
+  - "类增量学习"
+  - "特征扩展"
+  - "任务无关特征"
+  - "自监督学习"
+  - "特征碰撞"
 ---
 
 # Task-Agnostic Guided Feature Expansion for Class-Incremental Learning

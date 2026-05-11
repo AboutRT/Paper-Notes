@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Yo'Chameleon: Personalized Vision and Language Generation
 description: >-
-  [CVPR 2025][图像生成][个性化生成] 提出 Yo'Chameleon，首次探索大型多模态模型（LMM）的个性化问题，通过双soft prompt + self-prompting机制 + "soft-positive"训练策略，仅用3-5张图片和32个可学习token就能实现个性化的文本理解和图像生成。
+  [CVPR 2025][图像生成][个性化生成] 提出 Yo'Chameleon，首次探索大型多模态模型（LMM）的个性化问题，通过双soft prompt + self-prompting机制 + "soft-positive"训练策略…
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 个性化生成
-  - 大型多模态模型
-  - 提示学习
-  - 图文统一生成
-  - 少样本学习
+  - "CVPR 2025"
+  - "图像生成"
+  - "个性化生成"
+  - "大型多模态模型"
+  - "提示学习"
+  - "图文统一生成"
+  - "少样本学习"
 ---
 
 # Yo'Chameleon: Personalized Vision and Language Generation

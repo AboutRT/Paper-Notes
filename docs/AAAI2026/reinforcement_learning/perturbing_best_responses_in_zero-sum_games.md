@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Perturbing Best Responses in Zero-Sum Games
 description: >-
-  [AAAI 2026][零和博弈] 本文研究在零和博弈的最优响应预言机（BRO）中引入随机扰动，证明了随机虚拟对弈（SFP）在纯策略数量 $n$ 上可实现 $O(\frac{\log n}{\varepsilon^2})$ 的期望迭代次数，并提出了随机双重预言机（SDO）算法，在特定博弈结构下同样实现对数级收敛。
+  [AAAI 2026][强化学习][零和博弈] 本文研究在零和博弈的最优响应预言机（BRO）中引入随机扰动，证明了随机虚拟对弈（SFP）在纯策略数量 $n$ 上可实现 $O(\frac{\log n}{\varepsilon^2})$ 的期望迭代次数，并提出了随机双重预言机（SDO）算法…
 tags:
-  - AAAI 2026
-  - 零和博弈
-  - Nash均衡
-  - 扰动最优响应
-  - 虚拟对弈
-  - 双重预言机
+  - "AAAI 2026"
+  - "强化学习"
+  - "零和博弈"
+  - "Nash均衡"
+  - "扰动最优响应"
+  - "虚拟对弈"
+  - "双重预言机"
 ---
 
 # Perturbing Best Responses in Zero-Sum Games

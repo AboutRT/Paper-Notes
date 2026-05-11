@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][AI安全][成员推断] 本文提出 Active MINT（aMINT），一种多任务学习框架，在训练审核模型的同时联合训练 MINT 模型，使模型能够以超过 80% 的准确率检测特定数据是否被用于训练，显著优于現有的被动 MINT 和成员推断攻击方法。
 tags:
-  - ICCV 2025
-  - AI安全
-  - 成员推断
-  - 数据审计
-  - 多任务学习
-  - AI可信赖性
-  - 模型透明度
+  - "ICCV 2025"
+  - "AI安全"
+  - "成员推断"
+  - "数据审计"
+  - "多任务学习"
+  - "AI可信赖性"
+  - "模型透明度"
 ---
 
 # Active Membership Inference Test (aMINT): Enhancing Model Auditability with Multi-Task Learning

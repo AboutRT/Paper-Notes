@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV2024][图像恢复][自监督学习] 提出非对称掩码方案 AMSNet，训练时用单掩码、推理时用多掩码互补，突破了 blind spot network 对网络感受野的结构限制，在真实图像自监督去噪任务上取得 SOTA。
 tags:
-  - ECCV2024
-  - 图像恢复
-  - 图像复原
-  - blind spot network
-  - mask strategy
-  - 去噪
-  - asymmetric scheme
+  - "ECCV2024"
+  - "图像恢复"
+  - "自监督学习"
+  - "blind spot network"
+  - "mask strategy"
+  - "去噪"
+  - "asymmetric scheme"
 ---
 
 # Asymmetric Mask Scheme for Self-supervised Real Image Denoising

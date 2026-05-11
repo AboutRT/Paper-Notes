@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Test-Time Adaptive Object Detection with Foundation Model
 description: >-
-  [NeurIPS 2025][目标检测][测试时适应] 提出无需源域数据的开放词汇测试时自适应目标检测框架（TTAOD），通过多模态 Prompt Tuning + Mean-Teacher + 实例动态记忆（IDM）+ 记忆增强/幻觉策略，在 Pascal-C 上 AP50 达 56.2%（+11.0 vs SOTA），在 13 个跨域数据集上一致有效。
+  [NeurIPS 2025][目标检测][测试时适应] 提出无需源域数据的开放词汇测试时自适应目标检测框架（TTAOD），通过多模态 Prompt Tuning + Mean-Teacher + 实例动态记忆（IDM）+ 记忆增强/幻觉策略…
 tags:
-  - NeurIPS 2025
-  - 目标检测
-  - 测试时适应
-  - 开放词汇检测
-  - Mean-Teacher
-  - 提示学习
-  - 动态记忆
+  - "NeurIPS 2025"
+  - "目标检测"
+  - "测试时适应"
+  - "开放词汇检测"
+  - "Mean-Teacher"
+  - "提示学习"
+  - "动态记忆"
 ---
 
 # Test-Time Adaptive Object Detection with Foundation Model
@@ -60,7 +60,7 @@ tags:
 3. **记忆增强 + 记忆幻觉**:
 
     - 功能：增强——用原型精化检测分数；幻觉——为无检测图像合成训练信号
-    - 核心思路：增强——对每个检测框提取 DINOv2 特征与原型计算余弦相似度 $s' = \alpha \exp(-\beta(1 - \text{sim}))$ → 融合原始分数。幻觉——对无伪标签的图像，从 IDM 随机采样实例叠加到图像上（Beta mix $\lambda \sim \text{Beta}(1,1)$, IoU<0.2 防重叠），最多 3 个实例
+    - 核心思路：增强——对每个检测框提取 DINOv2 特征与原型计算余弦相似度 $s' = \alpha \exp(-\beta(1 - \text{sim}))$ → 融合原始分数。幻觉——对无伪标签的图像，从 IDM 随机采样实例叠加到图像上（Beta mix $\lambda \sim \text{Beta}(1,1)$, IoU&lt;0.2 防重叠），最多 3 个实例
     - 设计动机：增强解决单帧检测的不确定性；幻觉解决 Mean-Teacher 因负样本过多而退化的问题——没有正样本 teacher 无法提供有效监督
 
 ### 损失函数 / 训练策略

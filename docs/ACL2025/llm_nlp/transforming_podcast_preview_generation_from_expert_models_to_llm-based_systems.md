@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM/NLP][podcast preview] Spotify 提出用 LLM（Gemini 1.5 Pro）替代传统多模型特征工程流水线来生成播客预览片段，在离线人工评估和线上 A/B 测试中均显著优于传统系统，用户互动时长提升 4.6%，处理效率提升 5 倍。
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - podcast preview
-  - LLM application
-  - content understanding
-  - A/B testing
-  - industry deployment
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "podcast preview"
+  - "LLM application"
+  - "content understanding"
+  - "A/B testing"
+  - "industry deployment"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

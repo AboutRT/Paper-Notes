@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors
 description: >-
-  [ACL 2025][语音][多语言音频文本检索] 从理论上分析多语言音频文本检索（ML-ATR）中跨语言不一致性的根本原因是训练数据分布误差，并提出 1-to-K 对比学习（KCL）和音频-英语共锚对比学习（CACL）两种策略来减少该误差，在召回率和一致性上达到 SOTA。
+  [ACL 2025][音频/语音][多语言音频文本检索] 从理论上分析多语言音频文本检索（ML-ATR）中跨语言不一致性的根本原因是训练数据分布误差，并提出 1-to-K 对比学习（KCL）和音频-英语共锚对比学习（CACL）两种策略来减少该误差，在召回率和一致性上达到 SOTA。
 tags:
-  - ACL 2025
-  - 语音
-  - 音频语音
-  - 跨语言一致性
-  - 对比学习
-  - 模态对齐
-  - 数据分布误差
+  - "ACL 2025"
+  - "音频/语音"
+  - "多语言音频文本检索"
+  - "跨语言一致性"
+  - "对比学习"
+  - "模态对齐"
+  - "数据分布误差"
 ---
 
 # ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors

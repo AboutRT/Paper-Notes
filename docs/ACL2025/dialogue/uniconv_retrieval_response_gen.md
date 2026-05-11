@@ -2,14 +2,15 @@
 title: >-
   [论文解读] UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations
 description: >-
-  [ACL 2025][对话搜索] 探索如何将对话场景中的稠密检索和响应生成统一到单个 LLM 中，通过三个联合训练目标（对话检索 + 响应生成 + 上下文识别指令）和数据差异缓解机制，在五个对话搜索数据集上实现检索和生成的相互促进，超越分离式基线。
+  [ACL 2025][对话系统][对话搜索] 探索如何将对话场景中的稠密检索和响应生成统一到单个 LLM 中，通过三个联合训练目标（对话检索 + 响应生成 + 上下文识别指令）和数据差异缓解机制，在五个对话搜索数据集上实现检索和生成的相互促进，超越分离式基线。
 tags:
-  - ACL 2025
-  - 对话搜索
-  - 统一模型
-  - 检索+生成
-  - 联合训练
-  - 对话系统
+  - "ACL 2025"
+  - "对话系统"
+  - "对话搜索"
+  - "统一模型"
+  - "检索+生成"
+  - "联合训练"
+  - "LLM"
 ---
 
 # UniConv: Unifying Retrieval and Response Generation for Large Language Models in Conversations

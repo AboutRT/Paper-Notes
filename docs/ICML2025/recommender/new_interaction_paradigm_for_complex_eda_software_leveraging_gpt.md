@@ -2,14 +2,15 @@
 title: >-
   [论文解读] New Interaction Paradigm for Complex EDA Software Leveraging GPT
 description: >-
-  [ICML 2025][推荐系统] 提出 SmartonAI 系统，将大语言模型（LLM）和检索增强生成（RAG）集成到 EDA 工具 KiCad 中，通过自然语言交互实现任务分解、文档检索和智能插件推荐与执行，大幅降低复杂工程软件的学习门槛。
+  [ICML 2025][推荐系统][LLM辅助交互] 提出 SmartonAI 系统，将大语言模型（LLM）和检索增强生成（RAG）集成到 EDA 工具 KiCad 中，通过自然语言交互实现任务分解、文档检索和智能插件推荐与执行，大幅降低复杂工程软件的学习门槛。
 tags:
-  - ICML 2025
-  - 推荐系统
-  - 电子设计自动化(EDA)
-  - 检索增强生成(RAG)
-  - 任务分解
-  - 插件推荐
+  - "ICML 2025"
+  - "推荐系统"
+  - "LLM辅助交互"
+  - "电子设计自动化(EDA)"
+  - "检索增强生成(RAG)"
+  - "任务分解"
+  - "插件推荐"
 ---
 
 # New Interaction Paradigm for Complex EDA Software Leveraging GPT

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Active LLMs for Multi-hop Question Answering
 description: >-
-  [ACL 2025][NLP理解][多跳问答] 本文提出一种主动式大语言模型框架，通过让LLM主动决定何时需要检索外部信息、何时可以直接推理，从而在多跳问答任务中实现更高效、更准确的推理过程。
+  [ACL 2025][LLM/NLP][多跳问答] 本文提出一种主动式大语言模型框架，通过让LLM主动决定何时需要检索外部信息、何时可以直接推理，从而在多跳问答任务中实现更高效、更准确的推理过程。
 tags:
-  - ACL 2025
-  - NLP理解
-  - 多跳问答
-  - 主动学习
-  - 大语言模型
-  - 检索增强
-  - 推理链
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "多跳问答"
+  - "主动学习"
+  - "大语言模型"
+  - "检索增强"
+  - "推理链"
 ---
 
 # Active LLMs for Multi-hop Question Answering

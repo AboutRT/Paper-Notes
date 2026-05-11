@@ -2,14 +2,15 @@
 title: >-
   [论文解读] TripCraft: A Benchmark for Spatio-Temporally Fine Grained Travel Planning
 description: >-
-  [ACL 2025][旅行规划基准] 提出TripCraft——一个整合真实世界时空约束（公共交通、活动可用性、用户画像等）的旅行规划基准数据集，配套五个连续评估指标，系统评估LLM生成行程的质量，在参数指导设置下将餐饮时间分数从61%提升至80%。
+  [ACL 2025][LLM评测][旅行规划基准] 提出TripCraft——一个整合真实世界时空约束（公共交通、活动可用性、用户画像等）的旅行规划基准数据集，配套五个连续评估指标，系统评估LLM生成行程的质量，在参数指导设置下将餐饮时间分数从61%提升至80%。
 tags:
-  - ACL 2025
-  - 旅行规划基准
-  - 时空约束
-  - LLM评测
-  - 个性化行程生成
-  - 连续评估指标
+  - "ACL 2025"
+  - "LLM评测"
+  - "旅行规划基准"
+  - "时空约束"
+  - "LLM评估"
+  - "个性化行程生成"
+  - "连续评估指标"
 ---
 
 # TripCraft: A Benchmark for Spatio-Temporally Fine Grained Travel Planning

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][模型压缩][量化感知训练] 指出传统学习率调度对量化感知训练（QAT）中量化权重的有效步长控制失效，提出转换率（Transition Rate）调度技术，通过自适应学习率（TALR）显式控制量化权重的离散跳变次数，显著提升低比特量化模型性能。
 tags:
-  - ICCV 2025
-  - 模型压缩
-  - 量化感知训练
-  - 转换率调度
-  - 自适应学习率
-  - 网络量化
-  - 低比特精度
+  - "ICCV 2025"
+  - "模型压缩"
+  - "量化感知训练"
+  - "转换率调度"
+  - "自适应学习率"
+  - "网络量化"
+  - "低比特精度"
 ---
 
 # Scheduling Weight Transitions for Quantization-Aware Training

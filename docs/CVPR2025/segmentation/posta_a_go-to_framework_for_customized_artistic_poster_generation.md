@@ -2,15 +2,15 @@
 title: >-
   [论文解读] POSTA: A Go-to Framework for Customized Artistic Poster Generation
 description: >-
-  [CVPR 2025][图像分割][海报生成] 提出 POSTA，一个由扩散模型和多模态大语言模型驱动的模块化艺术海报生成框架，通过背景生成、版式设计规划和艺术文字风格化三个模块实现高度可定制的专业级海报创作。
+  [CVPR 2025][语义分割][海报生成] 提出 POSTA，一个由扩散模型和多模态大语言模型驱动的模块化艺术海报生成框架，通过背景生成、版式设计规划和艺术文字风格化三个模块实现高度可定制的专业级海报创作。
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 海报生成
-  - 扩散模型
-  - 多模态大语言模型
-  - 艺术文字
-  - 版式设计
+  - "CVPR 2025"
+  - "语义分割"
+  - "海报生成"
+  - "扩散模型"
+  - "多模态大语言模型"
+  - "艺术文字"
+  - "版式设计"
 ---
 
 # POSTA: A Go-to Framework for Customized Artistic Poster Generation

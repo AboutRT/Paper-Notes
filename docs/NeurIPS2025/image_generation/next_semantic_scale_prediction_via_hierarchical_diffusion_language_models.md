@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Next Semantic Scale Prediction via Hierarchical Diffusion Language Models
 description: >-
-  [NeurIPS 2025][图像生成][离散扩散模型] 提出 HDLM（Hierarchical Diffusion Language Model），通过在 clean token 和 mask token 之间引入具有粗粒度语义的聚类 token 中间层级，实现"下一语义尺度预测"的离散扩散语言建模，推导闭式 ELBO，在 OpenWebText 上困惑度一致优于 MDLM/GIDD，随机扰动后生成困惑度降低 62%。
+  [NeurIPS 2025][图像生成][离散扩散模型] 提出 HDLM（Hierarchical Diffusion Language Model），通过在 clean token 和 mask token 之间引入具有粗粒度语义的聚类 token 中间层级，实现"下一语义尺度预测"的离散扩散语言建模…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 离散扩散模型
-  - 层级词汇表
-  - 语义尺度预测
-  - 语言建模
-  - CTMC
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "离散扩散模型"
+  - "层级词汇表"
+  - "语义尺度预测"
+  - "语言建模"
+  - "CTMC"
 ---
 
 # Next Semantic Scale Prediction via Hierarchical Diffusion Language Models
@@ -117,7 +117,7 @@ OpenWebText（DiT 架构，GPT-2 tokenizer，131B tokens）：
 - 最优聚类数约 sqrt(|V|)，将生成分为两个等复杂度阶段
 - 随机扰动是杀手锏：Gen PPL 从 144.2 暴降至 54.15
 - MDLM 是 HDLM 的特例（n=1），理论和实验均验证
-- Force transition 在 xi<1 时仍有效，上下文鲁棒性比就地纠错更重要
+- Force transition 在 xi&lt;1 时仍有效，上下文鲁棒性比就地纠错更重要
 
 ## 亮点与洞察
 

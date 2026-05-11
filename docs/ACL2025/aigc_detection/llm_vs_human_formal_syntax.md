@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Comparing LLM-generated and human-authored news text using formal syntactic theory
 description: >-
-  [ACL 2025][HPSG] 首次使用 **HPSG 形式句法理论**（通过英语资源语法 ERG）从句法构式（298 种）、词汇类型（1398 种）和词法规则（100 种）三个层级系统比较 6 个 LLM 与人类 NYT 新闻写作的语法差异，发现 LLM 在语法特征上是人类作者的 **"均值化"投影**——人类个体作者间的语法差异反而大于任何人类与 LLM 的差异，而 LLM 之间几乎无差别。
+  [ACL 2025][AIGC检测][HPSG] 首次使用 **HPSG 形式句法理论**（通过英语资源语法 ERG）从句法构式（298 种）、词汇类型（1398 种）和词法规则（100 种）三个层级系统比较 6 个 LLM 与人类 NYT 新闻写作的语法差异…
 tags:
-  - ACL 2025
-  - HPSG
-  - English Resource Grammar
-  - AIGC检测
-  - syntactic diversity
-  - authorship analysis
+  - "ACL 2025"
+  - "AIGC检测"
+  - "HPSG"
+  - "English Resource Grammar"
+  - "LLM text analysis"
+  - "syntactic diversity"
+  - "authorship analysis"
 ---
 
 # Comparing LLM-generated and human-authored news text using formal syntactic theory

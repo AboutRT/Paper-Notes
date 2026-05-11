@@ -4,15 +4,15 @@ title: >-
 description: >-
   [CVPR 2026][图像生成][超分辨率] 提出 OARS 框架，通过基于 MLLM 的过程感知奖励模型 COMPASS 和渐进式在线强化学习（冷启动→有参考 RL→无参考 RL），首次系统解决生成式真实世界图像超分辨率中的人类偏好对齐问题，在保持保真度的同时显著提升感知质量。
 tags:
-  - CVPR 2026
-  - 图像生成
-  - 超分辨率
-  - RLHF
-  - reward model
-  - Online RL
-  - Flow Matching
-  - MLLM
-  - Image Quality Assessment
+  - "CVPR 2026"
+  - "图像生成"
+  - "超分辨率"
+  - "RLHF"
+  - "reward model"
+  - "Online RL"
+  - "Flow Matching"
+  - "MLLM"
+  - "Image Quality Assessment"
 ---
 
 # OARS: Process-Aware Online Alignment for Generative Real-World Image Super-Resolution

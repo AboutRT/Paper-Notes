@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage
 description: >-
-  [ICML 2025][多模态][Hyper-Detailed Captioning] 提出 CapMAS 多智能体系统，通过 LLM-MLLM 协作将详细图文描述分解为原子命题并逐一验证真实性来纠正幻觉，同时引入从事实性和覆盖度两个维度评估详细描述的框架，显著提升了包括 GPT-4V 在内的多种 MLLM 的描述质量。
+  [ICML 2025][多模态VLM][Hyper-Detailed Captioning] 提出 CapMAS 多智能体系统，通过 LLM-MLLM 协作将详细图文描述分解为原子命题并逐一验证真实性来纠正幻觉，同时引入从事实性和覆盖度两个维度评估详细描述的框架…
 tags:
-  - ICML 2025
-  - 多模态
-  - Hyper-Detailed Captioning
-  - 多模态VLM
-  - Multiagent System
-  - Factuality
-  - Coverage Evaluation
+  - "ICML 2025"
+  - "多模态VLM"
+  - "Hyper-Detailed Captioning"
+  - "Hallucination"
+  - "Multiagent System"
+  - "Factuality"
+  - "Coverage Evaluation"
 ---
 
 # Toward Robust Hyper-Detailed Image Captioning: A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage

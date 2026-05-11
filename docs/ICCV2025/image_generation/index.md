@@ -3,6 +3,17 @@ title: >-
   ICCV2025 图像生成方向213篇论文解读
 description: >-
   213篇ICCV2025的图像生成方向论文解读，涵盖扩散模型、文生图、图像编辑、对抗鲁棒、少样本学习、个性化生成等方向。覆盖该方向前沿研究进展与技术创新，每篇含一句话总结、核心思想、方法详解、实验结果与局限性分析，5分钟读懂一篇论文核心思想。
+tags:
+  - "ICCV2025"
+  - "图像生成"
+  - "论文解读"
+  - "论文笔记"
+  - "扩散模型"
+  - "文生图"
+  - "图像编辑"
+  - "对抗鲁棒"
+  - "少样本学习"
+  - "个性化生成"
 ---
 
 <!-- 由 src/gen_blog_index.py 自动生成 -->
@@ -10,7 +21,7 @@ description: >-
 
 **📹 ICCV2025** · **213** 篇论文解读
 
-📌 **同领域跨会议浏览：** [💬 ACL2026 (11)](../../ACL2026/image_generation/index.md) · [📷 CVPR2026 (208)](../../CVPR2026/image_generation/index.md) · [🔬 ICLR2026 (154)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (78)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (247)](../../NeurIPS2025/image_generation/index.md) · [🧪 ICML2025 (112)](../../ICML2025/image_generation/index.md)
+📌 **同领域跨会议浏览：** [💬 ACL2026 (11)](../../ACL2026/image_generation/index.md) · [📷 CVPR2026 (208)](../../CVPR2026/image_generation/index.md) · [🔬 ICLR2026 (154)](../../ICLR2026/image_generation/index.md) · [🤖 AAAI2026 (78)](../../AAAI2026/image_generation/index.md) · [🧠 NeurIPS2025 (247)](../../NeurIPS2025/image_generation/index.md) · [🧪 ICML2025 (110)](../../ICML2025/image_generation/index.md)
 
 🔥 **高频主题：** 扩散模型 ×86 · 文生图 ×17 · 图像编辑 ×15 · 对抗鲁棒 ×12 · 少样本学习 ×8
 

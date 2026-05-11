@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][图像生成][文本到图像生成] 提出 CURE 基准与评分套件，利用**属性规范的边际效用**（Marginal Information Attribution）作为人类判断的代理指标，系统评估 T2I 系统在全球文化长尾分布上的代表性能力。
 tags:
-  - ICCV 2025
-  - 图像生成
-  - 文本到图像生成
-  - 文化代表性
-  - 基准评测
-  - 边际信息归因
-  - 长尾偏差
+  - "ICCV 2025"
+  - "图像生成"
+  - "文本到图像生成"
+  - "文化代表性"
+  - "基准评测"
+  - "边际信息归因"
+  - "长尾偏差"
 ---
 
 # CURE: Cultural Gaps in the Long Tail of Text-to-Image Systems

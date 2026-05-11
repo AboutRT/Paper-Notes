@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HeatFormer: A Neural Optimizer for Multiview Human Mesh Recovery
 description: >-
-  [CVPR 2025][3D视觉][人体网格恢复] 提出HeatFormer——一种基于Transformer的神经优化器，通过将SMPL参数估计转化为热力图生成与对齐问题，实现对多视角图像中人体形状和姿态的迭代优化恢复，在Human3.6M上达到29.5mm MPJPE的SOTA精度，且对视角数量、相机配置和遮挡具有强鲁棒性。
+  [CVPR 2025][人体理解][人体网格恢复] 提出HeatFormer——一种基于Transformer的神经优化器，通过将SMPL参数估计转化为热力图生成与对齐问题，实现对多视角图像中人体形状和姿态的迭代优化恢复，在Human3.6M上达到29.5mm MPJPE的SOTA精度…
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 人体网格恢复
-  - 多视角
-  - 神经优化器
-  - 热力图
-  - Transformer
+  - "CVPR 2025"
+  - "人体理解"
+  - "人体网格恢复"
+  - "多视角"
+  - "神经优化器"
+  - "热力图"
+  - "Transformer"
 ---
 
 # HeatFormer: A Neural Optimizer for Multiview Human Mesh Recovery

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICCV 2025][3D视觉][网格生成] 提出VertexRegen，受渐进网格启发将网格生成重新定义为边折叠(edge collapse)的逆操作——顶点分裂(vertex split)的学习，实现连续细节层级的"随时停止"网格生成。
 tags:
-  - ICCV 2025
-  - 3D视觉
-  - 网格生成
-  - 渐进网格
-  - 连续细节层级
-  - 自回归
-  - 顶点分裂
+  - "ICCV 2025"
+  - "3D视觉"
+  - "网格生成"
+  - "渐进网格"
+  - "连续细节层级"
+  - "自回归"
+  - "顶点分裂"
 ---
 
 # VertexRegen: Mesh Generation with Continuous Level of Detail

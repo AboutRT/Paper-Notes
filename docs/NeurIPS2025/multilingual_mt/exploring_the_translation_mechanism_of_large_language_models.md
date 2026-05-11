@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Exploring the Translation Mechanism of Large Language Models
 description: >-
-  [NeurIPS 2025][translation mechanism] 提出 subspace-intervened path patching 方法对 LLM 翻译机制进行精细因果分析，发现翻译由不到 5% 的稀疏 attention head 驱动——分为 source head、indicator head、positional head 三类功能角色，MLP 将其特征整合为以英语为中心的中间表示，仅微调 64 个关键 head 即可匹配全参数微调性能。
+  [NeurIPS 2025][多语言/翻译][translation mechanism] 提出 subspace-intervened path patching 方法对 LLM 翻译机制进行精细因果分析…
 tags:
-  - NeurIPS 2025
-  - translation mechanism
-  - 多语言翻译
-  - 注意力机制
-  - path patching
-  - subspace intervention
+  - "NeurIPS 2025"
+  - "多语言/翻译"
+  - "translation mechanism"
+  - "mechanistic interpretability"
+  - "注意力机制"
+  - "path patching"
+  - "subspace intervention"
 ---
 
 # Exploring the Translation Mechanism of Large Language Models
@@ -62,7 +63,7 @@ tags:
     - 设计动机：验证了之前"LLM 用英语作为隐式计算枢纽"的假说，并从因果层面证实
 
 ### 验证：靶向微调
-仅微调检测到的 64 个关键 attention head（<5% 参数），在词级和句级翻译上均达到或超过全参数微调的性能。
+仅微调检测到的 64 个关键 attention head（&lt;5% 参数），在词级和句级翻译上均达到或超过全参数微调的性能。
 
 ## 实验关键数据
 
@@ -70,7 +71,7 @@ tags:
 
 | 指标 | 数值 |
 |------|------|
-| 翻译关键 attention head 占比 | <5% |
+| 翻译关键 attention head 占比 | &lt;5% |
 | 跨语言对 head 重叠率（同源/目标） | >70% |
 | 跨双向翻译 head 重叠率 | >60% |
 | 关键 head 集中层区间 | 12-20 层 + 最后 2 层 |
@@ -80,15 +81,15 @@ tags:
 | 配置 | 参数量 | 翻译性能 |
 |------|--------|---------|
 | 全参数微调 | 100% | 基线 |
-| 仅微调 64 个 head | <5% | **可比或更好** |
+| 仅微调 64 个 head | &lt;5% | **可比或更好** |
 | 微调 top-5 共享 head | - | 词级 -39% logits |
 
 ### Knockout 验证
 
 | 操作 | 翻译准确率变化 |
 |------|--------------|
-| 逐步敲除关键 head | 显著下降（从 90%→<30%） |
-| 逐步敲除随机 head | 波动 <2% |
+| 逐步敲除关键 head | 显著下降（从 90%→&lt;30%） |
+| 逐步敲除随机 head | 波动 &lt;2% |
 | 敲除关键 MLP | 类似显著下降 |
 
 ### 关键发现
@@ -99,7 +100,7 @@ tags:
 ## 亮点与洞察
 - **Subspace 投影 path patching**：通过在翻译特定子空间内干预，大幅提升了因果分析的精度和可解释性，这种方法可推广到其他任务的机制分析
 - **三类 head 的功能分化**：清晰地将翻译过程分解为"提取源语言内容 → 识别翻译任务信号 → 维护位置信息"三个子功能
-- **<5% 参数微调实验**：将机制理解直接转化为实用的参数高效微调策略
+- **&lt;5% 参数微调实验**：将机制理解直接转化为实用的参数高效微调策略
 
 ## 局限与展望
 - **主要在词级翻译上分析**：虽然验证了句级迁移，但核心分析仍在简化的词级设置

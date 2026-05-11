@@ -2,15 +2,15 @@
 title: >-
   [论文解读] ReCoQA: A Benchmark for Tool-Augmented and Multi-Step Reasoning in Real Estate Question and Answering
 description: >-
-  [ACL 2026][LLM推理][工具增强推理] 本文构建了 ReCoQA——一个包含 29,270 个房地产问答对的大规模基准，要求模型融合数据库查询和地图 API 调用进行混合多源推理，并提出层次化多 Agent 框架 HIRE-Agent 作为强基线，系统性地揭示了现有 LLM 在垂直领域复杂推理中的瓶颈。
+  [ACL 2026][LLM推理][工具增强推理] 本文构建了 ReCoQA——一个包含 29,270 个房地产问答对的大规模基准，要求模型融合数据库查询和地图 API 调用进行混合多源推理，并提出层次化多 Agent 框架 HIRE-Agent 作为强基线…
 tags:
-  - ACL 2026
-  - LLM推理
-  - 工具增强推理
-  - 多步推理
-  - 房地产问答
-  - 多Agent框架
-  - 基准数据集
+  - "ACL 2026"
+  - "LLM推理"
+  - "工具增强推理"
+  - "多步推理"
+  - "房地产问答"
+  - "多Agent框架"
+  - "基准数据集"
 ---
 
 # ReCoQA: A Benchmark for Tool-Augmented and Multi-Step Reasoning in Real Estate Question and Answering

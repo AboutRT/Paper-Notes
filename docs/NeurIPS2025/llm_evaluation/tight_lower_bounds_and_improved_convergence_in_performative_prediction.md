@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Tight Lower Bounds and Improved Convergence in Performative Prediction
 description: >-
-  [NeurIPS 2025][Performative Prediction] 在 performative prediction 框架下，首次证明了 Repeated Risk Minimization (RRM) 收敛率的紧致性，并提出 Affine Risk Minimizers (ARM) 算法类，通过利用历史训练快照的数据实现更广泛问题类上的收敛。
+  [NeurIPS 2025][LLM评测][Performative Prediction] 在 performative prediction 框架下，首次证明了 Repeated Risk Minimization (RRM) 收敛率的紧致性…
 tags:
-  - NeurIPS 2025
-  - Performative Prediction
-  - 收敛率
-  - 下界
-  - Repeated Risk Minimization
-  - 决策依赖分布
+  - "NeurIPS 2025"
+  - "LLM评测"
+  - "Performative Prediction"
+  - "收敛率"
+  - "下界"
+  - "Repeated Risk Minimization"
+  - "决策依赖分布"
 ---
 
 # Tight Lower Bounds and Improved Convergence in Performative Prediction

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] A Topological Rewriting of Tarski's Mereogeometry
 description: >-
-  [AAAI 2026][Tarski几何] 在 Coq 定理证明器中扩展 λ-MM 库，将基于 Leśniewski 部分学（mereology）的 Tarski 固体几何重写为具备完整拓扑结构的形式化系统，证明部分学类对应正则开集、满足 Kuratowski 内部公理且具有 Hausdorff（T2）性质，从而为定性空间推理提供了统一的部分学-几何-拓扑理论框架。
+  [AAAI 2026][Tarski几何] 在 Coq 定理证明器中扩展 λ-MM 库，将基于 Leśniewski 部分学（mereology）的 Tarski 固体几何重写为具备完整拓扑结构的形式化系统，证明部分学类对应正则开集、满足 Kuratowski 内部公理且具有 Hausdorff（T2）性质…
 tags:
-  - AAAI 2026
-  - Tarski几何
-  - 部分学
-  - 拓扑空间
-  - Coq定理证明
-  - 正则开集
-  - 其他
+  - "AAAI 2026"
+  - "Tarski几何"
+  - "部分学"
+  - "拓扑空间"
+  - "Coq定理证明"
+  - "正则开集"
+  - "定性空间推理"
 ---
 
 # A Topological Rewriting of Tarski's Mereogeometry

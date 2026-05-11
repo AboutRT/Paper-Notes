@@ -1,14 +1,16 @@
 ---
-title: "[论文解读] CountVid: Open-World Object Counting in Videos"
+title: >-
+  [论文解读] CountVid: Open-World Object Counting in Videos
 description: >-
-  [AAAI 2026][视频计数] 提出CountVid模型和VideoCount数据集，结合图像计数模型与可提示视频分割追踪模型实现开放世界视频物体计数，通过文本或图像描述指定目标，有效处理遮挡和重复出现，在TAO/MOT20等场景上显著超越基线。
+  [AAAI 2026][医学图像][开放世界计数] 提出 CountVid 模型和 VideoCount 数据集，首次系统研究开放世界视频物体计数任务——给定文本或图像描述指定目标物体，枚举视频中所有独特实例，通过组合图像计数模型和可提示视频分割追踪模型解决遮挡、重复出现等挑战…
 tags:
-  - AAAI 2026
-  - 视频计数
-  - 开放世界
-  - 目标追踪
-  - 医学图像
-  - 多模态查询
+  - "AAAI 2026"
+  - "医学图像"
+  - "开放世界计数"
+  - "视频计数"
+  - "追踪"
+  - "视频分割"
+  - "多模态查询"
 ---
 
 # CountVid: Open-World Object Counting in Videos

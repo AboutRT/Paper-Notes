@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ICCV 2025][运动估计] 本文提出了一种统一的线性 N-point 求解器，能够从具有任意时间戳的 2D 点对应中恢复相机线速度和 3D 点结构，适用于全局快门、滚动快门和事件相机等多种传感器模式。
 tags:
-  - ICCV 2025
-  - 运动估计
-  - 异步特征轨迹
-  - 线性求解器
-  - 事件相机
-  - 滚动快门
+  - "ICCV 2025"
+  - "运动估计"
+  - "异步特征轨迹"
+  - "线性求解器"
+  - "事件相机"
+  - "滚动快门"
 ---
 
 # A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks

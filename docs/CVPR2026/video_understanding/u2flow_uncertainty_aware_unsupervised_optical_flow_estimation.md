@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][视频理解][光流估计] U2Flow是首个联合估计光流和逐像素不确定性的循环无监督框架，通过基于增强一致性的解耦不确定性学习和不确定性引导的双向光流融合，在KITTI和Sintel上实现无监督SOTA。
 tags:
-  - CVPR 2026
-  - 视频理解
-  - 光流估计
-  - 不确定性估计
-  - 无监督学习
-  - 循环网络
-  - 增强一致性
+  - "CVPR 2026"
+  - "视频理解"
+  - "光流估计"
+  - "不确定性估计"
+  - "无监督学习"
+  - "循环网络"
+  - "增强一致性"
 ---
 
 # U2Flow: Uncertainty-Aware Unsupervised Optical Flow Estimation

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][PAC learning] 提出"带改进的 PAC 学习"框架：当 agent 能真正提升自身特征至多 $r$ 时，保守分类器可实现零误差（将标准 PAC 中不可能的目标变为可能），有限 VC 维既非充分也非必要条件，改进学习与标准 PAC 和策略性分类存在本质分离。
 tags:
-  - ICML 2025
-  - PAC learning
-  - strategic improvement
-  - sample complexity
-  - VC dimension
-  - intersection-closed
-  - zero-error
+  - "ICML 2025"
+  - "PAC learning"
+  - "strategic improvement"
+  - "sample complexity"
+  - "VC dimension"
+  - "intersection-closed"
+  - "zero-error"
 ---
 
 # PAC Learning with Improvements

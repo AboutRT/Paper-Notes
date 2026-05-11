@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Correlation Dimension of Auto-Regressive Large Language Models
 description: >-
-  [NeurIPS 2025][模型压缩][关联维度] 本文将分形几何中的关联维度（Correlation Dimension）引入LLM分析，通过度量next-token对数概率向量之间的递归结构来量化文本的层次化复杂度，揭示了LLM预训练的三阶段演化、幻觉倾向指示以及多种文本退化模式的统一检测能力——这些是困惑度（perplexity）无法捕捉的。
+  [NeurIPS 2025][模型压缩][关联维度] 本文将分形几何中的关联维度（Correlation Dimension）引入LLM分析，通过度量next-token对数概率向量之间的递归结构来量化文本的层次化复杂度…
 tags:
-  - NeurIPS 2025
-  - 模型压缩
-  - 关联维度
-  - 分形几何
-  - 文本退化检测
-  - LLM预训练动态
-  - 幻觉指标
+  - "NeurIPS 2025"
+  - "模型压缩"
+  - "关联维度"
+  - "分形几何"
+  - "文本退化检测"
+  - "LLM预训练动态"
+  - "幻觉指标"
 ---
 
 # Correlation Dimension of Auto-Regressive Large Language Models
@@ -67,7 +67,7 @@ tags:
 
 ### 计算优化
 
-通过GPU kernel融合和词表缩减两个技术实现10倍以上加速，零额外显存开销。在4-bit量化（GPTQ/AWQ）下关联维度变化<3%，保证了在生产环境中的可用性。
+通过GPU kernel融合和词表缩减两个技术实现10倍以上加速，零额外显存开销。在4-bit量化（GPTQ/AWQ）下关联维度变化&lt;3%，保证了在生产环境中的可用性。
 
 ## 实验关键数据
 
@@ -78,8 +78,8 @@ tags:
 | 自然语言关联维度 | ~6.5（多模型一致） | GPT2/Pythia/Falcon3/OpenLLaMA/Yi1.5/Mamba在SEP数据集上趋近一致值 |
 | 编程语言关联维度 | ~5.0 | Python/Java/C一致，低于自然语言 |
 | 随机打乱文本 | >10 | 高维度反映无结构 |
-| 重复文本 | <2.0 | 低维度反映简单模式 |
-| Polya urn过程 | <2.0 | 自增强过程维度极低 |
+| 重复文本 | &lt;2.0 | 低维度反映简单模式 |
+| Polya urn过程 | &lt;2.0 | 自增强过程维度极低 |
 
 ### 消融实验（退化检测）
 

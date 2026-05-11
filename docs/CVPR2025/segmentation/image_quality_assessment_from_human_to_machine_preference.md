@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Image Quality Assessment: From Human to Machine Preference
 description: >-
-  [CVPR 2025][图像分割][图像质量评估] 本文首次提出面向机器视觉的图像质量评估（IQA for MVS），构建了包含 225 万细粒度标注和 3 万参考/失真图像对的 Machine Preference Database (MPD)，实验证明现有 HVS-centric IQA 指标无法准确表征机器偏好，揭示了人类与机器视觉系统间的根本性差异。
+  [CVPR 2025][语义分割][图像质量评估] 本文首次提出面向机器视觉的图像质量评估（IQA for MVS），构建了包含 225 万细粒度标注和 3 万参考/失真图像对的 Machine Preference Database (MPD)…
 tags:
-  - CVPR 2025
-  - 图像分割
-  - 图像质量评估
-  - 机器偏好
-  - 多模态大模型
-  - 下游任务
-  - 数据库构建
+  - "CVPR 2025"
+  - "语义分割"
+  - "图像质量评估"
+  - "机器偏好"
+  - "多模态大模型"
+  - "下游任务"
+  - "数据库构建"
 ---
 
 # Image Quality Assessment: From Human to Machine Preference

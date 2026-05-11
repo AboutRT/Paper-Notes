@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] 提出 REGEN，用扩散 Transformer（DiT）替代传统 VAE 解码器作为视频的再生式解码器，通过"生成而非精确重建"的学习范式突破视频时序压缩瓶颈，实现最高 32× 时序压缩。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # REGEN: Learning Compact Video Embedding with (Re-)Generative Decoder

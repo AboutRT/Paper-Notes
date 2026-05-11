@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][LLM/NLP][过度拒绝] 提出EvoRefuse框架，通过进化搜索最大化ELBO来自动生成多样的伪恶意指令，构建了更具挑战性的过度拒绝评估基准(EvoRefuse-Test)和有效的对齐缓解数据集(EvoRefuse-Align)。
 tags:
-  - NeurIPS 2025
-  - LLM/NLP
-  - 过度拒绝
-  - 安全对齐
-  - 进化算法
-  - 提示优化
-  - 伪恶意指令
+  - "NeurIPS 2025"
+  - "LLM/NLP"
+  - "过度拒绝"
+  - "安全对齐"
+  - "进化算法"
+  - "提示优化"
+  - "伪恶意指令"
 ---
 
 # EvoRefuse: 用进化提示优化评估和缓解LLM过度拒绝

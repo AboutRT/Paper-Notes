@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICLR 2026][强化学习][经验回放] 首次系统研究什么样的推理经验对RLVR最有价值，发现中等难度问题+低熵轨迹最有效，据此提出ExGRPO框架进行经验管理和混合策略优化，在数学推理上平均+3.5分，通用推理+7.6分。
 tags:
-  - ICLR 2026
-  - 强化学习
-  - 经验回放
-  - RLVR
-  - 推理强化学习
-  - 经验管理
-  - GRPO
+  - "ICLR 2026"
+  - "强化学习"
+  - "经验回放"
+  - "RLVR"
+  - "推理强化学习"
+  - "经验管理"
+  - "GRPO"
 ---
 
 # ExGRPO: Learning to Reason from Experience

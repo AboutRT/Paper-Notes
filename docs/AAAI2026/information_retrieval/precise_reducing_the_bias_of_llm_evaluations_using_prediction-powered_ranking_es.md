@@ -2,14 +2,15 @@
 title: >-
   [论文解读] PRECISE: Reducing the Bias of LLM Evaluations Using Prediction-Powered Ranking Estimation
 description: >-
-  [AAAI 2026][信息检索] 将Prediction-Powered Inference（PPI）框架扩展到子实例级别的排序指标（如Precision@K），通过仅30-100条人工标注+大量LLM评判结果获得无偏的排序指标估计，计算复杂度从 $O(2^{|C|})$ 降至 $O(2^K)$，在印度电商搜索场景中成功指导LLM查询改写系统上线。
+  [AAAI 2026][信息检索/RAG][LLM评估] 将Prediction-Powered Inference（PPI）框架扩展到子实例级别的排序指标（如Precision@K），通过仅30-100条人工标注+大量LLM评判结果获得无偏的排序指标估计…
 tags:
-  - AAAI 2026
-  - 信息检索
-  - Prediction-Powered Inference
-  - 排序指标
-  - 偏差校正
-  - 人工标注
+  - "AAAI 2026"
+  - "信息检索/RAG"
+  - "LLM评估"
+  - "Prediction-Powered Inference"
+  - "排序指标"
+  - "偏差校正"
+  - "人工标注"
 ---
 
 # PRECISE: Reducing the Bias of LLM Evaluations Using Prediction-Powered Ranking Estimation

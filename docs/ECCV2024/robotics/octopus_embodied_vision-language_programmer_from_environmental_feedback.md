@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Octopus: Embodied Vision-Language Programmer from Environmental Feedback
 description: >-
-  [ECCV2024][具身智能] 提出 Octopus，一个具身视觉-语言编程模型，通过生成可执行代码来连接高层规划与底层操控，并引入 Reinforcement Learning with Environmental Feedback (RLEF) 训练方案来提升决策质量。
+  [ECCV2024][机器人][具身智能] 提出 Octopus，一个具身视觉-语言编程模型，通过生成可执行代码来连接高层规划与底层操控，并引入 Reinforcement Learning with Environmental Feedback (RLEF) 训练方案来提升决策质量。
 tags:
-  - ECCV2024
-  - 具身智能
-  - 机器人
-  - 代码生成
-  - 强化学习
-  - environmental feedback
+  - "ECCV2024"
+  - "机器人"
+  - "具身智能"
+  - "视觉语言"
+  - "代码生成"
+  - "强化学习"
+  - "environmental feedback"
 ---
 
 # Octopus: Embodied Vision-Language Programmer from Environmental Feedback

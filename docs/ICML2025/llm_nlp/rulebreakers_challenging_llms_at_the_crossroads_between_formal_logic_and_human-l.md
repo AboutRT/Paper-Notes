@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ICML 2025][LLM/NLP][rulebreaker] 构建首个大规模"规则破坏者"数据集 RULEBREAKERS（25,600 实例），系统评估 7 个 LLM 在形式逻辑推理与事实知识冲突时的表现，发现模型普遍倾向过度刚性地应用逻辑规则而忽略常识，与人类推理行为存在显著偏离。
 tags:
-  - ICML 2025
-  - LLM/NLP
-  - rulebreaker
-  - formal logic
-  - human-like reasoning
-  - modus tollens
-  - disjunctive syllogism
+  - "ICML 2025"
+  - "LLM/NLP"
+  - "rulebreaker"
+  - "formal logic"
+  - "human-like reasoning"
+  - "modus tollens"
+  - "disjunctive syllogism"
 ---
 
 # RULEBREAKERS: Challenging LLMs at the Crossroads between Formal Logic and Human-like Reasoning
@@ -88,12 +88,12 @@ RULEBREAKERS 是一个包含 25,600 个实例的评估数据集，由 12,800 个
 
 | 模型 | $\Pi_{D^R}^+$ (%) | $\Pi_{D^N}^+$ (%) | 差异显著性 |
 |------|-------------------|-------------------|-----------|
-| Phi-3-mini | 92.05 | 96.22 | p<0.0001 |
-| Phi-3-medium | 93.96 | 97.16 | p<0.0001 |
-| LLaMA-3-8B | 77.20 | 90.46 | p<0.0001 |
-| LLaMA-3-70B | 96.34 | 99.95 | p<0.0001 |
-| Mistral-7B | 92.55 | 98.11 | p<0.0001 |
-| Gemma-2-27b | 97.99 | 100.00 | p<0.0001 |
+| Phi-3-mini | 92.05 | 96.22 | p&lt;0.0001 |
+| Phi-3-medium | 93.96 | 97.16 | p&lt;0.0001 |
+| LLaMA-3-8B | 77.20 | 90.46 | p&lt;0.0001 |
+| LLaMA-3-70B | 96.34 | 99.95 | p&lt;0.0001 |
+| Mistral-7B | 92.55 | 98.11 | p&lt;0.0001 |
+| Gemma-2-27b | 97.99 | 100.00 | p&lt;0.0001 |
 
 ### 关键发现
 

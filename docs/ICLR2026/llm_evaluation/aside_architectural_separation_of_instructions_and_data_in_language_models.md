@@ -2,14 +2,15 @@
 title: >-
   [论文解读] ASIDE: Architectural Separation of Instructions and Data in Language Models
 description: >-
-  [ICLR 2026][instruction-data separation] 提出 ASIDE，一种在 token embedding 层面通过正交旋转区分指令和数据的架构级改造，仅需修改前向传播并在标准指令微调数据上训练，即可显著提升指令-数据分离度和 prompt injection 鲁棒性，无需任何安全专项训练。
+  [ICLR 2026][LLM评测][instruction-data separation] 提出 ASIDE，一种在 token embedding 层面通过正交旋转区分指令和数据的架构级改造，仅需修改前向传播并在标准指令微调数据上训练…
 tags:
-  - ICLR 2026
-  - instruction-data separation
-  - 提示学习
-  - orthogonal rotation
-  - LLM评测
-  - architectural safety
+  - "ICLR 2026"
+  - "LLM评测"
+  - "instruction-data separation"
+  - "提示学习"
+  - "orthogonal rotation"
+  - "token embedding"
+  - "architectural safety"
 ---
 
 # ASIDE: Architectural Separation of Instructions and Data in Language Models

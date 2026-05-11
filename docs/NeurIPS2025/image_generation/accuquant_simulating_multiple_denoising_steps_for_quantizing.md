@@ -4,13 +4,13 @@ title: >-
 description: >-
   [NeurIPS 2025][图像生成][训练后量化] 揭示扩散模型量化中的误差累积现象——每步的量化误差会传递并放大到后续步骤——并提出在 PTQ 校准阶段显式模拟连续多步去噪过程来联合优化量化参数的方法，同时通过巧妙的目标函数设计将内存从 O(n) 降至 O(1)。
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 训练后量化
-  - 扩散模型
-  - 误差累积
-  - 多步采样模拟
-  - O(1)内存优化
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "训练后量化"
+  - "扩散模型"
+  - "误差累积"
+  - "多步采样模拟"
+  - "O(1)内存优化"
 ---
 
 # AccuQuant: Simulating Multiple Denoising Steps for Quantizing Diffusion Models

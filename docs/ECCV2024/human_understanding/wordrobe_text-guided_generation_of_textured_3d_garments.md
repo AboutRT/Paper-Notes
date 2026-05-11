@@ -2,15 +2,15 @@
 title: >-
   [论文解读] WordRobe: Text-Guided Generation of Textured 3D Garments
 description: >-
-  [ECCV 2024][人体理解][Text-to-3D Garment] 提出 WordRobe，通过 coarse-to-fine 两阶段编码-解码框架学习 3D 服装 UDF 隐空间，利用弱监督 CLIP 映射网络实现文本驱动的 3D 服装生成与编辑，并利用 ControlNet 的 view-composited 属性在单次前向推理中生成视角一致的纹理贴图，速度比 Text2Tex 快 13 倍。
+  [ECCV 2024][人体理解][Text-to-3D Garment] 提出 WordRobe，通过 coarse-to-fine 两阶段编码-解码框架学习 3D 服装 UDF 隐空间，利用弱监督 CLIP 映射网络实现文本驱动的 3D 服装生成与编辑…
 tags:
-  - ECCV 2024
-  - 人体理解
-  - Text-to-3D Garment
-  - Latent Space
-  - UDF
-  - ControlNet Texture
-  - CLIP-guided Generation
+  - "ECCV 2024"
+  - "人体理解"
+  - "Text-to-3D Garment"
+  - "Latent Space"
+  - "UDF"
+  - "ControlNet Texture"
+  - "CLIP-guided Generation"
 ---
 
 # WordRobe: Text-Guided Generation of Textured 3D Garments

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] STAR-Teaming: A Strategy-Response Multiplex Network Approach to Automated LLM Red Teaming
 description: >-
-  [ACL 2026][LLM对齐][红队测试] 本文提出 STAR-Teaming，一种基于策略-响应多路复用网络（Multiplex Network）的自动化红队测试框架，通过将攻击策略选择建模为逆 Ising 问题的概率优化，在 HarmBench 上达到平均 74.5% 的攻击成功率，比最强基线高 13.5%，同时显著降低计算开销。
+  [ACL 2026][LLM对齐][红队测试] 本文提出 STAR-Teaming，一种基于策略-响应多路复用网络（Multiplex Network）的自动化红队测试框架，通过将攻击策略选择建模为逆 Ising 问题的概率优化，在 HarmBench 上达到平均 74.5% 的攻击成功率…
 tags:
-  - ACL 2026
-  - LLM对齐
-  - 红队测试
-  - LLM安全
-  - 多路复用网络
-  - 策略采样
-  - 越狱攻击
+  - "ACL 2026"
+  - "LLM对齐"
+  - "红队测试"
+  - "LLM安全"
+  - "多路复用网络"
+  - "策略采样"
+  - "越狱攻击"
 ---
 
 # STAR-Teaming: A Strategy-Response Multiplex Network Approach to Automated LLM Red Teaming

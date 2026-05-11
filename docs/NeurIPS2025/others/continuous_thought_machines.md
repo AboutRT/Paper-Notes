@@ -2,14 +2,14 @@
 title: >-
   [论文解读] Continuous Thought Machines
 description: >-
-  [NeurIPS 2025][神经动力学] 提出 Continuous Thought Machine (CTM)，通过私有参数化的 Neuron-Level Models (NLMs) 产生神经元级时间动力学，并以神经同步矩阵作为核心潜在表征，在迷宫求解、ImageNet 分类、奇偶校验等任务上展现复杂推理、自适应计算和可解释注意力行为。
+  [NeurIPS 2025][神经动力学] 提出 Continuous Thought Machine (CTM)，通过私有参数化的 Neuron-Level Models (NLMs) 产生神经元级时间动力学，并以神经同步矩阵作为核心潜在表征…
 tags:
-  - NeurIPS 2025
-  - 神经动力学
-  - 神经同步
-  - 自适应计算
-  - 循环架构
-  - 生物启发
+  - "NeurIPS 2025"
+  - "神经动力学"
+  - "神经同步"
+  - "自适应计算"
+  - "循环架构"
+  - "生物启发"
 ---
 
 # Continuous Thought Machines
@@ -92,7 +92,7 @@ $$L = \frac{\mathcal{L}^{t_1} + \mathcal{L}^{t_2}}{2}, \quad t_1 = \arg\min_t \m
 |------|------|
 | Top-1 准确率 | 72.47% |
 | Top-5 准确率 | 89.89% |
-| 80% 确定度提前停止 | 大部分样本 <10 ticks |
+| 80% 确定度提前停止 | 大部分样本 &lt;10 ticks |
 | 模型校准 | 优秀（不同 tick 的平均概率高度校准） |
 
 ### 奇偶校验（64 位序列，累积奇偶预测）

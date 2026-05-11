@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence
 description: >-
-  [ICML 2025][过程奖励模型] 提出基于模型预测置信度自动划分推理步骤的方法 AdaptiveStep，用于训练更精确的 Process Reward Model（ASPRM），在数学推理和代码生成任务上以不到 70% 的数据构建成本超越现有开源 PRM，并能通过 Token 级引导解码进一步提升推理性能。
+  [ICML 2025][代码智能][过程奖励模型] 提出基于模型预测置信度自动划分推理步骤的方法 AdaptiveStep，用于训练更精确的 Process Reward Model（ASPRM），在数学推理和代码生成任务上以不到 70% 的数据构建成本超越现有开源 PRM…
 tags:
-  - ICML 2025
-  - 过程奖励模型
-  - 代码智能
-  - 模型置信度
-  - Token-level Value-guided Decoding
-  - 数学推理
+  - "ICML 2025"
+  - "代码智能"
+  - "过程奖励模型"
+  - "推理步骤划分"
+  - "模型置信度"
+  - "Token-level Value-guided Decoding"
+  - "数学推理"
 ---
 
 # AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence
@@ -72,7 +73,7 @@ $$\mathcal{L}_{PRM}^\theta = -\sum_{k=1}^{K} (r_k^e \log r_k^\theta + (1-r_k^e) 
 
 | 数据集 | 指标 | ASPRM | 之前SOTA | 提升 |
 |--------|------|-------|----------|------|
-| GSM8k (BoN) | Accuracy | ASPRM-L 最优 | Math-Shepherd, ER-PRM | 成本<70%下超越 |
+| GSM8k (BoN) | Accuracy | ASPRM-L 最优 | Math-Shepherd, ER-PRM | 成本&lt;70%下超越 |
 | MATH500 (TVD) | Accuracy | 28.60% (ASPRM-L) | 27.80% (ER-PRM) | +0.8% |
 | GSM8k (TVD) | Accuracy | 79.53% | 77.10% (greedy) | +3.15% |
 | MATH500 (TVD) | Accuracy | 42.00% (ASPRM-L) | 38.80% (greedy) | +14.4% (相对) |

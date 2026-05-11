@@ -2,13 +2,14 @@
 title: >-
   [论文解读] A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions: Representation, Training, Generalization
 description: >-
-  [ICML 2025][注意力机制] 从"交互实体"统一视角出发，证明单层线性 self-attention 以 $\Theta(|\mathcal{S}|^2)$ 参数高效表示、学习并泛化成对交互函数（全连接网络需 $\Omega(L^2|\mathcal{S}|^2)$），并在此理论基础上提出 HyperFeatureAttention（特征级交互耦合）和 HyperAttention（高阶多实体交互）两个新模块，在语言建模中降低了 perplexity。
+  [ICML 2025][强化学习][注意力机制] 从"交互实体"统一视角出发，证明单层线性 self-attention 以 $\Theta(|\mathcal{S}|^2)$ 参数高效表示、学习并泛化成对交互函数（全连接网络需 $\Omega(L^2|\mathcal{S}|^2)$）…
 tags:
-  - ICML 2025
-  - 注意力机制
-  - mutual interaction
-  - representation theory
-  - 强化学习
+  - "ICML 2025"
+  - "强化学习"
+  - "注意力机制"
+  - "mutual interaction"
+  - "representation theory"
+  - "length generalization"
 ---
 
 # A Theoretical Study of (Hyper) Self-Attention through the Lens of Interactions: Representation, Training, Generalization
@@ -111,7 +112,7 @@ tags:
 
 - "Self-attention 是成对交互学习器"这一统一视角极具解释力，将 MARL 值函数、基因表达、时间序列、视觉等看似无关的任务连接起来
 - Corollary 4.9 的不变量变换是一个精巧的理论工具——它解释了为什么不同随机种子训练出的参数看似不同但功能等价
-- HFA 的设计思路（用 Hadamard 积实现特征级注意力耦合）简洁高效、计算开销可忽略（<0.1%），可作为实用的多头注意力增强手段
+- HFA 的设计思路（用 Hadamard 积实现特征级注意力耦合）简洁高效、计算开销可忽略（&lt;0.1%），可作为实用的多头注意力增强手段
 
 ## 局限性
 

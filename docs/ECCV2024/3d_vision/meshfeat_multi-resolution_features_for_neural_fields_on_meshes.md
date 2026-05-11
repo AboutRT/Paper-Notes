@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][参数化特征编码] 提出MeshFeat，一种适用于mesh上神经场的参数化多分辨率特征编码方法，利用网格简化算法构建多分辨率特征表示，在保持重建质量的同时实现13倍推理加速。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 参数化特征编码
-  - 多分辨率网格
-  - 神经场
-  - 网格简化
-  - 纹理重建
+  - "ECCV 2024"
+  - "3D视觉"
+  - "参数化特征编码"
+  - "多分辨率网格"
+  - "神经场"
+  - "网格简化"
+  - "纹理重建"
 ---
 
 # MeshFeat: Multi-Resolution Features for Neural Fields on Meshes

@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][人体理解][人体运动恢复] HumanMM首次提出从多镜头视频中恢复世界坐标系下3D人体运动的框架，通过镜头转换检测器、增强SLAM、基于立体标定的朝向对齐和运动积分器，实现了跨镜头的连续运动重建。
 tags:
-  - CVPR 2025
-  - 人体理解
-  - 人体运动恢复
-  - 多镜头视频
-  - 世界坐标系
-  - 镜头转换对齐
-  - SLAM
+  - "CVPR 2025"
+  - "人体理解"
+  - "人体运动恢复"
+  - "多镜头视频"
+  - "世界坐标系"
+  - "镜头转换对齐"
+  - "SLAM"
 ---
 
 # HumanMM: Global Human Motion Recovery from Multi-shot Videos

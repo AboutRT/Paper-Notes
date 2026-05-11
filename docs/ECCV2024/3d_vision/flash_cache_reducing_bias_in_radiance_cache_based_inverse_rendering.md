@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉][逆渲染] 提出一种无偏的辐射缓存逆渲染方法，通过遮挡感知的vMF重要性采样和快速缓存控制变量技术，在保持计算效率的同时消除现有方法中的渲染偏差，提升材质和光照分解的质量。
 tags:
-  - ECCV 2024
-  - 3D视觉
-  - 逆渲染
-  - 辐射缓存
-  - 方差缩减
-  - 控制变量
-  - 重要性采样
+  - "ECCV 2024"
+  - "3D视觉"
+  - "逆渲染"
+  - "辐射缓存"
+  - "方差缩减"
+  - "控制变量"
+  - "重要性采样"
 ---
 
 # Flash Cache: Reducing Bias in Radiance Cache Based Inverse Rendering

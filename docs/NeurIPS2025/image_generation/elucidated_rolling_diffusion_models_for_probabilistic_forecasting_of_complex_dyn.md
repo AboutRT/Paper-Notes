@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics
 description: >-
-  [NeurIPS 2025][图像生成][扩散模型] 提出 ERDM，首次将滚动扩散（Rolling Diffusion）框架与 EDM 的原则性设计（噪声调度、预条件化、Heun 采样器）成功统一，通过渐进噪声调度显式建模不确定性增长，在 Navier-Stokes 和 ERA5 天气预报任务上显著优于自回归 EDM 基线。
+  [NeurIPS 2025][图像生成][扩散模型] 提出 ERDM，首次将滚动扩散（Rolling Diffusion）框架与 EDM 的原则性设计（噪声调度、预条件化、Heun 采样器）成功统一，通过渐进噪声调度显式建模不确定性增长…
 tags:
-  - NeurIPS 2025
-  - 图像生成
-  - 扩散模型
-  - EDM
-  - probabilistic forecasting
-  - weather prediction
-  - Navier-Stokes
+  - "NeurIPS 2025"
+  - "图像生成"
+  - "扩散模型"
+  - "EDM"
+  - "probabilistic forecasting"
+  - "weather prediction"
+  - "Navier-Stokes"
 ---
 
 # Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics
@@ -124,7 +124,7 @@ ERDM 的 NFE 减少 5×，总推理时间反而略快，但内存占用翻倍。
 ## 局限与展望
 
 1. 3D 去噪器架构的 **GPU 内存需求翻倍**（49GB vs 21GB），限制了向更高分辨率扩展
-2. 短期天气预报（<2 天）性能不如 IFS ENS，受制于 EDM 初始化策略和架构非针对天气优化
+2. 短期天气预报（&lt;2 天）性能不如 IFS ENS，受制于 EDM 初始化策略和架构非针对天气优化
 3. 依赖外部模型初始化首窗，增加了系统复杂度
 4. 显式损失加权可能不如重要性采样方法，留有改进空间
 

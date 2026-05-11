@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis
 description: >-
-  [NeurIPS 2025][Stackelberg博弈] 提出首个具有非渐近收敛保证的单循环Actor-Critic算法AC-SMFG，用于求解Stackelberg平均场博弈（SMFG），收敛速率达到 $\widetilde{\mathcal{O}}(k^{-1/2})$。
+  [NeurIPS 2025][强化学习][Stackelberg博弈] 提出首个具有非渐近收敛保证的单循环Actor-Critic算法AC-SMFG，用于求解Stackelberg平均场博弈（SMFG），收敛速率达到 $\widetilde{\mathcal{O}}(k^{-1/2})$。
 tags:
-  - NeurIPS 2025
-  - Stackelberg博弈
-  - 平均场博弈
-  - Actor-Critic
-  - 非渐近收敛
-  - 强化学习
+  - "NeurIPS 2025"
+  - "强化学习"
+  - "Stackelberg博弈"
+  - "平均场博弈"
+  - "Actor-Critic"
+  - "非渐近收敛"
+  - "双层优化"
 ---
 
 # Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis

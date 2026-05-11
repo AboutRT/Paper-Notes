@@ -2,9 +2,9 @@
 title: >-
   [论文解读] SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning
 description: >-
-  [多模态] SC-Captioner 提出了一种基于策略梯度的多轮强化学习框架，通过设计包含正确性奖励和错误惩罚的纠错奖励函数，使大型视觉语言模型获得图像描述的自纠错能力，同时提出改进的 CAPTURE 评估指标。
+  [多模态VLM] SC-Captioner 提出了一种基于策略梯度的多轮强化学习框架，通过设计包含正确性奖励和错误惩罚的纠错奖励函数，使大型视觉语言模型获得图像描述的自纠错能力，同时提出改进的 CAPTURE 评估指标。
 tags:
-  - 多模态
+  - "多模态VLM"
 ---
 
 # SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning

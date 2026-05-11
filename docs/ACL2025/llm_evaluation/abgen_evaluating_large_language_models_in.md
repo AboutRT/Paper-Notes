@@ -2,14 +2,15 @@
 title: >-
   [论文解读] AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research
 description: >-
-  [ACL 2025][ablation study design] 提出 AbGen——首个评估 LLM 设计消融实验能力的基准（1500 条专家标注数据来自 807 篇 NLP 论文），发现最强 LLM (DeepSeek-R1) 与人类专家差距 14.4%，且 LLM-as-Judge 评分与人类评估严重不一致。
+  [ACL 2025][LLM评测][ablation study design] 提出 AbGen——首个评估 LLM 设计消融实验能力的基准（1500 条专家标注数据来自 807 篇 NLP 论文），发现最强 LLM (DeepSeek-R1) 与人类专家差距 14.4%…
 tags:
-  - ACL 2025
-  - ablation study design
-  - scientific research
-  - LLM evaluation
-  - experiment design
-  - meta-evaluation
+  - "ACL 2025"
+  - "LLM评测"
+  - "ablation study design"
+  - "scientific research"
+  - "LLM evaluation"
+  - "experiment design"
+  - "meta-evaluation"
 ---
 
 # AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research

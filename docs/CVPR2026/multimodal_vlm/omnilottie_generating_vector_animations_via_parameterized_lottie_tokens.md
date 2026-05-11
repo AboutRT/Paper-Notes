@@ -2,15 +2,15 @@
 title: >-
   [论文解读] OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens
 description: >-
-  [CVPR 2026][多模态][Lottie] OmniLottie 提出一种将 Lottie JSON 文件转化为结构化命令-参数序列的 Lottie Tokenizer，使预训练 VLM 可以基于多模态交叉指令生成高质量矢量动画，并构建了 MMLottie-2M 大规模数据集支撑训练。
+  [CVPR 2026][多模态VLM][Lottie] OmniLottie 提出一种将 Lottie JSON 文件转化为结构化命令-参数序列的 Lottie Tokenizer，使预训练 VLM 可以基于多模态交叉指令生成高质量矢量动画，并构建了 MMLottie-2M 大规模数据集支撑训练。
 tags:
-  - CVPR 2026
-  - 多模态
-  - Lottie
-  - 矢量动画
-  - tokenization
-  - 多模态指令
-  - VLM生成
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "Lottie"
+  - "矢量动画"
+  - "tokenization"
+  - "多模态指令"
+  - "VLM生成"
 ---
 
 # OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens

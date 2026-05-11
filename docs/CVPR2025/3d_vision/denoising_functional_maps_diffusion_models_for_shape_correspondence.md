@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][功能图] 本文提出 DenoisFM，首次用去噪扩散模型直接预测形状间的功能图（functional map），通过模板匹配降低学习复杂度，并提出无监督方法解决拉普拉斯特征向量符号歧义问题，在人体和动物形状匹配上取得有竞争力的性能。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 功能图
-  - 去噪扩散模型
-  - 形状对应
-  - 拉普拉斯特征向量符号歧义
-  - 模板匹配
+  - "CVPR 2025"
+  - "3D视觉"
+  - "功能图"
+  - "去噪扩散模型"
+  - "形状对应"
+  - "拉普拉斯特征向量符号歧义"
+  - "模板匹配"
 ---
 
 # Denoising Functional Maps: Diffusion Models for Shape Correspondence

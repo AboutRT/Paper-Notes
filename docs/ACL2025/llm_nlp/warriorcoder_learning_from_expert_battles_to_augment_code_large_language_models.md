@@ -2,15 +2,15 @@
 title: >-
   [论文解读] WarriorCoder: Learning from Expert Battles to Augment Code Large Language Models
 description: >-
-  [ACL 2025][LLM/NLP][code LLM] 提出 WarriorCoder，通过构建多个专家代码 LLM 之间的竞技场（arena），让攻击者用自身擅长的领域挑战防御者，由裁判评估后用胜者回答训练目标模型，从而无需依赖专有模型或预存数据集即可从零生成高质量、高多样性的代码训练数据，实现 SOTA 性能。
+  [ACL 2025][LLM/NLP][code LLM] 提出 WarriorCoder，通过构建多个专家代码 LLM 之间的竞技场（arena），让攻击者用自身擅长的领域挑战防御者，由裁判评估后用胜者回答训练目标模型，从而无需依赖专有模型或预存数据集即可从零生成高质量、高多样性的代码训练数据…
 tags:
-  - ACL 2025
-  - LLM/NLP
-  - code LLM
-  - data flywheel
-  - expert battles
-  - Elo rating
-  - instruction mining
+  - "ACL 2025"
+  - "LLM/NLP"
+  - "code LLM"
+  - "data flywheel"
+  - "expert battles"
+  - "Elo rating"
+  - "instruction mining"
 ---
 
 # WarriorCoder: Learning from Expert Battles to Augment Code Large Language Models

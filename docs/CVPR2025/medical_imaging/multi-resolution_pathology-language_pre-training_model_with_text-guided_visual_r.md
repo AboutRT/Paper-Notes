@@ -4,7 +4,7 @@ title: >-
 description: >-
   [医学图像] 提出 MR-PLIP，首个在多分辨率（5×/10×/20×/40×）下进行病理-语言预训练的视觉语言模型，通过跨分辨率视觉-文本对齐（CVTA）和多分辨率文本引导视觉表示对齐（MRTVA），在 34M 图文对上训练后，在 26 个基准数据集上全面超越 SOTA 基础模型。
 tags:
-  - 医学图像
+  - "医学图像"
 ---
 
 # Multi-Resolution Pathology-Language Pre-training Model with Text-Guided Visual Representation

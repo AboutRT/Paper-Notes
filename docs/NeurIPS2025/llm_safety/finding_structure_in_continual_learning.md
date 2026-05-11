@@ -2,15 +2,16 @@
 title: >-
   [论文解读] Finding Structure in Continual Learning
 description: >-
-  [NeurIPS 2025][持续学习] 提出基于Douglas-Rachford Splitting (DRS)的持续学习优化框架，将稳定性与可塑性解耦为两个独立的近端子问题，并结合Rényi散度替代KL散度实现更鲁棒的先验对齐，从而在无需回放缓冲区或额外模块的条件下有效缓解灾难性遗忘。
+  [NeurIPS 2025][LLM安全][持续学习] 提出基于Douglas-Rachford Splitting (DRS)的持续学习优化框架，将稳定性与可塑性解耦为两个独立的近端子问题，并结合Rényi散度替代KL散度实现更鲁棒的先验对齐，从而在无需回放缓冲区或额外模块的条件下有效缓解灾难性遗忘。
 tags:
-  - NeurIPS 2025
-  - 持续学习
-  - 灾难性遗忘
-  - Douglas-Rachford Splitting
-  - Rényi散度
-  - 贝叶斯推断
-  - 近端算子
+  - "NeurIPS 2025"
+  - "LLM安全"
+  - "持续学习"
+  - "灾难性遗忘"
+  - "Douglas-Rachford Splitting"
+  - "Rényi散度"
+  - "贝叶斯推断"
+  - "近端算子"
 ---
 
 <!-- 由 src/gen_stubs.py 自动生成 -->

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] HoneyBee: Data Recipes for Vision-Language Reasoners
 description: >-
-  [CVPR 2026][多模态][VLM reasoning] 系统研究视觉语言推理数据集的构建原则——上下文来源策略、数据干预（图像描述辅助信号+纯文本推理）、多维度数据扩展——并据此构建 250 万样本的 HoneyBee CoT 推理数据集，训练的 3B VLM 在 MathVerse 上超越 SOTA 7.8%，同时提出降低 73% 解码成本的测试时扩展策略。
+  [CVPR 2026][多模态VLM][VLM reasoning] 系统研究视觉语言推理数据集的构建原则——上下文来源策略、数据干预（图像描述辅助信号+纯文本推理）、多维度数据扩展——并据此构建 250 万样本的 HoneyBee CoT 推理数据集…
 tags:
-  - CVPR 2026
-  - 多模态
-  - 多模态VLM
-  - data curation
-  - chain-of-thought
-  - test-time scaling
-  - data recipes
+  - "CVPR 2026"
+  - "多模态VLM"
+  - "VLM reasoning"
+  - "data curation"
+  - "chain-of-thought"
+  - "test-time scaling"
+  - "data recipes"
 ---
 
 # HoneyBee: Data Recipes for Vision-Language Reasoners

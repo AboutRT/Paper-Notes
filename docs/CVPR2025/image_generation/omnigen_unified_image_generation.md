@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][统一图像生成] 首个通用图像生成基础模型，仅由 VAE 和 Transformer 组成，通过统一多模态输入格式实现文生图、图像编辑、可控生成等多任务端到端处理。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 统一图像生成
-  - 扩散模型
-  - 多任务
-  - 知识迁移
-  - Rectified Flow
+  - "CVPR 2025"
+  - "图像生成"
+  - "统一图像生成"
+  - "扩散模型"
+  - "多任务"
+  - "知识迁移"
+  - "Rectified Flow"
 ---
 
 # OmniGen: Unified Image Generation

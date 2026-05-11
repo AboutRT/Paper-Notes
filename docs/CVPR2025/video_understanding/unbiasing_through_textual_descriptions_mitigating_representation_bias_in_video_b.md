@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][视频理解][视频基准去偏] 提出 UTD 方法，利用 VLM+LLM 生成视频帧文本描述来系统分析视频基准中的对象/时序/常识偏差，并构建去偏测试集，使视频理解评估更加鲁棒公正。
 tags:
-  - CVPR 2025
-  - 视频理解
-  - 视频基准去偏
-  - 表征偏差
-  - 文本描述
-  - VLM/LLM
-  - 数据集分析
+  - "CVPR 2025"
+  - "视频理解"
+  - "视频基准去偏"
+  - "表征偏差"
+  - "文本描述"
+  - "VLM/LLM"
+  - "数据集分析"
 ---
 
 # Unbiasing through Textual Descriptions: Mitigating Representation Bias in Video Benchmarks

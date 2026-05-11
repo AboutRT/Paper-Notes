@@ -4,7 +4,7 @@ title: >-
 description: >-
   [图像生成] EasyCraft 提出了一个端到端的自动角色捏脸框架，通过 MAE 预训练的通用 ViT 编码器将任意风格的面部图像映射为统一特征分布，再转换为游戏引擎捏脸参数，同时集成文本到图像技术支持文本输入，可轻松适配不同游戏引擎。
 tags:
-  - 图像生成
+  - "图像生成"
 ---
 
 # EasyCraft: A Robust and Efficient Framework for Automatic Avatar Crafting

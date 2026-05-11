@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Uncertainty Weighted Gradients for Model Calibration
 description: >-
-  [CVPR 2025][模型校准] 通过分析 Focal Loss 等方法的统一框架，揭示了直接将不确定性权重应用于损失函数会导致梯度与不确定性不对齐的问题，提出将不确定性权重直接应用于梯度的 Uncertainty-GRA 框架，并用广义 Brier Score 作为更精确的不确定性度量，取得了 SOTA 校准性能。
+  [CVPR 2025][LLM评测][模型校准] 通过分析 Focal Loss 等方法的统一框架，揭示了直接将不确定性权重应用于损失函数会导致梯度与不确定性不对齐的问题，提出将不确定性权重直接应用于梯度的 Uncertainty-GRA 框架，并用广义 Brier Score 作为更精确的不确定性度量…
 tags:
-  - CVPR 2025
-  - 模型校准
-  - 不确定性加权
-  - 梯度缩放
-  - Brier Score
-  - Focal Loss
+  - "CVPR 2025"
+  - "LLM评测"
+  - "模型校准"
+  - "不确定性加权"
+  - "梯度缩放"
+  - "Brier Score"
+  - "Focal Loss"
 ---
 
 # Uncertainty Weighted Gradients for Model Calibration

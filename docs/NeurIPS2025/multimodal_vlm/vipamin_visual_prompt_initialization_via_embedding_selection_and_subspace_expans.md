@@ -2,15 +2,15 @@
 title: >-
   [论文解读] VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion
 description: >-
-  [NeurIPS 2025][多模态][提示学习] 提出VIPAMIN——一种零额外参数的视觉prompt初始化策略，通过注意力引导的语义匹配（Matching）和正交子空间注入（Orthogonalizing）两个模块，解决自监督VPT中prompt注意力均匀化和子空间坍塌两大失效模式，仅需单次前向传播即在24个视觉任务上刷新SOTA。
+  [NeurIPS 2025][多模态VLM][提示学习] 提出VIPAMIN——一种零额外参数的视觉prompt初始化策略，通过注意力引导的语义匹配（Matching）和正交子空间注入（Orthogonalizing）两个模块，解决自监督VPT中prompt注意力均匀化和子空间坍塌两大失效模式…
 tags:
-  - NeurIPS 2025
-  - 多模态
-  - 提示学习
-  - 参数高效微调
-  - 多模态VLM
-  - Transformer
-  - 子空间扩展
+  - "NeurIPS 2025"
+  - "多模态VLM"
+  - "提示学习"
+  - "参数高效微调"
+  - "自监督学习"
+  - "Transformer"
+  - "子空间扩展"
 ---
 
 # VIPAMIN: Visual Prompt Initialization via Embedding Selection and Subspace Expansion

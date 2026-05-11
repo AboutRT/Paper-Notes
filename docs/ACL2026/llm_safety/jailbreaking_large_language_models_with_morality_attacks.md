@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Jailbreaking Large Language Models with Morality Attacks
 description: >-
-  [ACL 2026][AI安全][道德攻击] 本文构建10.3K道德攻击数据集（价值模糊+价值冲突），通过四种对抗策略操纵LLM道德判断，发现LLM和guardrail模型对道德攻击极度脆弱，且更大模型反而更容易被攻破。
+  [ACL 2026][LLM安全][道德攻击] 本文构建10.3K道德攻击数据集（价值模糊+价值冲突），通过四种对抗策略操纵LLM道德判断，发现LLM和guardrail模型对道德攻击极度脆弱，且更大模型反而更容易被攻破。
 tags:
-  - ACL 2026
-  - AI安全
-  - 道德攻击
-  - 越狱攻击
-  - 多元价值观
-  - LLM鲁棒性
-  - 道德判断
+  - "ACL 2026"
+  - "LLM安全"
+  - "道德攻击"
+  - "越狱攻击"
+  - "多元价值观"
+  - "LLM鲁棒性"
+  - "道德判断"
 ---
 
 # Jailbreaking Large Language Models with Morality Attacks

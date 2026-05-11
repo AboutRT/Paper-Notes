@@ -2,14 +2,15 @@
 title: >-
   [论文解读] MotionAgent: Fine-grained Controllable Video Generation via Motion Field Agent
 description: >-
-  [ICCV 2025][图像到视频生成] 提出 MotionAgent，通过运动场代理（Motion Field Agent）将文本中的运动描述转化为物体轨迹和相机外参，再经解析式光流合成模块统一为光流图，实现仅凭文本输入即可对 I2V 生成中的物体运动和相机运动进行细粒度精确控制。
+  [ICCV 2025][视频生成][图像到视频生成] 提出 MotionAgent，通过运动场代理（Motion Field Agent）将文本中的运动描述转化为物体轨迹和相机外参，再经解析式光流合成模块统一为光流图，实现仅凭文本输入即可对 I2V 生成中的物体运动和相机运动进行细粒度精确控制。
 tags:
-  - ICCV 2025
-  - 图像到视频生成
-  - 视频生成
-  - 光流
-  - 细粒度运动控制
-  - 扩散模型
+  - "ICCV 2025"
+  - "视频生成"
+  - "图像到视频生成"
+  - "运动场代理"
+  - "光流"
+  - "细粒度运动控制"
+  - "扩散模型"
 ---
 
 # MotionAgent: Fine-grained Controllable Video Generation via Motion Field Agent

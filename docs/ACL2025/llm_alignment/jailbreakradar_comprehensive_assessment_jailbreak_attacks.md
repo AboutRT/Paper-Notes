@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2025][LLM对齐][越狱攻击] 首个覆盖自动和非自动越狱攻击的统一全面评估框架：收集17种代表性越狱攻击，建立六类攻击分类体系，在9个对齐LLM×8种防御策略下进行大规模系统评测，揭示启发式攻击"高ASR但低实用性"的关键洞察。
 tags:
-  - ACL 2025
-  - LLM对齐
-  - 越狱攻击
-  - LLM安全
-  - 攻击分类
-  - 防御评估
-  - benchmark
+  - "ACL 2025"
+  - "LLM对齐"
+  - "越狱攻击"
+  - "LLM安全"
+  - "攻击分类"
+  - "防御评估"
+  - "benchmark"
 ---
 
 # JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs

@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Sharing State Between Prompts and Programs
 description: >-
-  [ICLR 2026][共享程序状态] 提出共享程序状态（shared program state）抽象，让 prompt 直接读写程序变量、操作堆对象和控制程序流程，实现为 Nightjar 系统（Python + prompt 混合编程），在保持或提升准确率（+4-19%）的同时减少 39.6% 代码量。
+  [ICLR 2026][代码智能][共享程序状态] 提出共享程序状态（shared program state）抽象，让 prompt 直接读写程序变量、操作堆对象和控制程序流程，实现为 Nightjar 系统（Python + prompt 混合编程）…
 tags:
-  - ICLR 2026
-  - 共享程序状态
-  - 自然语言编程
-  - 提示学习
-  - Nightjar
-  - 编程抽象
+  - "ICLR 2026"
+  - "代码智能"
+  - "共享程序状态"
+  - "自然语言编程"
+  - "提示学习"
+  - "Nightjar"
+  - "编程抽象"
 ---
 
 # Sharing State Between Prompts and Programs

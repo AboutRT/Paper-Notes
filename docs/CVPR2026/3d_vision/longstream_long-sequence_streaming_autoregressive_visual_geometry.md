@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2026][3D视觉][流式3D重建] 提出LongStream，一种gauge-decoupled的流式视觉几何模型，通过关键帧相对位姿预测、正交尺度学习和缓存一致性训练，实现千帧级别稳定的度量尺度实时（18 FPS）场景重建。
 tags:
-  - CVPR 2026
-  - 3D视觉
-  - 流式3D重建
-  - 自回归模型
-  - 位姿估计
-  - KV缓存
-  - 长序列
+  - "CVPR 2026"
+  - "3D视觉"
+  - "流式3D重建"
+  - "自回归模型"
+  - "位姿估计"
+  - "KV缓存"
+  - "长序列"
 ---
 
 # LongStream: Long-Sequence Streaming Autoregressive Visual Geometry

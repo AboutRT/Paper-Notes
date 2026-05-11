@@ -2,14 +2,15 @@
 title: >-
   [论文解读] Radial Neighborhood Smoothing Recommender System
 description: >-
-  [NeurIPS 2025][Recommender System] 提出 Radial Neighborhood Estimator (RNE)，通过将隐空间距离用观测矩阵的行/列 L2 范数近似估计，构建同时包含重叠和部分重叠用户-物品对的径向邻域，用局部核回归做平滑插补，在理论保证和实验中均优于传统协同过滤和矩阵分解方法，并天然缓解冷启动问题。
+  [NeurIPS 2025][推荐系统][Recommender System] 提出 Radial Neighborhood Estimator (RNE)，通过将隐空间距离用观测矩阵的行/列 L2 范数近似估计，构建同时包含重叠和部分重叠用户-物品对的径向邻域，用局部核回归做平滑插补…
 tags:
-  - NeurIPS 2025
-  - Recommender System
-  - Collaborative Filtering
-  - SVD
-  - Kernel Smoothing
-  - Cold-start
+  - "NeurIPS 2025"
+  - "推荐系统"
+  - "Recommender System"
+  - "Collaborative Filtering"
+  - "SVD"
+  - "Kernel Smoothing"
+  - "Cold-start"
 ---
 
 # Radial Neighborhood Smoothing Recommender System

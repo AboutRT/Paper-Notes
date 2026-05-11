@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][3D视觉][3D重建] VGGT是一个大型前馈Transformer，能在不到一秒内从一张到数百张图像中直接预测相机参数、深度图、点云图和3D点轨迹，无需后处理优化即可超越现有方法。
 tags:
-  - CVPR 2025
-  - 3D视觉
-  - 3D重建
-  - Transformer
-  - 多任务学习
-  - 深度估计
-  - 点云跟踪
+  - "CVPR 2025"
+  - "3D视觉"
+  - "3D重建"
+  - "Transformer"
+  - "多任务学习"
+  - "深度估计"
+  - "点云跟踪"
 ---
 
 # VGGT: Visual Geometry Grounded Transformer

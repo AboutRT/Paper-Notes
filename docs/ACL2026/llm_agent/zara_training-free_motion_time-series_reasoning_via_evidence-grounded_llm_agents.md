@@ -4,13 +4,13 @@ title: >-
 description: >-
   [ACL 2026][LLM Agent][人体活动识别] 提出 ZARA，一个基于知识和检索增强的多智能体框架，通过将传感器信号蒸馏为结构化文本知识库、类别条件检索和分层 LLM 推理，在完全免训练的设置下实现了可解释的人体活动识别，8 个数据集上大幅超越现有方法。
 tags:
-  - ACL 2026
-  - LLM Agent
-  - 人体活动识别
-  - 时间序列推理
-  - 检索增强生成
-  - 多智能体推理
-  - 免训练
+  - "ACL 2026"
+  - "LLM Agent"
+  - "人体活动识别"
+  - "时间序列推理"
+  - "检索增强生成"
+  - "多智能体推理"
+  - "免训练"
 ---
 
 # ZARA: Training-Free Motion Time-Series Reasoning via Evidence-Grounded LLM Agents

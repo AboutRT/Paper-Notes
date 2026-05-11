@@ -2,15 +2,15 @@
 title: >-
   [论文解读] MBQ: Modality-Balanced Quantization for Large Vision-Language Models
 description: >-
-  [CVPR 2025][多模态][训练后量化] 发现大型VLM中视觉token和语言token对量化误差的敏感度差异超过10倍，提出MBQ方法在量化校准过程中引入基于梯度的模态平衡因子，在W3A16和W4A8设置下分别提升精度最高4.4%和11.6%，并实现1.4倍端到端加速。
+  [CVPR 2025][多模态VLM][训练后量化] 发现大型VLM中视觉token和语言token对量化误差的敏感度差异超过10倍，提出MBQ方法在量化校准过程中引入基于梯度的模态平衡因子，在W3A16和W4A8设置下分别提升精度最高4.4%和11.6%，并实现1.4倍端到端加速。
 tags:
-  - CVPR 2025
-  - 多模态
-  - 多模态VLM
-  - 模态敏感度差异
-  - VLM加速
-  - 权重量化
-  - 权重-激活量化
+  - "CVPR 2025"
+  - "多模态VLM"
+  - "训练后量化"
+  - "模态敏感度差异"
+  - "VLM加速"
+  - "权重量化"
+  - "权重-激活量化"
 ---
 
 # MBQ: Modality-Balanced Quantization for Large Vision-Language Models

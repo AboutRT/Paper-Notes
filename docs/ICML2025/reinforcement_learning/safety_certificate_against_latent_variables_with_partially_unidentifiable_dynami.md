@@ -2,16 +2,17 @@
 title: >-
   [论文解读] Safety Certificate against Latent Variables with Partially Unidentifiable Dynamics
 description: >-
-  [ICML2025][安全证书] 提出基于概率空间不变性条件的安全证书设计方法，利用因果强化学习从含潜变量的离线数据中学习边际化 Q 函数，在离线与在线统计分布不一致的情况下仍能保证长期安全性，并证明了安全动作的持续可行性。
+  [ICML2025][强化学习][安全证书] 提出基于概率空间不变性条件的安全证书设计方法，利用因果强化学习从含潜变量的离线数据中学习边际化 Q 函数，在离线与在线统计分布不一致的情况下仍能保证长期安全性，并证明了安全动作的持续可行性。
 tags:
-  - ICML2025
-  - 安全证书
-  - 潜变量
-  - 部分可辨识动力学
-  - 因果强化学习
-  - 控制障碍函数
-  - 分布偏移
-  - 前门调整
+  - "ICML2025"
+  - "强化学习"
+  - "安全证书"
+  - "潜变量"
+  - "部分可辨识动力学"
+  - "因果强化学习"
+  - "控制障碍函数"
+  - "分布偏移"
+  - "前门调整"
 ---
 
 # Safety Certificate against Latent Variables with Partially Unidentifiable Dynamics

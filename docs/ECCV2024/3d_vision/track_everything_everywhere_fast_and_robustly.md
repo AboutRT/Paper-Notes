@@ -4,8 +4,8 @@ title: >-
 description: >-
   [ECCV 2024][3D视觉] 提出一种高效鲁棒的测试时优化像素跟踪方法，通过引入CaDeX++可逆变形网络、单目深度先验和DINOv2长期语义一致性，将训练速度提升10倍以上，同时显著提高了跟踪精度和鲁棒性。
 tags:
-  - ECCV 2024
-  - 3D视觉
+  - "ECCV 2024"
+  - "3D视觉"
 ---
 
 # Track Everything Everywhere Fast and Robustly

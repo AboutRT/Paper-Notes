@@ -4,13 +4,13 @@ title: >-
 description: >-
   [CVPR 2025][图像生成][分类器自由引导] 从数据流形几何视角出发，通过 SVD 分解去除无条件 score 中与条件 score 不对齐的切向分量，以极低计算开销改善 CFG 采样质量，在 SD1.5/SDXL/SD3/DiT 上均降低 FID。
 tags:
-  - CVPR 2025
-  - 图像生成
-  - 分类器自由引导
-  - 流形假设
-  - 奇异值分解
-  - 扩散模型采样
-  - 切向分量
+  - "CVPR 2025"
+  - "图像生成"
+  - "分类器自由引导"
+  - "流形假设"
+  - "奇异值分解"
+  - "扩散模型采样"
+  - "切向分量"
 ---
 
 # TCFG: Tangential Damping Classifier-Free Guidance

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] One Small Step with Fingerprints, One Giant Leap for De Novo Molecule Generation from Mass Spectra
 description: >-
-  [NeurIPS 2025 (AI4Mat Workshop)][医学图像][质谱] 通过将 MIST 作为质谱-指纹编码器、MolForge 作为指纹-结构解码器，并采用先验调整阈值策略，在 MassSpecGym 基准上实现了从质谱从头生成分子结构的十倍性能提升（top-1 准确率从 2.3% 提升至 31%）。
+  [NeurIPS 2025 (AI4Mat Workshop)][医学图像][质谱] 通过将 MIST 作为质谱-指纹编码器、MolForge 作为指纹-结构解码器，并采用先验调整阈值策略，在 MassSpecGym 基准上实现了从质谱从头生成分子结构的十倍性能提升（top-1 准确率从 2.3% 提升至 3…
 tags:
-  - NeurIPS 2025 (AI4Mat Workshop)
-  - 医学图像
-  - 质谱
-  - 分子指纹
-  - 从头分子生成
-  - MolForge
-  - MIST
+  - "NeurIPS 2025 (AI4Mat Workshop)"
+  - "医学图像"
+  - "质谱"
+  - "分子指纹"
+  - "从头分子生成"
+  - "MolForge"
+  - "MIST"
 ---
 
 # One Small Step with Fingerprints, One Giant Leap for De Novo Molecule Generation from Mass Spectra

@@ -2,15 +2,15 @@
 title: >-
   [论文解读] COS3D: Collaborative Open-Vocabulary 3D Segmentation
 description: >-
-  [NeurIPS 2025][图像分割][开放词汇3D分割] 提出 COS3D——一种协作式 prompt-分割框架，通过构建实例场（instance field）和语言场（language field）组成的协作场，在训练阶段利用实例到语言的特征映射构建语言场，在推理阶段利用语言到实例的自适应 prompt 精炼生成精确分割，在两个主流基准上大幅超越现有方法。
+  [NeurIPS 2025][语义分割][开放词汇3D分割] 提出 COS3D——一种协作式 prompt-分割框架，通过构建实例场（instance field）和语言场（language field）组成的协作场，在训练阶段利用实例到语言的特征映射构建语言场…
 tags:
-  - NeurIPS 2025
-  - 图像分割
-  - 开放词汇3D分割
-  - 3D高斯
-  - 协作式分割
-  - 实例-语言映射
-  - 提示学习
+  - "NeurIPS 2025"
+  - "语义分割"
+  - "开放词汇3D分割"
+  - "3D高斯"
+  - "协作式分割"
+  - "实例-语言映射"
+  - "提示学习"
 ---
 
 # COS3D: Collaborative Open-Vocabulary 3D Segmentation
@@ -59,7 +59,7 @@ COS3D 基于 3D Gaussian Splatting 构建，包含三个技术组件：
 
 构建从实例特征到语言特征的映射函数 $\Phi: L = \Phi(I)$。论文提供两种实现：
 
-- **浅层 MLP**：学习映射函数 $\Phi_{\text{network}}$，损失为 $\mathcal{L}_{\text{mapping}} = |L^m - \Phi_{\text{network}}(I^m)|$，训练仅需 <3 分钟
+- **浅层 MLP**：学习映射函数 $\Phi_{\text{network}}$，损失为 $\mathcal{L}_{\text{mapping}} = |L^m - \Phi_{\text{network}}(I^m)|$，训练仅需 &lt;3 分钟
 - **核回归**：使用 Nadaraya-Watson 估计器，无需训练，$\sigma=0.1$
 
 论文发现因为实例特征已具有判别性，映射任务本质上是简单的回归问题，核回归方法反而效果最优。

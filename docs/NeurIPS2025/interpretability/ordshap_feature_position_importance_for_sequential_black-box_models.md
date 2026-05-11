@@ -2,14 +2,14 @@
 title: >-
   [论文解读] OrdShap: Feature Position Importance for Sequential Black-Box Models
 description: >-
-  [NeurIPS 2025][Shapley Value] 提出 OrdShap，一种针对序列模型的特征归因方法，首次将特征的**值重要性（Value Importance, VI）**与**位置重要性（Position Importance, PI）**解耦，基于 Sanchez-Bergantiños 博弈论值提供理论保证。
+  [NeurIPS 2025][可解释性][Shapley Value] 提出 OrdShap，一种针对序列模型的特征归因方法，首次将特征的**值重要性（Value Importance, VI）**与**位置重要性（Position Importance, PI）**解耦…
 tags:
-  - NeurIPS 2025
-  - Shapley Value
-  - 特征位置重要性
-  - 序列模型
-  - 可解释性
-  - GAN
+  - "NeurIPS 2025"
+  - "可解释性"
+  - "Shapley Value"
+  - "特征位置重要性"
+  - "序列模型"
+  - "GAN"
 ---
 
 # OrdShap: Feature Position Importance for Sequential Black-Box Models

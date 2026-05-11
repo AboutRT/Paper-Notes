@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Align Once, Benefit Multilingually: Enforcing Multilingual Consistency for LLM Safety Alignment
 description: >-
-  [ICLR 2026][LLM对齐][multilingual safety] 提出 Multi-Lingual Consistency (MLC) 辅助损失，通过 SVD 操控多语言表示矩阵的奇异值使其趋向秩-1（即多语言表示共线），仅需多语言 prompt 翻译（无需目标语言的 response），即可将一种语言的安全对齐效果一致性地迁移到所有语言。
+  [ICLR 2026][LLM对齐][multilingual safety] 提出 Multi-Lingual Consistency (MLC) 辅助损失，通过 SVD 操控多语言表示矩阵的奇异值使其趋向秩-1（即多语言表示共线），仅需多语言 prompt 翻译（无需目标语言的 response）…
 tags:
-  - ICLR 2026
-  - LLM对齐
-  - multilingual safety
-  - consistency alignment
-  - singular value decomposition
-  - cross-lingual transfer
-  - DPO
+  - "ICLR 2026"
+  - "LLM对齐"
+  - "multilingual safety"
+  - "consistency alignment"
+  - "singular value decomposition"
+  - "cross-lingual transfer"
+  - "DPO"
 ---
 
 # Align Once, Benefit Multilingually: Enforcing Multilingual Consistency for LLM Safety Alignment
@@ -88,7 +88,7 @@ tags:
 - 关键对比：DPO 仅让英语安全率提升但低资源语言几乎不变（斯瓦希里语仍 7.2%），而 MLC 将其拉到 92.8%。
 - 在 OOD 测试集 MultiJail 上，DPO+MLC 的 ASR 降至 0.5-0.7%，且对训练中未见过的语言（韩语、意大利语等）同样有效。
 - MLC 与 SFT/DPO/SimPO/ORPO 四种对齐范式都兼容，一致带来正收益。
-- 对通用能力（MMLU）影响 <1%。
+- 对通用能力（MMLU）影响 &lt;1%。
 
 ## 亮点与洞察
 - **奇异值视角的跨语言一致性**：将多语言表示的一致性问题转化为矩阵的秩最小化问题，理论清晰且工程实现简单（一个 SVD + softmax loss）。核心洞见是：如果多语言表示共线，那么模型会对所有语言产生一致行为。

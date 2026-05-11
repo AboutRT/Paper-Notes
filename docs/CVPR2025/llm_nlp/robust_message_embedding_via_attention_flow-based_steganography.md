@@ -2,15 +2,15 @@
 title: >-
   [论文解读] Robust Message Embedding via Attention Flow-Based Steganography
 description: >-
-  [CVPR 2025][LLM/NLP][消息嵌入] 本文提出RMSteg（Robust Message Steganography）框架，首次将Transformer注意力机制集成到归一化流网络中（AttnFlow），配合可逆QR码转换和可逆Token融合模块，实现了高质量、高容量且鲁棒的消息-图像隐写，隐写图像即使经过打印-拍照等极端扭曲仍可准确解码。
+  [CVPR 2025][LLM/NLP][消息嵌入] 本文提出RMSteg（Robust Message Steganography）框架，首次将Transformer注意力机制集成到归一化流网络中（AttnFlow），配合可逆QR码转换和可逆Token融合模块，实现了高质量、高容量且鲁棒的消息-图像隐写…
 tags:
-  - CVPR 2025
-  - LLM/NLP
-  - 消息嵌入
-  - 归一化流
-  - 注意力机制
-  - QR码
-  - 鲁棒隐写
+  - "CVPR 2025"
+  - "LLM/NLP"
+  - "消息嵌入"
+  - "归一化流"
+  - "注意力机制"
+  - "QR码"
+  - "鲁棒隐写"
 ---
 
 # Robust Message Embedding via Attention Flow-Based Steganography

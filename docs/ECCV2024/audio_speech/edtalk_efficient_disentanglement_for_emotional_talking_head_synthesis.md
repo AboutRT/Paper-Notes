@@ -2,15 +2,15 @@
 title: >-
   [论文解读] EDTalk: Efficient Disentanglement for Emotional Talking Head Synthesis
 description: >-
-  [ECCV2024][语音][talking head generation] 提出基于正交可学习基向量的高效解耦框架 EDTalk，将人脸动态分解为嘴型、头部姿态和情感表情三个独立潜空间，同时支持视频驱动和音频驱动的情感说话人头像生成。
+  [ECCV2024][音频/语音][talking head generation] 提出基于正交可学习基向量的高效解耦框架 EDTalk，将人脸动态分解为嘴型、头部姿态和情感表情三个独立潜空间，同时支持视频驱动和音频驱动的情感说话人头像生成。
 tags:
-  - ECCV2024
-  - 语音
-  - 音频语音
-  - facial disentanglement
-  - emotional expression
-  - orthogonal bases
-  - audio-driven
+  - "ECCV2024"
+  - "音频/语音"
+  - "talking head generation"
+  - "facial disentanglement"
+  - "emotional expression"
+  - "orthogonal bases"
+  - "audio-driven"
 ---
 
 # EDTalk: Efficient Disentanglement for Emotional Talking Head Synthesis

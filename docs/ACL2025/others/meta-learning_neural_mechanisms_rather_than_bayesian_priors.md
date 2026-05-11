@@ -4,12 +4,12 @@ title: >-
 description: >-
   [ACL 2025][元学习] 挑战了"元学习在神经网络中蒸馏贝叶斯简单性先验"的主流观点，通过形式语言实验证明元学习实际上是在模型中植入有用的**神经机制**（如计数器），而非学习简单性偏好。
 tags:
-  - ACL 2025
-  - 元学习
-  - MAML
-  - 形式语言
-  - 神经机制
-  - Chomsky 层级
+  - "ACL 2025"
+  - "元学习"
+  - "MAML"
+  - "形式语言"
+  - "神经机制"
+  - "Chomsky 层级"
 ---
 
 # Meta-Learning Neural Mechanisms rather than Bayesian Priors
