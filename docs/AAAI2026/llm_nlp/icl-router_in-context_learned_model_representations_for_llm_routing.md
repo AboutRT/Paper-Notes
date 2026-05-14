@@ -161,7 +161,7 @@ ICL-Router 平均 76.30，超越最佳单模型 3.11 分，超越 EmbedLLM 2.14 
 - [\[ICML 2025\] BEST-Route: Adaptive LLM Routing with Test-Time Optimal Compute](../../ICML2025/llm_nlp/best-route_adaptive_llm_routing_with_test-time_optimal_compute.md)
 - [\[ICLR 2026\] Near-Optimal Online Deployment and Routing for Streaming LLMs](../../ICLR2026/llm_nlp/near-optimal_online_deployment_and_routing_for_streaming_llms.md)
 - [\[ACL 2025\] On the Mutual Influence of Gender and Occupation in LLM Representations](../../ACL2025/llm_nlp/on_the_mutual_influence_of_gender_and_occupation_in_llm_representations.md)
-- [\[ACL 2025\] Cross-model Transferability among Large Language Models on the Platonic Representations of Concepts](../../ACL2025/llm_nlp/cross_model_transferability_sv.md)
+- [\[AAAI 2026\] Scalable and Accurate Graph Reasoning with LLM-Based Multi-Agents](scalable_and_accurate_graph_reasoning_with_llm-based_multi-agents.md)
 
 </div>
 

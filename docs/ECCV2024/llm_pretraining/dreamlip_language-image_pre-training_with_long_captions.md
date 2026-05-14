@@ -168,11 +168,11 @@ DreamLIP 30M 在语义分割上平均超越 CLIP 400M 2.5%。
 
 ## 相关论文
 
-- [\[ECCV 2024\] POA: Pre-training Once for Models of All Sizes](poa_pre-training_once_for_models_of_all_sizes.md)
-- [\[ICML 2025\] Whitened CLIP as a Likelihood Surrogate of Images and Captions](../../ICML2025/llm_pretraining/whitened_clip_as_a_likelihood_surrogate_of_images_and_captions.md)
-- [\[ECCV 2024\] Formula-Supervised Visual-Geometric Pre-training (FSVGP)](formula-supervised_visual-geometric_pre-training.md)
-- [\[ECCV 2024\] PreLAR: World Model Pre-training with Learnable Action Representation](prelar_world_model_pre-training_with_learnable_action_representation.md)
 - [\[ECCV 2024\] Scaling Backwards: Minimal Synthetic Pre-training?](scaling_backwards_minimal_synthetic_pre-training.md)
+- [\[ECCV 2024\] POA: Pre-training Once for Models of All Sizes](poa_pre-training_once_for_models_of_all_sizes.md)
+- [\[ECCV 2024\] Formula-Supervised Visual-Geometric Pre-training (FSVGP)](formula-supervised_visual-geometric_pre-training.md)
+- [\[ICML 2025\] Whitened CLIP as a Likelihood Surrogate of Images and Captions](../../ICML2025/llm_pretraining/whitened_clip_as_a_likelihood_surrogate_of_images_and_captions.md)
+- [\[ECCV 2024\] Learning to Obstruct Few-Shot Image Classification over Restricted Classes](learning_to_obstruct_few-shot_image_classification_over_restricted_classes.md)
 
 </div>
 

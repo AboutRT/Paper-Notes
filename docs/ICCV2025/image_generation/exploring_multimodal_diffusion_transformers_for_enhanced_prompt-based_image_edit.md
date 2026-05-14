@@ -141,8 +141,8 @@ $$\mathbf{q}\mathbf{k}^T = \begin{bmatrix} \mathbf{q}_i\mathbf{k}_i^T & \mathbf{
 
 - [\[ICCV 2025\] Rethinking Cross-Modal Interaction in Multimodal Diffusion Transformers](rethinking_cross-modal_interaction_in_multimodal_diffusion_transformers.md)
 - [\[ICCV 2025\] Addressing Text Embedding Leakage in Diffusion-Based Image Editing](addressing_text_embedding_leakage_in_diffusion-based_image_editing.md)
-- [\[ICCV 2025\] NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes](nuiscene_exploring_efficient_generation_of_unbounded_outdoor_scenes.md)
 - [\[ICCV 2025\] PLA: Prompt Learning Attack against Text-to-Image Generative Models](pla_prompt_learning_attack_against_text-to-image_generative_models.md)
+- [\[ICCV 2025\] NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes](nuiscene_exploring_efficient_generation_of_unbounded_outdoor_scenes.md)
 - [\[ICCV 2025\] ALE: Attribute-Leakage-free Editing for Text-based Image Editing](ale_attribute_leakage_free_editing.md)
 
 </div>

@@ -124,7 +124,7 @@ VAE: $\mathcal{L} = \mathcal{L}_{coord} + 1.0 \cdot \mathcal{L}_{mask} + 5 \time
 - [\[ICLR 2026\] RIDER: 3D RNA Inverse Design with Reinforcement Learning-Guided Diffusion](rider_3d_rna_inverse_design_with_reinforcement_learning-guided_diffusion.md)
 - [\[AAAI 2026\] RelaCtrl: Relevance-Guided Efficient Control for Diffusion Transformers](../../AAAI2026/image_generation/relactrl_relevance-guided_efficient_control_for_diffusion_transformers.md)
 - [\[CVPR 2026\] BiMotion: B-spline Motion for Text-guided Dynamic 3D Character Generation](../../CVPR2026/image_generation/bimotion_b-spline_motion_for_text-guided_dynamic_3d_character_generation.md)
-- [\[ICLR 2026\] Contact Wasserstein Geodesics for Non-Conservative Schrödinger Bridges](contact_wasserstein_geodesics_for_non-conservative_schrödinger_bridges.md)
+- [\[ECCV 2024\] DiffiT: Diffusion Vision Transformers for Image Generation](../../ECCV2024/image_generation/diffit_diffusion_vision_transformers_for_image_generation.md)
 
 </div>
 

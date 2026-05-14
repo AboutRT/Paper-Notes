@@ -145,7 +145,7 @@ SurfaceSplat 的输入是稀疏视角图像（及相机参数），输出是高�
 - [\[CVPR 2025\] DepthSplat: Connecting Gaussian Splatting and Depth](../../CVPR2025/3d_vision/depthsplat_connecting_gaussian_splatting_and_depth.md)
 - [\[ICCV 2025\] MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction](mugs_multi-baseline_generalizable_gaussian_splatting_reconstruction.md)
 - [\[ICCV 2025\] BezierGS: Dynamic Urban Scene Reconstruction with Bézier Curve Gaussian Splatting](beziergs_dynamic_urban_scene_reconstruction_with_bezier_curve_gaussian_splatting.md)
-- [\[AAAI 2026\] MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splatting](../../AAAI2026/3d_vision/meshsplat_generalizable_sparse-view_surface_reconstruction_via_gaussian_splattin.md)
+- [\[ECCV 2024\] Surface Reconstruction from 3D Gaussian Splatting via Local Structural Hints](../../ECCV2024/3d_vision/surface_reconstruction_from_3d_gaussian_splatting_via_local_structural_hints.md)
 
 </div>
 

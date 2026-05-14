@@ -136,10 +136,10 @@ $$Var[\hat{\mu}_{PPI}] - Var[\hat{\mu}_h] = \mathbb{E}[\lambda]^2 \cdot (\tfrac{
 
 ## 相关论文
 
-- [\[ICML 2025\] Prediction via Shapley Value Regression (ViaSHAP)](prediction_via_shapley_value_regression.md)
 - [\[NeurIPS 2025\] Statistical Inference for Gradient Boosting Regression](../../NeurIPS2025/others/statistical_inference_for_gradient_boosting_regression.md)
-- [\[ICML 2025\] Heavy-Tailed Linear Bandits: Huber Regression with One-Pass Update](heavy-tailed_linear_bandits_huber_regression_with_one-pass_update.md)
+- [\[ICML 2025\] Prediction via Shapley Value Regression (ViaSHAP)](prediction_via_shapley_value_regression.md)
 - [\[ICML 2025\] Curvature Enhanced Data Augmentation for Regression](curvature_enhanced_data_augmentation_for_regression.md)
+- [\[ICML 2025\] Heavy-Tailed Linear Bandits: Huber Regression with One-Pass Update](heavy-tailed_linear_bandits_huber_regression_with_one-pass_update.md)
 - [\[NeurIPS 2025\] Regression Trees Know Calculus](../../NeurIPS2025/others/regression_trees_know_calculus.md)
 
 </div>

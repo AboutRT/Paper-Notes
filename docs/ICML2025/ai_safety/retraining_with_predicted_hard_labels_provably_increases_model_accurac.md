@@ -153,9 +153,9 @@ AG News 上 $\epsilon=0.5$ 时 consensus RT 比 baseline 提升 11.7%，共识�
 
 - [\[ICML 2025\] Private Model Personalization Revisited](private_model_personalization_revisited.md)
 - [\[ICML 2025\] Understanding Model Ensemble in Transferable Adversarial Attack](understanding_model_ensemble_in_transferable_adversarial_attack.md)
-- [\[ICML 2025\] Relative Error Fair Clustering in the Weak-Strong Oracle Model](relative_error_fair_clustering_in_the_weak-strong_oracle_model.md)
 - [\[ICML 2025\] Rethinking the Bias of Foundation Model under Long-tailed Distribution](rethinking_the_bias_of_foundation_model_under_long-tailed_distribution.md)
-- [\[ICML 2025\] FicGCN: Unveiling the Homomorphic Encryption Efficiency from Irregular Graph Convolutional Networks](ficgcn_unveiling_the_homomorphic_encryption_efficiency_from_irregular_graph_conv.md)
+- [\[ICML 2025\] Relative Error Fair Clustering in the Weak-Strong Oracle Model](relative_error_fair_clustering_in_the_weak-strong_oracle_model.md)
+- [\[ICML 2025\] De-AntiFake: Rethinking the Protective Perturbations Against Voice Cloning Attacks](de-antifake_rethinking_the_protective_perturbations_against_voice_cloning_attack.md)
 
 </div>
 

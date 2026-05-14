@@ -136,9 +136,9 @@ tags:
 
 - [\[ACL 2025\] UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs' Memorization](../../ACL2025/llm_nlp/unseentimeqa_time-sensitive_question-answering_beyond_llms_memorization.md)
 - [\[ACL 2025\] Active LLMs for Multi-hop Question Answering](../../ACL2025/llm_nlp/active_llms_for_multi-hop_question_answering.md)
+- [\[ACL 2026\] ChatHLS: Towards Systematic Design Automation and Optimization for High-Level Synthesis](chathls_towards_systematic_design_automation_and_optimization_for_high-level_syn.md)
+- [\[ACL 2025\] ChronoSense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events](../../ACL2025/llm_nlp/chronosense_exploring_temporal_understanding_in_large_language_models_with_time_.md)
 - [\[ACL 2025\] Multi-Hop Reasoning for Question Answering with Hyperbolic Representations](../../ACL2025/llm_nlp/multi-hop_reasoning_for_question_answering_with_hyperbolic_representations.md)
-- [\[ACL 2025\] Self-Critique Guided Iterative Reasoning for Multi-hop Question Answering](../../ACL2025/llm_nlp/self-critique_guided_iterative_reasoning_for_multi-hop_question_answering.md)
-- [\[ACL 2025\] iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering](../../ACL2025/llm_nlp/iquest_an_iterative_question-guided_framework_for_knowledge_base_question_answer.md)
 
 </div>
 

@@ -141,10 +141,10 @@ FACE 在所有类别上保持 100% 重建后 top-1 准确率，而 CRAFT 在 "Tr
 ## 相关论文
 
 - [\[NeurIPS 2025\] Faithful Group Shapley Value](faithful_group_shapley_value.md)
-- [\[NeurIPS 2025\] Obliviator Reveals the Cost of Nonlinear Guardedness in Concept Erasure](obliviator_reveals_the_cost_of_nonlinear_guardedness_in_concept_erasure.md)
-- [\[ACL 2025\] AutoMixer: Checkpoint Artifacts as Automatic Data Mixers](../../ACL2025/others/automixer_checkpoint_artifacts_as_automatic_data_mixers.md)
 - [\[ACL 2025\] Graph-Structured Trajectory Extraction from Travelogues](../../ACL2025/others/graph-structured_trajectory_extraction_from_travelogues.md)
+- [\[NeurIPS 2025\] Obliviator Reveals the Cost of Nonlinear Guardedness in Concept Erasure](obliviator_reveals_the_cost_of_nonlinear_guardedness_in_concept_erasure.md)
 - [\[ICML 2025\] Efficient Network Automatic Relevance Determination](../../ICML2025/others/efficient_network_automatic_relevance_determination.md)
+- [\[ACL 2025\] AutoMixer: Checkpoint Artifacts as Automatic Data Mixers](../../ACL2025/others/automixer_checkpoint_artifacts_as_automatic_data_mixers.md)
 
 </div>
 

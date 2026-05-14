@@ -124,9 +124,9 @@ tags:
 
 - [\[NeurIPS 2025\] What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains](../../NeurIPS2025/llm_nlp/what_one_cannot_two_can_two-layer_transformers_provably_represent_induction_head.md)
 - [\[ACL 2025\] DenseLoRA: Dense Low-Rank Adaptation of Large Language Models](../../ACL2025/llm_nlp/denselora_dense_low-rank_adaptation_of_large_language_models.md)
-- [\[ACL 2025\] PerSphere: A Comprehensive Framework for Multi-Faceted Perspective Retrieval and Summarization](../../ACL2025/llm_nlp/persphere_a_comprehensive_framework_for_multi-faceted_perspective_retrieval_and_.md)
-- [\[ACL 2025\] DTCRS: Dynamic Tree Construction for Recursive Summarization](../../ACL2025/llm_nlp/dtcrs_dynamic_tree_construction_for_recursive_summarization.md)
 - [\[ACL 2025\] Pre³: Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation](../../ACL2025/llm_nlp/pre3_deterministic_pda_structured_gen.md)
+- [\[ACL 2025\] SCoP: Evaluating the Comprehension Process of Large Language Models from a Cognitive View](../../ACL2025/llm_nlp/scop_evaluating_the_comprehension_process_of_large_language_models_from_a_cognit.md)
+- [\[ACL 2025\] Towards Harmonized Uncertainty Estimation for Large Language Models](../../ACL2025/llm_nlp/towards_harmonized_uncertainty_estimation_for_large_language_models.md)
 
 </div>
 

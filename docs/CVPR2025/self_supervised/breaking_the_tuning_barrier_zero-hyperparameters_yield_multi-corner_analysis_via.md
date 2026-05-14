@@ -133,10 +133,10 @@ tags:
 ## 相关论文
 
 - [\[CVPR 2025\] MetaWriter: Personalized Handwritten Text Recognition Using Meta-Learned Prompt Tuning](metawriter_personalized_handwritten_text_recognition_using_meta-learned_prompt_t.md)
+- [\[CVPR 2025\] MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone's Potential with Masked Autoregressive Pretraining](map_unleashing_hybrid_mamba-transformer_vision_backbones_potential_with_masked_a.md)
 - [\[CVPR 2025\] ScaleLSD: Scalable Deep Line Segment Detection Streamlined](scalelsd_scalable_deep_line_segment_detection_streamlined.md)
-- [\[CVPR 2025\] Do Your Best and Get Enough Rest for Continual Learning](do_your_best_and_get_enough_rest_for_continual_learning.md)
-- [\[CVPR 2025\] Few-Shot Implicit Function Generation via Equivariance](few-shot_implicit_function_generation_via_equivariance.md)
-- [\[CVPR 2025\] OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad](ocrt_boosting_foundation_models_in_the_open_world_with_object-concept-relation_t.md)
+- [\[CVPR 2025\] Spectral State Space Model for Rotation-Invariant Visual Representation Learning](spectral_state_space_model_for_rotation-invariant_visual_representation_learning.md)
+- [\[CVPR 2025\] Transformers without Normalization](transformers_without_normalization.md)
 
 </div>
 

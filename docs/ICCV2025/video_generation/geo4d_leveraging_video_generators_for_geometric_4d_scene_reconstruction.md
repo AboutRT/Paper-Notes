@@ -161,8 +161,8 @@ Geo4D在三个数据集上全面领先：相比同源DepthCrafter，Sintel上Abs
 
 - [\[ICCV 2025\] SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering](steerx_creating_any_camera-free_3d_and_4d_scenes_with_geometric_steering.md)
 - [\[ICCV 2025\] Reangle-A-Video: 4D Video Generation as Video-to-Video Translation](reangle-a-video_4d_video_generation_as_video-to-video_translation.md)
-- [\[NeurIPS 2025\] RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](../../NeurIPS2025/video_generation/rlgf_reinforcement_learning_with_geometric_feedback_for_autonomous_driving_video.md)
 - [\[ICCV 2025\] LeanVAE: An Ultra-Efficient Reconstruction VAE for Video Diffusion Models](leanvae_an_ultra-efficient_reconstruction_vae_for_video_diffusion_models.md)
+- [\[NeurIPS 2025\] RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation](../../NeurIPS2025/video_generation/rlgf_reinforcement_learning_with_geometric_feedback_for_autonomous_driving_video.md)
 - [\[CVPR 2025\] Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better](../../CVPR2025/video_generation/tracktention_leveraging_point_tracking_to_attend_videos_faster_and_better.md)
 
 </div>

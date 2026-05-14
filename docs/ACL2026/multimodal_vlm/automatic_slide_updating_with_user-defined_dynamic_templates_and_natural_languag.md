@@ -130,7 +130,7 @@ SlideAgent 采用两阶段架构：阶段一（幻灯片理解）将输入幻灯
 - [\[ACL 2026\] Dynamic Emotion and Personality Profiling for Multimodal Deception Detection](dynamic_emotion_and_personality_profiling_for_multimodal_deception_detection.md)
 - [\[ICCV 2025\] Global and Local Entailment Learning for Natural World Imagery](../../ICCV2025/multimodal_vlm/global_and_local_entailment_learning_for_natural_world_imagery.md)
 - [\[ACL 2025\] Aria-UI: Visual Grounding for GUI Instructions](../../ACL2025/multimodal_vlm/aria-ui_visual_grounding_for_gui_instructions.md)
-- [\[AAAI 2026\] DisCode: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning](../../AAAI2026/multimodal_vlm/discode_distribution-aware_score_decoder_for_robust_automatic_evaluation_of_imag.md)
+- [\[ECCV 2024\] MyVLM: Personalizing VLMs for User-Specific Queries](../../ECCV2024/multimodal_vlm/myvlm_personalizing_vlms_for_userspecific_queries.md)
 
 </div>
 

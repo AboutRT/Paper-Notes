@@ -127,7 +127,7 @@ tags:
 - [\[AAAI 2026\] When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents](../../AAAI2026/information_retrieval/when_small_models_are_right_for_wrong_reasons_process_verification_for_trustwort.md)
 - [\[ICLR 2026\] TokMem: One-Token Procedural Memory for Large Language Models](tokmem_one-token_procedural_memory_for_large_language_models.md)
 - [\[ICLR 2026\] Flow of Spans: Generalizing Language Models to Dynamic Span-Vocabulary via GFlowNets](flow_of_spans_generalizing_language_models_to_dynamic_span-vocabulary_via_gflown.md)
-- [\[ICLR 2026\] Multimodal Dataset Distillation Made Simple by Prototype-Guided Data Synthesis](multimodal_dataset_distillation_made_simple_by_prototype-guided_data_synthesis.md)
+- [\[ACL 2026\] KoCo-Bench: Can Large Language Models Leverage Domain Knowledge in Software Development?](../../ACL2026/information_retrieval/koco-bench_can_large_language_models_leverage_domain_knowledge_in_software_devel.md)
 
 </div>
 

@@ -274,7 +274,7 @@ tags:
 - [\[NeurIPS 2025\] SMRS: Advocating a Unified Reporting Standard for Surrogate Models in the Artificial Intelligence Era](smrs_advocating_a_unified_reporting_standard_for_surrogate_models_in_the_artific.md)
 - [\[NeurIPS 2025\] Adjusted Count Quantification Learning on Graphs](adjusted_count_quantification_learning_on_graphs.md)
 - [\[NeurIPS 2025\] Uncertainty Estimation by Flexible Evidential Deep Learning](uncertainty_estimation_by_flexible_evidential_deep_learning.md)
-- [\[NeurIPS 2025\] Radar: Benchmarking Language Models on Imperfect Tabular Data](radar_benchmarking_language_models_on_imperfect_tabular_data.md)
+- [\[ICML 2025\] UnHiPPO: Uncertainty-Aware Initialization for State Space Models](../../ICML2025/others/unhippo_uncertainty-aware_initialization_for_state_space_models.md)
 
 </div>
 

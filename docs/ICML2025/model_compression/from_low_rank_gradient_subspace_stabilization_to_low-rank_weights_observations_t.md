@@ -169,8 +169,8 @@ WeLore-PEFT 在 CoinFlip 和 BigBench 上甚至超过 Dense Full FT，远优于�
 
 - [\[NeurIPS 2025\] GoRA: Gradient-Driven Adaptive Low Rank Adaptation](../../NeurIPS2025/model_compression/gora_gradient-driven_adaptive_low_rank_adaptation.md)
 - [\[ICCV 2025\] Beyond Low-Rank Tuning: Model Prior-Guided Rank Allocation for Effective Transfer in Low-Data and Large-Gap Regimes](../../ICCV2025/model_compression/beyond_low-rank_tuning_model_prior-guided_rank_allocation_for_effective_transfer.md)
-- [\[ACL 2025\] TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition](../../ACL2025/model_compression/teamlora_boosting_low-rank_adaptation_with_expert_collaboration_and_competition.md)
 - [\[NeurIPS 2025\] Accurate and Efficient Low-Rank Model Merging in Core Space](../../NeurIPS2025/model_compression/accurate_and_efficient_low-rank_model_merging_in_core_space.md)
+- [\[ACL 2025\] TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition](../../ACL2025/model_compression/teamlora_boosting_low-rank_adaptation_with_expert_collaboration_and_competition.md)
 - [\[ICML 2025\] Come Together, But Not Right Now: A Progressive Strategy to Boost Low-Rank Adaptation](come_together_but_not_right_now_a_progressive_strategy_to_boost_low-rank_adaptat.md)
 
 </div>

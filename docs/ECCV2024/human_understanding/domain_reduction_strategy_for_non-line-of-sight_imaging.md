@@ -166,7 +166,7 @@ GPU显存对比（N=128分辨率）：LCT 7101MB, FK 6813MB, 本方法(无DR) 40
 - [\[NeurIPS 2025\] UnCLe: Towards Scalable Dynamic Causal Discovery in Non-Linear Temporal Systems](../../NeurIPS2025/human_understanding/uncle_towards_scalable_dynamic_causal_discovery_in_non-linear_temporal_systems.md)
 - [\[ICLR 2026\] Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics](../../ICLR2026/human_understanding/cross-domain_policy_optimization_via_bellman_consistency_and_hybrid_critics.md)
 - [\[CVPR 2025\] Analyzing the Synthetic-to-Real Domain Gap in 3D Hand Pose Estimation](../../CVPR2025/human_understanding/analyzing_the_synthetic-to-real_domain_gap_in_3d_hand_pose_estimation.md)
-- [\[ECCV 2024\] ScanTalk: 3D Talking Heads from Unregistered Scans](scantalk_3d_talking_heads_from_unregistered_scans.md)
+- [\[ECCV 2024\] TRAM: Global Trajectory and Motion of 3D Humans from in-the-wild Videos](tram_global_trajectory_and_motion_of_3d_humans_from_in-the-wild_videos.md)
 
 </div>
 

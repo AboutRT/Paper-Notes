@@ -117,9 +117,9 @@ tags:
 
 - [\[ACL 2025\] Achieving Certification-by-Design Through Model-Driven Development](../../ACL2025/others/achieving_certification-by-design_through_model-driven_development.md)
 - [\[NeurIPS 2025\] 3DID: Direct 3D Inverse Design for Aerodynamics with Physics-Aware Optimization](../../NeurIPS2025/others/3did_direct_3d_inverse_design_for_aerodynamics_with_physics-aware_optimization.md)
-- [\[ICML 2025\] Fully Dynamic Euclidean Bi-Chromatic Matching in Sublinear Update Time](fully_dynamic_euclidean_bi-chromatic_matching_in_sublinear_update_time.md)
-- [\[ACL 2025\] Evaluating the Evaluation of Diversity in Commonsense Generation](../../ACL2025/others/evaluating_the_evaluation_of_diversity_in_commonsense_generation.md)
 - [\[ICML 2025\] Learning Distances from Data with Normalizing Flows and Score Matching](learning_distances_from_data_with_normalizing_flows_and_score_matching.md)
+- [\[ICML 2025\] Score Matching with Missing Data](score_matching_with_missing_data.md)
+- [\[ICML 2025\] Fully Dynamic Euclidean Bi-Chromatic Matching in Sublinear Update Time](fully_dynamic_euclidean_bi-chromatic_matching_in_sublinear_update_time.md)
 
 </div>
 

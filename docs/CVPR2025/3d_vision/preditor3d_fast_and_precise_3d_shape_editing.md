@@ -124,7 +124,7 @@ PrEditor3D 是免训练方法，不涉及损失函数训练。编辑过程在推
 - [\[CVPR 2025\] Perturb-and-Revise: Flexible 3D Editing with Generative Trajectories](perturb-and-revise_flexible_3d_editing_with_generative_trajectories.md)
 - [\[CVPR 2025\] PreciseCam: Precise Camera Control for Text-to-Image Generation](precisecam_precise_camera_control_for_text-to-image_generation.md)
 - [\[ICCV 2025\] Unleashing Vecset Diffusion Model for Fast Shape Generation (FlashVDM)](../../ICCV2025/3d_vision/unleashing_vecset_diffusion_model_for_fast_shape_generation.md)
-- [\[CVPR 2025\] Reference-Based 3D-Aware Image Editing with Triplanes](reference-based_3d-aware_image_editing_with_triplanes.md)
+- [\[CVPR 2025\] Turbo3D: Ultra-Fast Text-to-3D Generation](turbo3d_ultra-fast_text-to-3d_generation.md)
 
 </div>
 

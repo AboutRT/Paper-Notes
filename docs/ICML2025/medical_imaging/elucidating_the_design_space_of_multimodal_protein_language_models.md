@@ -145,9 +145,9 @@ DPLM-2.1将PDB测试集上的折叠RMSD从5.52大幅降至2.36，降幅达57%，
 
 - [\[CVPR 2026\] Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](../../CVPR2026/medical_imaging/eda_arbitrary_noise_diffusion_design_space.md)
 - [\[ACL 2025\] Concept Bottleneck Language Models For Protein Design](../../ACL2025/medical_imaging/concept_bottleneck_language_models_for_protein_design.md)
-- [\[CVPR 2026\] Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models (EDA)](../../CVPR2026/medical_imaging/eda_arbitrary_noise_diffusion_design_space.md)
 - [\[ICML 2025\] Steering Protein Language Models](steering_protein_language_models.md)
 - [\[ICML 2025\] Flexibility-conditioned Protein Structure Design with Flow Matching](flexibility-conditioned_protein_structure_design_with_flow_matching.md)
+- [\[ICML 2025\] CFP-Gen: Combinatorial Functional Protein Generation via Diffusion Language Models](cfp-gen_combinatorial_functional_protein_generation_via_diffusion_language_model.md)
 
 </div>
 

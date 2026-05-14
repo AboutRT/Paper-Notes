@@ -262,9 +262,9 @@ tags:
 
 - [\[ACL 2025\] CiteEval: Principle-Driven Citation Evaluation for Source Attribution](../../ACL2025/others/citeeval_principle-driven_citation_evaluation_for_source_attribution.md)
 - [\[ACL 2025\] Is Linguistically-Motivated Data Augmentation Worth It?](../../ACL2025/others/is_linguistically-motivated_data_augmentation_worth_it.md)
+- [\[AAAI 2026\] Reimagining Anomalies: What if Anomalies Were Normal?](../../AAAI2026/others/reimagining_anomalies_what_if_anomalies_were_normal.md)
 - [\[ACL 2025\] Using Source-Side Confidence Estimation for Reliable Translation into Unfamiliar Languages](../../ACL2025/others/using_source-side_confidence_estimation_for_reliable_translation_into_unfamiliar.md)
-- [\[CVPR 2026\] What Is the Optimal Ranking Score Between Precision and Recall? We Can Always Find It and It Is Rarely F₁](../../CVPR2026/others/what_is_the_optimal_ranking_score_between_precision_and_recall_we_can_always_fin.md)
-- [\[CVPR 2025\] Open Set Label Shift with Test Time Out-of-Distribution Reference](../../CVPR2025/others/open_set_label_shift_with_test_time_out-of-distribution_reference.md)
+- [\[ICML 2025\] Democratic AI is Possible. The Democracy Levels Framework Shows How It Might Work](democratic_ai_is_possible_the_democracy_levels_framework_shows_how_it_might_work.md)
 
 </div>
 

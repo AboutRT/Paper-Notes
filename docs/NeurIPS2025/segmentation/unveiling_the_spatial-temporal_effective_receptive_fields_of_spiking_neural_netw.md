@@ -170,7 +170,7 @@ SRB 在减少参数的同时大幅提升 mIoU。
 - [\[NeurIPS 2025\] Seg4Diff: Unveiling Open-Vocabulary Segmentation in Text-to-Image Diffusion Transformers](seg4diff_unveiling_open-vocabulary_segmentation_in_text-to-image_diffusion_trans.md)
 - [\[CVPR 2025\] Effective SAM Combination for Open-Vocabulary Semantic Segmentation](../../CVPR2025/segmentation/effective_sam_combination_for_open-vocabulary_semantic_segmentation.md)
 - [\[ICCV 2025\] PartField: Learning 3D Feature Fields for Part Segmentation and Beyond](../../ICCV2025/segmentation/partfield_learning_3d_feature_fields_for_part_segmentation_and_beyond.md)
-- [\[ICML 2025\] SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics](../../ICML2025/segmentation/stofm_a_multi-scale_foundation_model_for_spatial_transcriptomics.md)
+- [\[ICML 2025\] Probabilistic Interactive 3D Segmentation with Hierarchical Neural Processes](../../ICML2025/segmentation/probabilistic_interactive_3d_segmentation_with_hierarchical_neural_processes.md)
 
 </div>
 

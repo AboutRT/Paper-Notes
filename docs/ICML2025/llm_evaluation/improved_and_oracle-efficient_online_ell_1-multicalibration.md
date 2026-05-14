@@ -146,7 +146,7 @@ $$\mathbb{E}[K(\pi_T, \mathcal{H})] \leq \widetilde{O}(T^{-1/4}\sqrt{\log T})$$
 - [\[ICML 2025\] Sample Efficient Demonstration Selection for In-Context Learning](sample_efficient_demonstration_selection_for_in-context_learning.md)
 - [\[NeurIPS 2025\] Conformal Online Learning of Deep Koopman Linear Embeddings](../../NeurIPS2025/llm_evaluation/conformal_online_learning_of_deep_koopman_linear_embeddings.md)
 - [\[NeurIPS 2025\] Tight Lower Bounds and Improved Convergence in Performative Prediction](../../NeurIPS2025/llm_evaluation/tight_lower_bounds_and_improved_convergence_in_performative_prediction.md)
-- [\[ICCV 2025\] Imbalance in Balance: Online Concept Balancing in Generation Models](../../ICCV2025/llm_evaluation/imbalance_in_balance_online_concept_balancing_in_generation_models.md)
+- [\[ICCV 2025\] BATCLIP: Bimodal Online Test-Time Adaptation for CLIP](../../ICCV2025/llm_evaluation/batclip_bimodal_online_test-time_adaptation_for_clip.md)
 
 </div>
 

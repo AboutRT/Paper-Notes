@@ -70,7 +70,7 @@ tags:
 
     - ~10K许可LUT滤镜库 + PPR-10K专家调色 + PCA聚类后的8192个核心LUT
     - 800K自动标注的(图像, LUT, 指令)元组
-    - 两个基准：AceTone-Bench[Transfer](1024样本)和AceTone-Bench[Instruct](128样本)
+    - 两个基准：AceTone-Bench Transfer（1024 样本）和 AceTone-Bench Instruct（128 样本）
 
 ### 损失函数 / 训练策略
 Tokenizer：MSE+commitment loss。预训练/SFT：交叉熵。RL：GRPO目标+KL正则。

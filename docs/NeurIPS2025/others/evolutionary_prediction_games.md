@@ -149,9 +149,9 @@ $$\mathcal{A}'(\bm{p}) = \mathcal{A}^{\text{opt}}(2\bm{p}^* - \bm{p})$$
 
 - [\[NeurIPS 2025\] Efficient Kernelized Learning in Polyhedral Games Beyond Full-Information: From Colonel Blotto to Congestion Games](efficient_kernelized_learning_in_polyhedral_games_beyond_full-information_from_c.md)
 - [\[NeurIPS 2025\] Evolutionary Learning in Spatial Agent-Based Models for Physical Climate Risk Assessment](evolutionary_learning_in_spatial_agent-based_models_for_physical_climate_risk_as.md)
-- [\[ACL 2025\] Cautious Next Token Prediction](../../ACL2025/others/cautious_next_token_prediction.md)
 - [\[NeurIPS 2025\] Optimism Without Regularization: Constant Regret in Zero-Sum Games](optimism_without_regularization_constant_regret_in_zero-sum_games.md)
-- [\[NeurIPS 2025\] FlashMD: Long-Stride, Universal Prediction of Molecular Dynamics](flashmd_long-stride_universal_prediction_of_molecular_dynamics.md)
+- [\[CVPR 2025\] EVOS: Efficient Implicit Neural Training via EVOlutionary Selector](../../CVPR2025/others/evos_efficient_implicit_neural_training_via_evolutionary_selector.md)
+- [\[ACL 2025\] Cautious Next Token Prediction](../../ACL2025/others/cautious_next_token_prediction.md)
 
 </div>
 

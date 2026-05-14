@@ -124,10 +124,10 @@ CodRED 数据集上的结果：
 ## 相关论文
 
 - [\[ACL 2025\] Towards a More Generalized Approach in Open Relation Extraction](../../ACL2025/llm_nlp/generalized_open_relation_extract.md)
-- [\[ACL 2025\] A Variational Approach for Mitigating Entity Bias in Relation Extraction](../../ACL2025/llm_nlp/variational_approach_mitigating_entity_bias_relation_extraction.md)
 - [\[ACL 2025\] Context-Aware Hierarchical Merging for Long Document Summarization](../../ACL2025/llm_nlp/context-aware_hierarchical_merging_for_long_document_summarization.md)
-- [\[ACL 2025\] Generating Diverse Training Samples for Relation Extraction with Large Language Models](../../ACL2025/llm_nlp/generating_diverse_training_samples_for_relation_extraction_with_large_language_.md)
+- [\[ACL 2025\] A Variational Approach for Mitigating Entity Bias in Relation Extraction](../../ACL2025/llm_nlp/variational_approach_mitigating_entity_bias_relation_extraction.md)
 - [\[ACL 2025\] Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs](../../ACL2025/llm_nlp/event_graph_bias_mitigation_summarization.md)
+- [\[ACL 2025\] Generating Diverse Training Samples for Relation Extraction with Large Language Models](../../ACL2025/llm_nlp/generating_diverse_training_samples_for_relation_extraction_with_large_language_.md)
 
 </div>
 

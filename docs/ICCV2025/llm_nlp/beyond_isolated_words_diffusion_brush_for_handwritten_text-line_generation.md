@@ -142,11 +142,11 @@ $$\mathcal{L}_\mathcal{G} = \mathcal{L}_{diff} + \mathcal{L}_{style} + \lambda \
 
 ## 相关论文
 
-- [\[ECCV 2024\] Evaluating Text-to-Visual Generation with Image-to-Text Generation](../../ECCV2024/llm_nlp/evaluating_text-to-visual_generation_with_image-to-text_generation.md)
 - [\[ACL 2025\] Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models](../../ACL2025/llm_nlp/segment_level_diffusion.md)
-- [\[ACL 2025\] ATGen: A Framework for Active Text Generation](../../ACL2025/llm_nlp/atgen_a_framework_for_active_text_generation.md)
-- [\[ICLR 2026\] FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Model](../../ICLR2026/llm_nlp/fs-dfm_fast_and_accurate_long_text_generation_with_few-step_diffusion_language_m.md)
 - [\[ACL 2025\] EdiText: Controllable Coarse-to-Fine Text Editing with Diffusion Language Models](../../ACL2025/llm_nlp/editext_diffusion_text_editing.md)
+- [\[ACL 2025\] DiffLM: Controllable Synthetic Data Generation via Diffusion Language Models](../../ACL2025/llm_nlp/difflm_controllable_synthetic_data_generation_via_diffusion_language_models.md)
+- [\[ICLR 2026\] DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas](../../ICLR2026/llm_nlp/dreamon_diffusion_language_models_for_code_infilling_beyond_fixed-size_canvas.md)
+- [\[ACL 2025\] ATGen: A Framework for Active Text Generation](../../ACL2025/llm_nlp/atgen_a_framework_for_active_text_generation.md)
 
 </div>
 

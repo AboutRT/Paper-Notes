@@ -167,10 +167,10 @@ MoRE-Brain 用不到一半的参数达到了竞争性能。瓶颈分析显示 Mo
 
 ## 相关论文
 
-- [\[ICLR 2026\] MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting](../../ICLR2026/moe/moe-gs_mixture_of_experts_for_dynamic_gaussian_splatting.md)
 - [\[ACL 2025\] GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture](../../ACL2025/moe/gigachat_family_efficient_russian_language_modeling_through_mixture_of_experts_a.md)
-- [\[ACL 2025\] EAC-MoE: Expert-Selection Aware Compressor for Mixture-of-Experts Large Language Models](../../ACL2025/moe/eac_moe_expert_aware_compression.md)
+- [\[ICLR 2026\] MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting](../../ICLR2026/moe/moe-gs_mixture_of_experts_for_dynamic_gaussian_splatting.md)
 - [\[ACL 2025\] DIVE into MoE: Diversity-Enhanced Reconstruction of Large Language Models from Dense into Mixture-of-Experts](../../ACL2025/moe/dive_moe_reconstruction.md)
+- [\[ACL 2025\] EAC-MoE: Expert-Selection Aware Compressor for Mixture-of-Experts Large Language Models](../../ACL2025/moe/eac_moe_expert_aware_compression.md)
 - [\[ACL 2025\] STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning](../../ACL2025/moe/stun_moe_pruning.md)
 
 </div>

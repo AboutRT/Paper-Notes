@@ -101,11 +101,11 @@ tags:
 
 ## 相关论文
 
+- [\[ICML 2025\] Alberta Wells Dataset: Pinpointing Oil and Gas Wells from Satellite Imagery](alberta_wells_dataset_pinpointing_oil_and_gas_wells_from_satellite_imagery.md)
+- [\[ICML 2025\] Probabilistic Interactive 3D Segmentation with Hierarchical Neural Processes](probabilistic_interactive_3d_segmentation_with_hierarchical_neural_processes.md)
 - [\[ICML 2025\] Balanced Learning for Domain Adaptive Semantic Segmentation](balanced_learning_for_domain_adaptive_semantic_segmentation.md)
-- [\[ICML 2025\] Sounding that Object: Interactive Object-Aware Image to Audio Generation](sounding_that_object_interactive_object-aware_image_to_audio_generation.md)
-- [\[ICML 2025\] Efficient and Robust Semantic Image Communication via Stable Cascade](efficient_and_robust_semantic_image_communication_via_stable_cascade.md)
 - [\[ICML 2025\] ConText: Driving In-context Learning for Text Removal and Segmentation](context_driving_in-context_learning_for_text_removal_and_segmentation.md)
-- [\[ICML 2025\] IT³: Idempotent Test-Time Training](it3_idempotent_test-time_training.md)
+- [\[ICML 2025\] Efficient and Robust Semantic Image Communication via Stable Cascade](efficient_and_robust_semantic_image_communication_via_stable_cascade.md)
 
 </div>
 

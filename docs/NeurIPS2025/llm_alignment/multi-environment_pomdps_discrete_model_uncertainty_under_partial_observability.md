@@ -19,7 +19,7 @@ tags:
 
 **会议**: NeurIPS 2025  
 **arXiv**: [2510.23744](https://arxiv.org/abs/2510.23744)  
-**代码**: [GitHub]([https://github.com/](https://github.com/) (见论文引用 [6]))  
+**代码**: GitHub（https://github.com/ ，见论文引用 [6]）  
 **领域**: LLM对齐  
 **关键词**: POMDP, robust planning, model uncertainty, multi-environment, adversarial belief, value iteration, linear programming
 

@@ -155,7 +155,7 @@ $$E(\theta, t, \beta) = \lambda_1 \frac{1}{N} \sum_{j \in \mathcal{J}} \lambda_p
 - [\[ICCV 2025\] GenM3: Generative Pretrained Multi-path Motion Model for Text Conditional Human Motion Generation](genm3_generative_pretrained_multi-path_motion_model_for_text_conditional_human_m.md)
 - [\[ECCV 2024\] WordRobe: Text-Guided Generation of Textured 3D Garments](../../ECCV2024/human_understanding/wordrobe_text-guided_generation_of_textured_3d_garments.md)
 - [\[ICCV 2025\] UDC-VIT: A Real-World Video Dataset for Under-Display Cameras](udc-vit_a_real-world_video_dataset_for_under-display_cameras.md)
-- [\[CVPR 2026\] MoLingo: Motion-Language Alignment for Text-to-Human Motion Generation](../../CVPR2026/human_understanding/molingo_motion-language_alignment_for_text-to-motion_generation.md)
+- [\[ECCV 2024\] TELA: Text to Layer-wise 3D Clothed Human Generation](../../ECCV2024/human_understanding/tela_text_to_layer-wise_3d_clothed_human_generation.md)
 
 </div>
 

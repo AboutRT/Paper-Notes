@@ -130,7 +130,7 @@ SciNO 分两步：(1) 在光滑函数空间中训练神经算子来近似 score 
 - [\[NeurIPS 2025\] Neural Entropy](neural_entropy.md)
 - [\[NeurIPS 2025\] Flow Matching Neural Processes](flow_matching_neural_processes.md)
 - [\[NeurIPS 2025\] Coupling Generative Modeling and an Autoencoder with the Causal Bridge](coupling_generative_modeling_and_an_autoencoder_with_the_causal_bridge.md)
-- [\[NeurIPS 2025\] Non-Markovian Discrete Diffusion with Causal Language Models](non-markovian_discrete_diffusion_with_causal_language_models.md)
+- [\[NeurIPS 2025\] A Connection Between Score Matching and Local Intrinsic Dimension](a_connection_between_score_matching_and_local_intrinsic_dimension.md)
 
 </div>
 

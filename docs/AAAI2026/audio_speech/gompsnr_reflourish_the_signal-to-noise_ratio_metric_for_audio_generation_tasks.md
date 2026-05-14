@@ -132,7 +132,7 @@ $$SNR = 10\log_{10} \frac{\sum_{k,l} |Y|^2}{\sum_{k,l}(|Y|^2 + |\hat{Y}|^2 + C)}
 - [\[CVPR 2026\] OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text](../../CVPR2026/audio_speech/omnisonic_towards_universal_and_holistic_audio_generation_from_video_and_text.md)
 - [\[CVPR 2026\] Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models](../../CVPR2026/audio_speech/echoes_over_time_unlocking_length_generalization_in_video-to-audio_generation_mo.md)
 - [\[CVPR 2025\] DistinctAD: Distinctive Audio Description Generation in Contexts](../../CVPR2025/audio_speech/distinctad_distinctive_audio_description_generation_in_contexts.md)
-- [\[CVPR 2025\] VinTAGe: Joint Video and Text Conditioning for Holistic Audio Generation](../../CVPR2025/audio_speech/vintage_joint_video_and_text_conditioning_for_holistic_audio_generation.md)
+- [\[NeurIPS 2025\] Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video](../../NeurIPS2025/audio_speech/node-based_editing_for_multimodal_generation_of_text_audio_image_and_video.md)
 
 </div>
 

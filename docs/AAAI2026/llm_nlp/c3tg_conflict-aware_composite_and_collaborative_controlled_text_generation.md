@@ -128,10 +128,10 @@ tags:
 
 ## 相关论文
 
-- [\[ECCV 2024\] Evaluating Text-to-Visual Generation with Image-to-Text Generation](../../ECCV2024/llm_nlp/evaluating_text-to-visual_generation_with_image-to-text_generation.md)
 - [\[AAAI 2026\] Collaborative LLM Numerical Reasoning with Local Data Protection](collaborative_llm_numerical_reasoning_with_local_data_protection.md)
 - [\[ACL 2025\] Length Controlled Generation for Black-box LLMs](../../ACL2025/llm_nlp/length_controlled_generation_for_black-box_llms.md)
 - [\[ACL 2025\] DiSCo: Device-Server Collaborative LLM-Based Text Streaming Services](../../ACL2025/llm_nlp/disco_device-server_collaborative_llm-based_text_streaming_services.md)
+- [\[ACL 2025\] Contrastive Perplexity for Controlled Generation: An Application in Detoxifying Large Language Models](../../ACL2025/llm_nlp/contrastive_perplexity_controlled_gen.md)
 - [\[ACL 2025\] ATGen: A Framework for Active Text Generation](../../ACL2025/llm_nlp/atgen_a_framework_for_active_text_generation.md)
 
 </div>

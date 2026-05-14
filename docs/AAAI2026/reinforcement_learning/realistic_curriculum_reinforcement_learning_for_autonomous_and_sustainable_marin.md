@@ -216,7 +216,7 @@ $$d_{\text{safe}} = \max\left(\tau \cdot \frac{L_s + B_s + L_t + B_t}{2 \times 1
 - [\[ICML 2025\] Learning Progress Driven Multi-Agent Curriculum](../../ICML2025/reinforcement_learning/learning_progress_driven_multi-agent_curriculum.md)
 - [\[ICCV 2025\] NavQ: Learning a Q-Model for Foresighted Vision-and-Language Navigation](../../ICCV2025/reinforcement_learning/navq_learning_a_q-model_for_foresighted_vision-and-language_navigation.md)
 - [\[CVPR 2025\] CityWalker: Learning Embodied Urban Navigation from Web-Scale Videos](../../CVPR2025/reinforcement_learning/citywalker_learning_embodied_urban_navigation_from_web-scale_videos.md)
-- [\[AAAI 2026\] Speculative Sampling with Reinforcement Learning](speculative_sampling_with_reinforcement_learning.md)
+- [\[CVPR 2026\] RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset](../../CVPR2026/reinforcement_learning/radar_closedloop_robotic_data_generation_via_seman.md)
 
 </div>
 

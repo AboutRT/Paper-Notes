@@ -119,8 +119,8 @@ tags:
 
 - [\[ACL 2025\] Using Shapley Interactions to Understand How Models Use Structure](using_shapley_interactions_to_understand_how_models_use_structure.md)
 - [\[ACL 2025\] Entropy-UID: A Method for Optimizing Information Density](entropy-uid_a_method_for_optimizing_information_density.md)
-- [\[ICCV 2025\] A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks](../../ICCV2025/others/a_linear_n-point_solver_for_structure_and_motion_from_asynchronous_tracks.md)
 - [\[NeurIPS 2025\] Structure-Aware Spectral Sparsification via Uniform Edge Sampling](../../NeurIPS2025/others/structure-aware_spectral_sparsification_via_uniform_edge_sampling.md)
+- [\[ICCV 2025\] A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks](../../ICCV2025/others/a_linear_n-point_solver_for_structure_and_motion_from_asynchronous_tracks.md)
 - [\[ACL 2025\] PersonaBench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data](personabench_evaluating_ai_models_on_understanding_personal_information_through_.md)
 
 </div>

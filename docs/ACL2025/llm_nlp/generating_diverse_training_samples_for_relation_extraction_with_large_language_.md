@@ -137,11 +137,11 @@ $$\max_{\pi} \Sigma_i \log \sigma\left(\frac{1}{\beta} \log \frac{\pi(y_{i,1}|x_
 
 ## 相关论文
 
-- [\[ACL 2025\] A Variational Approach for Mitigating Entity Bias in Relation Extraction](variational_approach_mitigating_entity_bias_relation_extraction.md)
+- [\[ACL 2025\] A Variational Approach for Mitigating Entity Bias in Relation Extraction](a_variational_approach_for_mitigating_entity_bias_in_relation_extraction.md)
 - [\[ACL 2025\] Towards a More Generalized Approach in Open Relation Extraction](generalized_open_relation_extract.md)
 - [\[ACL 2025\] FoodTaxo: Generating Food Taxonomies with Large Language Models](foodtaxo_generating_food_taxonomies_with_large_language_models.md)
-- [\[ACL 2025\] Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study](algorithmic_fidelity_german_opinion.md)
-- [\[ACL 2025\] Self-Training Elicits Concise Reasoning in Large Language Models](self-training_elicits_concise_reasoning_in_large_language_models.md)
+- [\[ACL 2025\] Diversity-oriented Data Augmentation with Large Language Models](diversity_data_augmentation.md)
+- [\[ACL 2025\] Cool-Fusion: Fuse Large Language Models without Training](cool-fusion_fuse_large_language_models_without_training.md)
 
 </div>
 

@@ -156,10 +156,10 @@ DDPN 及其 β 变体在所有 OOD 指标上均取得最佳表现，Poisson 和 
 ## 相关论文
 
 - [\[NeurIPS 2025\] Semi-Supervised Regression with Heteroscedastic Pseudo-Labels](../../NeurIPS2025/llm_evaluation/semi-supervised_regression_with_heteroscedastic_pseudo-labels.md)
-- [\[ICML 2025\] Gradient Aligned Regression via Pairwise Losses](gradient_aligned_regression_via_pairwise_losses.md)
 - [\[ICML 2025\] Improving the Effective Receptive Field of Message-Passing Neural Networks](improving_the_effective_receptive_field_of_message-passing_neural_networks.md)
+- [\[ICML 2025\] Gradient Aligned Regression via Pairwise Losses](gradient_aligned_regression_via_pairwise_losses.md)
+- [\[CVPR 2026\] AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks](../../CVPR2026/llm_evaluation/adabet_gradient-free_layer_selection_for_efficient_training_of_deep_neural_netwo.md)
 - [\[ICML 2025\] On Temperature Scaling and Conformal Prediction of Deep Classifiers](on_temperature_scaling_and_conformal_prediction_of_deep_classifiers.md)
-- [\[ICCV 2025\] Few-Shot Pattern Detection via Template Matching and Regression](../../ICCV2025/llm_evaluation/few-shot_pattern_detection_via_template_matching_and_regression.md)
 
 </div>
 

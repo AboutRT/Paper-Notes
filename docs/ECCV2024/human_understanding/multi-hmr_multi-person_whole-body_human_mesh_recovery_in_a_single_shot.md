@@ -146,9 +146,9 @@ Multi-HMR是首个单阶段多人全身（含手部和面部表情）3D人体网
 
 - [\[AAAI 2026\] PressTrack-HMR: Pressure-Based Top-Down Multi-Person Global Human Mesh Recovery](../../AAAI2026/human_understanding/presstrack-hmr_pressure-based_top-down_multi-person_global_human_mesh_recovery.md)
 - [\[ECCV 2024\] Global-to-Pixel Regression for Human Mesh Recovery](global-to-pixel_regression_for_human_mesh_recovery.md)
-- [\[CVPR 2025\] PromptHMR: Promptable Human Mesh Recovery](../../CVPR2025/human_understanding/prompthmr_promptable_human_mesh_recovery.md)
 - [\[ECCV 2024\] Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification](multi-memory_matching_for_unsupervised_visible-infrared_person_re-identification.md)
-- [\[ICCV 2025\] AJAHR: Amputated Joint Aware 3D Human Mesh Recovery](../../ICCV2025/human_understanding/ajahr_amputated_joint_aware_3d_human_mesh_recovery.md)
+- [\[CVPR 2025\] PromptHMR: Promptable Human Mesh Recovery](../../CVPR2025/human_understanding/prompthmr_promptable_human_mesh_recovery.md)
+- [\[CVPR 2025\] HumanMM: Global Human Motion Recovery from Multi-shot Videos](../../CVPR2025/human_understanding/humanmm_global_human_motion_recovery_from_multi-shot_videos.md)
 
 </div>
 
